@@ -1,4 +1,2 @@
-# My Patrons
-[English](./en/pages/index.md)
-
-[Polski](./pl/pages/index.md)
+- [English](en/md/index.md)
+- [Polski](pl/md/index.md)

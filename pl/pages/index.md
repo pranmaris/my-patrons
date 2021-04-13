@@ -1,3 +1,0 @@
-# [MoiPatroni.pl](http://MoiPatroni.pl)
-
-Już wkrótce ...
