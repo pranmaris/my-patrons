@@ -1,2 +1,13 @@
 # Moi Patroni
-Już wkrótce ...
+- [O Moich Patronach](o_moich_patronach.md)
+- [Zadania Uczestnika](zadania_uczestnika.md)
+- [Jak zacząć?](jak_zaczac.md)
+- [→ Patroni](patroni.md)
+- [→ Tytuły patronów](tytuly_patronow.md)
+- [→ Święta](swieta.md)
+- [Jak wybrać patrona, tytuł patrona lub święto?](jak_wybrac_patrona_tytul_patrona_lub_swieto.md)
+- [Co dalej? Czas na wyzwania!](co_dalej_czas_na_wyzwania.md)
+- [Wszystkie materiały do pobrania](wszystkie_materialy_do_pobrania.md)
+- [Przyjaciele Moich Patronów!](przyjaciele_moich_patronow.md)
+- [Nasze projekty](nasze_projekty.md)
+- [Kontakt](kontakt.md)

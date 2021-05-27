@@ -1,8 +1,12 @@
-const SHOW_ERRORS = false;
 const ERROR_TEXT = '!!!';
+const ERROR_MODE_ARG_NAME = 'error';
+const ERROR_MODE_ARG_VALUE = 'show';
 
 const MAIN_DOMAIN_NAME = 'mypatrons';
 const PROTOCOL_PREFIX = 'http://';
+
+const PAGE_TITLE_ELEMENT_ID = 'title';
+const PAGE_TITLE_PREFIX = 'My Patrons';
 
 const PATH_SEPARATOR = '/';
 const PATH_PARENT_DIRECTORY = '..';
@@ -11,6 +15,10 @@ const FILE_WORD_SEPARATOR = '_';
 const FILE_EXTENSION_SEPARATOR = '.';
 const DOMAIN_SEPARATOR = '.';
 const NEWLINE = '\n';
+const ANCHOR = '#';
+const URL_SEARCH_START_CHARACTER = '?';
+const URL_SEARCH_SEPARATOR = '&';
+const URL_SEARCH_EQUAL_CHARACTER = '=';
 
 const FILE_EXTENSION_HTML = 'html';
 const FILE_EXTENSION_JSON = 'json';
@@ -23,13 +31,20 @@ const LANGUAGE_REPLACE_HASHTAG = '#LANGUAGE#';
 const PAGES_PATH = '/' + LANGUAGE_REPLACE_HASHTAG + '/' + FILE_EXTENSION_MARKDOWN + '/';
 const HTML_TEMPLATES_PATH = '/any/' + FILE_EXTENSION_HTML + '/';
 
+const DEFAULT_EXPANDED_PAGE_ID = 0;
 const ACCORDION_ITEM_COLLAPSED_FILE = 'accordion_item_collapsed' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
 const ACCORDION_ITEM_EXPANDED_FILE = 'accordion_item_expanded' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
+const ACCORDION_ITEM_CLASS_QUERY_SELECTOR = '.accordion-item';
 
+const ACCORDION_HEADING_ELEMENT_PREFIX = 'heading';
 const ACCORDION_BODY_ELEMENT_PREFIX = 'page';
+const LANGUAGES_ELEMENT_ID = 'header-languages';
 
 const LANGUAGE_PATTERN = '[a-z][a-z]';
 const URL_WORD_SEPARATOR_PATTERN = '[^a-z0-9]';
+const ANCHOR_PATTERN = ANCHOR + '[-a-z0-9]+';
+
+const START_ANCHOR = ANCHOR + 'start';
 
 const README_MARKDOWN_FILE_NAME = 'README';
 const INDEX_MARKDOWN_FILE_NAME = 'index';
@@ -39,16 +54,30 @@ const build = () => {
   const language = getLanguageFromSubdomain(subdomain);
   const pagesPath = getPagesPathForLanguage(language);
 
+  setPageTitle();
+  buildLanguages(pagesPath);
+
   loadContent(pagesPath + INDEX_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN, true)
     .then(function (indexContent) {
       const indexData = getConvertedIndexDataFromContent(indexContent);
       buildPageContent(pagesPath, indexData);
     })
     .catch(function (error) {
-      const fileName = README_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN;
-      const indexContent = '- [ ](' + getRelatedFilePathToBaseDirectory(fileName, pagesPath) + ')';
-      const indexData = getConvertedIndexDataFromContent(indexContent);
-      buildPageContent(pagesPath, indexData);
+    })
+  ;
+}
+
+const buildLanguages = (pagesPath) => {
+  const element = document.getElementById(LANGUAGES_ELEMENT_ID);
+  const fileName = README_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN;
+  const filePath = getRelatedFilePathToBaseDirectory(fileName, pagesPath);
+
+  loadContent(filePath)
+    .then(function (content) {
+      element.innerHTML = content;
+    })
+    .catch(function (error) {
+      element.innerHTML = getErrorText(error);
     })
   ;
 }
@@ -63,12 +92,40 @@ const getRelatedFilePathToBaseDirectory = (fileName, path) => {
   return path + fileName;
 }
 
+const getWindowLocation = () => {
+  return window.location;
+}
+
+const getLocationArgs = () => {
+  const search = getWindowLocation().search;
+
+  const pattern1 = new RegExp('^[' + URL_SEARCH_START_CHARACTER + ']');
+  const pattern2 = new RegExp(URL_SEARCH_SEPARATOR, 'g');
+  const pattern3 = new RegExp(URL_SEARCH_EQUAL_CHARACTER, 'g');
+
+  const json = '{"' + decodeURI(search
+    .replace(pattern1, '')
+    .replace(pattern2, "\",\"")
+    .replace(pattern3, "\":\"")
+  ) + '"}';
+
+  return JSON.parse(json.replace(/^\{\"\"\}$/, '{}'));
+}
+
 const getErrorText = (error) => {
-  return ERROR_TEXT + (SHOW_ERRORS ? ' ' + error : '');
+  let result = ERROR_TEXT;
+
+  const args = getLocationArgs();
+  if (args[ERROR_MODE_ARG_NAME] == ERROR_MODE_ARG_VALUE) {
+    result += (' ' + error);
+    alert((new Error).stack);
+  }
+
+  return result;
 }
 
 const getHostname = () => {
-  return window.location.hostname.toLowerCase();
+  return getWindowLocation().hostname.toLowerCase();
 }
 
 const getMainDomainIndex = (hostname) => {
@@ -94,10 +151,17 @@ const getSubdomain = () => {
 }
 
 const getPathFromUrl = () => {
-  const path = window.location.pathname;
+  const path = getWindowLocation().pathname;
   const pattern = new RegExp('^[' + PATH_SEPARATOR + ']');
 
   return path.replace(pattern, '');
+}
+
+const getAnchorFromUrl = () => {
+  const anchor = getWindowLocation().hash;
+  const pattern = new RegExp('^[' + ANCHOR + ']');
+
+  return anchor.replace(pattern, '');
 }
 
 const getLanguageFromSubdomain = (subdomain) => {
@@ -112,6 +176,11 @@ const getPagesPathForLanguage = (language) => {
   }
 
   return PAGES_PATH.replace(LANGUAGE_REPLACE_HASHTAG, language);
+}
+
+const setPageTitle = (title) => {
+  const element = document.getElementById(PAGE_TITLE_ELEMENT_ID);
+  element.innerHTML = PAGE_TITLE_PREFIX + (title ? ': ' + title : '');
 }
 
 const loadContent = (location, getRawContent = false) => {
@@ -140,11 +209,13 @@ const convertMarkdownFileLocationToUrlPath = (filename) => {
     result = result.substring(0, dotIndex);
   }
 
-  return result.replaceAll(pattern, URL_WORD_SEPARATOR);
+  return result.replace(pattern, URL_WORD_SEPARATOR);
 }
 
 const convertUrlPathToMarkdownFileLocation = (urlPath) => {
-  return urlPath.replaceAll(URL_WORD_SEPARATOR, FILE_WORD_SEPARATOR) + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN;
+  const pattern = new RegExp('[' + URL_WORD_SEPARATOR + ']', 'g');
+
+  return urlPath.replace(pattern, FILE_WORD_SEPARATOR) + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN;
 }
 
 const getConvertedMarkdownContent = (content) => {
@@ -156,27 +227,38 @@ const getConvertedMarkdownContent = (content) => {
     .replace(new RegExp('^[' + PATH_SEPARATOR + ']'), '')
     .replace(LANGUAGE_REPLACE_HASHTAG, '(' + LANGUAGE_PATTERN + ')');
   const pattern1 = new RegExp('\\([^\\(]*' + pattern1Path + indexFileNamePattern + '\\)', 'g');
-  content = content.replaceAll(pattern1, '(' + PROTOCOL_PREFIX + '$1' + DOMAIN_SEPARATOR + domain + ')');
+  content = content.replace(pattern1, '(' + PROTOCOL_PREFIX + '$1' + DOMAIN_SEPARATOR + domain + ')');
 
   const pattern2 = new RegExp('\\[[^\\[\\]]+\\]\\(' + indexFileNamePattern + '\\)', 'g');
-  content = content.replaceAll(pattern2, '');
+  content = content.replace(pattern2, '');
 
-  const pattern3 = new RegExp('\\[[^\\]]+\\]\\(([^\\)]+' + fileExtensionPattern + ')\\)', 'g');
-  content = content.replaceAll(pattern3, function (match, p1) {
+  const pattern3 = new RegExp('\\[[^\\]]+\\]\\(([^\\)]+' + fileExtensionPattern + ')' + '(' + ANCHOR_PATTERN + ')?' + '\\)', 'g');
+  content = content.replace(pattern3, function (match, p1, p2) {
     const urlPath = PATH_SEPARATOR + convertMarkdownFileLocationToUrlPath(p1);
 
-    return match.replace(p1, urlPath);
+    return match.replace(p1, urlPath).replace(START_ANCHOR, '');
   });
 
   return marked(content);
 }
 
-const loadContentToElement = (elementId, location, getRawContent = false) => {
-  const element = document.getElementById(elementId);
+const loadContentToElement = (elementId, expandedElementId, location, getRawContent = false) => {
+  const element = document.getElementById(ACCORDION_BODY_ELEMENT_PREFIX + elementId);
 
   loadContent(location, getRawContent)
     .then(function (content) {
       element.innerHTML = content;
+
+      const path = getPathFromUrl();
+      if (expandedElementId == elementId && path != '') {
+        const expandedElement = ACCORDION_HEADING_ELEMENT_PREFIX + expandedElementId;
+        scrollToElement(expandedElement);
+
+        const anchor = getAnchorFromUrl();
+        if (anchor != '') {
+          scrollToElement(anchor);
+        }
+      }
     })
     .catch(function (error) {
       element.innerHTML = getErrorText(error);
@@ -194,11 +276,13 @@ const getConvertedIndexDataFromContent = (content) => {
     if (lineMatch) {
       const title = lineMatch[1];
       const link = lineMatch[2];
+      const path = PATH_SEPARATOR + convertMarkdownFileLocationToUrlPath(link);
 
       result.push({
         id: ++counter,
         title: title,
-        link: link
+        link: link,
+        path: path
       });
     }
   }
@@ -207,10 +291,17 @@ const getConvertedIndexDataFromContent = (content) => {
 }
 
 const scrollToElement = (elementId) => {
-  document.getElementById(elementId).scrollIntoView({
+  const element = document.getElementById(elementId);
+  if (!element) {
+    return false;
+  }
+
+  element.scrollIntoView({
     behavior: 'smooth',
-    block: 'end'
+    block: 'start'
   });
+
+  return true;
 }
 
 const buildPageContent = (pagesPath, pagesData) => {
@@ -221,9 +312,15 @@ const buildPageContent = (pagesPath, pagesData) => {
       loadContent(HTML_TEMPLATES_PATH + ACCORDION_ITEM_COLLAPSED_FILE)
         .then(function (collapsedItemContent) {
           const itemsData = getAccordionItemsData(pagesPath, pagesData, expandedItemContent, collapsedItemContent);
+
           listElement.innerHTML = itemsData.content;
-          loadAllContents(pagesPath, pagesData);
-          scrollToElement(itemsData.expandedBodyElementId);
+          const expandedElementId = itemsData.expandedElementId;
+
+          loadAllContents(pagesPath, pagesData, expandedElementId);
+          if (expandedElementId > 0) {
+            setPageTitle(pagesData[expandedElementId - 1].title);
+          }
+          setShownActionToAllItems(pagesData);
         })
         .catch(function (error) {
           listElement.innerHTML = getErrorText(error);
@@ -242,30 +339,48 @@ const getAccordionItemsData = (pagesPath, pagesData, expandedItemContent, collap
   const path = getPathFromUrl();
   const expandedPageLink = convertUrlPathToMarkdownFileLocation(path);
 
-  let expandedPageId = 1;
+  let expandedPageId = DEFAULT_EXPANDED_PAGE_ID;
   for (const page of pagesData) {
     if (expandedPageLink == page.link) {
       expandedPageId = page.id;
     }
   }
 
+  const counterPattern = new RegExp(COUNTER_REPLACE_HASHTAG, 'g');
+  const titlePattern = new RegExp(TITLE_REPLACE_HASHTAG, 'g');
+
   for (const page of pagesData) {
     let pageContent = (page.id == expandedPageId) ? expandedItemContent : collapsedItemContent;
     content += pageContent
-      .replaceAll(COUNTER_REPLACE_HASHTAG, page.id)
-      .replaceAll(TITLE_REPLACE_HASHTAG, page.title)
+      .replace(counterPattern, page.id)
+      .replace(titlePattern, page.title)
     ;
   }
 
   return {
     content: content,
-    expandedBodyElementId: ACCORDION_BODY_ELEMENT_PREFIX + expandedPageId
+    expandedElementId: expandedPageId
   };
 }
 
-const loadAllContents = (pagesPath, pagesData) => {
+const loadAllContents = (pagesPath, pagesData, expandedElementId) => {
   for (pageData of pagesData) {
-    loadContentToElement(ACCORDION_BODY_ELEMENT_PREFIX + pageData.id, pagesPath + pageData.link);
+    loadContentToElement(pageData.id, expandedElementId, pagesPath + pageData.link);
+  }
+}
+
+const setShownActionToAllItems = (pagesData) => {
+  const items = document.querySelectorAll(ACCORDION_ITEM_CLASS_QUERY_SELECTOR);
+
+  for (const item of items) {
+    item.addEventListener('shown.bs.collapse', function (event) {
+      const elementId = event.srcElement.id.replace(/[^0-9]/g, '');
+      scrollToElement(ACCORDION_HEADING_ELEMENT_PREFIX + elementId);
+
+      const pageData = pagesData[elementId - 1];
+      window.history.pushState('', '', pageData.path);
+      setPageTitle(pageData.title);
+    });
   }
 }
 
