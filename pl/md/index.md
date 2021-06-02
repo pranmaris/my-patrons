@@ -7,6 +7,7 @@
 - [→ Święta](swieta.md)
 - [Jak wybrać patrona, tytuł patrona lub święto?](jak_wybrac_patrona_tytul_patrona_lub_swieto.md)
 - [Co dalej? Czas na wyzwania!](co_dalej_czas_na_wyzwania.md)
+- [Jakie informacje możemy jeszcze zanotować?](jakie_informacje_mozemy_jeszcze_zanotowac.md)
 - [Wszystkie materiały do pobrania](wszystkie_materialy_do_pobrania.md)
 - [Jak możesz nas wesprzeć?](jak_mozesz_nas_wesprzec.md)
 - [Przyjaciele Moich Patronów!](przyjaciele_moich_patronow.md)
