@@ -179,6 +179,12 @@ const getPagesPathForLanguage = (language) => {
 }
 
 const setPageTitle = (title) => {
+  if (title) {
+    title = title.replace(/(<([^>]+)>)/ig, '');
+    title = title.replace(/&[a-z]+;/g, '');
+    title = title.trim();
+  }
+
   const element = document.getElementById(PAGE_TITLE_ELEMENT_ID);
   element.innerHTML = PAGE_TITLE_PREFIX + (title ? ': ' + title : '');
 }
