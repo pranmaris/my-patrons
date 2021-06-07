@@ -17,7 +17,7 @@
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Rocznice poświęcenia](rocznice_poswiecenia.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Sakramenty](sakramenty.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Szkaplerze](szkaplerze.md)
-- [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Kapłani](kaplani.md)
+- [→ Kapłani](kaplani.md)
 - [→ Inne wyzwania](inne_wyzwania.md)
 - [Jakie informacje możemy jeszcze zanotować?](jakie_informacje_mozemy_jeszcze_zanotowac.md)
 - [Wszystkie materiały do pobrania](wszystkie_materialy_do_pobrania.md)
