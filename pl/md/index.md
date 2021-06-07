@@ -7,7 +7,7 @@
 - [→ Święta](swieta.md)
 - [Jak wybrać patrona, tytuł patrona lub święto?](jak_wybrac_patrona_tytul_patrona_lub_swieto.md)
 - [Co dalej? Czas na wyzwania!](co_dalej_czas_na_wyzwania.md)
-- [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; Jak zanotować miejsca?](jak_zanotowac_miejsca.md)
+- [Jak zanotować miejsca?](jak_zanotowac_miejsca.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Kościoły](koscioly.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Ołtarze](oltarze.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Msze święte](msze_swiete.md)
