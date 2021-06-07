@@ -1,0 +1,7 @@
+mypatrons.org -> ip
+*.mypatrons.org -> ip
+source.mypatrons.org -> https://github.com/pranmaris/my-patrons
+moipatroni.pl -> pl.mypatrons.org
+*.moipatroni.pl -> moipatroni.pl
+mypatrons.pl -> moipatroni.pl
+*.mypatrons.pl -> mypatrons.pl
