@@ -8,7 +8,7 @@ Kapłanów możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer
 ---
 ### Dodatkowe informacje:
 - notowanie nazwisk kapłanów może być dla nas wspaniałą motywacją do modlitwy za nich! Można to robić w dowolnej formie, np. codziennej modlitwy za wszystkich z naszej listy, może każdego dnia za jednego z nich, a może coś podobnego jak [Apostolat Margaretka](https://pl.wikipedia.org/wiki/Apostolat_Margaretka),
-- aby mieć pewność o którego kapłana chodzi można zanotować sobie jego datę urodzenia i skrót zakonny jeśli takowy posiada,
+- aby mieć pewność o którego kapłana chodzi można zanotować sobie jego datę urodzenia i skrót zakonny, jeśli takowy posiada,
 - w dodatkowycch informacjach możemy zapisać także, w którym roku kapłan pełnił określoną funkcję, np. był proboszczem lub wikarym określonej parafii.
 
 [Powrót](index.md)
