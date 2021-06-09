@@ -10,7 +10,7 @@
 - [Jak zanotować miejsca?](jak_zanotowac_miejsca.md)
 - [→ Kościoły](koscioly.md)
 - [→ Ołtarze](oltarze.md)
-- [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Msze święte](msze_swiete.md)
+- [→ Msze święte](msze_swiete.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Odpusty parafialne](odpusty_parafialne.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Relikwie i groby](relikwie_i_groby.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Nabożeństwa](nabozenstwa.md)
