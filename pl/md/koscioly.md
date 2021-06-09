@@ -23,8 +23,10 @@ Do czytania o nawiedzanych kościołach polecamy skorzystanie z [Wikipedii](http
 ### Kilka szczegółów by rozwiać wszelkie wątpliwości:
 - jeśli kościół jest pod wezwaniem wielu patronów lub świąt (np. Bazylika kolegiacka _„Matki Bożej Nieustającej Pomocy, św. Marii Magdaleny i św. Stanisława Biskupa”_ w Poznaniu), wystarczy że posiadasz choćby jedno z nich (patrona lub święto). Każde wyzwanie jest przypisane do świątyni powiązanej z jednym patronem lub świętem oddzielnie,
 - po zdobyciu kolejnego patrona lub święta danego kościoła, możesz nawiedzić go ponownie aby sprostać nowemu wyzwaniu, powiązanemu z tym nowym patronem lub świętem. Zatem kościół z przykładu (patrz poprzedni punkt) możesz nawiedzić początkowo dla samego św. Stanisława Biskupa (jeśli był uprzednio zaproszony przez Ciebie), by przy kolejnej wizycie spełnić np. dwa wyzwania jednocześnie, dla Matki Bożej Nieustającej Pomocy i św. Marii Magdaleny, po ich uprzednim zaproszeniu do własnej drużyny patronów,
-- zbiorowe wezwania kościoła zawsze traktujemy osobno i zawsze nawiedzamy go tylko w powiązaniu z posiadanymi już przez nas patronami lub świętami. Przykładowo kościoł pw. _„Błogosławionej Poznańskiej Piątki”_ traktujemy tak, jakby był pw. _„Błogosławionych: Czesława Jóźwiaka, Edwarda Kaźmierskiego, Franciszka Kęsego, Edwarda Klinika i Jarogniewa Wojciechowskiego”_.
+- zbiorowe wezwania kościoła zawsze traktujemy osobno (jeśli wszyscy patroni są znani z imienia) i zawsze nawiedzamy go tylko w powiązaniu z posiadanymi już przez nas patronami lub świętami. Przykładowo kościoł pw. _„Błogosławionej Poznańskiej Piątki”_ traktujemy tak, jakby był pw. _„Błogosławionych: Czesława Jóźwiaka, Edwarda Kaźmierskiego, Franciszka Kęsego, Edwarda Klinika i Jarogniewa Wojciechowskiego”_.
 - każdemu wyzwaniu dotyczącemu danej świątyni w powiązanej z konkretnym patronem lub świętem można sprostać tylko jeden raz,
-- jednego dnia można odwiedzić dowolną liczbę kościołów i dla każdego z nich sprostać nieposiadanym jeszcze wyzwaniom.
+- jednego dnia można odwiedzić dowolną liczbę kościołów i dla każdego z nich sprostać nieposiadanym jeszcze wyzwaniom,
+- można sobie zanotować czy udało nam się bezpośrednio ujrzeć ołtarz główny nawiedzanego kościoła. To na wypadek gdybyśmy np. chcieli zapamiętać, by przy następnej okazji spróbować go jeszcze zobaczyć. To oczywiście nie wpłynie już na fakt sprostania temu wyzwaniu za pierwszym razem,
+- osoby lubiące robić zdjęcia mogą pomyśleć o prowadzeniu swojej galerii odwiedzonych kościołów.
 
 [Powrót](index.md)
