@@ -11,7 +11,7 @@
 - [→ Kościoły](koscioly.md)
 - [→ Ołtarze](oltarze.md)
 - [→ Msze święte](msze_swiete.md)
-- [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Odpusty parafialne](odpusty_parafialne.md)
+- [→ Odpusty parafialne](odpusty_parafialne.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Relikwie i groby](relikwie_i_groby.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Nabożeństwa](nabozenstwa.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Rocznice poświęcenia](rocznice_poswiecenia.md)

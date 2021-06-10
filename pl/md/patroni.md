@@ -1,6 +1,7 @@
 # Patroni
 To święci i błogosławieni Kościoła Rzymskokatolickiego, którzy zostali zbawieni i „wyniesieni na ołtarze”. Są bardzo szczęśliwi będąc z Bogiem, lecz wiele dodatkowej radości sprawia im także pomaganie nam w trudach ziemskiego życia i drodze do zbawienia. Mają ku temu dużo większe możliwości, gdy się do nich z ufnością zwracamy o wsparcie i opiekę. Chronią nas i orędują w naszych sprawach przed Bogiem, który chętniej obdarza nas wtedy Swoimi Darami.
 
+---
 Patronów możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, imię i data zaproszenia). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[A] PATRONI”**.
 
 #### Chcesz zaprosić patronów i w ten sposób zbudować drużynę Świętych? To bardzo proste!

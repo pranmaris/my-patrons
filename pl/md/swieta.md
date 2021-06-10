@@ -5,6 +5,7 @@ Przez święta rozumiemy wszystkie wspomnienia liturgiczne, które nie odnoszą 
 - grupy osób (Święta Rodzina - pierwsza niedziela po Narodzeniu Pańskim),
 - rocznicy poświęcenia lub innej uroczystości poszczególnych kościołów (własnego lub np. Katedry św. Piotra Apostoła - 22 lutego).
 
+---
 Święta możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, nazwa święta i data dodania). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[B] ŚWIĘTA”**.
 
 ---

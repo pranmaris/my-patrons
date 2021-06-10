@@ -1,6 +1,7 @@
 # Tytuły Patronów
-Niektórzy patroni są czczeni przez Kościół Katolicki wielokrotnie pod różnymi tytułami. Ma to na celu zwrócenie uwagi na szczególny rodzaj czy miejsca ich działania, które jest wspominane lub świętowane.
+Niektórzy patroni są czczeni przez Kościół Katolicki wielokrotnie w ciągu roku pod różnymi tytułami. Ma to na celu zwrócenie uwagi wiernych na szczególny rodzaj lub miejsce ich działania czy objawień, które są wspominane lub świętowane.
 
+---
 Tytuły patronów możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, imię z tytułem i data zaproszenia). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[Ax] TYTUŁY PATRONÓW”**.
 
 ---

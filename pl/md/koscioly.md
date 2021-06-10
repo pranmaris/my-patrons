@@ -4,7 +4,7 @@ Kościoły - rozumiane tutaj szerzej jako świątynie - są to miejsca kultu tak
 Miejscom tym nadawane są tytuły pochodzące od nazw świąt i patronów (czasem kilku) i w powiązaniu z nimi możemy je nawiedzać w ramach tego wyzwania.
 
 ---
-Wyzwania związane z kościołami możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, nazwa kościoła, lokalizacja i patron lub święto, którego dotyczy wyzwanie). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[D] KOŚCIOŁY”**.
+Wyzwania związane z kościołami możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, nazwa kościoła, data jego nawiedzenia i patron lub święto, którego dotyczy wyzwanie). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[D] KOŚCIOŁY”**.
 
 Aby zanotować lokalizacje kościołów, możemy skorzystać z listy [miejsc](jak_zanotowac_miejsca.md).
 

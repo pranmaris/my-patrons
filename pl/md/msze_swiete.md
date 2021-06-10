@@ -2,7 +2,7 @@
 Jeśli udało Ci się sprostać wyzwaniu związanemu z [kościołem](koscioly.md) lub [ołtarzem](oltarze.md), możesz pójść o krok dalej - wziąć udział we Mszy św. odprawionej w tym kościele lub na tym konkretnym ołtarzu!
 
 ---
-Wyzwania związane z takim udziałem we Mszy św. możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, nazwa kościoła, jego lokalizacja, ewentualnie nazwa ołtarza, oraz patron lub święto, którego dotyczy wyzwanie). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[F] MSZE ŚWIĘTE”**.
+Wyzwania związane z takim udziałem we Mszy św. możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, nazwa kościoła, ewentualnie także ołtarza, data udziału we Mszy św. oraz patron lub święto, którego dotyczy wyzwanie). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[F] MSZE ŚWIĘTE”**.
 
 ---
 Aby danego dnia podjąć wyzwanie udziału we Mszy św.:

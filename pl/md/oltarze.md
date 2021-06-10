@@ -4,7 +4,7 @@ Każdy kościół posiada swój ołtarz główny. Często można się spotkać t
 W ramach wyzwań możemy nawiedzać tego typu ołtarze (kaplice). Warto pamiętać, że niektóre większe kościoły mogą ich mieć kilkanaście lub więcej!
 
 ---
-Wyzwania związane z ołtarzami możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, nazwa kościoła (lub innego miejsca), jego lokalizacja oraz patron lub święto tytularne ołtarza, którego dotyczy wyzwanie). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[E] OŁTARZE”**.
+Wyzwania związane z ołtarzami możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, nazwa kościoła (lub innego miejsca), data jego nawiedzenia oraz patron lub święto tytularne ołtarza, którego dotyczy wyzwanie). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[E] OŁTARZE”**.
 
 Aby zanotować lokalizacje kościołów, możemy skorzystać z listy [miejsc](jak_zanotowac_miejsca.md).
 
