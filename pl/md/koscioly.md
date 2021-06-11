@@ -9,7 +9,7 @@ Wyzwania związane z kościołami możemy zapisywać gdziekolwiek i w dowolny sp
 Aby zanotować lokalizacje kościołów, możemy skorzystać z listy [miejsc](jak_zanotowac_miejsca.md).
 
 ---
-Aby danego dnia podjąć wyzwanie nawiedzenia kościoła:
+Aby danego dnia podjąć się wyzwania nawiedzenia kościoła:
 - ✅ Znajdź świątynię należącą do Kościoła Rzymskokatolickiego, która jest pod wezwaniem patrona lub święta, posiadanych już przez Ciebie lub dodawanych w dniu jej nawiedzenia,
 - ✅ **W tym dniu** osobiście nawiedź świątynię. Wejdź do niej, by bezpośrednio ujrzeć ołtarz główny, choćby zza krat. Jeśli jest zamknięta, upewnij się czy nie ma innego otwartego wejścia. Jeśli nie ma, obejrzyj ją z zewnątrz na tyle na ile się da (liczy się nawet oglądanie zza ogrodzenia, jeśli wszystkie furtki i bramy na teren przykościelny są pozamykane),
 - ✅ Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz ..., Zdrowaś Maryjo ..., Wierzę w Boga ...”_ lub ponownie odmówiona modlitwa związana z [patronem](patroni.md) lub [świętem](swieta.md) tytularnym świątyni, którego dotyczy wyzwanie,

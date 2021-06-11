@@ -5,7 +5,7 @@ Odpust parafialny jest świętem patronalnym kościoła parafialnego, czyli sweg
 Wyzwania związane z odpustami parafialnymi możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, tytuł parafii lub kościoła filialnego, data sumy odpustowej oraz patron lub święto, którego dotyczy odpust). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[G] ODPUSTY PARAFIALNE”**.
 
 ---
-Aby danego dnia podjąć wyzwanie udziału w odpuście parafialnym:
+Aby danego dnia podjąć się wyzwania udziału w odpuście parafialnym:
 - ✅ Znajdź parafię lub kościół, które są pod wezwaniem patrona lub święta, dla których chcesz wziąć udział w sumie odpustowej,
 - ✅ **W tym dniu** fizycznie (nie online) weź udział w **sumie odpustowej** w tym kościele,
 - ✅ **W tym dniu** uzyskaj odpust parafialny, pamiętając o wszystkich jego wymaganiach: przyjęciu Komunii św., wyborze siebie (albo osoby zmarłej) za którą go ofiarujesz i odmówieniu modlitwy w intencjach papieskich: _„Ojcze Nasz ..., Zdrowaś Maryjo ..., Wierzę w Boga ...”_,

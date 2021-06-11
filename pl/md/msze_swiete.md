@@ -5,7 +5,7 @@ Jeśli udało Ci się sprostać wyzwaniu związanemu z [kościołem](koscioly.md
 Wyzwania związane z takim udziałem we Mszy św. możemy zapisywać gdziekolwiek i w dowolny sposób (wystarczy: numer, nazwa kościoła, ewentualnie także ołtarza, data udziału we Mszy św. oraz patron lub święto, którego dotyczy wyzwanie). Można też skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md): **„[F] MSZE ŚWIĘTE”**.
 
 ---
-Aby danego dnia podjąć wyzwanie udziału we Mszy św.:
+Aby danego dnia podjąć się wyzwania udziału we Mszy św.:
 - ✅ Znajdź kościół lub ołtarz, które są pod wezwaniem posiadanego przez Ciebie patrona lub święta (lub dodawanego w tym dniu), dla których chcesz wykonać to wyzwanie,
 - ✅ **W tym dniu** fizycznie (nie online) weź udział we Mszy św. odprawionej w wybranym kościele (na jakimkolwiek jego ołtarzu) lub na wybranym ołtarzu, którego dotyczy to wyzwanie,
 - ✅ **W tym dniu** musisz zaprosić dowolnego nowego patrona (patrz strona o [patronach](patroni.md)),

@@ -9,7 +9,7 @@ Wyzwania związane z ołtarzami możemy zapisywać gdziekolwiek i w dowolny spos
 Aby zanotować lokalizacje kościołów, możemy skorzystać z listy [miejsc](jak_zanotowac_miejsca.md).
 
 ---
-Aby danego dnia podjąć wyzwanie nawiedzenia ołtarza:
+Aby danego dnia podjąć się wyzwania nawiedzenia ołtarza:
 - ✅ Znajdź miejsce, w którym znajduje się taki obiekt, będący pod wezwaniem patrona lub święta posiadanych już przez Ciebie lub dodawanych w dniu jego nawiedzenia,
 - ✅ **W tym dniu** osobiście nawiedź ołtarz. Wymagane jest bezpośrednie oglądanie tego miejsca, choćby zza krat,
 - ✅ Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz ..., Zdrowaś Maryjo ..., Wierzę w Boga ...”_ lub ponownie odmówiona modlitwa związana z [patronem](patroni.md) lub [świętem](swieta.md) tytularnym ołtarza, którego dotyczy wyzwanie,
