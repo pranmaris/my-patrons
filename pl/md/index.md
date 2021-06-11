@@ -13,7 +13,7 @@
 - [→ Msze święte](msze_swiete.md)
 - [→ Odpusty parafialne](odpusty_parafialne.md)
 - [→ Relikwie i groby](relikwie_i_groby.md)
-- [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Nabożeństwa](nabozenstwa.md)
+- [→ Nabożeństwa](nabozenstwa.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Rocznice poświęcenia](rocznice_poswiecenia.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Sakramenty](sakramenty.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Szkaplerze](szkaplerze.md)
