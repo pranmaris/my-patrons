@@ -17,7 +17,7 @@ Zachowanie powyższej kolejności nie jest wymagane.
 
 ---
 ### Kilka szczegółów by rozwiać wszelkie wątpliwości:
-- aby sprostać wyzwaniu odpustu parafialnego musisz uczestniczyć w głównej Mszy św. tego dnia w kościele, czyli **sumie odpustowej**. Nie liczy się udział we Mszy św. tego dnia w tym kościele sprawowanej o innej godzinie,
+- aby sprostać wyzwaniu odpustu parafialnego musisz uczestniczyć w głównej mszy św. tego dnia w kościele, czyli **sumie odpustowej**. Nie liczy się udział we mszy św. tego dnia w tym kościele sprawowanej o innej godzinie,
 - każdemu wyzwaniu dotyczącemu odpustowi parafialnemu w danym kościele, powiązanemu z konkretnym patronem lub świętem można sprostać tylko jeden raz,
 - jeżeli parafia ma więcej patronów, dla każdego z nich z osobna możemy uczestniczyć w kilku odpustach oddzielnie, a tym samym sprostać osobnym wyzwaniom,
 - odpusty parafialne mogą dotyczyć nie tylko parafii, ale także wezwania kościołów filialnych, które ta parafia obejmuje,

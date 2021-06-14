@@ -13,7 +13,7 @@ Nasi patroni i święta umożliwiają nam wykonywanie dalszych wyzwań związany
 
 ---
 Możliwe jest także podejmowanie innych działań, niepowiązanych bezpośrednio z patronami i świętami. Są to:
-- **[rocznice poświęcenia](rocznice_poswiecenia.md):** podobnie jak odpusty parafialne stanowią jedne z najważniejszych i nie mniej uroczyście obchodzone święta kościołów i (na wyższym poziomie) diecezji,
+- **[rocznice poświęcenia](rocznice_poswiecenia.md):** podobnie jak odpusty parafialne stanowią jedne z najważniejszych i nie mniej uroczyście obchodzone święta kościołów,
 - **[nabożeństwa](nabozenstwa.md):** są wielowiekową tradycją Kościoła oraz wspaniałym sposobem na poznanie jego bogactwa i pogłębianie swojej wiary,
 - **[sakramenty](sakramenty.md):** czy pamiętasz kiedy i gdzie przyjąłeś po raz pierwszy wszystkie swoje sakramenty? Stwórz swoją listę,
 - **[szkaplerze](szkaplerze.md):** jeśli przyjąłeś jeden lub więcej szkaplerzy, możesz tutaj je sobie zapisać,
