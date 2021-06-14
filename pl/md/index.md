@@ -16,7 +16,7 @@
 - [→ Nabożeństwa](nabozenstwa.md)
 - [→ Rocznice poświęcenia](rocznice_poswiecenia.md)
 - [→ Sakramenty](sakramenty.md)
-- [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Szkaplerze](szkaplerze.md)
+- [→ Szkaplerze](szkaplerze.md)
 - [→ Kapłani](kaplani.md)
 - [→ Inne wyzwania](inne_wyzwania.md)
 - [Jakie informacje możemy jeszcze zanotować?](jakie_informacje_mozemy_jeszcze_zanotowac.md)
