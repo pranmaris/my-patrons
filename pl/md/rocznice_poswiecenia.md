@@ -26,7 +26,7 @@ Do czytania notki o kościołach polecamy skorzystanie z [Wikipedii](https://pl.
 
 ### Kilka szczegółów by rozwiać wszelkie wątpliwości:
 - każdemu wyzwaniu dotyczącemu rocznicy poświęcenia danej świątyni można sprostać tylko jeden raz,
-- w danym dniu można spełnić tylko jedno wyzwanie udziału w rocznicy poświęcenia świątyni,
+- w danym dniu można sprostać tylko jednemu wyzwaniu udziału w rocznicy poświęcenia świątyni,
 - aby sprostać wyzwaniu rocznicy poświęcenia musisz uczestniczyć w głównej mszy św. tego dnia w kościele. Nie liczy się udział we mszy św. tego dnia w tym kościele sprawowanej o innej godzinie.
 
 [Powrót](index.md)

@@ -15,7 +15,7 @@
 - [→ Relikwie i groby](relikwie_i_groby.md)
 - [→ Nabożeństwa](nabozenstwa.md)
 - [→ Rocznice poświęcenia](rocznice_poswiecenia.md)
-- [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Sakramenty](sakramenty.md)
+- [→ Sakramenty](sakramenty.md)
 - [<font color="black">Już wkrótce ...</font>&nbsp;&nbsp;&nbsp; → Szkaplerze](szkaplerze.md)
 - [→ Kapłani](kaplani.md)
 - [→ Inne wyzwania](inne_wyzwania.md)
