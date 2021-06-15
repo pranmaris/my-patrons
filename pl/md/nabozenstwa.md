@@ -35,7 +35,8 @@ Oto czynności do wykonania przez dziewięć **kolejnych** pierwszych piątków 
 - ✅ Przystąpienie do Spowiedzi Świętej - może być wcześniej,
 - ✅ **W nocy z czwartku na pierwszy piątek miesiąca** minimum godzinna adoracja Najświętszego Sakramentu - tzw. Godzina Święta,
 - ✅ **!!! W pierwszy piątek miesiąca** przyjęcie Komunii Świętej w stanie Łaski Uświęcającej (najlepiej w trakcie Mszy św.) z intencją zadośćuczynienia Najświętszemu Sercu Pana Jezusa za grzechy własne i całej ludzkości,
-- ✅ Odmówienie Litanii do Najświętszego Serca Jezusowego i Aktu Poświęcenia Rodzaju Ludzkiego Najświętszemu Sercu Pana Jezusa.
+- ✅ Odmówienie Litanii do Najświętszego Serca Jezusowego,
+- ✅ Odmówienie Aktu Poświęcenia Rodzaju Ludzkiego Najświętszemu Sercu Pana Jezusa.
 
 **UWAGA!** Powyższe punkty, które nie zostały oznaczone wykrzyknikami (**!!!**) bywają pomijane. Warto jednak je spełniać lub uzupełnić także później, gdy pojawi się taka możliwość.
 
