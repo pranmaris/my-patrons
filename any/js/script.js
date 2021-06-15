@@ -46,6 +46,7 @@ const ANCHOR_PATTERN = ANCHOR + '[-a-z0-9]+';
 
 const START_ANCHOR = ANCHOR + 'start';
 
+const README_MARKDOWN_FILE_PATH = PATH_SEPARATOR;
 const README_MARKDOWN_FILE_NAME = 'README';
 const INDEX_MARKDOWN_FILE_NAME = 'index';
 
@@ -70,7 +71,7 @@ const build = () => {
 const buildLanguages = (pagesPath) => {
   const element = document.getElementById(LANGUAGES_ELEMENT_ID);
   const fileName = README_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN;
-  const filePath = getRelatedFilePathToBaseDirectory(fileName, pagesPath);
+  const filePath = README_MARKDOWN_FILE_PATH + fileName;
 
   loadContent(filePath)
     .then(function (content) {
@@ -80,16 +81,6 @@ const buildLanguages = (pagesPath) => {
       element.innerHTML = getErrorText(error);
     })
   ;
-}
-
-const getRelatedFilePathToBaseDirectory = (fileName, path) => {
-  const pattern1 = new RegExp('^[' + PATH_SEPARATOR + ']');
-  path = path.replace(pattern1, '');
-
-  const pattern2 = new RegExp('[^' + PATH_SEPARATOR + ']+[' + PATH_SEPARATOR + ']', 'g');
-  path = path.replace(pattern2, PATH_PARENT_DIRECTORY + PATH_SEPARATOR);
-
-  return path + fileName;
 }
 
 const getWindowLocation = () => {

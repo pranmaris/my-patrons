@@ -1,6 +1,13 @@
 <IfModule mod_rewrite.c>
+  ErrorDocument 404 /
+
   RewriteEngine On
-  RewriteRule ^[-a-z0-9]+$ index.html
+  RewriteBase /
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+
+  RewriteRule ^favicon\.ico$ /any/images/ico/favicon.ico [R=301,L]
+  RewriteRule ^[^.]*$ /any/html/index.html [L]
 </IfModule>
 
 <IfModule mod_headers.c>
