@@ -3,7 +3,7 @@
 
 | INDEKS | TYTUŁ | WERSJA 1 (PEŁNA) | WERSJA 2 (MINIMALNA) |
 |:---:|:---|:---:|:---:|
-| A | Patroni | [pobierz](../../pl/pdf/lista_v1_a_patroni.pdf) | _wkrótce_ |
+| A | Patroni | [pobierz stronę początkową](../../pl/pdf/lista_v1_a_bog.pdf)<br />[pobierz kolejne strony](../../pl/pdf/lista_v1_a_patroni.pdf) | _wkrótce_ |
 | Ax | Tytuły patronów | [pobierz](../../pl/pdf/lista_v1_ax_tytuly_patronow.pdf) | _wkrótce_ |
 | B | Święta | [pobierz](../../pl/pdf/lista_v1_b_swieta.pdf) | _wkrótce_ |
 | C | Miejsca | [pobierz](../../pl/pdf/lista_v1_c_miejsca.pdf) | _wkrótce_ |

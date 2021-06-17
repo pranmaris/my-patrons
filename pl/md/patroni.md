@@ -17,12 +17,12 @@ Aby danego dnia zaprosić nowego patrona:
 - ✅ Odmów następującą modlitwę do wybranego patrona:
 
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
-> Zapraszam Ciebie/Was do grona moich osobistych patronów,  
-> I proszę o opiekę, modlitwę, ochronę przed działaniem złego,  
-> O wstawianie się za mną przed Tronem Trójcy Przenajświętszej,  
-> O umocnienie w moim sercu wszelkich cnót Twoich/Waszych,  
-> Oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
-> W Imię Ojca i Syna i Ducha Świętego, Amen.
+> zapraszam Ciebie/Was do grona moich osobistych patronów,  
+> i proszę o opiekę, modlitwę, ochronę przed działaniem złego,  
+> o wstawianie się za mną przed Tronem Trójcy Przenajświętszej,  
+> o umocnienie w moim sercu wszelkich cnót Twoich/Waszych,  
+> oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
+> w Imię Ojca i Syna i Ducha Świętego, Amen.
 
 Zachowanie powyższej kolejności kroków nie jest wymagane.
 

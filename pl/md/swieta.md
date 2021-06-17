@@ -16,11 +16,11 @@ Aby w danym dniu wpisać nowe święto (jedno lub wiele):
 - ✅ Odmów następującą modlitwę na temat wybranego święta:
 
 > Dobry mój Boże,  
-> Dziękuję Ci za możliwość celebrowania święta **_[nazwa święta]_**,  
-> Wspomóż mnie, abym mógł/mogła lepiej zrozumieć jego znaczenie,  
-> Oraz potrafił/potrafiła czerpać wielką radość, mądrość i pożytek,  
-> Z uczestniczenia w nim dzięki Kościołowi Świętemu,  
-> W Imię Ojca i Syna i Ducha Świętego, Amen.
+> dziękuję Ci za możliwość celebrowania święta **_[nazwa święta]_**,  
+> wspomóż mnie, abym mógł/mogła lepiej zrozumieć jego znaczenie,  
+> oraz potrafił/potrafiła czerpać wielką radość, mądrość i pożytek,  
+> z uczestniczenia w nim dzięki Kościołowi Świętemu,  
+> w Imię Ojca i Syna i Ducha Świętego, Amen.
 
 Zachowanie powyższej kolejności kroków nie jest wymagane.
 

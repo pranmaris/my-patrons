@@ -14,12 +14,12 @@ Aby w danym dniu dodać do listy nowy tytuł patrona (jeden lub więcej):
 - ✅ Odmów następującą modlitwę do wybranego patrona, odpowiednio go tytułując:
 
 > Św./Bł. _**[imię patrona z tytułem]**_,  
-> Zapraszam Ciebie do grona moich osobistych patronów,  
-> I proszę o opiekę, modlitwę, ochronę przed działaniem złego,  
-> O wstawianie się za mną przed Tronem Trójcy Przenajświętszej,  
-> O umocnienie w moim sercu wszelkich cnót Twoich,  
-> Oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
-> W Imię Ojca i Syna i Ducha Świętego, Amen.
+> zapraszam Ciebie do grona moich osobistych patronów,  
+> i proszę o opiekę, modlitwę, ochronę przed działaniem złego,  
+> o wstawianie się za mną przed Tronem Trójcy Przenajświętszej,  
+> o umocnienie w moim sercu wszelkich cnót Twoich,  
+> oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
+> w Imię Ojca i Syna i Ducha Świętego, Amen.
 
 Zachowanie powyższej kolejności kroków nie jest wymagane.
 

@@ -1,13 +1,13 @@
 # Jak zacząć?
 Twoje pierwsze kroki do wykonania na początku to:
 - ✅ Przygotuj sobie kartkę lub zeszyt, w którym będziesz notować swoich patronów. Możesz skorzystać z gotowych [formularzy](wszystkie_materialy_do_pobrania.md) do wydrukowania (**„[A] PATRONI”**),
-- ✅ Na początku swojej listy patronów wpisz wiersze z Osobami Boskimi, jak pokazano w tabeli poniżej. Oznacza to, że Bóg jest z nami cały od samego początku! Jest On także ponad wszystkimi patronami i w żaden sposób z nimi nie konkuruje,
+- ✅ Bóg jest z nami cały od samego początku! Jest On także ponad wszystkimi patronami i w żaden sposób z nimi nie konkuruje! Dlatego na początku swojej listy patronów wpisz wiersze z Osobami Boskimi, jak pokazano w tabeli poniżej. **Możesz także jednorazowo skorzystać z dodatkowego [szablonu](wszystkie_materialy_do_pobrania.md) strony początkowej patronów - patrz wiersz: „[A] PATRONI”**.
 - ✅ Pomódl się do Boga wyznaniem wiary (łac. _„Credo”_), czyli: „Wierzę w jednego Boga ...” i poczytaj o Nim (o Trójcy i każdej Jego Osobie z osobna). Potem możesz oznaczyć „ptaszkiem” pola modlitwy i wiedzy jak pokazano w tabelce poniżej (jeśli zamierzasz to zapisywać),
 - ✅ Zaproś swojego pierwszego patrona spełniając wymagania opisane na stronie o [patronach](patroni.md),
 - ✅ Dopisz zaproszonego patrona do swojej listy. Jak w poniższym przykładzie, możesz sobie zaznaczyć „ptaszkiem”, gdy uda Ci się odmówić modlitwę do niego i zgłębić wiedzę na jego temat,
-- ✅ Możesz się upewnić, czy w tym dniu nie przysługuje Ci dodatkowo możliwość zdobycia [tytułu patrona](tytuly_patronow.md) lub [święta](swieta.md), w czym pomoże przewodnik opisujący [jak je wybrać](jak_wybrac_patrona_tytul_patrona_lub_swieto.md).
+- ✅ Możesz się upewnić, czy w tym dniu przysługuje Ci dodatkowo możliwość zdobycia [tytułu patrona](tytuly_patronow.md) lub [święta](swieta.md), w czym pomoże przewodnik opisujący [jak je wybrać](jak_wybrac_patrona_tytul_patrona_lub_swieto.md).
 
-**Gratulujemy!** Twoja przygoda z patronami właśnie się rozpoczęła!
+#### **Gratulujemy!** Twoja przygoda z patronami właśnie się rozpoczęła!
 
 ---
 ### Przykład:
