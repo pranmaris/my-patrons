@@ -1,4 +1,5 @@
 # Moi Patroni
+- [Patroni na dziś!](patroni_na_dzis.md)
 - [O Moich Patronach](o_moich_patronach.md)
 - [Zadania Uczestnika](zadania_uczestnika.md)
 - [Jak zacząć?](jak_zaczac.md)

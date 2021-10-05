@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   height: 100%;
   background-color: black;
   background: url('/any/images/jpg/background.jpg') no-repeat center center fixed;
@@ -17,6 +18,13 @@ header {
 footer {
   color: white;
   text-align: center;
+}
+
+iframe#patrons-for-today {
+    display: block;
+    border: none;
+    height: 50vh;
+    width: 100%;
 }
 
 .accordion-item {

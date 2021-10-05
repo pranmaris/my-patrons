@@ -1,4 +1,6 @@
 # Jak wybrać patrona, tytuł patrona lub święto?
+Możesz skorzystać z naszej pomocy na stronie: [Patroni na dziś!](patroni_na_dzis.md)
+
 Wybór patronów i świąt dla danego dnia roku liturgicznego może być trudnym wyzwaniem. Wynika to z różnorodności obowiązujących kalendarzy liturgicznych, martyrologiów rzymskich i stale rosnącej listy nowo beatyfikowanych i kanonizowanych przez Stolicę Apostolską patronów.
 
 Pracujemy nad rozwojem serwisu **„[Patrons Space](http://pl.patrons.space)”**, który ma ułatwić ten wybór i jest w tym zakresie **rekomendowanym przez nas** źródłem wiedzy. Ponieważ uzupełnianie i zapewnienie aktualności zawartych w nim informacji zajmie nam trochę czasu, konieczne może okazać się samodzielne wyszukanie możliwych do wyboru patronów i świąt.
