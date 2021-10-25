@@ -93,3 +93,13 @@ footer a, footer a:hover {
   color: rgb(0, 100, 100);
   border-left: .25em solid rgb(0, 100, 100);
 }
+
+.page-content .colored {
+  color: rgb(0, 100, 100);
+}
+.page-content .centered {
+  text-align: center;
+}
+.page-content .sized {
+  font-size: 30px;
+}
