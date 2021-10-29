@@ -103,3 +103,55 @@ footer a, footer a:hover {
 .page-content .sized {
   font-size: 30px;
 }
+
+.status {
+  width: auto;
+  min-width: 20px;
+  height: 20px;
+  margin: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+}
+.status-black {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.status-gray {
+  background-color: #888888;
+  color: #FFFFFF;
+}
+.status-red {
+  background-color: #F43545;
+  color: #FFFFFF;
+}
+.status-orange {
+  background-color: #FA8901;
+  color: #FFFFFF;
+}
+.status-yellow {
+  background-color: #FAD717;
+  color: #000000;
+}
+.status-green {
+  background-color: #00BA71;
+  color: #000000;
+}
+.status-blue {
+  background-color: #00C2DE;
+  color: #000000;
+}
+.status-indigo {
+  background-color: #00418D;
+  color: #FFFFFF;
+}
+.status-violet {
+  background-color: #5F2879;
+  color: #FFFFFF;
+}
+.status-white {
+  background-color: #FFFFFF;
+  color: #000000;
+}
