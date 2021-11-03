@@ -12,15 +12,15 @@ O listach:
   - **udział w święcie kościelnym** - np. Przemienienia Pańskiego,
   - **wykonane wyzwania** - np. modlitwa przy relikwiach św. Jana Pawła II,
   - **zdobyte osiągnięcia** - np. udane zaproszenie wszystkich dwunastu Apostołów,
-  - **inne informacje** - konieczne do zapisania albo tylko dla chętnych, np. miejsce Mszy św., w której uczestniczyliśmy,
+  - **inne informacje** - np. miejsce Mszy św., w której uczestniczyliśmy,
 - można skorzystać z gotowych [propozycji **list**](wszystkie_materialy_do_pobrania.md) lub notować sobie wszystko w dowolnym miejscu: na komputerze, kartce, w zeszycie, itp.
 
 ---
-O kolorach:
-- **kolory** służą do określenia statusu, w jakim znajduje się Uczestnik w procesie zapraszania każdego Patrona oddzielnie,
-- możliwe **kolory** to: <span class="status status-black">czarny</span>, <span class="status status-gray">szary</span>, <span class="status status-red">czerwony</span>, <span class="status status-orange">pomarańczowy</span>, <span class="status status-yellow">żółty</span>, <span class="status status-green">zielony</span>, <span class="status status-blue">niebieski</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span> i <span class="status status-white">biały</span>,
-- na początku każdy Uczestnik otrzymuje status w **kolorze** <span class="status status-black">czarnym</span> dla każdego Patrona,
-- aby cokolwiek notować na określonej **liście**, zawsze musimy mieć status w wymaganym przez nią **kolorze**,
+O statusach:
+- kolory służą do określenia oddzielnych **statusów**, w jakim znajduje się Uczestnik w procesie zapraszania każdego patrona lub obchodzenia każdego święta,
+- możliwe kolory **statusów** to: <span class="status status-black">czarny</span>, <span class="status status-red">czerwony</span>, <span class="status status-orange">pomarańczowy</span>, <span class="status status-yellow">żółty</span>, <span class="status status-green">zielony</span>, <span class="status status-blue">niebieski</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span>, <span class="status status-gray">szary</span> i <span class="status status-white">biały</span>,
+- na początku każdy Uczestnik otrzymuje **status** w kolorze <span class="status status-black">czarnym</span> dla każdego patrona i święta,
+- aby cokolwiek notować na określonej **liście**, zawsze musimy mieć **status** w wymaganym przez nią kolorze,
 
 ---
 O zadaniach:
@@ -36,5 +36,8 @@ O zadaniach:
 
 ---
 ### <div class="colored centered">Zaczynamy!</div>
+
+---
+Możesz wrócić do: [dekalogu Uczestnika](dekalog_uczestnika.md).
 
 [Powrót](index.md)

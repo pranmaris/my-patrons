@@ -236,7 +236,7 @@ const getConvertedMarkdownContent = (content) => {
     return match.replace(p1, urlPath).replace(START_ANCHOR, '');
   });
 
-  return marked(content);
+  return marked.parse(content);
 }
 
 const loadContentToElement = (elementId, expandedElementId, location, getRawContent = false) => {
