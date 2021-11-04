@@ -1,14 +1,19 @@
 # Wszystkie materiały do pobrania
+---
 ### Listy do notowania osiągnięć:
 
-| INDEKS | TYTUŁ | WERSJA 1 (PEŁNA) | WERSJA 2 (MINIMALNA) |
-|:---:|:---|:---:|:---:|
-| ∞ | Bóg | _wkrótce_ | _wkrótce_ |
-| C | Miejsca | [pobierz](../../xx/pdf/lista_v1_c_miejsca.pdf) | _wkrótce_ |
-| I | Nabożeństwa: |||
-| IA | → Nabożeństwo IX Pierwszych Piątków Miesiąca | [pobierz](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf) | _wkrótce_ |
-| IB | → Nabożeństwo V Pierwszych Sobót Miesiąca | [pobierz](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf) | _wkrótce_ |
-| M | Osoby | [pobierz](../../xx/pdf/lista_v1_m_osoby.pdf) | _wkrótce_ |
-| ＊ | Przypisy | [pobierz](../../xx/pdf/lista_v1_przypisy.pdf) | _wkrótce_ |
+- [<span id="bog" class="status status-list"><span class="status status-list">∞</span> Bóg</span>](bog.md): _wkrótce_
 
-[Powrót](index.md)
+- [<span id="miejsca" class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md): [wersja pełna](../../xx/pdf/lista_v1_c_miejsca.pdf)
+
+- [<span id="nabozenstwa" class="status status-list"><span class="status status-list">I</span> Nabożeństwa</span>](nabozenstwa.md):
+
+   - [<span id="nabozenstwo-a" class="status status-list"><span class="status status-list">IA</span> Nabożeństwo IX Pierwszych Piątków Miesiąca</span>](nabozenstwo_ix_pierwszych_piatkow_miesiaca.md): [wersja pełna](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf)
+
+   - [<span id="nabozenstwo-b" class="status status-list"><span class="status status-list">IB</span> Nabożeństwo V Pierwszych Sobót Miesiąca</span>](nabozenstwo_v_pierwszych_sobot_miesiaca.md): [wersja pełna](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf)
+
+- [<span id="osoby" class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md): [wersja pełna](../../xx/pdf/lista_v1_m_osoby.pdf)
+
+- [<span id="przypisy" class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md): [wersja pełna](../../xx/pdf/lista_v1_przypisy.pdf)
+
+[Powrót do głównego menu](index.md)

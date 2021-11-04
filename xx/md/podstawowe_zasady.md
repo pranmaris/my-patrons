@@ -17,7 +17,7 @@ O listach:
 
 ---
 O statusach:
-- kolory służą do określenia **statusów**, w jakim znajduje się Uczestnik w procesie dodawania każdego patrona i święta z osobna,
+- kolory służą do określenia **statusów**, w jakim znajduje się Uczestnik w drodze odkrywania świąt i zapraszania każdego patrona z osobna,
 - możliwe kolory **statusów** to: <span class="status status-black">czarny</span>, <span class="status status-red">czerwony</span>, <span class="status status-orange">pomarańczowy</span>, <span class="status status-yellow">żółty</span>, <span class="status status-green">zielony</span>, <span class="status status-blue">niebieski</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span>, <span class="status status-gray">szary</span> i <span class="status status-white">biały</span>,
 - na początku każdy Uczestnik otrzymuje **status** w kolorze <span class="status status-black">czarnym</span> dla każdego patrona i święta,
 - aby cokolwiek notować na określonej **liście**, zawsze musimy mieć **status** w wymaganym przez nią kolorze,
@@ -38,6 +38,5 @@ O zadaniach:
 ### <div class="colored centered">Zaczynamy!</div>
 
 ---
-Możesz wrócić do: [dekalogu Uczestnika](dekalog_uczestnika.md).
-
-[Powrót](index.md)
+[Powrót do dekalogu Uczestnika](dekalog_uczestnika.md)
+[Powrót do głównego menu](index.md)

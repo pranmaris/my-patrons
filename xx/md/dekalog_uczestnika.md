@@ -15,4 +15,4 @@
 ---
 ### <div class="colored centered">Rozpocznij swoją przygodę już dziś!</div>
 
-[Powrót](index.md)
+[Powrót do głównego menu](index.md)
