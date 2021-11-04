@@ -1,6 +1,6 @@
 # Podstawowe zasady
 O inicjatywie:
-- udział w inicjatywie **Moich Patronów** polega na wykonywaniu **zadań** i sporządzeniu notatek na odpowiednich **listach**, by nie zapomnieć co już osiągnęliśmy,
+- udział w inicjatywie _„Moich Patronów”_  polega na wykonywaniu **zadań** i sporządzeniu notatek na odpowiednich **listach**, by nie zapomnieć co już osiągnęliśmy,
 - zabawę może zacząć **każda osoba** w **dowolnym czasie**, bez konieczności informowania o tym kogokolwiek,
 - w każdym momencie można przerwać aktywny udział i później wrócić do działania, kiedy będziemy tego chcieć.
 
@@ -17,7 +17,7 @@ O listach:
 
 ---
 O statusach:
-- kolory służą do określenia oddzielnych **statusów**, w jakim znajduje się Uczestnik w procesie zapraszania każdego patrona lub obchodzenia każdego święta,
+- kolory służą do określenia **statusów**, w jakim znajduje się Uczestnik w procesie dodawania każdego patrona i święta z osobna,
 - możliwe kolory **statusów** to: <span class="status status-black">czarny</span>, <span class="status status-red">czerwony</span>, <span class="status status-orange">pomarańczowy</span>, <span class="status status-yellow">żółty</span>, <span class="status status-green">zielony</span>, <span class="status status-blue">niebieski</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span>, <span class="status status-gray">szary</span> i <span class="status status-white">biały</span>,
 - na początku każdy Uczestnik otrzymuje **status** w kolorze <span class="status status-black">czarnym</span> dla każdego patrona i święta,
 - aby cokolwiek notować na określonej **liście**, zawsze musimy mieć **status** w wymaganym przez nią kolorze,

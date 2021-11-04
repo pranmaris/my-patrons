@@ -9,6 +9,6 @@
 | IA | → Nabożeństwo IX Pierwszych Piątków Miesiąca | [pobierz](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf) | _wkrótce_ |
 | IB | → Nabożeństwo V Pierwszych Sobót Miesiąca | [pobierz](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf) | _wkrótce_ |
 | M | Osoby | [pobierz](../../xx/pdf/lista_v1_m_osoby.pdf) | _wkrótce_ |
-| \* | Komentarze | [pobierz](../../xx/pdf/lista_v1_komentarze.pdf) | _wkrótce_ |
+| ＊ | Przypisy | [pobierz](../../xx/pdf/lista_v1_przypisy.pdf) | _wkrótce_ |
 
 [Powrót](index.md)
