@@ -1,15 +1,11 @@
 # <span class="status status-list"><span class="status status-list">∞</span> Bóg</span>
 
 ---
-<span class="status status-title">Wymagany status:</span> <span class="status status-black">czarny</span> - po wykonaniu zadania zmieni się na <span class="status status-indigo">indygo</span> **dla wszystkich** patronów i świąt!
+<span class="status status-title">Wymagany status:</span> <span class="status status-black">czarny</span> - po wykonaniu zadania zmieni się na <span class="status status-gray">szary</span> **dla wszystkich** patronów i świąt!
 
 <span class="status status-title">Limity:</span> to zadanie można wykonać tylko jeden raz!
 
-<span class="status status-title">Opis zadania:</span> **prosimy Boga** w Trójcy Jedynego, aby poprzez Swoją wszechmoc dał nam akceptację, mądrość, siły i umiejętności, do odkrywania **wszystkich świąt** i zapraszania **wszystkich patronów**, za których chcemy mu także teraz **podziękować** i wyznać Mu naszą **wiarę** i **miłość**!
-
-<span class="status status-title">Znaczenie kolorów:</span>
-- <span class="status status-black">czarny</span> symbolizuje całkowitą pustkę i niemoc bez Boga,
-- <span class="status status-indigo">indygo</span> jest kolorem Bożej mądrości, uczciwości, sprawiedliwości i władzy Jezusa Chrystusa, które będą nam potrzebne przy wykonywaniu kolejnych zadań.
+<span class="status status-title">Opis zadania:</span> **prosimy Boga**, aby dał nam siły, umiejętności i zapał do odkrywania **wszystkich świąt** i zapraszania **wszystkich patronów**. Chcemy także **wyznać** Mu naszą **wiarę** i **miłość**!
 
 <span class="status status-title">Kroki:</span>
 - własnymi słowami poproś Boga o pokierowanie Tobą wedle Jego woli w dalszej drodze z _„Moimi Patronami”_,

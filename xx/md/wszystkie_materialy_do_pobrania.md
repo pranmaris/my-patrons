@@ -6,7 +6,7 @@
 
 - [<span id="miejsca" class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md): [wersja pełna](../../xx/pdf/lista_v1_c_miejsca.pdf)
 
-- [<span id="nabozenstwa" class="status status-list"><span class="status status-list">I</span> Nabożeństwa</span>](nabozenstwa.md):
+- [<span id="nabozenstwa" class="status status-list"><span class="status status-list">Ix</span> Nabożeństwa</span>](nabozenstwa.md):
 
    - [<span id="nabozenstwo-a" class="status status-list"><span class="status status-list">IA</span> Nabożeństwo IX Pierwszych Piątków Miesiąca</span>](nabozenstwo_ix_pierwszych_piatkow_miesiaca.md): [wersja pełna](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf)
 
