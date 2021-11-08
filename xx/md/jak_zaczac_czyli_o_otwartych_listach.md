@@ -1,7 +1,7 @@
 # Jak zacząć? Czyli o otwartych listach
 Na początku udziału posiadamy status w kolorze <span class="status status-black">czarnym</span> dla każdego patrona i święta, co oznacza brak możliwości działania, ale szybko możemy to zmienić.
 
-Jako chrześcijanie powinniśmy pamiętać, by przed wykonaniem każdej ważniejszej czynności zawierzyć ją Bogu. W naszym przypadku można to uczynić wykonując zadanie z poniższej listy:
+Jako chrześcijanie powinniśmy pamiętać, by przed wykonaniem każdej ważniejszej czynności zawierzyć ją Bogu, który uzdolni nas do jej wykonania. W naszym przypadku można to uczynić wykonując zadanie z poniższej listy:
 - [<span class="status status-list"><span class="status status-list">∞</span> Bóg</span>](bog.md) - by poprosić Boga o błogosławieństwo i „zielone światło” na całą naszą dalszą drogę z _„Moimi Patronami”_.
 
 ---

@@ -13,18 +13,17 @@ O listach:
   - **wykonane wyzwania** - np. modlitwa przy relikwiach św. Jana Pawła II,
   - **zdobyte osiągnięcia** - np. udane zaproszenie wszystkich dwunastu Apostołów,
   - **inne informacje** - np. miejsce Mszy św., w której uczestniczyliśmy,
-- można skorzystać z gotowych [propozycji **list**](wszystkie_materialy_do_pobrania.md) lub notować sobie wszystko w dowolnym miejscu: na komputerze, kartce, w zeszycie, itp.
+- można skorzystać z gotowych propozycji **list** (oznaczanych dalej symbolem „[🖶](wszystkie_materialy_do_pobrania.md)”) lub notować sobie wszystko w dowolnym miejscu: na komputerze, kartce, w zeszycie, itp.
 
 ---
 O statusach:
-- kolory służą do określenia **statusów**, w jakim znajduje się Uczestnik w drodze odkrywania świąt i zapraszania każdego patrona z osobna,
+- kolory służą do określenia **statusów**, w jakim znajduje się Uczestnik w drodze odkrywania świąt i zapraszania patronów. Dla każdego z osobna mamy odrębny status,
 - możliwe kolory **statusów** to: <span class="status status-black">czarny</span>, <span class="status status-gray">szary</span>, <span class="status status-red">czerwony</span>, <span class="status status-orange">pomarańczowy</span>, <span class="status status-yellow">żółty</span>, <span class="status status-green">zielony</span>, <span class="status status-blue">niebieski</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span> i <span class="status status-white">biały</span>,
 - na początku każdy Uczestnik otrzymuje **status** w kolorze <span class="status status-black">czarnym</span> dla każdego patrona i święta,
 - aby cokolwiek notować na określonej **liście**, zawsze musimy mieć **status** w wymaganym przez nią kolorze,
 
 ---
 O zadaniach:
-- na **listach** notujemy tylko ukończone **zadania**,
 - **zadania** są podzielone na **kroki**,
 - aby **zadanie** uznać za zakończone sukcesem, należy wykonać wszystkie jego **kroki** (chyba, że będzie napisane inaczej),
 - niektóre **kroki** są możliwe do wykonania tylko w określonym dniu lub czasie (co będzie jasno zaznaczone), a czas na pozostałe jest dowolny,
@@ -32,7 +31,7 @@ O zadaniach:
 - niektóre zadania mogą być wykonane tylko raz dziennie lub podlegać innym **limitom**.
 
 ---
-**Pamiętaj!** Kluczową rzeczą jest **uczciwość** przed samym sobą, Bogiem i innymi. Aby zabawa mogła przynosić dobre owoce, powinniśmy zawsze trzymać się prawdy!
+**Pamiętaj!** Kluczową rzeczą jest **uczciwość** przed Bogiem, innymi i samym sobą. Aby zabawa mogła przynosić dobre owoce, powinniśmy zawsze trzymać się prawdy!
 
 ---
 ### <div class="colored centered">Zaczynamy!</div>
