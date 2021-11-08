@@ -18,5 +18,5 @@ W każdym momencie możemy skorzystać także z poniższych list:
 ### <div class="colored centered">Bóg na nas czeka!</div>
 
 ---
-[Powrót do podstawowych zasad](podstawowe_zasady.md)
+[Powrót do podstawowych zasad](podstawowe_zasady.md)  
 [Powrót do głównego menu](index.md)

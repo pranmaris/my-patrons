@@ -6,7 +6,7 @@ O inicjatywie:
 
 ---
 O listach:
-- **listy** są zawsze nazwane literkami (A, B, C, IA, IB, itd.) lub symbolami (\*, #, ∞, itp.),
+- **listy** są zawsze nazwane literami (A, B, C, IA, IB, ...) lub symbolami (∞, ＊, ♥, #),
 - każda **lista** służy do notowania czego innego, i mogą to być np.:
   - **zaproszeni patroni** - np. św. Jan Apostoł,
   - **udział w święcie kościelnym** - np. Przemienienia Pańskiego,
@@ -37,5 +37,5 @@ O zadaniach:
 ### <div class="colored centered">Zaczynamy!</div>
 
 ---
-[Powrót do dekalogu Uczestnika](dekalog_uczestnika.md)
+[Powrót do dekalogu Uczestnika](dekalog_uczestnika.md)  
 [Powrót do głównego menu](index.md)

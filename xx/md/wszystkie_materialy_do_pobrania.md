@@ -4,6 +4,8 @@
 
 - [<span id="bog" class="status status-list"><span class="status status-list">∞</span> Bóg</span>](bog.md): _wkrótce_
 
+- [<span id="patroni-obroncy" class="status status-list"><span class="status status-blue">A</span> Patroni - obrońcy</span>](patroni_obroncy.md): _wkrótce_
+
 - [<span id="miejsca" class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md): [wersja pełna](../../xx/pdf/lista_v1_c_miejsca.pdf)
 
 - [<span id="nabozenstwa" class="status status-list"><span class="status status-list">Ix</span> Nabożeństwa</span>](nabozenstwa.md):
@@ -14,6 +16,12 @@
 
 - [<span id="osoby" class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md): [wersja pełna](../../xx/pdf/lista_v1_m_osoby.pdf)
 
+- [<span id="patroni-opiekunowie" class="status status-list"><span class="status status-yellow">T</span> Patroni - opiekunowie</span>](patroni_opiekunowie.md): _wkrótce_
+
+- [<span id="patroni-oredownicy" class="status status-list"><span class="status status-red">U</span> Patroni - orędownicy</span>](patroni_oredownicy.md): _wkrótce_
+
 - [<span id="przypisy" class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md): [wersja pełna](../../xx/pdf/lista_v1_przypisy.pdf)
+
+- [<span id="patroni" class="status status-list"><span class="status status-white">♥</span> Patroni</span>](patroni.md): _wkrótce_
 
 [Powrót do głównego menu](index.md)

@@ -26,5 +26,8 @@
 <span class="status status-title">Szczegóły:</span> już wkrótce ...
 
 ---
-[Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)
+### <div class="colored centered">Teraz możesz już zapraszać patronów!</div>
+
+---
+[Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  
 [Powrót do głównego menu](index.md)
