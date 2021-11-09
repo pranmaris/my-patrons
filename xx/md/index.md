@@ -14,3 +14,6 @@
 - [<span><span class="status status-list"><span class="status status-list">M</span> Osoby</span></span>](osoby.md)
 - [<span><span class="status status-list"><span class="status status-list">＊</span> Przypisy</span></span>](przypisy.md)
 - [Wszystkie materiały do pobrania](wszystkie_materialy_do_pobrania.md)
+- [Karty kolekcjonerskie](karty_kolekcjonerskie.md)
+- [Przyjaciele „Moich Patronów”](przyjaciele_moich_patronow.md)
+- [O nas](o_nas.md)
