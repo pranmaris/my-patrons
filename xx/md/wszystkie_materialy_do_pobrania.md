@@ -1,5 +1,4 @@
 # Wszystkie materiały do pobrania
----
 ### Listy do notowania osiągnięć:
 
 - [<span id="bog" class="status status-list"><span class="status status-list">∞</span> Bóg</span>](bog.md): _wkrótce_

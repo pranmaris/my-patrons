@@ -1,6 +1,4 @@
 # O nas
-
----
 ## <div id="kontakt"></div>Kontakt
 Nasz e-mail: mypatrons@mypatrons.org
 
