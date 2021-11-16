@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-list">∞</span> Bóg</span>
+# <span class="status status-list"><span class="status status-gray">∞</span> Bóg</span>
 <br />
 
 <span class="status status-title">Wymagany status:</span> <span class="status status-black">Czarny</span> - po wykonaniu zadania zmieni się na <span class="status status-gray">szary</span> **dla każdego patrona i święta z osobna**!
@@ -8,6 +8,8 @@
 <br />
 
 <span class="status status-title">Opis zadania:</span> **Zawierzamy Bogu** cały nasz udział w inicjatywie _„Moich Patronów”_. **Prosimy Go**, aby dał nam siły, umiejętności i zapał do odkrywania **wszystkich świąt** i zapraszania **wszystkich patronów**. Chcemy także **wyznać** Mu naszą **wiarę** i **miłość**!
+
+Zmiana koloru <span class="status status-black">czarnego</span> na <span class="status status-gray">szary</span> symbolizuje obdarowanie nas **Bożą Łaską i Światłem**, bez których nie bylibyśmy w stanie niczego uczynić. Są one częściowe (<span class="status status-gray">szary</span> to nie <span class="status status-white">biały</span>), ale też i wystarczające. Współpracując z nimi wedle Bożej woli, na pewno damy radę sprostać wszystkim napotkanym trudnościom i osiągniemy wyznaczony cel!
 <br />
 
 <span class="status status-title">Kroki:</span>

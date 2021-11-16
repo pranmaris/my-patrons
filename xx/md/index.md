@@ -3,7 +3,7 @@
 - [Dekalog Uczestnika](dekalog_uczestnika.md)
 - [Podstawowe zasady](podstawowe_zasady.md)
 - [Jak zacząć? Czyli o otwartych listach](jak_zaczac_czyli_o_otwartych_listach.md)
-- [<span><span class="status status-list"><span class="status status-list">∞</span> Bóg</span></span>&nbsp;<span class="status status-black" title="czarny"></span>](bog.md)
+- [<span><span class="status status-list"><span class="status status-gray">∞</span> Bóg</span></span>&nbsp;<span class="status status-black" title="czarny"></span>](bog.md)
 - [Jak zapraszać patronów?](jak_zapraszac_patronow.md)
 - [<span><span class="status status-list"><span class="status status-yellow">T</span> Patroni - opiekunowie</span></span>&nbsp;<span class="status status-gray" title="szary"></span>&nbsp;<span class="status status-red" title="czerwony"></span>&nbsp;<span class="status status-blue" title="niebieski"></span>&nbsp;<span class="status status-violet" title="fioletowy"></span>](patroni_opiekunowie.md)
 - [<span><span class="status status-list"><span class="status status-blue">A</span> Patroni - obrońcy</span></span>&nbsp;<span class="status status-gray" title="szary"></span>&nbsp;<span class="status status-red" title="czerwony"></span>&nbsp;<span class="status status-orange" title="pomarańczowy"></span>&nbsp;<span class="status status-yellow" title="żółty"></span>](patroni_obroncy.md)

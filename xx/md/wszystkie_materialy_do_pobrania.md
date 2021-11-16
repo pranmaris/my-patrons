@@ -1,7 +1,7 @@
 # Wszystkie materiały do pobrania
 ### Listy do notowania osiągnięć:
 
-- [<span id="bog" class="status status-list"><span class="status status-list">∞</span> Bóg</span>](bog.md): _wkrótce_
+- [<span id="bog" class="status status-list"><span class="status status-gray">∞</span> Bóg</span>](bog.md): _wkrótce_
 
 - [<span id="patroni-obroncy" class="status status-list"><span class="status status-blue">A</span> Patroni - obrońcy</span>](patroni_obroncy.md): _wkrótce_
 
