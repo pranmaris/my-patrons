@@ -13,7 +13,9 @@
 <span class="status status-title">Limity:</span> Można zaprosić tylko jednego **patrona - obrońcę** dziennie.
 <br />
 
-<span class="status status-title">Opis zadania:</span> wkrótce ...
+<span class="status status-title">Opis zadania:</span> Zapraszamy wybranego świętego lub błogosławionego do grona naszych patronów i prosimy go, aby został naszym **obrońcą**, w pewnym stopniu na wzór niezastąpionej **ochrony** samego **Jezusa Chrystusa**. To właśnie On, poprzez Swoją mękę i śmierć na Krzyżu, wykupił nas z rąk zła, w które pcha nas nieustannie każdy popełniany grzech. W **Jego Kościele** mamy dostęp do **Sakramentów**, które nas z Nim w szczególny sposób łączą, umacniają i umożliwiają powrót do Łask po każdym upadku. Chrystus jako wspaniały **nauczyciel**, poprzez Swój **Święty Kościół** przekazuje nam także prawdziwy obraz świata i receptę jak **uchronić** się przed nieszczęściem w życiu doczesnym i w wieczności. **Patronowie** **chronią** nas przed złem swoją modlitwą i realnym obcowaniem blisko nas, a poprzez swoje natchnienia **uczą** odnajdywać właściwą drogę do Boga.
+
+Etap <span class="status status-blue">niebieski</span> - kolor ten bywa utożsamiany z **człowieczeństwem** (Jezusa), **pokojem**, **wolnością** i **wiernością** - pozwoli nam poznać zapraszanych patronów poprzez ich obecność w Kościele Katolickim. Poznamy ciekawe miejsca pod ich wezwaniem, będziemy w pełni uczestniczyć we Mszy św. na uroczystościach, świętach i ich wspomnieniach.
 <br />
 
 <span class="status status-title">Kroki:</span>
@@ -21,7 +23,6 @@
 - **W tym dniu**, osobiście (nie online!) weź udział we Mszy św. w **dowolnej** parafii lub kościele,
 - **W tym dniu**, przyjmij godnie Komunię Świętą w dowolnej intencji - fizycznie lub duchowo,
 - **W chwili przyjęcia Komunii św.** musisz być w stanie **Łaski Uświęcającej**! Powinieneś także dobrze dbać o swoje sumienie i **spowiadać się** co około miesiąc, a na pewno **nie rzadziej niż co 40 dni**!
-
 - Odmów następującą modlitwę (najlepiej klęcząc zaraz po przyjęciu Komunii św.), zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno”, „Święci Młodziankowie”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > proszę Ciebie/Was z całego serca mego,  
@@ -46,7 +47,7 @@
 - Informacje o Mszy św, w której uczestniczyliśmy:
   - **godzinę Mszy św**,
   - **miejsce Mszy św.** - na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
-  - **kapłanów odprawiających Mszę św.** - na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M12** albo **M13+2+X,** gdy mszę koncelebrowały osoby o numerach 13 i 2 oraz jedna spoza naszej listy M,
+  - **kapłanów odprawiających Mszę św.** - na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M12** albo **M13+2+X,** gdy mszę koncelebrowały osoby o numerach 13 (celebrans jako pierwszy) i 2 oraz jeden kapłan spoza naszej listy,
 - Informacja, na podstawie jakiego **źródła** wybraliśmy patrona w tym dniu roku. Mogą to być poniższe skróty:
   - **MR** - Martyrologium Rzymskie z 2004 roku, np. **MR:7** oznacza siódmy wpis na ten dzień roku,
   - **SMR** - Martyrologium Rzymskie z 1956 roku, np. **SMR:7** j.w.,

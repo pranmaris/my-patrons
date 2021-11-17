@@ -13,14 +13,14 @@
 <span class="status status-title">Limity:</span> Można zaprosić tylko jednego **patrona - opiekuna** dziennie.
 <br />
 
-<span class="status status-title">Opis zadania:</span> Zapraszamy wybranego patrona do naszej „drużyny” i prosimy go, aby został naszym **opiekunem**, w pewnym stopniu na podobieństwo doskonałej opieki samego **Boga Ojca**. Żyjąc tu na ziemi mamy bardzo ograniczone postrzeganie realnego świata. Niczym małe dzieci, wiele nie rozumiemy i nie widzimy, bywamy bezradni i ciągle pakujemy się w kłopoty. Opieka patronów może pomóc uchronić nas przed wieloma poranieniami, pozwala nam szybciej podnosić się po upadkach. Opiekun chwyta nas czasem za rękę i szybciej przeprowadza przez życiowe zakręty, „wygładzając” wyboje na naszej drodze.
+<span class="status status-title">Opis zadania:</span> Zapraszamy wybranego świętego lub błogosławionego do grona naszych patronów i prosimy go, aby został naszym **opiekunem**, w pewnym stopniu na podobieństwo doskonałej **opieki** samego **Boga Ojca**. Żyjąc tu na ziemi mamy bardzo ograniczone postrzeganie realnego świata. Niczym małe dzieci, wiele nie rozumiemy i nie widzimy, bywamy bezradni i ciągle pakujemy się w kłopoty. **Opieka patronów** może pomóc uchronić nas przed wieloma poranieniami, pozwala nam szybciej podnosić się po upadkach. **Opiekun** chwyta nas czasem za rękę i szybciej przeprowadza przez życiowe zakręty, „wygładzając” wyboje na naszej drodze.
 
 Etap <span class="status status-yellow">żółty</span> - kolor ten bywa utożsamiany ze **świętością**, **mądrością** i **wiedzą** - przybliży nam żywoty zapraszanych patronów. Pozwoli także odkryć te bardziej namacalne i materialne ślady ich obecności obok nas, takie jak: relikwie, groby, obrazy i obrazki, rzeźby, cytaty, itp.
 <br />
 
 <span class="status status-title">Kroki:</span>
 - Wybierz patrona, którego chcesz zaprosić jako swojego **opiekuna**,
-- **W tym dniu**: dla wybranego patrona, sprostaj wyzwaniu [<span class="status status-list"><span class="status status-list">H</span> Relikwie i groby</span>](relikwie_i_groby.md) **lub** wykonaj **dwie z trzech** poniższych czynności **jednocześnie**:
+- **W tym dniu**: dla wybranego patrona, sprostaj wyzwaniu [<span class="status status-list"><span class="status status-list">H</span> Relikwie i groby</span>](relikwie_i_groby.md) **lub** wykonaj minimum **dwie z trzech** poniższych czynności **jednocześnie**:
     - Miej przy sobie (nie musisz go widzieć) **obrazek** z wybranym patronem - każda osoba musi mieć osobny obrazek! Powinien być on papierowy lub podobny, wydany w większym nakładzie, a nie wydrukowany samodzielnie,
     - Miej bezpośrednio w zasięgu wzroku **rzeźbę, witraż, malowidło lub obraz ścienny** (w ramie lub wiszący w kościele albo innym świętym miejscu) wybranego patrona,
     - Osobiście (nie online!) weź udział we Mszy św. w **dowolnej** parafii lub kościele,
@@ -52,7 +52,7 @@ Etap <span class="status status-yellow">żółty</span> - kolor ten bywa utożsa
   - jeśli **Msza św.**: możesz zapisać:
     - **godzinę Mszy św**,
     - **miejsce Mszy św.** - na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
-    - **kapłanów odprawiających Mszę św.** - na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M12** albo **M13+2+X,** gdy mszę koncelebrowały osoby o numerach 13 i 2 oraz jedna spoza naszej listy M,
+    - **kapłanów odprawiających Mszę św.** - na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M12** albo **M13+2+X,** gdy mszę koncelebrowały osoby o numerach 13 (celebrans jako pierwszy) i 2 oraz jeden kapłan spoza naszej listy,
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
 - Zaznaczenie czy **przeczytano notkę** o patronie i **odmówiono modlitwę** do niego (j.w. postaw dowolny znaczek).
 <br />
