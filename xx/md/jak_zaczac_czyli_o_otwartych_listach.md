@@ -5,13 +5,17 @@ Jako chrześcijanie powinniśmy pamiętać, by przed wykonaniem każdej ważniej
 - [<span class="status status-list"><span class="status status-gray">∞</span> Bóg</span>](bog.md) - by poprosić Boga o błogosławieństwo i „zielone światło” na całą naszą dalszą drogę z _„Moimi Patronami”_.
 
 ---
-Wiele dla Twojego rozwoju duchowego może dać skorzystanie z kilku list pod zbiorczym tytułem:
-- [<span class="status status-list"><span class="status status-list">Ix</span> Nabożeństwa](nabozenstwa.md) - by zapamiętać kiedy i w jakich wzięliśmy udział lub zwyczajnie zacząć wybrane nabożeństwo.
+Kolejnym krokiem jaki warto wykonać to uzupełnienie listy:
+- [<span class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>](sakramenty_i_patroni_imion.md) - by przypomnieć sobie kiedy i gdzie przyjmowaliśmy po raz pierwszy każdy Sakrament i kim są Patroni naszych imion - taka wizytówka, która może się przydać w dalszym etapie zabawy.
 
 ---
 W każdym momencie możemy skorzystać także z poniższych list:
 - [<span class="status status-list"><span class="status status-list">C</span> Miejsca](miejsca.md) - gdy będziemy chcieli zapisać informacje o dowolnym miejscu, w którym byliśmy,
+
+- [<span class="status status-list"><span class="status status-list">I</span> Nabożeństwa](nabozenstwa.md) - by zanotować kiedy i w jakich nabożeństwach wzięliśmy udział lub zwyczajnie zacząć wybrane nabożeństwo.
+
 - [<span class="status status-list"><span class="status status-list">M</span> Osoby](osoby.md) - aby zanotować niektóre osoby, które spotkamy,
+
 - [<span class="status status-list"><span class="status status-list">＊</span> Przypisy](przypisy.md) - by móc zapisać każdą inną informację o jakiej chcemy pamiętać.
 
 ---

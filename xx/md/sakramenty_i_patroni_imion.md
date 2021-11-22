@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-list">I</span> Nabożeństwa</span>
+# <span class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>
 Już wkrótce ...
 
 [Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  

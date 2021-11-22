@@ -13,9 +13,7 @@
 <span class="status status-title">Limity:</span> Można zaprosić tylko jednego **patrona - obrońcę** dziennie.
 <br />
 
-<span class="status status-title">Opis zadania:</span> Zapraszamy wybranego świętego lub błogosławionego do grona naszych patronów i prosimy go, aby został naszym **obrońcą**, w pewnym stopniu na wzór niezastąpionej **ochrony** samego **Jezusa Chrystusa**. To właśnie On, poprzez Swoją mękę i śmierć na Krzyżu, wykupił nas z rąk zła, w które pcha nas nieustannie każdy popełniany grzech. W **Jego Kościele** mamy dostęp do **Sakramentów**, które nas z Nim w szczególny sposób łączą, umacniają i umożliwiają powrót do Łask po każdym upadku. Chrystus jako wspaniały **nauczyciel**, poprzez Swój **Święty Kościół** przekazuje nam także prawdziwy obraz świata i receptę jak **uchronić** się przed nieszczęściem w życiu doczesnym i w wieczności. **Patronowie** **chronią** nas przed złem swoją modlitwą i realnym obcowaniem blisko nas, a poprzez swoje natchnienia **uczą** odnajdywać właściwą drogę do Boga.
-
-Etap <span class="status status-blue">niebieski</span> - kolor ten bywa utożsamiany z **człowieczeństwem** (Jezusa), **pokojem**, **wolnością** i **wiernością** - pozwoli nam poznać zapraszanych patronów poprzez ich obecność w Kościele Katolickim. Poznamy ciekawe miejsca pod ich wezwaniem, będziemy w pełni uczestniczyć we Mszy św. na uroczystościach, świętach i ich wspomnieniach.
+<span class="status status-title">Opis zadania:</span> Zapraszamy wybranego świętego lub błogosławionego do grona naszych patronów i prosimy go, aby został naszym **obrońcą**.
 <br />
 
 <span class="status status-title">Kroki:</span>
@@ -25,14 +23,14 @@ Etap <span class="status status-blue">niebieski</span> - kolor ten bywa utożsam
 - **W chwili przyjęcia Komunii św.** musisz być w stanie **Łaski Uświęcającej**! Powinieneś także dobrze dbać o swoje sumienie i **spowiadać się** co około miesiąc, a na pewno **nie rzadziej niż co 40 dni**!
 - Odmów następującą modlitwę (najlepiej klęcząc zaraz po przyjęciu Komunii św.), zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno”, „Święci Młodziankowie”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
-> proszę Ciebie/Was z całego serca mego,  
-> o obronę i modlitwę za mną,  
-> w Imię Ojca i Syna i Ducha Świętego,  
+> zapraszam Ciebie/Was do grona moich patronów - obrońców,  
+> i proszę o wstawiennictwo i modlitwę za mnie,  
+> przed Tronem Trójcy Przenajświętszej,  
 > Amen.
 
 <br />
 
-<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> dla każdego patrona z osobna.
+<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> dla danego patrona.
 <br />
 
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#patroni-opiekunowie):</span>
@@ -41,6 +39,10 @@ Etap <span class="status status-blue">niebieski</span> - kolor ten bywa utożsam
 - **Nazwę** wybranego patrona (imię i nazwisko, imię zakonne, znany przydomek, miejsce pochodzenia),
 <br />
 
+---
+### <div class="colored centered">Zapraszaj nowych Patronów poprzez Eucharystię! Pokażą Ci oni wiele skarbów Kościoła!</div>
+
+---
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - Informacja czy patron jest **święty** czy **błogosławiony**,
 - **Rok śmierci** patrona,
@@ -61,12 +63,8 @@ Etap <span class="status status-blue">niebieski</span> - kolor ten bywa utożsam
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
 <br />
 
----
-### <div class="colored centered">Wiele wyzwań dla zaproszonych obrońców czeka na Ciebie!</div>
-
----
 <span class="status status-title">Szczegóły:</span>
-- To zadanie możemy wykonać raz także dla Osób Boskich, czyli dla Boga Ojca (numer „**AI**”), Jezusa Chrystusa (numer „**AII**”), Ducha Świętego (numer „**AIII**”) oraz całej Trójcy Przenajświętszej (numer „**AI+II+III**”). Można to uczynić nie zważając na dzienny limit zaproszonych **patronów - opiekunów**, czyli zaprosić w jednym dniu (raz przyjmując Komunię św.) np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem,
+- To zadanie możemy wykonać raz także dla Osób Boskich, czyli dla Boga Ojca (numer „**A I**”), Jezusa Chrystusa (numer „**A II**”), Ducha Świętego (numer „**A III**”) oraz całej Trójcy Przenajświętszej (numer „**A I+II+III**”). Można to uczynić nie zważając na dzienny limit zaproszonych **patronów - opiekunów**, czyli zaprosić w jednym dniu (raz przyjmując Komunię św.) np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem,
 - W Wielki Piątek wystarczy uczestnictwo w Liturgii Męki Pańskiej, gdyż w tym dniu nie odprawia się mszy św.,
 - Jeżeli w danym wspomnieniu jest podanych więcej patronów zbiorowo, to można każdorazowo zaprosić tylko jednego z nich. Następnych będziemy mogli zaprosić dopiero w dniu kolejnego ich wspomnienia, np. za rok, choć często będzie to możliwe wcześniej. Przykładowo 20 września wybierając wspomnienie pt.: _„Święci męczennicy Andrzej Kim Tae-gŏn, prezbiter, Paweł Chŏng Ha-sang i Towarzysze”_, można zaprosić albo wspomnianego owego Andrzeja albo Pawła albo jednego dowolnego ze znanych z imienia ich 101 pozostałych koreańskich towarzyszy (np. św. Antoniego Daveluya),
 - Jedynie w sytuacji, gdy imiona niektórych patronów nie są znane, możemy zaprosić ich zbiorczo, np. 22 września we wspomnieniu pt.: _„Święci Maurycy i Towarzysze, męczennicy”_, z imienia znamy tylko św. Maurycego, św. Eksuperiusza, św. Kandyda i kilku innych. Można zatem jako patrona wybrać jednego z tych znanych świętych albo zbiorczo pozostałych nadając im nazwę np.: „nieznani towarzysze św. Maurycego” (to około 6600 świętych). Podobnie zbiorczo możemy zaprosić np. _„Wszystkich Świętych”_ – 1 listopada, _„Wszystkich Wiernych Zmarłych”_ – 2 listopada, _„Świętych Młodzianków”_ – 28 grudnia, itd.,

@@ -31,14 +31,15 @@ Zmiana koloru <span class="status status-black">czarnego</span> na <span class="
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#bog):</span> Datę wykonania tego zadania.
 <br />
 
-<span class="status status-title">Co możesz zanotować dodatkowo:</span> Raczej nic więcej, chyba że coś przyjdzie Ci do głowy.
-
 ---
 ### <div class="colored centered">Teraz możesz już zapraszać patronów!</div>
 
 ---
+<span class="status status-title">Co możesz zanotować dodatkowo:</span> Raczej nic więcej, chyba że coś przyjdzie Ci do głowy.
+
 <span class="status status-title">Szczegóły:</span>
-- na liście do wydrukowania („[🖶](wszystkie_materialy_do_pobrania.md#bog)”), pod miejscem do wpisania daty wykonania powyższego zadania, możemy wpisać Osoby Boskie o numerach: „**I**” (Bój Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) i „**I+II+III**” (Trójca Przenajświętsza) dla czterech list zapraszania patronów: [<span class="status status-list"><span class="status status-blue">A</span> Patroni - obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni - orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">♥</span> Patroni</span>](patroni.md). Więcej szczegółów jak to uzupełnić znajdziesz w opisie każdej z tych list.
+- Na liście do wydrukowania („[🖶](wszystkie_materialy_do_pobrania.md#bog)”), pod miejscem do wpisania daty wykonania powyższego zadania, możemy wpisać Osoby Boskie o numerach: „**I**” (Bój Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) i „**I+II+III**” (Trójca Przenajświętsza) dla czterech list zapraszania patronów: [<span class="status status-list"><span class="status status-blue">A</span> Patroni - obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni - orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">♥</span> Biali Patroni</span>](biali_patroni.md). Więcej szczegółów jak to uzupełnić znajdziesz w opisie każdej z tych list,
+- Wykonanie tego zadania upoważnia Cię do posiadania [4 kart patronów](karty_kolekcjonerskie.md) z Osobami Boskimi (patrz wyżej).
 
 ---
 [Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  
