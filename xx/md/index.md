@@ -14,6 +14,7 @@
 - [<span><span class="status status-list"><span class="status status-list">C</span> Miejsca</span></span>](miejsca.md)
 - [<span><span class="status status-list"><span class="status status-list">M</span> Osoby</span></span>](osoby.md)
 - [<span><span class="status status-list"><span class="status status-list">＊</span> Przypisy</span></span>](przypisy.md)
+- [Jak wybrać patrona, tytuł patrona lub święto na dany dzień roku?](jak_wybrac_patrona_tytul_patrona_lub_swieto_na_dany_dzien_roku.md)
 - [Wszystkie materiały do pobrania](wszystkie_materialy_do_pobrania.md)
 - [Karty kolekcjonerskie](karty_kolekcjonerskie.md)
 - [Przyjaciele „Moich Patronów”](przyjaciele_moich_patronow.md)
