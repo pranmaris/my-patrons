@@ -7,6 +7,8 @@
 
 - [<span id="miejsca" class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md): [wersja pełna](../../xx/pdf/lista_v1_c_miejsca.pdf),
 
+- [<span id="relikwie-i-groby" class="status status-list"><span class="status status-list">H</span> Relikwie i Groby</span>](relikwie_i_groby.md): _wkrótce_,
+
 - [<span id="nabozenstwa" class="status status-list"><span class="status status-list">I</span> Nabożeństwa</span>](nabozenstwa.md): _wkrótce_,
 
    - [<span id="nabozenstwo-a" class="status status-list"><span class="status status-list">IA</span> Nabożeństwo IX Pierwszych Piątków Miesiąca</span>](nabozenstwo_ix_pierwszych_piatkow_miesiaca.md): [wersja pełna](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf),
@@ -16,6 +18,10 @@
 - [<span id="sakramenty-i-patroni-imion" class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>](sakramenty_i_patroni_imion.md): _wkrótce_,
 
 - [<span id="osoby" class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md): [wersja pełna](../../xx/pdf/lista_v1_m_osoby.pdf),
+
+- [<span id="cytaty" class="status status-list"><span class="status status-list">O</span> Cytaty</span>](cytaty.md): _wkrótce_,
+
+- [<span id="selfie-z-patronem" class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie-z-patronem.md): _wkrótce_,
 
 - [<span id="patroni-opiekunowie" class="status status-list"><span class="status status-yellow">T</span> Patroni - opiekunowie</span>](patroni_opiekunowie.md): _wkrótce_,
 
