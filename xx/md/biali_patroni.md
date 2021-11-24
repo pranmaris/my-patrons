@@ -1,31 +1,59 @@
 # <span class="status status-list"><span class="status status-white">♥</span> Biali Patroni</span>
 <br />
 
-<span class="status status-title">Wymagany status:</span> już wkrótce ...
+<span class="status status-title">Wymagany status:</span> <span class="status status-indigo">indygo</span> - po wykonaniu zadania zmieni się na <span class="status status-white">biały</span>.
 <br />
 
-<span class="status status-title">Limity:</span> już wkrótce ...
+<span class="status status-title">Limity:</span> Można zaprosić tylko jednego **białego patrona** dziennie.
 <br />
 
-<span class="status status-title">Opis zadania:</span> już wkrótce ...
+<span class="status status-title">Opis zadania:</span> Prosimy wybranego świętego lub błogosławionego patrona o jego **pełne błogosławieństwo** dla nas na całe życie.
 <br />
 
-<span class="status status-title">Kroki:</span> już wkrótce ...
+<span class="status status-title">Kroki:</span>
+- Wybierz patrona, którego chcesz w tym dniu zaprosić jako swojego **białego patrona**,
+- **W tym dniu** udaj się przed **Najświętszy Sakrament** w **dowolnej** parafii, kościele czy innym miejscu,
+- **W tym dniu**, będąc przed **Najświętszym Sakramentem**, na kolanach (jeśli Twoje zdrowie na to pozwala) odmów poniższą modlitwę zwracając się do wybranego patrona (np.: „Błogosławiony Bartolo Longo”, „Święta Faustyno Kowalska”, „Święci Młodziankowie”):
+> Św./Bł. **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
+> zapraszam Ciebie/Was do grona moich osobistych patronów,  
+> i proszę o opiekę, modlitwę, ochronę przed działaniem złego,  
+> o wstawianie się za mną przed Tronem Trójcy Przenajświętszej,  
+> o umocnienie w moim sercu wszelkich cnót Twoich/Waszych,  
+> oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
+> w Imię Ojca i Syna i Ducha Świętego,  
+> Amen.  
+- Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez minumum **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień,
+- **Na koniec**, odmów modlitwę:
+> Chwała Ojcu i Synowi i Duchowi Świętemu,  
+> Jak była na początku, teraz i zawsze i na wieki wieków,  
+> Amen.
+
 <br />
 
-<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> już wkrótce ...
+<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> dla danego patrona.
 <br />
 
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#biali-patroni):</span> już wkrótce ...
+<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#biali-patroni):</span>
+- **Kolejny numer** wybranego patrona (♥1, ♥2, ...),
+- **Datę zaproszenia** patrona (najlepiej z dniem tygodnia),
+- **Nazwę** wybranego patrona (imię i nazwisko, imię zakonne, znany przydomek, miejsce pochodzenia).
 <br />
 
 ---
-### <div class="colored centered">już wkrótce ...</div>
+### <div class="colored centered">Biali Patroni będą szczęśliwi, gdy będziesz się do nich zwracać!</div>
 
 ---
-<span class="status status-title">Co możesz zanotować dodatkowo:</span> już wkrótce ...
+<span class="status status-title">Co możesz zanotować dodatkowo:</span>
+- Informacja czy patron jest **święty** czy **błogosławiony**,
+- **Rok śmierci** patrona,
+- **Informacje o miejscu adoracji**, np. na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
+- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
+- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona i modlitwę „Chwała Ojcu” - postaw dowolny znaczek (np. „✅”),
+- **Datę zakończenia adoracji**, jeśli rozłożyliśmy ją na kilka dni.
+<br />
 
-<span class="status status-title">Szczegóły:</span> już wkrótce ...
+<span class="status status-title">Szczegóły:</span>
+- Aby zaprosić **kolejnego** białego patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**!
 
 ---
 [Powrót do zapraszania patronów](jak_zapraszac_patronow.md)  

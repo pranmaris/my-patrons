@@ -23,7 +23,7 @@
     - Miej bezpośrednio w zasięgu wzroku **rzeźbę, witraż, malowidło lub obraz ścienny** (w ramie lub wiszący w kościele albo innym świętym miejscu) wybranego patrona,
     - Osobiście (nie online!) weź udział we Mszy św. w **dowolnej** parafii lub kościele,
 - Przeczytaj jakąkolwiek notkę o wybranym patronie opisującą jego życie i działalność, aby go lepiej poznać,
-- Odmów następującą modlitwę (najlepiej klęcząc jeśli zdrowie Ci na to pozwala), zwracając się do wybranego patrona (np.: „Błogosławiona Sancjo Szymkowiak”, „Święci Aniołowie Stróżowie”):
+- Odmów następującą modlitwę (najlepiej klęcząc jeśli zdrowie Ci na to pozwala), zwracając się do wybranego patrona (np.: „Błogosławiona Sancjo Szymkowiak”, „Święty Antoni z Padwy”, „Święci Aniołowie Stróżowie”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > zapraszam Ciebie/Was do grona moich patronów - opiekunów,  
 > i proszę o wstawiennictwo i modlitwę za mnie,  

@@ -21,7 +21,7 @@
 - **W tym dniu**, osobiście (nie online!) weź udział we Mszy św. w **dowolnej** parafii lub kościele,
 - **W tym dniu**, przyjmij godnie Komunię Świętą w dowolnej intencji - fizycznie lub duchowo,
 - **W chwili przyjęcia Komunii św.** musisz być w stanie **Łaski Uświęcającej**! Powinieneś także dobrze dbać o swoje sumienie i **spowiadać się** co około miesiąc, a na pewno **nie rzadziej niż co 40 dni**!
-- Odmów następującą modlitwę (najlepiej klęcząc zaraz po przyjęciu Komunii św.), zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno”, „Święci Młodziankowie”):
+- Odmów następującą modlitwę (najlepiej klęcząc zaraz po przyjęciu Komunii św.), zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno”, „Nieznani Towarzysze św. Maurycego”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > zapraszam Ciebie/Was do grona moich patronów - obrońców,  
 > i proszę o wstawiennictwo i modlitwę za mnie,  
