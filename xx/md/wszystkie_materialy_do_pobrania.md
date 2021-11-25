@@ -33,15 +33,21 @@
 
 - [<span id="osoby" class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md): [wersja pełna](../../xx/pdf/lista_v1_m_osoby.pdf),
 
+- [<span id="cmentarze" class="status status-list"><span class="status status-list">N</span> Cmentarze</span>](cmentarze.md): _wkrótce_,
+
 - [<span id="cytaty" class="status status-list"><span class="status status-list">O</span> Cytaty</span>](cytaty.md): _wkrótce_,
 
 - [<span id="adoracje-u-patrona" class="status status-list"><span class="status status-list">P</span> Adoracje u Patrona</span>](adoracje_u_patrona.md): _wkrótce_,
+
+- [<span id="zakony" class="status status-list"><span class="status status-list">R</span> Zakony</span>](zakony.md): _wkrótce_,
 
 - [<span id="selfie-z-patronem" class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie-z-patronem.md): _wkrótce_,
 
 - [<span id="patroni-opiekunowie" class="status status-list"><span class="status status-yellow">T</span> Patroni - opiekunowie</span>](patroni_opiekunowie.md): _wkrótce_,
 
 - [<span id="patroni-oredownicy" class="status status-list"><span class="status status-red">U</span> Patroni - orędownicy</span>](patroni_oredownicy.md): _wkrótce_,
+
+- [<span id="klasztory" class="status status-list"><span class="status status-list">V</span> Klasztory</span>](klasztory.md): _wkrótce_,
 
 - [<span id="przypisy" class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md): [wersja pełna](../../xx/pdf/lista_v1_przypisy.pdf),
 
