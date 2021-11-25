@@ -21,9 +21,13 @@
 
 - [<span id="nabozenstwa" class="status status-list"><span class="status status-list">I</span> Nabożeństwa</span>](nabozenstwa.md): _wkrótce_,
 
-   - [<span id="nabozenstwo-a" class="status status-list"><span class="status status-list">IA</span> Nabożeństwo IX Pierwszych Piątków Miesiąca</span>](nabozenstwo_ix_pierwszych_piatkow_miesiaca.md): [wersja pełna](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf),
+   - [<span id="nabozenstwo-ix-pierwszych-piatkow-miesiaca" class="status status-list"><span class="status status-list">IA</span> Nabożeństwo IX Pierwszych Piątków Miesiąca</span>](nabozenstwo_ix_pierwszych_piatkow_miesiaca.md): [wersja pełna](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf),
 
-   - [<span id="nabozenstwo-b" class="status status-list"><span class="status status-list">IB</span> Nabożeństwo V Pierwszych Sobót Miesiąca</span>](nabozenstwo_v_pierwszych_sobot_miesiaca.md): [wersja pełna](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf),
+   - [<span id="nabozenstwo-v-pierwszych-sobot-miesiaca" class="status status-list"><span class="status status-list">IB</span> Nabożeństwo V Pierwszych Sobót Miesiąca</span>](nabozenstwo_v_pierwszych_sobot_miesiaca.md): [wersja pełna](../../xx/pdf/lista_v1_i_nabozenstwa_ab.pdf),
+
+   - [<span id="nabozenstwo-drogi-krzyzowej" class="status status-list"><span class="status status-list">IC</span> Nabożeństwo Drogi Krzyżowej</span>](nabozenstwo_drogi_krzyzowej.md): _wkrótce_,
+
+   - [<span id="nabozenstwo-gorzkich-zalow" class="status status-list"><span class="status status-list">ID</span> Nabożeństwo Gorzkich Żalów</span>](nabozenstwo_gorzkich_zalow.md): _wkrótce_,
 
 - [<span id="rocznice-poswiecenia-kosciolow" class="status status-list"><span class="status status-list">J</span> Rocznice Poświęcenia Kościołów</span>](rocznice_poswiecenia_kosciolow.md): _wkrótce_,
 
