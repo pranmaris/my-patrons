@@ -43,6 +43,8 @@
 
 - [<span id="adoracje-u-patrona" class="status status-list"><span class="status status-list">P</span> Adoracje u Patrona</span>](adoracje_u_patrona.md): _wkrótce_,
 
+- [<span id="nowenny" class="status status-list"><span class="status status-list">Q</span> Nowenny</span>](nowenny.md): _wkrótce_,
+
 - [<span id="zakony" class="status status-list"><span class="status status-list">R</span> Zakony</span>](zakony.md): _wkrótce_,
 
 - [<span id="selfie-z-patronem" class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie-z-patronem.md): _wkrótce_,

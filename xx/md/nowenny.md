@@ -1,7 +1,7 @@
-# <span class="status status-list"><span class="status status-list">V</span> Klasztory</span>
+# <span class="status status-list"><span class="status status-list">Q</span> Nowenny</span>
 <br />
 
-<span class="status status-title">Wymagany status:</span> <span class="status status-red">czerwony</span>, <span class="status status-orange">pomarańczowy</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span> albo <span class="status status-white">biały</span>.
+<span class="status status-title">Wymagany status:</span> <span class="status status-white">biały</span>.
 <br />
 
 <span class="status status-title">Limity:</span> już wkrótce ...
@@ -16,7 +16,7 @@
 <span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> już wkrótce ...
 <br />
 
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#klasztory):</span> już wkrótce ...
+<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#nowenny):</span> już wkrótce ...
 <br />
 
 ---
@@ -28,5 +28,5 @@
 <span class="status status-title">Szczegóły:</span> już wkrótce ...
 
 ---
-[Powrót do patronów - orędowników](patroni_oredownicy.md)  
+[Powrót do białych patronów](biali_patroni.md)  
 [Powrót do głównego menu](index.md)

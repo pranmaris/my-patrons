@@ -28,5 +28,5 @@
 <span class="status status-title">Szczegóły:</span> już wkrótce ...
 
 ---
-[Powrót do patronów - obrońców](patroni_obroncy.md)  
+[Powrót do patronów - orędowników](patroni_oredownicy.md)  
 [Powrót do głównego menu](index.md)
