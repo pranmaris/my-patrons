@@ -1,7 +1,7 @@
 # <span class="status status-list"><span class="status status-list">L</span> Szkaplerze</span>
 <br />
 
-<span class="status status-title">Wymagany status:</span> <span class="status status-green">zielony</span>, <span class="status status-blue">niebieski</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span> albo <span class="status status-white">biały</span>.
+<span class="status status-title">Wymagany status:</span> <span class="status status-white">biały</span>.
 <br />
 
 <span class="status status-title">Limity:</span> już wkrótce ...
