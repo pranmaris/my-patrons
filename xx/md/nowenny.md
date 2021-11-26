@@ -1,7 +1,7 @@
 # <span class="status status-list"><span class="status status-list">Q</span> Nowenny</span>
 <br />
 
-<span class="status status-title">Wymagany status:</span> <span class="status status-white">biały</span>.
+<span class="status status-title">Wymagany status patrona lub święta:</span> <span class="status status-white">biały</span>.
 <br />
 
 <span class="status status-title">Limity:</span> już wkrótce ...

@@ -9,7 +9,7 @@
 
 <span class="status status-title">Opis zadania:</span> **Zawierzamy Bogu** cały nasz udział w inicjatywie _„Moich Patronów”_. **Prosimy Go**, aby dał nam siły, umiejętności i zapał do odkrywania **wszystkich świąt** i zapraszania **wszystkich patronów**. Chcemy także **wyznać** Mu naszą **wiarę** i **miłość**!
 
-Zmiana koloru <span class="status status-black">czarnego</span> na <span class="status status-gray">szary</span> symbolizuje obdarowanie nas **Bożą Łaską i Światłem**, bez których nie bylibyśmy w stanie niczego uczynić. Są one częściowe (<span class="status status-gray">szary</span> to nie <span class="status status-white">biały</span>), ale też i wystarczające. Współpracując z nimi wedle Bożej woli, na pewno damy radę sprostać wszystkim napotkanym trudnościom i osiągniemy wyznaczony cel!
+Zmiana koloru <span class="status status-black">czarnego</span> na <span class="status status-gray">szary</span> symbolizuje obdarowanie nas **Bożym Światłem i Łaskami**, bez których nie bylibyśmy w stanie niczego uczynić. Są one częściowe (<span class="status status-gray">szary</span> to nie <span class="status status-white">biały</span>), ale na początek wystarczą. Współpracując z nimi wedle Bożej woli, na pewno damy radę sprostać wszystkim napotkanym trudnościom i osiągniemy wyznaczony cel!
 <br />
 
 <span class="status status-title">Kroki:</span>
@@ -32,13 +32,13 @@ Zmiana koloru <span class="status status-black">czarnego</span> na <span class="
 <br />
 
 ---
-### <div class="colored centered">Teraz możesz już zapraszać patronów!</div>
+### <div class="colored centered">Teraz możesz już odkrywać święta i zapraszać patronów!</div>
 
 ---
 <span class="status status-title">Co możesz zanotować dodatkowo:</span> Raczej nic więcej, chyba że coś przyjdzie Ci do głowy.
 
 <span class="status status-title">Szczegóły:</span>
-- Na liście do wydrukowania („[🖶](wszystkie_materialy_do_pobrania.md#bog)”), pod miejscem do wpisania daty wykonania powyższego zadania, możemy wpisać Osoby Boskie o numerach: „**I**” (Bój Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) i „**I+II+III**” (Trójca Przenajświętsza) dla czterech list zapraszania patronów: [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">♥</span> Biali Patroni</span>](biali_patroni.md). Więcej szczegółów jak to uzupełnić znajdziesz w opisie każdej z tych list,
+- Na liście do wydrukowania („[🖶](wszystkie_materialy_do_pobrania.md#bog)”), pod miejscem do wpisania daty wykonania powyższego zadania, możemy wpisać Osoby Boskie o numerach: „**I**” (Bój Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) i „**I+II+III**” (Trójca Przenajświętsza) dla czterech list zapraszania patronów: [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md). Więcej szczegółów jak to uzupełnić znajdziesz w opisie każdej z tych list,
 - Wykonanie tego zadania upoważnia Cię do posiadania [4 kart patronów](karty_kolekcjonerskie.md) z Osobami Boskimi (patrz wyżej).
 
 ---

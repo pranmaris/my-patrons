@@ -5,7 +5,7 @@
 
 - [<span id="patroni-obroncy" class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md): _wkrótce_,
 
-- [<span id="swieta" class="status status-list"><span class="status status-list">B</span> Święta</span>](swieta.md): _wkrótce_,
+- [<span id="swieta" class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md): _wkrótce_,
 
 - [<span id="miejsca" class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md): [wersja pełna](../../xx/pdf/lista_v1_c_miejsca.pdf),
 
@@ -41,7 +41,7 @@
 
 - [<span id="cytaty" class="status status-list"><span class="status status-list">O</span> Cytaty</span>](cytaty.md): _wkrótce_,
 
-- [<span id="adoracje-u-patrona" class="status status-list"><span class="status status-list">P</span> Adoracje u Patrona</span>](adoracje_u_patrona.md): _wkrótce_,
+- [<span id="biali-patroni" class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md): _wkrótce_.
 
 - [<span id="nowenny" class="status status-list"><span class="status status-list">Q</span> Nowenny</span>](nowenny.md): _wkrótce_,
 
@@ -55,8 +55,9 @@
 
 - [<span id="klasztory" class="status status-list"><span class="status status-list">V</span> Klasztory</span>](klasztory.md): _wkrótce_,
 
+- [<span id="adoracje-u-patrona" class="status status-list"><span class="status status-list">W</span> Adoracje u Patrona</span>](adoracje_u_patrona.md): _wkrótce_,
+
 - [<span id="przypisy" class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md): [wersja pełna](../../xx/pdf/lista_v1_przypisy.pdf),
 
-- [<span id="biali-patroni" class="status status-list"><span class="status status-white">♥</span> Biali Patroni</span>](biali_patroni.md): _wkrótce_.
 
 [Powrót do głównego menu](index.md)

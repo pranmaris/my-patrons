@@ -1,7 +1,7 @@
 # <span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>
 <br />
 
-<span class="status status-title">Wymagany status:</span> Jeden z poniższych:
+<span class="status status-title">Wymagany status patrona:</span> Jeden z poniższych:
 - <span class="status status-gray">szary</span> - po wykonaniu zadania zmieni się na <span class="status status-yellow">żółty</span>,
 
 - <span class="status status-red">czerwony</span> - po wykonaniu zadania zmieni się na <span class="status status-orange">pomarańczowy</span>,

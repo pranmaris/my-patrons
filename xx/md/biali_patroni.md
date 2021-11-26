@@ -1,7 +1,7 @@
-# <span class="status status-list"><span class="status status-white">♥</span> Biali Patroni</span>
+# <span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>
 <br />
 
-<span class="status status-title">Wymagany status:</span> <span class="status status-indigo">indygo</span> - po wykonaniu zadania zmieni się na <span class="status status-white">biały</span>.
+<span class="status status-title">Wymagany status patrona:</span> <span class="status status-indigo">indygo</span> - po wykonaniu zadania zmieni się na <span class="status status-white">biały</span>.
 <br />
 
 <span class="status status-title">Limity:</span> Można zaprosić tylko jednego **białego patrona** dziennie.
@@ -34,7 +34,7 @@
 <br />
 
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#biali-patroni):</span>
-- **Kolejny numer** wybranego patrona (♥1, ♥2, ...),
+- **Kolejny numer** wybranego patrona (P1, P2, ...),
 - **Datę zaproszenia** patrona (najlepiej z dniem tygodnia),
 - **Nazwę** wybranego patrona (imię i nazwisko, imię zakonne, znany przydomek, miejsce pochodzenia).
 <br />
