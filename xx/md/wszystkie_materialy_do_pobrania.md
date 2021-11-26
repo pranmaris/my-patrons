@@ -3,7 +3,7 @@
 
 - [<span id="bog" class="status status-list"><span class="status status-gray">∞</span> Bóg</span>](bog.md): _wkrótce_,
 
-- [<span id="patroni-obroncy" class="status status-list"><span class="status status-blue">A</span> Patroni - obrońcy</span>](patroni_obroncy.md): _wkrótce_,
+- [<span id="patroni-obroncy" class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md): _wkrótce_,
 
 - [<span id="swieta" class="status status-list"><span class="status status-list">B</span> Święta</span>](swieta.md): _wkrótce_,
 
@@ -49,9 +49,9 @@
 
 - [<span id="selfie-z-patronem" class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie-z-patronem.md): _wkrótce_,
 
-- [<span id="patroni-opiekunowie" class="status status-list"><span class="status status-yellow">T</span> Patroni - opiekunowie</span>](patroni_opiekunowie.md): _wkrótce_,
+- [<span id="patroni-opiekunowie" class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md): _wkrótce_,
 
-- [<span id="patroni-oredownicy" class="status status-list"><span class="status status-red">U</span> Patroni - orędownicy</span>](patroni_oredownicy.md): _wkrótce_,
+- [<span id="patroni-oredownicy" class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md): _wkrótce_,
 
 - [<span id="klasztory" class="status status-list"><span class="status status-list">V</span> Klasztory</span>](klasztory.md): _wkrótce_,
 

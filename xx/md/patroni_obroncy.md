@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-blue">A</span> Patroni - obrońcy</span>
+# <span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>
 <br />
 
 <span class="status status-title">Wymagany status:</span> Jeden z poniższych:
@@ -17,7 +17,7 @@
 <br />
 
 <span class="status status-title">Kroki:</span>
-- Wybierz patrona, którego chcesz w tym dniu zaprosić jako swojego **obrońcę** (zobacz [jak wybrać patrona na dany dzień roku](jak_wybrac_patrona_tytul_patrona_lub_swieto_na_dany_dzien_roku.md)),
+- Wybierz patrona, którego chcesz w tym dniu zaprosić jako swojego **obrońcę** (zobacz [jak wybrać patrona na dany dzień roku](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md)),
 - **W tym dniu**, osobiście (nie online!) weź udział we Mszy św. w **dowolnej** parafii lub kościele,
 - **W tym dniu**, przyjmij godnie Komunię Świętą w dowolnej intencji - fizycznie lub duchowo,
 - **W chwili przyjęcia Komunii św.** musisz być w stanie **Łaski Uświęcającej**! Powinieneś także dobrze dbać o swoje sumienie i **spowiadać się** co około miesiąc, a na pewno **nie rzadziej niż co 40 dni**!
@@ -68,7 +68,7 @@
 - W Wielki Piątek wystarczy uczestnictwo w Liturgii Męki Pańskiej, gdyż w tym dniu nie odprawia się mszy św.,
 - Jeżeli w danym wspomnieniu jest podanych więcej patronów zbiorowo, to można każdorazowo zaprosić tylko jednego z nich. Następnych będziemy mogli zaprosić dopiero w dniu kolejnego ich wspomnienia, np. za rok, choć często będzie to możliwe wcześniej. Przykładowo 20 września wybierając wspomnienie pt.: _„Święci męczennicy Andrzej Kim Tae-gŏn, prezbiter, Paweł Chŏng Ha-sang i Towarzysze”_, można zaprosić albo wspomnianego owego Andrzeja albo Pawła albo jednego dowolnego ze znanych z imienia ich 101 pozostałych koreańskich towarzyszy (np. św. Antoniego Daveluya),
 - Jedynie w sytuacji, gdy imiona niektórych patronów nie są znane, możemy zaprosić ich zbiorczo, np. 22 września we wspomnieniu pt.: _„Święci Maurycy i Towarzysze, męczennicy”_, z imienia znamy tylko św. Maurycego, św. Eksuperiusza, św. Kandyda i kilku innych. Można zatem jako patrona wybrać jednego z tych znanych świętych albo zbiorczo pozostałych nadając im nazwę np.: „nieznani towarzysze św. Maurycego” (to około 6600 świętych). Podobnie zbiorczo możemy zaprosić np. _„Wszystkich Świętych”_ – 1 listopada, _„Wszystkich Wiernych Zmarłych”_ – 2 listopada, _„Świętych Młodzianków”_ – 28 grudnia, itd.,
-- Jeżeli dany patron jest wspominany wiele razy w ciągu roku pod różnymi tytułami, zapraszamy go i zapisujemy na listę patronów tylko raz **bez tego tytułu**. Tytuły będziemy niezależnie uzupełniać na liście [<span class="status status-list"><span class="status status-list">Ax</span> Tytuły Patronów</span>](tytuly_patronow.md) w dniach ich wspomnień. Przykładami patronów z tytułami są: Najświętsza Maryja Panna _„Różańcowa”_ – 7 października, Najświętsza Maryja Panna _„Wspomożycielka Wiernych”_ – 24 maja, św. Józef _„Oblubieniec Najświętszej Maryi Panny”_ – 19 marca, św. Józef _„Rzemieślnik”_ – 1 maja, Jezus Chrystus _„Król Wszechświata”_ – w ostatnią niedzielę roku liturgicznego, itd.
+- Jeżeli dany patron jest wspominany wiele razy w ciągu roku pod różnymi tytułami, zapraszamy go i zapisujemy na listę **patronów - obrońców** tylko raz **bez tego tytułu**. Tytuły będziemy niezależnie uzupełniać na liście [<span class="status status-list"><span class="status status-list">B</span> Święta</span>](swieta.md) w dniach ich wspomnień. Przykładami patronów z tytułami są: Najświętsza Maryja Panna _„Wniebowzięta”_ (od święta _„Wniebowzięcia Najświętszej Maryi Panny”_) - 15 sierpnia, Najświętsza Maryja Panna _„Różańcowa”_ – 7 października, Najświętsza Maryja Panna _„Wspomożycielka Wiernych”_ – 24 maja, św. Józef _„Oblubieniec Najświętszej Maryi Panny”_ – 19 marca, św. Józef _„Rzemieślnik”_ – 1 maja, Jezus Chrystus _„Przemieniony”_ (od święta _„Przemienienia Pańskiego”_) - 6 sierpnia, Jezus Chrystus _„Król Wszechświata”_ – w ostatnią niedzielę roku liturgicznego, itd.
 
 ---
 

@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-yellow">T</span> Patroni - opiekunowie</span>
+# <span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>
 <br />
 
 <span class="status status-title">Wymagany status:</span> Jeden z poniższych:

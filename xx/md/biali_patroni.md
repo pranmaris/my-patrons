@@ -46,7 +46,7 @@
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - Informacja czy patron jest **święty** czy **błogosławiony**,
 - **Rok śmierci** patrona,
-- **Numery** (dodatkowo mogą być też **daty każdego zaproszenia**) tego patrona z list: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni - obrońcy</span>](patroni_obroncy.md) i [<span class="status status-list"><span class="status status-red">U</span> Patroni - orędownicy</span>](patroni_oredownicy.md), np. **T17**, **A35**, **U7**,
+- **Numery** (dodatkowo mogą być też **daty każdego zaproszenia**) tego patrona z list: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) i [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md), np. **T17**, **A35**, **U7**,
 - **Informacje o miejscu adoracji**, np. na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona i modlitwę „Chwała Ojcu” - postaw dowolny znaczek (np. „✅”),

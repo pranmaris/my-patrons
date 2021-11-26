@@ -2,7 +2,7 @@
 <br />
 
 <span class="status status-title">Wymagany status:</span>
-- <span class="status status-gray">szary</span>, <span class="status status-red">czerwony</span>, <span class="status status-blue">niebieski</span> albo <span class="status status-violet">fioletowy</span>: gdy w tym dniu zapraszamy patrona na naszego **opiekuna** - patrz lista [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - opiekunowie</span>](patroni_opiekunowie.md),
+- <span class="status status-gray">szary</span>, <span class="status status-red">czerwony</span>, <span class="status status-blue">niebieski</span> albo <span class="status status-violet">fioletowy</span>: gdy w tym dniu zapraszamy patrona na naszego **opiekuna** - patrz lista [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md),
 - <span class="status status-orange">pomarańczowy</span>, <span class="status status-yellow">żółty</span>, <span class="status status-green">zielony</span>, <span class="status status-indigo">indygo</span> albo <span class="status status-white">biały</span>: gdy patron jest już naszym **patronem - opiekunem**.
 <br />
 
