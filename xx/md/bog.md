@@ -28,14 +28,14 @@ Zmiana koloru <span class="status status-black">czarnego</span> na <span class="
 <span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> w ciągu całego udziału w _„Moich Patronach”_.
 <br />
 
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#bog):</span> Datę wykonania tego zadania.
+<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#bog):</span> **Datę** wykonania tego zadania.
 <br />
 
 ---
 ### <div class="colored centered">Teraz możesz już odkrywać święta i zapraszać patronów!</div>
 
 ---
-<span class="status status-title">Co możesz zanotować dodatkowo:</span> Raczej nic więcej, chyba że coś przyjdzie Ci do głowy.
+<span class="status status-title">Co możesz zanotować dodatkowo:</span> **Miejsce** wykonania zadania - na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**.
 
 <span class="status status-title">Szczegóły:</span>
 - Na liście do wydrukowania („[🖶](wszystkie_materialy_do_pobrania.md#bog)”), pod miejscem do wpisania daty wykonania powyższego zadania, możemy wpisać Osoby Boskie o numerach: „**I**” (Bój Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) i „**I+II+III**” (Trójca Przenajświętsza) dla czterech list zapraszania patronów: [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md). Więcej szczegółów jak to uzupełnić znajdziesz w opisie każdej z tych list,
