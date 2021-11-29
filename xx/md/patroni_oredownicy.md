@@ -32,7 +32,7 @@
 > przed Tronem Trójcy Przenajświętszej,  
 > Amen.
 - **Przez 7 dni** (nie muszą być kolejne) pomódl się za drugą osobę za wstawiennictwem wybranego przez Ciebie patrona:
-> Dobry Boże,  
+> Dobry mój Boże,  
 > przez wstawiennictwo św./bł. **[imię wybranego przeze mnie patrona lub nazwa zbiorcza wielu patronów]**,  
 > proszę o wiele łask Twoich i błogosławieństwo dla **[imię i nazwisko drugiej osoby]**,  
 > Amen.

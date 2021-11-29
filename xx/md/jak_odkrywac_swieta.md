@@ -28,6 +28,7 @@ W inicjatywie _„Moich Patronów”_, przez święta rozumiemy wszelkie **wspom
 - **Niczego co dotyczy jednego patrona, którego można wybrać**, np.:
   - _„Podwyższenia Krzyża Świętego”_ (14 września),
   - _„Święta Rodzina”_ (pierwsza niedziela po Bożym Narodzeniu),
+  - _„Boże Miłosierdzie”_ (niedziela, 7 dni po Zmartwychwstaniu),
   - _„Poświęcenie Bazyliki Laterańskiej”_ (9 listopada).
 
 **Tytuły patronów** mogą występować zamiennie ze **świętami**, dlatego traktujemy je jak święta. Część z nich jest używana zamiennie, innych się nie używa, np.:

@@ -22,7 +22,7 @@
 > oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
 > w Imię Ojca i Syna i Ducha Świętego,  
 > Amen.  
-- Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez minumum **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień,
+- Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień,
 - **Na koniec**, odmów modlitwę:
 > Chwała Ojcu i Synowi i Duchowi Świętemu,  
 > Jak była na początku, teraz i zawsze i na wieki wieków,  
