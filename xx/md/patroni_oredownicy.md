@@ -33,8 +33,8 @@
 > Amen.
 - **Przez 7 dni** (nie muszą być kolejne) pomódl się za drugą osobę za wstawiennictwem wybranego przez Ciebie patrona:
 > Dobry Boże,  
-> przez wstawienictwo św./bł. **[imię wybranego przeze mnie patrona lub nazwa zbiorcza wielu patronów]**,  
-> proszę o wiele Twoich Łask dla **[imię i nazwisko drugiej osoby]**,  
+> przez wstawiennictwo św./bł. **[imię wybranego przeze mnie patrona lub nazwa zbiorcza wielu patronów]**,  
+> proszę o wiele łask Twoich i błogosławieństwo dla **[imię i nazwisko drugiej osoby]**,  
 > Amen.
 
 <br />
@@ -79,16 +79,20 @@
 <br />
 
 <span class="status status-title">Szczegóły:</span>
-- Dopiero po odmówieniu **całej siedmiodniowej modlitwy za drugą osobę**, status wybranego przez nas patrona się zmieni i będziemy mogli brać udział w związanych z tym patronem wyzwaniach!
+- Dopiero po odmówieniu **całej siedmiodniowej modlitwy za drugą osobę**, status wybranego przez nas patrona się zmieni i będziemy mogli brać udział w związanych z tym patronem wyzwaniach! Nie możemy również wcześniej zaprosić innego patrona - orędownika z tą samą osobą!
 - Jeśli będziecie chcieć z drugą zapraszającą osobą, możecie dać sobie jakiś pamiątkowy wpis (na kartce, w zeszycie lub gdziekolwiek) o treści, np.:
 > Dnia **[data spotkania]**,  
 > zaproszony został patron - orędownik: **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
 > co umożliwiła mi osoba **[nazwisko i podpis drugiej osoby]**.
-- To zadanie możemy wykonać raz także dla Osób Boskich. Można to uczynić nie zważając na dzienny limit zaproszonych **patronów - orędowników**, czyli zaprosić w jednym dniu np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem. **Osoby Boskie zapraszamy dodatkowo w dniu zapraszania razem z kimś innego patrona** i spełniając poniższe wymagania:
+- To zadanie możemy wykonać raz także dla Osób Boskich. Można to uczynić nie zważając na dzienny limit zaproszonych **patronów - orędowników**, czyli zaprosić w jednym dniu np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem. Do Osób Boskich modlimy się innymi słowami niż do patronów, mianowicie:
+> **[Boże Ojcze/Jezu Chrysie/Duchu Święty/Trójco Przenajświętsza]** zmiłuj się nade mną!  
+
+  **Osoby Boskie zawsze zapraszamy dodatkowo w dniu zapraszania innego patrona - orędownika**, spełniając poniższe wymagania:
   - Boga Ojca (numer „**U I**”) możemy zaprosić tylko w dniu rocznicy przyjęcia przez nas Sakramentu **Chrztu Świętego**,
   - Jezusa Chrystusa (numer „**U II**”) możemy zaprosić tylko w dniu rocznicy przyjęcia przez nas Sakramentu **Pierwszej Komunii Świętej**,
   - Ducha Świętego (numer „**U III**”) możemy zaprosić tylko w dniu rocznicy przyjęcia przez nas Sakramentu **Bierzmowania**,
   - całą Trójcę Przenajświętszą (numer „**U I+II+III**”) możemy zaprosić tylko w dniu rocznicy naszych **urodzin**.
+
 
 ---
 
