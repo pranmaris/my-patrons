@@ -23,9 +23,9 @@
 ### <div class="colored centered">już wkrótce ...</div>
 
 ---
-<span class="status status-title">Co możesz zanotować dodatkowo:</span> już wkrótce ...
-
 <span class="status status-title">Szczegóły:</span> już wkrótce ...
+
+<span class="status status-title">Co możesz zanotować dodatkowo:</span> już wkrótce ...
 
 ---
 [Powrót do nabożeństw](nabozenstwa.md)  

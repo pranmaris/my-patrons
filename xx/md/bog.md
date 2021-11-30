@@ -7,14 +7,12 @@
 <span class="status status-title">Limity:</span> To zadanie można i wystarczy wykonać tylko jeden raz.
 <br />
 
-<span class="status status-title">Opis zadania:</span> **Zawierzamy Bogu** cały nasz udział w inicjatywie _„Moich Patronów”_. **Prosimy Go**, aby dał nam siły, umiejętności i zapał do odkrywania **wszystkich świąt** i zapraszania **wszystkich patronów**. Chcemy także **wyznać** Mu naszą **wiarę** i **miłość**!
-
-Zmiana koloru <span class="status status-black">czarnego</span> na <span class="status status-gray">szary</span> symbolizuje obdarowanie nas **Bożym Światłem i Łaskami**, bez których nie bylibyśmy w stanie niczego uczynić. Są one częściowe (<span class="status status-gray">szary</span> to nie <span class="status status-white">biały</span>), ale na początek wystarczą. Współpracując z nimi wedle Bożej woli, na pewno damy radę sprostać wszystkim napotkanym trudnościom i osiągniemy wyznaczony cel!
+<span class="status status-title">Opis zadania:</span> **Zawierzamy Bogu** cały nasz udział w inicjatywie _„Moich Patronów”_. **Prosimy Go**, aby dał nam siły, umiejętności i zapał do [odkrywania **wszystkich świąt**](jak_odkrywac_swieta.md) i [zapraszania **wszystkich patronów**](jak_zapraszac_patronow.md). Chcemy także **wyznać** Mu naszą **wiarę** i **miłość**!
 <br />
 
 <span class="status status-title">Kroki:</span>
-- własnymi słowami lub w myślach, z miłością i ufnością poproś Boga o pokierowanie Tobą wedle Jego woli w dalszej drodze z _„Moimi Patronami”_,
-- w pozycji klęczącej (jeśli Twoje zdrowie na to pozwala), będąc (najlepiej) w kościele lub innym świętym miejscu, odmów _„Credo”_:
+- Własnymi słowami lub w myślach, z miłością i ufnością poproś Boga o pokierowanie Tobą wedle Jego woli w dalszej drodze z _„Moimi Patronami”_,
+- W pozycji klęczącej (jeśli Twoje zdrowie na to pozwala), będąc (najlepiej) w kościele lub innym świętym miejscu, odmów _„Credo”_:
 > Wierzę w jednego Boga, Ojca Wszechmogącego, Stworzyciela nieba i ziemi, wszystkich rzeczy widzialnych i niewidzialnych.
 >
 > I w jednego Pana Jezusa Chrystusa, Syna Bożego Jednorodzonego, który z Ojca jest zrodzony przed wszystkimi wiekami. Bóg z Boga, Światłość ze Światłości, Bóg prawdziwy z Boga prawdziwego. Zrodzony, a nie stworzony, współistotny Ojcu, a przez Niego wszystko się stało. On to dla nas ludzi i dla naszego zbawienia zstąpił z nieba. I za sprawą Ducha Świętego przyjął ciało z Maryi Dziewicy i stał się człowiekiem. Ukrzyżowany również za nas pod Poncjuszem Piłatem został umęczony i pogrzebany. I zmartwychwstał trzeciego dnia, jak oznajmia Pismo. I wstąpił do nieba; siedzi po prawicy Ojca. I powtórnie przyjdzie w chwale sądzić żywych i umarłych, a królestwu Jego nie będzie końca.
@@ -35,11 +33,11 @@ Zmiana koloru <span class="status status-black">czarnego</span> na <span class="
 ### <div class="colored centered">Teraz możesz już odkrywać święta i zapraszać patronów!</div>
 
 ---
-<span class="status status-title">Co możesz zanotować dodatkowo:</span> **Miejsce** wykonania zadania - na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**.
-
 <span class="status status-title">Szczegóły:</span>
 - Na liście do wydrukowania („[🖶](wszystkie_materialy_do_pobrania.md#bog)”), pod miejscem do wpisania daty wykonania powyższego zadania, możemy wpisać Osoby Boskie o numerach: „**I**” (Bój Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) i „**I+II+III**” (Trójca Przenajświętsza) dla czterech list zapraszania patronów: [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md). Więcej szczegółów jak to uzupełnić znajdziesz w opisie każdej z tych list,
 - Wykonanie tego zadania upoważnia Cię do posiadania [4 kart patronów](karty_kolekcjonerskie.md) z Osobami Boskimi (patrz wyżej).
+
+<span class="status status-title">Co możesz zanotować dodatkowo:</span> **Miejsce** wykonania zadania - na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**.
 
 ---
 [Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  

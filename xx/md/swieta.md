@@ -39,6 +39,9 @@
 ### <div class="colored centered">Celebruj i poznawaj święta Kościoła!</div>
 
 ---
+<span class="status status-title">Szczegóły:</span>
+- Do czytania o świętach polecamy skorzystanie z takich stron jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), [Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_katolickie_w_Polsce) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
+
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - **Numer patrona**, który został zaproszony jako **patron - obrońca** w tym dniu, np. „**MSZA → A26**”,
 - Informacja, na podstawie jakiego **źródła** wybraliśmy święto w tym dniu roku. Mogą to być poniższe skróty:
@@ -46,9 +49,6 @@
   - **SMR** - Martyrologium Rzymskie z 1956 roku, np. **SMR:7** j.w.,
   - **KAL** - kalendarz liturgiczny, gdy święto było jawnie wspomniane na mszy, w której uczestniczyliśmy,
   - **ODP** - suma odpustu parafialnego wybranego święta.
-
-<span class="status status-title">Szczegóły:</span>
-- Do czytania o świętach polecamy skorzystanie z takich stron jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), [Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_katolickie_w_Polsce) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
 
 ---
 [Powrót do odkrywania świąt](jak_odkrywac_swieta.md)  

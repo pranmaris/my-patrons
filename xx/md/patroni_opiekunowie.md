@@ -46,6 +46,16 @@
 
 ---
 
+<span class="status status-title">Szczegóły:</span>
+- Wybranymi patronami muszą być zatwierdzeni święci lub błogosławieni Kościoła Rzymskokatolickiego,
+- Tylko nieznanych z imienia patronów możemy zaprosić zbiorczo, np. Świętych Młodzianków, nieznanych z imienia (innych niż np. św. Eksuperiusz, czy św. Kandyd) towarzyszy św. Maurycego, itp.,
+- Za wizerunki patronów uważamy te z miejsc sakralnych lub (nawet artystycznie) nawiązujące do nich, np. Święty Mikołaj był biskupem, a nie brodatym starcem w biało-czerwonej czapce,
+- To zadanie możemy wykonać raz także dla Osób Boskich (każdej z osobna oraz łącznie dla Trójcy Świętej), pamiętając że wizerunkiem Boga Ojca (numer „**T I**”) może być np. siwy, brodaty mężczyzna, Jezusa Chrystusa (numer „**T II**”) dowolny jego wizerunek, Ducha Świętego (numer „**T III**”) - gołębica, a całej Trójcy Świętej (numer „**T I+II+III**”) - oko wpisane w trójkąt. Można to uczynić nie zważając na dzienny limit zaproszonych patronów - opiekunów, czyli zaprosić w jednym dniu np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem. Do Osób Boskich modlimy się innymi słowami niż do patronów, mianowicie:
+> **[Boże Ojcze/Jezu Chrysie/Duchu Święty/Trójco Przenajświętsza]** zmiłuj się nade mną!
+- W Wielki Piątek wystarczy uczestnictwo w Liturgii Męki Pańskiej, gdyż w tym dniu nie odprawia się mszy św.,
+- Do czytania o patronach polecamy skorzystanie z takich stron jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), Wikipedia: ([strona](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ci_i_b%C5%82ogos%C5%82awieni_Ko%C5%9Bcio%C5%82a_katolickiego) lub [kategoria](https://pl.wikipedia.org/wiki/Kategoria:%C5%9Awi%C4%99ci_katoliccy)) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
+<br />
+
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - Informacja czy patron jest **święty** czy **błogosławiony**,
 - **Rok śmierci** patrona,
@@ -58,16 +68,6 @@
     - **kapłanów odprawiających Mszę św.** - na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M12** albo **M13+2+X,** gdy mszę koncelebrowały osoby o numerach 13 (celebrans jako pierwszy) i 2 oraz jeden kapłan spoza naszej listy,
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
 - Zaznaczenie czy **przeczytano notkę** o patronie i **odmówiono modlitwę** do niego (j.w. postaw dowolny znaczek).
-<br />
-
-<span class="status status-title">Szczegóły:</span>
-- Wybranymi patronami muszą być zatwierdzeni święci lub błogosławieni Kościoła Rzymskokatolickiego,
-- Tylko nieznanych z imienia patronów możemy zaprosić zbiorczo, np. Świętych Młodzianków, nieznanych z imienia (innych niż np. św. Eksuperiusz, czy św. Kandyd) towarzyszy św. Maurycego, itp.,
-- Za wizerunki patronów uważamy te z miejsc sakralnych lub (nawet artystycznie) nawiązujące do nich, np. Święty Mikołaj był biskupem, a nie brodatym starcem w biało-czerwonej czapce,
-- To zadanie możemy wykonać raz także dla Osób Boskich (każdej z osobna oraz łącznie dla Trójcy Świętej), pamiętając że wizerunkiem Boga Ojca (numer „**T I**”) może być np. siwy, brodaty mężczyzna, Jezusa Chrystusa (numer „**T II**”) dowolny jego wizerunek, Ducha Świętego (numer „**T III**”) - gołębica, a całej Trójcy Świętej (numer „**T I+II+III**”) - oko wpisane w trójkąt. Można to uczynić nie zważając na dzienny limit zaproszonych patronów - opiekunów, czyli zaprosić w jednym dniu np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem. Do Osób Boskich modlimy się innymi słowami niż do patronów, mianowicie:
-> **[Boże Ojcze/Jezu Chrysie/Duchu Święty/Trójco Przenajświętsza]** zmiłuj się nade mną!
-- W Wielki Piątek wystarczy uczestnictwo w Liturgii Męki Pańskiej, gdyż w tym dniu nie odprawia się mszy św.,
-- Do czytania o patronach polecamy skorzystanie z takich stron jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), Wikipedia: ([strona](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ci_i_b%C5%82ogos%C5%82awieni_Ko%C5%9Bcio%C5%82a_katolickiego) lub [kategoria](https://pl.wikipedia.org/wiki/Kategoria:%C5%9Awi%C4%99ci_katoliccy)) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
 
 ---
 

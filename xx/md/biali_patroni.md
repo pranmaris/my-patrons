@@ -1,7 +1,7 @@
 # <span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>
 <br />
 
-<span class="status status-title">Wymagany status patrona:</span> <span class="status status-indigo">indygo</span> - po wykonaniu zadania zmieni się na <span class="status status-white">biały</span>.
+<span class="status status-title">Wymagany status patrona:</span> <span class="status status-indigo">Indygo</span> - po wykonaniu zadania zmieni się na <span class="status status-white">biały</span>.
 <br />
 
 <span class="status status-title">Limity:</span> Można zaprosić tylko jednego **białego patrona** dziennie.
@@ -23,9 +23,18 @@
 > w Imię Ojca i Syna i Ducha Świętego,  
 > Amen.  
 - Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień,
-- **Na koniec**, odmów modlitwę:
-> Chwała Ojcu i Synowi i Duchowi Świętemu,  
-> Jak była na początku, teraz i zawsze i na wieki wieków,  
+- **Na koniec**, odmów modlitwę **_„Chwała na wysokości Bogu”_**, czyli:
+> Chwała na wysokości Bogu, a na ziemi pokój ludziom dobrej woli.  
+> Chwalimy Cię, błogosławimy Cię, wielbimy Cię, wysławiamy Cię.  
+> Dzięki Ci składamy, bo wielka jest chwała Twoja.  
+> Panie Boże, Królu nieba, Boże Ojcze wszechmogący.  
+> Panie, Synu Jednorodzony, Jezu Chryste.  
+> Panie Boże, Baranku Boży, Synu Ojca.  
+> Który gładzisz grzechy świata, zmiłuj się nad nami.  
+> Który gładzisz grzechy świata, przyjm błaganie nasze.  
+> Który siedzisz po prawicy Ojca, zmiłuj się nad nami.  
+> Albowiem tylko Tyś jest święty, tylko Tyś jest Panem, tylko Tyś Najwyższy,  
+> Jezu Chryste, z Duchem Świętym, w chwale Boga Ojca.  
 > Amen.
 
 <br />
@@ -43,6 +52,10 @@
 ### <div class="colored centered">Biali Patroni będą szczęśliwi, gdy będziesz się do nich zwracać!</div>
 
 ---
+<span class="status status-title">Szczegóły:</span>
+- Aby zaprosić **kolejnego** białego patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**!
+<br />
+
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - Informacja czy patron jest **święty** czy **błogosławiony**,
 - **Rok śmierci** patrona,
@@ -51,10 +64,6 @@
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona i modlitwę „Chwała Ojcu” - postaw dowolny znaczek (np. „✅”),
 - **Datę zakończenia adoracji**, jeśli rozłożyliśmy ją na kilka dni.
-<br />
-
-<span class="status status-title">Szczegóły:</span>
-- Aby zaprosić **kolejnego** białego patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**!
 
 ---
 [Powrót do zapraszania patronów](jak_zapraszac_patronow.md)  

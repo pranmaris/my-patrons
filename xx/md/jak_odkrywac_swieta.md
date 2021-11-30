@@ -4,28 +4,28 @@ Odkrywanie każdego święta polega na wykonaniu jednego zadania z listy [<span 
 Aby odkrywać święta musimy posiadać status w kolorze co najmniej <span class="status status-gray">szarym</span>. Jeżeli wciąż masz status w kolorze <span class="status status-black">czarnym</span>, najpierw wykonaj zadanie [<span class="status status-list"><span class="status status-gray">∞</span> Bóg</span>](bog.md).
 
 ---
-W inicjatywie _„Moich Patronów”_, przez święta rozumiemy wszelkie **wspomnienia i celebracje** Kościoła Katolickiego, które **nie odnoszą się do patronów (także Osób Boskich) w ogólności**. Mogą one dotyczyć:
-- **Tytułu patrona** - np.:
+W inicjatywie _„Moich Patronów”_, przez święta rozumiemy wszelkie **wspomnienia i celebracje** Kościoła Katolickiego, które **nie odnoszą się do patronów (także Osób Boskich) w ogólności**.
+- Święta mogą dotyczyć **tytułu patrona** - np.:
   - _„Jezus Chrystus Król Wszechświata”_ (ostatnia niedziela roku liturgicznego),
   - _„Najświętsza Maryja Panna Różańcowa”_ (7 października),
   - _„Najświętsza Maryja Panna Królowa Polski”_ (3 maja),
   - _„św. Józef Oblubieniec Najświętszej Maryi Panny”_ (19 marca),
   - _„św. Józef Rzemieślnik”_ (1 maja),
   - _„św. Piotr w Okowach”_ (1 sierpnia),
-- **Zdarzenia dotyczącego patrona** - np.:
+- Święta mogą dotyczyć **zdarzenia dotyczącego patrona** - np.:
   - _„Boże Narodzenie”_ (25 grudnia - dotyczy Jezusa Chrystusa),
   - _„Zesłanie Ducha Świętego”_ (50 dzień po Zmartwychwstaniu),
   - _„Nawrócenie Świętego Pawła Apostoła”_ (25 stycznia),
   - _„Wniebowzięcie Najświętszej Maryi Panny”_ (15 sierpnia),
   - _„Narodzenie św. Jana Chrzciciela”_ (24 czerwca),
   - _„Męczeństwo św. Jana Chrzciciela”_ (29 sierpnia),
-- **Części ciała lub cechy patrona**, np.:
+- Święta mogą dotyczyć **części ciała lub cechy patrona**, np.:
   - _„Najświętsze Ciało i Krew Jezusa”_ (tzw. _„Boże Ciało”_, czwartek po oktawie Zesłania Ducha Świętego),
   - _„Najświętsze Serce Pana Jezusa”_ (piątek, 8 dni po Bożym Ciele),
   - _„Najświętsze Imię Jezus”_ (3 stycznia),
-- **Innego aspektu dotyczącego patrona**, np.:
+- Święta mogą dotyczyć **innego aspektu dotyczącego patrona**, np.:
   - _„Poświęcenie Katedry św. Piotra Apostoła”_ (22 lutego),
-- **Niczego co dotyczy jednego patrona, którego można wybrać**, np.:
+- Święta mogą dotyczyć **niczego co dotyczy jednego patrona, którego można wybrać**, np.:
   - _„Podwyższenia Krzyża Świętego”_ (14 września),
   - _„Święta Rodzina”_ (pierwsza niedziela po Bożym Narodzeniu),
   - _„Boże Miłosierdzie”_ (niedziela, 7 dni po Zmartwychwstaniu),

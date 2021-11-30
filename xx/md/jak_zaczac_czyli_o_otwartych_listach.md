@@ -2,7 +2,9 @@
 Na początku udziału posiadamy status w kolorze <span class="status status-black">czarnym</span> dla każdego patrona i święta, co oznacza brak możliwości działania, ale szybko możemy to zmienić.
 
 Jako chrześcijanie powinniśmy pamiętać, by przed wykonaniem każdej ważniejszej czynności zawierzyć ją Bogu, który uzdolni nas do jej wykonania. W naszym przypadku można to uczynić wykonując zadanie z poniższej listy:
-- [<span class="status status-list"><span class="status status-gray">∞</span> Bóg</span>](bog.md) - by poprosić Boga o błogosławieństwo i „zielone światło” na całą naszą dalszą drogę z _„Moimi Patronami”_.
+- [<span class="status status-list"><span class="status status-gray">∞</span> Bóg</span>](bog.md) - by zawierzyć Bogu całą naszą dalszą drogę z _„Moimi Patronami”_ i zmienić koloru statusu na <span class="status status-gray">szary</span> dla każdego patrona i święta.
+
+Zmiana koloru <span class="status status-black">czarnego</span> na <span class="status status-gray">szary</span> symbolizuje obdarowanie nas **Bożym Światłem i Łaskami**, bez których nie bylibyśmy w stanie niczego uczynić. Są one częściowe (<span class="status status-gray">szary</span> to nie <span class="status status-white">biały</span>), ale na początek wystarczą. Współpracując z nimi wedle Bożej woli, na pewno damy radę sprostać wszystkim napotkanym trudnościom i osiągniemy wyznaczony cel!
 
 ---
 Kolejnym krokiem jaki warto wykonać to uzupełnienie listy:
