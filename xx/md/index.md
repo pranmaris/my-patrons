@@ -1,5 +1,4 @@
 # Moi Patroni
-- [Patroni na dziś!](patroni_na_dzis.md)
 - [Dekalog Uczestnika](dekalog_uczestnika.md)
 - [Podstawowe zasady](podstawowe_zasady.md)
 - [Jak zacząć? Czyli o otwartych listach](jak_zaczac_czyli_o_otwartych_listach.md)
