@@ -73,6 +73,7 @@
 - Informacja czy patron jest **święty** czy **błogosławiony**,
 - **Rok śmierci** patrona,
 - Odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) lub **nazwisko osoby**, która umożliwiła nam zaproszenie patrona,
+- Odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem zaproszenia patronów - opiekunów** z drugą osobą, np. **C17**,
 - Informacja, na podstawie jakiego kryterium wybraliśmy patrona od osoby współzapraszającej. Mogą to być następujące skróty („DD.MM” oznacza dzień i miesiąc roku, np. 16.07):
   - **ICH:1** - patron pierwszego imienia z Chrztu św. (kolejne imiona numerujemy analogicznie),
   - **IBI** - patron imienia przyjętego na Bierzmowaniu,

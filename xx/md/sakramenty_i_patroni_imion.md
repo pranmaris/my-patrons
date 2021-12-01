@@ -1,31 +1,46 @@
 # <span class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>
 <br />
 
-<span class="status status-title">Wymagany status:</span> już wkrótce ...
+<span class="status status-title">Wymagany status:</span> Dowolny.
 <br />
 
-<span class="status status-title">Limity:</span> już wkrótce ...
+<span class="status status-title">Limity:</span> Brak.
 <br />
 
-<span class="status status-title">Opis zadania:</span> już wkrótce ...
+<span class="status status-title">Opis zadania:</span> Zadanie to jest okazją do przypomnienia sobie **kiedy przyjęliśmy po raz pierwszy każdy Sakrament** i kto jest **patronem naszych imion** z Chrztu św., Bierzmowania lub **naszych imion zakonnych**. Dodając do tego naszą **datę urodzenia** będziemy mieć także komplet informacji potrzebnych innym przy wyborze swojego **patrona - orędownika** razem z nami, na liście <span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>.
 <br />
 
-<span class="status status-title">Kroki:</span> już wkrótce ...
+<span class="status status-title">Kroki:</span> Kiedykolwiek chcesz:
+- Wpisz swoją **datę urodzenia**,
+- Wpisz **nazwy przyjętych sakramentów**, wraz z **datą ich pierwszego przyjęcia**,
+- Wpisz **swoje imiona** z informacją czy pochodzą z **chrztu**, **bierzmowania**, czy są to przybrane **imiona zakonne**,
+- Wpisz **patronów swoich imion** (patrz wyżej) jeśli imię posiada jakiegokolwiek patrona.
 <br />
 
-<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> już wkrótce ...
+<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> w ciągu całego udziału w inicjatywie _„Moich Patronów”_, ale zawsze możesz coś tu dopisać i uzupełnić.
 <br />
 
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#sakramenty-i-patroni-imion):</span> już wkrótce ...
+<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#sakramenty-i-patroni-imion):</span>
+- **datę swojego urodzenia**,
+- **nazwy i daty przyjęcia** każdego swojego sakramentu,
+- **swoje imiona** (zakonne lub nadane przy sakramentach) wraz z ich **patronami** (jeśli takowych posiadają).
 <br />
 
 ---
-### <div class="colored centered">już wkrótce ...</div>
+### <div class="colored centered">Stwórz swoją sakramentalno-patronową wizytówkę!</div>
 
 ---
-<span class="status status-title">Szczegóły:</span> już wkrótce ...
+<span class="status status-title">Szczegóły:</span>
+- Jeżeli nie znasz patrona swojego imienia, spróbuj ustalić go na podstawie **dnia swoich imienin** (dla pierwszego imienia z Chrztu św.) lub **wybierz go raz już na stałe** spośród świętych lub błogosławionych o tym imieniu,
+- **Wybranym patronem imienia** może być odpowiadające imię przeciwnej płci, np. Stefania może obchodzić imieniny w dniu wspomnienia św. Stefana.
 
-<span class="status status-title">Co możesz zanotować dodatkowo:</span> już wkrótce ...
+<span class="status status-title">Co możesz zanotować dodatkowo:</span>
+- Odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem urodzenia**, np. **C23**,
+- Odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem pierwszego przyjęcia każdego sakramentu**, np. **C17**,
+- Odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) z **szafarzem każdego sakramentu**, np. **M32**,
+- **Godzina Mszy św. lub Spowiedzi**, na której otrzymaliśmy dany sakrament,
+- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+
 
 ---
 [Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  

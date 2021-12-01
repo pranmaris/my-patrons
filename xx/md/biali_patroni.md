@@ -1,7 +1,7 @@
 # <span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>
 <br />
 
-<span class="status status-title">Wymagany status patrona:</span> <span class="status status-indigo">Indygo</span> - po wykonaniu zadania zmieni się na <span class="status status-white">biały</span>.
+<span class="status status-title">Wymagany status patrona:</span> <span class="status status-indigo">indygo</span> - po wykonaniu zadania zmieni się na <span class="status status-white">biały</span>.
 <br />
 
 <span class="status status-title">Limity:</span> Można zaprosić tylko jednego **białego patrona** dziennie.
@@ -62,7 +62,7 @@
 - **Numery** (dodatkowo mogą być też **daty każdego zaproszenia**) tego patrona z list: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) i [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md), np. **T17**, **A35**, **U7**,
 - **Informacje o miejscu adoracji**, np. na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
-- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona i modlitwę „Chwała Ojcu” - postaw dowolny znaczek (np. „✅”),
+- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona i modlitwę „Chwała na wysokości Bogu” - postaw dowolny znaczek (np. „✅”),
 - **Datę zakończenia adoracji**, jeśli rozłożyliśmy ją na kilka dni.
 
 ---

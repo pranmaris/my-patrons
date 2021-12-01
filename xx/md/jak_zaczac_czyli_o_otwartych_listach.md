@@ -8,7 +8,7 @@ Zmiana koloru <span class="status status-black">czarnego</span> na <span class="
 
 ---
 Kolejnym krokiem jaki warto wykonać to uzupełnienie listy:
-- [<span class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>](sakramenty_i_patroni_imion.md) - by przypomnieć sobie kiedy i gdzie przyjmowaliśmy po raz pierwszy każdy Sakrament i kim są Patroni naszych imion - taka wizytówka, która może się przydać w dalszym etapie zabawy.
+- [<span class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>](sakramenty_i_patroni_imion.md) - by przypomnieć sobie kiedy i gdzie przyjmowaliśmy po raz pierwszy każdy Sakrament i kim są Patroni naszych imion - taka osobista wizytówka, która przyda się w dalszym etapie zabawy.
 
 ---
 W każdym momencie możemy skorzystać także z poniższych list:

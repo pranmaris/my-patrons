@@ -1,7 +1,7 @@
 # <span class="status status-list"><span class="status status-white">B</span> Święta</span>
 <br />
 
-<span class="status status-title">Wymagany status święta:</span> <span class="status status-gray">Szary</span> - po wykonaniu zadania zmieni się na <span class="status status-white">biały</span>.
+<span class="status status-title">Wymagany status święta:</span> <span class="status status-gray">szary</span> - po wykonaniu zadania zmieni się na <span class="status status-white">biały</span>.
 <br />
 
 <span class="status status-title">Limity:</span> Brak.

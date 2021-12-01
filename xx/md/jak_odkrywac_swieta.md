@@ -25,7 +25,7 @@ W inicjatywie _„Moich Patronów”_, przez święta rozumiemy wszelkie **wspom
   - _„Najświętsze Imię Jezus”_ (3 stycznia),
 - Święta mogą dotyczyć **innego aspektu dotyczącego patrona**, np.:
   - _„Poświęcenie Katedry św. Piotra Apostoła”_ (22 lutego),
-- Święta mogą dotyczyć **niczego co dotyczy jednego patrona, którego można wybrać**, np.:
+- Święta mogą także nie dotyczyć **wprost żadnego patrona, którego można wybrać**, np.:
   - _„Podwyższenia Krzyża Świętego”_ (14 września),
   - _„Święta Rodzina”_ (pierwsza niedziela po Bożym Narodzeniu),
   - _„Boże Miłosierdzie”_ (niedziela, 7 dni po Zmartwychwstaniu),

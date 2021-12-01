@@ -1,7 +1,7 @@
 # <span class="status status-list"><span class="status status-gray">∞</span> Bóg</span>
 <br />
 
-<span class="status status-title">Wymagany status:</span> <span class="status status-black">Czarny</span> - po wykonaniu zadania zmieni się na <span class="status status-gray">szary</span> **dla każdego patrona i święta z osobna**!
+<span class="status status-title">Wymagany status:</span> <span class="status status-black">czarny</span> - po wykonaniu zadania zmieni się na <span class="status status-gray">szary</span> **dla każdego patrona i święta z osobna**!
 <br />
 
 <span class="status status-title">Limity:</span> To zadanie można i wystarczy wykonać tylko jeden raz.
