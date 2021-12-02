@@ -10,7 +10,7 @@
 <span class="status status-title">Opis zadania:</span> Zadanie to jest okazją do przypomnienia sobie **kiedy przyjęliśmy po raz pierwszy każdy Sakrament** i kto jest **patronem naszych imion** z Chrztu św., Bierzmowania lub **naszych imion zakonnych**. Dodając do tego naszą **datę urodzenia** będziemy mieć także komplet informacji potrzebnych innym przy wyborze swojego **patrona - orędownika** razem z nami, na liście <span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>.
 <br />
 
-<span class="status status-title">Kroki:</span> Kiedykolwiek chcesz:
+<span class="status status-title">Kroki:</span>
 - Wpisz swoją **datę urodzenia**,
 - Wpisz **nazwy przyjętych sakramentów**, wraz z **datą ich pierwszego przyjęcia**,
 - Wpisz **swoje imiona** z informacją czy pochodzą z **chrztu**, **bierzmowania**, czy są to przybrane **imiona zakonne**,
@@ -35,9 +35,9 @@
 - **Wybranym patronem imienia** może być odpowiadające imię przeciwnej płci, np. Stefania może obchodzić imieniny w dniu wspomnienia św. Stefana.
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
-- Odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem urodzenia**, np. **C23**,
-- Odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem pierwszego przyjęcia każdego sakramentu**, np. **C17**,
-- Odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) z **szafarzem każdego sakramentu**, np. **M32**,
+- Informacja o **miejscu urodzenia**, np. **C23** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
+- Informacja o **miejscu pierwszego przyjęcia każdego sakramentu**, np. **C17** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
+- Informacja kto był **szafarzem każdego sakramentu**, np. **M32** na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md),
 - **Godzina Mszy św. lub Spowiedzi**, na której otrzymaliśmy dany sakrament,
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
