@@ -1,31 +1,34 @@
 # <span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>
 <br />
 
-<span class="status status-title">Wymagany status:</span> już wkrótce ...
+<span class="status status-title">Wymagany status:</span> Dowolny.
 <br />
 
-<span class="status status-title">Limity:</span> już wkrótce ...
+<span class="status status-title">Limity:</span> Brak.
 <br />
 
-<span class="status status-title">Opis zadania:</span> już wkrótce ...
+<span class="status status-title">Opis zadania:</span> Dzięki tej liście możemy zapisać **jakąkolwiek informację**, z której łatwo potem da się skorzystać w innych listach, poprzez jej numer, np. **＊4**.
 <br />
 
-<span class="status status-title">Kroki:</span> już wkrótce ...
+<span class="status status-title">Kroki:</span>
+- w razie potrzeby pod kolejnym numerem wpisz dowolny komentarz.
 <br />
 
-<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> już wkrótce ...
+<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> dla danej informacji.
 <br />
 
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#przypisy):</span> już wkrótce ...
+<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#przypisy):</span>
+- **Kolejny numer** przypisu (＊1, ＊2, ...),
+- **Komentarz** dodawanego przypisu.
 <br />
 
 ---
-### <div class="colored centered">już wkrótce ...</div>
+### <div class="colored centered">No comments ;)</div>
 
 ---
-<span class="status status-title">Szczegóły:</span> już wkrótce ...
+<span class="status status-title">Szczegóły:</span> Brak.
 
-<span class="status status-title">Co możesz zanotować dodatkowo:</span> już wkrótce ...
+<span class="status status-title">Co możesz zanotować dodatkowo:</span> Nic.
 
 ---
 [Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  
