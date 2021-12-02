@@ -53,14 +53,17 @@
 
 ---
 <span class="status status-title">Szczegóły:</span>
-- Aby zaprosić **kolejnego** białego patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**!
+- Aby zaprosić **kolejnego** białego patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**,
+- To zadanie możemy wykonać raz także dla Osób Boskich, czyli dla Boga Ojca (numer „**P I**”), Jezusa Chrystusa (numer „**P II**”), Ducha Świętego (numer „**P III**”) oraz całej Trójcy Przenajświętszej (numer „**P I+II+III**”). Można to uczynić nie zważając na dzienny limit zaproszonych **białych patronów**, czyli zaprosić w jednym dniu (na jednaj adoracji) np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem. Do Osób Boskich modlimy się innymi słowami niż do patronów, mianowicie:
+> **[Boże Ojcze/Jezu Chrysie/Duchu Święty/Trójco Przenajświętsza]** zmiłuj się nade mną!
+
 <br />
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - Informacja czy patron jest **święty** czy **błogosławiony**,
 - **Rok śmierci** patrona,
 - **Numery** (dodatkowo mogą być też **daty każdego zaproszenia**) tego patrona z list: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) i [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md), np. **T17**, **A35**, **U7**,
-- **Informacje o miejscu adoracji**, np. na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
+- **Informacje o miejscu adoracji**, np. **C17** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona i modlitwę „Chwała na wysokości Bogu” - postaw dowolny znaczek (np. „✅”),
 - **Datę zakończenia adoracji**, jeśli rozłożyliśmy ją na kilka dni.
