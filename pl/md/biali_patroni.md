@@ -13,14 +13,14 @@
 <span class="status status-title">Kroki:</span>
 - Wybierz patrona, którego chcesz w tym dniu zaprosić jako swojego **białego patrona**,
 - **W tym dniu** udaj się przed **Najświętszy Sakrament** w **dowolnej** parafii, kościele czy innym miejscu,
-- **W tym dniu**, będąc przed **Najświętszym Sakramentem**, na kolanach (jeśli Twoje zdrowie na to pozwala) odmów poniższą modlitwę zwracając się do wybranego patrona (np.: „Błogosławiony Bartolo Longo”, „Święta Faustyno Kowalska”, „Święci Młodziankowie”):
+- **W tym dniu**, będąc przed **Najświętszym Sakramentem**, na kolanach (jeśli Twoje zdrowie na to pozwala) odmów poniższą modlitwę, prosząc wybranego patrona o błogosławieństwo (np.: „Błogosławiony Bartolo Longo”, „Święta Faustyno Kowalska”, „Święci Młodziankowie”):
 > Św./Bł. **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
 > zapraszam Ciebie/Was do grona moich osobistych patronów,  
 > i proszę o opiekę, modlitwę, ochronę przed działaniem złego,  
 > o wstawianie się za mną przed Tronem Trójcy Przenajświętszej,  
 > o umocnienie w moim sercu wszelkich cnót Twoich/Waszych,  
-> oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
-> w Imię Ojca i Syna i Ducha Świętego,  
+> o dobre natchnienia i prowadzenie w drodze do zbawienia,  
+> oraz o Twoje/Wasze błogosławieństwo w Imię Ojca i Syna i Ducha Świętego,  
 > Amen.  
 - Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień,
 - **Na koniec**, odmów modlitwę **_„Chwała na wysokości Bogu”_**, czyli:

@@ -3,9 +3,9 @@
 
 - [<span id="bog" class="status status-list"><span class="status status-gray">∞</span> Bóg</span>](bog.md): _wkrótce_,
 
-- [<span id="patroni-obroncy" class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md): _wkrótce_,
+- [<span id="patroni-obroncy" class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md): [wersja pełna](../../pl/pdf/lista_v1_a_patroni_obroncy.pdf),
 
-- [<span id="swieta" class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md): _wkrótce_,
+- [<span id="swieta" class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md): [wersja pełna](../../pl/pdf/lista_v1_b_swieta.pdf),
 
 - [<span id="miejsca" class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md): [wersja pełna](../../pl/pdf/lista_v1_c_miejsca.pdf),
 
@@ -28,6 +28,7 @@
    - [<span id="nabozenstwo-drogi-krzyzowej" class="status status-list"><span class="status status-list">IC</span> Nabożeństwo Drogi Krzyżowej</span>](nabozenstwo_drogi_krzyzowej.md): _wkrótce_,
 
    - [<span id="nabozenstwo-gorzkich-zalow" class="status status-list"><span class="status status-list">ID</span> Nabożeństwo Gorzkich Żalów</span>](nabozenstwo_gorzkich_zalow.md): _wkrótce_,
+<br />
 
 - [<span id="rocznice-poswiecenia-kosciolow" class="status status-list"><span class="status status-list">J</span> Rocznice Poświęcenia Kościołów</span>](rocznice_poswiecenia_kosciolow.md): _wkrótce_,
 
@@ -41,7 +42,7 @@
 
 - [<span id="cytaty" class="status status-list"><span class="status status-list">O</span> Cytaty</span>](cytaty.md): _wkrótce_,
 
-- [<span id="biali-patroni" class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md): _wkrótce_.
+- [<span id="biali-patroni" class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md): [wersja pełna](../../pl/pdf/lista_v1_p_biali_patroni.pdf),
 
 - [<span id="nowenny" class="status status-list"><span class="status status-list">Q</span> Nowenny</span>](nowenny.md): _wkrótce_,
 
@@ -49,9 +50,9 @@
 
 - [<span id="selfie-z-patronem" class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie-z-patronem.md): _wkrótce_,
 
-- [<span id="patroni-opiekunowie" class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md): _wkrótce_,
+- [<span id="patroni-opiekunowie" class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md): [wersja pełna](../../pl/pdf/lista_v1_t_patroni_opiekunowie.pdf),
 
-- [<span id="patroni-oredownicy" class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md): _wkrótce_,
+- [<span id="patroni-oredownicy" class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md): [wersja pełna](../../pl/pdf/lista_v1_u_patroni_oredownicy.pdf),
 
 - [<span id="klasztory" class="status status-list"><span class="status status-list">V</span> Klasztory</span>](klasztory.md): _wkrótce_,
 

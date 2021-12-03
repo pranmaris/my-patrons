@@ -14,13 +14,12 @@
 - Wybierz **święto**, które chcesz w tym dniu odkryć (zobacz [jak wybrać święto na dany dzień roku](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md)),
 - **W tym dniu** zaproś dowolnego **patrona - obrońcę**. Jeżeli święto dotyczy tytułu któregoś patrona lub zdarzenia z nim związanego, musisz posiadać już tego patrona na liście [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) albo **w tym dniu** zaprosić go jako Twojego **patrona - obrońcę**,
 - Przeczytaj jakąkolwiek notkę o wybranym święcie, opisującą jego znaczenie i historię,
-- Odmów następującą modlitwę (najlepiej klęcząc zaraz po przyjęciu Komunii św.) na temat wybranego święta:
+- Odmów następującą modlitwę dla wybranych świąt:
 > Dobry mój Boże,  
 > dziękuję Ci za możliwość celebrowania święta **_[nazwa święta]_**,  
 > wspomóż mnie, abym mógł/mogła lepiej zrozumieć jego znaczenie,  
 > oraz potrafił/potrafiła czerpać wielką radość, mądrość i pożytek,  
 > z uczestniczenia w nim dzięki Kościołowi Świętemu,  
-> w Imię Ojca i Syna i Ducha Świętego,  
 > Amen.
 
 <br />
