@@ -18,10 +18,10 @@
 
 <span class="status status-title">Kroki:</span>
 - Wybierz patrona, którego chcesz zaprosić jako swojego **opiekuna**,
-- **W tym dniu**: dla wybranego patrona, sprostaj wyzwaniu [<span class="status status-list"><span class="status status-list">H</span> Relikwie i groby</span>](relikwie_i_groby.md) **lub** wykonaj minimum **dwie z trzech** poniższych czynności **jednocześnie**:
-    - Miej przy sobie (nie musisz go widzieć) **obrazek** z wybranym patronem - każda osoba musi mieć osobny obrazek! Powinien być on papierowy lub podobny, wydany w większym nakładzie, a nie wydrukowany samodzielnie,
-    - Miej bezpośrednio w zasięgu wzroku **rzeźbę, witraż, malowidło lub obraz ścienny** (w ramie lub wiszący w kościele albo innym świętym miejscu) wybranego patrona,
-    - Osobiście (nie online!) weź udział we Mszy św. w **dowolnej** parafii lub kościele,
+- **W tym dniu**: dla wybranego patrona, sprostaj wyzwaniu [<span class="status status-list"><span class="status status-list">H</span> Relikwie i groby</span>](relikwie_i_groby.md) **lub** wykonaj minimum **dwie z trzech** poniższych czynności **jednocześnie** (czyli A+B, A+C lub B+C):
+    - A. Miej przy sobie (nie musisz go widzieć) **obrazek** z wybranym patronem - każda osoba musi mieć osobny obrazek! Powinien być on papierowy lub podobny, wydany w większym nakładzie, a nie wydrukowany samodzielnie,
+    - B. Miej bezpośrednio w zasięgu wzroku **rzeźbę, witraż, malowidło lub obraz ścienny** (w ramie lub wiszący w kościele albo innym świętym miejscu) wybranego patrona,
+    - C. Osobiście (nie online!) weź udział we Mszy św. w **dowolnej** parafii lub kościele,
 - Przeczytaj jakąkolwiek notkę o wybranym patronie opisującą jego życie i działalność, aby go lepiej poznać,
 - Odmów następującą modlitwę (najlepiej klęcząc jeśli zdrowie Ci na to pozwala), zwracając się do wybranego patrona (np.: „Błogosławiona Sancjo Szymkowiak”, „Święty Antoni z Padwy”, „Święci Aniołowie Stróżowie”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
