@@ -17,7 +17,7 @@
 <br />
 
 <span class="status status-title">Kroki:</span>
-- Wybierz patrona, którego chcesz w tym dniu zaprosić jako swojego **obrońcę** (zobacz [jak wybrać patrona na dany dzień roku](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md)),
+- Wybierz patrona, którego chcesz w tym dniu zaprosić jako swojego **obrońcę** (zobacz [jak wybrać patrona na dany dzień roku](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#patroni-obroncy-na-dzis)),
 - **W tym dniu**, osobiście (nie online!) weź udział we Mszy św. w **dowolnej** parafii lub kościele,
 - **W tym dniu**, przyjmij godnie Komunię Świętą w dowolnej intencji - fizycznie lub duchowo,
 - **W chwili przyjęcia Komunii św.** musisz być w stanie **Łaski Uświęcającej**! Powinieneś także dobrze dbać o swoje sumienie i **spowiadać się** co około miesiąc, a na pewno **nie rzadziej niż co 40 dni**!

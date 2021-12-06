@@ -20,7 +20,7 @@
 - Wybierz **osobę**, z którą wspólnie chcielibyście zaprosić **patrona - orędownika**,
 - Korzystając z listy [<span class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>](sakramenty_i_patroni_imion.md) lub [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md) tej osoby, wybierz **patrona**, który:
   - jest **patronem otrzymanych imion** z Chrztu św., Bierzmowania lub przyjętych imion zakonnych **tej osoby**,
-  - jest [**patronem** możliwym do wyboru](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md) w **dniach roku**, w których ta osoba **urodziła się** lub **przyjęła po raz pierwszy** każdy swój Sakrament,
+  - jest [**patronem** możliwym do wyboru](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#patroni-oredownicy-na-dzis) w **dniach roku**, w których ta osoba **urodziła się** lub **przyjęła po raz pierwszy** każdy swój Sakrament,
   - jest „**Białym Patronem**” tej osoby,
 - Analogicznie **pozwól wybrać patrona** drugiej osobie (obydwie osoby **muszą** zaprosić jakiegoś patrona!),
 - **W tym dniu**, spotkaj się (nie online!) z drugą osobą (najlepiej w kościele lub innym świętym miejscu),
