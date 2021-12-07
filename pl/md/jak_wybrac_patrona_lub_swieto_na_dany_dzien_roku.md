@@ -9,6 +9,10 @@ Stale pracujemy nad rozwojem serwisu _„[Patrons Space](http://pl.patrons.space
 ### Wybór dla list [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) i [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md)
 Jeśli na poniższej stronie nie uda Ci się znaleźć nic interesującego, możesz [wybrać **patrona** lub **święto** samodzielnie](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#zrodla-wyboru-patronow-lub-swiat).
 <iframe id="my-patrons-and-feasts-for-today" src="http://pl.patrons.space/dates/my-patrons-and-feasts?content-only=1"></iframe>
+<br />
+
+[Powrót do świąt](swieta.md)  
+[Powrót do patronów - obrońców](patroni_obroncy.md)
 
 ---
 <div id="patroni-oredownicy-na-dzis"></div>
@@ -16,6 +20,9 @@ Jeśli na poniższej stronie nie uda Ci się znaleźć nic interesującego, moż
 ### Wybór dla listy [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md)
 Jeśli na poniższej stronie nie uda Ci się znaleźć nic interesującego, możesz [wybrać **patrona** samodzielnie](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#zrodla-wyboru-patronow-lub-swiat).
 <iframe id="my-patrons-for-today" src="http://pl.patrons.space/dates/my-patrons?content-only=1"></iframe>
+<br />
+
+[Powrót do patronów - orędowników](patroni_oredownicy.md)
 
 ---
 <div id="zrodla-wyboru-patronow-lub-swiat"></div>
@@ -39,8 +46,4 @@ Jeśli na poniższej stronie nie uda Ci się znaleźć nic interesującego, moż
 - Orientacyjny kalendarz liturgiczny dla Polski wraz z linkami do kalendarzy diecezjalnych można znaleźć na stronie [GCatholic.org](http://www.gcatholic.org/calendar/2022/PL-pl.htm),
 - Lista kanonizacji i beatyfikacji Kościoła Katolickiego znajduje się także na stronie [GCatholic.org](http://www.gcatholic.org/saints/index.htm).
 
----
-[Powrót do świąt](swieta.md)  
-[Powrót do patronów - obrońców](patroni_obroncy.md)  
-[Powrót do patronów - orędowników](patroni_oredownicy.md)  
 [Powrót do głównego menu](index.md)

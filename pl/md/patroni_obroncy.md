@@ -33,7 +33,7 @@
 <span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> dla danego patrona.
 <br />
 
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#patroni-opiekunowie):</span>
+<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#patroni-obroncy):</span>
 - **Kolejny numer** wybranego patrona (A1, A2, ...),
 - **Datę zaproszenia** patrona (najlepiej z dniem tygodnia),
 - **Nazwę** wybranego patrona (imię i nazwisko, imię zakonne, znany przydomek, miejsce pochodzenia),
