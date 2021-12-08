@@ -44,6 +44,7 @@
 
 ---
 <span class="status status-title">Szczegóły:</span>
+- Za **udział w Mszy** rozumiemy naszą **fizyczną obecność na terenie jej odprawienia**. Może to być także pobyt poza budynkiem kościoła, w odrębnej salce czy innym budynku na terenie przykościelnym z transmisją Mszy „na żywo” (audio lub video). Gdyby Msza odbyła się w kaplicy szpitala, wszyscy jego pacjenci mający łączność z tym miejscem, mogą w niej uczestniczyć,
 - To zadanie możemy wykonać raz także dla Osób Boskich, czyli dla Boga Ojca (numer „**A I**”), Jezusa Chrystusa (numer „**A II**”), Ducha Świętego (numer „**A III**”) oraz całej Trójcy Przenajświętszej (numer „**A I+II+III**”). Można to uczynić nie zważając na dzienny limit zaproszonych **patronów - obrońców**, czyli zaprosić w jednym dniu (raz przyjmując Komunię św.) np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem. Do Osób Boskich modlimy się innymi słowami niż do patronów, mianowicie:
 > **[Boże Ojcze/Jezu Chrysie/Duchu Święty/Trójco Przenajświętsza]** zmiłuj się nade mną!
 - W Wielki Piątek wystarczy uczestnictwo w Liturgii Męki Pańskiej, gdyż w tym dniu nie odprawia się mszy św.,
