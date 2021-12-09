@@ -17,7 +17,7 @@
 
 - [<span id="odpusty-parafialne" class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span>](odpusty_parafialne.md): _wkrótce_,
 
-- [<span id="relikwie-i-groby" class="status status-list"><span class="status status-list">H</span> Relikwie i Groby</span>](relikwie_i_groby.md): _wkrótce_,
+- [<span id="relikwie-i-groby" class="status status-list"><span class="status status-list">H</span> Relikwie i Groby</span>](relikwie_i_groby.md): [wersja pełna](../../pl/pdf/lista_v1_h_relikwie_i_groby.pdf),
 
 - [<span id="nabozenstwa" class="status status-list"><span class="status status-list">I</span> Nabożeństwa</span>](nabozenstwa.md): _wkrótce_,
 
