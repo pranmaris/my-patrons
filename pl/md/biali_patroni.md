@@ -54,8 +54,12 @@
 ---
 <span class="status status-title">Szczegóły:</span>
 - Aby zaprosić **kolejnego** białego patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**,
-- To zadanie możemy wykonać raz także dla Osób Boskich, czyli dla Boga Ojca (numer „**P I**”), Jezusa Chrystusa (numer „**P II**”), Ducha Świętego (numer „**P III**”) oraz całej Trójcy Przenajświętszej (numer „**P I+II+III**”). Można to uczynić nie zważając na dzienny limit zaproszonych **białych patronów**, czyli zaprosić w jednym dniu (na jednaj adoracji) np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem. Do Osób Boskich modlimy się innymi słowami niż do patronów, mianowicie:
-> **[Boże Ojcze/Jezu Chrysie/Duchu Święty/Trójco Przenajświętsza]** zmiłuj się nade mną!
+- To zadanie możemy wykonać raz także dla Osób Boskich, czyli dla Boga Ojca (numer „**P I**”), Jezusa Chrystusa (numer „**P II**”), Ducha Świętego (numer „**P III**”) oraz całej Trójcy Przenajświętszej (numer „**P I+II+III**”). Robimy to dla **każdej z tych Osób oddzielnie**, jeśli oczywiście posiada wymagany status w kolorze <span class="status status-indigo">indygo</span>. Oznacza to, że **nie wykonujemy adoracji Najświętszego Sakramentu wspólnie z innym patronem** - tylko oddzielnie! Modlitwa do Osoby Boskiej z prośbą o błogosłąwieństwo jest inna niż do zwykłych patronów:
+> **[Boże Ojcze/Jezu Chrysie/Duchu Święty/Trójco Przenajświętsza]**,  
+> zmiłuj się nade mną,  
+> i proszę, pobłogosław mnie,  
+> w Imię Ojca i Syna i Ducha Świętego,  
+> Amen.
 
 <br />
 
