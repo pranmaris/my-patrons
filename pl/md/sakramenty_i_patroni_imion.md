@@ -21,9 +21,9 @@
 <br />
 
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#sakramenty-i-patroni-imion):</span>
-- **datę swojego urodzenia**,
-- **nazwy i daty przyjęcia** każdego swojego sakramentu,
-- **swoje imiona** (zakonne lub nadane przy sakramentach) wraz z ich **patronami** (jeśli takowych posiadają).
+- **Datę swojego urodzenia**,
+- **Nazwy i daty przyjęcia** każdego swojego sakramentu,
+- **Swoje imiona** (zakonne lub nadane przy sakramentach) wraz z ich **patronami** (jeśli takowych posiadają).
 <br />
 
 ---

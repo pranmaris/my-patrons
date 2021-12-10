@@ -32,7 +32,7 @@
 
 - [<span id="rocznice-poswiecenia-kosciolow" class="status status-list"><span class="status status-list">J</span> Rocznice Poświęcenia Kościołów</span>](rocznice_poswiecenia_kosciolow.md): _wkrótce_,
 
-- [<span id="sakramenty-i-patroni-imion" class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>](sakramenty_i_patroni_imion.md): _wkrótce_,
+- [<span id="sakramenty-i-patroni-imion" class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>](sakramenty_i_patroni_imion.md): [wersja pełna](../../pl/pdf/lista_v1_k_sakramenty_i_patroni_imion.pdf),
 
 - [<span id="szkaplerze" class="status status-list"><span class="status status-list">L</span> Szkaplerze</span>](szkaplerze.md): _wkrótce_,
 
