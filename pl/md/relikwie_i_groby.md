@@ -43,7 +43,8 @@
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - **Nazwa patrona**,
 - **Typ i opis relikwii lub grobu**, np. relikwie krwi, relikwie kości, ubiór patrona, poprzedni grób patrona, itp.,
-- Zaznaczenie czy **odmówiono modlitwę** i **przeczytano notatkę** o relikwii lub grobie do wybranego patrona - postaw dowolny znaczek (np. „✅”).
+- Zaznaczenie czy **odmówiono modlitwę** i **przeczytano notatkę** o relikwii lub grobie do wybranego patrona - postaw dowolny znaczek (np. „✅”),
+- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do patronów - opiekunów](patroni_opiekunowie.md)  

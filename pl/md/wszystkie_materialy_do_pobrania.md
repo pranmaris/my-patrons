@@ -40,7 +40,7 @@
 
 - [<span id="cmentarze" class="status status-list"><span class="status status-list">N</span> Cmentarze</span>](cmentarze.md): _wkrótce_,
 
-- [<span id="cytaty" class="status status-list"><span class="status status-list">O</span> Cytaty</span>](cytaty.md): _wkrótce_,
+- [<span id="cytaty" class="status status-list"><span class="status status-list">O</span> Cytaty</span>](cytaty.md): [wersja pełna](../../pl/pdf/lista_v1_o_cytaty.pdf),
 
 - [<span id="biali-patroni" class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md): [wersja pełna](../../pl/pdf/lista_v1_p_biali_patroni.pdf),
 
