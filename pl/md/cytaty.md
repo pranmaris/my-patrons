@@ -7,7 +7,7 @@
 <span class="status status-title">Limity:</span> Można dodać **jeden cytat** dziennie.
 <br />
 
-<span class="status status-title">Opis zadania:</span> Zadanie polega na znajdowaniu i rozważaniu **wartościowych cytatów** wypowiedzianych lub zapisanych przez świętych i błogosławionych Kościoła Katolickiego.
+<span class="status status-title">Opis zadania:</span> Zadanie polega na zgromadzeniu i rozważaniu **wartościowych cytatów** wypowiedzianych lub zapisanych przez świętych i błogosławionych Kościoła Katolickiego.
 <br />
 
 <span class="status status-title">Kroki:</span>

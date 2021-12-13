@@ -48,7 +48,7 @@
 
 - [<span id="zakony" class="status status-list"><span class="status status-list">R</span> Zakony</span>](zakony.md): _wkrótce_,
 
-- [<span id="selfie-z-patronem" class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie-z-patronem.md): _wkrótce_,
+- [<span id="selfie-z-patronem" class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie-z-patronem.md): [wersja pełna](../../pl/pdf/lista_v1_s_selfie_z_patronem.pdf),
 
 - [<span id="patroni-opiekunowie" class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md): [wersja pełna](../../pl/pdf/lista_v1_t_patroni_opiekunowie.pdf),
 
