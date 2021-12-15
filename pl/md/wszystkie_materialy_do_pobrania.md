@@ -9,9 +9,9 @@
 
 - [<span id="miejsca" class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md): [wersja pełna](../../pl/pdf/lista_v1_c_miejsca.pdf),
 
-- [<span id="koscioly" class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md): _wkrótce_,
+- [<span id="koscioly" class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md): [wersja pełna](../../pl/pdf/lista_v1_d_koscioly.pdf),
 
-- [<span id="oltarze" class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md): _wkrótce_,
+- [<span id="oltarze" class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md): [wersja pełna](../../pl/pdf/lista_v1_e_oltarze.pdf),
 
 - [<span id="msze-swiete-u-patrona" class="status status-list"><span class="status status-list">F</span> Msze Święte u Patrona</span>](msze_swiete_u_patrona.md): _wkrótce_,
 
