@@ -36,6 +36,7 @@
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - **Miejscowość i nazwa świątyni**, w której znajduje się ołtarz (kaplica),
+- Jeżeli kiedykolwiek, w trakcie albo po nawiedzeniu ołtarza, uczestniczyliśmy **we Mszy św. odprawianej na tym konkretnym ołtarzu** (bocznym), możemy podać numer patrona, który został zaproszony na tej Mszy, np. „**MSZA:A26**” lub „**MSZA:T26**” lub jej datę,
 - Zaznaczenie czy **odmówiono modlitwę** i **przeczytano notatkę** o nawiedzonym ołtarzu - postaw dowolny znaczek (np. „✅”),
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 

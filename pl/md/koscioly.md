@@ -43,6 +43,7 @@
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - **Miejscowość i nazwa świątyni** z podkreśloną nazwą powiązanego patrona lub święta,
+- Jeżeli kiedykolwiek, w trakcie albo po nawiedzeniu światyni, uczestniczyliśmy **we Mszy św. odprawianej w tej światyni**, możemy podać numer patrona, który został zaproszony na tej Mszy, np. „**MSZA:A26**” lub „**MSZA:T26**” lub jej datę,
 - Zaznaczenie czy **udało się ujrzeć ołtarz główny**, czy **odmówiono modlitwę** i **przeczytano notatkę** o nawiedzonej świątyni - postaw dowolny znaczek (np. „✅”),
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 

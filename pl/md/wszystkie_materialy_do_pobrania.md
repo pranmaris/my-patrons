@@ -13,7 +13,7 @@
 
 - [<span id="oltarze" class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md): [wersja pełna](../../pl/pdf/lista_v1_e_oltarze.pdf),
 
-- [<span id="msze-swiete-u-patrona" class="status status-list"><span class="status status-list">F</span> Msze Święte u Patrona</span>](msze_swiete_u_patrona.md): _wkrótce_,
+- [<span id="adoracje-u-patrona" class="status status-list"><span class="status status-list">F</span> Adoracje u Patrona</span>](adoracje_u_patrona.md): _wkrótce_,
 
 - [<span id="odpusty-parafialne" class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span>](odpusty_parafialne.md): _wkrótce_,
 
@@ -55,8 +55,6 @@
 - [<span id="patroni-oredownicy" class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md): [wersja pełna](../../pl/pdf/lista_v1_u_patroni_oredownicy.pdf),
 
 - [<span id="klasztory" class="status status-list"><span class="status status-list">V</span> Klasztory</span>](klasztory.md): _wkrótce_,
-
-- [<span id="adoracje-u-patrona" class="status status-list"><span class="status status-list">W</span> Adoracje u Patrona</span>](adoracje_u_patrona.md): _wkrótce_,
 
 - [<span id="przypisy" class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md): [wersja pełna](../../pl/pdf/lista_v1_przypisy.pdf),
 
