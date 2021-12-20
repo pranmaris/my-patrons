@@ -41,13 +41,14 @@
 <span class="status status-title">Szczegóły:</span>
 - Święta dotyczące **Boga** (w ogólności) odnoszą się zawsze do **Trójcy Przenajświętszej**, np. _„Niedziela Miłosierdzia Bożego”_,
 - Odkrycie święta dotyczącego **wielu patronów** wymaga, aby każdy z nich był naszym **patronem - obrońcą**, np. _„Niedziela Świętej Rodziny”_ dotyczy Jezusa, Maryi i św. Józefa,
+- Jeżeli święto **nie odnosi się wprost** do żadnego patrona (np. „Pierwsza Niedziela Adwentu”, czy „Środa Popielcowa”), musimy spojrzeć na nie szerzej by dostrzec, że święta te są częścią Adwentu lub Wielkiego Postu, okresów związanych z **Jezusem Chrystusem**, którego powinniśmy do tych świąt przypisać,
 - Do czytania o świętach polecamy skorzystanie z takich stron, jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), [Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_katolickie_w_Polsce) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - **Numer patrona**, który został zaproszony jako **patron - obrońca** w tym dniu, np. „**MSZA → A26**”,
 - Informacja, na podstawie jakiego **źródła** wybraliśmy święto w tym dniu roku. Mogą to być poniższe skróty:
-  - **MR** - Martyrologium Rzymskie z 2004 roku, np. **MR:7** oznacza siódmy wpis na ten dzień roku,
-  - **SMR** - Martyrologium Rzymskie z 1956 roku, np. **SMR:7** j.w.,
+  - **NMR** - Martyrologium Rzymskie z 2004 roku, np. **NMR:7** oznacza siódmy wpis na ten dzień roku, **NMR:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
+  - **SMR** - Martyrologium Rzymskie z 1956 roku, np. **SMR:7** i **SMR:R12** - j.w.,
   - **KAL** - kalendarz liturgiczny, gdy święto było jawnie wspomniane na mszy, w której uczestniczyliśmy,
   - **ODP** - suma odpustu parafialnego wybranego święta.
 

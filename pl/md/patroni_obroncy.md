@@ -61,8 +61,8 @@
   - **miejsce Mszy św.** - na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
   - **kapłanów odprawiających Mszę św.** - na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M12** albo **M13+2+X,** gdy mszę koncelebrowały osoby o numerach 13 (celebrans jako pierwszy) i 2 oraz jeden kapłan spoza naszej listy,
 - Informacja, na podstawie jakiego **źródła** wybraliśmy patrona w tym dniu roku. Mogą to być poniższe skróty:
-  - **MR** - Martyrologium Rzymskie z 2004 roku, np. **MR:7** oznacza siódmy wpis na ten dzień roku,
-  - **SMR** - Martyrologium Rzymskie z 1956 roku, np. **SMR:7** j.w.,
+  - **NMR** - Martyrologium Rzymskie z 2004 roku, np. **NMR:7** oznacza siódmy wpis na ten dzień roku, **NMR:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
+  - **SMR** - Martyrologium Rzymskie z 1956 roku, np. **SMR:7** i **SMR:R12** - j.w.,
   - **KAL** - kalendarz liturgiczny, gdy patron był na jego podstawie jawnie wspomniany na mszy, w której uczestniczyliśmy,
   - **ODP** - suma odpustu parafialnego wybranego patrona,
   - **DSP** - dzień roku, w którym zmarł wybrany patron,

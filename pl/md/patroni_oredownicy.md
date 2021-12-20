@@ -87,8 +87,8 @@
   - **DMA:DD.MM** - dzień roku pierwszego Sakramentu Małżeństwa,
   - **DKA:DD.MM** - dzień roku uzyskania Sakramentu Kapłaństwa.
 - Informacja, na podstawie jakiego **źródła** wybraliśmy patrona w powyższym dniu roku. Mogą to być poniższe skróty:
-  - **MR** - Martyrologium Rzymskie z 2004 roku, np. **MR:7** oznacza siódmy wpis na ten dzień roku,
-  - **SMR** - Martyrologium Rzymskie z 1956 roku, np. **SMR:7** j.w.,
+  - **NMR** - Martyrologium Rzymskie z 2004 roku, np. **NMR:7** oznacza siódmy wpis na ten dzień roku, **NMR:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
+  - **SMR** - Martyrologium Rzymskie z 1956 roku, np. **SMR:7** i **SMR:R12** - j.w.,
   - **DSP** - dzień roku, w którym zmarł wybrany patron,
   - **DWP** - inny dzień roku, który został ogłoszony jako dzień wspomnienia patrona.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,

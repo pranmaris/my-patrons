@@ -32,7 +32,9 @@ W inicjatywie _„Moich Patronów”_, przez święta rozumiemy wszelkie **wspom
   - _„Podwyższenia Krzyża Świętego”_ (14 września - dotyczy Jezusa Chrystusa),
 - Święta dotyczą także **wszystkich świąt ruchomych**, np.:
   - _„Świętej Rodziny”_ (pierwsza niedziela po Bożym Narodzeniu - dotyczy Jezusa, Maryi i św. Józefa),
-  - _„Trójcy Przenajświętszej”_ (niedziela po Zesłaniu Ducha Świętego).
+  - _„Trójcy Przenajświętszej”_ (niedziela po Zesłaniu Ducha Świętego),
+  - _„Środa Popielcowa”_ (pierwszy dzień Wielkiego Postu - dotyczy pośrednio Jezusa, z którym związany jest ten okres),
+  - _„Pierwsza Niedziela Adwentu”_ (j.w. dotyczy Jezusa).
 
 **Każde święto dotyczy któregoś patrona!** Jest to ważne, ponieważ aby było **możliwe odkrycie** jakiekolwiek święta, każdy **powiązany z nim patron** musi być naszym **patronem - obrońcą** (patrz lista [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md)).
 
