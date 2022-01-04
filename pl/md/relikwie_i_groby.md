@@ -2,7 +2,7 @@
 <br />
 
 <span class="status status-title">Wymagany status patrona:</span>
-- <span class="status status-gray">szary</span>, <span class="status status-red">czerwony</span>, <span class="status status-blue">niebieski</span> albo <span class="status status-violet">fioletowy</span>: gdy w tym dniu zapraszamy patrona na naszego **opiekuna** - patrz lista [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md),
+- <span class="status status-black">czarny</span>, <span class="status status-red">czerwony</span>, <span class="status status-blue">niebieski</span> albo <span class="status status-violet">fioletowy</span>: gdy w tym dniu zapraszamy patrona na naszego **opiekuna** - patrz lista [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md),
 - <span class="status status-orange">pomarańczowy</span>, <span class="status status-yellow">żółty</span>, <span class="status status-green">zielony</span>, <span class="status status-indigo">indygo</span> albo <span class="status status-white">biały</span>: gdy patron jest już naszym **patronem - opiekunem**.
 <br />
 
@@ -35,7 +35,8 @@
 ---
 <span class="status status-title">Szczegóły:</span>
 - W ramach wyzwań możemy nawiedzać relikwie - według starego podziału - I stopnia (pozostałości ciała patrona) i II stopnia (przedmioty mające bezpośredni kontakt z patronem za jego życia). Relikwie III stopnia pomijamy,
-- W ramach wyzwań możemy nawiedzać aktualne groby patronów, ale także ich dawne groby, nawet jeśli ich ciała już tu nie spoczywają, np. Bazylika Grobu Świętego (Jezusa),
+- W ramach wyzwań możemy nawiedzać aktualne groby patronów, ale także ich dawne groby, nawet jeśli ich ciała już tu nie spoczywają,
+- Na tej liście można wpisywać także wyzwania dotyczące **Jezusa Chrystusa**, np. relikwie Krzyża Świętego, Całun Turyński, Bazylika Grobu Świętego (były grób Jezusa). Zamiast numeru patrona wpisujemy „**II**” (druga Osoba Boska),
 - Jako jedno wyzwanie traktujemy nawiedzenie relikwii lub grobu konkretnego patrona w jednym miejscu. Przykładowo, jeśli w pewnym kościele, czy muzeum znajduje się grób i 5 osobnych relikwiarzy jednego patrona, zapisujemy to jako jedno wyzwanie. Jeśli nawiedzimy w innym kościele inne jego relikwie, wtedy sprostamy kolejnemu wyzwaniu - dotyczy to także przypadku przeniesienia tych samych relikwii (lub grobu) w inne miejsce,
 - Jeśli (wspólny) grób lub relikwie dotyczą kilku patronów jednocześnie, nawiedzenie ich traktujemy jako odrębne wyzwania dla każdego z nich z osobna. W razie potrzeby, nawiedzając te same relikwie można sprostać wyzwaniu dotyczącemu najpierw jednemu patronowi, by po jakimś czasie (po zaproszeniu drugiego patrona) ponownie nawiedzić je, robiąc to także dla niego,
 - Jednego dnia można nawiedzić dowolną liczbę grobów i relikwii w wielu różnych miejscach i sprostać wszystkim wyzwaniom, których jeszcze nie mieliśmy.

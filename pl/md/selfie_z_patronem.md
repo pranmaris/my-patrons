@@ -30,6 +30,7 @@
 
 ---
 <span class="status status-title">Szczegóły:</span>
+- Na tej liście można wpisać wykonane selfie z wizerunkami **Osób Boskich**. Zamiast numeru patrona wpisujemy: „**I**” (Bóg Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) albo „**I+II+III**” (Trójca Przenajświętsza),
 - Ponieważ niektóre wizerunki patronów mogą znajdować się wysoko, chyba lepiej zawsze kadrować pionowo wykonane zdjęcia,
 - Z własnych fotografii z patronami można zrobić sobie piękny pamiątkowy album,
 - Warto rozważyć użycie wykonanych zdjęć na swoich [kartach kolekcjonerskich](karty_kolekcjonerskie.md).

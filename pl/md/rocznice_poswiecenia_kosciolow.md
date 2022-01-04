@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-list">J</span> Rocznice Poświęcenia Kościołów</span>
+# <span class="status status-list"><span class="status status-list">K</span> Rocznice Poświęcenia Kościołów</span>
 <br />
 
 <span class="status status-title">Wymagany status patrona lub święta:</span> <span class="status status-green">zielony</span>, <span class="status status-blue">niebieski</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span> albo <span class="status status-white">biały</span>.

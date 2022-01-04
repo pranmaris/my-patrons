@@ -41,6 +41,7 @@
 <span class="status status-title">Szczegóły:</span>
 - Cytaty można znaleźć w książkach, żywotach świętych lub na [Wikicytatach](https://pl.wikiquote.org),
 - **„Kuferek mądrości”** może być pudełkiem, słoikiem lub czymkolwiek innym, gdzie mogą znajdować się małe karteczki.
+- Na tej liście można wpisywać także cytaty **Osób Boskich**, np. z Pisma Świętego, wizji innych świętych. Zamiast numeru patrona wpisujemy: „**I**” (Bóg Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) albo „**I+II+III**” (Trójca Przenajświętsza),
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - **Nazwa patrona**, który jest autorem cytatu,

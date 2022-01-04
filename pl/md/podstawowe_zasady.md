@@ -17,10 +17,15 @@ O listach:
 
 ---
 O statusach:
-- Kolory służą do określenia **statusów**, w jakim znajduje się Uczestnik w drodze odkrywania świąt i zapraszania patronów. Dla każdego z osobna mamy odrębny status,
-- Możliwe kolory **statusów** to: <span class="status status-black">czarny</span>, <span class="status status-gray">szary</span>, <span class="status status-red">czerwony</span>, <span class="status status-orange">pomarańczowy</span>, <span class="status status-yellow">żółty</span>, <span class="status status-green">zielony</span>, <span class="status status-blue">niebieski</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span> i <span class="status status-white">biały</span>,
-- Na początku każdy Uczestnik otrzymuje **status** w kolorze <span class="status status-black">czarnym</span> dla każdego patrona i święta,
-- Aby cokolwiek notować na określonej **liście**, zawsze musimy mieć **status** w wymaganym przez nią kolorze.
+- **Statusy** za pomocą kolorów opisują wykonane przez Uczestnika zadania, w drodze **odkrywania świąt**, **zapraszania patronów** i **zdobywania osiągnieć**. Dla każdego **święta**, **patrona** i **osiągnięcia** mamy **odrębny status**,
+- Dopiero po wykonaniu początkowego zadania [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md), posiadać będziemy statusy dla każdego **święta**, **patrona** i **osiągnięcia**. Na początku będą one wszystkie w kolorze <span class="status status-black">czarnym</span>,
+- Aby cokolwiek notować na określonej **liście**, zawsze musimy mieć **status** w wymaganym przez nią kolorze dla święta lub patrona, którego dotyczy wpis,
+- Możliwe **kolory statusów** to:
+|| <span class="status status-black">czarny</span> | <span class="status status-brown">brązowy</span> | <span class="status status-red">czerwony</span> | <span class="status status-orange">pomarańczowy</span> | <span class="status status-yellow">żółty</span> | <span class="status status-green">zielony</span> | <span class="status status-blue">niebieski</span> | <span class="status status-indigo">indygo</span> | <span class="status status-violet">fioletowy</span> | <span class="status status-white">biały</span> |
+|---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **święta:** |✅|||||||||✅|
+| **patroni:** |✅||✅|✅|✅|✅|✅|✅|✅|✅|
+| **osiągnięcia:** |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|
 
 ---
 O zadaniach:

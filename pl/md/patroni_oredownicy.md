@@ -2,7 +2,7 @@
 <br />
 
 <span class="status status-title">Wymagany status patrona:</span> Jeden z poniższych:
-- <span class="status status-gray">szary</span> - po wykonaniu zadania zmieni się na <span class="status status-red">czerwony</span>,
+- <span class="status status-black">czarny</span> - po wykonaniu zadania zmieni się na <span class="status status-red">czerwony</span>,
 
 - <span class="status status-yellow">żółty</span> - po wykonaniu zadania zmieni się na <span class="status status-orange">pomarańczowy</span>,
 
@@ -10,15 +10,17 @@
 
 - <span class="status status-blue">niebieski</span> - po wykonaniu zadania zmieni się na <span class="status status-violet">fioletowy</span>.
 
-<span class="status status-title">Limity:</span> Można zaprosić tylko jednego **patrona - orędownika** dziennie.
+<span class="status status-title">Limity:</span>
+- Można zaprosić tylko jednego **patrona - orędownika** dziennie,
+- Można zaprosić tylko jednego **patrona - orędownika** z inną konkretną osobą w ciągu miesiąca kalendarzowego.
 <br />
 
 <span class="status status-title">Opis zadania:</span> **Razem z inną wybraną osobą**, zapraszamy wybranych świętych lub błogosławionych do grona naszych patronów i prosimy ich, aby zostali naszymi **orędownikami**.
 <br />
 
 <span class="status status-title">Kroki:</span>
-- Wybierz **osobę**, z którą wspólnie chcielibyście zaprosić **patrona - orędownika**,
-- Korzystając z listy [<span class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>](sakramenty_i_patroni_imion.md) lub [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md) tej osoby, wybierz **patrona**, który:
+- Wybierz **osobę**, z którą wspólnie chcielibyście zaprosić **patrona - orędownika** (tylko, jeśli nie zapraszaliście jeszcze wspólnie w tym miesiącu kalendarzowym),
+- Korzystając z listy [<span class="status status-list"><span class="status status-list">J</span> Sakramenty</span>](sakramenty.md) lub [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md) tej osoby, wybierz **patrona**, który:
   - jest **patronem otrzymanych imion** z Chrztu św., Bierzmowania lub przyjętych imion zakonnych **tej osoby**,
   - jest [**patronem** możliwym do wyboru](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#patroni-oredownicy-na-dzis) w **dniach roku**, w których ta osoba **urodziła się** lub **przyjęła po raz pierwszy** każdy swój Sakrament,
   - jest „**Białym Patronem**” tej osoby,
@@ -59,14 +61,7 @@
 > Dnia **[data spotkania]**,  
 > zaproszony został patron - orędownik: **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
 > co umożliwiła mi osoba **[nazwisko i podpis drugiej osoby]**.
-- To zadanie możemy wykonać raz także dla Osób Boskich. Można to uczynić nie zważając na dzienny limit zaproszonych **patronów - orędowników**, czyli zaprosić w jednym dniu np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem. Do Osób Boskich modlimy się innymi słowami niż do patronów, mianowicie:
-> **[Boże Ojcze/Jezu Chrysie/Duchu Święty/Trójco Przenajświętsza]** zmiłuj się nade mną!  
 
-  **Osoby Boskie zawsze zapraszamy dodatkowo w dniu zapraszania innego patrona - orędownika**, spełniając poniższe wymagania:
-  - Boga Ojca (numer „**U I**”) możemy zaprosić tylko w dniu rocznicy przyjęcia przez nas Sakramentu **Chrztu Świętego**,
-  - Jezusa Chrystusa (numer „**U II**”) możemy zaprosić tylko w dniu rocznicy przyjęcia przez nas Sakramentu **Pierwszej Komunii Świętej**,
-  - Ducha Świętego (numer „**U III**”) możemy zaprosić tylko w dniu rocznicy przyjęcia przez nas Sakramentu **Bierzmowania**,
-  - całą Trójcę Przenajświętszą (numer „**U I+II+III**”) możemy zaprosić tylko w dniu rocznicy naszych **urodzin**.
 <br />
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>

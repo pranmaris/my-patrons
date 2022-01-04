@@ -7,7 +7,7 @@
 <span class="status status-title">Limity:</span> Można zaprosić tylko jednego **białego patrona** dziennie.
 <br />
 
-<span class="status status-title">Opis zadania:</span> Prosimy wybranego świętego lub błogosławionego patrona o jego **pełne błogosławieństwo** dla nas na całe życie.
+<span class="status status-title">Opis zadania:</span> Zapraszamy wybranego świętego lub błogosławionego patrona do **najpełniejszej możliwej relacji**.
 <br />
 
 <span class="status status-title">Kroki:</span>
@@ -53,13 +53,7 @@
 
 ---
 <span class="status status-title">Szczegóły:</span>
-- Aby zaprosić **kolejnego** białego patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**,
-- To zadanie możemy wykonać raz także dla Osób Boskich, czyli dla Boga Ojca (numer „**P I**”), Jezusa Chrystusa (numer „**P II**”), Ducha Świętego (numer „**P III**”) oraz całej Trójcy Przenajświętszej (numer „**P I+II+III**”). Robimy to dla **każdej z tych Osób oddzielnie**, jeśli oczywiście posiada wymagany status w kolorze <span class="status status-indigo">indygo</span>. Oznacza to, że **nie wykonujemy adoracji Najświętszego Sakramentu wspólnie z innym patronem** - tylko oddzielnie! Modlitwa do Osoby Boskiej z prośbą o błogosławieństwo jest inna niż do zwykłych patronów:
-> **[Boże Ojcze/Jezu Chrysie/Duchu Święty/Trójco Przenajświętsza]**,  
-> zmiłuj się nade mną,  
-> i proszę, pobłogosław mnie,  
-> w Imię Ojca i Syna i Ducha Świętego,  
-> Amen.
+- Aby zaprosić **kolejnego** białego patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**.
 
 <br />
 

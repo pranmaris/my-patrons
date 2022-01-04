@@ -24,12 +24,12 @@
 - **Kolejny numer** nawiedzonego ołtarza (E1, E2, ...),
 - Odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem, w którym znajduje się wybrany ołtarz**, np. **C2**,
 - **Święto lub patron tytularny ołtarza** (kaplicy) z podkreśloną nazwą powiązanego patrona lub święta,
-- Odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md) ze **świętem** albo [<span class="status status-list"><span class="status status-blue">T</span> Patroni - Obrońcy</span>](patroni_obroncy.md) z **patronem - obrońcą**, którego ołtarz (kaplicę) nawiedziliśmy, np. **T60**,
+- Odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md) ze **świętem** albo [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) z **patronem - obrońcą**, którego ołtarz (kaplicę) nawiedziliśmy, np. **A60**,
 - **Datę nawiedzenia** ołtarza (najlepiej z dniem tygodnia).
 <br />
 
 ---
-### <div class="colored centered">Niektóre kościoły mogą posiadać nawet kilkudziesiąt wyjątkowych ołtarzy bocznych i kaplic!</div>
+### <div class="colored centered">Niektóre kościoły mogą posiadać nawet kilkadziesiąt wyjątkowych ołtarzy bocznych i kaplic!</div>
 
 ---
 <span class="status status-title">Szczegóły:</span> Szczegółowe zasady nawiedzania ołtarzy (kaplic) są analogiczne do listy: [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md).

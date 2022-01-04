@@ -1,13 +1,13 @@
-# <span class="status status-list"><span class="status status-gray">∞</span> Bóg</span>
+# <span class="status status-list"><span class="status status-black">∞</span> Bóg</span>
 <br />
 
-<span class="status status-title">Wymagany status:</span> <span class="status status-black">czarny</span> - po wykonaniu zadania zmieni się na <span class="status status-gray">szary</span> **dla każdego patrona i święta z osobna**!
+<span class="status status-title">Wymagany status:</span> Bez statusu - zadanie to wykonujemy raz na początku, co spowoduje **uzyskanie statusów początkowych** w kolorze <span class="status status-black">czarnym</span> **dla każdego patrona, święta i osiągnięcia z osobna**!
 <br />
 
 <span class="status status-title">Limity:</span> To zadanie można i wystarczy wykonać tylko jeden raz.
 <br />
 
-<span class="status status-title">Opis zadania:</span> **Zawierzamy Bogu** cały nasz udział w inicjatywie _„Moich Patronów”_. **Prosimy Go**, aby dał nam siły, umiejętności i zapał do [odkrywania **wszystkich świąt**](jak_odkrywac_swieta.md) i [zapraszania **wszystkich patronów**](jak_zapraszac_patronow.md). Chcemy także **wyznać** Mu naszą **wiarę** i **miłość**!
+<span class="status status-title">Opis zadania:</span> **Zawierzamy Bogu** cały nasz udział w inicjatywie _„Moich Patronów”_. **Prosimy Go**, aby dał nam siły, umiejętności i zapał do [odkrywania **wszystkich świąt**](jak_odkrywac_swieta.md), [zapraszania **wszystkich patronów**](jak_zapraszac_patronow.md) i [zdobywania wszystkich osiągnięć](jak_zdobywac_osiagniecia.md). Chcemy także **wyznać** Mu naszą **wiarę** i **miłość**!
 <br />
 
 <span class="status status-title">Kroki:</span>
@@ -30,12 +30,11 @@
 <br />
 
 ---
-### <div class="colored centered">Teraz możesz już odkrywać święta i zapraszać patronów!</div>
+### <div class="colored centered">Teraz możesz już odkrywać święta, zapraszać patronów i zdobywać osiągnięcia!</div>
 
 ---
 <span class="status status-title">Szczegóły:</span>
-- Na liście do wydrukowania („[🖶](wszystkie_materialy_do_pobrania.md#bog)”), pod miejscem do wpisania daty wykonania powyższego zadania, możemy wpisać Osoby Boskie o numerach: „**I**” (Bój Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) i „**I+II+III**” (Trójca Przenajświętsza) dla czterech list zapraszania patronów: [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md). Więcej szczegółów jak to uzupełnić znajdziesz w opisie każdej z tych list,
-- Wykonanie tego zadania upoważnia Cię do posiadania [4 kart patronów](karty_kolekcjonerskie.md) z Osobami Boskimi (patrz wyżej).
+- Wykonanie tego zadania upoważnia Cię do posiadania [4 kart z Osobami Boskimi](karty_kolekcjonerskie.md): z Bogiem Ojcem, Synem Bożym (Jezusem), Duchem Świętym i (łącznie) Trójcą Przenajświętszą!
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span> **Miejsce** wykonania zadania - na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**.
 

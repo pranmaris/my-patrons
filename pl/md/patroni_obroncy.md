@@ -2,7 +2,7 @@
 <br />
 
 <span class="status status-title">Wymagany status patrona:</span> Jeden z poniższych:
-- <span class="status status-gray">szary</span> - po wykonaniu zadania zmieni się na <span class="status status-blue">niebieski</span>,
+- <span class="status status-black">czarny</span> - po wykonaniu zadania zmieni się na <span class="status status-blue">niebieski</span>,
 
 - <span class="status status-red">czerwony</span> - po wykonaniu zadania zmieni się na <span class="status status-violet">fioletowy</span>,
 
@@ -45,12 +45,10 @@
 ---
 <span class="status status-title">Szczegóły:</span>
 - Za **udział w Mszy** rozumiemy naszą **fizyczną obecność na terenie jej odprawienia**. Może to być także pobyt poza budynkiem kościoła, w odrębnej salce czy innym budynku na terenie przykościelnym z transmisją Mszy „na żywo” (audio lub video). Gdyby Msza odbyła się w kaplicy szpitala, wszyscy jego pacjenci mający łączność z tym miejscem, mogą w niej uczestniczyć,
-- To zadanie możemy wykonać raz także dla Osób Boskich, czyli dla Boga Ojca (numer „**A I**”), Jezusa Chrystusa (numer „**A II**”), Ducha Świętego (numer „**A III**”) oraz całej Trójcy Przenajświętszej (numer „**A I+II+III**”). Można to uczynić nie zważając na dzienny limit zaproszonych **patronów - obrońców**, czyli zaprosić w jednym dniu (raz przyjmując Komunię św.) np.: św. Piotra, Ducha Świętego i Trójcę Przenajświętszą razem. Do Osób Boskich modlimy się innymi słowami niż do patronów, mianowicie:
-> **[Boże Ojcze/Jezu Chrysie/Duchu Święty/Trójco Przenajświętsza]** zmiłuj się nade mną!
 - W Wielki Piątek wystarczy uczestnictwo w Liturgii Męki Pańskiej, gdyż w tym dniu nie odprawia się mszy św.,
 - Jeżeli w danym wspomnieniu jest podanych więcej patronów zbiorowo, to można każdorazowo zaprosić tylko jednego z nich. Następnych będziemy mogli zaprosić dopiero w dniu kolejnego ich wspomnienia, np. za rok, choć często będzie to możliwe wcześniej. Przykładowo 20 września wybierając wspomnienie pt.: _„Święci męczennicy Andrzej Kim Tae-gŏn, prezbiter, Paweł Chŏng Ha-sang i Towarzysze”_, można zaprosić albo wspomnianego owego Andrzeja albo Pawła albo jednego dowolnego ze znanych z imienia ich 101 pozostałych koreańskich towarzyszy (np. św. Antoniego Daveluya),
 - Jedynie w sytuacji, gdy imiona niektórych patronów nie są znane, możemy zaprosić ich zbiorczo, np. 22 września we wspomnieniu pt.: _„Święci Maurycy i Towarzysze, męczennicy”_, z imienia znamy tylko św. Maurycego, św. Eksuperiusza, św. Kandyda i kilku innych. Można zatem jako patrona wybrać jednego z tych znanych świętych albo zbiorczo pozostałych nadając im nazwę np.: „nieznani towarzysze św. Maurycego” (to około 6600 świętych). Podobnie zbiorczo możemy zaprosić np. _„Wszystkich Świętych”_ – 1 listopada, _„Wszystkich Wiernych Zmarłych”_ – 2 listopada, _„Świętych Młodzianków”_ – 28 grudnia, itd.,
-- Jeżeli dany patron jest wspominany wiele razy w ciągu roku pod różnymi tytułami, zapraszamy go i zapisujemy na listę **patronów - obrońców** tylko raz **bez tego tytułu**. Tytuły będziemy niezależnie uzupełniać na liście [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md) w dniach ich wspomnień. Przykładami patronów z tytułami są: Najświętsza Maryja Panna _„Wniebowzięta”_ (od święta _„Wniebowzięcia Najświętszej Maryi Panny”_) - 15 sierpnia, Najświętsza Maryja Panna _„Różańcowa”_ – 7 października, Najświętsza Maryja Panna _„Wspomożycielka Wiernych”_ – 24 maja, św. Józef _„Oblubieniec Najświętszej Maryi Panny”_ – 19 marca, św. Józef _„Rzemieślnik”_ – 1 maja, Jezus Chrystus _„Przemieniony”_ (od święta _„Przemienienia Pańskiego”_) - 6 sierpnia, Jezus Chrystus _„Król Wszechświata”_ – w ostatnią niedzielę roku liturgicznego, itd.
+- Jeżeli dany patron jest wspominany wiele razy w ciągu roku pod różnymi tytułami, zapraszamy go i zapisujemy na listę **patronów - obrońców** tylko raz **bez tego tytułu**. Tytuły będziemy niezależnie uzupełniać na liście [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md) w dniach ich wspomnień. Przykładami patronów z tytułami są: Najświętsza Maryja Panna _„Wniebowzięta”_ (od święta _„Wniebowzięcia Najświętszej Maryi Panny”_) - 15 sierpnia, Najświętsza Maryja Panna _„Różańcowa”_ – 7 października, Najświętsza Maryja Panna _„Wspomożycielka Wiernych”_ – 24 maja, św. Józef _„Oblubieniec Najświętszej Maryi Panny”_ – 19 marca, św. Józef _„Rzemieślnik”_ – 1 maja, itd.
 <br />
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
@@ -59,7 +57,7 @@
 - Informacje o Mszy św, w której uczestniczyliśmy:
   - **godzinę Mszy św**,
   - **miejsce Mszy św.** - na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
-  - **kapłanów odprawiających Mszę św.** - na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M12** albo **M13+2+X,** gdy mszę koncelebrowały osoby o numerach 13 (celebrans jako pierwszy) i 2 oraz jeden kapłan spoza naszej listy,
+  - **kapłanów odprawiających Mszę św.** - na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M12** albo **M13+M2+M?,** gdy mszę koncelebrowały osoby o numerach 13 (celebrans jako pierwszy) i 2 oraz jeden kapłan spoza naszej listy,
 - Informacja, na podstawie jakiego **źródła** wybraliśmy patrona w tym dniu roku. Mogą to być poniższe skróty:
   - **NMR** - Martyrologium Rzymskie z 2004 roku, np. **NMR:7** oznacza siódmy wpis na ten dzień roku, **NMR:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
   - **SMR** - Martyrologium Rzymskie z 1956 roku, np. **SMR:7** i **SMR:R12** - j.w.,

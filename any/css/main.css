@@ -155,6 +155,10 @@ footer a, footer a:hover {
   background-color: #FFFFFF;
   color: #000000;
 }
+.status-brown {
+  background-color: #964B00;
+  color: #FFFFFF;
+}
 .status-title {
   font-weight: bold;
   color: rgb(0, 100, 100);

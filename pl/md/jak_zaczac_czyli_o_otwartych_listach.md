@@ -1,14 +1,16 @@
 # Jak zacząć? Czyli o otwartych listach
-Na początku udziału posiadamy status w kolorze <span class="status status-black">czarnym</span> dla każdego patrona i święta, co oznacza brak możliwości działania, ale szybko możemy to zmienić.
+Jako chrześcijanie powinniśmy pamiętać, aby przed każdą ważniejszą czynnością **zawierzyć ją Bogu**, który uzdolni nas do jej wykonania zgodnie z Jego wolą. **Na początku** - jednorazowo, wykonajmy zadanie:
+- [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md) - by zawierzyć Bogu całą naszą dalszą drogę z _„Moimi Patronami”_ i wyznać Mu naszą wiarę.
 
-Jako chrześcijanie powinniśmy pamiętać, by przed wykonaniem każdej ważniejszej czynności zawierzyć ją Bogu, który uzdolni nas do jej wykonania. W naszym przypadku można to uczynić wykonując zadanie z poniższej listy:
-- [<span class="status status-list"><span class="status status-gray">∞</span> Bóg</span>](bog.md) - by zawierzyć Bogu całą naszą dalszą drogę z _„Moimi Patronami”_ i zmienić koloru statusu na <span class="status status-gray">szary</span> dla każdego patrona i święta.
-
-Zmiana koloru <span class="status status-black">czarnego</span> na <span class="status status-gray">szary</span> symbolizuje obdarowanie nas **Bożym Światłem i Łaskami**, bez których nie bylibyśmy w stanie niczego uczynić. Są one częściowe (<span class="status status-gray">szary</span> to nie <span class="status status-white">biały</span>), ale na początek wystarczą. Współpracując z nimi wedle Bożej woli, na pewno damy radę sprostać wszystkim napotkanym trudnościom i osiągniemy wyznaczony cel!
+Wykonanie tego zadania **rozpoczyna nasz udział** w _„Moich Patronach”_. Dla każdego **święta**, **patrona** i **osiągnięcia** otrzymujemy status początkowy w kolorze <span class="status status-black">czarnym</span>.
 
 ---
-Kolejnym krokiem jaki warto wykonać to uzupełnienie listy:
-- [<span class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>](sakramenty_i_patroni_imion.md) - by przypomnieć sobie kiedy i gdzie przyjmowaliśmy po raz pierwszy każdy Sakrament i kim są Patroni naszych imion - taka osobista wizytówka, która przyda się w dalszym etapie zabawy.
+Kolejnym krokiem jaki warto wykonać to uzupełnienie dwóch poniższych list:
+- [<span class="status status-list"><span class="status status-list">J</span> Sakramenty</span>](sakramenty.md) - by przypomnieć sobie kiedy i gdzie przyjmowaliśmy po raz pierwszy każdy Sakrament,
+
+- [<span class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span>](osiagniecie_patroni_moich_imion.md) - by stworzyć listę Patronów naszych imion, których zapraszenie może być naszym pierwszym osiągnięciem.
+
+Dzięki uzupełnieniu powyższych trzech list, stworzymy taką **naszą osobistą wizytówkę**, która przyda się w dalszym etapie zabawy.
 
 ---
 W każdym momencie możemy skorzystać także z poniższych list:

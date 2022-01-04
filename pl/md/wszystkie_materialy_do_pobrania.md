@@ -1,7 +1,7 @@
 # Wszystkie materiały do pobrania
 ### Listy do notowania osiągnięć:
 
-- [<span id="bog" class="status status-list"><span class="status status-gray">∞</span> Bóg</span>](bog.md): [wersja pełna](../../pl/pdf/lista_v1_oo_bog.pdf),
+- [<span id="bog" class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md): [wersja pełna](../../pl/pdf/lista_v1_oo_j_ya_metryczka.pdf),
 
 - [<span id="patroni-obroncy" class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md): [wersja pełna](../../pl/pdf/lista_v1_a_patroni_obroncy.pdf),
 
@@ -30,9 +30,9 @@
    - [<span id="nabozenstwo-gorzkich-zalow" class="status status-list"><span class="status status-list">ID</span> Nabożeństwo Gorzkich Żalów</span>](nabozenstwo_gorzkich_zalow.md): _wkrótce_,
 <br />
 
-- [<span id="rocznice-poswiecenia-kosciolow" class="status status-list"><span class="status status-list">J</span> Rocznice Poświęcenia Kościołów</span>](rocznice_poswiecenia_kosciolow.md): _wkrótce_,
+- [<span id="sakramenty" class="status status-list"><span class="status status-list">J</span> Sakramenty</span>](sakramenty.md): [wersja pełna](../../pl/pdf/lista_v1_oo_j_ya_metryczka.pdf),
 
-- [<span id="sakramenty-i-patroni-imion" class="status status-list"><span class="status status-list">K</span> Sakramenty i Patroni Imion</span>](sakramenty_i_patroni_imion.md): [wersja pełna](../../pl/pdf/lista_v1_k_sakramenty_i_patroni_imion.pdf),
+- [<span id="rocznice-poswiecenia-kosciolow" class="status status-list"><span class="status status-list">K</span> Rocznice Poświęcenia Kościołów</span>](rocznice_poswiecenia_kosciolow.md): _wkrótce_,
 
 - [<span id="szkaplerze" class="status status-list"><span class="status status-list">L</span> Szkaplerze</span>](szkaplerze.md): _wkrótce_,
 
@@ -58,5 +58,8 @@
 
 - [<span id="przypisy" class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md): [wersja pełna](../../pl/pdf/lista_v1_przypisy.pdf),
 
+- Osiągnięcia:
+
+   - [<span id="osiagniecie-patroni-moich-imion" class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span>](osiagniecie_patroni_moich_imion.md): [wersja pełna](../../pl/pdf/lista_v1_oo_j_ya_metryczka.pdf),
 
 [Powrót do głównego menu](index.md)
