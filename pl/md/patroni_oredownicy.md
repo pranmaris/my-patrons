@@ -12,7 +12,7 @@
 
 <span class="status status-title">Limity:</span>
 - Można zaprosić tylko jednego **patrona - orędownika** dziennie,
-- Można zaprosić tylko jednego **patrona - orędownika** z inną konkretną osobą w ciągu miesiąca kalendarzowego.
+- Można zaprosić tylko jednego **patrona - orędownika** z inną konkretną osobą w ciągu **miesiąca kalendarzowego**.
 <br />
 
 <span class="status status-title">Opis zadania:</span> **Razem z inną wybraną osobą**, zapraszamy wybranych świętych lub błogosławionych do grona naszych patronów i prosimy ich, aby zostali naszymi **orędownikami**.
@@ -20,7 +20,7 @@
 
 <span class="status status-title">Kroki:</span>
 - Wybierz **osobę**, z którą wspólnie chcielibyście zaprosić **patrona - orędownika** (tylko, jeśli nie zapraszaliście jeszcze wspólnie w tym miesiącu kalendarzowym),
-- Korzystając z listy [<span class="status status-list"><span class="status status-list">J</span> Sakramenty</span>](sakramenty.md) lub [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md) tej osoby, wybierz **patrona**, który:
+- Korzystając z list: [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md), [<span class="status status-list"><span class="status status-list">J</span> Sakramenty</span>](sakramenty.md), [<span class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span>](osiagniecie_patroni_moich_imion.md) lub [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md) tej osoby, wybierz **patrona**, który:
   - jest **patronem otrzymanych imion** z Chrztu św., Bierzmowania lub przyjętych imion zakonnych **tej osoby**,
   - jest [**patronem** możliwym do wyboru](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#patroni-oredownicy-na-dzis) w **dniach roku**, w których ta osoba **urodziła się** lub **przyjęła po raz pierwszy** każdy swój Sakrament,
   - jest „**Białym Patronem**” tej osoby,
@@ -48,7 +48,7 @@
 - **Kolejny numer** wybranego patrona (U1, U2, ...),
 - **Datę zaproszenia** patrona (najlepiej z dniem tygodnia) - to data wspólnego odmówienia modlitwy z drugą osobą,
 - **Nazwę** wybranego patrona (imię i nazwisko, imię zakonne, znany przydomek, miejsce pochodzenia),
-- **Daty odmówienia 7 modlitw** za powyższą osobę, z którą wzajemnie zapraszaliśmy patrona.
+- **Daty odmówienia siedmiu modlitw** za powyższą osobę, z którą wzajemnie zapraszaliśmy patrona.
 <br />
 
 ---

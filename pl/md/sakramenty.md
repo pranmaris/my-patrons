@@ -7,11 +7,10 @@
 <span class="status status-title">Limity:</span> Brak.
 <br />
 
-<span class="status status-title">Opis zadania:</span> Zadanie to jest okazją do przypomnienia sobie **kiedy przyjęliśmy po raz pierwszy każdy Sakrament**. Dodając do tego naszą **datę urodzenia** (do wpisania na tej liście), będziemy mieć także prawie komplet informacji potrzebnych innym przy wyborze swojego **patrona - orędownika** razem z nami, na liście <span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>.
+<span class="status status-title">Opis zadania:</span> Zadanie to jest okazją do przypomnienia sobie **kiedy przyjęliśmy po raz pierwszy każdy Sakrament**. Dzięki temu będziemy mieć także kolejne informacje potrzebne innym przy wyborze swojego **patrona - orędownika** razem z nami, na liście <span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>.
 <br />
 
 <span class="status status-title">Kroki:</span>
-- Wpisz swoją **datę urodzenia**,
 - Wpisz **nazwy przyjętych sakramentów**, wraz z **datą ich pierwszego przyjęcia**.
 <br />
 
@@ -19,7 +18,6 @@
 <br />
 
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#sakramenty):</span>
-- **Datę swojego urodzenia**,
 - **Nazwy i daty przyjęcia** każdego swojego sakramentu.
 <br />
 
@@ -30,7 +28,6 @@
 <span class="status status-title">Szczegóły:</span> Brak.
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
-- Informacja o **miejscu urodzenia**, np. **C23** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
 - Informacja o **miejscu pierwszego przyjęcia każdego sakramentu**, np. **C17** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
 - Informacja kto był **szafarzem każdego sakramentu**, np. **M32** na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md),
 - **Godzina Mszy św. lub Spowiedzi**, na której otrzymaliśmy dany sakrament,
