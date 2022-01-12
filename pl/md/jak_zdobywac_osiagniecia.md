@@ -14,7 +14,7 @@ Dla każdej listy możemy wpisać poniższe informacje:
 Mamy poniższe osiągnięcia do wyboru:
 - [<span class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span>](osiagniecie_patroni_moich_imion.md)
 
-- ...
+- [<span class="status status-list"><span class="status status-list">YB</span> Osiągnięcie: Patroni Imion Moich Najbliższych</span>](osiagniecie_patroni_imion_moich_najblizszych.md)
 
 Lista powyższych osiągnięć nie jest zamknięta, dlatego chętnie rozważymy dodanie Twoich propozycji!
 

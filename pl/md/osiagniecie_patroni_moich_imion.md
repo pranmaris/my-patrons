@@ -9,6 +9,9 @@ Lista ta może stać się także przydatna innym osobom przy wyborze swojego **p
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#osiagniecie-patroni-moich-imion):</span> Patrz na stronie o [zdobywaniu osiągnięć](jak_zdobywac_osiagniecia.md).
 <br />
 
+<span class="status status-title">Lista:</span> Każda osoba ma swoich indywidualnych patronów.
+<br />
+
 ---
 ### <div class="colored centered">Stwórz swoją patronową wizytówkę!</div>
 

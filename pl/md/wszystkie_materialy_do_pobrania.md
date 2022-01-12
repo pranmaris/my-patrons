@@ -62,4 +62,6 @@
 
    - [<span id="osiagniecie-patroni-moich-imion" class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span>](osiagniecie_patroni_moich_imion.md): [wersja pełna](../../pl/pdf/lista_v1_oo_bog_j_sakramenty_ya_patroni_moich_imion.pdf),
 
+   - [<span id="osiagniecie-patroni-imion-moich-najblizszych" class="status status-list"><span class="status status-list">YB</span> Osiągnięcie: Patroni Imion Moich Najbliższych</span>](osiagniecie_patroni_imion_moich_najblizszych.md): [wersja pełna](../../pl/pdf/lista_v1_yb_patroni_imion_moich_najblizszych.pdf),
+
 [Powrót do głównego menu](index.md)

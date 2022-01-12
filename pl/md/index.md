@@ -36,6 +36,7 @@
 - [<span><span class="status status-list"><span class="status status-list">＊</span> Przypisy</span></span>](przypisy.md)
 - [Jak zdobywać osiągnięcia?](jak_zdobywac_osiagniecia.md)
 - [→&nbsp;<span><span class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span></span>](osiagniecie_patroni_moich_imion.md)
+- [→&nbsp;<span><span class="status status-list"><span class="status status-list">YB</span> Osiągnięcie: Patroni Imion Moich Najbliższych</span></span>](osiagniecie_patroni_imion_moich_najblizszych.md)
 - [Wszystkie materiały do pobrania](wszystkie_materialy_do_pobrania.md)
 - [Karty kolekcjonerskie](karty_kolekcjonerskie.md)
 - [Przyjaciele „Moich Patronów”](przyjaciele_moich_patronow.md)
