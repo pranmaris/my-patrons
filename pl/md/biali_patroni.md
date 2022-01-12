@@ -53,7 +53,8 @@
 
 ---
 <span class="status status-title">Szczegóły:</span>
-- Aby zaprosić **kolejnego** białego patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**.
+- Aby zaprosić **kolejnego** białego patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**!
+- Tego zadania **nie można łączyć** z **adoracją u Patrona** na liście [<span class="status status-list"><span class="status status-list">F</span> Adoracje u Patrona</span>](adoracje_u_patrona.md)!
 
 <br />
 
