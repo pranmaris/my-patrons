@@ -15,7 +15,7 @@
 
 - [<span id="adoracje-u-patrona" class="status status-list"><span class="status status-list">F</span> Adoracje u Patrona</span>](adoracje_u_patrona.md): [wersja pełna](../../pl/pdf/lista_v1_f_adoracje_u_patrona.pdf),
 
-- [<span id="odpusty-parafialne" class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span>](odpusty_parafialne.md): _wkrótce_,
+- [<span id="odpusty-parafialne" class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span>](odpusty_parafialne.md): [wersja pełna](../../pl/pdf/lista_v1_g_odpusty_parafialne.pdf),
 
 - [<span id="relikwie-i-groby" class="status status-list"><span class="status status-list">H</span> Relikwie i Groby</span>](relikwie_i_groby.md): [wersja pełna](../../pl/pdf/lista_v1_h_relikwie_i_groby.pdf),
 

@@ -11,7 +11,7 @@
 <br />
 
 <span class="status status-title">Kroki:</span>
-- Znajdź świątynię należącą do Kościoła Rzymskokatolickiego, która jest pod wezwaniem **patrona - obrońcy** lub **święta**, posiadanych już przez Ciebie wcześniej lub dodanych w dniu jej nawiedzenia,
+- Znajdź **świątynię** lub **ołtarz boczny** (**kaplicę**) należące do Kościoła Rzymskokatolickiego, które są pod wezwaniem **patrona - obrońcy** lub **święta**, posiadanych już przez Ciebie wcześniej lub dodanych w dniu jej nawiedzenia,
 - **W tym dniu** osobiście nawiedź **świątynię** lub **ołtarz boczny** (**kaplicę**), by bezpośrednio **ujrzeć Najświętszy Sakrament**, choćby zza krat lub szyby,
 - **W tym dniu** poproś, by wspólnie z Tobą trwał na tej adoracji **patron** tego miejsca (lub którego dotyczy **święto** będące wezwaniem tego miejsca). Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wierzę w Boga”_, _„[imię patrona], módl się za mną”_, itp.,
 - Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o **patronie** świątyni lub ołtarza, w której odbywa się adoracja, słuchaj natchnień,

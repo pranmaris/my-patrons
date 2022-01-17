@@ -38,7 +38,7 @@ Jeśli na poniższej stronie nie uda Ci się znaleźć nic interesującego, moż
   - **A)** Jeżeli **dzień roku**, w którym zmarł patron jest znany i jednoznaczny, możemy wybrać tego patrona **w każdą rocznicę jego śmierci**,
   - **B)** Można wybrać patrona w **dzień roku, który został oficjalnie podany jako dzień jego wspomnienia** przez Stolicę Apostolską lub diecezję,
   - **C)** **Jednorazowo** wybór jest także możliwy w **dzień uroczystości beatyfikacji lub kanonizacji patrona**. Tu bierzemy też pod uwagę także kanonizacje i beatyfikacje równoważne,
-- **Możliwy jest także wybór dowolnego patrona lub święta poprzez udział w odpuście parafialnym, którego on dotyczy!** Tu należy zwrócić szczególną uwagę na oficjalny tytuł parafii lub kościoła filialnego, w którym odbywa się odpust. Więcej informacji znajdziesz na stronie o [odpustach parafialnych](odpusty_parafialne.md). Dostępne dla list [<span class="status status-blue">A</span>](patroni_obroncy.md) i [<span class="status status-white">B</span>](swieta.md).
+- **Możliwy jest także wybór dowolnego patrona lub święta poprzez udział w odpuście parafialnym, którego on dotyczy!** Tu należy zwrócić szczególną uwagę na oficjalny tytuł parafii lub kościoła filialnego, w którym odbywa się odpust. Więcej informacji znajdziesz na liście [<span class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span>](odpusty_parafialne.md). Dostępne dla list [<span class="status status-blue">A</span>](patroni_obroncy.md) i [<span class="status status-white">B</span>](swieta.md).
 
 ### Więcej informacji:
 - Aby możliwy był wybór patrona lub święta w danym dniu roku, wystarczy by znajdowali się oni choć w jednym z powyższych źródeł na ten dzień,
