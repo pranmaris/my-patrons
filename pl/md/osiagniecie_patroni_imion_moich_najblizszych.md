@@ -9,13 +9,13 @@ Wedle naszego uznania, naszymi **najbliższymi osobami** mogą być: nasi rodzic
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#osiagniecie-patroni-imion-moich-najblizszych):</span> Patrz na stronie o [zdobywaniu osiągnięć](jak_zdobywac_osiagniecia.md).
 <br />
 
+---
+### <div class="colored centered">Zapraszaj z najbliższymi wszystkich Waszych patronów!</div>
+
+---
 <span class="status status-title">Lista:</span> Każda osoba może mieć innych patronów imion swoich najbliższych.
 <br />
 
----
-### <div class="colored centered">Zapraszaj na najbliższymi wszystkich Waszych patronów!</div>
-
----
 <span class="status status-title">Szczegóły:</span>
 - Jeżeli nie znasz patrona imienia danej osoby, spróbuj ustalić go na podstawie **dnia imienin tej osoby** (dla pierwszego imienia z Chrztu św.) lub niech ta osoba **wybierze go raz już na stałe** spośród świętych lub błogosławionych o tym imieniu,
 - **Wybranym patronem imienia** może być odpowiadające imię przeciwnej płci, np. Stefania może obchodzić imieniny w dniu wspomnienia św. Stefana.

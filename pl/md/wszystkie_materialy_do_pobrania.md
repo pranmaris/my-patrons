@@ -64,4 +64,12 @@
 
    - [<span id="osiagniecie-patroni-imion-moich-najblizszych" class="status status-list"><span class="status status-list">YB</span> Osiągnięcie: Patroni Imion Moich Najbliższych</span>](osiagniecie_patroni_imion_moich_najblizszych.md): [wersja pełna](../../pl/pdf/lista_v1_yb_patroni_imion_moich_najblizszych.pdf),
 
+   - [<span id="osiagniecie-apostolowie" class="status status-list"><span class="status status-list">YC</span> Osiągnięcie: Apostołowie</span>](osiagniecie_apostolowie.md): [wersja pełna](../../pl/pdf/lista_v1_yc_apostolowie.pdf),
+
+   - [<span id="osiagniecie-swieta-rodzina" class="status status-list"><span class="status status-list">YD</span> Osiągnięcie: Święta Rodzina</span>](osiagniecie_swieta_rodzina.md): [wersja pełna](../../pl/pdf/lista_v1_yd_swieta_rodzina_ye_ewangelisci_yf_aniolowie.pdf),
+
+   - [<span id="osiagniecie-ewangelisci" class="status status-list"><span class="status status-list">YE</span> Osiągnięcie: Ewangeliści</span>](osiagniecie_ewangelisci.md): [wersja pełna](../../pl/pdf/lista_v1_yd_swieta_rodzina_ye_ewangelisci_yf_aniolowie.pdf),
+
+   - [<span id="osiagniecie-aniolowie" class="status status-list"><span class="status status-list">YF</span> Osiągnięcie: Aniołowie</span>](osiagniecie_aniolowie.md): [wersja pełna](../../pl/pdf/lista_v1_yd_swieta_rodzina_ye_ewangelisci_yf_aniolowie.pdf),
+
 [Powrót do głównego menu](index.md)

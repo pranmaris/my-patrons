@@ -7,15 +7,14 @@ Lista ta może stać się także przydatna innym osobom przy wyborze swojego **p
 <br />
 
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#osiagniecie-patroni-moich-imion):</span> Patrz na stronie o [zdobywaniu osiągnięć](jak_zdobywac_osiagniecia.md).
-<br />
-
-<span class="status status-title">Lista:</span> Każda osoba ma swoich indywidualnych patronów.
-<br />
 
 ---
 ### <div class="colored centered">Stwórz swoją patronową wizytówkę!</div>
 
 ---
+<span class="status status-title">Lista:</span> Każda osoba ma swoich indywidualnych patronów.
+<br />
+
 <span class="status status-title">Szczegóły:</span>
 - Jeżeli nie znasz patrona swojego imienia, spróbuj ustalić go na podstawie **dnia swoich imienin** (dla pierwszego imienia z Chrztu św.) lub **wybierz go raz już na stałe** spośród świętych lub błogosławionych o tym imieniu,
 - **Wybranym patronem imienia** może być odpowiadające imię przeciwnej płci, np. Stefania może obchodzić imieniny w dniu wspomnienia św. Stefana.
