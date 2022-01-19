@@ -44,4 +44,6 @@
 - [Wszystkie materiały do pobrania](wszystkie_materialy_do_pobrania.md)
 - [Karty kolekcjonerskie](karty_kolekcjonerskie.md)
 - [Przyjaciele „Moich Patronów”](przyjaciele_moich_patronow.md)
+- [Jak możesz nas wesprzeć?](jak_mozesz_nas_wesprzec.md)
+- [Nasze projekty](nasze_projekty.md)
 - [O nas](o_nas.md)
