@@ -29,8 +29,8 @@ Dodatkowo w ramach tego zadania, będąc wdzięcznym Bogu za dar naszego życia,
 <br />
 
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#bog):</span>
-- **Datę** wykonania tego zadania,
-- **Datę** Twojego urodzenia.
+- **Datę** wykonania tego zadania (najlepiej z dniem tygodnia),
+- **Datę** Twojego urodzenia (najlepiej z dniem tygodnia).
 <br />
 
 ---
