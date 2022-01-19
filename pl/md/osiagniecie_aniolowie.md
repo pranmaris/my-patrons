@@ -8,7 +8,7 @@
 <br />
 
 ---
-### <div class="colored centered">!</div>
+### <div class="colored centered">Zaproś wszystkich Aniołów!</div>
 
 ---
 <span class="status status-title">Lista:</span>

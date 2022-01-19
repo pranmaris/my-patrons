@@ -8,7 +8,7 @@
 <br />
 
 ---
-### <div class="colored centered">!</div>
+### <div class="colored centered">Zaproś wszystkich najważniejszych uczniów Chrystusa!</div>
 
 ---
 <span class="status status-title">Lista:</span>

@@ -25,9 +25,10 @@ W inicjatywie _„Moich Patronów”_, przez święta rozumiemy wszelkie **wspom
   - _„Najświętszego Serca Pana Jezusa”_ (piątek, 8 dni po Bożym Ciele),
   - _„Niepokalanego Serca Maryi Panny”_ (sobota, 9 dni po Bożym Ciele),
   - _„Najświętszego Imienia Jezus”_ (3 stycznia),
-- Święta mogą dotyczyć **rocznicy poświęceńia kościoła dotyczącego Boga lub patrona**, np.:
+- Święta mogą dotyczyć **rocznicy poświęcenia kościoła pod wezwaniem Boga lub patrona**, np.:
   - _„Poświęcenia Katedry św. Piotra Apostoła”_ (22 lutego),
   - _„Poświęcenia Bazyliki Laterańskiej”_ (9 listopada - dotyczy patronów tej bazyliki: św. Jana Apostoła i św. Jana Chrzciciela),
+  - Mogą to też być zapisane z diecezjalnym kalendarzu liturgicznym rocznice poświęcenia katedry lub innych ważnych kościołów diecezji, w której się znajdujemy,
 - Święta mogą dotyczyć **relikwii Boga lub patrona**, np.:
   - _„Podwyższenia Krzyża Świętego”_ (14 września - dotyczy Jezusa Chrystusa),
 - Święta dotyczą także **wszystkich świąt ruchomych**, np.:

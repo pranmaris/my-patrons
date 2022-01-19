@@ -8,7 +8,7 @@
 <br />
 
 ---
-### <div class="colored centered">!</div>
+### <div class="colored centered">Módl się o potężne wstawiennictwo Świętej Rodziny!</div>
 
 ---
 <span class="status status-title">Lista:</span>
