@@ -38,7 +38,7 @@
 
 - [<span id="osoby" class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md): [wersja pełna](../../pl/pdf/lista_v1_m_osoby.pdf),
 
-- [<span id="cmentarze" class="status status-list"><span class="status status-list">N</span> Cmentarze</span>](cmentarze.md): _wkrótce_,
+- [<span id="cmentarze" class="status status-list"><span class="status status-list">N</span> Cmentarze</span>](cmentarze.md): [wersja pełna](../../pl/pdf/lista_v1_n_cmentarze.pdf),
 
 - [<span id="cytaty" class="status status-list"><span class="status status-list">O</span> Cytaty</span>](cytaty.md): [wersja pełna](../../pl/pdf/lista_v1_o_cytaty.pdf),
 
