@@ -45,6 +45,7 @@
 - **Nazwę patrona**, za którego wstawiennictwem się modliliśmy,
 - **Nazwę cmentarza**, który nawiedziliśmy,
 - **Liczbę znalezionych osób** posiadających imię wybranego patrona,
+- Zaznaczenie czy **odmówiono modlitwę końcową** - postaw dowolny znaczek (np. „✅”),
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---

@@ -34,7 +34,7 @@
 
 - [<span id="rocznice-poswiecenia-kosciolow" class="status status-list"><span class="status status-list">K</span> Rocznice Poświęcenia Kościołów</span>](rocznice_poswiecenia_kosciolow.md): [wersja pełna](../../pl/pdf/lista_v1_k_rocznice_poswiecenia_kosciolow.pdf),
 
-- [<span id="szkaplerze" class="status status-list"><span class="status status-list">L</span> Szkaplerze</span>](szkaplerze.md): _wkrótce_,
+- [<span id="szkaplerze" class="status status-list"><span class="status status-list">L</span> Szkaplerze</span>](szkaplerze.md): [wersja pełna](../../pl/pdf/lista_v1_l_szkaplerze.pdf),
 
 - [<span id="osoby" class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md): [wersja pełna](../../pl/pdf/lista_v1_m_osoby.pdf),
 
