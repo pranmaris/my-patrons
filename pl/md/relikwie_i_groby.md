@@ -14,7 +14,7 @@
 
 <span class="status status-title">Kroki:</span>
 - Znajdź miejsce, w którym znajduje się grób lub relikwie wybranego patrona,
-- **W tym dniu** osobiście nawiedź grób lub relikwie. Wymagane jest oglądanie ich bezpośrednio - choćby zza krat lub szyby,
+- **W tym dniu** osobiście nawiedź grób lub relikwie. Wymagane jest oglądanie grobu lub relikwiarza bezpośrednio - choćby zza krat lub szyby,
 - Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„Wierzę w Boga”_,
 - Jeżeli z konkretnymi relikwiami czy grobem wiąże się jakaś ciekawa historia, są one w jakikolwiek sposób wyjątkowe lub po prostu uda Ci się odnaleźć ich opis lub historię, przeczytaj i dowiedz się o nich więcej.
 <br />

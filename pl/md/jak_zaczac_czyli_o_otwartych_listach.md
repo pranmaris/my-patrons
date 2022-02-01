@@ -13,10 +13,11 @@ Kolejnym krokiem jaki warto wykonać to uzupełnienie dwóch poniższych list:
 Dzięki uzupełnieniu powyższych trzech list, stworzymy taką **naszą osobistą wizytówkę**, która przyda się w dalszym etapie zabawy.
 
 ---
-W każdym momencie możemy skorzystać także z poniższych list:
-- [<span class="status status-list"><span class="status status-list">C</span> Miejsca](miejsca.md) - gdy będziemy chcieli zapisać informacje o dowolnym miejscu, w którym byliśmy,
+Warto przyjrzeć się [znanym **nabożeństwom**](jak_uczestniczyc_w_nabozenstwach.md), by zanotować kiedy i w jakich wzięliśmy już udział lub by zwyczajnie zacząć praktykować wybrane z nich.
 
-- [<span class="status status-list"><span class="status status-list">I</span> Nabożeństwa](nabozenstwa.md) - by zanotować kiedy i w jakich nabożeństwach wzięliśmy udział lub zwyczajnie zacząć wybrane nabożeństwo.
+---
+W każdym momencie możemy także korzystać z poniższych list:
+- [<span class="status status-list"><span class="status status-list">C</span> Miejsca](miejsca.md) - gdy będziemy chcieli zapisać informacje o dowolnym miejscu, w którym byliśmy,
 
 - [<span class="status status-list"><span class="status status-list">M</span> Osoby](osoby.md) - aby zanotować niektóre osoby, które spotkamy,
 

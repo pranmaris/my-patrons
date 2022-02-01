@@ -19,8 +19,8 @@
 > i proszę o opiekę, modlitwę, ochronę przed działaniem złego,  
 > o wstawianie się za mną przed Tronem Trójcy Przenajświętszej,  
 > o umocnienie w moim sercu wszelkich cnót Twoich/Waszych,  
-> o dobre natchnienia i prowadzenie w drodze do zbawienia,  
-> oraz o Twoje/Wasze błogosławieństwo w Imię Ojca i Syna i Ducha Świętego,  
+> oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
+> w Imię Ojca i Syna i Ducha Świętego,  
 > Amen.  
 - Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień,
 - **Na koniec**, odmów modlitwę **_„Chwała na wysokości Bogu”_**, czyli:
