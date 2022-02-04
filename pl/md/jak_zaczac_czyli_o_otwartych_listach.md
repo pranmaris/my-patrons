@@ -21,6 +21,8 @@ W każdym momencie możemy także korzystać z poniższych list:
 
 - [<span class="status status-list"><span class="status status-list">M</span> Osoby](osoby.md) - aby zanotować niektóre osoby, które spotkamy,
 
+- [<span class="status status-list"><span class="status status-list">Z</span> Zakony](zakony.md) - aby zanotować zakony, do których należeli patroni lub powyższe osoby,
+
 - [<span class="status status-list"><span class="status status-list">＊</span> Przypisy](przypisy.md) - by móc zapisać każdą inną informację o jakiej chcemy pamiętać.
 
 ---

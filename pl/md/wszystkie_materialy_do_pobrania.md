@@ -46,7 +46,7 @@
 
 - [<span id="nowenny" class="status status-list"><span class="status status-list">Q</span> Nowenny</span>](nowenny.md): _wkrótce_,
 
-- [<span id="zakony" class="status status-list"><span class="status status-list">R</span> Zakony</span>](zakony.md): _wkrótce_,
+- [<span id="zakony-patronow" class="status status-list"><span class="status status-list">R</span> Zakony Patronow</span>](zakony_patronow.md): [wersja pełna](../../pl/pdf/lista_v1_r_zakony_patronow.pdf),
 
 - [<span id="selfie-z-patronem" class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie-z-patronem.md): [wersja pełna](../../pl/pdf/lista_v1_s_selfie_z_patronem.pdf),
 
@@ -55,6 +55,8 @@
 - [<span id="patroni-oredownicy" class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md): [wersja pełna](../../pl/pdf/lista_v1_u_patroni_oredownicy.pdf),
 
 - [<span id="klasztory" class="status status-list"><span class="status status-list">V</span> Klasztory</span>](klasztory.md): _wkrótce_,
+
+- [<span id="zakony" class="status status-list"><span class="status status-list">Z</span> Zakony</span>](zakony.md): [wersja pełna](../../pl/pdf/lista_v1_z_zakony.pdf),
 
 - [<span id="przypisy" class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md): [wersja pełna](../../pl/pdf/lista_v1_przypisy.pdf),
 
