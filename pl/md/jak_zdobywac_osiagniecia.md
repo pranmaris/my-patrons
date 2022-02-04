@@ -41,6 +41,6 @@ Jeśli masz ochotę, każde osiągnięcie może mieć swój **status wykonania**
 |[<span class="status status-blue">A</span>](patroni_obroncy.md)|[<span class="status status-white">B</span>](swieta.md)|<span class="status status-blue">niebieski</span>|
 |[<span class="status status-red">U</span>](patroni_oredownicy.md)|[<span class="status status-white">B</span>](swieta.md)|<span class="status status-red">czerwony</span>|
 |żaden patron nie ma numeru|żadne święto nie ma numeru|<span class="status status-black">czarny</span>|
-|w przeciwnym wypadku|w przeciwnym wypadku|<span class="status status-brown">brązowy</span>|
+|w przeciwnym wypadku|w przeciwnym wypadku|<span class="status status-gray">szary</span>|
 
 [Powrót do głównego menu](index.md)
