@@ -16,6 +16,13 @@ Po przejściu trzech powyższych etapów dla danego patrona, będziemy posiadać
 Przejście **dowolnego etapu** (czyli jakiekolwiek zaproszenie cząstkowe) upoważnia nas do posiadania [karty](karty_kolekcjonerskie.md) **tego patrona** i wykonywania dalszych wyzwań z nim związanych dla tego etapu.
 
 ---
+### Jak numerować listy patronów?
+Zapraszani patroni znajdują się na **czterech osobnych listach**. Warto się zatem zastanowić:
+- czy lepiej będzie numerować listy **niezależnie** - wtedy patron może mieć docelowo różne numery, np.: **T7**, **A13**, **U32** i **P4**,
+- czy **nadawać kolejnym patronom wspólny numer** dla każdej z tych list, np. **T15**, **A15**, **U15**, **P15**.
+**Wspólny numer** może ułatwić nam **szukanie** patrona, czy wręcz umożliwić zapisywanie wszystkich informacji o nim **w jednym miejscu** (np. na jednej stronie zeszytu). Takie notowanie jednak **zajmie nam więcej przestrzeni**, którą będziemy chcieli zostawić na przyszłe wpisy dotyczące tego patrona, czyli jego **zadania**, dotyczące go **święta**, czy **miejsca** pod wezwaniem jego lub dotyczących go świąt.
+
+---
 Kolejność przechodzenie etapów powodować będzie następujące zmiany kolorów statusu:
 - <span class="status status-black">czarny</span> → [<span class="status status-yellow">T</span>](patroni_opiekunowie.md): <span class="status status-yellow">żółty</span> → [<span class="status status-blue">A</span>](patroni_obroncy.md): <span class="status status-green">zielony</span> → [<span class="status status-red">U</span>](patroni_oredownicy.md): <span class="status status-indigo">indygo</span> → [<span class="status status-white">P</span>](biali_patroni.md): <span class="status status-white">biały</span>
 
