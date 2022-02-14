@@ -1,7 +1,7 @@
 # Jak odkrywać święta?
 Aby odkrywać święta, musisz wcześniej wykonać zadanie [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md).
 
-Odkrywanie każdego święta polega na wykonaniu jednego zadania z listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md). Wykonanie tego zadania, zmienia status tego święta z <span class="status status-black">czarnego</span> na <span class="status status-white">biały</span> i upoważnia nas do posiadania [karty](karty_kolekcjonerskie.md) **tego święta** i wykonywania dalszych wyzwań z nim związanych.
+Odkrywanie każdego święta polega na wykonaniu jednego zadania z listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md). Wykonanie tego zadania, zmienia status tego święta z <span class="status status-black">czarnego</span> na <span class="status status-white">biały</span> i upoważnia nas do wykonywania dalszych wyzwań z nim związanych.
 
 ---
 W inicjatywie _„Moich Patronów”_, przez święta rozumiemy wszelkie **wspomnienia i celebracje** Kościoła Katolickiego, które **nie odnoszą się do patronów w ogólności** lub **są tzw. „świętem ruchomym”**:
