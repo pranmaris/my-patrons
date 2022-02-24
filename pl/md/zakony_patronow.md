@@ -45,7 +45,7 @@
 <span class="status status-title">Szczegóły:</span> Brak.
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
-- **Nazwę** lub **skróty zakonu** (tzw. singla), jeśli takowe istnieją, np. **OFM**, **OSB**, itd.,
+- **Nazwę** lub **siglum zakonu**, jeśli takowy istnieje, np. **OFM**, **OSB**, itd.,
 - **Nazwa patrona**,
 - Zaznaczenie czy **odmówiono modlitwę** za zakon - postaw dowolny znaczek (np. „✅”),
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
