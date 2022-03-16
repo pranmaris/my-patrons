@@ -20,7 +20,7 @@ footer {
   text-align: center;
 }
 
-iframe#my-patrons-for-today, iframe#my-patrons-and-feasts-for-today {
+iframe#my-patrons-for-today, iframe#my-patrons-without-movable-feasts-for-today {
     display: block;
     border: none;
     height: 50vh;
