@@ -20,7 +20,7 @@ footer {
   text-align: center;
 }
 
-iframe#my-patrons-for-today, iframe#my-patrons-simple-for-today {
+iframe#my-patrons-for-today, iframe#my-patrons-simplified-list-for-today {
     display: block;
     border: none;
     height: 50vh;

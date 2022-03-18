@@ -19,7 +19,7 @@ Jeśli na poniższej stronie nie uda Ci się znaleźć nic interesującego, moż
 
 ### Wybór dla listy [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md)
 Jeśli na poniższej stronie nie uda Ci się znaleźć nic interesującego, możesz [wybrać **patrona** samodzielnie](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#zrodla-wyboru-patronow-lub-swiat).
-<iframe id="my-patrons-simple-for-today" src="http://pl.patrons.space/dates/my-patrons-simple?content-only=1"></iframe>
+<iframe id="my-patrons-simplified-list-for-today" src="http://pl.patrons.space/dates/my-patrons-simplified-list?content-only=1"></iframe>
 <br />
 
 [Powrót do patronów - orędowników](patroni_oredownicy.md)
