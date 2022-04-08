@@ -1,5 +1,5 @@
 # Kontakt
-Nasz e-mail: <a href="mailto:gratiadei@gratiadei.org">gratiadei@gratiadei.org</a>
+Nasz e-mail znajdziesz na stronie <a href="http://gratiadei.org">Gratia Dei</a>, której inicjatywa „Moi Patroni” jest częścią.
 
 ---
 # Nasze projekty
