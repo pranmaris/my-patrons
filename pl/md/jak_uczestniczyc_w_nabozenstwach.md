@@ -10,7 +10,7 @@ Poniższa lista przedstawia nabożeństwa, które mogą być dla nas takim wyzwa
 
 - [<span class="status status-list"><span class="status status-list">ID</span> Nabożeństwo Gorzkich Żalów</span>](nabozenstwo_gorzkich_zalow.md)
 
-- ... i inne nabożeństwa. Jeżeli znasz nabożeństwa, które warto by było dodać do tej listy, [skontaktuj](o_nas.md#kontakt) się z nami!
+- ... i inne nabożeństwa. Jeżeli znasz nabożeństwa, które warto by było dodać do tej listy, [skontaktuj](o_nas.md) się z nami!
 ---
 ### <div class="colored centered">Nabożeństwa są wspaniałą drogą do świętości!</div>
 
