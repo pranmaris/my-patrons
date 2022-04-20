@@ -1,6 +1,6 @@
 # Jak wybrać patrona lub święto na dany dzień roku?
 
-Stale pracujemy nad rozwojem serwisu _„[Patrons Space](http://pl.patrons.space)”_, który ma ułatwić wybór **patrona** lub **święto** na **każdy dzień roku** i jest w tym zakresie **rekomendowanym przez nas** źródłem wiedzy. Ponieważ uzupełnianie i zapewnienie aktualności zawartych w nim informacji zajmie nam trochę czasu, konieczne może okazać się **samodzielne** wyszukanie możliwych do wyboru **patronów** i **świąt** ([zobacz możliwe źródła](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#zrodla-wyboru-patronow-lub-swiat)).
+Stale pracujemy nad rozwojem serwisu _„[Patrons Space](https://pl.patrons.space)”_, który ma ułatwić wybór **patrona** lub **święto** na **każdy dzień roku** i jest w tym zakresie **rekomendowanym przez nas** źródłem wiedzy. Ponieważ uzupełnianie i zapewnienie aktualności zawartych w nim informacji zajmie nam trochę czasu, konieczne może okazać się **samodzielne** wyszukanie możliwych do wyboru **patronów** i **świąt** ([zobacz możliwe źródła](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#zrodla-wyboru-patronow-lub-swiat)).
 
 ---
 <div id="swieta-na-dzis"></div>
@@ -8,7 +8,7 @@ Stale pracujemy nad rozwojem serwisu _„[Patrons Space](http://pl.patrons.space
 
 ### Wybór dla list [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) i [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md)
 Jeśli na poniższej stronie nie uda Ci się znaleźć nic interesującego, możesz [wybrać **patrona** lub **święto** samodzielnie](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#zrodla-wyboru-patronow-lub-swiat).
-<iframe id="my-patrons-for-today" src="http://pl.patrons.space/dates/my-patrons?content-only=1"></iframe>
+<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/my-patrons?content-only=1"></iframe>
 <br />
 
 [Powrót do świąt](swieta.md)  
@@ -19,7 +19,7 @@ Jeśli na poniższej stronie nie uda Ci się znaleźć nic interesującego, moż
 
 ### Wybór dla listy [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md)
 Jeśli na poniższej stronie nie uda Ci się znaleźć nic interesującego, możesz [wybrać **patrona** samodzielnie](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#zrodla-wyboru-patronow-lub-swiat).
-<iframe id="my-patrons-simplified-list-for-today" src="http://pl.patrons.space/dates/my-patrons-simplified-list?content-only=1"></iframe>
+<iframe id="my-patrons-simplified-list-for-today" src="https://pl.patrons.space/dates/my-patrons-simplified-list?content-only=1"></iframe>
 <br />
 
 [Powrót do patronów - orędowników](patroni_oredownicy.md)

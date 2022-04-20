@@ -3,7 +3,6 @@ const ERROR_MODE_ARG_NAME = 'error';
 const ERROR_MODE_ARG_VALUE = 'show';
 
 const MAIN_DOMAIN_NAME = 'mypatrons';
-const PROTOCOL_PREFIX = 'http://';
 
 const PAGE_TITLE_ELEMENT_ID = 'title';
 const PAGE_TITLE_PREFIX = 'My Patrons';
@@ -215,7 +214,12 @@ const convertUrlPathToMarkdownFileLocation = (urlPath) => {
   return urlPath.replace(pattern, FILE_WORD_SEPARATOR) + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN;
 }
 
+const getProtocolPrefix = () => {
+  return location.protocol + '//';
+}
+
 const getConvertedMarkdownContent = (content) => {
+  const protocolPrefix = getProtocolPrefix();
   const domain = getMainDomain();
   const fileExtensionPattern = '[' + FILE_EXTENSION_SEPARATOR + ']' + FILE_EXTENSION_MARKDOWN;
   const indexFileNamePattern = INDEX_MARKDOWN_FILE_NAME + fileExtensionPattern;
@@ -224,7 +228,7 @@ const getConvertedMarkdownContent = (content) => {
     .replace(new RegExp('^[' + PATH_SEPARATOR + ']'), '')
     .replace(LANGUAGE_REPLACE_HASHTAG, '(' + LANGUAGE_PATTERN + ')');
   const pattern1 = new RegExp('\\([^\\(]*' + pattern1Path + indexFileNamePattern + '\\)', 'g');
-  content = content.replace(pattern1, '(' + PROTOCOL_PREFIX + '$1' + DOMAIN_SEPARATOR + domain + ')');
+  content = content.replace(pattern1, '(' + protocolPrefix + '$1' + DOMAIN_SEPARATOR + domain + ')');
 
   const pattern2 = new RegExp('\\[[^\\[\\]]+\\]\\(' + indexFileNamePattern + '\\)', 'g');
   content = content.replace(pattern2, '');
