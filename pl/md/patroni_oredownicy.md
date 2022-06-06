@@ -33,11 +33,7 @@
 > i prosimy o wstawiennictwo i modlitwę za nas,  
 > przed Tronem Trójcy Przenajświętszej,  
 > Amen.
-- **Przez 7 dni** (nie muszą być kolejne) pomódl się za drugą osobę za wstawiennictwem wybranego przez Ciebie patrona:
-> Dobry mój Boże,  
-> przez wstawiennictwo św./bł. **[imię wybranego przeze mnie patrona lub nazwa zbiorcza wielu patronów]**,  
-> proszę o wiele łask Twoich i błogosławieństwo dla **[imię i nazwisko drugiej osoby]**,  
-> Amen.
+- W intencji drugiej osoby **odmów cały różaniec** (wstęp, 5 dziesiątek, zakończenie). Możesz podzielić odmawianie różańca na kilka dni, np. odmawiając jedną dziesiątkę dziennie.
 
 <br />
 
@@ -47,8 +43,7 @@
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#patroni-oredownicy):</span>
 - **Kolejny numer** wybranego patrona (U1, U2, ...),
 - **Datę zaproszenia** patrona (najlepiej z dniem tygodnia) - to data wspólnego odmówienia modlitwy z drugą osobą,
-- **Nazwę** wybranego patrona (imię i nazwisko, imię zakonne, znany przydomek, miejsce pochodzenia),
-- **Daty odmówienia siedmiu modlitw** za powyższą osobę, z którą wzajemnie zapraszaliśmy patrona.
+- **Nazwę** wybranego patrona (imię i nazwisko, imię zakonne, znany przydomek, miejsce pochodzenia).
 <br />
 
 ---
@@ -56,7 +51,6 @@
 
 ---
 <span class="status status-title">Szczegóły:</span>
-- Dopiero po odmówieniu **całej siedmiodniowej modlitwy za drugą osobę**, status wybranego przez nas patrona się zmieni i będziemy mogli brać udział w związanych z tym patronem wyzwaniach! Nie możemy również wcześniej zaprosić innego patrona - orędownika z tą samą osobą!
 - Jeśli będziecie chcieć z drugą zapraszającą osobą, możecie dać sobie jakiś pamiątkowy wpis (na kartce, w zeszycie lub gdziekolwiek) o treści, np.:
 > Dnia **[data spotkania]**,  
 > zaproszony został patron - orędownik: **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
@@ -87,7 +81,8 @@
   - **DSP** - dzień roku, w którym zmarł wybrany patron,
   - **DWP** - inny dzień roku, który został ogłoszony jako dzień wspomnienia patrona.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
-- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
+- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”),
+- Zaznaczenie czy **odmówiono różaniec** za drugą osobę - postaw dowolny znaczek (np. „✅”).
 
 ---
 
