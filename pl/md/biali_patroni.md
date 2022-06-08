@@ -7,11 +7,12 @@
 <span class="status status-title">Limity:</span> Można zaprosić tylko jednego **białego patrona** dziennie.
 <br />
 
-<span class="status status-title">Opis zadania:</span> Zapraszamy wybranego świętego lub błogosławionego patrona do **najpełniejszej możliwej relacji**.
+<span class="status status-title">Opis zadania:</span> Zapraszamy wybranego świętego lub błogosławionego patrona do stanie się naszym _„Białym Patronem”_, czyli przyjacielem, kimś bardzo szczególnym, z kim chcemy wejść w wyjątkową relację.
 <br />
 
 <span class="status status-title">Kroki:</span>
 - Wybierz patrona, którego chcesz w tym dniu zaprosić jako swojego **białego patrona**,
+- **Przeczytaj dowolny fragment Pisma Świętego**, wcześniej prosząc zapraszanego patrona o pomoc w jego wybraniu i zrozumieniu. Może to być kolejny lub losowy rozdział, akapit, inna logiczna całość, czy fragment z lekcjonarza związany z wybranym patronem,
 - **W tym dniu** udaj się przed **Najświętszy Sakrament** w **dowolnej** parafii, kościele czy innym miejscu,
 - **W tym dniu**, będąc przed **Najświętszym Sakramentem**, na kolanach (jeśli Twoje zdrowie na to pozwala) odmów poniższą modlitwę, prosząc wybranego patrona o błogosławieństwo (np.: „Błogosławiony Bartolo Longo”, „Święta Faustyno Kowalska”, „Święci Młodziankowie”):
 > Św./Bł. **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
@@ -22,7 +23,7 @@
 > oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
 > w Imię Ojca i Syna i Ducha Świętego,  
 > Amen.  
-- Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień,
+- Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, o przeczytanym fragmencie **Pisma Świętego**, słuchaj natchnień,
 - **Na koniec**, odmów modlitwę **_„Chwała na wysokości Bogu”_**, czyli:
 > Chwała na wysokości Bogu, a na ziemi pokój ludziom dobrej woli.  
 > Chwalimy Cię, błogosławimy Cię, wielbimy Cię, wysławiamy Cię.  
@@ -65,6 +66,7 @@
 - **Informacje o miejscu adoracji**, np. **C17** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona i modlitwę „Chwała na wysokości Bogu” - postaw dowolny znaczek (np. „✅”),
+- Zaznaczenie czy **przeczytano fragment Pisma Świętego** - postaw dowolny znaczek (np. „✅”) lub wpisz który rozdział (wersety) zostały przeczytane,
 - **Datę zakończenia adoracji**, jeśli rozłożyliśmy ją na kilka dni.
 
 ---
