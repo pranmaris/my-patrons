@@ -14,17 +14,7 @@
 - Wybierz patrona, którego chcesz w tym dniu zaprosić jako swojego **białego patrona**,
 - **Przeczytaj dowolny fragment Pisma Świętego**, wcześniej prosząc zapraszanego patrona o pomoc w jego wybraniu i zrozumieniu. Może to być kolejny lub losowy rozdział, akapit, inna logiczna całość, czy fragment z lekcjonarza związany z wybranym patronem,
 - **W tym dniu** udaj się przed **Najświętszy Sakrament** w **dowolnej** parafii, kościele czy innym miejscu,
-- **W tym dniu**, będąc przed **Najświętszym Sakramentem**, na kolanach (jeśli Twoje zdrowie na to pozwala) odmów poniższą modlitwę, prosząc wybranego patrona o błogosławieństwo (np.: „Błogosławiony Bartolo Longo”, „Święta Faustyno Kowalska”, „Święci Młodziankowie”):
-> Św./Bł. **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
-> zapraszam Ciebie/Was do grona moich osobistych patronów,  
-> i proszę o opiekę, modlitwę, ochronę przed działaniem złego,  
-> o wstawianie się za mną przed Tronem Trójcy Przenajświętszej,  
-> o umocnienie w moim sercu wszelkich cnót Twoich/Waszych,  
-> oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
-> w Imię Ojca i Syna i Ducha Świętego,  
-> Amen.  
-- Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, o przeczytanym fragmencie **Pisma Świętego**, słuchaj natchnień,
-- **Na koniec**, odmów modlitwę **_„Chwała na wysokości Bogu”_**, czyli:
+- **W tym dniu**, będąc przed **Najświętszym Sakramentem**, na kolanach (jeśli Twoje zdrowie na to pozwala), odmów modlitwę **_„Chwała na wysokości Bogu”_**, czyli:
 > Chwała na wysokości Bogu, a na ziemi pokój ludziom dobrej woli.  
 > Chwalimy Cię, błogosławimy Cię, wielbimy Cię, wysławiamy Cię.  
 > Dzięki Ci składamy, bo wielka jest chwała Twoja.  
@@ -36,6 +26,18 @@
 > Który siedzisz po prawicy Ojca, zmiłuj się nad nami.  
 > Albowiem tylko Tyś jest święty, tylko Tyś jest Panem, tylko Tyś Najwyższy,  
 > Jezu Chryste, z Duchem Świętym, w chwale Boga Ojca.  
+> Amen.  
+- Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, o przeczytanym fragmencie **Pisma Świętego**, słuchaj natchnień,
+- **Na sam koniec**, odmów poniższą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiony Bartolo Longo”, „Święta Faustyno Kowalska”, „Święci Młodziankowie”):
+> Św./Bł. **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
+> dziś w obecności Jezusa ukrytego w Najświętszym Sakramencie,  
+> pragnę uroczyście powitać Ciebie/Was w gronie Moich Białych Patronów,  
+> w gronie moich Najbliższych Przyjaciół i Powierników,  
+> proszę o opiekę, modlitwę, obronę przed działaniem złego,  
+> o orędowanie za mną przed Tronem Trójcy Przenajświętszej,  
+> o umocnienie w moim sercu wszelkich cnót Twoich/Waszych,  
+> oraz o dobre natchnienia i prowadzenie w drodze do zbawienia,  
+> w Imię Ojca i Syna i Ducha Świętego _(wykonujemy znak krzyża)_,  
 > Amen.
 
 <br />

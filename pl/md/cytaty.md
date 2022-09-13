@@ -18,7 +18,7 @@
 > dziękuję Tobie za ten piękny i wartościowy cytat,  
 > bedący owocem działania Bożej Mądrości w Tobie.  
 > Proszę Cię o pomoc w jego lepszym zrozumieniu,  
-> oraz umiejętność wykorzystania go w mojej drodze do świętości,  
+> oraz umiejętność wykorzystania go na mojej drodze do świętości,  
 > ku Chwale Boga Najwyższego,  
 > Amen.
 - **W całym tym dniu**: rozważaj sobie ten cytat,

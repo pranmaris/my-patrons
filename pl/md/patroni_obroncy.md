@@ -23,9 +23,11 @@
 - **W chwili przyjęcia Komunii św.** musisz być w stanie **Łaski Uświęcającej**! Powinieneś także dobrze dbać o swoje sumienie i **spowiadać się** co około miesiąc, a na pewno **nie rzadziej niż co 40 dni**!
 - Odmów następującą modlitwę zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno”, „Nieznani Towarzysze św. Maurycego”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
-> zapraszam Ciebie/Was do grona moich patronów - obrońców,  
-> i proszę o wstawiennictwo i modlitwę za mnie,  
-> przed Tronem Trójcy Przenajświętszej,  
+> zapraszam Ciebie/Was do grona Moich Patronów Obrońców,  
+> proszę o obronę i umocnienie,  
+> w mojej walce ze złem, grzechem i słabościami,  
+> które pragnę oddawać Jezusowi w częstej Spowiedzi Świętej,  
+> by zawsze z czystym sercem, godnie przyjmować Jego Najświętsze Ciało i Krew,  
 > Amen.
 
 <br />

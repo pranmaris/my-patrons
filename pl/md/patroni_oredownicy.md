@@ -29,9 +29,11 @@
 - **W tym dniu**, odmówcie wspólnie (najlepiej klęcząc jeśli zdrowie Wam na to pozwala) modlitwy: **_„Ojcze Nasz”_**, **_„Zdrowaś Maryjo”_** i **_„Chwała Ojcu”_** oraz zwracając się do wybranych patronów (np.: „Błogosławiona Karolino Kózko”, „Święty Marcinie”, „Wszyscy Święci”):
 > Św./Bł. _**[imię wybranego patrona (lub nazwa zbiorcza wielu patronów) pierwszej osoby]**_,  
 > św./bł. _**[imię wybranego patrona (lub nazwa zbiorcza wielu patronów) drugiej osoby]**_,  
-> zapraszamy Was do grona naszych patronów - orędowników,  
-> i prosimy o wstawiennictwo i modlitwę za nas,  
-> przed Tronem Trójcy Przenajświętszej,  
+> zapraszam Ciebie/Was do grona Moich Patronów Orędowników,  
+> proszę o wstawianie się i modlitwę za nas,  
+> przed Tronem Boga w Trójcy Jedynego,  
+> którego pragniemy prosić też naszą modlitwą, postem, ofiarowaniem trudów i cierpień,  
+> o zbawienie żyjących ludzi i skrócenie cierpień duszom czyśćcowym,  
 > Amen.
 - W intencji drugiej osoby **odmów cały różaniec** (wstęp, 5 dziesiątek, zakończenie). Możesz podzielić odmawianie różańca na kilka dni, np. odmawiając jedną dziesiątkę dziennie.
 
