@@ -14,15 +14,16 @@ Dodatkowo w ramach tego zadania, będąc wdzięcznym Bogu za dar naszego życia,
 
 <span class="status status-title">Kroki:</span>
 - Własnymi słowami lub w myślach, z miłością i ufnością poproś Boga o pokierowanie Tobą wedle Jego woli w dalszej drodze z _„Moimi Patronami”_,
-- W pozycji klęczącej (jeśli Twoje zdrowie na to pozwala), będąc (najlepiej) w kościele lub innym świętym miejscu, odmów _„Credo”_:
+- W pozycji klęczącej (jeśli Twoje zdrowie na to pozwala), będąc (najlepiej) w kościele lub innym świętym miejscu, odmów _„Credo”_ (dla małych dzieci może to być zamiennie modlitwa _„Wierzę w Boga”_):
 > Wierzę w jednego Boga, Ojca Wszechmogącego, Stworzyciela nieba i ziemi, wszystkich rzeczy widzialnych i niewidzialnych.
 >
 > I w jednego Pana Jezusa Chrystusa, Syna Bożego Jednorodzonego, który z Ojca jest zrodzony przed wszystkimi wiekami. Bóg z Boga, Światłość ze Światłości, Bóg prawdziwy z Boga prawdziwego. Zrodzony, a nie stworzony, współistotny Ojcu, a przez Niego wszystko się stało. On to dla nas ludzi i dla naszego zbawienia zstąpił z nieba. I za sprawą Ducha Świętego przyjął ciało z Maryi Dziewicy i stał się człowiekiem. Ukrzyżowany również za nas pod Poncjuszem Piłatem został umęczony i pogrzebany. I zmartwychwstał trzeciego dnia, jak oznajmia Pismo. I wstąpił do nieba; siedzi po prawicy Ojca. I powtórnie przyjdzie w chwale sądzić żywych i umarłych, a królestwu Jego nie będzie końca.
 > 
-> Wierzę w Ducha Świętego, Pana i Ożywiciela, który od Ojca pochodzi. Który z Ojcem i Synem wspólnie odbiera uwielbienie i chwałę; który mówił przez Proroków. Wierzę w jeden, święty, powszechny i apostolski Kościół. Wyznaję jeden chrzest na odpuszczenie grzechów. I oczekuję wskrzeszenia umarłych i życia wiecznego w przyszłym świecie.
+> Wierzę w Ducha Świętego, Pana i Ożywiciela, który od Ojca i Syna pochodzi. Który z Ojcem i Synem wspólnie odbiera uwielbienie i chwałę; który mówił przez Proroków. Wierzę w jeden, święty, powszechny i apostolski Kościół. Wyznaję jeden chrzest na odpuszczenie grzechów. I oczekuję wskrzeszenia umarłych i życia wiecznego w przyszłym świecie.
 > 
 > Amen
-- Zanotuj **datę swojego urodzenia** oraz **datę zawierzenia i wyznania wiary** wykonane w poprzednich krokach.
+- Zanotuj **datę swojego urodzenia** oraz **datę zawierzenia i wyznania wiary** wykonane w poprzednich krokach,
+- Przeczytaj jakąkolwiek notkę o Trójcy Przenajświętszej oraz o poszczególnych trzech Osobach Boskich: Bogu Ojcu, Jezusie Chrystusie i Duchu Świętym.
 <br />
 
 <span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> w ciągu całego udziału w _„Moich Patronach”_.
@@ -40,6 +41,7 @@ Dodatkowo w ramach tego zadania, będąc wdzięcznym Bogu za dar naszego życia,
 <span class="status status-title">Szczegóły:</span>
 - Wykonanie tego zadania upoważnia Cię do posiadania [4 kart z Osobami Boskimi](karty_kolekcjonerskie.md): z Bogiem Ojcem, Synem Bożym (Jezusem), Duchem Świętym i (łącznie) Trójcą Przenajświętszą!
 - Dodatkowo uzyskujesz również [kartę](karty_kolekcjonerskie.md) symbolizującą Twoją osobę. Na początku zatem **jest Bóg i jesteś Ty!**
+- W dniu wykonania tego zadania warto postarać się o wykreowanie pewnych wyjątkowych okoliczności (np. ładny ubiór, wyjście w ciekawe miejsce, odświętny posiłek), które będą sprzyjać świętowaniu tego wydarzenia.
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - Informacja o **miejscu wykonania zadania**, np. **C2** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
