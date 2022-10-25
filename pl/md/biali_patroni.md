@@ -12,7 +12,6 @@
 
 <span class="status status-title">Kroki:</span>
 - Wybierz patrona, którego chcesz w tym dniu zaprosić jako swojego **białego patrona**,
-- **Przeczytaj dowolny fragment Pisma Świętego**, wcześniej prosząc zapraszanego patrona o pomoc w jego wybraniu i zrozumieniu. Może to być kolejny lub losowy rozdział, akapit, inna logiczna całość, czy fragment z lekcjonarza związany z wybranym patronem,
 - **W tym dniu** udaj się przed **Najświętszy Sakrament** w **dowolnej** parafii, kościele czy innym miejscu,
 - **W tym dniu**, będąc przed **Najświętszym Sakramentem**, na kolanach (jeśli Twoje zdrowie na to pozwala), odmów modlitwę **_„Chwała na wysokości Bogu”_**, czyli:
 > Chwała na wysokości Bogu, a na ziemi pokój ludziom dobrej woli.  
@@ -27,7 +26,7 @@
 > Albowiem tylko Tyś jest święty, tylko Tyś jest Panem, tylko Tyś Najwyższy,  
 > Jezu Chryste, z Duchem Świętym, w chwale Boga Ojca.  
 > Amen.  
-- Trwaj przed **Najświętszym Sakramentem** (nie musisz klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, o przeczytanym fragmencie **Pisma Świętego**, słuchaj natchnień,
+- Trwaj przed **Najświętszym Sakramentem** (nie musisz już klęczeć) sumarycznie przez co najmniej **jedną godzinę**! Możesz to rozbić na więcej dni po minimum **15 minut**. Nie musisz się modlić, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień,
 - **Na sam koniec**, odmów poniższą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiony Bartolo Longo”, „Święta Faustyno Kowalska”, „Święci Młodziankowie”):
 > Św./Bł. **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
 > dziś w obecności Jezusa ukrytego w Najświętszym Sakramencie,  

@@ -45,7 +45,8 @@
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#patroni-oredownicy):</span>
 - **Kolejny numer** wybranego patrona (U1, U2, ...),
 - **Datę zaproszenia** patrona (najlepiej z dniem tygodnia) - to data wspólnego odmówienia modlitwy z drugą osobą,
-- **Nazwę** wybranego patrona (imię i nazwisko, imię zakonne, znany przydomek, miejsce pochodzenia).
+- **Nazwę** wybranego patrona (imię i nazwisko, imię zakonne, znany przydomek, miejsce pochodzenia),
+- Odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) lub **nazwisko osoby**, która umożliwiła nam zaproszenie patrona.
 <br />
 
 ---
@@ -63,7 +64,6 @@
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - Informacja czy patron jest **święty** czy **błogosławiony**,
 - **Rok śmierci** patrona,
-- Odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) lub **nazwisko osoby**, która umożliwiła nam zaproszenie patrona,
 - Odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem zaproszenia patronów - opiekunów** z drugą osobą, np. **C17**,
 - Informacja, na podstawie jakiego kryterium wybraliśmy patrona od osoby współzapraszającej. Mogą to być następujące skróty („DD.MM” oznacza dzień i miesiąc roku, np. 16.07):
   - **ICH:1** - patron pierwszego imienia z Chrztu św. (kolejne imiona numerujemy analogicznie),
