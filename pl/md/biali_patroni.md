@@ -67,7 +67,6 @@
 - **Informacje o miejscu adoracji**, np. **C17** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona i modlitwę „Chwała na wysokości Bogu” - postaw dowolny znaczek (np. „✅”),
-- Zaznaczenie czy **przeczytano fragment Pisma Świętego** - postaw dowolny znaczek (np. „✅”) lub wpisz który rozdział (wersety) zostały przeczytane,
 - **Datę zakończenia adoracji**, jeśli rozłożyliśmy ją na kilka dni.
 
 ---

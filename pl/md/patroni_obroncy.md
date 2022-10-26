@@ -71,6 +71,7 @@
   - **KAN** - dzień kanonizacji patrona (tylko w roku, w którym się odbyła),
   - **DWP** - inny dzień roku, który został ogłoszony jako dzień wspomnienia patrona.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**,
+- Zaznaczenie czy **przeczytano fragment Pisma Świętego** - postaw dowolny znaczek (np. „✅”) lub wpisz który rozdział (wersety) zostały przeczytane,
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
 
 ---
