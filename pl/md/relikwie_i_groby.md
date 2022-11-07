@@ -39,12 +39,12 @@
 - Na tej liście można wpisywać także wyzwania dotyczące **Jezusa Chrystusa**, np. relikwie Krzyża Świętego, Całun Turyński, Bazylika Grobu Świętego (były grób Jezusa). Zamiast numeru patrona wpisujemy „**II**” (druga Osoba Boska),
 - Jako jedno wyzwanie traktujemy nawiedzenie relikwii lub grobu konkretnego patrona w jednym miejscu. Przykładowo, jeśli w pewnym kościele, czy muzeum znajduje się grób i 5 osobnych relikwiarzy jednego patrona, zapisujemy to jako jedno wyzwanie. Jeśli nawiedzimy w innym kościele inne jego relikwie, wtedy sprostamy kolejnemu wyzwaniu - dotyczy to także przypadku przeniesienia tych samych relikwii (lub grobu) w inne miejsce,
 - Jeśli (wspólny) grób lub relikwie dotyczą kilku patronów jednocześnie, nawiedzenie ich traktujemy jako odrębne wyzwania dla każdego z nich z osobna. W razie potrzeby, nawiedzając te same relikwie można sprostać wyzwaniu dotyczącemu najpierw jednemu patronowi, by po jakimś czasie (po zaproszeniu drugiego patrona) ponownie nawiedzić je, robiąc to także dla niego,
-- Jednego dnia można nawiedzić dowolną liczbę grobów i relikwii w wielu różnych miejscach i sprostać wszystkim wyzwaniom, których jeszcze nie mieliśmy.
+- Jednego dnia można nawiedzić dowolną liczbę grobów i relikwii (zaproszonych już **patronów - opiekunów**) w wielu różnych miejscach i sprostać wszystkim wyzwaniom, których jeszcze nie mieliśmy.
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
 - **Nazwa patrona**,
 - **Typ i opis relikwii lub grobu**, np. relikwie krwi, relikwie kości, ubiór patrona, poprzedni grób patrona, itp.,
-- Zaznaczenie czy **odmówiono modlitwę** i **przeczytano notatkę** o relikwii lub grobie do wybranego patrona - postaw dowolny znaczek (np. „✅”),
+- Zaznaczenie czy **odmówiono modlitwę** przy relikwii lub grobie wybranego patrona - postaw dowolny znaczek (np. „✅”),
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---

@@ -42,6 +42,7 @@
 - Święta dotyczące **Boga** (w ogólności) odnoszą się zawsze do **Trójcy Przenajświętszej**, np. _„Niedziela Miłosierdzia Bożego”_,
 - Odkrycie święta dotyczącego **wielu patronów** wymaga, aby każdy z nich był naszym **patronem - obrońcą**, np. _„Niedziela Świętej Rodziny”_ dotyczy Jezusa, Maryi i św. Józefa,
 - Jeżeli święto **nie odnosi się wprost** do żadnego patrona (np. „Pierwsza Niedziela Adwentu”, czy „Środa Popielcowa”), musimy spojrzeć na nie szerzej by dostrzec, że święta te są częścią Adwentu lub Wielkiego Postu, okresów związanych z **Jezusem Chrystusem**, którego powinniśmy do tych świąt przypisać,
+- Może się zdarzyć, że odkrycie jednego święta może pociągnąć za sobą odkrycie innego, np. „Poświęcenie Bazyliki św. Jana na Lateranie” (9 listopada) dotyczy i wymaga, aby wszyscy jej patroni (czyli Najświętszy Zbawiciel, św. Jan Chrzciciel i św. Jan Ewangelista) byli Osobą Boską lub naszymi **patronami - obrońcami**. W tym przypadku tytuł Jezusa „Najświętszy Zbawiciel” może zostać dopisany jako nowe święto, jeśli nie było ono wcześniej przez nas odkryte,
 - Do czytania o świętach polecamy skorzystanie z takich stron, jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), [Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_katolickie_w_Polsce) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
 
 <span class="status status-title">Co możesz zanotować dodatkowo:</span>
