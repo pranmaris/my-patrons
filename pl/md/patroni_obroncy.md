@@ -27,8 +27,8 @@
 > zapraszam Ciebie/Was do grona Moich Patronów Obrońców,  
 > proszę o obronę i umocnienie,  
 > w mojej walce ze złem, grzechem i słabościami,  
-> które pragnę często oddawać Jezusowi w Sakramencie Pojednania,  
-> by w Jego Łasce, godnie przystępować do Komunii zawsze z czystym sercem,  
+> które pragnę regularnie oddawać Jezusowi w Sakramencie Pojednania,  
+> by w Jego Łasce, zawsze godnie przystępować do Komunii z czystym sercem,  
 > Amen.
 
 <br />
