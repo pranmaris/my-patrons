@@ -49,6 +49,11 @@ const README_MARKDOWN_FILE_PATH = PATH_SEPARATOR;
 const README_MARKDOWN_FILE_NAME = 'README';
 const INDEX_MARKDOWN_FILE_NAME = 'index';
 
+const RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID = 'random-bible-chapter';
+const RANDOM_BIBLE_CHAPTERS_DATA_FILE_PATH = '/any/' + FILE_EXTENSION_JSON + '/bible_chapters' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_JSON;
+let randomBibleChaptersButtonNamePrefix = null;
+let allBibleChapters = null;
+
 const build = () => {
   const subdomain = getSubdomain();
   const language = getLanguageFromSubdomain(subdomain);
@@ -383,6 +388,37 @@ const setShownActionToAllItems = (pagesData) => {
       setPageTitle(pageData.title);
     });
   }
+}
+
+const setRandomBibleChapter = async (language) => {
+  const button = document.getElementById(RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID);
+
+  if (randomBibleChaptersButtonNamePrefix == null) {
+    randomBibleChaptersButtonNamePrefix = button.innerHTML;
+  }
+
+  if (allBibleChapters == null) {
+    allBibleChapters = await loadContent(RANDOM_BIBLE_CHAPTERS_DATA_FILE_PATH)
+      .then(function (data) {
+        let result = [];
+        Object.entries(data[language]).forEach(([book, chapters]) => {
+          for (let chapter = 1; chapter <= chapters; chapter++) {
+            result.push(book + ' ' + chapter);
+          }
+        });
+        return result;
+      })
+      .catch(function (error) {
+      })
+    ;
+  }
+
+  let suffix = '???';
+  if (allBibleChapters != null) {
+    suffix = allBibleChapters[Math.floor(Math.random() * allBibleChapters.length)];
+  }
+
+  button.innerHTML = randomBibleChaptersButtonNamePrefix + ': ' + suffix;
 }
 
 build();

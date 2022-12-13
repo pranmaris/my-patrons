@@ -21,7 +21,7 @@
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#zakony):</span>
 - **Kolejny numer** zakonu (Z1, Z2, ...),
 - **Nazwa zakonu**,
-- **Siglum zakonu**, jeśli takowy istnieje.
+- **Siglum zakonu**, jeśli takowe istnieje.
 <br />
 
 ---

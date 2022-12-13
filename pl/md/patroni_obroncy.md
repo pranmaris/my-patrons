@@ -21,7 +21,7 @@
 - **W tym dniu**, osobiście (nie online!) weź udział we Mszy św. w **dowolnej** parafii lub kościele,
 - **W tym dniu**, przyjmij godnie Komunię Świętą w dowolnej intencji - fizycznie lub duchowo,
 - **W chwili przyjęcia Komunii św.** musisz być w stanie **Łaski Uświęcającej**! Powinieneś także dobrze dbać o swoje sumienie i **spowiadać się** co około miesiąc, a na pewno **nie rzadziej niż co 40 dni**!
-- Przeczytaj dowolny fragment **Pisma Świętego**, wcześniej prosząc zapraszanego patrona o pomoc w jego wybraniu i zrozumieniu. Może to być kolejny lub losowy rozdział, akapit, inna logiczna całość, czy fragment z lekcjonarza związany z wybranym patronem,
+- Przeczytaj dowolny fragment **Pisma Świętego**, wcześniej prosząc zapraszanego patrona o pomoc w jego wybraniu i zrozumieniu. Może to być kolejny lub losowy rozdział (<button class="button" id="random-bible-chapter" onclick="setRandomBibleChapter('pl')">Losuj rozdział</button>), akapit, inna logiczna całość, czy fragment z lekcjonarza związany z wybranym patronem,
 - Odmów następującą modlitwę zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno”, „Nieznani Towarzysze św. Maurycego”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > zapraszam Ciebie/Was do grona Moich Patronów Obrońców,  
