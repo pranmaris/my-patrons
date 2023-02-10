@@ -15,10 +15,11 @@
 - **W tym dniu** zaproś dowolnego **patrona - obrońcę**. Wszystkich patronów których dotyczy wybrane święto, musisz mieć na liście [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) albo **w tym dniu** zaprosić brakującego (maksymalnie jednego) na Twojego **patrona - obrońcę**,
 - Przeczytaj jakąkolwiek notkę o wybranym święcie, opisującą jego znaczenie i historię,
 - Odmów następującą modlitwę dla wybranych świąt:
-> Dobry mój Boże,  
-> dziękuję Ci za możliwość celebrowania święta **_[nazwa święta]_**,  
-> wspomóż mnie, abym mógł/mogła lepiej zrozumieć jego znaczenie,  
-> oraz potrafił/potrafiła czerpać wielką radość, mądrość i pożytek,  
+> Dziękuję Ci, Jezu,  
+> za ustanowienie święta _**[nazwa święta]**_,  
+> proszę o Twoją pomoc,  
+> w lepszym zrozumieniu jego znaczenia  
+> oraz w czerpaniu wielkiej radości, mądrości i duchowego pożytku,  
 > z uczestniczenia w nim dzięki Kościołowi Świętemu,  
 > Amen.
 
