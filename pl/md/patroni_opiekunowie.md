@@ -26,10 +26,10 @@
 - Odmów następującą modlitwę (najlepiej klęcząc jeśli zdrowie Ci na to pozwala), zwracając się do wybranego patrona (np.: „Błogosławiona Sancjo Szymkowiak”, „Święty Antoni z Padwy”, „Święci Aniołowie Stróżowie”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > zapraszam Ciebie/Was do grona Moich Patronów Opiekunów,  
-> proszę o opiekę i prowadzenie,  
+> proszę o opiekę i prowadzenie  
 > najlepszą dla mnie drogą do Nieba,  
-> gdzie pragnę być na wieczność, z Bogiem i wszystkimi Świętymi,  
-> pośród Miłości, Prawdy, Dobra i Piękna,  
+> gdzie pragnę być na wieczność z Bogiem i wszystkimi Świętymi,  
+> pośród Miłości, Prawdy, Dobra i Piękna.  
 > Amen.
 
 <br />

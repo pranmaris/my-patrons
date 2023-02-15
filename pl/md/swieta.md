@@ -17,10 +17,10 @@
 - Odmów następującą modlitwę dla wybranych świąt:
 > Dziękuję Ci, Jezu,  
 > za ustanowienie święta _**[nazwa święta]**_,  
-> proszę o Twoją pomoc,  
+> proszę o Twoją pomoc  
 > w lepszym zrozumieniu jego znaczenia  
 > oraz w czerpaniu wielkiej radości, mądrości i duchowego pożytku,  
-> z uczestniczenia w nim dzięki Kościołowi Świętemu,  
+> z uczestniczenia w nim dzięki Kościołowi Świętemu.  
 > Amen.
 
 <br />
