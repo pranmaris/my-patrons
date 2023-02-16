@@ -16,10 +16,10 @@
 - **W tym dniu**: pomódl się do patrona, który jest autorem tego cytatu (np.: „Błogosławiony Edmundzie Bojanowski”, „Święta Tereso z Avili”):
 > Św./Bł. _**[imię patrona]**_,  
 > dziękuję Tobie za ten piękny i wartościowy cytat,  
-> bedący owocem działania Bożej Mądrości w Tobie.  
-> Proszę Cię o pomoc w jego lepszym zrozumieniu,  
-> oraz umiejętność wykorzystania go na mojej drodze do świętości,  
-> ku Chwale Boga Najwyższego,  
+> będący owocem działania Bożej Mądrości w Tobie.  
+> Proszę Cię o pomoc w jego lepszym zrozumieniu  
+> oraz umiejętność jego wykorzystania w mojej drodze do świętości  
+> ku Chwale Boga Najwyższego.  
 > Amen.
 - **W całym tym dniu**: rozważaj sobie ten cytat,
 - Wrzuć karteczkę z cytatem do swojego **„kuferka mądrości”**. Dzięki temu będziesz mieć możliwość jego ponownego wylosowania i rozważania, np. w dni, w których nie będziesz dodawać żadnego nowego cytatu.

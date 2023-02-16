@@ -21,9 +21,9 @@
 > szczególnie proszę o Twoje dary dla zgromadzenia **_[nazwa zgromadzenia]_**:  
 > o wypełnianie się w nim Świętej Woli Twojej i wszelkich zamierzeń,  
 > o ochronę przed działaniem złego,  
-> o nowe powołania zakonne,  
+> o nowe powołania zakonne  
 > i owocne życie wszystkich członków zgromadzenia,  
-> zgodne z przyjętą regułą zakonu i ślubami,  
+> zgodne z przyjętą regułą zakonu i ślubami.  
 > Amen.
 
 <br />
