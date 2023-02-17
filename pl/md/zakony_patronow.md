@@ -18,7 +18,7 @@
 > za wszystkich członków zgromadzeń zakonnych,  
 > którzy poświęcili swoje życie, aby wypraszać tak wiele Twoich łask dla nas i całego świata.  
 > Dzisiaj, przez wstawiennictwo św./bł. **_[imię wybranego patrona]_**  
-> szczególnie proszę o Twoje dary dla zgromadzenia **_[nazwa zgromadzenia]_**:  
+> szczególnie proszę o Twoje dary dla zgromadzenia **_[nazwa zgromadzenia patrona]_**:  
 > o wypełnianie się w nim Świętej Woli Twojej i wszelkich zamierzeń,  
 > o ochronę przed działaniem złego,  
 > o nowe powołania zakonne  
