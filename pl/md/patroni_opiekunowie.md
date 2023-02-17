@@ -25,7 +25,7 @@
 - Przeczytaj jakąkolwiek notkę o wybranym patronie opisującą jego życie i działalność, aby go lepiej poznać,
 - Odmów następującą modlitwę (najlepiej klęcząc jeśli zdrowie Ci na to pozwala), zwracając się do wybranego patrona (np.: „Błogosławiona Sancjo Szymkowiak”, „Święty Antoni z Padwy”, „Święci Aniołowie Stróżowie”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
-> zapraszam Ciebie/Was do grona Moich Patronów Opiekunów,  
+> zapraszam Ciebie/Was do grona moich Patronów Opiekunów,  
 > proszę o opiekę i prowadzenie  
 > najlepszą dla mnie drogą do Nieba,  
 > gdzie pragnę być na wieczność z Bogiem i wszystkimi Świętymi,  

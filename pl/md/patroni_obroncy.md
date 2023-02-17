@@ -24,7 +24,7 @@
 - Przeczytaj dowolny fragment **Pisma Świętego**, wcześniej prosząc zapraszanego patrona o pomoc w jego wybraniu i zrozumieniu. Może to być kolejny lub losowy rozdział (<button class="button btn" id="random-bible-chapter" onclick="setRandomBibleChapter('pl')">Losuj rozdział</button>), akapit, inna logiczna całość, czy fragment z lekcjonarza związany z wybranym patronem,
 - Odmów następującą modlitwę zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno”, „Nieznani Towarzysze św. Maurycego”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
-> zapraszam Ciebie/Was do grona Moich Patronów Obrońców,  
+> zapraszam Ciebie/Was do grona moich Patronów Obrońców,  
 > proszę o obronę i umocnienie  
 > w mojej walce ze złem, grzechem i słabościami,  
 > które pragnę regularnie oddawać Jezusowi w Sakramencie Pojednania,  

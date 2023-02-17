@@ -16,7 +16,7 @@
 - **W tym dniu**, odmów poniższą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiony Bartolo Longo”, „Święta Faustyno Kowalska”, „Święci Młodziankowie”):
 > Św./Bł. **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
 > dziś w obecności Jezusa ukrytego w Najświętszym Sakramencie  
-> pragnę uroczyście powitać Ciebie/Was w gronie Moich Białych Patronów,  
+> pragnę uroczyście powitać Ciebie/Was w gronie moich Białych Patronów,  
 > w gronie moich najbliższych przyjaciół i powierników.  
 > Proszę o opiekę, modlitwę, obronę przed działaniem złego,  
 > o orędowanie za mną przed Tronem Trójcy Przenajświętszej,  

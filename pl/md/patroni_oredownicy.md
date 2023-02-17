@@ -26,16 +26,25 @@
   - jest „**Białym Patronem**” tej osoby,
 - Analogicznie **pozwól wybrać patrona** drugiej osobie (obydwie osoby **muszą** zaprosić jakiegoś patrona!),
 - **W tym dniu**, spotkaj się (nie online!) z drugą osobą (najlepiej w kościele lub innym świętym miejscu),
-- **W tym dniu**, odmówcie wspólnie (najlepiej klęcząc jeśli zdrowie Wam na to pozwala) modlitwy: **_„Ojcze Nasz”_**, **_„Zdrowaś Maryjo”_** i **_„Chwała Ojcu”_** oraz zwracając się do wybranych patronów (np.: „Błogosławiona Karolino Kózko”, „Święty Marcinie”, „Wszyscy Święci”):
-> Św./Bł. _**[imię wybranego patrona (lub nazwa zbiorcza wielu patronów) pierwszej osoby]**_,  
-> św./bł. _**[imię wybranego patrona (lub nazwa zbiorcza wielu patronów) drugiej osoby]**_,  
-> zapraszam Ciebie/Was do grona Moich Patronów Orędowników,  
-> proszę o wstawianie się i modlitwę za nas,  
-> przed Tronem Boga w Trójcy Jedynego,  
-> którego pragniemy prosić też naszą modlitwą, postem, ofiarowaniem trudów i cierpień,  
-> o zbawienie żyjących ludzi i skrócenie cierpień duszom czyśćcowym,  
+- **W tym dniu**, odmówcie wspólnie (najlepiej klęcząc jeśli zdrowie Wam na to pozwala) modlitwę zwracając się do wybranych patronów (np.: „Błogosławiona Karolino Kózko”, „Święty Marcinie z Tours”, „Wszyscy Święci”):
+<br />
+
+> _(najpierw pierwsza osoba mówi do wybranego przez siebie patrona_):  
+> Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
+> zapraszam Ciebie/Was do grona moich Patronów Orędowników.  
+
+> _(potem druga osoba mówi do wybranego przez siebie patrona_):  
+> Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
+> zapraszam Ciebie/Was do grona moich Patronów Orędowników.  
+
+> _(I dalszy ciąg już razem)_:  
+> Wspólnie Was prosimy o wstawianie się u Boga i modlitwę za nas,  
+> pragnąc ofiarowywać za Waszym pośrednictwem  
+> naszą modlitwę i post, wszelki trud i cierpienie  
+> w intencji ludzi żyjących i dusz czyśćcowych.  
 > Amen.
-- W intencji drugiej osoby **odmów cały różaniec** (wstęp, 5 dziesiątek, zakończenie). Możesz podzielić odmawianie różańca na kilka dni, np. odmawiając jedną dziesiątkę dziennie.
+- **W tym dniu, kontynuując powyższą wspólną modlitwę**, rozpocznijcie **razem odmawiać wstęp różańca w intencji drugiej osoby**, czyli: _„Wierzę w Boga”_, _„Ojcze Nasz”_, 3 razy  _„Zdrowaś Maryjo”_ (o wiarę, nadzieję i miłość) oraz _„Chwała Ojcu”_. Po znaku Krzyża, **możecie się rozejść**.
+- W intencji drugiej osoby **samodzielnie odmów dalszy ciąg rozpoczętego różańca** (czyli 5 dziesiątek i _„Pod Twoją obronę”_). Możesz podzielić odmawianie różańca na kilka dni, np. odmawiając jedną dziesiątkę dziennie.
 
 <br />
 
