@@ -174,3 +174,17 @@ footer a, footer a:hover {
   color: white;
   background-color: rgb(0, 150, 150);
 }
+
+
+
+svg {
+  width: 30px;
+  height: 30px;
+}
+.bi-box-arrow-up-right, .bi-github, .bi-cup-hot-fill {
+  fill: rgb(0, 255, 255);
+}
+
+.background-photo-attribution {
+  font-size: 10px;
+}

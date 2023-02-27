@@ -29,6 +29,7 @@ const LANGUAGE_REPLACE_HASHTAG = '#LANGUAGE#';
 
 const PAGES_PATH = '/' + LANGUAGE_REPLACE_HASHTAG + '/' + FILE_EXTENSION_MARKDOWN + '/';
 const HTML_TEMPLATES_PATH = '/any/' + FILE_EXTENSION_HTML + '/';
+const HTML_LANGUAGE_TEMPLATES_PATH = '/' + LANGUAGE_REPLACE_HASHTAG + '/' + FILE_EXTENSION_HTML + '/';
 
 const DEFAULT_EXPANDED_PAGE_ID = 0;
 const ACCORDION_ITEM_COLLAPSED_FILE = 'accordion_item_collapsed' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
@@ -38,6 +39,8 @@ const ACCORDION_ITEM_CLASS_QUERY_SELECTOR = '.accordion-item';
 const ACCORDION_HEADING_ELEMENT_PREFIX = 'heading';
 const ACCORDION_BODY_ELEMENT_PREFIX = 'page';
 const LANGUAGES_ELEMENT_ID = 'header-languages';
+const HEADER_ICONS_ELEMENT_ID = 'header-icons';
+const FOOTER_ELEMENT_ID = 'footer';
 
 const LANGUAGE_PATTERN = '[a-z][a-z]';
 const URL_WORD_SEPARATOR_PATTERN = '[^a-z0-9]';
@@ -45,9 +48,11 @@ const ANCHOR_PATTERN = ANCHOR + '[-a-z0-9]+';
 
 const START_ANCHOR = ANCHOR + 'start';
 
-const README_MARKDOWN_FILE_PATH = PATH_SEPARATOR;
-const README_MARKDOWN_FILE_NAME = 'README';
+const LANGUAGES_MARKDOWN_FILE_PATH = PATH_SEPARATOR;
+const LANGUAGES_MARKDOWN_FILE_NAME = 'languages';
 const INDEX_MARKDOWN_FILE_NAME = 'index';
+const HEADER_ICONS_HTML_FILE_NAME = 'header_icons';
+const FOOTER_HTML_FILE_NAME = 'footer';
 
 const RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID = 'random-bible-chapter';
 const RANDOM_BIBLE_CHAPTERS_DATA_FILE_PATH = '/any/' + FILE_EXTENSION_JSON + '/bible_chapters' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_JSON;
@@ -58,9 +63,12 @@ const build = () => {
   const subdomain = getSubdomain();
   const language = getLanguageFromSubdomain(subdomain);
   const pagesPath = getPagesPathForLanguage(language);
+  const htmlPath = getHtmlTemplatesPathForLanguage(language);
 
   setPageTitle();
-  buildLanguages(pagesPath);
+  buildLanguages();
+  buildHeaderIcons(htmlPath);
+  buildFooter(htmlPath);
 
   loadContent(pagesPath + INDEX_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN, true)
     .then(function (indexContent) {
@@ -72,10 +80,10 @@ const build = () => {
   ;
 }
 
-const buildLanguages = (pagesPath) => {
+const buildLanguages = () => {
   const element = document.getElementById(LANGUAGES_ELEMENT_ID);
-  const fileName = README_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN;
-  const filePath = README_MARKDOWN_FILE_PATH + fileName;
+  const fileName = LANGUAGES_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN;
+  const filePath = LANGUAGES_MARKDOWN_FILE_PATH + fileName;
 
   loadContent(filePath)
     .then(function (content) {
@@ -83,6 +91,42 @@ const buildLanguages = (pagesPath) => {
     })
     .catch(function (error) {
       element.innerHTML = getErrorText(error);
+    })
+  ;
+}
+
+const buildHeaderIcons = (htmlPath) => {
+  const element = document.getElementById(HEADER_ICONS_ELEMENT_ID);
+  const fileName = HEADER_ICONS_HTML_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
+  const languageFilePath = htmlPath + fileName;
+  const defaultFilePath = HTML_TEMPLATES_PATH + fileName;
+
+  buildHtmlElement(element, languageFilePath, defaultFilePath);
+}
+
+const buildFooter = (htmlPath) => {
+  const element = document.getElementById(FOOTER_ELEMENT_ID);
+  const fileName = FOOTER_HTML_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
+  const languageFilePath = htmlPath + fileName;
+  const defaultFilePath = HTML_TEMPLATES_PATH + fileName;
+
+  buildHtmlElement(element, languageFilePath, defaultFilePath);
+}
+
+const buildHtmlElement = (element, languageFilePath, defaultFilePath) => {
+  loadContent(languageFilePath, true)
+    .then(function (content) {
+      element.innerHTML = content;
+    })
+    .catch(function (error) {
+      loadContent(defaultFilePath, true)
+        .then(function (content) {
+          element.innerHTML = content;
+        })
+        .catch(function (error) {
+          element.innerHTML = getErrorText(error);
+        })
+      ;
     })
   ;
 }
@@ -171,6 +215,14 @@ const getPagesPathForLanguage = (language) => {
   }
 
   return PAGES_PATH.replace(LANGUAGE_REPLACE_HASHTAG, language);
+}
+
+const getHtmlTemplatesPathForLanguage = (language) => {
+  if (language == '') {
+    return '';
+  }
+
+  return HTML_LANGUAGE_TEMPLATES_PATH.replace(LANGUAGE_REPLACE_HASHTAG, language);
 }
 
 const setPageTitle = (title) => {
