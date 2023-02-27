@@ -44,5 +44,4 @@
 - [→&nbsp;<span><span class="status status-list"><span class="status status-list">YF</span> Osiągnięcie: Aniołowie</span></span>](osiagniecie_aniolowie.md)
 - [Wszystkie materiały do pobrania](wszystkie_materialy_do_pobrania.md)
 - [Karty kolekcjonerskie](karty_kolekcjonerskie.md)
-- [Przyjaciele „Moich Patronów”](przyjaciele_moich_patronow.md)
 - [O nas](o_nas.md)
