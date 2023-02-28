@@ -1,7 +1,7 @@
 # <span class="status status-list"><span class="status status-list">YF</span> Osiągnięcie: Aniołowie</span>
 <br />
 
-<span class="status status-title">Opis osiągnięcia:</span> To osiągnięcie obejmuje **trzech znanych z imienia Archaniołów, Aniołów Stróżów i pozostałych Aniołów z grona Wszystkich Świętych**.
+<span class="status status-title">Opis osiągnięcia:</span> To osiągnięcie obejmuje **trzech uznanych Archaniołów, Aniołów Stróżów i pozostałych Aniołów z grona Wszystkich Świętych**.
 <br />
 
 <span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#osiagniecie-aniolowie):</span> Patrz na stronie o [zdobywaniu osiągnięć](jak_zdobywac_osiagniecia.md).

@@ -17,15 +17,14 @@ O listach:
 
 ---
 O statusach:
-- **Statusy** - za pomocą kolorów - opisują postęp przebytej przez Uczestnika drogi dla: **odkrywania świąt**, **zapraszania patronów** i **zdobywania osiągnieć**,
-- Dla każdego **święta**, **patrona** i **osiągnięcia** mamy **odrębny status**, który na początku ma kolor <span class="status status-black">czarny</span>,
+- **Statusy** - za pomocą kolorów - opisują postęp przebytej przez Uczestnika drogi dla: **odkrywania świąt** i **zapraszania patronów**,
+- Dla każdego **święta** i **patrona** mamy **odrębny status**, który na początku ma kolor <span class="status status-black">czarny</span>,
 - Aby cokolwiek notować na określonej **liście**, zawsze musimy mieć **status** w wymaganym przez nią kolorze, dla święta lub patrona, którego dotyczy wpis,
 - Możliwe **kolory statusów** to:
-||<span class="status status-black">czarny</span>|<span class="status status-gray">szary</span>|<span class="status status-red">czerwony</span>|<span class="status status-orange">pomarańczowy</span>|<span class="status status-yellow">żółty</span>|<span class="status status-green">zielony</span>|<span class="status status-blue">niebieski</span>|<span class="status status-indigo">indygo</span>|<span class="status status-violet">fioletowy</span>|<span class="status status-white">biały</span>|
-|---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **święta:** |✅|||||||||✅|
-| **patroni:** |✅||✅|✅|✅|✅|✅|✅|✅|✅|
-| **osiągnięcia:** |✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|
+||<span class="status status-black">czarny</span>|<span class="status status-red">czerwony</span>|<span class="status status-orange">pomarańczowy</span>|<span class="status status-yellow">żółty</span>|<span class="status status-green">zielony</span>|<span class="status status-blue">niebieski</span>|<span class="status status-indigo">indygo</span>|<span class="status status-violet">fioletowy</span>|<span class="status status-white">biały</span>|
+|---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **patroni:** |✅|✅|✅|✅|✅|✅|✅|✅|✅|
+| **święta:** |✅||||||||✅|
 
 ---
 O zadaniach:

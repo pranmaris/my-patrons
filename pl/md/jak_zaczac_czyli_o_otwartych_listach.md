@@ -2,7 +2,7 @@
 Jako chrześcijanie powinniśmy pamiętać, aby przed każdą ważniejszą czynnością **zawierzyć ją Bogu**, który uzdolni nas do jej wykonania zgodnie z Jego wolą. **Na początku** - jednorazowo, wykonajmy zadanie:
 - [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md) - by zawierzyć Bogu całą naszą dalszą drogę z _„Moimi Patronami”_ i wyznać Mu naszą wiarę.
 
-Wykonanie tego zadania **rozpoczyna nasz udział** w _„Moich Patronach”_. Dla każdego **święta**, **patrona** i **osiągnięcia** otrzymujemy status początkowy w kolorze <span class="status status-black">czarnym</span>.
+Wykonanie tego zadania **rozpoczyna nasz udział** w _„Moich Patronach”_. Dla każdego możliwego **święta** i **patrona** otrzymujemy status początkowy w kolorze <span class="status status-black">czarnym</span>.
 
 ---
 Kolejnym krokiem jaki warto wykonać to uzupełnienie dwóch poniższych list:

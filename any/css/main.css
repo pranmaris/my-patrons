@@ -109,11 +109,12 @@ footer a, footer a:hover {
   min-width: 20px;
   height: 20px;
   margin: 0px;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 2px;
+  border-radius: 50px;
   border-style: solid;
   border-width: 1px;
   border-color: #000000;
+  white-space: pre;
 }
 .status-black {
   background-color: #000000;

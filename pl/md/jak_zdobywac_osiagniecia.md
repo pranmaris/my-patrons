@@ -26,21 +26,4 @@ Mamy poniższe osiągnięcia do wyboru:
 
 Lista powyższych osiągnięć nie jest zamknięta, dlatego chętnie rozważymy dodanie Twoich propozycji!
 
----
-
-Jeśli masz ochotę, każde osiągnięcie może mieć swój **status wykonania** w określonym kolorze, jak pokazano poniżej (**wybieramy pierwszą pasującą linię!**):
-
-|Gdy WSZYSCY PATRONI<br />mają numer na listach:|... i WSZYSTKIE ŚWIĘTA<br />mają numer na liście:|... to STATUS OSIĄGNIĘCIA<br />ma kolor:|
-|:---:|:---:|:---:|
-|[<span class="status status-white">P</span>](biali_patroni.md)|[<span class="status status-white">B</span>](swieta.md)|<span class="status status-white">biały</span>|
-|[<span class="status status-yellow">T</span>](patroni_opiekunowie.md) + [<span class="status status-blue">A</span>](patroni_obroncy.md) + [<span class="status status-red">U</span>](patroni_oredownicy.md)|[<span class="status status-white">B</span>](swieta.md)|<span class="status status-indigo">indygo</span>|
-|[<span class="status status-yellow">T</span>](patroni_opiekunowie.md) + [<span class="status status-blue">A</span>](patroni_obroncy.md)|[<span class="status status-white">B</span>](swieta.md)|<span class="status status-green">zielony</span>|
-|[<span class="status status-yellow">T</span>](patroni_opiekunowie.md) + [<span class="status status-red">U</span>](patroni_oredownicy.md)|[<span class="status status-white">B</span>](swieta.md)|<span class="status status-orange">pomarańczowy</span>|
-|[<span class="status status-blue">A</span>](patroni_obroncy.md) + [<span class="status status-red">U</span>](patroni_oredownicy.md)|[<span class="status status-white">B</span>](swieta.md)|<span class="status status-violet">fioletowy</span>|
-|[<span class="status status-yellow">T</span>](patroni_opiekunowie.md)|[<span class="status status-white">B</span>](swieta.md)|<span class="status status-yellow">żółty</span>|
-|[<span class="status status-blue">A</span>](patroni_obroncy.md)|[<span class="status status-white">B</span>](swieta.md)|<span class="status status-blue">niebieski</span>|
-|[<span class="status status-red">U</span>](patroni_oredownicy.md)|[<span class="status status-white">B</span>](swieta.md)|<span class="status status-red">czerwony</span>|
-|żaden patron nie ma numeru|żadne święto nie ma numeru|<span class="status status-black">czarny</span>|
-|w przeciwnym wypadku|w przeciwnym wypadku|<span class="status status-gray">szary</span>|
-
 [Powrót do głównego menu](index.md)
