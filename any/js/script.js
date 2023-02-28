@@ -39,7 +39,7 @@ const ACCORDION_ITEM_CLASS_QUERY_SELECTOR = '.accordion-item';
 const ACCORDION_HEADING_ELEMENT_PREFIX = 'heading';
 const ACCORDION_BODY_ELEMENT_PREFIX = 'page';
 const LANGUAGES_ELEMENT_ID = 'header-languages';
-const HEADER_ICONS_ELEMENT_ID = 'header-icons';
+const HEADER_ELEMENT_ID = 'header';
 const FOOTER_ELEMENT_ID = 'footer';
 
 const LANGUAGE_PATTERN = '[a-z][a-z]';
@@ -51,7 +51,7 @@ const START_ANCHOR = ANCHOR + 'start';
 const LANGUAGES_MARKDOWN_FILE_PATH = PATH_SEPARATOR;
 const LANGUAGES_MARKDOWN_FILE_NAME = 'languages';
 const INDEX_MARKDOWN_FILE_NAME = 'index';
-const HEADER_ICONS_HTML_FILE_NAME = 'header_icons';
+const HEADER_HTML_FILE_NAME = 'header';
 const FOOTER_HTML_FILE_NAME = 'footer';
 
 const RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID = 'random-bible-chapter';
@@ -67,7 +67,7 @@ const build = () => {
 
   setPageTitle();
   buildLanguages();
-  buildHeaderIcons(htmlPath);
+  buildHeader(htmlPath);
   buildFooter(htmlPath);
 
   loadContent(pagesPath + INDEX_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN, true)
@@ -95,9 +95,9 @@ const buildLanguages = () => {
   ;
 }
 
-const buildHeaderIcons = (htmlPath) => {
-  const element = document.getElementById(HEADER_ICONS_ELEMENT_ID);
-  const fileName = HEADER_ICONS_HTML_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
+const buildHeader = (htmlPath) => {
+  const element = document.getElementById(HEADER_ELEMENT_ID);
+  const fileName = HEADER_HTML_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
   const languageFilePath = htmlPath + fileName;
   const defaultFilePath = HTML_TEMPLATES_PATH + fileName;
 
