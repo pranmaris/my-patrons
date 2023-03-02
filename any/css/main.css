@@ -189,3 +189,32 @@ svg {
 .background-photo-attribution {
   font-size: 10px;
 }
+
+
+
+.bg-card {
+  background-color: #f8f9fa !important;
+}
+
+.bg-card > .card-header {
+  height: 13mm;
+  font-size: 6mm;
+  color: rgb(0, 100, 100);
+  font-weight: bold;
+}
+
+.card-header-link {
+  color: rgb(0, 100, 100);
+  font-weight: bold;
+}
+
+.selected-day-info {
+  color: rgb(200, 0, 0);
+  font-weight: bold;
+}
+
+.card-url-link {
+  color: rgb(0, 0, 200);
+  font-weight: bold;
+}
+
