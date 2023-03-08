@@ -64,6 +64,7 @@ footer a, footer a:hover {
 }
 .page-content a {
   color: rgb(0, 85, 85);
+  text-decoration: none;
 }
 
 .page-content table {
@@ -190,6 +191,32 @@ svg {
   font-size: 10px;
 }
 
+.page-content > h1 {
+  text-align: center;
+}
+.page-content > h2 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 100, 100);
+  border-color: rgb(0, 100, 100);
+  width: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 2px;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  white-space: pre;
+}
+.page-content > h3 {
+  font-size: 20px;
+  color: rgb(0, 100, 100);
+  text-align: center;
+}
 
 
 .bg-card {
@@ -216,5 +243,12 @@ svg {
 .card-url-link {
   color: rgb(0, 0, 200);
   font-weight: bold;
+}
+
+.blockquote {
+  padding: 0 1em;
+  color: rgb(0, 100, 100);
+  border-left: .25em solid rgb(0, 100, 100);
+  font-size: 1em;
 }
 

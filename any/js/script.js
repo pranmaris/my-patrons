@@ -297,6 +297,13 @@ const getConvertedMarkdownContent = (content) => {
     return match.replace(p1, urlPath).replace(START_ANCHOR, '');
   });
 
+  const pattern4 = new RegExp('href="([^"]+' + fileExtensionPattern + ')' + '(' + ANCHOR_PATTERN + ')?' + '"', 'g');
+  content = content.replace(pattern4, function (match, p1, p2) {
+    const urlPath = PATH_SEPARATOR + convertMarkdownFileLocationToUrlPath(p1);
+
+    return match.replace(p1, urlPath).replace(START_ANCHOR, '');
+  });
+
   return marked.parse(content);
 }
 
