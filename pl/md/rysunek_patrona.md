@@ -1,7 +1,7 @@
-# <span class="status status-list"><span class="status status-list">V</span> Klasztory</span>
+# <span class="status status-list"><span class="status status-list">W</span> Rysunek Patrona</span>
 <br />
 
-<span class="status status-title">Wymagany status patrona:</span> <span class="status status-red">czerwony</span>, <span class="status status-orange">pomarańczowy</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span> albo <span class="status status-white">biały</span>.
+<span class="status status-title">Wymagany status patrona:</span> już wkrótce ...
 <br />
 
 <span class="status status-title">Limity:</span> już wkrótce ...
@@ -28,5 +28,5 @@
 <span class="status status-title">Co możesz zanotować dodatkowo:</span> już wkrótce ...
 
 ---
-[Powrót do patronów - orędowników](patroni_oredownicy.md)  
+[Powrót do patronów - opiekunów](patroni_opiekunowie.md)  
 [Powrót do głównego menu](index.md)
