@@ -1,54 +1,71 @@
 # <span class="status status-list"><span class="status status-black">∞</span> Bóg</span>
-<br />
-
-<span class="status status-title">Wymagany status:</span> Bez statusu - zadanie to wykonujemy raz na początku, co spowoduje **uzyskanie statusów początkowych** w kolorze <span class="status status-black">czarnym</span> **dla każdego możliwego patrona i święta z osobna**!
-<br />
-
-<span class="status status-title">Limity:</span> To zadanie można i wystarczy wykonać tylko jeden raz.
-<br />
-
-<span class="status status-title">Opis zadania:</span> 
-- **Zawierzamy Bogu** cały nasz udział w inicjatywie _„Moich Patronów”_,
-- **prosimy Go**, aby dał nam siły, umiejętności i zapał do wykonywania wszystkich zadań,
-- **wyznajemy Mu** naszą wiarę i miłość!
-
-Dodatkowo w ramach tego zadania, będąc wdzięcznym Bogu za dar naszego życia, notujemy **datę naszego urodzenia**, co może się przydać w dalszym etapie udziału w „Moich Patronach”.
-<br />
-
-<span class="status status-title">Kroki:</span>
-- **W tym dniu**, własnymi słowami lub w myślach, z miłością i ufnością poproś Boga o pokierowanie Tobą wedle Jego woli w dalszej drodze z _„Moimi Patronami”_,
-- **W tym dniu**, w pozycji klęczącej (jeśli Twoje zdrowie na to pozwala), będąc (najlepiej) w kościele lub innym świętym miejscu, odmów _„Credo”_ (dla małych dzieci może to być zamiennie krótsza modlitwa _„Wierzę w Boga”_):
-> Wierzę w jednego Boga, Ojca Wszechmogącego, Stworzyciela nieba i ziemi, wszystkich rzeczy widzialnych i niewidzialnych.
->
-> I w jednego Pana Jezusa Chrystusa, Syna Bożego Jednorodzonego, który z Ojca jest zrodzony przed wszystkimi wiekami. Bóg z Boga, Światłość ze Światłości, Bóg prawdziwy z Boga prawdziwego. Zrodzony, a nie stworzony, współistotny Ojcu, a przez Niego wszystko się stało. On to dla nas ludzi i dla naszego zbawienia zstąpił z nieba. I za sprawą Ducha Świętego przyjął ciało z Maryi Dziewicy i stał się człowiekiem. Ukrzyżowany również za nas pod Poncjuszem Piłatem został umęczony i pogrzebany. I zmartwychwstał trzeciego dnia, jak oznajmia Pismo. I wstąpił do nieba; siedzi po prawicy Ojca. I powtórnie przyjdzie w chwale sądzić żywych i umarłych, a królestwu Jego nie będzie końca.
-> 
-> Wierzę w Ducha Świętego, Pana i Ożywiciela, który od Ojca i Syna pochodzi. Który z Ojcem i Synem wspólnie odbiera uwielbienie i chwałę; który mówił przez Proroków. Wierzę w jeden, święty, powszechny i apostolski Kościół. Wyznaję jeden chrzest na odpuszczenie grzechów. I oczekuję wskrzeszenia umarłych i życia wiecznego w przyszłym świecie.
-> 
+---
+## Cel
+**Powierzyć Bogu** całą Twoją **przygodę z inicjatywą _„Moich Patronów”_**, która właśnie się rozpoczyna.
+## Wybór
+Wybierz <span class="selected-day-info">dzień</span>, w którym chcesz wykonać wyzwanie i zacząć tę wspaniałą przygodę!
+## Limit
+Wykonujemy to **tylko jeden raz**! Na samym początku.
+## Zadanie główne
+<span class="selected-day-info">W wybranym dniu</span> **znajdź miejsce**, w którym się skupisz i **w myślach lub na głos**, bez pośpiechu spróbuj własnymi słowami wykonać poniższe kroki:
+- **zawierz Bogu** cały Twój udział w inicjatywie _„Moich Patronów”_,
+- **poproś Go**, aby dał Ci siły, radość, umiejętności i zapał do wykonywania wszystkich wyzwań,
+- **ofiaruj Mu** swoje serce, aby mógł je przemieniać i działać w Twojej duszy, a także w innych uczestnikach dzięki Twojej osobie,
+- **wyznaj Mu** Twoją wiarę, ufność i miłość do Niego!
+## Modlitwa
+<span class="selected-day-info">W wybranym dniu</span>, odmów _„Credo”_, czyli:
+> Wierzę w jednego Boga, Ojca Wszechmogącego, Stworzyciela nieba i ziemi, wszystkich rzeczy widzialnych i niewidzialnych.  
+> I w jednego Pana Jezusa Chrystusa, Syna Bożego Jednorodzonego, który z Ojca jest zrodzony przed wszystkimi wiekami. Bóg z Boga, Światłość ze Światłości, Bóg prawdziwy z Boga prawdziwego. Zrodzony, a nie stworzony, współistotny Ojcu, a przez Niego wszystko się stało. On to dla nas ludzi i dla naszego zbawienia zstąpił z nieba. I za sprawą Ducha Świętego przyjął ciało z Maryi Dziewicy i stał się człowiekiem. Ukrzyżowany również za nas pod Poncjuszem Piłatem został umęczony i pogrzebany. I zmartwychwstał trzeciego dnia, jak oznajmia Pismo. I wstąpił do nieba; siedzi po prawicy Ojca. I powtórnie przyjdzie w chwale sądzić żywych i umarłych, a królestwu Jego nie będzie końca.  
+> Wierzę w Ducha Świętego, Pana i Ożywiciela, który od Ojca i Syna pochodzi. Który z Ojcem i Synem wspólnie odbiera uwielbienie i chwałę; który mówił przez Proroków. Wierzę w jeden, święty, powszechny i apostolski Kościół. Wyznaję jeden chrzest na odpuszczenie grzechów. I oczekuję wskrzeszenia umarłych i życia wiecznego w przyszłym świecie.  
 > Amen
-- Zanotuj **datę swojego urodzenia** oraz **datę wykonania poprzednich kroków**,
-- Przeczytaj jakąkolwiek notkę o Trójcy Przenajświętszej oraz o poszczególnych trzech Osobach Boskich: Bogu Ojcu, Jezusie Chrystusie i Duchu Świętym.
-<br />
 
-<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> w ciągu całego udziału w _„Moich Patronach”_.
-<br />
+**UWAGA!** Dla małych dzieci można zamiennie odmówić nieco krótszy tzw. _„Skład Apostolski”_, czyli:
+> Wierzę w Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi.  
+> I w Jezusa Chrystusa, Syna Jego Jedynego, Pana naszego, który się począł z Ducha Świętego, narodził się z Maryi Panny, umęczon pod Ponckim Piłatem, ukrzyżowan, umarł i pogrzebion, zstąpił do piekieł, trzeciego dnia zmartwychwstał, wstąpił na niebiosa, siedzi po prawicy Boga, Ojca wszechmogącego, stamtąd przyjdzie sądzić żywych i umarłych.  
+> Wierzę w Ducha Świętego, święty Kościół powszechny, świętych obcowanie, grzechów odpuszczenie, ciała zmartwychwstanie, żywot wieczny.  
+> Amen.
+## Zadanie dodatkowe
+**Przeczytaj jakąkolwiek notkę** lub **obejrzyj film**:
+- o Trójcy Przenajświętszej,
+- i dodatkowo o każdej z **trzech Osób Boskich**:
+  - o Bogu Ojcu,
+  - o Jezusie Chrystusie,
+  - o Duchu Świętym.
+## Notatki
+Zanotuj sobie:
+- **datę** wykonanego zawierzenia i wyznania wiary (najlepiej z dniem tygodnia),
+- **datę** swojego urodzenia (najlepiej z dniem tygodnia),
+- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#bog-wiecej-notatek).
 
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#bog):</span>
-- **Datę** wykonania tego zadania (najlepiej z dniem tygodnia),
-- **Datę** Twojego urodzenia (najlepiej z dniem tygodnia).
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_oo_bog_j_sakramenty_ya_patroni_moich_imion.pdf).
+## Karty
+Na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards), po wykonaniu tego zadania, możesz wydrukować sobie cztery [karty](karty_kolekcjonerskie.md): z **Trójcą Przenajświętszą** (zbiorczo) oraz z **Bogiem Ojcem**, **Jezusem Chrystusem** i **Duchem Świętym** (każdy na osobnej karcie).
+
+Dodatkowo **uzyskujesz również prawo do piątej karty** symbolizującej Twoją osobę. Na początku zatem **jest Bóg i jesteś Ty!**
+<br />
+<br />
 <br />
 
 ---
-### <div class="colored centered">Teraz możesz już odkrywać święta, zapraszać patronów i zdobywać osiągnięcia!</div>
-
+# Udało się! Powierzyłeś **Bogu** siebie i swój udział!
+### Teraz możesz już odkrywać święta, zapraszać patronów i zdobywać osiągnięcia!
 ---
-<span class="status status-title">Szczegóły:</span>
-- Wykonanie tego zadania upoważnia Cię do posiadania [4 kart z Osobami Boskimi](karty_kolekcjonerskie.md): z Bogiem Ojcem, Synem Bożym (Jezusem), Duchem Świętym i (łącznie) Trójcą Przenajświętszą!
-- Dodatkowo uzyskujesz również [kartę](karty_kolekcjonerskie.md) symbolizującą Twoją osobę. Na początku zatem **jest Bóg i jesteś Ty!**
+
+## Dalsze wyzwania
+Teraz już możesz:
+- [zapraszać patronów](jak_zapraszac_patronow.md),
+- [odkrywać święta](jak_odkrywac_swieta.md),
+- [zdobywać osiągnięcia](jak_zdobywac_osiagniecia.md).
+
+Zawsze możesz również [uczestniczyć w nabożeństwach](jak_uczestniczyc_w_nabozenstwach.md).
+
+## <span id="bog-wiecej-informacji">Więcej informacji</span>
 - W dniu wykonania tego zadania warto postarać się o wykreowanie pewnych wyjątkowych okoliczności (np. ładny ubiór, wyjście w ciekawe miejsce, odświętny posiłek), które będą sprzyjać świętowaniu tego wydarzenia.
-
-<span class="status status-title">Co możesz zanotować dodatkowo:</span>
-- Informacja o **miejscu wykonania zadania**, np. **C2** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
-- Informacja o **miejscu urodzenia**, np. **C1** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
+## <span id="bog-wiecej-notatek">Więcej notatek</span>
+Jeśli chcesz, możesz zanotować także:
+- Informację o **miejscu wykonania zadania**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C2**,
+- Informację o **miejscu urodzenia**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C1**,
+- Zaznaczenie czy **przeczytano notatkę** lub **obejrzano film** o Trójcy i każdej Osobie Boskiej osobno - postaw dowolny znaczek (np. „✅”).
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---

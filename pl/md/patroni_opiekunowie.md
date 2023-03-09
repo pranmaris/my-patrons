@@ -45,7 +45,7 @@ lub samodzielne zadanie
 </ul>
 <br />
 
-Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#więcej-informacji).
+Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#patroni-opiekunowie-wiecej-informacji).
 
 ## Modlitwa
 - Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiona Sancjo Szymkowiak”, „Święty Antoni z Padwy”, „Święci Aniołowie Stróżowie”):
@@ -64,7 +64,7 @@ Zanotuj sobie:
 - **datę** zaproszenia patrona (najlepiej z dniem tygodnia),
 - **nazwę** patrona,
 - **rok śmierci** patrona (by potem uniknąć wątpliwości o którego chodzi),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#więcej-notatek).
+- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#patroni-opiekunowie-wiecej-notatek).
 
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_t_patroni_opiekunowie.pdf).
 ## Status
@@ -75,7 +75,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 |<span class="status status-blue">niebieski</span>|→|<span class="status status-green">zielony</span>|
 |<span class="status status-violet">fioletowy</span>|→|<span class="status status-indigo">indygo</span>|
 ## Karty
-Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możesz ją wydrukować na stronie [naszego projektu **Patrons Space**](https://pl.patrons.space/cards).
+Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możesz ją wydrukować na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards).
 <br />
 <br />
 <br />
@@ -91,24 +91,24 @@ Teraz już możesz dla zaproszonego **Patrona Opiekuna** sprostać wyzwaniom:
 - [<span class="status status-list"><span class="status status-list">O</span> Cytaty</span>](cytaty.md)
 - [<span class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie_z_patronem.md)
 - [<span class="status status-list"><span class="status status-list">W</span> Rysunek Patrona</span>](rysunek_patrona.md)
-## Więcej informacji
+## <span id="patroni-opiekunowie-wiecej-informacji">Więcej informacji</span>
 - Wybranymi patronami muszą być zatwierdzeni święci lub błogosławieni Kościoła Rzymskokatolickiego.
 - Tylko nieznanych z imienia patronów możemy zaprosić zbiorczo, np. Świętych Młodzianków, nieznanych z imienia (innych niż np. św. Eksuperiusz, czy św. Kandyd) towarzyszy św. Maurycego, itp.
 - Za wizerunki patronów uważamy te z miejsc sakralnych lub (nawet artystycznie) nawiązujące do nich, np. Święty Mikołaj był biskupem, a nie brodatym starcem w biało-czerwonej czapce.
 - Za **udział w Mszy** rozumiemy naszą **fizyczną obecność na terenie jej odprawienia**. Może to być także pobyt poza budynkiem kościoła, w odrębnej salce czy innym budynku na terenie przykościelnym z transmisją Mszy „na żywo” (audio lub video). Gdyby Msza odbyła się w kaplicy szpitala, wszyscy jego pacjenci mający taką łączność z tym miejscem, mogą w niej uczestniczyć.
 - W Wielki Piątek wystarczy uczestnictwo w Liturgii Męki Pańskiej, gdyż w tym dniu nie odprawia się Mszy św.
 - Do czytania o patronach polecamy skorzystanie z takich stron jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), Wikipedia: ([strona](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ci_i_b%C5%82ogos%C5%82awieni_Ko%C5%9Bcio%C5%82a_katolickiego) lub [kategoria](https://pl.wikipedia.org/wiki/Kategoria:%C5%9Awi%C4%99ci_katoliccy)) lub jakąkolwiek książkę papierową czy e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
-## Więcej notatek
+## <span id="patroni-opiekunowie-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotować także:
 - Informację czy patron jest **święty** czy **błogosławiony**.
 - Spełnione kryterium zaproszenia: **A+B**, **A+C**, **B+C** lub **H#** (gdzie # to numer powiązanego wyzwania z listy [<span class="status status-list"><span class="status status-list">H</span> Relikwie i groby</span>](relikwie_i_groby.md), np. **H21**).
 - Jeśli powyżej użyto kryterium **C** (Msza św), możesz zanotować także:
     - **godzinę rozpoczęcia Mszy św**,
-    - **miejsce Mszy św.** - słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
-    - **kapłanów odprawiających Mszę św.** - słownie albo na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M13+M2+M?,** gdy Mszę koncelebrowały osoby o numerach: 13 (celebransa wpisuj na początku) i 2 oraz jeden kapłan nieznany lub spoza naszej tej listy.
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+    - **miejsce Mszy św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
+    - **kapłanów odprawiających Mszę św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M13+M2+M?,** gdy Mszę koncelebrowały osoby o numerach: 13 (celebransa wpisuj na początku) i 2 oraz jeden kapłan nieznany lub spoza naszej tej listy.
 - Zaznaczenie czy **przeczytano żywot** patrona lub **obejrzano film** o nim - postaw dowolny znaczek (np. „✅”).
 - Zaznaczenie czy **odmówiono modlitwę** do niego - postaw dowolny znaczek (np. „✅”).
+- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 
