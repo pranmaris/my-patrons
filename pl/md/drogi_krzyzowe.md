@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-list">W</span> Rysunek Patrona</span>
+# <span class="status status-list"><span class="status status-list">VB</span>  Drogi Krzyżowe</span>
 <br />
 
 <span class="status status-title">Wymagany status patrona:</span> już wkrótce ...

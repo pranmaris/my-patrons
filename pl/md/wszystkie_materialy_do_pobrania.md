@@ -13,7 +13,7 @@
 
 - [<span id="oltarze" class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md): [wersja pełna](../../pl/pdf/lista_v1_e_oltarze.pdf),
 
-- [<span id="adoracje-u-patrona" class="status status-list"><span class="status status-list">F</span> Adoracje u Patrona</span>](adoracje_u_patrona.md): [wersja pełna](../../pl/pdf/lista_v1_f_adoracje_u_patrona.pdf),
+- [<span id="adoracje" class="status status-list"><span class="status status-list">F</span> Adoracje</span>](adoracje.md): [wersja pełna](../../pl/pdf/lista_v1_f_adoracje.pdf),
 
 - [<span id="odpusty-parafialne" class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span>](odpusty_parafialne.md): [wersja pełna](../../pl/pdf/lista_v1_g_odpusty_parafialne.pdf),
 

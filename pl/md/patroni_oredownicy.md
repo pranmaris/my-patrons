@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>
+# <span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>
 <br />
 
 <span class="status status-title">Wymagany status patrona:</span> Jeden z poniższych:

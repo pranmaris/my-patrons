@@ -1,10 +1,10 @@
-# <span class="status status-list"><span class="status status-list">F</span> Adoracje u Patrona</span>
+# <span class="status status-list"><span class="status status-list">F</span> Adoracje</span>
 <br />
 
 <span class="status status-title">Wymagany status patrona lub święta:</span> <span class="status status-green">zielony</span>, <span class="status status-blue">niebieski</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span> albo <span class="status status-white">biały</span>.
 <br />
 
-<span class="status status-title">Limity:</span> Można wpisać **jedną adorację u Patrona** dziennie.
+<span class="status status-title">Limity:</span> Można wpisać **jedną adorację** dziennie.
 <br />
 
 <span class="status status-title">Opis zadania:</span> Zadanie polega na co najmniej godzinnej **adoracji Najświętszego Sakramentu** (może być podzielona na minimum 15-minutowe części) w kościele lub na ołtarzu, będącego pod wezwaniem **odkrytego święta** lub **zaproszonego patrona - obrońcy**.
@@ -25,8 +25,8 @@
 <span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> dla danej **świątyni** lub **ołtarza** (kaplicy) w powiązaniu z konkretnym **patronem - obrońcą** lub **świętem**.
 <br />
 
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#adoracje-u-patrona):</span>
-- **Kolejny numer** adoracji u Patrona (F1, F2, ...),
+<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#adoracje):</span>
+- **Kolejny numer** adoracji (F1, F2, ...),
 - Odnośnik do listy [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md) lub [<span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md) z **miejscem, w którym odbyła się adoracja**, np. **D2** lub **E14**,
 - **Święto lub patron tytularny kościoła lub ołtarza** z podkreśloną nazwą powiązanego patrona lub święta,
 - **Datę nawiedzenia** ołtarza (najlepiej z dniem tygodnia).

@@ -1,19 +1,22 @@
 # <span class="status status-list"><span class="status status-black">∞</span> Bóg</span>
 ---
 ## Cel
-**Powierzyć Bogu** całą Twoją **przygodę z inicjatywą _„Moich Patronów”_**, która właśnie się rozpoczyna.
+**Powierzyć Bogu** cały Twój **udział w inicjatywie _„Moich Patronów”_**, który właśnie się rozpoczyna.
 ## Wybór
-Wybierz <span class="selected-day-info">dzień</span>, w którym chcesz wykonać wyzwanie i zacząć tę wspaniałą przygodę!
+Wybierz <span class="selected-day-info">dzień</span>, w którym chcesz wykonać to Boże wyzwanie.
 ## Limit
 Wykonujemy to **tylko jeden raz**! Na samym początku.
 ## Zadanie główne
-<span class="selected-day-info">W wybranym dniu</span> **znajdź miejsce**, w którym się skupisz i **w myślach lub na głos**, bez pośpiechu spróbuj własnymi słowami wykonać poniższe kroki:
+W <span class="selected-day-info">wybranym dniu</span> **znajdź miejsce**, w którym się skupisz i **w myślach lub na głos**, bez pośpiechu spróbuj własnymi słowami wykonać poniższe kroki:
 - **zawierz Bogu** cały Twój udział w inicjatywie _„Moich Patronów”_,
 - **poproś Go**, aby dał Ci siły, radość, umiejętności i zapał do wykonywania wszystkich wyzwań,
 - **ofiaruj Mu** swoje serce, aby mógł je przemieniać i działać w Twojej duszy, a także w innych uczestnikach dzięki Twojej osobie,
 - **wyznaj Mu** Twoją wiarę, ufność i miłość do Niego!
+
+Możesz to zrobić po swojemu. Ważne by się na chwilę zatrzymać, spokojnie porozmawiać z Bogiem i by było od serca!
+
 ## Modlitwa
-<span class="selected-day-info">W wybranym dniu</span>, odmów _„Credo”_, czyli:
+W <span class="selected-day-info">wybranym dniu</span>, odmów _„Credo”_, czyli:
 > Wierzę w jednego Boga, Ojca Wszechmogącego, Stworzyciela nieba i ziemi, wszystkich rzeczy widzialnych i niewidzialnych.  
 > I w jednego Pana Jezusa Chrystusa, Syna Bożego Jednorodzonego, który z Ojca jest zrodzony przed wszystkimi wiekami. Bóg z Boga, Światłość ze Światłości, Bóg prawdziwy z Boga prawdziwego. Zrodzony, a nie stworzony, współistotny Ojcu, a przez Niego wszystko się stało. On to dla nas ludzi i dla naszego zbawienia zstąpił z nieba. I za sprawą Ducha Świętego przyjął ciało z Maryi Dziewicy i stał się człowiekiem. Ukrzyżowany również za nas pod Poncjuszem Piłatem został umęczony i pogrzebany. I zmartwychwstał trzeciego dnia, jak oznajmia Pismo. I wstąpił do nieba; siedzi po prawicy Ojca. I powtórnie przyjdzie w chwale sądzić żywych i umarłych, a królestwu Jego nie będzie końca.  
 > Wierzę w Ducha Świętego, Pana i Ożywiciela, który od Ojca i Syna pochodzi. Który z Ojcem i Synem wspólnie odbiera uwielbienie i chwałę; który mówił przez Proroków. Wierzę w jeden, święty, powszechny i apostolski Kościół. Wyznaję jeden chrzest na odpuszczenie grzechów. I oczekuję wskrzeszenia umarłych i życia wiecznego w przyszłym świecie.  

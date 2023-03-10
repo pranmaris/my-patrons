@@ -1,7 +1,7 @@
 # <span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span>
 ---
 ## Cel
-<span class="selected-day-info">W wybranym dniu</span> **zaprosić patrona** do grona Twoich **opiekunów**.
+W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do grona Twoich **opiekunów**.
 ## Wymaganie
 Wykonanie zadania [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md) musisz mieć już za sobą!
 ## Wybór
@@ -9,7 +9,7 @@ Wybierz patrona, który **nie jest jeszcze Twoim opiekunem**, czyli ma status w 
 ## Limit
 Maksymalnie jeden nowy **Patron Opiekun** dziennie!
 ## Zadanie główne
-<span class="selected-day-info">W wybranym dniu</span> wykonaj którąkolwiek parę zadań jednocześnie:
+W <span class="selected-day-info">wybranym dniu</span> wykonaj którąkolwiek parę zadań jednocześnie:
 <span class="status status-title"><span class="status status-title">A</span>+<span class="status status-title">B</span></span>
 lub 
 <span class="status status-title"><span class="status status-title">A</span>+<span class="status status-title">C</span></span>
@@ -40,7 +40,7 @@ lub samodzielne zadanie
   <li class="list-group-item">
     <span class="status status-title">H</span> Miej bezpośrednio w zasięgu wzroku <strong>grób</strong> (nie musi być aktualny), <strong>relikwiarz</strong> lub <strong>relikwie</strong> patrona.
     <br />
-    <strong>UWAGA!</strong> W tej sytuacji <span class="selected-day-info">w wybranym dniu</span> <strong>musisz</strong> również sprostać pierwszemu wyzwaniu <a href="relikwie_i_groby.md"><span class="status status-list"><span class="status status-list">H</span> Relikwie i Groby</span></a> dla tego patrona!
+    <strong>UWAGA!</strong> W tej sytuacji w <span class="selected-day-info">wybranym dniu</span> <strong>musisz</strong> również sprostać pierwszemu wyzwaniu <a href="relikwie_i_groby.md"><span class="status status-list"><span class="status status-list">H</span> Relikwie i Groby</span></a> dla tego patrona!
   </li>
 </ul>
 <br />
@@ -82,7 +82,7 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
 
 ---
 # Udało się! Zaprosiłeś **Patrona Opiekuna**!
-### Odnajduj i zapraszaj nowych Patronów! Każdy ma dla Ciebie ciekawe wyzwania!
+### Daj mu się poprowadzić z rękę, szukaj natchnień i ciekawych wyzwań, jakie dla Ciebie ma!
 ---
 
 ## Dalsze wyzwania
@@ -90,7 +90,8 @@ Teraz już możesz dla zaproszonego **Patrona Opiekuna** sprostać wyzwaniom:
 - [<span class="status status-list"><span class="status status-list">H</span> Relikwie i Groby</span>](relikwie_i_groby.md)
 - [<span class="status status-list"><span class="status status-list">O</span> Cytaty</span>](cytaty.md)
 - [<span class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie_z_patronem.md)
-- [<span class="status status-list"><span class="status status-list">W</span> Rysunek Patrona</span>](rysunek_patrona.md)
+- [<span class="status status-list"><span class="status status-list">W</span> Rysunki Patronów</span>](rysunki_patronow.md)
+- [<span class="status status-list"><span class="status status-list">VA</span> Miejsca Świeckie</span>](miejsca_swieckie.md)
 ## <span id="patroni-opiekunowie-wiecej-informacji">Więcej informacji</span>
 - Wybranymi patronami muszą być zatwierdzeni święci lub błogosławieni Kościoła Rzymskokatolickiego.
 - Tylko nieznanych z imienia patronów możemy zaprosić zbiorczo, np. Świętych Młodzianków, nieznanych z imienia (innych niż np. św. Eksuperiusz, czy św. Kandyd) towarzyszy św. Maurycego, itp.
@@ -103,11 +104,11 @@ Jeśli chcesz, możesz zanotować także:
 - Informację czy patron jest **święty** czy **błogosławiony**.
 - Spełnione kryterium zaproszenia: **A+B**, **A+C**, **B+C** lub **H#** (gdzie # to numer powiązanego wyzwania z listy [<span class="status status-list"><span class="status status-list">H</span> Relikwie i groby</span>](relikwie_i_groby.md), np. **H21**).
 - Jeśli powyżej użyto kryterium **C** (Msza św), możesz zanotować także:
-    - **godzinę rozpoczęcia Mszy św**,
+    - **godzinę rozpoczęcia Mszy św.**,
     - **miejsce Mszy św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
-    - **kapłanów odprawiających Mszę św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M13+M2+M?,** gdy Mszę koncelebrowały osoby o numerach: 13 (celebransa wpisuj na początku) i 2 oraz jeden kapłan nieznany lub spoza naszej tej listy.
-- Zaznaczenie czy **przeczytano żywot** patrona lub **obejrzano film** o nim - postaw dowolny znaczek (np. „✅”).
+    - **kapłanów odprawiających Mszę św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M13+M2+M?,** gdy Mszę koncelebrowały osoby o numerach: M13 (celebransa wpisuj na początku) i M2 oraz jeden kapłan nieznany lub spoza naszej tej listy.
 - Zaznaczenie czy **odmówiono modlitwę** do niego - postaw dowolny znaczek (np. „✅”).
+- Zaznaczenie czy **przeczytano żywot** patrona lub **obejrzano film** o nim - postaw dowolny znaczek (np. „✅”).
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
