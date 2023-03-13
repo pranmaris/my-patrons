@@ -48,7 +48,7 @@ lub samodzielne zadanie
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#patroni-opiekunowie-wiecej-informacji).
 
 ## Modlitwa
-- Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiona Sancjo Szymkowiak”, „Święty Antoni z Padwy”, „Święci Aniołowie Stróżowie”):
+Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiona Sancjo Szymkowiak”, „Święty Antoni z Padwy”, „Święci Aniołowie Stróżowie”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > zapraszam Ciebie/Was do grona moich Patronów Opiekunów,  
 > proszę o opiekę i prowadzenie  

@@ -10,9 +10,9 @@ Wybierz patrona, który **nie jest jeszcze Twoim obrońcą**, czyli ma status w 
 Wybrany **patron musi spełniać także** choć jedno poniższe kryterium:
 - patron jest wpisany dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Watykan, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku),
 - patron zmarł w <span class="selected-day-info">wybranym dniu</span> roku, który jest znany i jednoznaczny - rok śmierci nie musi być pewny,
-- w <span class="selected-day-info">wybranym dniu</span> tego roku odbyła się **kanonizacja** lub **beatyfikacja** patrona,
+- w <span class="selected-day-info">wybranym dniu</span> tego roku odbędzie się **kanonizacja** lub **beatyfikacja** patrona,
 - patron **został ogłoszony na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**,
-- w <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczyła wybranego przez nas patrona** (tytularnego).
+- w <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez nas patrona** (tytularnego tego miejsca).
 
 Poniższa [strona](https://pl.patrons.space/dates/my-patrons) już niedługo powinna Ci pomóc w wyborze **patrona na <span class="selected-day-info">ten dzień</span>**! Stale pracujemy nad tym, aby znaleźli się na niej wszyscy patroni spełniający trzy początkowe kryteria powyższej listy.
 <iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/my-patrons?content-only=1"></iframe>
@@ -30,7 +30,7 @@ W <span class="selected-day-info">wybranym dniu</span>:
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#patroni-obroncy-wiecej-informacji).
 ## Modlitwa
-- Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno”, „Nieznani Towarzysze św. Maurycego”):
+Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno”, „Nieznani Towarzysze św. Maurycego”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > zapraszam Ciebie/Was do grona moich Patronów Obrońców,  
 > proszę o obronę i umocnienie  
@@ -71,6 +71,7 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
 ### Jego obecność oparta na przyjmowanych Sakramentach chronić Cię będzie niczym tarcza!
 ---
 
+## Dalsze wyzwania
 Teraz już możesz dla zaproszonego **Patrona Opiekuna** sprostać wyzwaniom:
 - [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md)
 - [<span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md)
