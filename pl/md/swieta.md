@@ -1,20 +1,26 @@
 # <span class="status status-list"><span class="status status-white">B</span> Święta</span>
-<br />
+---
+## Cel
+W <span class="selected-day-info">wybranym dniu</span> **odkryć nowe święto**.
+## Wymaganie
+Wykonanie zadania [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md) musisz mieć już za sobą!
+## Wybór
+Wybierz święto, którego jeszcze **nie odkryłeś**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>.
 
-<span class="status status-title">Wymagany status święta:</span> <span class="status status-black">czarny</span> - po wykonaniu zadania zmieni się na <span class="status status-white">biały</span>.
-<br />
+Wybrane **święto musi spełniać także** choć jedno poniższe kryterium:
+- święto jest wpisane dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Watykan, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku),
+- święto **zostało ogłoszone na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**,
+- w <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez nas święta** (tytularnego tego miejsca).
 
-<span class="status status-title">Limity:</span> Brak.
-<br />
+Poniższa [strona](https://pl.patrons.space/dates/my-patrons) już niedługo powinna Ci pomóc w wyborze **święta na <span class="selected-day-info">ten dzień</span>**! Znajdziesz je w nawiasie po nazwie patrona, którego dotyczą. Stale pracujemy nad tym, aby znalazły się na niej wszystkie święta spełniające pierwsze kryterium powyższej listy.
+<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/my-patrons?content-only=1"></iframe>
 
-<span class="status status-title">Opis zadania:</span> Odkrywamy wybrane święto Kościoła Rzymskokatolickiego.
-<br />
+## Zadanie główne
+W <span class="selected-day-info">wybranym dniu</span> zaproś jednego dowolnego **Patrona Obrońcę**. Nie musi on być związany z odkrywanym świętem.
 
-<span class="status status-title">Kroki:</span>
-- Wybierz **święto**, które chcesz w tym dniu odkryć (zobacz [jak wybrać święto na dany dzień roku](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md#swieta-na-dzis)),
-- **W tym dniu** zaproś dowolnego **patrona - obrońcę**. Wszystkich patronów których dotyczy wybrane święto, musisz mieć na liście [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) albo **w tym dniu** zaprosić brakującego (maksymalnie jednego) na Twojego **patrona - obrońcę**,
-- Przeczytaj jakąkolwiek notkę o wybranym święcie, opisującą jego znaczenie i historię,
-- Odmów następującą modlitwę dla wybranych świąt:
+**UWAGA!** Aby odkrycie święta było możliwe, **wszyscy patroni**, których dotyczy wybrane święto, **muszą najpóźniej** <span class="selected-day-info">tego dnia</span> stać się Twoimi **Patronami Obrońcami**! Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#swieta-wiecej-informacji).
+## Modlitwa
+Odmów następującą modlitwę dla **każdego odkrywanego** w <span class="selected-day-info">wybranym dniu</span> święta:
 > Dziękuję Ci, Jezu,  
 > za ustanowienie święta _**[nazwa święta]**_,  
 > proszę o Twoją pomoc  
@@ -22,37 +28,54 @@
 > oraz w czerpaniu wielkiej radości, mądrości i duchowego pożytku,  
 > z uczestniczenia w nim dzięki Kościołowi Świętemu.  
 > Amen.
+## Zadanie dodatkowe
+**Przeczytaj jakąkolwiek notkę** o odkrywanych świętach lub **obejrzyj o nich film**, aby lepiej poznać ich znaczenie i historię.
+Zanotuj sobie:
+- kolejny **numer** święta, np. B1, B2, B3, ...,
+- **datę** odkrycia święta (najlepiej z dniem tygodnia),
+- **nazwę** święta,
+- numer **patrona**, którego dotyczy odkryte święto - na liście [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A18**,
+- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#swieta-wiecej-notatek).
+
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_b_swieta.pdf).
+## Status
+| Poprzedni status odkrytego święta | zmienił się na | nowy status |
+|---:|:---:|:---|
+|<span class="status status-black">czarny</span>|→|<span class="status status-white">biały</span>|
 
 <br />
-
-<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> dla danego święta.
 <br />
-
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#swieta):</span>
-- **Kolejny numer** wybranego święta (B1, B2, ...),
-- **Numer patrona - obrońcy**, którego dotyczy wybrane święto, np. **A17**. Jeśli święto nie dotyczy żadnego konkretnego patrona, pomiń tę informację,
-- **Datę odkrycia** święta (najlepiej z dniem tygodnia),
-- **Nazwę** wybranego święta.
 <br />
 
 ---
+# Udało się! Odkryłeś nowe **Święto**!
 ### <div class="colored centered">Celebruj i poznawaj święta Kościoła!</div>
-
 ---
-<span class="status status-title">Szczegóły:</span>
-- Święta dotyczące **Boga** (w ogólności) odnoszą się zawsze do **Trójcy Przenajświętszej**, np. _„Niedziela Miłosierdzia Bożego”_,
-- Odkrycie święta dotyczącego **wielu patronów** wymaga, aby każdy z nich był naszym **patronem - obrońcą**, np. _„Niedziela Świętej Rodziny”_ dotyczy Jezusa, Maryi i św. Józefa,
-- Jeżeli święto **nie odnosi się wprost** do żadnego patrona (np. „Pierwsza Niedziela Adwentu”, czy „Środa Popielcowa”), musimy spojrzeć na nie szerzej by dostrzec, że święta te są częścią Adwentu lub Wielkiego Postu, okresów związanych z **Jezusem Chrystusem**, którego powinniśmy do tych świąt przypisać,
-- Może się zdarzyć, że odkrycie jednego święta może pociągnąć za sobą odkrycie innego, np. „Poświęcenie Bazyliki św. Jana na Lateranie” (9 listopada) dotyczy i wymaga, aby wszyscy jej patroni (czyli Najświętszy Zbawiciel, św. Jan Chrzciciel i św. Jan Ewangelista) byli Osobą Boską lub naszymi **patronami - obrońcami**. W tym przypadku tytuł Jezusa „Najświętszy Zbawiciel” może zostać dopisany jako nowe święto, jeśli nie było ono wcześniej przez nas odkryte,
-- Do czytania o świętach polecamy skorzystanie z takich stron, jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), [Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_katolickie_w_Polsce) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
 
-<span class="status status-title">Co możesz zanotować dodatkowo:</span>
-- **Numer patrona**, który został zaproszony jako **patron - obrońca** w tym dniu, np. „**MSZA:A26**”,
-- Informacja, na podstawie jakiego **źródła** wybraliśmy święto w tym dniu roku. Mogą to być poniższe skróty:
-  - **NMR** - Martyrologium Rzymskie z 2004 roku, np. **NMR:7** oznacza siódmy wpis na ten dzień roku, **NMR:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
-  - **SMR** - Martyrologium Rzymskie z 1956 roku, np. **SMR:7** i **SMR:R12** - j.w.,
-  - **KAL** - kalendarz liturgiczny, gdy święto było jawnie wspomniane na mszy, w której uczestniczyliśmy,
+## Dalsze wyzwania
+Teraz już możesz dla odkrytego **Święta** sprostać wyzwaniom:
+- [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md)
+- [<span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md)
+- [<span class="status status-list"><span class="status status-list">F</span> Adoracje</span>](adoracje.md)
+- [<span class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span>](odpusty_parafialne.md)
+- [<span class="status status-list"><span class="status status-list">K</span> Rocznice Poświęcenia Kościołów</span>](rocznice_poswiecenia_kosciolow.md)
+- [<span class="status status-list"><span class="status status-list">VB</span> Drogi Krzyżowe</span>](drogi_krzyzowe.md)
+## <span id="swieta-wiecej-informacji">Więcej informacji</span>
+- Święta dotyczące **Boga** (w ogólności) odnoszą się zawsze do **Trójcy Przenajświętszej**, np. _„Niedziela Miłosierdzia Bożego”_,
+- Odkrycie święta dotyczącego **wielu patronów** wymaga, aby każdy z nich był naszym **Patronem Obrońcą**, np. _„Niedziela Świętej Rodziny”_ dotyczy Jezusa, Maryi i św. Józefa i dla każdego z nich powinno być ono wpisane na liście świąt oddzielnie,
+- Jeżeli święto **nie odnosi się wprost** do żadnego patrona (np. _„Pierwsza Niedziela Adwentu”_, czy _„Środa Popielcowa”_), musimy spojrzeć na nie szerzej by dostrzec, że święta te są częścią Adwentu lub Wielkiego Postu, okresów związanych z **Jezusem Chrystusem**, którego powinniśmy do tych świąt przypisać,
+- **Święta odnosimy zawsze do patronów, nigdy do innych świąt!** Przykładowo _„Poświęcenie Bazyliki św. Jana na Lateranie”_ (9 listopada) wymaga, aby wszyscy jej patroni tytularni (czyli Najświętszy Zbawiciel, św. Jan Chrzciciel i św. Jan Ewangelista) byli Osobą Boską lub naszym **Patronem Obrońcą**. Pomimo, że _„Najświętszy Zbawiciel”_ kwalifikuje się tu bardziej jako święto lub tytuł Jezusa, przypisujemy zwyczajnie numer Jego osoby, czyli „**II**”. Analogicznie _„Poświęcenie Bazyliki Matki Bożej Większej”_ (5 sierpnia) dotyczy Maryi z Nazaretu jako osoby, a nie tego Jej tytułu.
+- Do czytania o świętach polecamy skorzystanie z takich stron, jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), [Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_katolickie_w_Polsce) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
+## <span id="swieta-wiecej-notatek">Więcej notatek</span>
+Jeśli chcesz, możesz zanotowac także:
+- **Numer patrona**, który został zaproszony jako **Patron Obrońca** w tym dniu, np. **A26**.
+- Informację, na podstawie jakiego **kryterium** wybraliśmy święto w tym dniu roku. Mogą to być poniższe skróty:
+  - **MRxxxx** - Martyrologium Rzymskie (xxxx to rok wydania), np. dla 2004 roku może to być **MR2004:7**, co oznacza siódmy wpis na <span class="selected-day-info">ten dzień</span> roku, **MR2004:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
+  - **KAL** - kalendarz liturgiczny, gdy święto było na jego podstawie jawnie wspomniane na Mszy, w której uczestniczyliśmy,
   - **ODP** - suma odpustu parafialnego wybranego święta.
+- Zaznaczenie czy **odmówiono modlitwę** związaną ze świętem - postaw dowolny znaczek (np. „✅”).
+- Zaznaczenie czy **przeczytano notkę** lub **obejrzano film** o święcie - postaw dowolny znaczek (np. „✅”).
+- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do odkrywania świąt](jak_odkrywac_swieta.md)  

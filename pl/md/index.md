@@ -28,7 +28,7 @@
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">L</span> Szkaplerze</span></span> - wersja robocza ...](szkaplerze.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">Q</span> Nowenny</span></span></span> - wersja robocza ...](nowenny.md)
 - [Jak odkrywać święta? - wersja robocza ...](jak_odkrywac_swieta.md)
-- [<span><span class="status status-list"><span class="status status-white">B</span> Święta</span></span> - wersja robocza ...](swieta.md)
+- [<span><span class="status status-list"><span class="status status-white">B</span> Święta</span></span>](swieta.md)
 - [Jak wybrać patrona lub święto na dany dzień roku? - wersja robocza ...](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md)
 - [<span><span class="status status-list"><span class="status status-list">J</span> Sakramenty</span></span> - wersja robocza ...](sakramenty.md)
 - [<span><span class="status status-list"><span class="status status-list">C</span> Miejsca</span></span> - wersja robocza ...](miejsca.md)

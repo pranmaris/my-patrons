@@ -92,7 +92,7 @@ Jeśli chcesz, możesz zanotowac także:
   - **godzinę rozpoczęcia Mszy św.**,
   - **miejsce Mszy św.** - słownie lub na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
   - **kapłanów odprawiających Mszę św.** - słownie lub na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M13+M2+M?**, gdy mszę koncelebrowały osoby o numerach M13 (celebransa wpisuj na początku) i M2 oraz jeden kapłan nieznany lub spoza naszej listy.
-- Informację, na podstawie jakiego **źródła** wybraliśmy patrona w tym dniu roku. Mogą to być poniższe skróty:
+- Informację, na podstawie jakiego **kryterium** wybraliśmy patrona w tym dniu roku. Mogą to być poniższe skróty:
   - **MRxxxx** - Martyrologium Rzymskie (xxxx to rok wydania), np. dla 2004 roku może to być **MR2004:7**, co oznacza siódmy wpis na <span class="selected-day-info">ten dzień</span> roku, **MR2004:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
   - **DSM** - dzień roku, w którym zmarł wybrany patron,
   - **BEA** - dzień beatyfikacji patrona (tylko w roku, w którym się odbyła),
