@@ -5,7 +5,7 @@ W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do 
 ## Wymaganie
 Wykonanie zadania [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md) Ty i **wybrana osoba** musicie mieć już za sobą!
 ## Wybór
-1. Wybierz **osobę**, z którą wspólnie chcielibyście zaprosić **patronów orędowników** i z którą **nie zapraszaliście jeszcze razem w tym miesiącu kalendarzowym**.
+1. Wybierz **osobę**, z którą wspólnie chcielibyście zaprosić **patronów orędowników** i z którą **nie zapraszaliście jeszcze razem w tym miesiącu kalendarzowym**!
 1. Wybierz **patrona**, który **nie jest jeszcze Twoim orędownikiem**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>, <span class="status status-yellow">zółtym</span>, <span class="status status-green">zielonym</span> albo <span class="status status-blue">niebieskim</span> i **druga osoba umożliwia Tobie jego zaproszenie** poprzez choć jedno z kryteriów:
     - jest on **Białym Patronem** tej osoby (patrz jej lista [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md)),
     - jest on **patronem imienia tej osoby**: z Chrztu św. (pierwsze, drugie), Bierzmowania lub przyjętych imion zakonnych (patrz jej lista [<span class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span>](osiagniecie_patroni_moich_imion.md)),
