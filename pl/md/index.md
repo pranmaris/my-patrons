@@ -4,7 +4,7 @@
 - [Podstawowe zasady](podstawowe_zasady.md)
 - [Jak zacząć?](jak_zaczac.md)
 - [<span><span class="status status-list"><span class="status status-black">∞</span> Bóg</span></span>](bog.md)
-- [Jak zapraszać patronów? - wersja robocza ...](jak_zapraszac_patronow.md)
+- [Jak zapraszać patronów?](jak_zapraszac_patronow.md)
 - [<span><span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span></span>](patroni_opiekunowie.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">H</span> Relikwie i Groby</span></span> - wersja robocza ...](relikwie_i_groby.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">O</span> Cytaty</span></span> - wersja robocza ...](cytaty.md)

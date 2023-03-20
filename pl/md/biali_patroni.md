@@ -88,5 +88,5 @@ Jeśli chcesz, możesz zanotowac także:
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
-[Powrót do zapraszania patronów](jak_zapraszac_patronow.md)  
+[Powrót do zapraszania patronów](jak_zapraszac_patronow.md#jak-zapraszac-patronow-bialy-patron)  
 [Powrót do głównego menu](index.md)

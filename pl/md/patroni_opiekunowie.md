@@ -113,5 +113,5 @@ Jeśli chcesz, możesz zanotować także:
 
 ---
 
-[Powrót do zapraszania patronów](jak_zapraszac_patronow.md)  
+[Powrót do zapraszania patronów](jak_zapraszac_patronow.md#jak-zapraszac-patronow-patron-opiekun)  
 [Powrót do głównego menu](index.md)

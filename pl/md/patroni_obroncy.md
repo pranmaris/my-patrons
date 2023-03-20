@@ -105,5 +105,5 @@ Jeśli chcesz, możesz zanotowac także:
 
 ---
 
-[Powrót do zapraszania patronów](jak_zapraszac_patronow.md)  
+[Powrót do zapraszania patronów](jak_zapraszac_patronow.md#jak-zapraszac-patronow-patron-obronca)  
 [Powrót do głównego menu](index.md)

@@ -118,5 +118,5 @@ Teraz już możesz dla zaproszonego **Patrona Orędownika** sprostać wyzwaniom:
 
 ---
 
-[Powrót do zapraszania patronów](jak_zapraszac_patronow.md)  
+[Powrót do zapraszania patronów](jak_zapraszac_patronow.md#jak-zapraszac-patronow-patron-oredownik)  
 [Powrót do głównego menu](index.md)
