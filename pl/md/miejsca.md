@@ -38,5 +38,5 @@
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
-[Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  
+[Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-inne)  
 [Powrót do głównego menu](index.md)

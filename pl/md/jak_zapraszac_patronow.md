@@ -39,4 +39,6 @@ Kolejność przechodzenie etapów powodować będzie następujące zmiany kolor�
 ---
 ### <div class="colored centered">Patroni czekają, by móc mocniej działać w Twoim życiu!</div>
 
+---
+[Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-patroni)  
 [Powrót do głównego menu](index.md)

@@ -48,4 +48,6 @@ W inicjatywie _„Moich Patronów”_, przez święta rozumiemy wszelkie **wspom
 ---
 ### <div class="colored centered">Święta są doskonałą okazją by bliżej poznawać Boga i patronów!</div>
 
+---
+[Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-swieta)  
 [Powrót do głównego menu](index.md)

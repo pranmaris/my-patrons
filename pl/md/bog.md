@@ -60,8 +60,6 @@ Teraz już możesz:
 - [odkrywać święta](jak_odkrywac_swieta.md),
 - [zdobywać osiągnięcia](jak_zdobywac_osiagniecia.md).
 
-Zawsze możesz również [uczestniczyć w nabożeństwach](jak_uczestniczyc_w_nabozenstwach.md).
-
 ## <span id="bog-wiecej-informacji">Więcej informacji</span>
 - W dniu wykonania tego zadania warto postarać się o wykreowanie pewnych wyjątkowych okoliczności (np. ładny ubiór, wyjście w ciekawe miejsce, odświętny posiłek), które będą sprzyjać świętowaniu tego wydarzenia.
 ## <span id="bog-wiecej-notatek">Więcej notatek</span>
@@ -72,5 +70,5 @@ Jeśli chcesz, możesz zanotować także:
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
-[Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  
+[Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-bog)  
 [Powrót do głównego menu](index.md)

@@ -31,5 +31,5 @@
 <span class="status status-title">Co możesz zanotować dodatkowo:</span> Nic.
 
 ---
-[Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  
+[Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-inne)  
 [Powrót do głównego menu](index.md)

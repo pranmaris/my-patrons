@@ -26,4 +26,6 @@ Mamy poniższe osiągnięcia do wyboru:
 
 Lista powyższych osiągnięć nie jest zamknięta, dlatego chętnie rozważymy dodanie Twoich propozycji!
 
+---
+[Powrót do strony jak zaczać](jak_zaczac.md#jak-zaczac-osiagniecia)  
 [Powrót do głównego menu](index.md)

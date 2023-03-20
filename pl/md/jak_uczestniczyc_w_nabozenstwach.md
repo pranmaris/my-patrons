@@ -15,5 +15,5 @@ Poniższa lista przedstawia nabożeństwa, które mogą być dla nas takim wyzwa
 ### <div class="colored centered">Nabożeństwa są wspaniałą drogą do świętości!</div>
 
 ---
-[Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  
+[Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-nabozenstwa)  
 [Powrót do głównego menu](index.md)

@@ -1,8 +1,8 @@
 # Moi Patroni
-- [Ważne! - wersja robocza ...](wazne.md)
-- [Dekalog Uczestnika - wersja robocza ...](dekalog_uczestnika.md)
-- [Podstawowe zasady - wersja robocza ...](podstawowe_zasady.md)
-- [Jak zacząć? Czyli o otwartych listach - wersja robocza ...](jak_zaczac_czyli_o_otwartych_listach.md)
+- [Ważne!](wazne.md)
+- [Dekalog Uczestnika](dekalog_uczestnika.md)
+- [Podstawowe zasady](podstawowe_zasady.md)
+- [Jak zacząć?](jak_zaczac.md)
 - [<span><span class="status status-list"><span class="status status-black">∞</span> Bóg</span></span>](bog.md)
 - [Jak zapraszać patronów? - wersja robocza ...](jak_zapraszac_patronow.md)
 - [<span><span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span></span>](patroni_opiekunowie.md)
