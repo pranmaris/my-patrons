@@ -68,7 +68,7 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
 
 ---
 # Udało się! Zaprosiłeś **Patrona Obrońcę**!
-### Jego obecność oparta na przyjmowanych Sakramentach chronić Cię będzie niczym tarcza!
+### Jego obecność wparta przyjmowanymi Sakramentami chronić Cię będzie niczym tarcza!
 ---
 
 ## Dalsze wyzwania

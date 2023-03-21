@@ -1,7 +1,7 @@
 # Podstawowe zasady
 ---
 ## O inicjatywie
-- Udział w inicjatywie _„Moich Patronów”_  polega na wykonywaniu **zadań** i sporządzeniu notatek na odpowiednich **listach**, by nie zapomnieć co już osiągnęliśmy.
+- Udział w inicjatywie _„Moich Patronów”_  polega na wykonywaniu **wyzwań** i sporządzeniu notatek na odpowiednich **listach**, by nie zapomnieć co już osiągnęliśmy.
 - Zabawę może zacząć **każda osoba** w **dowolnym czasie**, bez konieczności informowania o tym kogokolwiek.
 - W każdym momencie można przerwać aktywny udział i później wrócić do działania, kiedy będziemy tego chcieć.
 ## O listach
@@ -36,5 +36,4 @@
 ### Zaczynamy!
 
 ---
-[Powrót do dekalogu Uczestnika](dekalog_uczestnika.md)  
 [Powrót do głównego menu](index.md)

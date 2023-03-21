@@ -9,4 +9,5 @@ Przepraszamy za utrudnienia i prosimy o modlitwę za nas, aby okres przejściowy
 ---
 ### Wielkie Bóg zapłać!
 
+---
 [Powrót do głównego menu](index.md)
