@@ -90,7 +90,7 @@ Teraz już możesz dla zaproszonego **Patrona Opiekuna** sprostać wyzwaniom:
 - [<span class="status status-list"><span class="status status-list">H</span> Relikwie i Groby</span>](relikwie_i_groby.md)
 - [<span class="status status-list"><span class="status status-list">O</span> Cytaty</span>](cytaty.md)
 - [<span class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span>](selfie_z_patronem.md)
-- [<span class="status status-list"><span class="status status-list">W</span> Rysunki Patronów</span>](rysunki_patronow.md)
+- [<span class="status status-list"><span class="status status-list">W</span> Patronowe Rękodzieła</span>](patronowe_rekodziela.md)
 - [<span class="status status-list"><span class="status status-list">VA</span> Miejsca Świeckie</span>](miejsca_swieckie.md)
 ## <span id="patroni-opiekunowie-wiecej-informacji">Więcej informacji</span>
 - Wybranymi patronami muszą być zatwierdzeni święci lub błogosławieni Kościoła Rzymskokatolickiego.
