@@ -41,15 +41,11 @@ Aby dowiedzieć się więcej, zobacz [jak zdobywać osiągnięcia](jak_zdobywac_
 Warto przyjrzeć się też znanym **nabożeństwom** Kościoła, by zanotować kiedy i w jakich wzięliśmy już udział w przeszłości lub by zwyczajnie zacząć praktykować wybrane z nich.
 
 Aby dowiedzieć się więcej, zobacz [jak uczestniczyć w nabożeństwach](jak_uczestniczyc_w_nabozenstwach.md),
-## <span id="jak-zaczac-inne">Inne</span>
-W każdym momencie możesz także skorzystać z poniższych list:
-- [<span class="status status-list"><span class="status status-list">C</span> Miejsca](miejsca.md), by zapisać informacje o dowolnym miejscu,
-
-- [<span class="status status-list"><span class="status status-list">M</span> Osoby](osoby.md), aby zanotować niektóre osoby, które spotkasz,
-
-- [<span class="status status-list"><span class="status status-list">Z</span> Zakony](zakony.md), aby zanotować zakony, do których należeli patroni lub powyższe osoby,
-
-- [<span class="status status-list"><span class="status status-list">＊</span> Przypisy](przypisy.md), by móc zapisać każdą inną informację o jakiej chcesz pamiętać.
+## <span id="jak-zaczac-pozostale">Pozostałe</span>
+W każdym momencie możesz także skorzystać z [pozostałych list](pozostale_listy.md), aby zapisywać informacje o miejscach, osobach i innych używanych wielokrotnie elementach.
+<br />
+<br />
+<br />
 
 ---
 ### Do dzieła!
