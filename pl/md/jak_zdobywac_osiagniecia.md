@@ -1,17 +1,18 @@
 # Jak zdobywać osiągnięcia?
-Osiągnięcia zdobywamy gromadząc **patronów** i **święta** z określonych list tematycznych.
-
-Dla każdej listy możemy wpisać poniższe informacje:
-
-- **Kolejny numer wpisu** (1, 2, itd.),
-- Dla patronów: **nazwę patrona** i **numery tego patrona** na czterech listach: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md),
-- Dla świąt: **nazwa święta** i **numer tego święta** na liście: [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md),
-- **Dowolny komentarz**, w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 ---
-### <div class="colored centered">Zdobywaj ambitne osiągnięcia!</div>
+
+Osiągnięcia zdobywamy **zapraszając patronów** i **odkrywając święta** z określonych list tematycznych.
+<br />
+<br />
+<br />
 
 ---
-Mamy poniższe osiągnięcia do wyboru:
+### Zdobywaj ambitne osiągnięcia!
+
+---
+
+## Osiągnięcia do wyboru
+Choć możesz samodzielnie tworzyć swoje listy osiągnięć, my na dobry początek proponujemy poniższe:
 - [<span class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span>](osiagniecie_patroni_moich_imion.md)
 
 - [<span class="status status-list"><span class="status status-list">YB</span> Osiągnięcie: Patroni Imion Moich Najbliższych</span>](osiagniecie_patroni_imion_moich_najblizszych.md)
@@ -24,8 +25,12 @@ Mamy poniższe osiągnięcia do wyboru:
 
 - [<span class="status status-list"><span class="status status-list">YF</span> Osiągnięcie: Aniołowie</span>](osiagniecie_aniolowie.md)
 
+- [<span class="status status-list"><span class="status status-list">YG</span> Osiągnięcie: Doktorowie Kościoła</span>](osiagniecie_doktorowie_kosciola.md)
+
+- [<span class="status status-list"><span class="status status-list">YH</span> Osiągnięcie: Papieże</span>](osiagniecie_papieze.md)
+
 Lista powyższych osiągnięć nie jest zamknięta, dlatego chętnie rozważymy dodanie Twoich propozycji!
 
 ---
-[Powrót do strony jak zaczać](jak_zaczac.md#jak-zaczac-osiagniecia)  
+[Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-osiagniecia)  
 [Powrót do głównego menu](index.md)

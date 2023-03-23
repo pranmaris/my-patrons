@@ -18,6 +18,7 @@ const ANCHOR = '#';
 const URL_SEARCH_START_CHARACTER = '?';
 const URL_SEARCH_SEPARATOR = '&';
 const URL_SEARCH_EQUAL_CHARACTER = '=';
+const TITLE_CHARACTERS_TO_REMOVE = '▶';
 
 const FILE_EXTENSION_HTML = 'html';
 const FILE_EXTENSION_JSON = 'json';
@@ -229,6 +230,8 @@ const setPageTitle = (title) => {
   if (title) {
     title = title.replace(/(<([^>]+)>)/ig, '');
     title = title.replace(/&[a-z]+;/g, '');
+    title = title.replace(new RegExp('[' + TITLE_CHARACTERS_TO_REMOVE + ']', 'g'), '');
+    title = title.replace(/\s\s+/g, ' ');
     title = title.trim();
   }
 
