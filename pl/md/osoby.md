@@ -2,7 +2,7 @@
 ---
 
 ## Cel
-Zapisać dane dotyczące **osób**, by **za pomocą ich numerów** łatwo ich użyć w innych notatkach.
+Zapisać dane dotyczące **osoby**, by **za pomocą numeru** łatwo linkować do niej w innych notatkach.
 ## Wybór
 Wybierz osobę, której **jeszcze nie ma na tej liście**.
 ## Notatki

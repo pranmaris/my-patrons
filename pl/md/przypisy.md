@@ -2,7 +2,7 @@
 ---
 
 ## Cel
-Zapisać **jakąkolwiek informację**, by **za pomocą jej numeru** łatwo jej użyć w innych notatkach.
+Zapisać **jakąkolwiek informację**, by **za pomocą numeru** łatwo linkować do niej w innych notatkach.
 ## Wybór
 Wybierz informację, której **jeszcze nie ma na tej liście**.
 ## Notatki

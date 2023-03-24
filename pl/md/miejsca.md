@@ -2,13 +2,13 @@
 ---
 
 ## Cel
-Zapisać dane dotyczące **miejsc**, by **za pomocą ich numerów** łatwo ich użyć w innych notatkach.
+Zapisać dane dotyczące **miejsca**, by **za pomocą numeru** łatwo linkować do niego w innych notatkach.
 ## Wybór
 Wybierz miejsce, którego **jeszcze nie ma na tej liście**.
 ## Notatki
 Zanotuj sobie:
 - kolejny **numer** miejsca, np. C1, C2, C3, ...,
-- **typ i nazwa** miejsca - oficjalna, zwyczajowa, np. _„Kościół pw. św. Agaty”_, _„Szpital im. Karola Marcinkowskiego”_,
+- **typ i nazwę** miejsca - oficjalna, zwyczajowa, np. _„Kościół pw. św. Agaty”_, _„Szpital im. Karola Marcinkowskiego”_,
 - **lokalizację** miejsca - skrótowo albo dokładny opis administracyjny, np. _„Buczym Dworski, gmina Kosów Lacki, powiat Sokołowski, województwo Mazowieckie, państwo Polska”_,
 - **położenie** (np. dzielnica lub ulica), jeśli mamy wiele miejsc tego typu i o takiej nazwie w danej miejscowości,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#miejsca-wiecej-notatek).

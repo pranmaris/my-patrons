@@ -49,6 +49,6 @@
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">＊</span> Przypisy</span></span>](przypisy.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">C</span> Miejsca</span></span>](miejsca.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">M</span> Osoby</span></span>](osoby.md)
-- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">Z</span> Zakony</span></span> - wersja robocza ...](zakony.md)
+- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">Z</span> Zakony</span></span>](zakony.md)
 - [Karty kolekcjonerskie - wersja robocza ...](karty_kolekcjonerskie.md)
 - [O nas - wersja robocza ...](o_nas.md)
