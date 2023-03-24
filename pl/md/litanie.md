@@ -1,31 +1,43 @@
 # <span class="status status-list"><span class="status status-list">VF</span> Litanie</span>
-<br />
+---
+## Cel
+W <span class="selected-day-info">wybranym dniu</span> ...
+## Wybór
+Wybierz patrona, który **jest Twoim Białym Patronem**, czyli ma status w kolorze: <span class="status status-white">białym</span>.
+## Limit
+Maksymalnie ...
+## Zadanie główne
+W <span class="selected-day-info">wybranym dniu</span>:
+- ...
 
-<span class="status status-title">Wymagany status patrona:</span> już wkrótce ...
-<br />
+Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#litanie-wiecej-informacji).
+## Modlitwa
+...
+## Zadanie dodatkowe
+...
+## Notatki
+Zanotuj sobie:
+- kolejny **numer** Patrona Obrońcy, np. A1, A2, A3, ...,
+- **datę** sprostania wyzwaniu (najlepiej z dniem tygodnia),
+- ...
+- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#litanie-wiecej-notatek).
 
-<span class="status status-title">Limity:</span> już wkrótce ...
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_vf_litanie.pdf).
 <br />
-
-<span class="status status-title">Opis zadania:</span> już wkrótce ...
 <br />
-
-<span class="status status-title">Kroki:</span> już wkrótce ...
-<br />
-
-<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> już wkrótce ...
-<br />
-
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md):</span> już wkrótce ...
 <br />
 
 ---
-### <div class="colored centered">już wkrótce ...</div>
-
+# Udało się!
+### ...
 ---
-<span class="status status-title">Szczegóły:</span> już wkrótce ...
 
-<span class="status status-title">Co możesz zanotować dodatkowo:</span> już wkrótce ...
+## <span id="litanie-wiecej-informacji">Więcej informacji</span>
+- ...
+## <span id="litanie-wiecej-notatek">Więcej notatek</span>
+Jeśli chcesz, możesz zanotowac także:
+- ...
+- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do białych patronów](biali_patroni.md)  
