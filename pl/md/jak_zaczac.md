@@ -10,11 +10,11 @@ Jeśli chcesz, **możesz** już teraz rozpocząć budowę **własnej talii kart*
 Wszystkie karty są zawsze **dostępne za darmo** do samodzielnego wydrukowania na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space/cards).
 
 Aby dowiedzieć się więcej, przejdź do strony o [kartach kolekcjonerskich](karty_kolekcjonerskie.md).
-## Karta - wizytówka
+## <span id="jak-zaczac-karta-wizytowka">Karta - wizytówka</span>
 Choć nie jest to teraz konieczne, **warto** wypełnić informacje o sobie na dwóch poniższych listach:
-- [<span class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span>](osiagniecie_patroni_moich_imion.md),
+- [<span class="status status-list"><span class="status status-list">J</span> Sakramenty</span>](sakramenty.md),
 
-- [<span class="status status-list"><span class="status status-list">J</span> Sakramenty</span>](sakramenty.md).
+- [<span class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span>](osiagniecie_patroni_moich_imion.md).
 
 Dzięki tym informacjom będzie możliwe [stworzenie](https://pl.patrons.space/cards) jeszcze **jednej karty z Twoją wizytówką**, która może przydać się niebawem!
 

@@ -74,11 +74,17 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
 ## Dalsze wyzwania
 Teraz już możesz dla zaproszonego **Patrona Opiekuna** sprostać wyzwaniom:
 - [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md)
+
 - [<span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md)
+
 - [<span class="status status-list"><span class="status status-list">F</span> Adoracje</span>](adoracje.md)
+
 - [<span class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span>](odpusty_parafialne.md)
+
 - [<span class="status status-list"><span class="status status-list">K</span> Rocznice Poświęcenia Kościołów</span>](rocznice_poswiecenia_kosciolow.md)
+
 - [<span class="status status-list"><span class="status status-list">VB</span> Drogi Krzyżowe</span>](drogi_krzyzowe.md)
+
 - [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md) - patrz [jak odkrywać święta](jak_odkrywac_swieta.md)
 ## <span id="patroni-obroncy-wiecej-informacji">Więcej informacji</span>
 - Za **udział w Mszy** rozumiemy naszą **fizyczną obecność na terenie jej odprawienia**. Może to być także pobyt poza budynkiem kościoła, w odrębnej salce czy innym budynku na terenie przykościelnym z transmisją Mszy „na żywo” (audio lub video). Gdyby Msza odbyła się w kaplicy szpitala, wszyscy jego pacjenci mający łączność z tym miejscem, mogą w niej uczestniczyć,

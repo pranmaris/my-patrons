@@ -55,10 +55,15 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ## Dalsze wyzwania
 Teraz już możesz dla odkrytego **Święta** sprostać wyzwaniom:
 - [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md)
+
 - [<span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md)
+
 - [<span class="status status-list"><span class="status status-list">F</span> Adoracje</span>](adoracje.md)
+
 - [<span class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span>](odpusty_parafialne.md)
+
 - [<span class="status status-list"><span class="status status-list">K</span> Rocznice Poświęcenia Kościołów</span>](rocznice_poswiecenia_kosciolow.md)
+
 - [<span class="status status-list"><span class="status status-list">VB</span> Drogi Krzyżowe</span>](drogi_krzyzowe.md)
 ## <span id="swieta-wiecej-informacji">Więcej informacji</span>
 - Święta dotyczące **Boga** (w ogólności) odnoszą się zawsze do **Trójcy Przenajświętszej**, np. _„Niedziela Miłosierdzia Bożego”_,

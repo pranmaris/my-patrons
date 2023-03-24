@@ -32,5 +32,6 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - Jeśli do imienia **nie można znaleźć** pasującego patrona, możesz wpisać zamiast niego: „Wszystkich Świętych”.
 
 ---
+[Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-karta-wizytowka)  
 [Powrót do osiągnięć](jak_zdobywac_osiagniecia.md)  
 [Powrót do głównego menu](index.md)

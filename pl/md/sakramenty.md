@@ -1,39 +1,33 @@
 # <span class="status status-list"><span class="status status-list">J</span> Sakramenty</span>
-<br />
+---
 
-<span class="status status-title">Wymagany status:</span> Dowolny.
-<br />
+## Cel
+Zapisać informacje na temat **Twoich przyjętych Sakramentów** wraz z **datą ich pierwszego przyjęcia**.
+## Notatki
+Zanotuj sobie:
+- kolejny **numer** Sakramentu, np. J1, J2, J3, ...,
+- **nazwę** Sakramentu,
+- **datę** przyjęcia przez Ciebie każdego Sakramentu **po raz pierwszy**,
+- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#sakramenty-wiecej-notatek).
 
-<span class="status status-title">Limity:</span> Brak.
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_oo_bog_j_sakramenty_ya_patroni_moich_imion.pdf).
 <br />
-
-<span class="status status-title">Opis zadania:</span> Zadanie to jest okazją do przypomnienia sobie **kiedy przyjęliśmy po raz pierwszy każdy Sakrament**. Dzięki temu będziemy mieć także kolejne informacje potrzebne innym przy wyborze swojego **patrona - orędownika** razem z nami, na liście <span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>.
 <br />
-
-<span class="status status-title">Kroki:</span>
-- Wpisz **nazwy przyjętych sakramentów**, wraz z **datą ich pierwszego przyjęcia**.
-<br />
-
-<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> w ciągu całego udziału w inicjatywie _„Moich Patronów”_, ale zawsze możesz coś tu dopisać i uzupełnić.
-<br />
-
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#sakramenty):</span>
-- **Nazwy i daty przyjęcia** każdego swojego sakramentu.
 <br />
 
 ---
-### <div class="colored centered">Stwórz swoją sakramentalną wizytówkę!</div>
+### Stwórz swoją sakramentalną wizytówkę!
 
 ---
-<span class="status status-title">Szczegóły:</span> Brak.
-
-<span class="status status-title">Co możesz zanotować dodatkowo:</span>
-- Informacja o **miejscu pierwszego przyjęcia każdego sakramentu**, np. **C17** na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md),
-- Informacja kto był **szafarzem każdego sakramentu**, np. **M32** na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md),
-- **Godzina Mszy św. lub Spowiedzi**, na której otrzymaliśmy dany sakrament,
+## Więcej informacji
+- Dzięki wypełnieniu tej listy będzie możliwe zaproszenie przez inne osoby **Patrona Orędownika** razem z nami, na liście [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md).
+## <span id="sakramenty-wiecej-notatek">Więcej notatek</span>
+Jeśli chcesz, możesz zanotowac także:
+- Informację o **miejscu** pierwszego przyjęcia Sakramentu - słownie lub na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**.
+- Informację kto był **szafarzem** Sakramentu - słownie lub na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M22**.
+- **Godzinę** przyjęcia Sakramentu lub Mszy św., na której go otrzymaliśmy.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
-
 ---
-[Powrót do otwartych list](jak_zaczac_czyli_o_otwartych_listach.md)  
+[Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-karta-wizytowka)  
 [Powrót do głównego menu](index.md)

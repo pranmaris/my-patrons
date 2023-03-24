@@ -85,9 +85,13 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
 ## Dalsze wyzwania
 Teraz już możesz dla zaproszonego **Patrona Orędownika** sprostać wyzwaniom:
 - [<span class="status status-list"><span class="status status-list">N</span> Cmentarze</span>](cmentarze.md)
+
 - [<span class="status status-list"><span class="status status-list">R</span> Zakony Patronów</span>](zakony_patronow.md)
+
 - [<span class="status status-list"><span class="status status-list">VC</span> Msze Chrzcielne</span>](msze_chrzcielne.md)
+
 - [<span class="status status-list"><span class="status status-list">VD</span> Msze Małżeńskie</span>](msze_malzenskie.md)
+
 - [<span class="status status-list"><span class="status status-list">VE</span> Msze Pogrzebowe</span>](msze_pogrzebowe.md)
 ## <span id="patroni-oredownicy-wiecej-informacji">Więcej informacji</span>
 - Jeśli będziecie chcieć z drugą zapraszającą osobą, możecie dać sobie jakiś pamiątkowy wpis (na kartce, w zeszycie lub gdziekolwiek) o treści, np.:

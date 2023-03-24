@@ -5,7 +5,9 @@ W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do 
 ## Wymaganie
 Wybrany **patron musi być jednocześnie** Twoim:
 - **opiekunem** - patrz [<span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span>](patroni_opiekunowie.md),
+
 - **obrońcą** - patrz [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md),
+
 - **orędownikiem** - patrz [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md).
 ## Wybór
 Wybierz patrona, który **jest jednocześnie Twoim opiekunem, obrońcą i orędownikiem**, czyli ma status w kolorze: <span class="status status-indigo">indygo</span>.
@@ -73,7 +75,9 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
 ## Dalsze wyzwania
 Teraz już możesz dla zaproszonego **Białego Patrona** sprostać wyzwaniom:
 - [<span class="status status-list"><span class="status status-list">L</span> Szkaplerze</span>](szkaplerze.md)
+
 - [<span class="status status-list"><span class="status status-list">Q</span> Nowenny</span>](nowenny.md)
+
 - [<span class="status status-list"><span class="status status-list">VF</span> Litanie</span>](litanie.md)
 ## <span id="biali-patroni-wiecej-informacji">Więcej informacji</span>
 - Tego zadania **nie można łączyć** z **adoracją** na liście [<span class="status status-list"><span class="status status-list">F</span> Adoracje</span>](adoracje.md)!
