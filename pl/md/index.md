@@ -11,7 +11,7 @@
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">O</span> Cytaty</span></span>](cytaty.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span></span>](selfie_z_patronem.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">W</span> Patronowe Rękodzieła</span></span>](patronowe_rekodziela.md)
-- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VA</span> Miejsca Świeckie</span></span> - wersja robocza ...](miejsca_swieckie.md)
+- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VA</span> Miejsca Świeckie</span></span>](miejsca_swieckie.md)
 - [<span><span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span></span>](patroni_obroncy.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">D</span> Kościoły</span></span> - wersja robocza ...](koscioly.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">E</span> Ołtarze</span></span> - wersja robocza ...](oltarze.md)
