@@ -8,7 +8,7 @@
 - [Jak zapraszać patronów?](jak_zapraszac_patronow.md)
 - [<span><span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span></span>](patroni_opiekunowie.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">H</span> Relikwie i Groby</span></span>](relikwie_i_groby.md)
-- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">O</span> Cytaty</span></span> - wersja robocza ...](cytaty.md)
+- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">O</span> Cytaty</span></span>](cytaty.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">S</span> Selfie z Patronem</span></span> - wersja robocza ...](selfie_z_patronem.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">W</span> Patronowe Rękodzieła</span></span> - wersja robocza ...](patronowe_rekodziela.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VA</span> Miejsca Świeckie</span></span> - wersja robocza ...](miejsca_swieckie.md)

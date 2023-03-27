@@ -30,7 +30,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 <br />
 
 ---
-# Udało się! Nawiedziłeś grób lub relikwie Patrona!
+# Udało się! Nawiedziłeś grób lub relikwie patrona!
 ### Nawiedzanie relikwii i grobów świętych to jedna z najstarszych tradycji chrześcijan!
 ---
 
