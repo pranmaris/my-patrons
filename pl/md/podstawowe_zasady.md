@@ -28,6 +28,7 @@
 - Niektóre **kroki** są możliwe do wykonania tylko w określonym dniu lub czasie (co będzie jasno zaznaczone), a czas na pozostałe jest dowolny.
 - Kolejność wykonywania **kroków** nie jest ustalona, chyba że zostanie napisane inaczej.
 - Niektóre zadania mogą być wykonane tylko raz dziennie lub podlegać innym **limitom**.
+- Nigdy **nie dopisujemy do listy nowych wyzwań - duplikatów**, czyli wykonanych tak samo jak wcześniej.
 
 ---
 **Pamiętaj!** Kluczową rzeczą jest **uczciwość** przed Bogiem, innymi i samym sobą. Aby zabawa mogła przynosić dobre owoce, powinniśmy zawsze trzymać się prawdy!

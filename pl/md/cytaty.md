@@ -5,9 +5,9 @@ W <span class="selected-day-info">wybranym dniu</span> **rozważać cytat** patr
 ## Wybór
 Wybierz:
 - **patrona**, który **jest już Twoim Patronem Opiekunem**, czyli ma status w kolorze: <span class="status status-orange">pomarańczowym</span>, <span class="status status-yellow">żółtym</span>, <span class="status status-green">zielonym</span>, <span class="status status-indigo">indygo</span> albo <span class="status status-white">białym</span>,
-- **wartościowy cytat** wybranego patrona, którego jeszcze nie masz.
+- **wartościowy cytat** tego patrona.
 ## Limit
-Maksymalnie jeden nowy **cytat patrona** dziennie!
+Maksymalnie jeden nowy **cytat** dziennie!
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span> **napisz odręcznie** lub **wydrukuj** cytat patrona i autora tego cytatu na **małej karteczce**, która przyda się do Twojego „kuferka mądrości”.
 
