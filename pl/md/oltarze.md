@@ -1,45 +1,48 @@
 # <span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>
-<br />
+---
+## Cel
+W <span class="selected-day-info">wybranym dniu</span> nawiedzić **kaplicę** (jako oddzielne pomieszczenie np. kościoła) lub **ołtarz** (boczny w kościele lub inny znajdujący się poza świątynią, np. w szpitalu, pałacu, itp.), który jest pod wezwaniem zaproszonego **Patrona Obrońcy** lub odkrytego **święta**.
+## Wybór
+Wybierz:
+- **patrona**, który **jest już Twoim Patronem Obrońcą** albo **odkryte** już przez Ciebie **święto**, czyli mają status w kolorze: <span class="status status-green">zielonym</span>, <span class="status status-blue">niebieskim</span>, <span class="status status-violet">fioletowym</span>, <span class="status status-indigo">indygo</span> albo <span class="status status-white">białym</span>,
+- miejsce, w którym znajduje się **ołtarz** (kaplica), będący pod wezwaniem wybranego **Patrona Obrońcy** lub **święta**.
+## Zadanie główne
+W <span class="selected-day-info">wybranym dniu</span> osobiście nawiedź wybrany **ołtarz** lub **kaplicę**. Wymagane jest bezpośrednie oglądanie go, choćby zza krat lub szyby.
 
-<span class="status status-title">Wymagany status patrona lub święta:</span> <span class="status status-green">zielony</span>, <span class="status status-blue">niebieski</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowy</span> albo <span class="status status-white">biały</span>.
-<br />
+Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#oltarze-wiecej-informacji).
+## Modlitwa
+Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„Wierzę w Boga”_.
+## Zadanie dodatkowe
+Przeczytaj (jeśli uda Ci się znaleźć) jakąkolwiek notkę lub informacje o wybranym **ołtarzu** lub **kaplicy**, opisującą ich historię, posiadane relikwie i inne cenne przedmioty.
+## Notatki
+Zanotuj sobie:
+- kolejny **numer** nawiedzonego ołtarza, np. E1, E2, E3, ...,
+- **datę** nawiedzenia ołtarza (najlepiej z dniem tygodnia),
+- **numer** miejsca, w którym znajduje się ołtarz - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**),
+- **numer**:
+    - patrona tytularnego ołtarza - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16** (dla czytelności listy można także wpisać jego **nazwę**),
+    - święta tytularnego ołtarza - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7** (dla czytelności listy można także wpisać jego **nazwę**),
+- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#oltarze-wiecej-notatek).
 
-<span class="status status-title">Limity:</span> Brak.
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_e_oltarze.pdf).
 <br />
-
-<span class="status status-title">Opis zadania:</span> Zadanie polega na nawiedzeniu posiadającej patrona lub święto tytularne **kaplicy** (czyli oddzielnego pomieszczenia) lub **ołtarza** (bocznego w kościele lub innego znajdującego się poza świątynią, np. w szpitalu, pałacu, itp.), który jest pod wezwaniem zaproszonego **patrona - obrońcy** lub odkrytego **święta**.
 <br />
-
-<span class="status status-title">Kroki:</span>
-- Znajdź miejsce, w którym znajduje się **ołtarz** (kaplica), będący pod wezwaniem **patrona - obrońcy** lub **święta**, posiadanych już przez Ciebie wcześniej lub dodanych w dniu jej nawiedzenia,
-- **W tym dniu** osobiście nawiedź ten **ołtarz** (kaplica). Wymagane jest bezpośrednie oglądanie go, choćby zza krat lub szyby,
-- Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wierzę w Boga”_,
-- Przeczytaj jakąkolwiek notkę lub informacje o wybranym **ołtarzu** (kaplicy), opisującą jego historię lub inne ciekawe fakty.
-<br />
-
-<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> dla danego **ołtarza** (kaplicy) w powiązaniu z konkretnym **patronem - obrońcą** lub **świętem**.
-<br />
-
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md#oltarze):</span>
-- **Kolejny numer** nawiedzonego ołtarza (E1, E2, ...),
-- Odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem, w którym znajduje się wybrany ołtarz**, np. **C2**,
-- **Święto lub patron tytularny ołtarza** (kaplicy) z podkreśloną nazwą powiązanego patrona lub święta,
-- Odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md) ze **świętem** albo [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) z **patronem - obrońcą**, którego ołtarz (kaplicę) nawiedziliśmy, np. **A60**,
-- **Datę nawiedzenia** ołtarza (najlepiej z dniem tygodnia).
 <br />
 
 ---
-### <div class="colored centered">Niektóre kościoły mogą posiadać nawet kilkadziesiąt wyjątkowych ołtarzy bocznych i kaplic!</div>
-
+# Udało się! Nawiedziłeś ołtarz dedykowany patronowi!
+### Niektóre kościoły mogą posiadać nawet kilkadziesiąt wyjątkowych ołtarzy bocznych i kaplic!
 ---
-<span class="status status-title">Szczegóły:</span> Szczegółowe zasady nawiedzania ołtarzy (kaplic) są analogiczne do listy: [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md).
 
-<span class="status status-title">Co możesz zanotować dodatkowo:</span>
-- **Miejscowość i nazwa świątyni**, w której znajduje się ołtarz (kaplica),
-- Jeżeli kiedykolwiek, w trakcie albo po nawiedzeniu ołtarza, uczestniczyliśmy **we Mszy św. odprawianej na tym konkretnym ołtarzu** (bocznym), możemy podać numer patrona, który został zaproszony na tej Mszy, np. „**MSZA:A26**” lub „**MSZA:T26**” lub jej datę,
-- Zaznaczenie czy **odmówiono modlitwę** i **przeczytano notatkę** o nawiedzonym ołtarzu - postaw dowolny znaczek (np. „✅”),
+## <span id="oltarze-wiecej-informacji">Więcej informacji</span>
+- Szczegółowe zasady nawiedzania ołtarzy lub kaplic są analogiczne do listy: [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md#koscioly-wiecej-informacji).
+## <span id="oltarze-wiecej-notatek">Więcej notatek</span>
+Jeśli chcesz, możesz zanotowac także:
+- **Miejscowość z nazwą świątyni i ołtarza**, z podkreśloną nazwą powiązanego z ołtarzem patrona lub święta.
+- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona tytularnego - postaw dowolny znaczek (np. „✅”).
+- Zaznaczenie czy **przeczytano notatkę** o ołtarzu - postaw dowolny znaczek (np. „✅”).
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
-[Powrót do patronów - obrońców](patroni_obroncy.md)  
+[Powrót do Patronów Obrońców](patroni_obroncy.md)  
 [Powrót do głównego menu](index.md)
