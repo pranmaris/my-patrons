@@ -13,7 +13,7 @@
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">W</span> Patronowe Rękodzieła</span></span>](patronowe_rekodziela.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VA</span> Miejsca Świeckie</span></span>](miejsca_swieckie.md)
 - [<span><span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span></span>](patroni_obroncy.md)
-- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">D</span> Kościoły</span></span> - wersja robocza ...](koscioly.md)
+- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">D</span> Kościoły</span></span>](koscioly.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">E</span> Ołtarze</span></span> - wersja robocza ...](oltarze.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">F</span> Adoracje</span></span> - wersja robocza ...](adoracje.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span></span> - wersja robocza ...](odpusty_parafialne.md)
