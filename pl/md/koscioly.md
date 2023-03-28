@@ -11,7 +11,7 @@ W <span class="selected-day-info">wybranym dniu</span> osobiście nawiedź **św
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#koscioly-wiecej-informacji).
 ## Modlitwa
-Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„Wierzę w Boga”_.
+Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_,  _„Wierzę w Boga”_ lub _„[imię patrona], módl się za mną”_.
 ## Zadanie dodatkowe
 **Przeczytaj** jakąkolwiek **notkę** lub **informacje** o wybranej świątyni, opisujące jej historię, ciekawostki oraz zawarte w niej ołtarze, relikwie i inne cenne przedmioty.
 ## Notatki
@@ -53,4 +53,5 @@ Jeśli chcesz, możesz zanotowac także:
 
 ---
 [Powrót do Patronów Obrońców](patroni_obroncy.md)  
+[Powrót do świąt](swieta.md)  
 [Powrót do głównego menu](index.md)

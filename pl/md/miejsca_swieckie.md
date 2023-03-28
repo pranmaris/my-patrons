@@ -13,7 +13,7 @@ W <span class="selected-day-info">wybranym dniu</span> **odwiedź** miejsce świ
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#miejsca-swieckie-wiecej-informacji).
 ## Modlitwa
-W <span class="selected-day-info">wybranym dniu</span>, **będąc w tym miejscu**, pomódl się do patrona w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„Wierzę w Boga”_.
+W <span class="selected-day-info">wybranym dniu</span>, **będąc w tym miejscu**, pomódl się do patrona w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wierzę w Boga”_ lub _„[imię patrona], módl się za mną”_.
 ## Notatki
 Zanotuj sobie:
 - kolejny **numer** odwiedzonego miejsca świeckiego, np. VA1, VA2, VA3, ...,

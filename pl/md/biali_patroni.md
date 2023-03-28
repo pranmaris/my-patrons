@@ -84,7 +84,7 @@ Teraz już możesz dla zaproszonego **Białego Patrona** sprostać wyzwaniom:
 ## <span id="biali-patroni-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
 - Informację czy patron jest **święty** czy **błogosławiony**.
-- **Datę zakończenia adoracji**, jeśli rozłożyliśmy ją na kilka dni.
+- **Datę zakończenia adoracji**, jeśli rozdzielono ją na kilka dni.
 - **Numery** tego patrona z list: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) i [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md), np. **T17**, **A35**, **U7**.
 - **Informacje o miejscu adoracji** - słownie lub jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C42**,
 - Zaznaczenie czy **odmówiono modlitwę** _„Chwała na wysokości Bogu”_ - postaw dowolny znaczek (np. „✅”).

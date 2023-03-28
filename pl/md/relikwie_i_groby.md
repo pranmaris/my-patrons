@@ -13,7 +13,7 @@ W <span class="selected-day-info">wybranym dniu</span> osobiście nawiedź grób
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#relikwie-i-groby-wiecej-informacji).
 ## Modlitwa
-Pomódl się do patrona w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„Wierzę w Boga”_.
+Pomódl się do patrona w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wierzę w Boga”_ lub _„[imię patrona], módl się za mną”_.
 ## Zadanie dodatkowe
 **Tylko dla chętnych!** Jeżeli z konkretnymi relikwiami czy grobem wiąże się jakaś ciekawa historia, są one w jakikolwiek sposób wyjątkowe lub po prostu uda Ci się odnaleźć ich opis lub historię, **przeczytaj i dowiedz się o nich więcej**.
 ## Notatki
