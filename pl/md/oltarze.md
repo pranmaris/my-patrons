@@ -19,7 +19,7 @@ Zanotuj sobie:
 - kolejny **numer** nawiedzonego ołtarza, np. E1, E2, E3, ...,
 - **datę** nawiedzenia ołtarza (najlepiej z dniem tygodnia),
 - **numer** miejsca, w którym znajduje się ołtarz - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**),
-- **numer**:
+- **numer** (jeden z poniższych):
     - patrona tytularnego ołtarza - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16** (dla czytelności listy można także wpisać jego **nazwę**),
     - święta tytularnego ołtarza - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7** (dla czytelności listy można także wpisać jego **nazwę**),
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#oltarze-wiecej-notatek).

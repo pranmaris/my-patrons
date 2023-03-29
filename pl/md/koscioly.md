@@ -19,7 +19,7 @@ Zanotuj sobie:
 - kolejny **numer** nawiedzonej świątyni, np. D1, D2, D3, ...,
 - **datę** nawiedzenia świątyni (najlepiej z dniem tygodnia),
 - **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**),
-- **numer**:
+- **numer** (jeden z poniższych):
     - patrona tytularnego świątyni - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16** (dla czytelności listy można także wpisać jego **nazwę**),
     - święta tytularnego ≥świątyni - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7** (dla czytelności listy można także wpisać jego **nazwę**),
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#koscioly-wiecej-notatek).

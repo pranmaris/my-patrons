@@ -2,6 +2,9 @@
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> adorować co najmniej przez godzinę **Najświętszy Sakrament** w kościele lub na ołtarzu bocznym (kaplicy), będącym pod wezwaniem odkrytego **święta** lub zaproszonego **Patrona Obrońcy**.
+## Wymaganie
+Dla **wybranego miejsca i patrona** musisz najpierw sprostać wyzwaniu [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md) albo [<span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md), co możesz zrobić w <span class="selected-day-info">wybranym dniu</span>!
+
 ## Wybór
 Wybierz:
 - **patrona**, który **jest już Twoim Patronem Obrońcą** albo **odkryte** już przez Ciebie **święto**, czyli mają status w kolorze: <span class="status status-green">zielonym</span>, <span class="status status-blue">niebieskim</span>, <span class="status status-violet">fioletowym</span>, <span class="status status-indigo">indygo</span> albo <span class="status status-white">białym</span>,
@@ -26,7 +29,7 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#adoracje-wiecej-in
 Zanotuj sobie:
 - kolejny **numer** adoracji, np. F1, F2, F3, ...,
 - **datę** rozpoczęcia adoracji (najlepiej z dniem tygodnia),
-- **numer**:
+- **numer** (jeden z poniższych):
     - kościoła, w którym był wystawiony **Najświętszy Sakrament** - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md), np. **D21** (dla czytelności listy można także wpisać jego **nazwę**),
     - ołtarza. na którym był wystawiony **Najświętszy Sakrament** - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md), np. **E3** (dla czytelności listy można także wpisać jego **nazwę**),
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#adoracje-wiecej-notatek).
@@ -38,7 +41,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 
 ---
 # Udało się! Adorowałeś Najświętszy Sakrament z patronem!
-### Regularne adorowanie Jezusa w Hostii ukrytego zmieni Twoje życie!
+### Sprawdź, jak regularne adorowanie Jezusa w Hostii ukrytego może zmienić Twoje życie!
 ---
 
 ## <span id="adoracje-wiecej-informacji">Więcej informahji</span>
