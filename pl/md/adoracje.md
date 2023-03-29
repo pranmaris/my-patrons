@@ -11,7 +11,7 @@ Wybierz:
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span>:
 - osobiście nawiedź **kościół**, by bezpośrednio **ujrzeć wystawiony w nim Najświętszy Sakrament**, choćby zza krat lub szyby,
-- **poproś**, by wspólnie z Tobą trwał na tej adoracji **patron** tego miejsca (lub którego dotyczy **święto** będące wezwaniem tego miejsca). Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wierzę w Boga”_ lub _„[imię patrona], módl się za mną”_,
+- **poproś**, by wspólnie z Tobą trwał na tej adoracji **patron** tego miejsca (lub którego dotyczy **święto** będące wezwaniem tego miejsca). Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„[imię patrona], módl się za mną”_,
 - **trwaj** przed **Najświętszym Sakramentem** sumarycznie przez co najmniej **jedną godzinę**! Nie musisz się już modlić i klęczeć, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień.
 
 **UWAGA**! Czas spędzony na adoracji **możesz rozdzielić** na więcej dni po minimum **15 minut**.

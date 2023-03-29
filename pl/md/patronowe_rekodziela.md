@@ -15,7 +15,7 @@ W <span class="selected-day-info">wybranym dniu</span> **wykonaj dowolną pracę
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#patronowe-rekodziela-wiecej-informacji).
 ## Modlitwa
-W <span class="selected-day-info">wybranym dniu</span> **podziękuj** patronowi za wspólnie spędzony czas, modląc się w dowolny sposób **przy wykonanym przez Ciebie jego wizerunku**. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wierzę w Boga”_ lub _„[imię patrona], módl się za mną”_.
+W <span class="selected-day-info">wybranym dniu</span> **podziękuj** patronowi za wspólnie spędzony czas, modląc się w dowolny sposób **przy wykonanym przez Ciebie jego wizerunku**. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„[imię patrona], módl się za mną”_.
 ## Notatki
 Zanotuj sobie:
 - kolejny **numer** rękodzieła, np. W1, W2, W3, ...,

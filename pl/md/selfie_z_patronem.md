@@ -15,7 +15,7 @@ W <span class="selected-day-info">wybranym dniu</span> **zrób sobie selfie** z 
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#selfie-z-patronem-wiecej-informacji).
 ## Modlitwa
-W <span class="selected-day-info">wybranym dniu</span> pomódl się w dowolny sposób **przed sfotografowanym wizerunkiem patrona**. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wierzę w Boga”_ lub _„[imię patrona], módl się za mną”_.
+W <span class="selected-day-info">wybranym dniu</span> pomódl się w dowolny sposób **przed sfotografowanym wizerunkiem patrona**. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„[imię patrona], módl się za mną”_.
 ## Notatki
 Zanotuj sobie:
 - kolejny **numer** selfie z patronem, np. S1, S2, S3, ...,

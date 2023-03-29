@@ -11,7 +11,7 @@ W <span class="selected-day-info">wybranym dniu</span> osobiście nawiedź wybra
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#oltarze-wiecej-informacji).
 ## Modlitwa
-Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_,  _„Wierzę w Boga”_ lub _„[imię patrona], módl się za mną”_.
+Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„[imię patrona], módl się za mną”_.
 ## Zadanie dodatkowe
 Przeczytaj (jeśli uda Ci się znaleźć) jakąkolwiek notkę lub informacje o wybranym **ołtarzu** lub **kaplicy**, opisującą ich historię, posiadane relikwie i inne cenne przedmioty.
 ## Notatki
