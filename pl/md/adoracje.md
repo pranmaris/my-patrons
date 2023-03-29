@@ -1,19 +1,16 @@
 # <span class="status status-list"><span class="status status-list">F</span> Adoracje</span>
 ---
 ## Cel
-W <span class="selected-day-info">wybranym dniu</span> adorować co najmniej przez godzinę **Najświętszy Sakrament** w kościele lub na ołtarzu bocznym (kaplicy), będącym pod wezwaniem odkrytego **święta** lub zaproszonego **Patrona Obrońcy**.
-## Wymaganie
-Dla **wybranego miejsca i patrona** musisz najpierw sprostać wyzwaniu [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md) albo [<span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md), co możesz zrobić w <span class="selected-day-info">wybranym dniu</span>!
-
+W <span class="selected-day-info">wybranym dniu</span> adorować co najmniej przez godzinę **Najświętszy Sakrament** w kościele, będącym pod wezwaniem zaproszonego **Patrona Obrońcy** lub odkrytego **święta**.
 ## Wybór
 Wybierz:
 - **patrona**, który **jest już Twoim Patronem Obrońcą** albo **odkryte** już przez Ciebie **święto**, czyli mają status w kolorze: <span class="status status-green">zielonym</span>, <span class="status status-blue">niebieskim</span>, <span class="status status-violet">fioletowym</span>, <span class="status status-indigo">indygo</span> albo <span class="status status-white">białym</span>,
-- **świątynię** lub **ołtarz** dedykowane **wybranemu patronowi** lub **świętu**.
+- **kościół** dedykowany **wybranemu patronowi** lub **świętu**.
 ## Limit
   Maksymalnie **jedna adoracja z patronem** dziennie!
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span>:
-- osobiście nawiedź **kościół** lub **ołtarz boczny** (**kaplicę**), by bezpośrednio **ujrzeć wystawiony w nim Najświętszy Sakrament**, choćby zza krat lub szyby,
+- osobiście nawiedź **kościół**, by bezpośrednio **ujrzeć wystawiony w nim Najświętszy Sakrament**, choćby zza krat lub szyby,
 - **poproś**, by wspólnie z Tobą trwał na tej adoracji **patron** tego miejsca (lub którego dotyczy **święto** będące wezwaniem tego miejsca). Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wierzę w Boga”_ lub _„[imię patrona], módl się za mną”_,
 - **trwaj** przed **Najświętszym Sakramentem** sumarycznie przez co najmniej **jedną godzinę**! Nie musisz się już modlić i klęczeć, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień.
 
@@ -29,9 +26,10 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#adoracje-wiecej-in
 Zanotuj sobie:
 - kolejny **numer** adoracji, np. F1, F2, F3, ...,
 - **datę** rozpoczęcia adoracji (najlepiej z dniem tygodnia),
+- **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
 - **numer** (jeden z poniższych):
-    - kościoła, w którym był wystawiony **Najświętszy Sakrament** - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md), np. **D21** (dla czytelności listy można także wpisać jego **nazwę**),
-    - ołtarza. na którym był wystawiony **Najświętszy Sakrament** - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md), np. **E3** (dla czytelności listy można także wpisać jego **nazwę**),
+    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
+    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#adoracje-wiecej-notatek).
 
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_f_adoracje.pdf).
@@ -51,7 +49,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - Dla zbiorczych **świąt** tytularnych miejsca adoracji, zadanie **wystarczy wykonać raz**, np. w kościele _„pw. Świętej Rodziny”_ (jeśli oczywiście mamy już odkryte to święto).
 ## <span id="adoracje-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
-- **Miejscowość oraz nazwę świątyni i ołtarza** z podkreśloną nazwą powiązanego patrona lub święta.
+- **Miejscowość oraz nazwę kościoła** z podkreśloną nazwą powiązanego patrona lub święta.
 - **Datę** zakończenia adoracji, jeśli rozdzielono ją na kilka dni.
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona tytularnego - postaw dowolny znaczek (np. „✅”).
 - Zaznaczenie czy **odmówiono modlitwę** _„Niechaj będzie pochwalony Przenajświętszy Sakrament”_ - postaw dowolny znaczek (np. „✅”).

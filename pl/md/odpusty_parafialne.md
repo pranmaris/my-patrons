@@ -2,12 +2,10 @@
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> wziąć udział w **Sumie Odpustowej** związanej ze świętem lub patronem tytularnym **parafii** lub **kościoła** (np. filialnego) i uzyskać na nim odpustu dla siebie lub osoby zmarłej.
-## Wymaganie
-Dla **wybranej świątyni i patrona** musisz najpierw sprostać wyzwaniu [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md), co możesz zrobić w <span class="selected-day-info">wybranym dniu</span>!
 ## Wybór
 Wybierz:
 - **patrona**, który **jest już Twoim Patronem Obrońcą** albo **odkryte** już przez Ciebie **święto**, czyli mają status w kolorze: <span class="status status-green">zielonym</span>, <span class="status status-blue">niebieskim</span>, <span class="status status-violet">fioletowym</span>, <span class="status status-indigo">indygo</span> albo <span class="status status-white">białym</span>,
-- **parafię** lub **kościół**, które są pod wezwaniem **wybranego Patrona Obrońcy** lub **święta**, dla których chcesz wziąć udział w **Sumie Odpustowej**.
+- **kościół**, który jest pod wezwaniem **wybranego Patrona Obrońcy** lub **święta**, dla których chcesz wziąć udział w **Sumie Odpustowej**.
 ## Limit
   Maksymalnie **jeden odpust parafialny** dziennie!
 ## Zadanie główne
@@ -26,8 +24,10 @@ W <span class="selected-day-info">wybranym dniu</span> **wybierz** siebie albo d
 Zanotuj sobie:
 - kolejny **numer** odpustu parafialnego, np. G1, G2, G3, ...,
 - **datę** Sumy Odpustowej (najlepiej z dniem tygodnia),
-- **numer** kościoła, w którego dotyczy Odpust Parafialny - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md), np. **D21** (dla czytelności listy można także wpisać jego **nazwę**),
-- **numer** Patrona Obrońcy lub święta, którego dotyczy Odpust - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) albo [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **A33** lub **B14** (dla czytelności listy można także wpisać jego **nazwę**),
+- **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
+- **numer** (jeden z poniższych):
+    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
+    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#odpusty-parafialne-wiecej-notatek).
 
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_g_odpusty_parafialne.pdf).
@@ -50,6 +50,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - Pomimo że dzień odpustu może być w obydwu przypadkach ten sam, to np. w parafii pw. _„Zesłania Ducha Świętego”_ traktujemy, że odpust dotyczy tegoż święta, podczas gdy w parafii pw. _„Ducha Świętego”_ odpust wprost odnosi się do trzeciej Osoby Boskiej (zamiast numeru patrona - obrońcy, wpisujemy numer „III”), który nie ma swojego osobnego wspomnienia. Podobnie wygląda różnica między np. parafią pw. _„Podwyższenia Krzyża Świętego”_, a parafią pw. _„Krzyża Świętego”_ - pierwszy odnosi się do święta (związanego z Jezusem), a drugi wprost do relikwii Krzyża, które można dodać do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md) prawdopodobnie tylko poprzez udział w odpuście parafialnym (patrz poprzedni punkt).
 ## <span id="odpusty-parafialne-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
+- **Miejscowość i nazwę kościoła** z podkreśloną nazwą powiązanego z odpustem patrona lub święta.
 - Zaznaczenie czy **odmówiono modlitwę** w intencjach papieskich - postaw dowolny znaczek (np. „✅”).
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 

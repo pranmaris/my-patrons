@@ -18,10 +18,10 @@ Przeczytaj (jeśli uda Ci się znaleźć) jakąkolwiek notkę lub informacje o w
 Zanotuj sobie:
 - kolejny **numer** nawiedzonego ołtarza, np. E1, E2, E3, ...,
 - **datę** nawiedzenia ołtarza (najlepiej z dniem tygodnia),
-- **numer** miejsca, w którym znajduje się ołtarz - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**),
+- **numer** miejsca, w którym znajduje się ołtarz - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
 - **numer** (jeden z poniższych):
-    - patrona tytularnego ołtarza - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16** (dla czytelności listy można także wpisać jego **nazwę**),
-    - święta tytularnego ołtarza - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7** (dla czytelności listy można także wpisać jego **nazwę**),
+    - patrona tytularnego ołtarza - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
+    - święta tytularnego ołtarza - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#oltarze-wiecej-notatek).
 
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_e_oltarze.pdf).
@@ -38,7 +38,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - Szczegółowe zasady nawiedzania ołtarzy lub kaplic są analogiczne do listy: [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md#koscioly-wiecej-informacji).
 ## <span id="oltarze-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
-- **Miejscowość z nazwą świątyni i ołtarza**, z podkreśloną nazwą powiązanego z ołtarzem patrona lub święta.
+- **Miejscowość i nazwę ołtarza**, z podkreśloną nazwą powiązanego z wyzwaniem patrona lub święta.
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona tytularnego - postaw dowolny znaczek (np. „✅”).
 - Zaznaczenie czy **przeczytano notatkę** o ołtarzu - postaw dowolny znaczek (np. „✅”).
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.

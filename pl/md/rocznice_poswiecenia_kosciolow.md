@@ -2,8 +2,6 @@
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> wziąć udział w Mszy św. celebrującej **rocznicę poświęcenia kościola**, w którym się znajdujemy.
-## Wymaganie
-Dla **wybranej świątyni i patrona** musisz najpierw sprostać wyzwaniu [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md), co możesz zrobić w <span class="selected-day-info">wybranym dniu</span>!
 ## Wybór
 Wybierz:
 - **patrona**, który **jest już Twoim Patronem Obrońcą** albo **odkryte** już przez Ciebie **święto**, czyli mają status w kolorze: <span class="status status-green">zielonym</span>, <span class="status status-blue">niebieskim</span>, <span class="status status-violet">fioletowym</span>, <span class="status status-indigo">indygo</span> albo <span class="status status-white">białym</span>,
@@ -22,7 +20,10 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#rocznice-poswiecen
 Zanotuj sobie:
 - kolejny **numer** rocznicy poświęcenia Kościoła, np. K1, K2, K3, ...,
 - **datę** Mszy celebrującej rocznicę poświęcenia (najlepiej z dniem tygodnia),
-- **numer** kościoła, w którego dotyczy rocznica święcenia - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md), np. **D21** (dla czytelności listy można także wpisać jego **nazwę**),
+- **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
+- **numer** (jeden z poniższych):
+    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
+    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#rocznice-poswiecenia-kosciolow-wiecej-notatek).
 
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_k_rocznice_poswiecenia_kosciolow.pdf).
@@ -37,9 +38,10 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 
 ## <span id="rocznice-poswiecenia-kosciolow-wiecej-informacji">Więcej informahji</span>
 - Aby sprostać wyzwaniu, musisz uczestniczyć w głównej Mszy św. tego dnia w kościele celebrującej **poświęcenie kościoła**. Nie liczy się udział we mszy św. tego dnia w tym kościele sprawowanej o innej godzinie.
-- Jeżeli posiadamy więcej niż jednego **Patrona Obrońcę** lub **święto** tytularne tego kościoła, udział w jednej **Mszy rocznicowej** oznacza wykonanie tego zadania dla każdego z nich z osobna.
+- Jeżeli posiadamy więcej niż jednego **Patrona Obrońcę** lub **święto** tytularne tego kościoła, udział w jednej **Mszy rocznicowej** oznacza wykonanie tego wyzwania **dla każdego z nich**!
 ## <span id="rocznice-poswiecenia-kosciolow-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
+- **Miejscowość i nazwę kościoła** z podkreśloną nazwą powiązanego z wyzwaniem patrona lub święta.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
