@@ -17,7 +17,7 @@
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">E</span> Ołtarze</span></span>](oltarze.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">F</span> Adoracje</span></span>](adoracje.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span></span>](odpusty_parafialne.md)
-- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">K</span> Rocznice Poświęcenia Kościołów</span></span> - wersja robocza ...](rocznice_poswiecenia_kosciolow.md)
+- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">K</span> Rocznice Poświęcenia Kościołów</span></span>](rocznice_poswiecenia_kosciolow.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VB</span> Drogi Krzyżowe</span></span> - wersja robocza ...](drogi_krzyzowe.md)
 - [<span><span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span></span>](patroni_oredownicy.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">N</span> Cmentarze</span></span> - wersja robocza ...](cmentarze.md)
