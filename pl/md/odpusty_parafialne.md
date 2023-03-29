@@ -40,7 +40,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ### Świętuj z miejscowymi imieniny ich parafii!
 ---
 
-## <span id="odpusty-parafialne-wiecej-informacji">Więcej informahji</span>
+## <span id="odpusty-parafialne-wiecej-informacji">Więcej informacji</span>
 - Aby sprostać wyzwaniu odpustu parafialnego **musisz uczestniczyć** w głównej Mszy św. tego dnia w kościele, czyli **Sumie Odpustowej**. Nie liczy się udział we Mszy św. tego dnia w tym kościele sprawowanej o innej godzinie.
 - Jeżeli parafia ma **więcej patronów lub świąt tytularnych**, dla każdego z nich z osobna **możemy uczestniczyć w kilku odpustach oddzielnie**, a tym samym sprostać osobnym wyzwaniom.
 - Odpusty parafialne **mogą dotyczyć** nie tylko parafii, ale także wezwania **kościołów filialnych**, które ta parafia obejmuje. Suma odpustowa musi się jednak odbywać w tym kościele filialnym.

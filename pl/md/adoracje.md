@@ -42,7 +42,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ### Sprawdź, jak regularne adorowanie Jezusa w Hostii ukrytego może zmienić Twoje życie!
 ---
 
-## <span id="adoracje-wiecej-informacji">Więcej informahji</span>
+## <span id="adoracje-wiecej-informacji">Więcej informacji</span>
 - Tego zadania **nie można łączyć** z adoracją przy zapraszaniu **Białych Patronów** na liście [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md)!
 - Aby rozpocząć nową adorację **Najświętszego Sakramentu** na tej liście, **musisz najpierw zakończyć** poprzednią **minimum dzień wcześniej**!
 - Jeśli miejsce adoracji jest pod wezwaniem kilku patronów, którzy są już naszymi **Patronami Obrońcami**, musimy wybrać **tylko jednego** z nich do każdej adoracji,

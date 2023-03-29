@@ -36,7 +36,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ### Świętuj z miejscowymi urodziny ich kościoła!
 ---
 
-## <span id="rocznice-poswiecenia-kosciolow-wiecej-informacji">Więcej informahji</span>
+## <span id="rocznice-poswiecenia-kosciolow-wiecej-informacji">Więcej informacji</span>
 - Aby sprostać wyzwaniu, musisz uczestniczyć w głównej Mszy św. tego dnia w kościele celebrującej **poświęcenie kościoła**. Nie liczy się udział we mszy św. tego dnia w tym kościele sprawowanej o innej godzinie.
 - Jeżeli posiadamy więcej niż jednego **Patrona Obrońcę** lub **święto** tytularne tego kościoła, udział w jednej **Mszy rocznicowej** oznacza wykonanie tego wyzwania **dla każdego z nich**!
 ## <span id="rocznice-poswiecenia-kosciolow-wiecej-notatek">Więcej notatek</span>
