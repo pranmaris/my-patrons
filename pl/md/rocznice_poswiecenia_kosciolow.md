@@ -22,8 +22,8 @@ Zanotuj sobie:
 - **datę** Mszy celebrującej rocznicę poświęcenia (najlepiej z dniem tygodnia),
 - **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
 - **numer** (jeden z poniższych):
-    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
-    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7**,
+    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
+    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#rocznice-poswiecenia-kosciolow-wiecej-notatek).
 
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_k_rocznice_poswiecenia_kosciolow.pdf).
@@ -42,6 +42,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ## <span id="rocznice-poswiecenia-kosciolow-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
 - **Miejscowość i nazwę kościoła** z podkreśloną nazwą powiązanego z wyzwaniem patrona lub święta.
+- **Numer** zaproszonego Patrona Obrońcy - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońca</span>](patroni_obroncy.md), np. **A24**.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---

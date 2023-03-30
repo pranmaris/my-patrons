@@ -44,8 +44,8 @@ Zanotuj sobie:
 - **datę** przejścia Drogi Krzyżowej (najlepiej z dniem tygodnia),
 - **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
 - **numer** (jeden z poniższych):
-    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
-    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7**,
+    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
+    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#drogi-krzyzowe-wiecej-notatek).
 
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_vb_drogi_krzyzowe.pdf).

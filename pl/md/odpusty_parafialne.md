@@ -26,8 +26,8 @@ Zanotuj sobie:
 - **datę** Sumy Odpustowej (najlepiej z dniem tygodnia),
 - **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
 - **numer** (jeden z poniższych):
-    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">T</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
-    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">T</span> Święta</span>](swieta.md), np. **B7**,
+    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
+    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#odpusty-parafialne-wiecej-notatek).
 
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_g_odpusty_parafialne.pdf).
@@ -51,6 +51,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ## <span id="odpusty-parafialne-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
 - **Miejscowość i nazwę kościoła** z podkreśloną nazwą powiązanego z odpustem patrona lub święta.
+- **Numer** zaproszonego Patrona Obrońcy - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońca</span>](patroni_obroncy.md), np. **A24**.
 - Zaznaczenie czy **odmówiono modlitwę** w intencjach papieskich - postaw dowolny znaczek (np. „✅”).
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 

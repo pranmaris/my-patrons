@@ -22,7 +22,7 @@
 - [<span><span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span></span>](patroni_oredownicy.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">N</span> Cmentarze</span></span>](cmentarze.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">R</span> Zakony Patronów</span></span>](zakony_patronow.md)
-- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VC</span> Msze Chrzcielne</span></span> - wersja robocza ...](msze_chrzcielne.md)
+- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VC</span> Msze Chrzcielne</span></span>](msze_chrzcielne.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VD</span> Msze Małżeńskie</span></span> - wersja robocza ...](msze_malzenskie.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VE</span> Msze Pogrzebowe</span></span> - wersja robocza ...](msze_pogrzebowe.md)
 - [<span><span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span></span>](biali_patroni.md)
