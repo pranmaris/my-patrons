@@ -24,12 +24,12 @@ W <span class="selected-day-info">wybranym dniu</span>:
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#drogi-krzyzowe-wiecej-informacji).
 ## <span id="drogi-krzyzowe-modlitwa">Modlitwa</span>
-W <span class="selected-day-info">wybranym dniu</span>, jeśli **w rozważaniach** nie napisano inaczej:
-- **podejdź** do pierwszej lub kolejnej stacji Drogi Krzyżowej,
+W <span class="selected-day-info">wybranym dniu</span>, **przy każdej stacji**, jeśli **w rozważaniach** nie napisano inaczej:
 - przeczytaj **numer** i **tytuł stacji**,
 - uklęknij i przeczytaj poniższą **modlitwę**:
 > Kłaniamy Ci się, Jezu Chryste i błogosławimy Tobie.  
 > Żeś przez Krzyż swój święty świat odkupić raczył.
+- możesz **wstać** (przy dwunastej stacji upamiętniającej śmierć Chrystusa wiele osób klęczy także podczas rozważań),
 - przeczytaj **rozważania stacji**,
 - na końcu, **powiedz**:
 > Zmiłuj się nad nami, Panie.  
@@ -59,7 +59,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ---
 
 ## <span id="drogi-krzyzowe-wiecej-informacji">Więcej informacji</span>
-- Jeśli miejsce Drogi Krzyżowej jest pod wezwaniem kilku patronów, którzy są już naszymi **Patronami Obrońcami**, musimy wybrać **tylko jednego** z nich do przejścia każdej,
+- Jeśli miejsce odbycia Drogi Krzyżowej jest pod wezwaniem kilku patronów, którzy są już naszymi **Patronami Obrońcami**, musimy wybrać **tylko jednego** z nich do przejścia każdej,
 - Dla zbiorczych **świąt** tytularnych miejsca Drogi Krzyżowej, zadanie **wystarczy wykonać raz**, np. w kościele _„pw. Świętej Rodziny”_ (jeśli oczywiście mamy już odkryte to święto).
 ## <span id="drogi-krzyzowe-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:

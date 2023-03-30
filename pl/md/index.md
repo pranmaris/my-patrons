@@ -20,7 +20,7 @@
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">K</span> Rocznice Poświęcenia Kościołów</span></span>](rocznice_poswiecenia_kosciolow.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VB</span> Drogi Krzyżowe</span></span>](drogi_krzyzowe.md)
 - [<span><span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span></span>](patroni_oredownicy.md)
-- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">N</span> Cmentarze</span></span> - wersja robocza ...](cmentarze.md)
+- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">N</span> Cmentarze</span></span>](cmentarze.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">R</span> Zakony Patronów</span></span> - wersja robocza ...](zakony_patronow.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VC</span> Msze Chrzcielne</span></span> - wersja robocza ...](msze_chrzcielne.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VD</span> Msze Małżeńskie</span></span> - wersja robocza ...](msze_malzenskie.md)
