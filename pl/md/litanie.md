@@ -5,6 +5,7 @@ W <span class="selected-day-info">wybranym dniu</span> odmówić w kościele, z 
 ## Wybór
 Wybierz:
 - **patrona**, który **jest Twoim Białym Patronem**, czyli ma status w kolorze: <span class="status status-white">białym</span>,
+- **litanię** do wybranego patrona, którą chcesz odmówić,
 - dowolną **świątynię rzymskokatolicką**, w której odmówisz litanię.
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span> odmów, będąc w wybranym kościele, litanię do **wybranego patrona**, razem z kapłanem i innymi wiernymi.

@@ -27,7 +27,7 @@
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VE</span> Msze Pogrzebowe</span></span>](msze_pogrzebowe.md)
 - [<span><span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span></span>](biali_patroni.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">L</span> Szkaplerze</span></span> - wersja robocza ...](szkaplerze.md)
-- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">Q</span> Nowenny</span></span></span> - wersja robocza ...](nowenny.md)
+- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">Q</span> Nowenny</span></span></span>](nowenny.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VF</span> Litanie</span></span></span>](litanie.md)
 - [Jak odkrywać święta?](jak_odkrywac_swieta.md)
 - [<span><span class="status status-list"><span class="status status-white">B</span> Święta</span></span>](swieta.md)
