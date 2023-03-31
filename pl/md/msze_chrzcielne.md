@@ -7,6 +7,8 @@ Wybierz:
 - **patrona**, który **jest już Twoim Patronem Orędownikiem**, czyli ma status w kolorze: <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowym</span> albo <span class="status status-white">białym</span>,
 - **Mszę św.**, na której odbędzie się **chrzest**,
 - **ochrzczoną osobę**, posiadającą **choć jedno imię** wybranego patrona, która na tej Mszy będzie ochrzczona.
+## Limit
+Dla **wybranej osoby** można wybrać tylko **jednego patrona**!
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span> osobiście (nie online!) weź udział we **Mszy św. chrzcielnej**, na której **ochrzczona została** wybrana osoba.
 
@@ -33,9 +35,10 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 
 ## <span id="msze-chrzcielne-wiecej-informacji">Więcej informacji</span>
 - **Nigdy nie zapominaj o modlitwie** za wszystkie ochrzczone osoby - nawet te, dla których nie możesz sprostać temu wyzwaniu!
-- Jeżeli patron ma więcej imion lub dodatkowo imiona zakonne, możesz modlić się za osoby **o każdym posiadanym imieniu** tego patrona. Przykładowo, **Święta Faustyna Kowalska** to tak naprawdę siostra **Maria Faustyna** posiadająca jeszcze świeckie imię **Helena** i dla wszystkich tych imion możesz wykonać to wyzwanie modląc się przez wstawiennistwo tej Świętej.
+- Jeżeli patron ma więcej imion lub dodatkowo imiona zakonne, możesz modlić się za osoby **o którymkolwiek posiadanym imieniu** tego patrona. Przykładowo, **Święta Faustyna Kowalska** to tak naprawdę siostra **Maria Faustyna** posiadająca jeszcze świeckie imię **Helena** i dla wszystkich tych imion możesz wykonać to wyzwanie modląc się przez wstawiennistwo tej Świętej.
 - Możesz modlić się za osoby, których **kolejne imię** pasuje do patrona, np. za **Stanisława Jana** możesz pomodlić się przez wstawiennictwo **św. Jana od Krzyża**.
 - **Pasujące imiona**, to nie tylko identyczne imiona patrona, ale także jego **odmiany w innych językach** i **dla drugiej płci**, np. każdy święty lub błogosławiony **Henryk** to patron wszystkich osób mających imię: Henryk, Henryka, Henrietta, Henri, Enrique, itp.
+- Jeśli na jednej Mszy jest **ochrzczonych więcej osób**, możemy wykonać **dla każdej z nich osobne wyzwanie**, każdą powierzając innemu lub temu samemu patronowi.
 ## <span id="msze-chrzcielne-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
 - Informacje o **Mszy św. chrzcielnej** (jeśli nie zostały już zapisane gdzie indziej):
