@@ -6,18 +6,18 @@ W <span class="selected-day-info">wybranym dniu</span>, na **Mszy św. chrzcieln
 Wybierz:
 - **patrona**, który **jest już Twoim Patronem Orędownikiem**, czyli ma status w kolorze: <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowym</span> albo <span class="status status-white">białym</span>,
 - **Mszę św.**, na której odbędzie się **chrzest**,
-- **ochrzczoną osobę**, posiadającą **choć jedno imię** wybranego patrona.
+- **ochrzczoną osobę**, posiadającą **choć jedno imię** wybranego patrona, która na tej Mszy będzie ochrzczona.
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span> osobiście (nie online!) weź udział we **Mszy św. chrzcielnej**, na której **ochrzczona została** wybrana osoba.
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#msze-chrzcielne-wiecej-informacji).
 ## Modlitwa
-W <span class="selected-day-info">wybranym dniu</span>, **za pośrednictwem patrona**, odmów dowolną modlitwę za ochrzczoną osobę, np.: _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„[imię patrona], módl się za Twoim imiennikiem”_.
+W <span class="selected-day-info">wybranym dniu</span>, **za pośrednictwem patrona**, odmów dowolną modlitwę za tę ochrzczoną osobę, np.: _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„[imię patrona], módl się za nami”_.
 ## Notatki
 Zanotuj sobie:
 - kolejny **numer** Mszy chrzcielnej, np. VC1, VC2, VC3, ...,
 - **datę** Mszy chrzcielnej (najlepiej z dniem tygodnia),
-- **wszystkie imiona** ochrzczonej osoby (można podkreślić wspólne imiona z patronem),
+- **wszystkie** podane na Mszy **imiona** ochrzczonej osoby (można podkreślić wspólne imiona z patronem),
 - **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**),
 - **numer** wybranego Patrona Orędownika - jako odnośnik do listy [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md), np. **U24** (dla czytelności listy można także wpisać jego **nazwę**),
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#msze-chrzcielne-wiecej-notatek).
@@ -29,7 +29,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 
 ---
 # Udało się! Za pośrednictwem patrona pomodliłeś się za ochrzczoną osobę!
-### Patron na pewno z radością ją wesprze!
+### Patron na pewno z radością ją wesprze na jej drodze do zbawienia!
 
 ## <span id="msze-chrzcielne-wiecej-informacji">Więcej informacji</span>
 - **Nigdy nie zapominaj o modlitwie** za wszystkie ochrzczone osoby - nawet te, dla których nie możesz sprostać temu wyzwaniu!

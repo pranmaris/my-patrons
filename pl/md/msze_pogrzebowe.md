@@ -1,32 +1,49 @@
 # <span class="status status-list"><span class="status status-list">VE</span> Msze Pogrzebowe</span>
-<br />
+---
+## Cel
+W <span class="selected-day-info">wybranym dniu</span>, na **Mszy św. pogrzebowej**, pomodlić się za wstawiennictwem **Patrona Orędownika** za zmarłą osobę o jego **imieniu** lub **nazwisku**.
+## Wybór
+Wybierz:
+- **patrona**, który **jest już Twoim Patronem Orędownikiem**, czyli ma status w kolorze: <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowym</span> albo <span class="status status-white">białym</span>,
+- **Mszę św.**, która odbędzie się przed lub po pogrzebie, tzw. **pogrzebową**,
+- **zmarłą osobę**, posiadającą **choć jedno imię lub nazwisko** wybranego patrona, której dotyczy ta Msza.
+## Zadanie główne
+W <span class="selected-day-info">wybranym dniu</span> osobiście (nie online!) weź udział we **Mszy św. pogrzebowej**, dotyczącej wybranej osoby.
 
-<span class="status status-title">Wymagany status patrona:</span> już wkrótce ...
-<br />
+Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#msze-pogrzebowe-wiecej-informacji).
+## Modlitwa
+W <span class="selected-day-info">wybranym dniu</span>, **za pośrednictwem patrona**, odmów dowolną modlitwę za tę zmarłą osobę, np.: _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wieczny odpoczynek”_ i _„[imię patrona], módl się za nami”_.
+## Notatki
+Zanotuj sobie:
+- kolejny **numer** Mszy pogrzebowej, np. VE1, VE2, VE3, ...,
+- **datę** Mszy pogrzebowej (najlepiej z dniem tygodnia),
+- **wszystkie** podane na Mszy **imiona i nazwiska** zmarłej osoby (można podkreślić wspólne z patronem),
+- **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**),
+- **numer** wybranego Patrona Orędownika - jako odnośnik do listy [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md), np. **U24** (dla czytelności listy można także wpisać jego **nazwę**),
+- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#msze-pogrzebowe-wiecej-notatek).
 
-<span class="status status-title">Limity:</span> już wkrótce ...
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_ve_msze_pogrzebowe.pdf).
 <br />
-
-<span class="status status-title">Opis zadania:</span> już wkrótce ...
 <br />
-
-<span class="status status-title">Kroki:</span> już wkrótce ...
-<br />
-
-<span class="status status-title">To zadanie możesz wykonać tylko jeden raz:</span> już wkrótce ...
-<br />
-
-<span class="status status-title">Co musisz zanotować [🖶](wszystkie_materialy_do_pobrania.md):</span> już wkrótce ...
 <br />
 
 ---
-### <div class="colored centered">już wkrótce ...</div>
+# Udało się! Za pośrednictwem patrona pomodliłeś się za zmarłą osobę!
+### Najcenniejszą rzeczą jaką możemy ofiarować zmarłym nie są kwiaty czy łzy, a modlitwa!
+
+## <span id="msze-pogrzebowe-wiecej-informacji">Więcej informacji</span>
+- **Nigdy nie zapominaj o modlitwie** za wszystkie zmarłe osoby - nawet te, dla których nie możesz sprostać temu wyzwaniu!
+- Jeżeli patron ma więcej imion, nazwisk lub dodatkowo imiona zakonne, możesz modlić się za osoby **o każdym posiadanym imieniu i nazwisku** tego patrona. Przykładowo, **Święta Faustyna Kowalska** to tak naprawdę siostra **Maria Faustyna** posiadająca jeszcze świeckie imię **Helena** i dla wszystkich tych imion i nazwiska możesz wykonać to wyzwanie modląc się przez wstawiennistwo tej Świętej.
+- Możesz modlić się za osoby, których **kolejne imię** pasuje do patrona, np. za **Stanisława Jana** możesz pomodlić się przez wstawiennictwo **św. Jana od Krzyża**.
+- **Pasujące imiona**, to nie tylko identyczne imiona patrona, ale także jego **odmiany w innych językach** i **dla drugiej płci**, np. każdy święty lub błogosławiony **Henryk** to patron wszystkich osób mających imię: Henryk, Henryka, Henrietta, Henri, Enrique, itp. **Nazwiska**, poza odmianą (Kowalski/Kowalska) **muszą być takie same**!
+## <span id="msze-pogrzebowe-wiecej-notatek">Więcej notatek</span>
+Jeśli chcesz, możesz zanotowac także:
+- Informacje o **Mszy św. pogrzebowej** (jeśli nie zostały już zapisane gdzie indziej):
+    - **godzinę rozpoczęcia Mszy św.**,
+    - **miejsce Mszy św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
+    - **kapłanów odprawiających Mszę św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M13+M2+M?,** gdy Mszę koncelebrowały osoby o numerach: M13 (celebransa wpisuj na początku) i M2 oraz jeden kapłan nieznany lub spoza naszej tej listy.
+- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
-<span class="status status-title">Szczegóły:</span> już wkrótce ...
-
-<span class="status status-title">Co możesz zanotować dodatkowo:</span> już wkrótce ...
-
----
-[Powrót do patronów - orędowników](patroni_oredownicy.md)  
+[Powrót do Patronów Orędowników](patroni_oredownicy.md)  
 [Powrót do głównego menu](index.md)

@@ -13,7 +13,7 @@ W <span class="selected-day-info">wybranym dniu</span>:
 - przy każdym takim znalezionym grobie:
     - **zatrzymaj się** na chwilę,
     - **pomyśl** o tej zmarłej osobie, ile miała lat, kim mogła być, w jakich latach żyła i gdzie się teraz może znajdować,
-    - **odmów** w jej intencji: _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wieczny odpoczynek”_ i _„[imię patrona], módl się za tą duszą”_.
+    - **odmów** w jej intencji: _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wieczny odpoczynek”_ i _„[imię patrona], módl się za nami”_.
 
 **UWAGA!** Wyzwanie można uznać za wykonane także wtedy, gdy **po przejściu całego cmentarza** uda Ci się znaleźć **choćby tylko jeden** pasujący grób!
 
