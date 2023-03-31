@@ -44,7 +44,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - Jeśli jedna **Msza św. pogrzebowa** dotyczy **więcej osób**, możemy wykonać **dla każdej z nich osobne wyzwanie**, każdą powierzając innemu lub temu samemu patronowi.
 ## <span id="msze-pogrzebowe-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
-- Zaznaczenie czy **wzięto udział w ceremonii pogrzebowej** wybranego zmarłego - postaw dowolny znaczek (np. „✅”).
+- Zaznaczenie czy **wzięto udział w ceremonii pogrzebowej** wybranego zmarłego - postaw dowolny znaczek (np. „☑” lub „☒”).
 - Informacje o **Mszy św. pogrzebowej** (jeśli nie zostały już zapisane gdzie indziej):
     - **godzinę rozpoczęcia Mszy św.**,
     - **miejsce Mszy św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,

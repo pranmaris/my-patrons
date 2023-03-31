@@ -5,7 +5,7 @@ W <span class="selected-day-info">wybranym dniu</span> **wykonać** dowolną pra
 ## Wybór
 Wybierz:
 - **patrona**, który **jest już Twoim Patronem Opiekunem**, czyli ma status w kolorze: <span class="status status-orange">pomarańczowym</span>, <span class="status status-yellow">żółtym</span>, <span class="status status-green">zielonym</span>, <span class="status status-indigo">indygo</span> albo <span class="status status-white">białym</span>,
-- **rodzaj pracy**: może to być rysunek, obraz, rzeźba, wyklejanka, witraż, itp.
+- **rodzaj pracy**: może to być rysunek, obraz, ikona, rzeźba, wyklejanka, witraż, itp.
 ## Limit
 Maksymalnie jedna **praca plastyczna** z każdym patronem! Każda kolejna nie będzie już nowym wyzwaniem.
 ## Zadanie główne
