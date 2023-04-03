@@ -24,10 +24,11 @@ Maksymalnie jedno **zaproszenie wspólnie z określoną drugą osobą** w miesi�
 W <span class="selected-day-info">wybranym dniu</span>:
 - **spotkaj się** (nie online!) **z drugą osobą** w jakimś sprzyjającym miejscu,
 - **potwierdźcie sobie**, których Patronów Orędowników Ty i druga osoba zamierzacie zaraz zaprosić,
-- **uklęknijcie razem**, jeśli Wasze zdrowie pozwala i **wykonajcie kolejne kroki** opisane poniżej.
+- **uklęknijcie obok siebie** przed Krzyżem, Najświętszym Sakramentem lub Tabernakulum,
+- **wykonajcie razem kolejny krok**: [MODLITWA](#patroni-oredownicy-modlitwa)!
 
 **UWAGA!** Patronów Orędowników **muszą zaprosić obydwie osoby razem**!
-## Modlitwa
+## <span id="patroni-oredownicy-modlitwa">Modlitwa</span>
 W <span class="selected-day-info">wybranym dniu</span> **odmówcie razem** następującą modlitwę, zwracając się kolejno do wybranych przez Was patronów (np.: „Błogosławiona Karolino Kózko”, „Święty Marcinie z Tours”, „Wszyscy Święci”):
 
 Najpierw **pierwsza osoba mówi sama** do wybranego przez siebie patrona:
