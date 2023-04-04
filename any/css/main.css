@@ -59,8 +59,9 @@ iframe#my-patrons-for-today, iframe#my-patrons-simplified-list-for-today {
 #header-languages a {
   color: rgb(0, 200, 200);
 }
-footer a, footer a:hover {
+header a, header a:hover, footer a, footer a:hover {
   color: rgb(0, 200, 200);
+  text-decoration: none;
 }
 .page-content a {
   color: rgb(0, 85, 85);
