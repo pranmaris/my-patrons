@@ -29,8 +29,10 @@ Stacjami **Drogi Krzyżowej** są:
 ---
 ## Zadanie
 W <span class="selected-day-info">piątek Wielkiego Postu</span> weź udział w **Nabożeństwie Drogi Krzyżowej** w dowolnym kościele lub innym miejscu, gdzie jest prawnie założona taka droga.
+
+**UWAGA!** Jako **pełny udział** w tym nabożeństwie można potraktować uczestnictwo np. we **wszystkich 7 Drogach Krzyżowych** jednego Wielkiego Postu.
 ## Notatki
-Jeśli chcesz, możesz zanotowac sobie swój **udział w tym nabożeństwie** (np. w pierwszym roku lub każdy):
+Jeśli chcesz, możesz zanotowac sobie:
 - **informację**, która to jest Droga Krzyżowa w aktualnym Wielkim Poście,
 - **datę** odbycia Drogi Krzyżowej,
 - dodatkowe **informacje** na temat tego nabożeństwa:
@@ -38,6 +40,8 @@ Jeśli chcesz, możesz zanotowac sobie swój **udział w tym nabożeństwie** (n
   - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem** nabożeństwa, np. **C2**,
   - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) z **kapłanem** prowadzącym, np. **M22**,
 - **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_i_nabozenstwa_cd.pdf).
 
 ---
 [Powrót do nabożeństw](jak_uczestniczyc_w_nabozenstwach.md)  

@@ -1,6 +1,33 @@
 # <span class="status status-list"><span class="status status-list">ID</span> Nabożeństwo Gorzkich Żalów</span>
 ---
-### już wkrótce ...
+Gorzkie Żale są głównie polskim nabożeństwem pasyjnym, w którym rozważamy **Mękę Jezusa Chrystusa**, a to przywodzi nam refleksję nad naszą grzesznością, potrzebą pokuty, czy nawrócenia. Nabożeństwo odprawiane jest najczęściej w kolejne **niedziele Wielkiego Postu**, choć także np. w czasie Triduum Paschalnego. Składa się ono z **trzech części**, których każda jest odprawiana cyklicznie - dwukrotnie w Wielkim Poście:
+- **część 1:** I i IV Niedziela Wielkiego Postu,
+- **część 2:** II i V Niedziela Wielkiego Postu
+- **część 3:** III i VI Niedziela Wielkiego Postu.
+
+<br />
+<br />
+<br />
+
+---
+### Dzięki rozważaniom Męki Jezusa, wyraźniej ujrzysz swoją grzeszność i sens Twojej walki o czystość serca!
+
+---
+## Zadanie
+W <span class="selected-day-info">niedzielę Wielkiego Postu</span> (lub inny dzień) weź udział w **Nabożeństwie Gorzkich Żalów** w dowolnym kościele.
+
+**UWAGA!** Jako **pełny udział** w tym nabożeństwie można potraktować uczestnictwo np. we wszystkich **3 częściach Gorzkich Żalów** kolejno.
+## Notatki
+Jeśli chcesz, możesz zanotowac sobie:
+- **informację**, która to jest część Gorzkich Żalów,
+- **datę** uczestniczenia w nabożeństwie,
+- dodatkowe **informacje** na temat tego nabożeństwa:
+  - **godzinę** rozpoczęcia,
+  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem** nabożeństwa, np. **C2**,
+  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) z **kapłanem** prowadzącym lub mówiącym kazanie pasyjne, np. **M22**,
+- **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_i_nabozenstwa_cd.pdf).
 
 ---
 [Powrót do nabożeństw](jak_uczestniczyc_w_nabozenstwach.md)  

@@ -44,7 +44,7 @@
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">IA</span> Nabożeństwo IX Pierwszych Piątków Miesiąca</span></span>](nabozenstwo_ix_pierwszych_piatkow_miesiaca.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">IB</span> Nabożeństwo V Pierwszych Sobót Miesiąca</span></span>](nabozenstwo_v_pierwszych_sobot_miesiaca.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">IC</span> Nabożeństwo Drogi Krzyżowej</span></span>](nabozenstwo_drogi_krzyzowej.md)
-- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">ID</span> Nabożeństwo Gorzkich Żalów</span></span> - wersja robocza ...](nabozenstwo_gorzkich_zalow.md)
+- [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">ID</span> Nabożeństwo Gorzkich Żalów</span></span>](nabozenstwo_gorzkich_zalow.md)
 - [Pozostałe listy](pozostale_listy.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">＊</span> Przypisy</span></span>](przypisy.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">C</span> Miejsca</span></span>](miejsca.md)
