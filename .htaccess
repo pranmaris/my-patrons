@@ -6,7 +6,7 @@
 
   RewriteCond %{REQUEST_FILENAME} !-f
 
-  RewriteRule ^favicon\.ico$ /any/images/ico/favicon.ico [R=301,L]
+  RewriteRule ^favicon\.ico$ /any/ico/favicon.ico [R=301,L]
   RewriteRule ^[^.]*$ /any/html/index.html [L]
 </IfModule>
 

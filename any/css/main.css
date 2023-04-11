@@ -2,7 +2,7 @@ body {
   margin: 0;
   height: 100%;
   background-color: black;
-  background: url('/any/images/jpg/background.jpg') no-repeat center center fixed;
+  background: url('/any/jpg/background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -183,12 +183,10 @@ header a, header a:hover, footer a, footer a:hover {
 
 
 
-svg {
+.svg-image {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(81%) saturate(4142%) hue-rotate(106deg) brightness(107%) contrast(106%); /* rgb(0,255,255) */
   width: 30px;
   height: 30px;
-}
-.bi {
-  fill: rgb(0, 255, 255);
 }
 
 .background-photo-attribution {
