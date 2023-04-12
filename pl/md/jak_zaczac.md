@@ -4,8 +4,8 @@
 Cytując św. Augustyna: _„Gdzie Bóg jest na pierwszym miejscu, tam wszystko jest na swoim miejscu”_. **Udział** w inicjatywie _„Moich Patronów”_ **zacznij od jednorazowego wyzwania**: [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md).
 ## <span id="jak-zaczac-wlasna-kolekcja-kart">Własna kolekcja kart</span>
 Jeśli chcesz, **możesz** już teraz rozpocząć budowę **własnej talii kart**. Na początku będą to:
-- 1 karta nadrzędna z **Trójcą Przenajświętszą**, która dzieli się na ...
-- 3 osobne karty z trzema **Osobami Boskimi**: Bogiem Ojcem, Jezusem Chrystusem i Duchem Świętym.
+- 1 karta z **Trójcą Przenajświętszą**, by móc rozważać Boga w Jego pełni,
+- 3 karty z trzema **Osobami Boskimi**: Bogiem Ojcem, Jezusem Chrystusem i Duchem Świętym.
 
 Wszystkie karty są zawsze **dostępne za darmo** do samodzielnego wydrukowania na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space/cards).
 
@@ -34,7 +34,7 @@ Aby dowiedzieć się więcej, zobacz [jak odkrywać święta](jak_odkrywac_swiet
 ## Wyzwania
 Sprostaj wielu **dalszym wyzwaniom** dla świąt i patronów. Dzięki temu zwiększy się **Twoja wiedza** i **ranga kart patronów** w Twojej talii!
 ## <span id="jak-zaczac-osiagniecia">Osiągnięcia</span>
-Jeśli masz ambicje zdobywać **większe osiągnięcia**, zapraszaj patronów należących do jednolitych grup tematycznych, np.: dwunastu Apostołów, wszystkich Doktorów Kościoła lub ... papieży.
+Jeśli masz ambicje zdobywać **większe osiągnięcia**, zapraszaj patronów należących do jednolitych grup tematycznych, np.: dwunastu Apostołów, wszystkich Doktorów Kościoła czy papieży!
 
 Aby dowiedzieć się więcej, zobacz [jak zdobywać osiągnięcia](jak_zdobywac_osiagniecia.md).
 ## <span id="jak-zaczac-nabozenstwa">Nabożeństwa</span>

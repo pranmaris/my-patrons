@@ -184,9 +184,15 @@ header a, header a:hover, footer a, footer a:hover {
 
 
 .svg-image {
-  filter: brightness(0) saturate(100%) invert(93%) sepia(81%) saturate(4142%) hue-rotate(106deg) brightness(107%) contrast(106%); /* rgb(0,255,255) */
   width: 30px;
   height: 30px;
+  filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7461%) hue-rotate(145deg) brightness(107%) contrast(109%); /* #000000 */
+}
+.svg-image-header {
+  filter: brightness(0) saturate(100%) invert(98%) sepia(2%) saturate(394%) hue-rotate(356deg) brightness(118%) contrast(100%); /* #FFFFFF */
+}
+a .svg-image {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(81%) saturate(4142%) hue-rotate(106deg) brightness(107%) contrast(106%); /* #00FFFF */
 }
 
 .background-photo-attribution {
