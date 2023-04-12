@@ -74,7 +74,7 @@ Teraz już możesz dla odkrytego **Święta** sprostać wyzwaniom:
 - Orientacyjny kalendarz liturgiczny dla Polski wraz z linkami do kalendarzy diecezjalnych można znaleźć na stronie [GCatholic.org](http://www.gcatholic.org/calendar/2023/PL-pl.htm).
 ## <span id="swieta-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
-- **Numer patrona**, który został zaproszony jako **Patron Obrońca** w tym dniu, np. **A26**.
+- **Numer patrona**, który został zaproszony jako **Patron Obrońca** w tym dniu - odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A26**.
 - Informację, na podstawie jakiego **kryterium** wybraliśmy święto w tym dniu roku. Mogą to być poniższe skróty:
   - **MRxxxx** - Martyrologium Rzymskie (xxxx to rok wydania), np. dla 2004 roku może to być **MR2004:7**, co oznacza siódmy wpis na <span class="selected-day-info">ten dzień</span> roku, **MR2004:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
   - **KAL** - kalendarz liturgiczny, gdy święto było na jego podstawie jawnie wspomniane na Mszy, w której uczestniczyliśmy,

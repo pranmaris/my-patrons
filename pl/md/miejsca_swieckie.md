@@ -6,6 +6,8 @@ W <span class="selected-day-info">wybranym dniu</span> **odwiedzić** miejsce ś
 Wybierz:
 - **patrona**, który **jest już Twoim Patronem Opiekunem**, czyli ma status w kolorze: <span class="status status-orange">pomarańczowym</span>, <span class="status status-yellow">żółtym</span>, <span class="status status-green">zielonym</span>, <span class="status status-indigo">indygo</span> albo <span class="status status-white">białym</span>,
 - **miejsce świeckie** posiadające tego patrona w swojej nazwie, np. ulica, skwer, plac, uczelnia, apteka, sklep, dzielnica, miejscowość, region, państwo, itp.
+## Limit
+Maksymalnie **jedno miejsce danego typu w danej miejscowości**! Przykładowo w danym mieście możesz potraktować jako wyzwanie odwiedziny mostu i ulicy danego patrona, ale już nie dwie różne apteki czy wydziały uczelni pod jego patronatem.
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span> **odwiedź** miejsce świeckie z wybranym patronem w nazwie.
 
@@ -30,7 +32,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 <br />
 
 ---
-# Udało się! Odwiedziłeś patrona!
+# Udało się! Odwiedziłeś miejsce patrona!
 ### Poproś go o poprowadzenie Cię do kolejnych jego miejsc!
 ---
 
