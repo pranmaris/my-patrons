@@ -19,7 +19,7 @@ Chronologicznie według roku uznania za Doktora Kościoła (w nawiasie rok śmie
 1. od 1729 - Piotr Chryzolog (+450)
 1. od 1754 - Leon Wielki (+461)
 1. od 1828 - Piotr Damiani (+1072)
-1. od 1830 - Bernard z Clairvaux (1153)
+1. od 1830 - Bernard z Clairvaux (+1153)
 1. od 1851 - Hilary z Poitiers (+367)
 1. od 1871 - Alfons Liguori (+1787)
 1. od 1877 - Franciszek Salezy (+1622)
