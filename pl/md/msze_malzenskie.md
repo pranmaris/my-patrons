@@ -45,6 +45,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - Jeśli jedna **Msza św. małżeńska** dotyczy **więcej par**, możemy wykonać **dla każdej z nich osobne wyzwanie**, każdą niezależnie powierzając innym lub tym samym patronom.
 ## <span id="msze-malzenskie-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
+- Zaznaczenie czy **odmówiono modlitwę** za małżonków - postaw dowolny znaczek (np. „✅”).
 - Informacje o **Mszy św. małżeńskiej** (jeśli nie zostały już zapisane gdzie indziej):
     - **godzinę rozpoczęcia Mszy św.**,
     - **miejsce Mszy św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,

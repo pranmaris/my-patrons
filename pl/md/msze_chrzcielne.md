@@ -41,6 +41,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - Jeśli na jednej Mszy jest **ochrzczonych więcej osób**, możemy wykonać **dla każdej z nich osobne wyzwanie**, każdą powierzając innemu lub temu samemu patronowi.
 ## <span id="msze-chrzcielne-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
+- Zaznaczenie czy **odmówiono modlitwę** za osobę ochrzczoną - postaw dowolny znaczek (np. „✅”).
 - Informacje o **Mszy św. chrzcielnej** (jeśli nie zostały już zapisane gdzie indziej):
     - **godzinę rozpoczęcia Mszy św.**,
     - **miejsce Mszy św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,

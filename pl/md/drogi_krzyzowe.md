@@ -26,9 +26,9 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#drogi-krzyzowe-wie
 ## <span id="drogi-krzyzowe-modlitwa">Modlitwa</span>
 W <span class="selected-day-info">wybranym dniu</span>, **przy każdej stacji**, jeśli **w rozważaniach** nie napisano inaczej:
 - przeczytaj **numer** i **tytuł stacji**,
-- uklęknij i przeczytaj poniższą **modlitwę**:
+- uklęknij i przeczytaj poniższą **modlitwę** (druga linijka do wyboru):
 > Kłaniamy Ci się, Jezu Chryste i błogosławimy Tobie.  
-> Żeś przez Krzyż swój święty świat odkupić raczył.
+> Żeś przez Krzyż i Mękę swoją świat odkupić raczył / Żeś przez Krzyż swój święty świat odkupić raczył.
 - możesz **wstać** (przy dwunastej stacji upamiętniającej śmierć Chrystusa wiele osób klęczy także podczas rozważań),
 - przeczytaj **rozważania stacji**,
 - na końcu, **powiedz**:
