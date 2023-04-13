@@ -9,7 +9,7 @@ Wybierz:
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span>:
 - **nawiedź** wybrany cmentarz pamiętając o szacunku należnym temu miejscu i pochowanym tu osobom,
-- **odszukaj** groby **co najmniej dziesięciu** pochowanych osób, którzy posiadali **którekolwiek imię** lub **nazwisko** wybranego patrona,
+- **odszukaj** groby **co najmniej dziesięciu** pochowanych osób, którzy posiadali **którekolwiek imię** wybranego patrona,
 - przy każdym takim znalezionym grobie:
     - **zatrzymaj się** na chwilę,
     - **pomyśl** o tej zmarłej osobie, ile miała lat, kim mogła być, w jakich latach żyła i gdzie się teraz może znajdować,
@@ -40,7 +40,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - W jednym dniu, podczas jednej wizyty na cmentarzu można wykonać **dowolną liczbę wyzwań** dla wielu **Patronów Orędowników**, pamiętąc że:
   - W **każdej chwili** można wykonywać to wyzwanie tylko dla **jednego patrona jednocześnie**.
   - W każdej chwili **można przerwać** wykonywanie rozpoczętego wyzwania dla **wybranego patrona** i **rozpocząć** wykonywanie nowego wyzwania **dla innego patrona** od początku, ale gdy zechcesz znów wykonywać to wyzwanie dla **pierwszego patrona**, musisz znowu zacząć **od początku**!
-- Jeżeli patron ma więcej imion lub dodatkowo imiona zakonne, możesz modlić się za osoby **o którymkolwiek posiadanym imieniu i nazwisku** tego patrona. Przykładowo, **Święta Faustyna Kowalska** to tak naprawdę siostra **Maria Faustyna** posiadająca jeszcze świeckie imię **Helena** i dla wszystkich tych imion możesz wykonać to wyzwanie modląc się przez wstawiennistwo tej Świętej.
+- Jeżeli patron ma więcej imion lub dodatkowo imiona zakonne, możesz modlić się za osoby **o którymkolwiek posiadanym imieniu** tego patrona. Przykładowo, **Święta Faustyna Kowalska** to tak naprawdę siostra **Maria Faustyna** posiadająca jeszcze świeckie imię **Helena** i dla wszystkich tych imion możesz wykonać to wyzwanie modląc się przez wstawiennistwo tej Świętej.
 - Możesz modlić się za zmarłych, których **kolejne imię** pasuje do patrona, np. za duszę **Stanisława Jana** możesz pomodlić się przez wstawiennictwo **św. Jana od Krzyża**.
 - **Pasujące imiona**, to nie tylko identyczne imiona patrona, ale także jego **odmiany w innych językach** i **dla drugiej płci**, np. każdy święty lub błogosławiony **Henryk** to patron wszystkich osób mających imię: Henryk, Henryka, Henrietta, Henri, Enrique, itp.
 ## <span id="cmentarze-wiecej-notatek">Więcej notatek</span>

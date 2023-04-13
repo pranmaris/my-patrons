@@ -9,7 +9,7 @@ Wybierz:
 
 **UWAGA!** Nowenna powinna być odmówiona w ściśle określonym czasie tak, by **dziewiąty dzień** jej odmawiania przypadł **w dniu poprzedzającym święto lub wspomninienie** patrona!
 ## Zadanie główne
-Na co najmniej **9 dni** przed <span class="selected-day-info">wybranym dniem</span>, który jest świętem lub dniem wspomnienia patrona (z zatem dniem zakończenia tego wyzwania):
+Na co najmniej **9 dni** przed <span class="selected-day-info">wybranym dniem</span>, który jest świętem lub dniem wspomnienia patrona (a zatem dniem zakończenia tego wyzwania):
 - oblicz, którego dnia musisz rozpocząć odmawianie nowenny, aby zakończyć ją **w dniu poprzedzającym święto lub wspomnienie patrona** (czyli dzień przed <span class="selected-day-info">wybranym dniem</span>),
 - każdego dnia odmawiaj **całą nowennę** do wybranego patrona **zgodnie z harmonogramem**! Jeśli opuścisz którykolwiek dzień, sprostanie wyzwaniu **będzie niemożliwe**, choć warto byś mimo to dokończył wtedy tę nowennę!
 

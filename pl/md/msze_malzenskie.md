@@ -1,14 +1,14 @@
 # <span class="status status-list"><span class="status status-list">VD</span> Msze Małżeńskie</span>
 ---
 ## Cel
-W <span class="selected-day-info">wybranym dniu</span>, na **Mszy św. małżeńskiej**, pomodlić się za wstawiennictwem dwóch **Patronów Orędowników** za **dwoje małżonków** biorących ślub, którzy posiadają **imiona** lub **nazwiska** tych patronów.
+W <span class="selected-day-info">wybranym dniu</span>, na **Mszy św. małżeńskiej**, pomodlić się za wstawiennictwem dwóch **Patronów Orędowników** za **dwoje małżonków** biorących ślub, którzy posiadają **imiona** tych patronów.
 ## Wybór
 Wybierz:
 - **dwóch patronów**, którzy **są już Twoimi Patronami Orędownikami**, czyli mają status w kolorze: <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowym</span> albo <span class="status status-white">białym</span>,
 - **Mszę św.**, na której będzie udzielony **Sakrament małżeństwa**,
-- **kobietę i mężczyznę**, biorących na tej Mszy ślub, posiadających **choć jedno imię lub nazwisko** wybranego dla każdego z nich patrona.
+- **kobietę i mężczyznę**, biorących na tej Mszy ślub, posiadających **choć jedno imię** wybranego dla każdego z nich patrona.
 
-**UWAGA!** Zarówno dla mąża, jak i żony **musisz wybrać innego** pasującego patrona!
+**UWAGA!** Zarówno dla mąża, jak i żony **musisz wybrać innego** pasującego **Patrona Orędownika**!
 ## Limit
 Dla **każdej wybranej osoby** można wybrać tylko **jednego patrona**!
 ## Zadanie główne
@@ -39,10 +39,10 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 
 ## <span id="msze-malzenskie-wiecej-informacji">Więcej informacji</span>
 - **Nigdy nie zapominaj o modlitwie** za wszystkie pary przyjmujące **Sakrament małżeństwa** - nawet te, dla których nie możesz sprostać temu wyzwaniu!
-- Jeżeli patron ma więcej imion, nazwisk lub dodatkowo imiona zakonne, możesz modlić się za osoby **o którymkolwiek posiadanym imieniu i nazwisku** tego patrona. Przykładowo, **Święta Faustyna Kowalska** to tak naprawdę siostra **Maria Faustyna** posiadająca jeszcze świeckie imię **Helena** i dla wszystkich tych imion i nazwiska możesz wykonać to wyzwanie modląc się przez wstawiennistwo tej Świętej.
+- Jeżeli patron ma więcej imion lub dodatkowo imiona zakonne, możesz modlić się za osoby **o którymkolwiek posiadanym imieniu** tego patrona. Przykładowo, **Święta Faustyna Kowalska** to tak naprawdę siostra **Maria Faustyna** posiadająca jeszcze świeckie imię **Helena** i dla wszystkich tych imion możesz wykonać to wyzwanie modląc się przez wstawiennistwo tej Świętej.
 - Możesz modlić się za osoby, których **kolejne imię** pasuje do patrona, np. za **Stanisława Jana** możesz pomodlić się przez wstawiennictwo **św. Jana od Krzyża**.
-- **Pasujące imiona**, to nie tylko identyczne imiona patrona, ale także jego **odmiany w innych językach** i **dla drugiej płci**, np. każdy święty lub błogosławiony **Henryk** to patron wszystkich osób mających imię: Henryk, Henryka, Henrietta, Henri, Enrique, itp. **Nazwiska**, poza odmianą (Kowalski/Kowalska) **muszą być takie same**!
-- Jeśli jedna **Msza św. małżeńska** dotyczy **więcej par**, możemy wykonać **dla każdej z nich osobne wyzwanie**, każdą powierzając innym lub tym samym patronom.
+- **Pasujące imiona**, to nie tylko identyczne imiona patrona, ale także jego **odmiany w innych językach** i **dla drugiej płci**, np. każdy święty lub błogosławiony **Henryk** to patron wszystkich osób mających imię: Henryk, Henryka, Henrietta, Henri, Enrique, itp.
+- Jeśli jedna **Msza św. małżeńska** dotyczy **więcej par**, możemy wykonać **dla każdej z nich osobne wyzwanie**, każdą niezależnie powierzając innym lub tym samym patronom.
 ## <span id="msze-malzenskie-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
 - Informacje o **Mszy św. małżeńskiej** (jeśli nie zostały już zapisane gdzie indziej):
