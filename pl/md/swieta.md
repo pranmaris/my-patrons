@@ -13,7 +13,7 @@ Wybrane **święto musi spełniać także** choć jedno poniższe kryterium:
 - w <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez nas święta** (tytularnego tego miejsca).
 
 Poniższa [strona](https://pl.patrons.space/dates/my-patrons) już niedługo powinna Ci pomóc w wyborze **święta na <span class="selected-day-info">ten dzień</span>**! Znajdziesz je w nawiasie po nazwie patrona, którego dotyczą. Stale pracujemy nad tym, aby znalazły się na niej wszystkie święta spełniające pierwsze kryterium powyższej listy.
-<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/my-patrons?content-only=1"></iframe>
+<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/feasts?content-only=1"></iframe>
 
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span> zaproś jednego dowolnego **Patrona Obrońcę**. Nie musi on być związany z odkrywanym świętem.
