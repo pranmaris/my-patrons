@@ -14,7 +14,7 @@ Wykonanie zadania [<span class="status status-list"><span class="status status-b
 1. Pozwół **drugiej osobie wybrać patrona Orędownika** analogicznie jak Ty wybrałeś w pkt 2.
 
 Poniższa [strona](https://pl.patrons.space/dates/my-patrons-intercessors) już niedługo powinna Ci pomóc w wyborze **patrona na podstawie dat drugiej osoby**! Stale pracujemy nad tym, aby znaleźli się na niej wszyscy patroni spełniający dwa ostatnie kryteria listy z pkt 2.
-<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/patrons-and-immovable-feasts?content-only=1"></iframe>
+<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-patrons-and-immovable-feasts?content-only=1"></iframe>
 
 ## Limit
 Maksymalnie jeden nowy **Patron Orędownik** dziennie!

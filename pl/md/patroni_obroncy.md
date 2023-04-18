@@ -15,7 +15,7 @@ Wybrany **patron musi spełniać także** choć jedno poniższe kryterium:
 - w <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez nas patrona** (tytularnego tego miejsca).
 
 Poniższa [strona](https://pl.patrons.space/dates/my-patrons) już niedługo powinna Ci pomóc w wyborze **patrona na <span class="selected-day-info">ten dzień</span>**! Stale pracujemy nad tym, aby znaleźli się na niej wszyscy patroni spełniający trzy początkowe kryteria powyższej listy.
-<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/patrons-and-feasts?content-only=1"></iframe>
+<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-patrons-and-feasts?content-only=1"></iframe>
 
 ## Limit
 Maksymalnie jeden nowy **Patron Obrońca** dziennie!
