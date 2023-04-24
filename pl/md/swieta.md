@@ -7,13 +7,13 @@ Wykonanie zadania [<span class="status status-list"><span class="status status-b
 ## Wybór
 Wybierz święto, którego jeszcze **nie odkryłeś**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>.
 
-Wybrane **święto musi spełniać także** choć jedno poniższe kryterium:
-- święto jest wpisane dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Watykan, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku),
-- święto **zostało ogłoszone na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**,
-- w <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez nas święta** (tytularnego tego miejsca).
-
-Poniższa [strona](https://pl.patrons.space/dates/my-patrons) już niedługo powinna Ci pomóc w wyborze **święta na <span class="selected-day-info">ten dzień</span>**! Znajdziesz je w nawiasie po nazwie patrona, którego dotyczą. Stale pracujemy nad tym, aby znalazły się na niej wszystkie święta spełniające pierwsze kryterium powyższej listy.
+Wybrane **święto musi spełniać także** co najmniej jedno poniższe kryterium:
+1. Na poniższej [stronie](https://pl.patrons.space/dates/list-of-feasts), **święto znajduje się na liście** dla <span class="selected-day-info"> wybranego dnia</span>:  
+_**UWAGA!** Stale pracujemy, aby poniżej dostępne były wszystkie święta spełniające kolejne kryterium wyboru: pkt 2. [**Wesprzyj nas!**](https://pl.gratiadei.org/#wesprzyj-nas)_
 <iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-feasts?content-only=1"></iframe>
+1. Święto jest wpisane dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Papieża, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku),
+1. Święto **dotyczy całego Kościoła** Rzymskokatolickiego i **zostało ogłoszone na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**,
+1. W <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez nas święta** (tytularnego tego miejsca).
 
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span> zaproś jednego dowolnego **Patrona Obrońcę**. Nie musi on być związany z odkrywanym świętem.
@@ -78,7 +78,8 @@ Jeśli chcesz, możesz zanotowac także:
 - Informację, na podstawie jakiego **kryterium** wybraliśmy święto w tym dniu roku. Mogą to być poniższe skróty:
   - **MRxxxx** - Martyrologium Rzymskie (xxxx to rok wydania), np. dla 2004 roku może to być **MR2004:7**, co oznacza siódmy wpis na <span class="selected-day-info">ten dzień</span> roku, **MR2004:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
   - **KAL** - kalendarz liturgiczny, gdy święto było na jego podstawie jawnie wspomniane na Mszy, w której uczestniczyliśmy,
-  - **ODP** - suma odpustu parafialnego wybranego święta.
+  - **ODP** - suma odpustu parafialnego wybranego święta,
+  - **INN** - inny dzień, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space).
 - Zaznaczenie czy **odmówiono modlitwę** związaną ze świętem - postaw dowolny znaczek (np. „✅”).
 - Zaznaczenie czy **przeczytano notkę** lub **obejrzano film** o święcie - postaw dowolny znaczek (np. „✅”).
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.

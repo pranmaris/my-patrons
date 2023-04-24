@@ -7,15 +7,17 @@ Wykonanie zadania [<span class="status status-list"><span class="status status-b
 ## Wybór
 Wybierz patrona, który **nie jest jeszcze Twoim obrońcą**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>, <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span> albo <span class="status status-yellow">żółtym</span>.
 
-Wybrany **patron musi spełniać także** choć jedno poniższe kryterium:
-- patron jest wpisany dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Watykan, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku),
-- patron zmarł w <span class="selected-day-info">wybranym dniu</span> roku, który jest znany i jednoznaczny - rok śmierci nie musi być pewny,
-- w <span class="selected-day-info">wybranym dniu</span> tego roku odbędzie się **kanonizacja** lub **beatyfikacja** patrona,
-- patron **został ogłoszony na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**,
-- w <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez nas patrona** (tytularnego tego miejsca).
+Wybrany **patron musi spełniać także co najmniej jedno** poniższe kryterium:
+1. Na poniższej [stronie](https://pl.patrons.space/dates/list-of-patrons-and-feasts), **patron znajduje się na liście** dla <span class="selected-day-info"> wybranego dnia</span>:  
+_**UWAGA!** Stale pracujemy, aby poniżej dostępni byli wszyscy patroni spełniający kolejne kryteria wyboru: pkt 2, 3, 4 i 5. [**Wesprzyj nas!**](https://pl.gratiadei.org/#wesprzyj-nas)_
+<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-patrons-and-feasts?content-only=1"></iframe>  
+1. Patron jest wpisany dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Papieża, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku),
+1. Patron **zmarł** w znanym i jednoznacznym <span class="selected-day-info">dniu</span> roku, nawet gdy sam rok śmierci jest niepewny,
+1. Patron **zmarł o nieznanej godzinie w nocy** z poprzedzającego na <span class="selected-day-info">wybrany dzień</span>, którego pełna data jest znana,
+1. W <span class="selected-day-info">wybranym dniu</span> tego roku odbędzie się **kanonizacja** lub **beatyfikacja** patrona,
+1. Patron **został ogłoszony na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**,
+1. W <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez nas patrona** (tytularnego tego miejsca).
 
-Poniższa [strona](https://pl.patrons.space/dates/my-patrons) już niedługo powinna Ci pomóc w wyborze **patrona na <span class="selected-day-info">ten dzień</span>**! Stale pracujemy nad tym, aby znaleźli się na niej wszyscy patroni spełniający trzy początkowe kryteria powyższej listy.
-<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-patrons-and-feasts?content-only=1"></iframe>
 
 ## Limit
 Maksymalnie jeden nowy **Patron Obrońca** dziennie!
@@ -108,7 +110,8 @@ Jeśli chcesz, możesz zanotowac także:
   - **BEA** - dzień beatyfikacji patrona (tylko w roku, w którym się odbyła),
   - **KAN** - dzień kanonizacji patrona (tylko w roku, w którym się odbyła),
   - **KAL** - kalendarz liturgiczny, gdy patron był na jego podstawie jawnie wspomniany na mszy, w której uczestniczyliśmy,
-  - **ODP** - suma odpustu parafialnego wybranego patrona.
+  - **ODP** - suma odpustu parafialnego wybranego patrona,
+  - **INN** - inny dzień wspomnienia, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space).
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
 - Zaznaczenie czy **przeczytano fragment Pisma Świętego** - postaw dowolny znaczek (np. „✅”) lub wpisz który rozdział (wersety) zostały przeczytane.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
