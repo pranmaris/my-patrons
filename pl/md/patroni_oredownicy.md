@@ -117,7 +117,8 @@ Teraz już możesz dla zaproszonego **Patrona Orędownika** sprostać wyzwaniom:
   - **DKA:DD.MM** - dzień roku uzyskania Sakramentu Kapłaństwa.
 - (do powyższego - jeśli wybrano opcję z datą) Informację, na podstawie jakiego **źródła** wybraliśmy patrona w tym dniu roku. Mogą to być poniższe skróty:
   - **MRxxxx** - Martyrologium Rzymskie (xxxx to rok wydania), np. dla 2004 roku może to być **MR2004:7**, co oznacza siódmy wpis na określony dzień roku,
-  - **DSM** - dzień roku, w którym zmarł wybrany patron.
+  - **DSM** - dzień roku, w którym zmarł wybrany patron,
+  - **INN** - inny dzień, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space).
 - Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
 - Zaznaczenie czy **odmówiono różaniec** za drugą osobę - postaw dowolny znaczek (np. „✅”) - na całości lub poszczególnych częściach różańca.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
