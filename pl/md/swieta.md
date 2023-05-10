@@ -30,6 +30,7 @@ Odmów następującą modlitwę dla **każdego odkrywanego** w <span class="sele
 > Amen.
 ## Zadanie dodatkowe
 **Przeczytaj jakąkolwiek notkę** o odkrywanych świętach lub **obejrzyj o nich film**, aby lepiej poznać ich znaczenie i historię.
+## Notatki
 Zanotuj sobie:
 - kolejny **numer** święta, np. B1, B2, B3, ...,
 - **datę** odkrycia święta (najlepiej z dniem tygodnia),
