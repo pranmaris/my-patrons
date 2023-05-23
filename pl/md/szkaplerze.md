@@ -9,7 +9,7 @@ Wybrany **szkaplerz**:
 - **określa wymagania stanu**, które muszą być przez Ciebie spełniane!
 ## Wybór
 Wybierz:
-- **patrona**, który **jest Twoim Białym Patronem**, czyli ma status w kolorze: <span class="status status-white">białym</span>,
+- **patrona**, który **jest Twoim Patronem Przyjacielem**, czyli ma status w kolorze: <span class="status status-white">białym</span>,
 - poprawnie nałożony kiedykolwiek na Ciebie **szkaplerz**, którego nosisz.
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span>:
@@ -25,7 +25,7 @@ Zanotuj sobie:
 - kolejny **numer** szkaplerza, np. L1, L2, L3, ...,
 - **nazwę** szkaplerza,
 - **datę** wykonania wyzwania (najlepiej z dniem tygodnia),
-- **numer** patrona - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md), np. **P16**,
+- **numer** patrona - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md), np. **P16**,
 - **numer** święta (tylko, jeśli szkaplerz go dotyczy) - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#szkaplerze-wiecej-notatek).
 
@@ -50,5 +50,5 @@ Jeśli chcesz, możesz zanotowac także:
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
-[Powrót do białych patronów](biali_patroni.md)  
+[Powrót do patronów przyjaciół](patroni_przyjaciele.md)  
 [Powrót do głównego menu](index.md)

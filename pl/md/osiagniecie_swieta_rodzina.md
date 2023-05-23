@@ -11,7 +11,7 @@ To osiągnięcie obejmuje **członków Świętej Rodziny**: Jezusa, Maryję i J�
 Zanotuj sobie:
 - kolejny **numer** wpisu (np. 1, 2, ...),
 - **nazwę** patrona lub święta,
-- **numery patrona** na czterech listach: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md), np. **T34**, **A103**, **U12**, **P7**.
+- **numery patrona** na czterech listach: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md), np. **T34**, **A103**, **U12**, **P7**.
 - **numer tego święta** na liście: [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B10**.
 
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_yd_swieta_rodzina_ye_ewangelisci_yf_aniolowie.pdf).

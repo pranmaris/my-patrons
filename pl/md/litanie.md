@@ -4,7 +4,7 @@
 W <span class="selected-day-info">wybranym dniu</span> odmówić w kościele, z kapłanem i innymi wiernymi **litanię** do patrona.
 ## Wybór
 Wybierz:
-- **patrona**, który **jest Twoim Białym Patronem**, czyli ma status w kolorze: <span class="status status-white">białym</span>,
+- **patrona**, który **jest Twoim Patronem Przyjacielem**, czyli ma status w kolorze: <span class="status status-white">białym</span>,
 - **litanię** do wybranego patrona, którą chcesz odmówić,
 - dowolną **świątynię rzymskokatolicką**, w której odmówisz litanię.
 ## Zadanie główne
@@ -17,7 +17,7 @@ Zanotuj sobie:
 - **nazwę** odmówionej litanii,
 - **datę** odmówienia litanii (najlepiej z dniem tygodnia),
 - **numer** miejsca dla kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**),
-- **numer** patrona - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md), np. **P16**,
+- **numer** patrona - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md), np. **P16**,
 - **numer** święta (tylko, jeśli litania go dotyczy) - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#litanie-wiecej-notatek).
 
@@ -37,5 +37,5 @@ Jeśli chcesz, możesz zanotowac także:
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
-[Powrót do białych patronów](biali_patroni.md)  
+[Powrót do patronów przyjaciół](patroni_przyjaciele.md)  
 [Powrót do głównego menu](index.md)

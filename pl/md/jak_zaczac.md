@@ -24,7 +24,7 @@ Teraz możesz już powiększać grono swoich **Patronów**:
 - **Obrońców** (kolor niebieski),
 - **Orędowników** (kolor czerwony),
 
-by po przejściu tych trzech etapów każdy patron miał jeszcze szansę stać się ostatecznie Twoim **Białym Patronem**!
+by po przejściu tych trzech etapów każdy patron miał jeszcze szansę stać się ostatecznie Twoim **Patronem Przyjacielem**!
 
 Aby dowiedzieć się więcej, zobacz [jak zapraszać patronów](jak_zapraszac_patronow.md).
 ## <span id="jak-zaczac-swieta">Święta</span>

@@ -4,7 +4,7 @@
 Odmówić całą **nowennę do patrona** i uczestniczyć we Mszy św. w **dniu jego święta lub wspomnienia**.
 ## Wybór
 Wybierz:
-- **patrona**, który **jest Twoim Białym Patronem**, czyli ma status w kolorze: <span class="status status-white">białym</span>,
+- **patrona**, który **jest Twoim Patronem Przyjacielem**, czyli ma status w kolorze: <span class="status status-white">białym</span>,
 - **nowennę** do wybranego patrona, którą chcesz odmówić.
 
 **UWAGA!** Nowenna powinna być odmówiona w ściśle określonym czasie tak, by **dziewiąty dzień** jej odmawiania przypadł **w dniu poprzedzającym święto lub wspomninienie** patrona!
@@ -17,13 +17,13 @@ Na co najmniej **9 dni** przed <span class="selected-day-info">wybranym dniem</s
 ## Zadanie dodatkowe
 Oprócz odmówienia nowenny konieczne jest jeszcze, by:
 - w <span class="selected-day-info">wybranym dniu</span> święta lub wspomnienia patrona, **zaprosić jednego dowolnego Patrona Obrońcę** (nie musi on być związany z patronem nowenny). Chodzi tu o Twój **pełny udział we Mszy św. w dniu święta lub wspomnienia patrona**, do którego odmówiłeś nowennę!
-- **przystąpić do Sakramentu Spowiedzi** w <span class="selected-day-info">wybranym dniu</span> lub dowolnym dniu trwania nowenny
+- **przystąpić do Sakramentu Spowiedzi** w <span class="selected-day-info">wybranym dniu</span> lub dowolnym dniu trwania nowenny!
 ## Notatki
 Zanotuj sobie:
 - kolejny **numer** odmówionej nowenny, np. Q1, Q2, Q3, ...,
 - **nazwę** odmówionej nowenny,
 - **datę** święta lub wspomnienia patrona nowenny (najlepiej z dniem tygodnia),
-- **numer** patrona - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>](biali_patroni.md), np. **P16**,
+- **numer** patrona - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md), np. **P16**,
 - **numer** święta (tylko, jeśli litania go dotyczy) - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#nowenny-wiecej-notatek).
 
@@ -46,5 +46,5 @@ Jeśli chcesz, możesz zanotowac także:
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
-[Powrót do białych patronów](biali_patroni.md)  
+[Powrót do patronów przyjaciół](patroni_przyjaciele.md)  
 [Powrót do głównego menu](index.md)

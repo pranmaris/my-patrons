@@ -1,7 +1,7 @@
-# <span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span>
+# <span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>
 ---
 ## Cel
-W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do grona Twoich **Białych Patronów**!
+W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do grona Twoich **Patronów Przyjaciół**!
 ## Wymaganie
 Wybrany **patron musi być jednocześnie** Twoim:
 - **opiekunem** - patrz [<span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span>](patroni_opiekunowie.md),
@@ -12,7 +12,7 @@ Wybrany **patron musi być jednocześnie** Twoim:
 ## Wybór
 Wybierz patrona, który **jest jednocześnie Twoim opiekunem, obrońcą i orędownikiem**, czyli ma status w kolorze: <span class="status status-indigo">indygo</span>.
 ## Limit
-Maksymalnie jeden nowy **Biały Patron** dziennie!
+Maksymalnie jeden nowy **Patron Przyjaciel** dziennie!
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span>:
 - udaj się przed **Najświętszy Sakrament** w **dowolnej** parafii, kościele czy innym miejscu,
@@ -32,16 +32,12 @@ W <span class="selected-day-info">wybranym dniu</span>:
 > Jezu Chryste, z Duchem Świętym, w chwale Boga Ojca.  
 > Amen.
 - **trwaj przed Najświętszym Sakramentem** sumarycznie przez co najmniej **jedną godzinę**! Nie musisz się już modlić i klęczeć, patrz na **Jezusa w Hostii**, adoruj Go, ciesz się Jego obecnością, przyjmuj Jego dary, rozmyślaj o Nim, o wybranym **patronie**, słuchaj natchnień.
-
-**UWAGA**! Pamiętaj, że:
-- Czas spędzony na adoracji **możesz rozdzielić** na więcej dni po minimum **15 minut**.
-- Aby zaprosić **kolejnego** Białego Patrona, **musisz najpierw zakończyć adorację Najświętszego Sakramentu** dla poprzedniego **minimum dzień wcześniej**!
 ## Modlitwa
 **Na zakończenie całej godzinnej adoracji**, odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiony Bartolo Longo”, „Święta Faustyno Kowalska”, „Święci Młodziankowie”):
 > Św./Bł. **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
 > dziś w obecności Jezusa ukrytego w Najświętszym Sakramencie  
-> pragnę uroczyście powitać Ciebie/Was w gronie moich Białych Patronów,  
-> w gronie moich najbliższych przyjaciół i powierników.  
+> pragnę uroczyście powitać Ciebie/Was w gronie moich Patronów Przyjaciół,  
+> najbliższych memu sercu, z którymi chcę dalej pogłębiać swoją relację!  
 > Proszę o opiekę, modlitwę, obronę przed działaniem złego,  
 > o orędowanie za mną przed Tronem Trójcy Przenajświętszej,  
 > o umocnienie w moim sercu wszelkich cnót Twoich/Waszych  
@@ -50,13 +46,13 @@ W <span class="selected-day-info">wybranym dniu</span>:
 > Amen.  
 ## Notatki
 Zanotuj sobie:
-- kolejny **numer** Białego Patrona, np. P1, P2, P3, ...,
-- **datę** zaproszenia patrona (najlepiej z dniem tygodnia) - to dzień rozpoczęcia adoracji,
+- kolejny **numer** Patrona Przyjaciela, np. P1, P2, P3, ...,
+- **datę** zaproszenia patrona (najlepiej z dniem tygodnia),
 - **nazwę** patrona,
 - **rok śmierci** patrona (by potem uniknąć wątpliwości o którego chodzi),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#biali-patroni-wiecej-notatek).
+- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#patroni-przyjaciele-wiecej-notatek).
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_p_biali_patroni.pdf).
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_p_patroni_przyjaciele.pdf).
 ## Status
 | Poprzedni status zaproszonego patrona | zmienił się na | nowy status |
 |---:|:---:|:---|
@@ -68,23 +64,22 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
 <br />
 
 ---
-# Udało się! Zaprosiłeś **Białego Patrona**!
+# Udało się! Zaprosiłeś **Patrona Przyjaciela**!
 ### Pośród tego grona na pewno znajdziesz kilku takich z duchowością pasującą do Twojej, którzy mają szansę stać się Twoimi ulubionymi!
 ---
 
 ## Dalsze wyzwania
-Teraz już możesz dla zaproszonego **Białego Patrona** sprostać wyzwaniom:
+Teraz już możesz dla zaproszonego **Patrona Przyjaciela** sprostać wyzwaniom:
 - [<span class="status status-list"><span class="status status-list">L</span> Szkaplerze</span>](szkaplerze.md)
 
 - [<span class="status status-list"><span class="status status-list">Q</span> Nowenny</span>](nowenny.md)
 
 - [<span class="status status-list"><span class="status status-list">VF</span> Litanie</span>](litanie.md)
-## <span id="biali-patroni-wiecej-informacji">Więcej informacji</span>
+## <span id="patroni-przyjaciele-wiecej-informacji">Więcej informacji</span>
 - Tego zadania **nie można łączyć** z **adoracją** na liście [<span class="status status-list"><span class="status status-list">F</span> Adoracje</span>](adoracje.md)!
-## <span id="biali-patroni-wiecej-notatek">Więcej notatek</span>
+## <span id="patroni-przyjaciele-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
 - Informację czy patron jest **święty** czy **błogosławiony**.
-- **Datę zakończenia adoracji**, jeśli rozdzielono ją na kilka dni.
 - **Numery** tego patrona z list: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) i [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md), np. **T17**, **A35**, **U7**.
 - **Informacje o miejscu adoracji** - słownie lub jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C42**,
 - Zaznaczenie czy **odmówiono modlitwę** _„Chwała na wysokości Bogu”_ - postaw dowolny znaczek (np. „✅”).
@@ -92,5 +87,5 @@ Jeśli chcesz, możesz zanotowac także:
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
-[Powrót do zapraszania patronów](jak_zapraszac_patronow.md#jak-zapraszac-patronow-bialy-patron)  
+[Powrót do zapraszania patronów](jak_zapraszac_patronow.md#jak-zapraszac-patronow-patron-przyjaciel)  
 [Powrót do głównego menu](index.md)

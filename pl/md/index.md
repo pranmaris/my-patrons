@@ -25,7 +25,7 @@
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VC</span> Msze Chrzcielne</span></span>](msze_chrzcielne.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VD</span> Msze Małżeńskie</span></span>](msze_malzenskie.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VE</span> Msze Pogrzebowe</span></span>](msze_pogrzebowe.md)
-- [<span><span class="status status-list"><span class="status status-white">P</span> Biali Patroni</span></span>](biali_patroni.md)
+- [<span><span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span></span>](patroni_przyjaciele.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">L</span> Szkaplerze</span></span>](szkaplerze.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">Q</span> Nowenny</span></span></span>](nowenny.md)
 - [&nbsp;&nbsp;&nbsp;▶&nbsp;<span><span class="status status-list"><span class="status status-list">VF</span> Litanie</span></span></span>](litanie.md)
