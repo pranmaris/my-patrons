@@ -37,10 +37,10 @@ Sprostaj wielu **dalszym wyzwaniom** dla świąt i patronów. Dzięki temu zwię
 Jeśli masz ambicje zdobywać **większe osiągnięcia**, zapraszaj patronów należących do jednolitych grup tematycznych, np.: dwunastu Apostołów, wszystkich Doktorów Kościoła czy papieży!
 
 Aby dowiedzieć się więcej, zobacz [jak zdobywać osiągnięcia](jak_zdobywac_osiagniecia.md).
-## <span id="jak-zaczac-nabozenstwa">Nabożeństwa</span>
-Warto przyjrzeć się też znanym **nabożeństwom** Kościoła, by zanotować kiedy i w jakich wzięliśmy już udział w przeszłości lub by zwyczajnie zacząć praktykować wybrane z nich.
+## <span id="jak-zaczac-nabozenstwa-i-inne-obrzedy">Nabożeństwa i inne obrzędy</span>
+Warto przyjrzeć się też znanym **nabożeństwom i innym obrzędom** Kościoła, by zanotować kiedy i w jakich wzięliśmy już udział w przeszłości lub by zwyczajnie zacząć praktykować wybrane z nich.
 
-Aby dowiedzieć się więcej, zobacz [jak uczestniczyć w nabożeństwach](jak_uczestniczyc_w_nabozenstwach.md),
+Aby dowiedzieć się więcej, zobacz [jak uczestniczyć w nabożeństwach i innych obrzędach](jak_uczestniczyc_w_nabozenstwach_i_innych_obrzedach.md).
 ## <span id="jak-zaczac-pozostale">Pozostałe</span>
 W każdym momencie możesz także skorzystać z [pozostałych list](pozostale_listy.md), aby zapisywać informacje o miejscach, osobach i innych używanych wielokrotnie elementach.
 <br />

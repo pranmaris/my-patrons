@@ -58,5 +58,5 @@ Jeśli chcesz, możesz zanotowac sobie:
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_i_nabozenstwa_ab.pdf).
 
 ---
-[Powrót do nabożeństw](jak_uczestniczyc_w_nabozenstwach.md)  
+[Powrót do nabożeństw i innych obrzędów](jak_uczestniczyc_w_nabozenstwach_i_innych_obrzedach.md)  
 [Powrót do głównego menu](index.md)
