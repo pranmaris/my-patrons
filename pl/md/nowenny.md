@@ -15,7 +15,9 @@ Na co najmniej **9 dni** przed <span class="selected-day-info">wybranym dniem</s
 
 **UWAGA!** Jeśli nowenna odnosi się do **święta** związanego z patronem (np. Nowenna do Matki Boskiej Częstochowskiej), święto to **musi być** przez Ciebie **odkryte**, czyli (podobnie jak patron) posiadać status w kolorze <span class="status status-white">białym</span>!
 ## Zadanie dodatkowe
-W <span class="selected-day-info">wybranym dniu</span> święta lub wspomnienia patrona, **zaproś jednego dowolnego Patrona Obrońcę** (nie musi on być związany z patronem nowenny). Chodzi tu o Twój **pełny udział we Mszy św. w święto lub wspomnienie patrona**, do którego odmówiłeś nowennę!
+Oprócz odmówienia nowenny konieczne jest jeszcze, by:
+- w <span class="selected-day-info">wybranym dniu</span> święta lub wspomnienia patrona, **zaprosić jednego dowolnego Patrona Obrońcę** (nie musi on być związany z patronem nowenny). Chodzi tu o Twój **pełny udział we Mszy św. w dniu święta lub wspomnienia patrona**, do którego odmówiłeś nowennę!
+- **przystąpić do Sakramentu Spowiedzi** w <span class="selected-day-info">wybranym dniu</span> lub dowolnym dniu trwania nowenny
 ## Notatki
 Zanotuj sobie:
 - kolejny **numer** odmówionej nowenny, np. Q1, Q2, Q3, ...,
@@ -39,6 +41,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 Jeśli chcesz, możesz zanotowac także:
 - **Datę** rozpoczęcia odmawiania nowenny (najlepiej z dniem tygodnia).
 - Zaznaczenie, **ile dni nowenny już za Tobą** - postaw dowolny znaczek (np. „✅”) przy kolejnych dniach.
+- Zaznaczenie czy **przystąpiono do Spowiedzi św.** w czasie trwania nowenny - postaw dowolny znaczek (np. „✅”).
 - **Numer patrona**, który został zaproszony jako **Patron Obrońca** w tym dniu - odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A26**.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 

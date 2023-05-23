@@ -12,12 +12,14 @@ W <span class="selected-day-info">wybranym dniu</span>:
 - **odszukaj** groby **co najmniej dziesięciu** pochowanych osób, którzy posiadali **którekolwiek imię** wybranego patrona,
 - przy każdym takim znalezionym grobie:
     - **zatrzymaj się** na chwilę,
-    - **pomyśl** o tej zmarłej osobie, ile miała lat, kim mogła być, w jakich latach żyła i gdzie się teraz może znajdować,
+    - **pomyśl** o tej zmarłej osobie, ile miała lat, w jakich latach żyła i kim mogła być,
     - **odmów** w jej intencji: _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wieczny odpoczynek”_ i _„[imię patrona], módl się za nami”_.
 
 **UWAGA!** Wyzwanie można uznać za wykonane także wtedy, gdy **po przejściu całego cmentarza** uda Ci się znaleźć **choćby tylko jeden** pasujący grób!
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#cmentarze-wiecej-informacji).
+## Zadanie dodatkowe
+**Na końcu**, w dowolnym miejscu, **pomódl się jeszcze za wszystkich imienników wybranego patrona**, analogicznie odmawiając w ich intencji: _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wieczny odpoczynek”_ i _„[imię patrona], módl się za nami”_.
 ## Notatki
 Zanotuj sobie:
 - kolejny **numer** modlitwy za zmarłych na cmentarzu, np. N1, N2, N3, ...,
@@ -45,6 +47,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - **Pasujące imiona**, to nie tylko identyczne imiona patrona, ale także jego **odmiany w innych językach** i **dla drugiej płci**, np. każdy święty lub błogosławiony **Henryk** to patron wszystkich osób mających imię: Henryk, Henryka, Henrietta, Henri, Enrique, itp.
 ## <span id="cmentarze-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
+- Zaznaczenie czy na końcu **odmówiono modlitwę** za wszystkich zmarłych imienników patrona - postaw dowolny znaczek (np. „✅”).
 - **Liczbę znalezionych osób** posiadających imię wybranego patrona.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
