@@ -3,7 +3,7 @@
 - [Dekalog Uczestnika](dekalog_uczestnika.md)
 - [Podstawowe zasady](podstawowe_zasady.md)
 - [Jak zacząć?](jak_zaczac.md)
-- [<span><span class="status status-list"><span class="status status-black">∞</span> Bóg</span></span>](bog.md)
+- [<span><span class="status status-list"><span class="status status-god">∞</span> Bóg</span></span>](bog.md)
 - [<span><span class="status status-list"><span class="status status-list">J</span> Sakramenty</span></span>](sakramenty.md)
 - [Jak zapraszać patronów?](jak_zapraszac_patronow.md)
 - [<span><span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span></span>](patroni_opiekunowie.md)

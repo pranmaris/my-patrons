@@ -3,7 +3,7 @@
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do grona Twoich **opiekunów**.
 ## Wymaganie
-Wykonanie zadania [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md) musisz mieć już za sobą!
+Wykonanie zadania [<span class="status status-list"><span class="status status-god">∞</span> Bóg</span>](bog.md) musisz mieć już za sobą!
 ## Wybór
 Wybierz patrona, który **nie jest jeszcze Twoim opiekunem**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>, <span class="status status-red">czerwonym</span>, <span class="status status-blue">niebieskim</span> albo <span class="status status-violet">fioletowym</span>.
 ## Limit

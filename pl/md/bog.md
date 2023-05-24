@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-black">∞</span> Bóg</span>
+# <span class="status status-list"><span class="status status-god">∞</span> Bóg</span>
 ---
 ## Cel
 **Powierzyć Bogu** cały Twój **udział w inicjatywie _„Moich Patronów”_**, który właśnie się rozpoczyna.

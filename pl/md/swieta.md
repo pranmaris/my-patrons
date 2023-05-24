@@ -3,7 +3,7 @@
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **odkryć nowe święto**.
 ## Wymaganie
-Wykonanie zadania [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md) musisz mieć już za sobą!
+Wykonanie zadania [<span class="status status-list"><span class="status status-god">∞</span> Bóg</span>](bog.md) musisz mieć już za sobą!
 ## Wybór
 Wybierz święto, którego jeszcze **nie odkryłeś**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>.
 

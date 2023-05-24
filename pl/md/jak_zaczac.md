@@ -1,7 +1,7 @@
 # Jak zacząć?
 ---
 ## <span id="jak-zaczac-bog">Bóg</span>
-Cytując św. Augustyna: _„Gdzie Bóg jest na pierwszym miejscu, tam wszystko jest na swoim miejscu”_. **Udział** w inicjatywie _„Moich Patronów”_ **zacznij od jednorazowego wyzwania**: [<span class="status status-list"><span class="status status-black">∞</span> Bóg</span>](bog.md).
+Cytując św. Augustyna: _„Gdzie Bóg jest na pierwszym miejscu, tam wszystko jest na swoim miejscu”_. **Udział** w inicjatywie _„Moich Patronów”_ **zacznij od jednorazowego wyzwania**: [<span class="status status-list"><span class="status status-god">∞</span> Bóg</span>](bog.md).
 ## <span id="jak-zaczac-wlasna-kolekcja-kart">Własna kolekcja kart</span>
 Jeśli chcesz, **możesz** już teraz rozpocząć budowę **własnej talii kart**. Na początku będą to:
 - 1 karta z **Trójcą Przenajświętszą**, by móc rozważać Boga w Jego pełni,

@@ -121,6 +121,10 @@ header a, header a:hover, footer a, footer a:hover {
   border-color: #000000;
   white-space: pre;
 }
+.status-god {
+  background-color: #FFFFFF;
+  color: #F43545;
+}
 .status-black {
   background-color: #000000;
   color: #FFFFFF;
