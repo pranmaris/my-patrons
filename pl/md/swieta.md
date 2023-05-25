@@ -12,7 +12,7 @@ Wybrane **święto musi spełniać także** co najmniej jedno poniższe kryteriu
 _**UWAGA!** Stale pracujemy, aby poniżej dostępne były wszystkie święta spełniające kolejne kryterium wyboru: pkt 2. [**Wesprzyj nas!**](https://pl.gratiadei.org/#wesprzyj-nas)_
 <iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-feasts?content-only=1"></iframe>
 1. Święto jest wpisane dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Papieża, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku),
-1. Święto **dotyczy całego Kościoła** Rzymskokatolickiego i **zostało ogłoszone na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**,
+1. Święto **zostało ogłoszone na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**,
 1. W <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez nas święta** (tytularnego tego miejsca).
 
 ## Zadanie główne
