@@ -1,4 +1,4 @@
-# Jak zapraszać patronów?
+# Jak zapraszać patronów
 ---
 
 **Każdy patron** ma na początku status w kolorze <span class="status status-black">czarnym</span>. W dowolnej kolejności możemy **zaprosić go** na naszego: **opiekuna**, **obrońcę** i **orędownika**.

@@ -1,4 +1,4 @@
-# Jak odkrywać święta?
+# Jak odkrywać święta
 ---
 
 **Odkrywanie świąt** to wykonywanie wyzwań na liście [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md).

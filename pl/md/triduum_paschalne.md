@@ -29,5 +29,5 @@ Jeśli chcesz, możesz zanotowac sobie:
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_i_nabozenstwa_cde.pdf).
 
 ---
-[Powrót do nabożeństw i innych obrzędów](jak_uczestniczyc_w_nabozenstwach_i_innych_obrzedach.md)  
+[Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  
 [Powrót do głównego menu](index.md)

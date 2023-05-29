@@ -1,4 +1,4 @@
-# Jak zdobywać osiągnięcia?
+# Jak zdobywać osiągnięcia
 ---
 
 Osiągnięcia zdobywamy **zapraszając patronów** i **odkrywając święta** z określonych list tematycznych.
