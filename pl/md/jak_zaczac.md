@@ -37,6 +37,10 @@ Sprostaj wielu **dalszym wyzwaniom** dla świąt i patronów. Dzięki temu zwię
 Jeśli masz ambicje zdobywać **większe osiągnięcia**, zapraszaj patronów należących do jednolitych grup tematycznych, np.: dwunastu Apostołów, wszystkich Doktorów Kościoła czy papieży!
 
 Aby dowiedzieć się więcej, zobacz [jak zdobywać osiągnięcia](jak_zdobywac_osiagniecia.md).
+## <span id="jak-zaczac-szczegolne-misje-patronow">Szczególne misje Patronów</span>
+Niezależnie od procesu [zapraszania patronów](jak_zaczac.md#jak-zaczac-patroni), możesz **powierzać im** dodatkowe **szczególne misje**!
+
+Aby dowiedzieć się więcej, zobacz [jak powierzać patronom szczególne misje](jak_powierzac_patronom_szczegolne_misje.md).
 ## <span id="jak-zaczac-nabozenstwa-oraz-inne-akty-poboznosci">Nabożeństwa oraz inne akty pobożności</span>
 Warto przyjrzeć się też znanym **nabożeństwom** Kościoła oraz innym **aktom pobożności**, by zanotować kiedy i w jakich wzięliśmy już udział w przeszłości lub by zwyczajnie zacząć praktykować wybrane z nich.
 

@@ -11,6 +11,7 @@
   - **udział w święcie kościelnym** - np. Przemienienia Pańskiego,
   - **wykonane wyzwania** - np. modlitwa przy relikwiach św. Faustyny,
   - **zdobyte osiągnięcia** - np. udane zaproszenie wszystkich dwunastu Apostołów,
+  - **powierzone szczególne misje patronom** - np. misja Orędownika lub Apostoła,
   - **inne informacje** - np. miejsce Mszy św., w której uczestniczyliśmy.
 - Można skorzystać z gotowych propozycji **list** lub notować sobie wszystko w dowolnym miejscu: na komputerze, kartce, w zeszycie, itp.
 ## O statusach

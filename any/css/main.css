@@ -125,6 +125,10 @@ header a, header a:hover, footer a, footer a:hover {
   background-color: #FFFFFF;
   color: #F43545;
 }
+.status-mission {
+  background-color: #BBBBBB;
+  color: black;
+}
 .status-black {
   background-color: #000000;
   color: #FFFFFF;

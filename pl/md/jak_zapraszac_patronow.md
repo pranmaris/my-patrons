@@ -1,7 +1,7 @@
 # Jak zapraszać patronów
 ---
 
-**Każdy patron** ma na początku status w kolorze <span class="status status-black">czarnym</span>. W dowolnej kolejności możemy **zaprosić go** na naszego: **opiekuna**, **obrońcę** i **orędownika**.
+**Każdy patron** ma na początku status w kolorze <span class="status status-black">czarnym</span>. W dowolnej kolejności możemy **zaprosić go** na naszego: **Opiekuna**, **Obrońcę** i **Orędownika**.
 ## <span id="jak-zapraszac-patronow-patron-opiekun">Patron Opiekun</span>
 Na liście [<span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span>](patroni_opiekunowie.md) zapraszamy wybranego świętego lub błogosławionego do grona naszych patronów i prosimy go, aby został naszym **opiekunem**. Żyjąc tu na ziemi mamy bardzo ograniczone postrzeganie realnego świata. Niczym małe dzieci, wiele nie rozumiemy i nie widzimy, bywamy bezradni i ciągle pakujemy się w kłopoty. **Opieka patronów** może pomóc uchronić nas przed wieloma poranieniami, pozwala nam szybciej podnosić się po upadkach. **Opiekun** chwyta nas czasem za rękę i szybciej przeprowadza przez życiowe zakręty, „wygładzając” wyboje na naszej drodze do zbawienia. Etap <span class="status status-yellow">żółty</span> - kolor ten bywa utożsamiany ze **świętością**, **mądrością** i **wiedzą** - przybliży nam żywoty zapraszanych patronów. Pozwoli także odkryć te bardziej namacalne i materialne ślady ich obecności obok nas, takie jak: relikwie, groby, obrazy i obrazki, rzeźby, cytaty, itp.
 ## <span id="jak-zapraszac-patronow-patron-obronca">Patron Obrońca</span>
@@ -42,6 +42,9 @@ Odmienna kolejność przechodzenie etapów powodować będzie następujące zmia
 - <span class="status status-black">czarny</span> + [<span class="status status-red">**Orędownik**</span>](patroni_oredownicy.md) = <span class="status status-red">czerwony</span> + [<span class="status status-yellow">**Opiekun**</span>](patroni_opiekunowie.md) = <span class="status status-orange">pomarańczowy</span> + [<span class="status status-blue">**Obrońca**</span>](patroni_obroncy.md) = <span class="status status-indigo">indygo</span> + [<span class="status status-white">**Przyjaciel**</span>](patroni_przyjaciele.md) = <span class="status status-white">biały</span>
 
 - <span class="status status-black">czarny</span> + [<span class="status status-red">**Orędownik**</span>](patroni_oredownicy.md) = <span class="status status-red">czerwony</span> + [<span class="status status-blue">**Obrońca**</span>](patroni_obroncy.md) = <span class="status status-violet">fioletowy</span> + [<span class="status status-yellow">**Opiekun**</span>](patroni_opiekunowie.md) = <span class="status status-indigo">indygo</span> + [<span class="status status-white">**Przyjaciel**</span>](patroni_przyjaciele.md) = <span class="status status-white">biały</span>
+
+## Szczególne misje patronów
+**UWAGA!** Niezależnie od koloru statusu każdego patrona, **możesz powierzyć mu** dodatkowe [szczególne misje](jak_powierzac_patronom_szczegolne_misje.md)!
 
 ---
 [Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-patroni)  
