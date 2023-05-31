@@ -29,11 +29,11 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#misje-oredownika-w
 ## Modlitwa
 Najlepiej klęcząc, **odmów następującą modlitwę**, zwracając się do wybranego patrona (np.: „Błogosławiony Albercie Avogardo”, „Święta Joanno de Valois”, „Wszyscy Wierni Zmarli”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
-> ... wkrótce ...  
-> ...  
-> ...  
-> ...  
-> ...  
+> powierzam Tobie/Wam szczególną misję Orędownika,  
+> proszę o dobre natchnienia i motywację,  
+> bym gorliwiej modlił/a się za innych,  
+> którym pragnę pośredniczyć w zapraszaniu Ciebie/Was,  
+> do grona Patronów Orędowników, gdy taka będzie ich wola.  
 > Amen.
 ## Zadanie dodatkowe
 **Pomódl się dodatkowo** do Jezusa i patronów kapliczki, przy której się znajdujesz w intencji dokonanego właśnie powierzenia.
