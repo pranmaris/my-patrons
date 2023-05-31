@@ -27,7 +27,7 @@ W <span class="selected-day-info">wybranym dniu</span> udaj się do dowolnej **p
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#misje-oredownika-wiecej-informacji).
 ## Modlitwa
-Najlepiej klęcząc, **odmów następującą modlitwę**, zwracając się do wybranego patrona (np.: „Błogosławiony Albercie Avogardo”, „Święta Joanno de Valois”, „Wszyscy Wierni Zmarli”):
+Najlepiej klęcząc, **odmów następującą modlitwę**, zwracając się do wybranego patrona (np.: „Błogosławiony Albercie Avogadro”, „Święta Joanno de Valois”, „Wszyscy Wierni Zmarli”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > powierzam Tobie/Wam szczególną misję Orędownika,  
 > proszę o dobre natchnienia i motywację,  
