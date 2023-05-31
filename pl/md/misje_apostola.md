@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-mission">PB</span> Misja Apostoła</span>
+# <span class="status status-list"><span class="status status-mission">PB</span> Misje Apostoła</span>
 ---
 
 Już wkrótce ...

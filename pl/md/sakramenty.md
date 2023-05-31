@@ -20,7 +20,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 
 ---
 ## Więcej informacji
-- Dzięki wypełnieniu tej listy będzie możliwe zaproszenie przez inne osoby **Patrona Orędownika** razem z nami, na liście [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md).
+- Dzięki wypełnieniu listy Sakramentów, będzie możliwe powierzenie przez Ciebie niektórym patronom **misji Orędownika**, patrz lista [<span class="status status-list"><span class="status status-mission">PA</span> Misje Orędownika</span>](misje_oredownika.md).
 ## <span id="sakramenty-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
 - Informację o **miejscu** pierwszego przyjęcia Sakramentu - słownie lub na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**.
