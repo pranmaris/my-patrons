@@ -21,7 +21,7 @@ _**UWAGA!** Stale pracujemy, aby poniżej dostępni byli wszyscy patroni spełni
 
 **UWAGA!** Wspomniane powyżej **dni Twoich urodzin** i **pierwszego przyjęcia przez Ciebie dowolnego Sakramentu** znajdziesz na Twoich listach: [<span class="status status-list"><span class="status status-god">∞</span> Bóg</span>](bog.md) i [<span class="status status-list"><span class="status status-list">J</span> Sakramenty</span>](sakramenty.md).
 ## Zadanie główne
-W <span class="selected-day-info">wybranym dniu</span> udaj się do dowolnej **przydrożnej kapliczki**, przy której jeszcze **nie powierzałeś misji Orędownika żadnemu patronowi**! Kapliczka ta **nie powinna znajdować się na terenie przykościelnym ani cmentarzu**!
+W <span class="selected-day-info">wybranym dniu</span> udaj się do dowolnej **przydrożnej kapliczki**, przy której jeszcze **nie powierzałeś misji Orędownika żadnemu patronowi**! Kapliczka ta **powinna znajdować się „pod gołym niebem”**!
 
 **UWAGA!** Każde powierzenie misji Orędownika **musi się odbyć przy innej przydrożnej kapliczce**, ale **w jednym dniu można powierzyć tę misję wielu różnym patronom**!
 
@@ -32,7 +32,7 @@ Najlepiej klęcząc, **odmów następującą modlitwę**, zwracając się do wyb
 > powierzam Tobie/Wam szczególną misję Orędownika,  
 > proszę o dobre natchnienia i motywację,  
 > bym gorliwiej modlił/a się za innych,  
-> którym pragnę pośredniczyć w zapraszaniu Ciebie/Was,  
+> którym pragnę pomagać w zapraszaniu Ciebie/Was,  
 > do grona Patronów Orędowników, gdy taka będzie ich wola.  
 > Amen.
 ## Zadanie dodatkowe
