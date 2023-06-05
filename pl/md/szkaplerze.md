@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-list">L</span> Szkaplerze</span>
+# <span class="status status-list"><span class="status status-list">VG</span> Szkaplerze</span>
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> wpisać **szkaplerz**, którego posiadasz i nosisz.
@@ -22,14 +22,14 @@ W <span class="selected-day-info">wybranym dniu</span>:
 W <span class="selected-day-info">wybranym dniu</span> uroczyście **odmów modlitwę**, którą codziennie odmawiasz dla tego szkaplerza.
 ## Notatki
 Zanotuj sobie:
-- kolejny **numer** szkaplerza, np. L1, L2, L3, ...,
+- kolejny **numer** szkaplerza, np. VG1, VG2, VG3, ...,
 - **nazwę** szkaplerza,
 - **datę** wykonania wyzwania (najlepiej z dniem tygodnia),
 - **numer** patrona - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md), np. **P16**,
 - **numer** święta (tylko, jeśli szkaplerz go dotyczy) - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#szkaplerze-wiecej-notatek).
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_l_szkaplerze.pdf).
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_vg_szkaplerze.pdf).
 <br />
 <br />
 <br />

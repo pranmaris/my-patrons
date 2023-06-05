@@ -70,11 +70,11 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
 
 ## Dalsze wyzwania
 Teraz już możesz dla zaproszonego **Patrona Przyjaciela** sprostać wyzwaniom:
-- [<span class="status status-list"><span class="status status-list">L</span> Szkaplerze</span>](szkaplerze.md)
-
 - [<span class="status status-list"><span class="status status-list">Q</span> Nowenny</span>](nowenny.md)
 
 - [<span class="status status-list"><span class="status status-list">VF</span> Litanie</span>](litanie.md)
+
+- [<span class="status status-list"><span class="status status-list">VG</span> Szkaplerze</span>](szkaplerze.md)
 ## <span id="patroni-przyjaciele-wiecej-informacji">Więcej informacji</span>
 - Tego zadania **nie można łączyć** z **adoracją** na liście [<span class="status status-list"><span class="status status-list">F</span> Adoracje</span>](adoracje.md)!
 ## <span id="patroni-przyjaciele-wiecej-notatek">Więcej notatek</span>
