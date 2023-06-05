@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-list">IE</span> Triduum Paschalne</span>
+# <span class="status status-list"><span class="status status-worship">LE</span> Triduum Paschalne</span>
 ---
 Triduum Paschalne jest najważniejszym wydarzeniem w Kościele Katolickim, którego istotą jest celebracja męki, śmierci i zmartwychwstania Jezusa.
 
@@ -26,7 +26,7 @@ Jeśli chcesz, możesz zanotowac sobie:
 - zaznaczenie czy **przyjęto Komunię Świętą** - postaw dowolny znaczek (np. „✅”),
 - **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_i_nabozenstwa_cde.pdf).
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_l_nabozenstwa_cde.pdf).
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  

@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-list">IC</span> Nabożeństwo Drogi Krzyżowej</span>
+# <span class="status status-list"><span class="status status-worship">LC</span> Nabożeństwo Drogi Krzyżowej</span>
 ---
 Nabożeństwo Drogi Krzyżowej jest odprawiane w **każdy piątek Wielkiego Postu** (7 razy każdego roku). Składa się z **XIV stacji**, które rozważamy z przeróżnych perspektyw i przez to, współodczuwając z **Jezusem**, w duchowy sposób staramy się towarzyszyć Mu w ostatniej fazie Jego Męki.
 
@@ -41,7 +41,7 @@ Jeśli chcesz, możesz zanotowac sobie:
   - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) z **kapłanem** prowadzącym, np. **M22**,
 - **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_i_nabozenstwa_cd.pdf).
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_l_nabozenstwa_cde.pdf).
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  

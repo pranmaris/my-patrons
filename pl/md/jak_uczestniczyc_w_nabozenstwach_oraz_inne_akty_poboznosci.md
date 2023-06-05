@@ -11,15 +11,15 @@ W tradycji zakorzeniły się też **inne obrzędy i pobożne akty**, które wart
 
 ## Nabożeństwa i inne akty pobożności do wyboru
 Poniższa lista przedstawia nasze propozycje:
-- [<span class="status status-list"><span class="status status-list">IA</span> Nabożeństwo IX Pierwszych Piątków Miesiąca</span>](nabozenstwo_ix_pierwszych_piatkow_miesiaca.md)
+- [<span class="status status-list"><span class="status status-worship">LA</span> Nabożeństwo IX Pierwszych Piątków Miesiąca</span>](nabozenstwo_ix_pierwszych_piatkow_miesiaca.md)
 
-- [<span class="status status-list"><span class="status status-list">IB</span> Nabożeństwo V Pierwszych Sobót Miesiąca</span>](nabozenstwo_v_pierwszych_sobot_miesiaca.md)
+- [<span class="status status-list"><span class="status status-worship">LB</span> Nabożeństwo V Pierwszych Sobót Miesiąca</span>](nabozenstwo_v_pierwszych_sobot_miesiaca.md)
 
-- [<span class="status status-list"><span class="status status-list">IC</span> Nabożeństwo Drogi Krzyżowej</span>](nabozenstwo_drogi_krzyzowej.md)
+- [<span class="status status-list"><span class="status status-worship">LC</span> Nabożeństwo Drogi Krzyżowej</span>](nabozenstwo_drogi_krzyzowej.md)
 
-- [<span class="status status-list"><span class="status status-list">ID</span> Nabożeństwo Gorzkich Żalów</span>](nabozenstwo_gorzkich_zalow.md)
+- [<span class="status status-list"><span class="status status-worship">LD</span> Nabożeństwo Gorzkich Żalów</span>](nabozenstwo_gorzkich_zalow.md)
 
-- [<span class="status status-list"><span class="status status-list">IE</span> Triduum Paschalne</span>](triduum_paschalne.md)
+- [<span class="status status-list"><span class="status status-worship">LE</span> Triduum Paschalne</span>](triduum_paschalne.md)
 
 **UWAGA!** Jeżeli wiesz, co warto by było dodać jeszcze do tej listy, [**skontaktuj**](https://pl.gratiadei.org#kontakt) się z nami!
 

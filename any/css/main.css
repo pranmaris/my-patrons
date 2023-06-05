@@ -129,7 +129,7 @@ header a, header a:hover, footer a, footer a:hover {
   background-color: #BBBBBB;
   color: black;
 }
-.status-black {
+.status-black, .status-worship {
   background-color: #000000;
   color: #FFFFFF;
 }

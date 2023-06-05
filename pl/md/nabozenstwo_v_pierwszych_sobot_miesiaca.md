@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-list">IB</span> Nabożeństwo V Pierwszych Sobót Miesiąca</span>
+# <span class="status status-list"><span class="status status-worship">LB</span> Nabożeństwo V Pierwszych Sobót Miesiąca</span>
 ---
 Nabożeństwo V pierwszych sobót miesiąca związane jest z kultem **Niepokalanego Serca Maryi** i zostało objawione siostrze Łucji dos Santos 10 grudnia 1925 roku przez Maryję z Dzieciątkiem Jezus.
 
@@ -55,7 +55,7 @@ Jeśli chcesz, możesz zanotowac sobie:
 - zaznaczenie czy **rozważano tajemnice różańca** - postaw dowolny znaczek (np. „✅”),
 - **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_i_nabozenstwa_ab.pdf).
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_l_nabozenstwa_ab.pdf).
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  
