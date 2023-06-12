@@ -10,11 +10,11 @@ Site content is also available [in markdown](languages.md).
 
 Copyright (c) 2021 Private Initiative "gratiaDei.org" by Andrzej Precz
 
-The content of this project itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) unless otherwise noted.
+The content of this project itself is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) unless otherwise noted.
 
 Expected attribution notes are:
- - English: "**by gratiaDei.org via myPatrons.org is licensed under CC BY-SA 4.0**",
- - Polish: "**gratiaDei.org ze strony myPatrons.org na licencji CC BY-SA 4.0**",
+ - English: "**by gratiaDei.org via myPatrons.org is licensed under CC BY-NC-SA 4.0**",
+ - Polish: "**gratiaDei.org ze strony myPatrons.org na licencji CC BY-NC-SA 4.0**",
  - ... or in other languages.
 
 The underlying source code is licensed under the MIT license unless otherwise noted.
