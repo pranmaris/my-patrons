@@ -51,12 +51,12 @@ Dodatkowo **uzyskujesz również prawo do piątej karty** symbolizującej Twoją
 
 ---
 # Udało się! Powierzyłeś **Bogu** siebie i swój udział!
-### Teraz możesz już odkrywać święta, zapraszać patronów i powierzać im misje oraz zdobywać osiągnięcia!
+### Teraz możesz już odkrywać święta, zapraszać patronów i powierzać im swoje misje oraz zdobywać osiągnięcia!
 ---
 
 ## Dalsze wyzwania
 Dowiedz się jak możesz:
-- [zapraszać patronów](jak_zapraszac_patronow.md) i [powierzać im szczególne misje](jak_powierzac_patronom_szczegolne_misje.md).
+- [zapraszać patronów](jak_zapraszac_patronow.md) i [powierzać im swoje szczególne misje](jak_powierzac_patronom_swoje_szczegolne_misje.md).
 - [odkrywać święta](jak_odkrywac_swieta.md),
 - [zdobywać osiągnięcia](jak_zdobywac_osiagniecia.md).
 

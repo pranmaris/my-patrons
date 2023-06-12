@@ -44,7 +44,7 @@ Odmienna kolejność przechodzenie etapów powodować będzie następujące zmia
 - <span class="status status-black">czarny</span> + [<span class="status status-red">**Orędownik**</span>](patroni_oredownicy.md) = <span class="status status-red">czerwony</span> + [<span class="status status-blue">**Obrońca**</span>](patroni_obroncy.md) = <span class="status status-violet">fioletowy</span> + [<span class="status status-yellow">**Opiekun**</span>](patroni_opiekunowie.md) = <span class="status status-indigo">indygo</span> + [<span class="status status-white">**Przyjaciel**</span>](patroni_przyjaciele.md) = <span class="status status-white">biały</span>
 
 ## Szczególne misje patronów
-**UWAGA!** Niezależnie od koloru statusu każdego patrona, **możesz powierzyć mu** dodatkowe [szczególne misje](jak_powierzac_patronom_szczegolne_misje.md)!
+**UWAGA!** Niezależnie od koloru statusu każdego patrona, **możesz powierzyć mu swoje** dodatkowe [szczególne misje](jak_powierzac_patronom_swoje_szczegolne_misje.md)!
 
 ---
 [Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-patroni)  

@@ -1,14 +1,12 @@
-# <span class="status status-list"><span class="status status-mission">PA</span> Misje Orędownika</span>
+# <span class="status status-list"><span class="status status-mission">IA</span> Misje Wysłannika</span>
 ---
 
 ## Cel
-W <span class="selected-day-info">wybranym dniu</span> **powierzyć patronowi misję Orędownika**, czyli poprosić go:
-- o częste **natchnienia i motywację** w naszej modlitwie i orędowaniu za innych,
-- o zgodę patrona, by każdorazowo zostawać **Patronem Orędownikiem** wszystkich osób, które o to poproszą **za naszym pośrednictwem**, patrz lista [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md).
+W <span class="selected-day-info">wybranym dniu</span> **stać się wysłannikiem wybranego patrona**, czyli poprosić go o zgodę, by w przyszłości - każdorazowo zostawał **Patronem Orędownikiem** wszystkich osób, które o to poproszą **za naszym pośrednictwem**, patrz lista [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md).
 ## Wymaganie
 Wykonanie zadania [<span class="status status-list"><span class="status status-god">∞</span> Bóg</span>](bog.md) musisz mieć już za sobą!
 ## Wybór
-Wybierz patrona, któremu **nie powierzyłeś jeszcze misji Orędownika**. Jego status może być w dowolnym kolorze - nawet <span class="status status-black">czarnym</span>.
+Wybierz patrona, któremu **nie powierzyłeś jeszcze swojej misji Wysłannika**. Jego status może być w dowolnym kolorze - nawet <span class="status status-black">czarnym</span>.
 
 Wybrany **patron musi spełniać także co najmniej jedno** poniższe kryterium:
 1. Na poniższej [stronie](https://pl.patrons.space/dates/list-of-patrons-and-immovable-feasts), **patron znajduje się na liście** dla dnia roku będącego **dniem Twoich urodzin** lub **pierwszego przyjęcia przez Ciebie dowolnego Sakramentu** (wybierz dni w poniższym formularzu z uwzględnieniem przestępności roku):  
@@ -21,51 +19,51 @@ _**UWAGA!** Stale pracujemy, aby poniżej dostępni byli wszyscy patroni spełni
 
 **UWAGA!** Wspomniane powyżej **dni Twoich urodzin** i **pierwszego przyjęcia przez Ciebie dowolnego Sakramentu** znajdziesz na Twoich listach: [<span class="status status-list"><span class="status status-god">∞</span> Bóg</span>](bog.md) i [<span class="status status-list"><span class="status status-list">J</span> Sakramenty</span>](sakramenty.md).
 ## Zadanie główne
-W <span class="selected-day-info">wybranym dniu</span> udaj się do dowolnej **przydrożnej kapliczki**, przy której jeszcze **nie powierzałeś misji Orędownika żadnemu patronowi**! Kapliczka ta **powinna znajdować się „pod gołym niebem”**!
+W <span class="selected-day-info">wybranym dniu</span> udaj się do dowolnej **przydrożnej kapliczki**, przy której jeszcze **nie powierzałeś swojej misji Wysłannika żadnemu patronowi**! Kapliczka ta **powinna znajdować się „pod gołym niebem”**!
 
-**UWAGA!** Każde powierzenie misji Orędownika **musi się odbyć przy innej przydrożnej kapliczce**, ale **w jednym dniu można powierzyć tę misję wielu różnym patronom**!
+**UWAGA!** Każde powierzenie misji Wysłannika **musi się odbyć przy innej przydrożnej kapliczce**, ale **w jednym dniu można powierzyć tę misję wielu różnym patronom**!
 
-Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#misje-oredownika-wiecej-informacji).
+Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#misje-wyslannika-wiecej-informacji).
 ## Modlitwa
 Najlepiej klęcząc, **odmów następującą modlitwę**, zwracając się do wybranego patrona (np.: „Błogosławiony Albercie Avogadro”, „Święta Joanno de Valois”, „Wszyscy Wierni Zmarli”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
-> powierzam Tobie/Wam szczególną misję Orędownika,  
+> powierzam Tobie/Wam moją szczególną misję Twojego/Waszego Wysłannika,  
 > proszę o dobre natchnienia i motywację,  
 > bym gorliwiej modlił/a się za innych,  
 > którym pragnę pomagać w zapraszaniu Ciebie/Was,  
 > do grona Patronów Orędowników, gdy taka będzie ich wola.  
 > Amen.
 ## Zadanie dodatkowe
-**Pomódl się dodatkowo** do Jezusa i patronów kapliczki, przy której się znajdujesz w intencji dokonanego właśnie powierzenia.
+**Pomódl się dodatkowo** do Jezusa i patronów kapliczki, przy której się znajdujesz w intencji dokonanego właśnie powierzenia misji.
 ## Notatki
 Zanotuj sobie:
-- kolejny **numer** misji Orędownika, np. PA1, PA2, PA3, ...,
+- kolejny **numer** misji Wysłannika, np. IA1, IA2, IA3, ...,
 - **datę** powierzenia misji (najlepiej z dniem tygodnia),
 - **nazwę** patrona,
 - **rok śmierci** patrona (by potem uniknąć wątpliwości o którego chodzi),
-- **miejsce przydrożnej kapliczki** (by nie zapomnieć, że przy niej już powierzaliśmy misję Orędownika),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#misje-oredownika-wiecej-notatek).
+- **miejsce przydrożnej kapliczki** (by nie zapomnieć, że przy niej już powierzaliśmy misję Wysłannika),
+- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#misje-wyslannika-wiecej-notatek).
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_pa_misje_oredownika.pdf).
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_ia_misje_wyslannika.pdf).
 ## Karty
 Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możesz ją wydrukować na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards).
 
-**UWAGA!** Oznacz kartę wybranego patrona misją Orędownika, aby było widoczne, że **za Twoim pośrednictwem mogą zapraszać go inni** do grona swoich [Patronów Orędowników](patroni_oredownicy.md).
+**UWAGA!** Oznacz kartę wybranego patrona Twoją misją Wysłannika, aby było widoczne, że **za Twoim pośrednictwem mogą zapraszać go inni** do grona swoich [Patronów Orędowników](patroni_oredownicy.md).
 <br />
 <br />
 <br />
 
 ---
-# Udało się! Powierzyłeś patronowi **misję Orędownika**!
+# Udało się! Powierzyłeś patronowi swoją **misję Wysłannika**!
 ### Możliwość orędowania za Tobą i innymi Uczestnikami sprawi mu wiele radości!
 ---
 
-## <span id="misje-oredownika-wiecej-informacji">Więcej informacji</span>
+## <span id="misje-wyslannika-wiecej-informacji">Więcej informacji</span>
 - Jeśli nie możemy podejść pod samą kapliczkę lub jest to niebezpieczne (np. jest ona za płotem, na środku ronda, itp.), **możemy modlić się będąc w bezpiecznej odległości od niej**.
 
-## <span id="misje-oredownika-wiecej-notatek">Więcej notatek</span>
+## <span id="misje-wyslannika-wiecej-notatek">Więcej notatek</span>
 - Zaznaczenie czy **odmówiono modlitwę dodatkową** do Jezusa i patronów kapliczki - postaw dowolny znaczek (np. „✅”).
-- Informację, na podstawie jakiego **kryterium** wybraliśmy patrona do powierzenia mu misji Orędownika. Mogą to być następujące skróty („DD.MM” oznacza dzień i miesiąc roku, np. 16.07):
+- Informację, na podstawie jakiego **kryterium** wybraliśmy patrona do powierzenia mu naszej misji Wysłannika. Mogą to być następujące skróty („DD.MM” oznacza dzień i miesiąc roku, np. 16.07):
   - **PCH:1** - patron pierwszego imienia z Chrztu św. (kolejne imiona numerujemy analogicznie),
   - **PBI** - patron imienia przyjętego na Bierzmowaniu,
   - **PZA:1** - patron pierwszego imienia zakonnego (kolejne imiona numerujemy analogicznie),
@@ -84,5 +82,5 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
   - **INN** - inny dzień, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space).
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 ---
-[Powrót do misji patronów](jak_powierzac_patronom_szczegolne_misje.md)
+[Powrót do szczególnych misji](jak_powierzac_patronom_swoje_szczegolne_misje.md)
 [Powrót do głównego menu](index.md)

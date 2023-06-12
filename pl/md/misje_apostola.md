@@ -1,8 +1,8 @@
-# <span class="status status-list"><span class="status status-mission">PB</span> Misje Apostoła</span>
+# <span class="status status-list"><span class="status status-mission">IB</span> Misje Apostoła</span>
 ---
 
 Już wkrótce ...
 
 ---
-[Powrót do misji patronów](jak_powierzac_patronom_szczegolne_misje.md)
+[Powrót do szczególnych misji](jak_powierzac_patronom_swoje_szczegolne_misje.md)
 [Powrót do głównego menu](index.md)
