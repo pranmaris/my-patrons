@@ -25,7 +25,7 @@ W <span class="selected-day-info">wybranym dniu</span> udaj się do dowolnej **p
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#misje-wyslannika-wiecej-informacji).
 ## Modlitwa
-Najlepiej klęcząc, **odmów następującą modlitwę**, zwracając się do wybranego patrona (np.: „Błogosławiony Albercie Avogadro”, „Święta Joanno de Valois”, „Wszyscy Wierni Zmarli”):
+W <span class="selected-day-info">wybranym dniu</span>, będąc przy kapliczce i najlepiej klęcząc, **odmów następującą modlitwę** zwracając się do wybranego patrona (np.: „Błogosławiony Albercie Avogadro”, „Święta Joanno de Valois”, „Wszyscy Wierni Zmarli”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > powierzam Tobie/Wam moją szczególną misję Twojego/Waszego Wysłannika,  
 > proszę o dobre natchnienia i motywację,  
@@ -63,19 +63,19 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
 
 ## <span id="misje-wyslannika-wiecej-notatek">Więcej notatek</span>
 - Zaznaczenie czy **odmówiono modlitwę dodatkową** do Jezusa i patronów kapliczki - postaw dowolny znaczek (np. „✅”).
-- Informację, na podstawie jakiego **kryterium** wybraliśmy patrona do powierzenia mu naszej misji Wysłannika. Mogą to być następujące skróty („DD.MM” oznacza dzień i miesiąc roku, np. 16.07):
+- Informację, na podstawie jakiego **kryterium** wybraliśmy patrona do powierzenia mu naszej misji Wysłannika. Mogą to być następujące skróty („DD.MM.RRRR” oznacza dzień, miesiąc i rok, np. 16.07.2008):
   - **PCH:1** - patron pierwszego imienia z Chrztu św. (kolejne imiona numerujemy analogicznie),
   - **PBI** - patron imienia przyjętego na Bierzmowaniu,
   - **PZA:1** - patron pierwszego imienia zakonnego (kolejne imiona numerujemy analogicznie),
-  - **PPR:#** - patron znajduje się na naszej liście [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md) pod numerem #,
-  - **DUR:DD.MM** - dzień roku naszego urodzenia,
-  - **DCH:DD.MM** - dzień roku Chrztu św.,
-  - **DSP:DD.MM** - dzień roku pierwszej Spowiedzi św.,
-  - **DKO:DD.MM** - dzień roku pierwszej Komunii św.,
-  - **DBI:DD.MM** - dzień roku uzyskania Sakramentu Bierzmowania,
-  - **DNC:DD.MM** - dzień roku pierwszego Sakramentu Namaszczenia Chorych,
-  - **DMA:DD.MM** - dzień roku pierwszego Sakramentu Małżeństwa,
-  - **DKA:DD.MM** - dzień roku uzyskania Sakramentu Kapłaństwa.
+  - **PRZ:#** - patron znajduje się na naszej liście [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md) pod numerem #,
+  - **DUR:DD.MM.RRRR** - data naszego urodzenia,
+  - **DCH:DD.MM.RRRR** - data Chrztu św.,
+  - **DSP:DD.MM.RRRR** - data pierwszej Spowiedzi św.,
+  - **DKO:DD.MM.RRRR** - data pierwszej Komunii św.,
+  - **DBI:DD.MM.RRRR** - data uzyskania Sakramentu Bierzmowania,
+  - **DNC:DD.MM.RRRR** - data pierwszego Sakramentu Namaszczenia Chorych,
+  - **DMA:DD.MM.RRRR** - data pierwszego Sakramentu Małżeństwa,
+  - **DKA:DD.MM.RRRR** - data uzyskania Sakramentu Kapłaństwa.
 - (do powyższego - jeśli wybrano opcję z datą) Informację, na podstawie jakiego **źródła** wybraliśmy patrona w tym dniu roku. Mogą to być poniższe skróty:
   - **MRxxxx** - Martyrologium Rzymskie (xxxx to rok wydania), np. dla 2004 roku może to być **MR2004:7**, co oznacza siódmy wpis na określony dzień roku,
   - **DSM** - dzień roku, w którym zmarł wybrany patron,
