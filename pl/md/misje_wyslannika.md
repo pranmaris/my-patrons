@@ -29,8 +29,8 @@ W <span class="selected-day-info">wybranym dniu</span>, będąc przy kapliczce i
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > powierzam Tobie/Wam moją szczególną misję Twojego/Waszego Wysłannika,  
 > proszę o dobre natchnienia i motywację,  
-> bym gorliwiej modlił/a się za innych,  
-> którym pragnę pomagać w zapraszaniu Ciebie/Was,  
+> bym gorliwiej modlił/a się za innych i opowiadał im o Tobie/Was,  
+> gdyż pragnę pomagać wszystkim w zapraszaniu Ciebie/Was,  
 > do grona Patronów Orędowników, gdy taka będzie ich wola.  
 > Amen.
 ## Zadanie dodatkowe
