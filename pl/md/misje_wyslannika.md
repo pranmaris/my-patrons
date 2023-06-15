@@ -62,6 +62,7 @@ Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możes
 - Jeśli nie możemy podejść pod samą kapliczkę lub jest to niebezpieczne (np. jest ona za płotem, na środku ronda, itp.), **możemy modlić się będąc w bezpiecznej odległości od niej**.
 
 ## <span id="misje-wyslannika-wiecej-notatek">Więcej notatek</span>
+- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
 - Zaznaczenie czy **odmówiono modlitwę dodatkową** do Jezusa i patronów kapliczki - postaw dowolny znaczek (np. „✅”).
 - Informację, na podstawie jakiego **kryterium** wybraliśmy patrona do powierzenia mu naszej misji Wysłannika. Mogą to być następujące skróty („DD.MM.RRRR” oznacza dzień, miesiąc i rok, np. 16.07.2008):
   - **PCH:1** - patron pierwszego imienia z Chrztu św. (kolejne imiona numerujemy analogicznie),
