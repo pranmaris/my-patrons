@@ -20,11 +20,11 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 
 ---
 ## Więcej informacji
-- Dzięki wypełnieniu listy Sakramentów, będzie możliwe powierzenie niektórym patronom Twoich **misji Wysłannika**, patrz lista [<span class="status status-list"><span class="status status-mission">IA</span> Misje Wysłannika</span>](misje_wyslannika.md).
+- Dzięki wypełnieniu listy Sakramentów, będzie możliwe powierzenie niektórym patronom Twoich **misji Wysłannika**, patrz lista [<span class="status status-list"><span class="status status-mission">MA</span> Misje Wysłannika</span>](misje_wyslannika.md).
 ## <span id="sakramenty-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
 - Informację o **miejscu** pierwszego przyjęcia Sakramentu - słownie lub na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**.
-- Informację kto był **szafarzem** Sakramentu - słownie lub na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M22**.
+- Informację kto był **szafarzem** Sakramentu - słownie lub na liście [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md), np. **I22**.
 - **Godzinę** przyjęcia Sakramentu lub Mszy św., na której go otrzymaliśmy.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 

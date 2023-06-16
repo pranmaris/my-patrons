@@ -45,7 +45,7 @@ Jeśli chcesz, możesz zanotowac sobie:
 - dodatkowe **informacje** na temat Spowiedzi, Komunii, Mszy czy Godziny Świętej:
   - **godziny** tych wydarzeń,
   - opisy słowne lub odnośniki do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscami** tych wydarzeń, np. **C2**,
-  - opisy słowne lub odnośniki do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) z **kapłanami** będącymi szafarzami Sakramentów lub odprawiającymi Mszę, np. **M22**,
+  - opisy słowne lub odnośniki do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md) z **kapłanami** będącymi szafarzami Sakramentów lub odprawiającymi Mszę, np. **I22**,
 - zaznaczenie czy **odprawiono _„Godzinę Świętą”_** - postaw dowolny znaczek (np. „✅”),
 - zaznaczenie czy **odmówiono Litanię** do Najświętszego Serca Pana Jezusa - postaw dowolny znaczek (np. „✅”),
 - zaznaczenie czy **odmówiono Akt** Poświęcenia Rodzaju Ludzkiego Najświętszemu Sercu Pana Jezusa - postaw dowolny znaczek (np. „✅”),

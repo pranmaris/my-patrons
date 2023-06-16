@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-list">M</span> Osoby</span>
+# <span class="status status-list"><span class="status status-list">I</span> Osoby</span>
 ---
 
 ## Cel
@@ -7,12 +7,12 @@ Zapisać dane dotyczące **osoby**, by **za pomocą numeru** łatwo linkować do
 Wybierz osobę, której **jeszcze nie ma na tej liście**.
 ## Notatki
 Zanotuj sobie:
-- kolejny **numer** miejsca, np. M1, M2, M3, ...,
+- kolejny **numer** osoby, np. I1, I2, I3, ...,
 - **pełne nazwisko** lub **nazwę osoby**, np. _„Jan Kowalski”_, _„Ks. Michał Nowak OFMCap”_, _„Papież Jan Paweł II”_,
 - **dodatkowe informacje**: _„kolega z klasy 2c”_, _„Proboszcz C23”_.
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#osoby-wiecej-notatek).
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_m_osoby.pdf).
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_i_osoby.pdf).
 <br />
 <br />
 <br />

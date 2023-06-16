@@ -5,7 +5,7 @@
 - Zabawę może zacząć **każda osoba** w **dowolnym czasie**, bez konieczności informowania o tym kogokolwiek.
 - W każdym momencie można przerwać aktywny udział i później wrócić do działania, kiedy będziemy tego chcieć.
 ## O listach
-- **Listy** są zawsze nazwane literami (A, B, C, IA, IB, ...) lub symbolami (∞, ＊).
+- **Listy** są zawsze nazwane literami (A, B, C, MA, MB, ...) lub symbolami (∞, ＊).
 - Każda **lista** służy do notowania czego innego, i mogą to być np.:
   - **zaproszeni patroni** - np. św. Jan Apostoł,
   - **udział w święcie kościelnym** - np. Przemienienia Pańskiego,

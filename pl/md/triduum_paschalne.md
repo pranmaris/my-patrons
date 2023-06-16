@@ -22,7 +22,7 @@ Jeśli chcesz, możesz zanotowac sobie:
 - dodatkowe **informacje** na temat każdej z trzech celebracji:
   - **godzinę** rozpoczęcia,
   - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem** celebracji, np. **C2**,
-  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) z **kapłanem** prowadzącym, np. **M22**,
+  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md) z **kapłanem** prowadzącym, np. **I22**,
 - zaznaczenie czy **przyjęto Komunię Świętą** - postaw dowolny znaczek (np. „✅”),
 - **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 

@@ -7,7 +7,7 @@ Prędzej czy później zajdzie potrzeba zapisywania informacji o **obiektach**, 
 
 - [<span class="status status-list"><span class="status status-list">C</span> Miejsca](miejsca.md) - służy do zanotowania informacji o dowolnym miejscu,
 
-- [<span class="status status-list"><span class="status status-list">M</span> Osoby](osoby.md) - służy do zanotowania niektórych osób, które spotkasz,
+- [<span class="status status-list"><span class="status status-list">I</span> Osoby](osoby.md) - służy do zanotowania niektórych osób, które spotkasz,
 
 - [<span class="status status-list"><span class="status status-list">Z</span> Zakony](zakony.md) - służy do zanotowania zakonów, do których należeli zapraszani patroni lub powyższe osoby.
 <br />

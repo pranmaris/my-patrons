@@ -24,7 +24,7 @@ Jeśli chcesz, możesz zanotowac sobie:
 - dodatkowe **informacje** na temat tego nabożeństwa:
   - **godzinę** rozpoczęcia,
   - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem** nabożeństwa, np. **C2**,
-  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) z **kapłanem** prowadzącym lub mówiącym kazanie pasyjne, np. **M22**,
+  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md) z **kapłanem** prowadzącym lub mówiącym kazanie pasyjne, np. **I22**,
 - **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_l_nabozenstwa_cde.pdf).

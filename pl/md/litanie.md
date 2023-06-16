@@ -33,7 +33,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 
 ## <span id="litanie-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
-- **Kapłana** odmawiającego litanię - słownie lub na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M17**.
+- **Kapłana** odmawiającego litanię - słownie lub na liście [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md), np. **I17**.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---

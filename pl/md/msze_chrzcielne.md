@@ -45,7 +45,7 @@ Jeśli chcesz, możesz zanotowac także:
 - Informacje o **Mszy św. chrzcielnej** (jeśli nie zostały już zapisane gdzie indziej):
     - **godzinę rozpoczęcia Mszy św.**,
     - **miejsce Mszy św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
-    - **kapłanów odprawiających Mszę św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M13+M2+M?,** gdy Mszę koncelebrowały osoby o numerach: M13 (celebransa wpisuj na początku) i M2 oraz jeden kapłan nieznany lub spoza naszej tej listy.
+    - **kapłanów odprawiających Mszę św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md), np. **I13+I2+I?,** gdy Mszę koncelebrowały osoby o numerach: I13 (celebransa wpisuj na początku) i I2 oraz jeden kapłan nieznany lub spoza naszej tej listy.
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---

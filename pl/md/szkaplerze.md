@@ -45,7 +45,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 Jeśli chcesz, możesz zanotowac także:
 - **Datę** pierwszego nałożenia szkaplerza (najlepiej z dniem tygodnia).
 - **Numer** miejsca pierwszego nałożenia szkaplerza - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**).
-- **Kapłana** nakładającego szkaplerz - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md), np. **M17** (dla czytelności listy można także wpisać jego **nazwisko**).
+- **Kapłana** nakładającego szkaplerz - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md), np. **I17** (dla czytelności listy można także wpisać jego **nazwisko**).
 - Zaznaczenie czy w dniu wykonania tego zadania **odmówiono codzienną modlitwę szkaplerza** (jeśli takowa jest) - postaw dowolny znaczek (np. „✅”).
 - **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 

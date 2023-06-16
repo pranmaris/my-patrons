@@ -49,7 +49,7 @@ Jeśli chcesz, możesz zanotowac sobie:
 - dodatkowe **informacje** na temat Spowiedzi, Komunii, Mszy, różańca czy medytacji:
   - **godziny** tych wydarzeń,
   - opisy słowne lub odnośniki do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscami** tych wydarzeń, np. **C2**,
-  - opisy słowne lub odnośniki do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md) z **kapłanami** będącymi szafarzami Sakramentów lub odprawiającymi Mszę, np. **M22**,
+  - opisy słowne lub odnośniki do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md) z **kapłanami** będącymi szafarzami Sakramentów lub odprawiającymi Mszę, np. **I22**,
 - zaznaczenie czy **wybrano zniewagi** do wynagradzania - postaw dowolny znaczek (np. „✅”),
 - zaznaczenie czy **odmówiono różaniec** - postaw dowolny znaczek (np. „✅”),
 - zaznaczenie czy **rozważano tajemnice różańca** - postaw dowolny znaczek (np. „✅”),

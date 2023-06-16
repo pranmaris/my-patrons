@@ -9,9 +9,9 @@ Na końcu da Ci to możliwość **specjalnego oznaczenia jego karty znakiem tej�
 Możesz powierzyć patronom poniższe swoje misje:
 
 ## Misja Wysłannika
-Lista [<span class="status status-list"><span class="status status-mission">IA</span> Misje Wysłannika</span>](misje_wyslannika.md) to patroni, dla których chcemy pełnić rolę **wysłanników** do innych Uczestników zabawy. Dzięki temu, poprzez nasz udział, będą mogli stać się oni ich potężnym [**Patronem Orędownikiem**](patroni_oredownicy.md)!
+Lista [<span class="status status-list"><span class="status status-mission">MA</span> Misje Wysłannika</span>](misje_wyslannika.md) to patroni, dla których chcemy pełnić rolę **wysłanników** do innych Uczestników zabawy. Dzięki temu, poprzez nasz udział, będą mogli stać się oni ich potężnym [**Patronem Orędownikiem**](patroni_oredownicy.md)!
 ## Misja Apostoła
-Lista [<span class="status status-list"><span class="status status-mission">IB</span> Misje Apostoła</span>](misje_apostola.md) to patroni wspomagający nas w staniu się **Apostołami inicjatywy _„Moich Patronów”_** dla każdego nowego Uczestnika, którego będziemy wspomagać w stawianiu pierwszych kroków i którego są oni patronem głównego imienia.
+Lista [<span class="status status-list"><span class="status status-mission">MB</span> Misje Apostoła</span>](misje_apostola.md) to patroni wspomagający nas w staniu się **Apostołami inicjatywy _„Moich Patronów”_** dla każdego nowego Uczestnika, którego będziemy wspomagać w stawianiu pierwszych kroków i którego są oni patronem głównego imienia.
 <br />
 <br />
 <br />

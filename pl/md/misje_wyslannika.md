@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-mission">IA</span> Misje Wysłannika</span>
+# <span class="status status-list"><span class="status status-mission">MA</span> Misje Wysłannika</span>
 ---
 
 ## Cel
@@ -37,14 +37,14 @@ W <span class="selected-day-info">wybranym dniu</span>, będąc przy kapliczce i
 **Pomódl się dodatkowo** do Jezusa i patronów kapliczki, przy której się znajdujesz w intencji dokonanego właśnie powierzenia misji.
 ## Notatki
 Zanotuj sobie:
-- kolejny **numer** misji Wysłannika, np. IA1, IA2, IA3, ...,
+- kolejny **numer** misji Wysłannika, np. MA1, MA2, MA3, ...,
 - **datę** powierzenia misji (najlepiej z dniem tygodnia),
 - **nazwę** patrona,
 - **rok śmierci** patrona (by potem uniknąć wątpliwości o którego chodzi),
 - **miejsce przydrożnej kapliczki** (by nie zapomnieć, że przy niej już powierzaliśmy misję Wysłannika),
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#misje-wyslannika-wiecej-notatek).
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_ia_misje_wyslannika.pdf).
+Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_ma_misje_wyslannika.pdf).
 ## Karty
 Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możesz ją wydrukować na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards).
 
