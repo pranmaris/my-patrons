@@ -55,6 +55,7 @@ Zanotuj sobie:
 - **datę** zaproszenia patrona (najlepiej z dniem tygodnia),
 - **nazwę** patrona,
 - **rok śmierci** patrona (by potem uniknąć wątpliwości o którego chodzi),
+- **numer Twojej misji wysłannika** dla patrona zaproszonego przez **drugą osobę** - jako odnośnik do Twojej listy [<span class="status status-list"><span class="status status-mission">IA</span> Misje Wysłannika</span>](misje_wyslannika.md),
 - **osobę**, z którą razem zaprosiłeś patrona - słownie (np. Mama, Michał z klasy 4b, itp.) lub jako odnośnik do listy [<span class="status status-list"><span class="status status-list">M</span> Osoby</span>](osoby.md),
 - chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#patroni-oredownicy-wiecej-notatek).
 
