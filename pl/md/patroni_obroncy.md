@@ -99,7 +99,6 @@ Teraz już możesz dla zaproszonego **Patrona Opiekuna** sprostać wyzwaniom:
 - Lista kanonizacji i beatyfikacji Kościoła Katolickiego znajduje się także na stronie [GCatholic.org](http://www.gcatholic.org/saints/index.htm).
 ## <span id="patroni-obroncy-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
-- Informację czy patron jest **święty** czy **błogosławiony**.
 - Informację o Mszy św, w której uczestniczyliśmy:
   - **godzinę rozpoczęcia Mszy św.**,
   - **miejsce Mszy św.** - słownie lub na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,

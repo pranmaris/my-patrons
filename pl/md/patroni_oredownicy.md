@@ -96,7 +96,6 @@ Teraz już możesz dla zaproszonego **Patrona Orędownika** sprostać wyzwaniom:
 > co umożliwiła mi osoba **[nazwisko i podpis drugiej osoby]**.
 ## <span id="patroni-oredownicy-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotowac także:
-- Informację czy patron jest **święty** czy **błogosławiony**.
 - **Miejsce zaproszenia** patrona - słownie lub jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**.
 - Zaznaczenie czy **odmówiono modlitwę z drugą osobą** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
 - Zaznaczenie czy **odmówiono różaniec** za drugą osobę - postaw dowolny znaczek (np. „✅”) - na całości lub poszczególnych częściach różańca.

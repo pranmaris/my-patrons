@@ -105,7 +105,6 @@ Teraz już możesz dla zaproszonego **Patrona Opiekuna** sprostać wyzwaniom:
 - Do czytania o patronach polecamy skorzystanie z takich stron jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), Wikipedia: ([strona](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ci_i_b%C5%82ogos%C5%82awieni_Ko%C5%9Bcio%C5%82a_katolickiego) lub [kategoria](https://pl.wikipedia.org/wiki/Kategoria:%C5%9Awi%C4%99ci_katoliccy)) lub jakąkolwiek książkę papierową czy e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
 ## <span id="patroni-opiekunowie-wiecej-notatek">Więcej notatek</span>
 Jeśli chcesz, możesz zanotować także:
-- Informację czy patron jest **święty** czy **błogosławiony**.
 - Spełnione kryterium zaproszenia: **A+B**, **A+C**, **B+C** lub **H#** (gdzie # to numer powiązanego wyzwania z listy [<span class="status status-list"><span class="status status-list">H</span> Relikwie i groby</span>](relikwie_i_groby.md), np. **H21**).
 - Jeśli powyżej użyto kryterium **C** (Msza św), możesz zanotować także:
     - **godzinę rozpoczęcia Mszy św.**,
