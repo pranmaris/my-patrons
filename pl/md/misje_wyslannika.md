@@ -27,9 +27,9 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#misje-wyslannika-w
 ## Modlitwa
 W <span class="selected-day-info">wybranym dniu</span>, będąc przy kapliczce i najlepiej klęcząc, **odmów następującą modlitwę** zwracając się do wybranego patrona (np.: „Błogosławiony Albercie Avogadro”, „Święta Joanno de Valois”, „Wszyscy Wierni Zmarli”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
-> powierzam Tobie/Wam moją szczególną misję Twojego/Waszego Wysłannika,  
+> powierzam Tobie/Wam moją szczególną misję Wysłannika,  
 > proszę o dobre natchnienia i motywację,  
-> bym gorliwiej modlił/a się za innych i opowiadał im o Tobie/Was,  
+> bym gorliwiej modlił/a się za innych i mówił/a im o Tobie/Was,  
 > gdyż pragnę pomagać wszystkim w zapraszaniu Ciebie/Was,  
 > do grona Patronów Orędowników, gdy taka będzie ich wola.  
 > Amen.
