@@ -42,7 +42,7 @@ W inicjatywie _„Moich Patronów”_, **przez święta rozumiemy wszelkie celeb
   - _„Środa Popielcowa”_ (pierwszy dzień Wielkiego Postu - dotyczy pośrednio Jezusa, z którym związany jest ten okres),
   - _„Pierwsza Niedziela Adwentu”_ (j.w. dotyczy Jezusa).
 
-**UWAGA**! Aby było **możliwe odkrycie** jakiekolwiek święta, każdy powiązany z nim patron **musi być naszym Patronem Obrońcą** (patrz lista [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md)).
+**UWAGA**! Aby było **możliwe odkrycie** jakiekolwiek święta, każdy powiązany z nim patron **musi być naszym Patronem Obrońcą** (patrz lista [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md)).
 
 ## Analogiczne nazwy świąt
 Niektóre **znane nazwy świąt** mogą być używane zamiennie **z tytułami** Boga i patronów, ale wtedy wciąż **dotyczą tego samego święta**, np.:

@@ -18,16 +18,21 @@ W <span class="selected-day-info">niedzielę Wielkiego Postu</span> (lub inny dz
 
 **UWAGA!** Jako **pełny udział** w tym nabożeństwie można potraktować uczestnictwo np. we wszystkich **3 częściach Gorzkich Żalów** kolejno.
 ## Notatki
-Jeśli chcesz, możesz zanotowac sobie:
-- **informację**, która to jest część Gorzkich Żalów,
-- **datę** uczestniczenia w nabożeństwie,
-- dodatkowe **informacje** na temat tego nabożeństwa:
-  - **godzinę** rozpoczęcia,
-  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem** nabożeństwa, np. **C2**,
-  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md) z **kapłanem** prowadzącym lub mówiącym kazanie pasyjne, np. **I22**,
-- **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< LD. NABOŻEŃSTWO GORZKICH ŻALÓW / DATA NABOŻEŃSTWA  
+> \>\> LD1 / ND 2024-02-18  
+> \>\> LD2 / ND 2024-02-25  
+> \>\> LD3 / ND 2024-03-03
+### Wersja pełna:
+> \<\< LD. NABOŻEŃSTWO GORZKICH ŻALÓW / DATA NABOŻEŃSTWA / KOMENTARZ  
+> \>\> LD1 / ND 2024-02-18 / Nabożeństwo o 15:00; Kraków, Kościół św. Jadwigi Królowej; Kazanie pasyjne: ks. Jan Anioł  
+> \>\> LD2 / ND 2024-02-25 / Nabożeństwo o 15:00; Kraków, Kościół św. Jadwigi Królowej; Kazanie pasyjne: ks. Jan Anioł  
+> \>\> LD3 / ND 2024-03-03 / Nabożeńśtwo o 15:30; Kraków, Kaplica bł. Jerzego Popiełuszki; Kazanie pasyjne: ks. Jan Kamiński
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_l_nabozenstwa_cde.pdf).
+Uwagi:
+- jeżeli powyższe było zrobione wcześniej, spróbuj przypomnieć sobie kiedy to było i wpisz co pamiętasz,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  

@@ -21,14 +21,31 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#cmentarze-wiecej-i
 ## Zadanie dodatkowe
 **Na końcu**, w dowolnym miejscu, **pomódl się jeszcze za wszystkich imienników wybranego patrona**, analogicznie odmawiając w ich intencji: _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Wieczny odpoczynek”_ i _„[imię patrona], módl się za nami”_.
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** modlitwy za zmarłych na cmentarzu, np. N1, N2, N3, ...,
-- **datę** modlitwy (najlepiej z dniem tygodnia),
-- **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**),
-- **numer** wybranego Patrona Orędownika - jako odnośnik do listy [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md), np. **U24** (dla czytelności listy można także wpisać jego **nazwę**),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#cmentarze-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< N. CMENTARZE / DATA NAWIEDZENIA CMENTARZA / ALIAS PATRONA / MIEJSCOWOŚĆ I NAZWA CMENTARZA  
+> \>\> N1 / ŚR 2023-12-20 / Maria NMP / Warszawa, Cmentarz Bródnowski  
+> \>\> N2 / PN 2024-01-15 / Maria NMP / Piaseczno, Cmentarz św. Anny  
+> \>\> N3 / PN 2024-01-15 / Jan EWA / Piaseczno, Cmentarz św. Anny  
+> \>\> N4 / PN 2024-01-15 / Rafał ARC / Piaseczno, Cmentarz św. Anny
+### Wersja pełna:
+> \<\< N. CMENTARZE / DATA NAWIEDZENIA CMENTARZA / ALIAS PATRONA / MIEJSCOWOŚĆ I NAZWA CMENTARZA / ZA ILU ZMARŁYCH ODMÓWIONO MODLITWĘ / CZY ODMÓWIONO MODLITWĘ KOŃCOWĄ ZA ZMARŁYCH / KOMENTARZ  
+> \>\> N1 / ŚR 2023-12-20 / Maria NMP / Warszawa, Cmentarz Bródnowski / 10+ / + / W tym także modlitwa za babcię Marię  
+> \>\> N2 / PN 2024-01-15 / Maria NMP / Piaseczno, Cmentarz św. Anny / 10+ / +  
+> \>\> N3 / PN 2024-01-15 / Jan EWA / Piaseczno, Cmentarz św. Anny / 10+ / +  
+> \>\> N4 / PN 2024-01-15 / Rafał ARC / Piaseczno, Cmentarz św. Anny / 6 / + / Na całym cmentarzu znaleziono tylko 6 grobów imienników Rafała
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_n_cmentarze.pdf).
+
+Uwagi:
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -45,11 +62,6 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - Jeżeli patron ma więcej imion lub dodatkowo imiona zakonne, możesz modlić się za osoby **o którymkolwiek posiadanym imieniu** tego patrona. Przykładowo, **Święta Faustyna Kowalska** to tak naprawdę siostra **Maria Faustyna** posiadająca jeszcze świeckie imię **Helena** i dla wszystkich tych imion możesz wykonać to wyzwanie modląc się przez wstawiennistwo tej Świętej.
 - Możesz modlić się za zmarłych, których **kolejne imię** pasuje do patrona, np. za duszę **Stanisława Jana** możesz pomodlić się przez wstawiennictwo **św. Jana od Krzyża**.
 - **Pasujące imiona**, to nie tylko identyczne imiona patrona, ale także jego **odmiany w innych językach** i **dla drugiej płci**, np. każdy święty lub błogosławiony **Henryk** to patron wszystkich osób mających imię: Henryk, Henryka, Henrietta, Henri, Enrique, itp.
-## <span id="cmentarze-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- Zaznaczenie czy na końcu **odmówiono modlitwę** za wszystkich zmarłych imienników patrona - postaw dowolny znaczek (np. „✅”).
-- **Liczbę znalezionych osób** posiadających imię wybranego patrona.
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do Patronów Orędowników](patroni_oredownicy.md)  

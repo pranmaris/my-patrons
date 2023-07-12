@@ -17,16 +17,22 @@ Jak nazwa wskazuje, całe Triduum składa się z trzech dni:
 ## Zadanie
 Weź udział w pełnym **Triduum Paschalnym** w dowolnym kościele wraz z przyjęciem Komunii Świętej, czyli w: Mszy Wieczerzy Pańskiej, Liturgii Męki Pańskiej i Wigilii Paschalnej.
 ## Notatki
-Jeśli chcesz, możesz zanotowac sobie:
-- **daty** Wielkiego Czwartku, Piątku i Soboty,
-- dodatkowe **informacje** na temat każdej z trzech celebracji:
-  - **godzinę** rozpoczęcia,
-  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem** celebracji, np. **C2**,
-  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md) z **kapłanem** prowadzącym, np. **I22**,
-- zaznaczenie czy **przyjęto Komunię Świętą** - postaw dowolny znaczek (np. „✅”),
-- **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< LE. TRIDUUM PASCHALNE / DATA NABOŻEŃSTWA  
+> \>\> LE1 / ND 2024-03-28  
+> \>\> LE2 / ND 2024-03-29  
+> \>\> LE3 / ND 2024-03-30
+### Wersja pełna:
+> \<\< LE. TRIDUUM PASCHALNE / DATA NABOŻEŃSTWA / CZY PRZYJĘTO KOMUNIĘ ŚWIĘTĄ / KOMENTARZ  
+> \>\> LE1 / ND 2024-03-28 / + / Godzina 20:00; Sandomierz, św. Józefa; ks. Wojciech Musiał + ks. Eugeniusz Kozak  
+> \>\> LE2 / ND 2024-03-29 / + / Godzina 19:00; Sandomierz, św. Józefa; ks. Eugeniusz Kozak + ks. Wojciech Musiał + dk. Damian Bąk  
+> \>\> LE3 / ND 2024-03-30 / + / Godzina 21:00; Sandomierz, św. Jóżefa; ks. Eugeniusz Kozak + dk. Damian Bąk
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_l_nabozenstwa_cde.pdf).
+Uwagi:
+- jeżeli powyższe było zrobione wcześniej, spróbuj przypomnieć sobie kiedy to było i wpisz co pamiętasz,
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  

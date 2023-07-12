@@ -17,13 +17,28 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#selfie-z-patronem-
 ## Modlitwa
 W <span class="selected-day-info">wybranym dniu</span> pomódl się w dowolny sposób **przed sfotografowanym wizerunkiem patrona**. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„[imię patrona], módl się za mną”_.
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** selfie z patronem, np. S1, S2, S3, ...,
-- **datę** wykonania selfie (najlepiej z dniem tygodnia),
-- **numer** fotografowanego patrona - jako odnośnik do listy [<span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span>](patroni_opiekunowie.md), np. **T6** (dla czytelności listy można także wpisać jego **nazwę**),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#selfie-z-patronem-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< S. SELFIE Z PATRONEM / DATA WYKONANIA SELFIE / ALIAS PATRONA  
+> \>\> S1 / PN 2023-09-04 / Jan EWA  
+> \>\> S2 / WT 2023-09-12 / Antoni PAD  
+> \>\> S3 / WT 2023-09-12 / Maria NMP
+### Wersja pełna:
+> \<\< S. SELFIE Z PATRONEM / DATA WYKONANIA SELFIE / ALIAS PATRONA / MIEJSCE WYKONANIA SELFIE / CZY ODMÓWIONO MODLITWĘ DO PATRONA / KOMENTARZ  
+> \>\> S1 / PN 2023-09-04 / Jan EWA / Poznań, Kościół św. Jana Apostoła i Ewangelisty / + / Zdjęcie zrobione przez Mamę  
+> \>\> S2 / WT 2023-09-12 / Antoni PAD / Wrocław, Kościół św. Antoniego z Padwy / +  
+> \>\> S3 / WT 2023-09-12 / Maria NMP / Wrocław, Kościół św. Antoniego z Padwy / + / Obraz na ołtarzu głównym
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_s_selfie_z_patronem.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -34,15 +49,10 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ---
 
 ## <span id="selfie-z-patronem-wiecej-informacji">Więcej informacji</span>
-- Na tej liście można wpisać wykonane selfie z wizerunkami **Osób Boskich**. Zamiast numeru patrona wpisujemy: „**I**” (Bóg Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) albo „**I+II+III**” (Trójca Przenajświętsza).
+- Na tej liście można wpisać wykonane selfie z wizerunkami **Osób Boskich**. Zamiast nazwy patrona wpisujemy: „**I**” (Bóg Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) albo „**I+II+III**” (Trójca Przenajświętsza).
 - Ponieważ niektóre wizerunki patronów mogą znajdować się wysoko, chyba lepiej zawsze kadrować pionowo wykonane zdjęcia.
 - Z własnych fotografii z patronami można zrobić sobie piękny pamiątkowy album.
 - Warto rozważyć użycie wykonanych zdjęć na swoich [kartach kolekcjonerskich](karty_kolekcjonerskie.md).
-## <span id="selfie-z-patronem-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Miejsce** wykonania zdjęcia - słownie lub jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**.
-- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do Patronów Opiekunów](patroni_opiekunowie.md)  

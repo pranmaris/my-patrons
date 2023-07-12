@@ -9,15 +9,13 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#osiagniecia-patron
 ## Lista
 Każda osoba może mieć innych patronów swoich najbliższych.
 ## Notatki
-Zanotuj sobie:
+Zanotuj sobie poniższe informacje wypełniając np. ten [formularz](../../pl/pdf/lista_v1_yb_patroni_imion_moich_najblizszych.pdf):
 - kolejny **numer** wpisu (np. 1, 2, ...),
 - **typ** imienia: chrzest, bierzmowanie, imię zakonne,
 - posiadane **imię**,
 - **nazwę** patrona imienia,
 - **rok śmierci** patrona imienia (by potem uniknąć wątpliwości o którego chodzi),
 - **numery patrona** na czterech listach: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md) i [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md), np. **T34**, **A103**, **U12**, **P7**.
-
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_yb_patroni_imion_moich_najblizszych.pdf).
 <br />
 <br />
 <br />

@@ -38,20 +38,22 @@ W okolicach **pierwszych piątków miesiąca**, wykonaj poniższe kroki:
 
 Poza **Spowiedzią i Komunią**, często pomija się powyższe kroki skupiając się na tej obietnicy. Warto jednak je wypełniać, choćby uzupełnić później, gdy pojawi się taka możliwość.
 ## Notatki
-Jeśli chcesz, możesz zanotowac sobie:
-- **informację**, który to jest piątek z rzędu,
-- **datę** przystąpienia do Spowiedzi św. (najlepiej z dniem tygodnia),
-- **datę** pierwszego piątku miesiąca,
-- dodatkowe **informacje** na temat Spowiedzi, Komunii, Mszy czy Godziny Świętej:
-  - **godziny** tych wydarzeń,
-  - opisy słowne lub odnośniki do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscami** tych wydarzeń, np. **C2**,
-  - opisy słowne lub odnośniki do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md) z **kapłanami** będącymi szafarzami Sakramentów lub odprawiającymi Mszę, np. **I22**,
-- zaznaczenie czy **odprawiono _„Godzinę Świętą”_** - postaw dowolny znaczek (np. „✅”),
-- zaznaczenie czy **odmówiono Litanię** do Najświętszego Serca Pana Jezusa - postaw dowolny znaczek (np. „✅”),
-- zaznaczenie czy **odmówiono Akt** Poświęcenia Rodzaju Ludzkiego Najświętszemu Sercu Pana Jezusa - postaw dowolny znaczek (np. „✅”),
-- **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< LA. NABOŻEŃSTWO IX PIERWSZYCH PIĄTKÓW MIESIĄCA / DATA PRZYJĘCIA KOMUNII ŚWIĘTEJ  
+> \>\> LA1 / PT 2023-08-04  
+> \>\> LA2 / PT 2023-09-01  
+> \>\> LA3 / PT 2023-10-06
+### Wersja pełna:
+> \<\< LA. NABOŻEŃSTWO IX PIERWSZYCH PIĄTKÓW MIESIĄCA / DATA PRZYJĘCIA KOMUNII ŚWIĘTEJ / CZY ODPRAWIONO GODZINĘ ŚWIĘTĄ / CZY ODMÓWIONO LITANIĘ DO NAJŚWIĘTSZEGO SERCA JEZUSA / CZY ODMÓWIONO AKT POŚWIĘCENIA RODZAJU LUDZKIEGO / KOMENTARZ  
+> \>\> LA1 / PT 2023-08-04 / - / + / + / Spowiedź (CZ 2023-08-03): Białystok, Kościół św. Anny; Komunia: Białystok, Kościół św. Anny  
+> \>\> LA2 / PT 2023-09-01 / + / - / - / Spowiedź (ŚR 2023-08-30): Białystok, Kościół św. Anny; Komunia: Białystok, Kościół Ducha Świętego  
+> \>\> LA3 / PT 2023-10-06 / + / - / - / Spowiedź (ŚR 2023-08-30): Białystok, Kościół Ducha Świętego (ks. Mirosław Nowak); Komunia: Białystok, Kościół Ducha Świętego
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_l_nabozenstwa_ab.pdf).
+Uwagi:
+- jeżeli powyższe było zrobione wcześniej, spróbuj przypomnieć sobie kiedy to było i wpisz co pamiętasz,
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  

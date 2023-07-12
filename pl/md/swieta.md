@@ -3,7 +3,7 @@
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **odkryć nowe święto**.
 ## Wymaganie
-Wykonanie zadania [<span class="status status-list"><span class="status status-god">∞</span> Bóg</span>](bog.md) musisz mieć już za sobą!
+Wykonanie zadania [<span class="status status-list"><span class="status status-god">I</span> Bóg</span>](bog.md) musisz mieć już za sobą!
 ## Wybór
 Wybierz święto, którego jeszcze **nie odkryłeś**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>.
 
@@ -31,14 +31,33 @@ Odmów następującą modlitwę dla **każdego odkrywanego** w <span class="sele
 ## Zadanie dodatkowe
 **Przeczytaj jakąkolwiek notkę** o odkrywanych świętach lub **obejrzyj o nich film**, aby lepiej poznać ich znaczenie i historię.
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** święta, np. B1, B2, B3, ...,
-- **datę** odkrycia święta (najlepiej z dniem tygodnia),
-- **nazwę** święta,
-- numer **patrona**, którego dotyczy odkryte święto - na liście [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A18**,
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#swieta-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< B. ŚWIĘTA / DATA ODKRYCIA / ALIAS ŚWIĘTA  
+> \>\> B1 / ND 2023-08-06 / II:PRZ -- Przemienienie Pańskie  
+> \>\> B2 / WT 2023-08-15 / Maria NMP:WNI -- Wniebowzięcie Najświętszej Maryi Panny  
+> \>\> B3 / ND 2023-12-31 / II:ROD -- Świętej Rodziny (Jezus)  
+> \>\> B4 / ND 2023-12-31 / Maria NMP:ROD -- Świętej Rodziny (Maria)  
+> \>\> B5 / ND 2023-12-31 / Józef NAZ:ROD -- Świętej Rodziny (Józef)
+### Wersja pełna:
+> \<\< B. ŚWIĘTA / DATA ODKRYCIA / ALIAS ŚWIĘTA / KRYTERIUM WYBORU ŚWIĘTA / CZY ODMÓWIONO MODLITWĘ / CZY PRZECZYTANO O ŚWIĘCIE / KOMENTARZ  
+> \>\> B1 / ND 2023-08-06 / II:PRZ -- Przemienienie Pańskie / + / + / Msza o 12:00; Warszawa, Kościół Nawiedzenia Najświętszej Maryi Panny; ks. Waldemar Kopaliński  
+> \>\> B2 / WT 2023-08-15 / Maria NMP:WNI -- Wniebowzięcie Najświętszej Maryi Panny / + / + / Msza o 09:00; Warszawa, Kościół św. Jakuba Apostoła; ks. ?  
+> \>\> B3 / ND 2023-12-31 / II:ROD -- Świętej Rodziny (Jezus) / + / + / Masz o 10:30; Warszawa, Kościół św. Aleksandra; ks. Wojciech Kowalski + dk. Michał Kuna (homilia)  
+> \>\> B4 / ND 2023-12-31 / Maria NMP:ROD -- Świętej Rodziny (Maria) / + / + / Jak wyżej  
+> \>\> B5 / ND 2023-12-31 / Józef NAZ:ROD -- Świętej Rodziny (Józef) / + / + / Jak wyżej
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_b_swieta.pdf).
+Uwagi:
+- przez „**ALIAS ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Do tego najlepiej dodać nadany przez nas kod określający o które święto chodzi. Dobrze zatem wydaje się sprawdzać połączenie **głównego imienia patrona**, analogicznie **nadanego trzyliterowego kodu** rozpoznawczego patrona i wspomnianego **kodu święta**. Tak uzyskamy np.: „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Józef NAZ:RZE**” - Józefa Rzemieślnika, czy „**II:KRW**” - Jezusa Chrystusa Króla Wszechświata,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis święta, np.:
+> \>\> ... / Maria NMP:ROZ -- Najświętsza Maryja Panna Różańcowa / ...  
+> ...  
+> \>\> ... / Maria NMP:ROZ / ...  
+> ...  
+> \>\> ... / Maria NMP:ROZ / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- jako „**KRYTERIUM WYBORU ŚWIĘTA**” możemy podać np.: „**MR**” - istnieje wpis tego święta w którymś oficjalnym wydaniu Martyrologium Rzymskiego dla dnia dzisiejszego, „**MR1948:3**” - w Martyrologium z 1948 roku wybrane święto jest opisane w trzecim elogium dla dnia dzisiejszego, „**MR2004:R10**” - w Martyrologium z 2004 wybrane święto jest opisane w dziesiątym elogium świąt ruchomych, które dzisiaj przypada, „**KAL**” - święto było dzisiaj jawnie wspomniane na Mszy, w której uczestniczyliśmy na podstawie dowolnego obowiązującego kalendarza liturgicznego, „**ODP**” - dzisiaj była suma odpustu parafialnego dotycząca wybranego święta, „**INN**” - dzisiaj przypada inny dzień wspomnienia, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space).
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 ## Status
 | Poprzedni status odkrytego święta | zmienił się na | nowy status |
 |---:|:---:|:---|
@@ -73,17 +92,6 @@ Teraz już możesz dla odkrytego **Święta** sprostać wyzwaniom:
 - **Święta odnosimy zawsze do patronów, nigdy do innych świąt!** Przykładowo _„Poświęcenie Bazyliki św. Jana na Lateranie”_ (9 listopada) wymaga, aby wszyscy jej patroni tytularni (czyli Najświętszy Zbawiciel, św. Jan Chrzciciel i św. Jan Ewangelista) byli Osobą Boską lub naszym **Patronem Obrońcą**. Pomimo, że _„Najświętszy Zbawiciel”_ kwalifikuje się tu bardziej jako święto lub tytuł Jezusa, przypisujemy zwyczajnie numer Jego osoby, czyli „**II**”. Analogicznie _„Poświęcenie Bazyliki Matki Bożej Większej”_ (5 sierpnia) dotyczy Maryi z Nazaretu jako osoby, a nie tego Jej tytułu.
 - Do czytania o świętach polecamy skorzystanie z takich stron, jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), [Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_katolickie_w_Polsce) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).
 - Orientacyjny kalendarz liturgiczny dla Polski wraz z linkami do kalendarzy diecezjalnych można znaleźć na stronie [GCatholic.org](http://www.gcatholic.org/calendar/2023/PL-pl.htm).
-## <span id="swieta-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Numer patrona**, który został zaproszony jako **Patron Obrońca** w tym dniu - odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A26**.
-- Informację, na podstawie jakiego **kryterium** wybraliśmy święto w tym dniu roku. Mogą to być poniższe skróty:
-  - **MRxxxx** - Martyrologium Rzymskie (xxxx to rok wydania), np. dla 2004 roku może to być **MR2004:7**, co oznacza siódmy wpis na <span class="selected-day-info">ten dzień</span> roku, **MR2004:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
-  - **KAL** - kalendarz liturgiczny, gdy święto było na jego podstawie jawnie wspomniane na Mszy, w której uczestniczyliśmy,
-  - **ODP** - suma odpustu parafialnego wybranego święta,
-  - **INN** - inny dzień, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space).
-- Zaznaczenie czy **odmówiono modlitwę** związaną ze świętem - postaw dowolny znaczek (np. „✅”).
-- Zaznaczenie czy **przeczytano notkę** lub **obejrzano film** o święcie - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do odkrywania świąt](jak_odkrywac_swieta.md)  

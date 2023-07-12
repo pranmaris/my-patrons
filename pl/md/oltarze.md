@@ -15,16 +15,26 @@ Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowa
 ## Zadanie dodatkowe
 Przeczytaj (jeśli uda Ci się znaleźć) jakąkolwiek notkę lub informacje o wybranym **ołtarzu** lub **kaplicy**, opisującą ich historię, posiadane relikwie i inne cenne przedmioty.
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** nawiedzonego ołtarza, np. E1, E2, E3, ...,
-- **datę** nawiedzenia ołtarza (najlepiej z dniem tygodnia),
-- **numer** miejsca, w którym znajduje się ołtarz - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
-- **numer** (jeden z poniższych):
-    - patrona tytularnego ołtarza - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
-    - święta tytularnego ołtarza - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#oltarze-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< E. OŁTARZE / DATA NAWIEDZENIA / ALIAS PATRONA LUB ŚWIĘTA / NAZWA OŁTARZA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM / NAZWA MIEJSCA  
+> \>\> E1 / PN 2023-10-02 / Michał ARC / Kaplica [św. Michała Archanioła] / Poznań, Bazylika Matki Bożej Nieustającej Pomocy, św. Marii Magdaleny i św. Stanisława Biskupa  
+> \>\> E2 / PN 2023-10-16 / Maria NMP:POC / Kaplica Gembickiego (Kaplica [Niepokalanego Poczęcia Najświętszej Maryi Panny]) / Gniezno, Bazylika prymasowska Wniebowzięcia Najświętszej Maryi Panny  
+### Wersja pełna:
+> \<\< E. OŁTARZE / DATA NAWIEDZENIA / ALIAS PATRONA LUB ŚWIĘTA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / CZY PRZECZYTANO O OŁTARZU / NAZWA OŁTARZA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM / NAZWA MIEJSCA / KOMENTARZ  
+> \>\> E1 / PN 2023-10-02 / Michał ARC / + / + / Kaplica [św. Michała Archanioła] / Poznań, Bazylika Matki Bożej Nieustającej Pomocy, św. Marii Magdaleny i św. Stanisława Biskupa  
+> \>\> E2 / PN 2023-10-16 / Maria NMP:POC / + / + / Kaplica Gembickiego (Kaplica [Niepokalanego Poczęcia Najświętszej Maryi Panny]) / Gniezno, Bazylika prymasowska Wniebowzięcia Najświętszej Maryi Panny / Kaplica znajduje się na osi katedry
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_e_oltarze.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -36,12 +46,6 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 
 ## <span id="oltarze-wiecej-informacji">Więcej informacji</span>
 - Szczegółowe zasady nawiedzania ołtarzy lub kaplic są analogiczne do listy: [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md#koscioly-wiecej-informacji).
-## <span id="oltarze-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Miejscowość i nazwę ołtarza**, z podkreśloną nazwą powiązanego z wyzwaniem patrona lub święta.
-- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona tytularnego - postaw dowolny znaczek (np. „✅”).
-- Zaznaczenie czy **przeczytano notatkę** o ołtarzu - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do Patronów Obrońców](patroni_obroncy.md)  

@@ -16,7 +16,7 @@ Maksymalnie jeden nowy **Patron Przyjaciel** dziennie!
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span>:
 - udaj się przed **Najświętszy Sakrament** w **dowolnej** parafii, kościele czy innym miejscu,
-- **uklęknij** tak, by widzieć **Jezusa** ukrytego w Hostii (jeśli oczywiście zdrowie Ci na to pozwala),
+- **uklęknij** tak, by widzieć **Jezusa** ukrytego w Hostii,
 - postaraj się **wyciszyć i skupić**,
 - **na początku adoracji**, patrząc na **Najświętszy Sakrament**, odmów modlitwę **_„Chwała na wysokości Bogu”_**, czyli:
 > Chwała na wysokości Bogu, a na ziemi pokój ludziom dobrej woli.  
@@ -45,20 +45,39 @@ W <span class="selected-day-info">wybranym dniu</span>:
 > W Imię Ojca i Syna i Ducha Świętego _(wykonujemy znak krzyża)_.  
 > Amen.  
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** Patrona Przyjaciela, np. P1, P2, P3, ...,
-- **datę** zaproszenia patrona (najlepiej z dniem tygodnia),
-- **nazwę** patrona,
-- **rok śmierci** patrona (by potem uniknąć wątpliwości o którego chodzi),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#patroni-przyjaciele-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< P. PATRONI PRZYJACIELE / DATA ADORACJI / ALIAS PATRONA  
+> \>\> P1 / CZ 2023-08-31 / Maria NMP  
+> \>\> P2 / PT 2023-09-08 / Ignacy LOY  
+> \>\> P3 / SO 2023-09-23 / Tomasz AKW
+### Wersja pełna:
+> \<\< P. PATRONI PRZYJACIELE / DATA ADORACJI / ALIAS PATRONA / CZY ODMÓWIONO MODLITWĘ CHWAŁA NA WYSOKOŚCI / CZY ODMÓWIONO MODLITWĘ DO PATRONA / MIEJSCE ADORACJI / KOMENTARZ  
+> \>\> P1 / CZ 2023-08-31 / Maria NMP / + / + / Bydgoszcz, Kościół Zmartwychwstania Pańskiega / Od około godziny 11:00  
+> \>\> P2 / PT 2023-09-08 / Ignacy LOY / + / + / Bydgoszcz, Kościół Zmartwychwstania Pańskiego / Od godziny 14:30; Przerwa w adoracji z powodu Mszy św. o 15:00, potem dokończenie  
+> \>\> P3 / SO 2023-09-23 / Tomasz AKW / + / + / Bydgoszcz, Kościół św. Jóżefa Rzemieślnika / Od godziny 10:30
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_p_patroni_przyjaciele.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+
 ## Status
 | Poprzedni status zaproszonego patrona | zmienił się na | nowy status |
 |---:|:---:|:---|
 |<span class="status status-indigo">indygo</span>|→|<span class="status status-white">biały</span>|
 ## Karty
-Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możesz ją wydrukować na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards).
+Jeśli jeszcze nie masz [karty bazowej](karty_kolekcjonerskie.md#karty-kolekcjonerskie-karty-bazowe) z tym patronem, **stwórz ją odręcznie** na kartce wielkości karty lub **wydrukuj gotowy szablon** do wypełnienia.
+
+Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.zip) lub za pomocą formularza na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards). Pamiętaj, by wielkość wydrukowanych kart była odpowiednia, należy **drukować pliki w domyślnej skali**!
+
+**Wszystkie swoje karty** najlepiej przechowywać w albumie lub specjalnym pudełku, co ułatwi Ci późniejsze wyszukiwanie zaproszonych już patronów!
 <br />
 <br />
 <br />
@@ -77,13 +96,7 @@ Teraz już możesz dla zaproszonego **Patrona Przyjaciela** sprostać wyzwaniom:
 - [<span class="status status-list"><span class="status status-list">VG</span> Szkaplerze</span>](szkaplerze.md)
 ## <span id="patroni-przyjaciele-wiecej-informacji">Więcej informacji</span>
 - Tego zadania **nie można łączyć** z **adoracją** na liście [<span class="status status-list"><span class="status status-list">F</span> Adoracje</span>](adoracje.md)!
-## <span id="patroni-przyjaciele-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Numery** tego patrona z list: [<span class="status status-list"><span class="status status-yellow">T</span> Patroni - Opiekunowie</span>](patroni_opiekunowie.md), [<span class="status status-list"><span class="status status-blue">A</span> Patroni - Obrońcy</span>](patroni_obroncy.md) i [<span class="status status-list"><span class="status status-red">U</span> Patroni - Orędownicy</span>](patroni_oredownicy.md), np. **T17**, **A35**, **U7**.
-- **Informacje o miejscu adoracji** - słownie lub jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C42**,
-- Zaznaczenie czy **odmówiono modlitwę** _„Chwała na wysokości Bogu”_ - postaw dowolny znaczek (np. „✅”).
-- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+- **Adorację można przerwać** i wrócić do niej później, nawet **w innym miejscu**. Ważne, by całość **odbyła się jednego dnia** i sumarycznie trwała **co najmiej jedną godzinę**!
 
 ---
 [Powrót do zapraszania patronów](jak_zapraszac_patronow.md#jak-zapraszac-patronow-patron-przyjaciel)  

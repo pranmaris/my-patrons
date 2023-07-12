@@ -15,16 +15,28 @@ Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowa
 ## Zadanie dodatkowe
 **Przeczytaj** jakąkolwiek **notkę** lub **informacje** o wybranej świątyni, opisujące jej historię, ciekawostki oraz zawarte w niej ołtarze, relikwie i inne cenne przedmioty.
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** nawiedzonej świątyni, np. D1, D2, D3, ...,
-- **datę** nawiedzenia świątyni (najlepiej z dniem tygodnia),
-- **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
-- **numer** (jeden z poniższych):
-    - patrona tytularnego świątyni - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
-    - święta tytularnego świątyni - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#koscioly-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< D. KOŚCIOŁY / DATA NAWIEDZENIA / ALIAS PATRONA LUB ŚWIĘTA / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM  
+> \>\> D1 / WT 2023-08-22 / Jan P2P / Poznań, Kościół [św. Jana Pawła II]  
+> \>\> D2 / PT 2023-08-25 / Maria NMP:WSP / Rogalinek, Kościół św. Michała Archanioła i [Matki Bożej Wspomożenia Wiernych]  
+> \>\> D3 / PT 2023-08-25 / Jarogniew WOJ / Poznań, Kościół Błogosławionej Poznańskiej Piątki, czyli bł. Czesława Jóźwiaka, bł. Edwarda Kaźmierskiego, bł. Franciszka Kęsego, bł. Edwarda Klinika i [bł. Jarogniewa Wojciechowskiego]
+### Wersja pełna:
+> \<\< D. KOŚCIOŁY / DATA NAWIEDZENIA / ALIAS PATRONA LUB ŚWIĘTA / CZY WIDZIANO OŁTARZ GŁÓWNY / CZY ODMÓWIONO MODLITWĘ DO PATRONA / CZY PRZECZYTANO O KOŚCIELE / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM / KOMENTARZ  
+> \>\> D1 / WT 2023-08-22 / Jan P2P / + / + / + / Poznań, Kościół [św. Jana Pawła II]  
+> \>\> D2 / PT 2023-08-25 / Maria NMP:WSP / + / + / + / Rogalinek, Kościół św. Michała Archanioła i [Matki Bożej Wspomożenia Wiernych] / Na cmentarzu obok kościoła znajduje się grób dziadka  
+> \>\> D3 / PT 2023-08-25 / Jarogniew WOJ / - / + / + / Poznań, Kościół Błogosławionej Poznańskiej Piątki, czyli bł. Czesława Jóźwiaka, bł. Edwarda Kaźmierskiego, bł. Franciszka Kęsego, bł. Edwarda Klinika i [bł. Jarogniewa Wojciechowskiego]
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_d_koscioly.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -43,13 +55,6 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - **Jednego dnia można odwiedzić dowolną liczbę kościołów** i dla każdego z nich sprostać nieposiadanym jeszcze wyzwaniom.
 - Można sobie zanotować czy udało nam się **bezpośrednio ujrzeć ołtarz główny** nawiedzanego kościoła. To na wypadek, gdyby za pierwszym razem nam się to nie udało, a przy następnej okazji chcielibyśmy go jednak zobaczyć. To oczywiście nie wpłynie już na fakt sprostania temu wyzwaniu za pierwszym razem.
 - Osoby lubiące robić zdjęcia mogą pomyśleć o prowadzeniu swojej galerii odwiedzonych świątyń.
-## <span id="koscioly-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Miejscowość i nazwę świątyni** z podkreśloną nazwą powiązanego z wyzwaniem patrona lub święta.
-- Zaznaczenie czy **udało się ujrzeć ołtarz główny** świątyni - postaw dowolny znaczek (np. „✅”).
-- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona tytularnego - postaw dowolny znaczek (np. „✅”).
-- Zaznaczenie czy **przeczytano notatkę** o świątyni - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do Patronów Obrońców](patroni_obroncy.md)  

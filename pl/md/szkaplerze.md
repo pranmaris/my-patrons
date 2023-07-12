@@ -21,15 +21,26 @@ W <span class="selected-day-info">wybranym dniu</span>:
 ## Modlitwa
 W <span class="selected-day-info">wybranym dniu</span> uroczyście **odmów modlitwę**, którą codziennie odmawiasz dla tego szkaplerza.
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** szkaplerza, np. VG1, VG2, VG3, ...,
-- **nazwę** szkaplerza,
-- **datę** wykonania wyzwania (najlepiej z dniem tygodnia),
-- **numer** patrona - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md), np. **P16**,
-- **numer** święta (tylko, jeśli szkaplerz go dotyczy) - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#szkaplerze-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< VG. SZKAPLERZE / DATA WYKONANIA WYZWANIA / ALIAS PATRONA LUB ŚWIĘTA / NAZWA SZKAPLERZA  
+> \>\> VG1 / WT 2023-10-17 / Maria NMP:KAR / Szkaplerz Karmelitański (Najświętszej Maryi Panny z Góry Karmel)  
+> \>\> VG2 / ŚR 2023-10-25 / II:SER / Szkaplerz Najświętszego Serca Jezusa
+### Wersja pełna:
+> \<\< VG. SZKAPLERZE / DATA WYKONANIA WYZWANIA / ALIAS PATRONA LUB ŚWIĘTA / NAZWA SZKAPLERZA / MODLITWA SZKAPLERZA / CZY ODMÓWIONO MODLITWĘ SZKAPLERZA / DATA PIERWSZEGO NAŁOŻENIA SZKAPLERZA / KOMENTARZ  
+> \>\> VG1 / WT 2023-10-17 / Maria NMP:KAR / Szkaplerz Karmelitański (Najświętszej Maryi Panny z Góry Karmel) / Pod Twoją obronę ... / + / PT 2019-09-27 / Nałożenie: Olsztyn, Kościół św. Wawrzyńca, ks. Dominik Kaczorowski  
+> \>\> VG2 / ŚR 2023-10-25 / II:SER / Szkaplerz Najświętszego Serca Jezusa / Jezu cichy i pokornego serca ..., Maryjo Matko łaski i Matko Miłosierdzia ... / + / PN 2023-03-20 / Nałożenie: Olsztyn, Kościół Chrystusa Zmartwychwstałego, ks. ?
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_vg_szkaplerze.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -41,13 +52,6 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 
 ## <span id="szkaplerze-wiecej-informacji">Więcej informacji</span>
 - Jeżeli do tej pory nie spełnialiśmy gorliwie wszystkich wymagań nadanych nam przez posiadany szkaplerz i chcielibyśmy to zmienić, warto wyznać to Bogu przy najbliższej Spowiedzi i przeprosić za to w modlitwie patrona, którego ten szkaplerz dotyczy.
-## <span id="szkaplerze-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Datę** pierwszego nałożenia szkaplerza (najlepiej z dniem tygodnia).
-- **Numer** miejsca pierwszego nałożenia szkaplerza - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**).
-- **Kapłana** nakładającego szkaplerz - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md), np. **I17** (dla czytelności listy można także wpisać jego **nazwisko**).
-- Zaznaczenie czy w dniu wykonania tego zadania **odmówiono codzienną modlitwę szkaplerza** (jeśli takowa jest) - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do patronów przyjaciół](patroni_przyjaciele.md)  

@@ -1,4 +1,4 @@
-# <span class="status status-list"><span class="status status-god">∞</span> Bóg</span>
+# <span class="status status-list"><span class="status status-god">I</span> Bóg</span>
 ---
 ## Cel
 **Powierzyć Bogu** cały Twój **udział w inicjatywie _„Moich Patronów”_**, który właśnie się rozpoczyna.
@@ -35,16 +35,25 @@ W <span class="selected-day-info">wybranym dniu</span>, odmów _„Credo”_, cz
   - o Jezusie Chrystusie,
   - o Duchu Świętym.
 ## Notatki
-Zanotuj sobie:
-- **datę** wykonanego zawierzenia i wyznania wiary (najlepiej z dniem tygodnia),
-- **datę** swojego urodzenia (najlepiej z dniem tygodnia),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#bog-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< I. BÓG / DATA ZAWIERZENIA I CREDO  
+> \>\> I / WT 2023-08-01
+### Wersja pełna:
+> \<\< I. BÓG / DATA ZAWIERZENIA I CREDO / CZY PRZECZYTANO O TRÓJCY PRZENAJŚWIĘTSZEJ / CZY PRZECZYTANO O BOGU OJCU / CZY PRZECZYTANO O SYNU BOŻYM / CZY PRZECZYTANO O DUCHU ŚWIĘTYM / KOMENTARZ  
+> \>\> I / WT 2023-08-01 / + / + / + / + / Około godziny 17:00; Poznań, Kościół św. Anny
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_oo_bog_j_sakramenty_ya_patroni_moich_imion.pdf).
+Uwagi:
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki,
+- dodatkowo możesz wypełnić także np. ten [formularz](../../pl/pdf/lista_v1_i_bog_j_narodziny_i_sakramenty_ya_patroni_moich_imion.pdf), co może się przydać później.
+
 ## Karty
-Na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards), po wykonaniu tego zadania, możesz wydrukować sobie cztery [karty](karty_kolekcjonerskie.md): z **Trójcą Przenajświętszą** (zbiorczo) oraz z **Bogiem Ojcem**, **Jezusem Chrystusem** i **Duchem Świętym** (każdy na osobnej karcie).
+Po wykonaniu tego zadania, możesz wydrukować lub narysować samodzielnie cztery [karty bazowe](karty_kolekcjonerskie.md#karty-kolekcjonerskie-karty-bazowe): z **Trójcą Przenajświętszą** (zbiorczo) oraz z **Bogiem Ojcem**, **Jezusem Chrystusem** i **Duchem Świętym** (każdy na osobnej karcie).
 
-Dodatkowo **uzyskujesz również prawo do piątej karty** symbolizującej Twoją osobę. Na początku zatem **jest Bóg i jesteś Ty!**
+Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.zip) lub za pomocą formularza na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards). Pamiętaj, by wielkość wydrukowanych kart była odpowiednia, należy **drukować pliki w domyślnej skali**!
+
+**Tak zaczniesz budowanie swojej kolekcji kart** w albumie lub specjalnym pudełku i ułatwi Ci to późniejsze wyszukiwanie zaproszonych już patronów!
 <br />
 <br />
 <br />
@@ -62,12 +71,6 @@ Dowiedz się jak możesz:
 
 ## <span id="bog-wiecej-informacji">Więcej informacji</span>
 - W dniu wykonania tego zadania warto postarać się o wykreowanie pewnych wyjątkowych okoliczności (np. ładny ubiór, wyjście w ciekawe miejsce, odświętny posiłek), które będą sprzyjać świętowaniu tego wydarzenia.
-## <span id="bog-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotować także:
-- Informację o **miejscu wykonania zadania**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C2**,
-- Informację o **miejscu urodzenia**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C1**,
-- Zaznaczenie czy **przeczytano notatkę** lub **obejrzano film** o Trójcy i każdej Osobie Boskiej osobno - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-bog)  

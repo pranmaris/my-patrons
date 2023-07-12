@@ -28,13 +28,28 @@ W <span class="selected-day-info">wybranym dniu</span> **rozważaj** sobie ten c
 
 **UWAGA!** Do zgromadzonych już cytatów warto **wracać regularnie**, choćby **każdego dnia** o poranku losować je jako **myśl przewodnią** na ten dzień!
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** cytatu, np. O1, O2, O3, ...,
-- **datę** dodania cytatu (najlepiej z dniem tygodnia),
-- **numer** patrona będącego autorem cytatu - jako odnośnik do listy [<span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span>](patroni_opiekunowie.md), np. **T6** (dla czytelności listy można także wpisać jego **nazwę**),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#cytaty-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< O. CYTATY / DATA DODANIA CYTATU / ALIAS PATRONA / CYTAT  
+> \>\> O1 / WT 2023-08-08 / Augustyn HIP / Gdzie Bóg jest na pierwszym miejscu, tam wszystko jest na swoim miejscu.  
+> \>\> O2 / ŚR 2023-08-09 / Maria NMP / Oto ja służebnica Pańska, niech mi się stanie według twego słowa!  
+> \>\> O3 / PT 2023-08-18 / II / Pragnij. Pragnienie jest siłą stwórczą!
+### Wersja pełna:
+> \<\< O. CYTATY / DATA DODANIA CYTATU / ALIAS PATRONA / CYTAT / CZY ODMÓWIONO MODLITWĘ DO PATRONA / CZY ROZWAŻANO CYTAT / KOMENTARZ  
+> \>\> O1 / WT 2023-08-08 / Augustyn HIP / Gdzie Bóg jest na pierwszym miejscu, tam wszystko jest na swoim miejscu. / + / +  
+> \>\> O2 / ŚR 2023-08-09 / Maria NMP / Oto ja służebnica Pańska, niech mi się stanie według twego słowa! / + / + / Biblia Łk 1,38  
+> \>\> O3 / PT 2023-08-18 / II / Pragnij. Pragnienie jest siłą stwórczą! / + / + / Alicja Lenczewska, Świadectwo 493
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_o_cytaty.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -47,13 +62,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ## <span id="cytaty-wiecej-informacji">Więcej informacji</span>
 - Jeśli nie sam autor przekazał lub spisał ów cytat, możesz napisać kto to zrobił.
 - Cytaty można znaleźć w książkach, żywotach świętych lub na [Wikicytatach](https://pl.wikiquote.org).
-- Na tej liście można wpisywać także cytaty **Osób Boskich**, np. z Pisma Świętego, wizji innych świętych. Zamiast numeru patrona wpisujemy: „**I**” (Bóg Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) albo „**I+II+III**” (Trójca Przenajświętsza).
-## <span id="cytaty-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- Informację **skąd pochodzi cytat** (źródło).
-- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
-- Zaznaczenie czy **rozważano cytat** wybranego patrona - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+- Na tej liście można wpisywać także cytaty **Osób Boskich**, np. z Pisma Świętego, wizji innych świętych. Zamiast nazwy patrona wpisujemy: „**I**” (Bóg Ojciec), „**II**” (Jezus Chrystus), „**III**” (Duch Święty) albo „**I+II+III**” (Trójca Przenajświętsza).
 
 ---
 [Powrót do Patronów Opiekunów](patroni_opiekunowie.md)  

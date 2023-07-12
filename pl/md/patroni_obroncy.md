@@ -3,7 +3,7 @@
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do grona Twoich **obrońców**.
 ## Wymaganie
-Wykonanie zadania [<span class="status status-list"><span class="status status-god">∞</span> Bóg</span>](bog.md) musisz mieć już za sobą!
+Wykonanie zadania [<span class="status status-list"><span class="status status-god">I</span> Bóg</span>](bog.md) musisz mieć już za sobą!
 ## Wybór
 Wybierz patrona, który **nie jest jeszcze Twoim obrońcą**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>, <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span> albo <span class="status status-yellow">żółtym</span>.
 
@@ -47,14 +47,30 @@ Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „B
 
 <button class="button btn" id="random-bible-chapter" onclick="setRandomBibleChapter('pl')">Losuj rozdział</button>
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** Patrona Obrońcy, np. A1, A2, A3, ...,
-- **datę** zaproszenia patrona (najlepiej z dniem tygodnia),
-- **nazwę** patrona,
-- **rok śmierci** patrona (by potem uniknąć wątpliwości o którego chodzi),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#patroni-obroncy-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< A. PATRONI OBROŃCY / DATA ZAPROSZENIA / ALIAS PATRONA  
+> \>\> A1 / WT 2023-08-01 / Alfons LIG  
+> \>\> A2 / CZ 2023-08-03 / Lidia TIA  
+> \>\> A3 / ND 2023-08-06 / Hormizdas 1PP
+### Wersja pełna:
+> \<\< A. PATRONI OBROŃCY / DATA ZAPROSZENIA / ALIAS PATRONA / KRYTERIUM WYBORU PATRONA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / ROZDZIAŁ PISMA ŚW. / KOMENTARZ  
+> \>\> A1 / WT 2023-08-01 / Alfons LIG / MR2004:1 / + / Ps 123 / Msza o 17:00; Gdańsk, św. Ojca Pio; x. Jerzy Lewandowski  
+> \>\> A2 / CZ 2023-08-03 / Lidia TIA / MR1956:2 / + / Hbr 2 / Msza o 17:00; Gdańsk, św. Ojca Pio; x. Jerzy Lewandowski + x. Władysław Kos (homilia)  
+> \>\> A3 / ND 2023-08-06 / Hormizdas 1PP / MR2004:4 / + / Rdz 42 / Msza o 10:30; Gdańsk, Ignacego Loyoli; x. Mieczysław Kotowski; Po Mszy Litania na Przemienienie Pańskie
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_a_patroni_obroncy.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- jako „**KRYTERIUM WYBORU PATRONA**” możemy podać np.: „**MR**” - istnieje wpis tego patrona w którymś oficjalnym wydaniu Martyrologium Rzymskiego dla dnia dzisiejszego, „**MR1948:3**” - w Martyrologium z 1948 roku wybrany patron jest opisany w trzecim elogium dla dnia dzisiejszego (jeśli elogium dotyczy wielu patronów, a ten nasz jest podany np. jako siódmy, możemy podać „MR1948:3.7”), „**MR2004:R10**” - w Martyrologium z 2004 wybrany patron jest opisany w dziesiątym elogium świąt ruchomych, które dzisiaj przypada, „**DSM**” - dzisiaj jest rocznica śmierci danego patrona, „**BEA**” - dokładnie dzisiaj odbyła się beatyfikacja wybranego patrona, „**KAN**” - dokładnie dzisiaj odbyła się kanonizacja wybranego patrona, „**KAL**” - patron był dzisiaj jawnie wspomniany na Mszy, w której uczestniczyliśmy na podstawie dowolnego obowiązującego kalendarza liturgicznego, „**ODP**” - dzisiaj była suma odpustu parafialnego dotycząca wybranego patrona, „**INN**” - dzisiaj przypada inny dzień wspomnienia, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space).
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+
 ## Status
 | Poprzedni status zaproszonego patrona | zmienił się na | nowy status |
 |---:|:---:|:---|
@@ -63,7 +79,11 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 |<span class="status status-orange">pomarańczowy</span>|→|<span class="status status-indigo">indygo</span>|
 |<span class="status status-yellow">zółty</span>|→|<span class="status status-green">zielony</span>|
 ## Karty
-Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możesz ją wydrukować na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards).
+Jeśli jeszcze nie masz [karty bazowej](karty_kolekcjonerskie.md#karty-kolekcjonerskie-karty-bazowe) z tym patronem, **stwórz ją odręcznie** na kartce wielkości karty lub **wydrukuj gotowy szablon** do wypełnienia.
+
+Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.zip) lub za pomocą formularza na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards). Pamiętaj, by wielkość wydrukowanych kart była odpowiednia, należy **drukować pliki w domyślnej skali**!
+
+**Wszystkie swoje karty** najlepiej przechowywać w albumie lub specjalnym pudełku, co ułatwi Ci późniejsze wyszukiwanie zaproszonych już patronów!
 <br />
 <br />
 <br />
@@ -97,23 +117,6 @@ Teraz już możesz dla zaproszonego **Patrona Opiekuna** sprostać wyzwaniom:
 - Możesz jako patrona wybrać **Najświętszą Maryję Pannę**, bazując na jej wspomnieniu ogłoszonym na Mszy św. w każdą zwykłą sobotę, w którą nie wypada żadne inne wspomnienie obowiązkowe.
 - Orientacyjny kalendarz liturgiczny dla Polski wraz z linkami do kalendarzy diecezjalnych można znaleźć na stronie [GCatholic.org](http://www.gcatholic.org/calendar/2023/PL-pl.htm).
 - Lista kanonizacji i beatyfikacji Kościoła Katolickiego znajduje się także na stronie [GCatholic.org](http://www.gcatholic.org/saints/index.htm).
-## <span id="patroni-obroncy-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- Informację o Mszy św, w której uczestniczyliśmy:
-  - **godzinę rozpoczęcia Mszy św.**,
-  - **miejsce Mszy św.** - słownie lub na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
-  - **kapłanów odprawiających Mszę św.** - słownie lub na liście [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md), np. **I13+I2+I?**, gdy mszę koncelebrowały osoby o numerach I13 (celebransa wpisuj na początku) i I2 oraz jeden kapłan nieznany lub spoza naszej listy.
-- Informację, na podstawie jakiego **kryterium** wybraliśmy patrona w tym dniu roku. Mogą to być poniższe skróty:
-  - **MRxxxx** - Martyrologium Rzymskie (xxxx to rok wydania), np. dla 2004 roku może to być **MR2004:7**, co oznacza siódmy wpis na <span class="selected-day-info">ten dzień</span> roku, **MR2004:R12** oznacza dwunasty wpis dla tzw. „świąt ruchomych”,
-  - **DSM** - dzień roku, w którym zmarł wybrany patron,
-  - **BEA** - dzień beatyfikacji patrona (tylko w roku, w którym się odbyła),
-  - **KAN** - dzień kanonizacji patrona (tylko w roku, w którym się odbyła),
-  - **KAL** - kalendarz liturgiczny, gdy patron był na jego podstawie jawnie wspomniany na mszy, w której uczestniczyliśmy,
-  - **ODP** - suma odpustu parafialnego wybranego patrona,
-  - **INN** - inny dzień wspomnienia, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space).
-- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
-- Zaznaczenie czy **przeczytano fragment Pisma Świętego** - postaw dowolny znaczek (np. „✅”) lub wpisz który rozdział (wersety) zostały przeczytane.
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 

@@ -5,16 +5,16 @@
 - Zabawę może zacząć **każda osoba** w **dowolnym czasie**, bez konieczności informowania o tym kogokolwiek.
 - W każdym momencie można przerwać aktywny udział i później wrócić do działania, kiedy będziemy tego chcieć.
 ## O listach
-- **Listy** są zawsze nazwane literami (A, B, C, MA, MB, ...) lub symbolami (∞, ＊).
-- Każda **lista** służy do notowania czego innego, i mogą to być np.:
-  - **zaproszeni patroni** - np. św. Jan Apostoł,
-  - **udział w święcie kościelnym** - np. Przemienienia Pańskiego,
-  - **wykonane wyzwania** - np. modlitwa przy relikwiach św. Faustyny,
+- **Listy** są zawsze nazwane literami (A, B, C, MA, MB, ...).
+- Każda **lista** służy do zapisywania czego innego, i mogą to być np.:
+  - **zaproszeni patroni** - np. św. Piotr Apostoł,
+  - **odkryte święta** - np. Przemienienia Pańskiego,
+  - **wykonane wyzwania** - np. modlitwa przy relikwiach św. Faustyny Kowalskiej,
   - **zdobyte osiągnięcia** - np. udane zaproszenie wszystkich dwunastu Apostołów,
-  - **inne informacje** - np. miejsce Mszy św., w której uczestniczyliśmy.
-- Można skorzystać z gotowych propozycji **list** lub notować sobie wszystko w dowolnym miejscu: na komputerze, kartce, w zeszycie, itp.
+  - **powierzone patronom swoje misje** - np. misja wysłannika,
+  - **inne informacje** - np. udział w Nabożeństwie IX Pierwszych Piątków Miesiąca.
 ## O statusach
-- **Statusy** - za pomocą kolorów - opisują postęp przebytej przez Uczestnika drogi w **odkrywaniu święta** i **zapraszaniu patrona**.
+- **Statusy** - za pomocą kolorów - opisują postęp przebytej przez Uczestnika drogi w **odkrywaniu święta** lub **zapraszaniu patrona**.
 - Dla każdego **święta** i **patrona** mamy **odrębny status**, który na początku ma kolor <span class="status status-black">czarny</span>.
 - Aby cokolwiek notować na określonej **liście**, zawsze musimy mieć **status** w wymaganym przez nią kolorze dla święta lub patrona, którego dotyczy wpis.
 - Możliwe **kolory statusów** to:
@@ -28,7 +28,11 @@
 - Niektóre **kroki** są możliwe do wykonania tylko w określonym dniu lub czasie (co będzie jasno zaznaczone), a czas na pozostałe jest dowolny.
 - Kolejność wykonywania **kroków** nie jest ustalona, chyba że zostanie napisane inaczej.
 - Niektóre zadania mogą być wykonane tylko raz dziennie lub podlegać innym **limitom**.
-- Nigdy **nie dopisujemy do listy nowych wyzwań - duplikatów**, czyli wykonanych tak samo jak wcześniej.
+- Nigdy **nie dopisujemy do listy nowych wyzwań - duplikatów**, czyli wykonanych dokładnie tak samo jak wcześniej.
+## O notowaniu
+- Najlepiej notować sobie wszystko **po kolei** w **jednym miejscu**: na komputerze, kartce, w zeszycie, itp,
+- Warto mieć **kopię zapasową notatek!** Ich utrata może sprawić, że nie odtworzymy już tego co udało nam się osiągnąć,
+- Powyższe notatki umożliwią nam budowanie i rozwijanie albumu z **kartami bazowymi patronów** (to miejsce, w którym łatwo znajdziemy patrona np. alfabetycznie), a potem będziemy mogli tam trzymać zdobyte **karty kolekcjonerskie**.
 
 ---
 **Pamiętaj!** Kluczową rzeczą jest **uczciwość** przed Bogiem, innymi i samym sobą. Aby zabawa mogła przynosić dobre owoce, powinniśmy zawsze trzymać się prawdy!

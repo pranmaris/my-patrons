@@ -3,7 +3,7 @@
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do grona Twoich **orędowników** i umożliwić to samo wybranej **drugiej osobie**.
 ## Wymaganie
-Wykonanie zadania [<span class="status status-list"><span class="status status-god">∞</span> Bóg</span>](bog.md) Ty i **wybrana osoba** musicie mieć już za sobą!
+Wykonanie zadania [<span class="status status-list"><span class="status status-god">I</span> Bóg</span>](bog.md) Ty i **wybrana osoba** musicie mieć już za sobą!
 ## Wybór
 1. Wybierz **osobę**, z którą wspólnie chcielibyście zaprosić **patronów orędowników** i z którą **nie zapraszaliście jeszcze razem w tym miesiącu kalendarzowym**!
 1. Wybierz **patrona**, który **nie jest jeszcze Twoim orędownikiem**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>, <span class="status status-yellow">zółtym</span>, <span class="status status-green">zielonym</span> albo <span class="status status-blue">niebieskim</span> i **druga osoba powierzyła mu swoją misję Wysłannika**, czyli posiada go na swojej liście [<span class="status status-list"><span class="status status-mission">MA</span> Misje Wysłannika</span>](misje_wyslannika.md).
@@ -50,16 +50,31 @@ Do końca **mówimy już razem na głos:**
 
 **UWAGA!** Nie zapraszaj kolejnego Patrona Orędownika **zanim nie skończysz odmawiać różańca** związanego z poprzednim!
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** Patrona Orędownika, np. U1, U2, U3, ...,
-- **datę** zaproszenia patrona (najlepiej z dniem tygodnia),
-- **nazwę** patrona,
-- **rok śmierci** patrona (by potem uniknąć wątpliwości o którego chodzi),
-- **numer Twojej misji wysłannika** dla patrona zaproszonego przez **drugą osobę** - jako odnośnik do Twojej listy [<span class="status status-list"><span class="status status-mission">MA</span> Misje Wysłannika</span>](misje_wyslannika.md),
-- **osobę**, z którą razem zaprosiłeś patrona - słownie (np. Mama, Michał z klasy 4b, itp.) lub jako odnośnik do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#patroni-oredownicy-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< U. PATRONI ORĘDOWNICY / DATA ZAPROSZENIA PATRONA / ALIAS PATRONA / DRUGA OSOBA / JAKO WYSŁANNIK PATRONA  
+> \>\> U1 / WT 2023-10-10 / Michał KOZ / Mama / Euzebiusz VER  
+> \>\> U2 / PN 2023-10-16 / Marcin TOU / Marcin S. z klasy 6c / Jan EWA  
+> \>\> U3 / CZ 2023-11-02 / Agata SYC / Mama / Jan EWA  
+> \>\> U4 / SO 2023-11-11 / Marek EWA / ks. Marek Nowak / Tomasz APO
+### Wersja pełna:
+> \<\< U. PATRONI ORĘDOWNICY / DATA ZAPROSZENIA PATRONA / ALIAS PATRONA / DRUGA OSOBA / JAKO WYSŁANNIK PATRONA / CZY ODMÓWIONO WSPÓLNIE MODLITWĘ DO PATRONÓW / ODMÓWIONE CZĘŚCI RÓŻAŃCA / MIEJSCE / KOMENTARZ  
+> \>\> U1 / WT 2023-10-10 / Michał KOZ / Mama / Euzebiusz VER / + / W, 1, 2, 3, 4, 5, Z / Warszawa, dom / Tajemnice radosne; Ukończono: PT 2023-10-13  
+> \>\> U2 / PN 2023-10-16 / Marcin TOU / Marcin S. z klasy 6c / Jan EWA / + / W, 1, 2, 3, 4, 5, Z / Warszawa, Szkoła Podstawowa nr 71 / Tajemnice światła; ukończono: WT 2023-10-17  
+> \>\> U3 / CZ 2023-11-02 / Agata SYC / Mama / Jan EWA / + / W, 1, 2, 3, 4, 5, Z / Warszawa, dom / Tajemnice bolesne; Ukończono: ŚR 2023-11-08  
+> \>\> U4 / SO 2023-11-11 / Marek EWA / ks. Marek Nowak / Tomasz APO / + / W, 1, 2, 3, 4, 5, Z / Warszawa, Kościół św. Aleksandra / Tajemnice chwalebne; ukończono: ten sam dzień
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_u_patroni_oredownicy.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+
 ## Status
 | Poprzedni status zaproszonego patrona | zmienił się na | nowy status |
 |---:|:---:|:---|
@@ -68,7 +83,11 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 |<span class="status status-green">zielony</span>|→|<span class="status status-indigo">indygo</span>|
 |<span class="status status-blue">niebieski</span>|→|<span class="status status-violet">fioletowy</span>|
 ## Karty
-Jeśli jeszcze nie masz [karty](karty_kolekcjonerskie.md) z tym patronem, możesz ją wydrukować na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards).
+Jeśli jeszcze nie masz [karty bazowej](karty_kolekcjonerskie.md#karty-kolekcjonerskie-karty-bazowe) z tym patronem, **stwórz ją odręcznie** na kartce wielkości karty lub **wydrukuj gotowy szablon** do wypełnienia.
+
+Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.zip) lub za pomocą formularza na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards). Pamiętaj, by wielkość wydrukowanych kart była odpowiednia, należy **drukować pliki w domyślnej skali**!
+
+**Wszystkie swoje karty** najlepiej przechowywać w albumie lub specjalnym pudełku, co ułatwi Ci późniejsze wyszukiwanie zaproszonych już patronów!
 <br />
 <br />
 <br />
@@ -94,12 +113,6 @@ Teraz już możesz dla zaproszonego **Patrona Orędownika** sprostać wyzwaniom:
 > Dnia **[data spotkania]**,  
 > zaproszony został Patron Orędownik: **[imię jednego patrona / nazwa zbiorcza wielu patronów]**,  
 > co umożliwiła mi osoba **[nazwisko i podpis drugiej osoby]**.
-## <span id="patroni-oredownicy-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Miejsce zaproszenia** patrona - słownie lub jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**.
-- Zaznaczenie czy **odmówiono modlitwę z drugą osobą** do wybranego patrona - postaw dowolny znaczek (np. „✅”).
-- Zaznaczenie czy **odmówiono różaniec** za drugą osobę - postaw dowolny znaczek (np. „✅”) - na całości lub poszczególnych częściach różańca.
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 

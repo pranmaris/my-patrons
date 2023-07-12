@@ -32,16 +32,21 @@ W <span class="selected-day-info">piątek Wielkiego Postu</span> weź udział w 
 
 **UWAGA!** Jako **pełny udział** w tym nabożeństwie można potraktować uczestnictwo np. we **wszystkich 7 Drogach Krzyżowych** jednego Wielkiego Postu.
 ## Notatki
-Jeśli chcesz, możesz zanotowac sobie:
-- **informację**, która to jest Droga Krzyżowa w aktualnym Wielkim Poście,
-- **datę** odbycia Drogi Krzyżowej,
-- dodatkowe **informacje** na temat tego nabożeństwa:
-  - **godzinę** rozpoczęcia,
-  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscem** nabożeństwa, np. **C2**,
-  - opis słowny lub odnośnik do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md) z **kapłanem** prowadzącym, np. **I22**,
-- **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< LC. NABOŻEŃSTWO DROGI KRZYŻOWEJ / DATA ODBYCIA DROGI KRZYŻOWEJ  
+> \>\> LC1 / PT 2024-02-16  
+> \>\> LC2 / PT 2024-02-23  
+> \>\> LC3 / PT 2024-03-01
+### Wersja pełna:
+> \<\< LC. NABOŻEŃSTWO DROGI KRZYŻOWEJ / DATA ODBYCIA DROGI KRZYŻOWEJ / KOMENTARZ  
+> \>\> LC1 / PT 2024-02-16 / Nabożeństwo o 17:00; Kraków, Kościół św. Jadwigi Królowej; ks. Wacław Majchrzak  
+> \>\> LC2 / PT 2024-02-23 / Nabożeństwo o 17:00; Kraków, Kościół św. Jadwigi Królowej; ks. Wacław Majchrzak  
+> \>\> LC3 / PT 2024-03-01 / Nabożeńśtwo o 19:30; Kraków, Kaplica bł. Jerzego Popiełuszki; ks. Jan Kamiński
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_l_nabozenstwa_cde.pdf).
+Uwagi:
+- jeżeli powyższe było zrobione wcześniej, spróbuj przypomnieć sobie kiedy to było i wpisz co pamiętasz,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  

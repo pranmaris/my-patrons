@@ -18,15 +18,26 @@ W <span class="selected-day-info">wybranym dniu</span>, **za pośrednictwem patr
 ## Zadanie dodatkowe
 **Dla chętnych**! Możesz wziąć udział w **ceremonii pogrzebowej** wybranej osoby, która odbywa się najczęściej przed lub po **Mszy św. pogrzebowej**. Da Ci to okazję do **ofiarowania** tego dodatkowego trudu w intencji tej **zmarłej osoby** i jej bliskich!
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** Mszy pogrzebowej, np. VE1, VE2, VE3, ...,
-- **datę** Mszy pogrzebowej (najlepiej z dniem tygodnia),
-- **wszystkie** podane na Mszy **imiona i nazwiska** zmarłej osoby (można podkreślić wspólne z patronem),
-- **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**),
-- **numer** wybranego Patrona Orędownika - jako odnośnik do listy [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md), np. **U24** (dla czytelności listy można także wpisać jego **nazwę**),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#msze-pogrzebowe-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< VE. MSZE POGRZEBOWE / DATA MSZY POGRZEBOWEJ / ALIAS PATRONA / WSZYSTKIE PODANE NA MSZY IMIONA ZMARŁEJ OSOBY Z ZAZNACZENIEM WSPÓLNYCH Z PATRONEM  
+> \>\> VE1 / CZ 2023-08-17 / Piotr APO / [Piotr] Witold Nowak  
+> \>\> VE2 / PT 2023-08-25 / Agata SYC / Helena [Agata] Kruk
+### Wersja pełna:
+> \<\< VE. MSZE POGRZEBOWE / DATA MSZY POGRZEBOWEJ / ALIAS PATRONA / WSZYSTKIE PODANE NA MSZY IMIONA ZMARŁEJ OSOBY Z ZAZNACZENIEM WSPÓLNYCH Z PATRONEM / CZY ODMÓWIONO MODLITWĘ ZA OSOBĘ ZMARŁĄ / CZY WZIĘTO UDZIAŁ W POGRZEBIE / KOMENTARZ  
+> \>\> VE1 / CZ 2023-08-17 / Piotr APO / [Piotr] Witold Nowak / + / x / Msza o 12:00; Kalisz, Kościół św. Mikołaja; ks. Rafał Lisowski  
+> \>\> VE2 / PT 2023-08-25 / Agata SYC / Helena [Agata] Kruk / + / + / Msza o 10:00; Kalisz, Kościół św. Mikołaja; ks. Rafał Lisowski; Pogrzeb o 12:00; Kalisz, Cmentarz Komunalny; ks. Adam Lewandowski
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_ve_msze_pogrzebowe.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -42,15 +53,6 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - Możesz modlić się za osoby, których **kolejne imię** pasuje do patrona, np. za **Stanisława Jana** możesz pomodlić się przez wstawiennictwo **św. Jana od Krzyża**.
 - **Pasujące imiona**, to nie tylko identyczne imiona patrona, ale także jego **odmiany w innych językach** i **dla drugiej płci**, np. każdy święty lub błogosławiony **Henryk** to patron wszystkich osób mających imię: Henryk, Henryka, Henrietta, Henri, Enrique, itp.
 - Jeśli jedna **Msza św. pogrzebowa** dotyczy **więcej osób**, możemy wykonać **dla każdej z nich osobne wyzwanie**, każdą powierzając innemu lub temu samemu patronowi.
-## <span id="msze-pogrzebowe-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- Zaznaczenie czy **odmówiono modlitwę** za osobę zmarłą - postaw dowolny znaczek (np. „✅”).
-- Zaznaczenie czy **wzięto udział w ceremonii pogrzebowej** wybranego zmarłego - postaw dowolny znaczek (np. „☑” lub „☒”).
-- Informacje o **Mszy św. pogrzebowej** (jeśli nie zostały już zapisane gdzie indziej):
-    - **godzinę rozpoczęcia Mszy św.**,
-    - **miejsce Mszy św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C17**,
-    - **kapłanów odprawiających Mszę św.**: słownie albo na liście [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md), np. **I13+I2+I?,** gdy Mszę koncelebrowały osoby o numerach: I13 (celebransa wpisuj na początku) i I2 oraz jeden kapłan nieznany lub spoza naszej tej listy.
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do Patronów Orędowników](patroni_oredownicy.md)  

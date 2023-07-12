@@ -23,16 +23,26 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#adoracje-wiecej-in
 > teraz i zawsze i na wieki wieków.  
 > Amen.
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** adoracji, np. F1, F2, F3, ...,
-- **datę** rozpoczęcia adoracji (najlepiej z dniem tygodnia),
-- **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
-- **numer** (jeden z poniższych):
-    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
-    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#adoracje-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< F. ADORACJE / DATA ROZPOCZĘCIA ADORACJI / ALIAS PATRONA LUB ŚWIĘTA / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM  
+> \>\> F1 / PT 2023-11-17 / Szczepan MEC / Kraków, Kościół [św. Szczepana]  
+> \>\> F2 / ŚR 2023-12-20 / Michał ARC / Kraków, Kościół [św. Michała Archanioła] i Stanisława Biskupa i Męczennika na Skałce
+### Wersja pełna:
+> \<\< F. ADORACJE / DATA ROZPOCZĘCIA ADORACJI / ALIAS PATRONA LUB ŚWIĘTA / CZY NA POCZĄTKU ODMÓWIONO MODLITWĘ DO PATRONA / CZY ODMÓWIONO MODLITWĘ KOŃCOWĄ / CZAS ADORACJI PODZIELONY NA KWADRANSE / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM / KOMENTARZ  
+> \>\> F1 / PT 2023-11-17 / Szczepan MEC / + / + / 1, 2, 3, 4 / Kraków, Kościół [św. Szczepana] / 35min (PT 2023-11-17) + 15min (PN 2023-11-20) + 15min (WT 2023-11-21)  
+> \>\> F2 / ŚR 2023-12-20 / Michał ARC / + / + / 1, 2, 3, 4 / Kraków, Kościół [św. Michała Archanioła] i Stanisława Biskupa i Męczennika na Skałce
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_f_adoracje.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -45,15 +55,7 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ## <span id="adoracje-wiecej-informacji">Więcej informacji</span>
 - Tego zadania **nie można łączyć** z adoracją przy zapraszaniu **Patronów Przyjaciół** na liście [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md)!
 - Aby rozpocząć nową adorację **Najświętszego Sakramentu** na tej liście, **musisz najpierw zakończyć** poprzednią **minimum dzień wcześniej**!
-- Jeśli miejsce adoracji jest pod wezwaniem kilku patronów, którzy są już naszymi **Patronami Obrońcami**, musimy wybrać **tylko jednego** z nich do każdej adoracji,
-- Dla zbiorczych **świąt** tytularnych miejsca adoracji, zadanie **wystarczy wykonać raz**, np. w kościele _„pw. Świętej Rodziny”_ (jeśli oczywiście mamy już odkryte to święto).
-## <span id="adoracje-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Miejscowość oraz nazwę kościoła** z podkreśloną nazwą powiązanego patrona lub święta.
-- **Datę** zakończenia adoracji, jeśli rozdzielono ją na kilka dni.
-- Zaznaczenie czy **odmówiono modlitwę** do wybranego patrona tytularnego - postaw dowolny znaczek (np. „✅”).
-- Zaznaczenie czy **odmówiono modlitwę** _„Niechaj będzie pochwalony Przenajświętszy Sakrament”_ - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+- Jeśli miejsce adoracji jest pod wezwaniem kilku patronów, którzy są już naszymi **Patronami Obrońcami**, musimy wybrać **tylko jednego** z nich do każdej adoracji. Nawet np. w kościele _„pw. Świętej Rodziny”_ (jeśli oczywiście mamy już odkryte to święto) musimy wybrać czy wykonujemy to wyzwanie dla Jezusa, Maryi czy Józefa.
 
 ---
 [Powrót do Patronów Obrońców](patroni_obroncy.md)  

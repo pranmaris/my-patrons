@@ -12,16 +12,27 @@ W <span class="selected-day-info">wybranym dniu</span> odmów, będąc w wybrany
 
 **UWAGA!** Jeśli litania odnosi się do **święta** związanego z patronem (np. Litania do Matki Bożej z Lourdes), święto to **musi być** przez Ciebie **odkryte**, czyli (podobnie jak patron) posiadać status w kolorze <span class="status status-white">białym</span>!
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** wspólnotowo odmówionej litanii, np. VF1, VF2, VF3, ...,
-- **nazwę** odmówionej litanii,
-- **datę** odmówienia litanii (najlepiej z dniem tygodnia),
-- **numer** miejsca dla kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27** (dla czytelności listy można także wpisać jego **nazwę**),
-- **numer** patrona - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>](patroni_przyjaciele.md), np. **P16**,
-- **numer** święta (tylko, jeśli litania go dotyczy) - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#litanie-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< VF. LITANIE / DATA ODMÓWIENIA LITANII / ALIAS PATRONA LUB ŚWIĘTA / NAZWA LITANII / MIEJSCE ODMÓWIENIA LITANII  
+> \>\> VF1 / WT 2023-08-08 / Antoni PAD / Litania do św. Antoniego z Padwy / Poznań, św. Antoniego Padewskiego  
+> \>\> VF2 / PT 2023-08-18 / Maria NMP:LOU / Litania do Matki Bożej z Lourdes / Poznań, św. Andrzeja Apostoła  
+> \>\> VF3 / SO 2023-08-26 / Maria NMP:LOU / Litania do Matki Bożej z Lourdes / Poznań, św. Jana Kantego
+### Wersja pełna:
+> \<\< VF. LITANIE / DATA ODMÓWIENIA LITANII / ALIAS PATRONA LUB ŚWIĘTA / NAZWA LITANII / MIEJSCE ODMÓWIENIA LITANII / KOMENTARZ  
+> \>\> VF1 / WT 2023-08-08 / Antoni PAD / Litania do św. Antoniego z Padwy / Poznań, św. Antoniego Padewskiego / ks. Władysław Krukowski  
+> \>\> VF2 / PT 2023-08-18 / Maria NMP:LOU / Litania do Matki Bożej z Lourdes / Poznań, św. Andrzeja Apostoła / ks. ?  
+> \>\> VF3 / SO 2023-08-26 / Maria NMP:LOU / Litania do Matki Bożej z Lourdes / Poznań, św. Jana Kantego / ks. Jan Kruszczycki
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_vf_litanie.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -29,13 +40,6 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ---
 # Udało się! Wspólnotowo odmówiłeś litanię do patrona!
 ### Kto wytrwale prosi, zostanie wysłuchany!
----
-
-## <span id="litanie-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Kapłana** odmawiającego litanię - słownie lub na liście [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md), np. **I17**.
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
-
 ---
 [Powrót do patronów przyjaciół](patroni_przyjaciele.md)  
 [Powrót do głównego menu](index.md)

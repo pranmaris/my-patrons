@@ -42,20 +42,22 @@ W okolicach **pierwszych sobót miesiąca**, wykonaj poniższe kroki:
 - <span class="selected-day-info">w pierwszą sobotę miesiąca</span>: medytuj przez co najmniej **piętnaście minut** nad tajemnicami różańcowymi - wszystkimi, jedną lub kilkoma.
 
 ## Notatki
-Jeśli chcesz, możesz zanotowac sobie:
-- **informację**, która to jest sobota z rzędu,
-- **datę** przystąpienia do Spowiedzi św. (najlepiej z dniem tygodnia),
-- **datę** pierwszej soboty miesiąca,
-- dodatkowe **informacje** na temat Spowiedzi, Komunii, Mszy, różańca czy medytacji:
-  - **godziny** tych wydarzeń,
-  - opisy słowne lub odnośniki do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md) z **miejscami** tych wydarzeń, np. **C2**,
-  - opisy słowne lub odnośniki do listy [<span class="status status-list"><span class="status status-list">I</span> Osoby</span>](osoby.md) z **kapłanami** będącymi szafarzami Sakramentów lub odprawiającymi Mszę, np. **I22**,
-- zaznaczenie czy **wybrano zniewagi** do wynagradzania - postaw dowolny znaczek (np. „✅”),
-- zaznaczenie czy **odmówiono różaniec** - postaw dowolny znaczek (np. „✅”),
-- zaznaczenie czy **rozważano tajemnice różańca** - postaw dowolny znaczek (np. „✅”),
-- **dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< LB. NABOŻEŃSTWO V PIERWSZYCH SOBÓT MIESIĄCA / DATA PRZYJĘCIA KOMUNII ŚWIĘTEJ  
+> \>\> LB1 / SO 2023-08-05  
+> \>\> LB2 / SO 2023-09-02  
+> \>\> LB3 / SO 2023-10-07
+### Wersja pełna:
+> \<\< LB. NABOŻEŃSTWO V PIERWSZYCH SOBÓT MIESIĄCA / DATA PRZYJĘCIA KOMUNII ŚWIĘTEJ / CZY WYBRANO ZNIEWAGI / CZY ODMÓWIONO RÓŻANIEC / CZY MEDYTOWANO CO NAJMNIEJ 15 MINUT / KOMENTARZ  
+> \>\> LB1 / SO 2023-08-05 / + / + / + / Spowiedź (CZ 2023-08-03): Białystok, Kościół św. Anny; Komunia: Białystok, Kościół św. Anny  
+> \>\> LB2 / SO 2023-09-02 / + / + / + / Spowiedź (ŚR 2023-08-30): Białystok, Kościół św. Anny; Komunia: Białystok, Kościół Ducha Świętego  
+> \>\> LB3 / SO 2023-10-07 / + / + / + / Spowiedź (ŚR 2023-08-30): Białystok, Kościół Ducha Świętego (ks. Mirosław Nowak); Komunia: Białystok, Kościół św. Anny
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_l_nabozenstwa_ab.pdf).
+Uwagi:
+- jeżeli powyższe było zrobione wcześniej, spróbuj przypomnieć sobie kiedy to było i wpisz co pamiętasz,
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  

@@ -6,6 +6,10 @@ W <span class="selected-day-info">wybranym dniu</span> pomodlić się **za zakon
 Wybierz:
 - **patrona**, który **jest już Twoim Patronem Orędownikiem**, czyli ma status w kolorze: <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span>, <span class="status status-indigo">indygo</span>, <span class="status status-violet">fioletowym</span> albo <span class="status status-white">białym</span>,
 - **zakon**, którego reprezentował wybrany patron.
+## Zadanie główne
+W <span class="selected-day-info">wybranym dniu</span>, jeśli dla wybranego zakonu nie robiłeś tego wcześniej przy okazji innego patrona, **przeczytaj dowolną notatkę i dowiedz się więcej** o wybranym zakonie!
+
+Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#zakony-patronow-wiecej-informacji).
 ## Modlitwa
 W <span class="selected-day-info">wybranym dniu</span>, przez wstawiennictwo wybranego patrona, pomódl się za wybrane **zgromadzenie zakonne** słowami:
 > Wszechmogący Boże,  
@@ -20,17 +24,29 @@ W <span class="selected-day-info">wybranym dniu</span>, przez wstawiennictwo wyb
 > i owocne życie wszystkich członków zgromadzenia,  
 > zgodne z przyjętą regułą zakonu i ślubami.  
 > Amen.
-## Zadanie dodatkowe
-W <span class="selected-day-info">wybranym dniu</span> sprawdź, czy **wybrany zakon** znajduje się już na Twojej liście [<span class="status status-list"><span class="status status-list">Z</span> Zakony</span>](zakony.md) - jeśli nie ma, **dopisz go tam** pamiętając by **poczytać i dowiedzieć się więcej** o tym zakonie!
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** zakonu patrona, np. R1, R2, R3, ...,
-- **datę** modlitwy za zakon (najlepiej z dniem tygodnia),
-- **numer** zakonu - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">Z</span> Zakony</span>](zakony.md), np. **Z4**,
-- **numer** wybranego Patrona Orędownika - jako odnośnik do listy [<span class="status status-list"><span class="status status-red">U</span> Patroni Orędownicy</span>](patroni_oredownicy.md), np. **U24** (dla czytelności listy można także wpisać jego **nazwę**),
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#zakony-patronow-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< R. ZAKONY PATRONÓW / DATA MODLITWY ZA ZAKON / ALIAS PATRONA / SIGLUM LUB NAZWA ZAKONU  
+> \>\> R1 / CZ 2023-08-03 / Antoni PAD / CRL  
+> \>\> R2 / CZ 2023-08-03 / Antoni PAD / OFM  
+> \>\> R3 / PT 2023-08-11 / Roch OFS / OFS
+### Wersja pełna:
+> \<\< R. ZAKONY PATRONÓW / DATA MODLITWY ZA ZAKON / ALIAS PATRONA / SIGLUM LUB NAZWA ZAKONU / CZY ODMÓWIONO MODLITWĘ ZA ZAKON / CZY PRZECZYTANO O ZAKONIE / KOMENTARZ  
+> \>\> R1 / CZ 2023-08-03 / Antoni PAD / CRL / + / +  
+> \>\> R2 / CZ 2023-08-03 / Antoni PAD / OFM / + / +  
+> \>\> R3 / PT 2023-08-11 / Roch OFS / OFS / + / + / Modlitwa w Kościele św. Jakuba Apostoła w Warszawie
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_r_zakony_patronow.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -40,11 +56,9 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 ### Módlmy się za tych, którzy w ukryciu i pokorze nieustannie orędują za nami i światem!
 ---
 
-## <span id="zakony-patronow-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Nazwę** lub **siglum zakonu**, jeśli takowe istnieje, np. **OFM**, **OSB**, itd.
-- Zaznaczenie czy **odmówiono modlitwę** za zakon - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
+## <span id="zakony-patronow-wiecej-informacji">Więcej informacji</span>
+- W jednym dniu możesz wykonać to wyzwanie za dowolną liczbę zakonów wszystkich swoich **Patronów Orędowników**.
+- Jeżeli Twój **Patron Orędownik** należał w swoim życiu do wielu zakonów, **dla każdego** z tych zakonów możesz to wyzwanie wykonać osobno.
 
 ---
 [Powrót do Patronów Orędowników](patroni_oredownicy.md)  

@@ -19,18 +19,28 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#odpusty-parafialne
 ## Modlitwa
 W <span class="selected-day-info">wybranym dniu</span> odmów modlitwy **w intencjach papieskich**: _„Ojcze Nasz ...”_ i _„Zdrowaś Maryjo ...”_ - jest to warunek uzyskania odpustu!
 ## Zadanie dodatkowe
-W <span class="selected-day-info">wybranym dniu</span> **wybierz** siebie albo dowolną osobę zmarłą, za którą **ofiarujesz uzyskany odpust**!
+W <span class="selected-day-info">wybranym dniu</span> **wybierz** siebie albo dowolną osobę zmarłą, za którą **ofiarujesz uzyskany odpust**! Jeśli nie wiesz kto to może być, warto zdać się na **mądrość Boga** i to Jemu oddać tę decyzję.
 ## Notatki
-Zanotuj sobie:
-- kolejny **numer** odpustu parafialnego, np. G1, G2, G3, ...,
-- **datę** Sumy Odpustowej (najlepiej z dniem tygodnia),
-- **numer** miejsca - jako odnośnik do listy [<span class="status status-list"><span class="status status-list">C</span> Miejsca</span>](miejsca.md), np. **C27**,
-- **numer** (jeden z poniższych):
-    - patrona tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md), np. **A16**,
-    - święta tytularnego kościoła - jako odnośnik do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md), np. **B7**,
-- chcesz notować więcej? Patrz [WIĘCEJ NOTATEK](#odpusty-parafialne-wiecej-notatek).
+Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
+### Wersja minimalna:
+> \<\< G. ODPUSTY PARAFIALNE / DATA UDZIAŁU W SUMIE ODPUSTOWEJ / ALIAS PATRONA LUB ŚWIĘTA / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM  
+> \>\> G1 / ND 2023-10-01 / Michał ARC / Szczecin, [św. Michała Archanioła]  
+> \>\> G2 / CZ 2023-10-05 / Maria FAU / Szczecin, [św. Faustyny Kowalskiej]
+### Wersja pełna:
+> \<\< G. ODPUSTY PARAFIALNE / DATA UDZIAŁU W SUMIE ODPUSTOWEJ / ALIAS PATRONA LUB ŚWIĘTA / CZY ODMÓWIONO MODLITWĘ W INTENCJACH PAPIESKICH / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM / KOMENTARZ  
+> \>\> G1 / ND 2023-10-01 / Michał ARC / + / Szczecin, [św. Michała Archanioła] / Suma o 12:00, odpust przeniesiony z 29.09 na niedzielę  
+> \>\> G2 / CZ 2023-10-05 / Maria FAU / + / Szczecin, [św. Faustyny Kowalskiej] / Suma o 18:00
 
-Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/lista_v1_g_odpusty_parafialne.pdf).
+Uwagi:
+- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
+> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
+> ...  
+> \>\> ... / Maria FAU / ...  
+> ...  
+> \>\> ... / Maria FAU / ...
+- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
+- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 <br />
 <br />
 <br />
@@ -48,12 +58,6 @@ Możesz skorzystać z naszych gotowych formularzy: pokaż [pełny](../../pl/pdf/
 - Uczestnictwo w Sumie Odpustowej **upoważnia Cię** do zaproszenia **Patrona Obrońcy** lub wybrania **święta**, którego odpust dotyczy (jeśli nie uczyniłeś tego wcześniej). Dotyczy to również sytuacji, gdy **dzień jego wspomnienia przypada przed lub po dniu odpustu** (np. najbliższa niedziela) albo nawet w sytuacji, gdy **święto lub patron tytularny nie są wspominani** wprost w [kalendarzach i martyrologiach](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md).
 - Możemy spotkać się z parafiami pod wezwaniem świąt możliwych do odkrycia tylko poprzez udział w odpuście parafialnym, np.: pw. _„Jezusa Chrystusa Sługi”_ (nie ma takiego święta) lub pw. _„Matki Bożej Gromnicznej”_ (2 lutego jest oficjalnie nazwane świętem _„Ofiarowania Pańskiego”_, a wezwanie tej parafii odnosi się do tradycyjnej nazwy tego święta w Polsce, która nie ma odzwierciedlenia w [kalendarzach i martyrologiach](jak_wybrac_patrona_lub_swieto_na_dany_dzien_roku.md)).
 - Pomimo że dzień odpustu może być w obydwu przypadkach ten sam, to np. w parafii pw. _„Zesłania Ducha Świętego”_ traktujemy, że odpust dotyczy tegoż święta, podczas gdy w parafii pw. _„Ducha Świętego”_ odpust wprost odnosi się do trzeciej Osoby Boskiej (zamiast numeru patrona - obrońcy, wpisujemy numer „III”), który nie ma swojego osobnego wspomnienia. Podobnie wygląda różnica między np. parafią pw. _„Podwyższenia Krzyża Świętego”_, a parafią pw. _„Krzyża Świętego”_ - pierwszy odnosi się do święta (związanego z Jezusem), a drugi wprost do relikwii Krzyża, które można dodać do listy [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md) prawdopodobnie tylko poprzez udział w odpuście parafialnym (patrz poprzedni punkt).
-## <span id="odpusty-parafialne-wiecej-notatek">Więcej notatek</span>
-Jeśli chcesz, możesz zanotowac także:
-- **Miejscowość i nazwę kościoła** z podkreśloną nazwą powiązanego z odpustem patrona lub święta.
-- **Numer** zaproszonego Patrona Obrońcy - jako odnośnik do listy [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońca</span>](patroni_obroncy.md), np. **A24**.
-- Zaznaczenie czy **odmówiono modlitwę** w intencjach papieskich - postaw dowolny znaczek (np. „✅”).
-- **Dowolny komentarz** w formie tekstu lub odnośnika do listy [<span class="status status-list"><span class="status status-list">＊</span> Przypisy</span>](przypisy.md), np. **＊19**.
 
 ---
 [Powrót do Patronów Obrońców](patroni_obroncy.md)  
