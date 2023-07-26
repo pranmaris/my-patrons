@@ -1,8 +1,7 @@
 # Moi Patroni
-- [Ważne!](wazne.md)
 - [Dekalog Uczestnika](dekalog_uczestnika.md)
-- [Podstawowe zasady](podstawowe_zasady.md)
 - [Jak zacząć](jak_zaczac.md)
+- [Podstawowe zasady](podstawowe_zasady.md)
 - [<span><span class="status status-list"><span class="status status-god">I</span> Bóg</span></span>](bog.md)
 - [<span><span class="status status-list"><span class="status status-list">J</span> Narodziny i Sakramenty</span></span>](narodziny_i_sakramenty.md)
 - [Jak zapraszać patronów](jak_zapraszac_patronow.md)

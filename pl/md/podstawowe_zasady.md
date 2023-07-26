@@ -41,4 +41,5 @@
 ### Zaczynamy!
 
 ---
+[Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-podstawowe-zasady)
 [Powrót do głównego menu](index.md)
