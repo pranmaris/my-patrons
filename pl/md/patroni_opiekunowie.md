@@ -68,8 +68,8 @@ Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przyk
 > \>\> T4 / PT 2023-08-11 / Urszula LED
 ### Wersja pełna:
 > \<\< T. PATRONI OPIEKUNOWIE / DATA ZAPROSZENIA / ALIAS PATRONA / KRYTERIUM WOBORU PATRONA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / CZY PRZECZYTANO O PATRONIE / KOMENTARZ  
-> \>\> T1 / WT 2023-08-01 / Łukasz EWA / B+C / + / + / Msza o 13:00; Warszawa, Kościół św. Łukasza Ewangelisty; x. Jan Nowak + x. Eugeniusz Buszka (homilia); Po Mszy Litania Loretańska do Matki Bożej  
-> \>\> T2 / ND 2023-08-06 / Pius PET / A+C / + / + / Msza o 10:00; Warszawa, Kościół św. Łukasza Ewangelisty; x. Jan Nowak  
+> \>\> T1 / WT 2023-08-01 / Łukasz EWA / B+C / + / + / Msza o 13:00; Warszawa, Kościół św. Łukasza Ewangelisty; ks. Jan Nowak + ks. Eugeniusz Buszka (homilia); Po Mszy Litania Loretańska do Matki Bożej  
+> \>\> T2 / ND 2023-08-06 / Pius PET / A+C / + / + / Msza o 10:00; Warszawa, Kościół św. Łukasza Ewangelisty; ks. Jan Nowak  
 > \>\> T3 / CZ 2023-08-10 / Jan P2P / A+B / + / + / Około godziny 17:00; Warszawa, Szpital Grochowski  
 > \>\> T4 / PT 2023-08-11 / Urszula LED / H / + / + / Około godziny 12:30; Warszawa, Świątynia Opatrzności Bożej
 

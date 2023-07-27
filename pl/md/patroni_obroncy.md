@@ -55,9 +55,9 @@ Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przyk
 > \>\> A3 / ND 2023-08-06 / Hormizdas 1PP
 ### Wersja pełna:
 > \<\< A. PATRONI OBROŃCY / DATA ZAPROSZENIA / ALIAS PATRONA / KRYTERIUM WYBORU PATRONA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / ROZDZIAŁ PISMA ŚW. / KOMENTARZ  
-> \>\> A1 / WT 2023-08-01 / Alfons LIG / MR2004:1 / + / Ps 123 / Msza o 17:00; Gdańsk, św. Ojca Pio; x. Jerzy Lewandowski  
-> \>\> A2 / CZ 2023-08-03 / Lidia TIA / MR1956:2 / + / Hbr 2 / Msza o 17:00; Gdańsk, św. Ojca Pio; x. Jerzy Lewandowski + x. Władysław Kos (homilia)  
-> \>\> A3 / ND 2023-08-06 / Hormizdas 1PP / MR2004:4 / + / Rdz 42 / Msza o 10:30; Gdańsk, Ignacego Loyoli; x. Mieczysław Kotowski; Po Mszy Litania na Przemienienie Pańskie
+> \>\> A1 / WT 2023-08-01 / Alfons LIG / MR2004:1 / + / Ps 123 / Msza o 17:00; Gdańsk, św. Ojca Pio; ks. Jerzy Lewandowski  
+> \>\> A2 / CZ 2023-08-03 / Lidia TIA / MR1956:2 / + / Hbr 2 / Msza o 17:00; Gdańsk, św. Ojca Pio; ks. Jerzy Lewandowski + ks. Władysław Kos (homilia)  
+> \>\> A3 / ND 2023-08-06 / Hormizdas 1PP / MR2004:4 / + / Rdz 42 / Msza o 10:30; Gdańsk, Ignacego Loyoli; ks. Mieczysław Kotowski; Po Mszy Litania na Przemienienie Pańskie
 
 Uwagi:
 - przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
