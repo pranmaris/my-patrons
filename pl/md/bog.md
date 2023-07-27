@@ -51,7 +51,7 @@ Uwagi:
 ## Karty
 Po wykonaniu tego zadania, możesz wydrukować lub narysować samodzielnie cztery [karty bazowe](karty_kolekcjonerskie.md#karty-kolekcjonerskie-karty-bazowe): z **Trójcą Przenajświętszą** (zbiorczo) oraz z **Bogiem Ojcem**, **Jezusem Chrystusem** i **Duchem Świętym** (każdy na osobnej karcie).
 
-Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.zip) lub za pomocą formularza na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards). Pamiętaj, by wielkość wydrukowanych kart była odpowiednia, należy **drukować pliki w domyślnej skali**!
+Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.pdf) lub za pomocą formularza na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards). Pamiętaj, by wielkość wydrukowanych kart była odpowiednia, należy **drukować pliki w domyślnej skali**!
 
 **Tak zaczniesz budowanie swojej kolekcji kart** w albumie lub specjalnym pudełku i ułatwi Ci to późniejsze wyszukiwanie zaproszonych już patronów!
 <br />
