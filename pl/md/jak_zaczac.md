@@ -4,7 +4,7 @@
 
 Dobrym pomysłem wydaje się być **spersonalizowana nauka ze wsparciem** tzw. **Apostołów _„Moich Patronów”_**. Są to osoby, które **dobrze znają** wszelkie tajniki oraz elementy inicjatywy i **chcą aktywnie wspomagać innych** w jej poznawaniu **tak długo jak będzie potrzeba i wola** ich podopiecznych Uczestników! Cały proces konsultacji i wspomagania Uczestnika odbywać się będzie raczej **drogą elektroniczną** (np. e-maile, chat), chyba że **Uczestnik i Apostoł** będą preferować inną formę i odległość ich miejsc zamieszkania nie będzie stanowić przeszkody dla ich spotkania bezpośrednio.
 
-Jeśli **chcesz mieć swojego Apostoła**, napisz do nas e-maila na [ten adres](http://pl.gratiadei.org#kontakt), podając **miejscowość** lub **region** swojego zamieszkania. Prosimy o **cierpliwość** w oczekiwaniu na odpowiedź.
+Jeśli **chcesz mieć swojego Apostoła**, który Cię poprowadzi, napisz do nas e-maila na [ten adres](http://pl.gratiadei.org#kontakt), podając **miejscowość** lub **region** swojego zamieszkania. Prosimy o **cierpliwość** w oczekiwaniu na odpowiedź.
 
 ---
 Oto kroki, które naszym zdaniem **warto przejść** poznając _„Moich Patronów”_:
