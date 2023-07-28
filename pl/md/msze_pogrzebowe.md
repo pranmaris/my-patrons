@@ -29,7 +29,7 @@ Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przyk
 > \>\> VE2 / PT 2023-08-25 / Agata SYC / Helena [Agata] Kruk / + / + / Msza o 10:00; Kalisz, Kościół św. Mikołaja; ks. Rafał Lisowski; Pogrzeb o 12:00; Kalisz, Cmentarz Komunalny; ks. Adam Lewandowski
 
 Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
 - aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
 > \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
 > ...  

@@ -30,7 +30,7 @@ Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przyk
 > \>\> VA3 / ND 2023-10-08 / Katarzyna ALE / Miejscowość [Święta Katarzyna] / + / gmina Siechnice, powiat wrocławski, województwo dolnośląskie
 
 Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
 - aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
 > \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
 > ...  

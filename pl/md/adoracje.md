@@ -34,7 +34,7 @@ Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przyk
 > \>\> F2 / ŚR 2023-12-20 / Michał ARC / + / + / 1, 2, 3, 4 / Kraków, Kościół [św. Michała Archanioła] i Stanisława Biskupa i Męczennika na Skałce
 
 Uwagi:
-- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
 - aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
 > \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
 > ...  

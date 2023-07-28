@@ -65,7 +65,7 @@ Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przyk
 > \>\> U4 / SO 2023-11-11 / Marek EWA / ks. Marek Nowak / Tomasz APO / + / W, 1, 2, 3, 4, 5, Z / Warszawa, Kościół św. Aleksandra / Tajemnice chwalebne; ukończono: ten sam dzień
 
 Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyliterowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
+- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
 - aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
 > \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
 > ...  

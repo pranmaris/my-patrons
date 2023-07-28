@@ -48,7 +48,7 @@ Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przyk
 > \>\> B5 / ND 2023-12-31 / Józef NAZ:ROD -- Świętej Rodziny (Józef) / + / + / Jak wyżej
 
 Uwagi:
-- przez „**ALIAS ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Do tego najlepiej dodać nadany przez nas kod określający o które święto chodzi. Dobrze zatem wydaje się sprawdzać połączenie **głównego imienia patrona**, analogicznie **nadanego trzyliterowego kodu** rozpoznawczego patrona i wspomnianego **kodu święta**. Tak uzyskamy np.: „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Józef NAZ:RZE**” - Józefa Rzemieślnika, czy „**II:KRW**” - Jezusa Chrystusa Króla Wszechświata,
+- przez „**ALIAS ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Do tego najlepiej dodać nadany przez nas kod określający o które święto chodzi. Dobrze zatem wydaje się sprawdzać połączenie **głównego imienia patrona**, analogicznie **nadanego trzyznakowego kodu** rozpoznawczego patrona i wspomnianego **kodu święta**. Tak uzyskamy np.: „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Józef NAZ:RZE**” - Józefa Rzemieślnika, czy „**II:KRW**” - Jezusa Chrystusa Króla Wszechświata,
 - aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis święta, np.:
 > \>\> ... / Maria NMP:ROZ -- Najświętsza Maryja Panna Różańcowa / ...  
 > ...  
