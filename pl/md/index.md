@@ -48,4 +48,5 @@
 - [Jak powierzać patronom swoje szczególne misje](jak_powierzac_patronom_swoje_szczegolne_misje.md)
 - [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-mission">MA</span> Misje Wysłannika</span></span>](misje_wyslannika.md)
 - [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-mission">MB</span> Misje Apostoła</span></span>](misje_apostola.md)
+- [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-mission">MC</span> Misje Pobożności</span></span>](misje_poboznosci.md)
 - [Karty kolekcjonerskie](karty_kolekcjonerskie.md)
