@@ -23,6 +23,9 @@ Poniższa lista przedstawia nasze propozycje:
 
 **UWAGA!** Jeżeli wiesz, co warto by było dodać jeszcze do tej listy, [**skontaktuj**](https://pl.gratiadei.org#kontakt) się z nami!
 
+## Misje Pobożności
+Z powyższymi nabożeństwami i aktami pobożności jest powiązana lista [<span class="status status-list"><span class="status status-mission">MC</span> Misje Pobożności</span>](misje_poboznosci.md).
+
 ---
 [Powrót do strony jak zacząć](jak_zaczac.md#jak-zaczac-nabozenstwa-oraz-inne-akty-poboznosci)  
 [Powrót do głównego menu](index.md)

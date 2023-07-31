@@ -34,9 +34,9 @@ W okolicach **pierwszych piątków miesiąca**, wykonaj poniższe kroki:
 - <span class="selected-day-info">w pierwszy piątek miesiąca</span>: odmów **Litanię** do Najświętszego Serca Jezusowego,
 - <span class="selected-day-info">w pierwszy piątek miesiąca</span>: odmów **Akt** Poświęcenia Rodzaju Ludzkiego Najświętszemu Sercu Pana Jezusa.
 
-**UWAGA!** Dwunasta obietnica Jezusa stanowi, że trzeba przyjąć Komunię św. **w dziewięć pierwszych piątków miesiąca z rzędu!**
+**UWAGA!** Dwunasta obietnica Jezusa stanowi, że trzeba przyjąć Komunię św. **w dziewięć pierwszych piątków miesiąca z rzędu!** Przerwanie tej ciągłości **oznacza zatem konieczność** rozpoczęcia tego nabożeństwa **od początku**.
 
-Poza **Spowiedzią i Komunią**, często pomija się powyższe kroki skupiając się na tej obietnicy. Warto jednak je wypełniać, choćby uzupełnić później, gdy pojawi się taka możliwość.
+Poza punktami mówiącymi o **Spowiedzi i Komunii**, często pomija się pozostałe powyższe kroki skupiając się tylko na tej dwunastej obietnicy. **Warto jednak je wypełniać**, choćby uzupełnić podczas kolejnego pierwszego piątku, gdy pojawi się taka możliwość.
 ## Notatki
 Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
 ### Wersja minimalna:
@@ -45,13 +45,13 @@ Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przyk
 > \>\> LA2 / PT 2023-09-01  
 > \>\> LA3 / PT 2023-10-06
 ### Wersja pełna:
-> \<\< LA. NABOŻEŃSTWO IX PIERWSZYCH PIĄTKÓW MIESIĄCA / DATA PRZYJĘCIA KOMUNII ŚWIĘTEJ / CZY ODPRAWIONO GODZINĘ ŚWIĘTĄ / CZY ODMÓWIONO LITANIĘ DO NAJŚWIĘTSZEGO SERCA JEZUSA / CZY ODMÓWIONO AKT POŚWIĘCENIA RODZAJU LUDZKIEGO / KOMENTARZ  
-> \>\> LA1 / PT 2023-08-04 / - / + / + / Spowiedź (CZ 2023-08-03): Białystok, Kościół św. Anny; Komunia: Białystok, Kościół św. Anny  
-> \>\> LA2 / PT 2023-09-01 / + / - / - / Spowiedź (ŚR 2023-08-30): Białystok, Kościół św. Anny; Komunia: Białystok, Kościół Ducha Świętego  
-> \>\> LA3 / PT 2023-10-06 / + / - / - / Spowiedź (ŚR 2023-08-30): Białystok, Kościół Ducha Świętego (ks. Mirosław Nowak); Komunia: Białystok, Kościół Ducha Świętego
+> \<\< LA. NABOŻEŃSTWO IX PIERWSZYCH PIĄTKÓW MIESIĄCA / DATA PRZYJĘCIA KOMUNII ŚWIĘTEJ / CZY ODPRAWIONO GODZINĘ ŚWIĘTĄ / CZY USZESTNICZONO WE MSZY ŚWIĘTEJ / CZY ODMÓWIONO LITANIĘ DO NAJŚWIĘTSZEGO SERCA JEZUSA / CZY ODMÓWIONO AKT POŚWIĘCENIA RODZAJU LUDZKIEGO / KOMENTARZ  
+> \>\> LA1 / PT 2023-08-04 / - / + / + / + / Spowiedź (CZ 2023-08-03): Białystok, Kościół św. Anny; Komunia: Białystok, Kościół św. Anny  
+> \>\> LA2 / PT 2023-09-01 / + / + / - / - / Spowiedź (ŚR 2023-08-30): Białystok, Kościół św. Anny; Komunia: Białystok, Kościół Ducha Świętego  
+> \>\> LA3 / PT 2023-10-06 / + / + / + / + / Spowiedź (PT 2023-10-06): Białystok, Kościół Ducha Świętego (ks. Mirosław Nowak); Komunia: Białystok, Kościół Ducha Świętego
 
 Uwagi:
-- jeżeli powyższe było zrobione wcześniej, spróbuj przypomnieć sobie kiedy to było i wpisz co pamiętasz,
+- jeżeli powyższe nabożeństwo było odprawione wcześniej, spróbuj przypomnieć sobie kiedy to było i wpisz co pamiętasz,
 - dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
 - linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
 
