@@ -2,7 +2,7 @@
 ---
 
 ## Cel
-Do <span class="selected-day-info">danego dnia</span>, **powierzając misję Apostoła** odpowiedniemu patronowi, pomaganie nowej osobie poznać inicjatywę „Moich Patronów” i stanie się jej aktywnym Uczestnikiem.
+Do <span class="selected-day-info">danego dnia</span>, **powierzając misję Apostoła** odpowiedniemu patronowi, pomagać nowej osobie poznać inicjatywę „Moich Patronów” i stać się jej aktywnym Uczestnikiem.
 ## Wymaganie
 Wykonanie zadania [<span class="status status-list"><span class="status status-god">I</span> Bóg</span>](bog.md) musisz mieć już za sobą!
 ## <span id="misje-apostola-wybor">Wybór</span>
@@ -41,11 +41,11 @@ W <span class="selected-day-info">danym dniu</span>, gdy Uczestnik zaprosi już 
 ## Notatki
 Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
 ### Wersja minimalna:
-> \<\< MB. MISJE APOSTOŁA / DATA POWODZENIA MISJI / ALIAS PATRONA  
+> \<\< MB. MISJE APOSTOŁA / DATA UZNANIA MISJI / ALIAS PATRONA  
 > \>\> MB1 / CZ 2023-10-26 / Jan EWA  
 > \>\> MB2 / PN 2024-01-15 / Maria NMP
 ### Wersja pełna:
-> \<\< MB. MISJE APOSTOŁA / DATA POWODZENIA MISJI / ALIAS PATRONA / NAZWA UCZESTNIKA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / KOMENTARZ  
+> \<\< MB. MISJE APOSTOŁA / DATA UZNANIA MISJI / ALIAS PATRONA / NAZWA UCZESTNIKA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / KOMENTARZ  
 > \>\> MB1 / CZ 2023-10-26 / Jan EWA / Jan Nowak / + / Rozpoczęcie: WT 2023-08-01  
 > \>\> MB2 / PN 2024-01-15 / Maria NMP / Maria Kowalska / + / Rozpoczęcie: PN 2023-10-02
 

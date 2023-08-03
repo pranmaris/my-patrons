@@ -45,6 +45,7 @@
 - [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-worship">LC</span> Nabożeństwo Drogi Krzyżowej</span></span>](nabozenstwo_drogi_krzyzowej.md)
 - [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-worship">LD</span> Nabożeństwo Gorzkich Żalów</span></span>](nabozenstwo_gorzkich_zalow.md)
 - [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-worship">LE</span> Triduum Paschalne</span></span>](triduum_paschalne.md)
+- [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-worship">LF</span> Listopadowa Odpusty za Zmarłych</span></span>](listopadowe_odpusty_za_zmarlych.md)
 - [Jak powierzać patronom swoje szczególne misje](jak_powierzac_patronom_swoje_szczegolne_misje.md)
 - [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-mission">MA</span> Misje Wysłannika</span></span>](misje_wyslannika.md)
 - [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-mission">MB</span> Misje Apostoła</span></span>](misje_apostola.md)

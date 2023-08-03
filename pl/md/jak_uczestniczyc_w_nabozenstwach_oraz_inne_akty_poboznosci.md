@@ -21,6 +21,8 @@ Poniższa lista przedstawia nasze propozycje:
 
 - [<span class="status status-list"><span class="status status-worship">LE</span> Triduum Paschalne</span>](triduum_paschalne.md)
 
+- [<span class="status status-list"><span class="status status-worship">LF</span> Listopadowe Odpusty za Zmarłych</span>](listopadowe_odpusty_za_zmarlych.md)
+
 **UWAGA!** Jeżeli wiesz, co warto by było dodać jeszcze do tej listy, [**skontaktuj**](https://pl.gratiadei.org#kontakt) się z nami!
 
 ## Misje Pobożności
