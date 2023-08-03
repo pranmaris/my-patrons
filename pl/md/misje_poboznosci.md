@@ -16,7 +16,7 @@ Wybierz **odpowiedniego patrona**, któremu **nie powierzyłeś jeszcze swojej m
 
 Jeżeli **nie uda Ci się wybrać** tak żadnego patrona, możesz wybrać **dowolnego, bezimiennego patrona lub ich grupę** i to im powierzyć tę misję, np: „Wszyscy Święci”, „Wszyscy Wierni Zmarli”, „Święci Młodziankowie”, „Nieznani towarzysze św. Maurycego”, „48 nieznanych męczenników sandomierskich, towarzyszy bł. Sadoka”, itp.
 ## Limit
-Maksymalnie jedna **misja Pobożności dotycząca danego nabożeństwa (patrz listy LA, LB, ...)** w miesiącu kalendarzowym!
+Maksymalnie jedna **misja Pobożności dotycząca danego nabożeństwa** (patrz listy LA, LB, ...) **w miesiącu kalendarzowym**!
 ## Zadanie główne
 W <span class="selected-day-info">wybranym dniu</span>, weź udział w [nabożeństwie lub innym akcie pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md), które już **wcześniej było przez Ciebie wypełnione**. Może to być np.: **nabożeństwo pierwszopiątkowe** lub **pierwszosobotnie** (jeśli wcześniej udało Ci sę je wypełnić), może **Droga Krzyżowa** lub **Gorzkie Żale**, jeśli w którymś z poprzednich lat udało Ci się być na wszystkich, itd.
 
@@ -25,10 +25,10 @@ W <span class="selected-day-info">wybranym dniu</span>, weź udział w [naboże�
 W <span class="selected-day-info">wybranym dniu</span>, **odmów następującą modlitwę** zwracając się do odpowiedniego patrona (np.: „Błogosławiony Marku z Aviano”, „Święta Gemmo Galgani”, „Święci Męczennicy z katedry w Nikomedii”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > powierzam Tobie/Wam moją szczególną misję Pobożności,  
-> proszę o ...  
-> ...  
-> gdyż pragnę ...  
-> ...  
+> proszę o gorliwość, siły i motywację,  
+> w aktywnym uczestniczeniu w życiu Kościoła,  
+> gdyż wciąż pragnę praktykować wszelkie nabożeństwa i akty pobożności,  
+> dla Bożej chwały i zbawienia dusz, jako narzędzie w Bożych Rękach.  
 > Amen.
 ## Notatki
 Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
@@ -69,7 +69,7 @@ Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.pdf) lub za pomocą 
 
 ---
 # Udało się! Powierzyłeś patronowi swoją **misję Pobożności**!
-### Ciągłe i regularne uczestnictwo w nabożeństwach, niesie wiele dobrego Tobie i innym!
+### Ciągłe i regularne akty pobożności i uczestnictwo w nabożeństwach, niesie wiele dobrego Tobie i innym!
 ---
 [Powrót do szczególnych misji](jak_powierzac_patronom_swoje_szczegolne_misje.md)
 [Powrót do głównego menu](index.md)
