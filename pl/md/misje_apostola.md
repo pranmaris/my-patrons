@@ -29,9 +29,9 @@ W ciągu dowolnego czasu, dla **wybranej osoby**, wykonaj **wszystkie** poniższ
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > powierzam Tobie/Wam moją szczególną misję Apostoła,  
 > proszę o modlitwę za **[imię Uczestnika]**, za jego/jej owocną drogę z „Moimi Patronami”  
-> oraz za moje apostolstwo wobec niego/niej, pełne światła od Ducha Świętego,  
+> oraz za moje apostolstwo wobec niego/niej, pełne światła Ducha Świętego,  
 > gdyż pragnę znaleźć w sobie tyle umiejętności, cierpliwości i miłości,  
-> by ta przygoda trwała długo i przyczyniała się do większej Bożej chwały!  
+> by wszystko to, co będę jemu/jej przekazywać było zgodne z Bożą wolą!  
 > Amen.
 
 ## Zadanie dodatkowe

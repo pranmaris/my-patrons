@@ -25,10 +25,10 @@ W <span class="selected-day-info">wybranym dniu</span>, weź udział w [naboże�
 W <span class="selected-day-info">wybranym dniu</span>, **odmów następującą modlitwę** zwracając się do odpowiedniego patrona (np.: „Błogosławiony Marku z Aviano”, „Święta Gemmo Galgani”, „Święci Męczennicy z katedry w Nikomedii”):
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > powierzam Tobie/Wam moją szczególną misję Pobożności,  
-> proszę o gorliwość, siły i motywację,  
-> w aktywnym uczestniczeniu w życiu Kościoła,  
-> gdyż wciąż pragnę praktykować wszelkie nabożeństwa i akty pobożności,  
-> dla Bożej chwały i zbawienia dusz, jako narzędzie w Bożych Rękach.  
+> proszę o modlitwę za mnie, za moją gorliwość, siły i motywację,  
+> w ciągłym i aktywnym uczestniczeniu w nabożeństwach i życiu Kościoła,  
+> gdyż pragnę praktykować zawsze wszelkie akty pobożności,  
+> dla Bożej chwały i zbawienia dusz, będąc narzędziem w Bożych Rękach.  
 > Amen.
 ## Notatki
 Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
