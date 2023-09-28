@@ -36,6 +36,7 @@ const DEFAULT_EXPANDED_PAGE_ID = 0;
 const ACCORDION_ITEM_COLLAPSED_FILE = 'accordion_item_collapsed' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
 const ACCORDION_ITEM_EXPANDED_FILE = 'accordion_item_expanded' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
 const ACCORDION_ITEM_CLASS_QUERY_SELECTOR = '.accordion-item';
+const PAPER_TEMPLATE_FILE = 'paper_template' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
 
 const ACCORDION_HEADING_ELEMENT_PREFIX = 'heading';
 const ACCORDION_BODY_ELEMENT_PREFIX = 'page';
@@ -54,11 +55,18 @@ const LANGUAGES_MARKDOWN_FILE_NAME = 'languages';
 const INDEX_MARKDOWN_FILE_NAME = 'index';
 const HEADER_HTML_FILE_NAME = 'header';
 const FOOTER_HTML_FILE_NAME = 'footer';
+const PAPER_TEMPLATES_NAME = 'paper-templates';
 
 const RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID = 'random-bible-chapter';
 const RANDOM_BIBLE_CHAPTERS_DATA_FILE_PATH = '/any/' + FILE_EXTENSION_JSON + '/bible_chapters' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_JSON;
 let randomBibleChaptersButtonNamePrefix = null;
 let allBibleChapters = null;
+
+const isUrlPathPaperTemplates = () => {
+  const urlPath = getPathFromUrl();
+
+  return urlPath == PAPER_TEMPLATES_NAME;
+}
 
 const build = () => {
   const subdomain = getSubdomain();
@@ -74,7 +82,11 @@ const build = () => {
   loadContent(pagesPath + INDEX_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN, true)
     .then(function (indexContent) {
       const indexData = getConvertedIndexDataFromContent(indexContent);
-      buildPageContent(pagesPath, indexData);
+      if (isUrlPathPaperTemplates()) {
+        buildPaperTemplatesPageContent(pagesPath, indexData);
+      } else {
+        buildPageContent(pagesPath, indexData);
+      }
     })
     .catch(function (error) {
     })
@@ -85,6 +97,10 @@ const buildLanguages = () => {
   const element = document.getElementById(LANGUAGES_ELEMENT_ID);
   const fileName = LANGUAGES_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN;
   const filePath = LANGUAGES_MARKDOWN_FILE_PATH + fileName;
+
+  if (element == null) {
+    return;
+  }
 
   loadContent(filePath)
     .then(function (content) {
@@ -115,6 +131,10 @@ const buildFooter = (htmlPath) => {
 }
 
 const buildHtmlElement = (element, languageFilePath, defaultFilePath) => {
+  if (element == null) {
+    return;
+  }
+
   loadContent(languageFilePath, true)
     .then(function (content) {
       element.innerHTML = content;
@@ -215,7 +235,12 @@ const getPagesPathForLanguage = (language) => {
     return '';
   }
 
-  return PAGES_PATH.replace(LANGUAGE_REPLACE_HASHTAG, language);
+  let pathSuffix = '';
+  if (isUrlPathPaperTemplates()) {
+    pathSuffix = PAPER_TEMPLATES_NAME + '/';
+  }
+
+  return PAGES_PATH.replace(LANGUAGE_REPLACE_HASHTAG, language) + pathSuffix;
 }
 
 const getHtmlTemplatesPathForLanguage = (language) => {
@@ -401,6 +426,36 @@ const buildPageContent = (pagesPath, pagesData) => {
   ;
 }
 
+const buildPaperTemplatesPageContent = (pagesPath, pagesData) => {
+  let mainElement = document.getElementById('paper-templates-content');
+
+  loadContent(HTML_TEMPLATES_PATH + PAPER_TEMPLATE_FILE)
+    .then(function (divItemContent) {
+        const itemsContent = getDivItemsContent(pagesPath, pagesData, divItemContent);
+
+        mainElement.innerHTML = itemsContent;
+        loadAllContents(pagesPath, pagesData, mainElement);
+    })
+    .catch(function (error) {
+      mainElement.innerHTML = getErrorText(error);
+    })
+  ;
+}
+
+const getDivItemsContent = (pagesPath, pagesData, divItemContent) => {
+  let content = '';
+
+  const counterPattern = new RegExp(COUNTER_REPLACE_HASHTAG, 'g');
+
+  for (const page of pagesData) {
+    content += divItemContent
+      .replace(counterPattern, page.id)
+    ;
+  }
+
+  return content;
+}
+
 const getAccordionItemsData = (pagesPath, pagesData, expandedItemContent, collapsedItemContent) => {
   let content = '';
 
@@ -431,9 +486,9 @@ const getAccordionItemsData = (pagesPath, pagesData, expandedItemContent, collap
   };
 }
 
-const loadAllContents = (pagesPath, pagesData, expandedElementId) => {
+const loadAllContents = (pagesPath, pagesData, elementId) => {
   for (pageData of pagesData) {
-    loadContentToElement(pageData.id, expandedElementId, pagesPath + pageData.link);
+    loadContentToElement(pageData.id, elementId, pagesPath + pageData.link);
   }
 }
 
