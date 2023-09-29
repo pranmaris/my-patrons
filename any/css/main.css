@@ -288,6 +288,18 @@ a .svg-image {
 .paper-template-content > h2:after {
   content: ":"
 }
+.paper-template-content .input-value {
+  font-style: italic;
+  color: rgb(0, 100, 100);
+}
+.paper-template-content .input-value:before {
+  color: black;
+  content: "„";
+}
+.paper-template-content .input-value:after {
+  color: black;
+  content: "”";
+}
 
 .bg-card {
   background-color: #f8f9fa !important;

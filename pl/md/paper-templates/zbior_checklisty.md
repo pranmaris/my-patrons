@@ -1,17 +1,17 @@
 # ZBIÓR: Checklisty
 ## Cel
-Zapisuj i kontroluj postęp wykonania wszystkich Twoich wyzwań.
+**Zapisuj i kontroluj** postęp wykonania wszystkich swoich **wyzwań**.
 ## Opis
-**Zbiór checklist** może być podzieloną na strony tabelą i posiadać następujące kolumny:
-- kolejny numer wiersza, np. „123”,
-- data wyzwania, np. „2023-09-21”,
-- alias patrona, np. „#Piotr:APO”,
-- typ wyzwania, np. „H”,
-- numer wyzwania, np. „7”,
-- checklista, np. „A, B, C, D, E”,
-- sukces, np. „✓”.
+**Zbiór checklist** można prowadzić w formie podzielonej na strony tabeli, posiadającej następujące kolumny:
+- **kolejny numer wiersza**, np. <span class="input-value">123</span>,
+- **data wyzwania**, np. <span class="input-value">2023-09-21</span>,
+- **alias patrona**, np. <span class="input-value">#Piotr:APO</span>,
+- **typ wyzwania**, np. <span class="input-value">H</span>,
+- **numer wyzwania**, np. <span class="input-value">7</span>,
+- **checklista**, np. <span class="input-value">A, B, C, D, E</span>,
+- **sukces**, np. <span class="input-value">✓</span>.
 
-**UWAGA!** Możesz go prowadzić w dowolnym zeszycie, notatniku lub w formie osobnych kartek (podpisanych nazwiskiem i ponumerowanych).
+Powyższe informacje można zapisywać w dowolnym **zeszycie**, **notatniku**, **pliku** na komputerze lub w formie osobnych, ponumerowanych **kartek** (podpisanych nazwiskiem).
 ## Zadanie
-Jeśli nie masz miejsca na wpisanie wiersza dla nowego wyzwania, stwórz tabelę z podanymi powyżej kolumnami na nowej stronie.
+Jeśli **nie masz miejsca** na wpisanie nowego wyzwania, **stwórz tabelę** z podanymi powyżej kolumnami **na nowej stronie**.
 
