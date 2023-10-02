@@ -50,30 +50,7 @@ Do końca **mówimy już razem na głos:**
 
 **UWAGA!** Nie zapraszaj kolejnego Patrona Orędownika **zanim nie skończysz odmawiać różańca** związanego z poprzednim!
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< U. PATRONI ORĘDOWNICY / DATA ZAPROSZENIA PATRONA / ALIAS PATRONA / DRUGA OSOBA / JAKO WYSŁANNIK PATRONA  
-> \>\> U1 / WT 2023-10-10 / Michał KOZ / Mama / Euzebiusz VER  
-> \>\> U2 / PN 2023-10-16 / Marcin TOU / Marcin S. z klasy 6c / Jan EWA  
-> \>\> U3 / CZ 2023-11-02 / Agata SYC / Mama / Jan EWA  
-> \>\> U4 / SO 2023-11-11 / Marek EWA / ks. Marek Nowak / Tomasz APO
-### Wersja pełna:
-> \<\< U. PATRONI ORĘDOWNICY / DATA ZAPROSZENIA PATRONA / ALIAS PATRONA / DRUGA OSOBA / JAKO WYSŁANNIK PATRONA / CZY ODMÓWIONO WSPÓLNIE MODLITWĘ DO PATRONÓW / ODMÓWIONE CZĘŚCI RÓŻAŃCA / MIEJSCE / KOMENTARZ  
-> \>\> U1 / WT 2023-10-10 / Michał KOZ / Mama / Euzebiusz VER / + / W, 1, 2, 3, 4, 5, Z / Warszawa, dom / Tajemnice radosne; Ukończono: PT 2023-10-13  
-> \>\> U2 / PN 2023-10-16 / Marcin TOU / Marcin S. z klasy 6c / Jan EWA / + / W, 1, 2, 3, 4, 5, Z / Warszawa, Szkoła Podstawowa nr 71 / Tajemnice światła; ukończono: WT 2023-10-17  
-> \>\> U3 / CZ 2023-11-02 / Agata SYC / Mama / Jan EWA / + / W, 1, 2, 3, 4, 5, Z / Warszawa, dom / Tajemnice bolesne; Ukończono: ŚR 2023-11-08  
-> \>\> U4 / SO 2023-11-11 / Marek EWA / ks. Marek Nowak / Tomasz APO / + / W, 1, 2, 3, 4, 5, Z / Warszawa, Kościół św. Aleksandra / Tajemnice chwalebne; ukończono: ten sam dzień
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ## Status
 | Poprzedni status zaproszonego patrona | zmienił się na | nowy status |

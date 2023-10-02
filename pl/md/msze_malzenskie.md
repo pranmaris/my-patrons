@@ -18,30 +18,7 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#msze-malzenskie-wi
 ## Modlitwa
 W <span class="selected-day-info">wybranym dniu</span>, **za pośrednictwem dwóch patronów**, odmów dowolną modlitwę za małżonków, np.: _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„[imię patrona dla męża], [imię patrona dla żony], módl się za nami”_.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< VD. MSZE MAŁŻEŃSKIE / DATA MSZY MAŁŻEŃSKIEJ / ALIAS PATRONA / ROLA MAŁŻONKA / WSZYSTKIE PODANE NA MSZY IMIONA I NAZWISKO MAŁŻONKA Z ZAZNACZENIEM WSPÓLNYCH Z PATRONEM  
-> \>\> VD1 / SO 2023-09-09 / Jan KRZ / Mąż / Damian [Jan] Nowaczyk  
-> \>\> VD1 / SO 2023-09-09 / Maria NMP / Żona / [Maria] Kotowska  
-> \>\> VD2 / ND 2023-09-17 / Henryk SWI / Mąż / [Henryk] Kowalski  
-> \>\> VD2 / ND 2023-09-17 / Stanisław BIS / Żona / Ewelina [Stanisława] Kaczmarek
-### Wersja pełna:
-> \<\< VD. MSZE MAŁŻEŃSKIE / DATA MSZY MAŁŻEŃSKIEJ / ALIAS PATRONA / ROLA MAŁŻONKA / WSZYSTKIE PODANE NA MSZY IMIONA I NAZWISKO MAŁŻONKA Z ZAZNACZENIEM WSPÓLNYCH Z PATRONEM / CZY ODMÓWIONO MODLITWĘ ZA MAŁŻONKÓW / KOMENTARZ  
-> \>\> VD1 / SO 2023-09-09 / Jan KRZ / Mąż / Damian [Jan] Nowaczyk / + / Msza o 16:00; Kraków, Kościół św. Wojciecha; ks. Przemysław Kozłowski  
-> \>\> VD1 / SO 2023-09-09 / Maria NMP / Żona / [Maria] Kotowska / + / Jak wyżej  
-> \>\> VD2 / ND 2023-09-17 / Henryk SWI / Mąż / [Henryk] Kowalski / + / Msza o 10:00; Kraków, Kościół św. Wojciecha; ks. Przemysław Kozłowski  
-> \>\> VD2 / ND 2023-09-17 / Stanisław BIS / Żona / Ewelina [Stanisława] Kaczmarek / + / Jak wyżej
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

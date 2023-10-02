@@ -32,21 +32,7 @@ W <span class="selected-day-info">piątek Wielkiego Postu</span> weź udział w 
 
 **UWAGA!** Jako **pełny udział** w tym nabożeństwie można potraktować uczestnictwo np. we **wszystkich 7 Drogach Krzyżowych** jednego Wielkiego Postu.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< LC. NABOŻEŃSTWO DROGI KRZYŻOWEJ / DATA ODBYCIA DROGI KRZYŻOWEJ  
-> \>\> LC1 / PT 2024-02-16  
-> \>\> LC2 / PT 2024-02-23  
-> \>\> LC3 / PT 2024-03-01
-### Wersja pełna:
-> \<\< LC. NABOŻEŃSTWO DROGI KRZYŻOWEJ / DATA ODBYCIA DROGI KRZYŻOWEJ / KOMENTARZ  
-> \>\> LC1 / PT 2024-02-16 / Nabożeństwo o 17:00; Kraków, Kościół św. Jadwigi Królowej; ks. Wacław Majchrzak  
-> \>\> LC2 / PT 2024-02-23 / Nabożeństwo o 17:00; Kraków, Kościół św. Jadwigi Królowej; ks. Wacław Majchrzak  
-> \>\> LC3 / PT 2024-03-01 / Nabożeńśtwo o 19:30; Kraków, Kaplica bł. Jerzego Popiełuszki; ks. Jan Kamiński
-
-Uwagi:
-- jeżeli powyższe było zrobione wcześniej, spróbuj przypomnieć sobie kiedy to było i wpisz co pamiętasz,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  

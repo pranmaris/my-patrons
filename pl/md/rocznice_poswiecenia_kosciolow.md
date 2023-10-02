@@ -17,28 +17,7 @@ W <span class="selected-day-info">wybranym dniu</span>:
 
 Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#rocznice-poswiecenia-kosciolow-wiecej-informacji).
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< K. ROCZNICE POŚWIĘCENIA KOŚCIOŁÓW / DATA UDZIAŁU WE MSZY ŚWIĘTEJ ROCZNICOWEJ / ALIAS PATRONA LUB ŚWIĘTA / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM  
-> \>\> K1 / ND 2023-10-22 / Łukasz EWA / Łódź, Kościół [św. Łukaza Ewangelisty] i św. Floriana Męczennika  
-> \>\> K2 / ND 2023-10-22 / Florian LAU / Łódź, Kościół św. Łukasza Ewangelisty i [św. Floriana Męczennika]  
-> \>\> K3 / ND 2023-10-29 / Jan CHR / Łódź, Kościół św. Doroty i [św. Jana Chrzciciela]
-### Wersja pełna:
-> \<\< K. ROCZNICE POŚWIĘCENIA KOŚCIOŁÓW / DATA UDZIAŁU WE MSZY ŚWIĘTEJ ROCZNICOWEJ / ALIAS PATRONA LUB ŚWIĘTA / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM / KOMENTARZ  
-> \>\> K1 / ND 2023-10-22 / Łukasz EWA / Łódź, Kościół [św. Łukaza Ewangelisty] i św. Floriana Męczennika / Msza o 12:00; ks. Adam Słowik  
-> \>\> K2 / ND 2023-10-22 / Florian LAU / Łódź, Kościół św. Łukasza Ewangelisty i [św. Floriana Męczennika] / jak wyżej  
-> \>\> K3 / ND 2023-10-29 / Jan CHR / Łódź, Kościół św. Doroty i [św. Jana Chrzciciela] / Msza o 13:00; ks. Wiesław Kowalczyk
-
-Uwagi:
-- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

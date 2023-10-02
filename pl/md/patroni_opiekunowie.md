@@ -59,30 +59,7 @@ Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „B
 ## Zadanie dodatkowe
 **Przeczytaj żywot patrona** lub **obejrzyj o nim film**, aby poznać jego życie i działalność.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< T. PATRONI OPIEKUNOWIE / DATA ZAPROSZENIA / ALIAS PATRONA  
-> \>\> T1 / WT 2023-08-01 / Łukasz EWA  
-> \>\> T2 / ND 2023-08-06 / Pius PET  
-> \>\> T3 / CZ 2023-08-10 / Jan P2P  
-> \>\> T4 / PT 2023-08-11 / Urszula LED
-### Wersja pełna:
-> \<\< T. PATRONI OPIEKUNOWIE / DATA ZAPROSZENIA / ALIAS PATRONA / KRYTERIUM WOBORU PATRONA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / CZY PRZECZYTANO O PATRONIE / KOMENTARZ  
-> \>\> T1 / WT 2023-08-01 / Łukasz EWA / B+C / + / + / Msza o 13:00; Warszawa, Kościół św. Łukasza Ewangelisty; ks. Jan Nowak + ks. Eugeniusz Buszka (homilia); Po Mszy Litania Loretańska do Matki Bożej  
-> \>\> T2 / ND 2023-08-06 / Pius PET / A+C / + / + / Msza o 10:00; Warszawa, Kościół św. Łukasza Ewangelisty; ks. Jan Nowak  
-> \>\> T3 / CZ 2023-08-10 / Jan P2P / A+B / + / + / Około godziny 17:00; Warszawa, Szpital Grochowski  
-> \>\> T4 / PT 2023-08-11 / Urszula LED / H / + / + / Około godziny 12:30; Warszawa, Świątynia Opatrzności Bożej
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ## Status
 | Poprzedni status zaproszonego patrona | zmienił się na | nowy status |

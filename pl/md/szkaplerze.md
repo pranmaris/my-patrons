@@ -21,26 +21,7 @@ W <span class="selected-day-info">wybranym dniu</span>:
 ## Modlitwa
 W <span class="selected-day-info">wybranym dniu</span> uroczyście **odmów modlitwę**, którą codziennie odmawiasz dla tego szkaplerza.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< VG. SZKAPLERZE / DATA WYKONANIA WYZWANIA / ALIAS PATRONA LUB ŚWIĘTA / NAZWA SZKAPLERZA  
-> \>\> VG1 / WT 2023-10-17 / Maria NMP:KAR / Szkaplerz Karmelitański (Najświętszej Maryi Panny z Góry Karmel)  
-> \>\> VG2 / ŚR 2023-10-25 / II:SER / Szkaplerz Najświętszego Serca Jezusa
-### Wersja pełna:
-> \<\< VG. SZKAPLERZE / DATA WYKONANIA WYZWANIA / ALIAS PATRONA LUB ŚWIĘTA / NAZWA SZKAPLERZA / MODLITWA SZKAPLERZA / CZY ODMÓWIONO MODLITWĘ SZKAPLERZA / DATA PIERWSZEGO NAŁOŻENIA SZKAPLERZA / KOMENTARZ  
-> \>\> VG1 / WT 2023-10-17 / Maria NMP:KAR / Szkaplerz Karmelitański (Najświętszej Maryi Panny z Góry Karmel) / Pod Twoją obronę ... / + / PT 2019-09-27 / Nałożenie: Olsztyn, Kościół św. Wawrzyńca, ks. Dominik Kaczorowski  
-> \>\> VG2 / ŚR 2023-10-25 / II:SER / Szkaplerz Najświętszego Serca Jezusa / Jezu cichy i pokornego serca ..., Maryjo Matko łaski i Matko Miłosierdzia ... / + / PN 2023-03-20 / Nałożenie: Olsztyn, Kościół Chrystusa Zmartwychwstałego, ks. ?
-
-Uwagi:
-- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

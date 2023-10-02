@@ -31,30 +31,7 @@ W <span class="selected-day-info">wybranym dniu</span>, **odmów następującą 
 > dla Bożej chwały i zbawienia dusz, będąc narzędziem w Bożych Rękach.  
 > Amen.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< MB. MISJE POBOŻNOŚCI / DATA UDZIAŁU W NABOŻEŃSTWIE / ALIAS PATRONA / NAZWA NABOŻEŃSTWA  
-> \>\> MC1 / PT 2023-08-04 / Jan EWA / LA  
-> \>\> MC2 / CZ 2023-11-02 / Maria NMP / LF  
-> \>\> MC3 / PT 2023-11-03 / Bernardyn SIE / LF  
-> \>\> MC4 / PT 2023-11-03 / Julita CEZ / LA
-### Wersja pełna:
-> \<\< MB. MISJE POBOŻNOŚCI / DATA UDZIAŁU W NABOŻEŃSTWIE / ALIAS PATRONA / NAZWA NABOŻEŃSTWA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / KOMENTARZ  
-> \>\> MC1 / PT 2023-08-04 / Jan EWA / LA / +  
-> \>\> MC2 / CZ 2023-11-02 / Maria NMP / LF / + / Poznań, Cmentarz Junikowo  
-> \>\> MC3 / PT 2023-11-03 / Bernardyn SIE / LF / + / Poznań, Cmentarz Junikowo  
-> \>\> MC4 / PT 2023-11-03 / Julita CEZ / LA / +
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 ## Karty
 Jeśli jeszcze nie masz [karty bazowej](karty_kolekcjonerskie.md#karty-kolekcjonerskie-karty-bazowe) z tym patronem, **stwórz ją odręcznie** na kartce wielkości karty lub **wydrukuj gotowy szablon** do wypełnienia.
 

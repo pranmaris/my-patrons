@@ -15,28 +15,7 @@ Pomódl się w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowa
 ## Zadanie dodatkowe
 **Przeczytaj** jakąkolwiek **notkę** lub **informacje** o wybranej świątyni, opisujące jej historię, ciekawostki oraz zawarte w niej ołtarze, relikwie i inne cenne przedmioty.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< D. KOŚCIOŁY / DATA NAWIEDZENIA / ALIAS PATRONA LUB ŚWIĘTA / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM  
-> \>\> D1 / WT 2023-08-22 / Jan P2P / Poznań, Kościół [św. Jana Pawła II]  
-> \>\> D2 / PT 2023-08-25 / Maria NMP:WSP / Rogalinek, Kościół św. Michała Archanioła i [Matki Bożej Wspomożenia Wiernych]  
-> \>\> D3 / PT 2023-08-25 / Jarogniew WOJ / Poznań, Kościół Błogosławionej Poznańskiej Piątki, czyli bł. Czesława Jóźwiaka, bł. Edwarda Kaźmierskiego, bł. Franciszka Kęsego, bł. Edwarda Klinika i [bł. Jarogniewa Wojciechowskiego]
-### Wersja pełna:
-> \<\< D. KOŚCIOŁY / DATA NAWIEDZENIA / ALIAS PATRONA LUB ŚWIĘTA / CZY WIDZIANO OŁTARZ GŁÓWNY / CZY ODMÓWIONO MODLITWĘ DO PATRONA / CZY PRZECZYTANO O KOŚCIELE / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM / KOMENTARZ  
-> \>\> D1 / WT 2023-08-22 / Jan P2P / + / + / + / Poznań, Kościół [św. Jana Pawła II]  
-> \>\> D2 / PT 2023-08-25 / Maria NMP:WSP / + / + / + / Rogalinek, Kościół św. Michała Archanioła i [Matki Bożej Wspomożenia Wiernych] / Na cmentarzu obok kościoła znajduje się grób dziadka  
-> \>\> D3 / PT 2023-08-25 / Jarogniew WOJ / - / + / + / Poznań, Kościół Błogosławionej Poznańskiej Piątki, czyli bł. Czesława Jóźwiaka, bł. Edwarda Kaźmierskiego, bł. Franciszka Kęsego, bł. Edwarda Klinika i [bł. Jarogniewa Wojciechowskiego]
-
-Uwagi:
-- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

@@ -17,28 +17,7 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#miejsca-swieckie-w
 ## Modlitwa
 W <span class="selected-day-info">wybranym dniu</span>, **będąc w tym miejscu**, pomódl się do patrona w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„[imię patrona], módl się za mną”_.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< VA. MIEJSCA ŚWIECKIE / DATA ODWIEDZENIA MIEJSCA / ALIAS PATRONA / MIEJSCOWOŚĆ, TYP I NAZWA MIEJSCA Z ZAZNACZONĄ NAZWĄ PATRONA  
-> \>\> VA1 / WT 2023-09-26 / Roch OFS / Poznań, Ulica [św. Rocha]  
-> \>\> VA2 / WT 2023-09-26 / Roch OFS / Poznań, Most [św. Rocha]  
-> \>\> VA3 / ND 2023-10-08 / Katarzyna ALE / Miejscowość [Święta Katarzyna] (gmina Siechnice)  
-### Wersja pełna:
-> \<\< VA. MIEJSCA ŚWIECKIE / DATA ODWIEDZENIA MIEJSCA / ALIAS PATRONA / MIEJSCOWOŚĆ, TYP I NAZWA MIEJSCA Z ZAZNACZONĄ NAZWĄ PATRONA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / KOMENTARZ  
-> \>\> VA1 / WT 2023-09-26 / Roch OFS / Poznań, Ulica [św. Rocha] / + / Tu zaparkowaliśmy auto  
-> \>\> VA2 / WT 2023-09-26 / Roch OFS / Poznań, Most [św. Rocha] / +  
-> \>\> VA3 / ND 2023-10-08 / Katarzyna ALE / Miejscowość [Święta Katarzyna] / + / gmina Siechnice, powiat wrocławski, województwo dolnośląskie
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

@@ -31,33 +31,7 @@ Odmów następującą modlitwę dla **każdego odkrywanego** w <span class="sele
 ## Zadanie dodatkowe
 **Przeczytaj jakąkolwiek notkę** o odkrywanych świętach lub **obejrzyj o nich film**, aby lepiej poznać ich znaczenie i historię.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< B. ŚWIĘTA / DATA ODKRYCIA / ALIAS ŚWIĘTA  
-> \>\> B1 / ND 2023-08-06 / II:PRZ -- Przemienienie Pańskie  
-> \>\> B2 / WT 2023-08-15 / Maria NMP:WNI -- Wniebowzięcie Najświętszej Maryi Panny  
-> \>\> B3 / ND 2023-12-31 / II:ROD -- Świętej Rodziny (Jezus)  
-> \>\> B4 / ND 2023-12-31 / Maria NMP:ROD -- Świętej Rodziny (Maria)  
-> \>\> B5 / ND 2023-12-31 / Józef NAZ:ROD -- Świętej Rodziny (Józef)
-### Wersja pełna:
-> \<\< B. ŚWIĘTA / DATA ODKRYCIA / ALIAS ŚWIĘTA / KRYTERIUM WYBORU ŚWIĘTA / CZY ODMÓWIONO MODLITWĘ / CZY PRZECZYTANO O ŚWIĘCIE / KOMENTARZ  
-> \>\> B1 / ND 2023-08-06 / II:PRZ -- Przemienienie Pańskie / + / + / Msza o 12:00; Warszawa, Kościół Nawiedzenia Najświętszej Maryi Panny; ks. Waldemar Kopaliński  
-> \>\> B2 / WT 2023-08-15 / Maria NMP:WNI -- Wniebowzięcie Najświętszej Maryi Panny / + / + / Msza o 09:00; Warszawa, Kościół św. Jakuba Apostoła; ks. ?  
-> \>\> B3 / ND 2023-12-31 / II:ROD -- Świętej Rodziny (Jezus) / + / + / Masz o 10:30; Warszawa, Kościół św. Aleksandra; ks. Wojciech Kowalski + dk. Michał Kuna (homilia)  
-> \>\> B4 / ND 2023-12-31 / Maria NMP:ROD -- Świętej Rodziny (Maria) / + / + / Jak wyżej  
-> \>\> B5 / ND 2023-12-31 / Józef NAZ:ROD -- Świętej Rodziny (Józef) / + / + / Jak wyżej
-
-Uwagi:
-- przez „**ALIAS ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Do tego najlepiej dodać nadany przez nas kod określający o które święto chodzi. Dobrze zatem wydaje się sprawdzać połączenie **głównego imienia patrona**, analogicznie **nadanego trzyznakowego kodu** rozpoznawczego patrona i wspomnianego **kodu święta**. Tak uzyskamy np.: „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Józef NAZ:RZE**” - Józefa Rzemieślnika, czy „**II:KRW**” - Jezusa Chrystusa Króla Wszechświata,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis święta, np.:
-> \>\> ... / Maria NMP:ROZ -- Najświętsza Maryja Panna Różańcowa / ...  
-> ...  
-> \>\> ... / Maria NMP:ROZ / ...  
-> ...  
-> \>\> ... / Maria NMP:ROZ / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- jako „**KRYTERIUM WYBORU ŚWIĘTA**” możemy podać np.: „**MR**” - istnieje wpis tego święta w którymś oficjalnym wydaniu Martyrologium Rzymskiego dla dnia dzisiejszego, „**MR1948:3**” - w Martyrologium z 1948 roku wybrane święto jest opisane w trzecim elogium dla dnia dzisiejszego, „**MR2004:R10**” - w Martyrologium z 2004 wybrane święto jest opisane w dziesiątym elogium świąt ruchomych, które dzisiaj przypada, „**KAL**” - święto było dzisiaj jawnie wspomniane na Mszy, w której uczestniczyliśmy na podstawie dowolnego obowiązującego kalendarza liturgicznego, „**ODP**” - dzisiaj była suma odpustu parafialnego dotycząca wybranego święta, „**INN**” - dzisiaj przypada inny dzień wspomnienia, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space).
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 ## Status
 | Poprzedni status odkrytego święta | zmienił się na | nowy status |
 |---:|:---:|:---|

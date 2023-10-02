@@ -12,4 +12,4 @@ To wyzwanie można wykonać **tylko jeden raz**, na samym początku!
 - **checklista**: wpisz <span class="input-value">IIZ!, IM!, IP, IKN, XKW, IKS, IN, XN</span>.
 - **sukces**: pozostaw pusty,
 ## Więcej informacji
-Jeżeli chcesz uzyskać więcej informacji, możesz zapoznać się z kartą: <span class="link">SZCZEGÓŁY: I. Bóg</span>.
+Jeżeli chcesz uzyskać więcej informacji, **możesz zapoznać się** z kartą: <span class="link">SZCZEGÓŁY: I. Bóg</span>.

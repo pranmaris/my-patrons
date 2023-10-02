@@ -36,32 +36,7 @@ W <span class="selected-day-info">wybranym dniu</span>, będąc przy kapliczce i
 ## Zadanie dodatkowe
 **Pomódl się dodatkowo** do Jezusa i patronów kapliczki, przy której się znajdujesz w intencji dokonanego właśnie powierzenia misji.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< MA. MISJE WYSŁANNIKA / DATA POWIERZENIA MISJI / ALIAS PATRONA / OPIS KAPLICZKI  
-> \>\> MA1 / WT 2023-08-01 / Maria NMP / Szlak czerwony: Międzygórze - Schronisko pod Śnieżnikiem, pierwsza kapliczka Matki Bożej na drzewie  
-> \>\> MA2 / WT 2023-08-01 / Lidia TIA / Szlak czerwony: Międzygórze - Schronisko pod Śnieżnikiem, druga kapliczka Matki Bożej na drzewie  
-> \>\> MA3 / PT 2023-08-04 / Alfons LIG / Bystrzyca Kłodzka, kapliczka Matki Bożej przy ul. Wojska Polskiego  
-> \>\> MA4 / SO 2023-08-05 / Jarogniew WOJ / Szlak żółty: Międzygórze - Góra Igliczna, krzyż na polu
-### Wersja pełna:
-> \<\< MA. MISJE WYSŁANNIKA / DATA POWIERZENIA MISJI / ALIAS PATRONA / OPIS KAPLICZKI / CZY ODMÓWIONO MODLITWĘ DO PATRONA / CZY ODMÓWIONO MODLITWĘ DO JEZUSA I PATRONÓW KAPLICZKI / KRYTERIUM WYBORU PATRONA / KOMENTARZ  
-> \>\> MA1 / WT 2023-08-01 / Maria NMP / Szlak czerwony: Międzygórze - Schronisko pod Śnieżnikiem, pierwsza kapliczka Matki Bożej na drzewie / + / + / PCH:1  
-> \>\> MA2 / WT 2023-08-01 / Lidia TIA / Szlak czerwony: Międzygórze - Schronisko pod Śnieżnikiem, druga kapliczka Matki Bożej na drzewie / + / + / PBI  
-> \>\> MA3 / PT 2023-08-04 / Alfons LIG / Bystrzyca Kłodzka, kapliczka Matki Bożej przy ul. Wojska Polskiego / + / + / DBI:2019-08-01 (MR2004:1) / Pamiątkowe zdjęcie z innymi Uczestnikami inicjatywy  
-> \>\> MA4 / SO 2023-08-05 / Jarogniew WOJ / Szlak żółty: Międzygórze - Góra Igliczna, krzyż na polu / + / + / DCH:2005-08-24 (DSM)
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- jako „**KRYTERIUM WYBORU PATRONA**” możemy podać np.: „**PCH:1**” - patron naszego pierwszego imienia nadanego na Chrzcie św., „**PBI**” - patron wybranego imienia na Bierzmowaniu, „**PZA:2**” - patron naszego drugiego imienia zakonnego, „**PRZ:17**” - nasz Patron Przyjaciel o numerze **P17**, „**DXX:RRRR-MM-DD (PODKRYTERIUM)**” - patron spełniający podkryterium dla wybranego dnia naszych narodzin (**DUR**) albo pierwszego przyjęcia Sakramentu: Chrztu (**DCH**), Spowiedzi (**DSP**), Komunii (**DKO**), Bierzmowania (**DBI**), Namaszczenia Chorych (**DNC**), Małżeństwa (**DMA**) lub Kapłaństwa (**DKA**),
-- jako „**PODKRYTERIUM**” (patrz poprzedni punkt) możemy podać np.: „**MR**” - istnieje wpis tego patrona w którymś oficjalnym wydaniu Martyrologium Rzymskiego dla podanego dnia, „**MR1948:3**” - w Martyrologium z 1948 roku wybrany patron jest opisany w trzecim elogium dla podanego dnia (jeśli elogium dotyczy wielu patronów, a ten nasz jest podany np. jako siódmy, możemy podać „MR1948:3.7”), „**DSM**” - podany dzień jest rocznicą śmierci danego patrona, „**INN**” - w podanym dniu przypada inny dzień wspomnienia, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space),
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 ## Karty
 Jeśli jeszcze nie masz [karty bazowej](karty_kolekcjonerskie.md#karty-kolekcjonerskie-karty-bazowe) z tym patronem, **stwórz ją odręcznie** na kartce wielkości karty lub **wydrukuj gotowy szablon** do wypełnienia.
 

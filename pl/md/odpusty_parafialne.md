@@ -21,26 +21,7 @@ W <span class="selected-day-info">wybranym dniu</span> odmów modlitwy **w inten
 ## Zadanie dodatkowe
 W <span class="selected-day-info">wybranym dniu</span> **wybierz** siebie albo dowolną osobę zmarłą, za którą **ofiarujesz uzyskany odpust**! Jeśli nie wiesz kto to może być, warto zdać się na **mądrość Boga** i to Jemu oddać tę decyzję.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< G. ODPUSTY PARAFIALNE / DATA UDZIAŁU W SUMIE ODPUSTOWEJ / ALIAS PATRONA LUB ŚWIĘTA / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM  
-> \>\> G1 / ND 2023-10-01 / Michał ARC / Szczecin, [św. Michała Archanioła]  
-> \>\> G2 / CZ 2023-10-05 / Maria FAU / Szczecin, [św. Faustyny Kowalskiej]
-### Wersja pełna:
-> \<\< G. ODPUSTY PARAFIALNE / DATA UDZIAŁU W SUMIE ODPUSTOWEJ / ALIAS PATRONA LUB ŚWIĘTA / CZY ODMÓWIONO MODLITWĘ W INTENCJACH PAPIESKICH / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM / KOMENTARZ  
-> \>\> G1 / ND 2023-10-01 / Michał ARC / + / Szczecin, [św. Michała Archanioła] / Suma o 12:00, odpust przeniesiony z 29.09 na niedzielę  
-> \>\> G2 / CZ 2023-10-05 / Maria FAU / + / Szczecin, [św. Faustyny Kowalskiej] / Suma o 18:00
-
-Uwagi:
-- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

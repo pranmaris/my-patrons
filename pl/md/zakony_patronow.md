@@ -25,28 +25,7 @@ W <span class="selected-day-info">wybranym dniu</span>, przez wstawiennictwo wyb
 > zgodne z przyjętą regułą zakonu i ślubami.  
 > Amen.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< R. ZAKONY PATRONÓW / DATA MODLITWY ZA ZAKON / ALIAS PATRONA / SIGLUM LUB NAZWA ZAKONU  
-> \>\> R1 / CZ 2023-08-03 / Antoni PAD / CRL  
-> \>\> R2 / CZ 2023-08-03 / Antoni PAD / OFM  
-> \>\> R3 / PT 2023-08-11 / Roch OFS / OFS
-### Wersja pełna:
-> \<\< R. ZAKONY PATRONÓW / DATA MODLITWY ZA ZAKON / ALIAS PATRONA / SIGLUM LUB NAZWA ZAKONU / CZY ODMÓWIONO MODLITWĘ ZA ZAKON / CZY PRZECZYTANO O ZAKONIE / KOMENTARZ  
-> \>\> R1 / CZ 2023-08-03 / Antoni PAD / CRL / + / +  
-> \>\> R2 / CZ 2023-08-03 / Antoni PAD / OFM / + / +  
-> \>\> R3 / PT 2023-08-11 / Roch OFS / OFS / + / + / Modlitwa w Kościele św. Jakuba Apostoła w Warszawie
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

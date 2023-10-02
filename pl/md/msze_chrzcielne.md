@@ -16,28 +16,7 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#msze-chrzcielne-wi
 ## Modlitwa
 W <span class="selected-day-info">wybranym dniu</span>, **za pośrednictwem patrona**, odmów dowolną modlitwę za tę ochrzczoną osobę, np.: _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_ i _„[imię patrona], módl się za nami”_.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< VC. MSZE CHRZCIELNE / DATA MSZY CHRZCIELNEJ / ALIAS PATRONA / WSZYSTKIE PODANE NA MSZY IMIONA OCHRZCZONEJ OSOBY Z ZAZNACZENIEM WSPÓLNYCH Z PATRONEM  
-> \>\> VC1 / SO 2023-10-21 / Antoni PAD / [Antoni]  
-> \>\> VC2 / SO 2023-10-21 / Jan EWA / Michalina [Janina]  
-> \>\> VC3 / SO 2023-10-28 / Maria FAU / [Faustyn] Tomasz
-### Wersja pełna:
-> \<\< VC. MSZE CHRZCIELNE / DATA MSZY CHRZCIELNEJ / ALIAS PATRONA / WSZYSTKIE PODANE NA MSZY IMIONA OCHRZCZONEJ OSOBY Z ZAZNACZENIEM WSPÓLNYCH Z PATRONEM / CZY ODMÓWIONO MODLITWĘ ZA OSOBĘ OCHRZCZONĄ / KOMENTARZ  
-> \>\> VC1 / SO 2023-10-21 / Antoni PAD / [Antoni] / + / Msza o 17:00; Poznań, św. Andrzeja; ks. Wojciech Nowakowski  
-> \>\> VC2 / SO 2023-10-21 / Jan EWA / Michalina [Janina] / + / Jak wyżej  
-> \>\> VC3 / SO 2023-10-28 / Maria FAU / [Faustyn] Tomasz / + / Msza o 17:00; Poznań, św. Andrzeja; ks. Wojciech Nowakowski; Chrzest udzielony po Mszy przez ks. Marka Millera
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

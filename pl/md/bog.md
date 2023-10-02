@@ -35,18 +35,7 @@ W <span class="selected-day-info">wybranym dniu</span>, odmów _„Credo”_, cz
   - o Jezusie Chrystusie,
   - o Duchu Świętym.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< I. BÓG / DATA ZAWIERZENIA I CREDO  
-> \>\> I / WT 2023-08-01
-### Wersja pełna:
-> \<\< I. BÓG / DATA ZAWIERZENIA I CREDO / CZY PRZECZYTANO O TRÓJCY PRZENAJŚWIĘTSZEJ / CZY PRZECZYTANO O BOGU OJCU / CZY PRZECZYTANO O SYNU BOŻYM / CZY PRZECZYTANO O DUCHU ŚWIĘTYM / KOMENTARZ  
-> \>\> I / WT 2023-08-01 / + / + / + / + / Około godziny 17:00; Poznań, Kościół św. Anny
-
-Uwagi:
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki,
-- dodatkowo możesz wypełnić także np. ten [formularz](../../pl/pdf/lista_v1_i_bog_j_narodziny_i_sakramenty_ya_patroni_moich_imion.pdf), co może się przydać później.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ## Karty
 Po wykonaniu tego zadania, możesz wydrukować lub narysować samodzielnie cztery [karty bazowe](karty_kolekcjonerskie.md#karty-kolekcjonerskie-karty-bazowe): z **Trójcą Przenajświętszą** (zbiorczo) oraz z **Bogiem Ojcem**, **Jezusem Chrystusem** i **Duchem Świętym** (każdy na osobnej karcie).

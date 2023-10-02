@@ -42,22 +42,7 @@ W okolicach **pierwszych sobót miesiąca**, wykonaj poniższe kroki:
 - <span class="selected-day-info">w pierwszą sobotę miesiąca</span>: medytuj przez co najmniej **piętnaście minut** nad tajemnicami różańcowymi - wszystkimi, jedną lub kilkoma.
 
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< LB. NABOŻEŃSTWO V PIERWSZYCH SOBÓT MIESIĄCA / DATA PRZYJĘCIA KOMUNII ŚWIĘTEJ  
-> \>\> LB1 / SO 2023-08-05  
-> \>\> LB2 / SO 2023-09-02  
-> \>\> LB3 / SO 2023-10-07
-### Wersja pełna:
-> \<\< LB. NABOŻEŃSTWO V PIERWSZYCH SOBÓT MIESIĄCA / DATA PRZYJĘCIA KOMUNII ŚWIĘTEJ / CZY WYBRANO ZNIEWAGI / CZY USZESTNICZONO WE MSZY ŚWIĘTEJ / CZY ODMÓWIONO RÓŻANIEC / CZY MEDYTOWANO CO NAJMNIEJ 15 MINUT / KOMENTARZ  
-> \>\> LB1 / SO 2023-08-05 / + / + / + / + / Spowiedź (CZ 2023-08-03): Białystok, Kościół św. Anny; Komunia: Białystok, Kościół św. Anny  
-> \>\> LB2 / SO 2023-09-02 / + / + / + / + / Spowiedź (ŚR 2023-08-30): Białystok, Kościół św. Anny; Komunia: Białystok, Kościół Ducha Świętego  
-> \>\> LB3 / SO 2023-10-07 / + / + / + / + / Spowiedź (PT 2023-10-06): Białystok, Kościół Ducha Świętego (ks. Mirosław Nowak); Komunia: Białystok, Kościół św. Anny
-
-Uwagi:
-- jeżeli powyższe nabożeństwo było odprawione wcześniej, spróbuj przypomnieć sobie kiedy to było i wpisz co pamiętasz,
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci.md)  

@@ -39,28 +39,7 @@ W <span class="selected-day-info">wybranym dniu</span>, **przy każdej stacji**,
 > _(można dodać też):_  
 > I Ty któraś współcierpiała, Matko Bolesna przyczyń się za nami.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< VB. DROGI KRZYŻOWE / DATA SAMODZIELNEJ DROGI KRZYŻOWEJ / ALIAS PATRONA LUB ŚWIĘTA / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM  
-> \>\> VB1 / CZ 2023-08-17 / Jan SAR / Częstochowa, Kościół [św. Jana Sakandra]  
-> \>\> VB2 / PT 2023-08-18 / Teresa LIS / Częstochowa, Kościół [św. Teresy od Dzieciątka Jezus]  
-> \>\> VB3 / WT 2023-08-29 / Paweł TAR / Częstochowa, Kościół [Świętych Apostołów] Piotra i [Pawła]
-### Wersja pełna:
-> \<\< VB. DROGI KRZYŻOWE / DATA SAMODZIELNEJ DROGI KRZYŻOWEJ / ALIAS PATRONA LUB ŚWIĘTA / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM / KOMENTARZ  
-> \>\> VB1 / CZ 2023-08-17 / Jan SAR / Częstochowa, Kościół [św. Jana Sakandra] / Około godziny 16:00  
-> \>\> VB2 / PT 2023-08-18 / Teresa LIS / Częstochowa, Kościół [św. Teresy od Dzieciątka Jezus] / Około godziny 13:30  
-> \>\> VB3 / WT 2023-08-29 / Paweł TAR / Częstochowa, Kościół [Świętych Apostołów] Piotra i [Pawła] / Około godziny 07:00
-
-Uwagi:
-- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

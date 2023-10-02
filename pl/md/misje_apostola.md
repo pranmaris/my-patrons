@@ -39,26 +39,7 @@ W <span class="selected-day-info">danym dniu</span>, gdy Uczestnik zaprosi już 
 - dopiero teraz **zanotuj tę misję Apostoła** w swoich notatkach przy wybranym patronie,
 - jeśli chcesz podzielić się z nami waszym sukcesem, masz jakieś ciekawe wnioski, napisz [do nas](https://pl.gratiadei.org/#kontakt).
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< MB. MISJE APOSTOŁA / DATA UZNANIA MISJI / ALIAS PATRONA  
-> \>\> MB1 / CZ 2023-10-26 / Jan EWA  
-> \>\> MB2 / PN 2024-01-15 / Maria NMP
-### Wersja pełna:
-> \<\< MB. MISJE APOSTOŁA / DATA UZNANIA MISJI / ALIAS PATRONA / NAZWA UCZESTNIKA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / KOMENTARZ  
-> \>\> MB1 / CZ 2023-10-26 / Jan EWA / Jan Nowak / + / Rozpoczęcie: WT 2023-08-01  
-> \>\> MB2 / PN 2024-01-15 / Maria NMP / Maria Kowalska / + / Rozpoczęcie: PN 2023-10-02
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 ## Karty
 Jeśli jeszcze nie masz [karty bazowej](karty_kolekcjonerskie.md#karty-kolekcjonerskie-karty-bazowe) z tym patronem, **stwórz ją odręcznie** na kartce wielkości karty lub **wydrukuj gotowy szablon** do wypełnienia.
 

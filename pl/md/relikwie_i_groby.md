@@ -17,28 +17,7 @@ Pomódl się do patrona w dowolny sposób. Może to być np. _„Ojcze Nasz”_,
 ## Zadanie dodatkowe
 **Tylko dla chętnych!** Jeżeli z konkretnymi relikwiami czy grobem wiąże się jakaś ciekawa historia, są one w jakikolwiek sposób wyjątkowe lub po prostu uda Ci się odnaleźć ich opis lub historię, **przeczytaj i dowiedz się o nich więcej**.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< H. RELIKWIE I GROBY / DATA NAWIEDZENIA / ALIAS PATRONA / NAZWA MIEJSCA  
-> \>\> H1 / ŚR 2023-09-13 / Wojciech SLA / Gniezno, Bazylika Wniebowzięcia Najświętszej Maryi Panny  
-> \>\> H2 / ŚR 2023-09-13 / Jan P2P / Gniezno, Bazylika Wniebowzięcia Najświętszej Maryi Panny  
-> \>\> H3 / PT 2023-09-22 / Maria FAU / Kraków, Kościół Bożego Miłosierdzia
-### Wersja pełna:
-> \<\< H. RELIKWIE I GROBY / DATA NAWIEDZENIA / ALIAS PATRONA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / NAZWA MIEJSCA / KOMENTARZ  
-> \>\> H1 / ŚR 2023-09-13 / Wojciech SLA / + / Gniezno, Bazylika Wniebowzięcia Najświętszej Maryi Panny / Grób na ołtarzu głównym  
-> \>\> H2 / ŚR 2023-09-13 / Jan P2P / + / Gniezno, Bazylika Wniebowzięcia Najświętszej Maryi Panny / Relikwiarz z kaplicy św. Stanisława i św. Jana Pawła II  
-> \>\> H3 / PT 2023-09-22 / Maria FAU / + / Kraków, Kościół Bożego Miłosierdzia / Grób
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

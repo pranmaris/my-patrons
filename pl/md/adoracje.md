@@ -23,26 +23,7 @@ Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#adoracje-wiecej-in
 > teraz i zawsze i na wieki wieków.  
 > Amen.
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< F. ADORACJE / DATA ROZPOCZĘCIA ADORACJI / ALIAS PATRONA LUB ŚWIĘTA / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM  
-> \>\> F1 / PT 2023-11-17 / Szczepan MEC / Kraków, Kościół [św. Szczepana]  
-> \>\> F2 / ŚR 2023-12-20 / Michał ARC / Kraków, Kościół [św. Michała Archanioła] i Stanisława Biskupa i Męczennika na Skałce
-### Wersja pełna:
-> \<\< F. ADORACJE / DATA ROZPOCZĘCIA ADORACJI / ALIAS PATRONA LUB ŚWIĘTA / CZY NA POCZĄTKU ODMÓWIONO MODLITWĘ DO PATRONA / CZY ODMÓWIONO MODLITWĘ KOŃCOWĄ / CZAS ADORACJI PODZIELONY NA KWADRANSE / NAZWA MIEJSCA Z ZAZNACZONYM PATRONEM LUB ŚWIĘTEM / KOMENTARZ  
-> \>\> F1 / PT 2023-11-17 / Szczepan MEC / + / + / 1, 2, 3, 4 / Kraków, Kościół [św. Szczepana] / 35min (PT 2023-11-17) + 15min (PN 2023-11-20) + 15min (WT 2023-11-21)  
-> \>\> F2 / ŚR 2023-12-20 / Michał ARC / + / + / 1, 2, 3, 4 / Kraków, Kościół [św. Michała Archanioła] i Stanisława Biskupa i Męczennika na Skałce
-
-Uwagi:
-- przez „**ALIAS PATRONA LUB ŚWIĘTA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego (ewentualnie z dodatkowym trzyliterowym oznaczeniem święta tego patrona), np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Maria NMP:WSP**” - Matkę Bożą Wspomożenia Wiernych, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 <br />
 <br />
 <br />

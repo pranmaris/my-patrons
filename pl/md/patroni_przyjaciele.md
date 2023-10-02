@@ -45,28 +45,7 @@ W <span class="selected-day-info">wybranym dniu</span>:
 > W Imię Ojca i Syna i Ducha Świętego _(wykonujemy znak krzyża)_.  
 > Amen.  
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< P. PATRONI PRZYJACIELE / DATA ADORACJI / ALIAS PATRONA  
-> \>\> P1 / CZ 2023-08-31 / Maria NMP  
-> \>\> P2 / PT 2023-09-08 / Ignacy LOY  
-> \>\> P3 / SO 2023-09-23 / Tomasz AKW
-### Wersja pełna:
-> \<\< P. PATRONI PRZYJACIELE / DATA ADORACJI / ALIAS PATRONA / CZY ODMÓWIONO MODLITWĘ CHWAŁA NA WYSOKOŚCI / CZY ODMÓWIONO MODLITWĘ DO PATRONA / MIEJSCE ADORACJI / KOMENTARZ  
-> \>\> P1 / CZ 2023-08-31 / Maria NMP / + / + / Bydgoszcz, Kościół Zmartwychwstania Pańskiega / Od około godziny 11:00  
-> \>\> P2 / PT 2023-09-08 / Ignacy LOY / + / + / Bydgoszcz, Kościół Zmartwychwstania Pańskiego / Od godziny 14:30; Przerwa w adoracji z powodu Mszy św. o 15:00, potem dokończenie  
-> \>\> P3 / SO 2023-09-23 / Tomasz AKW / + / + / Bydgoszcz, Kościół św. Jóżefa Rzemieślnika / Od godziny 10:30
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ## Status
 | Poprzedni status zaproszonego patrona | zmienił się na | nowy status |

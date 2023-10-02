@@ -47,29 +47,7 @@ Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „B
 
 <button class="button btn" id="random-bible-chapter" onclick="setRandomBibleChapter('pl')">Losuj rozdział</button>
 ## Notatki
-Zanotuj sobie pamiętając, że **forma notatek jest dowolna** i poniższy przykład jest tylko naszą propozycją:
-### Wersja minimalna:
-> \<\< A. PATRONI OBROŃCY / DATA ZAPROSZENIA / ALIAS PATRONA  
-> \>\> A1 / WT 2023-08-01 / Alfons LIG  
-> \>\> A2 / CZ 2023-08-03 / Lidia TIA  
-> \>\> A3 / ND 2023-08-06 / Hormizdas 1PP
-### Wersja pełna:
-> \<\< A. PATRONI OBROŃCY / DATA ZAPROSZENIA / ALIAS PATRONA / KRYTERIUM WYBORU PATRONA / CZY ODMÓWIONO MODLITWĘ DO PATRONA / ROZDZIAŁ PISMA ŚW. / KOMENTARZ  
-> \>\> A1 / WT 2023-08-01 / Alfons LIG / MR2004:1 / + / Ps 123 / Msza o 17:00; Gdańsk, św. Ojca Pio; ks. Jerzy Lewandowski  
-> \>\> A2 / CZ 2023-08-03 / Lidia TIA / MR1956:2 / + / Hbr 2 / Msza o 17:00; Gdańsk, św. Ojca Pio; ks. Jerzy Lewandowski + ks. Władysław Kos (homilia)  
-> \>\> A3 / ND 2023-08-06 / Hormizdas 1PP / MR2004:4 / + / Rdz 42 / Msza o 10:30; Gdańsk, Ignacego Loyoli; ks. Mieczysław Kotowski; Po Mszy Litania na Przemienienie Pańskie
-
-Uwagi:
-- przez „**ALIAS PATRONA**” rozumiemy dowolną, nadaną przez nas skróconą nazwę patrona, która będzie dla nas intuicyjna i uchroni przed koniecznością wpisywania długiej nazwy i daty śmierci za każdym razem. Dobrze wydaje się sprawdzać połączenie **głównego imienia patrona** i **nadanego trzyznakowego kodu** rozpoznawczego, np. „**Jan VIA**” może oznaczać Jana Marię Vianneya, „**Maria NMP**” - Najświętszą Marię Pannę, „**Damian KOS**” - Damiana (obok Kosmy), „**Pius 5PP**” - Piusa V papieża, a „**X AST**” - Aniołów Stróżów,
-- aby było jasne kogo dotyczy dany alias, **przed pierwszym jego użyciem** można dodać pełen opis patrona, np.:
-> \>\> ... / Maria FAU -- Maria Faustyna Kowalska +1938-10-05 / ...  
-> ...  
-> \>\> ... / Maria FAU / ...  
-> ...  
-> \>\> ... / Maria FAU / ...
-- dzięki polom oznaczonych znakiem „**+**” (brak wykonania to „**-**”), łatwiej będzie Ci kontrolować które czynności zostały już wykonane,
-- jako „**KRYTERIUM WYBORU PATRONA**” możemy podać np.: „**MR**” - istnieje wpis tego patrona w którymś oficjalnym wydaniu Martyrologium Rzymskiego dla dnia dzisiejszego, „**MR1948:3**” - w Martyrologium z 1948 roku wybrany patron jest opisany w trzecim elogium dla dnia dzisiejszego (jeśli elogium dotyczy wielu patronów, a ten nasz jest podany np. jako siódmy, możemy podać „MR1948:3.7”), „**MR2004:R10**” - w Martyrologium z 2004 wybrany patron jest opisany w dziesiątym elogium świąt ruchomych, które dzisiaj przypada, „**DSM**” - dzisiaj jest rocznica śmierci danego patrona, „**BEA**” - dokładnie dzisiaj odbyła się beatyfikacja wybranego patrona, „**KAN**” - dokładnie dzisiaj odbyła się kanonizacja wybranego patrona, „**KAL**” - patron był dzisiaj jawnie wspomniany na Mszy, w której uczestniczyliśmy na podstawie dowolnego obowiązującego kalendarza liturgicznego, „**ODP**” - dzisiaj była suma odpustu parafialnego dotycząca wybranego patrona, „**INN**” - dzisiaj przypada inny dzień wspomnienia, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space).
-- linię nagłówka oznaczoną znakami „**<<**” warto zanotować tylko raz przed pierwszym wpisem danego typu albo w oddzielnym miejscu przeznaczonym na wszystkie nagłówki.
+Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ## Status
 | Poprzedni status zaproszonego patrona | zmienił się na | nowy status |
