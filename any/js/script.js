@@ -36,13 +36,13 @@ const DEFAULT_EXPANDED_PAGE_ID = 0;
 const ACCORDION_ITEM_COLLAPSED_FILE = 'accordion_item_collapsed' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
 const ACCORDION_ITEM_EXPANDED_FILE = 'accordion_item_expanded' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
 const ACCORDION_ITEM_CLASS_QUERY_SELECTOR = '.accordion-item';
-const PAPER_TEMPLATE_FILE = 'paper_template' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_HTML;
 
 const ACCORDION_HEADING_ELEMENT_PREFIX = 'heading';
 const ACCORDION_BODY_ELEMENT_PREFIX = 'page';
 const LANGUAGES_ELEMENT_ID = 'header-languages';
 const HEADER_ELEMENT_ID = 'header';
 const FOOTER_ELEMENT_ID = 'footer';
+const ACTION_CARD_ID = 'action-card';
 
 const LANGUAGE_PATTERN = '[a-z][a-z]';
 const URL_WORD_SEPARATOR_PATTERN = '[^a-z0-9]';
@@ -55,17 +55,17 @@ const LANGUAGES_MARKDOWN_FILE_NAME = 'languages';
 const INDEX_MARKDOWN_FILE_NAME = 'index';
 const HEADER_HTML_FILE_NAME = 'header';
 const FOOTER_HTML_FILE_NAME = 'footer';
-const PAPER_TEMPLATES_NAME = 'paper-templates';
+const ACTION_CARDS_PATH = 'a';
 
 const RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID = 'random-bible-chapter';
 const RANDOM_BIBLE_CHAPTERS_DATA_FILE_PATH = '/any/' + FILE_EXTENSION_JSON + '/bible_chapters' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_JSON;
 let randomBibleChaptersButtonNamePrefix = null;
 let allBibleChapters = null;
 
-const isUrlPathPaperTemplates = () => {
+const isUrlPathActionCards = () => {
   const urlPath = getPathFromUrl();
 
-  return urlPath == PAPER_TEMPLATES_NAME;
+  return urlPath.substring(0, ACTION_CARDS_PATH.length + 1) == ACTION_CARDS_PATH + '/';
 }
 
 const build = () => {
@@ -79,18 +79,19 @@ const build = () => {
   buildHeader(htmlPath);
   buildFooter(htmlPath);
 
-  loadContent(pagesPath + INDEX_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN, true)
-    .then(function (indexContent) {
-      const indexData = getConvertedIndexDataFromContent(indexContent);
-      if (isUrlPathPaperTemplates()) {
-        buildPaperTemplatesPageContent(pagesPath, indexData);
-      } else {
+  if (isUrlPathActionCards()) {
+    const urlPath = getPathFromUrl();
+    buildActionCardsPageContent(pagesPath, urlPath);
+  } else {
+    loadContent(pagesPath + INDEX_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN, true)
+      .then(function (indexContent) {
+        const indexData = getConvertedIndexDataFromContent(indexContent);
         buildPageContent(pagesPath, indexData);
-      }
-    })
-    .catch(function (error) {
-    })
-  ;
+      })
+      .catch(function (error) {
+      })
+    ;
+  }
 }
 
 const buildLanguages = () => {
@@ -236,8 +237,8 @@ const getPagesPathForLanguage = (language) => {
   }
 
   let pathSuffix = '';
-  if (isUrlPathPaperTemplates()) {
-    pathSuffix = PAPER_TEMPLATES_NAME + '/';
+  if (isUrlPathActionCards()) {
+    pathSuffix = ACTION_CARDS_PATH + '/';
   }
 
   return PAGES_PATH.replace(LANGUAGE_REPLACE_HASHTAG, language) + pathSuffix;
@@ -426,18 +427,16 @@ const buildPageContent = (pagesPath, pagesData) => {
   ;
 }
 
-const buildPaperTemplatesPageContent = (pagesPath, pagesData) => {
-  let mainElement = document.getElementById('paper-templates-content');
+const buildActionCardsPageContent = (pagesPath, urlPath) => {
+  let element = document.getElementById(ACTION_CARD_ID);
+  const pattern = new RegExp(URL_WORD_SEPARATOR_PATTERN, 'g');
+  let filePath = urlPath.substring(ACTION_CARDS_PATH.length + 1).replace(pattern, '_');
 
-  loadContent(HTML_TEMPLATES_PATH + PAPER_TEMPLATE_FILE)
-    .then(function (divItemContent) {
-        const itemsContent = getDivItemsContent(pagesPath, pagesData, divItemContent);
-
-        mainElement.innerHTML = itemsContent;
-        loadAllContents(pagesPath, pagesData, mainElement);
+  loadContent(pagesPath + filePath + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN)
+    .then(function (content) {
+      element.innerHTML = content;
     })
     .catch(function (error) {
-      mainElement.innerHTML = getErrorText(error);
     })
   ;
 }

@@ -8,7 +8,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-body.paper-templates-body {
+body.action-cards-body {
   background-color: white;
   background: none;
 }
@@ -238,17 +238,18 @@ a .svg-image {
   text-align: center;
 }
 
-.paper-template-content {
+.action-card-content {
   border-color: black;
-  width: max-content;
-  max-width: 100%;
+  width: 152mm;
+  height: 102mm;
+  font-size: 10px;
   padding: 2px;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
   break-after: page;
 }
-.paper-template-content > h1:before, .paper-template-content .link:before {
+.action-card-content > h1:before, .action-card-content .link:before {
   border-style: solid;
   border-width: 1px;
   color: red;
@@ -256,13 +257,13 @@ a .svg-image {
   border-color: rgb(0, 100, 100);
   margin-right: 10px;
 }
-.paper-template-content .link:before {
+.action-card-content .link:before {
   content: " ⮯ ";
 }
-.paper-template-content > h1:before {
+.action-card-content > h1:before {
   content: " ⮬ ";
 }
-.paper-template-content .link, .paper-template-content > h1 {
+.action-card-content .link, .action-card-content > h1 {
   font-weight: bold;
   font-size: 20px;
   text-align: left;
@@ -279,24 +280,24 @@ a .svg-image {
   border-width: 1px;
   white-space: pre;
 }
-.paper-template-content > h2 {
-  font-size: 20px;
+.action-card-content > h2 {
+  font-size: 15px;
   color: red;
   text-align: left;
   text-decoration-line: underline;
 }
-.paper-template-content > h2:after {
+.action-card-content > h2:after {
   content: ":"
 }
-.paper-template-content .input-value {
+.action-card-content .input-value {
   font-style: italic;
   color: rgb(0, 100, 100);
 }
-.paper-template-content .input-value:before {
+.action-card-content .input-value:before {
   color: black;
   content: "„";
 }
-.paper-template-content .input-value:after {
+.action-card-content .input-value:after {
   color: black;
   content: "”";
 }

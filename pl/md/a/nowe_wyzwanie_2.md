@@ -1,13 +1,4 @@
-# Nowe wyzwanie
-## Cel
-**Sprostaj wybranemu wyzwaniu** wykonując **wszystkie** powiązane z nim **kroki**.
-## Na początku
-- jeśli nie masz jeszcze swojego **zbioru checklist** lub skończyło Ci się miejsce na jego najnowszej stronie, przejdź do karty: <span class="link">ZBIÓR: Checklisty</span>,
-- **wybierz typ wyzwania**, które chcesz wykonać,
-- **znajdź odpowiednią kartę** z opisem wyzwania,
-- upewnij się, że **dasz radę spełnić wszystkie wymagania** wybranego wyzwania, **mieścisz się w jego limitach** i **nie wykonałeś go** już wcześniej,
-- **dodaj w swoim zbiorze checklist** nowy wiersz tabeli i wpisz w nim „dane checklisty do wpisania” z poniższej karty,
-- **przejdź do karty** wybranego wyzwania: <span class="link">WYZWANIE: \*</span>.
+# Nowe wyzwanie (2/2)
 ## Kroki
 - **znajdź wszystkie karty kroków** oznaczone skrótami z powyższej checklisty,
 - kroki można wykonywać w **dowolnej kolejności**, chyba że do ich wykonania konieczne jest uprzednie wykonanie innych,
@@ -17,3 +8,4 @@
 - **przejdź do karty** każdego niewykonanego jeszcze kroku: <span class="link">KROK: \*</span> i **postępuj** zgodnie z jej opisem.
 ## Na końcu
 - jeśli **udało Ci się wykonać wszystkie kroki**, oznacz w wierszu wyzwania pole „sukces” znaczkiem <span class="input-value">✓</span>.
+
