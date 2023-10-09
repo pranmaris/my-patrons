@@ -402,7 +402,10 @@ const buildPageContent = (pagesPath, pagesData) => {
             const filePath = convertUrlPathToMarkdownFileLocation(urlPath);
             loadContent(pagesPath + filePath)
               .then(function (singlePageContent) {
-                const singleContent = '- [' + PAGE_TITLE_PREFIX + '](' + filePath + ')';
+                const lines = singlePageContent.split(NEWLINE);
+                const firstContentLine = (lines[0]).replace(/[<][/]?h[0-9][>]/g, '');
+
+                const singleContent = '- [' + firstContentLine + '](' + filePath + ')';
                 const changedPagesData = getConvertedIndexDataFromContent(singleContent);
 
                 const itemsData = getAccordionItemsData(pagesPath, changedPagesData, urlPath, expandedItemContent, collapsedItemContent);
@@ -410,6 +413,8 @@ const buildPageContent = (pagesPath, pagesData) => {
                 listElement.innerHTML = itemsData.content;
                 loadAllContents(pagesPath, changedPagesData, expandedElementId);
                 setShownActionToAllItems(changedPagesData);
+
+                setPageTitle(firstContentLine);
               })
               .catch(function (error) {
                 listElement.innerHTML = itemsData.content;
