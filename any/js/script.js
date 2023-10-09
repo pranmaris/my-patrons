@@ -42,7 +42,6 @@ const ACCORDION_BODY_ELEMENT_PREFIX = 'page';
 const LANGUAGES_ELEMENT_ID = 'header-languages';
 const HEADER_ELEMENT_ID = 'header';
 const FOOTER_ELEMENT_ID = 'footer';
-const ACTION_CARD_ID = 'action-card';
 
 const LANGUAGE_PATTERN = '[a-z][a-z]';
 const URL_WORD_SEPARATOR_PATTERN = '[^a-z0-9]';
@@ -55,18 +54,11 @@ const LANGUAGES_MARKDOWN_FILE_NAME = 'languages';
 const INDEX_MARKDOWN_FILE_NAME = 'index';
 const HEADER_HTML_FILE_NAME = 'header';
 const FOOTER_HTML_FILE_NAME = 'footer';
-const ACTION_CARDS_PATH = 'a';
 
 const RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID = 'random-bible-chapter';
 const RANDOM_BIBLE_CHAPTERS_DATA_FILE_PATH = '/any/' + FILE_EXTENSION_JSON + '/bible_chapters' + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_JSON;
 let randomBibleChaptersButtonNamePrefix = null;
 let allBibleChapters = null;
-
-const isUrlPathActionCards = () => {
-  const urlPath = getPathFromUrl();
-
-  return urlPath.substring(0, ACTION_CARDS_PATH.length + 1) == ACTION_CARDS_PATH + '/';
-}
 
 const build = () => {
   const subdomain = getSubdomain();
@@ -79,19 +71,14 @@ const build = () => {
   buildHeader(htmlPath);
   buildFooter(htmlPath);
 
-  if (isUrlPathActionCards()) {
-    const urlPath = getPathFromUrl();
-    buildActionCardsPageContent(pagesPath, urlPath);
-  } else {
-    loadContent(pagesPath + INDEX_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN, true)
-      .then(function (indexContent) {
-        const indexData = getConvertedIndexDataFromContent(indexContent);
-        buildPageContent(pagesPath, indexData);
-      })
-      .catch(function (error) {
-      })
-    ;
-  }
+  loadContent(pagesPath + INDEX_MARKDOWN_FILE_NAME + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN, true)
+    .then(function (indexContent) {
+      const indexData = getConvertedIndexDataFromContent(indexContent);
+      buildPageContent(pagesPath, indexData);
+    })
+    .catch(function (error) {
+    })
+  ;
 }
 
 const buildLanguages = () => {
@@ -236,12 +223,7 @@ const getPagesPathForLanguage = (language) => {
     return '';
   }
 
-  let pathSuffix = '';
-  if (isUrlPathActionCards()) {
-    pathSuffix = ACTION_CARDS_PATH + '/';
-  }
-
-  return PAGES_PATH.replace(LANGUAGE_REPLACE_HASHTAG, language) + pathSuffix;
+  return PAGES_PATH.replace(LANGUAGE_REPLACE_HASHTAG, language);
 }
 
 const getHtmlTemplatesPathForLanguage = (language) => {
@@ -405,16 +387,37 @@ const buildPageContent = (pagesPath, pagesData) => {
     .then(function (expandedItemContent) {
       loadContent(HTML_TEMPLATES_PATH + ACCORDION_ITEM_COLLAPSED_FILE)
         .then(function (collapsedItemContent) {
-          const itemsData = getAccordionItemsData(pagesPath, pagesData, expandedItemContent, collapsedItemContent);
-
-          listElement.innerHTML = itemsData.content;
+          const urlPath = getPathFromUrl();
+          const itemsData = getAccordionItemsData(pagesPath, pagesData, urlPath, expandedItemContent, collapsedItemContent);
           const expandedElementId = itemsData.expandedElementId;
 
-          loadAllContents(pagesPath, pagesData, expandedElementId);
-          if (expandedElementId > 0) {
-            setPageTitle(pagesData[expandedElementId - 1].title);
+          if (urlPath == '' || expandedElementId > DEFAULT_EXPANDED_PAGE_ID) {
+            listElement.innerHTML = itemsData.content;
+            loadAllContents(pagesPath, pagesData, expandedElementId);
+            if (expandedElementId > DEFAULT_EXPANDED_PAGE_ID) {
+              setPageTitle(pagesData[expandedElementId - 1].title);
+            }
+            setShownActionToAllItems(pagesData);
+          } else {
+            const filePath = convertUrlPathToMarkdownFileLocation(urlPath);
+            loadContent(pagesPath + filePath)
+              .then(function (singlePageContent) {
+                const singleContent = '- [' + PAGE_TITLE_PREFIX + '](' + filePath + ')';
+                const changedPagesData = getConvertedIndexDataFromContent(singleContent);
+
+                const itemsData = getAccordionItemsData(pagesPath, changedPagesData, urlPath, expandedItemContent, collapsedItemContent);
+                const expandedElementId = 1;
+                listElement.innerHTML = itemsData.content;
+                loadAllContents(pagesPath, changedPagesData, expandedElementId);
+                setShownActionToAllItems(changedPagesData);
+              })
+              .catch(function (error) {
+                listElement.innerHTML = itemsData.content;
+                loadAllContents(pagesPath, pagesData, expandedElementId);
+                setShownActionToAllItems(pagesData);
+              })
+            ;
           }
-          setShownActionToAllItems(pagesData);
         })
         .catch(function (error) {
           listElement.innerHTML = getErrorText(error);
@@ -423,20 +426,6 @@ const buildPageContent = (pagesPath, pagesData) => {
     })
     .catch(function (error) {
       listElement.innerHTML = getErrorText(error);
-    })
-  ;
-}
-
-const buildActionCardsPageContent = (pagesPath, urlPath) => {
-  let element = document.getElementById(ACTION_CARD_ID);
-  const pattern = new RegExp(URL_WORD_SEPARATOR_PATTERN, 'g');
-  let filePath = urlPath.substring(ACTION_CARDS_PATH.length + 1).replace(pattern, '_');
-
-  loadContent(pagesPath + filePath + FILE_EXTENSION_SEPARATOR + FILE_EXTENSION_MARKDOWN)
-    .then(function (content) {
-      element.innerHTML = content;
-    })
-    .catch(function (error) {
     })
   ;
 }
@@ -455,11 +444,10 @@ const getDivItemsContent = (pagesPath, pagesData, divItemContent) => {
   return content;
 }
 
-const getAccordionItemsData = (pagesPath, pagesData, expandedItemContent, collapsedItemContent) => {
+const getAccordionItemsData = (pagesPath, pagesData, urlPath, expandedItemContent, collapsedItemContent) => {
   let content = '';
 
-  const path = getPathFromUrl();
-  const expandedPageLink = convertUrlPathToMarkdownFileLocation(path);
+  const expandedPageLink = convertUrlPathToMarkdownFileLocation(urlPath);
 
   let expandedPageId = DEFAULT_EXPANDED_PAGE_ID;
   for (const page of pagesData) {
