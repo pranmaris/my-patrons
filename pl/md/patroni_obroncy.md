@@ -1,102 +1,32 @@
 # <span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>
----
-## Cel
-W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do grona Twoich **obrońców**.
-## Wymaganie
-Wykonanie zadania [<span class="status status-list"><span class="status status-god">I</span> Bóg</span>](bog.md) musisz mieć już za sobą!
-## Wybór
-Wybierz patrona, który **nie jest jeszcze Twoim obrońcą**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>, <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span> albo <span class="status status-yellow">żółtym</span>.
+Jeśli chcesz **zaprosić nowego** świętego lub błogosławionego Kościoła do grona swoich **Patronów Obrońców**:
+## <span class="step-number">1.</span> Wybierz datę wyzwania
+<!--czyli **<span class="selected-day-info">dzień</span> udziału we Mszy** (patrz krok 5) oraz **przyjęcia Komunii Świętej** (patrz krok 6).-->
+## <span class="step-number">2.</span> Upewnij się, czy możesz wykonać to wyzwanie
+<!--czyli czy <span class="selected-day-info">w wybranym dniu</span>:-->
+<!--- **nie zapraszałeś jeszcze** żadnego **Patrona Obrońcy**,-->
+<!--- **nie upłynęło więcej niż 40 dni** od Twojej ostatniej **Spowiedzi**,-->
+<!--- w momencie przyjmowania Komunii Świętej **jesteś w stanie Łaski Uświęcającej**!-->
+## <span class="step-number">3.</span> Wybierz patrona
+<!--który **nie jest jeszcze Twoim Patronem Obrońcą**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>, <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span> albo <span class="status status-yellow">żółtym</span>.-->
 
-Wybrany **patron musi spełniać także co najmniej jedno** poniższe kryterium:
-1. Na poniższej [stronie](https://pl.patrons.space/dates/list-of-patrons-and-feasts), **patron znajduje się na liście** dla <span class="selected-day-info"> wybranego dnia</span>:  
-_**UWAGA!** Stale pracujemy, aby poniżej dostępni byli wszyscy patroni spełniający kolejne kryteria wyboru: pkt 2, 3, 4 i 5. [**Wesprzyj nas!**](https://pl.gratiadei.org/#wesprzyj-nas)_
-<iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-patrons-and-feasts?content-only=1"></iframe>  
-1. Patron jest wpisany dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Papieża, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku),
-1. Patron **zmarł** w znanym i jednoznacznym <span class="selected-day-info">dniu</span> roku, nawet gdy sam rok śmierci jest niepewny,
-1. Patron **zmarł o nieznanej godzinie w nocy** z poprzedzającego na <span class="selected-day-info">wybrany dzień</span>, którego pełna data jest znana,
-1. W <span class="selected-day-info">wybranym dniu</span> tego roku odbędzie się **kanonizacja** lub **beatyfikacja** patrona,
-1. Patron **został ogłoszony na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**,
-1. W <span class="selected-day-info">wybranym dniu</span> bierzemy udział w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez nas patrona** (tytularnego tego miejsca).
-
-
-## Limit
-Maksymalnie jeden nowy **Patron Obrońca** dziennie!
-## Zadanie główne
-W <span class="selected-day-info">wybranym dniu</span>:
-- osobiście (nie online!) weź udział we Mszy św. w **dowolnej** parafii lub kościele,
-- **przyjmij godnie** Komunię Świętą w dowolnej intencji - fizycznie lub duchowo.
-
-**UWAGA!** Aby zaproszenie **patrona obrońcy** było możliwe:
-- **w chwili przyjęcia Komunii św.** (nawet duchowo) musisz być w stanie **Łaski Uświęcającej**,
-- od **ostatniej Twojej spowiedzi** może upłynąć **maksymalnie 40 dni**!
-
-Jeśli chcesz wiedzieć więcej, zobacz [WIĘCEJ INFORMACJI](#patroni-obroncy-wiecej-informacji).
-## Modlitwa
-Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno”, „Nieznani Towarzysze św. Maurycego”):
-> Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
-> zapraszam Ciebie/Was do grona moich Patronów Obrońców,  
-> proszę o obronę i umocnienie  
-> w mojej walce ze złem, grzechem i słabościami,  
-> które pragnę regularnie oddawać Jezusowi w Sakramencie Pojednania,  
-> by żyć w Jego Łasce i zawsze godnie przystępować do Komunii z czystym sercem.  
-> Amen.
-## Zadanie dodatkowe
-**Przeczytaj** dowolny fragment **Pisma Świętego**, wcześniej prosząc zapraszanego patrona o pomoc w jego wybraniu i zrozumieniu. Może to być kolejny lub losowy rozdział, akapit, inna logiczna całość, czy fragment z lekcjonarza związany z wybranym patronem.
-
-**UWAGA!** Nie wystarczy samo słuchanie czytań na Mszy św.!
-
-<button class="button btn" id="random-bible-chapter" onclick="setRandomBibleChapter('pl')">Losuj rozdział</button>
-## Notatki
-Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
-
-## Status
-| Poprzedni status zaproszonego patrona | zmienił się na | nowy status |
-|---:|:---:|:---|
-|<span class="status status-black">czarny</span>|→|<span class="status status-blue">niebieski</span>|
-|<span class="status status-red">czerwony</span>|→|<span class="status status-violet">fioletowy</span>|
-|<span class="status status-orange">pomarańczowy</span>|→|<span class="status status-indigo">indygo</span>|
-|<span class="status status-yellow">zółty</span>|→|<span class="status status-green">zielony</span>|
-## Karty
-Jeśli jeszcze nie masz [karty bazowej](karty_kolekcjonerskie.md#karty-kolekcjonerskie-karty-bazowe) z tym patronem, **stwórz ją odręcznie** na kartce wielkości karty lub **wydrukuj gotowy szablon** do wypełnienia.
-
-Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.pdf) lub za pomocą formularza na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards). Pamiętaj, by wielkość wydrukowanych kart była odpowiednia, należy **drukować pliki w domyślnej skali**!
-
-**Wszystkie swoje karty** najlepiej przechowywać w albumie lub specjalnym pudełku, co ułatwi Ci późniejsze wyszukiwanie zaproszonych już patronów!
-<br />
-<br />
-<br />
-
----
-# Udało się! Zaprosiłeś **Patrona Obrońcę**!
-### Jego obecność wparta przyjmowanymi Sakramentami chronić Cię będzie niczym tarcza!
----
-
-## Dalsze wyzwania
-Teraz już możesz dla zaproszonego **Patrona Opiekuna** sprostać wyzwaniom:
-- [<span class="status status-list"><span class="status status-list">D</span> Kościoły</span>](koscioly.md)
-
-- [<span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>](oltarze.md)
-
-- [<span class="status status-list"><span class="status status-list">F</span> Adoracje</span>](adoracje.md)
-
-- [<span class="status status-list"><span class="status status-list">G</span> Odpusty Parafialne</span>](odpusty_parafialne.md)
-
-- [<span class="status status-list"><span class="status status-list">K</span> Rocznice Poświęcenia Kościołów</span>](rocznice_poswiecenia_kosciolow.md)
-
-- [<span class="status status-list"><span class="status status-list">VB</span> Drogi Krzyżowe</span>](drogi_krzyzowe.md)
-
-- [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md) - patrz [jak odkrywać święta](jak_odkrywac_swieta.md)
-## <span id="patroni-obroncy-wiecej-informacji">Więcej informacji</span>
-- Za **udział w Mszy** rozumiemy naszą **fizyczną obecność na terenie jej odprawienia**. Może to być także pobyt poza budynkiem kościoła, w odrębnej salce czy innym budynku na terenie przykościelnym z transmisją Mszy „na żywo” (audio lub video). Gdyby Msza odbyła się w kaplicy szpitala, wszyscy jego pacjenci mający łączność z tym miejscem, mogą w niej uczestniczyć,
-- W Wielki Piątek wystarczy uczestnictwo w Liturgii Męki Pańskiej, gdyż w tym dniu nie odprawia się mszy św.,
-- Jeżeli w danym wspomnieniu jest podanych więcej patronów zbiorowo, to można każdorazowo zaprosić tylko jednego z nich. Następnych będziemy mogli zaprosić dopiero w dniu kolejnego ich wspomnienia, np. za rok, choć często będzie to możliwe wcześniej. Przykładowo 20 września wybierając wspomnienie pt.: _„Święci męczennicy Andrzej Kim Tae-gŏn, prezbiter, Paweł Chŏng Ha-sang i Towarzysze”_, można zaprosić albo wspomnianego owego Andrzeja albo Pawła albo jednego dowolnego ze znanych z imienia ich 101 pozostałych koreańskich towarzyszy (np. św. Antoniego Daveluya),
-- Jedynie w sytuacji, gdy imiona niektórych patronów nie są znane, możemy zaprosić ich zbiorczo, np. 22 września we wspomnieniu pt.: _„Święci Maurycy i Towarzysze, męczennicy”_, z imienia znamy tylko św. Maurycego, św. Eksuperiusza, św. Kandyda i kilku innych. Można zatem jako patrona wybrać jednego z tych znanych świętych albo zbiorczo pozostałych nadając im nazwę np.: „nieznani towarzysze św. Maurycego” (to około 6600 świętych). Podobnie zbiorczo możemy zaprosić np. _„Wszystkich Świętych”_ – 1 listopada, _„Wszystkich Wiernych Zmarłych”_ – 2 listopada, _„Świętych Młodzianków”_ – 28 grudnia, itd.,
-- Jeżeli dany patron jest wspominany wiele razy w ciągu roku pod różnymi tytułami, zapraszamy go i zapisujemy na listę **Patronów Obrońców** tylko raz **bez tego tytułu**. Tytuły będziemy niezależnie uzupełniać na liście [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md) w dniach ich wspomnień. Przykładami patronów z tytułami są: Najświętsza Maryja Panna _„Wniebowzięta”_ (od święta _„Wniebowzięcia Najświętszej Maryi Panny”_) - 15 sierpnia, Najświętsza Maryja Panna _„Różańcowa”_ – 7 października, Najświętsza Maryja Panna _„Wspomożycielka Wiernych”_ – 24 maja, św. Józef _„Oblubieniec Najświętszej Maryi Panny”_ – 19 marca, św. Józef _„Rzemieślnik”_ – 1 maja, itd.
-- Możesz jako patrona wybrać **Najświętszą Maryję Pannę**, bazując na jej wspomnieniu ogłoszonym na Mszy św. w każdą zwykłą sobotę, w którą nie wypada żadne inne wspomnienie obowiązkowe.
-- Orientacyjny kalendarz liturgiczny dla Polski wraz z linkami do kalendarzy diecezjalnych można znaleźć na stronie [GCatholic.org](http://www.gcatholic.org/calendar/2023/PL-pl.htm).
-- Lista kanonizacji i beatyfikacji Kościoła Katolickiego znajduje się także na stronie [GCatholic.org](http://www.gcatholic.org/saints/index.htm).
-
----
-
-[Powrót do zapraszania patronów](jak_zapraszac_patronow.md#jak-zapraszac-patronow-patron-obronca)  
-[Powrót do głównego menu](index.md)
+<!--Wybrany patron **musi spełniać także co najmniej jedno** poniższe kryterium [+WSKAZÓWKA]: nasza strona, martyrologium, wiarygodna data śmierci, dzień kanonizacji lub beatyfikacji, kalendarz liturgiczny, odpust parafialny.-->
+## <span class="step-number">4.</span> Stwórz nowy wiersz notatek
+<!--Czyli (\*jeśli nie masz miejsca, wcześniej [+WSKAZÓWKA] stwórz nową stronę notatek dla siebie):-->
+<!--- wpisz kolejny **numer wiersza**,-->
+<!--- wpisz wybraną **datę wyzwania** (z dniem tygodnia),-->
+<!--- wpisz **alias wybranego Patrona** Obrońcy, którego:-->
+<!--- albo znajdziesz na jego karcie bazowej w Twoim albumie,-->
+<!--- albo [+WSKAZÓWKA] musisz mu stworzyć i kartę bazową i [+WSKAZÓWKA] alias, np. #GłówneImięPatrona:KOD-->
+<!--- wpisz **typ wyzwania**: "A"-->
+<!--- wpisz **numer wyzwania**: "-"-->
+<!--- wpisz **checklistę**: U, K, M, P, W, S, N, D-->
+## <span class="step-number">5.</span> <span class="step-letter">U</span> W wybranym dniu weź udział we Mszy Świętej
+## <span class="step-number">6.</span> <span class="step-letter">K</span> W wybranym dniu przyjmij Komunię Świętą
+## <span class="step-number">7.</span> <span class="step-letter">M</span> Pomódl się do Patrona
+## <span class="step-number">8.</span> <span class="step-letter">P</span> Przeczytaj Pismo Święte
+## <span class="step-number">9.</span> <span class="step-letter">W</span> Wpisz wyzwanie na karcie bazowej patrona
+## <span class="step-number">10.</span> <span class="step-letter">S</span> Zmień kolor statusu na karcie bazowej patrona
+## <span class="step-number">11.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
+## <span class="step-number">12.</span> <span class="step-letter">D</span> Dodatkowe kroki przed zakończeniem
+## <span class="step-number">13.</span> Zakończ wyzwanie sukcesem
