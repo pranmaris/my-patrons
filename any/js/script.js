@@ -530,4 +530,8 @@ const setRandomBibleChapter = async (language) => {
   button.innerHTML = randomBibleChaptersButtonNamePrefix + ': ' + suffix;
 }
 
+const back = () => {
+  window.history.back();
+}
+
 build();

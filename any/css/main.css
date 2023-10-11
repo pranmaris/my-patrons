@@ -282,3 +282,12 @@ a .svg-image {
   font-size: 1em;
 }
 
+
+sup.ref {
+}
+sup.ref::before {
+  content: "[";
+}
+sup.ref::after {
+  content: "]";
+}
