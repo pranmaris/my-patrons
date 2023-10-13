@@ -60,14 +60,17 @@ Już wkrótce ...
 Już wkrótce ...
 
 ---
-### Przypisy:
+# Udało się! Zaprosiłeś **Patrona Obrońcę**!
+### Jego obecność wsparta przyjmowanymi Sakramentami chronić Cię będzie niczym tarcza!
+---
+#### Przypisy:
 - <span id="ref-3-1-patroni-obroncy">[3.1] Patron jest wpisany dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Papieża, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku).</span>
 - <span id="ref-3-2-patroni-obroncy">[3.2] Patron **zmarł** w znanym i jednoznacznym <span class="selected-day-info">dniu</span> roku, nawet gdy sam rok śmierci jest niepewny lub **zmarł o nieznanej godzinie w nocy** z poprzedzającego na <span class="selected-day-info">wybrany dzień</span>, którego pełna data jest znana.</span>
 - <span id="ref-3-3-patroni-obroncy">[3.3] W <span class="selected-day-info">wybranym dniu</span> tego roku odbędzie się **kanonizacja** lub **beatyfikacja** patrona.</span>
 - <span id="ref-3-4-patroni-obroncy">[3.4] Patron **został ogłoszony na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**. Możesz zatem jako patrona wybrać **Najświętszą Maryję Pannę**, bazując na jej wspomnieniu ogłoszonym na Mszy św. w każdą zwykłą sobotę, w którą nie wypada żadne inne wspomnienie obowiązkowe.</span>
 - <span id="ref-3-5-patroni-obroncy">[3.5] W <span class="selected-day-info">wybranym dniu</span> uczestniczysz w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez Ciebie patrona** (tytularnego tego miejsca).</span>
 - <span id="ref-4-1-patroni-obroncy">[4.1] **Notatki** możesz prowadzić np.: w segregatorze, notatniku, zeszycie, w pliku na komputerze, itp. Warto **podpisać** swoje notatki i **numerować ich strony**.</span>
-- <span id="ref-4-2-patroni-obroncy">[4.2] Alias znajdziesz na **karcie bazowej Patrona**. Jeżeli nie ma on jeszcze swojej karty bazowej, **wymyśl teraz Patronowi jego unikalny alias**, którym go zawsze będziesz krótko nazywać. Najlepszą formą wydaje się być: „**#Imię:KOD**”, gdzie „**Imię**” to ostatnie **główne imię** Patrona, a „**KOD**” to nadany przez Ciebie **trzyznakowy kod rozpoznawczy**, np.:
+- <span id="ref-4-2-patroni-obroncy">[4.2] Alias znajdziesz na **karcie bazowej Patrona**. Jeżeli nie ma on jeszcze swojej karty bazowej, **wymyśl teraz Patronowi jego unikalny alias**, którym go zawsze będziesz krótko nazywać. Najlepszą formą wydaje się być: „**#Imię:KOD**”, gdzie „**Imię**” to najnowsze **główne imię** Patrona, a „**KOD**” to nadany przez Ciebie **trzyznakowy kod rozpoznawczy**, np.:
   - „**#Piotr:APO**”, bo Apostoł,
   - „**#Teresa:AVI**”, bo z Avili,
   - „**#Sykstus:2PP**”, bo jako papież nazywał się „Sykstus II”,

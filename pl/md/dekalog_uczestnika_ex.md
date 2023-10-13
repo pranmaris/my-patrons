@@ -14,7 +14,7 @@
 </ol>
 
 ---
-### <div class="colored centered">Rozpocznij swoją przygodę już dziś!</div>
+### Rozpocznij swoją przygodę już dziś!
 
 ---
 [Powrót do głównego menu](index.md)

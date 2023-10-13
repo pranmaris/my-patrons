@@ -99,14 +99,8 @@ header a, header a:hover, footer a, footer a:hover {
   border-left: .25em solid rgb(0, 100, 100);
 }
 
-.page-content .colored {
-  color: rgb(0, 100, 100);
-}
 .page-content .centered {
   text-align: center;
-}
-.page-content .sized {
-  font-size: 30px;
 }
 
 .status {
@@ -216,6 +210,7 @@ a .svg-image {
   text-align: center;
   text-transform: none;
   color: rgb(0, 100, 100);
+  background-color: inherit;
   border-color: rgb(0, 100, 100);
   width: auto;
   margin-right: 0px;
@@ -226,7 +221,6 @@ a .svg-image {
   border-radius: 50px;
   border-style: solid;
   border-width: 1px;
-  white-space: pre;
 }
 .page-content > h2 > .step-number {
   display: inline-block;
@@ -247,6 +241,10 @@ a .svg-image {
   border-style: solid;
   border-width: 1px;
   min-width: 2em;
+}
+.page-content > h3 {
+  text-align: center;
+  color: rgb(0, 100, 100);
 }
 
 .bg-card {

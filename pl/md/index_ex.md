@@ -1,5 +1,5 @@
 # Moi Patroni
-- [Dekalog Uczestnika](dekalog_uczestnika.md)
+- [Dekalog Uczestnika](dekalog_uczestnika_ex.md)
 - [Jak zacząć](jak_zaczac_ex.md)
 - [Podstawowe zasady](podstawowe_zasady_ex.md)
 - [<span><span class="status status-list"><span class="status status-god">I</span> Bóg</span></span>](bog_ex.md)

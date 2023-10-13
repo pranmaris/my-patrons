@@ -43,7 +43,7 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 # Udało się! Odkryłeś nowe **Święto**!
-### <div class="colored centered">Celebruj i poznawaj święta Kościoła!</div>
+### Celebruj i poznawaj święta Kościoła!
 ---
 
 ## Dalsze wyzwania

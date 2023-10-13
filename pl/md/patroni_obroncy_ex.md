@@ -68,7 +68,7 @@ Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.pdf) lub za pomocą 
 
 ---
 # Udało się! Zaprosiłeś **Patrona Obrońcę**!
-### Jego obecność wparta przyjmowanymi Sakramentami chronić Cię będzie niczym tarcza!
+### Jego obecność wsparta przyjmowanymi Sakramentami chronić Cię będzie niczym tarcza!
 ---
 
 ## Dalsze wyzwania
