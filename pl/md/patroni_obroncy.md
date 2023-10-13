@@ -2,34 +2,38 @@
 ---
 Jeśli chcesz **zaprosić nowego** świętego lub błogosławionego do grona swoich **Patronów Obrońców**:
 ## <span class="step-number">1.</span> Wybierz datę wyzwania
-<span class="selected-day-info">Data wyzwania</span> (formalny dzień zaproszenia Patrona) to tak naprawdę dzień Twojego **udziału we Mszy** (więcej w kroku 5) oraz **przyjęcia Komunii Świętej** (więcej w kroku 6). Pozostałe kroki mogą być wykonane w innym czasie.
+<span class="selected-day-info">Data wyzwania</span> (formalny dzień zaproszenia Patrona Obrońcy) to tak naprawdę dzień Twojego **udziału we Mszy** (więcej w kroku 5) oraz **przyjęcia Komunii Świętej** (więcej w kroku 6). Pozostałe kroki mogą być wykonane w innym czasie.
 ## <span class="step-number">2.</span> Upewnij się, czy możesz sprostać temu wyzwaniu
-**Spełniasz wymagania**, jeśli sprostałeś już wyzwaniu [<span class="status status-list"><span class="status status-god">I</span> Bóg</span>](bog.md) oraz w <span class="selected-day-info">wybranym dniu</span>:
+**Spełniasz wymagania**, jeśli sprostałeś już wyzwaniu [<span class="status status-list"><span class="status status-god">I</span> Bóg</span>](bog.md) oraz dla <span class="selected-day-info">wybranego dnia</span>:
 - **nie był jeszcze zaproszony** przez Ciebie żaden inny **Patron Obrońca**,
 - **nie upłynęło więcej niż 40 dni** od Twojej ostatniej **Spowiedzi**,
-- w momencie przyjmowania Komunii Świętej **jesteś w stanie Łaski Uświęcającej**!
+- konieczny jest oczywiście **stan Łaski Uświęcającej** w momencie przyjmowania Komunii Świętej!
 ## <span class="step-number">3.</span> Wybierz Patrona
-Wybrany Patron jest OK, gdy:
+Wybrany Patron jest poprawny, gdy:
 - **nie jest on jeszcze Twoim Patronem Obrońcą**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>, <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span> albo <span class="status status-yellow">żółtym</span>,
-- w <span class="selected-day-info">wybranym dniu</span> spełnia **co najmniej jedno z kryterium**: Martyrologium Rzymskie<sup class="ref">[3.1](#ref-3-1-patroni-obroncy)</sup>, wiarygodna rocznica śmierci<sup class="ref">[3.2](#ref-3-2-patroni-obroncy)</sup>, dzień kanonizacji lub beatyfikacji<sup class="ref">[3.3](#ref-3-3-patroni-obroncy)</sup>, kalendarz liturgiczny<sup class="ref">[3.4](#ref-3-4-patroni-obroncy)</sup>, odpust parafialny<sup class="ref">[3.5](#ref-3-5-patroni-obroncy)</sup> lub znajduje się na **poniższej liście**:  
+- dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z kryterium**: Martyrologium Rzymskie<sup class="ref">[3.1](#ref-3-1-patroni-obroncy)</sup>, wiarygodna rocznica śmierci<sup class="ref">[3.2](#ref-3-2-patroni-obroncy)</sup>, dzień kanonizacji lub beatyfikacji<sup class="ref">[3.3](#ref-3-3-patroni-obroncy)</sup>, kalendarz liturgiczny<sup class="ref">[3.4](#ref-3-4-patroni-obroncy)</sup>, odpust parafialny<sup class="ref">[3.5](#ref-3-5-patroni-obroncy)</sup> lub znajduje się na **poniższej liście**:  
 <iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-patrons-and-feasts?content-only=1"></iframe>
 
-**UWAGA!** Zapraszając **Patrona Obrońcę** warto sprawdzić, czy w <span class="selected-day-info">wybranym dniu</span> możliwe będzie też **odkrycie nowego święta** - patrz strona [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md).
+**UWAGA!** Zapraszając **Patrona Obrońcę** warto sprawdzić, czy dla <span class="selected-day-info">wybranego dnia</span> możliwe będzie też **odkrycie nowego święta** - patrz strona [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md).
 ## <span class="step-number">4.</span> Dodaj nowy wiersz notatek
-Jeśli **zaczynasz notowanie** lub **nie masz wolnego miejsca**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie zrobić coś podobnego<sup class="ref">[4.1](#ref-4-1-patroni-obroncy)</sup>.
+**UWAGA!** Jeśli **zaczynasz notowanie** lub **skończyło Ci się wolne miejsce**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie przygotować nową stronę<sup class="ref">[4.1](#ref-4-1-patroni-obroncy)</sup>.
+
+Dodaj:
 | Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | tu wpisz kolejny<br />numer wiersza | wybrana data,<br />np. „**WT 2023-08-29**” | wybrany Patron,<br />w formie np. „**#Imię:KOD**”<sup class="ref">[4.2](#ref-4-2-patroni-obroncy)</sup> | **A** | **-** | **U, K, M, P, W, S, N, X** | na razie to pole<br />zostaw puste |
 
-**UWAGA!** Po każdorazowym wykonaniu następnych kroków, w dowolny sposób **oznaczaj je** w polu „**Checklista**”.
+<br />
+
+Od tego momentu, wykonane kolejne kroki, **oznaczaj** w polu „**Checklista**”.
 ## <span class="step-number">5.</span> <span class="step-letter">U</span> W wybranym dniu weź udział we Mszy Świętej
 W <span class="selected-day-info">wybranym dniu</span>, **osobiście** (nie online!) weź udział<sup class="ref">[5.1](#ref-5-1-patroni-obroncy)</sup> we Mszy Świętej<sup class="ref">[5.2](#ref-5-2-patroni-obroncy)</sup> w **dowolnej** rzymskokatolickiej parafii lub kościele.
 ## <span class="step-number">6.</span> <span class="step-letter">K</span> W wybranym dniu przyjmij Komunię Świętą
-W <span class="selected-day-info">wybranym dniu</span> **przyjmij godnie** Komunię Świętą w dowolnej intencji - fizycznie albo (z ważnych przyczyn) duchowo.
+W <span class="selected-day-info">wybranym dniu</span>, **przyjmij godnie** Komunię Świętą w dowolnej intencji - fizycznie albo (z ważnych przyczyn) duchowo.
 
 **PAMIĘTAJ!** Aby zaproszenie **Patrona Obrońcy** było możliwe:
 - od **ostatniej Twojej spowiedzi** może upłynąć **maksymalnie 40 dni**,
-- **w chwili przyjęcia Komunii Świętej** (nawet duchowo) musisz być w stanie **Łaski Uświęcającej!**
+- **w chwili przyjęcia Komunii Świętej** (nawet duchowo) musisz być **w stanie Łaski Uświęcającej!**
 ## <span class="step-number">7.</span> <span class="step-letter">M</span> Pomódl się do Patrona
 Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno Aleksandryjska”, „Nieznani Towarzysze św. Maurycego<sup class="ref">[7.1](#ref-7-1-patroni-obroncy)</sup>:
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
@@ -40,11 +44,10 @@ Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „B
 > by żyć w Jego Łasce i zawsze godnie przystępować do Komunii z czystym sercem.  
 > Amen.
 ## <span class="step-number">8.</span> <span class="step-letter">P</span> Przeczytaj fragment Pisma Świętego
-**Wybierz** dowolny fragment **Pisma Świętego** (możesz wcześniej poprosić zapraszanego Patrona o pomoc w jego wybraniu i zrozumieniu). Może to być kolejny lub losowy rozdział, akapit, inna logiczna całość, czy fragment z lekcjonarza związany z wybranym patronem.
+**Wybierz** dowolny fragment **Pisma Świętego**<sup class="ref">[8.1](#ref-8-1-patroni-obroncy)</sup> (możesz wcześniej poprosić zapraszanego Patrona o pomoc w jego wybraniu i zrozumieniu). Może to być kolejny lub losowy rozdział, akapit, inna logiczna całość, czy fragment z lekcjonarza związany z wybranym patronem.
 
-**UWAGA!** Nie wystarczy samo słuchanie czytań na Mszy św.!
+<div class="centered"><button class="button btn" id="random-bible-chapter" onclick="setRandomBibleChapter('pl')">Losuj rozdział</button></div>
 
-<button class="button btn" id="random-bible-chapter" onclick="setRandomBibleChapter('pl')">Losuj rozdział</button>
 ## <span class="step-number">9.</span> <span class="step-letter">W</span> Wpisz wyzwanie na kartach Patrona
 Już wkrótce ...
 ## <span class="step-number">10.</span> <span class="step-letter">S</span> Zmień kolor statusu Patrona na kartach
@@ -75,6 +78,8 @@ Już wkrótce ...
 - <span id="ref-5-1-patroni-obroncy">[5.1] Przez **udział w Mszy** rozumiemy naszą **fizyczną obecność na terenie jej odprawienia**. Może to być także pobyt poza budynkiem kościoła, w odrębnej salce czy innym budynku **na terenie przykościelnym** z transmisją Mszy „na żywo” (audio lub video). Gdyby Msza odbyła się np. w kaplicy szpitala, wszyscy jego pacjenci mający łączność z tym miejscem, **mogą w niej uczestniczyć**.</span>
 - <span id="ref-5-2-patroni-obroncy">[5.2] W **Wielki Piątek** będzie to uczestnictwo w **Liturgii Męki Pańskiej**, gdyż w tym dniu nie odprawia się mszy świętych.</span>
 - <span id="ref-7-1-patroni-obroncy">[7.1] Jedynie w sytuacji, gdy **imiona niektórych świętych lub błogosławionych nie są znane**, możemy **zaprosić ich zbiorczo**, np. 22 września we wspomnieniu pt.: _„Święci Maurycy i Towarzysze, męczennicy”_, z imienia znamy tylko św. Maurycego, św. Eksuperiusza, św. Kandyda i kilku innych. Można zatem jako patrona wybrać **jednego z tych znanych świętych** albo **zbiorczo pozostałych**, nadając im nazwę np.: „nieznani towarzysze św. Maurycego” (to około 6600 świętych). Podobnie zbiorczo możemy zaprosić np. _„Wszystkich Świętych”_ – 1 listopada, _„Wszystkich Wiernych Zmarłych”_ – 2 listopada, _„Świętych Młodzianków”_ – 28 grudnia, itd.</span>
+- <span id="ref-8-1-patroni-obroncy">[8.1] Nie wystarczy samo **wysłuchanie czytań** na Mszy Świętej. Dodatkowy **czas spędzony z Pismem Świętym** na pewno da Tobie **o wiele więcej**!</span>
+</span>
 <!--- <span id="ref-x-1-patroni-obroncy">[x.1] ...-->
 <!--</span>-->
 
