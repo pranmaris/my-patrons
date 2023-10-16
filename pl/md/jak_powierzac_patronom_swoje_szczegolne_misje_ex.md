@@ -1,4 +1,6 @@
 # Jak powierzać patronom swoje szczególne misje
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 
 Niezależnie od procesu zapraszania każdego patrona do grona Twoich: [**Opiekunów**](patroni_opiekunowie_ex.md), [**Obrońców**](patroni_obroncy_ex.md), [**Orędowników**](patroni_oredownicy_ex.md) i finalnie [**Przyjaciół**](patroni_przyjaciele_ex.md), możesz **powierzać mu** dodatkowo **swoje szczególne misje**!
@@ -24,4 +26,4 @@ Lista [<span class="status status-list"><span class="status status-mission">MC</
 
 ---
 [Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-szczegolne-misje)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

@@ -1,4 +1,6 @@
 # Jak zapraszać patronów
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 
 **Każdy patron** ma na początku status w kolorze <span class="status status-black">czarnym</span>. W dowolnej kolejności możemy **zaprosić go** na naszego: **Opiekuna**, **Obrońcę** i **Orędownika**.
@@ -48,4 +50,4 @@ Odmienna kolejność przechodzenie etapów powodować będzie następujące zmia
 
 ---
 [Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-patroni)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">VG</span> Szkaplerze</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> wpisać **szkaplerz**, którego posiadasz i nosisz.
@@ -36,4 +38,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do patronów przyjaciół](patroni_przyjaciele_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

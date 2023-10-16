@@ -1,4 +1,6 @@
 # Jak odkrywać święta
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 
 **Odkrywanie świąt** to wykonywanie wyzwań na liście [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta_ex.md).
@@ -56,4 +58,4 @@ Niektóre **znane nazwy świąt** mogą być używane zamiennie **z tytułami** 
 
 ---
 [Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-swieta)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

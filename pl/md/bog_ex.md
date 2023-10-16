@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-god">I</span> Bóg</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 **Powierzyć Bogu** cały Twój **udział w inicjatywie _„Moich Patronów”_**, który właśnie się rozpoczyna.
@@ -63,4 +65,4 @@ Dowiedz się jak możesz:
 
 ---
 [Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-bog)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

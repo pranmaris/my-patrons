@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">D</span> Kościoły</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> nawiedzić **świątynię Kościoła Rzymskokatolickiego**, czyli kościół, kaplicę (w sensie odrębnego budynku sakralnego), sanktuarium, bazylikę, itp., która jest pod wezwaniem zaproszonego **Patrona Obrońcy** lub odkrytego **święta**.
@@ -38,4 +40,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 ---
 [Powrót do Patronów Obrońców](patroni_obroncy_ex.md)  
 [Powrót do świąt](swieta_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

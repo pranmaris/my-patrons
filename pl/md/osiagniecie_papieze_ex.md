@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">YH</span> Osiągnięcie: Papieże</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Zakres tematyczny
 To osiągnięcie obejmuje wszystkich **Papieży**, którzy zostali świętymi lub błogosławionymi.
@@ -112,4 +114,4 @@ Zanotuj sobie poniższe informacje wypełniając np. ten [formularz](../../pl/pd
 
 ---
 [Powrót do osiągnięć](jak_zdobywac_osiagniecia_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

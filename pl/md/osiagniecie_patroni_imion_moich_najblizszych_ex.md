@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">YB</span> Osiągnięcie: Patroni Imion Moich Najbliższych</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Zakres tematyczny
 To osiągnięcie obejmuje wszystkich **patronów imion Twoich najbliższych osób**: z Chrztu św., Bierzmowania lub imion zakonnych. Najpierw **wypisz** wszystkie imiona Twoich najbliższych, a potem **dodaj** odpowiednich patronów tych imion.
@@ -32,4 +34,4 @@ Zanotuj sobie poniższe informacje wypełniając np. ten [formularz](../../pl/pd
 
 ---
 [Powrót do osiągnięć](jak_zdobywac_osiagniecia_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

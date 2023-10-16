@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-white">P</span> Patroni Przyjaciele</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do grona Twoich **Patronów Przyjaciół**!
@@ -79,4 +81,4 @@ Teraz już możesz dla zaproszonego **Patrona Przyjaciela** sprostać wyzwaniom:
 
 ---
 [Powrót do zapraszania patronów](jak_zapraszac_patronow_ex.md#jak-zapraszac-patronow-patron-przyjaciel)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-mission">MC</span> Misje Pobożności</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 
 ## Cel
@@ -48,5 +50,5 @@ Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.pdf) lub za pomocą 
 # Udało się! Powierzyłeś patronowi swoją **misję Pobożności**!
 ### Ciągłe i regularne akty pobożności i uczestnictwo w nabożeństwach, niesie wiele dobrego Tobie i innym!
 ---
-[Powrót do szczególnych misji](jak_powierzac_patronom_swoje_szczegolne_misje_ex.md)
-[Powrót do głównego menu](index.md)
+[Powrót do szczególnych misji](jak_powierzac_patronom_swoje_szczegolne_misje_ex.md)  
+[Powrót do głównego menu](index_ex.md)

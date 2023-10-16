@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">YD</span> Osiągnięcie: Święta Rodzina</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Zakres tematyczny
 To osiągnięcie obejmuje **członków Świętej Rodziny**: Jezusa, Maryję i Józefa oraz także **to święto**.
@@ -22,4 +24,4 @@ Zanotuj sobie poniższe informacje wypełniając np. ten [formularz](../../pl/pd
 
 ---
 [Powrót do osiągnięć](jak_zdobywac_osiagniecia_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

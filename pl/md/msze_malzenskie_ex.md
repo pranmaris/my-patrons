@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">VD</span> Msze Małżeńskie</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span>, na **Mszy św. małżeńskiej**, pomodlić się za wstawiennictwem dwóch **Patronów Orędowników** za **dwoje małżonków** biorących ślub, którzy posiadają **imiona** tych patronów.
@@ -36,4 +38,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do Patronów Orędowników](patroni_oredownicy_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">W</span> Patronowe Rękodzieła</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **wykonać** dowolną pracę plastyczną z wizerunkiem patrona.
@@ -33,4 +35,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do Patronów Opiekunów](patroni_opiekunowie_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

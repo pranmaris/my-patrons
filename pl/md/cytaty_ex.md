@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">O</span> Cytaty</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **rozważać cytat** patrona i **dodać go** do swojej listy wartościowych cytatów.
@@ -45,4 +47,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do Patronów Opiekunów](patroni_opiekunowie_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

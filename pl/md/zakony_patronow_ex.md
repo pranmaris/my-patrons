@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">R</span> Zakony Patronów</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> pomodlić się **za zakon**, do którego należał wybrany przez nas **Patron Orędownik**.
@@ -41,4 +43,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do Patronów Orędowników](patroni_oredownicy_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-white">B</span> Święta</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **odkryć nowe święto**.
@@ -69,4 +71,4 @@ Teraz już możesz dla odkrytego **Święta** sprostać wyzwaniom:
 
 ---
 [Powrót do odkrywania świąt](jak_odkrywac_swieta_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

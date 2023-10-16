@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">N</span> Cmentarze</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> nawiedzić **cmentarz** i pomodlić się za wstawiennictwem zaproszonego **Patrona Orędownika** za dusze jego **imienników** na tym cmentarzu.
@@ -41,4 +43,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do Patronów Orędowników](patroni_oredownicy_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

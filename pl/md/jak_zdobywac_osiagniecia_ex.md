@@ -1,4 +1,6 @@
 # Jak zdobywać osiągnięcia
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 
 Osiągnięcia zdobywamy **zapraszając patronów** i **odkrywając święta** z określonych list tematycznych.
@@ -33,4 +35,4 @@ Lista powyższych osiągnięć nie jest zamknięta, dlatego chętnie rozważymy 
 
 ---
 [Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-osiagniecia)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

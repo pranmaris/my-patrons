@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-worship">LF</span> Listopadowe Odpusty za Zmarłych</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 Opis już wkrótce ...
 <br />
@@ -16,4 +18,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

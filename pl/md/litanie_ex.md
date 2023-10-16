@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">VF</span> Litanie</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> odmówić w kościele, z kapłanem i innymi wiernymi **litanię** do patrona.
@@ -22,4 +24,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 ### Kto wytrwale prosi, zostanie wysłuchany!
 ---
 [Powrót do patronów przyjaciół](patroni_przyjaciele_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

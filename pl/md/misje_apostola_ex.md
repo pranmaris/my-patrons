@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-mission">MB</span> Misje Apostoła</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 
 ## Cel
@@ -56,5 +58,5 @@ Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.pdf) lub za pomocą 
 # Udało się! Powierzyłeś patronowi swoją **misję Apostoła**, która odniosła sukces!
 ### Dzięki Twojemu apostolstwu, o „Moich Patronach” ma szanse usłyszeć cały świat!
 ---
-[Powrót do szczególnych misji](jak_powierzac_patronom_swoje_szczegolne_misje_ex.md)
-[Powrót do głównego menu](index.md)
+[Powrót do szczególnych misji](jak_powierzac_patronom_swoje_szczegolne_misje_ex.md)  
+[Powrót do głównego menu](index_ex.md)

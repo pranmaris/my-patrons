@@ -1,4 +1,6 @@
 # Karty kolekcjonerskie
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 Inicjatywa _„Moich Patronów”_ udostępnia Tobie poniższe **rodzaje kart**. Wszystkie mają standardowy **format: 63 x 88mm**.
 
@@ -61,4 +63,4 @@ Opis już wkrótce ...
 ---
 [Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-wlasna-kolekcja-kart)  
 [Powrót do zapraszania patronów](jak_zapraszac_patronow_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

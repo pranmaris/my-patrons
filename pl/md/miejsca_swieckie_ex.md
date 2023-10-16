@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">VA</span> Miejsca Świeckie</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **odwiedzić** miejsce świeckie, mające świętego lub błogosławionego patrona tytularnego.
@@ -34,4 +36,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do Patronów Opiekunów](patroni_opiekunowie_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

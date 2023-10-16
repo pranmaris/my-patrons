@@ -1,4 +1,6 @@
 # Dekalog Uczestnika
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 <ol type="I">
 <li><strong>Poznawaj</strong> i <strong>zapraszaj</strong> świętych i błogosławionych Kościoła Rzymskokatolickiego do grona Twoich Patronów.</li>
@@ -17,4 +19,4 @@
 ### Rozpocznij swoją przygodę już dziś!
 
 ---
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-worship">LD</span> Nabożeństwo Gorzkich Żalów</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 Gorzkie Żale są głównie polskim nabożeństwem pasyjnym, w którym rozważamy **Mękę Jezusa Chrystusa**, a to przywodzi nam refleksję nad naszą grzesznością, potrzebą pokuty, czy nawrócenia. Nabożeństwo odprawiane jest najczęściej w kolejne **niedziele Wielkiego Postu**, choć także np. w czasie Triduum Paschalnego. Składa się ono z **trzech części**, których każda jest odprawiana cyklicznie - dwukrotnie w Wielkim Poście:
 - **część 1:** I i IV Niedziela Wielkiego Postu,
@@ -22,4 +24,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

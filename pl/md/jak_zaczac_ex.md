@@ -1,4 +1,6 @@
 # Jak zacząć
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 **UWAGA!** Przed poznaniem szczegółów inicjatywy _„Moich Patronów”_ warto wziąć pod uwagę fakt, że **posiada ona dużo różnych ścieżek**, którymi można pójść na początku. Każdy Uczestnik może mieć **odmienne preferencje i doświadczenia** i co dla jednego nie będzie stanowić problemu, dla innego może być barierą nie do przebrnięcia na obecnym etapie jego rozwoju duchowego i religijnego. Ponadto niektóre elementy mogą się z początku wydać **skomplikowane**, co może zniechęcić do głębszego poznania całego **potencjału tej zabawy**.
 
@@ -22,4 +24,4 @@ Ciąg dalszy pojawi się wkrótce ...
 ### Do dzieła!
 
 ---
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

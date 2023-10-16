@@ -1,4 +1,7 @@
-# Moi Patroni
+# Wersja strony _„Moi Patroni”_ sprzed zmian
+Poniższe treści **nadal obowiązują i są poprawne**! Upraszczamy tylko formę ich prezentacji i sposoby gromadzenia notatek.
+
+---
 - [Dekalog Uczestnika](dekalog_uczestnika_ex.md)
 - [Jak zacząć](jak_zaczac_ex.md)
 - [Podstawowe zasady](podstawowe_zasady_ex.md)
@@ -51,3 +54,5 @@
 - [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-mission">MB</span> Misje Apostoła</span></span>](misje_apostola_ex.md)
 - [&nbsp;&nbsp;&nbsp;&gt;&nbsp;<span><span class="status status-list"><span class="status status-mission">MC</span> Misje Pobożności</span></span>](misje_poboznosci_ex.md)
 - [Karty kolekcjonerskie](karty_kolekcjonerskie_ex.md)
+
+[Powrót do głównego menu](index.md)

@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">VE</span> Msze Pogrzebowe</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span>, na **Mszy św. pogrzebowej**, pomodlić się za wstawiennictwem **Patrona Orędownika** za zmarłą osobę o jego **imieniu**.
@@ -37,4 +39,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do Patronów Orędowników](patroni_oredownicy_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

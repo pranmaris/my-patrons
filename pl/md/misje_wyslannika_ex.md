@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-mission">MA</span> Misje Wysłannika</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 
 ## Cel
@@ -58,5 +60,5 @@ Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.pdf) lub za pomocą 
 - Jeśli nie możemy podejść pod samą kapliczkę lub jest to niebezpieczne (np. jest ona za płotem, na środku ronda, itp.), **możemy modlić się widząc ją bezpośrednio i będąc w bezpiecznej odległości od niej**.
 
 ---
-[Powrót do szczególnych misji](jak_powierzac_patronom_swoje_szczegolne_misje_ex.md)
-[Powrót do głównego menu](index.md)
+[Powrót do szczególnych misji](jak_powierzac_patronom_swoje_szczegolne_misje_ex.md)  
+[Powrót do głównego menu](index_ex.md)

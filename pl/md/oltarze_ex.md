@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">E</span> Ołtarze</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> nawiedzić **kaplicę** (jako oddzielne pomieszczenie np. kościoła) lub **ołtarz** (boczny w kościele lub inny znajdujący się poza świątynią, np. w szpitalu, pałacu, itp.), który jest pod wezwaniem zaproszonego **Patrona Obrońcy** lub odkrytego **święta**.
@@ -31,4 +33,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 ---
 [Powrót do Patronów Obrońców](patroni_obroncy_ex.md)  
 [Powrót do świąt](swieta_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

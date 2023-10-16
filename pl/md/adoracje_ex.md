@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">F</span> Adoracje</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> adorować co najmniej przez godzinę **Najświętszy Sakrament** w kościele, będącym pod wezwaniem zaproszonego **Patrona Obrońcy** lub odkrytego **święta**.
@@ -41,4 +43,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 ---
 [Powrót do Patronów Obrońców](patroni_obroncy_ex.md)  
 [Powrót do świąt](swieta_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

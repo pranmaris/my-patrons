@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">YA</span> Osiągnięcie: Patroni Moich Imion</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Zakres tematyczny
 To osiągnięcie obejmuje **patronów Twoich imion**: z Chrztu św., Bierzmowania lub przyjętych imion zakonnych. Najpierw **wypisz** wszystkie Twoje imiona, a potem **dodaj** odpowiednich patronów tych imion.
@@ -32,4 +34,4 @@ Zanotuj sobie poniższe informacje wypełniając np. ten [formularz](../../pl/pd
 ---
 [Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-karta-wizytowka)  
 [Powrót do osiągnięć](jak_zdobywac_osiagniecia_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

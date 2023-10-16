@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 W <span class="selected-day-info">wybranym dniu</span> **zaprosić patrona** do grona Twoich **obrońców**.
@@ -99,4 +101,4 @@ Teraz już możesz dla zaproszonego **Patrona Opiekuna** sprostać wyzwaniom:
 ---
 
 [Powrót do zapraszania patronów](jak_zapraszac_patronow_ex.md#jak-zapraszac-patronow-patron-obronca)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

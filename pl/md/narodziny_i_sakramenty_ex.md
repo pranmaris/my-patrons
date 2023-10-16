@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">J</span> Narodziny i Sakramenty</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 
 ## Cel
@@ -21,4 +23,4 @@ Dzięki liście narodzin i sakramentów będzie możliwe stworzenie swojej karty
 
 ---
 [Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-karta-wizytowka)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

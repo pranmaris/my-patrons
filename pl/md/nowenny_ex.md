@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-list">Q</span> Nowenny</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## Cel
 Odmówić całą **nowennę do patrona** i uczestniczyć we Mszy św. w **dniu jego święta lub wspomnienia**.
@@ -29,4 +31,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 ### Nowenna jest bardzo dobrą metodą przygotowania się do obchodów święta danego patrona!
 ---
 [Powrót do patronów przyjaciół](patroni_przyjaciele_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

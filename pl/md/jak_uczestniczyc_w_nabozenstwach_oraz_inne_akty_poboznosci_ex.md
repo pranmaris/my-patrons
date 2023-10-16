@@ -1,4 +1,6 @@
 # Jak uczestniczyć w nabożeństwach oraz inne akty pobożności
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 W Kościele Rzymskokatolickim, od samego początku jego istnienia powstawało i było odprawianych wiele **nabożeństw**. Część z nich odprawia się w jakimś szczególnym czasie (np. w okresie Wielkiego Postu, w określonych miesiącach roku, itd.), a niektóre są znane tylko w pewnych regionach świata. Mają przeróżne **formy i genezę**, dlatego najlepiej jest wymienić je i opisywać **każde z osobna**.
 
@@ -30,4 +32,4 @@ Z powyższymi nabożeństwami i aktami pobożności jest powiązana lista [<span
 
 ---
 [Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-nabozenstwa-oraz-inne-akty-poboznosci)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

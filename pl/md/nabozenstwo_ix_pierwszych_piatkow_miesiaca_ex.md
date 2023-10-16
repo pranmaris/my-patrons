@@ -1,4 +1,6 @@
 # <span class="status status-list"><span class="status status-worship">LA</span> Nabożeństwo IX Pierwszych Piątków Miesiąca</span>
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 Nabożeństwo IX Pierwszych Piątków Miesiąca związane jest z kultem **Najświętszego Serca Pana Jezusa** i zostało objawione św. Marii Magdalenie Alacoque w 1673 roku przez Jezusa Chrystusa:
 
@@ -42,4 +44,4 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 
 ---
 [Powrót do nabożeństw oraz innych aktów pobożności](jak_uczestniczyc_w_nabozenstwach_oraz_inne_akty_poboznosci_ex.md)  
-[Powrót do głównego menu](index.md)
+[Powrót do głównego menu](index_ex.md)

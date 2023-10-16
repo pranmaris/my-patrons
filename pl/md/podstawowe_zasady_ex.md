@@ -1,4 +1,6 @@
 # Podstawowe zasady
+**UWAGA!** Treść tej strony znajduje się w przebudowie. Docelową wersję znajdziesz [tutaj](nowy_index.md).
+
 ---
 ## O inicjatywie
 - Udział w inicjatywie _„Moich Patronów”_  polega na wykonywaniu **wyzwań** i sporządzeniu notatek na odpowiednich **listach**, by nie zapomnieć co już osiągnęliśmy.
@@ -41,5 +43,5 @@
 ### Zaczynamy!
 
 ---
-[Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-podstawowe-zasady)
-[Powrót do głównego menu](index.md)
+[Powrót do strony jak zacząć](jak_zaczac_ex.md#jak-zaczac-podstawowe-zasady)  
+[Powrót do głównego menu](index_ex.md)
