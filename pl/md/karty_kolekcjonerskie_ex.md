@@ -19,7 +19,7 @@ Niektóre rodzaje są dostępne w formacie **plików PDF do pobrania** poniżej.
 - **dalszą część nazwy** patrona: drugie imię, nazwisko, miejsce pochodzenia lub epitet (np. zakonny),
 - **datę**, **rok** lub **stulecie** **śmierci** patrona, np. **2005-04-02**, **1243-10-14/15**, **~559-11-06**, **387**, **~250**, **~IIIw**,
 - **listę numerów** pięciu pierwszych wyzwań dotyczących tego patrona, np. **A**, **T**, **U**, **D1**, **D2**, itp. (można pomijać liczbę 1 w zapisie),
-- informację, jeśli dla patrona zostało wykonanych **więcej niż pięć wyzwań**, w formie np. znaczka „**✓**” do zakreślenia - wtedy będziemy wiedzieć, że dla tego patrona pod kartą bazową powinna znajdować się także **jedna lub więcej [kart wszystkich wyzwań](karty_kolekcjonerskie_ex.md#karty-kolekcjonerskie-karty-wszystkich-wyzwan)**,
+- informację, jeśli dla patrona zostało wykonanych **więcej niż pięć wyzwań**, w formie np. znaczka „**✓**” do zakreślenia - wtedy będziemy wiedzieć, że dla tego patrona pod kartą bazową powinna znajdować się także **jedna lub więcej [kart wyzwań](karty_kolekcjonerskie_ex.md#karty-kolekcjonerskie-karty-wyzwan)**,
 - **datę wykonania** pierwszego wyzwania dla tego patrona, np. **2023-08-01**
 - **progres dla patrona** w formie zakolorowywanych kratek z kolejnymi punktami od 1 do 100,
 - **status patrona**, np. w formie kolorowej ścieżki pokazującej historię zmian,
@@ -27,10 +27,10 @@ Niektóre rodzaje są dostępne w formacie **plików PDF do pobrania** poniżej.
 
 Aby **pobrać plik PDF** z 8 kartami bazowymi do wydruku, kliknij [tutaj](/pl/pdf/karty_bazowe.pdf)!
 
-## <span id="karty-kolekcjonerskie-karty-wszystkich-wyzwan">Karty wszystkich wyzwań</span>
-**Karty wszystkich wyzwań** zawierają informacje o **każdym wyzwaniu wykonanym** dla danego patrona (poza pięcioma pierwszymi znajdującymi się na jego **[karcie bazowej](karty_kolekcjonerskie_ex.md#karty-kolekcjonerskie-karty-bazowe)**). Ważnym elementem tej karty są **aktualne punkty progresu dla patrona**, czyli liczba - od 0 do 100 - wykonanych dla niego wyzwań. **UWAGA**! Należy pamiętać, że **progres patrona zwiększają tylko wykonane wyzwania o numerach mniejszych niż 8**, czyli np. **D1**, **E7**, **G3**, **T** (brak podanego numeru traktujemy jako pierwsze wyzwanie, czyli tutaj **T1**).
+## <span id="karty-kolekcjonerskie-karty-wyzwan">Karty wyzwań</span>
+**Karty wyzwań** zawierają informacje o **każdym wyzwaniu wykonanym** dla danego patrona (poza pięcioma pierwszymi znajdującymi się na jego **[karcie bazowej](karty_kolekcjonerskie_ex.md#karty-kolekcjonerskie-karty-bazowe)**). Ważnym elementem tej karty są **aktualne punkty progresu dla patrona**, czyli liczba - od 0 do 100 - wykonanych dla niego wyzwań. **UWAGA**! Należy pamiętać, że **progres patrona zwiększają tylko wykonane wyzwania o numerach mniejszych niż 8**, czyli np. **D1**, **E7**, **G3**, **T** (brak podanego numeru traktujemy jako pierwsze wyzwanie, czyli tutaj **T1**).
 
-**Kartę wszystkich wyzwań** tworzy się poprzez **własnoręczne wypełnienie szablonu** (wydrukowanego lub zrobionego samodzielnie), wpisując na nim następujące informacje o patronie:
+**Kartę wyzwań** tworzy się poprzez **własnoręczne wypełnienie szablonu** (wydrukowanego lub zrobionego samodzielnie), wpisując na nim następujące informacje o patronie:
 - **jedno główne imię** patrona,
 - nadany mu przez nas **trzyznakowy kod**, który łatwo pomoże nam go zidentyfikować i odszukać,
 - informacje o **kolejnych wyzwaniach** wykonanych dla tego patrona, następująco:
@@ -52,7 +52,7 @@ Przykładowo, jeśli na **karcie bazowej** patrona mieliśmy wpisane wyzwania: A
 - A: **B9**, B: **15** (j.w.)
 - itd.
 
-Aby **pobrać plik PDF** z 8 kartami wszystkich wyzwań do wydruku, kliknij [tutaj](/pl/pdf/karty_wszystkich_wyzwan.pdf)!
+Aby **pobrać plik PDF** z 8 kartami wyzwań do wydruku, kliknij [tutaj](/pl/pdf/karty_wyzwan.pdf)!
 ## <span id="karty-kolekcjonerskie-karta-ja">Karta „Ja”</span>
 Opis już wkrótce ...
 ## <span id="karty-kolekcjonerskie-karty-osob-boskich">Karty Osób Boskich</span>

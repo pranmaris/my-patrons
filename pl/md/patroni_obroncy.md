@@ -35,7 +35,7 @@ W <span class="selected-day-info">wybranym dniu</span>, **przyjmij godnie** Komu
 - od **ostatniej Twojej spowiedzi** może upłynąć **maksymalnie 40 dni**,
 - **w chwili przyjęcia Komunii Świętej** (nawet duchowo) musisz być **w stanie Łaski Uświęcającej!**
 ## <span class="step-number">7.</span> <span class="step-letter">M</span> Pomódl się do Patrona
-Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno Aleksandryjska”, „Nieznani Towarzysze św. Maurycego<sup class="ref">[7.1](#ref-7-1-patroni-obroncy)</sup>:
+Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „Błogosławiony Carlo Acutisie”, „Święta Katarzyno Aleksandryjska”, „Święci nieznani towarzysze św. Maurycego<sup class="ref">[7.1](#ref-7-1-patroni-obroncy)</sup>:
 > Św./Bł. _**[imię jednego patrona / nazwa zbiorcza wielu patronów]**_,  
 > zapraszam Ciebie/Was do grona moich Patronów Obrońców,  
 > proszę o obronę i umocnienie  
@@ -49,9 +49,13 @@ Odmów następującą modlitwę, zwracając się do wybranego patrona (np.: „B
 <div class="centered"><button class="button btn" id="random-bible-chapter" onclick="setRandomBibleChapter('pl')">Losuj rozdział</button></div>
 
 ## <span class="step-number">9.</span> <span class="step-letter">W</span> Wpisz wyzwanie na kartach Patrona
-Już wkrótce ...
+Wpisz na **karcie bazowej** wybranego Patrona: **typ**, **numer** i <span class="selected-day-info">datę</span>  **wyzwania**.
+
+**UWAGA!** Jeśli **wybrany Patron nie ma jeszcze swojej karty bazowej**, możesz wydrukować, wyciąć i ręcznie wypełnić<sup class="ref">[9.1](#ref-9-1-patroni-obroncy)</sup> nową, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_bazowe.pdf)) lub podobnego, przygotowanego samodzielnie.
+
+**UWAGA!** Gdyby **zabrakło miejsca** na wpisanie nowego wyzwania na karcie bazowej, oznacz jednorazowo pole „6+” znaczkiem „✓” i wpisz to wyzwanie na nowej **karcie wyzwań**<sup class="ref">[9.2](#ref-9-2-patroni-obroncy)</sup>.
 ## <span class="step-number">10.</span> <span class="step-letter">S</span> Zmień kolor statusu Patrona na kartach
-Już wkrótce ...
+Na **karcie bazowej** wybranego Patrona, w sekcji „**Zmiany kolorów statusu**”, znajdź **najwyżej położone** kolorowe kółko połączone liniami z **czarnym** kółkiem na samym dole. Połącz znalezione kółko z najbliższym kółkiem **położonym rząd wyżej** posiadającym wewnątrz literę „**A**”.
 ## <span class="step-number">11.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
 Już wkrótce ...
 ## <span class="step-number">12.</span> <span class="step-letter">X</span> Wykonaj na końcu
@@ -66,8 +70,8 @@ Już wkrótce ...
 #### Przypisy:
 - <span id="ref-3-1-patroni-obroncy">[3.1] Patron jest wpisany dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Papieża, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku).</span>
 - <span id="ref-3-2-patroni-obroncy">[3.2] Patron **zmarł** w znanym i jednoznacznym <span class="selected-day-info">dniu</span> roku, nawet gdy sam rok śmierci jest niepewny lub **zmarł o nieznanej godzinie w nocy** z poprzedzającego na <span class="selected-day-info">wybrany dzień</span>, którego pełna data jest znana.</span>
-- <span id="ref-3-3-patroni-obroncy">[3.3] W <span class="selected-day-info">wybranym dniu</span> tego roku odbędzie się **kanonizacja** lub **beatyfikacja** patrona.</span>
-- <span id="ref-3-4-patroni-obroncy">[3.4] Patron **został ogłoszony na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**. Możesz zatem jako patrona wybrać **Najświętszą Maryję Pannę**, bazując na jej wspomnieniu ogłoszonym na Mszy św. w każdą zwykłą sobotę, w którą nie wypada żadne inne wspomnienie obowiązkowe.</span>
+- <span id="ref-3-3-patroni-obroncy">[3.3] W <span class="selected-day-info">wybranym dniu</span> tego roku odbędzie się **kanonizacja** lub **beatyfikacja** patrona. Lista kanonizacji i beatyfikacji Kościoła Katolickiego znajduje się np. na stronie [GCatholic.org](http://www.gcatholic.org/saints/index.htm).</span>
+- <span id="ref-3-4-patroni-obroncy">[3.4] Patron **został ogłoszony na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**. Możesz zatem jako patrona wybrać **Najświętszą Maryję Pannę**, bazując na jej wspomnieniu ogłoszonym na Mszy św. w każdą zwykłą sobotę, w którą nie wypada żadne inne wspomnienie obowiązkowe. Orientacyjny kalendarz liturgiczny dla Polski wraz z linkami do kalendarzy diecezjalnych można znaleźć np. na stronie [GCatholic.org](http://www.gcatholic.org/calendar/2023/PL-pl.htm).</span>
 - <span id="ref-3-5-patroni-obroncy">[3.5] W <span class="selected-day-info">wybranym dniu</span> uczestniczysz w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez Ciebie patrona** (tytularnego tego miejsca).</span>
 - <span id="ref-4-1-patroni-obroncy">[4.1] **Notatki** możesz prowadzić np.: w segregatorze, notatniku, zeszycie, w pliku na komputerze, itp. Warto **podpisać** swoje notatki i **numerować ich strony**.</span>
 - <span id="ref-4-2-patroni-obroncy">[4.2] Alias znajdziesz na **karcie bazowej Patrona**. Jeżeli nie ma on jeszcze swojej karty bazowej, **wymyśl teraz Patronowi jego unikalny alias**, którym go zawsze będziesz krótko nazywać. Najlepszą formą wydaje się być: „**#Imię:KOD**”, gdzie „**Imię**” to najnowsze **główne imię** Patrona, a „**KOD**” to nadany przez Ciebie **trzyznakowy kod rozpoznawczy**, np.:
@@ -80,8 +84,24 @@ Już wkrótce ...
   </span>
 - <span id="ref-5-1-patroni-obroncy">[5.1] Przez **udział w Mszy** rozumiemy naszą **fizyczną obecność na terenie jej odprawienia**. Może to być także pobyt poza budynkiem kościoła, w odrębnej salce czy innym budynku **na terenie przykościelnym** z transmisją Mszy „na żywo” (audio lub video). Gdyby Msza odbyła się np. w kaplicy szpitala, wszyscy jego pacjenci mający łączność z tym miejscem, **mogą w niej uczestniczyć**.</span>
 - <span id="ref-5-2-patroni-obroncy">[5.2] W **Wielki Piątek** będzie to uczestnictwo w **Liturgii Męki Pańskiej**, gdyż w tym dniu nie odprawia się mszy świętych.</span>
-- <span id="ref-7-1-patroni-obroncy">[7.1] Jedynie w sytuacji, gdy **imiona niektórych świętych lub błogosławionych nie są znane**, możemy **zaprosić ich zbiorczo**, np. 22 września we wspomnieniu pt.: _„Święci Maurycy i Towarzysze, męczennicy”_, z imienia znamy tylko św. Maurycego, św. Eksuperiusza, św. Kandyda i kilku innych. Można zatem jako patrona wybrać **jednego z tych znanych świętych** albo **zbiorczo pozostałych**, nadając im nazwę np.: „nieznani towarzysze św. Maurycego” (to około 6600 świętych). Podobnie zbiorczo możemy zaprosić np. _„Wszystkich Świętych”_ – 1 listopada, _„Wszystkich Wiernych Zmarłych”_ – 2 listopada, _„Świętych Młodzianków”_ – 28 grudnia, itd.</span>
+- <span id="ref-7-1-patroni-obroncy">[7.1] Jedynie w sytuacji, gdy **imiona świętych lub błogosławionych nie są znane**, możemy **zaprosić ich zbiorczo**, np. 22 września we wspomnieniu pt.: _„Święci Maurycy i Towarzysze, męczennicy”_, z imienia znamy tylko św. Maurycego, św. Eksuperiusza, św. Kandyda i kilku innych. Można zatem jako patrona wybrać **jednego z tych znanych świętych** albo **zbiorczo pozostałych**, nadając im nazwę np.: „Święci nieznani towarzysze św. Maurycego” (to około 6600 świętych). Podobnie zbiorczo możemy zaprosić np. _„Wszystkich Świętych”_ – 1 listopada, _„Wszystkich Wiernych Zmarłych”_ – 2 listopada, _„Świętych Młodzianków”_ – 28 grudnia, itd.</span>
 - <span id="ref-8-1-patroni-obroncy">[8.1] Nie wystarczy samo **wysłuchanie czytań** na Mszy Świętej. Dodatkowy **czas spędzony z Pismem Świętym** na pewno da Tobie **o wiele więcej**!</span>
+</span>
+- <span id="ref-9-1-patroni-obroncy">[9.1] Na **nowej karcie bazowej** wpisujemy:
+  - **główne imię Patrona** lub np. „**X**” dla jednego lub wielu Patronów o nieznanym imieniu,
+  - utworzony przez nas **trójznakowy kod rozpoznawczy** Patrona, użyty w notatkach w kolumnie „**Alias Patrona**”,
+  - **drugie imię Patrona**, jeśli takie posiada,
+  - **dalszą część nazwy Patrona**, aby go jednoznacznie identyfikować,
+  - **datę, rok lub stulecie śmierci Patrona**, np. „**2005-04-02**”, „**1243-10-14/15**”, „**303**”, „**~790**”, „**IVw**”, itd.
+  - dowolne **notatki** jakie chcemy.
+</span>
+- <span id="ref-9-2-patroni-obroncy">[9.2] Na **kartach wyzwań** (jednej lub wielu), notujemy wszystkie **dalsze wyzwania** Patrona.  
+Karty wyzwań:
+  - możesz wydrukować i wyciąć, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_wyzwan.pdf)) lub podobnego, przygotowanego samodzielnie,
+  - powinny być podpisane **aliasem Patrona**,
+  - dla **każdego wyzwania** wpisujemy: **typ**, **numer**, <span class="selected-day-info">datę</span> wyzwania oraz **punkty postępu dla Patrona**, które:
+    - są liczbą od 6 do 100 (1-5 to policzone początkowe wyzwania z karty bazowej),
+    - **będziesz zwiększać o 1**, tylko dla wyzwań o **numerach od 1 do 7** (lub nie mających numeru, np. „A”).
 </span>
 <!--- <span id="ref-x-1-patroni-obroncy">[x.1] ...-->
 <!--</span>-->
@@ -89,13 +109,6 @@ Już wkrótce ...
 
 
 
-<!--- Jeżeli w danym wspomnieniu jest podanych więcej patronów zbiorowo, to można każdorazowo zaprosić tylko jednego z nich. Następnych będziemy mogli zaprosić dopiero w dniu kolejnego ich wspomnienia, np. za rok, choć często będzie to możliwe wcześniej. Przykładowo 20 września wybierając wspomnienie pt.: _„Święci męczennicy Andrzej Kim Tae-gŏn, prezbiter, Paweł Chŏng Ha-sang i Towarzysze”_, można zaprosić albo wspomnianego owego Andrzeja albo Pawła albo jednego dowolnego ze znanych z imienia ich 101 pozostałych koreańskich towarzyszy (np. św. Antoniego Daveluya),-->
-<!--- Jeżeli dany patron jest wspominany wiele razy w ciągu roku pod różnymi tytułami, zapraszamy go i zapisujemy na listę **Patronów Obrońców** tylko raz **bez tego tytułu**. Tytuły będziemy niezależnie uzupełniać na liście [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta_ex.md) w dniach ich wspomnień. Przykładami patronów z tytułami są: Najświętsza Maryja Panna _„Wniebowzięta”_ (od święta _„Wniebowzięcia Najświętszej Maryi Panny”_) - 15 sierpnia, Najświętsza Maryja Panna _„Różańcowa”_ – 7 października, Najświętsza Maryja Panna _„Wspomożycielka Wiernych”_ – 24 maja, św. Józef _„Oblubieniec Najświętszej Maryi Panny”_ – 19 marca, św. Józef _„Rzemieślnik”_ – 1 maja, itd.-->
-
-<!--- Orientacyjny kalendarz liturgiczny dla Polski wraz z linkami do kalendarzy diecezjalnych można znaleźć na stronie [GCatholic.org](http://www.gcatholic.org/calendar/2023/PL-pl.htm).-->
-<!--- Lista kanonizacji i beatyfikacji Kościoła Katolickiego znajduje się także na stronie [GCatholic.org](http://www.gcatholic.org/saints/index.htm).-->
 
 
 [Wróć](javascript:back())
-
-
