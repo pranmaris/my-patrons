@@ -99,9 +99,9 @@ Już wkrótce ...
 Karty wyzwań:
   - możesz wydrukować i wyciąć, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_wyzwan.pdf)) lub podobnego, przygotowanego samodzielnie,
   - powinny być podpisane **aliasem Patrona**,
-  - dla **każdego wyzwania** wpisujemy: **typ**, **numer**, <span class="selected-day-info">datę</span> wyzwania oraz **punkty postępu dla Patrona**, które:
-    - są liczbą od 6 do 100 (1-5 to policzone początkowe wyzwania z karty bazowej),
-    - **będziesz zwiększać o 1**, tylko dla wyzwań o **numerach od 1 do 7** (lub nie mających numeru, np. „A”).
+  - dla **każdego wyzwania** wpisujemy: **typ**, **numer**, <span class="selected-day-info">datę</span> wyzwania oraz **Twój progres dla Patrona**, który:
+    - jest liczbą od 6 do 100 (1-5 to policzone początkowe wyzwania z karty bazowej),
+    - **będziesz zwiększać o 1**, tylko dla wyzwań posiadających **numery od 1 do 7** (lub nie mających numeru, np. „A”).
 </span>
 <!--- <span id="ref-x-1-patroni-obroncy">[x.1] ...-->
 <!--</span>-->
