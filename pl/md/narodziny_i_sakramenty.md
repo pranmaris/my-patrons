@@ -20,7 +20,7 @@ Wydarzeniami **możliwymi do wyboru** są:
 Dodaj:
 | Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| tu wpisz kolejny<br />numer wiersza | data wydarzenia,<br />np. „**WT 2023-08-29**” | **#0** (tu wpisz nazwę wydarzenia) | **J** | tu wpisz „**0**” dla narodzin oraz<br />cyfry od „**1**” do „**7**” dla kolejno przyjmowanych Sakramentów | **U, W, N, X** | na razie to pole<br />zostaw puste |
+| tu wpisz kolejny<br />numer wiersza | tu wpisz datę wydarzenia,<br />np. „**WT 2023-08-29**” | **#0** (tu wpisz nazwę wydarzenia) | **J** | tu wpisz „**0**” dla narodzin oraz<br />cyfry od „**1**” do „**7**” dla kolejno przyjmowanych Sakramentów | **U, W, N, X** | na razie to pole<br />zostaw puste |
 
 <br />
 

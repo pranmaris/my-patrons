@@ -1,4 +1,4 @@
-# <span class="stage-header">Etap 7</span>: Misje Apostoła
+# <span class="stage-header">Etap 6</span>: Misje Apostoła
 ---
 Już wkrótce ...
 

@@ -21,7 +21,7 @@ Wybrany Patron jest poprawny, gdy:
 Dodaj:
 | Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| tu wpisz kolejny<br />numer wiersza | wybrana data,<br />np. „**WT 2023-08-29**” | wybrany Patron,<br />w formie np. „**#Imię:KOD**”<sup class="ref">[4.2](#ref-4-2-patroni-obroncy)</sup> | **A** | **-** | **U, K, M, P, W, S, N, X** | na razie to pole<br />zostaw puste |
+| tu wpisz kolejny<br />numer wiersza | tu wpisz wybraną datę,<br />np. „**WT 2023-08-29**” | tu wpisz wybranego Patrona,<br />w formie np. „**#Imię:KOD**”<sup class="ref">[4.2](#ref-4-2-patroni-obroncy)</sup> | **A** | **-** | **U, K, M, P, W, S, N, X** | na razie to pole<br />zostaw puste |
 
 <br />
 
