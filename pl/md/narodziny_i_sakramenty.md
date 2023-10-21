@@ -1,6 +1,6 @@
 # <span class="status status-list"><span class="status status-list">J</span> Narodziny i Sakramenty</span>
 ---
-Jeśli chcesz **zapisać** informacje na temat **Twoich narodzin i przyjętych Sakramentów** wraz z datą ich pierwszego przyjęcia:
+Jeśli chcesz **zapisać** informacje na temat **Twoich narodzin** lub **przyjętego Sakramentu** wraz z datą jego pierwszego przyjęcia:
 ## <span class="step-number">1.</span> Wybierz wydarzenie
 Wydarzeniami **możliwymi do wyboru** są:
 - narodziny,
@@ -13,9 +13,11 @@ Wydarzeniami **możliwymi do wyboru** są:
   - Kapłaństwo,
   - Małżeństwo.
 
-**Ustal** swoje <span class="selected-day-info">daty tych wydarzeń</span> (dla Sakramentów będą to **daty ich pierwszego przyjęcia**) i wpisz **każde jako osobne wyzwanie**.
-## <span class="step-number">2.</span> Dodaj nowy wiersz notatek
-**UWAGA!** Jeśli **zaczynasz notowanie** lub **skończyło Ci się wolne miejsce**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie przygotować nową stronę<sup class="ref">[2.1](#ref-2-1-narodziny-i-sakramenty)</sup>.
+**Ustal** swoją <span class="selected-day-info">datę wybranego wydarzenia</span> (dla Sakramentów będzie to **data jego pierwszego przyjęcia**) i wpisz **każde jako osobne wyzwanie**.
+## <span class="step-number">2.</span> Upewnij się, czy możesz sprostać temu wyzwaniu
+**Spełniasz wymagania**, jeśli sprostałeś wyzwaniu [<span class="status status-list"><span class="status status-god">I</span> Bóg</span>](bog.md), nawet jeśli jego data jest późniejsza od daty wybranego wyzwania.
+## <span class="step-number">3.</span> Dodaj nowy wiersz notatek
+**UWAGA!** Jeśli **zaczynasz notowanie** lub **skończyło Ci się wolne miejsce**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie przygotować nową stronę<sup class="ref">[3.1](#ref-3-1-narodziny-i-sakramenty)</sup>.
 
 Dodaj:
 | Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
@@ -25,15 +27,15 @@ Dodaj:
 <br />
 
 Od tego momentu, wykonane kolejne kroki, **oznaczaj** w polu „**Checklista**”.
-## <span class="step-number">3.</span> <span class="step-letter">U</span> Potwierdź swój udział w wydarzeniu
-Najlepiej zrobić to na podstawie **wiarygodnych dokumentów**, ale nie zawsze będzie to możliwe<sup class="ref">[3.1](#ref-3-1-narodziny-i-sakramenty)</sup>.
-## <span class="step-number">4.</span> <span class="step-letter">W</span> Dopisz wydarzenie do swojej karty „Ja”
+## <span class="step-number">4.</span> <span class="step-letter">U</span> Potwierdź swój udział w wydarzeniu
+Najlepiej zrobić to na podstawie **wiarygodnych dokumentów**, ale nie zawsze będzie to możliwe<sup class="ref">[4.1](#ref-4-1-narodziny-i-sakramenty)</sup>.
+## <span class="step-number">5.</span> <span class="step-letter">W</span> Dopisz wydarzenie do swojej karty „Ja”
 Już wkrótce ...
-## <span class="step-number">5.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
+## <span class="step-number">6.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
 Już wkrótce ...
-## <span class="step-number">6.</span> <span class="step-letter">X</span> Wykonaj na końcu
+## <span class="step-number">7.</span> <span class="step-letter">X</span> Wykonaj na końcu
 Już wkrótce ...
-## <span class="step-number">7.</span> Zakończ wyzwanie sukcesem
+## <span class="step-number">8.</span> Zakończ wyzwanie sukcesem
 Już wkrótce ...
 
 ---
@@ -41,5 +43,5 @@ Już wkrótce ...
 ---
 
 #### Przypisy:
-- <span id="ref-2-1-narodziny-i-sakramenty">[2.1] **Notatki** możesz prowadzić np.: w segregatorze, notatniku, zeszycie, w pliku na komputerze, itp. Warto **podpisać** swoje notatki i **numerować ich strony**.</span>
-- <span id="ref-3-1-narodziny-i-sakramenty">[3.1] Przykładowo, dla Namaszczenia chorych może pojawić się konieczność oparcia wyłącznie na **swojej pamięci** i tylko jeśli nie ma **żadnych szans ustalenia dokładnej daty** pierwszego przyjęcia Sakramentu, można zapisać datę jego **najbliższego przyjęcia**.</span>
+- <span id="ref-3-1-narodziny-i-sakramenty">[3.1] **Notatki** możesz prowadzić np.: w segregatorze, notatniku, zeszycie, w pliku na komputerze, itp. Warto **podpisać** swoje notatki i **numerować ich strony**.</span>
+- <span id="ref-4-1-narodziny-i-sakramenty">[4.1] Przykładowo, dla Namaszczenia chorych może pojawić się konieczność oparcia wyłącznie na **swojej pamięci** i tylko jeśli nie ma **żadnych szans ustalenia dokładnej daty** pierwszego przyjęcia Sakramentu, można zapisać datę jego **najbliższego przyjęcia**.</span>
