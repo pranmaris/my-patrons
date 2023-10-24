@@ -1,6 +1,6 @@
 # Moi Patroni
 - [Wersja strony&nbsp;<em>„Moi Patroni”</em>&nbsp;sprzed zmian](index_ex.md)
-- [<span class="stage-header">Start</span>](start.md)
+- [<span class="stage-header">Start</span>: „Moi Patroni”](start_moi_patroni.md)
 - [<span class="stage-header">Etap 1</span>: Bóg i Ja](etap_bog_i_ja.md)
 - [<span class="stage-header">Etap 2</span>: Patroni Opiekunowie](etap_patroni_opiekunowie.md)
 - [<span class="stage-header">Etap 3</span>: Patroni Obrońcy i Święta](etap_patroni_obroncy_i_swieta.md)
