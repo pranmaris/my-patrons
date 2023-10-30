@@ -1,5 +1,8 @@
 # <span class="stage-header">Start</span>: „Moi Patroni”
 ---
+**Pobierz** wersję papierową strony (już wkrótce)
+
+---
 ## **_„Moi Patroni”_** są:
 - Oddolną **inicjatywą katolicką**!
 - **Zachętą** do nawiązania głębszej relacji z Bogiem i Patronami!
@@ -24,10 +27,10 @@
 - **Zdobywaj** mądrość czytając Pismo Święte i żywoty Świętych!
 - **Wzrastaj** duchowo dzięki Mszy Świętej, nabożeństwom i innym aktom pobożności!
 - **Doświadczaj** siły Adoracji, Sakramentów i Różańca!
+- **Współpracuj** z innymi!
 - **Baw się** dobrze!
 
 ## Kolejny krok
-- **Pobierz** broszurę (już wkrótce)
 
 - Czas na [**<span class="stage-header">Etap 1</span>: Bóg i Ja**](etap_bog_i_ja.md)!
 

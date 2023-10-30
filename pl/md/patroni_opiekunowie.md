@@ -30,13 +30,8 @@ Już wkrótce ...
 # Udało się! Zaprosiłeś **Patrona Opiekuna**!
 ### Daj mu się poprowadzić za rękę, szukaj natchnień i ciekawych wyzwań, jakie dla Ciebie ma!
 ---
-#### Przypisy:
-<!--- <span id="ref-x-1-patroni-obroncy">[x.1] ...-->
-<!--</span>-->
 
+<span class="hidden-tips">
+Przypisy:
 
-
-
-
-
-[Wróć](javascript:back())
+</span>

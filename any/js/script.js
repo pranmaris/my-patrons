@@ -6,6 +6,7 @@ const MAIN_DOMAIN_NAME = 'mypatrons';
 
 const PAGE_TITLE_ELEMENT_ID = 'title';
 const PAGE_TITLE_PREFIX = 'My Patrons';
+const PAGES_ACCORDION_ELEMENT_ID = 'pagesAccordion';
 
 const PATH_SEPARATOR = '/';
 const PATH_PARENT_DIRECTORY = '..';
@@ -315,6 +316,9 @@ const getConvertedMarkdownContent = (content) => {
     return match.replace(p1, urlPath).replace(START_ANCHOR, '');
   });
 
+  const pattern5 = new RegExp('class="tip">', 'g');
+  content = content.replace(pattern5, 'class="tip" onclick="showTip(this)">');
+
   return marked.parse(content);
 }
 
@@ -381,7 +385,7 @@ const scrollToElement = (elementId) => {
 }
 
 const buildPageContent = (pagesPath, pagesData) => {
-  let listElement = document.getElementById('pagesAccordion');
+  let listElement = document.getElementById(PAGES_ACCORDION_ELEMENT_ID);
 
   loadContent(HTML_TEMPLATES_PATH + ACCORDION_ITEM_EXPANDED_FILE)
     .then(function (expandedItemContent) {
@@ -532,6 +536,49 @@ const setRandomBibleChapter = async (language) => {
 
 const back = () => {
   window.history.back();
+}
+
+const removeAllElementsByClassName = (className) => {
+    const elements = document.getElementsByClassName(className);
+    while (elements.length > 0){
+        elements[0].parentNode.removeChild(elements[0]);
+    }
+}
+
+const showTip = (tipLinkElement) => {
+  const tipLinkElementHref = tipLinkElement.firstChild.getAttribute("href");
+  if (!tipLinkElementHref) {
+    return;
+  }
+
+  const tipElement = document.getElementById(tipLinkElementHref.replace(/^#/, ''));
+  if (!tipElement) {
+    return;
+  }
+
+  const text = tipElement.innerHTML;
+  if (!text) {
+    return;
+  }
+
+  removeAllElementsByClassName('toast');
+
+  let toastElement = document.createElement('div');
+  toastElement.className = "toast";
+  toastElement.setAttribute("data-bs-autohide", "false");
+  toastElement.setAttribute("role", "alert");
+  toastElement.setAttribute("aria-live", "assertive");
+  toastElement.setAttribute("aria-atomic", "true");
+  toastElement.innerHTML = `
+    <div class="d-flex">
+      <div class="toast-body">` + text + `</div>
+      <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  `;
+  tipLinkElement.parentElement.appendChild(toastElement);
+
+  const toast = new bootstrap.Toast(toastElement);
+  toast.show();
 }
 
 build();

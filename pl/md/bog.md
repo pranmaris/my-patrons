@@ -6,7 +6,7 @@ Jeśli chcesz **powierzyć Bogu** cały Twój **udział w inicjatywie _„Moich 
 ## <span class="step-number">2.</span> Upewnij się, czy możesz sprostać temu wyzwaniu
 **Spełniasz wymagania**, jeśli **nie sprostałeś jeszcze temu wyzwaniu** wcześniej!
 ## <span class="step-number">3.</span> Dodaj nowy wiersz notatek
-**UWAGA!** Jeśli **zaczynasz notowanie** lub **skończyło Ci się wolne miejsce**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie przygotować nową stronę<sup class="ref">[4.1](#ref-3-1-bog)</sup>.
+**UWAGA!** Jeśli **zaczynasz notowanie** lub **skończyło Ci się wolne miejsce**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie przygotować nową stronę<sup class="tip">[3.1](#tip-3-1)</sup>.
 
 Dodaj:
 | Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
@@ -80,13 +80,10 @@ Już wkrótce ...
 # Udało się! Powierzyłeś **Bogu** siebie i swój udział!
 ### Twoja przygoda właśnie się rozpoczeła!
 ---
-#### Przypisy:
-<!--- <span id="ref-x-1-bog">[x.1] ...-->
+
+<span class="hidden-tips">
+Przypisy:
+
+<!--- <span id="tip-x-1">[x.1] ...-->
 <!--</span>-->
-
-
-
-
-
-
-[Wróć](javascript:back())
+</span>

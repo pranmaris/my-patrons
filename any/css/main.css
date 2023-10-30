@@ -296,11 +296,25 @@ a .svg-image {
 }
 
 
-sup.ref {
+sup.tip {
 }
-sup.ref::before {
+sup.tip::before {
   content: "[";
 }
-sup.ref::after {
+sup.tip::after {
   content: "]";
 }
+
+
+
+span.hidden-tips {
+  display: none;
+}
+
+.toast {
+  width: auto;
+  text-align: left;
+  background-color: inherit;
+  border-color: black;
+}
+

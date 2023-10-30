@@ -6,21 +6,21 @@ Jeśli chcesz **odkryć nowe święto**:
 ## <span class="step-number">2.</span> Upewnij się, czy możesz sprostać temu wyzwaniu
 **Spełniasz wymagania**, jeśli sprostałeś już wyzwaniu [<span class="status status-list"><span class="status status-god">I</span> Bóg</span>](bog.md) oraz dla <span class="selected-day-info">wybranego dnia</span>:
 - **jest możliwe zaproszenie** przez Ciebie dowolnego **Patrona Obrońcy**, wraz ze **wszystkimi wymaganiami** tego zaproszenia (Msza, Komunia, Spowiedź od conajwyżej 40 dni) - patrz strona [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md),
-- **wszyscy Patroni**, których dotyczy wybrane święto są (od <span class="selected-day-info">tego dnia</span> albo wcześniej) Twoimi **Patronami Obrońcami**<sup class="ref">[2.1](#ref-2-1-swieta)</sup>!
+- **wszyscy Patroni**, których dotyczy wybrane święto są (od <span class="selected-day-info">tego dnia</span> albo wcześniej) Twoimi **Patronami Obrońcami**<sup class="tip">[2.1](#tip-2-1)</sup>!
 ## <span class="step-number">3.</span> Wybierz święto
 Wybrane święto jest poprawne, gdy:
 - **nie zostało** ono jeszcze przez Ciebie **odkryte**,
-- dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z kryterium**: Martyrologium Rzymskie<sup class="ref">[3.1](#ref-3-1-swieta)</sup>, kalendarz liturgiczny<sup class="ref">[3.2](#ref-3-2-swieta)</sup>, odpust parafialny<sup class="ref">[3.3](#ref-3-3-swieta)</sup> lub znajduje się na **poniższej liście**:  
+- dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z kryterium**: Martyrologium Rzymskie<sup class="tip">[3.1](#tip-3-1)</sup>, kalendarz liturgiczny<sup class="tip">[3.2](#tip-3-2)</sup>, odpust parafialny<sup class="tip">[3.3](#tip-3-3)</sup> lub znajduje się na **poniższej liście**:  
 <iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-feasts?content-only=1"></iframe>
 
 **UWAGA!** Jednego dnia **można odkryć wiele świąt**, dla każdego wykonując osobne wyzwanie!
 ## <span class="step-number">4.</span> Dodaj nowy wiersz notatek
-**UWAGA!** Jeśli **zaczynasz notowanie** lub **skończyło Ci się wolne miejsce**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie przygotować nową stronę<sup class="ref">[4.1](#ref-4-1-swieta)</sup>.
+**UWAGA!** Jeśli **zaczynasz notowanie** lub **skończyło Ci się wolne miejsce**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie przygotować nową stronę<sup class="tip">[4.1](#tip-4-1)</sup>.
 
 Dodaj:
 | Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| tu wpisz kolejny<br />numer wiersza | tu wpisz wybraną datę,<br />np. „**WT 2023-08-29**” | tu wpisz alias Patrona<br />i w nawiasie kod wybranego święta,<br />w formie np. „**#Imię:KOD (KOD)**”<sup class="ref">[4.2](#ref-4-2-swieta)</sup> | **B** | tu wpisz kolejny numer typu „**B**” dla Patrona | **Z, M, P, W, N, X** | na razie to pole<br />zostaw puste |
+| tu wpisz kolejny<br />numer wiersza | tu wpisz wybraną datę,<br />np. „**WT 2023-08-29**” | tu wpisz alias Patrona<br />i w nawiasie kod wybranego święta,<br />w formie np. „**#Imię:KOD (KOD)**”<sup class="tip">[4.2](#tip-4-2)</sup> | **B** | tu wpisz kolejny numer typu „**B**” dla Patrona | **Z, M, P, W, B, N, X** | na razie to pole<br />zostaw puste |
 
 <br />
 
@@ -37,29 +37,33 @@ Odmów następującą modlitwę dla **odkrywanego święta**:
 > z uczestniczenia w nim dzięki Kościołowi Świętemu.  
 > Amen.
 ## <span class="step-number">7.</span> <span class="step-letter">P</span> Poznaj swięto
-**Przeczytaj jakąkolwiek notkę**<sup class="ref">[7.1](#ref-7-1-swieta)</sup> o odkrywanym święcie lub **obejrzyj o nim film**, aby lepiej poznać znaczenie i historię tego święta.
+**Przeczytaj jakąkolwiek notkę**<sup class="tip">[7.1](#tip-7-1)</sup> o odkrywanym święcie lub **obejrzyj o nim film**, aby lepiej poznać znaczenie i historię tego święta.
 ## <span class="step-number">8.</span> <span class="step-letter">W</span> Wpisz wyzwanie na kartach Patrona
 Wpisz na **karcie bazowej** wybranego Patrona: **typ**, **numer** i <span class="selected-day-info">datę</span>  **wyzwania**.
 
-**UWAGA!** Gdyby **zabrakło miejsca** na wpisanie nowego wyzwania na karcie bazowej, oznacz jednorazowo pole „6+” znaczkiem „✓” i wpisz to wyzwanie na nowej **karcie wyzwań**<sup class="ref">[9.1](#ref-9-1-swieta)</sup>.
-## <span class="step-number">9.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
+**UWAGA!** Gdyby **zabrakło miejsca** na wpisanie nowego wyzwania na karcie bazowej, oznacz jednorazowo pole „6+” znaczkiem „✓” i wpisz to wyzwanie na nowej **karcie wyzwań**<sup class="tip">[9.1](#tip-9-1)</sup>.
+## <span class="step-number">9.</span> <span class="step-letter">B</span> Dodaj nową kartę bazową święta
 Już wkrótce ...
-## <span class="step-number">10.</span> <span class="step-letter">X</span> Wykonaj na końcu
+## <span class="step-number">10.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
 Już wkrótce ...
-## <span class="step-number">11.</span> Zakończ wyzwanie sukcesem
+## <span class="step-number">11.</span> <span class="step-letter">X</span> Wykonaj na końcu
+Już wkrótce ...
+## <span class="step-number">12.</span> Zakończ wyzwanie sukcesem
 Już wkrótce ...
 
 ---
 # Udało się! Odkryłeś nowe **Święto**!
 ### Celebruj i poznawaj święta Kościoła!
 ---
-#### Przypisy:
-- <span id="ref-2-1-swieta">[2.1] Odkrycie święta dotyczącego **wielu patronów** wymaga, aby każdy z nich był już Twoim **Patronem Obrońcą**, np. _„Niedziela Świętej Rodziny”_ dotyczy Jezusa (Osoby Boskie **zawsze** spełniają to kryterium), Maryi i św. Józefa. **Pamiętaj**, że dla każdego z nich, powinno być ono wpisane na liście wyzwań **oddzielnie**.</span>
-- <span id="ref-3-1-swieta">[3.1] Święto jest wpisane dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Papieża, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku).</span>
-- <span id="ref-3-2-swieta">[3.2] Święto **zostało ogłoszone na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**. Orientacyjny kalendarz liturgiczny dla Polski wraz z linkami do kalendarzy diecezjalnych można znaleźć np. na stronie [GCatholic.org](http://www.gcatholic.org/calendar/2023/PL-pl.htm).</span>
-- <span id="ref-3-3-swieta">[3.3] W <span class="selected-day-info">wybranym dniu</span> uczestniczysz w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez Ciebie święta** (tytularnego tego miejsca).</span>
-- <span id="ref-4-1-swieta">[4.1] **Notatki** możesz prowadzić np.: w segregatorze, notatniku, zeszycie, w pliku na komputerze, itp. Warto **podpisać** swoje notatki i **numerować ich strony**.</span>
-- <span id="ref-4-2-swieta">[4.2] Alias Patrona znajdziesz na **karcie bazowej Patrona**. Do niego, w nawiasie dodaj **wymyślony teraz przez Ciebie unikalny kod święta Patrona**, którym zawsze będziesz krótko nazywać te święto. Najlepszą wydaje się być trójznakowa forma: „**KOD**”, np.:
+<span class="hidden-tips">
+Przypisy:
+
+- <span id="tip-2-1">[2.1] Odkrycie święta dotyczącego **wielu patronów** wymaga, aby każdy z nich był już Twoim **Patronem Obrońcą**, np. _„Niedziela Świętej Rodziny”_ dotyczy Jezusa (Osoby Boskie **zawsze** spełniają to kryterium), Maryi i św. Józefa. **Pamiętaj**, że dla każdego z nich, powinno być ono wpisane na liście wyzwań **oddzielnie**.</span>
+- <span id="tip-3-1">[3.1] Święto jest wpisane dla <span class="selected-day-info">wybranego dnia</span> (także dla pasujących świąt ruchomych) w którymkolwiek zaakceptowanym przez Papieża, oficjalnym wydaniu **Martyrologium Rzymskiego** (począwszy od 1584 roku).</span>
+- <span id="tip-3-2">[3.2] Święto **zostało ogłoszone na Mszy św.**, w której uczestniczysz w <span class="selected-day-info">wybranym dniu</span>, na podstawie dowolnego obowiązującego w tym miejscu **kalendarza liturgicznego**. Orientacyjny kalendarz liturgiczny dla Polski wraz z linkami do kalendarzy diecezjalnych można znaleźć np. na stronie [GCatholic.org](http://www.gcatholic.org/calendar/2023/PL-pl.htm).</span>
+- <span id="tip-3-3">[3.3] W <span class="selected-day-info">wybranym dniu</span> uczestniczysz w **sumie odpustowej** parafii lub kościoła filialnego, która **dotyczy wybranego przez Ciebie święta** (tytularnego tego miejsca).</span>
+- <span id="tip-4-1">[4.1] **Notatki** możesz prowadzić np.: w segregatorze, notatniku, zeszycie, w pliku na komputerze, itp. Warto **podpisać** swoje notatki i **numerować ich strony**.</span>
+- <span id="tip-4-2">[4.2] Alias Patrona znajdziesz na **karcie bazowej Patrona**. Do niego, w nawiasie dodaj **wymyślony teraz przez Ciebie unikalny kod święta Patrona**, którym zawsze będziesz krótko nazywać te święto. Najlepszą wydaje się być trójznakowa forma: „**KOD**”, np.:
   - „**#Maria:NAZ (WNI)**”, bo _„Wniebowzięcie Najświętszej Maryi Panny”_,
   - „**#II (WNI)**”, bo _„Wniebowstąpenie Jezusa”_,
   - „**#Maria:NAZ (IMI)**”, bo _„Najświętsze Imię Maryi”_,
@@ -68,8 +72,8 @@ Już wkrótce ...
   - „**#II (1NP)**”, bo _„Pierwsza Niedziela Wielkiego Postu”_, a jeżeli święto **nie odnosi się wprost** do żadnego patrona (np. _„Pierwsza Niedziela Adwentu”_, _„Podniesienie Krzyża Świętego”_, czy _„Środa Popielcowa”_), musimy spojrzeć na nie szerzej by dostrzec, że święta te są częścią Adwentu, Wielkiego Postu lub relikwii, związanych z **Jezusem Chrystusem**, którego powinniśmy do tych świąt przypisać,
   - „**#II (LAT)**”, „**#Jan:CHR (LAT)**” i „**#Jan:EWA (LAT)**”, bo _„Poświęcenie Bazyliki św. Jana na Lateranie”_ dotyczy Patronów tej bazyliki, a są to: Najświętszy Zbawiciel, św. Jan Chrzciciel i św. Jan Ewangelista. **UWAGA**! Pomimo, że _„Najświętszy Zbawiciel”_ kwalifikuje się tu bardziej jako **nazwa innego święta** (tytułu Jezusa, o kodzie np. „**#II (ZBA)**”), przypisujemy zwyczajnie numer Jego osoby, czyli „**II**”, bo odkrywane **święta odnosimy zawsze do patronów, nigdy do innych świąt**!
   </span>
-- <span id="ref-7-1-swieta">[7.1] Do czytania o świętach polecamy skorzystanie z takich stron, jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), [Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_katolickie_w_Polsce) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).</span>
-- <span id="ref-9-1-swieta">[9.1] Na **kartach wyzwań** (jednej lub wielu), notujemy wszystkie **dalsze wyzwania** Patrona.  
+- <span id="tip-7-1">[7.1] Do czytania o świętach polecamy skorzystanie z takich stron, jak: [Internetowa Liturgia Godzin](https://brewiarz.pl/czytelnia/swieci/index.php3), [Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Awi%C4%99ta_katolickie_w_Polsce) lub jakąkolwiek książkę papierową lub e-book (np. na [Wikiżródłach](https://pl.wikisource.org/wiki/%C5%BBywoty_%C5%9Awi%C4%99tych_Pa%C5%84skich_na_wszystkie_dnie_roku)).</span>
+- <span id="tip-9-1">[9.1] Na **kartach wyzwań** (jednej lub wielu), notujemy wszystkie **dalsze wyzwania** Patrona.  
 Karty wyzwań:
   - możesz wydrukować i wyciąć, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_wyzwan.pdf)) lub podobnego, przygotowanego samodzielnie,
   - powinny być podpisane **aliasem Patrona**,
@@ -77,8 +81,4 @@ Karty wyzwań:
     - jest liczbą od 6 do 100 (1-5 to policzone początkowe wyzwania z karty bazowej),
     - **będziesz zwiększać o 1**, tylko dla wyzwań posiadających **numery od 1 do 7** (lub nie mających numeru, np. „A”).
 </span>
-<!--- <span id="ref-x-1-swieta">[x.1] ...-->
-<!--</span>-->
-
-
-[Wróć](javascript:back())
+</span>
