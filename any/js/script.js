@@ -21,6 +21,10 @@ const URL_SEARCH_SEPARATOR = '&';
 const URL_SEARCH_EQUAL_CHARACTER = '=';
 const TITLE_CHARACTERS_TO_REMOVE = '▶';
 
+const TEMPLATE_IMPORT_TEXT = 'md:import';
+const TEMPLATE_VARIABLE_SIGN = '$';
+const TEMPLATE_PARAM_EQUAL_SIGN = '=';
+
 const FILE_EXTENSION_HTML = 'html';
 const FILE_EXTENSION_JSON = 'json';
 const FILE_EXTENSION_MARKDOWN = 'md';
@@ -260,7 +264,7 @@ const loadContent = (location, getRawContent = false) => {
       return (fileExtension == FILE_EXTENSION_JSON) ? response.json() : response.text();
     })
     .then(function (content) {
-      return (fileExtension == FILE_EXTENSION_MARKDOWN) ? getConvertedMarkdownContent(content) : content;
+      return (fileExtension == FILE_EXTENSION_MARKDOWN) ? getConvertedMarkdownContent(content, location) : content;
     })
   ;
 }
@@ -287,11 +291,44 @@ const getProtocolPrefix = () => {
   return location.protocol + '//';
 }
 
-const getConvertedMarkdownContent = (content) => {
+const getReplacedImportedContents = async (content, fileDirPath) => {
+  const importPattern = new RegExp('\\[' + TEMPLATE_IMPORT_TEXT + '\\][(](.+)[)]', 'g');
+  const promises = [];
+
+  content.replace(importPattern, (match, link) => {
+    const filePath = fileDirPath + '/' + link.replace(/#.+/, '');
+    const promise = loadContent(filePath, true);
+
+    promises.push(promise);
+  });
+  const data = await Promise.all(promises);
+
+  return content.replace(importPattern, (match, link) => {
+    const pattern = new RegExp('[' + TEMPLATE_VARIABLE_SIGN + '][^' + TEMPLATE_VARIABLE_SIGN + ']+', 'g');
+    const variables = link.match(pattern);
+    let result = data.shift();
+
+    for (let variable of variables) {
+      const equalSignPos = variable.indexOf(TEMPLATE_PARAM_EQUAL_SIGN);
+      const varName = variable.substring(1, equalSignPos);
+      const varValue = variable.substring(equalSignPos + 1);
+      const varPattern = new RegExp('[' + TEMPLATE_VARIABLE_SIGN + ']' + varName + '[' + TEMPLATE_VARIABLE_SIGN + ']', 'g');
+
+      result = result.replace(varPattern, varValue);
+    }
+
+    return result;
+  });
+}
+
+const getConvertedMarkdownContent = async (content, fileLocation) => {
   const protocolPrefix = getProtocolPrefix();
   const domain = getMainDomain();
   const fileExtensionPattern = '[' + FILE_EXTENSION_SEPARATOR + ']' + FILE_EXTENSION_MARKDOWN;
   const indexFileNamePattern = INDEX_MARKDOWN_FILE_NAME + fileExtensionPattern;
+  const fileDirPath = fileLocation.substring(0, fileLocation.lastIndexOf("/"));
+
+  content = await getReplacedImportedContents(content, fileDirPath);
 
   const pattern1Path = PAGES_PATH
     .replace(new RegExp('^[' + PATH_SEPARATOR + ']'), '')

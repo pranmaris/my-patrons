@@ -15,17 +15,7 @@ Wybrany Patron jest poprawny, gdy:
 <iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-patrons-and-feasts?content-only=1"></iframe>
 
 **UWAGA!** Zapraszając **Patrona Obrońcę** warto sprawdzić, czy dla <span class="selected-day-info">wybranego dnia</span> możliwe będzie też **odkrycie nowego święta** - patrz strona [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md).
-## <span class="step-number">4.</span> Dodaj nowy wiersz notatek
-**UWAGA!** Jeśli **zaczynasz notowanie** lub **skończyło Ci się wolne miejsce**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie przygotować nową stronę<sup class="tip">[4.1](#tip-4-1)</sup>.
-
-Dodaj:
-| Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| tu wpisz kolejny<br />numer wiersza | tu wpisz wybraną datę,<br />np. „**WT 2023-08-29**” | tu wpisz wybranego Patrona,<br />w formie np. „**#Imię:KOD**”<sup class="tip">[4.2](#tip-4-2)</sup> | **A** | **-** | **U, K, M, P, W, S, N, X** | na razie to pole<br />zostaw puste |
-
-<br />
-
-Od tego momentu, wykonane kolejne kroki, **oznaczaj** w polu „**Checklista**”.
+[md:import](szablony/notatki.md#$numer-kroku=4$typ-wyzwania=A$kroki=U, K, M, P, W, S, N, X)
 ## <span class="step-number">5.</span> <span class="step-letter">U</span> W wybranym dniu weź udział we Mszy Świętej
 W <span class="selected-day-info">wybranym dniu</span>, **osobiście** (nie online!) weź udział<sup class="tip">[5.1](#tip-5-1)</sup> we Mszy Świętej<sup class="tip">[5.2](#tip-5-2)</sup> w **dowolnej** rzymskokatolickiej parafii lub kościele.
 ## <span class="step-number">6.</span> <span class="step-letter">K</span> W wybranym dniu przyjmij Komunię Świętą
