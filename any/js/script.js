@@ -312,10 +312,13 @@ const getReplacedImportedContents = async (content, fileDirPath) => {
       const equalSignPos = variable.indexOf(TEMPLATE_PARAM_EQUAL_SIGN);
       const varName = variable.substring(1, equalSignPos);
       const varValue = variable.substring(equalSignPos + 1);
-      const varPattern = new RegExp('[' + TEMPLATE_VARIABLE_SIGN + ']' + varName + '[' + TEMPLATE_VARIABLE_SIGN + ']', 'g');
+      const varPattern = new RegExp('[' + TEMPLATE_VARIABLE_SIGN + ']' + varName + '(=.+?)?[' + TEMPLATE_VARIABLE_SIGN + ']', 'g');
 
       result = result.replace(varPattern, varValue);
     }
+
+    const remainingVarsPattern = new RegExp('[' + TEMPLATE_VARIABLE_SIGN + '][-a-z0-1]+(=(.+))?[' + TEMPLATE_VARIABLE_SIGN + ']', 'g');
+    result = result.replace(remainingVarsPattern, '$2');
 
     return result;
   });

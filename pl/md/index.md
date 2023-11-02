@@ -1,12 +1,3 @@
 # Moi Patroni
 - [Wersja strony&nbsp;<em>„Moi Patroni”</em>&nbsp;sprzed zmian](index_ex.md)
 - [<span class="stage-header">Start</span>: „Moi Patroni”](start_moi_patroni.md)
-- [<span class="stage-header">Etap 1</span>: Bóg i Ja](etap_bog_i_ja.md)
-- [<span class="stage-header">Etap 2</span>: Patroni Opiekunowie](etap_patroni_opiekunowie.md)
-- [<span class="stage-header">Etap 3</span>: Patroni Obrońcy i Święta](etap_patroni_obroncy_i_swieta.md)
-- [<span class="stage-header">Etap 4</span>: Patroni Orędownicy i Misje Wysłannika](etap_patroni_oredownicy_i_misje_wyslannika.md)
-- [<span class="stage-header">Etap 5</span>: Patroni Przyjaciele](etap_patroni_przyjaciele.md)
-- [<span class="stage-header">Etap 6</span>: Misje Apostoła](etap_misje_apostola.md)
-- [<span class="stage-header">Etap dodatkowy X1</span>: Dowiedz się jak ...](etap_dodatkowy_dowiedz_sie_jak.md)
-- [<span class="stage-header">Etap dodatkowy X2</span>: Osiągnięcia](etap_dodatkowy_osiagniecia.md)
-- [<span class="stage-header">Etap dodatkowy X3</span>: Akty i Misje Pobożności](etap_dodatkowy_akty_i_misje_poboznosci.md)

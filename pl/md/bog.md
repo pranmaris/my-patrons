@@ -5,17 +5,9 @@ Jeśli chcesz **powierzyć Bogu** cały Twój **udział w inicjatywie _„Moich 
 <span class="selected-day-info">Data wyzwania</span> to tak naprawdę dzień Twojego **zawierzenia** (więcej w kroku 4) oraz **wyznania wiary w Boga** (więcej w kroku 5). Pozostałe kroki mogą być wykonane w innym czasie.
 ## <span class="step-number">2.</span> Upewnij się, czy możesz sprostać temu wyzwaniu
 **Spełniasz wymagania**, jeśli **nie sprostałeś jeszcze temu wyzwaniu** wcześniej!
-## <span class="step-number">3.</span> Dodaj nowy wiersz notatek
-**UWAGA!** Jeśli **zaczynasz notowanie** lub **skończyło Ci się wolne miejsce**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie przygotować nową stronę<sup class="tip">[3.1](#tip-3-1)</sup>.
 
-Dodaj:
-| Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| tu wpisz kolejny<br />numer wiersza | tu wpisz wybraną datę,<br />np. „**WT 2023-08-29**” | **#I, #II, #III, #I+II+III** | **I** | **-** | **Z, M, P, K, W, S, N, X** | na razie to pole<br />zostaw puste |
+[md:import](szablony/dodaj_nowy_wiersz_notatek_wersja_bez_aliasu_patrona.md#$numer-kroku=3$alias-patrona=**#I, #II, #III, #I+II+III**$typ-wyzwania=I$kroki=Z, M, P, K, W, S, N, X)
 
-<br />
-
-Od tego momentu, wykonane kolejne kroki, **oznaczaj** w polu „**Checklista**”.
 ## <span class="step-number">4.</span> <span class="step-letter">Z</span> W wybranym dniu zawierz Bogu swój udział w inicjatywie
 W <span class="selected-day-info">wybranym dniu</span> **znajdź miejsce**, w którym się skupisz i **w myślach lub na głos**, bez pośpiechu spróbuj własnymi słowami wykonać poniższe kroki:
 - **zawierz Bogu** cały Twój udział w inicjatywie _„Moich Patronów”_,
@@ -80,10 +72,3 @@ Już wkrótce ...
 # Udało się! Powierzyłeś **Bogu** siebie i swój udział!
 ### Twoja przygoda właśnie się rozpoczeła!
 ---
-
-<span class="hidden-tips">
-Przypisy:
-
-<!--- <span id="tip-x-1">[x.1] ...-->
-<!--</span>-->
-</span>
