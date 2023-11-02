@@ -56,7 +56,7 @@ Wciąż jeszcze pracujemy nad najlepszą metodą notowania ...
 ## Karty
 Jeśli jeszcze nie masz [karty bazowej](karty_kolekcjonerskie_ex.md#karty-kolekcjonerskie-karty-bazowe) z tym patronem, **stwórz ją odręcznie** na kartce wielkości karty lub **wydrukuj gotowy szablon** do wypełnienia.
 
-Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe.pdf) lub za pomocą formularza na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards). Pamiętaj, by wielkość wydrukowanych kart była odpowiednia, należy **drukować pliki w domyślnej skali**!
+Zrobisz to łatwo drukując [ten plik](/pl/pdf/karty_bazowe_osob.pdf) lub za pomocą formularza na stronie [naszego projektu **_„Patrons Space”_**](https://pl.patrons.space/cards). Pamiętaj, by wielkość wydrukowanych kart była odpowiednia, należy **drukować pliki w domyślnej skali**!
 
 **Wszystkie swoje karty** najlepiej przechowywać w albumie lub specjalnym pudełku, co ułatwi Ci późniejsze wyszukiwanie zaproszonych już patronów!
 <br />

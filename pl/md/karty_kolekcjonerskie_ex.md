@@ -25,7 +25,7 @@ Niektóre rodzaje są dostępne w formacie **plików PDF do pobrania** poniżej.
 - **status patrona**, np. w formie kolorowej ścieżki pokazującej historię zmian,
 - miejsce na wpisanie **liter powierzonych misji** temu patronowi, np. **B**, **A**.
 
-Aby **pobrać plik PDF** z 8 kartami bazowymi do wydruku, kliknij [tutaj](/pl/pdf/karty_bazowe.pdf)!
+Aby **pobrać plik PDF** z 8 kartami bazowymi do wydruku, kliknij [tutaj](/pl/pdf/karty_bazowe_osob.pdf)!
 
 ## <span id="karty-kolekcjonerskie-karty-wyzwan">Karty wyzwań</span>
 **Karty wyzwań** zawierają informacje o **każdym wyzwaniu wykonanym** dla danego patrona (poza pięcioma pierwszymi znajdującymi się na jego **[karcie bazowej](karty_kolekcjonerskie_ex.md#karty-kolekcjonerskie-karty-bazowe)**). Ważnym elementem tej karty są **aktualne punkty progresu dla patrona**, czyli liczba - od 0 do 100 - wykonanych dla niego wyzwań. **UWAGA**! Należy pamiętać, że **progres patrona zwiększają tylko wykonane wyzwania o numerach mniejszych niż 8**, czyli np. **D1**, **E7**, **G3**, **T** (brak podanego numeru traktujemy jako pierwsze wyzwanie, czyli tutaj **T1**).

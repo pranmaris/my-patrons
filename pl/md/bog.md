@@ -36,7 +36,7 @@ W <span class="selected-day-info">wybranym dniu</span>, odmów _„Credo”_, cz
   - o Jezusie Chrystusie,
   - o Duchu Świętym.
 ## <span class="step-number">7.</span> <span class="step-letter">K</span> Utwórz karty bazowe dla Boga
-Wydrukuj, wytnij i ręcznie wypełnij (jak pokazano poniżej) **nowe karty bazowe** dla trzech **Osób Boskich oraz Trójcy Przenajświętszej**, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_bazowe.pdf)) lub podobnego, przygotowanego samodzielnie.
+Wydrukuj, wytnij i ręcznie wypełnij (jak pokazano poniżej) **nowe karty bazowe** dla trzech **Osób Boskich oraz Trójcy Przenajświętszej**, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_bazowe_osob.pdf)) lub podobnego, przygotowanego samodzielnie.
 
 Dane do wpisania na kartach bazowych:
 - na karcie bazowej **Boga Ojca** wpisz:

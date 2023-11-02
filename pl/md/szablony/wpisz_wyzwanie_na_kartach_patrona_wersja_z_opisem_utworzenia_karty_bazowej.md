@@ -1,7 +1,7 @@
 ## <span class="step-number">$numer-kroku$.</span> <span class="step-letter">W</span> Wpisz wyzwanie na kartach Patrona
 Wpisz na **karcie bazowej** wybranego Patrona: **typ**, **numer** i <span class="selected-day-info">datę</span>  **wyzwania**.
 
-**UWAGA!** Jeśli **wybrany Patron nie ma jeszcze swojej karty bazowej**, możesz wydrukować, wyciąć i ręcznie wypełnić<sup class="tip">[$numer-kroku$.1](#tip-$numer-kroku$-1)</sup> nową, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_bazowe.pdf)) lub podobnego, przygotowanego samodzielnie.
+**UWAGA!** Jeśli **wybrany Patron nie ma jeszcze swojej karty bazowej**, możesz wydrukować, wyciąć i ręcznie wypełnić<sup class="tip">[$numer-kroku$.1](#tip-$numer-kroku$-1)</sup> nową, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_bazowe_osob.pdf)) lub podobnego, przygotowanego samodzielnie.
 
 **UWAGA!** Gdyby **zabrakło miejsca** na wpisanie nowego wyzwania na karcie bazowej, oznacz jednorazowo pole „6+” znaczkiem „✓” i wpisz to wyzwanie na nowej **karcie wyzwań**<sup class="tip">[$numer-kroku$.2](#tip-$numer-kroku$-2)</sup>.
 
