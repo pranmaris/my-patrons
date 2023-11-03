@@ -8,19 +8,19 @@ Wpisz na **karcie bazowej** wybranego Patrona: **typ**, **numer** i <span class=
 <span class="hidden-tips">
 Przypisy:
 
-- <span id="tip-$numer-kroku$-1">[$numer-kroku$.1] Na **nowej karcie bazowej** wpisujemy:
+- <span id="tip-$numer-kroku$-1">[$numer-kroku$.1] Na **nowej karcie bazowej** wpisz:
   - **główne imię Patrona** lub np. „**X**” dla jednego lub wielu Patronów o nieznanym imieniu,
-  - utworzony przez nas **trójznakowy kod rozpoznawczy** Patrona, użyty w notatkach w kolumnie „**Alias Patrona**”,
+  - utworzony przez Ciebie **trójznakowy kod rozpoznawczy** Patrona, użyty w notatkach w kolumnie „**Alias Patrona**”,
   - **drugie imię Patrona**, jeśli takie posiada,
   - **dalszą część nazwy Patrona**, aby go jednoznacznie identyfikować,
   - **datę, rok lub stulecie śmierci Patrona**, np. „**2005-04-02**”, „**1243-10-14/15**”, „**303**”, „**~790**”, „**IVw**”, itd.
-  - dowolne **notatki** jakie chcemy.
+  - dowolne **notatki** jakie chcesz.
 </span>
 - <span id="tip-$numer-kroku$-2">[$numer-kroku$.2] Na **kartach wyzwań** (jednej lub wielu), notujemy wszystkie **dalsze wyzwania** Patrona.  
 Karty wyzwań:
   - możesz wydrukować i wyciąć, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_wyzwan.pdf)) lub podobnego, przygotowanego samodzielnie,
   - powinny być podpisane **aliasem Patrona**,
-  - dla **każdego wyzwania** wpisujemy: **typ**, **numer**, <span class="selected-day-info">datę</span> wyzwania oraz **Twój progres dla Patrona**, który:
+  - dla **każdego wyzwania** wpisuj: **typ**, **numer**, <span class="selected-day-info">datę</span> wyzwania oraz **Twój progres dla Patrona**, który:
     - jest liczbą od 6 do 100 (1-5 to policzone początkowe wyzwania z karty bazowej),
     - **będziesz zwiększać o 1**, tylko dla wyzwań posiadających **numery od 1 do 7** (lub nie mających numeru, np. „A”).
 </span>

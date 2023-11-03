@@ -58,7 +58,23 @@ Przypisy:
 [md:import](szablony/wpisz_wyzwanie_na_kartach_patrona.md#$numer-kroku=8)
 
 ## <span class="step-number">9.</span> <span class="step-letter">B</span> Dodaj nową kartę bazową święta
-Już wkrótce ...
+Wydrukuj, wytnij i ręcznie wypełnij<sup class="tip">[9.1](#tip-9-1)</sup> **kartę bazową święta**, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_bazowe_swiat.pdf)) lub podobnego, przygotowanego samodzielnie.
+
+<span class="hidden-tips">
+Przypisy:
+
+- <span id="tip-9-1">[9.1] Na **nowej karcie bazowej święta** wpisz:
+  - **główne imię Patrona**, analogicznie jak na karcie bazowej Patrona,
+  - utworzony przez Ciebie **trójznakowy kod rozpoznawczy Patrona**, analocznie jak na karcie bazowej Patrona,
+  - utworzony przez Ciebie **trójznakowy kod rozpoznawczy święta**, który znajdziesz w polu „**Alias Patrona**” (patrz pkt. 4),
+  - **pełną nazwę święta**,
+  - **typ i numer** wyzwania dotyczącego odkrycia święta (typem zawsze będzie „**B**”),
+  - **data wykonania** powyższego wyzwania,
+  - dowolne **notatki** jakie chcesz.
+</span>
+
+</span>
+
 ## <span class="step-number">10.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
 Już wkrótce ...
 ## <span class="step-number">11.</span> <span class="step-letter">X</span> Wykonaj na końcu
