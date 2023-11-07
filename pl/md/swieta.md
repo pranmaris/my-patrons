@@ -19,6 +19,7 @@ Przypisy:
 Wybrane święto jest poprawne, gdy:
 - **nie zostało** ono jeszcze przez Ciebie **odkryte**,
 - dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z kryterium**: Martyrologium Rzymskie<sup class="tip">[3.1](#tip-3-1)</sup>, kalendarz liturgiczny<sup class="tip">[3.2](#tip-3-2)</sup>, odpust parafialny<sup class="tip">[3.3](#tip-3-3)</sup> lub znajduje się na **poniższej liście**:  
+
 <iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-feasts?content-only=1"></iframe>
 
 **UWAGA!** Jednego dnia **można odkryć wiele świąt**, dla każdego wykonując osobne wyzwanie!
@@ -75,12 +76,12 @@ Przypisy:
 
 </span>
 
-## <span class="step-number">10.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
+[md:import](szablony/zanotuj_dodatkowe_informacje.md#$numer-kroku=10)
 Już wkrótce ...
-## <span class="step-number">11.</span> <span class="step-letter">X</span> Wykonaj na końcu
-Już wkrótce ...
-## <span class="step-number">12.</span> Zakończ wyzwanie sukcesem
-Już wkrótce ...
+
+[md:import](szablony/wykonaj_na_koncu.md#$numer-kroku=11)
+
+[md:import](szablony/zakoncz_wyzwanie_sukcesem.md#$numer-kroku=12$numer-kroku-o-notatkach=4)
 
 ---
 # Udało się! Odkryłeś nowe **Święto**!

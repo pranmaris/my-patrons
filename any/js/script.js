@@ -317,7 +317,7 @@ const getReplacedImportedContents = async (content, fileDirPath) => {
       result = result.replace(varPattern, varValue);
     }
 
-    const remainingVarsPattern = new RegExp('[' + TEMPLATE_VARIABLE_SIGN + '][-a-z0-1]+(=(.+))?[' + TEMPLATE_VARIABLE_SIGN + ']', 'g');
+    const remainingVarsPattern = new RegExp('[' + TEMPLATE_VARIABLE_SIGN + '][-a-z0-9]+(=(.+))?[' + TEMPLATE_VARIABLE_SIGN + ']', 'g');
     result = result.replace(remainingVarsPattern, '$2');
 
     return result;
@@ -612,7 +612,7 @@ const showTip = (tipLinkElement) => {
   toastElement.innerHTML = `
     <div class="d-flex">
       <div class="toast-body">` + text + `</div>
-      <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      <button type="button" class="btn-close m-2 m-top" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
   `;
   tipLinkElement.parentElement.appendChild(toastElement);

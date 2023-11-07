@@ -12,6 +12,7 @@ Jeśli chcesz **zaprosić nowego** świętego lub błogosławionego do grona swo
 Wybrany Patron jest poprawny, gdy:
 - **nie jest on jeszcze Twoim Patronem Obrońcą**, czyli ma status w kolorze: <span class="status status-black">czarnym</span>, <span class="status status-red">czerwonym</span>, <span class="status status-orange">pomarańczowym</span> albo <span class="status status-yellow">żółtym</span>,
 - dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z kryterium**: Martyrologium Rzymskie<sup class="tip">[3.1](#tip-3-1)</sup>, wiarygodna rocznica śmierci<sup class="tip">[3.2](#tip-3-2)</sup>, dzień kanonizacji lub beatyfikacji<sup class="tip">[3.3](#tip-3-3)</sup>, kalendarz liturgiczny<sup class="tip">[3.4](#tip-3-4)</sup>, odpust parafialny<sup class="tip">[3.5](#tip-3-5)</sup> lub znajduje się na **poniższej liście**:  
+
 <iframe id="my-patrons-for-today" src="https://pl.patrons.space/dates/list-of-patrons-and-feasts?content-only=1"></iframe>
 
 **UWAGA!** Zapraszając **Patrona Obrońcę** warto sprawdzić, czy dla <span class="selected-day-info">wybranego dnia</span> możliwe będzie też **odkrycie nowego święta** - patrz strona [<span class="status status-list"><span class="status status-white">B</span> Święta</span>](swieta.md).
@@ -79,12 +80,35 @@ Przypisy:
 
 [md:import](szablony/zmien_kolor_statusu_patrona_na_karcie_bazowej.md#$numer-kroku=10$typ-wyzwania=A)
 
-## <span class="step-number">11.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
-Już wkrótce ...
-## <span class="step-number">12.</span> <span class="step-letter">X</span> Wykonaj na końcu
-Już wkrótce ...
-## <span class="step-number">13.</span> Zakończ wyzwanie sukcesem
-Już wkrótce ...
+[md:import](szablony/zanotuj_dodatkowe_informacje.md#$numer-kroku=11)
+- <span class="comment-type">K</span> Kryterium wyboru Patrona Obrońcy<sup class="tip">[11.2](#tip-11-2)</sup>,
+- <span class="comment-type">P</span> Przeczytany fragment Pisma Świętego, np. „_J 16_”,
+- <span class="comment-type">\*</span> Dalsze informacje, np. na temat Mszy Świętej:
+  - <span class="comment-type">C</span> Godzina rozpoczęcia Mszy,
+  - <span class="comment-type">M</span> Miejsce Mszy,
+  - <span class="comment-type">L</span> Celebransi i inne osoby, czyli np. kto sprawował Mszę, głosił homilię, itp.,
+  - <span class="comment-type">I</span> Pozostałe informacje, np.: „_Pierwszy Piątek Miesiąca_”, „_Msza chrzcielna_”, „_Po Mszy procesja wokół kościoła_”, itp.
+
+<span class="hidden-tips">
+Przypisy:
+
+- <span id="tip-11-2">[11.2] Jako kryterium wyboru możemy podać np.:
+  - „**MAR**” - istnieje wpis tego patrona w którymś oficjalnym wydaniu Martyrologium Rzymskiego dla dnia dzisiejszego,
+  - „**MAR[1948]:3**” - w Martyrologium z 1948 roku wybrany patron jest opisany w trzecim elogium dla dnia dzisiejszego (jeśli elogium dotyczy wielu patronów, a ten nasz jest podany np. jako siódmy, możemy podać „MAR[1948]:3/7”),
+  - „**MAR[2004]:R10**” - w Martyrologium z 2004 wybrany patron jest opisany w dziesiątym elogium świąt ruchomych, które dzisiaj przypada,
+  - „**DSM**” - dzisiaj jest rocznica śmierci danego patrona,
+  - „**BEA**” - dokładnie dzisiaj (bieżącego roku) odbyła się beatyfikacja wybranego patrona,
+  - „**KAN**” - dokładnie dzisiaj (bieżącego roku) odbyła się kanonizacja wybranego patrona,
+  - „**KAL**” - patron był dzisiaj jawnie wspomniany na Mszy, w której uczestniczyliśmy na podstawie dowolnego obowiązującego kalendarza liturgicznego,
+  - „**ODP**” - dzisiaj była suma odpustu parafialnego dotycząca wybranego patrona,
+  - „**INN**” - dzisiaj przypada inny dzień wspomnienia, podany na stronie [naszego projektu „Patrons Space”](https://pl.patrons.space/dates/list-of-patrons-and-feasts).
+</span>
+
+</span>
+
+[md:import](szablony/wykonaj_na_koncu.md#$numer-kroku=12)
+
+[md:import](szablony/zakoncz_wyzwanie_sukcesem.md#$numer-kroku=13$numer-kroku-o-notatkach=4)
 
 ---
 # Udało się! Zaprosiłeś **Patrona Obrońcę**!

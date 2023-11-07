@@ -31,12 +31,13 @@ Przypisy:
 Już wkrótce ...
 ## <span class="step-number">5.</span> <span class="step-letter">B</span> Dodaj nową kartę bazową wydarzenia
 Już wkrótce ...
-## <span class="step-number">6.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
+
+[md:import](szablony/zanotuj_dodatkowe_informacje.md#$numer-kroku=6)
 Już wkrótce ...
-## <span class="step-number">7.</span> <span class="step-letter">X</span> Wykonaj na końcu
-Już wkrótce ...
-## <span class="step-number">8.</span> Zakończ wyzwanie sukcesem
-Już wkrótce ...
+
+[md:import](szablony/wykonaj_na_koncu.md#$numer-kroku=7)
+
+[md:import](szablony/zakoncz_wyzwanie_sukcesem.md#$numer-kroku=8$numer-kroku-o-notatkach=2)
 
 ---
 ### Stwórz kartę „Ja”, czyli swoją wizytówkę!

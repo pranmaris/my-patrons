@@ -61,12 +61,13 @@ Dane do wpisania na kartach bazowych:
 Wpisz na **kartach bazowych** trzech Osób Boskich i Trójcy: **typ „I”** i <span class="selected-day-info">datę</span>  **wyzwania** w pierwszym (wolnym) wierszu wyzwań.
 ## <span class="step-number">9.</span> <span class="step-letter">S</span> Uzupełnij rysunek statusu na kartach bazowych Boga
 Na **kartach bazowych** trzech Osób Boskich i Trójcy, w sekcji „**Zmiany kolorów statusu**”, połącz **wszystkie** kolorowe kółka liniami z **najbliższymi** kółkami z sąsiednich rzędów. Bóg jest zawsze i wszędzie, stąd symboliczna wielość połączeń.
-## <span class="step-number">10.</span> <span class="step-letter">N</span> Zanotuj dodatkowe informacje
+
+[md:import](szablony/zanotuj_dodatkowe_informacje.md#$numer-kroku=10)
 Już wkrótce ...
-## <span class="step-number">11.</span> <span class="step-letter">X</span> Wykonaj na końcu
-Już wkrótce ...
-## <span class="step-number">12.</span> Zakończ wyzwanie sukcesem
-Już wkrótce ...
+
+[md:import](szablony/wykonaj_na_koncu.md#$numer-kroku=11)
+
+[md:import](szablony/zakoncz_wyzwanie_sukcesem.md#$numer-kroku=12$numer-kroku-o-notatkach=3)
 
 ---
 # Udało się! Powierzyłeś **Bogu** siebie i swój udział!

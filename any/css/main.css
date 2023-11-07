@@ -318,3 +318,17 @@ span.hidden-tips {
   border-color: black;
 }
 
+.comment-type {
+  text-align: center;
+  min-width: 2em;
+  width: auto;
+  min-height: 1em;
+  height: auto;
+  margin: 0px;
+  padding: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 100, 100);
+  white-space: pre;
+  display: inline-block;
+}
