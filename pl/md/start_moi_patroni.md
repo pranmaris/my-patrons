@@ -3,35 +3,37 @@
 **Pobierz** wersję papierową strony (już wkrótce)
 
 ---
-## **_„Moi Patroni”_** są:
-- Oddolną **inicjatywą katolicką**!
-- **Zachętą** do nawiązania głębszej relacji z Bogiem i Patronami!
-- **Dla każdego**!
-- **Za darmo**!
-- **Dobrowolni**!
-- **Niezobowiązujący**!
-- **Dostępni** dla Ciebie choćby dziś!
+## **_„Moi Patroni”_** są ...
+- ... oddolną **inicjatywą katolicką**!
+- ... **zachętą** do nawiązania głębszej relacji z Bogiem i Patronami!
+- ... **dla każdego**!
+- ... **za darmo**!
+- ... **dobrowolni**!
+- ... **niezobowiązujący**!
+- ... **dostępni** dla Ciebie choćby dziś!
 
-## Uczestnicząc w **_„Moich Patronach”_**:
-- **Zapraszaj** Świętych i Błogosławionych Kościoła do grona swoich Patronów!
-- **Odkrywaj** święta Kościoła!
-- **Wykonuj** ciekawe wyzwania!
-- **Zdobywaj** ambitne osiągnięcia!
-- **Bierz udział** w specjalnych misjach!
-- **Wspomagaj** innych modlitwą i Twoimi Patronami!
-- **Zbieraj** karty kolekcjonerskie!
+## Uczestnicząc w **_„Moich Patronach”_** ...
+- ... **zapraszaj** Świętych i Błogosławionych Kościoła do grona swoich Patronów!
+- ... **odkrywaj** święta Kościoła!
+- ... **wykonuj** ciekawe wyzwania!
+- ... **zdobywaj** ambitne osiągnięcia!
+- ... **bierz udział** w specjalnych misjach!
+- ... **wspomagaj** innych modlitwą i Twoimi Patronami!
+- ... **zbieraj** karty kolekcjonerskie!
 
-## Dzięki **_„Moim Patronom”_**:
-- **Poznawaj** bogactwo i piękno Kościoła Rzymskokatolickiego!
-- **Powierzaj** siebie Bogu i Patronom!
-- **Zdobywaj** mądrość czytając Pismo Święte i żywoty Świętych!
-- **Wzrastaj** duchowo dzięki Mszy Świętej, nabożeństwom i innym aktom pobożności!
-- **Doświadczaj** siły Adoracji, Sakramentów i Różańca!
-- **Współpracuj** z innymi!
-- **Baw się** dobrze!
+## Dzięki **_„Moim Patronom”_** ...
+- ... **poznawaj** bogactwo i piękno Kościoła Rzymskokatolickiego!
+- ... **powierzaj** siebie Bogu i Patronom!
+- ... **zdobywaj** mądrość czytając Pismo Święte i żywoty Świętych!
+- ... **wzrastaj** duchowo dzięki Mszy Świętej, nabożeństwom i innym aktom pobożności!
+- ... **doświadczaj** siły Adoracji, Sakramentów i Różańca!
+- ... **współpracuj** z innymi!
+- ... **baw się** dobrze!
+
+## Czym jest zapraszanie Patronów?
+Już wkrótce ...
 
 ## Kolejny krok
-
-- Czas na [**<span class="stage-header">Etap 1</span>: Bóg i Ja**](etap_bog_i_ja.md)!
+Czas na [**<span class="stage-header">Etap 1</span>: Bóg**](etap_bog.md)!
 
 [Powrót do głównego menu](index.md)

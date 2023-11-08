@@ -8,33 +8,12 @@ Jeśli chcesz **powierzyć Bogu** cały Twój **udział w inicjatywie _„Moich 
 
 [md:import](szablony/dodaj_nowy_wiersz_notatek_wersja_bez_aliasu_patrona.md#$numer-kroku=3$alias-patrona=**#I, #II, #III, #I+II+III**$typ-wyzwania=I$kroki=Z, M, P, K, W, S, N, X)
 
-## <span class="step-number">4.</span> <span class="step-letter">Z</span> W wybranym dniu zawierz Bogu swój udział w inicjatywie
-W <span class="selected-day-info">wybranym dniu</span> **znajdź miejsce**, w którym się skupisz i **w myślach lub na głos**, bez pośpiechu spróbuj własnymi słowami wykonać poniższe kroki:
-- **zawierz Bogu** cały Twój udział w inicjatywie _„Moich Patronów”_,
-- **poproś Go**, aby dał Ci siły, radość, umiejętności i zapał do wykonywania wszystkich wyzwań,
-- **ofiaruj Mu** swoje serce, aby mógł je przemieniać i działać w Twojej duszy, a także w innych uczestnikach dzięki Twojej osobie,
-- **wyznaj Mu** Twoją wiarę, ufność i miłość do Niego!
+[md:import](szablony/w_wybranym_dniu_zawierz_bogu_swoj_udzial_w_inicjatywie.md#$numer-kroku=4$oznaczenie-literowe-kroku=<span class="step-letter">Z</span>)
 
-Możesz to zrobić po swojemu. Ważne by się na chwilę zatrzymać, spokojnie porozmawiać z Bogiem i by było od serca!
-## <span class="step-number">5.</span> <span class="step-letter">M</span> W wybranym dniu pomódl się do Boga
-W <span class="selected-day-info">wybranym dniu</span>, odmów _„Credo”_, czyli:
-> Wierzę w jednego Boga, Ojca Wszechmogącego, Stworzyciela nieba i ziemi, wszystkich rzeczy widzialnych i niewidzialnych.  
-> I w jednego Pana Jezusa Chrystusa, Syna Bożego Jednorodzonego, który z Ojca jest zrodzony przed wszystkimi wiekami. Bóg z Boga, Światłość ze Światłości, Bóg prawdziwy z Boga prawdziwego. Zrodzony, a nie stworzony, współistotny Ojcu, a przez Niego wszystko się stało. On to dla nas ludzi i dla naszego zbawienia zstąpił z nieba. I za sprawą Ducha Świętego przyjął ciało z Maryi Dziewicy i stał się człowiekiem. Ukrzyżowany również za nas pod Poncjuszem Piłatem został umęczony i pogrzebany. I zmartwychwstał trzeciego dnia, jak oznajmia Pismo. I wstąpił do nieba; siedzi po prawicy Ojca. I powtórnie przyjdzie w chwale sądzić żywych i umarłych, a królestwu Jego nie będzie końca.  
-> Wierzę w Ducha Świętego, Pana i Ożywiciela, który od Ojca i Syna pochodzi. Który z Ojcem i Synem wspólnie odbiera uwielbienie i chwałę; który mówił przez Proroków. Wierzę w jeden, święty, powszechny i apostolski Kościół. Wyznaję jeden chrzest na odpuszczenie grzechów. I oczekuję wskrzeszenia umarłych i życia wiecznego w przyszłym świecie.  
-> Amen
+[md:import](szablony/w_wybranym_dniu_pomodl_sie_do_boga.md#$numer-kroku=5$oznaczenie-literowe-kroku=<span class="step-letter">M</span>)
 
-**UWAGA!** Dla małych dzieci można zamiennie odmówić nieco krótszy tzw. _„Skład Apostolski”_, czyli:
-> Wierzę w Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi.  
-> I w Jezusa Chrystusa, Syna Jego Jedynego, Pana naszego, który się począł z Ducha Świętego, narodził się z Maryi Panny, umęczon pod Ponckim Piłatem, ukrzyżowan, umarł i pogrzebion, zstąpił do piekieł, trzeciego dnia zmartwychwstał, wstąpił na niebiosa, siedzi po prawicy Boga, Ojca wszechmogącego, stamtąd przyjdzie sądzić żywych i umarłych.  
-> Wierzę w Ducha Świętego, święty Kościół powszechny, świętych obcowanie, grzechów odpuszczenie, ciała zmartwychwstanie, żywot wieczny.  
-> Amen.
-## <span class="step-number">6.</span> <span class="step-letter">P</span> Poznaj Boga
-**Przeczytaj jakąkolwiek notkę** lub **obejrzyj film**:
-- o Trójcy Przenajświętszej,
-- i dodatkowo o każdej z **trzech Osób Boskich** osobno:
-  - o Bogu Ojcu,
-  - o Jezusie Chrystusie,
-  - o Duchu Świętym.
+[md:import](szablony/poznaj_boga.md#$numer-kroku=6$oznaczenie-literowe-kroku=<span class="step-letter">P</span>)
+
 ## <span class="step-number">7.</span> <span class="step-letter">K</span> Utwórz karty bazowe dla Boga
 Wydrukuj, wytnij i ręcznie wypełnij (jak pokazano poniżej) **nowe karty bazowe** dla trzech **Osób Boskich oraz Trójcy Przenajświętszej**, korzystając z naszego szablonu ([**pobierz**](pl/pdf/karty_bazowe_osob.pdf)) lub podobnego, przygotowanego samodzielnie.
 
@@ -71,5 +50,5 @@ Już wkrótce ...
 
 ---
 # Udało się! Powierzyłeś **Bogu** siebie i swój udział!
-### Twoja przygoda właśnie się rozpoczeła!
+### Już czas na zapraszanie Patronów, którzy na to bardzo czekają!
 ---

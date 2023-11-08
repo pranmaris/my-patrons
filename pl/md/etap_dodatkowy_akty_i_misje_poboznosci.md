@@ -1,4 +1,4 @@
-# <span class="stage-header">Etap dodatkowy X3</span>: Akty i Misje Pobożności
+# <span class="stage-header">Etap dodatkowy X3</span>: Misje Apostoła
 ---
 Już wkrótce ...
 
