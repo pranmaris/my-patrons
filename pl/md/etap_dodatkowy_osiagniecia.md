@@ -1,4 +1,4 @@
-# <span class="stage-header">Etap dodatkowy X2</span>: Osiągnięcia
+# <span class="stage-header">Etap dodatkowy</span>: Osiągnięcia
 ---
 Już wkrótce ...
 

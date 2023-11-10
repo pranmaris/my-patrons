@@ -1,4 +1,4 @@
-# <span class="stage-header">Etap dodatkowy X3</span>: Misje Apostoła
+# <span class="stage-header">Etap dodatkowy</span>: Misje Apostoła
 ---
 Już wkrótce ...
 

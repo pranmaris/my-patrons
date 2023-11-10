@@ -1,4 +1,4 @@
-# <span class="stage-header">Etap 6</span>: Patroni Przyjaciele
+# <span class="stage-header">Etap 7</span>: Patroni Przyjaciele
 ---
 Już wkrótce ...
 

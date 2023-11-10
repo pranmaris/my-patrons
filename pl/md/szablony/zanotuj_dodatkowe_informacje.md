@@ -4,7 +4,7 @@ Poniższe punkty są tylko naszymi propozycjami, które **możesz (nie musisz!)*
 <span class="hidden-tips">
 Przypisy:
 
-- <span id="tip-$numer-kroku$-1">[$numer-kroku$.1] Najlepiej umieszczać dodatkowe notatki **na odwrocie karty z checklistą wyzwania**. Można też stosować osobny kalendarz, by uniknąć wielokrotnego wpisywania tych samych informacji dla każdego członka rodziny, np. tych dotyczących okoliczności wyzwania (godzina, miejsce, osoby biorące udział, itp.).</span>
+- <span id="tip-$numer-kroku$-1">[$numer-kroku$.1] Najlepiej umieszczać dodatkowe notatki **na odwrocie karty z checklistą wyzwania**. Aby uniknąć wielokrotnego wpisywania tych samych informacji oznaczonych znakiem <span class="comment-type">\*</span>, dotyczących bardziej okoliczności niż samego wyzwania, np. o Mszy Świętej (jej czas, miejsce, itp.), przy rodzinnym w niej udziale i wykonywaniu dzięki temu wyzwaniu przez wielu członków rodziny. Warto wtedy rozważyć użycie **kalendarza notatnikowego** do jednokrotnego notowania tych informacji, dla każdej osoby pod odpowiednią datą.</span>
 
 </span>
 
