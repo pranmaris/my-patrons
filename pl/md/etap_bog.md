@@ -37,6 +37,8 @@ Wypełnij sekcję zatytułowaną: „**I. BÓG**” następująco:
 - pola „**WIEDZA O OSOBACH BOSKICH**” oznaczaj znakiem „**✓**” po zapoznaniu się z Trójcą Przenajświętszą i każdą Osobą Boską z osobna,
 - nieobowiązkowo w sekcji „**NOTATKI**”, możesz zapisać także dowolne informacje, np. o godzinie i miejscu dotyczącym **zawierzenia**.
 
+Pozostałe sekcje formularza **pozostaw na razie puste!**
+
 [md:import](szablony/poinformuj_swoich_apostolow.md#$numer-kroku=6)
 
 ---
@@ -45,6 +47,6 @@ Wypełnij sekcję zatytułowaną: „**I. BÓG**” następująco:
 ---
 
 ## Kolejny krok
-Czas na [**<span class="stage-header">Etap 2</span>: Ja</span>**](etap_ja.md)!
+Zobacz [co możesz zrobić dalej?](co_mozesz_zrobic_dalej.md)
 
 [Powrót do głównego menu](index.md)
