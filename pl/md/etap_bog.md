@@ -33,9 +33,9 @@ Teraz potrzebne Ci będzie miejsce do zanotowanie podstawowych informacji o powy
 
 Wypełnij sekcję zatytułowaną: „**I. BÓG**” następująco:
 - jako „**WŁAŚCICIEL**” wpisz swoje imię i nazwisko,
-- jako „**DATA ZAWIERZENIA I CREDO**” wpisz <span class="selected-day-info">wybraną datę</span> tego wydarzenia, np. „**PT 2023-08-25**”,
-- pola „**WIEDZA O OSOBACH BOSKICH**” oznaczaj znakiem „**✓**” po zapoznaniu się z Trójcą Przenajświętszą i każdą Osobą Boską z osobna,
-- nieobowiązkowo w sekcji „**NOTATKI**”, możesz zapisać także dowolne informacje, np. o godzinie i miejscu dotyczącym **zawierzenia**.
+- jako „**DATA ZAWIERZENIA I CREDO**” wpisz <span class="selected-day-info">wybraną datę</span> tego wydarzenia, np. „**PT 2023-08-25**” (patrz krok 1),
+- pola „**WIEDZA O OSOBACH BOSKICH**” oznaczaj znakiem „**✓**” po zapoznaniu się z Trójcą Przenajświętszą i każdą Osobą Boską z osobna (patrz krok 4),
+- **jeśli chcesz**, w sekcji „**NOTATKI**”, możesz zapisać także dowolne informacje, np. o godzinie i miejscu dotyczącym **zawierzenia**.
 
 Pozostałe sekcje formularza **pozostaw na razie puste!**
 

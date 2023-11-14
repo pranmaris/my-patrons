@@ -3,5 +3,3 @@
 
 **Poinformuj te osoby o Twoim uczestnictwie**, jeśli o tym jeszcze nie wiedzą.
 
-Umożliwi im to **wykonanie kolejnej Misji Apostoła** i na pewno bardzo ucieszy!
-

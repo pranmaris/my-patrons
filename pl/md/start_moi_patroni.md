@@ -1,8 +1,5 @@
 # <span class="stage-header">Start</span>: „Moi Patroni”
 ---
-**Pobierz** wersję papierową strony (już wkrótce)
-
----
 ## **_„Moi Patroni”_** są ...
 - ... oddolną **inicjatywą katolicką**!
 - ... **zachętą** do nawiązania głębszej relacji z Bogiem i Patronami!
@@ -32,6 +29,11 @@
 
 ## Czym jest zapraszanie Patronów?
 Już wkrótce ...
+
+---
+# Chcesz zacząć swoją przygodę z „Moimi Patronami”?
+### Zacznij od etapu 1
+---
 
 ## Kolejny krok
 Czas na [**<span class="stage-header">Etap 1</span>: Bóg**](etap_bog.md)!
