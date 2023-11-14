@@ -1,2 +1,3 @@
 # My Patrons
-- [About My Patrons](about_my_patrons.md)
+- [My Patrons](my_patrons.md)
+- [About "Gratia Dei" initiative ](about_gratia_dei_initiative.md)
