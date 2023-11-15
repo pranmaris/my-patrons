@@ -20,7 +20,8 @@ Przypisy:
   - „**#Sykstus:2PP**”, bo jako papież nazywał się „Sykstus II”,
   - „**#Jan:VIA**”, bo nosił nazwisko „Vianney”,
   - „**#Maria:FAU**”, bo pod koniec życia jako zakonnica nazywała się „Maria Faustyna” (Kowalska),
-  - „**#Chryzant:DAR**”, bo zmarł męczeńsko razem ze świętą o imieniu „Daria”.
+  - „**#Chryzant:DAR**”, bo zmarł męczeńsko razem ze świętą o imieniu „Daria”,
+  - „**#X:SWI**”, bo nie znamy imion **Wszystkich Świętych**, których będziemy traktować analogicznie jak pojedynczego Patrona.
   </span>
 
 </span>
