@@ -2,7 +2,9 @@
 [Powrót do **<span class="stage-header">Etapu 1</span>: Bóg**](etap_bog.md).
 
 ---
-W etapie 2 **skupimy się na nas samych** i naszej historii sprzed **dnia zawierzenia** dokonanego w etapie 1.
+Teraz **skupimy się na nas samych** i naszej historii sprzed **dnia zawierzenia** dokonanego w etapie 1.
+
+**Etap 2** składa się z **czterech** kroków:
 ## <span class="step-number">1.</span> Zanotuj swoje narodziny i przyjęte Sakramenty
 Na formularzu z [etapu 1](etap_bog.md) (patrz krok 5), wypełnij sekcję zatytułowaną: „**J. NARODZINY I SAKRAMENTY**” następująco:
 - wpisz **datę swoich urodzin** (najlepiej z dniem tygodnia),
@@ -44,7 +46,7 @@ Wykonaj poniższe kroki:
 - **ustal swoich Patronów** powyższych imion<sup class="tip">[3.1](#tip-3-1)</sup>,
 - na formularzu z kroku 1, **wypełnij sekcję** zatytułowaną: „**YA. OSIĄGNIĘCIE: PATRONI MOICH IMION**”, wpisując informacje o swoich imionach i Patronach w kolejnych wierszach<sup class="tip">[3.2](#tip-3-2)</sup>.
 
-Wypełniona w tym kroku sekcja o Patronach **to Twoje pierwsze osiągnięcie**, jakie możesz zdobyć! Cztery puste kolumny po prawej strony będziesz wypełniać **zapraszając swoich Patronów** już wkrótce! Więcej o osiągnięciach dowiesz się w następnym etapie.
+Wypełniona w tym kroku sekcja o Patronach **to Twoje pierwsze osiągnięcie**, jakie możesz zdobyć! Cztery puste kolumny po prawej strony będziesz wypełniać **zapraszając swoich Patronów**. Więcej o osiągnięciach **dowiesz się wkrótce!**
 
 <span class="hidden-tips">
 Przypisy:
@@ -60,9 +62,12 @@ Przypisy:
 
 </span>
 
+## <span class="step-number">4.</span> ...
+Już wkrótce ...
+
 ---
 # Udało się! Uporządkowałeś ważne informacje o sobie!
-### Po lepszym poznaniu Boga i siebie samego, czas na pełną mechanikę gry.
+### Po lepszym poznaniu Boga i siebie samego, czas na zaproszenie pierwszych Patronów!
 ---
 
 ## Kolejny krok

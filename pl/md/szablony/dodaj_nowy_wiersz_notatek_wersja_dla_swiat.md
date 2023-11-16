@@ -1,7 +1,7 @@
 ## <span class="step-number">$numer-kroku$.</span> Dodaj nowy wiersz notatek
 **UWAGA!** Jeśli **zaczynasz notowanie** lub **skończyło Ci się wolne miejsce**, możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/notatki.pdf)) lub samodzielnie przygotować nową stronę<sup class="tip">[$numer-kroku$.1](#tip-$numer-kroku$-1)</sup>.
 
-Dodaj:
+Dodaj poniższy wiersz:
 | Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | tu wpisz kolejny<br />numer wiersza | tu wpisz wybraną datę,<br />np. „**WT 2023-08-29**” | tu wpisz alias Patrona<br />i w nawiasie kod wybranego święta,<br />w formie np. „**#Imię:KOD (SWI)**”<sup class="tip">[$numer-kroku$.2](#tip-$numer-kroku$-2)</sup> | **B** | tu wpisz kolejny numer typu „**B**” dla tego Patrona | **Z, M, P, W, B, N, X** | na razie to pole<br />zostaw puste |

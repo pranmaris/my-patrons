@@ -9,7 +9,7 @@ To:
 
 ---
 # Etapów jest kilka i warto przechodzić je po kolei!
-### Odkrywaj co Bóg ze swoim Kościołem i Patronami mogą Ci zaoferować krok po kroku!
+### Odkrywaj krok po kroku, co Bóg ze swoim Kościołem i Patronami mogą Ci zaoferować!
 ---
 
 [Powrót do głównego menu](index.md)
