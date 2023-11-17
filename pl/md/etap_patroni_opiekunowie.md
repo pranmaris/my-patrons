@@ -1,4 +1,4 @@
-# <span class="stage-header">Etap 4</span>: Patroni Opiekunowie
+# <span class="stage-header">Etap 3</span>: Patroni Opiekunowie
 ---
 Już wkrótce ...
 

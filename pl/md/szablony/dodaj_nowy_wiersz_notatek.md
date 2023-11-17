@@ -4,7 +4,7 @@
 Dodaj poniższy wiersz:
 | Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| tu wpisz kolejny<br />numer wiersza | tu wpisz wybraną datę,<br />np. „**WT 2023-08-29**” | tu wpisz wybranego Patrona,<br />w formie np. „**#Imię:KOD**”<sup class="tip">[$numer-kroku$.2](#tip-$numer-kroku$-2)</sup> | **$typ-wyzwania$** | **-** | **$kroki$** | na razie to pole<br />zostaw puste |
+| tu wpisz kolejny<br />numer wiersza | tu wpisz wybraną datę,<br />np. „**WT 2023-08-29**” | tu wpisz wybranego Patrona,<br />w formie np. „**#Imię:KOD**”<sup class="tip">[$numer-kroku$.2](#tip-$numer-kroku$-2)</sup> | **$typ-wyzwania$** | **-** | <span class="no-wrap">**$kroki$</span>** | na razie to pole<br />zostaw puste |
 
 <br />
 
@@ -13,7 +13,7 @@ Od tego momentu, wykonane kolejne kroki, **oznaczaj** w polu „**Checklista**�
 <span class="hidden-tips">
 Przypisy:
 
-- <span id="tip-$numer-kroku$-1">[$numer-kroku$.1] **Notatki** możesz prowadzić np.: w segregatorze, notatniku, zeszycie, w pliku na komputerze, itp. Warto **podpisać** swoje notatki i **numerować ich strony**.</span>
+- <span id="tip-$numer-kroku$-1">[$numer-kroku$.1] **Notatki** możesz prowadzić np.: w segregatorze, notatniku, zeszycie, w pliku na komputerze, w [chmurze](https://docs.google.com), itp. Warto **podpisać** swoje notatki i **numerować ich strony**.</span>
 - <span id="tip-$numer-kroku$-2">[$numer-kroku$.2] Alias znajdziesz na **karcie bazowej Patrona**. Jeżeli nie ma on jeszcze swojej karty bazowej, **wymyśl teraz Patronowi jego unikalny alias**, którym go zawsze będziesz krótko nazywać. Najlepszą formą wydaje się być: „**#Imię:KOD**”, gdzie „**Imię**” to najnowsze **główne imię** Patrona, a „**KOD**” to nadany przez Ciebie **trzyznakowy kod rozpoznawczy**, np.:
   - „**#Piotr:APO**”, bo Apostoł,
   - „**#Teresa:AVI**”, bo z Avili,

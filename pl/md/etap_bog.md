@@ -4,7 +4,7 @@
 ---
 Na początku swojej drogi z „_Moimi Patronami_” skieruj całą swoją uwagę na **Boga**, dzięki któremu tu **jesteś** i ta droga jest w ogóle **możliwa**!
 
-**Etap 1** składa się z **sześciu** poniższych kroków:
+<span class="stage-header">Etap 1</span> składa się z **sześciu** poniższych kroków:
 ## <span class="step-number">1.</span> Wybierz dzień zawierzenia Bogu swojego udziału
 Wybierz <span class="selected-day-info">dzień</span>, w którym dokonasz swojego **zawierzenia i modlitwy „_Credo_”**. Najlepszy będzie **dzień dzisiejszy**!
 <br />
@@ -52,8 +52,8 @@ W <span class="selected-day-info">wybranym dniu</span>, odmów _„Credo”_, cz
   - o Bogu Ojcu,
   - o Jezusie Chrystusie,
   - o Duchu Świętym.
-## <span class="step-number">5.</span> Zacznij notować podstawowe informacje
-Teraz potrzebne Ci będzie miejsce do zanotowanie podstawowych informacji o powyższym **zawierzeniu i o sobie samym**, co się powinno przydać w kolejnych etapach. Możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/lista_v1_bog_i_ja.pdf)), drukując i go wypełniając albo przygotować podobny samodzielnie np. na pustej kartce. To będzie pierwsza strona Twoich notatek!
+## <span class="step-number">5.</span> Zanotuj podstawowe informacje
+Teraz potrzebne Ci będzie miejsce do zanotowanie podstawowych informacji o powyższym **zawierzeniu**, a potem także **o sobie samym**, co się powinno przydać w kolejnych etapach. Możesz skorzystać z naszego szablonu ([**pobierz**](pl/pdf/lista_v1_bog_i_ja.pdf)), drukując i go wypełniając albo przygotować podobny samodzielnie np. na pustej kartce. To będzie pierwsza strona Twoich notatek!
 
 Wypełnij sekcję zatytułowaną: „**I. BÓG**” następująco:
 - jako „**WŁAŚCICIEL**” wpisz swoje imię i nazwisko,

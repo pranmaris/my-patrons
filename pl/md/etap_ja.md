@@ -1,12 +1,12 @@
 # <span class="stage-header">Etap 2</span>: Ja
-[Powrót do **<span class="stage-header">Etapu 1</span>: Bóg**](etap_bog.md).
+[Powrót do **<span class="stage-header">Etap 1</span>: Bóg**](etap_bog.md).
 
 ---
-Teraz **skupimy się na nas samych** i naszej historii sprzed **dnia zawierzenia** dokonanego w etapie 1.
+Teraz **skupimy się na nas samych**: na **naszej historii** sprzed dnia zawierzenia, na **Patronach naszych imion**, na naszym **notatniku i kolekcji kart**, które powstaną!
 
-**Etap 2** składa się z **czterech** kroków:
+<span class="stage-header">Etap 2</span> składa się z **pięciu** kroków:
 ## <span class="step-number">1.</span> Zanotuj swoje narodziny i przyjęte Sakramenty
-Na formularzu z [etapu 1](etap_bog.md) (patrz krok 5), wypełnij sekcję zatytułowaną: „**J. NARODZINY I SAKRAMENTY**” następująco:
+Na formularzu z [<span class="stage-header">etapu 1</span>](etap_bog.md) (patrz krok 5), wypełnij sekcję zatytułowaną: „**J. NARODZINY I SAKRAMENTY**” następująco:
 - wpisz **datę swoich urodzin** (najlepiej z dniem tygodnia),
 - wpisz **daty pierwszego przyjęcia wszystkich swoich Sakramentów**<sup class="tip">[1.1](#tip-1-1)</sup>,
 - wpisz **kolejne numery** (po lewej stronie) przyjmowania Sakramentów, **uwzględniając ich kolejność**.
@@ -62,12 +62,31 @@ Przypisy:
 
 </span>
 
-## <span class="step-number">4.</span> ...
-Już wkrótce ...
+## <span class="step-number">4.</span> Rozpocznij tworzenie swojej listy wyzwań i kolekcji kart
+Informacje, które do tej pory udało Ci się zapisać mogą stanowić **wstęp lub stronę tytułową** dla dalszych Twoich notatek. Ponieważ dalsze czynności będą wiązać się z **koniecznością spójnego notowania**, nadszedł czas utworzenia **prostego notatnika do Twoich wyzwań**.
+
+Czas także rozpocząć budowanie swojej **kolekcji kart**, których poznasz wkrótce kilka rodzajów. Warto teraz wiedzieć tylko, że **dzielą się one na trzy poniższe typy**:
+- **karty bazowe**, które służą do przechowywania podstawowych informacji o podmiocie danego rodzaju (np. Patronie, święcie, itp.) i określają jego pozycję w albumie, w którym będziesz gromadzić swoje karty,
+- **karty informacyjne**, służące do gromadzenia koniecznych dalszych informacji o podmiocie,
+- **karty kolekcjonerskie**, które będzie można podziwiać w swoim albumie, układać samodzielnie lub grać z innymi.
+
+**UWAGA**! Wszystkie powyższe typy kart są **dostępne za darmo** w naszym serwisie [„Patrons Space”](https://pl.patrons.space.cards), do samodzielnego wydrukowania! Dodatkowo **karty kolekcjonerskie** będą dostępne także w wydanej przez nas formie **premium**!
 
 ---
-# Udało się! Uporządkowałeś ważne informacje o sobie!
-### Po lepszym poznaniu Boga i siebie samego, czas na zaproszenie pierwszych Patronów!
+**Rozpoczniemy od uzupełnienia „Bożego wyzwania”** z <span class="stage-header">etapu 1</span> o kroki związane z kartami i notatkami.
+
+**Wykonaj teraz wyzwanie**: [<span class="status status-list"><span class="status status-god">I</span> Bóg</span>](bog.md), a potem wróć tutaj!
+
+## <span class="step-number">5.</span> Pomyśl o bezpiecznym miejscu do przechowywania swoich notatek i kart
+**Pomyśl** jak przechowywać **swoje notatki i karty**:
+- **wszelkie strony z notatkami** można przechowywać w **segregatorze**, chyba że znajdziesz swoją własną lepszą metodę,
+- **niektóre notatki ogólne** można przechowywać w rodzinnym **notatniku kalendarzowym** pod określoną datą, by nie dublować niektórych wpisów dla każdego członka rodziny (np. informacje o Mszy św., na której kilka osób zaprosiło nowego Patrona),
+- **do kart** docelowo najlepszy będzie **album uniwersalny** w formacie standard (63mm x 88mm), dla początkujących powinno wystarczyć **dowolne pudełko**.
+- **wszystko** powyższe można przechowywać także **cyfrowo** za pomocą np. [dokumentów Google](https://docs.google.com) lub dowolnego pliku, np. Excel.
+
+---
+# Udało się! Wszystko przygotowane!
+### Nadszedł już czas na zaproszenie pierwszych Patronów!
 ---
 
 ## Kolejny krok

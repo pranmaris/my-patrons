@@ -1,4 +1,4 @@
-# <span class="stage-header">Etap dodatkowy</span>: Misje Apostoła
+# <span class="stage-header">Etap dodatkowy</span>: Akty i Misje Pobożności
 ---
 Już wkrótce ...
 

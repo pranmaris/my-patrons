@@ -111,6 +111,6 @@ Przypisy:
 [md:import](szablony/zakoncz_wyzwanie_sukcesem.md#$numer-kroku=13$numer-kroku-o-notatkach=4)
 
 ---
-# Udało się! Zaprosiłeś **Patrona Obrońcę**!
+# Udało się! Zaprosiłeś Patrona Obrońcę!
 ### Jego obecność wsparta przyjmowanymi Sakramentami chronić Cię będzie niczym tarcza!
 ---

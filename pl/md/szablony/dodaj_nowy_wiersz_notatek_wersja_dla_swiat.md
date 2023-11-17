@@ -4,7 +4,7 @@
 Dodaj poniższy wiersz:
 | Lp. | Data wyzwania | Alias Patrona | Typ wyzwania | Numer wyzwania | Checklista | Sukces |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| tu wpisz kolejny<br />numer wiersza | tu wpisz wybraną datę,<br />np. „**WT 2023-08-29**” | tu wpisz alias Patrona<br />i w nawiasie kod wybranego święta,<br />w formie np. „**#Imię:KOD (SWI)**”<sup class="tip">[$numer-kroku$.2](#tip-$numer-kroku$-2)</sup> | **B** | tu wpisz kolejny numer typu „**B**” dla tego Patrona | **Z, M, P, W, B, N, X** | na razie to pole<br />zostaw puste |
+| tu wpisz kolejny<br />numer wiersza | tu wpisz wybraną datę,<br />np. „**WT 2023-08-29**” | tu wpisz alias Patrona<br />i w nawiasie kod wybranego święta,<br />w formie np. „**#Imię:KOD (SWI)**”<sup class="tip">[$numer-kroku$.2](#tip-$numer-kroku$-2)</sup> | **B** | tu wpisz kolejny numer typu „**B**” dla tego Patrona | <span class="no-wrap">**Z, M, P, W, B, N, X**</span> | na razie to pole<br />zostaw puste |
 
 <br />
 
@@ -13,7 +13,7 @@ Od tego momentu, wykonane kolejne kroki, **oznaczaj** w polu „**Checklista**�
 <span class="hidden-tips">
 Przypisy:
 
-- <span id="tip-$numer-kroku$-1">[$numer-kroku$.1] **Notatki** możesz prowadzić np.: w segregatorze, notatniku, zeszycie, w pliku na komputerze, itp. Warto **podpisać** swoje notatki i **numerować ich strony**.</span>
+- <span id="tip-$numer-kroku$-1">[$numer-kroku$.1] **Notatki** możesz prowadzić np.: w segregatorze, notatniku, zeszycie, w pliku na komputerze, w [chmurze](https://docs.google.com), itp. Warto **podpisać** swoje notatki i **numerować ich strony**.</span>
 - <span id="tip-$numer-kroku$-2">[$numer-kroku$.2] Alias Patrona znajdziesz na **karcie bazowej Patrona**. Do niego, w nawiasie dodaj **wymyślony teraz przez Ciebie unikalny kod święta Patrona**, którym zawsze będziesz krótko nazywać te święto. Najlepszą wydaje się być trójznakowa forma: „**SWI**”, np.:
   - „**#Maria:NAZ (WNI)**”, bo _„Wniebowzięcie Najświętszej Maryi Panny”_,
   - „**#II (WNI)**”, bo _„Wniebowstąpenie Jezusa”_,

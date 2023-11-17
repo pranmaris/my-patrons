@@ -103,10 +103,13 @@ header a, header a:hover, footer a, footer a:hover {
   text-align: center;
 }
 
+.page-content .no-wrap {
+  white-space: nowrap;
+}
+
 .status {
   width: auto;
   min-width: 20px;
-  height: 20px;
   margin: 0px;
   padding: 2px;
   border-radius: 50px;
