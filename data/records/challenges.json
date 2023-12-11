@@ -1,0 +1,397 @@
+{
+  "A": {
+    "name": {
+      "pl": "Patroni Obrońcy"
+    },
+    "numbers": false,
+    "person": {
+      "types": ["Patrons"],
+      "requirements": {
+        "anybody-having-challenges": ["I", "3xX"],
+        "person-not-having-challenges": ["A"]
+      },
+      "selection-description": {
+        "pl": ""
+      },
+      "feasts": {}
+    },
+    "checklist": {
+      "mass": {
+        "to-complete-on-selected-date": true,
+        "symbol": {
+          "pl": "U"
+        },
+        "name": {
+          "pl": "Weź udział we Mszy Świętej"
+        },
+        "description": {
+          "pl": ""
+        }
+      },
+      "communion": {
+        "to-complete-on-selected-date": true,
+        "symbol": {
+          "pl": "K"
+        },
+        "name": {
+          "pl": "Przyjmij Komunię Świętą"
+        },
+        "description": {
+          "pl": ""
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "symbol": {
+          "pl": "M"
+        },
+        "name": {
+          "pl": "Pomódl się do Patrona"
+        },
+        "description": {
+          "pl": ""
+        }
+      },
+      "bible": {
+        "to-complete-on-selected-date": false,
+        "symbol": {
+          "pl": "P"
+        },
+        "name": {
+          "pl": "Przeczytaj fragment Pisma Świętego"
+        },
+        "description": {
+          "pl": ""
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "symbol": {
+          "pl": "N"
+        },
+        "name": {
+          "pl": "Zanotuj dodatkowe informacje"
+        },
+        "description": {
+          "pl": ""
+        }
+      }
+    },
+    "notes": {
+      "criterion": {
+        "type": "text",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Kryterium wyboru Patrona"
+        }
+      },
+      "bible": {
+        "type": "text",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Przeczytany fragment Pisma Świętego"
+        }
+      },
+      "time": {
+        "type": "text",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Godzina rozpoczęcia Mszy"
+        }
+      },
+      "place": {
+        "type": "place",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Miejsce Mszy"
+        }
+      },
+      "people": {
+        "type": "text",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Osoby"
+        }
+      },
+      "other": {
+        "type": "text",
+        "required": false,
+        "multiple": true,
+        "name": {
+          "pl": "Informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "D": {
+    "name": {
+      "pl": "Kościoły"
+    },
+    "numbers": true,
+    "person": {
+      "types": ["Patrons"],
+      "requirements": {
+        "anybody-having-challenges": ["A"],
+        "person-having-challenges": ["A"]
+      },
+      "selection-description": {
+        "pl": ""
+      },
+      "feasts": {}
+    },
+    "checklist": {
+
+
+
+    },
+    "notes": {
+
+
+
+    }
+  },
+
+  "I": {
+    "name": {
+      "pl": "Bóg"
+    },
+    "numbers": false,
+    "person": {
+      "types": ["Me"],
+      "requirements": {
+        "anybody-having-challenges": ["J"],
+        "everybody-not-having-challenges": ["I"]
+      },
+      "selection-description": {},
+      "feasts": {}
+    },
+    "checklist": {
+      "self-entrusting": {
+        "to-complete-on-selected-date": true,
+        "symbol": {
+          "pl": "Z"
+        },
+        "name": {
+          "pl": "Zawierz Bogu swój udział w inicjatywie"
+        },
+        "description": {
+          "pl": ""
+        }
+      },
+      "credo": {
+        "to-complete-on-selected-date": true,
+        "symbol": {
+          "pl": "M"
+        },
+        "name": {
+          "pl": "Pomódl się do Boga"
+        },
+        "description": {
+          "pl": ""
+        }
+      },
+      "knowledge": {
+        "to-complete-on-selected-date": false,
+        "symbol": {
+          "pl": "P"
+        },
+        "name": {
+          "pl": "Poznaj Boga"
+        },
+        "description": {
+          "pl": ""
+        }
+      },
+      "apostles": {
+        "to-complete-on-selected-date": false,
+        "symbol": {
+          "pl": "A"
+        },
+        "name": {
+          "pl": "Poinformuj swoich „Apostołów”"
+        },
+        "description": {
+          "pl": ""
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "symbol": {
+          "pl": "N"
+        },
+        "name": {
+          "pl": "Zanotuj dodatkowe informacje"
+        },
+        "description": {
+          "pl": ""
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": "text",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Godzina zawierzenia i modlitwy"
+        }
+      },
+      "place": {
+        "type": "place",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Miejsce zawierzenia i modlitwy"
+        }
+      },
+      "other": {
+        "type": "text",
+        "required": false,
+        "multiple": true,
+        "name": {
+          "pl": "Informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "J": {
+    "name": {
+      "pl": "Narodziny"
+    },
+    "numbers": false,
+    "person": {
+      "types": ["Me"],
+      "requirements": {
+        "everybody-not-having-challenges": ["J"]
+      },
+      "selection-description": {},
+      "feasts": {}
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": false,
+        "symbol": {
+          "pl": "U"
+        },
+        "name": {
+          "pl": "Potwierdź swoje narodziny"
+        },
+        "description": {
+          "pl": ""
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "symbol": {
+          "pl": "N"
+        },
+        "name": {
+          "pl": "Zanotuj dodatkowe informacje"
+        },
+        "description": {
+          "pl": ""
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": "text",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Godzina narodzin"
+        }
+      },
+      "place": {
+        "type": "place",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Miejsce narodzin"
+        }
+      },
+      "other": {
+        "type": "text",
+        "required": false,
+        "multiple": true,
+        "name": {
+          "pl": "Informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "X": {
+    "name": {
+      "pl": "Sakramenty"
+    },
+    "numbers": true,
+    "person": {
+      "types": ["Me"],
+      "requirements": {
+        "anybody-having-challenges": ["J"]
+      },
+      "selection-description": {},
+      "feasts": {}
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": false,
+        "symbol": {
+          "pl": "U"
+        },
+        "name": {
+          "pl": "Potwierdź swoje pierwsze przyjęcie Sakramentu"
+        },
+        "description": {
+          "pl": ""
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "symbol": {
+          "pl": "N"
+        },
+        "name": {
+          "pl": "Zanotuj dodatkowe informacje"
+        },
+        "description": {
+          "pl": ""
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": "text",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Godzina pierwszego przyjęcia Sakramentu"
+        }
+      },
+      "place": {
+        "type": "place",
+        "required": false,
+        "multiple": false,
+        "name": {
+          "pl": "Miejsce pierwszego przyjęcia Sakramentu"
+        }
+      },
+      "other": {
+        "type": "text",
+        "required": false,
+        "multiple": true,
+        "name": {
+          "pl": "Informacje dodatkowe"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "1": {
+        "page": "CIII",
+        "base": "getResurrectionFeastDate",
+        "move": 0,
+        "title": {
+          "la": "[(c)]"
+        },
+        "description": {
+          "la": ""
+        },
+        "additional-info": {
+          "la": ""
+        }
+    }
+}

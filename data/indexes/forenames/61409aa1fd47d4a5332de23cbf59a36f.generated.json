@@ -1,0 +1,32 @@
+{
+    "names": {
+        "en": "John"
+    },
+    "translations": {
+        "la": [
+            "Ioannes"
+        ],
+        "en": [
+            "John"
+        ],
+        "pl": [
+            "Jan"
+        ],
+        "fr": [
+            "Jean"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/eva": {
+            "la": "Ioannes Evangelista",
+            "en": "John the Evangelist",
+            "pl": "Jan Ewangelista"
+        },
+        "records/patrons/ioannes/via": {
+            "fr": "Jean-Marie Vianney",
+            "en": "John Mary Vianney",
+            "la": "Ioannes Maria Vianney",
+            "pl": "Jan Maria Vianney"
+        }
+    }
+}

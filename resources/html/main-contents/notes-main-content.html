@@ -1,0 +1,91 @@
+<div id="notes-main-content">
+
+  <div id="notifications"></div>
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-file-tab" data-bs-toggle="tab" data-bs-target="#nav-file" type="button" role="tab" aria-controls="nav-file" aria-selected="true" onClick="reloadFileTab()">#lang-notes-tab-file|capitalize#</button>
+      <button class="nav-link" id="nav-challenges-tab" data-bs-toggle="tab" data-bs-target="#nav-challenges" type="button" role="tab" aria-controls="nav-challenges" aria-selected="false" onClick="reloadChallengesTab()">#lang-notes-tab-challenges|capitalize#</button>
+      <button class="nav-link" id="nav-json-editor-tab" data-bs-toggle="tab" data-bs-target="#nav-json-editor" type="button" role="tab" aria-controls="nav-json-editor" aria-selected="false" onClick="reloadJsonEditorTab()">#lang-notes-tab-json-editor|capitalize#</button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-file" role="tabpanel" aria-labelledby="nav-file-tab" tabindex="0">
+
+      <div class="mb-3">
+        <label for="file-input" class="btn btn-primary form-control">#lang-notes-load-file|capitalize#</label>
+        <input id="file-input" class="form-control" style="display:none;" accept=".mypatrons.json" type="file" onChange="loadFile(this)" />
+      </div>
+
+      <hr />
+      #lang-owner|capitalize#: <input id="input-for-owner" onChange="setValueAsOwner(this.value)" />
+      <br />
+      #lang-filename-without-extension|capitalize#: <input id="input-for-filename-without-extension" onChange="setValueAsFilenameWithoutExtension(this.value)" />
+      <hr />
+
+      <div class="mb-3">
+        <input id="file-output" class="btn btn-primary form-control" type="button" value="#lang-notes-save-file|capitalize|original-only-for-missing#" onclick="saveFile()" />
+      </div>
+
+    </div>
+    <div class="tab-pane fade" id="nav-challenges" role="tabpanel" aria-labelledby="nav-challenges-tab" tabindex="0">
+      <table class="table table-bordered border-primary">
+        <thead>
+          <tr>
+            <th>#lang-row-id|capitalize#</th>
+            <th>#lang-date|capitalize#</th>
+            <th>#lang-person|capitalize#</th>
+            <th>#lang-type|capitalize#</th>
+            <th>#lang-number|capitalize#</th>
+            <th>#lang-feast|capitalize#</th>
+            <th>#lang-checklist|capitalize#</th>
+            <th>#lang-success|capitalize#</th>
+            <th>#lang-actions|capitalize#</th>
+          </tr>
+        </thead>
+        <tbody id="challenges"></tbody>
+      </table>
+
+      <div class="modal fade" id="add-new-challenge-modal-toggle" aria-hidden="true" aria-labelledby="add-new-challenge-modal-toggle-label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="add-new-challenge-modal-toggle-label">#lang-add-new-challenge|capitalize#</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="challenge-date-div">
+                <span>#lang-challenge-date|capitalize#: </span>
+                <input id="challenge-date-input" type="date" onChange="resetChallengeTypeSelect()" />
+              </div>
+              <div id="challenge-type-div">
+                <span>#lang-challenge-type|capitalize#: </span>
+                <select id="challenge-type-select" onChange="resetPersonTypeSelect()"></select>
+              </div>
+              <div id="person-div">
+                <span>#lang-person|capitalize#: </span>
+                <select id="person-type-select" onChange="resetPersonNameSelect()"></select>
+                <select id="person-name-select" onChange="resetPersonSelect()"></select>
+                <select id="person-select" onChange="resetFeastSelect()"></select>
+                <select id="feast-select" onChange="resetAddNewChallengeButton()"></select>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button id="add-new-challenge-button" class="btn btn-primary" data-bs-target="#add-new-challenge-modal-toggle" data-bs-dismiss="modal" onClick="addNewChallenge()">#lang-add-new-challenge|capitalize#</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="btn btn-primary" data-bs-toggle="modal" href="#add-new-challenge-modal-toggle" role="button" onClick="addNewChallengeReset()">#lang-add-new-challenge|capitalize#</a>
+    </div>
+    <div class="tab-pane fade" id="nav-json-editor" role="tabpanel" aria-labelledby="nav-json-editor-tab" tabindex="0">
+      <textarea id="file-content" name="content" spellcheck="false" onChange="setFileContentFromJsonEditor()"></textarea>
+    </div>
+  </div>
+
+  <hr />
+  <font color="red" size="3">#lang-notes-form-info-top#</font>
+  <br />
+
+  <script src="/files/resources/js/notes.js"></script>
+</div>

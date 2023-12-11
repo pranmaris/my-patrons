@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "evangelist"
+    },
+    "translations": {
+        "en": [
+            "evangelist"
+        ],
+        "la": [
+            "evangelista"
+        ],
+        "pl": [
+            "ewangelista"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/eva": {
+            "la": "Ioannes Evangelista",
+            "en": "John the Evangelist",
+            "pl": "Jan Ewangelista"
+        }
+    }
+}

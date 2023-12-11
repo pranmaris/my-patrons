@@ -1,0 +1,171 @@
+{
+  "names": {
+    "arc": [
+      "ܡܪܝܡ"
+    ],
+    "en": [
+      "Mary, mother of Jesus",
+      "Virgin Mary"
+    ],
+    "la": [
+      "Maria Virgo",
+      "Deipara",
+      "Maria Mater Iesu",
+      "Mater Dei",
+      "Dei Genetrix",
+      "Madonna"
+    ],
+    "pl": [
+      "Maria z Nazaretu",
+      "Najświętsza Maryja Panna",
+      "Dziewica Maryja"
+    ]
+  },
+
+  "forenames": [
+    {
+      "arc": "ܡܪܝܡ",
+      "en": "Mary",
+      "la": "Maria",
+      "pl": "Maria"
+    }
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+  ],
+
+  "born": ["<-20"],
+  "died": [">30"],
+
+  "categories": ["mother-of-god", "female", "virgin", "widow"],
+
+  "images": {
+    "1": {
+      "page-url": "https://commons.wikimedia.org/wiki/File:Sassoferrato_-_Jungfrun_i_b%C3%B6n.jpg",
+      "file-url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Sassoferrato_-_Jungfrun_i_b%C3%B6n.jpg",
+      "attribution": "Giovanni Battista Salvi da Sassoferrato, Public domain, via Wikimedia Commons",
+      "area-center-x": 1680,
+      "area-center-y": 1938,
+      "area-center-to-edge-distance": 1520
+    }
+  },
+
+  "data-links": {
+  },
+
+  "feasts": {
+    "gen": {
+      "names": {
+        "en": [
+          "Maria, Holy Mother of God"
+        ],
+        "la": [
+          "Maria, Sancta Dei Genetrix"
+        ],
+        "pl": [
+          "Najświętsza Maryja Panna Święta Boża Rodzicielka"
+        ]
+      },
+
+      "data-links": {
+        "feasts": ["1:#MVSDG"]
+      }
+    },
+
+    "mat": {
+      "names": {
+        "en": [
+          "The Motherhood of the Blessed Virgin Mary"
+        ],
+        "la": [
+          "Maternitatem beatae Mariae Virginis"
+        ],
+        "pl": [
+          "Macierzyństwo błogosławionej Maryi Dziewicy"
+        ]
+      },
+
+      "data-links": {
+        "former-feasts": ["1:#MVMAT"]
+      }
+    },
+
+    "ass": {
+      "names": {
+        "en": [
+          "Assumption of Mary",
+          "Assumed Holy Mary"
+        ],
+        "la": [
+          "Assumptio Beatae Mariae Virginis"
+        ],
+        "pl": [
+          "Wniebowzięcie Najświętszej Maryi Panny",
+          "Najświętsza Maryja Panna Wniebowzięta"
+        ]
+      },
+
+      "data-links": {
+      }
+    },
+
+    "fam": {
+      "names": {
+        "la": [
+          "Sancta Familia"
+        ],
+        "pl": [
+          "Święta Rodzina"
+        ]
+      },
+
+      "data-links": {
+        "feasts": ["2:#SFIMI"],
+        "former-feasts": ["2:#SFIMI", "5:#SFIMI"]
+      }
+    },
+
+    "7do": {
+      "names": {
+        "la": [
+          "Septem Dolores beatissimae Vírginis Mariae"
+        ],
+        "pl": [
+          "Siedem Boleści Najświętszej Maryi Panny"
+        ]
+      },
+
+      "data-links": {
+      }
+    },
+
+    "lmi": {
+      "names": {
+        "la": [
+          "Romae Litaniae minores ad sanctam Mariam Majorem"
+        ],
+        "pl": [
+          "Rzymska mała procesja błagalna do świętej Maryi Większej"
+        ]
+      },
+
+      "data-links": {
+      }
+    },
+
+    "cor": {
+      "names": {
+        "la": [
+          "Immaculatum Cor beate Mariae Virginis"
+        ],
+        "pl": [
+          "Niepokalane Serce Najświętszej Maryi Panny"
+        ]
+      },
+
+      "data-links": {
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Ioannes Baptista"
+    },
+    "translations": {
+        "fr": [
+            "Jean Baptiste"
+        ],
+        "en": [
+            "John the Baptist"
+        ],
+        "la": [
+            "Ioannes Baptista"
+        ],
+        "pl": [
+            "Jan Chrzciciel"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/via": {
+            "fr": "Jean-Marie Vianney",
+            "en": "John Mary Vianney",
+            "la": "Ioannes Maria Vianney",
+            "pl": "Jan Maria Vianney"
+        }
+    }
+}

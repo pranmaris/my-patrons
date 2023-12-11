@@ -1,10 +1,14 @@
 # My Patrons
 
-This project contains the content of the "gratiaDei.org" initiative's project website and is available on [https://myPatrons.org](https://myPatrons.org).
+This project contains the content of the "gratiaDei.org" initiative's project website and is available on [https://myPatrons.org](https://mypatrons.org).
 
-# Site Content in Markdown
+# Generated data
 
-Site content is also available [in markdown](languages.md).
+After making any changes (before deployment) it is necessary to rebuild all generated data files by running:
+```
+php resources/php/generator.php
+```
+You have to fix all possible errors!
 
 # License
 

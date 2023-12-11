@@ -1,0 +1,15 @@
+{
+    "data-links": {
+        "SFIMI": {
+            "1": "records/god/fil#fam",
+            "2": "records/patrons/maria/naz#fam",
+            "3": "records/patrons/iosephus/naz#fam"
+        },
+        "ICRES": {
+            "1": "records/god/fil#res"
+        },
+        "MVSDG": {
+            "1": "records/patrons/maria/naz#gen"
+        }
+    }
+}

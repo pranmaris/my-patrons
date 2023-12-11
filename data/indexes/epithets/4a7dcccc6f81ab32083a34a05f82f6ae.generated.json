@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "Christ"
+    },
+    "translations": {
+        "en": [
+            "Christ"
+        ],
+        "la": [
+            "Christus"
+        ],
+        "pl": [
+            "Chrystus"
+        ]
+    },
+    "links": {
+        "records/god/fil": {
+            "arc": "ܝܫܘܥ",
+            "en": "Jesus Christ",
+            "la": "Iesus Christus",
+            "pl": "Jezus Chrystus"
+        }
+    }
+}

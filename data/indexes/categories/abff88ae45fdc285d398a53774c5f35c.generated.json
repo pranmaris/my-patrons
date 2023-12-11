@@ -1,0 +1,25 @@
+{
+    "names": {
+        "en": "confessor",
+        "la": "confessor"
+    },
+    "translations": {
+        "en": [
+            "confessor"
+        ],
+        "la": [
+            "confessor"
+        ],
+        "pl": [
+            "wyznawca"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/via": {
+            "fr": "Jean-Marie Vianney",
+            "en": "John Mary Vianney",
+            "la": "Ioannes Maria Vianney",
+            "pl": "Jan Maria Vianney"
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+  "names": {
+    "en": [
+      "Holy Spirit"
+    ],
+    "la": [
+      "Spiritus Sanctus"
+    ],
+    "pl": [
+      "Duch Święty"
+    ]
+  },
+
+  "forenames": [
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+  ],
+
+  "born": ["-"],
+  "died": ["-"],
+
+  "categories": ["god"],
+
+  "images": {
+    "1": {
+      "page-url": "https://commons.wikimedia.org/wiki/File:Vienna_Karlskirche_frescos4b.jpg",
+      "file-url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vienna_Karlskirche_frescos4b.jpg",
+      "attribution": "User:Manfreeed, Public domain, via Wikimedia Commons",
+      "area-center-x": 149,
+      "area-center-y": 211,
+      "area-center-to-edge-distance": 125
+    }
+  },
+
+  "data-links": {
+  },
+
+  "feasts": {
+    "pev": {
+      "names": {
+        "la": [
+          "Vigilia Pentecostes"
+        ],
+        "pl": [
+          "Wigilia Zesłania Ducha Świętego",
+          "Wigilia Pięćdziesiątnicy"
+        ]
+      },
+
+      "data-links": {
+      }
+    },
+
+    "pen": {
+      "names": {
+        "la": [
+          "Dies Pentecostes"
+        ],
+        "pl": [
+          "Zesłanie Ducha Świętego"
+        ]
+      },
+
+      "data-links": {
+      }
+    },
+
+    "peo": {
+      "names": {
+        "la": [
+          "Octava Pentecostes"
+        ],
+        "pl": [
+          "Oktawa Zesłania Ducha Świętego"
+        ]
+      },
+
+      "data-links": {
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "names": {
+    "en": [
+      "God the Father"
+    ],
+    "la": [
+      "Deus Pater"
+    ],
+    "pl": [
+      "Bóg Ojciec"
+    ]
+  },
+
+  "forenames": [
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+  ],
+
+  "born": ["-"],
+  "died": ["-"],
+
+  "categories": ["god"],
+
+  "images": {
+    "1": {
+      "page-url": "https://commons.wikimedia.org/wiki/File:Cima_da_Conegliano,_God_the_Father.jpg",
+      "file-url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Cima_da_Conegliano%2C_God_the_Father.jpg",
+      "attribution": "Attributed to Giovanni Battista Cima da Conegliano, Public domain, via Wikimedia Commons",
+      "area-center-x": 337,
+      "area-center-y": 187,
+      "area-center-to-edge-distance": 182
+    }
+  },
+
+  "data-links": {
+  }
+}

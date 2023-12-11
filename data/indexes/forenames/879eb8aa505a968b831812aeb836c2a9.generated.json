@@ -1,0 +1,37 @@
+{
+    "names": {
+        "it": "Marie",
+        "fr": "Marie"
+    },
+    "translations": {
+        "it": [
+            "Marie"
+        ],
+        "en": [
+            "Mary"
+        ],
+        "la": [
+            "Maria"
+        ],
+        "pl": [
+            "Maria"
+        ],
+        "fr": [
+            "Marie"
+        ]
+    },
+    "links": {
+        "records/patrons/alphonsus/lig": {
+            "it": "Alfonso Maria de' Liguori",
+            "en": "Alphonsus Maria Liguori",
+            "la": "Alphonsus Maria a Ligorio",
+            "pl": "Alfons Maria Liguori"
+        },
+        "records/patrons/ioannes/via": {
+            "fr": "Jean-Marie Vianney",
+            "en": "John Mary Vianney",
+            "la": "Ioannes Maria Vianney",
+            "pl": "Jan Maria Vianney"
+        }
+    }
+}

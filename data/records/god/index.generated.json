@@ -1,0 +1,23 @@
+{
+    "fil": {
+        "arc": "ܝܫܘܥ",
+        "en": "Jesus Christ",
+        "la": "Iesus Christus",
+        "pl": "Jezus Chrystus"
+    },
+    "pat": {
+        "en": "God the Father",
+        "la": "Deus Pater",
+        "pl": "Bóg Ojciec"
+    },
+    "spi": {
+        "en": "Holy Spirit",
+        "la": "Spiritus Sanctus",
+        "pl": "Duch Święty"
+    },
+    "tri": {
+        "en": "Holy Trinity",
+        "la": "Sancta Trinitas",
+        "pl": "Trójca Przenajświętsza"
+    }
+}

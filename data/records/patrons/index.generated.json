@@ -1,0 +1,51 @@
+{
+    "alphonsus": {
+        "it": "Alfonso",
+        "en": "Alphonsus",
+        "la": "Alphonsus",
+        "pl": "Alfons"
+    },
+    "augustinus": {
+        "la": "Augustinus",
+        "en": "Augustine",
+        "pl": "Augustyn"
+    },
+    "eusebius": {
+        "la": "Eusebius",
+        "en": "Eusebius",
+        "pl": "Euzebiusz"
+    },
+    "ioannes": {
+        "la": "Ioannes",
+        "en": "John",
+        "pl": "Jan",
+        "fr": "Jean"
+    },
+    "iosephus": {
+        "arc": "ܡܪܝ ܝܘܣܦ",
+        "en": "Joseph",
+        "la": "Iosephus",
+        "pl": "Józef"
+    },
+    "lydia": {
+        "la": "Lydia",
+        "en": "Lydia",
+        "pl": "Lidia"
+    },
+    "maria": {
+        "it": "Marie",
+        "en": "Mary",
+        "la": "Maria",
+        "pl": "Maria",
+        "fr": "Marie",
+        "arc": "ܡܪܝܡ"
+    },
+    "petrus": {
+        "la": "Petrus",
+        "en": "Peter",
+        "pl": "Piotr"
+    },
+    "~~~": {
+        "en": "~~~"
+    }
+}

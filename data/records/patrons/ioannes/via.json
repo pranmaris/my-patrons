@@ -1,0 +1,79 @@
+{
+  "names": {
+    "fr": [
+      "Jean-Marie Vianney",
+      "Jean-Baptiste-Marie Vianney",
+      "Curé d'Ars",
+      "Saint Curé d'Ars"
+    ],
+    "en": [
+      "John Mary Vianney",
+      "John Vianney"
+    ],
+    "la": [
+      "Ioannes Maria Vianney",
+      "Ioannes Baptista Maria Vianney"
+    ],
+    "pl": [
+      "Jan Maria Vianney",
+      "Jan Chrzciciel Maria Vianney",
+      "Proboszcz z Ars"
+    ]
+  },
+
+  "forenames": [
+    {
+      "fr": "Jean",
+      "en": "John",
+      "la": "Ioannes",
+      "pl": "Jan"
+    },
+    {
+      "fr": "Marie",
+      "en": "Mary",
+      "la": "Maria",
+      "pl": "Maria"
+    },
+    {
+      "fr": "Jean Baptiste",
+      "en": "John the Baptist",
+      "la": "Ioannes Baptista",
+      "pl": "Jan Chrzciciel"
+    }
+  ],
+  "surnames": [
+    {
+      "fr": "Vianney"
+    }
+  ],
+  "epithets": [
+  ],
+
+  "born": ["1786-05-08"],
+  "died": ["1859-08-04"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1905-01-08"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1925-05-31"
+  },
+
+  "categories": ["male", "confessor", "presbyter"],
+
+  "images": {
+    "1": {
+      "page-url": "https://commons.wikimedia.org/wiki/File:Johnvianney.jpg",
+      "file-url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Johnvianney.jpg",
+      "attribution": "http://www.catholic-forum.com/saints/stj18039.htm, Public domain, via Wikimedia Commons",
+      "area-center-x": 71,
+      "area-center-y": 63,
+      "area-center-to-edge-distance": 61
+    }
+  },
+
+  "data-links": {
+  }
+}

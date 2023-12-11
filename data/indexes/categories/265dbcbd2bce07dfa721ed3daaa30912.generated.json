@@ -1,0 +1,35 @@
+{
+    "names": {
+        "en": "martyr",
+        "la": "martyr"
+    },
+    "translations": {
+        "en": [
+            "martyr"
+        ],
+        "la": [
+            "martyr"
+        ],
+        "pl": [
+            "męczennik"
+        ]
+    },
+    "links": {
+        "records/god/fil": {
+            "arc": "ܝܫܘܥ",
+            "en": "Jesus Christ",
+            "la": "Iesus Christus",
+            "pl": "Jezus Chrystus"
+        },
+        "records/patrons/eusebius/ver": {
+            "la": "Eusebius Vercellensis",
+            "en": "Eusebius of Vercelli",
+            "pl": "Euzebiusz z Vercelli"
+        },
+        "records/patrons/petrus/apo": {
+            "la": "Petrus",
+            "en": "Peter the Apostle",
+            "pl": "Piotr Apostoł"
+        }
+    }
+}

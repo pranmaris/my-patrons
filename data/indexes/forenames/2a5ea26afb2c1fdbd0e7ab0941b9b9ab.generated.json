@@ -1,0 +1,27 @@
+{
+    "names": {
+        "fr": "Jean"
+    },
+    "translations": {
+        "fr": [
+            "Jean"
+        ],
+        "en": [
+            "John"
+        ],
+        "la": [
+            "Ioannes"
+        ],
+        "pl": [
+            "Jan"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/via": {
+            "fr": "Jean-Marie Vianney",
+            "en": "John Mary Vianney",
+            "la": "Ioannes Maria Vianney",
+            "pl": "Jan Maria Vianney"
+        }
+    }
+}

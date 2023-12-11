@@ -1,0 +1,20 @@
+{
+    "categories": {
+        "en": "Categories",
+        "la": "Categoriae",
+        "pl": "Kategorie"
+    },
+    "forenames": {
+        "en": "Forenames",
+        "pl": "Imiona"
+    },
+    "surnames": {
+        "en": "Surnames",
+        "pl": "Nazwiska"
+    },
+    "epithets": {
+        "en": "Epithets",
+        "la": "Epitheta",
+        "pl": "Epitety"
+    }
+}

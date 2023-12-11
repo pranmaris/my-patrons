@@ -1,0 +1,39 @@
+{
+    "names": {
+        "en": "God"
+    },
+    "translations": {
+        "en": [
+            "God"
+        ],
+        "la": [
+            "Deus"
+        ],
+        "pl": [
+            "Bóg"
+        ]
+    },
+    "links": {
+        "records/god/fil": {
+            "arc": "ܝܫܘܥ",
+            "en": "Jesus Christ",
+            "la": "Iesus Christus",
+            "pl": "Jezus Chrystus"
+        },
+        "records/god/pat": {
+            "en": "God the Father",
+            "la": "Deus Pater",
+            "pl": "Bóg Ojciec"
+        },
+        "records/god/spi": {
+            "en": "Holy Spirit",
+            "la": "Spiritus Sanctus",
+            "pl": "Duch Święty"
+        },
+        "records/god/tri": {
+            "en": "Holy Trinity",
+            "la": "Sancta Trinitas",
+            "pl": "Trójca Przenajświętsza"
+        }
+    }
+}

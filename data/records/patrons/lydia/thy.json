@@ -1,0 +1,44 @@
+{
+  "names": {
+    "la": [
+      "Lydia Thyatirensis"
+    ],
+    "en": [
+      "Lydia of Thyatira"
+    ],
+    "pl": [
+      "Lidia z Tiatyry"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Lydia",
+      "en": "Lydia",
+      "pl": "Lidia"
+    }
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+  ],
+
+  "died": ["<100"],
+
+  "categories": ["female"],
+
+  "images": {
+    "1": {
+      "page-url": "https://commons.wikimedia.org/wiki/File:Lidia.jpg",
+      "file-url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lidia.jpg",
+      "attribution": "Russisch Ikone in Gemeinfreiheit - public domain, Public domain, via Wikimedia Commons",
+      "area-center-x": 99,
+      "area-center-y": 71,
+      "area-center-to-edge-distance": 60
+    }
+  },
+
+  "data-links": {
+  }
+}
+

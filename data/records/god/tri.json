@@ -1,0 +1,59 @@
+{
+  "names": {
+    "en": [
+      "Holy Trinity",
+      "Trinity"
+    ],
+    "la": [
+      "Sancta Trinitas",
+      "Trinitas"
+    ],
+    "pl": [
+      "Trójca Przenajświętsza",
+      "Trójca Święta",
+      "Trójca"
+    ]
+  },
+
+  "forenames": [
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+  ],
+
+  "born": ["-"],
+  "died": ["-"],
+
+  "categories": ["god"],
+
+  "images": {
+    "1": {
+      "page-url": "Albrecht Dürer, Public domain, via Wikimedia Commons",
+      "file-url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Trinit%C3%A9_Grandes_Heures_Anne_de_Bretagne.jpg",
+      "attribution": "Jean Bourdichon, Public domain, via Wikimedia Commons",
+      "area-center-x": 1774,
+      "area-center-y": 2329,
+      "area-center-to-edge-distance": 1200
+    }
+  },
+
+  "data-links": {
+  },
+
+  "feasts": {
+    "tri": {
+      "names": {
+        "la": [
+          "Sollemnitas sacratissimae et indivíduae Trinitatis"
+        ],
+        "pl": [
+          "Uroczystość Trójcy Przenajświętszej"
+        ]
+      },
+
+      "data-links": {
+      }
+    }
+  }
+}

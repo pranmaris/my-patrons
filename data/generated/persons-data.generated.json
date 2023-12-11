@@ -1,0 +1,466 @@
+{
+    "god": {
+        "names": {
+            "en": "God",
+            "la": "Deus",
+            "pl": "Bóg"
+        }
+    },
+    "god/fil": {
+        "names": {
+            "arc": "ܝܫܘܥ",
+            "en": "Jesus Christ",
+            "la": "Iesus Christus",
+            "pl": "Jezus Chrystus"
+        },
+        "died": [
+            "30",
+            "33"
+        ]
+    },
+    "god/fil@asc": {
+        "names": {
+            "la": "Ascénsio Iesu Christi",
+            "pl": "Wniebowstąpienie Jezusa Chrystusa"
+        }
+    },
+    "god/fil@aso": {
+        "names": {
+            "la": "Octava Ascensionis Iesu Christi",
+            "pl": "Oktawa Wniebowstąpienia Jezusa Chrystusa"
+        }
+    },
+    "god/fil@asv": {
+        "names": {
+            "la": "Vigilia Ascensionis Iesu Christi",
+            "pl": "Wigilia Wniebowstąpienia Jezusa Chrystusa"
+        }
+    },
+    "god/fil@bap": {
+        "names": {
+            "la": "Baptismus Domini",
+            "pl": "Chrzest Pański"
+        }
+    },
+    "god/fil@ces": {
+        "names": {
+            "la": "Sanctissimum Corpore et Sanguis Christi",
+            "pl": "Najświętsze Ciało i Krew Chrystusa"
+        }
+    },
+    "god/fil@cin": {
+        "names": {
+            "en": "Ash Wednesday",
+            "la": "Dies Cinerum",
+            "pl": "Środa Popielcowa"
+        }
+    },
+    "god/fil@coo": {
+        "names": {
+            "la": "Octava Sacratissimi Cordis Iesu",
+            "pl": "Oktawa Najświętszego Serca Jezusa"
+        }
+    },
+    "god/fil@cor": {
+        "names": {
+            "la": "Sanctissimum Cor Iesu",
+            "pl": "Najświętsze Serce Jezusa"
+        }
+    },
+    "god/fil@cro": {
+        "names": {
+            "la": "Octava Sanctissimi Corporis Christi",
+            "pl": "Oktawa Najświętszego Ciała Chrystusa"
+        }
+    },
+    "god/fil@crp": {
+        "names": {
+            "la": "Sanctissimum Corpore Christi",
+            "pl": "Najświętsze Ciało Chrystusa"
+        }
+    },
+    "god/fil@d1a": {
+        "names": {
+            "la": "Dominica prima Adventus",
+            "pl": "Pierwsza Niedziela Adwentu"
+        }
+    },
+    "god/fil@d40": {
+        "names": {
+            "la": "Dominica prima in Quadragesima",
+            "pl": "Pierwsza Niedziela Wielkiego Postu"
+        }
+    },
+    "god/fil@d70": {
+        "names": {
+            "la": "Dominica Septuagesimæ",
+            "pl": "Niedziela Siedemdziesiątnicy"
+        }
+    },
+    "god/fil@dal": {
+        "names": {
+            "la": "Dominica in Albis",
+            "pl": "Niedziela Biała"
+        }
+    },
+    "god/fil@dpl": {
+        "names": {
+            "la": "Dominica Palmarum",
+            "pl": "Niedziela Palmowa"
+        }
+    },
+    "god/fil@dpp": {
+        "names": {
+            "la": "Dominica in Palmis de Passione Domini",
+            "pl": "Niedziela Palmowa Męki Pańskiej"
+        }
+    },
+    "god/fil@dps": {
+        "names": {
+            "la": "Dominica Passionis",
+            "pl": "Niedziela Męki Pańskiej"
+        }
+    },
+    "god/fil@fam": {
+        "names": {
+            "la": "Sancta Familia",
+            "pl": "Święta Rodzina"
+        }
+    },
+    "god/fil@fe5": {
+        "names": {
+            "la": "Feria quinta Hebdomadae sanctae",
+            "pl": "Wielki Czwartek"
+        }
+    },
+    "god/fil@fe6": {
+        "names": {
+            "la": "feria sexta in Passione Domini",
+            "pl": "Wielki Piątek"
+        }
+    },
+    "god/fil@nom": {
+        "names": {
+            "la": "Sanctissimum Nomen Iesus",
+            "pl": "Najświętsze Imię Jezus"
+        }
+    },
+    "god/fil@res": {
+        "names": {
+            "la": "Resurrectio Iesu Christi",
+            "pl": "Zmartwychwstanie Jezusa Chrystusa"
+        }
+    },
+    "god/fil@rex": {
+        "names": {
+            "la": "Iesus Christus Rex",
+            "pl": "Jezus Chrystus Król"
+        }
+    },
+    "god/fil@sab": {
+        "names": {
+            "la": "Sabbato sancto",
+            "pl": "Wielka Sobota"
+        }
+    },
+    "god/fil@ure": {
+        "names": {
+            "la": "Iesus Christus Universorum Rex",
+            "pl": "Jezus Chrystus Król Wszechświata"
+        }
+    },
+    "god/pat": {
+        "names": {
+            "en": "God the Father",
+            "la": "Deus Pater",
+            "pl": "Bóg Ojciec"
+        },
+        "died": [
+            "-"
+        ]
+    },
+    "god/spi": {
+        "names": {
+            "en": "Holy Spirit",
+            "la": "Spiritus Sanctus",
+            "pl": "Duch Święty"
+        },
+        "died": [
+            "-"
+        ]
+    },
+    "god/spi@pen": {
+        "names": {
+            "la": "Dies Pentecostes",
+            "pl": "Zesłanie Ducha Świętego"
+        }
+    },
+    "god/spi@peo": {
+        "names": {
+            "la": "Octava Pentecostes",
+            "pl": "Oktawa Zesłania Ducha Świętego"
+        }
+    },
+    "god/spi@pev": {
+        "names": {
+            "la": "Vigilia Pentecostes",
+            "pl": "Wigilia Zesłania Ducha Świętego"
+        }
+    },
+    "god/tri": {
+        "names": {
+            "en": "Holy Trinity",
+            "la": "Sancta Trinitas",
+            "pl": "Trójca Przenajświętsza"
+        },
+        "died": [
+            "-"
+        ]
+    },
+    "god/tri@tri": {
+        "names": {
+            "la": "Sollemnitas sacratissimae et indivíduae Trinitatis",
+            "pl": "Uroczystość Trójcy Przenajświętszej"
+        }
+    },
+    "me": {
+        "names": {
+            "en": "me",
+            "la": "ego",
+            "pl": "ja"
+        }
+    },
+    "patrons": {
+        "names": {
+            "en": "Patrons",
+            "la": "Patroni",
+            "pl": "Patroni"
+        }
+    },
+    "patrons/alphonsus": {
+        "names": {
+            "it": "Alfonso",
+            "en": "Alphonsus",
+            "la": "Alphonsus",
+            "pl": "Alfons"
+        }
+    },
+    "patrons/alphonsus/lig": {
+        "names": {
+            "it": "Alfonso Maria de' Liguori",
+            "en": "Alphonsus Maria Liguori",
+            "la": "Alphonsus Maria a Ligorio",
+            "pl": "Alfons Maria Liguori"
+        },
+        "died": [
+            "1787-08-01"
+        ]
+    },
+    "patrons/augustinus": {
+        "names": {
+            "la": "Augustinus",
+            "en": "Augustine",
+            "pl": "Augustyn"
+        }
+    },
+    "patrons/augustinus/hip": {
+        "names": {
+            "la": "Augustinus Hipponensis",
+            "en": "Augustine of Hippo",
+            "pl": "Augustyn z Hippony"
+        },
+        "died": [
+            "430-08-28"
+        ]
+    },
+    "patrons/eusebius": {
+        "names": {
+            "la": "Eusebius",
+            "en": "Eusebius",
+            "pl": "Euzebiusz"
+        }
+    },
+    "patrons/eusebius/ver": {
+        "names": {
+            "la": "Eusebius Vercellensis",
+            "en": "Eusebius of Vercelli",
+            "pl": "Euzebiusz z Vercelli"
+        },
+        "died": [
+            "371-08-01"
+        ]
+    },
+    "patrons/ioannes": {
+        "names": {
+            "la": "Ioannes",
+            "en": "John",
+            "pl": "Jan",
+            "fr": "Jean"
+        }
+    },
+    "patrons/ioannes/eva": {
+        "names": {
+            "la": "Ioannes Evangelista",
+            "en": "John the Evangelist",
+            "pl": "Jan Ewangelista"
+        },
+        "died": [
+            "~100"
+        ]
+    },
+    "patrons/ioannes/eva@lit": {
+        "names": {
+            "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
+            "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+        }
+    },
+    "patrons/ioannes/via": {
+        "names": {
+            "fr": "Jean-Marie Vianney",
+            "en": "John Mary Vianney",
+            "la": "Ioannes Maria Vianney",
+            "pl": "Jan Maria Vianney"
+        },
+        "died": [
+            "1859-08-04"
+        ]
+    },
+    "patrons/iosephus": {
+        "names": {
+            "arc": "ܡܪܝ ܝܘܣܦ",
+            "en": "Joseph",
+            "la": "Iosephus",
+            "pl": "Józef"
+        }
+    },
+    "patrons/iosephus/naz": {
+        "names": {
+            "arc": "ܡܪܝ ܝܘܣܦ",
+            "en": "Joseph",
+            "la": "Iosephus",
+            "pl": "Józef z Nazaretu"
+        },
+        "died": [
+            "~20"
+        ]
+    },
+    "patrons/iosephus/naz@fam": {
+        "names": {
+            "la": "Sancta Familia",
+            "pl": "Święta Rodzina"
+        }
+    },
+    "patrons/lydia": {
+        "names": {
+            "la": "Lydia",
+            "en": "Lydia",
+            "pl": "Lidia"
+        }
+    },
+    "patrons/lydia/thy": {
+        "names": {
+            "la": "Lydia Thyatirensis",
+            "en": "Lydia of Thyatira",
+            "pl": "Lidia z Tiatyry"
+        },
+        "died": [
+            "<100"
+        ]
+    },
+    "patrons/maria": {
+        "names": {
+            "it": "Marie",
+            "en": "Mary",
+            "la": "Maria",
+            "pl": "Maria",
+            "fr": "Marie",
+            "arc": "ܡܪܝܡ"
+        }
+    },
+    "patrons/maria/naz": {
+        "names": {
+            "arc": "ܡܪܝܡ",
+            "en": "Mary, mother of Jesus",
+            "la": "Maria Virgo",
+            "pl": "Maria z Nazaretu"
+        },
+        "died": [
+            ">30"
+        ]
+    },
+    "patrons/maria/naz@7do": {
+        "names": {
+            "la": "Septem Dolores beatissimae Vírginis Mariae",
+            "pl": "Siedem Boleści Najświętszej Maryi Panny"
+        }
+    },
+    "patrons/maria/naz@ass": {
+        "names": {
+            "en": "Assumption of Mary",
+            "la": "Assumptio Beatae Mariae Virginis",
+            "pl": "Wniebowzięcie Najświętszej Maryi Panny"
+        }
+    },
+    "patrons/maria/naz@cor": {
+        "names": {
+            "la": "Immaculatum Cor beate Mariae Virginis",
+            "pl": "Niepokalane Serce Najświętszej Maryi Panny"
+        }
+    },
+    "patrons/maria/naz@fam": {
+        "names": {
+            "la": "Sancta Familia",
+            "pl": "Święta Rodzina"
+        }
+    },
+    "patrons/maria/naz@gen": {
+        "names": {
+            "en": "Maria, Holy Mother of God",
+            "la": "Maria, Sancta Dei Genetrix",
+            "pl": "Najświętsza Maryja Panna Święta Boża Rodzicielka"
+        }
+    },
+    "patrons/maria/naz@lmi": {
+        "names": {
+            "la": "Romae Litaniae minores ad sanctam Mariam Majorem",
+            "pl": "Rzymska mała procesja błagalna do świętej Maryi Większej"
+        }
+    },
+    "patrons/maria/naz@mat": {
+        "names": {
+            "en": "The Motherhood of the Blessed Virgin Mary",
+            "la": "Maternitatem beatae Mariae Virginis",
+            "pl": "Macierzyństwo błogosławionej Maryi Dziewicy"
+        }
+    },
+    "patrons/petrus": {
+        "names": {
+            "la": "Petrus",
+            "en": "Peter",
+            "pl": "Piotr"
+        }
+    },
+    "patrons/petrus/apo": {
+        "names": {
+            "la": "Petrus",
+            "en": "Peter the Apostle",
+            "pl": "Piotr Apostoł"
+        },
+        "died": [
+            "64",
+            "67"
+        ]
+    },
+    "patrons/petrus/apo@lma": {
+        "names": {
+            "la": "Romae Litaníae majores ad sanctum Petrum",
+            "pl": "Rzymska wielka procesja błagalna do świętego Piotra"
+        }
+    },
+    "patrons/petrus/apo@lmi": {
+        "names": {
+            "la": "Romae Litaníae minores ad sanctum Petrum",
+            "pl": "Rzymska mała procesja błagalna do świętego Piotra"
+        }
+    }
+}

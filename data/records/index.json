@@ -1,0 +1,32 @@
+{
+    "categories": {
+        "en": "Categories",
+        "la": "Categoriae",
+        "pl": "Kategorie"
+    },
+    "god": {
+        "en": "God",
+        "la": "Deus",
+        "pl": "Bóg"
+    },
+    "feasts": {
+        "en": "Feasts",
+        "la": "Festa",
+        "pl": "Święta"
+    },
+    "former-feasts": {
+        "en": "Former Feasts",
+        "la": "Pristina Festa",
+        "pl": "Dawne Święta"
+    },
+    "patrons": {
+        "en": "Patrons",
+        "la": "Patroni",
+        "pl": "Patroni"
+    },
+    "popes": {
+        "en": "Popes",
+        "la": "Papae",
+        "pl": "Papieże"
+    }
+}

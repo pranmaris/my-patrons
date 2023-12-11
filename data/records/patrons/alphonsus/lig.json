@@ -1,0 +1,71 @@
+{
+  "names": {
+    "it": [
+      "Alfonso Maria de' Liguori"
+    ],
+    "en": [
+      "Alphonsus Maria Liguori",
+      "Alphonsus Maria Liguori",
+      "Alphonsus Liguori"
+    ],
+    "la": [
+      "Alphonsus Maria a Ligorio"
+    ],
+    "pl": [
+      "Alfons Maria Liguori",
+      "Alfons Maria Liguori",
+      "Alfons Liguori"
+    ]
+  },
+
+  "forenames": [
+    {
+      "it": "Alfonso",
+      "en": "Alphonsus",
+      "la": "Alphonsus",
+      "pl": "Alfons"
+    },
+    {
+      "it": "Marie",
+      "en": "Mary",
+      "la": "Maria",
+      "pl": "Maria"
+    }
+  ],
+  "surnames": [
+    {
+      "it": "Liguori"
+    }
+  ],
+  "epithets": [
+  ],
+
+  "born": ["1696-09-27"],
+  "died": ["1787-08-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1816-09-15"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1839-05-26"
+  },
+
+  "categories": ["male", "bishop", "doctor-of-the-church", "religious"],
+  "order": ["CSsR"],
+
+  "images": {
+    "1": {
+      "page-url": "https://commons.wikimedia.org/wiki/File:St_Alphonsus_Liguori.jpg",
+      "file-url": "https://upload.wikimedia.org/wikipedia/commons/1/19/St_Alphonsus_Liguori.jpg",
+      "attribution": "See page for author, Public domain, via Wikimedia Commons",
+      "area-center-x": 97,
+      "area-center-y": 95,
+      "area-center-to-edge-distance": 91
+    }
+  },
+
+  "data-links": {
+  }
+}

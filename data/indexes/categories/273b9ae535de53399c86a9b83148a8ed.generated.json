@@ -1,0 +1,29 @@
+{
+    "names": {
+        "en": "female"
+    },
+    "translations": {
+        "en": [
+            "female"
+        ],
+        "la": [
+            "femina"
+        ],
+        "pl": [
+            "kobieta"
+        ]
+    },
+    "links": {
+        "records/patrons/lydia/thy": {
+            "la": "Lydia Thyatirensis",
+            "en": "Lydia of Thyatira",
+            "pl": "Lidia z Tiatyry"
+        },
+        "records/patrons/maria/naz": {
+            "arc": "ܡܪܝܡ",
+            "en": "Mary, mother of Jesus",
+            "la": "Maria Virgo",
+            "pl": "Maria z Nazaretu"
+        }
+    }
+}

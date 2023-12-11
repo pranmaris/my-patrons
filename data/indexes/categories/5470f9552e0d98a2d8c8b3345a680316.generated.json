@@ -1,0 +1,34 @@
+{
+    "names": {
+        "en": "bishop"
+    },
+    "translations": {
+        "en": [
+            "bishop"
+        ],
+        "la": [
+            "episcopus"
+        ],
+        "pl": [
+            "biskup"
+        ]
+    },
+    "links": {
+        "records/patrons/alphonsus/lig": {
+            "it": "Alfonso Maria de' Liguori",
+            "en": "Alphonsus Maria Liguori",
+            "la": "Alphonsus Maria a Ligorio",
+            "pl": "Alfons Maria Liguori"
+        },
+        "records/patrons/augustinus/hip": {
+            "la": "Augustinus Hipponensis",
+            "en": "Augustine of Hippo",
+            "pl": "Augustyn z Hippony"
+        },
+        "records/patrons/eusebius/ver": {
+            "la": "Eusebius Vercellensis",
+            "en": "Eusebius of Vercelli",
+            "pl": "Euzebiusz z Vercelli"
+        }
+    }
+}

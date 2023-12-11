@@ -1,0 +1,27 @@
+{
+    "names": {
+        "arc": "ܡܪܝܡ"
+    },
+    "translations": {
+        "arc": [
+            "ܡܪܝܡ"
+        ],
+        "en": [
+            "Mary"
+        ],
+        "la": [
+            "Maria"
+        ],
+        "pl": [
+            "Maria"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/naz": {
+            "arc": "ܡܪܝܡ",
+            "en": "Mary, mother of Jesus",
+            "la": "Maria Virgo",
+            "pl": "Maria z Nazaretu"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Liguori"
+    },
+    "translations": {
+        "it": [
+            "Liguori"
+        ]
+    },
+    "links": {
+        "records/patrons/alphonsus/lig": {
+            "it": "Alfonso Maria de' Liguori",
+            "en": "Alphonsus Maria Liguori",
+            "la": "Alphonsus Maria a Ligorio",
+            "pl": "Alfons Maria Liguori"
+        }
+    }
+}

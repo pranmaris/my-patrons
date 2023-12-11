@@ -1,0 +1,26 @@
+{
+    "01-01": {
+        "records/patrons/maria/naz#gen": {
+            "name": {
+                "en": "Mary, mother of Jesus (Maria, Holy Mother of God)",
+                "la": "Maria Virgo (Maria, Sancta Dei Genetrix)",
+                "pl": "Maria z Nazaretu (Najświętsza Maryja Panna Święta Boża Rodzicielka)"
+            },
+            "sources": {
+                "feasts": "1 I: #MVSDG"
+            }
+        }
+    },
+    "10-11": {
+        "records/patrons/maria/naz#mat": {
+            "name": {
+                "en": "Mary, mother of Jesus (The Motherhood of the Blessed Virgin Mary)",
+                "la": "Maria Virgo (Maternitatem beatae Mariae Virginis)",
+                "pl": "Maria z Nazaretu (Macierzyństwo błogosławionej Maryi Dziewicy)"
+            },
+            "sources": {
+                "former-feasts": "11 X: #MVMAT"
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "names": {
+    "la": [
+      "Eusebius Vercellensis"
+    ],
+    "en": [
+      "Eusebius of Vercelli"
+    ],
+    "pl": [
+      "Euzebiusz z Vercelli"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Eusebius",
+      "en": "Eusebius",
+      "pl": "Euzebiusz"
+    }
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+  ],
+
+  "born": ["~283"],
+  "died": ["371-08-01"],
+
+  "categories": ["male", "martyr", "bishop"],
+
+  "images": {
+    "1": {
+      "page-url": "https://commons.wikimedia.org/wiki/File:Eusebius_von_Vercelli.jpg",
+      "file-url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Eusebius_von_Vercelli.jpg",
+      "attribution": "Unknown author, Public domain, via Wikimedia Commons",
+      "area-center-x": 158,
+      "area-center-y": 179,
+      "area-center-to-edge-distance": 103
+    }
+  },
+
+  "data-links": {
+  }
+}
+

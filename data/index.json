@@ -1,0 +1,15 @@
+{
+    "records": {
+        "en": "Records",
+        "pl": "Rejestry"
+    },
+    "indexes": {
+        "en": "Indexes",
+        "pl": "Indeksy"
+    },
+    "sources": {
+        "en": "Sources",
+        "la": "Fontes",
+        "pl": "Źródła"
+    }
+}

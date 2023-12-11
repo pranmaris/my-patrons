@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Lydia",
+        "en": "Lydia"
+    },
+    "translations": {
+        "la": [
+            "Lydia"
+        ],
+        "en": [
+            "Lydia"
+        ],
+        "pl": [
+            "Lidia"
+        ]
+    },
+    "links": {
+        "records/patrons/lydia/thy": {
+            "la": "Lydia Thyatirensis",
+            "en": "Lydia of Thyatira",
+            "pl": "Lidia z Tiatyry"
+        }
+    }
+}

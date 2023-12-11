@@ -1,0 +1,391 @@
+{
+    "god": {
+        "name": {
+            "en": "God",
+            "la": "Deus",
+            "pl": "Bóg"
+        },
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "angel": {
+        "name": {
+            "en": "angel",
+            "la": "angelus",
+            "pl": "anioł"
+        },
+        "color": "#FFFFFF",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "male": {
+        "name": {
+            "en": "male",
+            "la": "vir",
+            "pl": "mężczyzna"
+        },
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "female": {
+        "name": {
+            "en": "female",
+            "la": "femina",
+            "pl": "kobieta"
+        },
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "group": {
+        "name": {
+            "en": "group",
+            "la": "grex",
+            "pl": "grupa"
+        },
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "mother-of-god": {
+        "name": {
+            "en": "Mother of God",
+            "la": "Mater Dei",
+            "pl": "Matka Boża"
+        },
+        "color": "#0DCAF0",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "martyr": {
+        "name": {
+            "en": "martyr",
+            "la": "martyr",
+            "pl": "męczennik"
+        },
+        "female-equivalent-name": {
+            "en": "martyress",
+            "pl": "męczennica"
+        },
+        "color": "#DC3545",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "virgin": {
+        "name": {
+            "en": "virgin",
+            "la": "virgo",
+            "pl": "dziewica"
+        },
+        "color": "#FFB6DA",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "apostle": {
+        "name": {
+            "en": "apostle",
+            "la": "apostolus",
+            "pl": "apostoł"
+        },
+        "color": "#FFA500",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "evangelist": {
+        "name": {
+            "en": "evangelist",
+            "la": "evangelista",
+            "pl": "ewangelista"
+        },
+        "color": "#FFA500",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "catechist": {
+        "name": {
+            "en": "catechist",
+            "la": "catechista",
+            "pl": "katechista"
+        },
+        "color": "#FFA500",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "widow": {
+        "name": {
+            "en": "widow",
+            "la": "vidua",
+            "pl": "wdowa"
+        },
+        "color": "#381A1A",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "patriarch": {
+        "name": {
+            "en": "patriarch",
+            "la": "patriarcha",
+            "pl": "patriarcha"
+        },
+        "color": "#7000A1",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "prophet": {
+        "name": {
+            "en": "prophet",
+            "la": "propheta",
+            "pl": "prorok"
+        },
+        "female-equivalent-name": {
+            "en": "prophetess",
+            "la": "prophetissa",
+            "pl": "prorokini"
+        },
+        "color": "#7000A1",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "confessor": {
+        "name": {
+            "en": "confessor",
+            "la": "confessor",
+            "pl": "wyznawca"
+        },
+        "color": "#00B300",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "hermit": {
+        "name": {
+            "en": "hermit",
+            "la": "anachoreta",
+            "pl": "pustelnik"
+        },
+        "female-equivalent-name": {
+            "en": "hermitess",
+            "pl": "pustelnica"
+        },
+        "color": "#A15116",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "tertiary": {
+        "name": {
+            "en": "tertiary",
+            "la": "tertiarius",
+            "pl": "tercjarz"
+        },
+        "female-equivalent-name": {
+            "en": "tertiary",
+            "la": "tertiarius",
+            "pl": "tercjarka"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "abbot": {
+        "name": {
+            "en": "abbot",
+            "la": "abbas",
+            "pl": "opat"
+        },
+        "female-equivalent-name": {
+            "en": "abbess",
+            "la": "abbatissa",
+            "pl": "ksieni"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "religious": {
+        "name": {
+            "en": "religious",
+            "la": "religiosus",
+            "pl": "zakonnik"
+        },
+        "female-equivalent-name": {
+            "en": "religious",
+            "la": "religiosa",
+            "pl": "zakonnica"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "doctor-of-the-church": {
+        "name": {
+            "en": "doctor of the Church",
+            "la": "doctor Ecclesiae",
+            "pl": "doktor Kościoła"
+        },
+        "color": "#E6E600",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "pope": {
+        "name": {
+            "en": "pope",
+            "la": "papa",
+            "pl": "papież"
+        },
+        "color": "#EEEEEE",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "bishop": {
+        "name": {
+            "en": "bishop",
+            "la": "episcopus",
+            "pl": "biskup"
+        },
+        "color": "#B300B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "presbyter": {
+        "name": {
+            "en": "presbyter",
+            "la": "prezbyter",
+            "pl": "prezbiter"
+        },
+        "color": "#555555",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "deacon": {
+        "name": {
+            "en": "deacon",
+            "la": "diaconus",
+            "pl": "diakon"
+        },
+        "color": "#CCCCCC",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "emperor": {
+        "name": {
+            "en": "emperor",
+            "la": "imperator",
+            "pl": "cesarz"
+        },
+        "female-equivalent-name": {
+            "en": "empress",
+            "la": "imperatrix",
+            "pl": "cesarzowa"
+        },
+        "color": "#0000B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "king": {
+        "name": {
+            "en": "king",
+            "la": "rex",
+            "pl": "król"
+        },
+        "female-equivalent-name": {
+            "en": "queen",
+            "la": "regina",
+            "pl": "królowa"
+        },
+        "color": "#0000B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "prince": {
+        "name": {
+            "en": "prince",
+            "la": "princeps",
+            "pl": "książę"
+        },
+        "female-equivalent-name": {
+            "en": "princess",
+            "la": "principissa",
+            "pl": "księżna"
+        },
+        "color": "#0000B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "prezbiter"
+    },
+    "translations": {
+        "en": [
+            "presbyter"
+        ],
+        "la": [
+            "prezbyter"
+        ],
+        "pl": [
+            "prezbiter"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/via": {
+            "fr": "Jean-Marie Vianney",
+            "en": "John Mary Vianney",
+            "la": "Ioannes Maria Vianney",
+            "pl": "Jan Maria Vianney"
+        }
+    }
+}

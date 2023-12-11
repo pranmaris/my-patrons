@@ -1,0 +1,67 @@
+{
+  "names": {
+    "arc": [
+      "ܡܪܝ ܝܘܣܦ"
+    ],
+    "en": [
+      "Joseph"
+    ],
+    "la": [
+      "Iosephus"
+    ],
+    "pl": [
+      "Józef z Nazaretu",
+      "Józef"
+    ]
+  },
+
+  "forenames": [
+    {
+      "arc": "ܡܪܝ ܝܘܣܦ",
+      "en": "Joseph",
+      "la": ["Iosephus", "Ioseph"],
+      "pl": "Józef"
+    }
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+  ],
+
+  "born": ["<-20"],
+  "died": ["~20"],
+
+  "categories": ["male"],
+
+  "images": {
+    "1": {
+      "page-url": "https://commons.wikimedia.org/wiki/File:Guido_Reni_-_Saint_Joseph_and_the_Christ_Child_-_96.1565_-_Museum_of_Fine_Arts.jpg",
+      "file-url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Guido_Reni_-_Saint_Joseph_and_the_Christ_Child_-_96.1565_-_Museum_of_Fine_Arts.jpg",
+      "attribution": "Guido Reni, Public domain, via Wikimedia Commons",
+      "area-center-x": 1297,
+      "area-center-y": 1600,
+      "area-center-to-edge-distance": 1208
+    }
+  },
+
+  "data-links": {
+  },
+
+  "feasts": {
+    "fam": {
+      "names": {
+        "la": [
+          "Sancta Familia"
+        ],
+        "pl": [
+          "Święta Rodzina"
+        ]
+      },
+
+      "data-links": {
+        "feasts": ["3:#SFIMI"],
+        "former-feasts": ["3:#SFIMI", "6:#SFIMI"]
+      }
+    }
+  }
+}

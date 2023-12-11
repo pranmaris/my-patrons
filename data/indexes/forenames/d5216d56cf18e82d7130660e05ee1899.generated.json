@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Petrus"
+    },
+    "translations": {
+        "la": [
+            "Petrus"
+        ],
+        "en": [
+            "Peter"
+        ],
+        "pl": [
+            "Piotr"
+        ]
+    },
+    "links": {
+        "records/patrons/petrus/apo": {
+            "la": "Petrus",
+            "en": "Peter the Apostle",
+            "pl": "Piotr Apostoł"
+        }
+    }
+}

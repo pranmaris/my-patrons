@@ -1,0 +1,28 @@
+{
+    "names": {
+        "en": "apostle"
+    },
+    "translations": {
+        "en": [
+            "apostle"
+        ],
+        "la": [
+            "apostolus"
+        ],
+        "pl": [
+            "apostoł"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/eva": {
+            "la": "Ioannes Evangelista",
+            "en": "John the Evangelist",
+            "pl": "Jan Ewangelista"
+        },
+        "records/patrons/petrus/apo": {
+            "la": "Petrus",
+            "en": "Peter the Apostle",
+            "pl": "Piotr Apostoł"
+        }
+    }
+}

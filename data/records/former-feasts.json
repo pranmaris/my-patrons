@@ -1,0 +1,36 @@
+{
+    "SFIMI": {
+        "base": {
+            "1": "getHolyFamilyFeastDateTypeA",
+            "2": "getHolyFamilyFeastDateTypeA",
+            "3": "getHolyFamilyFeastDateTypeA",
+            "4": "getHolyFamilyFeastDateTypeB",
+            "5": "getHolyFamilyFeastDateTypeB",
+            "6": "getHolyFamilyFeastDateTypeB"
+        },
+        "move": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0
+        },
+        "name": {
+            "pl": "Święta Rodzina ([1|Jezus], [2|Maryja] i [3|Józef])"
+        },
+        "description": {
+            "pl": "w opracowaniu ..."
+        }
+    },
+    "MVMAT": {
+        "base": "getDayOfOctober",
+        "move": 11,
+        "name": {
+            "pl": "[1|Macierzyństwo błogosławionej Maryi Dziewicy]"
+        },
+        "description": {
+            "pl": "[/] - od 25.12.1931: ustanowienie święta na pamiątkę 1500 rocznicy soboru w Efezie (Pius XI, encyklika Lux Veritatis z 25.12.1931) - obchodzone 11 października[/] - od 01.01.1970: jako [feasts#MVSDG|Najświętsza Maryja Panna Święta Boża Rodzicielka]"
+        }
+    }
+}

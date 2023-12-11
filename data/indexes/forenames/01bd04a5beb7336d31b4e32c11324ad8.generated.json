@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Kefas"
+    },
+    "translations": {
+        "la": [
+            "Cephas"
+        ],
+        "en": [
+            "Cephas"
+        ],
+        "pl": [
+            "Kefas"
+        ]
+    },
+    "links": {
+        "records/patrons/petrus/apo": {
+            "la": "Petrus",
+            "en": "Peter the Apostle",
+            "pl": "Piotr Apostoł"
+        }
+    }
+}

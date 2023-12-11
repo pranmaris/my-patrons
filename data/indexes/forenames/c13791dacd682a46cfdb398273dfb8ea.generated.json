@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Euzebiusz"
+    },
+    "translations": {
+        "la": [
+            "Eusebius"
+        ],
+        "en": [
+            "Eusebius"
+        ],
+        "pl": [
+            "Euzebiusz"
+        ]
+    },
+    "links": {
+        "records/patrons/eusebius/ver": {
+            "la": "Eusebius Vercellensis",
+            "en": "Eusebius of Vercelli",
+            "pl": "Euzebiusz z Vercelli"
+        }
+    }
+}

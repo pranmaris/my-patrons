@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Szymon"
+    },
+    "translations": {
+        "la": [
+            "Simon"
+        ],
+        "en": [
+            "Simon"
+        ],
+        "pl": [
+            "Szymon"
+        ]
+    },
+    "links": {
+        "records/patrons/petrus/apo": {
+            "la": "Petrus",
+            "en": "Peter the Apostle",
+            "pl": "Piotr Apostoł"
+        }
+    }
+}

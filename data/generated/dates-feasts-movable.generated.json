@@ -1,0 +1,100 @@
+{
+    "getHolyFamilyFeastDateTypeA|0": {
+        "records/god/fil#fam": {
+            "name": {
+                "la": "Iesus Christus (Sancta Familia)",
+                "pl": "Jezus Chrystus (Święta Rodzina)"
+            },
+            "sources": {
+                "former-feasts": "#SFIMI"
+            }
+        },
+        "records/patrons/maria/naz#fam": {
+            "name": {
+                "la": "Maria Virgo (Sancta Familia)",
+                "pl": "Maria z Nazaretu (Święta Rodzina)"
+            },
+            "sources": {
+                "former-feasts": "#SFIMI"
+            }
+        },
+        "records/patrons/iosephus/naz#fam": {
+            "name": {
+                "la": "Iosephus (Sancta Familia)",
+                "pl": "Józef z Nazaretu (Święta Rodzina)"
+            },
+            "sources": {
+                "former-feasts": "#SFIMI"
+            }
+        }
+    },
+    "getHolyFamilyFeastDateTypeB|0": {
+        "records/god/fil#fam": {
+            "name": {
+                "la": "Iesus Christus (Sancta Familia)",
+                "pl": "Jezus Chrystus (Święta Rodzina)"
+            },
+            "sources": {
+                "former-feasts": "#SFIMI"
+            }
+        },
+        "records/patrons/maria/naz#fam": {
+            "name": {
+                "la": "Maria Virgo (Sancta Familia)",
+                "pl": "Maria z Nazaretu (Święta Rodzina)"
+            },
+            "sources": {
+                "former-feasts": "#SFIMI"
+            }
+        },
+        "records/patrons/iosephus/naz#fam": {
+            "name": {
+                "la": "Iosephus (Sancta Familia)",
+                "pl": "Józef z Nazaretu (Święta Rodzina)"
+            },
+            "sources": {
+                "former-feasts": "#SFIMI"
+            }
+        }
+    },
+    "getHolyFamilyFeastDateTypeC|0": {
+        "records/god/fil#fam": {
+            "name": {
+                "la": "Iesus Christus (Sancta Familia)",
+                "pl": "Jezus Chrystus (Święta Rodzina)"
+            },
+            "sources": {
+                "feasts": "#SFIMI"
+            }
+        },
+        "records/patrons/maria/naz#fam": {
+            "name": {
+                "la": "Maria Virgo (Sancta Familia)",
+                "pl": "Maria z Nazaretu (Święta Rodzina)"
+            },
+            "sources": {
+                "feasts": "#SFIMI"
+            }
+        },
+        "records/patrons/iosephus/naz#fam": {
+            "name": {
+                "la": "Iosephus (Sancta Familia)",
+                "pl": "Józef z Nazaretu (Święta Rodzina)"
+            },
+            "sources": {
+                "feasts": "#SFIMI"
+            }
+        }
+    },
+    "getResurrectionFeastDate|0": {
+        "records/god/fil#res": {
+            "name": {
+                "la": "Iesus Christus (Resurrectio Iesu Christi)",
+                "pl": "Jezus Chrystus (Zmartwychwstanie Jezusa Chrystusa)"
+            },
+            "sources": {
+                "feasts": "#ICRES"
+            }
+        }
+    }
+}

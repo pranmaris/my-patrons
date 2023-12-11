@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "vidua"
+    },
+    "translations": {
+        "en": [
+            "widow"
+        ],
+        "la": [
+            "vidua"
+        ],
+        "pl": [
+            "wdowa"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/naz": {
+            "arc": "ܡܪܝܡ",
+            "en": "Mary, mother of Jesus",
+            "la": "Maria Virgo",
+            "pl": "Maria z Nazaretu"
+        }
+    }
+}

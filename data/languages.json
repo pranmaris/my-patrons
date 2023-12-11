@@ -1,0 +1,37 @@
+{
+    "arc": {
+        "en": "Aramaic",
+        "la": "Aramaica",
+        "pl": "aramejski"
+    },
+
+    "en": {
+        "en": "English",
+        "la": "Anglica",
+        "pl": "angielski"
+    },
+
+    "fr": {
+        "en": "French",
+        "la": "Francica",
+        "pl": "francuski"
+    },
+
+    "it": {
+        "en": "Italian",
+        "la": "Italiana",
+        "pl": "włoski"
+    },
+
+    "la": {
+        "la": "Latina",
+        "en": "Latin",
+        "pl": "łaciński"
+    },
+
+    "pl": {
+        "pl": "polski",
+        "en": "Polish",
+        "la": "Polonica"
+    }
+}
