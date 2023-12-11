@@ -3,6 +3,8 @@ const DEV_HOSTNAME_REMOVE_STRING = '.dev';
 const SELECT_NAME = '...';
 const NAME_TO_IGNORE = '~~~';
 
+const MISSING_INDEX_OF_VALUE = -1;
+
 const LANGUAGE_MISSING_VARIABLE_SIGN = '!!!';
 const LANGUAGE_JSON_FILE = '/files/data/website-language-variables.json';
 const CHALLENGES_DATA_JSON_FILE = '/files/data/records/challenges.json';
@@ -69,6 +71,7 @@ let languageVariables = {};
 let filesContents = {};
 let filesContentsErrors = {};
 let personsData = {};
+let personsDataSubelementsCache = {};
 
 let fileName = DEFAULT_JSON_FILENAME + JSON_DATA_FILE_EXTENSION;
 let fileContent = '{}';
@@ -79,6 +82,14 @@ async function build() {
   languageVariables = await getJsonFromFile(LANGUAGE_JSON_FILE);
   challengesConfig = await getJsonFromFile(CHALLENGES_DATA_JSON_FILE);
   personsData = await getJsonFromFile(PERSONS_DATA_JSON_FILE);
+}
+
+function inArray(value, array) {
+  return array.indexOf(value) != MISSING_INDEX_OF_VALUE;
+}
+
+function getPersonsDataDirName(personId) {
+  return personId.replace(/[/@][^/@]+[/@]?$/, '');
 }
 
 async function showNotification(message, type) {
@@ -373,7 +384,7 @@ async function fillChallenges(challenges, patrons, filter = {}) {
       .replace(/#notes#/g, notes)
     ;
 
-    if (REMOVE_PERSON_URL_LINK_HREFS.indexOf(personUrl) != -1) {
+    if (inArray(personUrl, REMOVE_PERSON_URL_LINK_HREFS)) {
       document.getElementById(PERSON_URL_ELEMENT_ID_PREFIX + rowId).removeAttribute('href');
     }
   }
@@ -491,7 +502,7 @@ function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDa
       }
 
       foundPosition = types.indexOf(type);
-      if (foundPosition != -1) {
+      if (foundPosition != MISSING_INDEX_OF_VALUE) {
         types.splice(foundPosition, 1);
 
         if (types.length == 0) {
@@ -512,7 +523,7 @@ function checkNotExistingChallengeTypes(requirements, challenges) {
     for (let ch of challenges) {
       const type = ch.type;
 
-      if (types.indexOf(type) != -1) {
+      if (inArray(type, types)) {
         return false;
       }
     }
@@ -528,16 +539,22 @@ function getPersonName(personId) {
 }
 
 function getPersonsDataSubelements(personIdPrefix) {
-  let result = [];
+  let result = personsDataSubelementsCache[personIdPrefix] ?? null;
 
-  const data = Object.keys(personsData);
-  for (let personId of data) {
-    if (personId.substring(0, personIdPrefix.length) == personIdPrefix
-      && personId != personIdPrefix
-      && personId.replace(personIdPrefix, '').match(/^[/@][a-z0-9]+$/)
-    ) {
-      result.push(personId);
+  if (result == null) {
+    result = [];
+
+    const data = Object.keys(personsData);
+    for (let personId of data) {
+      if (personId.substring(0, personIdPrefix.length) == personIdPrefix
+        && personId != personIdPrefix
+        && personId.replace(personIdPrefix, '').match(/^[/@][a-z0-9]+$/)
+      ) {
+        result.push(personId);
+      }
     }
+
+    personsDataSubelementsCache[personIdPrefix] = result;
   }
 
   return result;
@@ -556,6 +573,8 @@ function resetPersonTypeSelect() {
 
   if (challengeType.length > 0) {
     personDiv.style = VISIBLE_STYLE;
+
+    //...todo requirements
 
     const personTypes = challengesConfig[challengeType].person.types ?? [];
     if (personTypes.length > 0) {
@@ -591,13 +610,47 @@ function resetPersonNameSelect() {
 
   if (personTypeValue.length > 0) {
     let namesToSort = {};
-    if (COPY_PERSON_TYPE_TO_NAME_IDS.indexOf(personTypeValue) != -1) {
+    if (inArray(personTypeValue, COPY_PERSON_TYPE_TO_NAME_IDS)) {
       namesToSort[personTypeValue] = personTypeValue;
     } else {
       personNameSelect.style = VISIBLE_STYLE;
 
+      const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
+      let personsNamesToList = {};
+      if (typesNeeded != null) {
+        let personsToList = getPersonsHavingAllChallenges(typesNeeded);
+
+        for (let personId of Object.keys(personsToList)) {
+          const personNameId = getPersonsDataDirName(personId);
+          personsNamesToList[personNameId] = personNameId;
+        }
+
+      }
+
+      const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
+      let personsNamesToSkipCounts = {};
+      if (typesNotAllowed.length > 0) {
+        const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed);
+
+        for (let personId of Object.keys(personsToSkip)) {
+          const personNameId = getPersonsDataDirName(personId);
+          personsNamesToSkipCounts[personNameId] = (personsNamesToSkipCounts[personNameId] ?? 0) + 1;
+        }
+      }
+
       const subelements = getPersonsDataSubelements(personTypeValue);
       for (let subelement of subelements) {
+        if (typesNeeded != null && !personsNamesToList[subelement]) {
+          continue;
+        }
+
+        if (personsNamesToSkipCounts[subelement] != undefined) {
+          const nameSubelements = getPersonsDataSubelements(subelement);
+          if (nameSubelements.length <= personsNamesToSkipCounts[subelement]) {
+            continue;
+          }
+        }
+
         namesToSort[subelement] = getPersonName(subelement);
       }
     }
@@ -628,7 +681,7 @@ function getPersonsHavingAllChallenges(types) {
 
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
-    if (types.indexOf(ch.type) != -1) {
+    if (inArray(ch.type, types)) {
       if (withAnyType[ch.person] == undefined) {
         withAnyType[ch.person] = {};
       }
@@ -638,7 +691,7 @@ function getPersonsHavingAllChallenges(types) {
 
   for (let person in withAnyType) {
     if (Object.keys(withAnyType[person]).length == types.length) {
-      result[person] = true;
+      result[person] = person;
     }
   }
 
@@ -650,8 +703,8 @@ function getPersonsHavingAnyChallenge(types) {
 
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
-    if (types.indexOf(ch.type) != -1) {
-      result[ch.person] = true;
+    if (inArray(ch.type, types)) {
+      result[ch.person] = ch.person;
     }
   }
 
@@ -670,7 +723,7 @@ async function resetPersonSelect() {
 
   if (personNameValue.length > 0) {
     let namesToSort = {};
-    if (COPY_PERSON_NAME_TO_ID_IDS.indexOf(personTypeValue) != -1) {
+    if (inArray(personTypeValue, COPY_PERSON_NAME_TO_ID_IDS)) {
         namesToSort[personNameValue] = personNameValue;
     } else {
       personSelect.style = VISIBLE_STYLE;
