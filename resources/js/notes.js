@@ -3,6 +3,8 @@ const DEV_HOSTNAME_REMOVE_STRING = '.dev';
 const SELECT_NAME = '...';
 const NAME_TO_IGNORE = '~~~';
 
+const ANCHOR_CHARACTER = '#';
+
 const MISSING_INDEX_OF_VALUE = -1;
 
 const LANGUAGE_MISSING_VARIABLE_SIGN = '!!!';
@@ -35,7 +37,9 @@ const PERSON_TYPE_SELECT_ELEMENT_ID = 'person-type-select';
 const PERSON_SELECT_ELEMENT_ID = 'person-select';
 const FEAST_SELECT_ELEMENT_ID = 'feast-select';
 const PERSON_URL_ELEMENT_ID_PREFIX = 'person-url-';
+const FEAST_URL_ELEMENT_ID_PREFIX = 'feast-url-';
 
+const PERSON_URL_FEAST_SEPARATOR = '@';
 const REMOVE_PERSON_URL_LINK_HREFS = ['me'];
 
 const INPUT_FOR_FILENAME_WITHOUT_EXTENSION_ELEMENT_ID = 'input-for-filename-without-extension';
@@ -58,6 +62,9 @@ const REQUIREMENT_ANYBODY_HAVING_CHALLENGES = 'anybody-having-challenges';
 const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES = 'everybody-not-having-challenges';
 const REQUIREMENT_PERSON_HAVING_CHALLENGES = 'person-having-challenges';
 const REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES = 'person-not-having-challenges';
+const REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY = 'person-feast-is-not-empty';
+const REQUIREMENT_PERSON_FEAST_HAVING_CHALLENGES = 'person-feast-having-challenges';
+const REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES = 'person-feast-not-having-challenges';
 
 const JSON_MIME_TYPE = 'application/json';
 const JSON_DATA_FILE_EXTENSION = '.mypatrons.json';
@@ -65,6 +72,8 @@ const JSON_DATA_FILE_EXTENSION = '.mypatrons.json';
 const JSON_STRINGIFY_SPACES = 2;
 
 const WEEKDAY_LANGUAGE_VARIABLES_PREFIX = 'lang-weekday-abbreviation-';
+
+const SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME = 'lang-selected-person-in-general';
 
 let challengesConfig = {};
 let languageVariables = {};
@@ -89,7 +98,11 @@ function inArray(value, array) {
 }
 
 function getPersonsDataDirName(personId) {
-  return personId.replace(/[/@][^/@]+[/@]?$/, '');
+  return personId.replace(new RegExp('[/' + PERSON_URL_FEAST_SEPARATOR + '][^/' + PERSON_URL_FEAST_SEPARATOR + ']+[/' + PERSON_URL_FEAST_SEPARATOR + ']?$'), '');
+}
+
+function getPersonsDataRootName(personId) {
+  return personId.replace(new RegExp('[/' + PERSON_URL_FEAST_SEPARATOR + '].*$'), '');
 }
 
 async function showNotification(message, type) {
@@ -367,6 +380,7 @@ async function fillChallenges(challenges, patrons, filter = {}) {
     let type = challenge.type ?? '';
     let number = '...';
     let feast = challenge.feast ?? '';
+    let feastUrl = feast.length > 0 ? personUrl + PERSON_URL_FEAST_SEPARATOR + feast : '';
     let checklist = challenge.checklist ?? '';
     let success = '...';
     let notes = challenge.notes ?? '';
@@ -378,7 +392,8 @@ async function fillChallenges(challenges, patrons, filter = {}) {
       .replace(/#person#/g, getPersonName(personUrl))
       .replace(/#type#/g, type)
       .replace(/#number#/g, number)
-      .replace(/#feast#/g, feast)
+      .replace(/#feast-url#/g, feastUrl.length > 0 ? feastUrl + ANCHOR_CHARACTER + feast : '')
+      .replace(/#feast#/g, feastUrl.length > 0 ? getPersonName(feastUrl) : '')
       .replace(/#checklist#/g, checklist)
       .replace(/#success#/g, success)
       .replace(/#notes#/g, notes)
@@ -386,6 +401,9 @@ async function fillChallenges(challenges, patrons, filter = {}) {
 
     if (inArray(personUrl, REMOVE_PERSON_URL_LINK_HREFS)) {
       document.getElementById(PERSON_URL_ELEMENT_ID_PREFIX + rowId).removeAttribute('href');
+    }
+    if (feastUrl == '') {
+      document.getElementById(FEAST_URL_ELEMENT_ID_PREFIX + rowId).removeAttribute('href');
     }
   }
 }
@@ -414,58 +432,6 @@ function addNewChallengeReset() {
 
 function getToday() {
   return new Date().toJSON().slice(0, 10);
-}
-
-function resetDateInput() {
-  let dateInput = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID);
-  dateInput.value = getToday();
-
-  resetChallengeTypeSelect();
-}
-
-function resetChallengeTypeSelect() {
-  let challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
-
-  let challengeTypeDiv = document.getElementById(CHALLENGE_TYPE_DIV_ELEMENT_ID);
-  challengeTypeDiv.style = INVISIBLE_STYLE;
-
-  let challengeTypeSelect = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID);
-  challengeTypeSelect.innerHTML = '';
-  challengeTypeSelect.value = '';
-
-  if (challengeDate.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/)
-    && Date.parse(challengeDate) >= Date.parse(MIN_CHALLENGE_DATE_ALLOWED)
-    && Date.parse(challengeDate) <= Date.parse(getToday())
-  ) {
-    challengeTypeDiv.style = VISIBLE_STYLE;
-    addOptionToSelect(challengeTypeSelect, '', SELECT_NAME);
-
-    const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
-    let options = {};
-    for (let type in challengesConfig) {
-      const name = getLanguageVariable('name', false, challengesConfig[type].name);
-      const requirements = challengesConfig[type].person.requirements;
-
-      if (!checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
-        || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
-      ) {
-        continue;
-      }
-
-      options[type] = name;
-    }
-
-    let sorted = getSortedArray(options);
-
-    for (let keyValArr of sorted) {
-      const type = keyValArr[0];
-      const name = keyValArr[1];
-
-      addOptionToSelect(challengeTypeSelect, type, name + ' (' + type + ')');
-    }
-  }
-
-  resetPersonTypeSelect();
 }
 
 function getTypesArrayWithDuplications(array) {
@@ -548,7 +514,7 @@ function getPersonsDataSubelements(personIdPrefix) {
     for (let personId of data) {
       if (personId.substring(0, personIdPrefix.length) == personIdPrefix
         && personId != personIdPrefix
-        && personId.replace(personIdPrefix, '').match(/^[/@][a-z0-9]+$/)
+        && personId.replace(personIdPrefix, '').match(new RegExp('^[/' + PERSON_URL_FEAST_SEPARATOR + '][a-z0-9]+$'))
       ) {
         result.push(personId);
       }
@@ -558,6 +524,98 @@ function getPersonsDataSubelements(personIdPrefix) {
   }
 
   return result;
+}
+
+function getPersonsHavingAllChallenges(types) {
+  let result = {};
+  let withAnyType = {};
+
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  for (let ch of challenges) {
+    if (inArray(ch.type, types)) {
+      if (withAnyType[ch.person] == undefined) {
+        withAnyType[ch.person] = {};
+      }
+      withAnyType[ch.person][ch.type] = true;
+    }
+  }
+
+  for (let person in withAnyType) {
+    if (Object.keys(withAnyType[person]).length == types.length) {
+      result[person] = person;
+    }
+  }
+
+  return result;
+}
+
+function getPersonsHavingAnyChallenge(types) {
+  let result = {};
+
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  for (let ch of challenges) {
+    if (inArray(ch.type, types)) {
+      result[ch.person] = ch.person;
+    }
+  }
+
+  return result;
+}
+
+
+
+function resetDateInput() {
+  let dateInput = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID);
+  dateInput.value = getToday();
+
+  resetChallengeTypeSelect();
+}
+
+function resetChallengeTypeSelect() {
+  let challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
+
+  let challengeTypeDiv = document.getElementById(CHALLENGE_TYPE_DIV_ELEMENT_ID);
+  challengeTypeDiv.style = INVISIBLE_STYLE;
+
+  let challengeTypeSelect = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID);
+  challengeTypeSelect.innerHTML = '';
+  challengeTypeSelect.value = '';
+
+  if (challengeDate.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/)
+    && Date.parse(challengeDate) >= Date.parse(MIN_CHALLENGE_DATE_ALLOWED)
+    && Date.parse(challengeDate) <= Date.parse(getToday())
+  ) {
+    challengeTypeDiv.style = VISIBLE_STYLE;
+    addOptionToSelect(challengeTypeSelect, '', SELECT_NAME);
+
+    //...todo requirements
+
+    const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+    let options = {};
+    for (let type in challengesConfig) {
+      const name = getLanguageVariable('name', false, challengesConfig[type].name);
+      const requirements = challengesConfig[type].person.requirements;
+
+      if (!checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
+        || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
+      ) {
+        continue;
+      }
+
+      options[type] = name;
+    }
+
+    let sorted = getSortedArray(options);
+
+    for (let keyValArr of sorted) {
+      const type = keyValArr[0];
+      const name = keyValArr[1];
+
+      addOptionToSelect(challengeTypeSelect, type, name + ' (' + type + ')');
+    }
+  }
+
+  resetPersonTypeSelect();
 }
 
 function resetPersonTypeSelect() {
@@ -574,7 +632,26 @@ function resetPersonTypeSelect() {
   if (challengeType.length > 0) {
     personDiv.style = VISIBLE_STYLE;
 
-    //...todo requirements
+    const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
+    if (typesNeeded != null) {
+      //let personsToList = getPersonsHavingAllChallenges(typesNeeded);
+
+      //for (let personId of Object.keys(personsToList)) {
+        //const personNameId = getPersonsDataDirName(personId);
+        //personsNamesToList[personNameId] = personNameId;
+      //}
+    }
+
+    const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
+    let personsTypesToSkipCounts = {};
+    if (typesNotAllowed.length > 0) {
+      const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed);
+
+      for (let personId of Object.keys(personsToSkip)) {
+        const personTypeId = getPersonsDataRootName(personId);
+        personsTypesToSkipCounts[personTypeId] = (personsTypesToSkipCounts[personTypeId] ?? 0) + 1;
+      }
+    }
 
     const personTypes = challengesConfig[challengeType].person.types ?? [];
     if (personTypes.length > 0) {
@@ -583,6 +660,17 @@ function resetPersonTypeSelect() {
       let types = {};
       for (let personType of personTypes) {
         const personTypeId = personType.toLowerCase();
+
+        //if (typesNeeded != null && !personsNamesToList[subelement]) {
+          //continue;
+        //}
+
+        //if (personsTypesToSkipCounts[personType] != undefined) {
+          //const nameSubelements = getPersonsDataSubelements(subelement);
+          //if (nameSubelements.length <= personsNamesToSkipCounts[personType]) {
+            //continue;
+          //}
+        //}
 
         types[personTypeId] = getPersonName(personTypeId);
       }
@@ -624,7 +712,6 @@ function resetPersonNameSelect() {
           const personNameId = getPersonsDataDirName(personId);
           personsNamesToList[personNameId] = personNameId;
         }
-
       }
 
       const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
@@ -675,42 +762,6 @@ function resetPersonNameSelect() {
   resetPersonSelect();
 }
 
-function getPersonsHavingAllChallenges(types) {
-  let result = {};
-  let withAnyType = {};
-
-  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
-  for (let ch of challenges) {
-    if (inArray(ch.type, types)) {
-      if (withAnyType[ch.person] == undefined) {
-        withAnyType[ch.person] = {};
-      }
-      withAnyType[ch.person][ch.type] = true;
-    }
-  }
-
-  for (let person in withAnyType) {
-    if (Object.keys(withAnyType[person]).length == types.length) {
-      result[person] = person;
-    }
-  }
-
-  return result;
-}
-
-function getPersonsHavingAnyChallenge(types) {
-  let result = {};
-
-  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
-  for (let ch of challenges) {
-    if (inArray(ch.type, types)) {
-      result[ch.person] = ch.person;
-    }
-  }
-
-  return result;
-}
-
 async function resetPersonSelect() {
   let challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
   let personTypeValue = document.getElementById(PERSON_TYPE_SELECT_ELEMENT_ID).value;
@@ -724,7 +775,7 @@ async function resetPersonSelect() {
   if (personNameValue.length > 0) {
     let namesToSort = {};
     if (inArray(personTypeValue, COPY_PERSON_NAME_TO_ID_IDS)) {
-        namesToSort[personNameValue] = personNameValue;
+      namesToSort[personNameValue] = personNameValue;
     } else {
       personSelect.style = VISIBLE_STYLE;
 
@@ -772,21 +823,64 @@ async function resetPersonSelect() {
 }
 
 function resetFeastSelect() {
+  let challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
+  let personValue = document.getElementById(PERSON_SELECT_ELEMENT_ID).value;
+
   let feastSelect = document.getElementById(FEAST_SELECT_ELEMENT_ID);
   feastSelect.innerHTML = '';
   feastSelect.style = INVISIBLE_STYLE;
   feastSelect.value = '';
 
-  //todo later: possible feasts
+  if (personValue.length > 0) {
+    const feastIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
+    const feastHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_HAVING_CHALLENGES] ?? [];
+    const feastNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
+
+    let namesToSort = {};
+    if (feastIsNotEmpty || feastHavingChallenges.length > 0 || feastNotHavingChallenges.length > 0) {
+      feastSelect.style = VISIBLE_STYLE;
+
+      //todo requirements ...
+
+      const subelements = getPersonsDataSubelements(personValue);
+      for (let subelement of subelements) {
+        namesToSort[subelement] = getPersonName(subelement);
+      }
+    }
+
+    const sortedNames = getSortedArray(namesToSort);
+    let feasts = {};
+    for (let feastData of sortedNames) {
+      const key = feastData[0];
+      const value = feastData[1];
+
+      feasts[key] = value;
+    }
+
+    const feastsCount = Object.keys(feasts).length;
+    if (feastsCount > 1) {
+      addOptionToSelect(feastSelect, '', SELECT_NAME);
+    }
+    if (!feastIsNotEmpty) {
+      addOptionToSelect(feastSelect, personValue, getLanguageVariable(SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME, true));
+
+      if (feastsCount == 0) {
+        feastSelect.style = INVISIBLE_STYLE;
+      }
+    }
+    for (let i in feasts) {
+      addOptionToSelect(feastSelect, i, feasts[i]);
+    }
+  }
 
   resetAddNewChallengeButton();
 }
 
 function resetAddNewChallengeButton() {
-  let personValue = document.getElementById(PERSON_SELECT_ELEMENT_ID).value;
+  let feastValue = document.getElementById(FEAST_SELECT_ELEMENT_ID).value;
 
   let button = document.getElementById(ADD_NEW_CHALLENGE_BUTTON_ELEMENT_ID);
-  button.disabled = !personValue;
+  button.disabled = !feastValue;
 }
 
 function addOptionToSelect(select, value, name) {
@@ -806,10 +900,12 @@ function getSortedArray(object) {
 }
 
 function addNewChallenge() {
+  const feastValue = document.getElementById(FEAST_SELECT_ELEMENT_ID).value;
+
   const date = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
   const type = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
   const person = document.getElementById(PERSON_SELECT_ELEMENT_ID).value;
-  const feast = '';
+  const feast = feastValue.substring(person.length + 1);
   const checklist = {};
   const notes = {};
 

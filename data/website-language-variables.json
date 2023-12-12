@@ -814,6 +814,11 @@
         "pl": "drugie imię lub dalsza nazwa"
     },
 
+    "lang-selected-person-in-general": {
+        "en": "selected person in general",
+        "pl": "wybrana osoba w ogólności"
+    },
+
     "lang-service-name": {
         "en": "myPatrons.org"
     },

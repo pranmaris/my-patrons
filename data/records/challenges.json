@@ -3,17 +3,21 @@
     "name": {
       "pl": "Patroni Obrońcy"
     },
+    "description": {
+      "pl": ""
+    },
     "numbers": false,
+    "duplication-fields": ["person"],
     "person": {
       "types": ["Patrons"],
       "requirements": {
         "anybody-having-challenges": ["I", "3xX"],
-        "person-not-having-challenges": ["A"]
+        "person-not-having-challenges": ["A"],
+        "everybody-not-having-challenges-on-the-same-day": ["A"]
       },
-      "selection-description": {
+      "description": {
         "pl": ""
-      },
-      "feasts": {}
+      }
     },
     "checklist": {
       "mass": {
@@ -129,21 +133,59 @@
     }
   },
 
+  "B": {
+    "name": {
+      "pl": "Święta"
+    },
+    "description": {
+      "pl": ""
+    },
+    "duplication-fields": ["person", "feast"],
+    "numbers": true,
+    "person": {
+      "types": ["God", "Patrons"],
+      "requirements": {
+        "person-having-challenges": ["A"],
+        "god-always-having-challenges": ["A"],
+        "person-feast-is-not-empty": true,
+        "person-feast-not-having-challenges": ["B"]
+      },
+      "description": {
+        "pl": ""
+      }
+    },
+    "checklist": {
+
+
+
+    },
+    "notes": {
+
+
+
+    }
+  },
+
   "D": {
     "name": {
       "pl": "Kościoły"
     },
+    "description": {
+      "pl": ""
+    },
+    "duplication-fields": ["person", "feast", "notes:place"],
     "numbers": true,
     "person": {
-      "types": ["Patrons"],
+      "types": ["God", "Patrons"],
       "requirements": {
         "anybody-having-challenges": ["A"],
-        "person-having-challenges": ["A"]
+        "god-always-having-challenges": ["A"],
+        "person-having-challenges": ["A"],
+        "person-feast-having-challenges": ["B"]
       },
-      "selection-description": {
+      "description": {
         "pl": ""
-      },
-      "feasts": {}
+      }
     },
     "checklist": {
 
@@ -161,15 +203,17 @@
     "name": {
       "pl": "Bóg"
     },
+    "description": {
+      "pl": ""
+    },
     "numbers": false,
+    "duplication-fields": ["person"],
     "person": {
       "types": ["Me"],
       "requirements": {
         "anybody-having-challenges": ["J"],
         "everybody-not-having-challenges": ["I"]
-      },
-      "selection-description": {},
-      "feasts": {}
+      }
     },
     "checklist": {
       "self-entrusting": {
@@ -265,14 +309,16 @@
     "name": {
       "pl": "Narodziny"
     },
+    "description": {
+      "pl": ""
+    },
     "numbers": false,
+    "duplication-fields": ["person"],
     "person": {
       "types": ["Me"],
       "requirements": {
         "everybody-not-having-challenges": ["J"]
-      },
-      "selection-description": {},
-      "feasts": {}
+      }
     },
     "checklist": {
       "verification": {
@@ -332,14 +378,16 @@
     "name": {
       "pl": "Sakramenty"
     },
+    "description": {
+      "pl": ""
+    },
     "numbers": true,
+    "duplication-fields": ["person", "notes:type"],
     "person": {
       "types": ["Me"],
       "requirements": {
         "anybody-having-challenges": ["J"]
-      },
-      "selection-description": {},
-      "feasts": {}
+      }
     },
     "checklist": {
       "verification": {
@@ -368,6 +416,14 @@
       }
     },
     "notes": {
+      "type": {
+        "type": ["baptism", "confirmation", "holy-communion", "penance", "anointing-of-the-sick", "holy-orders", "marriage"],
+        "required": true,
+        "multiple": false,
+        "name": {
+          "pl": "Typ Sakramentu"
+        }
+      },
       "time": {
         "type": "text",
         "required": false,
