@@ -852,6 +852,18 @@ async function resetPersonSelect() {
       const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
       const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed);
 
+      const feastIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
+      const feastNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
+
+      let personsWithFeastsToSkipCounts = {};
+      if (feastIsNotEmpty) {
+        let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges);
+        for (let feastId of Object.keys(feastsToSkip)) {
+          const personId = getPersonsDataDirName(feastId);
+          personsWithFeastsToSkipCounts[personId] = (personsWithFeastsToSkipCounts[personId] ?? 0) + 1;
+        }
+      }
+
       const subelements = getPersonsDataSubelements(personNameValue);
       for (let subelement of subelements) {
         if (typesNeeded != null && !personsToList[subelement]) {
@@ -860,6 +872,13 @@ async function resetPersonSelect() {
 
         if (personsToSkip[subelement]) {
           continue;
+        }
+
+        if (feastIsNotEmpty) {
+          const feastsSubelements = getPersonsDataSubelements(subelement);
+          if (feastsSubelements.length <= (personsWithFeastsToSkipCounts[subelement] ?? 0)) {
+            continue;
+          }
         }
 
         namesToSort[subelement] = getPersonDataName(subelement);

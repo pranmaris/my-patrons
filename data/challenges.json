@@ -145,6 +145,7 @@
     "person": {
       "types": ["God", "Patrons"],
       "requirements": {
+        "anybody-having-challenges": ["A"],
         "person-having-challenges": ["A"],
         "god-always-having-challenges": ["A"],
         "person-feast-is-not-empty": true,
@@ -178,8 +179,9 @@
     "person": {
       "types": ["God", "Patrons"],
       "requirements": {
-        "god-always-having-challenges": ["A"],
+        "anybody-having-challenges": ["A"],
         "person-having-challenges": ["A"],
+        "god-always-having-challenges": ["A"],
         "person-feast-having-challenges": ["B"]
       },
       "description": {
