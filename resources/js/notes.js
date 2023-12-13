@@ -73,7 +73,7 @@ const JSON_STRINGIFY_SPACES = 2;
 
 const WEEKDAY_LANGUAGE_VARIABLES_PREFIX = 'lang-weekday-abbreviation-';
 
-const SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME = 'lang-selected-person-in-general';
+const SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME = 'lang-without-feast-selection';
 
 let challengesConfig = {};
 let languageVariables = {};
@@ -370,6 +370,7 @@ async function fillChallenges(challenges, patrons, filter = {}) {
 
   const content = await getFileContent(CHALLENGE_ITEM_TEMPLATE_FILE_PATH);
 
+  let numbers = {};
   let counter = 0;
   for (let challenge of challenges) {
     counter++;
@@ -377,23 +378,31 @@ async function fillChallenges(challenges, patrons, filter = {}) {
     let rowId = counter;
     let date = challenge.date ?? '';
     let personUrl = (challenge.person ?? '');
-    let type = challenge.type ?? '';
-    let number = '...';
     let feast = challenge.feast ?? '';
     let feastUrl = feast.length > 0 ? personUrl + PERSON_URL_FEAST_SEPARATOR + feast : '';
-    let checklist = challenge.checklist ?? '';
-    let success = '...';
+    let type = challenge.type ?? '';
+    let number = '';
+    let checklist = challenge.checklist ?? '';  //todo...
+    let success = '...';                        //todo...
     let notes = challenge.notes ?? '';
+
+    if (challengesConfig[type].numbers ?? false) {
+      if (numbers[type] == undefined) {
+        numbers[type] = {};
+      }
+      numbers[type][personUrl] = (numbers[type][personUrl] ?? 0) + 1;
+      number = numbers[type][personUrl];
+    }
 
     list.innerHTML += content
       .replace(/#row-id#/g, rowId)
       .replace(/#date#/g, getDateFormat(date))
       .replace(/#person-url#/g, personUrl)
       .replace(/#person#/g, getPersonName(personUrl))
-      .replace(/#type#/g, type)
-      .replace(/#number#/g, number)
       .replace(/#feast-url#/g, feastUrl.length > 0 ? feastUrl + ANCHOR_CHARACTER + feast : '')
       .replace(/#feast#/g, feastUrl.length > 0 ? getPersonName(feastUrl) : '')
+      .replace(/#type#/g, type)
+      .replace(/#number#/g, number)
       .replace(/#checklist#/g, checklist)
       .replace(/#success#/g, success)
       .replace(/#notes#/g, notes)
@@ -862,7 +871,7 @@ function resetFeastSelect() {
       addOptionToSelect(feastSelect, '', SELECT_NAME);
     }
     if (!feastIsNotEmpty) {
-      addOptionToSelect(feastSelect, personValue, getLanguageVariable(SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME, true));
+      addOptionToSelect(feastSelect, personValue, getLanguageVariable(SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME));
 
       if (feastsCount == 0) {
         feastSelect.style = INVISIBLE_STYLE;

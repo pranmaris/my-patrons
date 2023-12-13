@@ -814,11 +814,6 @@
         "pl": "drugie imię lub dalsza nazwa"
     },
 
-    "lang-selected-person-in-general": {
-        "en": "selected person in general",
-        "pl": "wybrana osoba w ogólności"
-    },
-
     "lang-service-name": {
         "en": "myPatrons.org"
     },
@@ -879,6 +874,11 @@
     "lang-type": {
         "en": "type",
         "pl": "typ"
+    },
+
+    "lang-type-and-number": {
+        "en": "type and number",
+        "pl": "typ i numer"
     },
 
     "lang-vertical": {
@@ -961,6 +961,11 @@
         "en": "sunday",
         "la": "feria prima",
         "pl": "niedziela"
+    },
+
+    "lang-without-feast-selection": {
+        "en": "without feats selection",
+        "pl": "bez wybierania święta"
     },
 
     "lang-year": {
