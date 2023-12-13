@@ -9,7 +9,7 @@ const MISSING_INDEX_OF_VALUE = -1;
 
 const LANGUAGE_MISSING_VARIABLE_SIGN = '!!!';
 const LANGUAGE_JSON_FILE = '/files/data/website-language-variables.json';
-const CHALLENGES_DATA_JSON_FILE = '/files/data/records/challenges.json';
+const CHALLENGES_DATA_JSON_FILE = '/files/data/challenges.json';
 const PERSONS_DATA_JSON_FILE = '/files/data/generated/persons-data.generated.json';
 
 const CSS_FILE_PATH = '/files/resources/css/notes.css';
