@@ -57,9 +57,11 @@ const PERSON_TYPE_ME = 'Me';
 const PERSON_TYPE_PATRONS = 'Patrons';
 const COPY_PERSON_TYPE_TO_NAME_IDS = ['me', 'god'];
 const COPY_PERSON_NAME_TO_ID_IDS = ['me'];
+const GOD_ALWAYS_HAVING_CHALLENGES_NEEDED_PERSON_NAME_URL = 'god';
 
 const REQUIREMENT_ANYBODY_HAVING_CHALLENGES = 'anybody-having-challenges';
 const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES = 'everybody-not-having-challenges';
+const REQUIREMENT_GOD_ALWAYS_HAVING_CHALLENGES = 'god-always-having-challenges';
 const REQUIREMENT_PERSON_HAVING_CHALLENGES = 'person-having-challenges';
 const REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES = 'person-not-having-challenges';
 const REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY = 'person-feast-is-not-empty';
@@ -834,9 +836,17 @@ async function resetPersonSelect() {
       personSelect.style = VISIBLE_STYLE;
 
       const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
+      const addGodToListNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_GOD_ALWAYS_HAVING_CHALLENGES] ?? null;
       let personsToList = {};
       if (typesNeeded != null) {
         personsToList = getPersonsHavingAllChallenges(typesNeeded);
+
+        if (addGodToListNeeded != null) {
+          const subelements = getPersonsDataSubelements(GOD_ALWAYS_HAVING_CHALLENGES_NEEDED_PERSON_NAME_URL);
+          for (let subelement of subelements) {
+            personsToList[subelement] = subelement;
+          }
+        }
       }
 
       const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];

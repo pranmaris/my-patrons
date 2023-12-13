@@ -178,7 +178,6 @@
     "person": {
       "types": ["God", "Patrons"],
       "requirements": {
-        "anybody-having-challenges": ["A"],
         "god-always-having-challenges": ["A"],
         "person-having-challenges": ["A"],
         "person-feast-having-challenges": ["B"]
