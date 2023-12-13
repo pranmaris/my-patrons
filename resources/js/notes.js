@@ -398,9 +398,9 @@ async function fillChallenges(challenges, patrons, filter = {}) {
       .replace(/#row-id#/g, rowId)
       .replace(/#date#/g, getDateFormat(date))
       .replace(/#person-url#/g, personUrl)
-      .replace(/#person#/g, getPersonName(personUrl))
+      .replace(/#person#/g, getPersonDataName(personUrl))
       .replace(/#feast-url#/g, feastUrl.length > 0 ? feastUrl + ANCHOR_CHARACTER + feast : '')
-      .replace(/#feast#/g, feastUrl.length > 0 ? getPersonName(feastUrl) : '')
+      .replace(/#feast#/g, feastUrl.length > 0 ? getPersonDataName(feastUrl) : '')
       .replace(/#type#/g, type)
       .replace(/#number#/g, number)
       .replace(/#checklist#/g, checklist)
@@ -507,7 +507,7 @@ function checkNotExistingChallengeTypes(requirements, challenges) {
   return true;
 }
 
-function getPersonName(personId) {
+function getPersonDataName(personId) {
   const data = personsData[personId] ?? [];
 
   return getLanguageVariable(PERSONS_DATA_FIELD_NAMES, true, data[PERSONS_DATA_FIELD_NAMES] ?? []);
@@ -558,6 +558,35 @@ function getPersonsHavingAllChallenges(types) {
   return result;
 }
 
+function getPersonsFeastsHavingAllChallenges(types) {
+  let result = {};
+  let withAnyType = {};
+
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  for (let ch of challenges) {
+    if (inArray(ch.type, types) && ch.feast.length > 0) {
+      if (withAnyType[ch.person] == undefined) {
+        withAnyType[ch.person] = {};
+      }
+      if (withAnyType[ch.person][ch.feast] == undefined) {
+        withAnyType[ch.person][ch.feast] = {};
+      }
+      withAnyType[ch.person][ch.feast][ch.type] = true;
+    }
+  }
+
+  for (let person in withAnyType) {
+    for (let feast in withAnyType[person]) {
+      if (Object.keys(withAnyType[person][feast]).length == types.length) {
+        const key = person + PERSON_URL_FEAST_SEPARATOR + feast;
+        result[key] = key;
+      }
+    }
+  }
+
+  return result;
+}
+
 function getPersonsHavingAnyChallenge(types) {
   let result = {};
 
@@ -565,6 +594,22 @@ function getPersonsHavingAnyChallenge(types) {
   for (let ch of challenges) {
     if (inArray(ch.type, types)) {
       result[ch.person] = ch.person;
+    }
+  }
+
+  return result;
+}
+
+function getPersonsFeastsHavingAnyChallenge(types) {
+  let result = {};
+
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  for (let ch of challenges) {
+    if (ch.feast.length > 0) {
+      if (inArray(ch.type, types)) {
+        const key = ch.person + PERSON_URL_FEAST_SEPARATOR + ch.feast;
+        result[key] = key;
+      }
     }
   }
 
@@ -681,7 +726,7 @@ function resetPersonTypeSelect() {
           //}
         //}
 
-        types[personTypeId] = getPersonName(personTypeId);
+        types[personTypeId] = getPersonDataName(personTypeId);
       }
 
       if (Object.keys(types).length > 1) {
@@ -747,7 +792,7 @@ function resetPersonNameSelect() {
           }
         }
 
-        namesToSort[subelement] = getPersonName(subelement);
+        namesToSort[subelement] = getPersonDataName(subelement);
       }
     }
 
@@ -807,7 +852,7 @@ async function resetPersonSelect() {
           continue;
         }
 
-        namesToSort[subelement] = getPersonName(subelement);
+        namesToSort[subelement] = getPersonDataName(subelement);
       }
     }
 
@@ -849,11 +894,26 @@ function resetFeastSelect() {
     if (feastIsNotEmpty || feastHavingChallenges.length > 0 || feastNotHavingChallenges.length > 0) {
       feastSelect.style = VISIBLE_STYLE;
 
-      //todo requirements ...
+      const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_HAVING_CHALLENGES] ?? null;
+      let feastsToList = {};
+      if (typesNeeded != null) {
+        feastsToList = getPersonsFeastsHavingAllChallenges(typesNeeded);
+      }
+
+      const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
+      const feastsToSkip = getPersonsFeastsHavingAnyChallenge(typesNotAllowed);
 
       const subelements = getPersonsDataSubelements(personValue);
       for (let subelement of subelements) {
-        namesToSort[subelement] = getPersonName(subelement);
+        if (typesNeeded != null && !feastsToList[subelement]) {
+          continue;
+        }
+
+        if (feastsToSkip[subelement]) {
+          continue;
+        }
+
+        namesToSort[subelement] = getPersonDataName(subelement);
       }
     }
 
