@@ -781,6 +781,19 @@ function resetPersonNameSelect() {
         }
       }
 
+      const feastIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
+      const feastNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
+
+      let personsNamesWithFeastsToSkipCounts = {};
+      if (feastIsNotEmpty) {
+        let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges);
+        for (let feastId of Object.keys(feastsToSkip)) {
+          const personId = getPersonsDataDirName(feastId);
+          const personNameId = getPersonsDataDirName(personId);
+          personsNamesWithFeastsToSkipCounts[personNameId] = (personsNamesWithFeastsToSkipCounts[personNameId] ?? 0) + 1;
+        }
+      }
+
       const subelements = getPersonsDataSubelements(personTypeValue);
       for (let subelement of subelements) {
         if (typesNeeded != null && !personsNamesToList[subelement]) {
@@ -790,6 +803,20 @@ function resetPersonNameSelect() {
         if (personsNamesToSkipCounts[subelement] != undefined) {
           const nameSubelements = getPersonsDataSubelements(subelement);
           if (nameSubelements.length <= personsNamesToSkipCounts[subelement]) {
+            continue;
+          }
+        }
+
+        if (feastIsNotEmpty) {
+          let toContinue = false;
+
+          const personSubelements = getPersonsDataSubelements(subelement);
+          let feastsCount = 0;
+          for (let personSubelement of personSubelements) {
+            const feastsSubelements = getPersonsDataSubelements(personSubelement);
+            feastsCount += feastsSubelements.length;
+          }
+          if (feastsCount <= (personsNamesWithFeastsToSkipCounts[subelement] ?? 0)) {
             continue;
           }
         }
