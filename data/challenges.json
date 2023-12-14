@@ -147,7 +147,7 @@
       "requirements": {
         "anybody-having-challenges": ["A"],
         "person-having-challenges": ["A"],
-        "god-always-having-challenges": ["A"],
+        "god-having-needed-challenges": true,
         "person-feast-is-not-empty": true,
         "person-feast-not-having-challenges": ["B"]
       },
@@ -181,7 +181,7 @@
       "requirements": {
         "anybody-having-challenges": ["A"],
         "person-having-challenges": ["A"],
-        "god-always-having-challenges": ["A"],
+        "god-having-needed-challenges": true,
         "person-feast-having-challenges": ["B"]
       },
       "description": {
