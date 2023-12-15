@@ -512,7 +512,7 @@ function checkNotExistingChallengeTypes(requirements, challenges) {
 function checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTake, challengeDate) {
   const typesNotAllowed = requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
   if (typesNotAllowed.length > 0) {
-    const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed);
+    const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
     if (Object.keys(allPersonsToTake).length <= Object.keys(personsToSkip).length) {
       return false;
     }
@@ -522,7 +522,7 @@ function checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirement
   const typesNeeded = requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
   const addGodToListNeeded = requirements[REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES] ?? false;
   if (typesNeeded != null) {
-    personsToTake = getPersonsHavingAllChallenges(typesNeeded);
+    personsToTake = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
     if (!addGodToListNeeded && Object.keys(personsToTake).length <= 0) {
       return false;
     }
@@ -538,7 +538,7 @@ function checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirement
   const feastIsNotEmpty = requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
   const feastNotHavingChallenges = requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
   if (feastIsNotEmpty) {
-    let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges);
+    let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges, challengeDate);
 
     let feastsCount = 0;
     for (let personId of Object.keys(personsToTake)) {
@@ -581,12 +581,18 @@ function getPersonsDataSubelements(personIdPrefix) {
   return result;
 }
 
-function getPersonsHavingAllChallenges(types) {
+function getPersonsHavingAllChallenges(types, checkDateString = null) {
   let result = {};
   let withAnyType = {};
 
+  const checkDate = null ? null : Date.parse(checkDateString);
+
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
+    if (checkDate && Date.parse(ch.date) > checkDate) {
+      continue;
+    }
+
     if (inArray(ch.type, types)) {
       if (withAnyType[ch.person] == undefined) {
         withAnyType[ch.person] = {};
@@ -604,12 +610,18 @@ function getPersonsHavingAllChallenges(types) {
   return result;
 }
 
-function getPersonsFeastsHavingAllChallenges(types) {
+function getPersonsFeastsHavingAllChallenges(types, checkDateString = null) {
   let result = {};
   let withAnyType = {};
 
+  const checkDate = null ? null : Date.parse(checkDateString);
+
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
+    if (checkDate && Date.parse(ch.date) > checkDate) {
+      continue;
+    }
+
     if (inArray(ch.type, types) && ch.feast.length > 0) {
       if (withAnyType[ch.person] == undefined) {
         withAnyType[ch.person] = {};
@@ -633,11 +645,17 @@ function getPersonsFeastsHavingAllChallenges(types) {
   return result;
 }
 
-function getPersonsHavingAnyChallenge(types) {
+function getPersonsHavingAnyChallenge(types, checkDateString) {
   let result = {};
+
+  const checkDate = null ? null : Date.parse(checkDateString);
 
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
+    if (checkDate && Date.parse(ch.date) > checkDate) {
+      continue;
+    }
+
     if (inArray(ch.type, types)) {
       result[ch.person] = ch.person;
     }
@@ -646,11 +664,17 @@ function getPersonsHavingAnyChallenge(types) {
   return result;
 }
 
-function getPersonsFeastsHavingAnyChallenge(types) {
+function getPersonsFeastsHavingAnyChallenge(types, checkDateString) {
   let result = {};
+
+  const checkDate = null ? null : Date.parse(checkDateString);
 
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
+    if (checkDate && Date.parse(ch.date) > checkDate) {
+      continue;
+    }
+
     if (ch.feast.length > 0) {
       if (inArray(ch.type, types)) {
         const key = ch.person + PERSON_URL_FEAST_SEPARATOR + ch.feast;
@@ -734,6 +758,7 @@ function resetChallengeTypeSelect() {
 }
 
 function resetPersonTypeSelect() {
+  let challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
   let challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
 
   let personDiv = document.getElementById(PERSON_DIV_ELEMENT_ID);
@@ -752,7 +777,7 @@ function resetPersonTypeSelect() {
     const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
     const addGodToListNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES] ?? false;
     if (typesNeeded != null) {
-      personsUnlocked = getPersonsHavingAllChallenges(typesNeeded);
+      personsUnlocked = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
 
       for (let personId of Object.keys(personsUnlocked)) {
         const personType = getPersonsDataRootName(personId);
@@ -772,7 +797,7 @@ function resetPersonTypeSelect() {
     const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
     let personsTypesToSkipCounts = {};
     if (typesNotAllowed.length > 0) {
-      const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed);
+      const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
 
       for (let personId of Object.keys(personsToSkip)) {
         const personTypeId = getPersonsDataRootName(personId);
@@ -785,7 +810,7 @@ function resetPersonTypeSelect() {
 
     let personsTypesWithFeastsToSkipCounts = {};
     if (feastIsNotEmpty) {
-      let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges);
+      let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges, challengeDate);
       for (let feastId of Object.keys(feastsToSkip)) {
         const personTypeId = getPersonsDataRootName(feastId);
         personsTypesWithFeastsToSkipCounts[personTypeId] = (personsTypesWithFeastsToSkipCounts[personTypeId] ?? 0) + 1;
@@ -850,6 +875,7 @@ function resetPersonTypeSelect() {
 }
 
 function resetPersonNameSelect() {
+  let challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
   let challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
   let personTypeValue = document.getElementById(PERSON_TYPE_SELECT_ELEMENT_ID).value;
 
@@ -868,7 +894,7 @@ function resetPersonNameSelect() {
       const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
       let personsNamesToList = {};
       if (typesNeeded != null) {
-        let personsToList = getPersonsHavingAllChallenges(typesNeeded);
+        let personsToList = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
 
         for (let personId of Object.keys(personsToList)) {
           const personNameId = getPersonsDataDirName(personId);
@@ -879,7 +905,7 @@ function resetPersonNameSelect() {
       const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
       let personsNamesToSkipCounts = {};
       if (typesNotAllowed.length > 0) {
-        const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed);
+        const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
 
         for (let personId of Object.keys(personsToSkip)) {
           const personNameId = getPersonsDataDirName(personId);
@@ -892,7 +918,7 @@ function resetPersonNameSelect() {
 
       let personsNamesWithFeastsToSkipCounts = {};
       if (feastIsNotEmpty) {
-        let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges);
+        let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges, challengeDate);
         for (let feastId of Object.keys(feastsToSkip)) {
           const personId = getPersonsDataDirName(feastId);
           const personNameId = getPersonsDataDirName(personId);
@@ -952,6 +978,7 @@ function resetPersonNameSelect() {
 }
 
 async function resetPersonSelect() {
+  let challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
   let challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
   let personTypeValue = document.getElementById(PERSON_TYPE_SELECT_ELEMENT_ID).value;
   let personNameValue = document.getElementById(PERSON_NAME_SELECT_ELEMENT_ID).value;
@@ -972,7 +999,7 @@ async function resetPersonSelect() {
       const addGodToListNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES] ?? false;
       let personsToList = {};
       if (typesNeeded != null) {
-        personsToList = getPersonsHavingAllChallenges(typesNeeded);
+        personsToList = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
 
         if (addGodToListNeeded) {
           const subelements = getPersonsDataSubelements(GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL);
@@ -983,14 +1010,14 @@ async function resetPersonSelect() {
       }
 
       const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
-      const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed);
+      const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
 
       const feastIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
       const feastNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
 
       let personsWithFeastsToSkipCounts = {};
       if (feastIsNotEmpty) {
-        let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges);
+        let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges, challengeDate);
         for (let feastId of Object.keys(feastsToSkip)) {
           const personId = getPersonsDataDirName(feastId);
           personsWithFeastsToSkipCounts[personId] = (personsWithFeastsToSkipCounts[personId] ?? 0) + 1;
@@ -1039,6 +1066,7 @@ async function resetPersonSelect() {
 }
 
 function resetFeastSelect() {
+  let challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
   let challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
   let personValue = document.getElementById(PERSON_SELECT_ELEMENT_ID).value;
 
@@ -1059,11 +1087,11 @@ function resetFeastSelect() {
       const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_HAVING_CHALLENGES] ?? null;
       let feastsToList = {};
       if (typesNeeded != null) {
-        feastsToList = getPersonsFeastsHavingAllChallenges(typesNeeded);
+        feastsToList = getPersonsFeastsHavingAllChallenges(typesNeeded, challengeDate);
       }
 
       const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
-      const feastsToSkip = getPersonsFeastsHavingAnyChallenge(typesNotAllowed);
+      const feastsToSkip = getPersonsFeastsHavingAnyChallenge(typesNotAllowed, challengeDate);
 
       const subelements = getPersonsDataSubelements(personValue);
       for (let subelement of subelements) {
