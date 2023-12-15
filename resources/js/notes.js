@@ -61,6 +61,7 @@ const GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL = 'god';
 
 const REQUIREMENT_ANYBODY_HAVING_CHALLENGES = 'anybody-having-challenges';
 const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES = 'everybody-not-having-challenges';
+const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY = 'everybody-not-having-challenges-on-the-same-day';
 const REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES = 'god-having-needed-challenges';
 const REQUIREMENT_PERSON_HAVING_CHALLENGES = 'person-having-challenges';
 const REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES = 'person-not-having-challenges';
@@ -509,6 +510,28 @@ function checkNotExistingChallengeTypes(requirements, challenges) {
   return true;
 }
 
+function checkNotExistingChallengeTypesOnTheSameDay(requirements, challenges, checkDateString) {
+  const checkDate = Date.parse(checkDateString);
+
+  let types = requirements;
+  if (types.length > 0) {
+    for (let ch of challenges) {
+      const type = ch.type;
+      const date = ch.date;
+
+      if (Date.parse(date) != checkDate) {
+        continue;
+      }
+
+      if (inArray(type, types)) {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
 function checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTake, challengeDate) {
   const typesNotAllowed = requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
   if (typesNotAllowed.length > 0) {
@@ -736,6 +759,7 @@ function resetChallengeTypeSelect() {
 
       if (!checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
         || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
+        || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
         || !checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTakeForChallengeType, challengeDate)
       ) {
         continue;
