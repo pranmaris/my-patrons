@@ -509,6 +509,18 @@ function checkNotExistingChallengeTypes(requirements, challenges) {
   return true;
 }
 
+function checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTake, allFeastsToTake, challengeDate) {
+  const typesNotAllowed = requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
+  if (typesNotAllowed.length > 0) {
+    const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed);
+    if (Object.keys(allPersonsToTake).length <= Object.keys(personsToSkip).length) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
 function getPersonDataName(personId) {
   const data = personsData[personId] ?? [];
 
@@ -644,16 +656,37 @@ function resetChallengeTypeSelect() {
     challengeTypeDiv.style = VISIBLE_STYLE;
     addOptionToSelect(challengeTypeSelect, '', SELECT_NAME);
 
-    //...todo requirements
+    let allPersonsToTakeByPersonType = {};
+    let allFeastsToTakeByPersonType = {};
+    let lastPersonType = '';
+    for (let key in personsData) {
+      if (key.match(/^[a-zA-Z]+$/)) {
+        lastPersonType = key[0].toUpperCase() + key.slice(1);
+        allPersonsToTakeByPersonType[lastPersonType] = {};
+        allFeastsToTakeByPersonType[lastPersonType] = {};
+      } else if (personsData[key].died != undefined) {
+        allPersonsToTakeByPersonType[lastPersonType][key] = key;
+      } else if (inArray(PERSON_URL_FEAST_SEPARATOR, key)) {
+        allFeastsToTakeByPersonType[lastPersonType][key] = key;
+      }
+    }
 
     const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
     let options = {};
     for (let type in challengesConfig) {
       const name = getLanguageVariable('name', false, challengesConfig[type].name);
-      const requirements = challengesConfig[type].person.requirements;
+      const requirements = challengesConfig[type].person.requirements ?? {};
+
+      let allPersonsToTakeForChallengeType = {};
+      let allFeastsToTakeForChallengeType = {};
+      for (let personType of challengesConfig[type].person.types ?? []) {
+        allPersonsToTakeForChallengeType = {...allPersonsToTakeForChallengeType, ...allPersonsToTakeByPersonType[personType]};
+        allFeastsToTakeForChallengeType = {...allFeastsToTakeForChallengeType, ...allFeastsToTakeByPersonType[personType]};
+      }
 
       if (!checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
         || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
+        || !checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTakeForChallengeType, allFeastsToTakeForChallengeType, challengeDate)
       ) {
         continue;
       }
