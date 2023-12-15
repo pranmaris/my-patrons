@@ -509,11 +509,43 @@ function checkNotExistingChallengeTypes(requirements, challenges) {
   return true;
 }
 
-function checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTake, allFeastsToTake, challengeDate) {
+function checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTake, challengeDate) {
   const typesNotAllowed = requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
   if (typesNotAllowed.length > 0) {
     const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed);
     if (Object.keys(allPersonsToTake).length <= Object.keys(personsToSkip).length) {
+      return false;
+    }
+  }
+
+  let personsToTake = allPersonsToTake;
+  const typesNeeded = requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
+  const addGodToListNeeded = requirements[REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES] ?? false;
+  if (typesNeeded != null) {
+    personsToTake = getPersonsHavingAllChallenges(typesNeeded);
+    if (!addGodToListNeeded && Object.keys(personsToTake).length <= 0) {
+      return false;
+    }
+
+    if (addGodToListNeeded) {
+      const subelements = getPersonsDataSubelements(GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL);
+      for (let subelement of subelements) {
+        personsToTake[subelement] = subelement;
+      }
+    }
+  }
+
+  const feastIsNotEmpty = requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
+  const feastNotHavingChallenges = requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
+  if (feastIsNotEmpty) {
+    let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges);
+
+    let feastsCount = 0;
+    for (let personId of Object.keys(personsToTake)) {
+      const feastsSubelements = getPersonsDataSubelements(personId);
+      feastsCount += feastsSubelements.length;
+    }
+    if (feastsCount <= Object.keys(feastsToSkip).length) {
       return false;
     }
   }
@@ -657,17 +689,13 @@ function resetChallengeTypeSelect() {
     addOptionToSelect(challengeTypeSelect, '', SELECT_NAME);
 
     let allPersonsToTakeByPersonType = {};
-    let allFeastsToTakeByPersonType = {};
     let lastPersonType = '';
     for (let key in personsData) {
       if (key.match(/^[a-zA-Z]+$/)) {
         lastPersonType = key[0].toUpperCase() + key.slice(1);
         allPersonsToTakeByPersonType[lastPersonType] = {};
-        allFeastsToTakeByPersonType[lastPersonType] = {};
       } else if (personsData[key].died != undefined) {
         allPersonsToTakeByPersonType[lastPersonType][key] = key;
-      } else if (inArray(PERSON_URL_FEAST_SEPARATOR, key)) {
-        allFeastsToTakeByPersonType[lastPersonType][key] = key;
       }
     }
 
@@ -678,15 +706,13 @@ function resetChallengeTypeSelect() {
       const requirements = challengesConfig[type].person.requirements ?? {};
 
       let allPersonsToTakeForChallengeType = {};
-      let allFeastsToTakeForChallengeType = {};
       for (let personType of challengesConfig[type].person.types ?? []) {
         allPersonsToTakeForChallengeType = {...allPersonsToTakeForChallengeType, ...allPersonsToTakeByPersonType[personType]};
-        allFeastsToTakeForChallengeType = {...allFeastsToTakeForChallengeType, ...allFeastsToTakeByPersonType[personType]};
       }
 
       if (!checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
         || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
-        || !checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTakeForChallengeType, allFeastsToTakeForChallengeType, challengeDate)
+        || !checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTakeForChallengeType, challengeDate)
       ) {
         continue;
       }
