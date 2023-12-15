@@ -689,18 +689,24 @@ function resetPersonTypeSelect() {
     personDiv.style = VISIBLE_STYLE;
 
     let personsTypesToList = {};
+    let personsUnlocked = {};
     const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
     const addGodToListNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES] ?? false;
     if (typesNeeded != null) {
-      let personsToList = getPersonsHavingAllChallenges(typesNeeded);
+      personsUnlocked = getPersonsHavingAllChallenges(typesNeeded);
 
-      for (let personId of Object.keys(personsToList)) {
+      for (let personId of Object.keys(personsUnlocked)) {
         const personType = getPersonsDataRootName(personId);
         personsTypesToList[personType] = personType;
       }
 
       if (addGodToListNeeded) {
         personsTypesToList[GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL] = GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL;
+
+        const subelements = getPersonsDataSubelements(GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL);
+        for (let subelement of subelements) {
+          personsUnlocked[subelement] = subelement;
+        }
       }
     }
 
@@ -712,6 +718,18 @@ function resetPersonTypeSelect() {
       for (let personId of Object.keys(personsToSkip)) {
         const personTypeId = getPersonsDataRootName(personId);
         personsTypesToSkipCounts[personTypeId] = (personsTypesToSkipCounts[personTypeId] ?? 0) + 1;
+      }
+    }
+
+    const feastIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
+    const feastNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
+
+    let personsTypesWithFeastsToSkipCounts = {};
+    if (feastIsNotEmpty) {
+      let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges);
+      for (let feastId of Object.keys(feastsToSkip)) {
+        const personTypeId = getPersonsDataRootName(feastId);
+        personsTypesWithFeastsToSkipCounts[personTypeId] = (personsTypesWithFeastsToSkipCounts[personTypeId] ?? 0) + 1;
       }
     }
 
@@ -731,6 +749,28 @@ function resetPersonTypeSelect() {
           const allPersonsWithPersonTypeIdCount = Object.keys(personsData).filter(v => v.substring(0, personTypeId.length + 1) == personTypeId + '/' && personsData[v].died != undefined).length;
 
           if (allPersonsWithPersonTypeIdCount <= personsTypesToSkipCounts[personTypeId]) {
+            continue;
+          }
+        }
+
+        if (feastIsNotEmpty) {
+          let allPersonsFeastsWithPersonTypeIdCount = {};
+          if (Object.keys(personsUnlocked).length == 0) {
+            allPersonsFeastsWithPersonTypeIdCount = Object.keys(personsData)
+              .filter(v => v.substring(0, personTypeId.length + 1) == personTypeId + '/'
+                && inArray(PERSON_URL_FEAST_SEPARATOR, v) !== false
+              )
+              .length;
+          } else {
+            allPersonsFeastsWithPersonTypeIdCount = Object.keys(personsData)
+              .filter(v => v.substring(0, personTypeId.length + 1) == personTypeId + '/'
+                && inArray(PERSON_URL_FEAST_SEPARATOR, v) !== false
+                && personsUnlocked[getPersonsDataDirName(v)] != undefined
+              )
+              .length;
+          }
+
+          if (allPersonsFeastsWithPersonTypeIdCount <= (personsTypesWithFeastsToSkipCounts[personTypeId] ?? 0)) {
             continue;
           }
         }
