@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Magnus"
+    },
+    "translations": {
+        "de": [
+            "der Große"
+        ],
+        "en": [
+            "the Great"
+        ],
+        "la": [
+            "Magnus"
+        ],
+        "pl": [
+            "Wielki"
+        ]
+    },
+    "links": {
+        "records/patrons/albertus/mag": {
+            "de": "Albert der Große",
+            "en": "Albert the Great",
+            "la": "Albertus Magnus",
+            "pl": "Albert Wielki"
+        }
+    }
+}

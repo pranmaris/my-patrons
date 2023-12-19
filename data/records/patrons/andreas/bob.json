@@ -1,0 +1,52 @@
+{
+  "names": {
+    "pl": [
+      "Andrzej Bobola"
+    ],
+    "en": [
+      "Andrew Bobola"
+    ],
+    "la": [
+      "Andreas Bobola"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Andreas",
+      "en": "Andrew",
+      "pl": "Andrzej"
+    }
+  ],
+  "surnames": [
+    {
+      "pl": "Bobola"
+    }
+  ],
+  "epithets": [
+  ],
+
+  "born": ["1591-11-30"],
+  "died": ["1657-05-16"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1853-10-30"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1938-04-17"
+  },
+
+  "also-in-martyrology": ["05-16"],
+  "also-mentioned": [],
+
+  "categories": ["male", "presbyter", "religious", "martyr"],
+  "order": ["SJ"],
+
+  "images": {
+  },
+
+  "data-links": {
+  }
+}

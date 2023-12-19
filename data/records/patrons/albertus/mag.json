@@ -1,0 +1,86 @@
+{
+  "names": {
+    "de": [
+      "Albert der Große",
+      "Albertus Magnus",
+      "Albert von Lauingen",
+      "Albert von Köln",
+      "Albert der Deutsche",
+      "Albert Graf von Bollstädt",
+      "Doctor Universalis",
+      "Doctor Expertus"
+    ],
+    "en": [
+      "Albert the Great",
+      "Albertus Magnus",
+      "Albert of Swabia",
+      "Albert of Cologne",
+      "Doctor Universalis",
+      "Doctor Expertus"
+    ],
+    "la": [
+      "Albertus Magnus",
+      "Albertus Theutonicus",
+      "Albertus Coloniensis",
+      "Doctor Universalis",
+      "Doctor Expertus"
+    ],
+    "pl": [
+      "Albert Wielki",
+      "Albert z Kolonii",
+      "Albert z Lauingen",
+      "Albert von Bollstädt",
+      "Doctor Universalis",
+      "Doctor Expertus"
+    ]
+  },
+
+  "forenames": [
+    {
+      "de": "Albert",
+      "en": "Albert",
+      "la": "Albertus",
+      "pl": "Albert"
+    }
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+    {
+      "de": "der Große",
+      "en": "the Great",
+      "la": "Magnus",
+      "pl": "Wielki"
+    },
+    {
+      "la": "Doctor Universalis"
+    },
+    {
+      "la": "Doctor Expertus"
+    }
+  ],
+
+  "born": [">1195", "<1206"],
+  "died": ["1280-11-15"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1622"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1931-12-16"
+  },
+
+  "also-in-martyrology": ["11-15"],
+  "also-mentioned": [],
+
+  "categories": ["male", "bishop", "religious", "doctor-of-the-church"],
+  "order": ["OP"],
+
+  "images": {
+  },
+
+  "data-links": {
+  }
+}

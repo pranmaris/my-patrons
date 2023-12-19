@@ -5,6 +5,9 @@
     "07cf4f8f5d8b76282917320715dda2ad": {
         "en": "male"
     },
+    "08cda30276b654374de678fe3f981675": {
+        "pl": "katechista"
+    },
     "0ac6cd34e2fac333bf0ee3cd06bdcf96": {
         "la": "papa"
     },
@@ -81,6 +84,9 @@
     "a1d6b5694b31e76b8c226d4be6b26093": {
         "la": "evangelista"
     },
+    "a675aa630a716a40072b18c8cfee8ce8": {
+        "en": "catechist"
+    },
     "abff88ae45fdc285d398a53774c5f35c": {
         "en": "confessor",
         "la": "confessor"
@@ -117,6 +123,9 @@
     },
     "d91c5aa06eafa992b792d9cdba299195": {
         "la": "femina"
+    },
+    "e206eeeda7c29b90d14249ee7ef14dc6": {
+        "la": "catechista"
     },
     "f8119ce5b6b99992ce19cec80d595b95": {
         "la": "apostolus"

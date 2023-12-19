@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Bobola"
+    },
+    "translations": {
+        "pl": [
+            "Bobola"
+        ]
+    },
+    "links": {
+        "records/patrons/andreas/bob": {
+            "pl": "Andrzej Bobola",
+            "en": "Andrew Bobola",
+            "la": "Andreas Bobola"
+        }
+    }
+}

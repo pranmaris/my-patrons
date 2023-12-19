@@ -5802,12 +5802,15 @@
         }
     },
     "05-16": {
-        "records/patrons/~~~/165": {
+        "records/patrons/andreas/bob": {
             "name": {
-                "pl": "[draft] Andrzej Bobola"
+                "pl": "Andrzej Bobola",
+                "en": "Andrew Bobola",
+                "la": "Andreas Bobola"
             },
             "sources": {
-                "reliable-death-anniversary": "16 V"
+                "reliable-death-anniversary": "16 V",
+                "other-martyrology-days": "16 V"
             }
         },
         "records/patrons/~~~/2548": {
@@ -7082,17 +7085,21 @@
         }
     },
     "06-13": {
+        "records/patrons/antonius/pat": {
+            "name": {
+                "pt": "Antônio de Pádua",
+                "la": "Antonius Patavinus",
+                "en": "Anthony of Padua",
+                "pl": "Antoni Padewski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "13 VI",
+                "other-martyrology-days": "13 VI"
+            }
+        },
         "records/patrons/~~~/2073": {
             "name": {
                 "pl": "[draft] Mikołaj Bùi Đức Thể"
-            },
-            "sources": {
-                "reliable-death-anniversary": "13 VI"
-            }
-        },
-        "records/patrons/~~~/270": {
-            "name": {
-                "pl": "[draft] Antoni Padewski"
             },
             "sources": {
                 "reliable-death-anniversary": "13 VI"
@@ -14245,6 +14252,17 @@
             "sources": {
                 "reliable-death-anniversary": "18 IX"
             }
+        },
+        "records/patrons/david/oke": {
+            "name": {
+                "sw": "Daudi Okelo",
+                "en": "David Okelo",
+                "la": "David Okelo",
+                "pl": "Dawid Okelo"
+            },
+            "sources": {
+                "other-martyrology-days": "18 IX"
+            }
         }
     },
     "09-19": {
@@ -15920,6 +15938,17 @@
         }
     },
     "10-18": {
+        "records/patrons/david/oke": {
+            "name": {
+                "sw": "Daudi Okelo",
+                "en": "David Okelo",
+                "la": "David Okelo",
+                "pl": "Dawid Okelo"
+            },
+            "sources": {
+                "reliable-death-anniversary": "18 X"
+            }
+        },
         "records/patrons/~~~/1005": {
             "name": {
                 "pl": "[draft] Izaak Jogues"
@@ -15939,14 +15968,6 @@
         "records/patrons/~~~/2339": {
             "name": {
                 "pl": "[draft] Piotr z Alkantary"
-            },
-            "sources": {
-                "reliable-death-anniversary": "18 X"
-            }
-        },
-        "records/patrons/~~~/502": {
-            "name": {
-                "pl": "[draft] Daudi Okelo"
             },
             "sources": {
                 "reliable-death-anniversary": "18 X"
@@ -16706,6 +16727,17 @@
         }
     },
     "11-08": {
+        "records/patrons/deusdedit/1pp": {
+            "name": {
+                "la": "Deusdedit I",
+                "en": "Deusdedit I",
+                "pl": "Deusdedit I"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 XI",
+                "other-martyrology-days": "8 XI"
+            }
+        },
         "records/patrons/~~~/1092": {
             "name": {
                 "pl": "[draft] Jan Chrzciciel Cỏn"
@@ -16757,14 +16789,6 @@
         "records/patrons/~~~/1944": {
             "name": {
                 "pl": "[draft] Maria Krucyfiksa Satellico"
-            },
-            "sources": {
-                "reliable-death-anniversary": "8 XI"
-            }
-        },
-        "records/patrons/~~~/21": {
-            "name": {
-                "pl": "[draft] Adeodat I"
             },
             "sources": {
                 "reliable-death-anniversary": "8 XI"
@@ -17048,6 +17072,18 @@
         }
     },
     "11-15": {
+        "records/patrons/albertus/mag": {
+            "name": {
+                "de": "Albert der Große",
+                "en": "Albert the Great",
+                "la": "Albertus Magnus",
+                "pl": "Albert Wielki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "15 XI",
+                "other-martyrology-days": "15 XI"
+            }
+        },
         "records/patrons/~~~/104": {
             "name": {
                 "pl": "[draft] Alfons Rodriguez"
@@ -17099,14 +17135,6 @@
         "records/patrons/~~~/2619": {
             "name": {
                 "pl": "[draft] Tomasz Hioji Rokusayemon Nishi"
-            },
-            "sources": {
-                "reliable-death-anniversary": "15 XI"
-            }
-        },
-        "records/patrons/~~~/71": {
-            "name": {
-                "pl": "[draft] Albert Wielki"
             },
             "sources": {
                 "reliable-death-anniversary": "15 XI"

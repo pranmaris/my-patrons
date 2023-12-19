@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Andrzej"
+    },
+    "translations": {
+        "la": [
+            "Andreas"
+        ],
+        "en": [
+            "Andrew"
+        ],
+        "pl": [
+            "Andrzej"
+        ]
+    },
+    "links": {
+        "records/patrons/andreas/bob": {
+            "pl": "Andrzej Bobola",
+            "en": "Andrew Bobola",
+            "la": "Andreas Bobola"
+        }
+    }
+}

@@ -237,6 +237,25 @@
             "pl": "Patroni"
         }
     },
+    "patrons/albertus": {
+        "names": {
+            "de": "Albert",
+            "en": "Albert",
+            "la": "Albertus",
+            "pl": "Albert"
+        }
+    },
+    "patrons/albertus/mag": {
+        "names": {
+            "de": "Albert der Große",
+            "en": "Albert the Great",
+            "la": "Albertus Magnus",
+            "pl": "Albert Wielki"
+        },
+        "died": [
+            "1280-11-15"
+        ]
+    },
     "patrons/alphonsus": {
         "names": {
             "it": "Alfonso",
@@ -256,6 +275,42 @@
             "1787-08-01"
         ]
     },
+    "patrons/andreas": {
+        "names": {
+            "la": "Andreas",
+            "en": "Andrew",
+            "pl": "Andrzej"
+        }
+    },
+    "patrons/andreas/bob": {
+        "names": {
+            "pl": "Andrzej Bobola",
+            "en": "Andrew Bobola",
+            "la": "Andreas Bobola"
+        },
+        "died": [
+            "1657-05-16"
+        ]
+    },
+    "patrons/antonius": {
+        "names": {
+            "pt": "Antônio",
+            "en": "Anthony",
+            "la": "Antonius",
+            "pl": "Antoni"
+        }
+    },
+    "patrons/antonius/pat": {
+        "names": {
+            "pt": "Antônio de Pádua",
+            "la": "Antonius Patavinus",
+            "en": "Anthony of Padua",
+            "pl": "Antoni Padewski"
+        },
+        "died": [
+            "1231-06-13"
+        ]
+    },
     "patrons/augustinus": {
         "names": {
             "la": "Augustinus",
@@ -271,6 +326,42 @@
         },
         "died": [
             "430-08-28"
+        ]
+    },
+    "patrons/david": {
+        "names": {
+            "sw": "Daudi",
+            "en": "David",
+            "la": "David",
+            "pl": "Dawid"
+        }
+    },
+    "patrons/david/oke": {
+        "names": {
+            "sw": "Daudi Okelo",
+            "en": "David Okelo",
+            "la": "David Okelo",
+            "pl": "Dawid Okelo"
+        },
+        "died": [
+            "1918-10-18"
+        ]
+    },
+    "patrons/deusdedit": {
+        "names": {
+            "la": "Deusdedit",
+            "en": "Deusdedit",
+            "pl": "Deusdedit"
+        }
+    },
+    "patrons/deusdedit/1pp": {
+        "names": {
+            "la": "Deusdedit I",
+            "en": "Deusdedit I",
+            "pl": "Deusdedit I"
+        },
+        "died": [
+            "618-11-08"
         ]
     },
     "patrons/eusebius": {

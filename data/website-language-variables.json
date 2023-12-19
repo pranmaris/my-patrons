@@ -348,6 +348,11 @@
         "pl": "epitety"
     },
 
+    "lang-equipollently-adverb": {
+        "en": "equipollently",
+        "pl": "równoważnie"
+    },
+
     "lang-error-forbidden": {
         "en": "You don't have permission to access this resource!",
         "pl": "Nie masz dostępu do tego zasobu!"

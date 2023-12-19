@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "catechista"
+    },
+    "translations": {
+        "en": [
+            "catechist"
+        ],
+        "la": [
+            "catechista"
+        ],
+        "pl": [
+            "katechista"
+        ]
+    },
+    "links": {
+        "records/patrons/david/oke": {
+            "sw": "Daudi Okelo",
+            "en": "David Okelo",
+            "la": "David Okelo",
+            "pl": "Dawid Okelo"
+        }
+    }
+}

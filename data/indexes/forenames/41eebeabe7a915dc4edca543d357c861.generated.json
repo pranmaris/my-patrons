@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Ferdynand"
+    },
+    "translations": {
+        "pt": [
+            "Fernando"
+        ],
+        "en": [
+            "Ferdinand"
+        ],
+        "la": [
+            "Fernandus"
+        ],
+        "pl": [
+            "Ferdynand"
+        ]
+    },
+    "links": {
+        "records/patrons/antonius/pat": {
+            "pt": "Antônio de Pádua",
+            "la": "Antonius Patavinus",
+            "en": "Anthony of Padua",
+            "pl": "Antoni Padewski"
+        }
+    }
+}

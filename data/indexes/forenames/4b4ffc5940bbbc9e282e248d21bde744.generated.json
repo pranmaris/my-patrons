@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Adeodatus",
+        "en": "Adeodatus"
+    },
+    "translations": {
+        "la": [
+            "Adeodatus"
+        ],
+        "en": [
+            "Adeodatus"
+        ],
+        "pl": [
+            "Adeodat"
+        ]
+    },
+    "links": {
+        "records/patrons/deusdedit/1pp": {
+            "la": "Deusdedit I",
+            "en": "Deusdedit I",
+            "pl": "Deusdedit I"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "names": {
+    "sw": [
+      "Daudi Okelo"
+    ],
+    "en": [
+      "David Okelo",
+      "Daudi Okelo"
+    ],
+    "la": [
+      "David Okelo",
+      "Daudi Okelo"
+    ],
+    "pl": [
+      "Dawid Okelo",
+      "Daudi Okelo"
+    ]
+  },
+
+  "forenames": [
+    {
+      "sw": "Daudi",
+      "en": "David",
+      "la": "David",
+      "pl": "Dawid"
+    }
+  ],
+  "surnames": [
+    {
+      "sw": "Okelo"
+    }
+  ],
+  "epithets": [
+  ],
+
+  "born": ["~1902"],
+  "died": ["1918-10-18"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2002-10-20"
+  },
+  "canonized": {
+  },
+
+  "also-in-martyrology": ["09-18"],
+  "also-mentioned": [],
+
+  "categories": ["male", "catechist", "martyr"],
+  "order": [],
+
+  "images": {
+  },
+
+  "data-links": {
+  }
+}

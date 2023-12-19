@@ -1,0 +1,21 @@
+{
+    "names": {
+        "pl": "Bulonne"
+    },
+    "translations": {
+        "pt": [
+            "Martins de Bulhões"
+        ],
+        "pl": [
+            "Bulonne"
+        ]
+    },
+    "links": {
+        "records/patrons/antonius/pat": {
+            "pt": "Antônio de Pádua",
+            "la": "Antonius Patavinus",
+            "en": "Anthony of Padua",
+            "pl": "Antoni Padewski"
+        }
+    }
+}

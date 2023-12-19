@@ -1,0 +1,76 @@
+{
+  "names": {
+    "pt": [
+      "Antônio de Pádua",
+      "Antônio de Lisboa",
+      "Fernando Martins de Bulhões",
+      "Doctor Evangelicus"
+    ],
+    "la": [
+      "Antonius Patavinus",
+      "Antonius Olisiponensis",
+      "Doctor Evangelicus"
+    ],
+    "en": [
+      "Anthony of Padua",
+      "Anthony of Lisbon",
+      "Fernando Martins de Bulhões",
+      "Doctor Evangelicus"
+    ],
+    "pl": [
+      "Antoni Padewski",
+      "Antoni z Padwy",
+      "Antoni z Lizbony",
+      "Ferdynand Bulonne",
+      "Doctor Evangelicus"
+    ]
+  },
+
+  "forenames": [
+    {
+      "pt": "Antônio",
+      "en": "Anthony",
+      "la": "Antonius",
+      "pl": "Antoni"
+    },
+    {
+      "pt": "Fernando",
+      "en": "Ferdinand",
+      "la": "Fernandus",
+      "pl": "Ferdynand"
+    }
+  ],
+  "surnames": [
+    {
+      "pt": "Martins de Bulhões",
+      "pl": "Bulonne"
+    }
+  ],
+  "epithets": [
+    {
+      "la": "Doctor Evangelicus"
+    }
+  ],
+
+  "born": ["~1191"],
+  "died": ["1231-06-13"],
+
+  "beatified": {
+  },
+  "canonized": {
+    "type": "equipollently",
+    "date": "1232-05-30"
+  },
+
+  "also-in-martyrology": ["06-13"],
+  "also-mentioned": [],
+
+  "categories": ["male", "presbyter", "religious", "doctor-of-the-church"],
+  "order": ["OFM"],
+
+  "images": {
+  },
+
+  "data-links": {
+  }
+}

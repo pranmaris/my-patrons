@@ -1,14 +1,42 @@
 {
+    "albertus": {
+        "de": "Albert",
+        "en": "Albert",
+        "la": "Albertus",
+        "pl": "Albert"
+    },
     "alphonsus": {
         "it": "Alfonso",
         "en": "Alphonsus",
         "la": "Alphonsus",
         "pl": "Alfons"
     },
+    "andreas": {
+        "la": "Andreas",
+        "en": "Andrew",
+        "pl": "Andrzej"
+    },
+    "antonius": {
+        "pt": "Antônio",
+        "en": "Anthony",
+        "la": "Antonius",
+        "pl": "Antoni"
+    },
     "augustinus": {
         "la": "Augustinus",
         "en": "Augustine",
         "pl": "Augustyn"
+    },
+    "david": {
+        "sw": "Daudi",
+        "en": "David",
+        "la": "David",
+        "pl": "Dawid"
+    },
+    "deusdedit": {
+        "la": "Deusdedit",
+        "en": "Deusdedit",
+        "pl": "Deusdedit"
     },
     "eusebius": {
         "la": "Eusebius",

@@ -14,11 +14,23 @@
         ]
     },
     "links": {
+        "records/patrons/albertus/mag": {
+            "de": "Albert der Große",
+            "en": "Albert the Great",
+            "la": "Albertus Magnus",
+            "pl": "Albert Wielki"
+        },
         "records/patrons/alphonsus/lig": {
             "it": "Alfonso Maria de' Liguori",
             "en": "Alphonsus Maria Liguori",
             "la": "Alphonsus Maria a Ligorio",
             "pl": "Alfons Maria Liguori"
+        },
+        "records/patrons/antonius/pat": {
+            "pt": "Antônio de Pádua",
+            "la": "Antonius Patavinus",
+            "en": "Anthony of Padua",
+            "pl": "Antoni Padewski"
         },
         "records/patrons/augustinus/hip": {
             "la": "Augustinus Hipponensis",

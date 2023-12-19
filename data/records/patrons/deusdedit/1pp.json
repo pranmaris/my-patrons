@@ -1,0 +1,61 @@
+{
+  "names": {
+    "la": [
+      "Deusdedit I",
+      "Adeodatus I",
+      "Deodatus I"
+    ],
+    "en": [
+      "Deusdedit I",
+      "Adeodatus I",
+      "Deodatus I"
+    ],
+    "pl": [
+      "Deusdedit I",
+      "Adeodat I",
+      "Deodat I"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Deusdedit",
+      "en": "Deusdedit",
+      "pl": "Deusdedit"
+    },
+    {
+      "la": "Adeodatus",
+      "en": "Adeodatus",
+      "pl": "Adeodat"
+    }
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+    {
+      "la": "Primus",
+      "en": "the First",
+      "pl": "Pierwszy"
+    }
+  ],
+
+  "born": ["~570"],
+  "died": ["618-11-08"],
+
+  "beatified": {
+  },
+  "canonized": {
+  },
+
+  "also-in-martyrology": ["11-08"],
+  "also-mentioned": [],
+
+  "categories": ["male", "presbyter", "pope"],
+  "order": [],
+
+  "images": {
+  },
+
+  "data-links": {
+  }
+}

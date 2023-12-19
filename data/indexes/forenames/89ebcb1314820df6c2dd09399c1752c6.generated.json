@@ -1,0 +1,27 @@
+{
+    "names": {
+        "sw": "Daudi"
+    },
+    "translations": {
+        "sw": [
+            "Daudi"
+        ],
+        "en": [
+            "David"
+        ],
+        "la": [
+            "David"
+        ],
+        "pl": [
+            "Dawid"
+        ]
+    },
+    "links": {
+        "records/patrons/david/oke": {
+            "sw": "Daudi Okelo",
+            "en": "David Okelo",
+            "la": "David Okelo",
+            "pl": "Dawid Okelo"
+        }
+    }
+}

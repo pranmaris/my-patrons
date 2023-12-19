@@ -8,6 +8,9 @@
     "05e857b07bbb8b129bef62f77774d00b": {
         "fr": "Jean Baptiste"
     },
+    "0bc24d6453cd7013f80f2a3a700ac703": {
+        "pt": "Fernando"
+    },
     "12dcd3c521065905636bcf7c5026540d": {
         "la": "Eusebius",
         "en": "Eusebius"
@@ -15,8 +18,17 @@
     "1565002270dd6ce3f63e821048890782": {
         "la": "Ioannes"
     },
+    "1745f9d46df9712e5fb68709e607a2ec": {
+        "pt": "Antônio"
+    },
     "19d8ae528679c65dde17044a8aaa44d5": {
         "en": "Augustine"
+    },
+    "1b90006a303411b65baeb317c7c942f0": {
+        "en": "Ferdinand"
+    },
+    "20f1aeb7819d7858684c898d1e98c1bb": {
+        "en": "Anthony"
     },
     "2a5ea26afb2c1fdbd0e7ab0941b9b9ab": {
         "fr": "Jean"
@@ -27,8 +39,25 @@
     "3ad23a007ddf1d4f26249cc1c18562e1": {
         "pl": "Piotr"
     },
+    "41eebeabe7a915dc4edca543d357c861": {
+        "pl": "Ferdynand"
+    },
+    "464e07afc9e46359fb480839150595c5": {
+        "en": "David",
+        "la": "David"
+    },
+    "4b4ffc5940bbbc9e282e248d21bde744": {
+        "la": "Adeodatus",
+        "en": "Adeodatus"
+    },
+    "4e165e6c334cc2647c2774c8c663a639": {
+        "la": "Albertus"
+    },
     "549004080d5a0695b9f985e1c752f414": {
         "pl": "Józef"
+    },
+    "55f50b88d390c9999b29adc647120985": {
+        "la": "Fernandus"
     },
     "5ed2ce73ea6a1c6910e4c98c2e65d25e": {
         "la": "Lydia",
@@ -56,9 +85,18 @@
     "84d25b44916943b3890cee054ebef343": {
         "la": "Augustinus"
     },
+    "877fb7c9b4f0df10bbbc2cf8c65e5d87": {
+        "la": "Antonius"
+    },
     "879eb8aa505a968b831812aeb836c2a9": {
         "it": "Marie",
         "fr": "Marie"
+    },
+    "89ebcb1314820df6c2dd09399c1752c6": {
+        "sw": "Daudi"
+    },
+    "8aae3a73a9a43ee6b04dfd986fe9d136": {
+        "en": "Andrew"
     },
     "8b4eebfe6b92e606bdea93f7ffe312fb": {
         "pl": "Jan Chrzciciel"
@@ -66,12 +104,20 @@
     "8cc865f6f4b3fba0b76123a4110b0633": {
         "la": "Iesus"
     },
+    "91869f9f8d6f767b7b960a41d133fc67": {
+        "de": "Albert",
+        "en": "Albert",
+        "pl": "Albert"
+    },
     "974e8b11c6cb14fef0e1552aebe847c2": {
         "en": "Alphonsus",
         "la": "Alphonsus"
     },
     "9bd04b52e10b05ba37efdee804278c29": {
         "en": "John the Baptist"
+    },
+    "a2bb67b1db5508a29b196b24db15f5e2": {
+        "pl": "Antoni"
     },
     "b69020f93d705d3c253c52fab5b5fb7e": {
         "pl": "Aureliusz"
@@ -90,9 +136,21 @@
         "la": "Cephas",
         "en": "Cephas"
     },
+    "ca7976f952d10e93d0a3aa9dd38e8cb5": {
+        "pl": "Dawid"
+    },
+    "cac58b5234e1f98b4c956998b8ac2e26": {
+        "la": "Andreas"
+    },
     "cbc19b07662418d5f14cc55657295924": {
         "la": "Maria",
         "pl": "Maria"
+    },
+    "cc86db2cb6845e5cd5442a4fc97b3ee1": {
+        "pl": "Andrzej"
+    },
+    "cf332c777473ddcfdefae1d76d38d9f7": {
+        "pl": "Adeodat"
     },
     "d0d9b90ccdd0c7ba5bb6498d9c501e11": {
         "la": "Iosephus"
@@ -123,6 +181,11 @@
     },
     "fc69efaba5c47ad5742a75bad9a90a76": {
         "it": "Alfonso"
+    },
+    "fd284a7ba3215a33995aacfc9b38f234": {
+        "la": "Deusdedit",
+        "en": "Deusdedit",
+        "pl": "Deusdedit"
     },
     "ff24e8242af12887587574abe4fed8da": {
         "arc": "ܡܪܝ ܝܘܣܦ"

@@ -14,6 +14,22 @@
         ]
     },
     "links": {
+        "records/patrons/andreas/bob": {
+            "pl": "Andrzej Bobola",
+            "en": "Andrew Bobola",
+            "la": "Andreas Bobola"
+        },
+        "records/patrons/antonius/pat": {
+            "pt": "Antônio de Pádua",
+            "la": "Antonius Patavinus",
+            "en": "Anthony of Padua",
+            "pl": "Antoni Padewski"
+        },
+        "records/patrons/deusdedit/1pp": {
+            "la": "Deusdedit I",
+            "en": "Deusdedit I",
+            "pl": "Deusdedit I"
+        },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",
             "en": "John Mary Vianney",
