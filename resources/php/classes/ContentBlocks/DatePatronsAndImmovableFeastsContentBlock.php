@@ -2,6 +2,8 @@
 
 class DatePatronsAndImmovableFeastsContentBlock extends DateContentBlock implements ContentBlockInterface
 {
+    private const LEAP_YEAR_SEPARATOR = '!';
+
     protected function setOtherProperties(string $dates): void
     {
         $this->listNameVariable = 'lang-list-of-patrons-and-immovable-feasts';
@@ -17,9 +19,9 @@ class DatePatronsAndImmovableFeastsContentBlock extends DateContentBlock impleme
                 }
 
                 $year = self::EXAMPLE_NORMAL_YEAR;
-                if (mb_substr($monthWithDay, 2, 1) === '!') {
+                if (mb_substr($monthWithDay, 2, 1) === self::LEAP_YEAR_SEPARATOR) {
                     $year = self::EXAMPLE_LEAP_YEAR;
-                    $monthWithDay = str_replace('!', '-', $monthWithDay);
+                    $monthWithDay = str_replace(self::LEAP_YEAR_SEPARATOR, '-', $monthWithDay);
                 }
                 $fullDate = "$year-$monthWithDay";
                 if (!$this->getDate()->isFullDateValid($fullDate)) {
