@@ -5,6 +5,12 @@
         "pl": "aramejski"
     },
 
+    "de": {
+        "en": "German",
+        "la": "Germanica",
+        "pl": "niemiecki"
+    },
+
     "en": {
         "en": "English",
         "la": "Anglica",
@@ -33,5 +39,17 @@
         "pl": "polski",
         "en": "Polish",
         "la": "Polonica"
+    },
+
+    "pt": {
+        "en": "Portuguese",
+        "la": "Portugallica",
+        "pl": "portugalski"
+    },
+
+    "sw": {
+        "en": "Swahili",
+        "la": "Suahelica",
+        "pl": "suahili"
     }
 }

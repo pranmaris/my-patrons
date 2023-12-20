@@ -48,6 +48,18 @@
             }
         }
     },
+    "06-29": {
+        "records/patrons/petrus/apo": {
+            "name": {
+                "la": "Petrus",
+                "en": "Peter the Apostle",
+                "pl": "Piotr Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "29 VI"
+            }
+        }
+    },
     "08-01": {
         "records/patrons/alphonsus/lig": {
             "name": {
@@ -86,6 +98,18 @@
             }
         }
     },
+    "08-03": {
+        "records/patrons/lydia/thy": {
+            "name": {
+                "la": "Lydia Thyatirensis",
+                "en": "Lydia of Thyatira",
+                "pl": "Lidia z Tiatyry"
+            },
+            "sources": {
+                "other-martyrology-days": "3 VIII"
+            }
+        }
+    },
     "08-04": {
         "records/patrons/ioannes/via": {
             "name": {
@@ -95,7 +119,21 @@
                 "pl": "Jan Maria Vianney"
             },
             "sources": {
-                "reliable-death-anniversary": "4 VIII"
+                "reliable-death-anniversary": "4 VIII",
+                "other-martyrology-days": "4 VIII"
+            }
+        }
+    },
+    "08-09": {
+        "records/patrons/ioannes/via": {
+            "name": {
+                "fr": "Jean-Marie Vianney",
+                "en": "John Mary Vianney",
+                "la": "Ioannes Maria Vianney",
+                "pl": "Jan Maria Vianney"
+            },
+            "sources": {
+                "other-martyrology-days": "9 VIII"
             }
         }
     },
@@ -196,6 +234,18 @@
             },
             "sources": {
                 "other-martyrology-days": "16 XII"
+            }
+        }
+    },
+    "12-27": {
+        "records/patrons/ioannes/eva": {
+            "name": {
+                "la": "Ioannes Evangelista",
+                "en": "John the Evangelist",
+                "pl": "Jan Ewangelista"
+            },
+            "sources": {
+                "other-martyrology-days": "27 XII"
             }
         }
     }
