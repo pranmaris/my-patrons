@@ -107,9 +107,21 @@ abstract class DateContentBlock extends ContentBlock implements ContentBlockInte
         $result = [];
 
         foreach ($this->dates as $date) {
-            $dateWithoutYear = substr($date, mb_strlen($date) - 5);
+            $year = $this->getDate()->getDateYear($date);
+            $isYearLeap = $this->getDate()->isYearLeap($year);
 
-            $rows = $fileData[$dateWithoutYear] ?? [];
+            $monthWithDay = substr($date, mb_strlen($date) - 5);
+            $rows = $fileData[$monthWithDay] ?? [];
+            foreach ($rows as $patronUrl => $patronData) {
+                $result = $this->addPatronToList($result, $patronUrl, $patronData);
+            }
+
+            $replacedMonthWithDay = str_replace(
+                self::ALL_YEARS_SEPARATOR,
+                $isYearLeap ? self::LEAP_YEARS_ONLY_SEPARATOR : self::NO_LEAP_YEARS_ONLY_SEPARATOR,
+                $monthWithDay
+            );
+            $rows = $fileData[$replacedMonthWithDay] ?? [];
             foreach ($rows as $patronUrl => $patronData) {
                 $result = $this->addPatronToList($result, $patronUrl, $patronData);
             }

@@ -40,9 +40,9 @@ class Date
         return mb_substr($date, mb_strlen($year) + 1);
     }
 
-    public function isMonthWithDayValid(string $monthWithDay): bool
+    public function isMonthWithDayValid(string $monthWithDay, array $allowedSeparators = ['-']): bool
     {
-        if (!preg_match("/^(?'month'[0-9][0-9])-(?'day'[0-9][0-9])$/", $monthWithDay, $matches)) {
+        if (!preg_match("/^(?'month'[0-9][0-9])[" . implode('', $allowedSeparators) . "](?'day'[0-9][0-9])$/", $monthWithDay, $matches)) {
             return false;
         }
 

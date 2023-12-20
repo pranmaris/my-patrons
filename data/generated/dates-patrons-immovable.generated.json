@@ -1,4 +1,28 @@
 {
+    "02+29": {
+        "records/patrons/augustinus/hip": {
+            "name": {
+                "la": "Augustinus Hipponensis",
+                "en": "Augustine of Hippo",
+                "pl": "Augustyn z Hippony"
+            },
+            "sources": {
+                "other-martyrology-days": "29 II"
+            }
+        }
+    },
+    "02x28": {
+        "records/patrons/augustinus/hip": {
+            "name": {
+                "la": "Augustinus Hipponensis",
+                "en": "Augustine of Hippo",
+                "pl": "Augustyn z Hippony"
+            },
+            "sources": {
+                "other-martyrology-days": "28 II"
+            }
+        }
+    },
     "04-24": {
         "records/patrons/augustinus/hip": {
             "name": {

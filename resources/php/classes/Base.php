@@ -16,6 +16,10 @@ abstract class Base
     protected const PATRON_MENTIONED_INDEX = 'also-mentioned';
     protected const PATRON_FEASTS_PATH = self::PATRON_FEASTS_INDEX . '/';
 
+    protected const LEAP_YEARS_ONLY_SEPARATOR = '+';
+    protected const NO_LEAP_YEARS_ONLY_SEPARATOR = 'x';
+    protected const ALL_YEARS_SEPARATOR = '-';
+
     protected const FEAST_ID_SEPARATOR = '@';
 
     protected const DATES_DATA_PATRON_RECORD_NAME_INDEX = 'name';

@@ -218,7 +218,12 @@ class GenerateDateDataFileProcedure extends Procedure
 
             $monthsWithDays = $this->$method($fileData[$sourceField] ?? []);
             foreach ($monthsWithDays as $monthWithDay) {
-                $dayWithRomanMonth = $this->getDate()->getDayWithRomanMonth($monthWithDay);
+                $replacedMonthWithDay = str_replace(
+                    [self::LEAP_YEARS_ONLY_SEPARATOR, self::NO_LEAP_YEARS_ONLY_SEPARATOR],
+                    self::ALL_YEARS_SEPARATOR,
+                    $monthWithDay
+                );
+                $dayWithRomanMonth = $this->getDate()->getDayWithRomanMonth($replacedMonthWithDay);
                 $this->addToFileData($monthWithDay, $patronUrl, $sourceId, $dayWithRomanMonth);
             }
         }
@@ -280,7 +285,7 @@ class GenerateDateDataFileProcedure extends Procedure
         $result = [];
 
         foreach ($days as $day) {
-            if (!$this->getDate()->isMonthWithDayValid($day)) {
+            if (!$this->getDate()->isMonthWithDayValid($day, [self::LEAP_YEARS_ONLY_SEPARATOR, self::NO_LEAP_YEARS_ONLY_SEPARATOR, self::ALL_YEARS_SEPARATOR])) {
                 $this->error("Invalid month with day '$day' format");
             }
 
