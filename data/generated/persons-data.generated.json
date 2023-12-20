@@ -139,6 +139,12 @@
             "pl": "Wielki Piątek"
         }
     },
+    "god/fil@lmi": {
+        "names": {
+            "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
+            "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+        }
+    },
     "god/fil@nom": {
         "names": {
             "la": "Sanctissimum Nomen Iesus",
@@ -389,6 +395,21 @@
             "fr": "Jean"
         }
     },
+    "patrons/ioannes/bap": {
+        "names": {
+            "pl": "Jan Chrzciciel [draft]"
+        },
+        "died": [
+            "~28",
+            "~32"
+        ]
+    },
+    "patrons/ioannes/bap@lmi": {
+        "names": {
+            "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
+            "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+        }
+    },
     "patrons/ioannes/eva": {
         "names": {
             "la": "Ioannes Evangelista",
@@ -399,7 +420,7 @@
             "~100"
         ]
     },
-    "patrons/ioannes/eva@lit": {
+    "patrons/ioannes/eva@lmi": {
         "names": {
             "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
             "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"

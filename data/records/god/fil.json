@@ -412,6 +412,20 @@
 
       "data-links": {
       }
+    },
+
+    "lmi": {
+      "names": {
+        "la": [
+          "Romae Litaniae minores ad sanctum Joannem in Laterano"
+        ],
+        "pl": [
+          "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+        ]
+      },
+
+      "data-links": {
+      }
     }
   }
 }

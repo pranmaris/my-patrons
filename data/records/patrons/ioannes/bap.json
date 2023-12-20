@@ -1,0 +1,53 @@
+{
+  "names": {
+    "pl": [
+      "Jan Chrzciciel [draft]"
+    ]
+  },
+
+  "forenames": [
+    {
+      "pl": "Jan"
+    }
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+  ],
+
+  "born": ["?"],
+  "died": ["~28", "~32"],
+
+  "beatified": {
+  },
+  "canonized": {
+  },
+
+  "also-in-martyrology": ["06-24", "08-29"],
+  "also-mentioned": [],
+
+  "categories": [],
+  "order": [],
+
+  "images": {
+  },
+
+  "data-links": {
+  },
+
+  "feasts": {
+    "lmi": {
+      "names": {
+        "la": [
+          "Romae Litaniae minores ad sanctum Joannem in Laterano"
+        ],
+        "pl": [
+          "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+        ]
+      },
+
+      "data-links": {
+      }
+    }
+  }
+}

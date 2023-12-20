@@ -3,20 +3,23 @@
         "pl": "Jan"
     },
     "translations": {
+        "pl": [
+            "Jan"
+        ],
         "la": [
             "Ioannes"
         ],
         "en": [
             "John"
         ],
-        "pl": [
-            "Jan"
-        ],
         "fr": [
             "Jean"
         ]
     },
     "links": {
+        "records/patrons/ioannes/bap": {
+            "pl": "Jan Chrzciciel [draft]"
+        },
         "records/patrons/ioannes/eva": {
             "la": "Ioannes Evangelista",
             "en": "John the Evangelist",
