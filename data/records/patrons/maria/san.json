@@ -1,11 +1,15 @@
 {
   "names": {
     "pl": [
-      "[draft] Hormizdas"
+      "Maria Sancja Szymkowiak [draft]"
     ]
   },
 
   "forenames": [
+    {
+      "la": "Maria",
+      "pl": "Maria"
+    }
   ],
   "surnames": [
   ],
@@ -13,14 +17,14 @@
   ],
 
   "born": ["?"],
-  "died": ["523-08-06"],
+  "died": ["1942-08-29"],
 
   "beatified": {
   },
   "canonized": {
   },
 
-  "also-in-martyrology": [],
+  "also-in-martyrology": ["08-29"],
   "also-mentioned": [],
 
   "categories": [],

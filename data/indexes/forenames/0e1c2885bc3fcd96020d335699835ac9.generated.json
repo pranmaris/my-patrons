@@ -1,0 +1,18 @@
+{
+    "names": {
+        "pl": "Róża"
+    },
+    "translations": {
+        "la": [
+            "Rosa"
+        ],
+        "pl": [
+            "Róża"
+        ]
+    },
+    "links": {
+        "records/patrons/rosa/lim": {
+            "pl": "Róża z Limy [draft]"
+        }
+    }
+}

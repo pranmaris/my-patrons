@@ -370,6 +370,20 @@
             "618-11-08"
         ]
     },
+    "patrons/dominicus": {
+        "names": {
+            "la": "Dominicus",
+            "pl": "Dominik"
+        }
+    },
+    "patrons/dominicus/guz": {
+        "names": {
+            "pl": "Dominik Guzman [draft]"
+        },
+        "died": [
+            "1221-08-06"
+        ]
+    },
     "patrons/eusebius": {
         "names": {
             "la": "Eusebius",
@@ -385,6 +399,20 @@
         },
         "died": [
             "371-08-01"
+        ]
+    },
+    "patrons/hormisdas": {
+        "names": {
+            "la": "Hormisdas",
+            "pl": "Hormizdas"
+        }
+    },
+    "patrons/hormisdas/1pp": {
+        "names": {
+            "pl": "Hormizdas [draft]"
+        },
+        "died": [
+            "523-08-06"
         ]
     },
     "patrons/ioannes": {
@@ -461,6 +489,20 @@
             "la": "Sancta Familia",
             "pl": "Święta Rodzina"
         }
+    },
+    "patrons/laurentius": {
+        "names": {
+            "la": "Laurentius",
+            "pl": "Wawrzyniec"
+        }
+    },
+    "patrons/laurentius/rom": {
+        "names": {
+            "pl": "Wawrzyniec z Rzymu [draft]"
+        },
+        "died": [
+            "258-08-10"
+        ]
     },
     "patrons/lydia": {
         "names": {
@@ -545,6 +587,28 @@
             "pl": "Macierzyństwo błogosławionej Maryi Dziewicy"
         }
     },
+    "patrons/maria/san": {
+        "names": {
+            "pl": "Maria Sancja Szymkowiak [draft]"
+        },
+        "died": [
+            "1942-08-29"
+        ]
+    },
+    "patrons/oswaldus": {
+        "names": {
+            "la": "Oswaldus",
+            "pl": "Oswald"
+        }
+    },
+    "patrons/oswaldus/nor": {
+        "names": {
+            "pl": "Oswald z Nortumbrii [draft]"
+        },
+        "died": [
+            "642-08-05"
+        ]
+    },
     "patrons/petrus": {
         "names": {
             "la": "Petrus",
@@ -574,5 +638,64 @@
             "la": "Romae Litaníae minores ad sanctum Petrum",
             "pl": "Rzymska mała procesja błagalna do świętego Piotra"
         }
+    },
+    "patrons/rochus": {
+        "names": {
+            "la": "Rochus",
+            "pl": "Roch"
+        }
+    },
+    "patrons/rochus/per": {
+        "names": {
+            "pl": "Roch [draft]"
+        },
+        "died": [
+            "~1327",
+            "~1377",
+            "1376-08-15",
+            "~1378"
+        ]
+    },
+    "patrons/rosa": {
+        "names": {
+            "la": "Rosa",
+            "pl": "Róża"
+        }
+    },
+    "patrons/rosa/lim": {
+        "names": {
+            "pl": "Róża z Limy [draft]"
+        },
+        "died": [
+            "1617-08-24"
+        ]
+    },
+    "patrons/teresia": {
+        "names": {
+            "la": "Teresia",
+            "pl": "Teresa"
+        }
+    },
+    "patrons/teresia/ben": {
+        "names": {
+            "pl": "Teresa Benedykta od Krzyża [draft]"
+        },
+        "died": [
+            "1942-08-09"
+        ]
+    },
+    "patrons/xystus": {
+        "names": {
+            "la": "Xystus",
+            "pl": "Sykstus"
+        }
+    },
+    "patrons/xystus/2pp": {
+        "names": {
+            "pl": "Sykstus II [draft]"
+        },
+        "died": [
+            "258-08-06"
+        ]
     }
 }

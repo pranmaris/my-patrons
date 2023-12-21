@@ -1,11 +1,15 @@
 {
   "names": {
     "pl": [
-      "[draft] Wawrzyniec z Rzymu"
+      "Dominik Guzman [draft]"
     ]
   },
 
   "forenames": [
+    {
+      "la": "Dominicus",
+      "pl": "Dominik"
+    }
   ],
   "surnames": [
   ],
@@ -13,14 +17,14 @@
   ],
 
   "born": ["?"],
-  "died": ["258-08-10"],
+  "died": ["1221-08-06"],
 
   "beatified": {
   },
   "canonized": {
   },
 
-  "also-in-martyrology": [],
+  "also-in-martyrology": ["08-06", "08-08"],
   "also-mentioned": [],
 
   "categories": [],

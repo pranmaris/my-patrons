@@ -8,8 +8,20 @@
     "05e857b07bbb8b129bef62f77774d00b": {
         "fr": "Jean Baptiste"
     },
+    "06e91909362921b8a6ebe38382ac36f9": {
+        "pl": "Oswald"
+    },
+    "070000205695055c2921c199fd6f96b7": {
+        "la": "Rochus"
+    },
+    "0856a4aa9c78d62f643a04c64bab47f2": {
+        "la": "Rosa"
+    },
     "0bc24d6453cd7013f80f2a3a700ac703": {
         "pt": "Fernando"
+    },
+    "0e1c2885bc3fcd96020d335699835ac9": {
+        "pl": "Róża"
     },
     "12dcd3c521065905636bcf7c5026540d": {
         "la": "Eusebius",
@@ -33,11 +45,20 @@
     "2a5ea26afb2c1fdbd0e7ab0941b9b9ab": {
         "fr": "Jean"
     },
+    "2bb9f917dbcfe211a9718dfe05bd8a48": {
+        "pl": "Dominik"
+    },
     "2d647ce96d7705f6381fa0882bc8c5ee": {
         "la": "Ioannes Baptista"
     },
+    "393c54ff004277d44580d2805270872d": {
+        "la": "Xystus"
+    },
     "3ad23a007ddf1d4f26249cc1c18562e1": {
         "pl": "Piotr"
+    },
+    "3ffda8f7ce7d32c8b5b8039826d68ec3": {
+        "la": "Teresia"
     },
     "41eebeabe7a915dc4edca543d357c861": {
         "pl": "Ferdynand"
@@ -66,6 +87,12 @@
     "61409aa1fd47d4a5332de23cbf59a36f": {
         "en": "John"
     },
+    "638c2805f086b9cd8c12b9d0acbb56d0": {
+        "pl": "Wawrzyniec"
+    },
+    "649e314529ae99fee77bffd211851b7d": {
+        "pl": "Teresa"
+    },
     "6a1a376d8169cfc1835f59ac934edbb7": {
         "en": "Joseph"
     },
@@ -78,6 +105,9 @@
     "78843575bf3437d87361a2aba0a3fdea": {
         "la": "Simon",
         "en": "Simon"
+    },
+    "78ae48c995b80ef722c595cc65f996a3": {
+        "pl": "Sykstus"
     },
     "7c534484504b838cc57101ee127ecd82": {
         "arc": "ܡܪܝܡ"
@@ -101,6 +131,9 @@
     "8b4eebfe6b92e606bdea93f7ffe312fb": {
         "pl": "Jan Chrzciciel"
     },
+    "8b4f5da442f6c5abf52d823e2453ab79": {
+        "la": "Hormisdas"
+    },
     "8cc865f6f4b3fba0b76123a4110b0633": {
         "la": "Iesus"
     },
@@ -118,6 +151,9 @@
     },
     "a2bb67b1db5508a29b196b24db15f5e2": {
         "pl": "Antoni"
+    },
+    "a78bcf26721280c66741cb091d89a774": {
+        "la": "Laurentius"
     },
     "b69020f93d705d3c253c52fab5b5fb7e": {
         "pl": "Aureliusz"
@@ -149,17 +185,26 @@
     "cc86db2cb6845e5cd5442a4fc97b3ee1": {
         "pl": "Andrzej"
     },
+    "cec837d1a130a76d5f9e231cbd431673": {
+        "la": "Oswaldus"
+    },
     "cf332c777473ddcfdefae1d76d38d9f7": {
         "pl": "Adeodat"
     },
     "d0d9b90ccdd0c7ba5bb6498d9c501e11": {
         "la": "Iosephus"
     },
+    "d4d637abc4c55b49ce90b4d5df20dcdb": {
+        "pl": "Hormizdas"
+    },
     "d5216d56cf18e82d7130660e05ee1899": {
         "la": "Petrus"
     },
     "dea170d785b6b874342900615fc3de77": {
         "pl": "Augustyn"
+    },
+    "e24b41208d2416014c52b398b5132eac": {
+        "pl": "Roch"
     },
     "e39e74fb4e80ba656f773669ed50315a": {
         "en": "Mary"
@@ -178,6 +223,9 @@
     },
     "e9829608dd90ff6b8bf7cb50746eae78": {
         "en": "Jesus"
+    },
+    "f0d0ee6925487af34a16050f6bc22bfe": {
+        "la": "Dominicus"
     },
     "fc69efaba5c47ad5742a75bad9a90a76": {
         "it": "Alfonso"

@@ -38,10 +38,18 @@
         "en": "Deusdedit",
         "pl": "Deusdedit"
     },
+    "dominicus": {
+        "la": "Dominicus",
+        "pl": "Dominik"
+    },
     "eusebius": {
         "la": "Eusebius",
         "en": "Eusebius",
         "pl": "Euzebiusz"
+    },
+    "hormisdas": {
+        "la": "Hormisdas",
+        "pl": "Hormizdas"
     },
     "ioannes": {
         "la": "Ioannes",
@@ -54,6 +62,10 @@
         "en": "Joseph",
         "la": "Iosephus",
         "pl": "Józef"
+    },
+    "laurentius": {
+        "la": "Laurentius",
+        "pl": "Wawrzyniec"
     },
     "lydia": {
         "la": "Lydia",
@@ -68,9 +80,29 @@
         "fr": "Marie",
         "arc": "ܡܪܝܡ"
     },
+    "oswaldus": {
+        "la": "Oswaldus",
+        "pl": "Oswald"
+    },
     "petrus": {
         "la": "Petrus",
         "en": "Peter",
         "pl": "Piotr"
+    },
+    "rochus": {
+        "la": "Rochus",
+        "pl": "Roch"
+    },
+    "rosa": {
+        "la": "Rosa",
+        "pl": "Róża"
+    },
+    "teresia": {
+        "la": "Teresia",
+        "pl": "Teresa"
+    },
+    "xystus": {
+        "la": "Xystus",
+        "pl": "Sykstus"
     }
 }

@@ -1,0 +1,18 @@
+{
+    "names": {
+        "pl": "Wawrzyniec"
+    },
+    "translations": {
+        "la": [
+            "Laurentius"
+        ],
+        "pl": [
+            "Wawrzyniec"
+        ]
+    },
+    "links": {
+        "records/patrons/laurentius/rom": {
+            "pl": "Wawrzyniec z Rzymu [draft]"
+        }
+    }
+}

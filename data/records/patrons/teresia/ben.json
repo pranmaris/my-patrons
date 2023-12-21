@@ -1,11 +1,16 @@
 {
   "names": {
     "pl": [
-      "[draft] Święty Roch"
+      "Teresa Benedykta od Krzyża [draft]",
+      "Edyta Stein"
     ]
   },
 
   "forenames": [
+    {
+      "la": "Teresia",
+      "pl": "Teresa"
+    }
   ],
   "surnames": [
   ],
@@ -13,14 +18,14 @@
   ],
 
   "born": ["?"],
-  "died": ["1327", "1377", "1378"],
+  "died": ["1942-08-09"],
 
   "beatified": {
   },
   "canonized": {
   },
 
-  "also-in-martyrology": [],
+  "also-in-martyrology": ["08-09"],
   "also-mentioned": [],
 
   "categories": [],

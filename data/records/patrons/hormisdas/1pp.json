@@ -1,11 +1,15 @@
 {
   "names": {
     "pl": [
-      "[draft] Oswald z Nortumbrii"
+      "Hormizdas [draft]"
     ]
   },
 
   "forenames": [
+    {
+      "la": "Hormisdas",
+      "pl": "Hormizdas"
+    }
   ],
   "surnames": [
   ],
@@ -13,14 +17,14 @@
   ],
 
   "born": ["?"],
-  "died": ["642-08-05"],
+  "died": ["523-08-06"],
 
   "beatified": {
   },
   "canonized": {
   },
 
-  "also-in-martyrology": [],
+  "also-in-martyrology": ["08-06"],
   "also-mentioned": [],
 
   "categories": [],

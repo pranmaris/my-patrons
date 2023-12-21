@@ -1,11 +1,15 @@
 {
   "names": {
     "pl": [
-      "[draft] Sykstus II"
+      "Róża z Limy [draft]"
     ]
   },
 
   "forenames": [
+    {
+      "la": "Rosa",
+      "pl": "Róża"
+    }
   ],
   "surnames": [
   ],
@@ -13,14 +17,14 @@
   ],
 
   "born": ["?"],
-  "died": ["258-08-06"],
+  "died": ["1617-08-24"],
 
   "beatified": {
   },
   "canonized": {
   },
 
-  "also-in-martyrology": [],
+  "also-in-martyrology": ["08-23", "08-24"],
   "also-mentioned": [],
 
   "categories": [],

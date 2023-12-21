@@ -1,0 +1,18 @@
+{
+    "names": {
+        "la": "Xystus"
+    },
+    "translations": {
+        "la": [
+            "Xystus"
+        ],
+        "pl": [
+            "Sykstus"
+        ]
+    },
+    "links": {
+        "records/patrons/xystus/2pp": {
+            "pl": "Sykstus II [draft]"
+        }
+    }
+}

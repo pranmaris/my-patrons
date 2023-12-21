@@ -1,0 +1,18 @@
+{
+    "names": {
+        "la": "Teresia"
+    },
+    "translations": {
+        "la": [
+            "Teresia"
+        ],
+        "pl": [
+            "Teresa"
+        ]
+    },
+    "links": {
+        "records/patrons/teresia/ben": {
+            "pl": "Teresa Benedykta od Krzyża [draft]"
+        }
+    }
+}

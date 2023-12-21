@@ -148,7 +148,76 @@
             }
         }
     },
+    "08-05": {
+        "records/patrons/oswaldus/nor": {
+            "name": {
+                "pl": "Oswald z Nortumbrii [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "5 VIII",
+                "other-martyrology-days": "5 VIII"
+            }
+        }
+    },
+    "08-06": {
+        "records/patrons/dominicus/guz": {
+            "name": {
+                "pl": "Dominik Guzman [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 VIII",
+                "other-martyrology-days": "6 VIII"
+            }
+        },
+        "records/patrons/hormisdas/1pp": {
+            "name": {
+                "pl": "Hormizdas [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 VIII",
+                "other-martyrology-days": "6 VIII"
+            }
+        },
+        "records/patrons/xystus/2pp": {
+            "name": {
+                "pl": "Sykstus II [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 VIII",
+                "other-martyrology-days": "6 VIII"
+            }
+        }
+    },
+    "08-07": {
+        "records/patrons/xystus/2pp": {
+            "name": {
+                "pl": "Sykstus II [draft]"
+            },
+            "sources": {
+                "other-martyrology-days": "7 VIII"
+            }
+        }
+    },
+    "08-08": {
+        "records/patrons/dominicus/guz": {
+            "name": {
+                "pl": "Dominik Guzman [draft]"
+            },
+            "sources": {
+                "other-martyrology-days": "8 VIII"
+            }
+        }
+    },
     "08-09": {
+        "records/patrons/teresia/ben": {
+            "name": {
+                "pl": "Teresa Benedykta od Krzyża [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "9 VIII",
+                "other-martyrology-days": "9 VIII"
+            }
+        },
         "records/patrons/ioannes/via": {
             "name": {
                 "fr": "Jean-Marie Vianney",
@@ -158,6 +227,48 @@
             },
             "sources": {
                 "other-martyrology-days": "9 VIII"
+            }
+        }
+    },
+    "08-10": {
+        "records/patrons/laurentius/rom": {
+            "name": {
+                "pl": "Wawrzyniec z Rzymu [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "10 VIII",
+                "other-martyrology-days": "10 VIII"
+            }
+        }
+    },
+    "08-16": {
+        "records/patrons/rochus/per": {
+            "name": {
+                "pl": "Roch [draft]"
+            },
+            "sources": {
+                "other-martyrology-days": "16 VIII"
+            }
+        }
+    },
+    "08-23": {
+        "records/patrons/rosa/lim": {
+            "name": {
+                "pl": "Róża z Limy [draft]"
+            },
+            "sources": {
+                "other-martyrology-days": "23 VIII"
+            }
+        }
+    },
+    "08-24": {
+        "records/patrons/rosa/lim": {
+            "name": {
+                "pl": "Róża z Limy [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 VIII",
+                "other-martyrology-days": "24 VIII"
             }
         }
     },
@@ -175,6 +286,15 @@
         }
     },
     "08-29": {
+        "records/patrons/maria/san": {
+            "name": {
+                "pl": "Maria Sancja Szymkowiak [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "29 VIII",
+                "other-martyrology-days": "29 VIII"
+            }
+        },
         "records/patrons/ioannes/bap": {
             "name": {
                 "pl": "Jan Chrzciciel [draft]"

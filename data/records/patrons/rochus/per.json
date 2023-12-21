@@ -1,11 +1,15 @@
 {
   "names": {
     "pl": [
-      "[draft] Róża z Limy"
+      "Roch [draft]"
     ]
   },
 
   "forenames": [
+    {
+      "la": "Rochus",
+      "pl": "Roch"
+    }
   ],
   "surnames": [
   ],
@@ -13,14 +17,14 @@
   ],
 
   "born": ["?"],
-  "died": ["1617-08-24"],
+  "died": ["~1327", "~1377", "1376-08-15", "~1378"],
 
   "beatified": {
   },
   "canonized": {
   },
 
-  "also-in-martyrology": [],
+  "also-in-martyrology": ["08-16"],
   "also-mentioned": [],
 
   "categories": [],
