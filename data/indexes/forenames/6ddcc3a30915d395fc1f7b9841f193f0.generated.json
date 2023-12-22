@@ -1,0 +1,18 @@
+{
+    "names": {
+        "la": "Rosalia"
+    },
+    "translations": {
+        "la": [
+            "Rosalia"
+        ],
+        "pl": [
+            "Rozalia"
+        ]
+    },
+    "links": {
+        "records/patrons/rosalia/pan": {
+            "pl": "Rozalia z Palermo [draft]"
+        }
+    }
+}

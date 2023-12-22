@@ -1,0 +1,19 @@
+{
+    "names": {
+        "la": "Magnus",
+        "pl": "Magnus"
+    },
+    "translations": {
+        "la": [
+            "Magnus"
+        ],
+        "pl": [
+            "Magnus"
+        ]
+    },
+    "links": {
+        "records/patrons/magnus/fus": {
+            "pl": "Magnus z Füssen [draft]"
+        }
+    }
+}

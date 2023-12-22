@@ -1,0 +1,18 @@
+{
+    "names": {
+        "pl": "Małgorzata"
+    },
+    "translations": {
+        "la": [
+            "Margarita"
+        ],
+        "pl": [
+            "Małgorzata"
+        ]
+    },
+    "links": {
+        "records/patrons/margarita/war": {
+            "pl": "Małgorzata Ward [draft]"
+        }
+    }
+}

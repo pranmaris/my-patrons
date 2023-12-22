@@ -53,8 +53,8 @@
     },
     "ioannes": {
         "la": "Ioannes",
-        "en": "John",
         "pl": "Jan",
+        "en": "John",
         "fr": "Jean"
     },
     "iosephus": {
@@ -71,6 +71,14 @@
         "la": "Lydia",
         "en": "Lydia",
         "pl": "Lidia"
+    },
+    "magnus": {
+        "la": "Magnus",
+        "pl": "Magnus"
+    },
+    "margarita": {
+        "la": "Margarita",
+        "pl": "Małgorzata"
     },
     "maria": {
         "it": "Marie",
@@ -96,6 +104,10 @@
     "rosa": {
         "la": "Rosa",
         "pl": "Róża"
+    },
+    "rosalia": {
+        "la": "Rosalia",
+        "pl": "Rozalia"
     },
     "teresia": {
         "la": "Teresia",

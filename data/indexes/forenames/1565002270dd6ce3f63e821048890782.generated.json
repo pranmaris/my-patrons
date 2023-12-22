@@ -6,17 +6,20 @@
         "la": [
             "Ioannes"
         ],
-        "en": [
-            "John"
-        ],
         "pl": [
             "Jan"
+        ],
+        "en": [
+            "John"
         ],
         "fr": [
             "Jean"
         ]
     },
     "links": {
+        "records/patrons/ioannes/chr": {
+            "pl": "Jan Chryzostom [draft]"
+        },
         "records/patrons/ioannes/eva": {
             "la": "Ioannes Evangelista",
             "en": "John the Evangelist",

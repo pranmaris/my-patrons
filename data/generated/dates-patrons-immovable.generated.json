@@ -304,6 +304,59 @@
             }
         }
     },
+    "08-30": {
+        "records/patrons/margarita/war": {
+            "name": {
+                "pl": "Małgorzata Ward [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "30 VIII",
+                "other-martyrology-days": "30 VIII"
+            }
+        }
+    },
+    "09-04": {
+        "records/patrons/rosalia/pan": {
+            "name": {
+                "pl": "Rozalia z Palermo [draft]"
+            },
+            "sources": {
+                "other-martyrology-days": "4 IX"
+            }
+        }
+    },
+    "09-06": {
+        "records/patrons/magnus/fus": {
+            "name": {
+                "pl": "Magnus z Füssen [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 IX",
+                "other-martyrology-days": "6 IX"
+            }
+        }
+    },
+    "09-13": {
+        "records/patrons/ioannes/chr": {
+            "name": {
+                "pl": "Jan Chryzostom [draft]"
+            },
+            "sources": {
+                "other-martyrology-days": "13 IX"
+            }
+        }
+    },
+    "09-14": {
+        "records/patrons/ioannes/chr": {
+            "name": {
+                "pl": "Jan Chryzostom [draft]"
+            },
+            "sources": {
+                "reliable-death-anniversary": "14 IX",
+                "other-martyrology-days": "14 IX"
+            }
+        }
+    },
     "09-18": {
         "records/patrons/david/oke": {
             "name": {

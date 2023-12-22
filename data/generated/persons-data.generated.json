@@ -418,8 +418,8 @@
     "patrons/ioannes": {
         "names": {
             "la": "Ioannes",
-            "en": "John",
             "pl": "Jan",
+            "en": "John",
             "fr": "Jean"
         }
     },
@@ -437,6 +437,14 @@
             "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
             "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
         }
+    },
+    "patrons/ioannes/chr": {
+        "names": {
+            "pl": "Jan Chryzostom [draft]"
+        },
+        "died": [
+            "407-09-14"
+        ]
     },
     "patrons/ioannes/eva": {
         "names": {
@@ -519,6 +527,34 @@
         },
         "died": [
             "<100"
+        ]
+    },
+    "patrons/magnus": {
+        "names": {
+            "la": "Magnus",
+            "pl": "Magnus"
+        }
+    },
+    "patrons/magnus/fus": {
+        "names": {
+            "pl": "Magnus z Füssen [draft]"
+        },
+        "died": [
+            "772-09-06"
+        ]
+    },
+    "patrons/margarita": {
+        "names": {
+            "la": "Margarita",
+            "pl": "Małgorzata"
+        }
+    },
+    "patrons/margarita/war": {
+        "names": {
+            "pl": "Małgorzata Ward [draft]"
+        },
+        "died": [
+            "1588-08-30"
         ]
     },
     "patrons/maria": {
@@ -668,6 +704,22 @@
         },
         "died": [
             "1617-08-24"
+        ]
+    },
+    "patrons/rosalia": {
+        "names": {
+            "la": "Rosalia",
+            "pl": "Rozalia"
+        }
+    },
+    "patrons/rosalia/pan": {
+        "names": {
+            "pl": "Rozalia z Palermo [draft]"
+        },
+        "died": [
+            "~1165",
+            "~1170",
+            "1170-09-04"
         ]
     },
     "patrons/teresia": {

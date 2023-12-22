@@ -1,11 +1,15 @@
 {
   "names": {
     "pl": [
-      "[draft] Rozalia z Palermo"
+      "Rozalia z Palermo [draft]"
     ]
   },
 
   "forenames": [
+    {
+      "la": "Rosalia",
+      "pl": "Rozalia"
+    }
   ],
   "surnames": [
   ],
@@ -13,14 +17,14 @@
   ],
 
   "born": ["?"],
-  "died": ["1165", "1170"],
+  "died": ["~1165", "~1170", "1170-09-04"],
 
   "beatified": {
   },
   "canonized": {
   },
 
-  "also-in-martyrology": [],
+  "also-in-martyrology": ["09-04"],
   "also-mentioned": [],
 
   "categories": [],

@@ -1,11 +1,15 @@
 {
   "names": {
     "pl": [
-      "[draft] Małgorzata Ward"
+      "Małgorzata Ward [draft]"
     ]
   },
 
   "forenames": [
+    {
+      "la": "Margarita",
+      "pl": "Małgorzata"
+    }
   ],
   "surnames": [
   ],
@@ -20,7 +24,7 @@
   "canonized": {
   },
 
-  "also-in-martyrology": [],
+  "also-in-martyrology": ["08-30"],
   "also-mentioned": [],
 
   "categories": [],

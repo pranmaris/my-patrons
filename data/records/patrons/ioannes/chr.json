@@ -1,11 +1,15 @@
 {
   "names": {
     "pl": [
-      "[draft] Jan Chryzostom"
+      "Jan Chryzostom [draft]"
     ]
   },
 
   "forenames": [
+    {
+      "la": "Ioannes",
+      "pl": "Jan"
+    }
   ],
   "surnames": [
   ],
@@ -20,7 +24,7 @@
   "canonized": {
   },
 
-  "also-in-martyrology": [],
+  "also-in-martyrology": ["09-13", "09-14"],
   "also-mentioned": [],
 
   "categories": [],
