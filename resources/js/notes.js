@@ -39,6 +39,10 @@ const FEAST_SELECT_ELEMENT_ID = 'feast-select';
 const PERSON_URL_ELEMENT_ID_PREFIX = 'person-url-';
 const FEAST_URL_ELEMENT_ID_PREFIX = 'feast-url-';
 
+const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
+const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
+const PROGRESS_ABORTED_ELEMENT_ID_PREFIX = 'progress-aborted-';
+
 const PERSON_URL_FEAST_SEPARATOR = '@';
 const REMOVE_PERSON_URL_LINK_HREFS = ['me'];
 
@@ -51,6 +55,9 @@ const PERSONS_DATA_FIELD_DIED = 'died';
 const DATA_FIELD_CHALLENGES = 'challenges';
 const DATA_FIELD_FILENAME_WITHOUT_EXTENSION = 'filename-without-extension';
 const DATA_FIELD_OWNER = 'owner';
+const DATA_FIELD_CHECKLIST = 'checklist';
+
+const CONFIG_FIELD_CHECKLIST = 'checklist';
 
 const PERSON_TYPE_GOD = 'God';
 const PERSON_TYPE_ME = 'Me';
@@ -293,9 +300,7 @@ function reloadChallengesTab() {
     clearNotifications();
     parseFileDataFromContent(fileContent);
 
-    fillChallenges(
-      fileData[DATA_FIELD_CHALLENGES] ?? [],
-    );
+    fillChallenges(fileData[DATA_FIELD_CHALLENGES] ?? []);
   } catch (e) {
     error(e.message);
   }
@@ -367,7 +372,7 @@ function setValueAsFilenameWithoutExtension(value) {
   }
 }
 
-async function fillChallenges(challenges, patrons, filter = {}) {
+async function fillChallenges(challenges) {
   const list = document.getElementById(CHALLENGES_ELEMENT_ID);
   list.innerHTML = '';
 
@@ -385,7 +390,6 @@ async function fillChallenges(challenges, patrons, filter = {}) {
     let feastUrl = feast.length > 0 ? personUrl + PERSON_URL_FEAST_SEPARATOR + feast : '';
     let type = challenge.type ?? '';
     let number = '';
-    let checklist = challenge.checklist ?? '';  //todo...
     let success = '...';                        //todo...
     let notes = challenge.notes ?? '';
 
@@ -406,10 +410,11 @@ async function fillChallenges(challenges, patrons, filter = {}) {
       .replace(/#person#/g, getPersonDataName(personUrl))
       .replace(/#feast-url#/g, feastUrl.length > 0 ? feastUrl + ANCHOR_CHARACTER + feast : '')
       .replace(/#feast#/g, feastUrl.length > 0 ? getPersonDataName(feastUrl) : '')
-      .replace(/#checklist#/g, checklist)
       .replace(/#success#/g, success)
       .replace(/#notes#/g, notes)
     ;
+
+    drawProgressBarValue(rowId);
 
     if (inArray(personUrl, REMOVE_PERSON_URL_LINK_HREFS)) {
       document.getElementById(PERSON_URL_ELEMENT_ID_PREFIX + rowId).removeAttribute('href');
@@ -1240,6 +1245,70 @@ function recalculateFileData() {
     [DATA_FIELD_FILENAME_WITHOUT_EXTENSION]: fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] ?? '',
     [DATA_FIELD_CHALLENGES]: challenges
   };
+}
+
+
+
+function drawProgressBarValue(rowId) {
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  const rowData = challenges[rowId - 1] ?? [];
+  const stepsConfig = challengesConfig[rowData.type][CONFIG_FIELD_CHECKLIST] ?? [];
+  const totalCount = Object.keys(stepsConfig).length;
+
+  let doneCount = 0;
+  let optionalCount = 0;
+  let abortedCount = 0;
+  let waitingCount = 0;
+  for (let stepId in stepsConfig) {
+    switch (rowData[DATA_FIELD_CHECKLIST][stepId] ?? null) {
+      case null:
+        if (false == (stepsConfig[stepId].required ?? true)) {
+          optionalCount++;
+        } else {
+          waitingCount++;
+        }
+        break;
+      case true:
+        doneCount++;
+        break;
+      case false:
+        abortedCount++;
+        break;
+      default:
+        waitingCount++;
+        break;
+    }
+  }
+
+  let donePercent = Math.floor(doneCount * 100 / totalCount);
+  let optionalPercent = Math.floor(optionalCount * 100 / totalCount);
+  let abortedPercent = Math.floor(abortedCount * 100 / totalCount);
+  let waitingPercent = Math.floor(waitingCount * 100 / totalCount);
+
+  let missingPercent = 100 - donePercent - optionalPercent - abortedPercent - waitingPercent;
+  if (missingPercent > 0 && waitingCount > 0) {
+    waitingPercent += missingPercent;
+  } else if (missingPercent > 0 && abortedCount > 0) {
+    abortedPercent += missingPercent;
+  } else if (missingPercent > 0 && optionalCount > 0) {
+    optionalPercent += missingPercent;
+  } else if (missingPercent > 0 && doneCount > 0) {
+    donePercent += missingPercent;
+  }
+
+  let doneProgress = document.getElementById(PROGRESS_DONE_ELEMENT_ID_PREFIX + rowId);
+  let optionalProgress = document.getElementById(PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX + rowId);
+  let abortedProgress = document.getElementById(PROGRESS_ABORTED_ELEMENT_ID_PREFIX + rowId);
+
+  setProgressBarPartValues(doneProgress, doneCount, donePercent, totalCount);
+  setProgressBarPartValues(optionalProgress, optionalCount, optionalPercent, totalCount);
+  setProgressBarPartValues(abortedProgress, abortedCount, abortedPercent, totalCount);
+}
+
+function setProgressBarPartValues(element, count, percent, totalCount) {
+  element.setAttribute('style', 'width: ' + percent + '%');
+  element.setAttribute('aria-valuenow', percent);
+  element.innerHTML = count > 0 ? count + '/' + totalCount : '';
 }
 
 build();

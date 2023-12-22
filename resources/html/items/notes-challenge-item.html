@@ -7,7 +7,13 @@
     <br />
     <a id="feast-url-#row-id#" href="#feast-url#" target="blank" disabled>#feast#</a>
   </td>
-  <td>#checklist#</td>
+  <td>
+    <div class="progress">
+      <div id="progress-done-#row-id#" class="progress-bar bg-success" role="progressbar" aria-label="Checklist progress bar part for done steps" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div id="progress-optional-#row-id#" class="progress-bar bg-warning" role="progressbar" aria-label="Checklist progress bar part for optional steps" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div id="progress-aborted-#row-id#" class="progress-bar bg-danger" role="progressbar" aria-laxbel="Checklist progress bat part for aborted steps" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </td>
   <td>#success#</td>
   <td>...</td>
 </tr>
