@@ -23,9 +23,6 @@
       "mass": {
         "to-complete-on-selected-date": true,
         "required": true,
-        "symbol": {
-          "pl": "U"
-        },
         "name": {
           "pl": "Weź udział we Mszy Świętej"
         },
@@ -36,9 +33,6 @@
       "communion": {
         "to-complete-on-selected-date": true,
         "required": true,
-        "symbol": {
-          "pl": "K"
-        },
         "name": {
           "pl": "Przyjmij Komunię Świętą"
         },
@@ -49,9 +43,6 @@
       "prayer": {
         "to-complete-on-selected-date": false,
         "required": true,
-        "symbol": {
-          "pl": "M"
-        },
         "name": {
           "pl": "Pomódl się do Patrona"
         },
@@ -62,9 +53,6 @@
       "bible": {
         "to-complete-on-selected-date": false,
         "required": true,
-        "symbol": {
-          "pl": "P"
-        },
         "name": {
           "pl": "Przeczytaj fragment Pisma Świętego"
         },
@@ -75,9 +63,6 @@
       "note": {
         "to-complete-on-selected-date": false,
         "required": true,
-        "symbol": {
-          "pl": "N"
-        },
         "name": {
           "pl": "Zanotuj dodatkowe informacje"
         },
@@ -225,9 +210,6 @@
       "self-entrusting": {
         "to-complete-on-selected-date": true,
         "required": true,
-        "symbol": {
-          "pl": "Z"
-        },
         "name": {
           "pl": "Zawierz Bogu swój udział w inicjatywie"
         },
@@ -238,9 +220,6 @@
       "credo": {
         "to-complete-on-selected-date": true,
         "required": true,
-        "symbol": {
-          "pl": "M"
-        },
         "name": {
           "pl": "Pomódl się do Boga"
         },
@@ -251,9 +230,6 @@
       "knowledge": {
         "to-complete-on-selected-date": false,
         "required": true,
-        "symbol": {
-          "pl": "P"
-        },
         "name": {
           "pl": "Poznaj Boga"
         },
@@ -264,9 +240,6 @@
       "apostles": {
         "to-complete-on-selected-date": false,
         "required": true,
-        "symbol": {
-          "pl": "A"
-        },
         "name": {
           "pl": "Poinformuj swoich „Apostołów”"
         },
@@ -277,9 +250,6 @@
       "note": {
         "to-complete-on-selected-date": false,
         "required": true,
-        "symbol": {
-          "pl": "N"
-        },
         "name": {
           "pl": "Zanotuj dodatkowe informacje"
         },
@@ -335,9 +305,6 @@
       "verification": {
         "to-complete-on-selected-date": false,
         "required": true,
-        "symbol": {
-          "pl": "U"
-        },
         "name": {
           "pl": "Potwierdź swoje narodziny"
         },
@@ -348,9 +315,6 @@
       "note": {
         "to-complete-on-selected-date": false,
         "required": true,
-        "symbol": {
-          "pl": "N"
-        },
         "name": {
           "pl": "Zanotuj dodatkowe informacje"
         },
@@ -406,9 +370,6 @@
       "verification": {
         "to-complete-on-selected-date": false,
         "required": true,
-        "symbol": {
-          "pl": "U"
-        },
         "name": {
           "pl": "Potwierdź swoje pierwsze przyjęcie Sakramentu"
         },
@@ -419,9 +380,6 @@
       "note": {
         "to-complete-on-selected-date": false,
         "required": true,
-        "symbol": {
-          "pl": "N"
-        },
         "name": {
           "pl": "Zanotuj dodatkowe informacje"
         },

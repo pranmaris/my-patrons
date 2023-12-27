@@ -14,6 +14,7 @@ const PERSONS_DATA_JSON_FILE = '/files/data/generated/persons-data.generated.jso
 
 const CSS_FILE_PATH = '/files/resources/css/notes.css';
 const CHALLENGE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-item.html';
+const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-checklist-item.html';
 const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-notification-item.html';
 
 const INVISIBLE_STYLE = 'display: none';
@@ -38,6 +39,15 @@ const PERSON_SELECT_ELEMENT_ID = 'person-select';
 const FEAST_SELECT_ELEMENT_ID = 'feast-select';
 const PERSON_URL_ELEMENT_ID_PREFIX = 'person-url-';
 const FEAST_URL_ELEMENT_ID_PREFIX = 'feast-url-';
+const CHECKLIST_LIST_MODAL_BODY_ELEMENT_ID = 'checklist-list-modal-body';
+const CHECKLIST_ITEM_DESCRIPTION_ELEMENT_ID = 'checklist-item-description';
+const CHECKLIST_ITEM_MODAL_TOGGLE_LABEL_ELEMENT_ID = 'checklist-item-modal-toggle-label';
+const CHECKLIST_BUTTON_ABORTED_ELEMENT_ID = 'checklist-button-aborted';
+const CHECKLIST_BUTTON_OPTIONAL_WAITING_ELEMENT_ID = 'checklist-button-optional-waiting';
+const CHECKLIST_BUTTON_WAITING_ELEMENT_ID = 'checklist-button-waiting';
+const CHECKLIST_BUTTON_DONE_ELEMENT_ID = 'checklist-button-done';
+const CHECKLIST_ITEM_MODAL_ROW_ID_ELEMENT_ID = 'checklist-item-modal-row-id';
+const CHECKLIST_ITEM_MODAL_ITEM_TYPE_ELEMENT_ID = 'checklist-item-modal-item-type';
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -84,6 +94,17 @@ const JSON_STRINGIFY_SPACES = 2;
 const WEEKDAY_LANGUAGE_VARIABLES_PREFIX = 'lang-weekday-abbreviation-';
 
 const SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME = 'lang-without-feast-selection';
+
+const CHECKLIST_STATUS_WAITING = 'waiting';
+const CHECKLIST_STATUS_OPTIONAL_WAITING = 'optional-waiting';
+const CHECKLIST_STATUS_ABORTED = 'aborted';
+const CHECKLIST_STATUS_DONE = 'done';
+const CHECKLIST_STATUSES = {
+  [CHECKLIST_STATUS_WAITING]: {variable: 'lang-checklist-status-waiting', color: 'dark'},
+  [CHECKLIST_STATUS_OPTIONAL_WAITING]: {variable: 'lang-checklist-status-optional-waiting', color: 'warning'},
+  [CHECKLIST_STATUS_ABORTED]: {variable: 'lang-checklist-status-aborted', color: 'danger'},
+  [CHECKLIST_STATUS_DONE]: {variable: 'lang-checklist-status-done', color: 'success'}
+}
 
 let challengesConfig = {};
 let languageVariables = {};
@@ -1309,6 +1330,130 @@ function setProgressBarPartValues(element, count, percent, totalCount) {
   element.setAttribute('style', 'width: ' + percent + '%');
   element.setAttribute('aria-valuenow', percent);
   element.innerHTML = count > 0 ? count + '/' + totalCount : '';
+}
+
+async function checklistListReset(rowId) {
+  let modalBody = document.getElementById(CHECKLIST_LIST_MODAL_BODY_ELEMENT_ID);
+  modalBody.innerHTML = '';
+
+  let challengeType = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? []).type ?? null;
+  let checklist = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? [])[DATA_FIELD_CHECKLIST] ?? [];
+
+  if (Object.keys(checklist).length == 0 || challengeType == null) {
+    modalBody.innerHTML = getLanguageVariable('lang-checklist-is-empty', true);
+
+    return;
+  }
+
+  for (let data of Object.entries(checklist)) {
+    await drawChecklistRow(modalBody, rowId, challengeType, data[0] ?? null, data[1] ?? null);
+  }
+}
+
+async function drawChecklistRow(contentElement, rowId, challengeType, itemType, value) {
+  const element = document.createElement('div');
+
+  const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_CHECKLIST] ?? [])[itemType] ?? [];
+  if (Object.keys(config).length == 0) {
+    return;
+  }
+  const required = config.required ?? true;
+  const name = getLanguageVariable('name', true, config.name ?? {});
+
+  let status = null;
+  switch (value) {
+    case true:
+      status = CHECKLIST_STATUS_DONE;
+      break;
+    case false:
+      status = CHECKLIST_STATUS_ABORTED;
+      break;
+    case null:
+    default:
+      status = required ? CHECKLIST_STATUS_WAITING : CHECKLIST_STATUS_OPTIONAL_WAITING;
+      break;
+  }
+  const statusColor = CHECKLIST_STATUSES[status].color;
+  const statusName = getLanguageVariable(CHECKLIST_STATUSES[status].variable);
+
+  const content = await getFileContent(CHECKLIST_ITEM_TEMPLATE_FILE_PATH);
+  element.innerHTML = content
+    .replace(/#type#/g, itemType)
+    .replace(/#name#/g, name)
+    .replace(/#status-color#/g, statusColor)
+    .replace(/#status-name#/g, statusName)
+    .replace(/#row-id#/g, rowId)
+    .replace(/#challenge-type#/g, challengeType)
+    .replace(/#checklist-status#/g, value == null ? 'null' : value.toString())
+    .replace(/#is-new-challenge-mode#/g, false.toString())
+  ;
+
+  contentElement.append(element);
+}
+
+async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, isCreateNewChallengeMode) {
+  const descElement = document.getElementById(CHECKLIST_ITEM_DESCRIPTION_ELEMENT_ID);
+  const labelElement = document.getElementById(CHECKLIST_ITEM_MODAL_TOGGLE_LABEL_ELEMENT_ID);
+  const rowIdElement = document.getElementById(CHECKLIST_ITEM_MODAL_ROW_ID_ELEMENT_ID);
+  const itemTypeElement = document.getElementById(CHECKLIST_ITEM_MODAL_ITEM_TYPE_ELEMENT_ID);
+
+  rowIdElement.value = rowId;
+  itemTypeElement.value = itemType;
+
+  const abortedButton = document.getElementById(CHECKLIST_BUTTON_ABORTED_ELEMENT_ID);
+  const optionalWaitingButton = document.getElementById(CHECKLIST_BUTTON_OPTIONAL_WAITING_ELEMENT_ID);
+  const waitingButton = document.getElementById(CHECKLIST_BUTTON_WAITING_ELEMENT_ID);
+  const doneButton = document.getElementById(CHECKLIST_BUTTON_DONE_ELEMENT_ID);
+  abortedButton.disabled = true;
+  optionalWaitingButton.disabled = true;
+  optionalWaitingButton.style = INVISIBLE_STYLE;
+  waitingButton.disabled = true;
+  doneButton.disabled = true;
+
+  const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_CHECKLIST] ?? [])[itemType] ?? [];
+  if (Object.keys(config).length == 0) {
+    return;
+  }
+  const toCompleteOnSelectedDate = config['to-complete-on-selected-date'] ?? false;
+  const required = config.required ?? true;
+  const name = getLanguageVariable('name', true, config.name ?? {});
+  const descFilePath = getLanguageVariable('description', true, config.description ?? {});
+
+  labelElement.innerHTML = name;
+  importMarkdownDescription(descElement, descFilePath);
+
+  if (!required) {
+    optionalWaitingButton.style = VISIBLE_STYLE;
+    waitingButton.style = INVISIBLE_STYLE;
+  }
+  doneButton.disabled = false;
+  if (!isCreateNewChallengeMode) {
+    abortedButton.disabled = false;
+    optionalWaitingButton.disabled = false;
+    waitingButton.disabled = false;
+  }
+}
+
+function setChecklistStatus(newValue) {
+  const rowIdElement = document.getElementById(CHECKLIST_ITEM_MODAL_ROW_ID_ELEMENT_ID);
+  const itemTypeElement = document.getElementById(CHECKLIST_ITEM_MODAL_ITEM_TYPE_ELEMENT_ID);
+
+  const rowId = rowIdElement.value;
+  const itemType = itemTypeElement.value;
+
+  const oldValues = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? [])[DATA_FIELD_CHECKLIST] ?? {};
+  if (Object.keys(oldValues).length > 0 && oldValues[itemType] !== undefined) {
+    fileData[DATA_FIELD_CHALLENGES][rowId - 1][DATA_FIELD_CHECKLIST][itemType] = newValue;
+
+    fileContent = JSON.stringify(fileData);
+    parseFileDataFromContent(fileContent);
+
+    checklistListReset(rowId);
+  }
+}
+
+async function importMarkdownDescription(element, filePath) {
+  element.innerHTML = '[' + filePath + ']';
 }
 
 build();

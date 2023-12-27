@@ -178,6 +178,31 @@
         "pl": "checklista"
     },
 
+    "lang-checklist-is-empty": {
+        "en": "checklist is empty",
+        "pl": "checklista jest pusta"
+    },
+
+    "lang-checklist-status-aborted": {
+        "en": "step aborted",
+        "pl": "krok anulowany"
+    },
+
+    "lang-checklist-status-done": {
+        "en": "step done",
+        "pl": "krok wykonany"
+    },
+
+    "lang-checklist-status-optional-waiting": {
+        "en": "optional step waiting",
+        "pl": "niewymagany krok oczekujący"
+    },
+
+    "lang-checklist-status-waiting": {
+        "en": "step waiting",
+        "pl": "krok oczekujący"
+    },
+
     "lang-clear-field": {
         "en": "clear",
         "pl": "wyczyść"
@@ -314,6 +339,11 @@
     "lang-donate-link": {
         "en": "",
         "pl": "https://buycoffee.to/gratia-dei"
+    },
+
+    "lang-done": {
+        "en": "done",
+        "pl": "zrobione"
     },
 
     "lang-download-printable-page": {
@@ -544,6 +574,11 @@
     "lang-margin-size": {
         "en": "each side margin size (mm)",
         "pl": "rozmiar marginesu z każdej strony (mm)"
+    },
+
+    "lang-mark-as": {
+        "en": "mark as",
+        "pl": "oznacz jako"
     },
 
     "lang-me": {

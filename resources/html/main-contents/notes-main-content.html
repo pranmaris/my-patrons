@@ -74,6 +74,44 @@
         </div>
       </div>
 
+      <div class="modal fade" id="checklist-list-modal-toggle" aria-hidden="true" aria-labelledby="checklist-list-modal-toggle-label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="checklist-list-modal-toggle-label">#lang-checklist|capitalize#</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body list-group" id="checklist-list-modal-body"></div>
+            <div class="modal-footer">
+              <button id="checklist-list-button" class="btn btn-primary" data-bs-target="#checklist-list-modal-toggle" data-bs-dismiss="modal" onClick="reloadChallengesTab()">#lang-done|capitalize#</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="checklist-item-modal-toggle" aria-hidden="true" aria-labelledby="checklist-item-modal-toggle-label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="checklist-item-modal-toggle-label"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="checklist-item-description"></div>
+            <div class="modal-footer">
+              <span>#lang-mark-as|capitalize#:</span>
+              <div class="btn-group" role="group" aria-label="options">
+                <button id="checklist-button-aborted" type="button" class="btn btn-danger" data-bs-target="#checklist-item-modal-toggle" data-bs-dismiss="modal" onClick="setChecklistStatus(false)">#lang-checklist-status-aborted#</button>
+                <button id="checklist-button-waiting" type="button" class="btn btn-dark" data-bs-target="#checklist-item-modal-toggle" data-bs-dismiss="modal" onClick="setChecklistStatus(null)">#lang-checklist-status-waiting#</button>
+                <button id="checklist-button-optional-waiting" type="button" class="btn btn-warning" data-bs-target="#checklist-item-modal-toggle" data-bs-dismiss="modal" onClick="setChecklistStatus(null)">#lang-checklist-status-optional-waiting#</button>
+                <button id="checklist-button-done" type="button" class="btn btn-success" data-bs-target="#checklist-item-modal-toggle" data-bs-dismiss="modal" onClick="setChecklistStatus(true)">#lang-checklist-status-done#</button>
+              </div>
+              <input id="checklist-item-modal-row-id" type="hidden" />
+              <input id="checklist-item-modal-item-type" type="hidden" />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <a class="btn btn-primary" data-bs-toggle="modal" href="#add-new-challenge-modal-toggle" role="button" onClick="addNewChallengeReset()">#lang-add-new-challenge|capitalize#</a>
     </div>
     <div class="tab-pane fade" id="nav-json-editor" role="tabpanel" aria-labelledby="nav-json-editor-tab" tabindex="0">
