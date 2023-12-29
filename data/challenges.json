@@ -4,7 +4,7 @@
       "pl": "Patroni Obrońcy"
     },
     "description": {
-      "pl": ""
+      "pl": "pl/x"
     },
     "numbers": false,
     "duplication-fields": ["person"],
@@ -14,9 +14,6 @@
         "anybody-having-challenges": ["I", "3xX"],
         "person-not-having-challenges": ["A"],
         "everybody-not-having-challenges-on-the-same-day": ["A"]
-      },
-      "description": {
-        "pl": ""
       }
     },
     "checklist": {
@@ -27,7 +24,7 @@
           "pl": "Weź udział we Mszy Świętej"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       },
       "communion": {
@@ -37,7 +34,7 @@
           "pl": "Przyjmij Komunię Świętą"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       },
       "prayer": {
@@ -47,7 +44,7 @@
           "pl": "Pomódl się do Patrona"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       },
       "bible": {
@@ -57,7 +54,7 @@
           "pl": "Przeczytaj fragment Pisma Świętego"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       },
       "note": {
@@ -67,7 +64,7 @@
           "pl": "Zanotuj dodatkowe informacje"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       }
     },
@@ -128,7 +125,7 @@
       "pl": "Święta"
     },
     "description": {
-      "pl": ""
+      "pl": "pl/x"
     },
     "duplication-fields": ["person", "feast"],
     "numbers": true,
@@ -140,9 +137,6 @@
         "god-having-needed-challenges": true,
         "person-feast-is-not-empty": true,
         "person-feast-not-having-challenges": ["B"]
-      },
-      "description": {
-        "pl": ""
       }
     },
     "checklist": {
@@ -162,7 +156,7 @@
       "pl": "Kościoły"
     },
     "description": {
-      "pl": ""
+      "pl": "pl/x"
     },
     "duplication-fields": ["person", "feast", "notes:place"],
     "numbers": true,
@@ -173,9 +167,6 @@
         "person-having-challenges": ["A"],
         "god-having-needed-challenges": true,
         "person-feast-having-challenges": ["B"]
-      },
-      "description": {
-        "pl": ""
       }
     },
     "checklist": {
@@ -195,7 +186,7 @@
       "pl": "Bóg"
     },
     "description": {
-      "pl": ""
+      "pl": "pl/x"
     },
     "numbers": false,
     "duplication-fields": ["person"],
@@ -214,7 +205,7 @@
           "pl": "Zawierz Bogu swój udział w inicjatywie"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       },
       "credo": {
@@ -224,7 +215,7 @@
           "pl": "Pomódl się do Boga"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       },
       "knowledge": {
@@ -234,7 +225,7 @@
           "pl": "Poznaj Boga"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       },
       "apostles": {
@@ -244,7 +235,7 @@
           "pl": "Poinformuj swoich „Apostołów”"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       },
       "note": {
@@ -254,7 +245,7 @@
           "pl": "Zanotuj dodatkowe informacje"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       }
     },
@@ -291,7 +282,7 @@
       "pl": "Narodziny"
     },
     "description": {
-      "pl": ""
+      "pl": "pl/x"
     },
     "numbers": false,
     "duplication-fields": ["person"],
@@ -309,7 +300,7 @@
           "pl": "Potwierdź swoje narodziny"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       },
       "note": {
@@ -319,7 +310,7 @@
           "pl": "Zanotuj dodatkowe informacje"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       }
     },
@@ -356,7 +347,7 @@
       "pl": "Sakramenty"
     },
     "description": {
-      "pl": ""
+      "pl": "pl/x"
     },
     "numbers": true,
     "duplication-fields": ["person", "notes:type"],
@@ -374,7 +365,7 @@
           "pl": "Potwierdź swoje pierwsze przyjęcie Sakramentu"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       },
       "note": {
@@ -384,7 +375,7 @@
           "pl": "Zanotuj dodatkowe informacje"
         },
         "description": {
-          "pl": ""
+          "pl": "pl/x"
         }
       }
     },

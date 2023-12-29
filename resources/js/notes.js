@@ -16,6 +16,7 @@ const CSS_FILE_PATH = '/files/resources/css/notes.css';
 const CHALLENGE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-item.html';
 const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-checklist-item.html';
 const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-notification-item.html';
+const MARKDOWN_FILES_ROOT_PATH = '/files/resources/md/';
 
 const INVISIBLE_STYLE = 'display: none';
 const VISIBLE_STYLE = '';
@@ -31,6 +32,7 @@ const NOTIFICATIONS_ELEMENT_ID = 'notifications';
 const CHALLENGE_DATE_INPUT_ELEMENT_ID = 'challenge-date-input';
 const CHALLENGE_TYPE_SELECT_ELEMENT_ID = 'challenge-type-select';
 const CHALLENGE_TYPE_DIV_ELEMENT_ID = 'challenge-type-div';
+const CHALLENGE_DESCRIPTION_DIV_ELEMENT_ID = 'challenge-description-div';
 const ADD_NEW_CHALLENGE_BUTTON_ELEMENT_ID = 'add-new-challenge-button';
 const PERSON_DIV_ELEMENT_ID = 'person-div';
 const PERSON_NAME_SELECT_ELEMENT_ID = 'person-name-select';
@@ -88,6 +90,7 @@ const REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES = 'person-feast-not-having-
 
 const JSON_MIME_TYPE = 'application/json';
 const JSON_DATA_FILE_EXTENSION = '.mypatrons.json';
+const MARKDOWN_FILE_EXTENSION = '.md';
 
 const JSON_STRINGIFY_SPACES = 2;
 
@@ -814,6 +817,9 @@ function resetPersonTypeSelect() {
   let personDiv = document.getElementById(PERSON_DIV_ELEMENT_ID);
   personDiv.style = INVISIBLE_STYLE;
 
+  let challengeDescDiv = document.getElementById(CHALLENGE_DESCRIPTION_DIV_ELEMENT_ID);
+  challengeDescDiv.innerHTML = '';
+
   let personTypeSelect = document.getElementById(PERSON_TYPE_SELECT_ELEMENT_ID);
   personTypeSelect.innerHTML = '';
   personTypeSelect.style = INVISIBLE_STYLE;
@@ -821,6 +827,9 @@ function resetPersonTypeSelect() {
 
   if (challengeType.length > 0) {
     personDiv.style = VISIBLE_STYLE;
+
+    const descFilePath = getLanguageVariable('description', false, challengesConfig[challengeType].description ?? {});
+    importMarkdownDescription(challengeDescDiv, descFilePath);
 
     let personsTypesToList = {};
     let personsUnlocked = {};
@@ -833,7 +842,6 @@ function resetPersonTypeSelect() {
         const personType = getPersonsDataRootName(personId);
         personsTypesToList[personType] = personType;
       }
-
       if (addGodToListNeeded) {
         personsTypesToList[GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL] = GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL;
 
@@ -1453,7 +1461,14 @@ function setChecklistStatus(newValue) {
 }
 
 async function importMarkdownDescription(element, filePath) {
-  element.innerHTML = '[' + filePath + ']';
+  element.innerHTML = '';
+
+  const fullFilePath = MARKDOWN_FILES_ROOT_PATH + filePath + MARKDOWN_FILE_EXTENSION;
+  try {
+    const content = await getFileContent(fullFilePath);
+    element.innerHTML = '<hr />' + marked.parse(content) + '<hr />';
+  } catch (e) {
+  }
 }
 
 build();

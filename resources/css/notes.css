@@ -63,3 +63,10 @@ button .svg-image {
 .error-message .svg-image {
   filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(1108%) hue-rotate(183deg) brightness(96%) contrast(100%); /* #000000 */
 }
+
+iframe {
+    display: block;
+    border: none;
+    height: 50vh;
+    width: 100%;
+}
