@@ -178,6 +178,11 @@
         "pl": "data wyzwania"
     },
 
+    "lang-challenges-order-changed-successfully": {
+        "en": "challenges order changed successfully!",
+        "pl": "kolejność wyzwań została zmieniona pomyślnie!"
+    },
+
     "lang-challenge-removed-successfully": {
         "en": "challenge removed successfully!",
         "pl": "wyzwanie zostało usunięte pomyślnie!"

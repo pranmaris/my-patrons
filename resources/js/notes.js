@@ -54,6 +54,8 @@ const CHECKLIST_ITEM_MODAL_ROW_ID_ELEMENT_ID = 'checklist-item-modal-row-id';
 const CHECKLIST_ITEM_MODAL_ITEM_TYPE_ELEMENT_ID = 'checklist-item-modal-item-type';
 const CHALLENGE_TO_REMOVE_ELEMENT_ID = 'challenge-to-remove';
 const REMOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID = 'remove-challenge-modal-row-id';
+const MOVE_CHALLENGE_UP_BUTTON_ELEMENT_ID_PREFIX = 'move-challenge-up-button-'
+const MOVE_CHALLENGE_DOWN_BUTTON_ELEMENT_ID_PREFIX = 'move-challenge-down-button-'
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -442,13 +444,25 @@ async function fillChallenges(challenges) {
       .replace(/#notes#/g, notes)
     ;
 
+    const personUrlElement = document.getElementById(PERSON_URL_ELEMENT_ID_PREFIX + rowId);
+    const feastUrlElement = document.getElementById(FEAST_URL_ELEMENT_ID_PREFIX + rowId);
+    const moveChallengeUpButton = document.getElementById(MOVE_CHALLENGE_UP_BUTTON_ELEMENT_ID_PREFIX + rowId);
+    const moveChallengeDownButton = document.getElementById(MOVE_CHALLENGE_DOWN_BUTTON_ELEMENT_ID_PREFIX + rowId);
+
+    if (date !== (challenges[rowId - 2] ?? {}).date ?? '') {
+      moveChallengeUpButton.style = INVISIBLE_STYLE;
+    }
+    if (date !== (challenges[rowId] ?? {}).date ?? '') {
+      moveChallengeDownButton.style = INVISIBLE_STYLE;
+    }
+
     drawProgressBarValue(rowId);
 
     if (inArray(personUrl, REMOVE_PERSON_URL_LINK_HREFS)) {
-      document.getElementById(PERSON_URL_ELEMENT_ID_PREFIX + rowId).removeAttribute('href');
+      personUrlElement.removeAttribute('href');
     }
     if (feastUrl == '') {
-      document.getElementById(FEAST_URL_ELEMENT_ID_PREFIX + rowId).removeAttribute('href');
+      feastUrlElement.removeAttribute('href');
     }
   }
 }
@@ -1243,6 +1257,7 @@ function addNewChallenge() {
     notes: notes
   };
   fileData[DATA_FIELD_CHALLENGES].push(record);
+
   sortChallengesByDate();
   recalculateFileData();
 
@@ -1524,19 +1539,44 @@ function removeChallenge() {
 
   (fileData[DATA_FIELD_CHALLENGES] ?? []).splice(rowId - 1, 1);
 
+  refreshChallengesTabAfterChange();
+  success(getLanguageVariable('lang-challenge-removed-successfully', true));
+}
+
+function moveChallengeUp(rowId) {
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  const current = challenges[rowId - 1] ?? {};
+  const previous = challenges[rowId - 2] ?? {};
+
+  if (Object.keys(current).length > 0 && current.date === previous.date) {
+    fileData[DATA_FIELD_CHALLENGES][rowId - 1] = previous;
+    fileData[DATA_FIELD_CHALLENGES][rowId - 2] = current;
+  }
+
+  refreshChallengesTabAfterChange();
+  success(getLanguageVariable('lang-challenges-order-changed-successfully', true));
+}
+
+function moveChallengeDown(rowId) {
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  const current = challenges[rowId - 1] ?? {};
+  const next = challenges[rowId] ?? {};
+
+  if (Object.keys(current).length > 0 && current.date === next.date) {
+    fileData[DATA_FIELD_CHALLENGES][rowId - 1] = next;
+    fileData[DATA_FIELD_CHALLENGES][rowId] = current;
+  }
+
+  refreshChallengesTabAfterChange();
+  success(getLanguageVariable('lang-challenges-order-changed-successfully', true));
+}
+
+function refreshChallengesTabAfterChange() {
   sortChallengesByDate();
 
   fileContent = JSON.stringify(fileData);
   parseFileDataFromContent(fileContent);
   reloadChallengesTab();
-
-  success(getLanguageVariable('lang-challenge-removed-successfully', true));
-}
-
-function moveChallengeUp(rowId) {
-}
-
-function moveChallengeDown(rowId) {
 }
 
 build();
