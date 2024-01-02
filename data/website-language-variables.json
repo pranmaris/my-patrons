@@ -70,6 +70,11 @@
         "pl": "spad drukarski (mm)"
     },
 
+    "lang-cancel": {
+        "en": "cancel",
+        "pl": "anuluj"
+    },
+
     "lang-canonization": {
         "en": "canonization",
         "la": "canonizationis",
@@ -171,6 +176,11 @@
     "lang-challenge-date": {
         "en": "challenge date",
         "pl": "data wyzwania"
+    },
+
+    "lang-challenge-removed-successfully": {
+        "en": "challenge removed successfully!",
+        "pl": "wyzwanie zostało usunięte pomyślnie!"
     },
 
     "lang-checklist": {
@@ -795,6 +805,11 @@
     "lang-refresh-fields": {
         "en": "refresh fields",
         "pl": "odśwież pola"
+    },
+
+    "lang-remove-challenge": {
+        "en": "remove challenge",
+        "pl": "usuń wyzwanie"
     },
 
     "lang-resource": {

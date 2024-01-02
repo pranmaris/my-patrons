@@ -75,6 +75,35 @@
         </div>
       </div>
 
+      <div class="modal fade" id="remove-challenge-modal-toggle" aria-hidden="true" aria-labelledby="remove-challenge-modal-toggle-label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="checklist-list-modal-toggle-label">#lang-remove-challenge|capitalize#</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="remove-challenge-modal-body">
+              <table class="table table-bordered border-primary">
+                <thead>
+                  <tr>
+                    <th>#lang-row-id|capitalize#</th>
+                    <th>#lang-date|capitalize#</th>
+                    <th>#lang-type-and-number|capitalize#</th>
+                    <th>#lang-person|capitalize#</th>
+                  </tr>
+                </thead>
+                <tbody id="challenge-to-remove"></tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-bs-dismiss="modal">#lang-cancel|capitalize#</button>
+              <button id="remove-challenge-button" class="btn btn-primary" data-bs-target="#remove-challenge-modal-toggle" data-bs-dismiss="modal" onClick="removeChallenge()">#lang-remove-challenge|capitalize#</button>
+              <input id="remove-challenge-modal-row-id" type="hidden" />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="modal fade" id="checklist-list-modal-toggle" aria-hidden="true" aria-labelledby="checklist-list-modal-toggle-label" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered modal-fullscreen">
           <div class="modal-content">

@@ -14,7 +14,9 @@ const PERSONS_DATA_JSON_FILE = '/files/data/generated/persons-data.generated.jso
 
 const CSS_FILE_PATH = '/files/resources/css/notes.css';
 const CHALLENGE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-item.html';
+const CHALLENGE_ITEM_TO_REMOVE_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-to-remove-item.html';
 const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-checklist-item.html';
+const DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH = '/files/resources/html/content-blocks/notes-description-content-block.html';
 const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-notification-item.html';
 const MARKDOWN_FILES_ROOT_PATH = '/files/resources/md/';
 
@@ -50,6 +52,8 @@ const CHECKLIST_BUTTON_WAITING_ELEMENT_ID = 'checklist-button-waiting';
 const CHECKLIST_BUTTON_DONE_ELEMENT_ID = 'checklist-button-done';
 const CHECKLIST_ITEM_MODAL_ROW_ID_ELEMENT_ID = 'checklist-item-modal-row-id';
 const CHECKLIST_ITEM_MODAL_ITEM_TYPE_ELEMENT_ID = 'checklist-item-modal-item-type';
+const CHALLENGE_TO_REMOVE_ELEMENT_ID = 'challenge-to-remove';
+const REMOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID = 'remove-challenge-modal-row-id';
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -1425,7 +1429,7 @@ async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, isC
   const toCompleteOnSelectedDate = config['to-complete-on-selected-date'] ?? false;
   const required = config.required ?? true;
   const name = getLanguageVariable('name', true, config.name ?? {});
-  const descFilePath = getLanguageVariable('description', true, config.description ?? {});
+  const descFilePath = getLanguageVariable('description', false, config.description ?? {});
 
   labelElement.innerHTML = name;
   importMarkdownDescription(descElement, descFilePath);
@@ -1465,10 +1469,74 @@ async function importMarkdownDescription(element, filePath) {
 
   const fullFilePath = MARKDOWN_FILES_ROOT_PATH + filePath + MARKDOWN_FILE_EXTENSION;
   try {
+    const template = await getFileContent(DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH);
     const content = await getFileContent(fullFilePath);
-    element.innerHTML = '<hr />' + marked.parse(content) + '<hr />';
+
+    element.innerHTML = template.replace(/#content#/, content);
   } catch (e) {
   }
+}
+
+async function removeChallengeReset(rowId) {
+  const row = document.getElementById(CHALLENGE_TO_REMOVE_ELEMENT_ID);
+  const modalRowId = document.getElementById(REMOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID);
+
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  const challenge = challenges[rowId - 1] ?? undefined;
+
+  row.innerHTML = '';
+  if (challenge !== undefined) {
+    const content = await getFileContent(CHALLENGE_ITEM_TO_REMOVE_TEMPLATE_FILE_PATH);
+
+    let date = challenge.date ?? '';
+    let personUrl = (challenge.person ?? '');
+    let feast = challenge.feast ?? '';
+    let feastUrl = feast.length > 0 ? personUrl + PERSON_URL_FEAST_SEPARATOR + feast : '';
+    let type = challenge.type ?? '';
+    let number = '';
+
+    if (challengesConfig[type].numbers ?? false) {
+      number = 1;
+      for (let i = 0; i < rowId - 1; i++) {
+        if ((challenges[i].person ?? '') === personUrl && (challenges[i].type ?? '') === type) {
+          number++;
+        }
+      }
+    }
+
+    row.innerHTML = content
+      .replace(/#row-id#/g, rowId)
+      .replace(/#date#/g, getDateFormat(date))
+      .replace(/#type#/g, type)
+      .replace(/#number#/g, number.toString())
+      .replace(/#person-url#/g, personUrl)
+      .replace(/#person#/g, getPersonDataName(personUrl))
+      .replace(/#feast-url#/g, feastUrl.length > 0 ? feastUrl + ANCHOR_CHARACTER + feast : '')
+      .replace(/#feast#/g, feastUrl.length > 0 ? getPersonDataName(feastUrl) : '')
+    ;
+  }
+
+  modalRowId.value = rowId;
+}
+
+function removeChallenge() {
+  const rowId = document.getElementById(REMOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID).value ?? 0;
+
+  (fileData[DATA_FIELD_CHALLENGES] ?? []).splice(rowId - 1, 1);
+
+  sortChallengesByDate();
+
+  fileContent = JSON.stringify(fileData);
+  parseFileDataFromContent(fileContent);
+  reloadChallengesTab();
+
+  success(getLanguageVariable('lang-challenge-removed-successfully', true));
+}
+
+function moveChallengeUp(rowId) {
+}
+
+function moveChallengeDown(rowId) {
 }
 
 build();
