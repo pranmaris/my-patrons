@@ -56,6 +56,12 @@ const CHALLENGE_TO_REMOVE_ELEMENT_ID = 'challenge-to-remove';
 const REMOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID = 'remove-challenge-modal-row-id';
 const MOVE_CHALLENGE_UP_BUTTON_ELEMENT_ID_PREFIX = 'move-challenge-up-button-'
 const MOVE_CHALLENGE_DOWN_BUTTON_ELEMENT_ID_PREFIX = 'move-challenge-down-button-'
+const REQUIRED_NOTES_DIV_ELEMENT_ID = 'required-notes-div';
+const REQUIRED_CHECKLIST_STEPS_DIV_ELEMENT_ID = 'required-checklist-steps-div';
+const REQUIRED_NOTES_DONE_INPUT_ELEMENT_ID = 'required-notes-done';
+const REQUIRED_CHECKLIST_STEPS_DONE_INPUT_ELEMENT_ID = 'required-checklist-steps-done';
+const REQUIRED_CHECKLIST_STEPS_LIST_ELEMENT_ID = 'required-checklist-steps-list';
+const REQUIRED_CHECKLIST_STEPS_INFO_ELEMENT_ID = 'required-checklist-steps-info';
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -125,6 +131,8 @@ let personsDataSubelementsCache = {};
 let fileName = DEFAULT_JSON_FILENAME + JSON_DATA_FILE_EXTENSION;
 let fileContent = '{}';
 let fileData = null;
+
+let newChallengeChecklistValues = {};
 
 async function build() {
   appendNotesCss();
@@ -1208,14 +1216,78 @@ function resetFeastSelect() {
     }
   }
 
+  resetRequiredNotes();
+}
+
+function resetRequiredNotes() {
+  const feastValue = document.getElementById(FEAST_SELECT_ELEMENT_ID).value;
+
+  let requiredNotesDiv = document.getElementById(REQUIRED_NOTES_DIV_ELEMENT_ID);
+  requiredNotesDiv.style = INVISIBLE_STYLE;
+
+  let requiredNotesDoneInput = document.getElementById(REQUIRED_NOTES_DONE_INPUT_ELEMENT_ID);
+  requiredNotesDoneInput.value = '';
+
+  if (feastValue.length > 0) {
+    //... todo later
+
+    requiredNotesDoneInput.value = '1';
+    resetNewChallengeChecklistValues();
+  }
+
+  resetRequiredChecklistSteps();
+}
+
+async function resetRequiredChecklistSteps() {
+  const challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
+  const requiredNotesDone = document.getElementById(REQUIRED_NOTES_DONE_INPUT_ELEMENT_ID).value;
+
+  let requiredChecklistStepsDiv = document.getElementById(REQUIRED_CHECKLIST_STEPS_DIV_ELEMENT_ID);
+  requiredChecklistStepsDiv.style = INVISIBLE_STYLE;
+
+  let requiredChecklistStepsDoneInput = document.getElementById(REQUIRED_CHECKLIST_STEPS_DONE_INPUT_ELEMENT_ID);
+  requiredChecklistStepsDoneInput.value = '';
+
+  let requiredChecklistStepsInfo = document.getElementById(REQUIRED_CHECKLIST_STEPS_INFO_ELEMENT_ID);
+  requiredChecklistStepsInfo.style = INVISIBLE_STYLE;
+
+  if (requiredNotesDone.length > 0) {
+    let checklistStepsList = document.getElementById(REQUIRED_CHECKLIST_STEPS_LIST_ELEMENT_ID);
+    checklistStepsList.innerHTML = '';
+
+    const rowId = 0;
+    const checklist = (challengesConfig[challengeType] ?? {})[CONFIG_FIELD_CHECKLIST] ?? {};
+
+    let allValuesAreDone = true;
+    for (let data of Object.entries(checklist)) {
+      const itemType = data[0] ?? null;
+      const toCompleteOnSelectedDate = (data[1] ?? {})['to-complete-on-selected-date'] ?? false;
+
+      if (toCompleteOnSelectedDate) {
+        const value = getNewChallengeChecklistValue(itemType);
+        await drawChecklistRow(checklistStepsList, rowId, challengeType, itemType, value);
+        if (value !== true) {
+          allValuesAreDone = false;
+        }
+
+        requiredChecklistStepsInfo.style = VISIBLE_STYLE;
+      }
+    }
+
+    if (allValuesAreDone) {
+      requiredChecklistStepsDoneInput.value = '1';
+    }
+    requiredChecklistStepsDiv.style = VISIBLE_STYLE;
+  }
+
   resetAddNewChallengeButton();
 }
 
 function resetAddNewChallengeButton() {
-  let feastValue = document.getElementById(FEAST_SELECT_ELEMENT_ID).value;
+  const requiredChecklistStepsDone = document.getElementById(REQUIRED_CHECKLIST_STEPS_DONE_INPUT_ELEMENT_ID).value;
 
   let button = document.getElementById(ADD_NEW_CHALLENGE_BUTTON_ELEMENT_ID);
-  button.disabled = !feastValue;
+  button.disabled = !(requiredChecklistStepsDone.length > 0);
 }
 
 function addOptionToSelect(select, value, name) {
@@ -1241,8 +1313,10 @@ function addNewChallenge() {
   const type = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
   const person = document.getElementById(PERSON_SELECT_ELEMENT_ID).value;
   const feast = feastValue.substring(person.length + 1);
-  const checklist = {};
+  const checklist = newChallengeChecklistValues;
   const notes = {};
+
+  resetNewChallengeChecklistValues();
 
   if (fileData[DATA_FIELD_CHALLENGES] == undefined) {
     fileData[DATA_FIELD_CHALLENGES] = [];
@@ -1412,13 +1486,12 @@ async function drawChecklistRow(contentElement, rowId, challengeType, itemType, 
     .replace(/#row-id#/g, rowId)
     .replace(/#challenge-type#/g, challengeType)
     .replace(/#checklist-status#/g, value == null ? 'null' : value.toString())
-    .replace(/#is-new-challenge-mode#/g, false.toString())
   ;
 
   contentElement.append(element);
 }
 
-async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, isCreateNewChallengeMode) {
+async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus) {
   const descElement = document.getElementById(CHECKLIST_ITEM_DESCRIPTION_ELEMENT_ID);
   const labelElement = document.getElementById(CHECKLIST_ITEM_MODAL_TOGGLE_LABEL_ELEMENT_ID);
   const rowIdElement = document.getElementById(CHECKLIST_ITEM_MODAL_ROW_ID_ELEMENT_ID);
@@ -1431,11 +1504,11 @@ async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, isC
   const optionalWaitingButton = document.getElementById(CHECKLIST_BUTTON_OPTIONAL_WAITING_ELEMENT_ID);
   const waitingButton = document.getElementById(CHECKLIST_BUTTON_WAITING_ELEMENT_ID);
   const doneButton = document.getElementById(CHECKLIST_BUTTON_DONE_ELEMENT_ID);
-  abortedButton.disabled = true;
-  optionalWaitingButton.disabled = true;
+
+  abortedButton.style = INVISIBLE_STYLE;
   optionalWaitingButton.style = INVISIBLE_STYLE;
-  waitingButton.disabled = true;
-  doneButton.disabled = true;
+  waitingButton.style = INVISIBLE_STYLE;
+  doneButton.style = INVISIBLE_STYLE;
 
   const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_CHECKLIST] ?? [])[itemType] ?? [];
   if (Object.keys(config).length == 0) {
@@ -1449,33 +1522,37 @@ async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, isC
   labelElement.innerHTML = name;
   importMarkdownDescription(descElement, descFilePath);
 
-  if (!required) {
-    optionalWaitingButton.style = VISIBLE_STYLE;
-    waitingButton.style = INVISIBLE_STYLE;
-  }
-  doneButton.disabled = false;
-  if (!isCreateNewChallengeMode) {
-    abortedButton.disabled = false;
-    optionalWaitingButton.disabled = false;
-    waitingButton.disabled = false;
+  doneButton.style = VISIBLE_STYLE;
+  if (!toCompleteOnSelectedDate) {
+    if (required) {
+      waitingButton.style = VISIBLE_STYLE;
+    } else {
+      optionalWaitingButton.style = VISIBLE_STYLE;
+    }
+    abortedButton.style = VISIBLE_STYLE;
   }
 }
 
-function setChecklistStatus(newValue) {
+async function setChecklistStatus(newValue) {
   const rowIdElement = document.getElementById(CHECKLIST_ITEM_MODAL_ROW_ID_ELEMENT_ID);
   const itemTypeElement = document.getElementById(CHECKLIST_ITEM_MODAL_ITEM_TYPE_ELEMENT_ID);
 
   const rowId = rowIdElement.value;
   const itemType = itemTypeElement.value;
 
-  const oldValues = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? [])[DATA_FIELD_CHECKLIST] ?? {};
-  if (Object.keys(oldValues).length > 0 && oldValues[itemType] !== undefined) {
-    fileData[DATA_FIELD_CHALLENGES][rowId - 1][DATA_FIELD_CHECKLIST][itemType] = newValue;
+  if (rowId > 0) {
+    const oldValues = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? [])[DATA_FIELD_CHECKLIST] ?? {};
+    if (Object.keys(oldValues).length > 0 && oldValues[itemType] !== undefined) {
+      fileData[DATA_FIELD_CHALLENGES][rowId - 1][DATA_FIELD_CHECKLIST][itemType] = newValue;
 
-    fileContent = JSON.stringify(fileData);
-    parseFileDataFromContent(fileContent);
+      fileContent = JSON.stringify(fileData);
+      parseFileDataFromContent(fileContent);
 
-    checklistListReset(rowId);
+      checklistListReset(rowId);
+    }
+  } else {
+    setNewChallengeChecklistValue(itemType, newValue);
+    await resetRequiredChecklistSteps();
   }
 }
 
@@ -1577,6 +1654,18 @@ function refreshChallengesTabAfterChange() {
   fileContent = JSON.stringify(fileData);
   parseFileDataFromContent(fileContent);
   reloadChallengesTab();
+}
+
+function resetNewChallengeChecklistValues() {
+  newChallengeChecklistValues = {};
+}
+
+function setNewChallengeChecklistValue(itemType, value) {
+  newChallengeChecklistValues[itemType] = value;
+}
+
+function getNewChallengeChecklistValue(itemType) {
+  return newChallengeChecklistValues[itemType] ?? null;
 }
 
 build();

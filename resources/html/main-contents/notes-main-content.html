@@ -67,6 +67,14 @@
                 <select id="person-select" onChange="resetFeastSelect()"></select>
                 <select id="feast-select" onChange="resetAddNewChallengeButton()"></select>
               </div>
+              <div id="required-notes-div">
+                <input id="required-notes-done" type="hidden" />
+              </div>
+              <div id="required-checklist-steps-div">
+                <span id="required-checklist-steps-info">#lang-on-selected-date-you-must-complete-all-following-checklist-steps-before-create-this-challenge|capitalize#:</span>
+                <div class="list-group" id="required-checklist-steps-list"></div>
+                <input id="required-checklist-steps-done" type="hidden" />
+              </div>
             </div>
             <div class="modal-footer">
               <button id="add-new-challenge-button" class="btn btn-primary" data-bs-target="#add-new-challenge-modal-toggle" data-bs-dismiss="modal" onClick="addNewChallenge()">#lang-add-new-challenge|capitalize#</button>

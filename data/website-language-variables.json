@@ -699,6 +699,11 @@
         "pl": "numer"
     },
 
+    "lang-on-selected-date-you-must-complete-all-following-checklist-steps-before-create-this-challenge": {
+        "en": "on selected date, You must complete all following checklist steps before create this challenge",
+        "pl": "w wybranym dniu, musisz wykonać wszystkie następujące kroki checklisty zanim utworzysz nowe wyzwanie"
+    },
+
     "lang-order": {
         "en": "order",
         "la": "ordo",
