@@ -70,49 +70,57 @@
     },
     "notes": {
       "criterion": {
-        "type": "text",
+        "type": {
+          "criterion-for-selecting-the-patron-protector": 1,
+          "description#": "*"
+        },
         "required": false,
-        "multiple": false,
         "name": {
           "pl": "Kryterium wyboru Patrona"
         }
       },
       "bible": {
-        "type": "text",
+        "type": {
+          "bible-lection": 1
+        },
         "required": false,
-        "multiple": false,
         "name": {
           "pl": "Przeczytany fragment Pisma Świętego"
         }
       },
       "time": {
-        "type": "text",
+        "type": {
+          "time": 1
+        },
         "required": false,
-        "multiple": false,
         "name": {
           "pl": "Godzina rozpoczęcia Mszy"
         }
       },
       "place": {
-        "type": "place",
+        "type": {
+          "place": 1
+        },
         "required": false,
-        "multiple": false,
         "name": {
           "pl": "Miejsce Mszy"
         }
       },
       "people": {
-        "type": "text",
+        "type": {
+          "person": "+",
+          "role-at-mass": "+"
+        },
         "required": false,
-        "multiple": false,
         "name": {
-          "pl": "Osoby"
+          "pl": "Osoby na Mszy"
         }
       },
       "other": {
-        "type": "text",
+        "type": {
+          "description": "+"
+        },
         "required": false,
-        "multiple": true,
         "name": {
           "pl": "Informacje dodatkowe"
         }
@@ -251,25 +259,28 @@
     },
     "notes": {
       "time": {
-        "type": "text",
+        "type": {
+          "time": 1
+        },
         "required": false,
-        "multiple": false,
         "name": {
           "pl": "Godzina zawierzenia i modlitwy"
         }
       },
       "place": {
-        "type": "place",
+        "type": {
+          "place": 1
+        },
         "required": false,
-        "multiple": false,
         "name": {
           "pl": "Miejsce zawierzenia i modlitwy"
         }
       },
       "other": {
-        "type": "text",
+        "type": {
+          "description": "+"
+        },
         "required": false,
-        "multiple": true,
         "name": {
           "pl": "Informacje dodatkowe"
         }
@@ -316,25 +327,28 @@
     },
     "notes": {
       "time": {
-        "type": "text",
+        "type": {
+          "time": 1
+        },
         "required": false,
-        "multiple": false,
         "name": {
           "pl": "Godzina narodzin"
         }
       },
       "place": {
-        "type": "place",
+        "type": {
+          "place": 1
+        },
         "required": false,
-        "multiple": false,
         "name": {
           "pl": "Miejsce narodzin"
         }
       },
       "other": {
-        "type": "text",
+        "type": {
+          "description": "+"
+        },
         "required": false,
-        "multiple": true,
         "name": {
           "pl": "Informacje dodatkowe"
         }
@@ -381,33 +395,37 @@
     },
     "notes": {
       "type": {
-        "type": ["baptism", "confirmation", "holy-communion", "penance", "anointing-of-the-sick", "holy-orders", "marriage"],
+        "type": {
+          "sacrament": 1
+        },
         "required": true,
-        "multiple": false,
         "name": {
           "pl": "Typ Sakramentu"
         }
       },
       "time": {
-        "type": "text",
+        "type": {
+          "time": 1
+        },
         "required": false,
-        "multiple": false,
         "name": {
           "pl": "Godzina pierwszego przyjęcia Sakramentu"
         }
       },
       "place": {
-        "type": "place",
+        "type": {
+          "place": 1
+        },
         "required": false,
-        "multiple": false,
         "name": {
           "pl": "Miejsce pierwszego przyjęcia Sakramentu"
         }
       },
       "other": {
-        "type": "text",
+        "type": {
+          "descritpion": "+"
+        },
         "required": false,
-        "multiple": true,
         "name": {
           "pl": "Informacje dodatkowe"
         }

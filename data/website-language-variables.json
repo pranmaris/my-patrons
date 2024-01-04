@@ -26,6 +26,12 @@
         "pl": "po"
     },
 
+    "lang-altar-server": {
+        "en": "altar server",
+        "la": "ministrans",
+        "pl": "ministrant"
+    },
+
     "lang-around": {
         "en": "around",
         "la": "circa",
@@ -226,6 +232,11 @@
     "lang-coming-soon": {
         "en": "coming soon",
         "pl": "już wkrótce"
+    },
+
+    "lang-concelebrant": {
+        "en": "concelebrant",
+        "pl": "koncelebrans"
     },
 
     "lang-contact": {
@@ -571,9 +582,19 @@
         "pl": "lista patronów i świąt nieruchomych"
     },
 
+    "lang-liturgical-calendar": {
+        "en": "liturgical calendar",
+        "pl": "kalendarz liturgiczny"
+    },
+
     "lang-location": {
         "en": "location",
         "pl": "lokalizacja"
+    },
+
+    "lang-main-celebrant": {
+        "en": "main celebrant",
+        "pl": "główny celebrans"
     },
 
     "lang-main-name": {
@@ -606,6 +627,11 @@
         "en": "month",
         "la": "mensis",
         "pl": "miesiąc"
+    },
+
+    "lang-movable-feasts": {
+        "en": "movable feasts",
+        "pl": "święta ruchome"
     },
 
     "lang-my-patrons-for-today": {
@@ -710,6 +736,11 @@
         "pl": "zakon"
     },
 
+    "lang-origanist": {
+        "en": "organist",
+        "pl": "organista"
+    },
+
     "lang-original": {
         "en": "original",
         "pl": "oryginalny"
@@ -757,6 +788,11 @@
         "pl": "katalog nadrzędny"
     },
 
+    "lang-parish-festival": {
+        "en": "parish festival",
+        "pl": "odpust parafialny"
+   },
+
     "lang-path": {
         "en": "path",
         "pl": "ścieżka"
@@ -775,6 +811,11 @@
     "lang-person": {
         "en": "person",
         "pl": "osoba"
+    },
+
+    "lang-person-preaching-a-sermon": {
+        "en": "person preaching a sermon",
+        "pl": "osoba głosząća kazanie"
     },
 
     "lang-position": {
@@ -825,6 +866,12 @@
     "lang-resource": {
         "en": "resource",
         "pl": "zasób"
+    },
+
+    "lang-roman-martyrology": {
+        "en": "Roman Martyrology",
+        "la": "Martyrologium Romanum",
+        "pl": "Martyrologium Rzymskie"
     },
 
     "lang-row-id": {
@@ -923,6 +970,11 @@
         "en": "surnames",
         "la": "cognomina",
         "pl": "nazwiska"
+    },
+
+    "lang-there-is-no-note-for-this-challenge": {
+        "en": "there is no note for this challenge",
+        "pl": "nie ma żadnych notatek dla tego wyzwania"
     },
 
     "lang-translation-sources": {

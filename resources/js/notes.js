@@ -16,6 +16,7 @@ const CSS_FILE_PATH = '/files/resources/css/notes.css';
 const CHALLENGE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-item.html';
 const CHALLENGE_ITEM_TO_REMOVE_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-to-remove-item.html';
 const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-checklist-item.html';
+const NOTE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-note-item.html';
 const DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH = '/files/resources/html/content-blocks/notes-description-content-block.html';
 const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-notification-item.html';
 const MARKDOWN_FILES_ROOT_PATH = '/files/resources/md/';
@@ -44,6 +45,7 @@ const FEAST_SELECT_ELEMENT_ID = 'feast-select';
 const PERSON_URL_ELEMENT_ID_PREFIX = 'person-url-';
 const FEAST_URL_ELEMENT_ID_PREFIX = 'feast-url-';
 const CHECKLIST_LIST_MODAL_BODY_ELEMENT_ID = 'checklist-list-modal-body';
+const NOTES_MODAL_BODY_ELEMENT_ID = 'notes-modal-body';
 const CHECKLIST_ITEM_DESCRIPTION_ELEMENT_ID = 'checklist-item-description';
 const CHECKLIST_ITEM_MODAL_TOGGLE_LABEL_ELEMENT_ID = 'checklist-item-modal-toggle-label';
 const CHECKLIST_BUTTON_ABORTED_ELEMENT_ID = 'checklist-button-aborted';
@@ -80,8 +82,10 @@ const DATA_FIELD_CHALLENGES = 'challenges';
 const DATA_FIELD_FILENAME_WITHOUT_EXTENSION = 'filename-without-extension';
 const DATA_FIELD_OWNER = 'owner';
 const DATA_FIELD_CHECKLIST = 'checklist';
+const DATA_FIELD_NOTES = 'notes';
 
 const CONFIG_FIELD_CHECKLIST = 'checklist';
+const CONFIG_FIELD_NOTES = 'notes';
 
 const PERSON_TYPE_GOD = 'God';
 const PERSON_TYPE_ME = 'Me';
@@ -1266,6 +1270,7 @@ async function resetRequiredChecklistSteps() {
       if (toCompleteOnSelectedDate) {
         const value = getNewChallengeChecklistValue(itemType);
         await drawChecklistRow(checklistStepsList, rowId, challengeType, itemType, value);
+
         if (value !== true) {
           allValuesAreDone = false;
         }
@@ -1346,11 +1351,14 @@ function recalculateFileData() {
   let challenges = [];
   for (let ch of fileData[DATA_FIELD_CHALLENGES] ?? []) {
     let checklist = {};
-    for (let i in challengesConfig[ch.type].checklist) {
+    for (let i in challengesConfig[ch.type].checklist ?? {}) {
       checklist[i] = ch.checklist[i] ?? null;
     }
 
     let notes = {};
+    for (let i in challengesConfig[ch.type].notes ?? {}) {
+      notes[i] = ch.notes[i] ?? [];
+    }
 
     challenges.push({
       date: ch.date ?? '',
@@ -1454,7 +1462,7 @@ async function checklistListReset(rowId) {
 async function drawChecklistRow(contentElement, rowId, challengeType, itemType, value) {
   const element = document.createElement('div');
 
-  const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_CHECKLIST] ?? [])[itemType] ?? [];
+  const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_CHECKLIST] ?? [])[itemType] ?? {};
   if (Object.keys(config).length == 0) {
     return;
   }
@@ -1666,6 +1674,47 @@ function setNewChallengeChecklistValue(itemType, value) {
 
 function getNewChallengeChecklistValue(itemType) {
   return newChallengeChecklistValues[itemType] ?? null;
+}
+
+async function notesReset(rowId) {
+  let modalBody = document.getElementById(NOTES_MODAL_BODY_ELEMENT_ID);
+  modalBody.innerHTML = '';
+
+  let challengeType = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? []).type ?? null;
+  let notes = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? [])[DATA_FIELD_NOTES] ?? [];
+
+  if (Object.keys(notes).length == 0 || challengeType == null) {
+    modalBody.innerHTML = getLanguageVariable('lang-there-is-no-note-for-this-challenge', true);
+
+    return;
+  }
+
+  for (let data of Object.entries(notes)) {
+    await drawNoteRow(modalBody, rowId, challengeType, data[0] ?? null, data[1] ?? null);
+  }
+}
+
+async function drawNoteRow(contentElement, rowId, challengeType, itemType, value) {
+  const element = document.createElement('div');
+
+  const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_NOTES] ?? [])[itemType] ?? {};
+  if (Object.keys(config).length == 0) {
+    return;
+  }
+  const type = config.type ?? '';
+  const required = config.required ?? true;
+  const multiple = config.multiple ?? false;
+  const name = getLanguageVariable('name', true, config.name ?? {});
+
+  const content = await getFileContent(NOTE_ITEM_TEMPLATE_FILE_PATH);
+  element.innerHTML = content
+    .replace(/#type#/g, itemType)
+    .replace(/#name#/g, name)
+    //.replace(/#row-id#/g, rowId)
+    //.replace(/#challenge-type#/g, challengeType)
+  ;
+
+  contentElement.append(element);
 }
 
 build();
