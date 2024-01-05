@@ -1,8 +1,9 @@
 <button
-  id="note-item-#type#"
+  id="note-item-#item-type#"
   type="button"
-  class="list-group-item list-group-item-action"
+  class="list-group-item list-group-item-action",
+  onClick="showNoteValueToEdit(#row-id#, '#challenge-type#', '#item-type#')" 
 >
   <span>#name#:</span>
-  ...
+  <span id="note-value-#item-type#"></span>
 </button>

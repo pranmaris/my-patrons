@@ -9,7 +9,8 @@ const MISSING_INDEX_OF_VALUE = -1;
 
 const LANGUAGE_MISSING_VARIABLE_SIGN = '!!!';
 const LANGUAGE_JSON_FILE = '/files/data/website-language-variables.json';
-const CHALLENGES_DATA_JSON_FILE = '/files/data/challenges.json';
+const CHALLENGES_CONFIG_JSON_FILE = '/files/data/challenges.json';
+const NOTES_CONFIG_JSON_FILE = '/files/data/notes-types.json';
 const PERSONS_DATA_JSON_FILE = '/files/data/generated/persons-data.generated.json';
 
 const CSS_FILE_PATH = '/files/resources/css/notes.css';
@@ -45,7 +46,7 @@ const FEAST_SELECT_ELEMENT_ID = 'feast-select';
 const PERSON_URL_ELEMENT_ID_PREFIX = 'person-url-';
 const FEAST_URL_ELEMENT_ID_PREFIX = 'feast-url-';
 const CHECKLIST_LIST_MODAL_BODY_ELEMENT_ID = 'checklist-list-modal-body';
-const NOTES_MODAL_BODY_ELEMENT_ID = 'notes-modal-body';
+const NOTES_LIST_ELEMENT_ID = 'notes-list';
 const CHECKLIST_ITEM_DESCRIPTION_ELEMENT_ID = 'checklist-item-description';
 const CHECKLIST_ITEM_MODAL_TOGGLE_LABEL_ELEMENT_ID = 'checklist-item-modal-toggle-label';
 const CHECKLIST_BUTTON_ABORTED_ELEMENT_ID = 'checklist-button-aborted';
@@ -64,6 +65,7 @@ const REQUIRED_NOTES_DONE_INPUT_ELEMENT_ID = 'required-notes-done';
 const REQUIRED_CHECKLIST_STEPS_DONE_INPUT_ELEMENT_ID = 'required-checklist-steps-done';
 const REQUIRED_CHECKLIST_STEPS_LIST_ELEMENT_ID = 'required-checklist-steps-list';
 const REQUIRED_CHECKLIST_STEPS_INFO_ELEMENT_ID = 'required-checklist-steps-info';
+const NOTE_VALUE_ELEMENT_ID_PREFIX = 'note-value-';
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -126,6 +128,7 @@ const CHECKLIST_STATUSES = {
 }
 
 let challengesConfig = {};
+let notesTypesConfig = {};
 let languageVariables = {};
 let filesContents = {};
 let filesContentsErrors = {};
@@ -137,11 +140,13 @@ let fileContent = '{}';
 let fileData = null;
 
 let newChallengeChecklistValues = {};
+let newChallengeNotesValues = {};
 
 async function build() {
   appendNotesCss();
   languageVariables = await getJsonFromFile(LANGUAGE_JSON_FILE);
-  challengesConfig = await getJsonFromFile(CHALLENGES_DATA_JSON_FILE);
+  challengesConfig = await getJsonFromFile(CHALLENGES_CONFIG_JSON_FILE);
+  notesTypesConfig = await getJsonFromFile(NOTES_CONFIG_JSON_FILE);
   personsData = await getJsonFromFile(PERSONS_DATA_JSON_FILE);
 }
 
@@ -1357,7 +1362,7 @@ function recalculateFileData() {
 
     let notes = {};
     for (let i in challengesConfig[ch.type].notes ?? {}) {
-      notes[i] = ch.notes[i] ?? [];
+      notes[i] = ch.notes[i] ?? {};
     }
 
     challenges.push({
@@ -1381,7 +1386,7 @@ function recalculateFileData() {
 
 function drawProgressBarValue(rowId) {
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
-  const rowData = challenges[rowId - 1] ?? [];
+  const rowData = challenges[rowId - 1] ?? {};
   const stepsConfig = challengesConfig[rowData.type][CONFIG_FIELD_CHECKLIST] ?? [];
   const totalCount = Object.keys(stepsConfig).length;
 
@@ -1445,8 +1450,8 @@ async function checklistListReset(rowId) {
   let modalBody = document.getElementById(CHECKLIST_LIST_MODAL_BODY_ELEMENT_ID);
   modalBody.innerHTML = '';
 
-  let challengeType = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? []).type ?? null;
-  let checklist = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? [])[DATA_FIELD_CHECKLIST] ?? [];
+  let challengeType = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {}).type ?? null;
+  let checklist = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_CHECKLIST] ?? [];
 
   if (Object.keys(checklist).length == 0 || challengeType == null) {
     modalBody.innerHTML = getLanguageVariable('lang-checklist-is-empty', true);
@@ -1549,7 +1554,7 @@ async function setChecklistStatus(newValue) {
   const itemType = itemTypeElement.value;
 
   if (rowId > 0) {
-    const oldValues = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? [])[DATA_FIELD_CHECKLIST] ?? {};
+    const oldValues = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_CHECKLIST] ?? {};
     if (Object.keys(oldValues).length > 0 && oldValues[itemType] !== undefined) {
       fileData[DATA_FIELD_CHALLENGES][rowId - 1][DATA_FIELD_CHECKLIST][itemType] = newValue;
 
@@ -1676,45 +1681,109 @@ function getNewChallengeChecklistValue(itemType) {
   return newChallengeChecklistValues[itemType] ?? null;
 }
 
-async function notesReset(rowId) {
-  let modalBody = document.getElementById(NOTES_MODAL_BODY_ELEMENT_ID);
-  modalBody.innerHTML = '';
+function resetNewChallengeNotesValues() {
+  newChallengeNotesValues = {};
+}
 
-  let challengeType = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? []).type ?? null;
-  let notes = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? [])[DATA_FIELD_NOTES] ?? [];
+function setNewChallengeNoteValue(itemType, value) {
+  newChallengeNotesValues[itemType] = value;
+}
+
+function getNewChallengeNoteValue(itemType) {
+  return newChallengeNotesValues[itemType] ?? null;
+}
+
+async function notesReset(rowId) {
+  let notesListElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
+  notesListElement.innerHTML = '';
+
+  let challengeType = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {}).type ?? null;
+  let notes = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {};
 
   if (Object.keys(notes).length == 0 || challengeType == null) {
-    modalBody.innerHTML = getLanguageVariable('lang-there-is-no-note-for-this-challenge', true);
+    notesListElement.innerHTML = getLanguageVariable('lang-there-is-no-note-for-this-challenge', true);
 
     return;
   }
 
-  for (let data of Object.entries(notes)) {
-    await drawNoteRow(modalBody, rowId, challengeType, data[0] ?? null, data[1] ?? null);
+  for (let itemType of Object.keys(notes)) {
+    await drawNoteRow(notesListElement, rowId, challengeType, itemType);
   }
 }
 
-async function drawNoteRow(contentElement, rowId, challengeType, itemType, value) {
+async function drawNoteRow(contentElement, rowId, challengeType, itemType) {
   const element = document.createElement('div');
 
   const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_NOTES] ?? [])[itemType] ?? {};
   if (Object.keys(config).length == 0) {
     return;
   }
-  const type = config.type ?? '';
+  const noteType = config.type ?? {};
   const required = config.required ?? true;
-  const multiple = config.multiple ?? false;
   const name = getLanguageVariable('name', true, config.name ?? {});
 
   const content = await getFileContent(NOTE_ITEM_TEMPLATE_FILE_PATH);
   element.innerHTML = content
-    .replace(/#type#/g, itemType)
     .replace(/#name#/g, name)
-    //.replace(/#row-id#/g, rowId)
-    //.replace(/#challenge-type#/g, challengeType)
+    .replace(/#challenge-type#/g, challengeType)
+    .replace(/#row-id#/g, rowId)
+    .replace(/#item-type#/g, itemType)
   ;
 
   contentElement.append(element);
+
+  showNoteValueToRead(rowId, challengeType, itemType);
+}
+
+function changeAllOtherNotesValuesToRead(rowId, challengeType, itemType) {
+  const notesListElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
+  for (let child of notesListElement.children ?? {}) {
+    const otherItemTypeToChangeToRead = child.innerHTML
+      .match(new RegExp('id="' + NOTE_VALUE_ELEMENT_ID_PREFIX + '[a-z0-9]+'))
+      .join('')
+      .replace(new RegExp('id="' + NOTE_VALUE_ELEMENT_ID_PREFIX), '')
+    ;
+
+    if (otherItemTypeToChangeToRead !== itemType) {
+      showNoteValueToRead(rowId, challengeType, otherItemTypeToChangeToRead);
+    }
+  }
+}
+
+function showNoteValueToEdit(rowId, challengeType, itemType) {
+  changeAllOtherNotesValuesToRead(rowId, challengeType, itemType);
+
+  const element = document.getElementById(NOTE_VALUE_ELEMENT_ID_PREFIX + itemType);
+  const value = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
+  const challengeConfig = ((challengesConfig[challengeType] ?? {})[CONFIG_FIELD_NOTES] ?? {})[itemType] ?? {};
+
+  element.innerHTML = '';
+
+  for (const noteType of Object.keys(challengeConfig.type ?? {})) {
+    const noteQuantity = challengeConfig.type[noteType] ?? 0;
+    const noteConfig = notesTypesConfig[noteType] ?? {};
+
+    //console.log(noteType);
+    //console.log(noteQuantity);
+    //console.log(noteConfig);
+  }
+
+  //todo
+  element.innerHTML = '...';
+}
+
+function showNoteValueToRead(rowId, challengeType, itemType) {
+  const element = document.getElementById(NOTE_VALUE_ELEMENT_ID_PREFIX + itemType);
+  const value = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
+
+  if (Object(value).length === 0) {
+    element.innerHTML = getLanguageVariable('lang-non-existence');
+
+    return;
+  }
+
+  //todo
+  element.innerHTML = 'json=' + JSON.stringify(value);
 }
 
 build();

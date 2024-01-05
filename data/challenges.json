@@ -71,8 +71,8 @@
     "notes": {
       "criterion": {
         "type": {
-          "criterion-for-selecting-the-patron-protector": 1,
-          "description#": "*"
+          "criterion-of-selecting-a-protector-patron": 1,
+          "description-with-no-prompting": "*"
         },
         "required": false,
         "name": {

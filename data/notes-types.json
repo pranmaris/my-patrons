@@ -1,93 +1,126 @@
 {
   "bible-lection": {
-    "containable": false,
-    "expandable": true,
-    "list": []
+    "index": "bible-lections",
+    "source": {
+      "input": "prompting"
+    },
+    "containable": false
   },
-  "criterion-for-selecting-the-patron-protector": {
-    "containable": false,
-    "expandable": false,
-    "list": [
-      ["lang-roman-martyrology"],
-      ["lang-date-source-reliable-death-anniversary"],
-      ["lang-canonization"],
-      ["lang-beatification"],
-      ["lang-liturgical-calendar"],
-      ["lang-parish-festival"],
-      ["lang-roman-martyrology", ": 2004"],
-      ["lang-roman-martyrology", ": 2004 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 2001"],
-      ["lang-roman-martyrology", ": 2001 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1960"],
-      ["lang-roman-martyrology", ": 1960 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1956"],
-      ["lang-roman-martyrology", ": 1956 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1948"],
-      ["lang-roman-martyrology", ": 1948 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1930"],
-      ["lang-roman-martyrology", ": 1930 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1922"],
-      ["lang-roman-martyrology", ": 1922 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1913"],
-      ["lang-roman-martyrology", ": 1913 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1902"],
-      ["lang-roman-martyrology", ": 1902 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1873"],
-      ["lang-roman-martyrology", ": 1873 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1845"],
-      ["lang-roman-martyrology", ": 1845 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1749"],
-      ["lang-roman-martyrology", ": 1749 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1674"],
-      ["lang-roman-martyrology", ": 1674 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1630"],
-      ["lang-roman-martyrology", ": 1630 (", "lang-movable-feasts", ")"],
-      ["lang-roman-martyrology", ": 1584"],
-      ["lang-roman-martyrology", ": 1584 (", "lang-movable-feasts", ")"]
-    ]
+  "criterion-of-selecting-a-protector-patron": {
+    "index": "criteria-of-selecting-protector-patrons",
+    "source": {
+      "list": [
+        ["lang-roman-martyrology"],
+        ["lang-date-source-reliable-death-anniversary"],
+        ["lang-canonization"],
+        ["lang-beatification"],
+        ["lang-liturgical-calendar"],
+        ["lang-parish-festival"],
+        ["lang-roman-martyrology", ": 2004"],
+        ["lang-roman-martyrology", ": 2004 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 2001"],
+        ["lang-roman-martyrology", ": 2001 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1960"],
+        ["lang-roman-martyrology", ": 1960 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1956"],
+        ["lang-roman-martyrology", ": 1956 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1948"],
+        ["lang-roman-martyrology", ": 1948 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1930"],
+        ["lang-roman-martyrology", ": 1930 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1922"],
+        ["lang-roman-martyrology", ": 1922 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1913"],
+        ["lang-roman-martyrology", ": 1913 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1902"],
+        ["lang-roman-martyrology", ": 1902 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1873"],
+        ["lang-roman-martyrology", ": 1873 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1845"],
+        ["lang-roman-martyrology", ": 1845 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1749"],
+        ["lang-roman-martyrology", ": 1749 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1674"],
+        ["lang-roman-martyrology", ": 1674 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1630"],
+        ["lang-roman-martyrology", ": 1630 (", "lang-movable-feasts", ")"],
+        ["lang-roman-martyrology", ": 1584"],
+        ["lang-roman-martyrology", ": 1584 (", "lang-movable-feasts", ")"]
+      ]
+    },
+    "containable": false
   },
   "description": {
-    "containable": false,
-    "expandable": true,
-    "list": []
+    "index": "descriptions",
+    "source": {
+      "input": "prompting"
+    },
+    "containable": false
+  },
+  "description-with-no-prompting": {
+    "index": "descriptions",
+    "source": {
+      "input": "empty"
+    },
+    "containable": false
+  },
+  "given-intercessor-patron": {
+    "index": "given-intercessor-patrons",
+    "source": {
+      "patrons": {
+        "person-having-challenges": ["MA"]
+      }
+    },
+    "containable": false
   },
   "person": {
-    "containable": false,
-    "expandable": true,
-    "list": []
+    "index": "persons",
+    "source": {
+      "input": "prompting"
+    },
+    "containable": false
   },
   "place": {
-    "containable": true,
-    "expandable": true,
-    "list": []
+    "index": "places",
+    "source": {
+      "input": "prompting"
+    },
+    "containable": true
   },
   "role-at-mass": {
-    "containable": false,
-    "expandable": true,
-    "list": [
-      ["lang-main-celebrant"],
-      ["lang-concelebrant"],
-      ["lang-person-preaching-a-sermon"],
-      ["lang-altar-server"],
-      ["lang-organist"]
-    ]
+    "index": "roles-at-mass",
+    "source": {
+      "list": [
+        ["lang-main-celebrant"],
+        ["lang-concelebrant"],
+        ["lang-person-preaching-a-sermon"],
+        ["lang-altar-server"],
+        ["lang-organist"]
+      ],
+      "input": "prompting"
+    },
+    "containable": false
   },
   "sacrament": {
-    "containable": false,
-    "expandable": false,
-    "list": [
-      ["lang-sacrament-baptism"],
-      ["lang-sacrament-confirmation"],
-      ["lang-sacrament-holy-communion"],
-      ["lang-sacrament-penance"],
-      ["lang-sacrament-anointing-of-the-sick"],
-      ["lang-sacrament-holy-orders"],
-      ["lang-sacrament-marriage"]
-    ]
+    "index": "sacraments",
+    "source": {
+      "list": [
+        ["lang-sacrament-baptism"],
+        ["lang-sacrament-confirmation"],
+        ["lang-sacrament-holy-communion"],
+        ["lang-sacrament-penance"],
+        ["lang-sacrament-anointing-of-the-sick"],
+        ["lang-sacrament-holy-orders"],
+        ["lang-sacrament-marriage"]
+      ]
+    },
+    "containable": false
   },
   "time": {
-    "containable": false,
-    "expandable": true,
-    "list": []
+    "index": "times",
+    "source": {
+      "input": "prompting"
+    },
+    "containable": false
   }
 }
