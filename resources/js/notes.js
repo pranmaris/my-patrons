@@ -298,10 +298,17 @@ async function loadFile(input) {
 
     fileName = data.name;
     fileContent = await data.text();
-    parseFileDataFromContent(fileContent);
+    fileData = parseFileDataFromContent(fileContent);
+
     if (fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION]) {
       fileName = fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] + JSON_DATA_FILE_EXTENSION;
     }
+
+    sortChallengesByDate();
+    recalculateFileData();
+
+    fileContent = JSON.stringify(fileData);
+    fileData = parseFileDataFromContent(fileContent);
 
     reloadFileTab();
   } catch (e) {
@@ -311,7 +318,7 @@ async function loadFile(input) {
 
 function saveFile() {
   try {
-    parseFileDataFromContent(fileContent);
+    fileData = parseFileDataFromContent(fileContent);
     content = JSON.stringify(fileData);
 
     var blob = new Blob([content], {type: JSON_MIME_TYPE});
@@ -333,7 +340,7 @@ function reloadFileTab() {
 
     inputForOwner.value = '';
     inputForFilenameWithoutExtension.value = '';
-    parseFileDataFromContent(fileContent);
+    fileData = parseFileDataFromContent(fileContent);
 
     inputForOwner.value = fileData[DATA_FIELD_OWNER] ?? '';
     inputForFilenameWithoutExtension.value = fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] ?? '';
@@ -345,7 +352,7 @@ function reloadFileTab() {
 function reloadChallengesTab() {
   try {
     clearNotifications();
-    parseFileDataFromContent(fileContent);
+    fileData = parseFileDataFromContent(fileContent);
 
     fillChallenges(fileData[DATA_FIELD_CHALLENGES] ?? []);
   } catch (e) {
@@ -362,7 +369,7 @@ function reloadJsonEditorTab() {
     }
 
     document.getElementById(FILE_CONTENT_ELEMENT_ID).value = content;
-    parseFileDataFromContent(fileContent);
+    fileData = parseFileDataFromContent(fileContent);
   } catch (e) {
     error(e.message);
   }
@@ -372,7 +379,7 @@ function setFileContentFromJsonEditor() {
   try {
     clearNotifications();
     fileContent = document.getElementById(FILE_CONTENT_ELEMENT_ID).value;
-    parseFileDataFromContent(fileContent);
+    fileData = parseFileDataFromContent(fileContent);
   } catch (e) {
     error(e.message);
   }
@@ -391,13 +398,13 @@ function parseFileDataFromContent(content) {
 
   //... parse
 
-  fileData = data;
+  return data;
 }
 
 function setValueAsOwner(value) {
   try {
     clearNotifications();
-    parseFileDataFromContent(fileContent);
+    fileData = parseFileDataFromContent(fileContent);
     fileData[DATA_FIELD_OWNER] = value;
 
     fileContent = JSON.stringify(fileData);
@@ -409,7 +416,7 @@ function setValueAsOwner(value) {
 function setValueAsFilenameWithoutExtension(value) {
   try {
     clearNotifications();
-    parseFileDataFromContent(fileContent);
+    fileData = parseFileDataFromContent(fileContent);
     fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] = value;
     fileName = value + JSON_DATA_FILE_EXTENSION;
 
@@ -1346,7 +1353,7 @@ function addNewChallenge() {
   recalculateFileData();
 
   fileContent = JSON.stringify(fileData);
-  parseFileDataFromContent(fileContent);
+  fileData = parseFileDataFromContent(fileContent);
 
   reloadChallengesTab();
   success(getLanguageVariable('lang-new-challenge-created-successfully', true));
@@ -1355,14 +1362,24 @@ function addNewChallenge() {
 function recalculateFileData() {
   let challenges = [];
   for (let ch of fileData[DATA_FIELD_CHALLENGES] ?? []) {
+    let oldChecklist = structuredClone(ch.checklist);
     let checklist = {};
     for (let i in challengesConfig[ch.type].checklist ?? {}) {
       checklist[i] = ch.checklist[i] ?? null;
+      delete oldChecklist[i];
+    }
+    for (let i in oldChecklist) {
+      checklist[i] = oldChecklist[i];
     }
 
+    let oldNotes = structuredClone(ch.notes);
     let notes = {};
     for (let i in challengesConfig[ch.type].notes ?? {}) {
       notes[i] = ch.notes[i] ?? {};
+      delete oldNotes[i];
+    }
+    for (let i in oldNotes) {
+      notes[i] = oldNotes[i];
     }
 
     challenges.push({
@@ -1559,7 +1576,7 @@ async function setChecklistStatus(newValue) {
       fileData[DATA_FIELD_CHALLENGES][rowId - 1][DATA_FIELD_CHECKLIST][itemType] = newValue;
 
       fileContent = JSON.stringify(fileData);
-      parseFileDataFromContent(fileContent);
+      fileData = parseFileDataFromContent(fileContent);
 
       checklistListReset(rowId);
     }
@@ -1665,7 +1682,7 @@ function refreshChallengesTabAfterChange() {
   sortChallengesByDate();
 
   fileContent = JSON.stringify(fileData);
-  parseFileDataFromContent(fileContent);
+  fileData = parseFileDataFromContent(fileContent);
   reloadChallengesTab();
 }
 
