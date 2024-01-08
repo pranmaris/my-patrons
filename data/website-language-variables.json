@@ -1089,5 +1089,20 @@
         "en": "year",
         "la": "annus",
         "pl": "rok"
+    },
+
+    "lang-you-cannot-edit-this-note-because-it-has-unknown-type": {
+        "en": "You cannot edit this note because it has unknown type",
+        "pl": "nie możesz edytować tej notatki, ponieważ jest ona nieznanego typu"
+    },
+
+    "lang-you-cannot-edit-this-note-due-to-its-invalid-structure": {
+        "en": "You cannot edit this note due to its invalid structure",
+        "pl": "nie możesz edytować tej notatki z powodu jej niepoprawnej struktury"
+    },
+
+    "lang-you-cannot-read-this-note-due-to-its-invalid-structure": {
+        "en": "You cannot read this note due to its invalid structure",
+        "pl": "nie możesz wyświetlić tej notatki z powodu jej niepoprawnej struktury"
     }
 }

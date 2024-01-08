@@ -6,6 +6,7 @@ const NAME_TO_IGNORE = '~~~';
 const ANCHOR_CHARACTER = '#';
 
 const MISSING_INDEX_OF_VALUE = -1;
+const MISSING_TABLE_HEADER_NOTE_NAME = '?';
 
 const LANGUAGE_MISSING_VARIABLE_SIGN = '!!!';
 const LANGUAGE_JSON_FILE = '/files/data/website-language-variables.json';
@@ -19,6 +20,7 @@ const CHALLENGE_ITEM_TO_REMOVE_TEMPLATE_FILE_PATH = '/files/resources/html/items
 const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-checklist-item.html';
 const NOTE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-note-item.html';
 const DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH = '/files/resources/html/content-blocks/notes-description-content-block.html';
+const NOTE_TABLE_CONTENT_BLOCK_TEMPLATE_FILE_PATH = '/files/resources/html/content-blocks/notes-note-table-content-block.html';
 const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-notification-item.html';
 const MARKDOWN_FILES_ROOT_PATH = '/files/resources/md/';
 
@@ -111,6 +113,7 @@ const JSON_DATA_FILE_EXTENSION = '.mypatrons.json';
 const MARKDOWN_FILE_EXTENSION = '.md';
 
 const JSON_STRINGIFY_SPACES = 2;
+const MAX_NOTE_OBJECT_STRUCTURE_LEVELS = 2;
 
 const WEEKDAY_LANGUAGE_VARIABLES_PREFIX = 'lang-weekday-abbreviation-';
 
@@ -445,7 +448,7 @@ async function fillChallenges(challenges) {
     let type = challenge.type ?? '';
     let number = '';
     let success = '...';                        //todo...
-    let notes = challenge.notes ?? '';
+    let notes = challenge.notes ?? [];
 
     if (challengesConfig[type].numbers ?? false) {
       if (numbers[type] == undefined) {
@@ -1375,7 +1378,7 @@ function recalculateFileData() {
     let oldNotes = structuredClone(ch.notes);
     let notes = {};
     for (let i in challengesConfig[ch.type].notes ?? {}) {
-      notes[i] = ch.notes[i] ?? {};
+      notes[i] = ch.notes[i] ?? [];
       delete oldNotes[i];
     }
     for (let i in oldNotes) {
@@ -1732,12 +1735,12 @@ async function drawNoteRow(contentElement, rowId, challengeType, itemType) {
   const element = document.createElement('div');
 
   const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_NOTES] ?? [])[itemType] ?? {};
-  if (Object.keys(config).length == 0) {
-    return;
-  }
   const noteType = config.type ?? {};
   const required = config.required ?? true;
-  const name = getLanguageVariable('name', true, config.name ?? {});
+  let name = getLanguageVariable('name', true, config.name ?? {});
+  if (name.substring(0, 3) === LANGUAGE_MISSING_VARIABLE_SIGN) {
+    name = itemType;
+  }
 
   const content = await getFileContent(NOTE_ITEM_TEMPLATE_FILE_PATH);
   element.innerHTML = content
@@ -1749,11 +1752,56 @@ async function drawNoteRow(contentElement, rowId, challengeType, itemType) {
 
   contentElement.append(element);
 
-  showNoteValueToRead(rowId, challengeType, itemType);
+  await showNoteValueToRead(rowId, challengeType, itemType);
 }
 
-function changeAllOtherNotesValuesToRead(rowId, challengeType, itemType) {
+function isNoteDataStructureValid(data, level = 0) {
+  if (level > MAX_NOTE_OBJECT_STRUCTURE_LEVELS || !Array.isArray(data)) {
+    return false;
+  }
+
+  for (const item of data) {
+    if (typeof item !== 'object' || item === null || Object.keys(item).length === 0) {
+      return false;
+    }
+
+    for (const key of Object.keys(item)) {
+      if (!key.match(/^[0-9]+$/)) {
+        return false;
+      }
+
+      if (!isNoteDataStructureValid(item[key], level + 1)) {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+async function showNoteValueToRead(rowId, challengeType, itemType) {
+  const element = document.getElementById(NOTE_VALUE_ELEMENT_ID_PREFIX + itemType);
+  const value = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
+  const challengeConfig = ((challengesConfig[challengeType] ?? {})[CONFIG_FIELD_NOTES] ?? {})[itemType] ?? {};
+
+  if (!isNoteDataStructureValid(value)) {
+    element.innerHTML = getLanguageVariable('lang-you-cannot-read-this-note-due-to-its-invalid-structure');
+    element.innerHTML += ' (json:' + JSON.stringify(value) + ')';
+    return;
+  } else if (Object.keys(value).length === 0) {
+    element.innerHTML = getLanguageVariable('lang-non-existence');
+    return;
+  }
+
+  const tableDataContent = getNoteTableDataContent(value, challengeConfig);
+
+  const template = await getFileContent(NOTE_TABLE_CONTENT_BLOCK_TEMPLATE_FILE_PATH);
+  element.innerHTML = template.replace('#table-data-content#', tableDataContent);
+}
+
+async function changeAllOtherNotesValuesToRead(rowId, challengeType, itemType) {
   const notesListElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
+
   for (let child of notesListElement.children ?? {}) {
     const otherItemTypeToChangeToRead = child.innerHTML
       .match(new RegExp('id="' + NOTE_VALUE_ELEMENT_ID_PREFIX + '[a-z0-9]+'))
@@ -1762,45 +1810,76 @@ function changeAllOtherNotesValuesToRead(rowId, challengeType, itemType) {
     ;
 
     if (otherItemTypeToChangeToRead !== itemType) {
-      showNoteValueToRead(rowId, challengeType, otherItemTypeToChangeToRead);
+      await showNoteValueToRead(rowId, challengeType, otherItemTypeToChangeToRead);
     }
   }
 }
 
-function showNoteValueToEdit(rowId, challengeType, itemType) {
-  changeAllOtherNotesValuesToRead(rowId, challengeType, itemType);
+async function showNoteValueToEdit(rowId, challengeType, itemType) {
+  await changeAllOtherNotesValuesToRead(rowId, challengeType, itemType);
 
   const element = document.getElementById(NOTE_VALUE_ELEMENT_ID_PREFIX + itemType);
+  element.innerHTML = '';
+
   const value = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
   const challengeConfig = ((challengesConfig[challengeType] ?? {})[CONFIG_FIELD_NOTES] ?? {})[itemType] ?? {};
 
-  element.innerHTML = '';
-
-  for (const noteType of Object.keys(challengeConfig.type ?? {})) {
-    const noteQuantity = challengeConfig.type[noteType] ?? 0;
-    const noteConfig = notesTypesConfig[noteType] ?? {};
-
-    //console.log(noteType);
-    //console.log(noteQuantity);
-    //console.log(noteConfig);
-  }
-
-  //todo
-  element.innerHTML = '...';
-}
-
-function showNoteValueToRead(rowId, challengeType, itemType) {
-  const element = document.getElementById(NOTE_VALUE_ELEMENT_ID_PREFIX + itemType);
-  const value = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
-
-  if (Object(value).length === 0) {
-    element.innerHTML = getLanguageVariable('lang-non-existence');
-
+  if (Object.keys(challengeConfig).length == 0) {
+    element.innerHTML = getLanguageVariable('lang-you-cannot-edit-this-note-because-it-has-unknown-type');
+    return;
+  } else if (!isNoteDataStructureValid(value)) {
+    element.innerHTML = getLanguageVariable('lang-you-cannot-edit-this-note-due-to-its-invalid-structure');
+    element.innerHTML += ' (json:' + JSON.stringify(value) + ')';
     return;
   }
 
-  //todo
-  element.innerHTML = 'json=' + JSON.stringify(value);
+  const isEditMode = true;
+  const tableDataContent = getNoteTableDataContent(value, challengeConfig, isEditMode);
+
+  const template = await getFileContent(NOTE_TABLE_CONTENT_BLOCK_TEMPLATE_FILE_PATH);
+  element.innerHTML = template.replace('#table-data-content#', tableDataContent);
+}
+
+function getDepthLevelsCount(data, level = 0) {
+  let result = level;
+
+  for (const item of data) {
+    for (const key of Object.keys(item)) {
+      result = Math.max(result, getDepthLevelsCount(item[key], level + 1));
+    }
+  }
+
+  return result;
+}
+
+function getNoteTableHeaders(data, challengeConfig) {
+  let result = [];
+  for (const noteType of Object.keys(challengeConfig.type ?? {})) {
+    let noteName = getLanguageVariable('name', false, (notesTypesConfig[noteType] ?? {}).name ?? {});
+    if (noteName.substring(0, 3) === LANGUAGE_MISSING_VARIABLE_SIGN) {
+      noteName = MISSING_TABLE_HEADER_NOTE_NAME;
+    }
+
+    result.push(noteName);
+  }
+
+  const depthLevelsCount = getDepthLevelsCount(data);
+  for (let i = result.length; i < depthLevelsCount; i++) {
+    result.push(MISSING_TABLE_HEADER_NOTE_NAME);
+  }
+
+  return result;
+}
+
+function getNoteTableDataContent(data, challengeConfig, isEditMode = false) {
+  const tableHeaders = getNoteTableHeaders(data, challengeConfig);
+  result = '<thead><tr><th>' + tableHeaders.join('</th><th>') + '</th></tr></thead>';
+
+  //let tableHeaders = getNoteTableHeaders(;
+  //for (const item of data) {
+  //}
+
+  return result;
 }
 
 build();

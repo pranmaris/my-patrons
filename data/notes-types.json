@@ -1,6 +1,10 @@
 {
   "bible-lection": {
     "index": "bible-lections",
+    "name": {
+      "en": "Bible lection",
+      "pl": "Fragment Pisma Świętego"
+    },
     "source": {
       "input": "prompting"
     },
@@ -8,6 +12,10 @@
   },
   "criterion-of-selecting-a-protector-patron": {
     "index": "criteria-of-selecting-protector-patrons",
+    "name": {
+      "en": "Criteria of selecting Protector Patron",
+      "pl": "Kryterium wyboru Patrona Obrońcy"
+    },
     "source": {
       "list": [
         ["lang-roman-martyrology"],
@@ -52,6 +60,10 @@
   },
   "description": {
     "index": "descriptions",
+    "name": {
+      "en": "Description",
+      "pl": "Opis"
+    },
     "source": {
       "input": "prompting"
     },
@@ -59,6 +71,10 @@
   },
   "description-with-no-prompting": {
     "index": "descriptions",
+    "name": {
+      "en": "Description",
+      "pl": "Opis"
+    },
     "source": {
       "input": "empty"
     },
@@ -66,6 +82,10 @@
   },
   "given-intercessor-patron": {
     "index": "given-intercessor-patrons",
+    "name": {
+      "en": "Given Intercessor Patron",
+      "pl": "Przekazany Patron Orędownik"
+    },
     "source": {
       "patrons": {
         "person-having-challenges": ["MA"]
@@ -75,6 +95,10 @@
   },
   "person": {
     "index": "persons",
+    "name": {
+      "en": "Person",
+      "pl": "Osoba"
+    },
     "source": {
       "input": "prompting"
     },
@@ -82,6 +106,10 @@
   },
   "place": {
     "index": "places",
+    "name": {
+      "en": "Place",
+      "pl": "Miejsce"
+    },
     "source": {
       "input": "prompting"
     },
@@ -89,6 +117,10 @@
   },
   "role-at-mass": {
     "index": "roles-at-mass",
+    "name": {
+      "en": "Role at Mass",
+      "pl": "Rola na Mszy"
+    },
     "source": {
       "list": [
         ["lang-main-celebrant"],
@@ -103,6 +135,10 @@
   },
   "sacrament": {
     "index": "sacraments",
+    "name": {
+      "en": "Sacrament",
+      "pl": "Sakrament"
+    },
     "source": {
       "list": [
         ["lang-sacrament-baptism"],
@@ -118,6 +154,10 @@
   },
   "time": {
     "index": "times",
+    "name": {
+      "en": "Time",
+      "pl": "Czas"
+    },
     "source": {
       "input": "prompting"
     },
