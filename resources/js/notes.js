@@ -20,7 +20,6 @@ const CHALLENGE_ITEM_TO_REMOVE_TEMPLATE_FILE_PATH = '/files/resources/html/items
 const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-checklist-item.html';
 const NOTE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-note-item.html';
 const DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH = '/files/resources/html/content-blocks/notes-description-content-block.html';
-const NOTE_TABLE_CONTENT_BLOCK_TEMPLATE_FILE_PATH = '/files/resources/html/content-blocks/notes-note-table-content-block.html';
 const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-notification-item.html';
 const MARKDOWN_FILES_ROOT_PATH = '/files/resources/md/';
 
@@ -113,7 +112,7 @@ const JSON_DATA_FILE_EXTENSION = '.mypatrons.json';
 const MARKDOWN_FILE_EXTENSION = '.md';
 
 const JSON_STRINGIFY_SPACES = 2;
-const MAX_NOTE_OBJECT_STRUCTURE_LEVELS = 2;
+const MAX_NOTE_OBJECT_STRUCTURE_LEVELS = 5;
 
 const WEEKDAY_LANGUAGE_VARIABLES_PREFIX = 'lang-weekday-abbreviation-';
 
@@ -1745,14 +1744,11 @@ async function drawNoteRow(contentElement, rowId, challengeType, itemType) {
   const content = await getFileContent(NOTE_ITEM_TEMPLATE_FILE_PATH);
   element.innerHTML = content
     .replace(/#name#/g, name)
-    .replace(/#challenge-type#/g, challengeType)
-    .replace(/#row-id#/g, rowId)
     .replace(/#item-type#/g, itemType)
   ;
-
   contentElement.append(element);
 
-  await showNoteValueToRead(rowId, challengeType, itemType);
+  showNoteContent(rowId, challengeType, itemType);
 }
 
 function isNoteDataStructureValid(data, level = 0) {
@@ -1779,67 +1775,6 @@ function isNoteDataStructureValid(data, level = 0) {
   return true;
 }
 
-async function showNoteValueToRead(rowId, challengeType, itemType) {
-  const element = document.getElementById(NOTE_VALUE_ELEMENT_ID_PREFIX + itemType);
-  const value = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
-  const challengeConfig = ((challengesConfig[challengeType] ?? {})[CONFIG_FIELD_NOTES] ?? {})[itemType] ?? {};
-
-  if (!isNoteDataStructureValid(value)) {
-    element.innerHTML = getLanguageVariable('lang-you-cannot-read-this-note-due-to-its-invalid-structure');
-    element.innerHTML += ' (json:' + JSON.stringify(value) + ')';
-    return;
-  } else if (Object.keys(value).length === 0) {
-    element.innerHTML = getLanguageVariable('lang-non-existence');
-    return;
-  }
-
-  const tableDataContent = getNoteTableDataContent(value, challengeConfig);
-
-  const template = await getFileContent(NOTE_TABLE_CONTENT_BLOCK_TEMPLATE_FILE_PATH);
-  element.innerHTML = template.replace('#table-data-content#', tableDataContent);
-}
-
-async function changeAllOtherNotesValuesToRead(rowId, challengeType, itemType) {
-  const notesListElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
-
-  for (let child of notesListElement.children ?? {}) {
-    const otherItemTypeToChangeToRead = child.innerHTML
-      .match(new RegExp('id="' + NOTE_VALUE_ELEMENT_ID_PREFIX + '[a-z0-9]+'))
-      .join('')
-      .replace(new RegExp('id="' + NOTE_VALUE_ELEMENT_ID_PREFIX), '')
-    ;
-
-    if (otherItemTypeToChangeToRead !== itemType) {
-      await showNoteValueToRead(rowId, challengeType, otherItemTypeToChangeToRead);
-    }
-  }
-}
-
-async function showNoteValueToEdit(rowId, challengeType, itemType) {
-  await changeAllOtherNotesValuesToRead(rowId, challengeType, itemType);
-
-  const element = document.getElementById(NOTE_VALUE_ELEMENT_ID_PREFIX + itemType);
-  element.innerHTML = '';
-
-  const value = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
-  const challengeConfig = ((challengesConfig[challengeType] ?? {})[CONFIG_FIELD_NOTES] ?? {})[itemType] ?? {};
-
-  if (Object.keys(challengeConfig).length == 0) {
-    element.innerHTML = getLanguageVariable('lang-you-cannot-edit-this-note-because-it-has-unknown-type');
-    return;
-  } else if (!isNoteDataStructureValid(value)) {
-    element.innerHTML = getLanguageVariable('lang-you-cannot-edit-this-note-due-to-its-invalid-structure');
-    element.innerHTML += ' (json:' + JSON.stringify(value) + ')';
-    return;
-  }
-
-  const isEditMode = true;
-  const tableDataContent = getNoteTableDataContent(value, challengeConfig, isEditMode);
-
-  const template = await getFileContent(NOTE_TABLE_CONTENT_BLOCK_TEMPLATE_FILE_PATH);
-  element.innerHTML = template.replace('#table-data-content#', tableDataContent);
-}
-
 function getDepthLevelsCount(data, level = 0) {
   let result = level;
 
@@ -1852,7 +1787,7 @@ function getDepthLevelsCount(data, level = 0) {
   return result;
 }
 
-function getNoteTableHeaders(data, challengeConfig) {
+function getNoteTableHeaders(data, challengeConfig, depthLevelsCount) {
   let result = [];
   for (const noteType of Object.keys(challengeConfig.type ?? {})) {
     let noteName = getLanguageVariable('name', false, (notesTypesConfig[noteType] ?? {}).name ?? {});
@@ -1863,7 +1798,6 @@ function getNoteTableHeaders(data, challengeConfig) {
     result.push(noteName);
   }
 
-  const depthLevelsCount = getDepthLevelsCount(data);
   for (let i = result.length; i < depthLevelsCount; i++) {
     result.push(MISSING_TABLE_HEADER_NOTE_NAME);
   }
@@ -1871,15 +1805,42 @@ function getNoteTableHeaders(data, challengeConfig) {
   return result;
 }
 
-function getNoteTableDataContent(data, challengeConfig, isEditMode = false) {
-  const tableHeaders = getNoteTableHeaders(data, challengeConfig);
-  result = '<thead><tr><th>' + tableHeaders.join('</th><th>') + '</th></tr></thead>';
+async function showNoteContent(rowId, challengeType, itemType) {
+  const element = document.getElementById(NOTE_VALUE_ELEMENT_ID_PREFIX + itemType);
+  element.innerHTML = '';
 
-  //let tableHeaders = getNoteTableHeaders(;
-  //for (const item of data) {
-  //}
+  const value = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
+  const challengeConfig = ((challengesConfig[challengeType] ?? {})[CONFIG_FIELD_NOTES] ?? {})[itemType] ?? {};
 
-  return result;
+  if (!isNoteDataStructureValid(value)) {
+    element.innerHTML = getLanguageVariable('lang-you-cannot-read-this-note-due-to-its-invalid-structure', true);
+    element.innerHTML += ' (json:' + JSON.stringify(value) + ')';
+    return;
+  }
+
+  const depthLevelsCount = getDepthLevelsCount(value);
+  const tableHeaders = getNoteTableHeaders(value, challengeConfig, depthLevelsCount);
+  let content = '<thead><tr><th>' + tableHeaders.join('</th><th>') + '</th></tr></thead>';
+
+  //...todo
+
+  element.innerHTML = content;
 }
+
+//async function changeAllOtherNotesValuesToRead(rowId, challengeType, itemType) {
+  //const notesListElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
+
+  //for (let child of notesListElement.children ?? {}) {
+    //const otherItemTypeToChangeToRead = child.innerHTML
+      //.match(new RegExp('id="' + NOTE_VALUE_ELEMENT_ID_PREFIX + '[a-z0-9]+'))
+      //.join('')
+      //.replace(new RegExp('id="' + NOTE_VALUE_ELEMENT_ID_PREFIX), '')
+    //;
+
+    //if (otherItemTypeToChangeToRead !== itemType) {
+      //await showNoteValueToRead(rowId, challengeType, otherItemTypeToChangeToRead);
+    //}
+  //}
+//}
 
 build();
