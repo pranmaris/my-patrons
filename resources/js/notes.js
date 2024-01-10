@@ -141,6 +141,7 @@ let fileName = DEFAULT_JSON_FILENAME + JSON_DATA_FILE_EXTENSION;
 let fileContent = '{}';
 let fileData = null;
 
+let lastEditedNoteItem = [];
 let newChallengeChecklistValues = {};
 let newChallengeNotesValues = {};
 
@@ -1713,6 +1714,8 @@ function getNewChallengeNoteValue(itemType) {
 }
 
 async function notesReset(rowId) {
+  lastEditedNoteItem = [];
+
   let notesListElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
   notesListElement.innerHTML = '';
 
@@ -1742,6 +1745,8 @@ async function drawNoteRow(contentElement, rowId, challengeType, itemType) {
   const content = await getFileContent(NOTE_ITEM_TEMPLATE_FILE_PATH);
   element.innerHTML = content
     .replace(/#name#/g, name)
+    .replace(/#row-id#/g, rowId)
+    .replace(/#challenge-type#/g, challengeType)
     .replace(/#item-type#/g, itemType)
   ;
   contentElement.append(element);
@@ -1803,7 +1808,20 @@ function getNoteTableHeaders(data, challengeConfig, depthLevelsCount) {
   return result;
 }
 
-async function showNoteContent(rowId, challengeType, itemType) {
+async function changeNoteItemModeToEdit(rowId, challengeType, itemType) {
+  if (lastEditedNoteItem[rowId] === itemType) {
+    return;
+  } else if (lastEditedNoteItem[rowId] !== undefined) {
+    await showNoteContent(rowId, challengeType, lastEditedNoteItem[rowId]);
+  }
+  lastEditedNoteItem = [];
+  lastEditedNoteItem[rowId] = itemType;
+
+  const isEditMode = true;
+  await showNoteContent(rowId, challengeType, itemType, isEditMode);
+}
+
+async function showNoteContent(rowId, challengeType, itemType, isEditMode = false) {
   const element = document.getElementById(NOTE_VALUE_ELEMENT_ID_PREFIX + itemType);
   element.innerHTML = '';
 
@@ -1814,6 +1832,9 @@ async function showNoteContent(rowId, challengeType, itemType) {
     element.innerHTML = getLanguageVariable('lang-you-cannot-read-this-note-due-to-its-invalid-structure', true);
     element.innerHTML += ' (json:' + JSON.stringify(value) + ')';
     return;
+  } else if (!isEditMode && value.length === 0) {
+    element.innerHTML = getLanguageVariable('lang-non-existence');
+    return;
   }
 
   const depthLevelsCount = getNoteValueDepthLevelsCount(value);
@@ -1821,30 +1842,32 @@ async function showNoteContent(rowId, challengeType, itemType) {
   let content = '<thead><tr><th>'
     + tableHeaders.join('</th><th>')
     + '</th></tr></thead><tbody>'
-    + getNoteValueData(value, depthLevelsCount).content
+    + getNoteValueData(rowId, itemType, value, [], depthLevelsCount, isEditMode).content
     + '</tbody>'
   ;
 
   element.innerHTML = content;
 }
 
-function getNoteValueData(value, depthLevelsCount, level = 1) {
+function getNoteValueData(rowId, itemType, value, path, depthLevelsCount, isEditMode, level = 1) {
   let content = '';
   let totalRows = 0;
 
-  let objectsCount = 0;
-  for (const rowObjects of value) {
-    for (const key of Object.keys(rowObjects)) {
-      objectsCount++;
+  let noItemsExist = true;
+  for (const noteKey in value) {
+    noItemsExist = false;
 
-      const data = getNoteValueData(rowObjects[key], depthLevelsCount, level + 1);
+    for (const noteId of Object.keys(value[noteKey])) {
+      const itemPath = path.concat([noteKey, noteId]);
+      const data = getNoteValueData(rowId, itemType, value[noteKey][noteId], itemPath, depthLevelsCount, isEditMode, level + 1);
+      const text = !isEditMode ? noteId : 'rowId=' + rowId + ', itemType=' + itemType + ', path=' + itemPath.join('/') + ', noteId=' + noteId;
 
       totalRows += data.rows;
-      content += '<td rowspan="' + data.rows + '">' + key + '</td>' + data.content;
+      content += '<td rowspan="' + data.rows + '">' + text + '</td>' + data.content;
     }
   }
 
-  if (objectsCount === 0) {
+  if (noItemsExist) {
     for (let i = 0; i <= depthLevelsCount - level; i++) {
       content += '<td rowspan="1"></td>';
     }
@@ -1862,21 +1885,5 @@ function getNoteValueData(value, depthLevelsCount, level = 1) {
     content: content
   };
 }
-
-//async function changeAllOtherNotesValuesToRead(rowId, challengeType, itemType) {
-  //const notesListElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
-
-  //for (let child of notesListElement.children ?? {}) {
-    //const otherItemTypeToChangeToRead = child.innerHTML
-      //.match(new RegExp('id="' + NOTE_VALUE_ELEMENT_ID_PREFIX + '[a-z0-9]+'))
-      //.join('')
-      //.replace(new RegExp('id="' + NOTE_VALUE_ELEMENT_ID_PREFIX), '')
-    //;
-
-    //if (otherItemTypeToChangeToRead !== itemType) {
-      //await showNoteValueToRead(rowId, challengeType, otherItemTypeToChangeToRead);
-    //}
-  //}
-//}
 
 build();
