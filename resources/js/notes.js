@@ -1734,8 +1734,6 @@ async function drawNoteRow(contentElement, rowId, challengeType, itemType) {
   const element = document.createElement('div');
 
   const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_NOTES] ?? [])[itemType] ?? {};
-  const noteType = config.type ?? {};
-  const required = config.required ?? true;
   let name = getLanguageVariable('name', true, config.name ?? {});
   if (name.substring(0, 3) === LANGUAGE_MISSING_VARIABLE_SIGN) {
     name = itemType;
@@ -1775,12 +1773,12 @@ function isNoteDataStructureValid(data, level = 0) {
   return true;
 }
 
-function getDepthLevelsCount(data, level = 0) {
+function getNoteValueDepthLevelsCount(value, level = 0) {
   let result = level;
 
-  for (const item of data) {
+  for (const item of value) {
     for (const key of Object.keys(item)) {
-      result = Math.max(result, getDepthLevelsCount(item[key], level + 1));
+      result = Math.max(result, getNoteValueDepthLevelsCount(item[key], level + 1));
     }
   }
 
@@ -1818,13 +1816,51 @@ async function showNoteContent(rowId, challengeType, itemType) {
     return;
   }
 
-  const depthLevelsCount = getDepthLevelsCount(value);
+  const depthLevelsCount = getNoteValueDepthLevelsCount(value);
   const tableHeaders = getNoteTableHeaders(value, challengeConfig, depthLevelsCount);
-  let content = '<thead><tr><th>' + tableHeaders.join('</th><th>') + '</th></tr></thead>';
-
-  //...todo
+  let content = '<thead><tr><th>'
+    + tableHeaders.join('</th><th>')
+    + '</th></tr></thead><tbody>'
+    + getNoteValueData(value, depthLevelsCount).content
+    + '</tbody>'
+  ;
 
   element.innerHTML = content;
+}
+
+function getNoteValueData(value, depthLevelsCount, level = 1) {
+  let content = '';
+  let totalRows = 0;
+
+  let objectsCount = 0;
+  for (const rowObjects of value) {
+    for (const key of Object.keys(rowObjects)) {
+      objectsCount++;
+
+      const data = getNoteValueData(rowObjects[key], depthLevelsCount, level + 1);
+
+      totalRows += data.rows;
+      content += '<td rowspan="' + data.rows + '">' + key + '</td>' + data.content;
+    }
+  }
+
+  if (objectsCount === 0) {
+    for (let i = 0; i <= depthLevelsCount - level; i++) {
+      content += '<td rowspan="1"></td>';
+    }
+    if (level > 1) {
+      content += '</tr><tr>';
+    }
+  }
+  if (level === 1) {
+    content = content.replace(new RegExp('</tr><tr>$'), '');
+    content = '<tr>' + content + '</tr>';
+  }
+
+  return {
+    rows: Math.max(1, totalRows),
+    content: content
+  };
 }
 
 //async function changeAllOtherNotesValuesToRead(rowId, challengeType, itemType) {

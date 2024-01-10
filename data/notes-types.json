@@ -13,7 +13,7 @@
   "criterion-of-selecting-a-protector-patron": {
     "index": "criteria-of-selecting-protector-patrons",
     "name": {
-      "en": "Criteria of selecting Protector Patron",
+      "en": "Criterion of selecting Protector Patron",
       "pl": "Kryterium wyboru Patrona Obrońcy"
     },
     "source": {
@@ -58,6 +58,17 @@
     },
     "containable": false
   },
+  "criterion-of-selecting-a-protector-patron-description": {
+    "index": "criterion-of-selecting-a-protector-patron-descriptions",
+    "name": {
+      "en": "Criterion of selecting Protector Patron description",
+      "pl": "Opis kryterium wyboru Patrona Obrońcy"
+    },
+    "source": {
+      "input": "empty"
+    },
+    "containable": false
+  },
   "description": {
     "index": "descriptions",
     "name": {
@@ -66,17 +77,6 @@
     },
     "source": {
       "input": "prompting"
-    },
-    "containable": false
-  },
-  "description-with-no-prompting": {
-    "index": "descriptions",
-    "name": {
-      "en": "Description",
-      "pl": "Opis"
-    },
-    "source": {
-      "input": "empty"
     },
     "containable": false
   },

@@ -71,56 +71,50 @@
     "notes": {
       "criterion": {
         "type": {
-          "criterion-of-selecting-a-protector-patron": 1,
-          "description-with-no-prompting": "*"
+          "criterion-of-selecting-a-protector-patron": [0, 0],
+          "criterion-of-selecting-a-protector-patron-description": [0, 1]
         },
-        "required": false,
         "name": {
           "pl": "Kryterium wyboru Patrona"
         }
       },
       "bible": {
         "type": {
-          "bible-lection": 1
+          "bible-lection": [0, 1]
         },
-        "required": false,
         "name": {
           "pl": "Przeczytany fragment Pisma Świętego"
         }
       },
       "time": {
         "type": {
-          "time": 1
+          "time": [0, 1]
         },
-        "required": false,
         "name": {
           "pl": "Godzina rozpoczęcia Mszy"
         }
       },
       "place": {
         "type": {
-          "place": 1
+          "place": [0, 1]
         },
-        "required": false,
         "name": {
           "pl": "Miejsce Mszy"
         }
       },
       "people": {
         "type": {
-          "person": "+",
-          "role-at-mass": "+"
+          "person": [0, 0],
+          "role-at-mass": [1, 0]
         },
-        "required": false,
         "name": {
           "pl": "Osoby na Mszy"
         }
       },
       "other": {
         "type": {
-          "description": "+"
+          "description": [0, 0]
         },
-        "required": false,
         "name": {
           "pl": "Informacje dodatkowe"
         }
@@ -260,27 +254,24 @@
     "notes": {
       "time": {
         "type": {
-          "time": 1
+          "time": [0, 1]
         },
-        "required": false,
         "name": {
           "pl": "Godzina zawierzenia i modlitwy"
         }
       },
       "place": {
         "type": {
-          "place": 1
+          "place": [0, 1]
         },
-        "required": false,
         "name": {
           "pl": "Miejsce zawierzenia i modlitwy"
         }
       },
       "other": {
         "type": {
-          "description": "+"
+          "description": [0, 0]
         },
-        "required": false,
         "name": {
           "pl": "Informacje dodatkowe"
         }
@@ -328,27 +319,24 @@
     "notes": {
       "time": {
         "type": {
-          "time": 1
+          "time": [0, 1]
         },
-        "required": false,
         "name": {
           "pl": "Godzina narodzin"
         }
       },
       "place": {
         "type": {
-          "place": 1
+          "place": [0, 1]
         },
-        "required": false,
         "name": {
           "pl": "Miejsce narodzin"
         }
       },
       "other": {
         "type": {
-          "description": "+"
+          "description": [0, 0]
         },
-        "required": false,
         "name": {
           "pl": "Informacje dodatkowe"
         }
@@ -396,36 +384,32 @@
     "notes": {
       "type": {
         "type": {
-          "sacrament": 1
+          "sacrament": [1, 1]
         },
-        "required": true,
         "name": {
           "pl": "Typ Sakramentu"
         }
       },
       "time": {
         "type": {
-          "time": 1
+          "time": [0, 1]
         },
-        "required": false,
         "name": {
           "pl": "Godzina pierwszego przyjęcia Sakramentu"
         }
       },
       "place": {
         "type": {
-          "place": 1
+          "place": [0, 1]
         },
-        "required": false,
         "name": {
           "pl": "Miejsce pierwszego przyjęcia Sakramentu"
         }
       },
       "other": {
         "type": {
-          "descritpion": "+"
+          "description": [0, 0]
         },
-        "required": false,
         "name": {
           "pl": "Informacje dodatkowe"
         }
