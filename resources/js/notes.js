@@ -21,6 +21,7 @@ const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-che
 const NOTE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-note-item.html';
 const DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH = '/files/resources/html/content-blocks/notes-description-content-block.html';
 const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-notification-item.html';
+const NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-note-cell-item.html';
 const MARKDOWN_FILES_ROOT_PATH = '/files/resources/md/';
 
 const INVISIBLE_STYLE = 'display: none';
@@ -1839,17 +1840,18 @@ async function showNoteContent(rowId, challengeType, itemType, isEditMode = fals
 
   const depthLevelsCount = getNoteValueDepthLevelsCount(value);
   const tableHeaders = getNoteTableHeaders(value, challengeConfig, depthLevelsCount);
+  const valueData = await getNoteValueData(rowId, challengeConfig, itemType, value, [], depthLevelsCount, isEditMode);
   let content = '<thead><tr><th>'
     + tableHeaders.join('</th><th>')
     + '</th></tr></thead><tbody>'
-    + getNoteValueData(rowId, itemType, value, [], depthLevelsCount, isEditMode).content
+    + valueData.content
     + '</tbody>'
   ;
 
   element.innerHTML = content;
 }
 
-function getNoteValueData(rowId, itemType, value, path, depthLevelsCount, isEditMode, level = 1) {
+async function getNoteValueData(rowId, challengeConfig, itemType, value, path, depthLevelsCount, isEditMode, level = 1) {
   let content = '';
   let totalRows = 0;
 
@@ -1857,13 +1859,14 @@ function getNoteValueData(rowId, itemType, value, path, depthLevelsCount, isEdit
   for (const noteKey in value) {
     noItemsExist = false;
 
-    for (const noteId of Object.keys(value[noteKey])) {
+    for (const noteId of Object.keys(value[noteKey] ?? {})) {
       const itemPath = path.concat([noteKey, noteId]);
-      const data = getNoteValueData(rowId, itemType, value[noteKey][noteId], itemPath, depthLevelsCount, isEditMode, level + 1);
-      const text = !isEditMode ? noteId : 'rowId=' + rowId + ', itemType=' + itemType + ', path=' + itemPath.join('/') + ', noteId=' + noteId;
+      const subValue = value[noteKey][noteId];
+      const data = await getNoteValueData(rowId, challengeConfig, itemType, subValue, itemPath, depthLevelsCount, isEditMode, level + 1);
 
       totalRows += data.rows;
-      content += '<td rowspan="' + data.rows + '">' + text + '</td>' + data.content;
+      content += await getNoteCellContent(rowId, challengeConfig, itemType, itemPath, value.length, data.rows, isEditMode);
+      content += data.content;
     }
   }
 
@@ -1884,6 +1887,35 @@ function getNoteValueData(rowId, itemType, value, path, depthLevelsCount, isEdit
     rows: Math.max(1, totalRows),
     content: content
   };
+}
+
+async function getNoteCellContent(rowId, challengeConfig, itemType, itemPath, totalNotes, rowsCount, isEditMode) {
+  const template = await getFileContent(NOTE_CELL_ITEM_TEMPLATE_FILE_PATH);
+
+  const cellElementId = itemType + '-' + itemPath.join('-');
+  const noteId = itemPath.at(-1);
+  const noteNo = Number(itemPath.at(-2) ?? '0') + 1;
+
+  let noteType = null;
+  let noteQuantity = null;
+  let doubleLoopTimes = itemPath.length;
+  for (const noteTypeData of Object.entries(challengeConfig.type ?? {})) {
+    doubleLoopTimes -= 2;
+    if (doubleLoopTimes <= 0) {
+      noteType = noteTypeData[0] ?? null;
+      noteQuantity = noteTypeData[1] ?? null;
+    }
+  }
+
+  const content = !isEditMode ? noteId : 'rowId=' + rowId + ', itemType=' + itemType + ', path=' + itemPath.join('/') + ', noteNo=' + noteNo + ' [of ' + totalNotes + '], noteId=' + noteId + ', noteType=' + noteType + ', noteQuantity=' + noteQuantity;
+
+  //todo - if isEditMode then add edit cell button; if noteQuantity is greater than max then add remove button; add move position buttons
+
+  return template
+    .replace(/#note-cell-id#/, cellElementId)
+    .replace(/#rows-count#/, rowsCount)
+    .replace(/#content#/, content)
+  ;
 }
 
 build();
