@@ -76,6 +76,7 @@ const REMOVE_NOTE_MODAL_ROW_ID_ELEMENT_ID = 'remove-note-modal-row-id';
 const REMOVE_NOTE_MODAL_CHALLENGE_TYPE_ELEMENT_ID = 'remove-note-modal-challenge-type';
 const REMOVE_NOTE_MODAL_ITEM_TYPE_ELEMENT_ID = 'remove-note-modal-item-type';
 const REMOVE_NOTE_MODAL_ITEM_PATH_ELEMENT_ID = 'remove-note-modal-item-path';
+const NOTE_CELL_VALUE_ELEMENT_ID = 'note-cell-value';
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -151,7 +152,7 @@ let fileContent = '{}';
 let fileData = null;
 
 let lastEditedNoteItem = [];
-let noteCellInFormModeElementIdSuffix = '';
+let lastFormModeNoteCellElementIdSuffix = {};
 let newChallengeChecklistValues = {};
 let newChallengeNotesValues = {};
 
@@ -1725,6 +1726,7 @@ function getNewChallengeNoteValue(itemType) {
 
 async function notesReset(rowId) {
   lastEditedNoteItem = [];
+  lastFormModeNoteCellElementIdSuffix = {};
 
   let notesListElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
   notesListElement.innerHTML = '';
@@ -1927,13 +1929,14 @@ async function getNoteValueData(rowId, challengeType, challengeConfig, itemType,
 }
 
 async function getNoteCellContent(rowId, challengeType, itemType, itemPath, noteTypeConfig, noteQuantity, totalNotes, rowsCount, isEditMode) {
-  const cellElementId = itemType + '-' + itemPath.join('-');
+  const itemPathString = itemPath.join('-');
+  const cellElementId = itemType + itemPathString;
   const noteId = itemPath.at(-1);
   const noteNo = Number(itemPath.at(-2) ?? '0') + 1;
   const content = noteId; //todo value
 
   let template = '';
-  if (noteCellInFormModeElementIdSuffix === cellElementId) {
+  if ((lastFormModeNoteCellElementIdSuffix[itemType] ?? '') === itemPathString) {
     template = await getNoteCellInFormModeContent();
   } else {
     template = await getFileContent(
@@ -2061,14 +2064,42 @@ function removeNote() {
 }
 
 function setNoteCellModeToForm(rowId, challengeType, itemType, itemPath) {
-  noteCellInFormModeElementIdSuffix = itemType + '-' + itemPath.join('-');
+  for (const oldItemType of Object.keys(lastFormModeNoteCellElementIdSuffix)) {
+    showNoteContent(rowId, challengeType, oldItemType);
+  }
+
+  lastFormModeNoteCellElementIdSuffix = {};
+  lastFormModeNoteCellElementIdSuffix[itemType] = itemPath.join('-');
 
   const isEditMode = true;
   showNoteContent(rowId, challengeType, itemType, isEditMode);
 }
 
 function editNote(rowId, challengeType, itemType, itemPath) {
-  //todo
+  const rowNotes = getChallengeNotesData(rowId, itemType);
+  if (itemType.length < 2) {
+    return;
+  }
+
+  const oldNoteId = itemPath.pop();
+
+  let context = rowNotes;
+  for (const i of itemPath) {
+    context = context[i];
+  }
+
+  const valueElement = document.getElementById(NOTE_CELL_VALUE_ELEMENT_ID);
+  const newNoteId = valueElement.value ?? '';
+  if (newNoteId.match(/^[1-9][0-9]*$/)) {
+    context[newNoteId] = structuredClone(context[oldNoteId]);
+    delete context[oldNoteId];
+  } else {
+    valueElement.value = oldNoteId;
+  }
+
+  const isEditMode = true;
+  lastFormModeNoteCellElementIdSuffix = {};
+  showNoteContent(rowId, challengeType, itemType, isEditMode);
 }
 
 build();
