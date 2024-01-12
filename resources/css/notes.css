@@ -79,3 +79,7 @@ iframe {
   border-width: 1px;
   border-color: rgb(0, 100, 100);
 }
+
+#notes-list {
+  scroll-behavior: smooth;
+}
