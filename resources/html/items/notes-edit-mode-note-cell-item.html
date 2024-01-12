@@ -1,6 +1,6 @@
 <td id="note-cell-#note-cell-id#" rowspan="#rows-count#">
   <span>#content#</span>
-  <a class="btn btn-light" style="#edit-button-visible#" role="button" onclick="editNote(#row-id#, '#challenge-type#', '#item-type#', #item-path#)">
+  <a class="btn btn-light" data-bs-toggle="modal" href="#remove-note-modal-toggle" style="#edit-button-visible#" role="button" onclick="editNoteModalReset(#row-id#, '#challenge-type#', '#item-type#', #item-path#)">
     <img class="svg-image" src="/files/resources/svg/pencil-fill.svg" />
   </a>
   <a class="btn btn-light" style="#move-up-button-visible#" role="button" onclick="moveUpNote(#row-id#, '#challenge-type#', '#item-type#', #item-path#)">
@@ -9,7 +9,7 @@
   <a class="btn btn-light" style="#move-down-button-visible#" role="button" onclick="moveDownNote(#row-id#, '#challenge-type#', '#item-type#', #item-path#)">
     <img class="svg-image" src="/files/resources/svg/caret-down-square-fill.svg" />
   </a>
-  <a class="btn btn-light" style="#remove-button-visible#" role="button" onclick="removeNote(#row-id#, '#challenge-type#', '#item-type#', #item-path#)">
+  <a class="btn btn-light" data-bs-toggle="modal" href="#remove-note-modal-toggle" style="#remove-button-visible#" role="button" onclick="removeNoteModalReset(#row-id#, '#challenge-type#', '#item-type#', #item-path#)">
     <img class="svg-image" src="/files/resources/svg/trash.svg" />
   </a>
 </td>

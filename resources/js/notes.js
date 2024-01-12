@@ -70,6 +70,10 @@ const REQUIRED_CHECKLIST_STEPS_LIST_ELEMENT_ID = 'required-checklist-steps-list'
 const REQUIRED_CHECKLIST_STEPS_INFO_ELEMENT_ID = 'required-checklist-steps-info';
 const NOTE_ITEM_ELEMENT_ID_PREFIX = 'note-item-';
 const NOTE_VALUE_ELEMENT_ID_PREFIX = 'note-value-';
+const REMOVE_NOTE_MODAL_ROW_ID_ELEMENT_ID = 'remove-note-modal-row-id';
+const REMOVE_NOTE_MODAL_CHALLENGE_TYPE_ELEMENT_ID = 'remove-note-modal-challenge-type';
+const REMOVE_NOTE_MODAL_ITEM_TYPE_ELEMENT_ID = 'remove-note-modal-item-type';
+const REMOVE_NOTE_MODAL_ITEM_PATH_ELEMENT_ID = 'remove-note-modal-item-path';
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -1826,11 +1830,15 @@ async function changeNoteItemModeToEdit(rowId, challengeType, itemType) {
   location.hash = ANCHOR_CHARACTER + NOTE_ITEM_ELEMENT_ID_PREFIX + itemType;
 }
 
+function getChallengeNotesData(rowId, itemType) {
+  return (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
+}
+
 async function showNoteContent(rowId, challengeType, itemType, isEditMode = false) {
   const element = document.getElementById(NOTE_VALUE_ELEMENT_ID_PREFIX + itemType);
   element.innerHTML = '';
 
-  const value = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
+  const value = getChallengeNotesData(rowId, itemType);
   const challengeConfig = ((challengesConfig[challengeType] ?? {})[CONFIG_FIELD_NOTES] ?? {})[itemType] ?? {};
 
   if (!isNoteDataStructureValid(value)) {
@@ -1959,7 +1967,7 @@ async function getNoteCellContent(rowId, challengeType, challengeConfig, itemTyp
 }
 
 function moveUpNote(rowId, challengeType, itemType, itemPath) {
-  let rowNotes = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
+  const rowNotes = getChallengeNotesData(rowId, itemType);
   if (itemType.length < 2) {
     return;
   }
@@ -1984,7 +1992,7 @@ function moveUpNote(rowId, challengeType, itemType, itemPath) {
 }
 
 function moveDownNote(rowId, challengeType, itemType, itemPath) {
-  let rowNotes = (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
+  const rowNotes = getChallengeNotesData(rowId, itemType);
   if (itemType.length < 2) {
     return;
   }
@@ -2008,7 +2016,38 @@ function moveDownNote(rowId, challengeType, itemType, itemPath) {
   showNoteContent(rowId, challengeType, itemType, isEditMode);
 }
 
-function removeNote(rowId, challengeType, itemType, itemPath) {
+function removeNoteModalReset(rowId, challengeType, itemType, itemPath) {
+  document.getElementById(REMOVE_NOTE_MODAL_ROW_ID_ELEMENT_ID).value = rowId;
+  document.getElementById(REMOVE_NOTE_MODAL_CHALLENGE_TYPE_ELEMENT_ID).value = challengeType;
+  document.getElementById(REMOVE_NOTE_MODAL_ITEM_TYPE_ELEMENT_ID).value = itemType;
+  document.getElementById(REMOVE_NOTE_MODAL_ITEM_PATH_ELEMENT_ID).value = itemPath.join('/');
+}
+
+function removeNote() {
+  const rowId = document.getElementById(REMOVE_NOTE_MODAL_ROW_ID_ELEMENT_ID).value ?? 0;
+  const challengeType = document.getElementById(REMOVE_NOTE_MODAL_CHALLENGE_TYPE_ELEMENT_ID).value ?? '';
+  const itemType = document.getElementById(REMOVE_NOTE_MODAL_ITEM_TYPE_ELEMENT_ID).value ?? '';
+  const itemPath = document.getElementById(REMOVE_NOTE_MODAL_ITEM_PATH_ELEMENT_ID).value.split('/') ?? [];
+
+  const rowNotes = getChallengeNotesData(rowId, itemType);
+  if (itemType.length < 2) {
+    return;
+  }
+
+  const noteId = itemPath.pop();
+  const noteKey = itemPath.pop();
+
+  let context = rowNotes;
+  for (const i of itemPath) {
+    context = context[i];
+  }
+  context.splice(noteKey, 1);
+
+  const isEditMode = true;
+  showNoteContent(rowId, challengeType, itemType, isEditMode);
+}
+
+function editNoteModal(rowId, challengeType, itemType, itemPath) {
   //todo
 }
 

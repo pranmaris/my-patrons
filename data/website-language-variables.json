@@ -863,6 +863,21 @@
         "pl": "usuń wyzwanie"
     },
 
+    "lang-remove-challenge-confirmation": {
+        "en": "You must confirm that You want remove following challenge",
+        "pl": "musisz potwierdzić, że chcesz usunąć poniższe wyzwanie"
+    },
+
+    "lang-remove-note": {
+        "en": "remove note",
+        "pl": "usuń notatkę"
+    },
+
+    "lang-remove-note-confirmation": {
+        "en": "You must confirm that You want remove selected note and its subnotes",
+        "pl": "musisz potwierdzić, że chcesz usunąć wybraną notatkę ze wszystkimi jej podnotatkami"
+    },
+
     "lang-resource": {
         "en": "resource",
         "pl": "zasób"

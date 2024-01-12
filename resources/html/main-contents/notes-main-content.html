@@ -91,6 +91,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body" id="remove-challenge-modal-body">
+              <span>#lang-remove-challenge-confirmation|capitalize#:</span>
               <table class="table table-bordered border-primary">
                 <thead>
                   <tr>
@@ -160,6 +161,26 @@
             <div class="modal-body list-group" id="notes-list"></div>
             <div class="modal-footer">
               <button id="notes-button" class="btn btn-primary" data-bs-target="#notes-modal-toggle" data-bs-dismiss="modal"">#lang-done|capitalize#</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="remove-note-modal-toggle" aria-hidden="true" aria-labelledby="remove-note-modal-toggle-label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="checklist-list-modal-toggle-label">#lang-remove-note|capitalize#</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">#lang-remove-note-confirmation|capitalize#</div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-bs-dismiss="modal">#lang-cancel|capitalize#</button>
+              <button id="remove-note-button" class="btn btn-primary" data-bs-target="#remove-note-modal-toggle" data-bs-dismiss="modal" onclick="removeNote()">#lang-remove-note|capitalize#</button>
+              <input id="remove-note-modal-row-id" type="hidden" />
+              <input id="remove-note-modal-challenge-type" type="hidden" />
+              <input id="remove-note-modal-item-type" type="hidden" />
+              <input id="remove-note-modal-item-path" type="hidden" />
             </div>
           </div>
         </div>
