@@ -23,6 +23,7 @@ const DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH = '/files/resources/html/cont
 const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-notification-item.html';
 const READ_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-read-mode-note-cell-item.html';
 const EDIT_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-edit-mode-note-cell-item.html';
+const FORM_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-form-mode-note-cell-item.html';
 const MARKDOWN_FILES_ROOT_PATH = '/files/resources/md/';
 
 const INVISIBLE_STYLE = 'display: none';
@@ -68,6 +69,7 @@ const REQUIRED_NOTES_DONE_INPUT_ELEMENT_ID = 'required-notes-done';
 const REQUIRED_CHECKLIST_STEPS_DONE_INPUT_ELEMENT_ID = 'required-checklist-steps-done';
 const REQUIRED_CHECKLIST_STEPS_LIST_ELEMENT_ID = 'required-checklist-steps-list';
 const REQUIRED_CHECKLIST_STEPS_INFO_ELEMENT_ID = 'required-checklist-steps-info';
+const NOTE_CELL_ELEMENT_ID_PREFIX = 'note-cell-';
 const NOTE_ITEM_ELEMENT_ID_PREFIX = 'note-item-';
 const NOTE_VALUE_ELEMENT_ID_PREFIX = 'note-value-';
 const REMOVE_NOTE_MODAL_ROW_ID_ELEMENT_ID = 'remove-note-modal-row-id';
@@ -149,6 +151,7 @@ let fileContent = '{}';
 let fileData = null;
 
 let lastEditedNoteItem = [];
+let noteCellInFormModeElementIdSuffix = '';
 let newChallengeChecklistValues = {};
 let newChallengeNotesValues = {};
 
@@ -1852,7 +1855,8 @@ async function showNoteContent(rowId, challengeType, itemType, isEditMode = fals
 
   const depthLevelsCount = getNoteValueDepthLevelsCount(value);
   const tableHeaders = getNoteTableHeaders(value, challengeConfig, depthLevelsCount);
-  const valueData = await getNoteValueData(rowId, challengeType, challengeConfig, itemType, value, [], depthLevelsCount, isEditMode);
+  const valueData = await getNoteValueData(rowId, challengeType, challengeConfig, itemType, value, [], tableHeaders.length, isEditMode);
+
   let content = '<thead><tr><th>'
     + tableHeaders.join('</th><th>')
     + '</th></tr></thead><tbody>'
@@ -1863,7 +1867,7 @@ async function showNoteContent(rowId, challengeType, itemType, isEditMode = fals
   element.innerHTML = content;
 }
 
-async function getNoteValueData(rowId, challengeType, challengeConfig, itemType, value, path, depthLevelsCount, isEditMode, level = 1) {
+async function getNoteValueData(rowId, challengeType, challengeConfig, itemType, value, path, tableColumnsCount, isEditMode, level = 1) {
   let content = '';
   let totalRows = 0;
 
@@ -1888,11 +1892,11 @@ async function getNoteValueData(rowId, challengeType, challengeConfig, itemType,
     for (const noteId of Object.keys(value[noteKey] ?? {})) {
       const itemPath = path.concat([noteKey, noteId]);
       const subValue = value[noteKey][noteId];
-      const data = await getNoteValueData(rowId, challengeType, challengeConfig, itemType, subValue, itemPath, depthLevelsCount, isEditMode, level + 1);
+      const data = await getNoteValueData(rowId, challengeType, challengeConfig, itemType, subValue, itemPath, tableColumnsCount, isEditMode, level + 1);
 
       rowsCount = data.rows;
       totalRows += rowsCount;
-      content += await getNoteCellContent(rowId, challengeType, challengeConfig, itemType, itemPath, noteTypeConfig, noteQuantity, value.length, rowsCount, isEditMode);
+      content += await getNoteCellContent(rowId, challengeType, itemType, itemPath, noteTypeConfig, noteQuantity, value.length, rowsCount, isEditMode);
       content += data.content;
     }
   }
@@ -1904,10 +1908,10 @@ async function getNoteValueData(rowId, challengeType, challengeConfig, itemType,
 
   //if (notesCount === 0) {
   if (noItemsExist) {
-    for (let i = 0; i <= depthLevelsCount - level; i++) {
-      content += '<td></td>';
-    }
     if (level > 1) {
+      for (let i = 0; i <= tableColumnsCount - level; i++) {
+        content += '<td></td>';
+      }
       content += '</tr><tr>';
     }
   }
@@ -1922,14 +1926,20 @@ async function getNoteValueData(rowId, challengeType, challengeConfig, itemType,
   };
 }
 
-async function getNoteCellContent(rowId, challengeType, challengeConfig, itemType, itemPath, noteTypeConfig, noteQuantity, totalNotes, rowsCount, isEditMode) {
-  const template = await getFileContent(
-    isEditMode ? EDIT_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH : READ_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH
-  );
-
+async function getNoteCellContent(rowId, challengeType, itemType, itemPath, noteTypeConfig, noteQuantity, totalNotes, rowsCount, isEditMode) {
   const cellElementId = itemType + '-' + itemPath.join('-');
   const noteId = itemPath.at(-1);
   const noteNo = Number(itemPath.at(-2) ?? '0') + 1;
+  const content = noteId; //todo value
+
+  let template = '';
+  if (noteCellInFormModeElementIdSuffix === cellElementId) {
+    template = await getNoteCellInFormModeContent();
+  } else {
+    template = await getFileContent(
+      isEditMode ? EDIT_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH : READ_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH
+    );
+  }
 
   let editButtonVisible = INVISIBLE_STYLE;
   let moveUpButtonVisible = INVISIBLE_STYLE;
@@ -1948,9 +1958,6 @@ async function getNoteCellContent(rowId, challengeType, challengeConfig, itemTyp
     removeButtonVisible = VISIBLE_STYLE;
   }
 
-  //const content = !isEditMode ? noteId : 'cellElementId=' + cellElementId + ', rowId=' + rowId + ', itemType=' + itemType + ', path=' + itemPath.join('/') + ', noteNo=' + noteNo + ' [of ' + totalNotes + '], noteId=' + noteId + ', noteTypeConfig=' + JSON.stringify(noteTypeConfig) + ', noteQuantity=' + noteQuantity;
-  const content = noteId;
-
   return template
     .replace(/#note-cell-id#/g, cellElementId)
     .replace(/#rows-count#/g, rowsCount)
@@ -1964,6 +1971,12 @@ async function getNoteCellContent(rowId, challengeType, challengeConfig, itemTyp
     .replace(/#move-down-button-visible#/g, moveDownButtonVisible)
     .replace(/#remove-button-visible#/g, removeButtonVisible)
   ;
+}
+
+async function getNoteCellInFormModeContent() {
+  template = await getFileContent(FORM_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH);
+
+  return template;
 }
 
 function moveUpNote(rowId, challengeType, itemType, itemPath) {
@@ -2047,8 +2060,11 @@ function removeNote() {
   showNoteContent(rowId, challengeType, itemType, isEditMode);
 }
 
-function editNoteModal(rowId, challengeType, itemType, itemPath) {
-  //todo
+function setNoteCellModeToForm(rowId, challengeType, itemType, itemPath) {
+  noteCellInFormModeElementIdSuffix = itemType + '-' + itemPath.join('-');
+
+  const isEditMode = true;
+  showNoteContent(rowId, challengeType, itemType, isEditMode);
 }
 
 function editNote(rowId, challengeType, itemType, itemPath) {
