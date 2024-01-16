@@ -7,6 +7,7 @@ const ANCHOR_CHARACTER = '#';
 
 const MISSING_INDEX_OF_VALUE = -1;
 const MISSING_TABLE_HEADER_NOTE_NAME = '?';
+const EMPTY_NOTE_ID = 0;
 
 const LANGUAGE_MISSING_VARIABLE_SIGN = '!!!';
 const LANGUAGE_JSON_FILE = '/files/data/website-language-variables.json';
@@ -24,6 +25,7 @@ const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-
 const READ_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-read-mode-note-cell-item.html';
 const EDIT_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-edit-mode-note-cell-item.html';
 const FORM_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-form-mode-note-cell-item.html';
+const CREATE_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-create-mode-note-cell-item.html';
 const MARKDOWN_FILES_ROOT_PATH = '/files/resources/md/';
 
 const INVISIBLE_STYLE = 'display: none';
@@ -1885,13 +1887,13 @@ async function showNoteValue(tableBodyElement, tableRowElement, rowId, challenge
     doubleLoopTimes -= 2;
   }
 
-  let noItemsExist = true;
+  let noteItemsCount = 0;
   let isNewTableRowNeeded = false;
   let tableRowElementToUse = tableRowElement;
   for (const noteKey in value) {
-    noItemsExist = false;
-
     for (const noteId of Object.keys(value[noteKey] ?? {})) {
+      noteItemsCount++;
+
       const itemPath = path.concat([noteKey, noteId]);
       const subValue = value[noteKey][noteId];
 
@@ -1903,7 +1905,6 @@ async function showNoteValue(tableBodyElement, tableRowElement, rowId, challenge
 
       let cellElement = tableRowElementToUse.insertCell(0);
       cellElement.rowSpan = rowsCount;
-      cellElement.innerHTML = itemType + ':' + itemPath.join('/');
       await showNoteCellContent(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig, value.length, rowsCount, isEditMode);
 
       totalRows += rowsCount;
@@ -1911,15 +1912,61 @@ async function showNoteValue(tableBodyElement, tableRowElement, rowId, challenge
     }
   }
 
-  if (noItemsExist) {
+  if (isEditMode
+    && (isNewTableRowNeeded || (totalRows === 0 && level === 1))
+    && Object.keys(noteTypeConfig).length > 0
+  ) {
+    tableRowElementToUse = tableBodyElement.insertRow(-1);
+    let cellElement = tableRowElementToUse.insertCell(-1);
+
+    showCreateNoteCellContent(cellElement, rowId, challengeType, itemType, path, noteItemsCount);
+
+    for (let i = 0; i < tableColumnsCount - level; i++) {
+      tableRowElementToUse.insertCell(-1);
+    }
+    totalRows++;
+  }
+
+  if (noteItemsCount === 0) {
     if (level > 1) {
       for (let i = 0; i <= tableColumnsCount - level; i++) {
-        tableRowElementToUse.insertCell(-1);
+        let cellElement = tableRowElementToUse.insertCell(-1);
+
+        if (i === 0 && isEditMode && Object.keys(noteTypeConfig).length > 0) {
+          showCreateNoteCellContent(cellElement, rowId, challengeType, itemType, path, noteItemsCount);
+        }
       }
     }
   }
 
   return Math. max(1, totalRows);
+}
+
+async function showCreateNoteCellContent(cellElement, rowId, challengeType, itemType, itemPath, newNoteNumber) {
+  const template = await getFileContent(CREATE_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH);
+  const itemPathString = itemPath.join('-');
+  const cellElementId = itemType + '-' + itemPathString + '-' + newNoteNumber + '-' + EMPTY_NOTE_ID;
+
+  cellElement.innerHTML = template
+    .replace(/#note-cell-id#/g, cellElementId)
+    .replace(/#row-id#/g, rowId)
+    .replace(/#challenge-type#/g, challengeType)
+    .replace(/#item-type#/g, itemType)
+    .replace(/#item-path#/g, '[' + itemPath.join(', ') + ']')
+    .replace(/#new-note-number#/g, newNoteNumber)
+  ;
+}
+
+async function createNewEmptyNote(rowId, challengeType, itemType, itemPath, newNoteNumber) {
+  const rowNotes = getChallengeNotesData(rowId, itemType);
+
+  let context = rowNotes;
+  for (const i of itemPath) {
+    context = context[i];
+  }
+  context[newNoteNumber] = {[EMPTY_NOTE_ID]: []};
+
+  await setNoteCellModeToForm(rowId, challengeType, itemType, itemPath.concat([newNoteNumber, EMPTY_NOTE_ID]));
 }
 
 async function showNoteCellContent(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig, totalNotes, rowsCount, isEditMode) {
@@ -1970,11 +2017,14 @@ async function showNoteCellContent(cellElement, rowId, challengeType, itemType, 
     .replace(/#move-down-button-visible#/g, moveDownButtonVisible)
     .replace(/#remove-button-visible#/g, removeButtonVisible)
   ;
+
+  if (isEditFormMode) {
+    await showNoteCellContentInFormMode(cellElement, itemType, itemPath, noteTypeConfig);
+  }
 }
 
-async function getNoteCellInFormModeContent() {
-
-  return '';
+async function showNoteCellContentInFormMode(cellElement, itemType, itemPath, noteTypeConfig) {
+  //todo
 }
 
 async function moveUpNote(rowId, challengeType, itemType, itemPath) {
