@@ -79,7 +79,8 @@ const REMOVE_NOTE_MODAL_ROW_ID_ELEMENT_ID = 'remove-note-modal-row-id';
 const REMOVE_NOTE_MODAL_CHALLENGE_TYPE_ELEMENT_ID = 'remove-note-modal-challenge-type';
 const REMOVE_NOTE_MODAL_ITEM_TYPE_ELEMENT_ID = 'remove-note-modal-item-type';
 const REMOVE_NOTE_MODAL_ITEM_PATH_ELEMENT_ID = 'remove-note-modal-item-path';
-const NOTE_CELL_VALUE_ELEMENT_ID = 'note-cell-value';
+const NOTE_CELL_INPUT_ELEMENT_ID = 'note-cell-input';
+const NOTE_CELL_SELECT_ELEMENT_ID = 'note-cell-select';
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -120,6 +121,11 @@ const REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY = 'person-feast-is-not-empty';
 const REQUIREMENT_PERSON_FEAST_HAVING_CHALLENGES = 'person-feast-having-challenges';
 const REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES = 'person-feast-not-having-challenges';
 
+const NOTE_CONFIG_SOURCE_TYPE_VALUES = 'values';
+const NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_SORTED = 'sorted';
+const NOTE_CONFIG_SOURCE_TYPE_LIST = 'list';
+const NOTE_CONFIG_SOURCE_TYPE_PATRONS = 'patrons';
+
 const JSON_MIME_TYPE = 'application/json';
 const JSON_DATA_FILE_EXTENSION = '.mypatrons.json';
 const MARKDOWN_FILE_EXTENSION = '.md';
@@ -127,6 +133,8 @@ const MARKDOWN_FILE_EXTENSION = '.md';
 const JSON_STRINGIFY_SPACES = 2;
 const MAX_NOTE_OBJECT_STRUCTURE_LEVELS = 5;
 
+const LANGUAGE_VARIABLE_PREFIX = 'lang-';
+const LANGUAGE_VARIABLE_CAPITALIZE_SUFFIX_REGEXP = '[|]capitalize$';
 const WEEKDAY_LANGUAGE_VARIABLES_PREFIX = 'lang-weekday-abbreviation-';
 
 const SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME = 'lang-without-feast-selection';
@@ -1330,6 +1338,8 @@ function addOptionToSelect(select, value, name) {
   option.value = value;
 
   select.append(option);
+
+  return option;
 }
 
 function getSortedArray(object) {
@@ -2019,12 +2029,59 @@ async function showNoteCellContent(cellElement, rowId, challengeType, itemType, 
   ;
 
   if (isEditFormMode) {
-    await showNoteCellContentInFormMode(cellElement, itemType, itemPath, noteTypeConfig);
+    await showNoteCellContentInFormMode(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig);
   }
 }
 
-async function showNoteCellContentInFormMode(cellElement, itemType, itemPath, noteTypeConfig) {
-  //todo
+async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig) {
+  const selectElement = document.getElementById(NOTE_CELL_SELECT_ELEMENT_ID);
+  const inputElement = document.getElementById(NOTE_CELL_INPUT_ELEMENT_ID);
+
+  const noteIndex = noteTypeConfig.index ?? '';
+  const noteSources = noteTypeConfig.source ?? {};
+
+  selectElement.onchange = function() {
+    if (selectElement.value === '') {
+      inputElement.style = VISIBLE_STYLE;
+    } else {
+      inputElement.style = INVISIBLE_STYLE;
+    }
+  };
+
+  selectElement.style = VISIBLE_STYLE;
+  inputElement.style = INVISIBLE_STYLE;
+
+  for (let source of Object.keys(noteSources)) {
+    const sourceData = noteSources[source];
+
+    switch (source) {
+      case NOTE_CONFIG_SOURCE_TYPE_VALUES:
+        if (sourceData === NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_SORTED) {
+          let option = addOptionToSelect(selectElement, '', getLanguageVariable('lang-add-another-your-own-note'));
+        }
+        break;
+      case NOTE_CONFIG_SOURCE_TYPE_LIST:
+        for (const row of sourceData) {
+          const noteId = Object.keys(row)[0] ?? '';
+          const phrases = row[noteId] ?? [];
+
+          let value = '';
+          for (const phrase of phrases) {
+            if (phrase.match(new RegExp('^' + LANGUAGE_VARIABLE_PREFIX))) {
+              const langVariable = phrase.replace(new RegExp(LANGUAGE_VARIABLE_CAPITALIZE_SUFFIX_REGEXP), '');
+              value += getLanguageVariable(langVariable, langVariable !== phrase);
+            } else {
+              value += phrase;
+            }
+          }
+          addOptionToSelect(selectElement, noteId, value);
+        }
+        break;
+      case NOTE_CONFIG_SOURCE_TYPE_PATRONS:
+        //todo later ...
+        break;
+    }
+  }
 }
 
 async function moveUpNote(rowId, challengeType, itemType, itemPath) {
@@ -2133,7 +2190,7 @@ async function editNote(rowId, challengeType, itemType, itemPath) {
     context = context[i];
   }
 
-  const valueElement = document.getElementById(NOTE_CELL_VALUE_ELEMENT_ID);
+  const valueElement = document.getElementById(NOTE_CELL_INPUT_ELEMENT_ID);
   const newNoteId = valueElement.value ?? '';
   if (newNoteId.match(/^[1-9][0-9]*$/)) {
     context[newNoteId] = structuredClone(context[oldNoteId]);

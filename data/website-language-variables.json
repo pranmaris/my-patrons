@@ -10,14 +10,24 @@
         "pl": "https://pl.gratiadei.org#o-nas"
     },
 
-    "lang-add-new-challenge": {
-        "en": "add new challenge",
-        "pl": "dodaj nowe wyzwanie"
+    "lang-acolyte": {
+        "en": "acolyte",
+        "pl": "akolita"
     },
 
     "lang-actions": {
         "en": "actions",
         "pl": "akcje"
+    },
+
+    "lang-add-new-challenge": {
+        "en": "add new challenge",
+        "pl": "dodaj nowe wyzwanie"
+    },
+
+    "lang-add-another-your-own-note": {
+        "en": "add another Your own note",
+        "pl": "dodaj inną swoją notatkę"
     },
 
     "lang-after": {
@@ -46,6 +56,11 @@
     "lang-background-photo-attribution": {
         "en": "photo by Raimond Klavins (<a href=\"https://unsplash.com/photos/eamKoYza9r0\">Unsplash</a>)",
         "pl": "fot. Raimond Klavins (<a href=\"https://unsplash.com/photos/eamKoYza9r0\">Unsplash</a>)"
+    },
+
+    "lang-baptized-person": {
+        "en": "baptized person",
+        "pl": "osoba ochrzczona"
     },
 
     "lang-beatification": {
@@ -548,6 +563,11 @@
         "pl": "język"
     },
 
+    "lang-late-person-remembered-on-funeral-mass": {
+        "en": "late person remembered on funeral Mass",
+        "pl": "zmarła osoba wspominana na Mszy pogrzebowej"
+    },
+
     "lang-leap-year": {
         "en": "leap year",
         "pl": "rok przestępny"
@@ -736,7 +756,7 @@
         "pl": "zakon"
     },
 
-    "lang-origanist": {
+    "lang-organist": {
         "en": "organist",
         "pl": "organista"
     },
@@ -813,9 +833,34 @@
         "pl": "osoba"
     },
 
+    "lang-person-getting-married": {
+        "en": "person getting married",
+        "pl": "osoba zawierająca Małżeństwo"
+    },
+
     "lang-person-preaching-a-sermon": {
         "en": "person preaching a sermon",
-        "pl": "osoba głosząća kazanie"
+        "pl": "osoba głosząca kazanie"
+    },
+
+    "lang-person-receiving-first-holy-communion": {
+        "en": "person receiving first Holy Communion",
+        "pl": "osoba przyjmująca pierwszą Komunię Świętą"
+    },
+
+    "lang-person-receiving-confirmation": {
+        "en": "person receiving Confirmation",
+        "pl": "osoba przyjmująca Bierzmowanie"
+    },
+
+    "lang-person-receiving-anointing-of-the-sick": {
+        "en": "person receiving Anointing of the sick",
+        "pl": "osoba przyjmująca Namaszczenie chorych"
+    },
+
+    "lang-person-taking-holy-orders": {
+        "en": "person taking Holy orders",
+        "pl": "osoba przyjmująca Święcenia kapłańskie"
     },
 
     "lang-position": {
@@ -833,6 +878,11 @@
         "pl": "„My Patrons” jest jednym z projektów inicjatywy „<a href=\"https://pl.gratiadei.org\">Gratia Dei</a>”"
     },
 
+    "lang-psalterist": {
+        "en": "psalterist",
+        "pl": "psałterzysta"
+    },
+
     "lang-qr-code-url": {
         "en": "QR code URL",
         "pl": "URL kodu QR"
@@ -846,6 +896,11 @@
     "lang-randomize-order-again": {
         "en": "randomize order again",
         "pl": "losuj kolejność ponownie"
+    },
+
+    "lang-reader": {
+        "en": "reader",
+        "pl": "lektor"
     },
 
     "lang-rebuild-page": {
@@ -895,45 +950,45 @@
     },
 
     "lang-sacrament-anointing-of-the-sick": {
-        "en": "anointing of the sick",
-        "la": "unctio infirmorum",
-        "pl": "namaszczenie chorych"
+        "en": "Anointing of the sick",
+        "la": "Unctio infirmorum",
+        "pl": "Namaszczenie chorych"
     },
 
     "lang-sacrament-baptism": {
-        "en": "baptism",
-        "la": "baptisma",
-        "pl": "chrzest"
+        "en": "Baptism",
+        "la": "Baptisma",
+        "pl": "Chrzest"
     },
 
     "lang-sacrament-confirmation": {
-        "en": "confirmation",
-        "la": "confirmatio",
-        "pl": "bierzmowanie"
+        "en": "Confirmation",
+        "la": "Confirmatio",
+        "pl": "Bierzmowanie"
     },
 
     "lang-sacrament-holy-communion": {
-        "en": "holy communion",
-        "la": "eucharistia",
-        "pl": "eucharystia"
+        "en": "Holy Communion",
+        "la": "Eucharistia",
+        "pl": "Eucharystia"
     },
 
     "lang-sacrament-holy-orders": {
-        "en": "holy orders",
-        "la": "sacri ordines",
-        "pl": "kapłaństwo"
+        "en": "Holy Orders",
+        "la": "Sacri Ordines",
+        "pl": "Kapłaństwo"
     },
 
     "lang-sacrament-marriage": {
-        "en": "marriage",
-        "la": "matrimonium",
-        "pl": "małżeństwo"
+        "en": "Marriage",
+        "la": "Matrimonium",
+        "pl": "Małżeństwo"
     },
 
     "lang-sacrament-penance": {
-        "en": "penance",
-        "la": "paenitentia",
-        "pl": "pokuta"
+        "en": "Penance",
+        "la": "Paenitentia",
+        "pl": "Pokuta"
     },
 
     "lang-second-or-further-name": {
