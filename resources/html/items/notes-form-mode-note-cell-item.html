@@ -1,4 +1,10 @@
 <div id="note-cell-#note-cell-id#" rowspan="#rows-count#">
   <select id="note-cell-select"></select>
-  <input id="note-cell-input" />
+  <input id="note-cell-input" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" />
+  <a id="note-cell-set-existing-note-button" class="btn btn-light" role="button">
+    <img class="svg-image" src="/files/resources/svg/caret-right-square-fill.svg" />
+  </a>
+  <a id="note-cell-set-new-note-button" class="btn btn-light" role="button">
+    <img class="svg-image" src="/files/resources/svg/plus-square-fill.svg" />
+  </a>
 </div>

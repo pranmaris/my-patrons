@@ -81,6 +81,8 @@ const REMOVE_NOTE_MODAL_ITEM_TYPE_ELEMENT_ID = 'remove-note-modal-item-type';
 const REMOVE_NOTE_MODAL_ITEM_PATH_ELEMENT_ID = 'remove-note-modal-item-path';
 const NOTE_CELL_INPUT_ELEMENT_ID = 'note-cell-input';
 const NOTE_CELL_SELECT_ELEMENT_ID = 'note-cell-select';
+const NOTE_CELL_SET_EXISTING_NOTE_BUTTON = 'note-cell-set-existing-note-button';
+const NOTE_CELL_SET_NEW_NOTE_BUTTON = 'note-cell-set-new-note-button';
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -1332,7 +1334,7 @@ function resetAddNewChallengeButton() {
   button.disabled = !(requiredChecklistStepsDone.length > 0);
 }
 
-function addOptionToSelect(select, value, name) {
+function addOptionToSelect(select, value, name, isSelected = false) {
   const option = document.createElement('option');
   option.innerHTML = name;
   option.value = value;
@@ -1419,10 +1421,32 @@ function recalculateFileData() {
     });
   }
 
+  let notes = {};
+  const notesData = fileData[DATA_FIELD_NOTES] ?? {};
+  for (let index of Object.keys(notesData)) {
+    notes[index] = {};
+    for (let noteId of Object.keys(notesData[index])) {
+      if (noteId === EMPTY_NOTE_ID.toString()) {
+        continue;
+      }
+
+      noteObject = notesData[index][noteId];
+      if ((noteObject.value ?? '').length === 0) {
+        contonue;
+      }
+
+      notes[index][noteId] = {
+        value: noteObject.value
+        //todo inside
+      };
+    }
+  }
+
   fileData = {
     [DATA_FIELD_OWNER]: fileData[DATA_FIELD_OWNER] ?? '',
     [DATA_FIELD_FILENAME_WITHOUT_EXTENSION]: fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] ?? '',
-    [DATA_FIELD_CHALLENGES]: challenges
+    [DATA_FIELD_CHALLENGES]: challenges,
+    [DATA_FIELD_NOTES]: notes,
   };
 }
 
@@ -2033,54 +2057,155 @@ async function showNoteCellContent(cellElement, rowId, challengeType, itemType, 
   }
 }
 
+function getNotesConfiguredListValues(list) {
+  let result = [];
+
+  for (const row of list) {
+    const noteId = Object.keys(row)[0] ?? '';
+    const phrases = row[noteId] ?? [];
+
+    let value = '';
+    for (const phrase of phrases) {
+      if (phrase.match(new RegExp('^' + LANGUAGE_VARIABLE_PREFIX))) {
+        const langVariable = phrase.replace(new RegExp(LANGUAGE_VARIABLE_CAPITALIZE_SUFFIX_REGEXP), '');
+        value += getLanguageVariable(langVariable, langVariable !== phrase);
+      } else {
+        value += phrase;
+      }
+    }
+
+    result.push({[noteId]: value});
+  }
+
+  return result;
+}
+
+function getNotesPatronsValues(config) {
+  result = {};
+
+  //todo later ...
+
+  return result;
+}
+
+function getNotesFileDataValues(index) {
+  let result = {};
+
+  const notes = (fileData[DATA_FIELD_NOTES] ?? {})[index] ?? {};
+  for (const [noteId, data] of Object.entries(notes)) {
+    const value = data.value ?? '';
+    if (value.length > 0) {
+      result[noteId] = value;
+    }
+  }
+
+  return result;
+}
+
 async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig) {
+  const currentNoteId = Number(itemPath.at(-1));
+
   const selectElement = document.getElementById(NOTE_CELL_SELECT_ELEMENT_ID);
   const inputElement = document.getElementById(NOTE_CELL_INPUT_ELEMENT_ID);
+  const setExistingNoteButtonElement = document.getElementById(NOTE_CELL_SET_EXISTING_NOTE_BUTTON);
+  const setNewNoteButtonElement = document.getElementById(NOTE_CELL_SET_NEW_NOTE_BUTTON);
+
+  selectElement.style = INVISIBLE_STYLE;
+  inputElement.style = INVISIBLE_STYLE;
+  setExistingNoteButtonElement.style = INVISIBLE_STYLE;
+  setNewNoteButtonElement.style = INVISIBLE_STYLE;
 
   const noteIndex = noteTypeConfig.index ?? '';
   const noteSources = noteTypeConfig.source ?? {};
 
+  const listValues = getNotesConfiguredListValues(noteSources[NOTE_CONFIG_SOURCE_TYPE_LIST] ?? []);
+  const patronsValues = getNotesPatronsValues(noteSources[NOTE_CONFIG_SOURCE_TYPE_PATRONS] ?? {});
+  const fileDataValues = getNotesFileDataValues(noteIndex);
+
+  let selectableValues = {};
+
   selectElement.onchange = function() {
-    if (selectElement.value === '') {
+    const noteId = selectElement.value ?? '';
+    const value = selectableValues[noteId] ?? '';
+
+    inputElement.value = value;
+
+    inputElement.style = INVISIBLE_STYLE;
+    setNewNoteButtonElement.style = INVISIBLE_STYLE;
+    setExistingNoteButtonElement.style = INVISIBLE_STYLE;
+
+    if (noteId === '') {
       inputElement.style = VISIBLE_STYLE;
-    } else {
-      inputElement.style = INVISIBLE_STYLE;
     }
+
+    inputElement.onchange();
   };
+  inputElement.onchange = function() {
+    const value = inputElement.value;
 
-  selectElement.style = VISIBLE_STYLE;
-  inputElement.style = INVISIBLE_STYLE;
+    setNewNoteButtonElement.style = INVISIBLE_STYLE;
+    setExistingNoteButtonElement.style = INVISIBLE_STYLE;
 
+    if (value.length > 0) {
+      if (Object.values(fileDataValues).indexOf(value) === MISSING_INDEX_OF_VALUE) {
+        setNewNoteButtonElement.style = VISIBLE_STYLE;
+      } else {
+        setExistingNoteButtonElement.style = VISIBLE_STYLE;
+      }
+    }
+  }
+
+  if (currentNoteId === EMPTY_NOTE_ID || fileDataValues[currentNoteId] == undefined) {
+    addOptionToSelect(selectElement, EMPTY_NOTE_ID, SELECT_NAME);
+  }
+
+  let foundAnySource = false;
+  let foundSelectedOption = false;
   for (let source of Object.keys(noteSources)) {
+    foundAnySource = true;
+
     const sourceData = noteSources[source];
 
     switch (source) {
       case NOTE_CONFIG_SOURCE_TYPE_VALUES:
         if (sourceData === NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_SORTED) {
-          let option = addOptionToSelect(selectElement, '', getLanguageVariable('lang-add-another-your-own-note'));
+          //todo sort later ...
         }
-        break;
-      case NOTE_CONFIG_SOURCE_TYPE_LIST:
-        for (const row of sourceData) {
-          const noteId = Object.keys(row)[0] ?? '';
-          const phrases = row[noteId] ?? [];
-
-          let value = '';
-          for (const phrase of phrases) {
-            if (phrase.match(new RegExp('^' + LANGUAGE_VARIABLE_PREFIX))) {
-              const langVariable = phrase.replace(new RegExp(LANGUAGE_VARIABLE_CAPITALIZE_SUFFIX_REGEXP), '');
-              value += getLanguageVariable(langVariable, langVariable !== phrase);
-            } else {
-              value += phrase;
-            }
+        for (const [noteId, value] of Object.entries(fileDataValues)) {
+          let isSelected = (!foundSelectedOption && currentNoteId.toString() === noteId);
+          if (isSelected) {
+            foundSelectedOption = true;
           }
-          addOptionToSelect(selectElement, noteId, value);
+          addOptionToSelect(selectElement, noteId, value, isSelected);
+          selectableValues[noteId] = value;
+        }
+        addOptionToSelect(selectElement, '', getLanguageVariable('lang-add-new-your-own-note') + ' ' + SELECT_NAME);
+        break;
+
+      case NOTE_CONFIG_SOURCE_TYPE_LIST:
+        for (const row of listValues) {
+          const noteId = Object.keys(row)[0] ?? '';
+          const value = row[noteId] ?? [];
+
+          let isSelected = (!foundSelectedOption && currentNoteId.toString() === noteId);
+          if (isSelected) {
+            foundSelectedOption = true;
+          }
+          addOptionToSelect(selectElement, noteId, value, isSelected);
+          selectableValues[noteId] = value;
         }
         break;
+
       case NOTE_CONFIG_SOURCE_TYPE_PATRONS:
         //todo later ...
         break;
     }
+  }
+
+  if (!foundAnySource) {
+    inputElement.style = VISIBLE_STYLE;
+  } else {
+    selectElement.style = VISIBLE_STYLE;
   }
 }
 
