@@ -9,6 +9,7 @@ const MISSING_INDEX_OF_VALUE = -1;
 const MISSING_TABLE_HEADER_NOTE_NAME = '?';
 const EMPTY_NOTE_ID = 0;
 
+const MISSING_NOTE_ID_SIGN = '!!!';
 const LANGUAGE_MISSING_VARIABLE_SIGN = '!!!';
 const LANGUAGE_JSON_FILE = '/files/data/website-language-variables.json';
 const CHALLENGES_CONFIG_JSON_FILE = '/files/data/challenges.json';
@@ -319,6 +320,13 @@ const getJsonFromFile = async function(path) {
   return JSON.parse(content);
 }
 
+function synchronizeFileData() {
+  recalculateFileData();
+
+  fileContent = JSON.stringify(fileData);
+  fileData = parseFileDataFromContent(fileContent);
+}
+
 async function loadFile(input) {
   try {
     const data = input.files[0];
@@ -332,10 +340,7 @@ async function loadFile(input) {
     }
 
     sortChallengesByDate();
-    recalculateFileData();
-
-    fileContent = JSON.stringify(fileData);
-    fileData = parseFileDataFromContent(fileContent);
+    synchronizeFileData();
 
     reloadFileTab();
   } catch (e) {
@@ -1388,7 +1393,36 @@ function addNewChallenge() {
   success(getLanguageVariable('lang-new-challenge-created-successfully', true));
 }
 
+function getRecalculatedNotesData(srcData, noteTypes, usedNoteIdsByIndexes) {
+  let dstData = [];
+
+  const noteType = noteTypes.shift() ?? '';
+  const noteIndex = (notesTypesConfig[noteType] ?? {}).index ?? '';
+
+  if (noteIndex.length === 0) {
+    return [];
+  }
+
+  for (const rowObject of srcData) {
+    const noteId = Number(Object.keys(rowObject)[0] ?? EMPTY_NOTE_ID);
+    if (noteId !== EMPTY_NOTE_ID) {
+      const subNotesData = getRecalculatedNotesData(rowObject[noteId] ?? [], [...noteTypes], usedNoteIdsByIndexes);
+
+      dstData.push({ [noteId]: subNotesData });
+      if (noteIndex.length > 0) {
+        if (usedNoteIdsByIndexes[noteIndex] === undefined) {
+          usedNoteIdsByIndexes[noteIndex] = {};
+        }
+        usedNoteIdsByIndexes[noteIndex][noteId] = true;
+      }
+    }
+  }
+
+  return dstData;
+}
+
 function recalculateFileData() {
+  let usedNoteIdsByIndexes = {};
   let challenges = [];
   for (let ch of fileData[DATA_FIELD_CHALLENGES] ?? []) {
     let oldChecklist = structuredClone(ch.checklist);
@@ -1401,14 +1435,13 @@ function recalculateFileData() {
       checklist[i] = oldChecklist[i];
     }
 
-    let oldNotes = structuredClone(ch.notes);
     let notes = {};
-    for (let i in challengesConfig[ch.type].notes ?? {}) {
-      notes[i] = ch.notes[i] ?? [];
-      delete oldNotes[i];
-    }
-    for (let i in oldNotes) {
-      notes[i] = oldNotes[i];
+    const challengesConfigNotes = challengesConfig[ch.type].notes ?? {};
+    for (let i in challengesConfigNotes) {
+      const noteTypes = Object.keys((challengesConfigNotes[i] ?? {}).type ?? {});
+      const notesData = getRecalculatedNotesData(ch.notes[i] ?? [], noteTypes, usedNoteIdsByIndexes);
+
+      notes[i] = notesData;
     }
 
     challenges.push({
@@ -1423,22 +1456,22 @@ function recalculateFileData() {
 
   let notes = {};
   const notesData = fileData[DATA_FIELD_NOTES] ?? {};
-  for (let index of Object.keys(notesData)) {
-    notes[index] = {};
-    for (let noteId of Object.keys(notesData[index])) {
-      if (noteId === EMPTY_NOTE_ID.toString()) {
+  for (let noteIndex of Object.keys(notesData)) {
+    notes[noteIndex] = {};
+    for (let noteId of Object.keys(notesData[noteIndex])) {
+      if (noteId.toString() === EMPTY_NOTE_ID.toString()) {
+        continue;
+      }
+      if (!((usedNoteIdsByIndexes[noteIndex] ?? {})[noteId] ?? false)) {
         continue;
       }
 
-      noteObject = notesData[index][noteId];
-      if ((noteObject.value ?? '').length === 0) {
-        contonue;
+      noteValue = notesData[noteIndex][noteId];
+      if ((noteValue ?? '').length === 0) {
+        continue;
       }
 
-      notes[index][noteId] = {
-        value: noteObject.value
-        //todo inside
-      };
+      notes[noteIndex][noteId] = noteValue;
     }
   }
 
@@ -2003,12 +2036,19 @@ async function createNewEmptyNote(rowId, challengeType, itemType, itemPath, newN
   await setNoteCellModeToForm(rowId, challengeType, itemType, itemPath.concat([newNoteNumber, EMPTY_NOTE_ID]));
 }
 
+function getNoteFromFileData(index, noteId) {
+  const note = ((fileData[DATA_FIELD_NOTES] ?? {})[index] ?? {})[noteId] ?? '';
+
+  return note.length > 0 ? note : MISSING_NOTE_ID_SIGN + noteId + MISSING_NOTE_ID_SIGN;
+}
+
 async function showNoteCellContent(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig, totalNotes, rowsCount, isEditMode) {
   const itemPathString = itemPath.join('-');
   const cellElementId = itemType + '-' + itemPathString;
   const noteId = itemPath.at(-1);
   const noteNo = Number(itemPath.at(-2) ?? '0') + 1;
-  const content = noteId; //todo value
+  const noteIndex = noteTypeConfig.index ?? '';
+  const content = getNoteFromFileData(noteIndex, noteId);
 
   const isEditFormMode = (isEditMode && (lastFormModeNoteCellElementIdSuffix[itemType] ?? '') === itemPathString);
 
@@ -2092,8 +2132,7 @@ function getNotesFileDataValues(index) {
   let result = {};
 
   const notes = (fileData[DATA_FIELD_NOTES] ?? {})[index] ?? {};
-  for (const [noteId, data] of Object.entries(notes)) {
-    const value = data.value ?? '';
+  for (const [noteId, value] of Object.entries(notes)) {
     if (value.length > 0) {
       result[noteId] = value;
     }
@@ -2152,6 +2191,49 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
       } else {
         setExistingNoteButtonElement.style = VISIBLE_STYLE;
       }
+    }
+  }
+  setNewNoteButtonElement.onclick = function() {
+    const selectedNoteId = selectElement.value ?? '';
+    const selectedValue = inputElement.value;
+
+    let noteIdToAdd = 0;
+    if (selectedNoteId > 0) {
+      newNoteId = selectedNoteId;
+    } else {
+      let maxUsedNoteId = 0;
+      for (const row of listValues) {
+        const noteId = Number(Object.keys(row)[0] ?? 1);
+        if (noteId > maxUsedNoteId) {
+          maxUsedNoteId = noteId;
+        }
+      }
+      for (const key of Object.keys(fileDataValues)) {
+        const noteId = Number(key);
+        if (noteId > maxUsedNoteId) {
+          maxUsedNoteId = noteId;
+        }
+      }
+
+      newNoteId = maxUsedNoteId + 1;
+    }
+
+    let path = structuredClone(itemPath);
+    path.pop();
+    path = path.concat([newNoteId]);
+
+    addNewNote(rowId, challengeType, itemType, path, noteIndex, selectedValue);
+  }
+  setExistingNoteButtonElement.onclick = function() {
+    const selectedValue = inputElement.value;
+
+    const newNoteId = Object.keys(fileDataValues).find(key => fileDataValues[key] === selectedValue) ?? EMPTY_NOTE_ID;
+    if (newNoteId.toString() !== EMPTY_NOTE_ID.toString()) {
+      let path = structuredClone(itemPath);
+      path.pop();
+      path = path.concat([newNoteId]);
+
+      assignExistingNote(rowId, challengeType, itemType, path);
     }
   }
 
@@ -2230,6 +2312,8 @@ async function moveUpNote(rowId, challengeType, itemType, itemPath) {
   context[noteKey] = structuredClone(context[noteKey - 1]);
   context[noteKey - 1] = objectToMove;
 
+  synchronizeFileData();
+
   const isEditMode = true;
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
 }
@@ -2254,6 +2338,8 @@ async function moveDownNote(rowId, challengeType, itemType, itemPath) {
   const objectToMove = structuredClone(context[noteKey]);
   context[noteKey] = structuredClone(context[noteKey + 1]);
   context[noteKey + 1] = objectToMove;
+
+  synchronizeFileData();
 
   const isEditMode = true;
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
@@ -2286,6 +2372,8 @@ async function removeNote() {
   }
   context.splice(noteKey, 1);
 
+  synchronizeFileData();
+
   const isEditMode = true;
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
 }
@@ -2302,27 +2390,47 @@ async function setNoteCellModeToForm(rowId, challengeType, itemType, itemPath) {
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
 }
 
-async function editNote(rowId, challengeType, itemType, itemPath) {
+async function addNewNote(rowId, challengeType, itemType, itemPath, noteIndex, inputValue) {
   const rowNotes = getChallengeNotesData(rowId, itemType);
-  if (itemType.length < 2) {
-    return;
-  }
+  const value = inputValue.replace(/\s+/g, ' ').trim();
 
-  const oldNoteId = itemPath.pop();
+  const noteId = itemPath.pop();
+  const newNoteNumber = itemPath.pop();
 
   let context = rowNotes;
   for (const i of itemPath) {
     context = context[i];
   }
+  context[newNoteNumber] = {[noteId]: []};
 
-  const valueElement = document.getElementById(NOTE_CELL_INPUT_ELEMENT_ID);
-  const newNoteId = valueElement.value ?? '';
-  if (newNoteId.match(/^[1-9][0-9]*$/)) {
-    context[newNoteId] = structuredClone(context[oldNoteId]);
-    delete context[oldNoteId];
-  } else {
-    valueElement.value = oldNoteId;
+  if (fileData[DATA_FIELD_NOTES] == undefined) {
+    fileData[DATA_FIELD_NOTES] = {};
   }
+  if (fileData[DATA_FIELD_NOTES][noteIndex] == undefined) {
+    fileData[DATA_FIELD_NOTES][noteIndex] = {};
+  }
+  fileData[DATA_FIELD_NOTES][noteIndex][noteId] = inputValue;
+
+  synchronizeFileData();
+
+  const isEditMode = true;
+  lastFormModeNoteCellElementIdSuffix = {};
+  await showNoteContent(rowId, challengeType, itemType, isEditMode);
+}
+
+async function assignExistingNote(rowId, challengeType, itemType, itemPath) {
+  const rowNotes = getChallengeNotesData(rowId, itemType);
+
+  const noteId = itemPath.pop();
+  const noteNumber = itemPath.pop();
+
+  let context = rowNotes;
+  for (const i of itemPath) {
+    context = context[i];
+  }
+  context[noteNumber] = {[noteId]: []};
+
+  synchronizeFileData();
 
   const isEditMode = true;
   lastFormModeNoteCellElementIdSuffix = {};
