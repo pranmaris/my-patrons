@@ -2161,6 +2161,30 @@ function getNotesFileDataValues(index) {
   return result;
 }
 
+function getSiblingsNoteIds(rowId, itemType, itemPath) {
+  let result = {};
+
+  const rowNotes = getChallengeNotesData(rowId, itemType);
+
+  let path = structuredClone(itemPath);
+  const noteId = Number(path.pop());
+  const noteNumber = Number(path.pop());
+
+  let context = rowNotes;
+  for (const i of path) {
+    context = context[i];
+  }
+
+  for (const row of context) {
+    const siblingNoteId = Number(Object.keys(row)[0] ?? EMPTY_NOTE_ID);
+    if ([noteId, EMPTY_NOTE_ID].indexOf(siblingNoteId) == MISSING_INDEX_OF_VALUE) {
+      result[siblingNoteId] = siblingNoteId;
+    }
+  }
+
+  return result;
+}
+
 async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig) {
   const currentNoteId = Number(itemPath.at(-1));
 
@@ -2180,6 +2204,7 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
   const listValues = getNotesConfiguredListValues(noteSources[NOTE_CONFIG_SOURCE_TYPE_LIST] ?? []);
   const patronsValues = getNotesPatronsValues(noteSources[NOTE_CONFIG_SOURCE_TYPE_PATRONS] ?? {});
   const fileDataValues = getNotesFileDataValues(noteIndex);
+  const siblingsNoteIds = getSiblingsNoteIds(rowId, itemType, itemPath);
 
   let selectableValues = {};
 
@@ -2206,10 +2231,16 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
     setExistingNoteButtonElement.style = INVISIBLE_STYLE;
 
     if (value.length > 0) {
-      if (Object.values(fileDataValues).indexOf(value) === MISSING_INDEX_OF_VALUE) {
+      const noteNumber = Object.values(fileDataValues).indexOf(value);
+
+      if (noteNumber === MISSING_INDEX_OF_VALUE) {
         setNewNoteButtonElement.style = VISIBLE_STYLE;
       } else {
-        setExistingNoteButtonElement.style = VISIBLE_STYLE;
+        const noteId = Object.keys(fileDataValues).find(key => fileDataValues[key] === value) ?? EMPTY_NOTE_ID;
+
+        if (siblingsNoteIds[noteId] == undefined) {
+          setExistingNoteButtonElement.style = VISIBLE_STYLE;
+        }
       }
     }
   }
@@ -2290,8 +2321,10 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
           if (isSelected) {
             foundSelectedOption = true;
           }
-          addOptionToSelect(selectElement, noteId, value, isSelected);
-          selectableValues[noteId] = value;
+          if (siblingsNoteIds[noteId] == undefined) {
+            addOptionToSelect(selectElement, noteId, value, isSelected);
+            selectableValues[noteId] = value;
+          }
         }
 
         isSelected = false;
@@ -2310,8 +2343,10 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
           if (isSelected) {
             foundSelectedOption = true;
           }
-          addOptionToSelect(selectElement, noteId, value, isSelected);
-          selectableValues[noteId] = value;
+          if (siblingsNoteIds[noteId] == undefined) {
+            addOptionToSelect(selectElement, noteId, value, isSelected);
+            selectableValues[noteId] = value;
+          }
         }
         break;
 
@@ -2431,11 +2466,12 @@ async function addNewNote(rowId, challengeType, itemType, itemPath, noteIndex, i
   const rowNotes = getChallengeNotesData(rowId, itemType);
   const value = inputValue.replace(/\s+/g, ' ').trim();
 
-  const noteId = itemPath.pop();
-  const newNoteNumber = itemPath.pop();
+  let path = structuredClone(itemPath);
+  const noteId = path.pop();
+  const newNoteNumber = path.pop();
 
   let context = rowNotes;
-  for (const i of itemPath) {
+  for (const i of path) {
     context = context[i];
   }
   context[newNoteNumber] = {[noteId]: []};
@@ -2458,11 +2494,12 @@ async function addNewNote(rowId, challengeType, itemType, itemPath, noteIndex, i
 async function assignExistingNote(rowId, challengeType, itemType, itemPath) {
   const rowNotes = getChallengeNotesData(rowId, itemType);
 
-  const noteId = itemPath.pop();
-  const noteNumber = itemPath.pop();
+  let path = structuredClone(itemPath);
+  const noteId = path.pop();
+  const noteNumber = path.pop();
 
   let context = rowNotes;
-  for (const i of itemPath) {
+  for (const i of path) {
     context = context[i];
   }
   context[noteNumber] = {[noteId]: []};
