@@ -12,10 +12,10 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
     private const DATA_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-data' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
 
     private const BREADCRUMBS_HIDE_DATA_ELEMENT_PATHS = [
-        'cards' => true,
+        'cards' => false,
         'dates' => false,
         'files' => false,
-        'notes' => true,
+        'notes' => false,
 
         'list-of-feasts' => true,
         'list-of-patrons-and-feasts' => true,
