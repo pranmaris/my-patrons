@@ -1,13 +1,16 @@
 const DEV_HOSTNAME_REMOVE_STRING = '.dev';
 
 const SELECT_NAME = '...';
+const SELECT_SEPARATOR = '----------';
 const NAME_TO_IGNORE = '~~~';
 
 const ANCHOR_CHARACTER = '#';
+const TEXT_CHARACTER_SORTED_AFTER_OTHERS = 'ﻩ';
 
 const MISSING_INDEX_OF_VALUE = -1;
 const MISSING_TABLE_HEADER_NOTE_NAME = '?';
 const EMPTY_NOTE_ID = 0;
+const NOTES_IDS_SKIPPED_AFTER_PREDEFINED_LIST = 1000;
 
 const MISSING_NOTE_ID_SIGN = '!!!';
 const LANGUAGE_MISSING_VARIABLE_SIGN = '!!!';
@@ -180,6 +183,17 @@ async function build() {
 
 function inArray(value, array) {
   return array.indexOf(value) != MISSING_INDEX_OF_VALUE;
+}
+
+function getDiacriticalRepresentationStringForSort(text) {
+  return text
+    .toLowerCase()
+    .replace('ł', "l")
+    .replace('ż', "żż")
+    .normalize("NFD")
+    .replace(/(\p{Diacritic})/gu, '$1' + TEXT_CHARACTER_SORTED_AFTER_OTHERS)
+    .replace(/(\p{Diacritic})/gu, '')
+  ;
 }
 
 function getPersonsDataDirName(personId) {
@@ -1339,10 +1353,16 @@ function resetAddNewChallengeButton() {
   button.disabled = !(requiredChecklistStepsDone.length > 0);
 }
 
-function addOptionToSelect(select, value, name, isSelected = false) {
+function addOptionToSelect(select, value, name, isSelected = false, isDisabled = false) {
   const option = document.createElement('option');
   option.innerHTML = name;
   option.value = value;
+  if (isSelected) {
+    option.selected = true;
+  }
+  if (isDisabled) {
+    option.disabled = true;
+  }
 
   select.append(option);
 
@@ -1351,8 +1371,8 @@ function addOptionToSelect(select, value, name, isSelected = false) {
 
 function getSortedArray(object) {
   return Object.entries(object).sort(function(a, b) {
-    var x = a[1].toLowerCase();
-    var y = b[1].toLowerCase();
+    var x = getDiacriticalRepresentationStringForSort(a[1]);
+    var y = getDiacriticalRepresentationStringForSort(b[1]);
     return x < y ? -1 : x > y ? 1 : 0;
   });
 }
@@ -2208,6 +2228,9 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
           maxUsedNoteId = noteId;
         }
       }
+      if (maxUsedNoteId > 0) {
+        maxUsedNoteId += NOTES_IDS_SKIPPED_AFTER_PREDEFINED_LIST;
+      }
       for (const key of Object.keys(fileDataValues)) {
         const noteId = Number(key);
         if (noteId > maxUsedNoteId) {
@@ -2244,16 +2267,25 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
   let foundAnySource = false;
   let foundSelectedOption = false;
   for (let source of Object.keys(noteSources)) {
+    if (foundAnySource) {
+      const isSelected = false;
+      const isDisabled = true;
+      addOptionToSelect(selectElement, EMPTY_NOTE_ID, SELECT_SEPARATOR, isSelected, isDisabled);
+    }
     foundAnySource = true;
 
     const sourceData = noteSources[source];
 
     switch (source) {
       case NOTE_CONFIG_SOURCE_TYPE_VALUES:
+        let valuesData = structuredClone(fileDataValues);
         if (sourceData === NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_SORTED) {
-          //todo sort later ...
+          valuesData = getSortedArray(valuesData);
+        } else {
+          valuesData = Object.entries(valuesData);
         }
-        for (const [noteId, value] of Object.entries(fileDataValues)) {
+
+        for (const [noteId, value] of valuesData) {
           let isSelected = (!foundSelectedOption && currentNoteId.toString() === noteId);
           if (isSelected) {
             foundSelectedOption = true;
@@ -2261,6 +2293,11 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
           addOptionToSelect(selectElement, noteId, value, isSelected);
           selectableValues[noteId] = value;
         }
+
+        isSelected = false;
+        const isDisabled = true;
+        addOptionToSelect(selectElement, EMPTY_NOTE_ID, SELECT_SEPARATOR, isSelected, isDisabled);
+
         addOptionToSelect(selectElement, '', getLanguageVariable('lang-add-new-your-own-note') + ' ' + SELECT_NAME);
         break;
 
