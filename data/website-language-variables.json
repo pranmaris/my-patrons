@@ -318,16 +318,10 @@
         "pl": "1956 święta ruchome"
     },
 
-    "lang-date-source-feasts": {
-        "en": "feasts",
-        "la": "festa",
-        "pl": "święta"
-    },
-
-    "lang-date-source-former-feasts": {
-        "en": "former feasts",
-        "la": "pristina festa",
-        "pl": "dawne święta"
+    "lang-date-source-other-feasts": {
+        "en": "other feasts",
+        "la": "alia festa",
+        "pl": "inne święta"
     },
 
     "lang-date-source-mr-2004": {

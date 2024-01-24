@@ -69,7 +69,7 @@
       },
 
       "data-links": {
-        "feasts": ["1:#MVSDG"]
+        "other-feasts": ["1:#MVSDG"]
       }
     },
 
@@ -87,7 +87,7 @@
       },
 
       "data-links": {
-        "former-feasts": ["1:#MVMAT"]
+        "other-feasts": ["1:#MVMAT"]
       }
     },
 

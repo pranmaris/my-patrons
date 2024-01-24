@@ -1,8 +1,7 @@
 {
     "/records/categories/": "CategoriesContentBlock",
     "/records/god/": "PatronContentBlock",
-    "/records/feasts/": "FeastsContentBlock",
-    "/records/former-feasts/": "FeastsContentBlock",
+    "/records/other-feasts/": "FeastsContentBlock",
     "/records/patrons/": "PatronContentBlock",
     "/records/popes/": "PopesContentBlock",
 

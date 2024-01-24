@@ -429,6 +429,14 @@
         }
     },
     "getResurrectionFeastDateValidToday|7": {
+        "records/god/tri#mis": {
+            "name": {
+                "pl": "Trójca Przenajświętsza (Miłosierdzie Boże)"
+            },
+            "sources": {
+                "other-feasts": "#TRMIS"
+            }
+        },
         "records/god/fil#dal": {
             "name": {
                 "la": "Iesus Christus (Dominica in Albis)",

@@ -7,7 +7,7 @@
                 "pl": "Maria z Nazaretu (Najświętsza Maryja Panna Święta Boża Rodzicielka)"
             },
             "sources": {
-                "feasts": "1 I: #MVSDG"
+                "other-feasts": "1 I: #MVSDG"
             }
         }
     },
@@ -19,7 +19,7 @@
                 "pl": "Maria z Nazaretu (Macierzyństwo błogosławionej Maryi Dziewicy)"
             },
             "sources": {
-                "former-feasts": "11 X: #MVMAT"
+                "other-feasts": "11 X: #MVMAT"
             }
         }
     }

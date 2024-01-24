@@ -1,8 +1,7 @@
 {
     "categories": "/records/categories",
     "god": "/records/god/",
-    "feasts": "/records/feasts",
-    "former-feasts": "/records/former-feasts",
+    "other-feasts": "/records/other-feasts",
     "patrons": "/records/patrons/",
     "popes": "/records/popes",
 

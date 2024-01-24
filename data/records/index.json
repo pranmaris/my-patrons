@@ -9,15 +9,10 @@
         "la": "Deus",
         "pl": "Bóg"
     },
-    "feasts": {
-        "en": "Feasts",
-        "la": "Festa",
-        "pl": "Święta"
-    },
-    "former-feasts": {
-        "en": "Former Feasts",
-        "la": "Pristina Festa",
-        "pl": "Dawne Święta"
+    "other-feasts": {
+        "en": "Other feasts",
+        "la": "Alia festa",
+        "pl": "Inne święta"
     },
     "patrons": {
         "en": "Patrons",

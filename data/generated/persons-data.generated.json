@@ -223,6 +223,11 @@
             "-"
         ]
     },
+    "god/tri@mis": {
+        "names": {
+            "pl": "Miłosierdzie Boże"
+        }
+    },
     "god/tri@tri": {
         "names": {
             "la": "Sollemnitas sacratissimae et indivíduae Trinitatis",

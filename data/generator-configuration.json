@@ -98,19 +98,11 @@
 
     {
         "class": "GenerateDateDataFileProcedure",
-        "params": ["feasts", "movable-dates-file", "/records/feasts", "feasts", "/generated/dates-feasts-movable"]
+        "params": ["other-feasts", "movable-dates-file", "/records/other-feasts", "feasts", "/generated/dates-feasts-movable"]
     },
     {
         "class": "GenerateDateDataFileProcedure",
-        "params": ["feasts", "movable-dates-file", "/records/feasts", "feasts", "/generated/dates-feasts-immovable"]
-    },
-    {
-        "class": "GenerateDateDataFileProcedure",
-        "params": ["former-feasts", "movable-dates-file", "/records/former-feasts", "feasts", "/generated/dates-feasts-movable"]
-    },
-    {
-        "class": "GenerateDateDataFileProcedure",
-        "params": ["former-feasts", "movable-dates-file", "/records/former-feasts", "feasts", "/generated/dates-feasts-immovable"]
+        "params": ["other-feasts", "movable-dates-file", "/records/other-feasts", "feasts", "/generated/dates-feasts-immovable"]
     },
 
     {

@@ -1,0 +1,13 @@
+{
+    "data-links": {
+        "TRMIS": {
+            "1": "records/god/tri#mis"
+        },
+        "MVSDG": {
+            "1": "records/patrons/maria/naz#gen"
+        },
+        "MVMAT": {
+            "1": "records/patrons/maria/naz#mat"
+        }
+    }
+}

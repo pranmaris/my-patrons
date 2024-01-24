@@ -42,6 +42,17 @@
   },
 
   "feasts": {
+    "mis": {
+      "names": {
+        "pl": [
+          "Miłosierdzie Boże"
+        ]
+      },
+
+      "data-links": {
+        "other-feasts": ["1:#TRMIS"]
+      }
+    },
     "tri": {
       "names": {
         "la": [
