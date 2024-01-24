@@ -1,13 +1,5 @@
 {
     "data-links": {
-        "SFIMI": {
-            "1": "records/god/fil#fam",
-            "2": "records/patrons/maria/naz#fam",
-            "3": "records/patrons/iosephus/naz#fam",
-            "4": "records/god/fil#fam",
-            "6": "records/patrons/iosephus/naz#fam",
-            "5": "records/patrons/maria/naz#fam"
-        },
         "MVMAT": {
             "1": "records/patrons/maria/naz#mat"
         }

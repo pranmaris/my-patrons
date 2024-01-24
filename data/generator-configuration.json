@@ -158,6 +158,10 @@
         "class": "GenerateDateDataFileProcedure",
         "params": ["mr-1956-movable", "movable-dates-file", "/sources/martyrologium-romanum/1956/elogia-festorum-et-officiorum-mobilium", "feasts", "/generated/dates-feasts-movable"]
     },
+    {
+        "class": "GenerateDateDataFileProcedure",
+        "params": ["mr-2004-movable", "movable-dates-file", "/sources/martyrologium-romanum/2004/elogia-pro-celebrationibus-mobilibus", "feasts", "/generated/dates-feasts-movable"]
+    },
 
     {
         "class": "GeneratePersonsDataProcedure",

@@ -1,4 +1,26 @@
 {
+    "getBaptismOfJesusFeastDateValidToday|0": {
+        "records/god/fil#bap": {
+            "name": {
+                "la": "Iesus Christus (Baptismus Domini)",
+                "pl": "Jezus Chrystus (Chrzest Pański)"
+            },
+            "sources": {
+                "mr-2004-movable": "#3"
+            }
+        }
+    },
+    "getFirstSundayOfAdventDateValidToday|-7": {
+        "records/god/fil#ure": {
+            "name": {
+                "la": "Iesus Christus (Iesus Christus Universorum Rex)",
+                "pl": "Jezus Chrystus (Jezus Chrystus Król Wszechświata)"
+            },
+            "sources": {
+                "mr-2004-movable": "#15"
+            }
+        }
+    },
     "getFirstSundayOfAdventDateValidToday|0": {
         "records/god/fil#d1a": {
             "name": {
@@ -6,7 +28,8 @@
                 "pl": "Jezus Chrystus (Pierwsza Niedziela Adwentu)"
             },
             "sources": {
-                "mr-1956-movable": "#1"
+                "mr-1956-movable": "#1",
+                "mr-2004-movable": "#1"
             }
         }
     },
@@ -17,7 +40,6 @@
                 "pl": "Jezus Chrystus (Święta Rodzina)"
             },
             "sources": {
-                "former-feasts": "#SFIMI",
                 "mr-1956-movable": "#3"
             }
         },
@@ -27,7 +49,6 @@
                 "pl": "Maria z Nazaretu (Święta Rodzina)"
             },
             "sources": {
-                "former-feasts": "#SFIMI",
                 "mr-1956-movable": "#3"
             }
         },
@@ -37,37 +58,7 @@
                 "pl": "Józef z Nazaretu (Święta Rodzina)"
             },
             "sources": {
-                "former-feasts": "#SFIMI",
                 "mr-1956-movable": "#3"
-            }
-        }
-    },
-    "getHolyFamilyFeastDateValidBeforeMr2001|0": {
-        "records/god/fil#fam": {
-            "name": {
-                "la": "Iesus Christus (Sancta Familia)",
-                "pl": "Jezus Chrystus (Święta Rodzina)"
-            },
-            "sources": {
-                "former-feasts": "#SFIMI"
-            }
-        },
-        "records/patrons/maria/naz#fam": {
-            "name": {
-                "la": "Maria Virgo (Sancta Familia)",
-                "pl": "Maria z Nazaretu (Święta Rodzina)"
-            },
-            "sources": {
-                "former-feasts": "#SFIMI"
-            }
-        },
-        "records/patrons/iosephus/naz#fam": {
-            "name": {
-                "la": "Iosephus (Sancta Familia)",
-                "pl": "Józef z Nazaretu (Święta Rodzina)"
-            },
-            "sources": {
-                "former-feasts": "#SFIMI"
             }
         }
     },
@@ -78,7 +69,7 @@
                 "pl": "Jezus Chrystus (Święta Rodzina)"
             },
             "sources": {
-                "feasts": "#SFIMI"
+                "mr-2004-movable": "#2"
             }
         },
         "records/patrons/maria/naz#fam": {
@@ -87,7 +78,7 @@
                 "pl": "Maria z Nazaretu (Święta Rodzina)"
             },
             "sources": {
-                "feasts": "#SFIMI"
+                "mr-2004-movable": "#2"
             }
         },
         "records/patrons/iosephus/naz#fam": {
@@ -96,7 +87,7 @@
                 "pl": "Józef z Nazaretu (Święta Rodzina)"
             },
             "sources": {
-                "feasts": "#SFIMI"
+                "mr-2004-movable": "#2"
             }
         }
     },
@@ -111,6 +102,17 @@
             }
         }
     },
+    "getResurrectionFeastDateValidToday|-1": {
+        "records/god/fil#sab": {
+            "name": {
+                "la": "Iesus Christus (Sabbato sancto)",
+                "pl": "Jezus Chrystus (Wielka Sobota)"
+            },
+            "sources": {
+                "mr-2004-movable": "#7"
+            }
+        }
+    },
     "getResurrectionFeastDateValidToday|-14": {
         "records/god/fil#dps": {
             "name": {
@@ -122,6 +124,17 @@
             }
         }
     },
+    "getResurrectionFeastDateValidToday|-2": {
+        "records/god/fil#fe6": {
+            "name": {
+                "la": "Iesus Christus (feria sexta in Passione Domini)",
+                "pl": "Jezus Chrystus (Wielki Piątek)"
+            },
+            "sources": {
+                "mr-2004-movable": "#7"
+            }
+        }
+    },
     "getResurrectionFeastDateValidToday|-3": {
         "records/god/fil#fe5": {
             "name": {
@@ -129,7 +142,19 @@
                 "pl": "Jezus Chrystus (Wielki Czwartek)"
             },
             "sources": {
-                "mr-1956-movable": "#9"
+                "mr-1956-movable": "#9",
+                "mr-2004-movable": "#7"
+            }
+        }
+    },
+    "getResurrectionFeastDateValidToday|-42": {
+        "records/god/fil#d40": {
+            "name": {
+                "la": "Iesus Christus (Dominica prima in Quadragesima)",
+                "pl": "Jezus Chrystus (Pierwsza Niedziela Wielkiego Postu)"
+            },
+            "sources": {
+                "mr-2004-movable": "#5"
             }
         }
     },
@@ -141,7 +166,8 @@
                 "pl": "Jezus Chrystus (Środa Popielcowa)"
             },
             "sources": {
-                "mr-1956-movable": "#5"
+                "mr-1956-movable": "#5",
+                "mr-2004-movable": "#4"
             }
         }
     },
@@ -165,6 +191,15 @@
             "sources": {
                 "mr-1956-movable": "#8"
             }
+        },
+        "records/god/fil#dpp": {
+            "name": {
+                "la": "Iesus Christus (Dominica in Palmis de Passione Domini)",
+                "pl": "Jezus Chrystus (Niedziela Palmowa Męki Pańskiej)"
+            },
+            "sources": {
+                "mr-2004-movable": "#6"
+            }
         }
     },
     "getResurrectionFeastDateValidToday|-9": {
@@ -185,8 +220,8 @@
                 "pl": "Jezus Chrystus (Zmartwychwstanie Jezusa Chrystusa)"
             },
             "sources": {
-                "feasts": "#ICRES",
-                "mr-1956-movable": "#10"
+                "mr-1956-movable": "#10",
+                "mr-2004-movable": "#8"
             }
         }
     },
@@ -257,7 +292,19 @@
                 "pl": "Jezus Chrystus (Wniebowstąpienie Jezusa Chrystusa)"
             },
             "sources": {
-                "mr-1956-movable": "#16"
+                "mr-1956-movable": "#16",
+                "mr-2004-movable": "#9"
+            }
+        }
+    },
+    "getResurrectionFeastDateValidToday|42": {
+        "records/god/fil#asc": {
+            "name": {
+                "la": "Iesus Christus (Ascénsio Iesu Christi)",
+                "pl": "Jezus Chrystus (Wniebowstąpienie Jezusa Chrystusa)"
+            },
+            "sources": {
+                "mr-2004-movable": "#9"
             }
         }
     },
@@ -290,7 +337,8 @@
                 "pl": "Duch Święty (Zesłanie Ducha Świętego)"
             },
             "sources": {
-                "mr-1956-movable": "#19"
+                "mr-1956-movable": "#19",
+                "mr-2004-movable": "#10"
             }
         }
     },
@@ -301,7 +349,8 @@
                 "pl": "Trójca Przenajświętsza (Uroczystość Trójcy Przenajświętszej)"
             },
             "sources": {
-                "mr-1956-movable": "#20"
+                "mr-1956-movable": "#20",
+                "mr-2004-movable": "#11"
             }
         },
         "records/god/spi#peo": {
@@ -323,6 +372,26 @@
             "sources": {
                 "mr-1956-movable": "#21"
             }
+        },
+        "records/god/fil#ces": {
+            "name": {
+                "la": "Iesus Christus (Sanctissimum Corpore et Sanguis Christi)",
+                "pl": "Jezus Chrystus (Najświętsze Ciało i Krew Chrystusa)"
+            },
+            "sources": {
+                "mr-2004-movable": "#12"
+            }
+        }
+    },
+    "getResurrectionFeastDateValidToday|63": {
+        "records/god/fil#ces": {
+            "name": {
+                "la": "Iesus Christus (Sanctissimum Corpore et Sanguis Christi)",
+                "pl": "Jezus Chrystus (Najświętsze Ciało i Krew Chrystusa)"
+            },
+            "sources": {
+                "mr-2004-movable": "#12"
+            }
         }
     },
     "getResurrectionFeastDateValidToday|67": {
@@ -343,7 +412,19 @@
                 "pl": "Jezus Chrystus (Najświętsze Serce Jezusa)"
             },
             "sources": {
-                "mr-1956-movable": "#23"
+                "mr-1956-movable": "#23",
+                "mr-2004-movable": "#13"
+            }
+        }
+    },
+    "getResurrectionFeastDateValidToday|69": {
+        "records/patrons/maria/naz#cor": {
+            "name": {
+                "la": "Maria Virgo (Immaculatum Cor beate Mariae Virginis)",
+                "pl": "Maria z Nazaretu (Niepokalane Serce Najświętszej Maryi Panny)"
+            },
+            "sources": {
+                "mr-2004-movable": "#14"
             }
         }
     },

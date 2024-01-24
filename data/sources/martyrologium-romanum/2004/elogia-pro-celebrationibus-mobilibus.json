@@ -13,7 +13,7 @@
     },
 
     "3": {
-        "base": "get2004BaptismOfJesusFeastDateValidToday",
+        "base": "getBaptismOfJesusFeastDateValidToday",
         "move": 0,
         "la": "[(c)]: ([1|1])"
     },
@@ -38,7 +38,11 @@
     },
 
     "7": {
-        "base": "getResurrectionFeastDateValidToday",
+        "base": {
+          "1": "getResurrectionFeastDateValidToday",
+          "2": "getResurrectionFeastDateValidToday",
+          "3": "getResurrectionFeastDateValidToday"
+        },
         "move": {
             "1": -3,
             "2": -2,
@@ -54,7 +58,10 @@
     },
 
     "9": {
-        "base": "getResurrectionFeastDateValidToday",
+        "base": {
+            "1": "getResurrectionFeastDateValidToday",
+            "2": "getResurrectionFeastDateValidToday"
+        },
         "move": {
             "1": 39,
             "2": 42
@@ -76,7 +83,10 @@
 
     "12": {
         "page": 37,
-        "base": "getResurrectionFeastDateValidToday",
+        "base": {
+            "1": "getResurrectionFeastDateValidToday",
+            "2": "getResurrectionFeastDateValidToday"
+        },
         "move": {
             "1": 60,
             "2": 63

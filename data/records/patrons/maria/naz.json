@@ -121,8 +121,6 @@
       },
 
       "data-links": {
-        "feasts": ["2:#SFIMI"],
-        "former-feasts": ["2:#SFIMI", "5:#SFIMI"],
         "mr-2004-movable": ["2:#2"],
         "mr-1956-movable": ["2:#3"]
       }
