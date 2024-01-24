@@ -10,6 +10,7 @@ const TEXT_CHARACTER_SORTED_AFTER_OTHERS = 'ﻩ';
 const MISSING_INDEX_OF_VALUE = -1;
 const MISSING_TABLE_HEADER_NOTE_NAME = '?';
 const EMPTY_NOTE_ID = 0;
+const NOTE_QUANTITY_INFINITY_MAX = 0;
 const NOTES_IDS_SKIPPED_AFTER_PREDEFINED_LIST = 1000;
 
 const MISSING_NOTE_ID_SIGN = '!!!';
@@ -1963,12 +1964,17 @@ async function showNoteValue(tableBodyElement, tableRowElement, rowId, challenge
   let totalRows = 0;
 
   let noteTypeConfig = {};
-  let noteQuantity = [];
+  let noteQuantityMin = 0;
+  let noteQuantityMax = NOTE_QUANTITY_INFINITY_MAX;
   let doubleLoopTimes = path.length;
   for (const noteTypeData of Object.entries(challengeConfig.type ?? {})) {
     if (doubleLoopTimes <= 0) {
       noteTypeConfig = notesTypesConfig[noteTypeData[0] ?? null] ?? {};
-      noteQuantity = noteTypeData[1] ?? [];
+
+      const noteQuantity = noteTypeData[1] ?? [];
+
+      noteQuantityMin = noteQuantity[0] ?? 0;
+      noteQuantityMax = noteQuantity[1] ?? NOTE_QUANTITY_INFINITY_MAX;
       break;
     }
     doubleLoopTimes -= 2;
@@ -2002,6 +2008,7 @@ async function showNoteValue(tableBodyElement, tableRowElement, rowId, challenge
   if (isEditMode
     && (isNewTableRowNeeded || (totalRows === 0 && level === 1))
     && Object.keys(noteTypeConfig).length > 0
+    && (noteQuantityMax === NOTE_QUANTITY_INFINITY_MAX || noteQuantityMax > noteItemsCount)
   ) {
     tableRowElementToUse = tableBodyElement.insertRow(-1);
     let cellElement = tableRowElementToUse.insertCell(-1);

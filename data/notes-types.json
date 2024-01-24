@@ -135,7 +135,7 @@
         {"94": ["lang-person-taking-holy-orders"]},
         {"95": ["lang-person-getting-married"]},
         {"96": ["lang-person-receiving-anointing-of-the-sick"]},
-        {"100": ["lang-late-person-remembered-on-funeral-mass"]}
+        {"100": ["lang-person-mentioned-in-mass-intentions"]}
       ],
       "values": "sorted"
     },

@@ -557,11 +557,6 @@
         "pl": "język"
     },
 
-    "lang-late-person-remembered-on-funeral-mass": {
-        "en": "late person remembered on funeral Mass",
-        "pl": "zmarła osoba wspominana na Mszy pogrzebowej"
-    },
-
     "lang-leap-year": {
         "en": "leap year",
         "pl": "rok przestępny"
@@ -830,6 +825,11 @@
     "lang-person-getting-married": {
         "en": "person getting married",
         "pl": "osoba zawierająca Małżeństwo"
+    },
+
+    "lang-person-mentioned-in-mass-intentions": {
+        "en": "person mentioned in Mass intentions",
+        "pl": "osoba wymieniona w intencjach mszalnych"
     },
 
     "lang-person-preaching-a-sermon": {
