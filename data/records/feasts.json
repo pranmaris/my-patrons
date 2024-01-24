@@ -10,7 +10,7 @@
         }
     },
     "ICRES": {
-        "base": "getResurrectionFeastDate",
+        "base": "getResurrectionFeastDateValidToday",
         "move": 0,
         "name": {
             "pl": "[1|Zmartwychwstanie Jezusa Chrystusa]"
@@ -21,9 +21,9 @@
     },
     "SFIMI": {
         "base": {
-            "1": "getHolyFamilyFeastDateTypeC",
-            "2": "getHolyFamilyFeastDateTypeC",
-            "3": "getHolyFamilyFeastDateTypeC"
+            "1": "getHolyFamilyFeastDateValidToday",
+            "2": "getHolyFamilyFeastDateValidToday",
+            "3": "getHolyFamilyFeastDateValidToday"
         },
         "move": {
             "1": 0,

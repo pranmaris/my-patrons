@@ -35,7 +35,7 @@ class MovableFeastBase
         return $this->isLastMonthWithDayImmovable;
     }
 
-    public function getResurrectionFeastDate(int $year): string
+    public function getResurrectionFeastDateValidToday(int $year): string
     {
         //Meeus/Jones/Butcher method
         $a = $year % 19;
@@ -79,7 +79,7 @@ class MovableFeastBase
         return $this->getDayOfMonth($year, 10);
     }
 
-    public function getHolyFamilyFeastDateTypeA(int $year): string
+    public function getHolyFamilyFeastDateValidBeforeMr1960(int $year): string
     {
         $jan7 = "$year-01-07";
         $weekDay = $this->date->getFullDateWeekDay($jan7);
@@ -95,7 +95,7 @@ class MovableFeastBase
         return $this->date->getDateMonthWithDay($date);
     }
 
-    public function getHolyFamilyFeastDateTypeB(int $year): string
+    public function getHolyFamilyFeastDateValidBeforeMr2001(int $year): string
     {
         $jan7 = "$year-01-07";
         $weekDay = $this->date->getFullDateWeekDay($jan7);
@@ -109,7 +109,7 @@ class MovableFeastBase
         return $this->date->getDateMonthWithDay($date);
     }
 
-    public function getHolyFamilyFeastDateTypeC(int $year): string
+    public function getHolyFamilyFeastDateValidToday(int $year): string
     {
         $dec29 = "$year-12-29";
         $weekDay = $this->date->getFullDateWeekDay($dec29);
@@ -126,78 +126,78 @@ class MovableFeastBase
         return $this->date->getDateMonthWithDay($date);
     }
 
-    //public function getJesusTheKingFeastDate(int $year): string
-    //{
-        //$oct31 = "$year-10-31";
-        //$weekDay = $this->date->getFullDateWeekDay($oct31);
+    public function getJesusTheKingFeastDateValidBeforeMr2001(int $year): string
+    {
+        $oct31 = "$year-10-31";
+        $weekDay = $this->date->getFullDateWeekDay($oct31);
 
-        //$date = $this->date->getDateMovedByDays($oct31, -$weekDay);
+        $date = $this->date->getDateMovedByDays($oct31, -$weekDay);
 
-        //return $this->date->getDateMonthWithDay($date);
-    //}
+        return $this->date->getDateMonthWithDay($date);
+    }
 
-    //public function getTheMostHolyNameOfJesusFeastDate(int $year): string
-    //{
-        //$jan2 = "$year-01-02";
-        //$weekDay = $this->date->getFullDateWeekDay($jan2);
+    public function getTheMostHolyNameOfJesusFeastDateValidBeforeMr2001(int $year): string
+    {
+        $jan2 = "$year-01-02";
+        $weekDay = $this->date->getFullDateWeekDay($jan2);
 
-        //$moveDays = 0;
-        //if ($weekDay >= 4 && $weekDay <= 6) {
-            //$moveDays = 7 - $weekDay;
-        //}
+        $moveDays = 0;
+        if ($weekDay >= 4 && $weekDay <= 6) {
+            $moveDays = 7 - $weekDay;
+        }
 
-        //$date = $this->date->getDateMovedByDays($jan2, $moveDays);
+        $date = $this->date->getDateMovedByDays($jan2, $moveDays);
 
-        //return $this->date->getDateMonthWithDay($date);
-    //}
+        return $this->date->getDateMonthWithDay($date);
+    }
 
-    //public function getTheGreaterProcessionToSaintPeterDateTypeA(int $year): string
-    //{
-        //$result = self::MISSING_DATE;
+    public function getTheGreaterProcessionToSaintPeterDateValidBeforeMr1960(int $year): string
+    {
+        $result = self::MISSING_DATE;
 
-        //$resurrectionDate = $this->getResurrectionFeastDate($year);
-        //if ($resurrectionDate === '04-25') {
-            //$result = '04-27';
-        //}
+        $resurrectionDate = $this->getResurrectionFeastDateValidToday($year);
+        if ($resurrectionDate === '04-25') {
+            $result = '04-27';
+        }
 
-        //return $result;
-    //}
+        return $result;
+    }
 
-    //public function getTheGreaterProcessionToSaintPeterDateTypeB(int $year): string
-    //{
-        //$result = self::MISSING_DATE;
+    public function getTheGreaterProcessionToSaintPeterDateValidBeforeMr2001(int $year): string
+    {
+        $result = self::MISSING_DATE;
 
-        //$resurrectionDate = $this->getResurrectionFeastDate($year);
-        //if ($resurrectionDate === '04-25') {
-            //$result = '04-28';
-        //} else if ($resurrectionDate === '04-24') {
-            //$result = '04-27';
-        //}
+        $resurrectionDate = $this->getResurrectionFeastDateValidToday($year);
+        if ($resurrectionDate === '04-25') {
+            $result = '04-28';
+        } else if ($resurrectionDate === '04-24') {
+            $result = '04-27';
+        }
 
-        //return $result;
-    //}
+        return $result;
+    }
 
-    //public function getBaptismOfJesusFeastDate(int $year): string
-    //{
-        //$jan6 = "$year-01-06";
-        //$weekDay = $this->date->getFullDateWeekDay($jan6);
+    public function getBaptismOfJesusFeastDateValidToday(int $year): string
+    {
+        $jan6 = "$year-01-06";
+        $weekDay = $this->date->getFullDateWeekDay($jan6);
 
-        //$date = $this->date->getDateMovedByDays($jan6, 7 - $weekDay);
+        $date = $this->date->getDateMovedByDays($jan6, 7 - $weekDay);
 
-        //return $this->date->getDateMonthWithDay($date);
-    //}
+        return $this->date->getDateMonthWithDay($date);
+    }
 
-    //public function getFirstSundayOfAdventDate(int $year): string
-    //{
-        //$dec25 = "$year-12-25";
-        //$weekDay = $this->date->getFullDateWeekDay($dec25);
+    public function getFirstSundayOfAdventDateValidToday(int $year): string
+    {
+        $dec25 = "$year-12-25";
+        $weekDay = $this->date->getFullDateWeekDay($dec25);
 
-        //if ($weekDay === 0) {
-            //$weekDay = 7;
-        //}
+        if ($weekDay === 0) {
+            $weekDay = 7;
+        }
 
-        //$date = $this->date->getDateMovedByDays($dec25, -4 * 7 + (7 - $weekDay));
+        $date = $this->date->getDateMovedByDays($dec25, -4 * 7 + (7 - $weekDay));
 
-        //return $this->date->getDateMonthWithDay($date);
-    //}
+        return $this->date->getDateMonthWithDay($date);
+    }
 }

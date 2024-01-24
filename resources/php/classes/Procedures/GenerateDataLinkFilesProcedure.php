@@ -88,6 +88,7 @@ class GenerateDataLinkFilesProcedure extends Procedure
 
                         $standardTagList = null;
                         $firstField = '';
+
                         foreach ($recordData as $field => $text) {
                             if (!preg_match(self::LANGUAGE_CODE_PATTERN, $field)) {
                                 continue;
@@ -108,7 +109,7 @@ class GenerateDataLinkFilesProcedure extends Procedure
                             }
                         }
 
-                        foreach ($standardTagList as $tagLink => $tagQuantity) {
+                        foreach ($standardTagList ?? [] as $tagLink => $tagQuantity) {
                             if (preg_match('/^[0-9]+$/', $tagLink)) {
                                 $this->generatedFilesData[$generatedFileFullPath][$recordId][$tagLink] = null;
                             }

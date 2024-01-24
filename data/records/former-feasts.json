@@ -1,12 +1,12 @@
 {
     "SFIMI": {
         "base": {
-            "1": "getHolyFamilyFeastDateTypeA",
-            "2": "getHolyFamilyFeastDateTypeA",
-            "3": "getHolyFamilyFeastDateTypeA",
-            "4": "getHolyFamilyFeastDateTypeB",
-            "5": "getHolyFamilyFeastDateTypeB",
-            "6": "getHolyFamilyFeastDateTypeB"
+            "1": "getHolyFamilyFeastDateValidBeforeMr1960",
+            "2": "getHolyFamilyFeastDateValidBeforeMr1960",
+            "3": "getHolyFamilyFeastDateValidBeforeMr1960",
+            "4": "getHolyFamilyFeastDateValidBeforeMr2001",
+            "5": "getHolyFamilyFeastDateValidBeforeMr2001",
+            "6": "getHolyFamilyFeastDateValidBeforeMr2001"
         },
         "move": {
             "1": 0,

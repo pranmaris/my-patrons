@@ -60,7 +60,9 @@
 
       "data-links": {
         "feasts": ["3:#SFIMI"],
-        "former-feasts": ["3:#SFIMI", "6:#SFIMI"]
+        "former-feasts": ["3:#SFIMI", "6:#SFIMI"],
+        "mr-2004-movable": ["3:#2"],
+        "mr-1956-movable": ["3:#3"]
       }
     }
   }
