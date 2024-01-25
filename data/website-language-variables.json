@@ -396,6 +396,11 @@
         "pl": "edytuj pola"
     },
 
+    "lang-empty-note-form-warning": {
+        "en": "Please provide this note content, otherwise it has been deleted soon",
+        "pl": "Podaj treść notatki, w przeciwnym razie zostanie ona wkrótce usunięta!"
+    },
+
     "lang-entrusted-missions": {
         "en": "entrusted missions",
         "pl": "powierzone misje"

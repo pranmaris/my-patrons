@@ -1998,7 +1998,7 @@ async function showNoteValue(tableBodyElement, tableRowElement, rowId, challenge
 
       let cellElement = tableRowElementToUse.insertCell(0);
       cellElement.rowSpan = rowsCount;
-      await showNoteCellContent(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig, value.length, rowsCount, isEditMode);
+      await showNoteCellContent(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig, noteQuantityMin, noteQuantityMax, value.length, rowsCount, isEditMode);
 
       totalRows += rowsCount;
       isNewTableRowNeeded = true;
@@ -2066,10 +2066,20 @@ async function createNewEmptyNote(rowId, challengeType, itemType, itemPath, newN
 function getNoteFromFileData(index, noteId) {
   const note = ((fileData[DATA_FIELD_NOTES] ?? {})[index] ?? {})[noteId] ?? '';
 
-  return note.length > 0 ? note : MISSING_NOTE_ID_SIGN + noteId + MISSING_NOTE_ID_SIGN;
+  if (note.length > 0) {
+    return note;
+  } else if (noteId == 0) {
+    return getLanguageVariable('lang-empty-note-form-warning', true);
+  }
+
+  return MISSING_NOTE_ID_SIGN + noteId + MISSING_NOTE_ID_SIGN;
 }
 
-async function showNoteCellContent(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig, totalNotes, rowsCount, isEditMode) {
+async function showNoteCellContent(
+  cellElement, rowId, challengeType, itemType, itemPath,
+  noteTypeConfig, noteQuantityMin, noteQuantityMax,
+  totalNotes, rowsCount, isEditMode
+) {
   const itemPathString = itemPath.join('-');
   const cellElementId = itemType + '-' + itemPathString;
   const noteId = itemPath.at(-1);
@@ -2102,7 +2112,9 @@ async function showNoteCellContent(cellElement, rowId, challengeType, itemType, 
     if (noteNo < totalNotes) {
       moveDownButtonVisible = VISIBLE_STYLE;
     }
-    removeButtonVisible = VISIBLE_STYLE;
+    if (noteNo > noteQuantityMin) {
+      removeButtonVisible = VISIBLE_STYLE;
+    }
   }
 
   cellElement.innerHTML = template
@@ -2213,6 +2225,8 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
   const fileDataValues = getNotesFileDataValues(noteIndex);
   const siblingsNoteIds = getSiblingsNoteIds(rowId, itemType, itemPath);
 
+  const currentValue = fileDataValues[currentNoteId] ?? '';
+
   let selectableValues = {};
 
   selectElement.onchange = function() {
@@ -2227,6 +2241,9 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
 
     if (noteId === '') {
       inputElement.style = VISIBLE_STYLE;
+    }
+    if (Number(noteId) === currentNoteId) {
+      setExistingNoteButtonElement.style = VISIBLE_STYLE;
     }
 
     inputElement.onchange();
@@ -2243,9 +2260,9 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
       if (noteNumber === MISSING_INDEX_OF_VALUE) {
         setNewNoteButtonElement.style = VISIBLE_STYLE;
       } else {
-        const noteId = Object.keys(fileDataValues).find(key => fileDataValues[key] === value) ?? EMPTY_NOTE_ID;
+        const noteId = Number(Object.keys(fileDataValues).find(key => fileDataValues[key] === value) ?? EMPTY_NOTE_ID);
 
-        if (siblingsNoteIds[noteId] == undefined) {
+        if (siblingsNoteIds[noteId] == undefined || noteId === currentNoteId) {
           setExistingNoteButtonElement.style = VISIBLE_STYLE;
         }
       }
@@ -2365,8 +2382,11 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
 
   if (!foundAnySource) {
     inputElement.style = VISIBLE_STYLE;
+    inputElement.value = currentValue;
+    inputElement.onchange();
   } else {
     selectElement.style = VISIBLE_STYLE;
+    selectElement.onchange();
   }
 }
 
