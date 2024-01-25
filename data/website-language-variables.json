@@ -25,6 +25,16 @@
         "pl": "dodaj nowe wyzwanie"
     },
 
+    "lang-add-new-challenge-required-checklist-steps-info": {
+        "en": "on selected date, You must complete all checklist steps below before creating this challenge",
+        "pl": "w wybranym dniu, musisz wykonać wszystkie następujące kroki checklisty zanim utworzysz to wyzwanie"
+    },
+
+    "lang-add-new-challenge-required-notes-info": {
+        "en": "You must complete the notes below before creating this challenge",
+        "pl": "musisz uzupełnić poniższe notatki zanim utworzysz to wyzwanie"
+    },
+
     "lang-add-new-your-own-note": {
         "en": "add new Your own note",
         "pl": "dodaj swoją nową notatkę"
@@ -737,11 +747,6 @@
     "lang-number": {
         "en": "number",
         "pl": "numer"
-    },
-
-    "lang-on-selected-date-you-must-complete-all-following-checklist-steps-before-create-this-challenge": {
-        "en": "on selected date, You must complete all following checklist steps before create this challenge",
-        "pl": "w wybranym dniu, musisz wykonać wszystkie następujące kroki checklisty zanim utworzysz nowe wyzwanie"
     },
 
     "lang-order": {

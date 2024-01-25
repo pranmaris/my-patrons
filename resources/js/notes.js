@@ -10,6 +10,7 @@ const TEXT_CHARACTER_SORTED_AFTER_OTHERS = 'ﻩ';
 const MISSING_INDEX_OF_VALUE = -1;
 const MISSING_TABLE_HEADER_NOTE_NAME = '?';
 const EMPTY_NOTE_ID = 0;
+const EMPTY_ROW_ID = 0;
 const NOTE_QUANTITY_INFINITY_MAX = 0;
 const NOTES_IDS_SKIPPED_AFTER_PREDEFINED_LIST = 1000;
 
@@ -58,6 +59,7 @@ const PERSON_URL_ELEMENT_ID_PREFIX = 'person-url-';
 const FEAST_URL_ELEMENT_ID_PREFIX = 'feast-url-';
 const CHECKLIST_LIST_MODAL_BODY_ELEMENT_ID = 'checklist-list-modal-body';
 const NOTES_LIST_ELEMENT_ID = 'notes-list';
+const NOTES_LIST_FOR_ADD_NEW_CHALLENGE_ELEMENT_ID = 'notes-list-for-add-new-challenge';
 const CHECKLIST_ITEM_DESCRIPTION_ELEMENT_ID = 'checklist-item-description';
 const CHECKLIST_ITEM_MODAL_TOGGLE_LABEL_ELEMENT_ID = 'checklist-item-modal-toggle-label';
 const CHECKLIST_BUTTON_ABORTED_ELEMENT_ID = 'checklist-button-aborted';
@@ -1277,12 +1279,15 @@ function resetFeastSelect() {
     for (let i in feasts) {
       addOptionToSelect(feastSelect, i, feasts[i]);
     }
+
+    resetNewChallengeNotesValues();
   }
 
   resetRequiredNotes();
 }
 
-function resetRequiredNotes() {
+async function resetRequiredNotes() {
+  const challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
   const feastValue = document.getElementById(FEAST_SELECT_ELEMENT_ID).value;
 
   let requiredNotesDiv = document.getElementById(REQUIRED_NOTES_DIV_ELEMENT_ID);
@@ -1292,9 +1297,35 @@ function resetRequiredNotes() {
   requiredNotesDoneInput.value = '';
 
   if (feastValue.length > 0) {
-    //... todo later
+    lastEditedNoteItem = [];
+    lastFormModeNoteCellElementIdSuffix = {};
 
-    requiredNotesDoneInput.value = '1';
+    const notesListElement = document.getElementById(NOTES_LIST_FOR_ADD_NEW_CHALLENGE_ELEMENT_ID);
+    notesListElement.innerHTML = '';
+
+    let isNextStepAvailable = true;
+    const rowId = EMPTY_ROW_ID;
+    const challengeConfig = ((challengesConfig[challengeType] ?? {})[CONFIG_FIELD_NOTES] ?? {});
+
+    for (const itemType of Object.keys(challengeConfig)) {
+      requiredNotesDiv.style = VISIBLE_STYLE;
+
+      const noteType = challengeConfig[itemType].type ?? {};
+      const firstSubtypeQuantity = Object.values(noteType)[0] ?? [];
+
+      if ((firstSubtypeQuantity[0] ?? 0) > 0) {
+        if (newChallengeNotesValues[itemType] == undefined) {
+          newChallengeNotesValues[itemType] = [];
+        }
+        await drawNoteRow(notesListElement, rowId, challengeType, itemType);
+
+        if (!validateNotes(newChallengeNotesValues[itemType], noteType)) {
+          isNextStepAvailable = false;
+        }
+      }
+    }
+
+    requiredNotesDoneInput.value = isNextStepAvailable ? '1' : '';
     resetNewChallengeChecklistValues();
   }
 
@@ -1483,7 +1514,9 @@ function recalculateFileData() {
       if (noteId.toString() === EMPTY_NOTE_ID.toString()) {
         continue;
       }
-      if (!((usedNoteIdsByIndexes[noteIndex] ?? {})[noteId] ?? false)) {
+      if (!((usedNoteIdsByIndexes[noteIndex] ?? {})[noteId] ?? false)
+        && Object.keys(newChallengeNotesValues).length === 0
+      ) {
         continue;
       }
 
@@ -1675,7 +1708,7 @@ async function setChecklistStatus(newValue) {
   const rowId = rowIdElement.value;
   const itemType = itemTypeElement.value;
 
-  if (rowId > 0) {
+  if (rowId > EMPTY_ROW_ID) {
     const oldValues = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_CHECKLIST] ?? {};
     if (Object.keys(oldValues).length > 0 && oldValues[itemType] !== undefined) {
       fileData[DATA_FIELD_CHALLENGES][rowId - 1][DATA_FIELD_CHECKLIST][itemType] = newValue;
@@ -1811,10 +1844,6 @@ function setNewChallengeNoteValue(itemType, value) {
   newChallengeNotesValues[itemType] = value;
 }
 
-function getNewChallengeNoteValue(itemType) {
-  return newChallengeNotesValues[itemType] ?? null;
-}
-
 async function notesReset(rowId) {
   lastEditedNoteItem = [];
   lastFormModeNoteCellElementIdSuffix = {};
@@ -1927,7 +1956,11 @@ async function changeNoteItemModeToEdit(rowId, challengeType, itemType) {
 }
 
 function getChallengeNotesData(rowId, itemType) {
-  return (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? getNewChallengeNoteValue(itemType);
+  if (rowId === EMPTY_ROW_ID) {
+    return newChallengeNotesValues[itemType] ?? [];
+  } else {
+    return (((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {})[itemType] ?? [];
+  }
 }
 
 async function showNoteContent(rowId, challengeType, itemType, isEditMode = false) {
@@ -2536,6 +2569,12 @@ async function assignExistingNote(rowId, challengeType, itemType, itemPath) {
   const isEditMode = true;
   lastFormModeNoteCellElementIdSuffix = {};
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
+}
+
+function validateNotes(itemData, noteType) {
+  //todo
+
+  return false;
 }
 
 build();
