@@ -709,9 +709,14 @@
         "pl": "zapisz plik notatek"
     },
 
+    "lang-notes-tab-achievements": {
+        "en": "my achievements",
+        "pl": "moje osiągnięcia"
+    },
+
     "lang-notes-tab-challenges": {
-        "en": "challenges",
-        "pl": "wyzwania"
+        "en": "challenges editor",
+        "pl": "edytor wyzwań"
     },
 
     "lang-notes-tab-file": {
@@ -722,6 +727,11 @@
     "lang-notes-tab-json-editor": {
         "en": "JSON editor",
         "pl": "edytor JSON"
+    },
+
+    "lang-notes-tab-notes": {
+        "en": "notes editor",
+        "pl": "edytor notatek"
     },
 
     "lang-notification-error": {

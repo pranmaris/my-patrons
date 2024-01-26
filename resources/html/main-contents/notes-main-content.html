@@ -4,7 +4,9 @@
   <nav>
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
       <button class="nav-link active" id="nav-file-tab" data-bs-toggle="tab" data-bs-target="#nav-file" type="button" role="tab" aria-controls="nav-file" aria-selected="true" onClick="reloadFileTab()">#lang-notes-tab-file|capitalize#</button>
+      <button class="nav-link" id="nav-achievements-tab" data-bs-toggle="tab" data-bs-target="#nav-achievements" type="button" role="tab" aria-controls="nav-achievements" aria-selected="false" onClick="reloadAchievementsTab()">#lang-notes-tab-achievements|capitalize#</button>
       <button class="nav-link" id="nav-challenges-tab" data-bs-toggle="tab" data-bs-target="#nav-challenges" type="button" role="tab" aria-controls="nav-challenges" aria-selected="false" onClick="reloadChallengesTab()">#lang-notes-tab-challenges|capitalize#</button>
+      <button class="nav-link" id="nav-notes-tab" data-bs-toggle="tab" data-bs-target="#nav-notes" type="button" role="tab" aria-controls="nav-notes" aria-selected="false" onClick="reloadNotesTab()">#lang-notes-tab-notes|capitalize#</button>
       <button class="nav-link" id="nav-json-editor-tab" data-bs-toggle="tab" data-bs-target="#nav-json-editor" type="button" role="tab" aria-controls="nav-json-editor" aria-selected="false" onClick="reloadJsonEditorTab()">#lang-notes-tab-json-editor|capitalize#</button>
     </div>
   </nav>
@@ -26,6 +28,10 @@
         <input id="file-output" class="btn btn-primary form-control" type="button" value="#lang-notes-save-file|capitalize|original-only-for-missing#" onclick="saveFile()" />
       </div>
 
+    </div>
+    <div class="tab-pane fade" id="nav-achievements" role="tabpanel" aria-labelledby="nav-achievements-tab" tabindex="0">
+      <br />
+      #lang-coming-soon|capitalize# ...
     </div>
     <div class="tab-pane fade" id="nav-challenges" role="tabpanel" aria-labelledby="nav-challenges-tab" tabindex="0">
       <table class="table table-bordered border-primary">
@@ -191,6 +197,10 @@
       </div>
 
       <a class="btn btn-primary" data-bs-toggle="modal" href="#add-new-challenge-modal-toggle" role="button" onClick="addNewChallengeReset()">#lang-add-new-challenge|capitalize#</a>
+    </div>
+    <div class="tab-pane fade" id="nav-notes" role="tabpanel" aria-labelledby="nav-notes-tab" tabindex="0">
+      <br />
+      #lang-coming-soon|capitalize# ...
     </div>
     <div class="tab-pane fade" id="nav-json-editor" role="tabpanel" aria-labelledby="nav-json-editor-tab" tabindex="0">
       <textarea id="file-content" name="content" spellcheck="false" onChange="setFileContentFromJsonEditor()"></textarea>

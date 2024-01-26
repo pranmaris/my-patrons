@@ -399,6 +399,9 @@ function reloadFileTab() {
   }
 }
 
+function reloadAchievementsTab() {
+}
+
 function reloadChallengesTab() {
   try {
     clearNotifications();
@@ -408,6 +411,9 @@ function reloadChallengesTab() {
   } catch (e) {
     error(e.message);
   }
+}
+
+function reloadNotesTab() {
 }
 
 function reloadJsonEditorTab() {
