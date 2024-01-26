@@ -7,8 +7,7 @@
     },
     "source": {
       "values": "sorted"
-    },
-    "containable": false
+    }
   },
   "criterion-of-selecting-a-protector-patron": {
     "index": "criteria-of-selecting-protector-patrons",
@@ -55,8 +54,7 @@
         {"1584": ["lang-roman-martyrology", ": 1584"]},
         {"15840": ["lang-roman-martyrology", ": 1584 (", "lang-movable-feasts", ")"]}
       ]
-    },
-    "containable": false
+    }
   },
   "criterion-of-selecting-a-protector-patron-description": {
     "index": "criterion-of-selecting-a-protector-patron-descriptions",
@@ -64,8 +62,7 @@
       "en": "Criterion of selecting Protector Patron description",
       "pl": "Opis kryterium wyboru Patrona Obrońcy"
     },
-    "source": {},
-    "containable": false
+    "source": {}
   },
   "description": {
     "index": "descriptions",
@@ -75,8 +72,7 @@
     },
     "source": {
       "values": "sorted"
-    },
-    "containable": false
+    }
   },
   "given-intercessor-patron": {
     "index": "given-intercessor-patrons",
@@ -88,8 +84,7 @@
       "patrons": {
         "person-having-challenges": ["MA"]
       }
-    },
-    "containable": false
+    }
   },
   "person": {
     "index": "persons",
@@ -99,8 +94,7 @@
     },
     "source": {
       "values": "sorted"
-    },
-    "containable": false
+    }
   },
   "place": {
     "index": "places",
@@ -110,8 +104,7 @@
     },
     "source": {
       "values": "sorted"
-    },
-    "containable": true
+    }
   },
   "role-at-mass": {
     "index": "roles-at-mass",
@@ -138,8 +131,7 @@
         {"100": ["lang-person-mentioned-in-mass-intentions"]}
       ],
       "values": "sorted"
-    },
-    "containable": false
+    }
   },
   "sacrament": {
     "index": "sacraments",
@@ -157,8 +149,7 @@
         {"6": ["lang-sacrament-holy-orders"]},
         {"7": ["lang-sacrament-marriage"]}
       ]
-    },
-    "containable": false
+    }
   },
   "time": {
     "index": "times",
@@ -168,7 +159,6 @@
     },
     "source": {
       "values": "sorted"
-    },
-    "containable": false
+    }
   }
 }

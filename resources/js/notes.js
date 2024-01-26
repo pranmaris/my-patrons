@@ -49,6 +49,7 @@ const CHALLENGE_DATE_INPUT_ELEMENT_ID = 'challenge-date-input';
 const CHALLENGE_TYPE_SELECT_ELEMENT_ID = 'challenge-type-select';
 const CHALLENGE_TYPE_DIV_ELEMENT_ID = 'challenge-type-div';
 const CHALLENGE_DESCRIPTION_DIV_ELEMENT_ID = 'challenge-description-div';
+const PERSON_DESCRIPTION_DIV_ELEMENT_ID = 'person-description-div';
 const ADD_NEW_CHALLENGE_BUTTON_ELEMENT_ID = 'add-new-challenge-button';
 const PERSON_DIV_ELEMENT_ID = 'person-div';
 const PERSON_NAME_SELECT_ELEMENT_ID = 'person-name-select';
@@ -911,6 +912,9 @@ function resetPersonTypeSelect() {
   let challengeDescDiv = document.getElementById(CHALLENGE_DESCRIPTION_DIV_ELEMENT_ID);
   challengeDescDiv.innerHTML = '';
 
+  let personDescDiv = document.getElementById(PERSON_DESCRIPTION_DIV_ELEMENT_ID);
+  personDescDiv.innerHTML = '';
+
   let personTypeSelect = document.getElementById(PERSON_TYPE_SELECT_ELEMENT_ID);
   personTypeSelect.innerHTML = '';
   personTypeSelect.style = INVISIBLE_STYLE;
@@ -919,8 +923,11 @@ function resetPersonTypeSelect() {
   if (challengeType.length > 0) {
     personDiv.style = VISIBLE_STYLE;
 
-    const descFilePath = getLanguageVariable('description', false, challengesConfig[challengeType].description ?? {});
-    importMarkdownDescription(challengeDescDiv, descFilePath);
+    const challengeDescFilePath = getLanguageVariable('description', false, challengesConfig[challengeType].description ?? {});
+    importMarkdownDescription(challengeDescDiv, challengeDescFilePath);
+
+    const personDescFilePath = getLanguageVariable('description', false, (challengesConfig[challengeType].person ?? {}).description ?? {});
+    importMarkdownDescription(personDescDiv, personDescFilePath);
 
     let personsTypesToList = {};
     let personsUnlocked = {};

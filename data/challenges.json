@@ -10,6 +10,9 @@
     "duplication-fields": ["person"],
     "person": {
       "types": ["Patrons"],
+      "description": {
+        "pl": "pl/x"
+      },
       "requirements": {
         "anybody-having-challenges": ["I", "3xX"],
         "person-not-having-challenges": ["A"],
@@ -133,6 +136,9 @@
     "numbers": true,
     "person": {
       "types": ["God", "Patrons"],
+      "description": {
+        "pl": "pl/x"
+      },
       "requirements": {
         "anybody-having-challenges": ["A"],
         "person-having-challenges": ["A"],
@@ -164,6 +170,9 @@
     "numbers": true,
     "person": {
       "types": ["God", "Patrons"],
+      "description": {
+        "pl": "pl/x"
+      },
       "requirements": {
         "anybody-having-challenges": ["A"],
         "person-having-challenges": ["A"],
@@ -194,6 +203,9 @@
     "duplication-fields": ["person"],
     "person": {
       "types": ["Me"],
+      "description": {
+        "pl": "pl/x"
+      },
       "requirements": {
         "anybody-having-challenges": ["J"],
         "everybody-not-having-challenges": ["I"]
@@ -290,6 +302,9 @@
     "duplication-fields": ["person"],
     "person": {
       "types": ["Me"],
+      "description": {
+        "pl": "pl/x"
+      },
       "requirements": {
         "everybody-not-having-challenges": ["J"]
       }
@@ -355,6 +370,9 @@
     "duplication-fields": ["person", "notes:type"],
     "person": {
       "types": ["Me"],
+      "description": {
+        "pl": "pl/x"
+      },
       "requirements": {
         "anybody-having-challenges": ["J"]
       }
