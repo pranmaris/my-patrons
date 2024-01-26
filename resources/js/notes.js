@@ -1302,24 +1302,26 @@ async function resetRequiredNotes() {
 
     const notesListElement = document.getElementById(NOTES_LIST_FOR_ADD_NEW_CHALLENGE_ELEMENT_ID);
     notesListElement.innerHTML = '';
+    const notesListEditElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
+    notesListEditElement.innerHTML = '';
 
     let isNextStepAvailable = true;
     const rowId = EMPTY_ROW_ID;
     const challengeConfig = ((challengesConfig[challengeType] ?? {})[CONFIG_FIELD_NOTES] ?? {});
 
     for (const itemType of Object.keys(challengeConfig)) {
-      requiredNotesDiv.style = VISIBLE_STYLE;
-
       const noteType = challengeConfig[itemType].type ?? {};
       const firstSubtypeQuantity = Object.values(noteType)[0] ?? [];
 
       if ((firstSubtypeQuantity[0] ?? 0) > 0) {
+        requiredNotesDiv.style = VISIBLE_STYLE;
+
         if (newChallengeNotesValues[itemType] == undefined) {
           newChallengeNotesValues[itemType] = [];
         }
         await drawNoteRow(notesListElement, rowId, challengeType, itemType);
 
-        if (!validateNotes(newChallengeNotesValues[itemType], noteType)) {
+        if (!validateNotesQuantity(newChallengeNotesValues[itemType], noteType)) {
           isNextStepAvailable = false;
         }
       }
@@ -1417,9 +1419,10 @@ function addNewChallenge() {
   const person = document.getElementById(PERSON_SELECT_ELEMENT_ID).value;
   const feast = feastValue.substring(person.length + 1);
   const checklist = newChallengeChecklistValues;
-  const notes = {};
+  const notes = newChallengeNotesValues;
 
   resetNewChallengeChecklistValues();
+  resetNewChallengeNotesValues();
 
   if (fileData[DATA_FIELD_CHALLENGES] == undefined) {
     fileData[DATA_FIELD_CHALLENGES] = [];
@@ -1848,8 +1851,10 @@ async function notesReset(rowId) {
   lastEditedNoteItem = [];
   lastFormModeNoteCellElementIdSuffix = {};
 
-  let notesListElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
+  const notesListElement = document.getElementById(NOTES_LIST_ELEMENT_ID);
   notesListElement.innerHTML = '';
+  const notesListForAddNewChallengeElement = document.getElementById(NOTES_LIST_FOR_ADD_NEW_CHALLENGE_ELEMENT_ID);
+  notesListForAddNewChallengeElement.innerHTML = '';
 
   let challengeType = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {}).type ?? null;
   let notes = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_NOTES] ?? {};
@@ -2485,7 +2490,7 @@ function removeNoteModalReset(rowId, challengeType, itemType, itemPath) {
 }
 
 async function removeNote() {
-  const rowId = document.getElementById(REMOVE_NOTE_MODAL_ROW_ID_ELEMENT_ID).value ?? 0;
+  const rowId = Number(document.getElementById(REMOVE_NOTE_MODAL_ROW_ID_ELEMENT_ID).value ?? 0);
   const challengeType = document.getElementById(REMOVE_NOTE_MODAL_CHALLENGE_TYPE_ELEMENT_ID).value ?? '';
   const itemType = document.getElementById(REMOVE_NOTE_MODAL_ITEM_TYPE_ELEMENT_ID).value ?? '';
   const itemPath = document.getElementById(REMOVE_NOTE_MODAL_ITEM_PATH_ELEMENT_ID).value.split('/') ?? [];
@@ -2571,10 +2576,38 @@ async function assignExistingNote(rowId, challengeType, itemType, itemPath) {
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
 }
 
-function validateNotes(itemData, noteType) {
-  //todo
+function validateNotesQuantity(data, noteTypesQuantities) {
+  const quantities = structuredClone(noteTypesQuantities);
 
-  return false;
+  const noteType = Object.keys(quantities)[0] ?? null;
+  if (noteType === null) {
+    return true;
+  }
+
+  const minQuantity = quantities[noteType][0] ?? 0;
+  const maxQuantity = quantities[noteType][1] ?? NOTE_QUANTITY_INFINITY_MAX;
+  delete quantities[noteType];
+
+  const dataCount = data.length;
+
+  if (dataCount < minQuantity
+    || (maxQuantity !== NOTE_QUANTITY_INFINITY_MAX && dataCount > maxQuantity)
+  ) {
+    return false;
+  }
+
+  for (const itemObject of data) {
+    const itemNoteId = Number(Object.keys(itemObject)[0] ?? EMPTY_NOTE_ID);
+    const itemData = itemObject[itemNoteId] ?? [];
+
+    if (itemNoteId === EMPTY_NOTE_ID
+      || !validateNotesQuantity(itemData, quantities)
+    ) {
+      return false;
+    }
+  }
+
+  return true;
 }
 
 build();
