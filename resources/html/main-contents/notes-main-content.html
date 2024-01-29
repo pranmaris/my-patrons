@@ -17,11 +17,18 @@
         <label for="file-input" class="btn btn-primary form-control">#lang-notes-load-file|capitalize#</label>
         <input id="file-input" class="form-control" style="display:none;" accept=".mypatrons.json" type="file" onChange="loadFile(this)" />
       </div>
-
       <hr />
-      #lang-owner|capitalize#: <input id="input-for-owner" onChange="setValueAsOwner(this.value)" />
+
+      <span>#lang-owner|capitalize#: </span>
+      <input id="input-for-owner" onChange="setValueAsOwner(this.value)" />
       <br />
-      #lang-filename-without-extension|capitalize#: <input id="input-for-filename-without-extension" onChange="setValueAsFilenameWithoutExtension(this.value)" />
+
+      <span>#lang-filename-without-extension|capitalize#: </span>
+      <input id="input-for-filename-without-extension" onChange="setValueAsFilenameWithoutExtension(this.value)" />
+      <div class="form-check form-switch form-check-inline">
+        <input class="form-check-input" type="checkbox" role="switch" id="datetime-checkbox-for-filename-without-extension" onChange="setValueAsAddDatetimeSuffixToFilenameWithoutExtension(this.checked)">
+        <label class="form-check-label" for="datetime-checkbox-for-filename-without-extension">#lang-filename-without-extension-datetime-checkbox-info#</label>
+      </div>
       <hr />
 
       <div class="mb-3">

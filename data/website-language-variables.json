@@ -478,6 +478,11 @@
         "pl": "nazwa pliku bez rozszerzenia"
     },
 
+    "lang-filename-without-extension-datetime-checkbox-info": {
+        "en": "add a UTC timestamp to filename",
+        "pl": "dodawaj znacznik czasu UTC do nazwy pliku"
+    },
+
     "lang-files": {
         "en": "files",
         "pl": "pliki"

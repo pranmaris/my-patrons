@@ -38,6 +38,7 @@ const INVISIBLE_STYLE = 'display: none';
 const VISIBLE_STYLE = '';
 
 const DEFAULT_JSON_FILENAME = 'start';
+const DEFAULT_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION_VALUE = true;
 const MIN_CHALLENGE_DATE_ALLOWED = '1901-01-01';
 
 const BACKGROUND_PHOTO_ATTRIBUTION = 'background-photo-attribution';
@@ -100,6 +101,7 @@ const PERSON_URL_FEAST_SEPARATOR = '@';
 const REMOVE_PERSON_URL_LINK_HREFS = ['me'];
 
 const INPUT_FOR_FILENAME_WITHOUT_EXTENSION_ELEMENT_ID = 'input-for-filename-without-extension';
+const DATETIME_CHECKBOX_FOR_FILENAME_WITHOUT_EXTENSION_ELEMENT_ID = 'datetime-checkbox-for-filename-without-extension';
 const INPUT_FOR_OWNER_ELEMENT_ID = 'input-for-owner';
 
 const PERSONS_DATA_FIELD_NAMES = 'names';
@@ -107,6 +109,7 @@ const PERSONS_DATA_FIELD_DIED = 'died';
 
 const DATA_FIELD_CHALLENGES = 'challenges';
 const DATA_FIELD_FILENAME_WITHOUT_EXTENSION = 'filename-without-extension';
+const DATA_FIELD_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION = 'add-datetime-suffix-to-filename-without-extension';
 const DATA_FIELD_OWNER = 'owner';
 const DATA_FIELD_CHECKLIST = 'checklist';
 const DATA_FIELD_NOTES = 'notes';
@@ -168,7 +171,7 @@ let filesContentsErrors = {};
 let personsData = {};
 let personsDataSubelementsCache = {};
 
-let fileName = DEFAULT_JSON_FILENAME + JSON_DATA_FILE_EXTENSION;
+let fileName = DEFAULT_JSON_FILENAME;
 let fileContent = '{}';
 let fileData = null;
 
@@ -183,6 +186,8 @@ async function build() {
   challengesConfig = await getJsonFromFile(CHALLENGES_CONFIG_JSON_FILE);
   notesTypesConfig = await getJsonFromFile(NOTES_CONFIG_JSON_FILE);
   personsData = await getJsonFromFile(PERSONS_DATA_JSON_FILE);
+
+  reloadFileTab();
 }
 
 function inArray(value, array) {
@@ -349,12 +354,14 @@ async function loadFile(input) {
   try {
     const data = input.files[0];
 
-    fileName = data.name;
+    fileName = data.name.replace(new RegExp('[0-9]{8}-[0-9]{6}' + JSON_DATA_FILE_EXTENSION + '$'), '');
     fileContent = await data.text();
     fileData = parseFileDataFromContent(fileContent);
 
     if (fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION]) {
-      fileName = fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] + JSON_DATA_FILE_EXTENSION;
+      fileName = fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION];
+    } else {
+      fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] = fileName;
     }
 
     sortChallengesByDate();
@@ -371,9 +378,14 @@ function saveFile() {
     fileData = parseFileDataFromContent(fileContent);
     content = JSON.stringify(fileData);
 
+    let datetimeSuffix = '';
+    if (true === (fileData[DATA_FIELD_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION] ?? DEFAULT_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION_VALUE)) {
+      datetimeSuffix = '-' + getDatetimeSuffix();
+    }
+
     var blob = new Blob([content], {type: JSON_MIME_TYPE});
     var a = document.createElement('a');
-    a.download = fileName;
+    a.download = fileName + datetimeSuffix + JSON_DATA_FILE_EXTENSION;
     a.href = window.URL.createObjectURL(blob);
     a.click();
   } catch (e) {
@@ -387,13 +399,16 @@ function reloadFileTab() {
 
     let inputForOwner = document.getElementById(INPUT_FOR_OWNER_ELEMENT_ID);
     let inputForFilenameWithoutExtension = document.getElementById(INPUT_FOR_FILENAME_WITHOUT_EXTENSION_ELEMENT_ID);
+    let datetimeCheckboxForFilenameWithoutExtension = document.getElementById(DATETIME_CHECKBOX_FOR_FILENAME_WITHOUT_EXTENSION_ELEMENT_ID);
 
     inputForOwner.value = '';
     inputForFilenameWithoutExtension.value = '';
+    datetimeCheckboxForFilenameWithoutExtension.checked = false;
     fileData = parseFileDataFromContent(fileContent);
 
     inputForOwner.value = fileData[DATA_FIELD_OWNER] ?? '';
-    inputForFilenameWithoutExtension.value = fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] ?? '';
+    inputForFilenameWithoutExtension.value = fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] ?? DEFAULT_JSON_FILENAME;
+    datetimeCheckboxForFilenameWithoutExtension.checked = fileData[DATA_FIELD_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION] ?? DEFAULT_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION_VALUE;
   } catch (e) {
     error(e.message);
   }
@@ -461,6 +476,7 @@ function setValueAsOwner(value) {
   try {
     clearNotifications();
     fileData = parseFileDataFromContent(fileContent);
+
     fileData[DATA_FIELD_OWNER] = value;
 
     fileContent = JSON.stringify(fileData);
@@ -473,8 +489,22 @@ function setValueAsFilenameWithoutExtension(value) {
   try {
     clearNotifications();
     fileData = parseFileDataFromContent(fileContent);
+
     fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] = value;
-    fileName = value + JSON_DATA_FILE_EXTENSION;
+    fileName = value;
+
+    fileContent = JSON.stringify(fileData);
+  } catch (e) {
+    error(e.message);
+  }
+}
+
+function setValueAsAddDatetimeSuffixToFilenameWithoutExtension(checked) {
+  try {
+    clearNotifications();
+    fileData = parseFileDataFromContent(fileContent);
+
+    fileData[DATA_FIELD_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION] = checked;
 
     fileContent = JSON.stringify(fileData);
   } catch (e) {
@@ -571,6 +601,15 @@ function addNewChallengeReset() {
 
 function getToday() {
   return new Date().toJSON().slice(0, 10);
+}
+
+function getDatetimeSuffix() {
+  return new Date()
+    .toJSON()
+    .replace(/[.].*$/g, '')
+    .replace(/[^0-9T]/g, '')
+    .replace('T', '-')
+  ;
 }
 
 function getTypesArrayWithDuplications(array) {
@@ -1548,6 +1587,7 @@ function recalculateFileData() {
   fileData = {
     [DATA_FIELD_OWNER]: fileData[DATA_FIELD_OWNER] ?? '',
     [DATA_FIELD_FILENAME_WITHOUT_EXTENSION]: fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] ?? '',
+    [DATA_FIELD_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION]: fileData[DATA_FIELD_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION] ?? DEFAULT_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION_VALUE,
     [DATA_FIELD_CHALLENGES]: challenges,
     [DATA_FIELD_NOTES]: notes,
   };
