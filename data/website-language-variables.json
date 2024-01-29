@@ -1024,6 +1024,11 @@
         "en": "myPatrons.org"
     },
 
+    "lang-status": {
+        "en": "status",
+        "pl": "status"
+    },
+
     "lang-status-color-changes": {
         "en": "status color changes",
         "pl": "zmiany kolorów statusu"

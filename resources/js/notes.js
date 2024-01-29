@@ -92,6 +92,9 @@ const NOTE_CELL_INPUT_ELEMENT_ID = 'note-cell-input';
 const NOTE_CELL_SELECT_ELEMENT_ID = 'note-cell-select';
 const NOTE_CELL_SET_EXISTING_NOTE_BUTTON = 'note-cell-set-existing-note-button';
 const NOTE_CELL_SET_NEW_NOTE_BUTTON = 'note-cell-set-new-note-button';
+const CHALLENGE_SUCCESS_STATUS_ICON_ABORTED_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-aborted-';
+const CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-waiting-';
+const CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-done-';
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -530,7 +533,6 @@ async function fillChallenges(challenges) {
     let feastUrl = feast.length > 0 ? personUrl + PERSON_URL_FEAST_SEPARATOR + feast : '';
     let type = challenge.type ?? '';
     let number = '';
-    let success = '...';                        //todo...
     let notes = challenge.notes ?? [];
 
     if (challengesConfig[type].numbers ?? false) {
@@ -550,8 +552,6 @@ async function fillChallenges(challenges) {
       .replace(/#person#/g, getPersonDataName(personUrl))
       .replace(/#feast-url#/g, feastUrl.length > 0 ? feastUrl + ANCHOR_CHARACTER + feast : '')
       .replace(/#feast#/g, feastUrl.length > 0 ? getPersonDataName(feastUrl) : '')
-      .replace(/#success#/g, success)
-      .replace(/#notes#/g, notes)
     ;
 
     const personUrlElement = document.getElementById(PERSON_URL_ELEMENT_ID_PREFIX + rowId);
@@ -574,7 +574,53 @@ async function fillChallenges(challenges) {
     if (feastUrl == '') {
       feastUrlElement.removeAttribute('href');
     }
+
+    const successStatusIconAborted = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_ABORTED_ELEMENT_ID_PREFIX + rowId);
+    const successStatusIconWaiting = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX + rowId);
+    const successStatusIconDone = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX + rowId);
+
+    successStatusIconAborted.style = INVISIBLE_STYLE;
+    successStatusIconWaiting.style = INVISIBLE_STYLE;
+    successStatusIconDone.style = INVISIBLE_STYLE;
+
+    switch (getChallengeSuccessStatus(rowId)) {
+      case true:
+        successStatusIconDone.style = VISIBLE_STYLE;
+        break;
+
+      case false:
+        successStatusIconAborted.style = VISIBLE_STYLE;
+        break;
+
+      default:
+        successStatusIconWaiting.style = VISIBLE_STYLE;
+        break;
+    }
   }
+}
+
+function getChallengeSuccessStatus(rowId) {
+  let result = true;
+
+  const challenge = (fileData[DATA_FIELD_CHALLENGES] ?? {})[rowId - 1] ?? {};
+  const challengeType = challenge.type ?? '';
+  const checklistData = challenge[DATA_FIELD_CHECKLIST] ?? {};
+  const config = (challengesConfig[challengeType] ?? {})[CONFIG_FIELD_CHECKLIST] ?? {};
+
+  for (const stepId of Object.keys(checklistData)) {
+    const status = checklistData[stepId] ?? null;
+    const isRequired = (config[stepId] ?? {}).required ?? true;
+
+    if (status === null && isRequired) {
+      return null;
+    }
+
+    if (status === false) {
+      result = false;
+    }
+  }
+
+  return result;
 }
 
 function getDateFormat(dateString) {
