@@ -167,6 +167,10 @@ button .svg-image {
   font-weight: bold;
   vertical-align: top;
 }
+.navbar-brand-for-other-service-name {
+  font-size: 0.5em;
+  font-weight: normal;
+}
 .nav-link {
   font-weight: bold;
 }

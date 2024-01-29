@@ -790,6 +790,11 @@
         "pl": "inne dni wspomnienia"
     },
 
+    "lang-other-service-name-for-language": {
+        "en": "",
+        "pl": "/ moiPatroni.pl"
+    },
+
     "lang-owner": {
         "en": "owner",
         "pl": "właściciel"
