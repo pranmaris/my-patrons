@@ -683,7 +683,13 @@ function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDa
 
   let types = getTypesArrayWithDuplications(requirements);
   if (types.length > 0) {
+    let rowId = 0;
     for (let ch of challenges) {
+      rowId++;
+      if (getChallengeSuccessStatus(rowId) === false) {
+        continue;
+      }
+
       const type = ch.type;
       const date = ch.date;
 
@@ -710,7 +716,13 @@ function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDa
 function checkNotExistingChallengeTypes(requirements, challenges) {
   let types = requirements;
   if (types.length > 0) {
+    let rowId = 0;
     for (let ch of challenges) {
+      rowId++;
+      if (getChallengeSuccessStatus(rowId) === false) {
+        continue;
+      }
+
       const type = ch.type;
 
       if (inArray(type, types)) {
@@ -727,7 +739,13 @@ function checkNotExistingChallengeTypesOnTheSameDay(requirements, challenges, ch
 
   let types = requirements;
   if (types.length > 0) {
+    let rowId = 0;
     for (let ch of challenges) {
+      rowId++;
+      if (getChallengeSuccessStatus(rowId) === false) {
+        continue;
+      }
+
       const type = ch.type;
       const date = ch.date;
 
@@ -819,11 +837,16 @@ function getPersonsDataSubelements(personIdPrefix) {
 function getPersonsHavingAllChallenges(types, checkDateString = null) {
   let result = {};
   let withAnyType = {};
+  let rowId = 0;
 
   const checkDate = null ? null : Date.parse(checkDateString);
 
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
+    rowId++;
+    if (getChallengeSuccessStatus(rowId) === false) {
+      continue;
+    }
     if (checkDate && Date.parse(ch.date) > checkDate) {
       continue;
     }
@@ -848,11 +871,16 @@ function getPersonsHavingAllChallenges(types, checkDateString = null) {
 function getPersonsFeastsHavingAllChallenges(types, checkDateString = null) {
   let result = {};
   let withAnyType = {};
+  let rowId = 0;
 
   const checkDate = null ? null : Date.parse(checkDateString);
 
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
+    rowId++;
+    if (getChallengeSuccessStatus(rowId) === false) {
+      continue;
+    }
     if (checkDate && Date.parse(ch.date) > checkDate) {
       continue;
     }
@@ -882,11 +910,16 @@ function getPersonsFeastsHavingAllChallenges(types, checkDateString = null) {
 
 function getPersonsHavingAnyChallenge(types, checkDateString) {
   let result = {};
+  let rowId = 0;
 
   const checkDate = null ? null : Date.parse(checkDateString);
 
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
+    rowId++;
+    if (getChallengeSuccessStatus(rowId) === false) {
+      continue;
+    }
     if (checkDate && Date.parse(ch.date) > checkDate) {
       continue;
     }
@@ -901,11 +934,16 @@ function getPersonsHavingAnyChallenge(types, checkDateString) {
 
 function getPersonsFeastsHavingAnyChallenge(types, checkDateString) {
   let result = {};
+  let rowId = 0;
 
   const checkDate = null ? null : Date.parse(checkDateString);
 
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
+    rowId++;
+    if (getChallengeSuccessStatus(rowId) === false) {
+      continue;
+    }
     if (checkDate && Date.parse(ch.date) > checkDate) {
       continue;
     }
