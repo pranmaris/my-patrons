@@ -65,6 +65,7 @@ const NOTES_LIST_ELEMENT_ID = 'notes-list';
 const NOTES_LIST_FOR_ADD_NEW_CHALLENGE_ELEMENT_ID = 'notes-list-for-add-new-challenge';
 const CHECKLIST_ITEM_DESCRIPTION_ELEMENT_ID = 'checklist-item-description';
 const CHECKLIST_ITEM_MODAL_TOGGLE_LABEL_ELEMENT_ID = 'checklist-item-modal-toggle-label';
+const CHECKLIST_BUTTON_CLOSE_ELEMENT_ID = 'checklist-button-close';
 const CHECKLIST_BUTTON_ABORTED_ELEMENT_ID = 'checklist-button-aborted';
 const CHECKLIST_BUTTON_OPTIONAL_WAITING_ELEMENT_ID = 'checklist-button-optional-waiting';
 const CHECKLIST_BUTTON_WAITING_ELEMENT_ID = 'checklist-button-waiting';
@@ -96,6 +97,10 @@ const NOTE_CELL_SET_NEW_NOTE_BUTTON = 'note-cell-set-new-note-button';
 const CHALLENGE_SUCCESS_STATUS_ICON_ABORTED_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-aborted-';
 const CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-waiting-';
 const CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-done-';
+
+const CHECKLIST_ITEM_TARGET_ATTRIBUTE_NAME = 'data-bs-target';
+const CHECKLIST_ITEM_BACK_TO_CHECKLIST_LIST_MODAL_TARGET = '#checklist-list-modal-toggle';
+const CHECKLIST_ITEM_BACK_TO_ADD_NEW_CHALLENGE_MODAL_TARGET = '#add-new-challenge-modal-toggle';
 
 const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
@@ -1514,7 +1519,8 @@ async function resetRequiredChecklistSteps() {
 
       if (toCompleteOnSelectedDate) {
         const value = getNewChallengeChecklistValue(itemType);
-        await drawChecklistRow(checklistStepsList, rowId, challengeType, itemType, value);
+        const backToAddNewChallengeModal = true;
+        await drawChecklistRow(checklistStepsList, rowId, challengeType, itemType, value, backToAddNewChallengeModal);
 
         if (value !== true) {
           allValuesAreDone = false;
@@ -1772,11 +1778,12 @@ async function checklistListReset(rowId) {
   }
 
   for (let data of Object.entries(checklist)) {
-    await drawChecklistRow(modalBody, rowId, challengeType, data[0] ?? null, data[1] ?? null);
+    const backToAddNewChallengeModal = false;
+    await drawChecklistRow(modalBody, rowId, challengeType, data[0] ?? null, data[1] ?? null, backToAddNewChallengeModal);
   }
 }
 
-async function drawChecklistRow(contentElement, rowId, challengeType, itemType, value) {
+async function drawChecklistRow(contentElement, rowId, challengeType, itemType, value, backToAddNewChallengeModal) {
   const element = document.createElement('div');
 
   const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_CHECKLIST] ?? [])[itemType] ?? {};
@@ -1811,12 +1818,13 @@ async function drawChecklistRow(contentElement, rowId, challengeType, itemType, 
     .replace(/#row-id#/g, rowId)
     .replace(/#challenge-type#/g, challengeType)
     .replace(/#checklist-status#/g, value == null ? 'null' : value.toString())
+    .replace(/#back-to-add-new-challenge-modal#/g, backToAddNewChallengeModal.toString())
   ;
 
   contentElement.append(element);
 }
 
-async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus) {
+async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, backToAddNewChallengeModal) {
   const descElement = document.getElementById(CHECKLIST_ITEM_DESCRIPTION_ELEMENT_ID);
   const labelElement = document.getElementById(CHECKLIST_ITEM_MODAL_TOGGLE_LABEL_ELEMENT_ID);
   const rowIdElement = document.getElementById(CHECKLIST_ITEM_MODAL_ROW_ID_ELEMENT_ID);
@@ -1825,6 +1833,7 @@ async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus) {
   rowIdElement.value = rowId;
   itemTypeElement.value = itemType;
 
+  const closeButton = document.getElementById(CHECKLIST_BUTTON_CLOSE_ELEMENT_ID);
   const abortedButton = document.getElementById(CHECKLIST_BUTTON_ABORTED_ELEMENT_ID);
   const optionalWaitingButton = document.getElementById(CHECKLIST_BUTTON_OPTIONAL_WAITING_ELEMENT_ID);
   const waitingButton = document.getElementById(CHECKLIST_BUTTON_WAITING_ELEMENT_ID);
@@ -1834,6 +1843,16 @@ async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus) {
   optionalWaitingButton.style = INVISIBLE_STYLE;
   waitingButton.style = INVISIBLE_STYLE;
   doneButton.style = INVISIBLE_STYLE;
+
+  const modalTargetAttributeToSet = backToAddNewChallengeModal
+    ? CHECKLIST_ITEM_BACK_TO_ADD_NEW_CHALLENGE_MODAL_TARGET
+    : CHECKLIST_ITEM_BACK_TO_CHECKLIST_LIST_MODAL_TARGET
+  ;
+  closeButton.setAttribute(CHECKLIST_ITEM_TARGET_ATTRIBUTE_NAME, modalTargetAttributeToSet);
+  abortedButton.setAttribute(CHECKLIST_ITEM_TARGET_ATTRIBUTE_NAME, modalTargetAttributeToSet);
+  optionalWaitingButton.setAttribute(CHECKLIST_ITEM_TARGET_ATTRIBUTE_NAME, modalTargetAttributeToSet);
+  waitingButton.setAttribute(CHECKLIST_ITEM_TARGET_ATTRIBUTE_NAME, modalTargetAttributeToSet);
+  doneButton.setAttribute(CHECKLIST_ITEM_TARGET_ATTRIBUTE_NAME, modalTargetAttributeToSet);
 
   const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_CHECKLIST] ?? [])[itemType] ?? [];
   if (Object.keys(config).length == 0) {

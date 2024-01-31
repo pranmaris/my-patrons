@@ -150,16 +150,16 @@
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="checklist-item-modal-toggle-label"></h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button id="checklist-button-close" type="button" class="btn-close" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body" id="checklist-item-description"></div>
             <div class="modal-footer">
               <span>#lang-mark-as|capitalize#:</span>
               <div class="btn-group" role="group" aria-label="options">
-                <button id="checklist-button-aborted" type="button" class="btn btn-danger" data-bs-target="#checklist-item-modal-toggle" data-bs-dismiss="modal" onClick="setChecklistStatus(false)">#lang-checklist-status-aborted#</button>
-                <button id="checklist-button-waiting" type="button" class="btn btn-dark" data-bs-target="#checklist-item-modal-toggle" data-bs-dismiss="modal" onClick="setChecklistStatus(null)">#lang-checklist-status-waiting#</button>
-                <button id="checklist-button-optional-waiting" type="button" class="btn btn-warning" data-bs-target="#checklist-item-modal-toggle" data-bs-dismiss="modal" onClick="setChecklistStatus(null)">#lang-checklist-status-optional-waiting#</button>
-                <button id="checklist-button-done" type="button" class="btn btn-success" data-bs-target="#checklist-item-modal-toggle" data-bs-dismiss="modal" onClick="setChecklistStatus(true)">#lang-checklist-status-done#</button>
+                <button id="checklist-button-aborted" type="button" class="btn btn-danger" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" onClick="setChecklistStatus(false)">#lang-checklist-status-aborted#</button>
+                <button id="checklist-button-waiting" type="button" class="btn btn-dark" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal"onClick="setChecklistStatus(null)">#lang-checklist-status-waiting#</button>
+                <button id="checklist-button-optional-waiting" type="button" class="btn btn-warning" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" onClick="setChecklistStatus(null)">#lang-checklist-status-optional-waiting#</button>
+                <button id="checklist-button-done" type="button" class="btn btn-success" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal"onClick="setChecklistStatus(true)">#lang-checklist-status-done#</button>
               </div>
               <input id="checklist-item-modal-row-id" type="hidden" />
               <input id="checklist-item-modal-item-type" type="hidden" />
@@ -188,12 +188,13 @@
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="checklist-list-modal-toggle-label">#lang-remove-note|capitalize#</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button type="button" class="btn-close" data-bs-target="#notes-modal-toggle" data-bs-toggle="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">#lang-remove-note-confirmation|capitalize#</div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-light" data-bs-dismiss="modal">#lang-cancel|capitalize#</button>
-              <button id="remove-note-button" class="btn btn-primary" data-bs-target="#remove-note-modal-toggle" data-bs-dismiss="modal" onclick="removeNote()">#lang-remove-note|capitalize#</button>
+              <button type="button" class="btn btn-light" data-bs-target="#notes-modal-toggle" data-bs-toggle="modal">#lang-cancel|capitalize#</button>
+
+              <button id="remove-note-button" class="btn btn-primary" data-bs-target="#notes-modal-toggle" data-bs-toggle="modal" onclick="removeNote()">#lang-remove-note|capitalize#</button>
               <input id="remove-note-modal-row-id" type="hidden" />
               <input id="remove-note-modal-challenge-type" type="hidden" />
               <input id="remove-note-modal-item-type" type="hidden" />
