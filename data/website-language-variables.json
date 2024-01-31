@@ -832,6 +832,11 @@
         "pl": "odpust parafialny"
    },
 
+    "lang-parse-error-missing-challenge-type": {
+        "en": "missing challenge type",
+        "pl": "brakujący typ wyzwania"
+    },
+
     "lang-path": {
         "en": "path",
         "pl": "ścieżka"

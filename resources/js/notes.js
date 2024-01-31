@@ -42,6 +42,7 @@ const DEFAULT_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION_VALUE = true;
 const MIN_CHALLENGE_DATE_ALLOWED = '1901-01-01';
 
 const BACKGROUND_PHOTO_ATTRIBUTION = 'background-photo-attribution';
+const CHALLENGE_ROW_ELEMENT_ID_PREFIX = 'id-';
 const CHALLENGES_ELEMENT_ID = 'challenges';
 const FILE_CONTENT_ELEMENT_ID = 'file-content';
 const MAIN_CSS_ELEMENT_ID = 'main-css';
@@ -470,10 +471,26 @@ function parseFileDataFromContent(content) {
     throw new Error(message + ' (' + e.message + ')');
   }
 
-  //... parse
+  //let rowId = 0;
+  //try {
+    //let contextData = {};
+    //for (const challenge of data[DATA_FIELD_CHALLENGES] ?? []) {
+      //rowId++;
+      //parseChallenge(rowId, challenge, contextData);
+    //}
+  //} catch (e) {
+    //error(e.message + ' (<a href="#challenge-' + rowId + '">' + rowId + '</a>)');
+  //}
 
   return data;
 }
+
+//function parseChallenge(rowId, challenge, contextData) {
+  //const challengeType = challenge.type ?? '';
+  //if (challengeType !== '') {
+    //throw new Error(getLanguageVariable('lang-parse-error-missing-challenge-type', true));
+  //}
+//}
 
 function setValueAsOwner(value) {
   try {
