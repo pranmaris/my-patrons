@@ -439,9 +439,6 @@ function reloadChallengesTab() {
   }
 }
 
-function reloadNotesTab() {
-}
-
 function reloadJsonEditorTab() {
   try {
     clearNotifications();
