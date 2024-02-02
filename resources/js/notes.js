@@ -152,6 +152,8 @@ const JSON_MIME_TYPE = 'application/json';
 const JSON_DATA_FILE_EXTENSION = '.mypatrons.json';
 const MARKDOWN_FILE_EXTENSION = '.md';
 
+const DESCRIPTION_VALUE_PARAM = 'value';
+
 const JSON_STRINGIFY_SPACES = 2;
 const MAX_NOTE_OBJECT_STRUCTURE_LEVELS = 5;
 
@@ -557,7 +559,7 @@ async function fillChallenges(challenges) {
     let number = '';
     let notes = challenge.notes ?? [];
 
-    if (challengesConfig[type].numbers ?? false) {
+    if ((challengesConfig[type] ?? {}).numbers ?? false) {
       if (numbers[type] == undefined) {
         numbers[type] = {};
       }
@@ -1074,11 +1076,15 @@ function resetPersonTypeSelect() {
   if (challengeType.length > 0) {
     personDiv.style = VISIBLE_STYLE;
 
-    const challengeDescFilePath = getLanguageVariable('description', false, challengesConfig[challengeType].description ?? {});
-    importMarkdownDescription(challengeDescDiv, challengeDescFilePath);
+    const challengeDescData = challengesConfig[challengeType].description ?? {};
+    const challengeDescFilePath = getLanguageVariable('description', false, challengeDescData.template ?? {});
+    const challengeDescParams = challengeDescData.params ?? [];
+    importMarkdownDescription(challengeDescDiv, challengeDescFilePath, challengeDescParams);
 
-    const personDescFilePath = getLanguageVariable('description', false, (challengesConfig[challengeType].person ?? {}).description ?? {});
-    importMarkdownDescription(personDescDiv, personDescFilePath);
+    const personDescData = (challengesConfig[challengeType].person ?? {}).description ?? {};
+    const personDescFilePath = getLanguageVariable('description', false, personDescData.template ?? {});
+    const personDescParams = personDescData.params ?? [];
+    importMarkdownDescription(personDescDiv, personDescFilePath, personDescParams);
 
     let personsTypesToList = {};
     let personsUnlocked = {};
@@ -1861,10 +1867,16 @@ async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, bac
   const toCompleteOnSelectedDate = config['to-complete-on-selected-date'] ?? false;
   const required = config.required ?? true;
   const name = getLanguageVariable('name', true, config.name ?? {});
-  const descFilePath = getLanguageVariable('description', false, config.description ?? {});
+
+  const descData = config.description ?? {};
+  const descFilePath = getLanguageVariable('description', false, descData.template ?? {});
+  const descParams = descData.params ?? [];
+  const descValues = {
+    ['row-id']: rowId
+  };
 
   labelElement.innerHTML = name;
-  importMarkdownDescription(descElement, descFilePath);
+  importMarkdownDescription(descElement, descFilePath, descParams, descValues);
 
   doneButton.style = VISIBLE_STYLE;
   if (!toCompleteOnSelectedDate) {
@@ -1892,7 +1904,8 @@ async function setChecklistStatus(newValue) {
       fileContent = JSON.stringify(fileData);
       fileData = parseFileDataFromContent(fileContent);
 
-      checklistListReset(rowId);
+      await checklistListReset(rowId);
+      reloadChallengesTab();
     }
   } else {
     setNewChallengeChecklistValue(itemType, newValue);
@@ -1900,16 +1913,33 @@ async function setChecklistStatus(newValue) {
   }
 }
 
-async function importMarkdownDescription(element, filePath) {
+async function importMarkdownDescription(element, filePath, params = [], values = {}) {
   element.innerHTML = '';
 
   const fullFilePath = MARKDOWN_FILES_ROOT_PATH + filePath + MARKDOWN_FILE_EXTENSION;
   try {
     const template = await getFileContent(DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH);
-    const content = await getFileContent(fullFilePath);
+    let content = await getFileContent(fullFilePath);
+    content = marked.parse(content);
+
+    for (let paramName of params) {
+      const value = values[paramName] ?? null;
+      const name = value === null ? paramName : DESCRIPTION_VALUE_PARAM;
+      content = content.replace(new RegExp('#' + paramName + '#'), getDescriptionParamValue(name, value));
+    }
 
     element.innerHTML = template.replace(/#content#/g, content);
   } catch (e) {
+  }
+}
+
+function getDescriptionParamValue(paramName, paramValue) {
+  console.log(paramName);
+  switch (paramName) {
+    case DESCRIPTION_VALUE_PARAM:
+      return paramValue;
+    default:
+      return '';
   }
 }
 

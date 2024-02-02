@@ -1,309 +1,23 @@
 {
-  "A": {
-    "name": {
-      "pl": "Patroni Obrońcy"
-    },
-    "description": {
-      "pl": "pl/x"
-    },
-    "numbers": false,
-    "duplication-fields": ["person"],
-    "person": {
-      "types": ["Patrons"],
-      "description": {
-        "pl": "pl/x"
-      },
-      "requirements": {
-        "anybody-having-challenges": ["I", "3xX"],
-        "person-not-having-challenges": ["A"],
-        "everybody-not-having-challenges-on-the-same-day": ["A"]
-      }
-    },
-    "checklist": {
-      "mass": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "Weź udział we Mszy Świętej"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      },
-      "communion": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "Przyjmij Komunię Świętą"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      },
-      "prayer": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "Pomódl się do Patrona"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      },
-      "bible": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "Przeczytaj fragment Pisma Świętego"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      },
-      "note": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "Zanotuj dodatkowe informacje"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      }
-    },
-    "notes": {
-      "criterion": {
-        "type": {
-          "criterion-of-selecting-a-protector-patron": [0, 0],
-          "criterion-of-selecting-a-protector-patron-description": [0, 1]
-        },
-        "name": {
-          "pl": "Kryterium wyboru Patrona"
-        }
-      },
-      "bible": {
-        "type": {
-          "bible-lection": [0, 1]
-        },
-        "name": {
-          "pl": "Przeczytany fragment Pisma Świętego"
-        }
-      },
-      "time": {
-        "type": {
-          "time": [0, 1]
-        },
-        "name": {
-          "pl": "Godzina rozpoczęcia Mszy"
-        }
-      },
-      "place": {
-        "type": {
-          "place": [0, 1]
-        },
-        "name": {
-          "pl": "Miejsce Mszy"
-        }
-      },
-      "people": {
-        "type": {
-          "person": [0, 0],
-          "role-at-mass": [1, 0]
-        },
-        "name": {
-          "pl": "Osoby na Mszy"
-        }
-      },
-      "other": {
-        "type": {
-          "description": [0, 0]
-        },
-        "name": {
-          "pl": "Informacje dodatkowe"
-        }
-      }
-    }
-  },
-
-  "B": {
-    "name": {
-      "pl": "Święta"
-    },
-    "description": {
-      "pl": "pl/x"
-    },
-    "duplication-fields": ["person", "feast"],
-    "numbers": true,
-    "person": {
-      "types": ["God", "Patrons"],
-      "description": {
-        "pl": "pl/x"
-      },
-      "requirements": {
-        "anybody-having-challenges": ["A"],
-        "person-having-challenges": ["A"],
-        "god-having-needed-challenges": true,
-        "person-feast-is-not-empty": true,
-        "person-feast-not-having-challenges": ["B"]
-      }
-    },
-    "checklist": {
-
-
-
-    },
-    "notes": {
-
-
-
-    }
-  },
-
-  "D": {
-    "name": {
-      "pl": "Kościoły"
-    },
-    "description": {
-      "pl": "pl/x"
-    },
-    "duplication-fields": ["person", "feast", "notes:place"],
-    "numbers": true,
-    "person": {
-      "types": ["God", "Patrons"],
-      "description": {
-        "pl": "pl/x"
-      },
-      "requirements": {
-        "anybody-having-challenges": ["A"],
-        "person-having-challenges": ["A"],
-        "god-having-needed-challenges": true,
-        "person-feast-having-challenges": ["B"]
-      }
-    },
-    "checklist": {
-
-
-
-    },
-    "notes": {
-
-
-
-    }
-  },
-
-  "I": {
-    "name": {
-      "pl": "Bóg"
-    },
-    "description": {
-      "pl": "pl/x"
-    },
-    "numbers": false,
-    "duplication-fields": ["person"],
-    "person": {
-      "types": ["Me"],
-      "description": {
-        "pl": "pl/x"
-      },
-      "requirements": {
-        "anybody-having-challenges": ["J"],
-        "everybody-not-having-challenges": ["I"]
-      }
-    },
-    "checklist": {
-      "self-entrusting": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "Zawierz Bogu swój udział w inicjatywie"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      },
-      "credo": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "Pomódl się do Boga"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      },
-      "knowledge": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "Poznaj Boga"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      },
-      "apostles": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "Poinformuj swoich „Apostołów”"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      },
-      "note": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "Zanotuj dodatkowe informacje"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      }
-    },
-    "notes": {
-      "time": {
-        "type": {
-          "time": [0, 1]
-        },
-        "name": {
-          "pl": "Godzina zawierzenia i modlitwy"
-        }
-      },
-      "place": {
-        "type": {
-          "place": [0, 1]
-        },
-        "name": {
-          "pl": "Miejsce zawierzenia i modlitwy"
-        }
-      },
-      "other": {
-        "type": {
-          "description": [0, 0]
-        },
-        "name": {
-          "pl": "Informacje dodatkowe"
-        }
-      }
-    }
-  },
-
   "J": {
     "name": {
       "pl": "Narodziny"
     },
     "description": {
-      "pl": "pl/x"
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/narodziny"
+      }
     },
     "numbers": false,
     "duplication-fields": ["person"],
     "person": {
       "types": ["Me"],
       "description": {
-        "pl": "pl/x"
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
       },
       "requirements": {
         "everybody-not-having-challenges": ["J"]
@@ -314,20 +28,26 @@
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "Potwierdź swoje narodziny"
+          "pl": "potwierdź datę swoich narodzin"
         },
         "description": {
-          "pl": "pl/x"
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/potwierdz-date-narodzin"
+          }
         }
       },
       "note": {
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "Zanotuj dodatkowe informacje"
+          "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "pl": "pl/x"
+          "params": ["row-id"],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
         }
       }
     },
@@ -337,7 +57,8 @@
           "time": [0, 1]
         },
         "name": {
-          "pl": "Godzina narodzin"
+          "en": "time of birth",
+          "pl": "godzina narodzin"
         }
       },
       "place": {
@@ -345,7 +66,8 @@
           "place": [0, 1]
         },
         "name": {
-          "pl": "Miejsce narodzin"
+          "en": "place of birth",
+          "pl": "miejsce narodzin"
         }
       },
       "other": {
@@ -353,83 +75,8 @@
           "description": [0, 0]
         },
         "name": {
-          "pl": "Informacje dodatkowe"
-        }
-      }
-    }
-  },
-
-  "X": {
-    "name": {
-      "pl": "Sakramenty"
-    },
-    "description": {
-      "pl": "pl/x"
-    },
-    "numbers": true,
-    "duplication-fields": ["person", "notes:type"],
-    "person": {
-      "types": ["Me"],
-      "description": {
-        "pl": "pl/x"
-      },
-      "requirements": {
-        "anybody-having-challenges": ["J"]
-      }
-    },
-    "checklist": {
-      "verification": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "Potwierdź swoje pierwsze przyjęcie Sakramentu"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      },
-      "note": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "Zanotuj dodatkowe informacje"
-        },
-        "description": {
-          "pl": "pl/x"
-        }
-      }
-    },
-    "notes": {
-      "type": {
-        "type": {
-          "sacrament": [1, 1]
-        },
-        "name": {
-          "pl": "Typ Sakramentu"
-        }
-      },
-      "time": {
-        "type": {
-          "time": [0, 1]
-        },
-        "name": {
-          "pl": "Godzina pierwszego przyjęcia Sakramentu"
-        }
-      },
-      "place": {
-        "type": {
-          "place": [0, 1]
-        },
-        "name": {
-          "pl": "Miejsce pierwszego przyjęcia Sakramentu"
-        }
-      },
-      "other": {
-        "type": {
-          "description": [0, 0]
-        },
-        "name": {
-          "pl": "Informacje dodatkowe"
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
         }
       }
     }
