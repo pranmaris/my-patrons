@@ -1,1 +1,1 @@
-**Wpisz** informacje na temat **Twoich narodzin**, które mogą być przydatne w kolejnych wyzwaniach.
+W tym wyzwaniu można **wpisać** informacje na temat **swoich narodzin**, które będą przydatne na dalszym etapie zabawy.

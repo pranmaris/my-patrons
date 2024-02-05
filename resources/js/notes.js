@@ -549,17 +549,20 @@ async function fillChallenges(challenges) {
     let number = '';
     let notes = challenge.notes ?? [];
 
-    if ((challengesConfig[type] ?? {}).numbers ?? false) {
+    const config = challengesConfig[type] ?? {};
+    if (config.numbers ?? false) {
       if (numbers[type] == undefined) {
         numbers[type] = {};
       }
       numbers[type][personUrl] = (numbers[type][personUrl] ?? 0) + 1;
       number = numbers[type][personUrl];
     }
+    const typeName = getLanguageVariable('name', true, config.name ?? {});
 
     list.innerHTML += content
       .replace(/#row-id#/g, rowId)
       .replace(/#date#/g, getDateFormat(date))
+      .replace(/#type-name#/g, typeName)
       .replace(/#type#/g, type)
       .replace(/#number#/g, number)
       .replace(/#person-url#/g, personUrl)

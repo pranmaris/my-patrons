@@ -1,1 +1,1 @@
-Do tego wyzwania można przypisać jedynie **siebie**!
+Do tego wyzwania można przypisać tylko **siebie**!
