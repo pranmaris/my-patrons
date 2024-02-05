@@ -21,7 +21,6 @@ const CHALLENGES_CONFIG_JSON_FILE = '/files/data/challenges.json';
 const NOTES_CONFIG_JSON_FILE = '/files/data/notes-types.json';
 const PERSONS_DATA_JSON_FILE = '/files/data/generated/persons-data.generated.json';
 
-const CSS_FILE_PATH = '/files/resources/css/notes.css';
 const CHALLENGE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-item.html';
 const CHALLENGE_ITEM_TO_REMOVE_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-to-remove-item.html';
 const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-checklist-item.html';
@@ -41,11 +40,9 @@ const DEFAULT_JSON_FILENAME = 'start';
 const DEFAULT_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION_VALUE = true;
 const MIN_CHALLENGE_DATE_ALLOWED = '1901-01-01';
 
-const BACKGROUND_PHOTO_ATTRIBUTION = 'background-photo-attribution';
 const CHALLENGE_ROW_ELEMENT_ID_PREFIX = 'id-';
 const CHALLENGES_ELEMENT_ID = 'challenges';
 const FILE_CONTENT_ELEMENT_ID = 'file-content';
-const MAIN_CSS_ELEMENT_ID = 'main-css';
 const NOTIFICATIONS_ELEMENT_ID = 'notifications';
 const CHALLENGE_DATE_INPUT_ELEMENT_ID = 'challenge-date-input';
 const CHALLENGE_TYPE_SELECT_ELEMENT_ID = 'challenge-type-select';
@@ -192,7 +189,6 @@ let newChallengeChecklistValues = {};
 let newChallengeNotesValues = {};
 
 async function build() {
-  appendNotesCss();
   languageVariables = await getJsonFromFile(LANGUAGE_JSON_FILE);
   challengesConfig = await getJsonFromFile(CHALLENGES_CONFIG_JSON_FILE);
   notesTypesConfig = await getJsonFromFile(NOTES_CONFIG_JSON_FILE);
@@ -264,26 +260,6 @@ function success(message) {
 
 async function sleep(miliseconds) {
   await new Promise(r => setTimeout(r, miliseconds));
-}
-
-async function appendNotesCss() {
-  let head = document.getElementsByTagName('head')[0];
-  let link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.type = 'text/css';
-  link.href = CSS_FILE_PATH;
-  link.media = 'all';
-  head.appendChild(link);
-
-  //remove background file attribution
-  for (let i = 0; i < 10; i++) {
-    await sleep(500);
-    let attribution = document.getElementById(BACKGROUND_PHOTO_ATTRIBUTION);
-    if (attribution) {
-      attribution.innerHTML = '';
-      break;
-    }
-  }
 }
 
 const getHostname = function() {
