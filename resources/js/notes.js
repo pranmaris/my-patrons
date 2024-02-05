@@ -330,11 +330,11 @@ const getJsonFromFile = async function(path) {
   return JSON.parse(content);
 }
 
-function synchronizeFileData() {
+function synchronizeFileData(parseChallenges = false) {
   recalculateFileData();
 
   fileContent = JSON.stringify(fileData);
-  fileData = parseFileDataFromContent(fileContent);
+  fileData = parseFileDataFromContent(fileContent, parseChallenges);
 }
 
 async function loadFile(input) {
@@ -362,7 +362,7 @@ async function loadFile(input) {
 
 function saveFile() {
   try {
-    fileData = parseFileDataFromContent(fileContent);
+    synchronizeFileData();
     content = JSON.stringify(fileData);
 
     let datetimeSuffix = '';
@@ -407,7 +407,8 @@ function reloadAchievementsTab() {
 function reloadChallengesTab() {
   try {
     clearNotifications();
-    fileData = parseFileDataFromContent(fileContent);
+    const parseChallenges = true;
+    fileData = parseFileDataFromContent(fileContent, parseChallenges);
 
     fillChallenges(fileData[DATA_FIELD_CHALLENGES] ?? []);
   } catch (e) {
@@ -440,7 +441,7 @@ function setFileContentFromJsonEditor() {
   }
 }
 
-function parseFileDataFromContent(content) {
+function parseFileDataFromContent(content, parseChallenges = false) {
   fileData = null;
 
   let data = {};
@@ -451,16 +452,18 @@ function parseFileDataFromContent(content) {
     throw new Error(message + ' (' + e.message + ')');
   }
 
-  //let rowId = 0;
-  //try {
-    //let contextData = {};
-    //for (const challenge of data[DATA_FIELD_CHALLENGES] ?? []) {
-      //rowId++;
-      //parseChallenge(rowId, challenge, contextData);
+  if (parseChallenges) {
+    //let rowId = 0;
+    //try {
+      //let contextData = {};
+      //for (const challenge of data[DATA_FIELD_CHALLENGES] ?? []) {
+        //rowId++;
+        //parseChallenge(rowId, challenge, contextData);
+      //}
+    //} catch (e) {
+      //error(e.message + ' (<a href="#challenge-' + rowId + '">' + rowId + '</a>)');
     //}
-  //} catch (e) {
-    //error(e.message + ' (<a href="#challenge-' + rowId + '">' + rowId + '</a>)');
-  //}
+  }
 
   return data;
 }
@@ -1580,7 +1583,8 @@ function addNewChallenge() {
   recalculateFileData();
 
   fileContent = JSON.stringify(fileData);
-  fileData = parseFileDataFromContent(fileContent);
+  const parseChallenges = true;
+  fileData = parseFileDataFromContent(fileContent, parseChallenges);
 
   reloadChallengesTab();
   success(getLanguageVariable('lang-new-challenge-created-successfully', true));
@@ -1875,7 +1879,8 @@ async function setChecklistStatus(newValue) {
       fileData[DATA_FIELD_CHALLENGES][rowId - 1][DATA_FIELD_CHECKLIST][itemType] = newValue;
 
       fileContent = JSON.stringify(fileData);
-      fileData = parseFileDataFromContent(fileContent);
+      const parseChallenges = true;
+      fileData = parseFileDataFromContent(fileContent, parseChallenges);
 
       await checklistListReset(rowId);
       reloadChallengesTab();
@@ -1998,7 +2003,8 @@ function refreshChallengesTabAfterChange() {
   sortChallengesByDate();
 
   fileContent = JSON.stringify(fileData);
-  fileData = parseFileDataFromContent(fileContent);
+  const parseChallenges = true;
+  fileData = parseFileDataFromContent(fileContent, parseChallenges);
   reloadChallengesTab();
 }
 
@@ -2634,7 +2640,8 @@ async function moveUpNote(rowId, challengeType, itemType, itemPath) {
   context[noteKey] = structuredClone(context[noteKey - 1]);
   context[noteKey - 1] = objectToMove;
 
-  synchronizeFileData();
+  const parseChallenges = true;
+  synchronizeFileData(parseChallenges);
 
   const isEditMode = true;
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
@@ -2661,7 +2668,8 @@ async function moveDownNote(rowId, challengeType, itemType, itemPath) {
   context[noteKey] = structuredClone(context[noteKey + 1]);
   context[noteKey + 1] = objectToMove;
 
-  synchronizeFileData();
+  const parseChallenges = true;
+  synchronizeFileData(parseChallenges);
 
   const isEditMode = true;
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
@@ -2694,7 +2702,8 @@ async function removeNote() {
   }
   context.splice(noteKey, 1);
 
-  synchronizeFileData();
+  const parseChallenges = true;
+  synchronizeFileData(parseChallenges);
 
   const isEditMode = true;
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
@@ -2734,7 +2743,8 @@ async function addNewNote(rowId, challengeType, itemType, itemPath, noteIndex, i
   }
   fileData[DATA_FIELD_NOTES][noteIndex][noteId] = inputValue;
 
-  synchronizeFileData();
+  const parseChallenges = true;
+  synchronizeFileData(parseChallenges);
 
   const isEditMode = true;
   lastFormModeNoteCellElementIdSuffix = {};
@@ -2754,7 +2764,8 @@ async function assignExistingNote(rowId, challengeType, itemType, itemPath) {
   }
   context[noteNumber] = {[noteId]: []};
 
-  synchronizeFileData();
+  const parseChallenges = true;
+  synchronizeFileData(parseChallenges);
 
   const isEditMode = true;
   lastFormModeNoteCellElementIdSuffix = {};
