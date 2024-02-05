@@ -1931,7 +1931,6 @@ async function importMarkdownDescription(element, filePath, params = [], values 
 }
 
 function getDescriptionParamValue(paramName, paramValue) {
-  console.log(paramName);
   switch (paramName) {
     case DESCRIPTION_VALUE_PARAM:
       return paramValue;
@@ -2485,7 +2484,10 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
     }
 
     inputElement.onchange();
-  };
+  }
+  selectElement.onblur = function() {
+    inputElement.onblur();
+  }
   inputElement.onchange = function() {
     const value = inputElement.value;
 
@@ -2504,6 +2506,13 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
           setExistingNoteButtonElement.style = VISIBLE_STYLE;
         }
       }
+    }
+  }
+  inputElement.onblur = function() {
+    if (setNewNoteButtonElement.style.display === '') {
+      setNewNoteButtonElement.onclick();
+    } else if (setExistingNoteButtonElement.style.display === '') {
+      setExistingNoteButtonElement.onclick();
     }
   }
   setNewNoteButtonElement.onclick = function() {
