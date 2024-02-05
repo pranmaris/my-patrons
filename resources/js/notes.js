@@ -220,7 +220,7 @@ function getPersonsDataRootName(personId) {
   return personId.replace(new RegExp('[/' + PERSON_URL_FEAST_SEPARATOR + '].*$'), '');
 }
 
-async function showNotification(message, type) {
+async function showNotification(message, type, rowId = EMPTY_ROW_ID) {
   const notifications = document.getElementById(NOTIFICATIONS_ELEMENT_ID);
   const content = await getFileContent(NOTIFICATION_ITEM_TEMPLATE_FILE_PATH);
 
@@ -238,24 +238,28 @@ function clearNotifications() {
   notifications.innerHTML = '';
 }
 
-function error(message) {
+function error(message, rowId = EMPTY_ROW_ID) {
   const prefix = getLanguageVariable('lang-notification-error', true);
-  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'danger');
+  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'danger', rowId);
 }
 
-function warning(message) {
+function warning(message, rowId = EMPTY_ROW_ID) {
   const prefix = getLanguageVariable('lang-notification-warning', true);
-  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'warning');
+  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'warning', rowId);
 }
 
-function info(message) {
+function info(message, rowId = EMPTY_ROW_ID) {
   const prefix = getLanguageVariable('lang-notification-info', true);
-  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'dark');
+  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'dark', rowId);
 }
 
-function success(message) {
+function success(message, rowId = EMPTY_ROW_ID) {
   const prefix = getLanguageVariable('lang-notification-success', true);
-  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'success');
+  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'success', rowId);
+}
+
+function gotoChallenge(rowId) {
+  location.hash = ANCHOR_CHARACTER + CHALLENGE_ROW_ELEMENT_ID_PREFIX + rowId;
 }
 
 async function sleep(miliseconds) {
@@ -330,11 +334,14 @@ const getJsonFromFile = async function(path) {
   return JSON.parse(content);
 }
 
-function synchronizeFileData(parseChallenges = false) {
+function synchronizeFileData() {
+  clearNotifications();
+
+  sortChallengesByDate();
   recalculateFileData();
 
   fileContent = JSON.stringify(fileData);
-  fileData = parseFileDataFromContent(fileContent, parseChallenges);
+  fileData = parseFileDataFromContent(fileContent);
 }
 
 async function loadFile(input) {
@@ -351,7 +358,6 @@ async function loadFile(input) {
       fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] = fileName;
     }
 
-    sortChallengesByDate();
     synchronizeFileData();
 
     reloadFileTab();
@@ -402,15 +408,21 @@ function reloadFileTab() {
 }
 
 function reloadAchievementsTab() {
-}
-
-function reloadChallengesTab() {
   try {
     clearNotifications();
-    const parseChallenges = true;
-    fileData = parseFileDataFromContent(fileContent, parseChallenges);
+  } catch (e) {
+    error(e.message);
+  }
+}
 
-    fillChallenges(fileData[DATA_FIELD_CHALLENGES] ?? []);
+async function reloadChallengesTab() {
+  try {
+    synchronizeFileData();
+
+    const challengesData = fileData[DATA_FIELD_CHALLENGES] ?? [];
+    await fillChallenges(challengesData);
+
+    parseChallenges(challengesData);
   } catch (e) {
     error(e.message);
   }
@@ -441,7 +453,7 @@ function setFileContentFromJsonEditor() {
   }
 }
 
-function parseFileDataFromContent(content, parseChallenges = false) {
+function parseFileDataFromContent(content) {
   fileData = null;
 
   let data = {};
@@ -452,28 +464,30 @@ function parseFileDataFromContent(content, parseChallenges = false) {
     throw new Error(message + ' (' + e.message + ')');
   }
 
-  if (parseChallenges) {
-    //let rowId = 0;
-    //try {
-      //let contextData = {};
-      //for (const challenge of data[DATA_FIELD_CHALLENGES] ?? []) {
-        //rowId++;
-        //parseChallenge(rowId, challenge, contextData);
-      //}
-    //} catch (e) {
-      //error(e.message + ' (<a href="#challenge-' + rowId + '">' + rowId + '</a>)');
-    //}
-  }
-
   return data;
 }
 
-//function parseChallenge(rowId, challenge, contextData) {
-  //const challengeType = challenge.type ?? '';
-  //if (challengeType !== '') {
-    //throw new Error(getLanguageVariable('lang-parse-error-missing-challenge-type', true));
-  //}
-//}
+function parseChallenges(data) {
+  let rowId = 0;
+  try {
+    let contextData = {};
+    for (const challenge of data) {
+      rowId++;
+      parseChallenge(rowId, challenge, contextData);
+    }
+  } catch (e) {
+    warning(e.message, rowId);
+  }
+}
+
+function parseChallenge(rowId, challenge, contextData) {
+  const challengeType = challenge.type ?? '';
+  if (challengeType === '') {
+    throw new Error(getLanguageVariable('lang-parse-error-missing-challenge-type', true));
+  }
+
+  //todo ...
+}
 
 function setValueAsOwner(value) {
   try {
@@ -1552,7 +1566,7 @@ function getSortedArray(object) {
   });
 }
 
-function addNewChallenge() {
+async function addNewChallenge() {
   const feastValue = document.getElementById(FEAST_SELECT_ELEMENT_ID).value;
 
   const date = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
@@ -1579,15 +1593,11 @@ function addNewChallenge() {
   };
   fileData[DATA_FIELD_CHALLENGES].push(record);
 
-  sortChallengesByDate();
-  recalculateFileData();
+  await reloadChallengesTab();
 
-  fileContent = JSON.stringify(fileData);
-  const parseChallenges = true;
-  fileData = parseFileDataFromContent(fileContent, parseChallenges);
-
-  reloadChallengesTab();
-  success(getLanguageVariable('lang-new-challenge-created-successfully', true));
+  const gotoRowId = fileData[DATA_FIELD_CHALLENGES].length; //todo calculate added rowId param which can be other than last row Id
+  success(getLanguageVariable('lang-new-challenge-created-successfully', true), gotoRowId);
+  gotoChallenge(gotoRowId);
 }
 
 function getRecalculatedNotesData(srcData, noteTypes, usedNoteIdsByIndexes) {
@@ -1878,12 +1888,8 @@ async function setChecklistStatus(newValue) {
     if (Object.keys(oldValues).length > 0 && oldValues[itemType] !== undefined) {
       fileData[DATA_FIELD_CHALLENGES][rowId - 1][DATA_FIELD_CHECKLIST][itemType] = newValue;
 
-      fileContent = JSON.stringify(fileData);
-      const parseChallenges = true;
-      fileData = parseFileDataFromContent(fileContent, parseChallenges);
-
       await checklistListReset(rowId);
-      reloadChallengesTab();
+      await reloadChallengesTab();
     }
   } else {
     setNewChallengeChecklistValue(itemType, newValue);
@@ -1962,16 +1968,19 @@ async function removeChallengeReset(rowId) {
   modalRowId.value = rowId;
 }
 
-function removeChallenge() {
+async function removeChallenge() {
   const rowId = document.getElementById(REMOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID).value ?? 0;
 
   (fileData[DATA_FIELD_CHALLENGES] ?? []).splice(rowId - 1, 1);
 
-  refreshChallengesTabAfterChange();
-  success(getLanguageVariable('lang-challenge-removed-successfully', true));
+  await reloadChallengesTab();
+
+  const gotoRowId = Math.max(1, rowId - 1);
+  success(getLanguageVariable('lang-challenge-removed-successfully', true), gotoRowId);
+  gotoChallenge(gotoRowId);
 }
 
-function moveChallengeUp(rowId) {
+async function moveChallengeUp(rowId) {
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   const current = challenges[rowId - 1] ?? {};
   const previous = challenges[rowId - 2] ?? {};
@@ -1981,11 +1990,14 @@ function moveChallengeUp(rowId) {
     fileData[DATA_FIELD_CHALLENGES][rowId - 2] = current;
   }
 
-  refreshChallengesTabAfterChange();
-  success(getLanguageVariable('lang-challenges-order-changed-successfully', true));
+  await reloadChallengesTab();
+
+  const gotoRowId = Math.max(1, rowId - 1);
+  success(getLanguageVariable('lang-challenges-order-changed-successfully', true), gotoRowId);
+  gotoChallenge(gotoRowId);
 }
 
-function moveChallengeDown(rowId) {
+async function moveChallengeDown(rowId) {
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   const current = challenges[rowId - 1] ?? {};
   const next = challenges[rowId] ?? {};
@@ -1995,17 +2007,11 @@ function moveChallengeDown(rowId) {
     fileData[DATA_FIELD_CHALLENGES][rowId] = current;
   }
 
-  refreshChallengesTabAfterChange();
-  success(getLanguageVariable('lang-challenges-order-changed-successfully', true));
-}
+  await reloadChallengesTab();
 
-function refreshChallengesTabAfterChange() {
-  sortChallengesByDate();
-
-  fileContent = JSON.stringify(fileData);
-  const parseChallenges = true;
-  fileData = parseFileDataFromContent(fileContent, parseChallenges);
-  reloadChallengesTab();
+  const gotoRowId = rowId + 1;
+  success(getLanguageVariable('lang-challenges-order-changed-successfully', true), gotoRowId);
+  gotoChallenge(gotoRowId);
 }
 
 function resetNewChallengeChecklistValues() {
@@ -2640,8 +2646,7 @@ async function moveUpNote(rowId, challengeType, itemType, itemPath) {
   context[noteKey] = structuredClone(context[noteKey - 1]);
   context[noteKey - 1] = objectToMove;
 
-  const parseChallenges = true;
-  synchronizeFileData(parseChallenges);
+  synchronizeFileData();
 
   const isEditMode = true;
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
@@ -2668,8 +2673,7 @@ async function moveDownNote(rowId, challengeType, itemType, itemPath) {
   context[noteKey] = structuredClone(context[noteKey + 1]);
   context[noteKey + 1] = objectToMove;
 
-  const parseChallenges = true;
-  synchronizeFileData(parseChallenges);
+  synchronizeFileData();
 
   const isEditMode = true;
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
@@ -2702,8 +2706,7 @@ async function removeNote() {
   }
   context.splice(noteKey, 1);
 
-  const parseChallenges = true;
-  synchronizeFileData(parseChallenges);
+  synchronizeFileData();
 
   const isEditMode = true;
   await showNoteContent(rowId, challengeType, itemType, isEditMode);
@@ -2743,8 +2746,7 @@ async function addNewNote(rowId, challengeType, itemType, itemPath, noteIndex, i
   }
   fileData[DATA_FIELD_NOTES][noteIndex][noteId] = inputValue;
 
-  const parseChallenges = true;
-  synchronizeFileData(parseChallenges);
+  synchronizeFileData();
 
   const isEditMode = true;
   lastFormModeNoteCellElementIdSuffix = {};
@@ -2764,8 +2766,7 @@ async function assignExistingNote(rowId, challengeType, itemType, itemPath) {
   }
   context[noteNumber] = {[noteId]: []};
 
-  const parseChallenges = true;
-  synchronizeFileData(parseChallenges);
+  synchronizeFileData();
 
   const isEditMode = true;
   lastFormModeNoteCellElementIdSuffix = {};
