@@ -214,6 +214,11 @@
         "pl": "brak konfiguracji dla typu wyzwania"
     },
 
+    "lang-challenge-parse-error-uniqueness": {
+        "en": "this challenge is unallowable duplication of a previous challenge",
+        "pl": "to wyzwanie jest niedozwoloną duplikacją wcześniejszego wyzwania"
+    },
+
     "lang-challenges-card-challenge-column-header": {
         "en": "challenge type and its number (if exists)",
         "pl": "typ wyzwania oraz jego numer (jeśli istnieje)"

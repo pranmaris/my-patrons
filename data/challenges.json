@@ -10,7 +10,7 @@
       }
     },
     "numbers": false,
-    "duplication-fields": ["person"],
+    "uniqueness": ["person"],
     "person": {
       "types": ["Me"],
       "description": {

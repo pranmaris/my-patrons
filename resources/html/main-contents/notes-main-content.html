@@ -172,11 +172,11 @@
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="checklist-list-modal-toggle-label">#lang-notes|capitalize#</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick="reloadChallengesTab()"></button>
             </div>
             <div class="modal-body list-group" id="notes-list"></div>
             <div class="modal-footer">
-              <button id="notes-button" class="btn btn-primary" data-bs-target="#notes-modal-toggle" data-bs-dismiss="modal"">#lang-done|capitalize#</button>
+              <button id="notes-button" class="btn btn-primary" data-bs-target="#notes-modal-toggle" data-bs-dismiss="modal" onclick="reloadChallengesTab()">#lang-done|capitalize#</button>
             </div>
           </div>
         </div>

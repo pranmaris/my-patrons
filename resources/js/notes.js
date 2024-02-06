@@ -5,6 +5,7 @@ const SELECT_SEPARATOR = '----------';
 const NAME_TO_IGNORE = '~~~';
 
 const ANCHOR_CHARACTER = '#';
+const UNIQUENESS_STRING_SEPARATOR = '|#|#|';
 const TEXT_CHARACTER_SORTED_AFTER_OTHERS = 'ﻩ';
 
 const MISSING_INDEX_OF_VALUE = -1;
@@ -477,7 +478,7 @@ function parseChallenges(challengesData) {
   try {
     let contextData = {
       persons: {},
-      duplications: {}
+      uniqs: {}
     };
     for (const challenge of challengesData) {
       rowId++;
@@ -510,9 +511,11 @@ function parseChallenge(rowId, challenge, contextData) {
 
   const configPersonData = config.person ?? {};
   const configPersonReqsData = configPersonData.requirements ?? {};
+  const configUniqueness = config.uniqueness ?? [];
 
   const manyPersonsContext = contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
   const specifiedPersonContext = contextData.persons[challengePerson] ?? {};
+  const uniqs = contextData.uniqs[challengeType] ?? {};
 
   //check requirements
   for (const personReq of Object.entries(configPersonReqsData)) {
@@ -545,7 +548,14 @@ function parseChallenge(rowId, challenge, contextData) {
   }
 
   //check duplications
-  //todo ...
+  const uniq = getUniquenessString(challenge, configUniqueness);
+  const foundUniq = uniqs[uniq] ?? '';
+  if (foundUniq !== '') {
+    throw {
+      message: 'lang-challenge-parse-error-uniqueness',
+      data: ['#' + foundUniq]
+    };
+  }
 
   //add context data
   if (contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN] === undefined) {
@@ -554,9 +564,32 @@ function parseChallenge(rowId, challenge, contextData) {
   if (contextData.persons[challengePerson] === undefined) {
     contextData.persons[challengePerson] = {};
   }
+  if (contextData.uniqs[challengeType] === undefined) {
+    contextData.uniqs[challengeType] = {};
+  }
 
   contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] = (contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] ?? 0) + 1;
   contextData.persons[challengePerson][challengeType] = (contextData.persons[challengePerson][challengeType] ?? 0) + 1;
+
+  contextData.uniqs[challengeType][uniq] = rowId;
+}
+
+function getUniquenessString(challenge, uniqFields) {
+  let resultArr = [];
+
+  for (const fieldPath of uniqFields) {
+    let context = challenge;
+    const fields = fieldPath.split('/');
+
+    for (const field of fields) {
+      context = context[field] ?? '';
+    }
+
+    const string = JSON.stringify(context);
+    resultArr.push(string);
+  }
+
+  return resultArr.join(UNIQUENESS_STRING_SEPARATOR);
 }
 
 function setValueAsOwner(value) {
