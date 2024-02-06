@@ -347,10 +347,10 @@ textarea {
 }
 
 iframe {
-    display: block;
-    border: none;
-    height: 50vh;
-    width: 100%;
+  display: block;
+  border: none;
+  height: 50vh;
+  width: 100%;
 }
 
 .notes-description {
@@ -373,4 +373,9 @@ iframe {
   position: fixed;
   bottom: 0px;
   right: 0px;
+}
+
+.selectable-content {
+  user-select: all;
+  cursor: pointer;
 }
