@@ -224,7 +224,10 @@ async function showNotification(message, type, rowId = EMPTY_ROW_ID) {
   const notifications = document.getElementById(NOTIFICATIONS_ELEMENT_ID);
   const content = await getFileContent(NOTIFICATION_ITEM_TEMPLATE_FILE_PATH);
 
-  const wrapper = document.createElement('div');
+  const wrapper = document.createElement('a');
+  if (rowId > EMPTY_ROW_ID) {
+    wrapper.href = ANCHOR_CHARACTER + CHALLENGE_ROW_ELEMENT_ID_PREFIX + rowId;
+  }
   wrapper.innerHTML = content
     .replace(/#type#/g, type)
     .replace(/#message#/g, message)
