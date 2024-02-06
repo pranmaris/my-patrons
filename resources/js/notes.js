@@ -21,6 +21,8 @@ const CHALLENGES_CONFIG_JSON_FILE = '/files/data/challenges.json';
 const NOTES_CONFIG_JSON_FILE = '/files/data/notes-types.json';
 const PERSONS_DATA_JSON_FILE = '/files/data/generated/persons-data.generated.json';
 
+const PARSE_CHALLENGE_MANY_PERSONS_SIGN = '*';
+
 const CHALLENGE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-item.html';
 const CHALLENGE_ITEM_TO_REMOVE_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-to-remove-item.html';
 const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-checklist-item.html';
@@ -470,26 +472,91 @@ function parseFileDataFromContent(content) {
   return data;
 }
 
-function parseChallenges(data) {
+function parseChallenges(challengesData) {
   let rowId = 0;
   try {
-    let contextData = {};
-    for (const challenge of data) {
+    let contextData = {
+      persons: {},
+      duplications: {}
+    };
+    for (const challenge of challengesData) {
       rowId++;
       parseChallenge(rowId, challenge, contextData);
     }
   } catch (e) {
-    warning(e.message, rowId);
+    const challengeIdInfo = '(' + getLanguageVariable('lang-challenge') + ' #' + rowId + ') ';
+    let message = e.message;
+    if (LANGUAGE_VARIABLE_PREFIX === message.substring(0, LANGUAGE_VARIABLE_PREFIX.length)) {
+      message = getLanguageVariable(message, true);
+    }
+    const data = e.data ?? [];
+
+    warning(challengeIdInfo + message + ((data.length > 0) ? ': ["' + data.join('", "') + '"]' : ''), rowId);
   }
 }
 
 function parseChallenge(rowId, challenge, contextData) {
   const challengeType = challenge.type ?? '';
-  if (challengeType === '') {
-    throw new Error(getLanguageVariable('lang-parse-error-missing-challenge-type', true));
+  const challengePerson = challenge.person ?? '';
+  const challengeStatus = getChallengeSuccessStatus(rowId);
+
+  const config = challengesConfig[challengeType] ?? null;
+  if (config === null) {
+    throw {
+      message: 'lang-challenge-parse-error-missing-configuration-for-challenge-type',
+      data: [challengeType]
+    };
   }
 
+  const configPersonData = config.person ?? {};
+  const configPersonReqsData = configPersonData.requirements ?? {};
+
+  const manyPersonsContext = contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
+  const specifiedPersonContext = contextData.persons[challengePerson] ?? {};
+
+  //check requirements
+  for (const personReq of Object.entries(configPersonReqsData)) {
+    const reqName = personReq[0] ?? '';
+    const reqTypes = personReq[1] ?? [];
+
+    switch (reqName) {
+      case REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES:
+        for (const type of reqTypes) {
+          if ((manyPersonsContext[type] ?? null) !== null) {
+            throw {
+              message: 'lang-challenge-parse-error-for-requirement-everybody-not-having-challenges',
+              data: [type]
+            };
+          }
+        }
+        break;
+
+      default:
+        throw {
+          message: 'lang-challenge-parse-error-missing-assigned-to-challenge-persons-requirement-type',
+          data: [reqName]
+        };
+        break;
+    }
+  }
+
+  if (challengeStatus === false) {
+    return;
+  }
+
+  //check duplications
   //todo ...
+
+  //add context data
+  if (contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN] === undefined) {
+    contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN] = {};
+  }
+  if (contextData.persons[challengePerson] === undefined) {
+    contextData.persons[challengePerson] = {};
+  }
+
+  contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] = (contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] ?? 0) + 1;
+  contextData.persons[challengePerson][challengeType] = (contextData.persons[challengePerson][challengeType] ?? 0) + 1;
 }
 
 function setValueAsOwner(value) {

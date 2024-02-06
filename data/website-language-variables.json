@@ -184,9 +184,34 @@
         "pl": "ceremonialnie"
     },
 
+    "lang-challenge": {
+        "en": "challenge",
+        "pl": "wyzwanie"
+    },
+
+    "lang-challenge-date": {
+        "en": "challenge date",
+        "pl": "data wyzwania"
+    },
+
     "lang-challenge-type": {
         "en": "challenge type",
         "pl": "typ wyzwania"
+    },
+
+    "lang-challenge-parse-error-for-requirement-everybody-not-having-challenges": {
+        "en": "this type of challenge has been assigned to anyone before",
+        "pl": "ten typ wyzwania został już przypisany wcześniej do kogokolwiek"
+    },
+
+    "lang-challenge-parse-error-missing-assigned-to-challenge-persons-requirement-type": {
+        "en": "missing assigned to challenge person's requirement type",
+        "pl": "brak typu wymagania dla osoby przypisanej do wyzwania"
+    },
+
+    "lang-challenge-parse-error-missing-configuration-for-challenge-type": {
+        "en": "missing configuration for challenge type",
+        "pl": "brak konfiguracji dla typu wyzwania"
     },
 
     "lang-challenges-card-challenge-column-header": {
@@ -202,11 +227,6 @@
     "lang-challenges-card-progress-column-header": {
         "en": "Your progress for Patron (increase by 1, only for challenges numbers between 1 and 7 or without this number)",
         "pl": "Twój progres dla Patrona (zwiększaj o 1, tylko dla numerów wyzwań od 1 do 7 lub bez tego numeru)"
-    },
-
-    "lang-challenge-date": {
-        "en": "challenge date",
-        "pl": "data wyzwania"
     },
 
     "lang-challenges-order-changed-successfully": {
@@ -831,11 +851,6 @@
         "en": "parish festival",
         "pl": "odpust parafialny"
    },
-
-    "lang-parse-error-missing-challenge-type": {
-        "en": "missing challenge type",
-        "pl": "brakujący typ wyzwania"
-    },
 
     "lang-path": {
         "en": "path",
