@@ -1,0 +1,1 @@
+W tym wyzwaniu można **wpisać datę pierwszego przyjęcia dowolnego Sakramentu**, którą należy ustawić jako powyższą datę wyzwania. Podobnie jak data narodzin, będzie ona przydatna przy kolejnych wyzwaniach!

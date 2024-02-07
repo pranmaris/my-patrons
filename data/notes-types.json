@@ -136,8 +136,8 @@
   "sacrament": {
     "index": "sacraments",
     "name": {
-      "en": "sacrament",
-      "pl": "sakrament"
+      "en": "sacrament type",
+      "pl": "typ sakramentu"
     },
     "source": {
       "list": [

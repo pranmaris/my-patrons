@@ -68,11 +68,13 @@
                 <input id="challenge-date-input" type="date" onChange="resetChallengeTypeSelect()" />
               </div>
               <div id="challenge-type-div">
+                <hr />
                 <span>#lang-challenge-type|capitalize#: </span>
                 <select id="challenge-type-select" onChange="resetPersonTypeSelect()"></select>
               </div>
               <div id="challenge-description-div"></div>
               <div id="person-div">
+                <hr />
                 <span>#lang-person|capitalize#: </span>
                 <div id="person-description-div"></div>
                 <select id="person-type-select" onChange="resetPersonNameSelect()"></select>
@@ -81,12 +83,14 @@
                 <select id="feast-select" onChange="resetRequiredNotes()"></select>
               </div>
               <div id="required-notes-div">
+                <hr />
                 <span id="required-notes-info">#lang-add-new-challenge-required-notes-info|capitalize#:</span>
                 <div class="list-group" id="notes-list-for-add-new-challenge"></div>
                 <button id="add-new-challenge-notes-button" class="btn btn-primary" onclick="resetRequiredNotes()">#lang-done|capitalize#</button>
                 <input id="required-notes-done" type="hidden" />
               </div>
               <div id="required-checklist-steps-div">
+                <hr />
                 <span id="required-checklist-steps-info">#lang-add-new-challenge-required-checklist-steps-info|capitalize#:</span>
                 <div class="list-group" id="required-checklist-steps-list"></div>
                 <input id="required-checklist-steps-done" type="hidden" />

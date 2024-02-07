@@ -169,6 +169,7 @@ button .svg-image {
 }
 
 
+
 .navbar {
 }
 .navbar-toggler {
@@ -192,6 +193,10 @@ li.nav-item > a {
 }
 li.nav-item > a:hover {
   color: white !important;
+}
+
+#nav-challenges {
+  overflow-x: scroll;
 }
 
 

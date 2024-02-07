@@ -1931,6 +1931,8 @@ async function checklistListReset(rowId) {
     const backToAddNewChallengeModal = false;
     await drawChecklistRow(modalBody, rowId, challengeType, data[0] ?? null, data[1] ?? null, backToAddNewChallengeModal);
   }
+
+  notesReset(rowId);
 }
 
 async function drawChecklistRow(contentElement, rowId, challengeType, itemType, value, backToAddNewChallengeModal) {

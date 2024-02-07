@@ -118,5 +118,93 @@
         }
       }
     }
+  },
+
+  "X": {
+    "name": {
+      "pl": "Sakramenty"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/sakramenty"
+      }
+    },
+    "numbers": true,
+    "uniqueness": ["person", "notes/type"],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["J"]
+      }
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "potwierdź swoje pierwsze przyjęcie Sakramentu"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/potwierdz-date-pierwszego-przyjecia-sakramentu"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": {
+        "type": {
+          "sacrament": [1, 1]
+        },
+        "name": {
+          "pl": "typ Sakramentu"
+        }
+      },
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina pierwszego przyjęcia Sakramentu"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce pierwszego przyjęcia Sakramentu"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
   }
 }
