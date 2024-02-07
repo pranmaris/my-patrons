@@ -80,5 +80,43 @@
         }
       }
     }
+  },
+
+  "TODO": {
+    "name": {
+      "pl": "Czynność do wykonania"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/do-wykonania"
+      }
+    },
+    "numbers": true,
+    "uniqueness": ["person", "date", "notes/description"],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["J"]
+      }
+    },
+    "checklist": {},
+    "notes": {
+      "description": {
+        "type": {
+          "todo": [1, 1]
+        },
+        "name": {
+          "en": "action to do",
+          "pl": "czynność do wykonania"
+        }
+      }
+    }
   }
 }

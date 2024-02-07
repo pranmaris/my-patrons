@@ -94,6 +94,7 @@ const NOTE_CELL_INPUT_ELEMENT_ID = 'note-cell-input';
 const NOTE_CELL_SELECT_ELEMENT_ID = 'note-cell-select';
 const NOTE_CELL_SET_EXISTING_NOTE_BUTTON = 'note-cell-set-existing-note-button';
 const NOTE_CELL_SET_NEW_NOTE_BUTTON = 'note-cell-set-new-note-button';
+const CHALLENGE_SUCCESS_STATUS_ICON_TODO_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-todo-';
 const CHALLENGE_SUCCESS_STATUS_ICON_ABORTED_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-aborted-';
 const CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-waiting-';
 const CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-done-';
@@ -173,6 +174,15 @@ const CHECKLIST_STATUSES = {
   [CHECKLIST_STATUS_ABORTED]: {variable: 'lang-checklist-status-aborted', color: 'danger'},
   [CHECKLIST_STATUS_DONE]: {variable: 'lang-checklist-status-done', color: 'success'}
 }
+
+const CHALLENGE_SUCCESS_STATUS_IN_DATA_ABORTED = false;
+const CHALLENGE_SUCCESS_STATUS_IN_DATA_WAITING = null;
+const CHALLENGE_SUCCESS_STATUS_IN_DATA_DONE = true;
+
+const CHALLENGE_SUCCESS_STATUS_TODO = 'todo';
+const CHALLENGE_SUCCESS_STATUS_ABORTED = 'aborted';
+const CHALLENGE_SUCCESS_STATUS_WAITING = 'waiting';
+const CHALLENGE_SUCCESS_STATUS_DONE = 'done';
 
 let challengesConfig = {};
 let notesTypesConfig = {};
@@ -521,8 +531,24 @@ function parseChallenge(rowId, challenge, contextData) {
   for (const personReq of Object.entries(configPersonReqsData)) {
     const reqName = personReq[0] ?? '';
     const reqTypes = personReq[1] ?? [];
+    const reqTypesWithDuplications = getTypesArrayWithDuplications(reqTypes);
 
     switch (reqName) {
+      case REQUIREMENT_ANYBODY_HAVING_CHALLENGES:
+        let neededCounts = {};
+        for (const type of reqTypesWithDuplications) {
+          neededCounts[type] = (neededCounts[type] ?? 0) + 1;
+
+          const neededCount = neededCounts[type] ?? 1;
+          if ((manyPersonsContext[type] ?? 0) < neededCount) {
+            throw {
+              message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges',
+              data: [neededCount + 'x' + type]
+            };
+          }
+        }
+        break;
+
       case REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES:
         for (const type of reqTypes) {
           if ((manyPersonsContext[type] ?? null) !== null) {
@@ -543,7 +569,7 @@ function parseChallenge(rowId, challenge, contextData) {
     }
   }
 
-  if (challengeStatus === false) {
+  if (challengeStatus === CHALLENGE_SUCCESS_STATUS_ABORTED) {
     return;
   }
 
@@ -695,32 +721,39 @@ async function fillChallenges(challenges) {
       feastUrlElement.removeAttribute('href');
     }
 
+    const successStatusIconTodo = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_TODO_ELEMENT_ID_PREFIX + rowId);
     const successStatusIconAborted = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_ABORTED_ELEMENT_ID_PREFIX + rowId);
     const successStatusIconWaiting = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX + rowId);
     const successStatusIconDone = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX + rowId);
 
+    successStatusIconTodo.style = INVISIBLE_STYLE;
     successStatusIconAborted.style = INVISIBLE_STYLE;
     successStatusIconWaiting.style = INVISIBLE_STYLE;
     successStatusIconDone.style = INVISIBLE_STYLE;
 
     switch (getChallengeSuccessStatus(rowId)) {
-      case true:
+      case CHALLENGE_SUCCESS_STATUS_DONE:
         successStatusIconDone.style = VISIBLE_STYLE;
         break;
 
-      case false:
+      case CHALLENGE_SUCCESS_STATUS_ABORTED:
         successStatusIconAborted.style = VISIBLE_STYLE;
         break;
 
-      default:
+      case CHALLENGE_SUCCESS_STATUS_WAITING:
         successStatusIconWaiting.style = VISIBLE_STYLE;
+        break;
+
+      case CHALLENGE_SUCCESS_STATUS_TODO:
+      default:
+        successStatusIconTodo.style = VISIBLE_STYLE;
         break;
     }
   }
 }
 
 function getChallengeSuccessStatus(rowId) {
-  let result = true;
+  let result = CHALLENGE_SUCCESS_STATUS_TODO;
 
   const challenge = (fileData[DATA_FIELD_CHALLENGES] ?? {})[rowId - 1] ?? {};
   const challengeType = challenge.type ?? '';
@@ -728,15 +761,19 @@ function getChallengeSuccessStatus(rowId) {
   const config = (challengesConfig[challengeType] ?? {})[CONFIG_FIELD_CHECKLIST] ?? {};
 
   for (const stepId of Object.keys(checklistData)) {
-    const status = checklistData[stepId] ?? null;
-    const isRequired = (config[stepId] ?? {}).required ?? true;
-
-    if (status === null && isRequired) {
-      return null;
+    if (result === CHALLENGE_SUCCESS_STATUS_TODO) {
+      result = CHALLENGE_SUCCESS_STATUS_DONE;
     }
 
-    if (status === false) {
-      result = false;
+    const status = checklistData[stepId] ?? CHALLENGE_SUCCESS_STATUS_IN_DATA_WAITING;
+    const isRequired = (config[stepId] ?? {}).required ?? true;
+
+    if (status === CHALLENGE_SUCCESS_STATUS_IN_DATA_WAITING && isRequired) {
+      return CHALLENGE_SUCCESS_STATUS_WAITING;
+    }
+
+    if (status === CHALLENGE_SUCCESS_STATUS_IN_DATA_ABORTED) {
+      result = CHALLENGE_SUCCESS_STATUS_ABORTED;
     }
   }
 
@@ -806,7 +843,7 @@ function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDa
     let rowId = 0;
     for (let ch of challenges) {
       rowId++;
-      if (getChallengeSuccessStatus(rowId) === false) {
+      if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
         continue;
       }
 
@@ -839,7 +876,7 @@ function checkNotExistingChallengeTypes(requirements, challenges) {
     let rowId = 0;
     for (let ch of challenges) {
       rowId++;
-      if (getChallengeSuccessStatus(rowId) === false) {
+      if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
         continue;
       }
 
@@ -862,7 +899,7 @@ function checkNotExistingChallengeTypesOnTheSameDay(requirements, challenges, ch
     let rowId = 0;
     for (let ch of challenges) {
       rowId++;
-      if (getChallengeSuccessStatus(rowId) === false) {
+      if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
         continue;
       }
 
@@ -964,7 +1001,7 @@ function getPersonsHavingAllChallenges(types, checkDateString = null) {
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
     rowId++;
-    if (getChallengeSuccessStatus(rowId) === false) {
+    if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
       continue;
     }
     if (checkDate && Date.parse(ch.date) > checkDate) {
@@ -998,7 +1035,7 @@ function getPersonsFeastsHavingAllChallenges(types, checkDateString = null) {
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
     rowId++;
-    if (getChallengeSuccessStatus(rowId) === false) {
+    if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
       continue;
     }
     if (checkDate && Date.parse(ch.date) > checkDate) {
@@ -1037,7 +1074,7 @@ function getPersonsHavingAnyChallenge(types, checkDateString) {
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
     rowId++;
-    if (getChallengeSuccessStatus(rowId) === false) {
+    if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
       continue;
     }
     if (checkDate && Date.parse(ch.date) > checkDate) {
@@ -1061,7 +1098,7 @@ function getPersonsFeastsHavingAnyChallenge(types, checkDateString) {
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
   for (let ch of challenges) {
     rowId++;
-    if (getChallengeSuccessStatus(rowId) === false) {
+    if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
       continue;
     }
     if (checkDate && Date.parse(ch.date) > checkDate) {
@@ -2223,7 +2260,7 @@ function getNoteValueDepthLevelsCount(value, level = 0) {
 function getNoteTableHeaders(data, challengeConfig, depthLevelsCount) {
   let result = [];
   for (const noteType of Object.keys(challengeConfig.type ?? {})) {
-    let noteName = getLanguageVariable('name', false, (notesTypesConfig[noteType] ?? {}).name ?? {});
+    let noteName = getLanguageVariable('name', true, (notesTypesConfig[noteType] ?? {}).name ?? {});
     if (noteName.substring(0, 3) === LANGUAGE_MISSING_VARIABLE_SIGN) {
       noteName = MISSING_TABLE_HEADER_NOTE_NAME;
     }
@@ -2656,6 +2693,7 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
     }
   }
 
+  let anySelectOptionAddedAfterSeparator = false;
   if (currentNoteId === EMPTY_NOTE_ID || fileDataValues[currentNoteId] == undefined) {
     addOptionToSelect(selectElement, EMPTY_NOTE_ID, SELECT_NAME);
   }
@@ -2663,10 +2701,11 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
   let foundAnySource = false;
   let foundSelectedOption = false;
   for (let source of Object.keys(noteSources)) {
-    if (foundAnySource) {
+    if (foundAnySource && anySelectOptionAddedAfterSeparator) {
       const isSelected = false;
       const isDisabled = true;
       addOptionToSelect(selectElement, EMPTY_NOTE_ID, SELECT_SEPARATOR, isSelected, isDisabled);
+      anySelectOptionAddedAfterSeparator = false;
     }
     foundAnySource = true;
 
@@ -2688,15 +2727,19 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
           }
           if (siblingsNoteIds[noteId] == undefined) {
             addOptionToSelect(selectElement, noteId, value, isSelected);
+            anySelectOptionAddedAfterSeparator = true;
             selectableValues[noteId] = value;
           }
         }
 
         isSelected = false;
         const isDisabled = true;
-        addOptionToSelect(selectElement, EMPTY_NOTE_ID, SELECT_SEPARATOR, isSelected, isDisabled);
+        if (anySelectOptionAddedAfterSeparator) {
+          addOptionToSelect(selectElement, EMPTY_NOTE_ID, SELECT_SEPARATOR, isSelected, isDisabled);
+        }
 
         addOptionToSelect(selectElement, '', getLanguageVariable('lang-add-new-your-own-note') + ' ' + SELECT_NAME);
+        anySelectOptionAddedAfterSeparator = true;
         break;
 
       case NOTE_CONFIG_SOURCE_TYPE_LIST:
@@ -2710,6 +2753,7 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
           }
           if (siblingsNoteIds[noteId] == undefined) {
             addOptionToSelect(selectElement, noteId, value, isSelected);
+            anySelectOptionAddedAfterSeparator = true;
             selectableValues[noteId] = value;
           }
         }

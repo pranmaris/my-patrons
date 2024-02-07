@@ -2,8 +2,8 @@
   "bible-lection": {
     "index": "bible-lections",
     "name": {
-      "en": "Bible lection",
-      "pl": "Fragment Pisma Świętego"
+      "en": "bible lection",
+      "pl": "fragment Pisma Świętego"
     },
     "source": {
       "values": "sorted"
@@ -12,8 +12,8 @@
   "criterion-of-selecting-a-protector-patron": {
     "index": "criteria-of-selecting-protector-patrons",
     "name": {
-      "en": "Criterion of selecting Protector Patron",
-      "pl": "Kryterium wyboru Patrona Obrońcy"
+      "en": "criterion of selecting Protector Patron",
+      "pl": "kryterium wyboru Patrona Obrońcy"
     },
     "source": {
       "list": [
@@ -59,16 +59,16 @@
   "criterion-of-selecting-a-protector-patron-description": {
     "index": "criterion-of-selecting-a-protector-patron-descriptions",
     "name": {
-      "en": "Criterion of selecting Protector Patron description",
-      "pl": "Opis kryterium wyboru Patrona Obrońcy"
+      "en": "criterion of selecting Protector Patron description",
+      "pl": "opis kryterium wyboru Patrona Obrońcy"
     },
     "source": {}
   },
   "description": {
     "index": "descriptions",
     "name": {
-      "en": "Description",
-      "pl": "Opis"
+      "en": "description",
+      "pl": "opis"
     },
     "source": {
       "values": "sorted"
@@ -77,8 +77,8 @@
   "given-intercessor-patron": {
     "index": "given-intercessor-patrons",
     "name": {
-      "en": "Given Intercessor Patron",
-      "pl": "Przekazany Patron Orędownik"
+      "en": "given Intercessor Patron",
+      "pl": "przekazany Patron Orędownik"
     },
     "source": {
       "patrons": {
@@ -89,8 +89,8 @@
   "person": {
     "index": "persons",
     "name": {
-      "en": "Person",
-      "pl": "Osoba"
+      "en": "person",
+      "pl": "osoba"
     },
     "source": {
       "values": "sorted"
@@ -99,8 +99,8 @@
   "place": {
     "index": "places",
     "name": {
-      "en": "Place",
-      "pl": "Miejsce"
+      "en": "place",
+      "pl": "miejsce"
     },
     "source": {
       "values": "sorted"
@@ -109,8 +109,8 @@
   "role-at-mass": {
     "index": "roles-at-mass",
     "name": {
-      "en": "Role at Mass",
-      "pl": "Rola na Mszy"
+      "en": "role at Mass",
+      "pl": "rola na Mszy"
     },
     "source": {
       "list": [
@@ -136,8 +136,8 @@
   "sacrament": {
     "index": "sacraments",
     "name": {
-      "en": "Sacrament",
-      "pl": "Sakrament"
+      "en": "sacrament",
+      "pl": "sakrament"
     },
     "source": {
       "list": [
@@ -154,11 +154,19 @@
   "time": {
     "index": "times",
     "name": {
-      "en": "Time",
-      "pl": "Czas"
+      "en": "time",
+      "pl": "czas"
     },
     "source": {
       "values": "sorted"
     }
+  },
+  "todo": {
+    "index": "todos",
+    "name": {
+      "en": "action description",
+      "pl": "opis czynności"
+    },
+    "source": {}
   }
 }

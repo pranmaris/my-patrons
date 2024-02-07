@@ -1,4 +1,4 @@
-Zrób to na podstawie **wiarygodnych dokumentów**<sup>1</sup>, o ile będzie to możliwe.
+**Potwierdź datę swoich narodzin** na podstawie **wiarygodnych dokumentów**<sup>1</sup>, o ile będzie to możliwe.
 
 ---
 Przypisy:

@@ -150,6 +150,9 @@ button .svg-image {
 .error-message .svg-image {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(24%) hue-rotate(114deg) brightness(108%) contrast(108%); /* #FFFFFF */
 }
+.challenge-success-status-icon-todo .svg-image {
+  filter: brightness(0) saturate(100%) invert(56%) sepia(34%) saturate(3434%) hue-rotate(3deg) brightness(100%) contrast(101%); /* #FA8901 */
+}
 .challenge-success-status-icon-aborted .svg-image {
   filter: brightness(0) saturate(100%) invert(11%) sepia(98%) saturate(6687%) hue-rotate(17deg) brightness(90%) contrast(121%); /* #DD0000 */
 }

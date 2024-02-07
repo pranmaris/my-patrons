@@ -199,9 +199,14 @@
         "pl": "typ wyzwania"
     },
 
+    "lang-challenge-parse-error-for-requirement-anybody-having-challenges": {
+        "en": "missing the required number of previous challenges of a certain type",
+        "pl": "brak wymaganej liczby wcześniejszych wyzwań określonego typu"
+    },
+
     "lang-challenge-parse-error-for-requirement-everybody-not-having-challenges": {
         "en": "this type of challenge has been assigned to anyone before",
-        "pl": "ten typ wyzwania został już przypisany wcześniej do kogokolwiek"
+        "pl": "ten typ wyzwania został już przypisany wcześniej do jakiejkolwiek osoby"
     },
 
     "lang-challenge-parse-error-missing-assigned-to-challenge-persons-requirement-type": {
