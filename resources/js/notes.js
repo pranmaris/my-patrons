@@ -699,6 +699,11 @@ async function fillChallenges(challenges) {
       }
       numbers[type][personUrl] = (numbers[type][personUrl] ?? 0) + 1;
       number = numbers[type][personUrl];
+
+      const challengeStatus = getChallengeSuccessStatus(rowId);
+      if (challengeStatus === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+        numbers[type][personUrl]--;
+      }
     }
     const typeName = getLanguageVariable('name', true, config.name ?? {});
 
