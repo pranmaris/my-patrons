@@ -25,7 +25,7 @@
     },
     "checklist": {
       "verification": {
-        "to-complete-on-selected-date": false,
+        "to-complete-on-selected-date": true,
         "required": true,
         "name": {
           "pl": "potwierdź datę swoich narodzin"
