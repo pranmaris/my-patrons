@@ -1,4 +1,125 @@
 {
+  "I": {
+    "name": {
+      "pl": "Bóg"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/bog"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["J"],
+        "everybody-not-having-challenges": ["I"]
+      }
+    },
+    "checklist": {
+      "self-entrusting": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "zawierz Bogu swój udział w inicjatywie"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/zawierz-bogu-swoj-udzial-w-inicjatywie"
+          }
+        }
+      },
+      "credo": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "pomódl się do Boga"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-do-boga"
+          }
+        }
+      },
+      "knowledge": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "poznaj Boga"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/poznaj-boga"
+          }
+        }
+      },
+      "apostles": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "poinformuj swoich „Apostołów”"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/poinformuj-swoich-apostolow"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina zawierzenia i modlitwy"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce zawierzenia i modlitwy"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "J": {
     "name": {
       "pl": "Narodziny"
@@ -202,6 +323,7 @@
           "description": [0, 0]
         },
         "name": {
+          "en": "additional information",
           "pl": "informacje dodatkowe"
         }
       }
