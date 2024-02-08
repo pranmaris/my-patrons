@@ -127,6 +127,7 @@ const DATA_FIELD_NOTES = 'notes';
 
 const CONFIG_FIELD_CHECKLIST = 'checklist';
 const CONFIG_FIELD_NOTES = 'notes';
+const CONFIG_FIELD_TO_COMPLETE_ON_SELECTED_DATE = 'to-complete-on-selected-date';
 
 const PERSON_TYPE_GOD = 'God';
 const PERSON_TYPE_ME = 'Me';
@@ -523,6 +524,8 @@ function parseChallenges(challengesData) {
 function parseChallenge(rowId, challenge, contextData) {
   const challengeType = challenge.type ?? '';
   const challengePerson = challenge.person ?? '';
+  const challengeChecklist = challenge[DATA_FIELD_CHECKLIST] ?? {};
+  const challengeNotes = challenge[DATA_FIELD_NOTES] ?? {};
   const challengeStatus = getChallengeSuccessStatus(rowId);
 
   const config = challengesConfig[challengeType] ?? null;
@@ -536,6 +539,8 @@ function parseChallenge(rowId, challenge, contextData) {
   const configPersonData = config.person ?? {};
   const configPersonReqsData = configPersonData.requirements ?? {};
   const configUniqueness = config.uniqueness ?? [];
+  const configChecklist = config[CONFIG_FIELD_CHECKLIST] ?? {};
+  const configNotes = config[CONFIG_FIELD_NOTES] ?? {};
 
   const manyPersonsContext = contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
   const specifiedPersonContext = contextData.persons[challengePerson] ?? {};
@@ -583,6 +588,31 @@ function parseChallenge(rowId, challenge, contextData) {
     }
   }
 
+  //check notes quantities
+  for (const itemType of Object.keys(configNotes)) {
+    const noteType = configNotes[itemType].type ?? {};
+    const noteName = getLanguageVariable('name', true, configNotes[itemType].name ?? {});
+    if (!validateNotesQuantity(challengeNotes[itemType] ?? {}, noteType)) {
+      throw {
+        message: 'lang-challenge-parse-error-invalid-notes-quantities',
+        data: [noteName]
+      };
+    }
+  }
+
+  //check if checklist steps to complete on selected date are done
+  for (const stepType of Object.keys(configChecklist)) {
+    const stepName = getLanguageVariable('name', true, configChecklist[stepType].name ?? {});
+    const toCompleteOnSelectedDate = (configChecklist[stepType] ?? {})[CONFIG_FIELD_TO_COMPLETE_ON_SELECTED_DATE] ?? false;
+    if (toCompleteOnSelectedDate && true !== (challengeChecklist[stepType] ?? false)) {
+      throw {
+        message: 'lang-challenge-parse-error-invelid-status-in-checklist-step-to-complete-on-selected-date',
+        data: [stepName]
+      };
+    }
+  }
+
+  //for aborted challenges we would not add its data to context
   if (challengeStatus === CHALLENGE_SUCCESS_STATUS_ABORTED) {
     return;
   }
@@ -1673,7 +1703,7 @@ async function resetRequiredChecklistSteps() {
     let allValuesAreDone = true;
     for (let data of Object.entries(checklist)) {
       const itemType = data[0] ?? null;
-      const toCompleteOnSelectedDate = (data[1] ?? {})['to-complete-on-selected-date'] ?? false;
+      const toCompleteOnSelectedDate = (data[1] ?? {})[CONFIG_FIELD_TO_COMPLETE_ON_SELECTED_DATE] ?? false;
 
       if (toCompleteOnSelectedDate) {
         const value = getNewChallengeChecklistValue(itemType);
@@ -2015,7 +2045,7 @@ async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, bac
   if (Object.keys(config).length == 0) {
     return;
   }
-  const toCompleteOnSelectedDate = config['to-complete-on-selected-date'] ?? false;
+  const toCompleteOnSelectedDate = config[CONFIG_FIELD_TO_COMPLETE_ON_SELECTED_DATE] ?? false;
   const required = config.required ?? true;
   const name = getLanguageVariable('name', true, config.name ?? {});
 
