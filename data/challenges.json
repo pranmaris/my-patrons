@@ -89,7 +89,7 @@
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/do-wykonania"
+        "pl": "pl/wyzwania/czynnosc-do-wykonania"
       }
     },
     "numbers": true,
