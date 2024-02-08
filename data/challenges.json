@@ -328,5 +328,94 @@
         }
       }
     }
+  },
+
+  "XP": {
+    "name": {
+      "pl": "Spowiedzi Święte"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/spowiedzi-swiete"
+      }
+    },
+    "numbers": true,
+    "uniqueness": [],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["2xX"]
+      }
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "wyspowiadaj się"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wyspowiadaj-sie"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina Spowiedzi Świętej"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce Spowiedzi Świętej"
+        }
+      },
+      "persons": {
+        "type": {
+          "person": [0, 1]
+        },
+        "name": {
+          "pl": "Spowiednik"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
   }
 }

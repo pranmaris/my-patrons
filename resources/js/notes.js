@@ -244,9 +244,10 @@ function getPersonsDataRootName(personId) {
   return personId.replace(new RegExp('[/' + PERSON_URL_FEAST_SEPARATOR + '].*$'), '');
 }
 
-async function showNotification(message, type, rowId = EMPTY_ROW_ID) {
+async function showNotification(prefix, message, type, rowId = EMPTY_ROW_ID) {
   const notifications = document.getElementById(NOTIFICATIONS_ELEMENT_ID);
   const content = await getFileContent(NOTIFICATION_ITEM_TEMPLATE_FILE_PATH);
+  const rowIdInfo = (rowId === EMPTY_ROW_ID) ? '' : '[#' + rowId + ']';
 
   const wrapper = document.createElement('a');
   if (rowId > EMPTY_ROW_ID) {
@@ -254,6 +255,8 @@ async function showNotification(message, type, rowId = EMPTY_ROW_ID) {
   }
   wrapper.innerHTML = content
     .replace(/#type#/g, type)
+    .replace(/#prefix#/g, prefix)
+    .replace(/#row-id-info#/g, rowIdInfo)
     .replace(/#message#/g, message)
   ;
 
@@ -267,22 +270,22 @@ function clearNotifications() {
 
 function error(message, rowId = EMPTY_ROW_ID) {
   const prefix = getLanguageVariable('lang-notification-error', true);
-  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'danger', rowId);
+  showNotification(prefix, message, 'danger', rowId);
 }
 
 function warning(message, rowId = EMPTY_ROW_ID) {
   const prefix = getLanguageVariable('lang-notification-warning', true);
-  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'warning', rowId);
+  showNotification(prefix, message, 'warning', rowId);
 }
 
 function info(message, rowId = EMPTY_ROW_ID) {
   const prefix = getLanguageVariable('lang-notification-info', true);
-  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'dark', rowId);
+  showNotification(prefix, message, 'dark', rowId);
 }
 
 function success(message, rowId = EMPTY_ROW_ID) {
   const prefix = getLanguageVariable('lang-notification-success', true);
-  showNotification('<span class="notification-prefix">' + prefix + ':</span> ' + message, 'success', rowId);
+  showNotification(prefix, message, 'success', rowId);
 }
 
 function gotoChallenge(rowId) {
@@ -620,7 +623,7 @@ function parseChallenge(rowId, challenge, contextData) {
   //check duplications
   const uniq = getUniquenessString(challenge, configUniqueness);
   const foundUniq = uniqs[uniq] ?? '';
-  if (foundUniq !== '') {
+  if (foundUniq !== '' && configUniqueness.length > 0) {
     throw {
       message: 'lang-challenge-parse-error-uniqueness',
       data: ['#' + foundUniq]
