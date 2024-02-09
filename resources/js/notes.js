@@ -186,6 +186,12 @@ const CHALLENGE_SUCCESS_STATUS_ABORTED = 'aborted';
 const CHALLENGE_SUCCESS_STATUS_WAITING = 'waiting';
 const CHALLENGE_SUCCESS_STATUS_DONE = 'done';
 
+const HTML_TAGS_TO_ESCAPE = {
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;'
+}
+
 let challengesConfig = {};
 let notesTypesConfig = {};
 let languageVariables = {};
@@ -234,6 +240,12 @@ function getDiacriticalRepresentationStringForSort(text) {
     .replace(/(\p{Diacritic})/gu, '$1' + TEXT_CHARACTER_SORTED_AFTER_OTHERS)
     .replace(/(\p{Diacritic})/gu, '')
   ;
+}
+
+function getHtmlTagsEscapedString(string) {
+  return string.replace(/[&<>]/g, function(str) {
+    return HTML_TAGS_TO_ESCAPE[str] || str;
+  });
 }
 
 function getPersonsDataDirName(personId) {
@@ -2542,7 +2554,7 @@ async function showNoteCellContent(
   cellElement.innerHTML = template
     .replace(/#note-cell-id#/g, cellElementId)
     .replace(/#rows-count#/g, rowsCount)
-    .replace(/#content#/g, content)
+    .replace(/#content#/g, getHtmlTagsEscapedString(content))
     .replace(/#row-id#/g, rowId)
     .replace(/#challenge-type#/g, challengeType)
     .replace(/#item-type#/g, itemType)
@@ -2780,7 +2792,8 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
             foundSelectedOption = true;
           }
           if (siblingsNoteIds[noteId] == undefined) {
-            addOptionToSelect(selectElement, noteId, value, isSelected);
+            const escapedValue = getHtmlTagsEscapedString(value);
+            addOptionToSelect(selectElement, noteId, escapedValue, isSelected);
             anySelectOptionAddedAfterSeparator = true;
             selectableValues[noteId] = value;
           }
@@ -2806,7 +2819,8 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
             foundSelectedOption = true;
           }
           if (siblingsNoteIds[noteId] == undefined) {
-            addOptionToSelect(selectElement, noteId, value, isSelected);
+            const escapedValue = getHtmlTagsEscapedString(value);
+            addOptionToSelect(selectElement, noteId, escapedValue, isSelected);
             anySelectOptionAddedAfterSeparator = true;
             selectableValues[noteId] = value;
           }
