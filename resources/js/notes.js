@@ -137,6 +137,7 @@ const COPY_PERSON_NAME_TO_ID_IDS = ['me'];
 const GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL = 'god';
 
 const REQUIREMENT_ANYBODY_HAVING_CHALLENGES = 'anybody-having-challenges';
+const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS = 'anybody-having-challenges-in-last-40-days';
 const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES = 'everybody-not-having-challenges';
 const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY = 'everybody-not-having-challenges-on-the-same-day';
 const REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES = 'god-having-needed-challenges';
@@ -524,7 +525,10 @@ function parseChallenges(challengesData) {
   let rowId = 0;
   try {
     let contextData = {
-      persons: {},
+      persons: {
+        counts: {},
+        dates: {}
+      },
       uniqs: {}
     };
     for (const challenge of challengesData) {
@@ -532,19 +536,19 @@ function parseChallenges(challengesData) {
       parseChallenge(rowId, challenge, contextData);
     }
   } catch (e) {
-    const challengeIdInfo = '(' + getLanguageVariable('lang-challenge') + ' #' + rowId + ') ';
     let message = e.message;
     if (LANGUAGE_VARIABLE_PREFIX === message.substring(0, LANGUAGE_VARIABLE_PREFIX.length)) {
       message = getLanguageVariable(message, true);
     }
     const data = e.data ?? [];
 
-    warning(challengeIdInfo + message + ((data.length > 0) ? ': ["' + data.join('", "') + '"]' : ''), rowId);
+    warning(message + ((data.length > 0) ? ': ["' + data.join('", "') + '"]' : ''), rowId);
   }
 }
 
 function parseChallenge(rowId, challenge, contextData) {
   const challengeType = challenge.type ?? '';
+  const challengeDate = challenge.date ?? getToday();
   const challengePerson = challenge.person ?? '';
   const challengeChecklist = challenge[DATA_FIELD_CHECKLIST] ?? {};
   const challengeNotes = challenge[DATA_FIELD_NOTES] ?? {};
@@ -564,8 +568,10 @@ function parseChallenge(rowId, challenge, contextData) {
   const configChecklist = config[CONFIG_FIELD_CHECKLIST] ?? {};
   const configNotes = config[CONFIG_FIELD_NOTES] ?? {};
 
-  const manyPersonsContext = contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
-  const specifiedPersonContext = contextData.persons[challengePerson] ?? {};
+  const manyPersonsCountsContext = contextData.persons.counts[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
+  const specifiedPersonCountsContext = contextData.persons.counts[challengePerson] ?? {};
+  const manyPersonsDatesContext = contextData.persons.dates[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
+  const specifiedPersonDatesContext = contextData.persons.dates[challengePerson] ?? {};
   const uniqs = contextData.uniqs[challengeType] ?? {};
 
   //check requirements
@@ -581,7 +587,7 @@ function parseChallenge(rowId, challenge, contextData) {
           neededCounts[type] = (neededCounts[type] ?? 0) + 1;
 
           const neededCount = neededCounts[type] ?? 1;
-          if ((manyPersonsContext[type] ?? 0) < neededCount) {
+          if ((manyPersonsCountsContext[type] ?? 0) < neededCount) {
             throw {
               message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges',
               data: [neededCount + 'x' + type]
@@ -590,11 +596,38 @@ function parseChallenge(rowId, challenge, contextData) {
         }
         break;
 
+      case REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS:
+        //...
+        break;
+
       case REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES:
         for (const type of reqTypes) {
-          if ((manyPersonsContext[type] ?? null) !== null) {
+          if ((manyPersonsCountsContext[type] ?? null) !== null) {
             throw {
               message: 'lang-challenge-parse-error-for-requirement-everybody-not-having-challenges',
+              data: [type]
+            };
+          }
+        }
+        break;
+
+      case REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY:
+        console.log(manyPersonsDatesContext);
+        for (const type of reqTypes) {
+          if ((manyPersonsDatesContext[type] ?? null) === challengeDate) {
+            throw {
+              message: 'lang-challenge-parse-error-for-requirement-everybody-not-having-challenges-on-the-same-day',
+              data: [type]
+            };
+          }
+        }
+        break;
+
+      case REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES:
+        for (const type of reqTypes) {
+          if ((specifiedPersonCountsContext[type] ?? null) !== null) {
+            throw {
+              message: 'lang-challenge-parse-error-for-requirement-person-not-having-challenges',
               data: [type]
             };
           }
@@ -650,19 +683,27 @@ function parseChallenge(rowId, challenge, contextData) {
   }
 
   //add context data
-  if (contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN] === undefined) {
-    contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN] = {};
+  if (contextData.persons.counts[PARSE_CHALLENGE_MANY_PERSONS_SIGN] === undefined) {
+    contextData.persons.counts[PARSE_CHALLENGE_MANY_PERSONS_SIGN] = {};
   }
-  if (contextData.persons[challengePerson] === undefined) {
-    contextData.persons[challengePerson] = {};
+  if (contextData.persons.counts[challengePerson] === undefined) {
+    contextData.persons.counts[challengePerson] = {};
   }
+  contextData.persons.counts[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] = (contextData.persons.counts[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] ?? 0) + 1;
+  contextData.persons.counts[challengePerson][challengeType] = (contextData.persons.counts[challengePerson][challengeType] ?? 0) + 1;
+
+  if (contextData.persons.dates[PARSE_CHALLENGE_MANY_PERSONS_SIGN] === undefined) {
+    contextData.persons.dates[PARSE_CHALLENGE_MANY_PERSONS_SIGN] = {};
+  }
+  if (contextData.persons.dates[challengePerson] === undefined) {
+    contextData.persons.dates[challengePerson] = {};
+  }
+  contextData.persons.dates[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] = challengeDate;
+  contextData.persons.dates[challengePerson][challengeType] = challengeDate;
+
   if (contextData.uniqs[challengeType] === undefined) {
     contextData.uniqs[challengeType] = {};
   }
-
-  contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] = (contextData.persons[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] ?? 0) + 1;
-  contextData.persons[challengePerson][challengeType] = (contextData.persons[challengePerson][challengeType] ?? 0) + 1;
-
   contextData.uniqs[challengeType][uniq] = rowId;
 }
 

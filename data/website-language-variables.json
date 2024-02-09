@@ -209,6 +209,16 @@
         "pl": "ten typ wyzwania został już przypisany wcześniej do jakiejkolwiek osoby"
     },
 
+    "lang-challenge-parse-error-for-requirement-everybody-not-having-challenges-on-the-same-day": {
+        "en": "this challenge type has already been created for this day",
+        "pl": "ten typ wyzwania został już utworzony dla tego dnia"
+    },
+
+    "lang-challenge-parse-error-for-requirement-person-not-having-challenges": {
+        "en": "this type of challenge has been assigned to this person before",
+        "pl": "ten typ wyzwania został już przypisany wcześniej do tej osoby"
+    },
+
     "lang-challenge-parse-error-invalid-notes-quantities": {
         "en": "invalid notes quantities",
         "pl": "niepoprawna liczba notatek"

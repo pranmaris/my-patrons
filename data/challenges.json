@@ -1,4 +1,153 @@
 {
+  "A": {
+    "name": {
+      "pl": "Patroni Obrońcy"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/todo"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "person": {
+      "types": ["Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/todo"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["I", "3xX"],
+        "person-not-having-challenges": ["A"],
+        "everybody-not-having-challenges-on-the-same-day": ["A"],
+        "anybody-having-challenges-in-last-40-days": ["XP"]
+      }
+    },
+    "checklist": {
+      "mass": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "weź udział we Mszy Świętej"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/todo"
+          }
+        }
+      },
+      "communion": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "przyjmij Komunię Świętą"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/todo"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "pomódl się do Patrona"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/todo"
+          }
+        }
+      },
+      "bible": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "przeczytaj fragment Pisma Świętego"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/todo"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/todo"
+          }
+        }
+      }
+    },
+    "notes": {
+      "criterion": {
+        "type": {
+          "criterion-of-selecting-a-protector-patron": [0, 1],
+          "criterion-of-selecting-a-protector-patron-description": [0, 1]
+        },
+        "name": {
+          "pl": "kryterium wyboru Patrona"
+        }
+      },
+      "bible": {
+        "type": {
+          "bible-lection": [0, 1]
+        },
+        "name": {
+          "pl": "przeczytany fragment Pisma Świętego"
+        }
+      },
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina rozpoczęcia Mszy"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce Mszy"
+        }
+      },
+      "persons": {
+        "type": {
+          "person": [0, 0],
+          "role-at-mass": [1, 0]
+        },
+        "name": {
+          "pl": "osoby na Mszy"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "I": {
     "name": {
       "pl": "Bóg"
