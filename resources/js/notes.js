@@ -248,6 +248,13 @@ function getHtmlTagsEscapedString(string) {
   });
 }
 
+function getCleanedString(string) {
+  return string
+    .replace(/\s+/g, ' ')
+    .trim()
+  ;
+}
+
 function getPersonsDataDirName(personId) {
   return personId.replace(new RegExp('[/' + PERSON_URL_FEAST_SEPARATOR + '][^/' + PERSON_URL_FEAST_SEPARATOR + ']+[/' + PERSON_URL_FEAST_SEPARATOR + ']?$'), '');
 }
@@ -2686,7 +2693,7 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
     inputElement.onblur();
   }
   inputElement.onchange = function() {
-    const value = inputElement.value;
+    const value = getCleanedString(inputElement.value);
 
     setNewNoteButtonElement.style = INVISIBLE_STYLE;
     setExistingNoteButtonElement.style = INVISIBLE_STYLE;
@@ -2714,7 +2721,7 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
   }
   setNewNoteButtonElement.onclick = function() {
     const selectedNoteId = selectElement.value ?? '';
-    const selectedValue = inputElement.value;
+    const selectedValue = getCleanedString(inputElement.value);
 
     let noteIdToAdd = 0;
     if (selectedNoteId > 0) {
@@ -2747,7 +2754,7 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
     addNewNote(rowId, challengeType, itemType, path, noteIndex, selectedValue);
   }
   setExistingNoteButtonElement.onclick = function() {
-    const selectedValue = inputElement.value;
+    const selectedValue = getCleanedString(inputElement.value);
 
     const newNoteId = Object.keys(fileDataValues).find(key => fileDataValues[key] === selectedValue) ?? EMPTY_NOTE_ID;
     if (newNoteId.toString() !== EMPTY_NOTE_ID.toString()) {
@@ -2944,7 +2951,7 @@ async function setNoteCellModeToForm(rowId, challengeType, itemType, itemPath) {
 
 async function addNewNote(rowId, challengeType, itemType, itemPath, noteIndex, inputValue) {
   const rowNotes = getChallengeNotesData(rowId, itemType);
-  const value = inputValue.replace(/\s+/g, ' ').trim();
+  const value = getCleanedString(inputValue);
 
   let path = structuredClone(itemPath);
   const noteId = path.pop();
@@ -2962,7 +2969,7 @@ async function addNewNote(rowId, challengeType, itemType, itemPath, noteIndex, i
   if (fileData[DATA_FIELD_NOTES][noteIndex] == undefined) {
     fileData[DATA_FIELD_NOTES][noteIndex] = {};
   }
-  fileData[DATA_FIELD_NOTES][noteIndex][noteId] = inputValue;
+  fileData[DATA_FIELD_NOTES][noteIndex][noteId] = value;
 
   synchronizeFileData();
 
