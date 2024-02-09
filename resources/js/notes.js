@@ -2527,6 +2527,7 @@ async function showNoteCellContent(
   const noteNo = Number(itemPath.at(-2) ?? '0') + 1;
   const noteIndex = noteTypeConfig.index ?? '';
   const content = getNoteFromFileData(noteIndex, noteId);
+  const escapedContent = getHtmlTagsEscapedString(content);
 
   const isEditFormMode = (isEditMode && (lastFormModeNoteCellElementIdSuffix[itemType] ?? '') === itemPathString);
 
@@ -2561,7 +2562,7 @@ async function showNoteCellContent(
   cellElement.innerHTML = template
     .replace(/#note-cell-id#/g, cellElementId)
     .replace(/#rows-count#/g, rowsCount)
-    .replace(/#content#/g, getHtmlTagsEscapedString(content))
+    .replace(/#content#/g, escapedContent)
     .replace(/#row-id#/g, rowId)
     .replace(/#challenge-type#/g, challengeType)
     .replace(/#item-type#/g, itemType)
