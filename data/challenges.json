@@ -390,18 +390,18 @@
     }
   },
 
-  "X": {
+  "XA": {
     "name": {
-      "pl": "Sakramenty"
+      "pl": "Sakrament Namaszczenia Chorych"
     },
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/sakramenty"
+        "pl": "pl/wyzwania/sakrament-namaszczenia-chorych"
       }
     },
-    "numbers": true,
-    "uniqueness": ["person", "notes/type"],
+    "numbers": false,
+    "uniqueness": ["person"],
     "person": {
       "types": ["Me"],
       "description": {
@@ -411,7 +411,8 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["J"]
+        "everybody-not-having-challenges": ["XA"],
+        "anybody-having-challenges": ["XB"]
       }
     },
     "checklist": {
@@ -419,12 +420,12 @@
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
-          "pl": "potwierdź swoje pierwsze przyjęcie Sakramentu"
+          "pl": "potwierdź datę swojego pierwszego przyjęcia Sakramentu Namaszczenia Chorych"
         },
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/kroki/potwierdz-date-pierwszego-przyjecia-sakramentu"
+            "pl": "pl/kroki/potwierdz-date-pierwszego-przyjecia-sakramentu-namaszczenia-chorych"
           }
         }
       },
@@ -443,20 +444,12 @@
       }
     },
     "notes": {
-      "type": {
-        "type": {
-          "sacrament": [1, 1]
-        },
-        "name": {
-          "pl": "typ Sakramentu"
-        }
-      },
       "time": {
         "type": {
           "time": [0, 1]
         },
         "name": {
-          "pl": "godzina pierwszego przyjęcia Sakramentu"
+          "pl": "godzina pierwszego przyjęcia Sakramentu Namaszczenia Chorych"
         }
       },
       "place": {
@@ -464,7 +457,465 @@
           "place": [0, 1]
         },
         "name": {
-          "pl": "miejsce pierwszego przyjęcia Sakramentu"
+          "pl": "miejsce pierwszego przyjęcia Sakramentu Namaszczenia Chorych"
+        }
+      },
+      "person": {
+        "type": {
+          "person": [0, 1]
+        },
+        "name": {
+          "pl": "szafarz pierwszego Sakramentu Namaszczenia Chorych"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "XB": {
+    "name": {
+      "pl": "Sakrament Chrztu Świętego"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/sakrament-chrztu-swietego"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "everybody-not-having-challenges": ["XB"],
+        "anybody-having-challenges": ["J"]
+      }
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "potwierdź datę swojego przyjęcia Sakramentu Chrztu Świętego"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/potwierdz-date-przyjecia-sakramentu-chrztu-swietego"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina przyjęcia Sakramentu Chrztu Świętego"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce przyjęcia Sakramentu Chrztu Świętego"
+        }
+      },
+      "person": {
+        "type": {
+          "person": [0, 1]
+        },
+        "name": {
+          "pl": "szafarz Sakramentu Chrztu Świętego"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "XC": {
+    "name": {
+      "pl": "Sakrament Bierzmowania"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/sakrament-bierzmowania"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "everybody-not-having-challenges": ["XC"],
+        "anybody-having-challenges": ["XB"]
+      }
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "potwierdź datę swojego przyjęcia Sakramentu Bierzmowania"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/potwierdz-date-przyjecia-sakramentu-bierzmowania"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina przyjęcia Sakramentu Bierzmowania"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce przyjęcia Sakramentu Bierzmowania"
+        }
+      },
+      "person": {
+        "type": {
+          "person": [0, 1]
+        },
+        "name": {
+          "pl": "szafarz Sakramentu Bierzmowania"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "XE": {
+    "name": {
+      "pl": "Sakrament Eucharystii"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/sakrament-eucharystii"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "everybody-not-having-challenges": ["XE"],
+        "anybody-having-challenges": ["XB"]
+      }
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "potwierdź datę swojego pierwszego przyjęcie Sakramentu Eucharystii"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/potwierdz-date-pierwszego-przyjecia-sakramentu-eucharystii"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina pierwszego przyjęcia Sakramentu Eucharystii"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce pierwszego przyjęcia Sakramentu Eucharystii"
+        }
+      },
+      "person": {
+        "type": {
+          "person": [0, 1]
+        },
+        "name": {
+          "pl": "szafarz pierwszego Sakramentu Eucharystii"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "XM": {
+    "name": {
+      "pl": "Sakrament Małżeństwa"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/sakrament-malzenstwa"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "everybody-not-having-challenges": ["XM"],
+        "anybody-having-challenges": ["XB"]
+      }
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "potwierdź datę swojego pierwszego przyjęcia Sakramentu Małżeństwa"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/potwierdz-date-pierwszego-przyjecia-sakramentu-malzenstwa"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina pierwszego przyjęcia Sakramentu Małżeństwa"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce pierwszego przyjęcia Sakramentu Małżeństwa"
+        }
+      },
+      "person": {
+        "type": {
+          "person": [0, 1]
+        },
+        "name": {
+          "pl": "Osoba potwierdzająca i błogosławiąca pierwszy Sakrament Małżeństwa"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "XO": {
+    "name": {
+      "pl": "Sakrament Kapłaństwa"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/sakrament-kaplanstwa"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "everybody-not-having-challenges": ["XO"],
+        "anybody-having-challenges": ["XB"]
+      }
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "potwierdź datę swojego przyjęcia Sakramentu Kapłaństwa"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/potwierdz-date-przyjecia-sakramentu-kaplanstwa"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina przyjęcia Sakramentu Kapłaństwa"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce przyjęcia Sakramentu Kapłaństwa"
+        }
+      },
+      "person": {
+        "type": {
+          "person": [0, 1]
+        },
+        "name": {
+          "pl": "szafarz Sakramentu Kapłaństwa"
         }
       },
       "other": {
@@ -480,6 +931,96 @@
   },
 
   "XP": {
+    "name": {
+      "pl": "Sakrament Pokuty i Pojednania"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/sakrament-pokuty-i-pojednania"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "everybody-not-having-challenges": ["XP"],
+        "anybody-having-challenges": ["XB"]
+      }
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "potwierdź datę swojego pierwszego przyjęcie Sakramentu Pokuty i Pojednania"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/potwierdz-date-pierwszego-przyjecia-sakramentu-pokuty-i-pojednania"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina pierwszego przyjęcia Sakramentu Pokuty i Pojednania"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce pierwszego przyjęcia Sakramentu Pokuty i Pojednania"
+        }
+      },
+      "person": {
+        "type": {
+          "person": [0, 1]
+        },
+        "name": {
+          "pl": "szafarz pierwszego Sakramentu Pokuty i Pojednania"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "XPA": {
     "name": {
       "pl": "Spowiedzi Święte"
     },
@@ -500,11 +1041,11 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["2xX"]
+        "anybody-having-challenges": ["XP"]
       }
     },
     "checklist": {
-      "verification": {
+      "confession": {
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
