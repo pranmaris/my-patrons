@@ -20,10 +20,10 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["I", "3xX"],
+        "anybody-having-challenges": ["I", "SP", "SE"],
         "person-not-having-challenges": ["A"],
         "everybody-not-having-challenges-on-the-same-day": ["A"],
-        "anybody-having-challenges-in-last-40-days": ["XP"]
+        "anybody-having-challenges-in-last-40-days": ["SPA"]
       }
     },
     "checklist": {
@@ -169,7 +169,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["J"],
+        "anybody-having-challenges": ["N"],
         "everybody-not-having-challenges": ["I"]
       }
     },
@@ -269,7 +269,7 @@
     }
   },
 
-  "J": {
+  "N": {
     "name": {
       "pl": "Narodziny"
     },
@@ -290,7 +290,7 @@
         }
       },
       "requirements": {
-        "everybody-not-having-challenges": ["J"]
+        "everybody-not-having-challenges": ["N"]
       }
     },
     "checklist": {
@@ -352,45 +352,7 @@
     }
   },
 
-  "TODO": {
-    "name": {
-      "pl": "Czynności do wykonania"
-    },
-    "description": {
-      "params": [],
-      "template": {
-        "pl": "pl/wyzwania/czynnosc-do-wykonania"
-      }
-    },
-    "numbers": true,
-    "uniqueness": ["person", "date", "notes/description"],
-    "person": {
-      "types": ["Me"],
-      "description": {
-        "params": [],
-        "template": {
-          "pl": "pl/osoby/ja"
-        }
-      },
-      "requirements": {
-        "anybody-having-challenges": ["J"]
-      }
-    },
-    "checklist": {},
-    "notes": {
-      "description": {
-        "type": {
-          "todo": [1, 1]
-        },
-        "name": {
-          "en": "action to do",
-          "pl": "czynność do wykonania"
-        }
-      }
-    }
-  },
-
-  "XA": {
+  "SA": {
     "name": {
       "pl": "Sakrament Namaszczenia Chorych"
     },
@@ -411,8 +373,8 @@
         }
       },
       "requirements": {
-        "everybody-not-having-challenges": ["XA"],
-        "anybody-having-challenges": ["XB"]
+        "everybody-not-having-challenges": ["SA"],
+        "anybody-having-challenges": ["SB"]
       }
     },
     "checklist": {
@@ -480,7 +442,7 @@
     }
   },
 
-  "XB": {
+  "SB": {
     "name": {
       "pl": "Sakrament Chrztu Świętego"
     },
@@ -501,8 +463,8 @@
         }
       },
       "requirements": {
-        "everybody-not-having-challenges": ["XB"],
-        "anybody-having-challenges": ["J"]
+        "everybody-not-having-challenges": ["SB"],
+        "anybody-having-challenges": ["N"]
       }
     },
     "checklist": {
@@ -570,7 +532,7 @@
     }
   },
 
-  "XC": {
+  "SC": {
     "name": {
       "pl": "Sakrament Bierzmowania"
     },
@@ -591,8 +553,8 @@
         }
       },
       "requirements": {
-        "everybody-not-having-challenges": ["XC"],
-        "anybody-having-challenges": ["XB"]
+        "everybody-not-having-challenges": ["SC"],
+        "anybody-having-challenges": ["SB"]
       }
     },
     "checklist": {
@@ -660,7 +622,7 @@
     }
   },
 
-  "XE": {
+  "SE": {
     "name": {
       "pl": "Sakrament Eucharystii"
     },
@@ -681,8 +643,8 @@
         }
       },
       "requirements": {
-        "everybody-not-having-challenges": ["XE"],
-        "anybody-having-challenges": ["XB"]
+        "everybody-not-having-challenges": ["SE"],
+        "anybody-having-challenges": ["SB"]
       }
     },
     "checklist": {
@@ -750,7 +712,7 @@
     }
   },
 
-  "XM": {
+  "SM": {
     "name": {
       "pl": "Sakrament Małżeństwa"
     },
@@ -771,8 +733,8 @@
         }
       },
       "requirements": {
-        "everybody-not-having-challenges": ["XM"],
-        "anybody-having-challenges": ["XB"]
+        "everybody-not-having-challenges": ["SM"],
+        "anybody-having-challenges": ["SB"]
       }
     },
     "checklist": {
@@ -840,7 +802,7 @@
     }
   },
 
-  "XO": {
+  "SO": {
     "name": {
       "pl": "Sakrament Kapłaństwa"
     },
@@ -861,8 +823,8 @@
         }
       },
       "requirements": {
-        "everybody-not-having-challenges": ["XO"],
-        "anybody-having-challenges": ["XB"]
+        "everybody-not-having-challenges": ["SO"],
+        "anybody-having-challenges": ["SB"]
       }
     },
     "checklist": {
@@ -930,7 +892,7 @@
     }
   },
 
-  "XP": {
+  "SP": {
     "name": {
       "pl": "Sakrament Pokuty i Pojednania"
     },
@@ -951,8 +913,8 @@
         }
       },
       "requirements": {
-        "everybody-not-having-challenges": ["XP"],
-        "anybody-having-challenges": ["XB"]
+        "everybody-not-having-challenges": ["SP"],
+        "anybody-having-challenges": ["SB"]
       }
     },
     "checklist": {
@@ -1020,7 +982,7 @@
     }
   },
 
-  "XPA": {
+  "SPA": {
     "name": {
       "pl": "Spowiedzi Święte"
     },
@@ -1041,7 +1003,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["XP"]
+        "anybody-having-challenges": ["SP"]
       }
     },
     "checklist": {
@@ -1104,6 +1066,44 @@
         "name": {
           "en": "additional information",
           "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "X": {
+    "name": {
+      "pl": "Czynności do wykonania"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/czynnosc-do-wykonania"
+      }
+    },
+    "numbers": true,
+    "uniqueness": ["person", "date", "notes/description"],
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["N"]
+      }
+    },
+    "checklist": {},
+    "notes": {
+      "description": {
+        "type": {
+          "todo": [1, 1]
+        },
+        "name": {
+          "en": "action to do",
+          "pl": "czynność do wykonania"
         }
       }
     }

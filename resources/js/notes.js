@@ -1293,7 +1293,7 @@ function resetChallengeTypeSelect() {
       const type = keyValArr[0];
       const name = keyValArr[1];
 
-      addOptionToSelect(challengeTypeSelect, type, name + ' (' + type + ')');
+      addOptionToSelect(challengeTypeSelect, type, name + ' [' + type + ']');
     }
   }
 
