@@ -964,7 +964,7 @@ function getTypesArrayWithDuplications(array) {
   return result;
 }
 
-function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDateString) {
+function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDateString, numberOfDaysBeforeCheckDate = null) {
   const checkDate = Date.parse(checkDateString);
 
   let types = getTypesArrayWithDuplications(requirements);
@@ -979,6 +979,12 @@ function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDa
       const type = ch.type;
       const date = ch.date;
 
+      if (numberOfDaysBeforeCheckDate !== null) {
+        const diffInDays = getDatesDiffInDays(checkDateString, date);
+        if (diffInDays > numberOfDaysBeforeCheckDate) {
+          continue;
+        }
+      }
       if (Date.parse(date) > checkDate) {
         return false;
       }
@@ -1294,6 +1300,7 @@ function resetChallengeTypeSelect() {
       }
 
       if (!checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
+        || !checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS] ?? [], challenges, challengeDate, 40)
         || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
         || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
         || !checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTakeForChallengeType, challengeDate)
