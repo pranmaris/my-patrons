@@ -256,6 +256,15 @@ function getCleanedString(string) {
   ;
 }
 
+function getDatesDiffInDays(firstDateStr, secondDateStr) {
+  const dayMiliseconds = 24 * 60 * 60 * 1000;
+  const firstDate = Date.parse(firstDateStr);
+  const secondDate = Date.parse(secondDateStr);
+  const diffInDays = Math.round((firstDate - secondDate) / dayMiliseconds);
+
+  return diffInDays;
+}
+
 function getPersonsDataDirName(personId) {
   return personId.replace(new RegExp('[/' + PERSON_URL_FEAST_SEPARATOR + '][^/' + PERSON_URL_FEAST_SEPARATOR + ']+[/' + PERSON_URL_FEAST_SEPARATOR + ']?$'), '');
 }
@@ -597,7 +606,16 @@ function parseChallenge(rowId, challenge, contextData) {
         break;
 
       case REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS:
-        //...
+        for (const type of reqTypes) {
+          if ((manyPersonsDatesContext[type] ?? null) !== null
+            && getDatesDiffInDays(challengeDate, manyPersonsDatesContext[type]) > 40
+          ) {
+            throw {
+              message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-40-days',
+              data: [type]
+            };
+          }
+        }
         break;
 
       case REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES:
@@ -612,7 +630,6 @@ function parseChallenge(rowId, challenge, contextData) {
         break;
 
       case REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY:
-        console.log(manyPersonsDatesContext);
         for (const type of reqTypes) {
           if ((manyPersonsDatesContext[type] ?? null) === challengeDate) {
             throw {

@@ -204,6 +204,11 @@
         "pl": "brak wymaganej liczby wcześniejszych wyzwań określonego typu"
     },
 
+    "lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-40-days": {
+        "en": "a challenge of a specific type cannot be older than 40 days",
+        "pl": "wyzwanie określonego typu nie może być wcześniej niż 40 dni"
+    },
+
     "lang-challenge-parse-error-for-requirement-everybody-not-having-challenges": {
         "en": "this type of challenge has been assigned to anyone before",
         "pl": "ten typ wyzwania został już przypisany wcześniej do jakiejkolwiek osoby"
