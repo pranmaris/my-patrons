@@ -92,7 +92,7 @@ class Environment
 
     private function getEnvironmentClassPath(): string
     {
-        return __FILE__;
+        return str_replace('\\', '/', __FILE__);
     }
 
     private function getFromServerGlobal(string $key): string
