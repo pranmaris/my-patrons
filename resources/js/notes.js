@@ -2225,7 +2225,8 @@ async function removeChallengeReset(rowId) {
     let type = challenge.type ?? '';
     let number = '';
 
-    if (challengesConfig[type].numbers ?? false) {
+    const config = challengesConfig[type] ?? {};
+    if (config.numbers ?? false) {
       number = 1;
       for (let i = 0; i < rowId - 1; i++) {
         if ((challenges[i].person ?? '') === personUrl && (challenges[i].type ?? '') === type) {
@@ -2233,10 +2234,12 @@ async function removeChallengeReset(rowId) {
         }
       }
     }
+    const typeName = getLanguageVariable('name', true, config.name ?? {});
 
     row.innerHTML = content
       .replace(/#row-id#/g, rowId)
       .replace(/#date#/g, getDateFormat(date))
+      .replace(/#type-name#/g, typeName)
       .replace(/#type#/g, type)
       .replace(/#number#/g, number.toString())
       .replace(/#person-url#/g, personUrl)
