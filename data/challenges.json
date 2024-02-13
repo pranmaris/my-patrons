@@ -6,7 +6,7 @@
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/todo"
+        "pl": "pl/wyzwania/patroni-obroncy"
       }
     },
     "numbers": false,
@@ -14,9 +14,9 @@
     "person": {
       "types": ["Patrons"],
       "description": {
-        "params": [],
+        "params": ["current-year"],
         "template": {
-          "pl": "pl/todo"
+          "pl": "pl/osoby/patroni-obroncy"
         }
       },
       "requirements": {
@@ -36,7 +36,7 @@
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/todo"
+            "pl": "pl/kroki/wez-udzial-we-mszy-swietej"
           }
         }
       },
@@ -49,7 +49,7 @@
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/todo"
+            "pl": "pl/kroki/przyjmij-komunie-swieta"
           }
         }
       },
@@ -62,7 +62,7 @@
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/todo"
+            "pl": "pl/kroki/pomodl-sie-do-patrona-obroncy"
           }
         }
       },
@@ -75,7 +75,7 @@
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/todo"
+            "pl": "pl/kroki/przeczytaj-fragment-pisma-swietego"
           }
         }
       },
@@ -88,7 +88,7 @@
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/todo"
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
         }
       }

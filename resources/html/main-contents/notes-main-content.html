@@ -72,11 +72,11 @@
                 <span>#lang-challenge-type|capitalize#: </span>
                 <select id="challenge-type-select" onChange="resetPersonTypeSelect()"></select>
               </div>
-              <div id="challenge-description-div"></div>
+              <div id="challenge-description-div" class="description-area"></div>
               <div id="person-div">
                 <hr />
                 <span>#lang-person|capitalize#: </span>
-                <div id="person-description-div"></div>
+                <div id="person-description-div" class="description-area"></div>
                 <select id="person-type-select" onChange="resetPersonNameSelect()"></select>
                 <select id="person-name-select" onChange="resetPersonSelect()"></select>
                 <select id="person-select" onChange="resetFeastSelect()"></select>
@@ -155,7 +155,7 @@
               <h1 class="modal-title fs-5" id="checklist-item-modal-toggle-label"></h1>
               <button id="checklist-button-close" type="button" class="btn-close" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body" id="checklist-item-description"></div>
+            <div class="modal-body description-area" id="checklist-item-description"></div>
             <div class="modal-footer">
               <span>#lang-mark-as|capitalize#:</span>
               <div class="btn-group" role="group" aria-label="options">

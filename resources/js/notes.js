@@ -21,6 +21,7 @@ const LANGUAGE_JSON_FILE = '/files/data/website-language-variables.json';
 const CHALLENGES_CONFIG_JSON_FILE = '/files/data/challenges.json';
 const NOTES_CONFIG_JSON_FILE = '/files/data/notes-types.json';
 const PERSONS_DATA_JSON_FILE = '/files/data/generated/persons-data.generated.json';
+const BIBLE_CHAPTERS_DATA_JSON_FILE = '/files/data/bible_chapters.json';
 
 const PARSE_CHALLENGE_MANY_PERSONS_SIGN = '*';
 
@@ -99,6 +100,7 @@ const CHALLENGE_SUCCESS_STATUS_ICON_TODO_ELEMENT_ID_PREFIX = 'challenge-success-
 const CHALLENGE_SUCCESS_STATUS_ICON_ABORTED_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-aborted-';
 const CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-waiting-';
 const CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-done-';
+const RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID = 'random-bible-chapter';
 
 const CHECKLIST_ITEM_TARGET_ATTRIBUTE_NAME = 'data-bs-target';
 const CHECKLIST_ITEM_BACK_TO_CHECKLIST_LIST_MODAL_TARGET = '#checklist-list-modal-toggle';
@@ -607,8 +609,8 @@ function parseChallenge(rowId, challenge, contextData) {
 
       case REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS:
         for (const type of reqTypes) {
-          if ((manyPersonsDatesContext[type] ?? null) !== null
-            && getDatesDiffInDays(challengeDate, manyPersonsDatesContext[type]) > 40
+          if ((manyPersonsDatesContext[type] ?? null) === null
+            || getDatesDiffInDays(challengeDate, manyPersonsDatesContext[type]) > 40
           ) {
             throw {
               message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-40-days',
@@ -2202,6 +2204,8 @@ function getDescriptionParamValue(paramName, paramValue) {
   switch (paramName) {
     case DESCRIPTION_VALUE_PARAM:
       return paramValue;
+    case 'current-year':
+      return getToday().substring(0, 4);
     default:
       return '';
   }
@@ -3099,6 +3103,39 @@ function validateNotesQuantity(data, noteTypesQuantities) {
   }
 
   return true;
+}
+
+
+
+
+//let randomBibleChaptersButtonNamePrefix = null;
+//let allBibleChapters = null;
+async function setRandomBibleChapter(language) {
+  //const button = document.getElementById(RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID);
+
+  //if (randomBibleChaptersButtonNamePrefix == null) {
+    //randomBibleChaptersButtonNamePrefix = button.innerHTML;
+  //}
+
+  //if (allBibleChapters == null) {
+    //const data = await getJsonFromFile(BIBLE_CHAPTERS_DATA_JSON_FILE);
+
+    //let result = [];
+    //Object.entries(data[language]).forEach(([book, chapters]) => {
+      //for (let chapter = 1; chapter <= chapters; chapter++) {
+        //result.push(book + ' ' + chapter);
+      //}
+    //});
+
+    //return result;
+  //}
+
+  //let suffix = '???';
+  //if (allBibleChapters != null) {
+    //suffix = allBibleChapters[Math.floor(Math.random() * allBibleChapters.length)];
+  //}
+
+  //button.innerHTML = randomBibleChaptersButtonNamePrefix + ': ' + suffix;
 }
 
 build();
