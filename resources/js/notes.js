@@ -1278,6 +1278,7 @@ function resetChallengeTypeSelect() {
   challengeTypeDiv.style = INVISIBLE_STYLE;
 
   let challengeTypeSelect = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID);
+  const selectedChallengeType = challengeTypeSelect.value;
   challengeTypeSelect.innerHTML = '';
   challengeTypeSelect.value = '';
 
@@ -1324,11 +1325,9 @@ function resetChallengeTypeSelect() {
 
     let sorted = getSortedArray(options);
 
-    for (let keyValArr of sorted) {
-      const type = keyValArr[0];
-      const name = keyValArr[1];
-
-      addOptionToSelect(challengeTypeSelect, type, name + ' [' + type + ']');
+    for (const [type, name] of sorted) {
+      const isSelected = (type === selectedChallengeType);
+      addOptionToSelect(challengeTypeSelect, type, name + ' [' + type + ']', isSelected);
     }
   }
 
