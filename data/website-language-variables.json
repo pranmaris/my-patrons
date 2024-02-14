@@ -977,6 +977,11 @@
         "pl": "losuj kolejność ponownie"
     },
 
+    "lang-randomize-the-chapter": {
+        "en": "randomize the chapter",
+        "pl": "losuj rozdział"
+    },
+
     "lang-reader": {
         "en": "reader",
         "pl": "lektor"

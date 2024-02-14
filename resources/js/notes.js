@@ -3105,37 +3105,25 @@ function validateNotesQuantity(data, noteTypesQuantities) {
   return true;
 }
 
-
-
-
-//let randomBibleChaptersButtonNamePrefix = null;
-//let allBibleChapters = null;
 async function setRandomBibleChapter(language) {
-  //const button = document.getElementById(RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID);
+  const button = document.getElementById(RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID);
+  button.innerHTML = getLanguageVariable('lang-randomize-the-chapter', true);
 
-  //if (randomBibleChaptersButtonNamePrefix == null) {
-    //randomBibleChaptersButtonNamePrefix = button.innerHTML;
-  //}
+  const data = await getJsonFromFile(BIBLE_CHAPTERS_DATA_JSON_FILE);
 
-  //if (allBibleChapters == null) {
-    //const data = await getJsonFromFile(BIBLE_CHAPTERS_DATA_JSON_FILE);
+  let allBibleChapters = [];
+  for (const [book, chaptersCount] of Object.entries(data[language] ?? {})) {
+    for (let chapter = 1; chapter <= chaptersCount; chapter++) {
+      allBibleChapters.push(book + ' ' + chapter);
+    }
+  }
 
-    //let result = [];
-    //Object.entries(data[language]).forEach(([book, chapters]) => {
-      //for (let chapter = 1; chapter <= chapters; chapter++) {
-        //result.push(book + ' ' + chapter);
-      //}
-    //});
+  let suffix = '???';
+  if (allBibleChapters.length > 0) {
+    suffix = allBibleChapters[Math.floor(Math.random() * allBibleChapters.length)];
+  }
 
-    //return result;
-  //}
-
-  //let suffix = '???';
-  //if (allBibleChapters != null) {
-    //suffix = allBibleChapters[Math.floor(Math.random() * allBibleChapters.length)];
-  //}
-
-  //button.innerHTML = randomBibleChaptersButtonNamePrefix + ': ' + suffix;
+  button.innerHTML += ': ' + suffix;
 }
 
 build();
