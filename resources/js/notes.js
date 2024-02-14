@@ -40,7 +40,7 @@ const MARKDOWN_FILES_ROOT_PATH = '/files/resources/md/';
 const INVISIBLE_STYLE = 'display: none';
 const VISIBLE_STYLE = '';
 
-const DEFAULT_JSON_FILENAME = 'start';
+const DEFAULT_JSON_FILENAME = '';
 const DEFAULT_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION_VALUE = true;
 const MIN_CHALLENGE_DATE_ALLOWED = '1901-01-01';
 
@@ -424,17 +424,24 @@ async function loadFile(input) {
     }
 
     synchronizeFileData();
-
     reloadFileTab();
+
+    success(getLanguageVariable('lang-file-loaded-successfully', true));
   } catch (e) {
     error(e.message);
   }
 }
 
-function saveFile() {
+async function saveFile() {
   try {
     synchronizeFileData();
     content = JSON.stringify(fileData);
+
+    if ((fileData[DATA_FIELD_OWNER] ?? '').length === 0) {
+      throw new Error(getLanguageVariable('lang-missing-owner', true));
+    } else if ((fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] ?? '').length === 0) {
+      throw new Error(getLanguageVariable('lang-missing-filename-without-extension', true));
+    }
 
     let datetimeSuffix = '';
     if (true === (fileData[DATA_FIELD_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION] ?? DEFAULT_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION_VALUE)) {
@@ -446,6 +453,8 @@ function saveFile() {
     a.download = fileName + datetimeSuffix + JSON_DATA_FILE_EXTENSION;
     a.href = window.URL.createObjectURL(blob);
     a.click();
+
+    success(getLanguageVariable('lang-file-saved-successfully', true));
   } catch (e) {
     error(e.message);
   }

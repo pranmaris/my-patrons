@@ -528,6 +528,16 @@
         "pl": "nazwa święta"
     },
 
+    "lang-file-loaded-successfully": {
+        "en": "file loaded successfully",
+        "pl": "plik został wczytany pomyślnie"
+    },
+
+    "lang-file-saved-successfully": {
+        "en": "file saved successfully",
+        "pl": "plik został zapisany pomyślnie"
+    },
+
     "lang-filename-without-extension": {
         "en": "filename without extension",
         "pl": "nazwa pliku bez rozszerzenia"
@@ -705,6 +715,16 @@
         "en": "me",
         "la": "ego",
         "pl": "ja"
+    },
+
+    "lang-missing-filename-without-extension": {
+        "en": "missing filename without extension",
+        "pl": "nie podano nazwy pliku bez rozszerzenia"
+    },
+
+    "lang-missing-owner": {
+        "en": "missing owner",
+        "pl": "nie podano właściciela"
     },
 
     "lang-month": {
