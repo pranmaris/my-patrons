@@ -140,6 +140,7 @@ const GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL = 'god';
 
 const REQUIREMENT_ANYBODY_HAVING_CHALLENGES = 'anybody-having-challenges';
 const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS = 'anybody-having-challenges-in-last-40-days';
+const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY = 'anybody-having-challenges-on-the-same-day';
 const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES = 'everybody-not-having-challenges';
 const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY = 'everybody-not-having-challenges-on-the-same-day';
 const REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES = 'god-having-needed-challenges';
@@ -636,6 +637,19 @@ function parseChallenge(rowId, challenge, contextData) {
           ) {
             throw {
               message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-40-days',
+              data: [type]
+            };
+          }
+        }
+        break;
+
+      case REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY:
+        for (const type of reqTypes) {
+          if ((manyPersonsDatesContext[type] ?? null) === null
+            || getDatesDiffInDays(challengeDate, manyPersonsDatesContext[type]) !== 0
+          ) {
+            throw {
+              message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges-on-the-same-day',
               data: [type]
             };
           }
@@ -1373,6 +1387,7 @@ function resetChallengeTypeSelect() {
 
       if (!checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
         || !checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS] ?? [], challenges, challengeDate, 40)
+        || !checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate, 0)
         || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
         || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
         || !checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTakeForChallengeType, challengeDate)

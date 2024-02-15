@@ -164,6 +164,7 @@
       },
       "requirements": {
         "anybody-having-challenges": ["A"],
+        "anybody-having-challenges-on-the-same-day": ["A"],
         "god-having-needed-challenges": true,
         "person-having-challenges": ["A"],
         "person-feast-is-not-empty": true,
@@ -174,6 +175,19 @@
 
 
 
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
     },
     "notes": {
 
