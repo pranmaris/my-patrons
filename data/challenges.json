@@ -153,14 +153,20 @@
       "pl": "Święta"
     },
     "description": {
-      "pl": "pl/wyzwania/swieta"
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/swieta"
+      }
     },
     "uniqueness": ["person", "feast"],
     "numbers": true,
     "person": {
       "types": ["God", "Patrons"],
       "description": {
-        "pl": "pl/osoby/swieta"
+        "params": ["current-year"],
+        "template": {
+          "pl": "pl/osoby/swieta"
+        }
       },
       "requirements": {
         "anybody-having-challenges": ["A"],
@@ -172,9 +178,45 @@
       }
     },
     "checklist": {
-
-
-
+      "patron-protector": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "zaproś dowolnego Patrona Obrońcę"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/zapros-dowolnego-patrona-obronce"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "podziękuj Bogu za święto"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/podziekuj-bogu-za-swieto"
+          }
+        }
+      },
+      "knowledge": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "poznaj święto"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/poznaj-swieto"
+          }
+        }
+      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": true,
@@ -190,9 +232,24 @@
       }
     },
     "notes": {
-
-
-
+      "criterion": {
+        "type": {
+          "criterion-of-selecting-a-feast": [0, 1],
+          "criterion-of-selecting-a-feast-description": [0, 1]
+        },
+        "name": {
+          "pl": "kryterium wyboru święta"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
     }
   },
 

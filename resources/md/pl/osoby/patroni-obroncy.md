@@ -1,11 +1,13 @@
-Wybierz Patrona, który dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z następujących kryteriów**:
-- Martyrologium Rzymskie<sup>1</sup>,
-- wiarygodna rocznica śmierci<sup>2</sup>,
-- dzień kanonizacji lub beatyfikacji<sup>3</sup>,
-- kalendarz liturgiczny<sup>4</sup>,
-- odpust parafialny<sup>5</sup>
+Wybierz Patrona, który:
+- nie jest jeszcze Twoim **Patronem Obrońcą**,
+- dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z następujących kryteriów**:
+  - Martyrologium Rzymskie<sup>1</sup>,
+  - wiarygodna rocznica śmierci<sup>2</sup>,
+  - dzień kanonizacji lub beatyfikacji<sup>3</sup>,
+  - kalendarz liturgiczny<sup>4</sup>,
+  - odpust parafialny<sup>5</sup>
+  - znajduje się na **poniższej liście**:  
 
-lub znajduje się na **poniższej liście**:  
 <iframe id="my-patrons-for-today" src="https://pl.mypatrons.org/dates/list-of-patrons-and-feasts?content-only=1"></iframe>
 <br />
 
