@@ -220,6 +220,8 @@ async function build() {
 
   doActionsDependentOfAdvancedMode();
   reloadFileTab();
+
+  info(getLanguageVariable('lang-notes-form-info', true));
 }
 
 function doActionsDependentOfAdvancedMode() {

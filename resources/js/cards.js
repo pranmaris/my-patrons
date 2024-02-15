@@ -114,14 +114,14 @@ const CARD_FORM_INPUTS_DIV_ID_PREFIX = 'card-form-inputs-';
 const CARD_FORM_INPUTS_DIV_EDIT_BUTTON_ID_PREFIX = CARD_FORM_INPUTS_DIV_ID_PREFIX + "edit-button-";
 const CARD_FORM_INPUTS_DIV_HIDE_BUTTON_ID_PREFIX = CARD_FORM_INPUTS_DIV_ID_PREFIX + "hide-button-";
 
-const CARD_TYPE_BASE_FOR_FEAST = 'card-base-for-feast';
-const CARD_TYPE_BASE_FOR_GENERAL = 'card-base-for-general';
-const CARD_TYPE_BASE_FOR_PERSON = 'card-base-for-person';
-const CARD_TYPE_CHALLENGES = 'card-challenges';
+//const CARD_TYPE_BASE_FOR_FEAST = 'card-base-for-feast';
+//const CARD_TYPE_BASE_FOR_GENERAL = 'card-base-for-general';
+//const CARD_TYPE_BASE_FOR_PERSON = 'card-base-for-person';
+//const CARD_TYPE_CHALLENGES = 'card-challenges';
 const CARD_TYPE_REVERSE = 'card-reverse';
 const CARD_TYPE_GOD = 'god';
 const CARD_TYPE_PATRONS = 'patrons';
-const CARD_TYPE_I = 'i';
+//const CARD_TYPE_I = 'i';
 
 const CARD_TYPE_I_QR_CODE_URL_PREFIX = '/dates/list-of-patrons-and-immovable-feasts';
 
@@ -129,11 +129,11 @@ const CARD_TYPES_EMPTY_ROOT_PATH = '_';
 const CARD_TYPES_ROOT_PATHS = {
   [CARD_TYPE_GOD]: '/files/data/records',
   [CARD_TYPE_PATRONS]: '/files/data/records',
-  [CARD_TYPE_BASE_FOR_PERSON]: CARD_TYPES_EMPTY_ROOT_PATH,
-  [CARD_TYPE_CHALLENGES]: CARD_TYPES_EMPTY_ROOT_PATH,
-  [CARD_TYPE_BASE_FOR_FEAST]: CARD_TYPES_EMPTY_ROOT_PATH,
-  [CARD_TYPE_BASE_FOR_GENERAL]: CARD_TYPES_EMPTY_ROOT_PATH,
-  [CARD_TYPE_I]: CARD_TYPES_EMPTY_ROOT_PATH,
+  //[CARD_TYPE_BASE_FOR_PERSON]: CARD_TYPES_EMPTY_ROOT_PATH,
+  //[CARD_TYPE_CHALLENGES]: CARD_TYPES_EMPTY_ROOT_PATH,
+  //[CARD_TYPE_BASE_FOR_FEAST]: CARD_TYPES_EMPTY_ROOT_PATH,
+  //[CARD_TYPE_BASE_FOR_GENERAL]: CARD_TYPES_EMPTY_ROOT_PATH,
+  //[CARD_TYPE_I]: CARD_TYPES_EMPTY_ROOT_PATH,
   [CARD_TYPE_REVERSE]: CARD_TYPES_EMPTY_ROOT_PATH
 };
 const CARD_TYPE_SELECTED = CARD_TYPE_PATRONS;
@@ -225,30 +225,30 @@ const IMAGE_DATA_FIELD_AREA_CENTER_X = 'area-center-x';
 const IMAGE_DATA_FIELD_AREA_CENTER_Y = 'area-center-y';
 const IMAGE_DATA_FIELD_AREA_CENTER_TO_EDGE_DISTANCE = 'area-center-to-edge-distance';
 const CARD_TYPE_BACKGROUND_IMAGES = {
-  [CARD_TYPE_BASE_FOR_FEAST]: {
-    [IMAGE_DATA_FIELD_FILE_URL]: 'files/resources/png/card-white-background.png',
-    [IMAGE_DATA_FIELD_AREA_CENTER_X]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2,
-    [IMAGE_DATA_FIELD_AREA_CENTER_Y]: STANDARD_CARD_IMAGE_HEIGHT_PIXELS / 2,
-    [IMAGE_DATA_FIELD_AREA_CENTER_TO_EDGE_DISTANCE]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2 * CARD_WIDTH / (CARD_WIDTH + 2 * STANDARD_CARD_IMAGE_BLEED_SIZE),
-  },
-  [CARD_TYPE_BASE_FOR_GENERAL]: {
-    [IMAGE_DATA_FIELD_FILE_URL]: 'files/resources/png/card-white-background.png',
-    [IMAGE_DATA_FIELD_AREA_CENTER_X]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2,
-    [IMAGE_DATA_FIELD_AREA_CENTER_Y]: STANDARD_CARD_IMAGE_HEIGHT_PIXELS / 2,
-    [IMAGE_DATA_FIELD_AREA_CENTER_TO_EDGE_DISTANCE]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2 * CARD_WIDTH / (CARD_WIDTH + 2 * STANDARD_CARD_IMAGE_BLEED_SIZE),
-  },
-  [CARD_TYPE_BASE_FOR_PERSON]: {
-    [IMAGE_DATA_FIELD_FILE_URL]: 'files/resources/png/card-white-background.png',
-    [IMAGE_DATA_FIELD_AREA_CENTER_X]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2,
-    [IMAGE_DATA_FIELD_AREA_CENTER_Y]: STANDARD_CARD_IMAGE_HEIGHT_PIXELS / 2,
-    [IMAGE_DATA_FIELD_AREA_CENTER_TO_EDGE_DISTANCE]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2 * CARD_WIDTH / (CARD_WIDTH + 2 * STANDARD_CARD_IMAGE_BLEED_SIZE),
-  },
-  [CARD_TYPE_CHALLENGES]: {
-    [IMAGE_DATA_FIELD_FILE_URL]: 'files/resources/png/card-white-background.png',
-    [IMAGE_DATA_FIELD_AREA_CENTER_X]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2,
-    [IMAGE_DATA_FIELD_AREA_CENTER_Y]: STANDARD_CARD_IMAGE_HEIGHT_PIXELS / 2,
-    [IMAGE_DATA_FIELD_AREA_CENTER_TO_EDGE_DISTANCE]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2 * CARD_WIDTH / (CARD_WIDTH + 2 * STANDARD_CARD_IMAGE_BLEED_SIZE),
-  },
+  //[CARD_TYPE_BASE_FOR_FEAST]: {
+    //[IMAGE_DATA_FIELD_FILE_URL]: 'files/resources/png/card-white-background.png',
+    //[IMAGE_DATA_FIELD_AREA_CENTER_X]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2,
+    //[IMAGE_DATA_FIELD_AREA_CENTER_Y]: STANDARD_CARD_IMAGE_HEIGHT_PIXELS / 2,
+    //[IMAGE_DATA_FIELD_AREA_CENTER_TO_EDGE_DISTANCE]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2 * CARD_WIDTH / (CARD_WIDTH + 2 * STANDARD_CARD_IMAGE_BLEED_SIZE),
+  //},
+  //[CARD_TYPE_BASE_FOR_GENERAL]: {
+    //[IMAGE_DATA_FIELD_FILE_URL]: 'files/resources/png/card-white-background.png',
+    //[IMAGE_DATA_FIELD_AREA_CENTER_X]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2,
+    //[IMAGE_DATA_FIELD_AREA_CENTER_Y]: STANDARD_CARD_IMAGE_HEIGHT_PIXELS / 2,
+    //[IMAGE_DATA_FIELD_AREA_CENTER_TO_EDGE_DISTANCE]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2 * CARD_WIDTH / (CARD_WIDTH + 2 * STANDARD_CARD_IMAGE_BLEED_SIZE),
+  //},
+  //[CARD_TYPE_BASE_FOR_PERSON]: {
+    //[IMAGE_DATA_FIELD_FILE_URL]: 'files/resources/png/card-white-background.png',
+    //[IMAGE_DATA_FIELD_AREA_CENTER_X]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2,
+    //[IMAGE_DATA_FIELD_AREA_CENTER_Y]: STANDARD_CARD_IMAGE_HEIGHT_PIXELS / 2,
+    //[IMAGE_DATA_FIELD_AREA_CENTER_TO_EDGE_DISTANCE]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2 * CARD_WIDTH / (CARD_WIDTH + 2 * STANDARD_CARD_IMAGE_BLEED_SIZE),
+  //},
+  //[CARD_TYPE_CHALLENGES]: {
+    //[IMAGE_DATA_FIELD_FILE_URL]: 'files/resources/png/card-white-background.png',
+    //[IMAGE_DATA_FIELD_AREA_CENTER_X]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2,
+    //[IMAGE_DATA_FIELD_AREA_CENTER_Y]: STANDARD_CARD_IMAGE_HEIGHT_PIXELS / 2,
+    //[IMAGE_DATA_FIELD_AREA_CENTER_TO_EDGE_DISTANCE]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2 * CARD_WIDTH / (CARD_WIDTH + 2 * STANDARD_CARD_IMAGE_BLEED_SIZE),
+  //},
   [CARD_TYPE_PATRONS]: {
     [IMAGE_DATA_FIELD_FILE_URL]: 'files/resources/png/card-white-background.png',
     [IMAGE_DATA_FIELD_AREA_CENTER_X]: STANDARD_CARD_IMAGE_WIDTH_PIXELS / 2,
@@ -257,7 +257,7 @@ const CARD_TYPE_BACKGROUND_IMAGES = {
   }
 };
 CARD_TYPE_BACKGROUND_IMAGES[CARD_TYPE_GOD] = CARD_TYPE_BACKGROUND_IMAGES[CARD_TYPE_PATRONS];
-CARD_TYPE_BACKGROUND_IMAGES[CARD_TYPE_I] = CARD_TYPE_BACKGROUND_IMAGES[CARD_TYPE_PATRONS];
+//CARD_TYPE_BACKGROUND_IMAGES[CARD_TYPE_I] = CARD_TYPE_BACKGROUND_IMAGES[CARD_TYPE_PATRONS];
 CARD_TYPE_BACKGROUND_IMAGES[CARD_TYPE_REVERSE] = CARD_TYPE_BACKGROUND_IMAGES[CARD_TYPE_PATRONS];
 
 const CSS_INVISIBLE = 'display: none';
@@ -1655,21 +1655,21 @@ const getDataFileParams = function(cardType, data, dataPath) {
     result[CARD_DATA_PARAMS_FIELD_FORENAMES] = data[FILE_DATA_FORENAMES_KEY] ? getGroupedLanguageVariables(data[FILE_DATA_FORENAMES_KEY]).join(', ') : '';
     result[CARD_DATA_PARAMS_FIELD_SURNAMES] = data[FILE_DATA_SURNAMES_KEY] ? getGroupedLanguageVariables(data[FILE_DATA_SURNAMES_KEY]).join(', ').replace(new RegExp(LANGUAGE_MISSING_VARIABLE_SIGN), '') : '';
     result[CARD_DATA_PARAMS_FIELD_EPITHETS] = data[FILE_DATA_EPITHETS_KEY] ? getGroupedLanguageVariables(data[FILE_DATA_EPITHETS_KEY]).join(', ') : '';
-  } else if (cardType === CARD_TYPE_I) {
-    const currentDate = getCurrentDate();
+  //} else if (cardType === CARD_TYPE_I) {
+    //const currentDate = getCurrentDate();
 
-    result[CARD_DATA_PARAMS_FIELD_NAME] = '?';
-    result[CARD_DATA_PARAMS_FIELD_IMAGE_FILE_URL] = '';
-    result[CARD_DATA_PARAMS_FIELD_IMAGE_PAGE_URL] = '';
-    result[CARD_DATA_PARAMS_FIELD_IMAGE_ATTRIBUTION] = '';
-    result[CARD_DATA_PARAMS_FIELD_IMAGE_AREA_CENTER_X] = EMPTY_IMAGE_X_COORDINATE;
-    result[CARD_DATA_PARAMS_FIELD_IMAGE_AREA_CENTER_Y] = EMPTY_IMAGE_Y_COORDINATE;
-    result[CARD_DATA_PARAMS_FIELD_IMAGE_AREA_CENTER_TO_EDGE_DISTANCE] = EMPTY_IMAGE_CENTER_TO_EDGE_DISTANCE;
+    //result[CARD_DATA_PARAMS_FIELD_NAME] = '?';
+    //result[CARD_DATA_PARAMS_FIELD_IMAGE_FILE_URL] = '';
+    //result[CARD_DATA_PARAMS_FIELD_IMAGE_PAGE_URL] = '';
+    //result[CARD_DATA_PARAMS_FIELD_IMAGE_ATTRIBUTION] = '';
+    //result[CARD_DATA_PARAMS_FIELD_IMAGE_AREA_CENTER_X] = EMPTY_IMAGE_X_COORDINATE;
+    //result[CARD_DATA_PARAMS_FIELD_IMAGE_AREA_CENTER_Y] = EMPTY_IMAGE_Y_COORDINATE;
+    //result[CARD_DATA_PARAMS_FIELD_IMAGE_AREA_CENTER_TO_EDGE_DISTANCE] = EMPTY_IMAGE_CENTER_TO_EDGE_DISTANCE;
 
-    for (let fieldId of CARD_DATA_PARAMS_MY_FIELDS_ORDER) {
-      result[fieldId] = (fieldId == CARD_DATA_PARAMS_FIELD_WITH_CURRENT_DATE) ? getMonthAndDayFromFullDate(currentDate) : "";
-    }
-    result[CARD_DATA_PARAMS_FIELD_QR_CODE_URL] = getICardQrCodeUrl(result);
+    //for (let fieldId of CARD_DATA_PARAMS_MY_FIELDS_ORDER) {
+      //result[fieldId] = (fieldId == CARD_DATA_PARAMS_FIELD_WITH_CURRENT_DATE) ? getMonthAndDayFromFullDate(currentDate) : "";
+    //}
+    //result[CARD_DATA_PARAMS_FIELD_QR_CODE_URL] = getICardQrCodeUrl(result);
   }
 
   return result;
@@ -1965,26 +1965,26 @@ const drawCard = function(cardId) {
       }
 
       switch (cardType) {
-        case CARD_TYPE_BASE_FOR_FEAST:
-          if (isEmptyCardBackgroundMode) {
-            drawFeastBaseCardBackground(x, y, cardWidth, cardHeight); //you can use this code to build background png
-          }
-          drawFeastBaseCard(x, y, cardWidth, cardHeight);
-          return;
+        //case CARD_TYPE_BASE_FOR_FEAST:
+          //if (isEmptyCardBackgroundMode) {
+            //drawFeastBaseCardBackground(x, y, cardWidth, cardHeight); //you can use this code to build background png
+          //}
+          //drawFeastBaseCard(x, y, cardWidth, cardHeight);
+          //return;
 
-        case CARD_TYPE_BASE_FOR_PERSON:
-          if (isEmptyCardBackgroundMode) {
-            drawPersonBaseCardBackground(x, y, cardWidth, cardHeight); //you can use this code to build background png
-          }
-          drawPersonBaseCard(x, y, cardWidth, cardHeight);
-          return;
+        //case CARD_TYPE_BASE_FOR_PERSON:
+          //if (isEmptyCardBackgroundMode) {
+            //drawPersonBaseCardBackground(x, y, cardWidth, cardHeight); //you can use this code to build background png
+          //}
+          //drawPersonBaseCard(x, y, cardWidth, cardHeight);
+          //return;
 
-        case CARD_TYPE_CHALLENGES:
-          if (isEmptyCardBackgroundMode) {
-            drawChallengesCardBackground(x, y, cardWidth, cardHeight); //you can use this code to build background png
-          }
-          drawChallengesCard(x, y, cardWidth, cardHeight);
-          return;
+        //case CARD_TYPE_CHALLENGES:
+          //if (isEmptyCardBackgroundMode) {
+            //drawChallengesCardBackground(x, y, cardWidth, cardHeight); //you can use this code to build background png
+          //}
+          //drawChallengesCard(x, y, cardWidth, cardHeight);
+          //return;
 
         //case CARD_TYPE_REVERSE:
           //return;

@@ -35,6 +35,11 @@ Przypisy:
 
 [md:import](szablony/dodaj_nowy_wiersz_notatek_wersja_dla_swiat.md#$numer-kroku=4)
 
+
+
+
+
+
 ## <span class="step-number">5.</span> <span class="step-letter">Z</span> W wybranym dniu zaproś dowolnego Patrona Obrońcę
 W <span class="selected-day-info">wybranym dniu</span> zaproś jednego dowolnego **Patrona Obrońcę** - patrz strona [<span class="status status-list"><span class="status status-blue">A</span> Patroni Obrońcy</span>](patroni_obroncy.md). Nie musi on być związany z odkrywanym świętem.
 ## <span class="step-number">6.</span> <span class="step-letter">M</span> Podziękuj Jezusowi za wybrane święto
