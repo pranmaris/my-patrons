@@ -549,6 +549,9 @@ function parseChallenges(challengesData) {
         counts: {},
         dates: {}
       },
+      feasts: {
+        counts: {}
+      },
       uniqs: {}
     };
     for (const challenge of challengesData) {
@@ -570,6 +573,8 @@ function parseChallenge(rowId, challenge, contextData) {
   const challengeType = challenge.type ?? '';
   const challengeDate = challenge.date ?? getToday();
   const challengePerson = challenge.person ?? '';
+  const challengeFeast = challenge.feast ?? '';
+  const challengePersonWithFeast = challengePerson + PERSON_URL_FEAST_SEPARATOR + challengeFeast;
   const challengeChecklist = challenge[DATA_FIELD_CHECKLIST] ?? {};
   const challengeNotes = challenge[DATA_FIELD_NOTES] ?? {};
   const challengeStatus = getChallengeSuccessStatus(rowId);
@@ -590,15 +595,21 @@ function parseChallenge(rowId, challenge, contextData) {
 
   const manyPersonsCountsContext = contextData.persons.counts[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
   const specifiedPersonCountsContext = contextData.persons.counts[challengePerson] ?? {};
+  const specifiedPersonFeastCountsContext = contextData.feasts.counts[challengePersonWithFeast] ?? {};
   const manyPersonsDatesContext = contextData.persons.dates[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
   const specifiedPersonDatesContext = contextData.persons.dates[challengePerson] ?? {};
   const uniqs = contextData.uniqs[challengeType] ?? {};
+
+  let isPersonGodHavingNeededChallenges = false;
 
   //check requirements
   for (const personReq of Object.entries(configPersonReqsData)) {
     const reqName = personReq[0] ?? '';
     const reqTypes = personReq[1] ?? [];
-    const reqTypesWithDuplications = getTypesArrayWithDuplications(reqTypes);
+    let reqTypesWithDuplications = reqTypes;
+    if (Array.isArray(reqTypes)) {
+      reqTypesWithDuplications = getTypesArrayWithDuplications(reqTypes);
+    }
 
     switch (reqName) {
       case REQUIREMENT_ANYBODY_HAVING_CHALLENGES:
@@ -645,6 +656,45 @@ function parseChallenge(rowId, challenge, contextData) {
           if ((manyPersonsDatesContext[type] ?? null) === challengeDate) {
             throw {
               message: 'lang-challenge-parse-error-for-requirement-everybody-not-having-challenges-on-the-same-day',
+              data: [type]
+            };
+          }
+        }
+        break;
+
+      case REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES:
+        for (const type of reqTypes) {
+          if ((specifiedPersonFeastCountsContext[type] ?? null) !== null) {
+            throw {
+              message: 'lang-challenge-parse-error-for-requirement-person-feast-not-having-challenges',
+              data: [type]
+            };
+          }
+        }
+        break;
+
+      case REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY:
+        if (challengeFeast === '') {
+          throw {
+            message: 'lang-challenge-parse-error-for-requirement-person-feast-is-not-empty'
+          };
+        }
+        break;
+
+      case REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES:
+        const subelements = getPersonsDataSubelements(GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL);
+        if (subelements.indexOf(challengePerson) !== MISSING_INDEX_OF_VALUE) {
+          isPersonGodHavingNeededChallenges = true;
+        }
+        break;
+
+      case REQUIREMENT_PERSON_HAVING_CHALLENGES:
+        for (const type of reqTypes) {
+          if ((specifiedPersonCountsContext[type] ?? 0) === 0
+            && !isPersonGodHavingNeededChallenges
+          ) {
+            throw {
+              message: 'lang-challenge-parse-error-for-requirement-person-having-challenges',
               data: [type]
             };
           }
@@ -728,6 +778,11 @@ function parseChallenge(rowId, challenge, contextData) {
   }
   contextData.persons.dates[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] = challengeDate;
   contextData.persons.dates[challengePerson][challengeType] = challengeDate;
+
+  if (contextData.feasts.counts[challengePersonWithFeast] === undefined) {
+    contextData.feasts.counts[challengePersonWithFeast] = {};
+  }
+  contextData.feasts.counts[challengePersonWithFeast][challengeType] = (contextData.feasts.counts[challengePersonWithFeast][challengeType] ?? 0) + 1;
 
   if (contextData.uniqs[challengeType] === undefined) {
     contextData.uniqs[challengeType] = {};
@@ -1267,6 +1322,9 @@ function getPersonsFeastsHavingAnyChallenge(types, checkDateString) {
 function resetDateInput() {
   let dateInput = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID);
   dateInput.value = getToday();
+
+  let challengeTypeSelect = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID);
+  challengeTypeSelect.value = '';
 
   resetChallengeTypeSelect();
 }

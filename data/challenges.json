@@ -148,6 +148,40 @@
     }
   },
 
+  "B": {
+    "name": {
+      "pl": "Święta"
+    },
+    "description": {
+      "pl": "pl/wyzwania/swieta"
+    },
+    "uniqueness": ["person", "feast"],
+    "numbers": true,
+    "person": {
+      "types": ["God", "Patrons"],
+      "description": {
+        "pl": "pl/osoby/swieta"
+      },
+      "requirements": {
+        "anybody-having-challenges": ["A"],
+        "god-having-needed-challenges": true,
+        "person-having-challenges": ["A"],
+        "person-feast-is-not-empty": true,
+        "person-feast-not-having-challenges": ["B"]
+      }
+    },
+    "checklist": {
+
+
+
+    },
+    "notes": {
+
+
+
+    }
+  },
+
   "I": {
     "name": {
       "pl": "Bóg"

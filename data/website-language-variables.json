@@ -218,6 +218,21 @@
         "pl": "ten typ wyzwania został już utworzony dla tego dnia"
     },
 
+    "lang-challenge-parse-error-for-requirement-person-feast-is-not-empty": {
+        "en": "challenge must have assigned feast",
+        "pl": "wyzwanie musi mieć przypisane święto"
+    },
+
+    "lang-challenge-parse-error-for-requirement-person-feast-not-having-challenges": {
+        "en": "this type of challenge has been assigned to this feast before",
+        "pl": "ten typ wyzwania został już przypisany wcześniej do tego święta"
+    },
+
+    "lang-challenge-parse-error-for-requirement-person-having-challenges": {
+        "en": "missing type of challenge assigned to this person before",
+        "pl": "brak typu wyzwania przypisanego do tej osoby wcześniej"
+    },
+
     "lang-challenge-parse-error-for-requirement-person-not-having-challenges": {
         "en": "this type of challenge has been assigned to this person before",
         "pl": "ten typ wyzwania został już przypisany wcześniej do tej osoby"
