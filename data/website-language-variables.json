@@ -531,9 +531,9 @@
         "pl": "plik został wczytany pomyślnie"
     },
 
-    "lang-file-saved-successfully": {
-        "en": "file saved successfully",
-        "pl": "plik został zapisany pomyślnie"
+    "lang-file-prepared-to-save-successfully": {
+        "en": "file prepared to save successfully",
+        "pl": "plik został przygotowany do zapisu pomyślnie"
     },
 
     "lang-filename-without-extension": {

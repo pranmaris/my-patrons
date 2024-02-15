@@ -454,7 +454,7 @@ async function saveFile() {
     a.href = window.URL.createObjectURL(blob);
     a.click();
 
-    success(getLanguageVariable('lang-file-saved-successfully', true));
+    success(getLanguageVariable('lang-file-prepared-to-save-successfully', true));
   } catch (e) {
     error(e.message);
   }
