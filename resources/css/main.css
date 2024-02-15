@@ -1,13 +1,164 @@
+/* BODY */
+
 body {
   margin: 0;
-  height: 100%;
+  margin-top: 4rem;
   background-color: white;
   background: url('/files/resources/jpg/background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
 }
+
+.body-full main {
+  min-height: 65vh;
+}
+
+/* NAVBAR */
+
+#navbar {
+  color: white;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  display: inline;
+  margin-left: 3rem;
+  z-index: 1;
+}
+
+#navbar-icon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3rem;
+  width: 3rem;
+  background-color: black;
+  font-size: 3rem;
+  line-height: 3.3rem;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+#navbar-icon:hover {
+  background-color: rgb(0, 120, 100);
+}
+
+#sidebar-switcher:checked ~ #navbar > #navbar-icon:hover {
+  background-color: rgb(200, 100, 0);
+}
+
+#navbar-hamburger-icon {
+  margin-bottom: 1.25rem;
+  width: 2rem;
+  height: 2rem;
+  content: url("/files/resources/svg/list.svg");
+}
+
+#sidebar-switcher:checked ~ #navbar > #navbar-icon > #navbar-hamburger-icon {
+  content: url("/files/resources/svg/x.svg");
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.navbar-element {
+  float: left;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+#navbar-subtitle {
+  color: #aaa;
+  font-size: 1rem;
+}
+
+#language-select {
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+  position: fixed;
+  top: 3rem;
+  left: 0;
+  display: none;
+  color: white;
+  background: white;
+  max-height: calc(100% - 3rem);
+  overflow: auto;
+  z-index: 1;
+  border-radius: 0px 0px 2rem 0px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar li {
+  background-color: rgb(0, 88, 76);
+  padding: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.sidebar-icon {
+  margin-right: 15px;
+}
+
+#sidebar li:hover {
+  background: rgb(0, 120, 100);
+}
+
+#sidebar-switcher:checked ~ #sidebar {
+  display: block;
+}
+
+#sidebar-switcher {
+  display: none;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #333;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 body {
   color: rgb(0, 200, 200);
@@ -23,6 +174,7 @@ a {
   text-decoration: none;
   color: white;
 }
+
 a:hover {
   text-decoration: none;
   color: white;
@@ -56,9 +208,6 @@ header {
   background-color: rgba(255, 255, 255, 0);
 }
 
-.body-full main {
-  min-height: 65vh;
-}
 .body-content main {
   margin-bottom: 30px;
   margin-left: 30px;
@@ -127,6 +276,7 @@ footer {
 
 
 
+
 .svg-image {
   width: 30px;
   height: 30px;
@@ -170,8 +320,6 @@ button .svg-image {
 
 
 
-.navbar {
-}
 .navbar-toggler {
   border-color: white !important;
 }
@@ -181,10 +329,7 @@ button .svg-image {
   font-weight: bold;
   vertical-align: top;
 }
-.navbar-brand-for-other-service-name {
-  font-size: 0.5em;
-  font-weight: normal;
-}
+
 .nav-link {
   font-weight: bold;
 }
@@ -219,11 +364,6 @@ li.nav-item > a:hover {
 
 .project-initiative-info {
   font-size: 0.8em;
-}
-
-.background-photo-attribution {
-  font-size: 10px;
-  color: gray;
 }
 
 .form-error-message {

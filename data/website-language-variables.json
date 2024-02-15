@@ -63,11 +63,6 @@
         "pl": "wróć"
     },
 
-    "lang-background-photo-attribution": {
-        "en": "photo by Raimond Klavins (<a href=\"https://unsplash.com/photos/eamKoYza9r0\">Unsplash</a>)",
-        "pl": "fot. Raimond Klavins (<a href=\"https://unsplash.com/photos/eamKoYza9r0\">Unsplash</a>)"
-    },
-
     "lang-baptized-person": {
         "en": "baptized person",
         "pl": "osoba ochrzczona"
@@ -99,6 +94,10 @@
     "lang-bleed-size": {
         "en": "printing bleed (mm)",
         "pl": "spad drukarski (mm)"
+    },
+
+    "lang-buy-coffee": {
+        "pl": "Buy Coffee"
     },
 
     "lang-cancel": {
@@ -336,8 +335,8 @@
     },
 
     "lang-copyright": {
-        "en": "©2021 <a href=\"https://en.gratiaDei.org\">gratiaDei.org</a>",
-        "pl": "©2021 <a href=\"https://pl.gratiaDei.org\">gratiaDei.org</a>"
+        "en": "©2021 <a target=\"_blank\" href=\"https://en.gratiaDei.org\">gratiaDei.org</a>",
+        "pl": "©2021 <a target=\"_blank\" href=\"https://pl.gratiaDei.org\">gratiaDei.org</a>"
     },
 
     "lang-copyright-hidden-content-info": {
@@ -437,7 +436,6 @@
     },
 
     "lang-donate-link": {
-        "en": "",
         "pl": "https://buycoffee.to/gratia-dei"
     },
 
@@ -568,6 +566,10 @@
     "lang-further-name": {
         "en": "further name",
         "pl": "dalsza nazwa"
+    },
+
+    "lang-github": {
+        "en": "GitHub"
     },
 
     "lang-hide-fields": {

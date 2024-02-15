@@ -1,68 +1,31 @@
 <div class="body-full container">
-
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">
-          <span>#lang-service-name|original#</span>
-          <span class="navbar-brand-for-other-service-name">#lang-other-service-name-for-language#</span>
+    <input type="checkbox" id="sidebar-switcher" />
+    <div id="navbar">
+      <label for="sidebar-switcher" id="navbar-icon">
+        <img class="svg-image" id="navbar-hamburger-icon" />
+      </label>
+      <div class="navbar-element" id="navbar-title">#lang-service-name|original#&nbsp; <span id="navbar-subtitle">#lang-other-service-name-for-language#</span></div>
+      <span class="nav-item dropdown" id="language-select">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img class="svg-image" src="/files/resources/svg/translate.svg" />
+          <span>#lang-language|capitalize#: #selected-language#</span>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img class="svg-image" src="/files/resources/svg/translate.svg" />
-                <span>#lang-language|capitalize#: #selected-language#</span>
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                <span>#selectable-languages-list#</span>
-              </ul>
-            </li>
-          </ul>
-
-          <table>
-            <tr>
-              <td>
-                <span class="project-initiative-info">#lang-project-initiative-info#:</span>
-              </td>
-            </tr>
-            <tr>
-              <td>
-
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#lang-about-us-link|original-only-for-missing#">
-                      <img class="svg-image" src="/files/resources/svg/info-circle.svg" />
-                      <span>#lang-about-us|capitalize-all#</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#lang-support-us-link|original-only-for-missing#">
-                      <img class="svg-image" src="/files/resources/svg/people-fill.svg" />
-                      <span>#lang-support-us|capitalize-all#</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#lang-contact-link|original-only-for-missing#">
-                      <img class="svg-image" src="/files/resources/svg/envelope-at.svg" />
-                      <span>#lang-contact|capitalize-all#</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#lang-donate-link|original-only-for-missing#">#lang-donate#</a>
-                  </li>
-                </ul>
-
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-
-    </nav>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+          <span>#selectable-languages-list#</span>
+        </ul>
+      </span>
+    </div>
+    <div id="sidebar">
+      <ul>
+        <a target="_blank" href="#lang-about-us-link|original-only-for-missing#"><li><img class="svg-image sidebar-icon" src="/files/resources/svg/info-circle.svg" />#lang-about-us|capitalize-all#</li></a>
+        <a target="_blank" href="#lang-support-us-link|original-only-for-missing#"><li><img class="svg-image sidebar-icon" src="/files/resources/svg/people-fill.svg" />#lang-support-us|capitalize-all#</li></a>
+        <a target="_blank" href="#lang-contact-link|original-only-for-missing#"><li><img class="svg-image sidebar-icon" src="/files/resources/svg/envelope-at.svg" />#lang-contact|capitalize-all#</li></a>
+        <li><hr /></li>
+        <a target="_blank" href="#lang-donate-link|original-only-for-missing#"><li><img class="svg-image sidebar-icon" src="/files/resources/svg/cup-hot-fill.svg" />#lang-buy-coffee#</li></a>
+        <a target="_blank" href="#lang-source-link|original#"><li><img class="svg-image sidebar-icon" src="/files/resources/svg/github.svg" />#lang-github#</li></a>
+      </ul>
+    </div>
     <span>#breadcrumbs-content-block#</span>
   </header>
 
@@ -70,14 +33,11 @@
     <span>#content#</span>
   </main>
 
-  <footer>
-    <div class="center">
-      <span>#lang-copyright# | <a href="#lang-source-link|original#"><img class="svg-image" src="/files/resources/svg/github.svg" /></a> | #lang-license#</span>
-      <br />
-      <p id="background-photo-attribution" class="background-photo-attribution">#lang-background-photo-attribution#</p>
-    </div>
-    <br />
-    <br />
+  <br />
+  <br />
+
+  <footer id="footer">
+      <span>#lang-copyright#</span>
   </footer>
 
 </div>

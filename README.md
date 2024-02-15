@@ -45,6 +45,10 @@ The underlying source code is licensed under the MIT license unless otherwise no
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
 
+# Attributions
+
+Site background photo by Raimond Klavins ([Unsplash](https://unsplash.com/photos/eamKoYza9r0)).
+
 # Contributors
 
 In this project there is only "group single-author writing" model contribution allowed. You agree that your changes added to repository will not be noted in license attribution.
