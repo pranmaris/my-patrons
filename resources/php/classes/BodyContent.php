@@ -10,7 +10,8 @@ class BodyContent extends Content
     private const ORIGINAL_LANGUAGE_CODE = '??';
     private const ACTIVE_LANGUAGE_CLASS = 'active';
 
-    private const PATH_TITLE_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-path' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
+    private const PATH_PREFIX_VARIABLE = '';
+    private const OTHER_SERVICE_NAME_FOR_LANGUAGE_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-other-service-name-for-language' . self::VARIABLE_NAME_SIGN;
 
     private $mainContentRouter;
     private $breadcrumbsContentBlock;
@@ -36,6 +37,7 @@ class BodyContent extends Content
             $htmlFileName = 'body-content.html';
         } else {
             $htmlFileName = 'body-full.html';
+            $variables['other-service-name-for-language'] = $this->getOtherServiceNameForLanguage($originalRequestPath);
             $variables['selected-language'] = $this->getSelectedLanguageName();
             $variables['selectable-languages-list'] = $this->getSelectableLanguagesList($protocol, $domain, $requestPath);
             $variables['breadcrumbs-content-block'] = $this->getBreadcrumbsContent($requestPath);
@@ -148,7 +150,16 @@ class BodyContent extends Content
         return $this->breadcrumbsContentBlock
             ->showDataElement($showDataElement)
             ->prepare($bcPath)
-            ->getFullContent(self::PATH_TITLE_VARIABLE)
+            ->getFullContent(self::PATH_PREFIX_VARIABLE)
         ;
+    }
+
+    private function getOtherServiceNameForLanguage(string $requestPath): string
+    {
+        if (trim($requestPath, '/') === '') {
+            return self::OTHER_SERVICE_NAME_FOR_LANGUAGE_VARIABLE;
+        }
+
+        return '';
     }
 }

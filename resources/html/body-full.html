@@ -1,16 +1,20 @@
 <div class="body-full container">
   <header>
     <input type="checkbox" class="sidebar-switcher" id="sidebar-left-switcher" />
-  <input type="checkbox" class="sidebar-switcher" id="sidebar-right-switcher" />
+    <input type="checkbox" class="sidebar-switcher" id="sidebar-right-switcher" />
     <div id="navbar">
       <label for="sidebar-left-switcher" id="navbar-sidebar-left-opener">
         <img class="svg-image" id="navbar-sidebar-left-opener-icon" />
       </label>
-    <div id="navbar-selected-language">#selected-language#</div>
-    <label for="sidebar-right-switcher" id="navbar-sidebar-right-opener">
+      <div id="navbar-selected-language">#selected-language#</div>
+      <label for="sidebar-right-switcher" id="navbar-sidebar-right-opener">
         <img class="svg-image" id="navbar-sidebar-right-opener-icon" />
       </label>
-      <div class="navbar-element" id="navbar-title">#lang-service-name|original#&nbsp; <span id="navbar-subtitle">#lang-other-service-name-for-language#</span></div>
+      <div class="navbar-element" id="navbar-title">
+        <!--<span>#lang-service-name|original#</span>-->
+        <span>#breadcrumbs-content-block#</span>
+        <span id="navbar-subtitle">#other-service-name-for-language#</span>
+      </div>
     </div>
     <div id="sidebar-left" class="sidebar">
       <ul>
@@ -21,10 +25,9 @@
         <a target="_blank" href="#lang-source-link|original#"><li><img class="svg-image sidebar-icon" src="/files/resources/svg/github.svg" />#lang-github#</li></a>
       </ul>
     </div>
-  <div id="sidebar-right" class="sidebar">
+    <div id="sidebar-right" class="sidebar">
       <ul>#selectable-languages-list#</ul>
     </div>
-    <span>#breadcrumbs-content-block#</span>
   </header>
 
   <main>

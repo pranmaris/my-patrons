@@ -5,10 +5,10 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
     private const GLOBAL_VARIABLES_KEY_NAME = 'breadcrumbs-path-names';
 
     private const PATH_SEPARATOR = '###';
-    private const RECORD_SEPARATOR = ' &gt; ';
+    private const RECORD_SEPARATOR = ' <span class="breadcrumbs-path-separator"> &gt; </span>';
     private const ACTIVE_LINK_NAME_PREFIX = '###';
 
-    private const MAIN_PAGE_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-main-page' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
+    private const MAIN_PAGE_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-service-name' . self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL . self::VARIABLE_NAME_SIGN;
     private const DATA_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-data' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
 
     private const BREADCRUMBS_HIDE_DATA_ELEMENT_PATHS = [
@@ -95,7 +95,7 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
         $showMainPage = $this->showMainPage;
         $pathElements = $this->pathElements;
         if (!$showMainPage && count($pathElements) === 1) {
-            return '';
+            return self::MAIN_PAGE_VARIABLE;
         }
 
         $result = ltrim("$translatedName: ", ': ');
@@ -222,7 +222,6 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
 
             if (!$found && $element === $name) {
                 $isActive = self::BREADCRUMBS_HIDE_DATA_ELEMENT_PATHS[$element] ?? null;
-//var_dump("<pre>isActive=$isActive / element=$element / path=$path");
                 if (!is_null($isActive)) {
                     $name = self::VARIABLE_NAME_SIGN . self::LANG_VARIABLE_PREFIX . $element . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
                     $found = $isActive;

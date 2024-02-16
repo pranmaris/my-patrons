@@ -128,8 +128,7 @@ body {
 }
 
 #navbar-subtitle {
-  color: #aaa;
-  font-size: 1rem;
+  color: grey;
 }
 
 #language-select {
@@ -215,7 +214,24 @@ body {
   color: white;
 }
 
+/* BREADCRUMBS */
 
+.breadcrumbs-active-link {
+  color: white;
+  font-size: 15px;
+}
+.breadcrumbs-active-link:hover {
+  color: yellow;
+  font-size: 15px;
+}
+.breadcrumbs-inactive-link {
+  color: grey;
+  font-size: 15px;
+}
+.breadcrumbs-path-separator {
+  color: darkgrey;
+  font-size: 15px;
+}
 
 
 
