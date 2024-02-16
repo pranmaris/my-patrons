@@ -1963,7 +1963,16 @@ async function addNewChallenge() {
 
   await reloadChallengesTab();
 
-  const gotoRowId = fileData[DATA_FIELD_CHALLENGES].length; //todo calculate added rowId param which can be other than last row Id
+  let gotoRowId = fileData[DATA_FIELD_CHALLENGES].length;
+  const challengeDate = Date.parse(date);
+  let rowId = 0;
+  for (const challenge of fileData[DATA_FIELD_CHALLENGES]) {
+    if (Date.parse(challenge.date) > challengeDate) {
+      gotoRowId = rowId;
+      break;
+    }
+    rowId++;
+  }
   success(getLanguageVariable('lang-new-challenge-created-successfully', true), gotoRowId);
   gotoChallenge(gotoRowId);
 }
