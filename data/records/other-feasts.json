@@ -1,14 +1,4 @@
 {
-    "MVSDG": {
-        "base": "getDayOfJanuary",
-        "move": 1,
-        "name": {
-            "pl": "[1|Najświętsza Maryja Panna Święta Boża Rodzicielka]"
-        },
-        "description": {
-            "pl": "[/] - wcześniej: jako [other-feasts#MVMAT|Macierzyństwo błogosławionej Maryi Dziewicy][/] - od 01.01.1970: ustanowienie uroczystości (Paweł VI, motu proprio Mysterii Paschalis z 14.02.1969) - obchodzone 1 stycznia"
-        }
-    },
     "TRMIS": {
         "base": "getResurrectionFeastDateValidToday",
         "move": 7,
@@ -16,17 +6,7 @@
             "pl": "[1|Miłosierdzie Boże]"
         },
         "description": {
-            "pl": "opis już wkrótce ..."
-        }
-    },
-    "MVMAT": {
-        "base": "getDayOfOctober",
-        "move": 11,
-        "name": {
-            "pl": "[1|Macierzyństwo błogosławionej Maryi Dziewicy]"
-        },
-        "description": {
-            "pl": "[/] - od 25.12.1931: ustanowienie święta na pamiątkę 1500 rocznicy soboru w Efezie (Pius XI, encyklika Lux Veritatis z 25.12.1931) - obchodzone 11 października[/] - od 01.01.1970: jako [other-feasts#MVSDG|Najświętsza Maryja Panna Święta Boża Rodzicielka]"
+            "pl": "Rzymski Kalendarz Liturgiczny: pierwsza niedziela po Zmartwychwstaniu"
         }
     }
 }
