@@ -6,7 +6,7 @@ Wybierz święto, które:
   - odpust parafialny<sup>3</sup>
   - znajduje się na **poniższej liście**:  
 
-<iframe id="my-patrons-for-today" src="https://pl.mypatrons.org/dates/list-of-feasts?content-only=1"></iframe>
+<iframe id="my-patrons-for-today" src="https://pl.mypatrons.org/dates/list-of-feasts/#challenge-date#?content-only=1"></iframe>
 
 **UWAGA!** Jednego dnia **można odkryć wiele świąt**, dla każdego wykonując osobne wyzwanie!
 

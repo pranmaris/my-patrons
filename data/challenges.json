@@ -14,7 +14,7 @@
     "person": {
       "types": ["Patrons"],
       "description": {
-        "params": ["current-year"],
+        "params": ["current-year", "challenge-date"],
         "template": {
           "pl": "pl/osoby/patroni-obroncy"
         }
@@ -163,7 +163,7 @@
     "person": {
       "types": ["God", "Patrons"],
       "description": {
-        "params": ["current-year"],
+        "params": ["current-year", "challenge-date"],
         "template": {
           "pl": "pl/osoby/swieta"
         }

@@ -1430,15 +1430,19 @@ function resetPersonTypeSelect() {
   if (challengeType.length > 0) {
     personDiv.style = VISIBLE_STYLE;
 
+    const descValues = {
+      ['challenge-date']: challengeDate
+    };
+
     const challengeDescData = challengesConfig[challengeType].description ?? {};
     const challengeDescFilePath = getLanguageVariable('description', false, challengeDescData.template ?? {});
     const challengeDescParams = challengeDescData.params ?? [];
-    importMarkdownDescription(challengeDescDiv, challengeDescFilePath, challengeDescParams);
+    importMarkdownDescription(challengeDescDiv, challengeDescFilePath, challengeDescParams, descValues);
 
     const personDescData = (challengesConfig[challengeType].person ?? {}).description ?? {};
     const personDescFilePath = getLanguageVariable('description', false, personDescData.template ?? {});
     const personDescParams = personDescData.params ?? [];
-    importMarkdownDescription(personDescDiv, personDescFilePath, personDescParams);
+    importMarkdownDescription(personDescDiv, personDescFilePath, personDescParams, descValues);
 
     let personsTypesToList = {};
     let personsUnlocked = {};
