@@ -1,5 +1,5 @@
 {
-    "TRMIS": {
+    "MIS": {
         "base": "getResurrectionFeastDateValidToday",
         "move": 7,
         "name": {

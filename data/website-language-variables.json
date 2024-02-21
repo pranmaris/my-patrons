@@ -223,14 +223,14 @@
         "pl": "ten typ wyzwania został już utworzony dla tego dnia"
     },
 
-    "lang-challenge-parse-error-for-requirement-person-feast-is-not-empty": {
-        "en": "challenge must have assigned feast",
-        "pl": "wyzwanie musi mieć przypisane święto"
+    "lang-challenge-parse-error-for-requirement-person-addition-is-not-empty": {
+        "en": "challenge must have assigned addition",
+        "pl": "wyzwanie musi mieć przypisany dodatek"
     },
 
-    "lang-challenge-parse-error-for-requirement-person-feast-not-having-challenges": {
-        "en": "this type of challenge has been assigned to this feast before",
-        "pl": "ten typ wyzwania został już przypisany wcześniej do tego święta"
+    "lang-challenge-parse-error-for-requirement-person-addition-not-having-challenges": {
+        "en": "this type of challenge has been assigned to this addition before",
+        "pl": "ten typ wyzwania został już przypisany wcześniej do tego dodatku"
     },
 
     "lang-challenge-parse-error-for-requirement-person-having-challenges": {
@@ -1281,9 +1281,9 @@
         "pl": "niedziela"
     },
 
-    "lang-without-feast-selection": {
-        "en": "without feats selection",
-        "pl": "bez wybierania święta"
+    "lang-without-addition-selection": {
+        "en": "without additions selection",
+        "pl": "bez wybierania dodatku"
     },
 
     "lang-year": {

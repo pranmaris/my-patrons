@@ -124,6 +124,11 @@ abstract class ContentBlock extends Content
         return $this;
     }
 
+    protected function getConsolidatedFileData(): array
+    {
+        return $this->fileData;
+    }
+
     protected function getMainFileData(): array
     {
         return $this->fileData[self::MAIN_FILE_DATA_INDEX] ?? [];
@@ -132,5 +137,42 @@ abstract class ContentBlock extends Content
     protected function getDataLinksFileData(): array
     {
         return $this->fileData[self::DATA_LINKS_GENERATED_FILES_INDEX] ?? [];
+    }
+
+    private function getConvertedLinkUrl(string $url): string
+    {
+        return str_replace('/', '-', $url);
+    }
+
+    protected function getLinksContent(array $data, string $recordContent): string
+    {
+        $result = '';
+
+        $linksTranslations = [];
+        foreach ($data as $url => $names) {
+            $key = $this->getConvertedLinkUrl($url);
+            $linksTranslations[$key] = $names;
+        }
+        $language = $this->getLanguage();
+        $linksTextVariables = $this->getTranslatedVariablesForLangData($language, $linksTranslations);
+
+        $dataToSort = [];
+        foreach ($data as $url => $names) {
+            $variable = self::VARIABLE_NAME_SIGN . $this->getConvertedLinkUrl($url) . self::VARIABLE_NAME_SIGN;
+            $translatedName = $this->getReplacedContent($variable, $linksTextVariables, true);
+            $translatedNameWithoutTags = $this->stripTags($translatedName);
+            $dataToSort[$translatedNameWithoutTags] = [$url, $translatedName];
+        }
+
+        $sortedData = $this->getNaturalSortedListByKeys($dataToSort);
+        foreach ($sortedData as $key => list($url, $translatedName)) {
+            $variables = [
+                'href' => $this->getRecordIdPathWithNameExtension('/' . $url, $translatedName),
+                'name' => $translatedName,
+            ];
+            $result .= $this->getReplacedContent($recordContent, $variables);
+        }
+
+        return $result;
     }
 }

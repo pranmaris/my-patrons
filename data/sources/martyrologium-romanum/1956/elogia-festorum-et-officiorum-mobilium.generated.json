@@ -4,18 +4,18 @@
             "1": "records/god/fil#d1a"
         },
         "2": {
-            "1": "records/god/fil#nom"
+            "1": "records/god/fil#sni"
         },
         "3": {
-            "1": "records/god/fil#fam",
-            "3": "records/patrons/iosephus/naz#fam",
-            "2": "records/patrons/maria/naz#fam"
+            "1": "records/god/fil#sfa",
+            "3": "records/patrons/iosephus/naz#sfa",
+            "2": "records/patrons/maria/naz#sfa"
         },
         "4": {
             "1": "records/god/fil#d70"
         },
         "5": {
-            "1": "records/god/fil#cin"
+            "1": "records/god/fil#dci"
         },
         "6": {
             "1": "records/god/fil#dps"
@@ -24,17 +24,17 @@
             "1": "records/god/fil#dpl"
         },
         "9": {
-            "1": "records/god/fil#fe5"
+            "1": "records/god/fil#f5h"
         },
         "10": {
             "1": "records/god/fil#res"
         },
         "12": {
-            "1": "records/god/fil#dal"
+            "1": "records/god/fil#dia"
         },
         "15": {
             "1": "records/god/fil#asv",
-            "2": "records/patrons/petrus/apo#lmi"
+            "2": "records/patrons/petrus/apo#r2p"
         },
         "16": {
             "1": "records/god/fil#asc"
@@ -49,18 +49,18 @@
             "1": "records/god/fil#cro"
         },
         "23": {
-            "1": "records/god/fil#cor"
+            "1": "records/god/fil#sci"
         },
         "24": {
-            "1": "records/god/fil#coo"
+            "1": "records/god/fil#sco"
         },
         "25": {
             "1": "records/god/fil#rex"
         },
         "14": {
-            "1": "records/god/fil#lmi",
-            "2": "records/patrons/ioannes/bap#lmi",
-            "3": "records/patrons/ioannes/eva#lmi"
+            "1": "records/god/fil#ril",
+            "2": "records/patrons/ioannes/bap#ril",
+            "3": "records/patrons/ioannes/eva#ril"
         },
         "18": {
             "1": "records/god/spi#pev"
@@ -73,13 +73,13 @@
             "1": "records/god/tri#tri"
         },
         "7": {
-            "1": "records/patrons/maria/naz#7do"
+            "1": "records/patrons/maria/naz#7dm"
         },
         "13": {
-            "1": "records/patrons/maria/naz#lmi"
+            "1": "records/patrons/maria/naz#rmm"
         },
         "11": {
-            "1": "records/patrons/petrus/apo#lma"
+            "1": "records/patrons/petrus/apo#r1p"
         }
     }
 }

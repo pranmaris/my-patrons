@@ -6,6 +6,8 @@ class GeneratePersonsDataProcedure extends Procedure
     private const TRANSLATIONS_VARIABLE_NAME_PREFIX = 'lang-';
 
     private const PATH_TO_SKIP = '~~~';
+    private const FEASTS_PATH = 'feasts';
+    private const FEASTS_ROOT_PATH = 'records/' . self::FEASTS_PATH;
 
     private const DATA_FIELD_NAMES = 'names';
     private const DATA_FIELD_DIED = 'died';
@@ -101,13 +103,6 @@ class GeneratePersonsDataProcedure extends Procedure
                 $fileData = $this->getOriginalJsonFileContentArrayForFullPath($elementPath);
                 $patronData = $this->getPatronData($fileData);
                 $this->appendDstFileData($patronUrl, $patronData);
-
-                foreach ($fileData[self::DATA_FIELD_FEASTS] ?? [] as $feastId => $fileFeastData) {
-                    $feastData = [];
-                    $feastData[self::DATA_FIELD_NAMES] = $this->getAllMainLanguageValues($fileFeastData[self::DATA_FIELD_NAMES] ?? []);
-
-                    $this->appendDstFileData($patronUrl . self::FEAST_ID_SEPARATOR . $feastId, $feastData);
-                }
             }
         }
     }
@@ -115,8 +110,18 @@ class GeneratePersonsDataProcedure extends Procedure
     function getPatronData(array $fileData): array {
         $result = [];
 
+        $feastsData = [];
+        foreach ($fileData[self::DATA_FIELD_FEASTS] ?? [] as $feastId => $data) {
+            $feastKey = self::FEASTS_PATH . '/' . $feastId;
+            $feastFilePath = self::FEASTS_ROOT_PATH . '/' . $this->getDataFileSuffix($feastId);
+            $feastFileData = $this->getOriginalJsonFileContentArray($feastFilePath);
+
+            $feastsData[$feastKey][self::DATA_FIELD_NAMES] = $this->getAllMainLanguageValues($feastFileData[self::DATA_FIELD_NAMES] ?? []);
+        }
+
         $result[self::DATA_FIELD_NAMES] = $this->getAllMainLanguageValues($fileData[self::DATA_FIELD_NAMES] ?? []);
         $result[self::DATA_FIELD_DIED] = $fileData[self::DATA_FIELD_DIED] ?? [];
+        $result[self::DATA_FIELD_FEASTS] = $feastsData;
 
         return $result;
     }

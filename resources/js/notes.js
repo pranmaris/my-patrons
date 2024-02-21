@@ -60,9 +60,9 @@ const PERSON_DIV_ELEMENT_ID = 'person-div';
 const PERSON_NAME_SELECT_ELEMENT_ID = 'person-name-select';
 const PERSON_TYPE_SELECT_ELEMENT_ID = 'person-type-select';
 const PERSON_SELECT_ELEMENT_ID = 'person-select';
-const FEAST_SELECT_ELEMENT_ID = 'feast-select';
+const ADDITION_SELECT_ELEMENT_ID = 'addition-select';
 const PERSON_URL_ELEMENT_ID_PREFIX = 'person-url-';
-const FEAST_URL_ELEMENT_ID_PREFIX = 'feast-url-';
+const ADDITION_URL_ELEMENT_ID_PREFIX = 'addition-url-';
 const CHECKLIST_LIST_MODAL_BODY_ELEMENT_ID = 'checklist-list-modal-body';
 const NOTES_LIST_ELEMENT_ID = 'notes-list';
 const NOTES_LIST_FOR_ADD_NEW_CHALLENGE_ELEMENT_ID = 'notes-list-for-add-new-challenge';
@@ -111,7 +111,7 @@ const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
 const PROGRESS_ABORTED_ELEMENT_ID_PREFIX = 'progress-aborted-';
 
-const PERSON_URL_FEAST_SEPARATOR = '@';
+const PERSON_URL_ADDITION_SEPARATOR = '@';
 const REMOVE_PERSON_URL_LINK_HREFS = ['me'];
 
 const INPUT_FOR_FILENAME_WITHOUT_EXTENSION_ELEMENT_ID = 'input-for-filename-without-extension';
@@ -147,9 +147,9 @@ const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY = 'everybody-n
 const REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES = 'god-having-needed-challenges';
 const REQUIREMENT_PERSON_HAVING_CHALLENGES = 'person-having-challenges';
 const REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES = 'person-not-having-challenges';
-const REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY = 'person-feast-is-not-empty';
-const REQUIREMENT_PERSON_FEAST_HAVING_CHALLENGES = 'person-feast-having-challenges';
-const REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES = 'person-feast-not-having-challenges';
+const REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY = 'person-addition-is-not-empty';
+const REQUIREMENT_PERSON_ADDITION_HAVING_CHALLENGES = 'person-addition-having-challenges';
+const REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES = 'person-addition-not-having-challenges';
 
 const NOTE_CONFIG_SOURCE_TYPE_VALUES = 'values';
 const NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_SORTED = 'sorted';
@@ -169,7 +169,7 @@ const LANGUAGE_VARIABLE_PREFIX = 'lang-';
 const LANGUAGE_VARIABLE_CAPITALIZE_SUFFIX_REGEXP = '[|]capitalize$';
 const WEEKDAY_LANGUAGE_VARIABLES_PREFIX = 'lang-weekday-abbreviation-';
 
-const SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME = 'lang-without-feast-selection';
+const SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME = 'lang-without-addition-selection';
 
 const CHECKLIST_STATUS_WAITING = 'waiting';
 const CHECKLIST_STATUS_OPTIONAL_WAITING = 'optional-waiting';
@@ -272,11 +272,11 @@ function getDatesDiffInDays(firstDateStr, secondDateStr) {
 }
 
 function getPersonsDataDirName(personId) {
-  return personId.replace(new RegExp('[/' + PERSON_URL_FEAST_SEPARATOR + '][^/' + PERSON_URL_FEAST_SEPARATOR + ']+[/' + PERSON_URL_FEAST_SEPARATOR + ']?$'), '');
+  return personId.replace(new RegExp('[/' + PERSON_URL_ADDITION_SEPARATOR + '][^/' + PERSON_URL_ADDITION_SEPARATOR + ']+[/' + PERSON_URL_ADDITION_SEPARATOR + ']?$'), '');
 }
 
 function getPersonsDataRootName(personId) {
-  return personId.replace(new RegExp('[/' + PERSON_URL_FEAST_SEPARATOR + '].*$'), '');
+  return personId.replace(new RegExp('[/' + PERSON_URL_ADDITION_SEPARATOR + '].*$'), '');
 }
 
 async function showNotification(prefix, message, type, rowId = EMPTY_ROW_ID) {
@@ -553,7 +553,7 @@ function parseChallenges(challengesData) {
         counts: {},
         dates: {}
       },
-      feasts: {
+      additions: {
         counts: {}
       },
       uniqs: {}
@@ -577,8 +577,8 @@ function parseChallenge(rowId, challenge, contextData) {
   const challengeType = challenge.type ?? '';
   const challengeDate = challenge.date ?? getToday();
   const challengePerson = challenge.person ?? '';
-  const challengeFeast = challenge.feast ?? '';
-  const challengePersonWithFeast = challengePerson + PERSON_URL_FEAST_SEPARATOR + challengeFeast;
+  const challengeAddition = challenge.addition ?? '';
+  const challengePersonWithAddition = challengePerson + PERSON_URL_ADDITION_SEPARATOR + challengeAddition;
   const challengeChecklist = challenge[DATA_FIELD_CHECKLIST] ?? {};
   const challengeNotes = challenge[DATA_FIELD_NOTES] ?? {};
   const challengeStatus = getChallengeSuccessStatus(rowId);
@@ -599,7 +599,7 @@ function parseChallenge(rowId, challenge, contextData) {
 
   const manyPersonsCountsContext = contextData.persons.counts[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
   const specifiedPersonCountsContext = contextData.persons.counts[challengePerson] ?? {};
-  const specifiedPersonFeastCountsContext = contextData.feasts.counts[challengePersonWithFeast] ?? {};
+  const specifiedPersonAdditionCountsContext = contextData.additions.counts[challengePersonWithAddition] ?? {};
   const manyPersonsDatesContext = contextData.persons.dates[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
   const specifiedPersonDatesContext = contextData.persons.dates[challengePerson] ?? {};
   const uniqs = contextData.uniqs[challengeType] ?? {};
@@ -679,21 +679,21 @@ function parseChallenge(rowId, challenge, contextData) {
         }
         break;
 
-      case REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES:
+      case REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES:
         for (const type of reqTypes) {
-          if ((specifiedPersonFeastCountsContext[type] ?? null) !== null) {
+          if ((specifiedPersonAdditionCountsContext[type] ?? null) !== null) {
             throw {
-              message: 'lang-challenge-parse-error-for-requirement-person-feast-not-having-challenges',
+              message: 'lang-challenge-parse-error-for-requirement-person-addition-not-having-challenges',
               data: [type]
             };
           }
         }
         break;
 
-      case REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY:
-        if (challengeFeast === '') {
+      case REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY:
+        if (challengeAddiition === '') {
           throw {
-            message: 'lang-challenge-parse-error-for-requirement-person-feast-is-not-empty'
+            message: 'lang-challenge-parse-error-for-requirement-person-addition-is-not-empty'
           };
         }
         break;
@@ -796,10 +796,10 @@ function parseChallenge(rowId, challenge, contextData) {
   contextData.persons.dates[PARSE_CHALLENGE_MANY_PERSONS_SIGN][challengeType] = challengeDate;
   contextData.persons.dates[challengePerson][challengeType] = challengeDate;
 
-  if (contextData.feasts.counts[challengePersonWithFeast] === undefined) {
-    contextData.feasts.counts[challengePersonWithFeast] = {};
+  if (contextData.additions.counts[challengePersonWithAddition] === undefined) {
+    contextData.additions.counts[challengePersonWithAddition] = {};
   }
-  contextData.feasts.counts[challengePersonWithFeast][challengeType] = (contextData.feasts.counts[challengePersonWithFeast][challengeType] ?? 0) + 1;
+  contextData.additions.counts[challengePersonWithAddition][challengeType] = (contextData.additions.counts[challengePersonWithAddition][challengeType] ?? 0) + 1;
 
   if (contextData.uniqs[challengeType] === undefined) {
     contextData.uniqs[challengeType] = {};
@@ -879,8 +879,8 @@ async function fillChallenges(challenges) {
     let rowId = counter;
     let date = challenge.date ?? '';
     let personUrl = (challenge.person ?? '');
-    let feast = challenge.feast ?? '';
-    let feastUrl = feast.length > 0 ? personUrl + PERSON_URL_FEAST_SEPARATOR + feast : '';
+    let addition = challenge.addition ?? '';
+    let additionUrl = addition.length > 0 ? personUrl + PERSON_URL_ADDITION_SEPARATOR + addition : '';
     let type = challenge.type ?? '';
     let number = '';
     let notes = challenge.notes ?? [];
@@ -908,12 +908,12 @@ async function fillChallenges(challenges) {
       .replace(/#number#/g, number)
       .replace(/#person-url#/g, personUrl)
       .replace(/#person#/g, getPersonDataName(personUrl))
-      .replace(/#feast-url#/g, feastUrl.length > 0 ? feastUrl + ANCHOR_CHARACTER + feast : '')
-      .replace(/#feast#/g, feastUrl.length > 0 ? getPersonDataName(feastUrl) : '')
+      .replace(/#addition-url#/g, additionUrl.length > 0 ? additionUrl + ANCHOR_CHARACTER + addition : '')
+      .replace(/#addition#/g, additionUrl.length > 0 ? getPersonDataName(additionUrl) : '')
     ;
 
     const personUrlElement = document.getElementById(PERSON_URL_ELEMENT_ID_PREFIX + rowId);
-    const feastUrlElement = document.getElementById(FEAST_URL_ELEMENT_ID_PREFIX + rowId);
+    const additionUrlElement = document.getElementById(ADDITION_URL_ELEMENT_ID_PREFIX + rowId);
     const moveChallengeUpButton = document.getElementById(MOVE_CHALLENGE_UP_BUTTON_ELEMENT_ID_PREFIX + rowId);
     const moveChallengeDownButton = document.getElementById(MOVE_CHALLENGE_DOWN_BUTTON_ELEMENT_ID_PREFIX + rowId);
 
@@ -929,8 +929,8 @@ async function fillChallenges(challenges) {
     if (inArray(personUrl, REMOVE_PERSON_URL_LINK_HREFS)) {
       personUrlElement.removeAttribute('href');
     }
-    if (feastUrl == '') {
-      feastUrlElement.removeAttribute('href');
+    if (additionUrl == '') {
+      additionUrlElement.removeAttribute('href');
     }
 
     const successStatusIconTodo = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_TODO_ELEMENT_ID_PREFIX + rowId);
@@ -1137,7 +1137,7 @@ function checkNotExistingChallengeTypesOnTheSameDay(requirements, challenges, ch
   return true;
 }
 
-function checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTake, challengeDate) {
+function checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, allPersonsToTake, challengeDate) {
   const typesNotAllowed = requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
   if (typesNotAllowed.length > 0) {
     const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
@@ -1163,17 +1163,17 @@ function checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirement
     }
   }
 
-  const feastIsNotEmpty = requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
-  const feastNotHavingChallenges = requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
-  if (feastIsNotEmpty) {
-    let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges, challengeDate);
+  const additionIsNotEmpty = requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
+  const additionNotHavingChallenges = requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
+  if (additionIsNotEmpty) {
+    let additionsToSkip = getPersonsAdditionsHavingAnyChallenge(additionNotHavingChallenges, challengeDate);
 
-    let feastsCount = 0;
+    let additionsCount = 0;
     for (let personId of Object.keys(personsToTake)) {
-      const feastsSubelements = getPersonsDataSubelements(personId);
-      feastsCount += feastsSubelements.length;
+      const additionsSubelements = getPersonsDataSubelements(personId);
+      additionsCount += additionsSubelements.length;
     }
-    if (feastsCount <= Object.keys(feastsToSkip).length) {
+    if (additionsCount <= Object.keys(additionsToSkip).length) {
       return false;
     }
   }
@@ -1198,7 +1198,7 @@ function getPersonsDataSubelements(personIdPrefix) {
     for (let personId of data) {
       if (personId.substring(0, personIdPrefix.length) == personIdPrefix
         && personId != personIdPrefix
-        && personId.replace(personIdPrefix, '').match(new RegExp('^[/' + PERSON_URL_FEAST_SEPARATOR + '][a-z0-9]+$'))
+        && personId.replace(personIdPrefix, '').match(new RegExp('^[/' + PERSON_URL_ADDITION_SEPARATOR + '][a-z0-9]+$'))
       ) {
         result.push(personId);
       }
@@ -1244,7 +1244,7 @@ function getPersonsHavingAllChallenges(types, checkDateString = null) {
   return result;
 }
 
-function getPersonsFeastsHavingAllChallenges(types, checkDateString = null) {
+function getPersonsAdditionsHavingAllChallenges(types, checkDateString = null) {
   let result = {};
   let withAnyType = {};
   let rowId = 0;
@@ -1261,21 +1261,21 @@ function getPersonsFeastsHavingAllChallenges(types, checkDateString = null) {
       continue;
     }
 
-    if (inArray(ch.type, types) && ch.feast.length > 0) {
+    if (inArray(ch.type, types) && ch.addition.length > 0) {
       if (withAnyType[ch.person] == undefined) {
         withAnyType[ch.person] = {};
       }
-      if (withAnyType[ch.person][ch.feast] == undefined) {
-        withAnyType[ch.person][ch.feast] = {};
+      if (withAnyType[ch.person][ch.addition] == undefined) {
+        withAnyType[ch.person][ch.addition] = {};
       }
-      withAnyType[ch.person][ch.feast][ch.type] = true;
+      withAnyType[ch.person][ch.addition][ch.type] = true;
     }
   }
 
   for (let person in withAnyType) {
-    for (let feast in withAnyType[person]) {
-      if (Object.keys(withAnyType[person][feast]).length == types.length) {
-        const key = person + PERSON_URL_FEAST_SEPARATOR + feast;
+    for (let addition in withAnyType[person]) {
+      if (Object.keys(withAnyType[person][addition]).length == types.length) {
+        const key = person + PERSON_URL_ADDITION_SEPARATOR + addition;
         result[key] = key;
       }
     }
@@ -1308,7 +1308,7 @@ function getPersonsHavingAnyChallenge(types, checkDateString) {
   return result;
 }
 
-function getPersonsFeastsHavingAnyChallenge(types, checkDateString) {
+function getPersonsAdditionsHavingAnyChallenge(types, checkDateString) {
   let result = {};
   let rowId = 0;
 
@@ -1324,9 +1324,9 @@ function getPersonsFeastsHavingAnyChallenge(types, checkDateString) {
       continue;
     }
 
-    if (ch.feast.length > 0) {
+    if (ch.addition.length > 0) {
       if (inArray(ch.type, types)) {
-        const key = ch.person + PERSON_URL_FEAST_SEPARATOR + ch.feast;
+        const key = ch.person + PERSON_URL_ADDITION_SEPARATOR + ch.addition;
         result[key] = key;
       }
     }
@@ -1392,7 +1392,7 @@ function resetChallengeTypeSelect() {
         || !checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate, 0)
         || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
         || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
-        || !checkIfAnyPersonOrFeastPossibleForChallengeTypeRequirements(requirements, allPersonsToTakeForChallengeType, challengeDate)
+        || !checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, allPersonsToTakeForChallengeType, challengeDate)
       ) {
         continue;
       }
@@ -1478,15 +1478,15 @@ function resetPersonTypeSelect() {
       }
     }
 
-    const feastIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
-    const feastNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
+    const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
+    const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
 
-    let personsTypesWithFeastsToSkipCounts = {};
-    if (feastIsNotEmpty) {
-      let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges, challengeDate);
-      for (let feastId of Object.keys(feastsToSkip)) {
-        const personTypeId = getPersonsDataRootName(feastId);
-        personsTypesWithFeastsToSkipCounts[personTypeId] = (personsTypesWithFeastsToSkipCounts[personTypeId] ?? 0) + 1;
+    let personsTypesWithAdditionsToSkipCounts = {};
+    if (additionIsNotEmpty) {
+      let additionsToSkip = getPersonsAdditionsHavingAnyChallenge(additionNotHavingChallenges, challengeDate);
+      for (let additionId of Object.keys(additionsToSkip)) {
+        const personTypeId = getPersonsDataRootName(additionId);
+        personsTypesWithAdditionsToSkipCounts[personTypeId] = (personsTypesWithAdditionsToSkipCounts[personTypeId] ?? 0) + 1;
       }
     }
 
@@ -1510,24 +1510,24 @@ function resetPersonTypeSelect() {
           }
         }
 
-        if (feastIsNotEmpty) {
-          let allPersonsFeastsWithPersonTypeIdCount = {};
+        if (additionIsNotEmpty) {
+          let allPersonsAdditionsWithPersonTypeIdCount = {};
           if (Object.keys(personsUnlocked).length == 0) {
-            allPersonsFeastsWithPersonTypeIdCount = Object.keys(personsData)
+            allPersonsAdditionsWithPersonTypeIdCount = Object.keys(personsData)
               .filter(v => v.substring(0, personTypeId.length + 1) == personTypeId + '/'
-                && inArray(PERSON_URL_FEAST_SEPARATOR, v) !== false
+                && inArray(PERSON_URL_ADDITION_SEPARATOR, v) !== false
               )
               .length;
           } else {
-            allPersonsFeastsWithPersonTypeIdCount = Object.keys(personsData)
+            allPersonsAdditionsWithPersonTypeIdCount = Object.keys(personsData)
               .filter(v => v.substring(0, personTypeId.length + 1) == personTypeId + '/'
-                && inArray(PERSON_URL_FEAST_SEPARATOR, v) !== false
+                && inArray(PERSON_URL_ADDITION_SEPARATOR, v) !== false
                 && personsUnlocked[getPersonsDataDirName(v)] != undefined
               )
               .length;
           }
 
-          if (allPersonsFeastsWithPersonTypeIdCount <= (personsTypesWithFeastsToSkipCounts[personTypeId] ?? 0)) {
+          if (allPersonsAdditionsWithPersonTypeIdCount <= (personsTypesWithAdditionsToSkipCounts[personTypeId] ?? 0)) {
             continue;
           }
         }
@@ -1586,16 +1586,16 @@ function resetPersonNameSelect() {
         }
       }
 
-      const feastIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
-      const feastNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
+      const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
+      const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
 
-      let personsNamesWithFeastsToSkipCounts = {};
-      if (feastIsNotEmpty) {
-        let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges, challengeDate);
-        for (let feastId of Object.keys(feastsToSkip)) {
-          const personId = getPersonsDataDirName(feastId);
+      let personsNamesWithAdditionsToSkipCounts = {};
+      if (additionIsNotEmpty) {
+        let additionsToSkip = getPersonsAdditionsHavingAnyChallenge(additionNotHavingChallenges, challengeDate);
+        for (let additionId of Object.keys(additionsToSkip)) {
+          const personId = getPersonsDataDirName(additionId);
           const personNameId = getPersonsDataDirName(personId);
-          personsNamesWithFeastsToSkipCounts[personNameId] = (personsNamesWithFeastsToSkipCounts[personNameId] ?? 0) + 1;
+          personsNamesWithAdditionsToSkipCounts[personNameId] = (personsNamesWithAdditionsToSkipCounts[personNameId] ?? 0) + 1;
         }
       }
 
@@ -1612,16 +1612,16 @@ function resetPersonNameSelect() {
           }
         }
 
-        if (feastIsNotEmpty) {
+        if (additionIsNotEmpty) {
           let toContinue = false;
 
           const personSubelements = getPersonsDataSubelements(subelement);
-          let feastsCount = 0;
+          let additionsCount = 0;
           for (let personSubelement of personSubelements) {
-            const feastsSubelements = getPersonsDataSubelements(personSubelement);
-            feastsCount += feastsSubelements.length;
+            const additionsSubelements = getPersonsDataSubelements(personSubelement);
+            additionsCount += additionsSubelements.length;
           }
-          if (feastsCount <= (personsNamesWithFeastsToSkipCounts[subelement] ?? 0)) {
+          if (additionsCount <= (personsNamesWithAdditionsToSkipCounts[subelement] ?? 0)) {
             continue;
           }
         }
@@ -1685,15 +1685,15 @@ async function resetPersonSelect() {
       const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
       const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
 
-      const feastIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
-      const feastNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
+      const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
+      const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
 
-      let personsWithFeastsToSkipCounts = {};
-      if (feastIsNotEmpty) {
-        let feastsToSkip = getPersonsFeastsHavingAnyChallenge(feastNotHavingChallenges, challengeDate);
-        for (let feastId of Object.keys(feastsToSkip)) {
-          const personId = getPersonsDataDirName(feastId);
-          personsWithFeastsToSkipCounts[personId] = (personsWithFeastsToSkipCounts[personId] ?? 0) + 1;
+      let personsWithAdditionsToSkipCounts = {};
+      if (additionIsNotEmpty) {
+        let additionsToSkip = getPersonsAdditionsHavingAnyChallenge(additionNotHavingChallenges, challengeDate);
+        for (let additionId of Object.keys(additionsToSkip)) {
+          const personId = getPersonsDataDirName(additionId);
+          personsWithAdditionsToSkipCounts[personId] = (personsWithAdditionsToSkipCounts[personId] ?? 0) + 1;
         }
       }
 
@@ -1707,9 +1707,9 @@ async function resetPersonSelect() {
           continue;
         }
 
-        if (feastIsNotEmpty) {
-          const feastsSubelements = getPersonsDataSubelements(subelement);
-          if (feastsSubelements.length <= (personsWithFeastsToSkipCounts[subelement] ?? 0)) {
+        if (additionIsNotEmpty) {
+          const additionsSubelements = getPersonsDataSubelements(subelement);
+          if (additionsSubelements.length <= (personsWithAdditionsToSkipCounts[subelement] ?? 0)) {
             continue;
           }
         }
@@ -1735,44 +1735,44 @@ async function resetPersonSelect() {
     }
   }
 
-  resetFeastSelect();
+  resetAdditionSelect();
 }
 
-function resetFeastSelect() {
+function resetAdditionSelect() {
   let challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
   let challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
   let personValue = document.getElementById(PERSON_SELECT_ELEMENT_ID).value;
 
-  let feastSelect = document.getElementById(FEAST_SELECT_ELEMENT_ID);
-  feastSelect.innerHTML = '';
-  feastSelect.style = INVISIBLE_STYLE;
-  feastSelect.value = '';
+  let additionSelect = document.getElementById(ADDITION_SELECT_ELEMENT_ID);
+  additionSelect.innerHTML = '';
+  additionSelect.style = INVISIBLE_STYLE;
+  additionSelect.value = '';
 
   if (personValue.length > 0) {
-    const feastIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_IS_NOT_EMPTY] ?? false;
-    const feastHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_HAVING_CHALLENGES] ?? [];
-    const feastNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
+    const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
+    const additionHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_HAVING_CHALLENGES] ?? [];
+    const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
 
     let namesToSort = {};
-    if (feastIsNotEmpty || feastHavingChallenges.length > 0 || feastNotHavingChallenges.length > 0) {
-      feastSelect.style = VISIBLE_STYLE;
+    if (additionIsNotEmpty || additionHavingChallenges.length > 0 || additionNotHavingChallenges.length > 0) {
+      additionSelect.style = VISIBLE_STYLE;
 
-      const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_HAVING_CHALLENGES] ?? null;
-      let feastsToList = {};
+      const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_HAVING_CHALLENGES] ?? null;
+      let additionsToList = {};
       if (typesNeeded != null) {
-        feastsToList = getPersonsFeastsHavingAllChallenges(typesNeeded, challengeDate);
+        additionsToList = getPersonsAdditionsHavingAllChallenges(typesNeeded, challengeDate);
       }
 
-      const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_FEAST_NOT_HAVING_CHALLENGES] ?? [];
-      const feastsToSkip = getPersonsFeastsHavingAnyChallenge(typesNotAllowed, challengeDate);
+      const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
+      const additionsToSkip = getPersonsAdditionsHavingAnyChallenge(typesNotAllowed, challengeDate);
 
       const subelements = getPersonsDataSubelements(personValue);
       for (let subelement of subelements) {
-        if (typesNeeded != null && !feastsToList[subelement]) {
+        if (typesNeeded != null && !additionsToList[subelement]) {
           continue;
         }
 
-        if (feastsToSkip[subelement]) {
+        if (additionsToSkip[subelement]) {
           continue;
         }
 
@@ -1781,27 +1781,27 @@ function resetFeastSelect() {
     }
 
     const sortedNames = getSortedArray(namesToSort);
-    let feasts = {};
-    for (let feastData of sortedNames) {
-      const key = feastData[0];
-      const value = feastData[1];
+    let additions = {};
+    for (let additionData of sortedNames) {
+      const key = additionData[0];
+      const value = additionData[1];
 
-      feasts[key] = value;
+      additions[key] = value;
     }
 
-    const feastsCount = Object.keys(feasts).length;
-    if (feastsCount > 1) {
-      addOptionToSelect(feastSelect, '', SELECT_NAME);
+    const additionsCount = Object.keys(additions).length;
+    if (additionsCount > 1) {
+      addOptionToSelect(additionSelect, '', SELECT_NAME);
     }
-    if (!feastIsNotEmpty) {
-      addOptionToSelect(feastSelect, personValue, getLanguageVariable(SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME));
+    if (!additionIsNotEmpty) {
+      addOptionToSelect(additionSelect, personValue, getLanguageVariable(SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME));
 
-      if (feastsCount == 0) {
-        feastSelect.style = INVISIBLE_STYLE;
+      if (additionsCount == 0) {
+        additionSelect.style = INVISIBLE_STYLE;
       }
     }
-    for (let i in feasts) {
-      addOptionToSelect(feastSelect, i, feasts[i]);
+    for (let i in additions) {
+      addOptionToSelect(additionSelect, i, additions[i]);
     }
 
     resetNewChallengeNotesValues();
@@ -1812,7 +1812,7 @@ function resetFeastSelect() {
 
 async function resetRequiredNotes() {
   const challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
-  const feastValue = document.getElementById(FEAST_SELECT_ELEMENT_ID).value;
+  const additionValue = document.getElementById(ADDITION_SELECT_ELEMENT_ID).value;
 
   let requiredNotesDiv = document.getElementById(REQUIRED_NOTES_DIV_ELEMENT_ID);
   requiredNotesDiv.style = INVISIBLE_STYLE;
@@ -1820,7 +1820,7 @@ async function resetRequiredNotes() {
   let requiredNotesDoneInput = document.getElementById(REQUIRED_NOTES_DONE_INPUT_ELEMENT_ID);
   requiredNotesDoneInput.value = '';
 
-  if (feastValue.length > 0) {
+  if (additionValue.length > 0) {
     lastEditedNoteItem = [];
     lastFormModeNoteCellElementIdSuffix = {};
 
@@ -1937,12 +1937,12 @@ function getSortedArray(object) {
 }
 
 async function addNewChallenge() {
-  const feastValue = document.getElementById(FEAST_SELECT_ELEMENT_ID).value;
+  const additionValue = document.getElementById(ADDITION_SELECT_ELEMENT_ID).value;
 
   const date = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
   const type = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
   const person = document.getElementById(PERSON_SELECT_ELEMENT_ID).value;
-  const feast = feastValue.substring(person.length + 1);
+  const addition = additionValue.substring(person.length + 1);
   const checklist = newChallengeChecklistValues;
   const notes = newChallengeNotesValues;
 
@@ -1957,7 +1957,7 @@ async function addNewChallenge() {
     date: date,
     person: person,
     type: type,
-    feast: feast,
+    addition: addition,
     checklist: checklist,
     notes: notes
   };
@@ -2034,7 +2034,7 @@ function recalculateFileData() {
       date: ch.date ?? '',
       person: ch.person ?? '',
       type: ch.type ?? '',
-      feast: ch.feast ?? '',
+      addition: ch.addition ?? '',
       checklist: checklist,
       notes: notes
     });
@@ -2322,8 +2322,8 @@ async function removeChallengeReset(rowId) {
 
     let date = challenge.date ?? '';
     let personUrl = (challenge.person ?? '');
-    let feast = challenge.feast ?? '';
-    let feastUrl = feast.length > 0 ? personUrl + PERSON_URL_FEAST_SEPARATOR + feast : '';
+    let addition = challenge.addiition ?? '';
+    let additionUrl = addition.length > 0 ? personUrl + PERSON_URL_ADDITION_SEPARATOR + addition : '';
     let type = challenge.type ?? '';
     let number = '';
 
@@ -2346,8 +2346,8 @@ async function removeChallengeReset(rowId) {
       .replace(/#number#/g, number.toString())
       .replace(/#person-url#/g, personUrl)
       .replace(/#person#/g, getPersonDataName(personUrl))
-      .replace(/#feast-url#/g, feastUrl.length > 0 ? feastUrl + ANCHOR_CHARACTER + feast : '')
-      .replace(/#feast#/g, feastUrl.length > 0 ? getPersonDataName(feastUrl) : '')
+      .replace(/#addition-url#/g, additionUrl.length > 0 ? additionUrl + ANCHOR_CHARACTER + addition : '')
+      .replace(/#addition#/g, additionUrl.length > 0 ? getPersonDataName(additionUrl) : '')
     ;
   }
 

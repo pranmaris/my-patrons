@@ -1,6 +1,6 @@
 <?php
 
-class PatronGalleryContentBlock extends ContentBlock implements ContentBlockInterface
+class GalleryContentBlock extends ContentBlock implements ContentBlockInterface
 {
     const IMAGES_KEY_NAME = 'images';
 
@@ -16,7 +16,7 @@ class PatronGalleryContentBlock extends ContentBlock implements ContentBlockInte
 
     public function getFullContent(string $translatedName): string
     {
-        $content = $this->getOriginalHtmlFileContent('content-blocks/patron-gallery-content-block.html');
+        $content = $this->getOriginalHtmlFileContent('content-blocks/gallery-content-block.html');
 
         $itemsContent = '';
         foreach ($this->fileData[self::IMAGES_KEY_NAME] ?? [] as $recordId => $recordData) {
@@ -32,7 +32,7 @@ class PatronGalleryContentBlock extends ContentBlock implements ContentBlockInte
 
     public function getRecordContent(string $recordId): string
     {
-        $item = $this->getOriginalHtmlFileContent('items/patron-gallery-item.html');
+        $item = $this->getOriginalHtmlFileContent('items/gallery-item.html');
 
         $recordData = $this->fileData[self::IMAGES_KEY_NAME][$recordId] ?? [];
         $variables = [

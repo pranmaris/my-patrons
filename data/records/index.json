@@ -4,6 +4,11 @@
         "la": "Categoriae",
         "pl": "Kategorie"
     },
+    "feasts": {
+        "en": "Feasts",
+        "la": "Festa",
+        "pl": "Święta"
+    },
     "god": {
         "en": "God",
         "la": "Deus",

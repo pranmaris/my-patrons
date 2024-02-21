@@ -28,6 +28,8 @@ class GenerateDateDataFileProcedure extends Procedure
         'other-memorial-days' => 'getMentionedMonthsWithDays',
     ];
 
+    private const FEASTS_ROOT_PATH = 'records/feasts';
+
     private $dstFileData;
     private $filter;
 
@@ -94,7 +96,10 @@ class GenerateDateDataFileProcedure extends Procedure
                 $mainNames[$language] = $values[0];
             }
             if (!is_null($feastId)) {
-                foreach ($data[self::PATRON_FEASTS_INDEX][$feastId][self::PATRON_NAMES_INDEX] ?? [] as $language => $values) {
+                $feastFilePath = self::FEASTS_ROOT_PATH . '/' . $this->getDataFileSuffix($feastId);
+                $feastData = $this->getOriginalJsonFileContentArray($feastFilePath);
+
+                foreach ($feastData[self::PATRON_NAMES_INDEX] ?? [] as $language => $values) {
                     $value = $values[0];
                     if (isset($mainNames[$language])) {
                         $value = $mainNames[$language] . ' (' . $value . ')';

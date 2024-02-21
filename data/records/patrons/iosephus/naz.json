@@ -48,16 +48,7 @@
   },
 
   "feasts": {
-    "fam": {
-      "names": {
-        "la": [
-          "Sancta Familia"
-        ],
-        "pl": [
-          "Święta Rodzina"
-        ]
-      },
-
+    "sfa": {
       "data-links": {
         "mr-2004-movable": ["3:#2"],
         "mr-1956-movable": ["3:#3"]

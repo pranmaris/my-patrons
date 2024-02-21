@@ -1,0 +1,22 @@
+{
+    "links": {
+        "records/god/fil": {
+            "arc": "ܝܫܘܥ",
+            "en": "Jesus Christ",
+            "la": "Iesus Christus",
+            "pl": "Jezus Chrystus"
+        },
+        "records/patrons/iosephus/naz": {
+            "arc": "ܡܪܝ ܝܘܣܦ",
+            "en": "Joseph",
+            "la": "Iosephus",
+            "pl": "Józef z Nazaretu"
+        },
+        "records/patrons/maria/naz": {
+            "arc": "ܡܪܝܡ",
+            "en": "Mary, mother of Jesus",
+            "la": "Maria Virgo",
+            "pl": "Maria z Nazaretu"
+        }
+    }
+}

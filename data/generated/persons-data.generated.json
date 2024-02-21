@@ -16,163 +16,165 @@
         "died": [
             "30",
             "33"
-        ]
-    },
-    "god/fil@asc": {
-        "names": {
-            "la": "Ascénsio Iesu Christi",
-            "pl": "Wniebowstąpienie Jezusa Chrystusa"
-        }
-    },
-    "god/fil@aso": {
-        "names": {
-            "la": "Octava Ascensionis Iesu Christi",
-            "pl": "Oktawa Wniebowstąpienia Jezusa Chrystusa"
-        }
-    },
-    "god/fil@asv": {
-        "names": {
-            "la": "Vigilia Ascensionis Iesu Christi",
-            "pl": "Wigilia Wniebowstąpienia Jezusa Chrystusa"
-        }
-    },
-    "god/fil@bap": {
-        "names": {
-            "la": "Baptismus Domini",
-            "pl": "Chrzest Pański"
-        }
-    },
-    "god/fil@ces": {
-        "names": {
-            "la": "Sanctissimum Corpore et Sanguis Christi",
-            "pl": "Najświętsze Ciało i Krew Chrystusa"
-        }
-    },
-    "god/fil@cin": {
-        "names": {
-            "en": "Ash Wednesday",
-            "la": "Dies Cinerum",
-            "pl": "Środa Popielcowa"
-        }
-    },
-    "god/fil@coo": {
-        "names": {
-            "la": "Octava Sacratissimi Cordis Iesu",
-            "pl": "Oktawa Najświętszego Serca Jezusa"
-        }
-    },
-    "god/fil@cor": {
-        "names": {
-            "la": "Sanctissimum Cor Iesu",
-            "pl": "Najświętsze Serce Jezusa"
-        }
-    },
-    "god/fil@cro": {
-        "names": {
-            "la": "Octava Sanctissimi Corporis Christi",
-            "pl": "Oktawa Najświętszego Ciała Chrystusa"
-        }
-    },
-    "god/fil@crp": {
-        "names": {
-            "la": "Sanctissimum Corpore Christi",
-            "pl": "Najświętsze Ciało Chrystusa"
-        }
-    },
-    "god/fil@d1a": {
-        "names": {
-            "la": "Dominica prima Adventus",
-            "pl": "Pierwsza Niedziela Adwentu"
-        }
-    },
-    "god/fil@d40": {
-        "names": {
-            "la": "Dominica prima in Quadragesima",
-            "pl": "Pierwsza Niedziela Wielkiego Postu"
-        }
-    },
-    "god/fil@d70": {
-        "names": {
-            "la": "Dominica Septuagesimæ",
-            "pl": "Niedziela Siedemdziesiątnicy"
-        }
-    },
-    "god/fil@dal": {
-        "names": {
-            "la": "Dominica in Albis",
-            "pl": "Niedziela Biała"
-        }
-    },
-    "god/fil@dpl": {
-        "names": {
-            "la": "Dominica Palmarum",
-            "pl": "Niedziela Palmowa"
-        }
-    },
-    "god/fil@dpp": {
-        "names": {
-            "la": "Dominica in Palmis de Passione Domini",
-            "pl": "Niedziela Palmowa Męki Pańskiej"
-        }
-    },
-    "god/fil@dps": {
-        "names": {
-            "la": "Dominica Passionis",
-            "pl": "Niedziela Męki Pańskiej"
-        }
-    },
-    "god/fil@fam": {
-        "names": {
-            "la": "Sancta Familia",
-            "pl": "Święta Rodzina"
-        }
-    },
-    "god/fil@fe5": {
-        "names": {
-            "la": "Feria quinta Hebdomadae sanctae",
-            "pl": "Wielki Czwartek"
-        }
-    },
-    "god/fil@fe6": {
-        "names": {
-            "la": "feria sexta in Passione Domini",
-            "pl": "Wielki Piątek"
-        }
-    },
-    "god/fil@lmi": {
-        "names": {
-            "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
-            "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
-        }
-    },
-    "god/fil@nom": {
-        "names": {
-            "la": "Sanctissimum Nomen Iesus",
-            "pl": "Najświętsze Imię Jezus"
-        }
-    },
-    "god/fil@res": {
-        "names": {
-            "la": "Resurrectio Iesu Christi",
-            "pl": "Zmartwychwstanie Jezusa Chrystusa"
-        }
-    },
-    "god/fil@rex": {
-        "names": {
-            "la": "Iesus Christus Rex",
-            "pl": "Jezus Chrystus Król"
-        }
-    },
-    "god/fil@sab": {
-        "names": {
-            "la": "Sabbato sancto",
-            "pl": "Wielka Sobota"
-        }
-    },
-    "god/fil@ure": {
-        "names": {
-            "la": "Iesus Christus Universorum Rex",
-            "pl": "Jezus Chrystus Król Wszechświata"
+        ],
+        "feasts": {
+            "feasts/d1a": {
+                "names": {
+                    "la": "Dominica prima Adventus",
+                    "pl": "Pierwsza Niedziela Adwentu"
+                }
+            },
+            "feasts/sni": {
+                "names": {
+                    "la": "Sanctissimum Nomen Iesus",
+                    "pl": "Najświętsze Imię Jezus"
+                }
+            },
+            "feasts/sfa": {
+                "names": {
+                    "la": "Sancta Familia",
+                    "pl": "Święta Rodzina"
+                }
+            },
+            "feasts/bad": {
+                "names": {
+                    "la": "Baptismus Domini",
+                    "pl": "Chrzest Pański"
+                }
+            },
+            "feasts/d70": {
+                "names": {
+                    "la": "Dominica Septuagesimæ",
+                    "pl": "Niedziela Siedemdziesiątnicy"
+                }
+            },
+            "feasts/dci": {
+                "names": {
+                    "en": "Ash Wednesday",
+                    "la": "Dies Cinerum",
+                    "pl": "Środa Popielcowa"
+                }
+            },
+            "feasts/d1q": {
+                "names": {
+                    "la": "Dominica prima in Quadragesima",
+                    "pl": "Pierwsza Niedziela Wielkiego Postu"
+                }
+            },
+            "feasts/dps": {
+                "names": {
+                    "la": "Dominica Passionis",
+                    "pl": "Niedziela Męki Pańskiej"
+                }
+            },
+            "feasts/dpl": {
+                "names": {
+                    "la": "Dominica Palmarum",
+                    "pl": "Niedziela Palmowa"
+                }
+            },
+            "feasts/dpp": {
+                "names": {
+                    "la": "Dominica in Palmis de Passione Domini",
+                    "pl": "Niedziela Palmowa Męki Pańskiej"
+                }
+            },
+            "feasts/f5h": {
+                "names": {
+                    "la": "Feria quinta Hebdomadae sanctae",
+                    "pl": "Wielki Czwartek"
+                }
+            },
+            "feasts/f6p": {
+                "names": {
+                    "la": "feria sexta in Passione Domini",
+                    "pl": "Wielki Piątek"
+                }
+            },
+            "feasts/sas": {
+                "names": {
+                    "la": "Sabbato sancto",
+                    "pl": "Wielka Sobota"
+                }
+            },
+            "feasts/res": {
+                "names": {
+                    "la": "Resurrectio Iesu Christi",
+                    "pl": "Zmartwychwstanie Jezusa Chrystusa"
+                }
+            },
+            "feasts/dia": {
+                "names": {
+                    "la": "Dominica in Albis",
+                    "pl": "Niedziela Biała"
+                }
+            },
+            "feasts/asv": {
+                "names": {
+                    "la": "Vigilia Ascensionis Iesu Christi",
+                    "pl": "Wigilia Wniebowstąpienia Jezusa Chrystusa"
+                }
+            },
+            "feasts/asc": {
+                "names": {
+                    "la": "Ascénsio Iesu Christi",
+                    "pl": "Wniebowstąpienie Jezusa Chrystusa"
+                }
+            },
+            "feasts/aso": {
+                "names": {
+                    "la": "Octava Ascensionis Iesu Christi",
+                    "pl": "Oktawa Wniebowstąpienia Jezusa Chrystusa"
+                }
+            },
+            "feasts/crp": {
+                "names": {
+                    "la": "Sanctissimum Corpore Christi",
+                    "pl": "Najświętsze Ciało Chrystusa"
+                }
+            },
+            "feasts/ces": {
+                "names": {
+                    "la": "Sanctissimum Corpore et Sanguis Christi",
+                    "pl": "Najświętsze Ciało i Krew Chrystusa"
+                }
+            },
+            "feasts/cro": {
+                "names": {
+                    "la": "Octava Sanctissimi Corporis Christi",
+                    "pl": "Oktawa Najświętszego Ciała Chrystusa"
+                }
+            },
+            "feasts/sci": {
+                "names": {
+                    "la": "Sanctissimum Cor Iesu",
+                    "pl": "Najświętsze Serce Jezusa"
+                }
+            },
+            "feasts/sco": {
+                "names": {
+                    "la": "Octava Sacratissimi Cordis Iesu",
+                    "pl": "Oktawa Najświętszego Serca Jezusa"
+                }
+            },
+            "feasts/rex": {
+                "names": {
+                    "la": "Iesus Christus Rex",
+                    "pl": "Jezus Chrystus Król"
+                }
+            },
+            "feasts/ure": {
+                "names": {
+                    "la": "Iesus Christus Universorum Rex",
+                    "pl": "Jezus Chrystus Król Wszechświata"
+                }
+            },
+            "feasts/ril": {
+                "names": {
+                    "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
+                    "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+                }
+            }
         }
     },
     "god/pat": {
@@ -183,7 +185,8 @@
         },
         "died": [
             "-"
-        ]
+        ],
+        "feasts": []
     },
     "god/spi": {
         "names": {
@@ -193,24 +196,26 @@
         },
         "died": [
             "-"
-        ]
-    },
-    "god/spi@pen": {
-        "names": {
-            "la": "Dies Pentecostes",
-            "pl": "Zesłanie Ducha Świętego"
-        }
-    },
-    "god/spi@peo": {
-        "names": {
-            "la": "Octava Pentecostes",
-            "pl": "Oktawa Zesłania Ducha Świętego"
-        }
-    },
-    "god/spi@pev": {
-        "names": {
-            "la": "Vigilia Pentecostes",
-            "pl": "Wigilia Zesłania Ducha Świętego"
+        ],
+        "feasts": {
+            "feasts/pev": {
+                "names": {
+                    "la": "Vigilia Pentecostes",
+                    "pl": "Wigilia Zesłania Ducha Świętego"
+                }
+            },
+            "feasts/pen": {
+                "names": {
+                    "la": "Dies Pentecostes",
+                    "pl": "Zesłanie Ducha Świętego"
+                }
+            },
+            "feasts/peo": {
+                "names": {
+                    "la": "Octava Pentecostes",
+                    "pl": "Oktawa Zesłania Ducha Świętego"
+                }
+            }
         }
     },
     "god/tri": {
@@ -221,17 +226,19 @@
         },
         "died": [
             "-"
-        ]
-    },
-    "god/tri@mis": {
-        "names": {
-            "pl": "Miłosierdzie Boże"
-        }
-    },
-    "god/tri@tri": {
-        "names": {
-            "la": "Sollemnitas sacratissimae et indivíduae Trinitatis",
-            "pl": "Uroczystość Trójcy Przenajświętszej"
+        ],
+        "feasts": {
+            "feasts/mis": {
+                "names": {
+                    "pl": "Miłosierdzie Boże"
+                }
+            },
+            "feasts/tri": {
+                "names": {
+                    "la": "Sollemnitas sacratissimae et indivíduae Trinitatis",
+                    "pl": "Uroczystość Trójcy Przenajświętszej"
+                }
+            }
         }
     },
     "me": {
@@ -265,7 +272,8 @@
         },
         "died": [
             "1280-11-15"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/alphonsus": {
         "names": {
@@ -284,7 +292,8 @@
         },
         "died": [
             "1787-08-01"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/andreas": {
         "names": {
@@ -301,7 +310,8 @@
         },
         "died": [
             "1657-05-16"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/antonius": {
         "names": {
@@ -320,7 +330,8 @@
         },
         "died": [
             "1231-06-13"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/augustinus": {
         "names": {
@@ -337,7 +348,8 @@
         },
         "died": [
             "430-08-28"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/david": {
         "names": {
@@ -356,7 +368,8 @@
         },
         "died": [
             "1918-10-18"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/deusdedit": {
         "names": {
@@ -373,7 +386,8 @@
         },
         "died": [
             "618-11-08"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/dominicus": {
         "names": {
@@ -387,7 +401,8 @@
         },
         "died": [
             "1221-08-06"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/eusebius": {
         "names": {
@@ -404,7 +419,8 @@
         },
         "died": [
             "371-08-01"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/hormisdas": {
         "names": {
@@ -418,7 +434,8 @@
         },
         "died": [
             "523-08-06"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/ioannes": {
         "names": {
@@ -435,12 +452,14 @@
         "died": [
             "~28",
             "~32"
-        ]
-    },
-    "patrons/ioannes/bap@lmi": {
-        "names": {
-            "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
-            "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+        ],
+        "feasts": {
+            "feasts/ril": {
+                "names": {
+                    "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
+                    "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+                }
+            }
         }
     },
     "patrons/ioannes/chr": {
@@ -449,7 +468,8 @@
         },
         "died": [
             "407-09-14"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/ioannes/eva": {
         "names": {
@@ -459,12 +479,14 @@
         },
         "died": [
             "~100"
-        ]
-    },
-    "patrons/ioannes/eva@lmi": {
-        "names": {
-            "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
-            "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+        ],
+        "feasts": {
+            "feasts/ril": {
+                "names": {
+                    "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
+                    "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+                }
+            }
         }
     },
     "patrons/ioannes/via": {
@@ -476,7 +498,8 @@
         },
         "died": [
             "1859-08-04"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/iosephus": {
         "names": {
@@ -495,12 +518,14 @@
         },
         "died": [
             "~20"
-        ]
-    },
-    "patrons/iosephus/naz@fam": {
-        "names": {
-            "la": "Sancta Familia",
-            "pl": "Święta Rodzina"
+        ],
+        "feasts": {
+            "feasts/sfa": {
+                "names": {
+                    "la": "Sancta Familia",
+                    "pl": "Święta Rodzina"
+                }
+            }
         }
     },
     "patrons/laurentius": {
@@ -515,7 +540,8 @@
         },
         "died": [
             "258-08-10"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/lydia": {
         "names": {
@@ -532,7 +558,8 @@
         },
         "died": [
             "<100"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/magnus": {
         "names": {
@@ -546,7 +573,8 @@
         },
         "died": [
             "772-09-06"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/margarita": {
         "names": {
@@ -560,7 +588,8 @@
         },
         "died": [
             "1588-08-30"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/maria": {
         "names": {
@@ -581,51 +610,53 @@
         },
         "died": [
             ">30"
-        ]
-    },
-    "patrons/maria/naz@7do": {
-        "names": {
-            "la": "Septem Dolores beatissimae Vírginis Mariae",
-            "pl": "Siedem Boleści Najświętszej Maryi Panny"
-        }
-    },
-    "patrons/maria/naz@ass": {
-        "names": {
-            "en": "Assumption of Mary",
-            "la": "Assumptio Beatae Mariae Virginis",
-            "pl": "Wniebowzięcie Najświętszej Maryi Panny"
-        }
-    },
-    "patrons/maria/naz@cor": {
-        "names": {
-            "la": "Immaculatum Cor beate Mariae Virginis",
-            "pl": "Niepokalane Serce Najświętszej Maryi Panny"
-        }
-    },
-    "patrons/maria/naz@fam": {
-        "names": {
-            "la": "Sancta Familia",
-            "pl": "Święta Rodzina"
-        }
-    },
-    "patrons/maria/naz@gen": {
-        "names": {
-            "en": "Maria, Holy Mother of God",
-            "la": "Maria, Sancta Dei Genetrix",
-            "pl": "Najświętsza Maryja Panna Święta Boża Rodzicielka"
-        }
-    },
-    "patrons/maria/naz@lmi": {
-        "names": {
-            "la": "Romae Litaniae minores ad sanctam Mariam Majorem",
-            "pl": "Rzymska mała procesja błagalna do świętej Maryi Większej"
-        }
-    },
-    "patrons/maria/naz@mat": {
-        "names": {
-            "en": "The Motherhood of the Blessed Virgin Mary",
-            "la": "Maternitatem beatae Mariae Virginis",
-            "pl": "Macierzyństwo błogosławionej Maryi Dziewicy"
+        ],
+        "feasts": {
+            "feasts/gen": {
+                "names": {
+                    "en": "Maria, Holy Mother of God",
+                    "la": "Maria, Sancta Dei Genetrix",
+                    "pl": "Najświętsza Maryja Panna Święta Boża Rodzicielka"
+                }
+            },
+            "feasts/mat": {
+                "names": {
+                    "en": "The Motherhood of the Blessed Virgin Mary",
+                    "la": "Maternitatem beatae Mariae Virginis",
+                    "pl": "Macierzyństwo błogosławionej Maryi Dziewicy"
+                }
+            },
+            "feasts/ass": {
+                "names": {
+                    "en": "Assumption of Mary",
+                    "la": "Assumptio Beatae Mariae Virginis",
+                    "pl": "Wniebowzięcie Najświętszej Maryi Panny"
+                }
+            },
+            "feasts/sfa": {
+                "names": {
+                    "la": "Sancta Familia",
+                    "pl": "Święta Rodzina"
+                }
+            },
+            "feasts/7dm": {
+                "names": {
+                    "la": "Septem Dolores beatissimae Vírginis Mariae",
+                    "pl": "Siedem Boleści Najświętszej Maryi Panny"
+                }
+            },
+            "feasts/rmm": {
+                "names": {
+                    "la": "Romae Litaniae minores ad sanctam Mariam Majorem",
+                    "pl": "Rzymska mała procesja błagalna do świętej Maryi Większej"
+                }
+            },
+            "feasts/ico": {
+                "names": {
+                    "la": "Immaculatum Cor beate Mariae Virginis",
+                    "pl": "Niepokalane Serce Najświętszej Maryi Panny"
+                }
+            }
         }
     },
     "patrons/maria/san": {
@@ -634,7 +665,8 @@
         },
         "died": [
             "1942-08-29"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/oswaldus": {
         "names": {
@@ -648,7 +680,8 @@
         },
         "died": [
             "642-08-05"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/petrus": {
         "names": {
@@ -666,18 +699,20 @@
         "died": [
             "64",
             "67"
-        ]
-    },
-    "patrons/petrus/apo@lma": {
-        "names": {
-            "la": "Romae Litaníae majores ad sanctum Petrum",
-            "pl": "Rzymska wielka procesja błagalna do świętego Piotra"
-        }
-    },
-    "patrons/petrus/apo@lmi": {
-        "names": {
-            "la": "Romae Litaníae minores ad sanctum Petrum",
-            "pl": "Rzymska mała procesja błagalna do świętego Piotra"
+        ],
+        "feasts": {
+            "feasts/r1p": {
+                "names": {
+                    "la": "Romae Litaníae majores ad sanctum Petrum",
+                    "pl": "Rzymska wielka procesja błagalna do świętego Piotra"
+                }
+            },
+            "feasts/r2p": {
+                "names": {
+                    "la": "Romae Litaníae minores ad sanctum Petrum",
+                    "pl": "Rzymska mała procesja błagalna do świętego Piotra"
+                }
+            }
         }
     },
     "patrons/rochus": {
@@ -695,7 +730,8 @@
             "~1377",
             "1376-08-15",
             "~1378"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/rosa": {
         "names": {
@@ -709,7 +745,8 @@
         },
         "died": [
             "1617-08-24"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/rosalia": {
         "names": {
@@ -725,7 +762,8 @@
             "~1165",
             "~1170",
             "1170-09-04"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/teresia": {
         "names": {
@@ -739,7 +777,8 @@
         },
         "died": [
             "1942-08-09"
-        ]
+        ],
+        "feasts": []
     },
     "patrons/xystus": {
         "names": {
@@ -753,6 +792,7 @@
         },
         "died": [
             "258-08-06"
-        ]
+        ],
+        "feasts": []
     }
 }

@@ -63,31 +63,12 @@
   },
 
   "feasts": {
-    "lma": {
-      "names": {
-        "la": [
-          "Romae Litaníae majores ad sanctum Petrum"
-        ],
-        "pl": [
-          "Rzymska wielka procesja błagalna do świętego Piotra"
-        ]
-      },
-
+    "r1p": {
       "data-links": {
         "mr-1956-movable": ["1:#11"]
       }
     },
-
-    "lmi": {
-      "names": {
-        "la": [
-          "Romae Litaníae minores ad sanctum Petrum"
-        ],
-        "pl": [
-          "Rzymska mała procesja błagalna do świętego Piotra"
-        ]
-      },
-
+    "r2p": {
       "data-links": {
         "mr-1956-movable": ["2:#15"]
       }

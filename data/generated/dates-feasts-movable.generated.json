@@ -1,6 +1,6 @@
 {
     "getBaptismOfJesusFeastDateValidToday|0": {
-        "records/god/fil#bap": {
+        "records/god/fil#bad": {
             "name": {
                 "la": "Iesus Christus (Baptismus Domini)",
                 "pl": "Jezus Chrystus (Chrzest Pański)"
@@ -34,7 +34,7 @@
         }
     },
     "getHolyFamilyFeastDateValidBeforeMr1960|0": {
-        "records/god/fil#fam": {
+        "records/god/fil#sfa": {
             "name": {
                 "la": "Iesus Christus (Sancta Familia)",
                 "pl": "Jezus Chrystus (Święta Rodzina)"
@@ -43,7 +43,7 @@
                 "mr-1956-movable": "#3"
             }
         },
-        "records/patrons/maria/naz#fam": {
+        "records/patrons/maria/naz#sfa": {
             "name": {
                 "la": "Maria Virgo (Sancta Familia)",
                 "pl": "Maria z Nazaretu (Święta Rodzina)"
@@ -52,7 +52,7 @@
                 "mr-1956-movable": "#3"
             }
         },
-        "records/patrons/iosephus/naz#fam": {
+        "records/patrons/iosephus/naz#sfa": {
             "name": {
                 "la": "Iosephus (Sancta Familia)",
                 "pl": "Józef z Nazaretu (Święta Rodzina)"
@@ -63,7 +63,7 @@
         }
     },
     "getHolyFamilyFeastDateValidToday|0": {
-        "records/god/fil#fam": {
+        "records/god/fil#sfa": {
             "name": {
                 "la": "Iesus Christus (Sancta Familia)",
                 "pl": "Jezus Chrystus (Święta Rodzina)"
@@ -72,7 +72,7 @@
                 "mr-2004-movable": "#2"
             }
         },
-        "records/patrons/maria/naz#fam": {
+        "records/patrons/maria/naz#sfa": {
             "name": {
                 "la": "Maria Virgo (Sancta Familia)",
                 "pl": "Maria z Nazaretu (Święta Rodzina)"
@@ -81,7 +81,7 @@
                 "mr-2004-movable": "#2"
             }
         },
-        "records/patrons/iosephus/naz#fam": {
+        "records/patrons/iosephus/naz#sfa": {
             "name": {
                 "la": "Iosephus (Sancta Familia)",
                 "pl": "Józef z Nazaretu (Święta Rodzina)"
@@ -103,7 +103,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|-1": {
-        "records/god/fil#sab": {
+        "records/god/fil#sas": {
             "name": {
                 "la": "Iesus Christus (Sabbato sancto)",
                 "pl": "Jezus Chrystus (Wielka Sobota)"
@@ -125,7 +125,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|-2": {
-        "records/god/fil#fe6": {
+        "records/god/fil#f6p": {
             "name": {
                 "la": "Iesus Christus (feria sexta in Passione Domini)",
                 "pl": "Jezus Chrystus (Wielki Piątek)"
@@ -136,7 +136,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|-3": {
-        "records/god/fil#fe5": {
+        "records/god/fil#f5h": {
             "name": {
                 "la": "Iesus Christus (Feria quinta Hebdomadae sanctae)",
                 "pl": "Jezus Chrystus (Wielki Czwartek)"
@@ -148,7 +148,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|-42": {
-        "records/god/fil#d40": {
+        "records/god/fil#d1q": {
             "name": {
                 "la": "Iesus Christus (Dominica prima in Quadragesima)",
                 "pl": "Jezus Chrystus (Pierwsza Niedziela Wielkiego Postu)"
@@ -159,7 +159,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|-46": {
-        "records/god/fil#cin": {
+        "records/god/fil#dci": {
             "name": {
                 "en": "Jesus Christ (Ash Wednesday)",
                 "la": "Iesus Christus (Dies Cinerum)",
@@ -203,7 +203,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|-9": {
-        "records/patrons/maria/naz#7do": {
+        "records/patrons/maria/naz#7dm": {
             "name": {
                 "la": "Maria Virgo (Septem Dolores beatissimae Vírginis Mariae)",
                 "pl": "Maria z Nazaretu (Siedem Boleści Najświętszej Maryi Panny)"
@@ -226,7 +226,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|36": {
-        "records/patrons/maria/naz#lmi": {
+        "records/patrons/maria/naz#rmm": {
             "name": {
                 "la": "Maria Virgo (Romae Litaniae minores ad sanctam Mariam Majorem)",
                 "pl": "Maria z Nazaretu (Rzymska mała procesja błagalna do świętej Maryi Większej)"
@@ -237,7 +237,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|37": {
-        "records/god/fil#lmi": {
+        "records/god/fil#ril": {
             "name": {
                 "la": "Iesus Christus (Romae Litaniae minores ad sanctum Joannem in Laterano)",
                 "pl": "Jezus Chrystus (Rzymska mała procesja błagalna do świętego Jana na Lateranie)"
@@ -246,7 +246,7 @@
                 "mr-1956-movable": "#14"
             }
         },
-        "records/patrons/ioannes/bap#lmi": {
+        "records/patrons/ioannes/bap#ril": {
             "name": {
                 "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
                 "pl": "Jan Chrzciciel [draft] (Rzymska mała procesja błagalna do świętego Jana na Lateranie)"
@@ -255,7 +255,7 @@
                 "mr-1956-movable": "#14"
             }
         },
-        "records/patrons/ioannes/eva#lmi": {
+        "records/patrons/ioannes/eva#ril": {
             "name": {
                 "la": "Ioannes Evangelista (Romae Litaniae minores ad sanctum Joannem in Laterano)",
                 "pl": "Jan Ewangelista (Rzymska mała procesja błagalna do świętego Jana na Lateranie)"
@@ -275,7 +275,7 @@
                 "mr-1956-movable": "#15"
             }
         },
-        "records/patrons/petrus/apo#lmi": {
+        "records/patrons/petrus/apo#r2p": {
             "name": {
                 "la": "Petrus (Romae Litaníae minores ad sanctum Petrum)",
                 "pl": "Piotr Apostoł (Rzymska mała procesja błagalna do świętego Piotra)"
@@ -406,7 +406,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|68": {
-        "records/god/fil#cor": {
+        "records/god/fil#sci": {
             "name": {
                 "la": "Iesus Christus (Sanctissimum Cor Iesu)",
                 "pl": "Jezus Chrystus (Najświętsze Serce Jezusa)"
@@ -418,7 +418,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|69": {
-        "records/patrons/maria/naz#cor": {
+        "records/patrons/maria/naz#ico": {
             "name": {
                 "la": "Maria Virgo (Immaculatum Cor beate Mariae Virginis)",
                 "pl": "Maria z Nazaretu (Niepokalane Serce Najświętszej Maryi Panny)"
@@ -434,10 +434,10 @@
                 "pl": "Trójca Przenajświętsza (Miłosierdzie Boże)"
             },
             "sources": {
-                "other-feasts": "#TRMIS"
+                "other-feasts": "#MIS"
             }
         },
-        "records/god/fil#dal": {
+        "records/god/fil#dia": {
             "name": {
                 "la": "Iesus Christus (Dominica in Albis)",
                 "pl": "Jezus Chrystus (Niedziela Biała)"
@@ -448,7 +448,7 @@
         }
     },
     "getResurrectionFeastDateValidToday|75": {
-        "records/god/fil#coo": {
+        "records/god/fil#sco": {
             "name": {
                 "la": "Iesus Christus (Octava Sacratissimi Cordis Iesu)",
                 "pl": "Jezus Chrystus (Oktawa Najświętszego Serca Jezusa)"
@@ -459,7 +459,7 @@
         }
     },
     "getTheGreaterProcessionToSaintPeterDateValidBeforeMr1960|0": {
-        "records/patrons/petrus/apo#lma": {
+        "records/patrons/petrus/apo#r1p": {
             "name": {
                 "la": "Petrus (Romae Litaníae majores ad sanctum Petrum)",
                 "pl": "Piotr Apostoł (Rzymska wielka procesja błagalna do świętego Piotra)"
@@ -470,7 +470,7 @@
         }
     },
     "getTheMostHolyNameOfJesusFeastDateValidBeforeMr2001|0": {
-        "records/god/fil#nom": {
+        "records/god/fil#sni": {
             "name": {
                 "la": "Iesus Christus (Sanctissimum Nomen Iesus)",
                 "pl": "Jezus Chrystus (Najświętsze Imię Jezus)"

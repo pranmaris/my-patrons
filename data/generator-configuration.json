@@ -13,6 +13,11 @@
         "params": ["/records/patrons", "names"]
     },
     {
+        "class": "GenerateIndexFileForAllSubDirectoriesDataFilesProcedure",
+        "params": ["/records/feasts", "names"]
+    },
+
+    {
         "class": "GenerateDataLinkFilesProcedure",
         "params": [["/records/god", "/records/patrons"], "data-links"]
     },
@@ -158,5 +163,10 @@
     {
         "class": "GeneratePersonsDataProcedure",
         "params": [["me", "/records/god", "/records/patrons"], "/generated/persons-data"]
+    },
+
+    {
+        "class": "GenerateLinksFromPersonsDataProcedure",
+        "params": [["/records/feasts"], "links"]
     }
 ]

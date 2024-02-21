@@ -1,6 +1,6 @@
 <?php
 
-class FeastsContentBlock extends ContentBlock implements ContentBlockInterface
+class OtherFeastsContentBlock extends ContentBlock implements ContentBlockInterface
 {
     private const BASE_INDEX = 'base';
     private const MOVE_INDEX = 'move';
@@ -13,7 +13,7 @@ class FeastsContentBlock extends ContentBlock implements ContentBlockInterface
 
     public function prepare(string $path): ContentBlock
     {
-        $recordContent = $this->getOriginalHtmlFileContent('items/feast-item.html');
+        $recordContent = $this->getOriginalHtmlFileContent('items/other-feast-item.html');
 
         $this->prepareConsolidatedDataFilesArray($path);
 
@@ -32,7 +32,7 @@ class FeastsContentBlock extends ContentBlock implements ContentBlockInterface
 
     public function getFullContent(string $translatedName): string
     {
-        $contentBlockContent = $this->getOriginalHtmlFileContent('content-blocks/feasts-content-block.html');
+        $contentBlockContent = $this->getOriginalHtmlFileContent('content-blocks/other-feasts-content-block.html');
         $mainFileData = $this->getMainFileData();
 
         $recordsContent = '';

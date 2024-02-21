@@ -36,16 +36,7 @@
   },
 
   "feasts": {
-    "lmi": {
-      "names": {
-        "la": [
-          "Romae Litaniae minores ad sanctum Joannem in Laterano"
-        ],
-        "pl": [
-          "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
-        ]
-      },
-
+    "ril": {
       "data-links": {
         "mr-1956-movable": ["2:#14"]
       }

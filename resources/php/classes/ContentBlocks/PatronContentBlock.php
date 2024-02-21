@@ -12,8 +12,10 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
         self::NAMES_INDEX,
     ];
 
+    private const FEASTS_ROOT_PATH = 'records/feasts';
+
     private $dataLinksContentBlock;
-    private $patronGalleryContentBlock;
+    private $galleryContentBlock;
     private $categoriesContentBlock;
     private $indexedNamesListContentBlock;
 
@@ -24,7 +26,7 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
     public function __construct()
     {
         $this->dataLinksContentBlock = new DataLinksContentBlock();
-        $this->patronGalleryContentBlock = new PatronGalleryContentBlock();
+        $this->galleryContentBlock = new GalleryContentBlock();
         $this->categoriesContentBlock = new CategoriesContentBlock();
         $this->indexedNamesListContentBlock = new IndexedNamesListContentBlock();
 
@@ -86,7 +88,6 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
     {
         $mainFileData = $this->getMainFileData();
         $feastRecordContent = $this->feastRecordContent;
-        $feastRow = $mainFileData[self::FEASTS_INDEX][$recordId] ?? [];
 
         $variables = [];
         $variables['record-id'] = $recordId;
@@ -109,7 +110,9 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
         }
 
         foreach ($data[self::FEASTS_INDEX] ?? [] as $recordId => $recordData) {
-            foreach ($recordData as $key => $values) {
+            $feastFileData = $this->getFeastFileData($recordId);
+
+            foreach ($feastFileData as $key => $values) {
                 if (in_array($key, self::FEASTS_TRANSLATED_INDEXES)) {
                     $preparedKey = $this->getPreparedTranslationRecordKey($key, $recordId);
                     $result[$preparedKey] = $values;
@@ -152,10 +155,17 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
         return 'record-' . $recordId . '-' . $key;
     }
 
+    private function getFeastFileData(string $recordId): array
+    {
+        $feastFilePath = self::FEASTS_ROOT_PATH . '/' . $this->getDataFileSuffix($recordId);
+
+        return $this->getOriginalJsonFileContentArray($feastFilePath);
+    }
+
     private function getGalleryContent(): string
     {
         return $this
-            ->patronGalleryContentBlock
+            ->galleryContentBlock
             ->prepare($this->path)
             ->getFullContent('')
         ;

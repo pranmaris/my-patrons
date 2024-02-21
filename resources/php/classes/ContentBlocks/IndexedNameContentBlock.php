@@ -30,6 +30,8 @@ class IndexedNameContentBlock extends ContentBlock implements ContentBlockInterf
     public function getFullContent(string $translatedName): string
     {
         $mainContent = $this->getOriginalHtmlFileContent('content-blocks/indexed-name-content-block.html');
+        $recordContent = $this->getOriginalHtmlFileContent('items/indexed-name-links-list-item.html');
+
         $path = $this->path;
         $fileData = $this->fileData;
 
@@ -41,7 +43,7 @@ class IndexedNameContentBlock extends ContentBlock implements ContentBlockInterf
             'name' => $translatedName,
             'language-codes' => $this->getSortedLanguagesCodesList($fileData),
             'translations' => $this->getTranslationsContent($fileData, $path),
-            'links' => $this->getLinksContent($fileData),
+            'links' => $this->getLinksContent($fileData[self::FIELD_LINKS] ?? [], $recordContent),
         ];
 
         return $this->getReplacedContent($mainContent, $variables);
@@ -58,46 +60,6 @@ class IndexedNameContentBlock extends ContentBlock implements ContentBlockInterf
 
         $result = array_keys($namesData);
         sort($result);
-
-        return $result;
-    }
-
-    private function getConvertedLinkUrl(string $url): string
-    {
-        return str_replace('/', '-', $url);
-    }
-
-    private function getLinksContent(array $fileData): string
-    {
-        $result = '';
-
-        $data = $fileData[self::FIELD_LINKS] ?? [];
-        $recordContent = $this->getOriginalHtmlFileContent('items/indexed-name-links-list-item.html');
-
-        $linksTranslations = [];
-        foreach ($data as $url => $names) {
-            $key = $this->getConvertedLinkUrl($url);
-            $linksTranslations[$key] = $names;
-        }
-        $language = $this->getLanguage();
-        $linksTextVariables = $this->getTranslatedVariablesForLangData($language, $linksTranslations);
-
-        $dataToSort = [];
-        foreach ($data as $url => $names) {
-            $variable = self::VARIABLE_NAME_SIGN . $this->getConvertedLinkUrl($url) . self::VARIABLE_NAME_SIGN;
-            $translatedName = $this->getReplacedContent($variable, $linksTextVariables, true);
-            $translatedNameWithoutTags = $this->stripTags($translatedName);
-            $dataToSort[$translatedNameWithoutTags] = [$url, $translatedName];
-        }
-
-        $sortedData = $this->getNaturalSortedListByKeys($dataToSort);
-        foreach ($sortedData as $key => list($url, $translatedName)) {
-            $variables = [
-                'href' => $this->getRecordIdPathWithNameExtension('/' . $url, $translatedName),
-                'name' => $translatedName,
-            ];
-            $result .= $this->getReplacedContent($recordContent, $variables);
-        }
 
         return $result;
     }

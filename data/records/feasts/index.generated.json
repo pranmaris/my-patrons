@@ -1,0 +1,161 @@
+{
+    "7dm": {
+        "la": "Septem Dolores beatissimae Vírginis Mariae",
+        "pl": "Siedem Boleści Najświętszej Maryi Panny"
+    },
+    "asc": {
+        "la": "Ascénsio Iesu Christi",
+        "pl": "Wniebowstąpienie Jezusa Chrystusa"
+    },
+    "aso": {
+        "la": "Octava Ascensionis Iesu Christi",
+        "pl": "Oktawa Wniebowstąpienia Jezusa Chrystusa"
+    },
+    "ass": {
+        "en": "Assumption of Mary",
+        "la": "Assumptio Beatae Mariae Virginis",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny"
+    },
+    "asv": {
+        "la": "Vigilia Ascensionis Iesu Christi",
+        "pl": "Wigilia Wniebowstąpienia Jezusa Chrystusa"
+    },
+    "bad": {
+        "la": "Baptismus Domini",
+        "pl": "Chrzest Pański"
+    },
+    "ces": {
+        "la": "Sanctissimum Corpore et Sanguis Christi",
+        "pl": "Najświętsze Ciało i Krew Chrystusa"
+    },
+    "cro": {
+        "la": "Octava Sanctissimi Corporis Christi",
+        "pl": "Oktawa Najświętszego Ciała Chrystusa"
+    },
+    "crp": {
+        "la": "Sanctissimum Corpore Christi",
+        "pl": "Najświętsze Ciało Chrystusa"
+    },
+    "d1a": {
+        "la": "Dominica prima Adventus",
+        "pl": "Pierwsza Niedziela Adwentu"
+    },
+    "d1q": {
+        "la": "Dominica prima in Quadragesima",
+        "pl": "Pierwsza Niedziela Wielkiego Postu"
+    },
+    "d70": {
+        "la": "Dominica Septuagesimæ",
+        "pl": "Niedziela Siedemdziesiątnicy"
+    },
+    "dci": {
+        "en": "Ash Wednesday",
+        "la": "Dies Cinerum",
+        "pl": "Środa Popielcowa"
+    },
+    "dia": {
+        "la": "Dominica in Albis",
+        "pl": "Niedziela Biała"
+    },
+    "dpl": {
+        "la": "Dominica Palmarum",
+        "pl": "Niedziela Palmowa"
+    },
+    "dpp": {
+        "la": "Dominica in Palmis de Passione Domini",
+        "pl": "Niedziela Palmowa Męki Pańskiej"
+    },
+    "dps": {
+        "la": "Dominica Passionis",
+        "pl": "Niedziela Męki Pańskiej"
+    },
+    "f5h": {
+        "la": "Feria quinta Hebdomadae sanctae",
+        "pl": "Wielki Czwartek"
+    },
+    "f6p": {
+        "la": "feria sexta in Passione Domini",
+        "pl": "Wielki Piątek"
+    },
+    "gen": {
+        "en": "Maria, Holy Mother of God",
+        "la": "Maria, Sancta Dei Genetrix",
+        "pl": "Najświętsza Maryja Panna Święta Boża Rodzicielka"
+    },
+    "ico": {
+        "la": "Immaculatum Cor beate Mariae Virginis",
+        "pl": "Niepokalane Serce Najświętszej Maryi Panny"
+    },
+    "mat": {
+        "en": "The Motherhood of the Blessed Virgin Mary",
+        "la": "Maternitatem beatae Mariae Virginis",
+        "pl": "Macierzyństwo błogosławionej Maryi Dziewicy"
+    },
+    "mis": {
+        "pl": "Miłosierdzie Boże"
+    },
+    "pen": {
+        "la": "Dies Pentecostes",
+        "pl": "Zesłanie Ducha Świętego"
+    },
+    "peo": {
+        "la": "Octava Pentecostes",
+        "pl": "Oktawa Zesłania Ducha Świętego"
+    },
+    "pev": {
+        "la": "Vigilia Pentecostes",
+        "pl": "Wigilia Zesłania Ducha Świętego"
+    },
+    "r1p": {
+        "la": "Romae Litaníae majores ad sanctum Petrum",
+        "pl": "Rzymska wielka procesja błagalna do świętego Piotra"
+    },
+    "r2p": {
+        "la": "Romae Litaníae minores ad sanctum Petrum",
+        "pl": "Rzymska mała procesja błagalna do świętego Piotra"
+    },
+    "res": {
+        "la": "Resurrectio Iesu Christi",
+        "pl": "Zmartwychwstanie Jezusa Chrystusa"
+    },
+    "rex": {
+        "la": "Iesus Christus Rex",
+        "pl": "Jezus Chrystus Król"
+    },
+    "ril": {
+        "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
+        "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+    },
+    "rmm": {
+        "la": "Romae Litaniae minores ad sanctam Mariam Majorem",
+        "pl": "Rzymska mała procesja błagalna do świętej Maryi Większej"
+    },
+    "sas": {
+        "la": "Sabbato sancto",
+        "pl": "Wielka Sobota"
+    },
+    "sci": {
+        "la": "Sanctissimum Cor Iesu",
+        "pl": "Najświętsze Serce Jezusa"
+    },
+    "sco": {
+        "la": "Octava Sacratissimi Cordis Iesu",
+        "pl": "Oktawa Najświętszego Serca Jezusa"
+    },
+    "sfa": {
+        "la": "Sancta Familia",
+        "pl": "Święta Rodzina"
+    },
+    "sni": {
+        "la": "Sanctissimum Nomen Iesus",
+        "pl": "Najświętsze Imię Jezus"
+    },
+    "tri": {
+        "la": "Sollemnitas sacratissimae et indivíduae Trinitatis",
+        "pl": "Uroczystość Trójcy Przenajświętszej"
+    },
+    "ure": {
+        "la": "Iesus Christus Universorum Rex",
+        "pl": "Jezus Chrystus Król Wszechświata"
+    }
+}
