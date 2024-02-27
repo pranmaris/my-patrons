@@ -11,6 +11,7 @@
     },
     "numbers": false,
     "uniqueness": ["person"],
+    "addition-type": "",
     "person": {
       "types": ["Patrons"],
       "description": {
@@ -158,8 +159,9 @@
         "pl": "pl/wyzwania/swieta"
       }
     },
-    "uniqueness": ["person", "addition"],
     "numbers": true,
+    "uniqueness": ["person", "addition"],
+    "addition-type": "feasts",
     "person": {
       "types": ["God", "Patrons"],
       "description": {
@@ -265,6 +267,7 @@
     },
     "numbers": false,
     "uniqueness": ["person"],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {
@@ -386,6 +389,7 @@
     },
     "numbers": false,
     "uniqueness": ["person"],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {
@@ -469,6 +473,7 @@
     },
     "numbers": false,
     "uniqueness": ["person"],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {
@@ -559,6 +564,7 @@
     },
     "numbers": false,
     "uniqueness": ["person"],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {
@@ -649,6 +655,7 @@
     },
     "numbers": false,
     "uniqueness": ["person"],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {
@@ -739,6 +746,7 @@
     },
     "numbers": false,
     "uniqueness": ["person"],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {
@@ -829,6 +837,7 @@
     },
     "numbers": false,
     "uniqueness": ["person"],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {
@@ -919,6 +928,7 @@
     },
     "numbers": false,
     "uniqueness": ["person"],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {
@@ -1009,6 +1019,7 @@
     },
     "numbers": false,
     "uniqueness": ["person"],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {
@@ -1099,6 +1110,7 @@
     },
     "numbers": true,
     "uniqueness": [],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {
@@ -1188,6 +1200,7 @@
     },
     "numbers": true,
     "uniqueness": ["person", "date", "notes/description"],
+    "addition-type": "",
     "person": {
       "types": ["Me"],
       "description": {

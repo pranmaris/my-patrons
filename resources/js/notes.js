@@ -111,7 +111,7 @@ const PROGRESS_DONE_ELEMENT_ID_PREFIX = 'progress-done-';
 const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
 const PROGRESS_ABORTED_ELEMENT_ID_PREFIX = 'progress-aborted-';
 
-const PERSON_URL_ADDITION_SEPARATOR = '@';
+const PERSON_ADDITION_SEPARATOR = '@';
 const REMOVE_PERSON_URL_LINK_HREFS = ['me'];
 
 const INPUT_FOR_FILENAME_WITHOUT_EXTENSION_ELEMENT_ID = 'input-for-filename-without-extension';
@@ -128,6 +128,7 @@ const DATA_FIELD_OWNER = 'owner';
 const DATA_FIELD_CHECKLIST = 'checklist';
 const DATA_FIELD_NOTES = 'notes';
 
+const CONFIG_FIELD_ADDITION_TYPE = 'addition-type';
 const CONFIG_FIELD_CHECKLIST = 'checklist';
 const CONFIG_FIELD_NOTES = 'notes';
 const CONFIG_FIELD_TO_COMPLETE_ON_SELECTED_DATE = 'to-complete-on-selected-date';
@@ -204,6 +205,7 @@ let filesContents = {};
 let filesContentsErrors = {};
 let personsData = {};
 let personsDataSubelementsCache = {};
+let personsAdditionDataElementsCache = {};
 
 let fileName = DEFAULT_JSON_FILENAME;
 let fileContent = '{}';
@@ -271,12 +273,16 @@ function getDatesDiffInDays(firstDateStr, secondDateStr) {
   return diffInDays;
 }
 
-function getPersonsDataDirName(personId) {
-  return personId.replace(new RegExp('[/' + PERSON_URL_ADDITION_SEPARATOR + '][^/' + PERSON_URL_ADDITION_SEPARATOR + ']+[/' + PERSON_URL_ADDITION_SEPARATOR + ']?$'), '');
+function getPersonsDataDirName(id) {
+  return id.replace(new RegExp('[/' + PERSON_ADDITION_SEPARATOR + '][^/' + PERSON_ADDITION_SEPARATOR + ']+[/' + PERSON_ADDITION_SEPARATOR + ']?$'), '');
 }
 
-function getPersonsDataRootName(personId) {
-  return personId.replace(new RegExp('[/' + PERSON_URL_ADDITION_SEPARATOR + '].*$'), '');
+function getPersonsDataBaseName(id) {
+  return id.replace(new RegExp('^.*[/' + PERSON_ADDITION_SEPARATOR + ']'), '');
+}
+
+function getPersonsDataRootName(id) {
+  return id.replace(new RegExp('[/' + PERSON_ADDITION_SEPARATOR + '].*$'), '');
 }
 
 async function showNotification(prefix, message, type, rowId = EMPTY_ROW_ID) {
@@ -578,7 +584,7 @@ function parseChallenge(rowId, challenge, contextData) {
   const challengeDate = challenge.date ?? getToday();
   const challengePerson = challenge.person ?? '';
   const challengeAddition = challenge.addition ?? '';
-  const challengePersonWithAddition = challengePerson + PERSON_URL_ADDITION_SEPARATOR + challengeAddition;
+  const challengePersonWithAddition = challengePerson + PERSON_ADDITION_SEPARATOR + challengeAddition;
   const challengeChecklist = challenge[DATA_FIELD_CHECKLIST] ?? {};
   const challengeNotes = challenge[DATA_FIELD_NOTES] ?? {};
   const challengeStatus = getChallengeSuccessStatus(rowId);
@@ -691,7 +697,7 @@ function parseChallenge(rowId, challenge, contextData) {
         break;
 
       case REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY:
-        if (challengeAddiition === '') {
+        if (challengeAddition === '') {
           throw {
             message: 'lang-challenge-parse-error-for-requirement-person-addition-is-not-empty'
           };
@@ -880,12 +886,13 @@ async function fillChallenges(challenges) {
     let date = challenge.date ?? '';
     let personUrl = (challenge.person ?? '');
     let addition = challenge.addition ?? '';
-    let additionUrl = addition.length > 0 ? personUrl + PERSON_URL_ADDITION_SEPARATOR + addition : '';
+    let additionUrl = addition.length > 0 ? addition : '';
     let type = challenge.type ?? '';
     let number = '';
     let notes = challenge.notes ?? [];
 
     const config = challengesConfig[type] ?? {};
+    const additionType = config[CONFIG_FIELD_ADDITION_TYPE] ?? '';
     if (config.numbers ?? false) {
       if (numbers[type] == undefined) {
         numbers[type] = {};
@@ -908,8 +915,8 @@ async function fillChallenges(challenges) {
       .replace(/#number#/g, number)
       .replace(/#person-url#/g, personUrl)
       .replace(/#person#/g, getPersonDataName(personUrl))
-      .replace(/#addition-url#/g, additionUrl.length > 0 ? additionUrl + ANCHOR_CHARACTER + addition : '')
-      .replace(/#addition#/g, additionUrl.length > 0 ? getPersonDataName(additionUrl) : '')
+      .replace(/#addition-url#/g, additionUrl.length > 0 ? additionUrl : '')
+      .replace(/#addition#/g, additionUrl.length > 0 ? getPersonDataAdditionName(personUrl, additionType, additionUrl) : '')
     ;
 
     const personUrlElement = document.getElementById(PERSON_URL_ELEMENT_ID_PREFIX + rowId);
@@ -1137,7 +1144,7 @@ function checkNotExistingChallengeTypesOnTheSameDay(requirements, challenges, ch
   return true;
 }
 
-function checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, allPersonsToTake, challengeDate) {
+function checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, additionType, allPersonsToTake, challengeDate) {
   const typesNotAllowed = requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
   if (typesNotAllowed.length > 0) {
     const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
@@ -1170,8 +1177,8 @@ function checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirem
 
     let additionsCount = 0;
     for (let personId of Object.keys(personsToTake)) {
-      const additionsSubelements = getPersonsDataSubelements(personId);
-      additionsCount += additionsSubelements.length;
+      const additionsElements = getPersonsAdditionDataElements(personId, additionType);
+      additionsCount += additionsElements.length;
     }
     if (additionsCount <= Object.keys(additionsToSkip).length) {
       return false;
@@ -1188,23 +1195,51 @@ function getPersonDataName(personId) {
   return translatedName.replace(new RegExp(REMOVE_NAME_PART_PATTERN), '');
 }
 
+function getPersonDataAdditionName(personId, additionType, additionId) {
+  const data = ((personsData[personId] ?? {})[additionType] ?? {})[additionId] ?? {};
+
+  return getLanguageVariable(PERSONS_DATA_FIELD_NAMES, true, data[PERSONS_DATA_FIELD_NAMES] ?? []);
+}
+
 function getPersonsDataSubelements(personIdPrefix) {
   let result = personsDataSubelementsCache[personIdPrefix] ?? null;
 
   if (result == null) {
     result = [];
 
+    const personIdPrefixSlashesCount = personIdPrefix.split('/').length - 1;
+
     const data = Object.keys(personsData);
     for (let personId of data) {
       if (personId.substring(0, personIdPrefix.length) == personIdPrefix
-        && personId != personIdPrefix
-        && personId.replace(personIdPrefix, '').match(new RegExp('^[/' + PERSON_URL_ADDITION_SEPARATOR + '][a-z0-9]+$'))
+        && personId.split('/').length - 1 === personIdPrefixSlashesCount + 1
       ) {
         result.push(personId);
       }
     }
 
     personsDataSubelementsCache[personIdPrefix] = result;
+  }
+
+  return result;
+}
+
+function getPersonsAdditionDataElements(personId, additionType) {
+  let result = (personsAdditionDataElementsCache[personId] ?? {})[additionType] ?? null;
+
+  if (result == null) {
+    result = [];
+
+    const additions = Object.keys((personsData[personId] ?? {})[additionType] ?? {});
+    for (const additionId of additions) {
+      const addition = personId + PERSON_ADDITION_SEPARATOR + getPersonsDataBaseName(additionId);
+      result.push(addition);
+    }
+
+    if (personsAdditionDataElementsCache[personId] == undefined) {
+      personsAdditionDataElementsCache[personId] = {};
+    }
+    personsAdditionDataElementsCache[personId][additionType] = result;
   }
 
   return result;
@@ -1275,7 +1310,7 @@ function getPersonsAdditionsHavingAllChallenges(types, checkDateString = null) {
   for (let person in withAnyType) {
     for (let addition in withAnyType[person]) {
       if (Object.keys(withAnyType[person][addition]).length == types.length) {
-        const key = person + PERSON_URL_ADDITION_SEPARATOR + addition;
+        const key = person + PERSON_ADDITION_SEPARATOR + getPersonsDataBaseName(addition);
         result[key] = key;
       }
     }
@@ -1324,11 +1359,9 @@ function getPersonsAdditionsHavingAnyChallenge(types, checkDateString) {
       continue;
     }
 
-    if (ch.addition.length > 0) {
-      if (inArray(ch.type, types)) {
-        const key = ch.person + PERSON_URL_ADDITION_SEPARATOR + ch.addition;
-        result[key] = key;
-      }
+    if (inArray(ch.type, types) && ch.addition.length > 0) {
+      const key = ch.person + PERSON_ADDITION_SEPARATOR + getPersonsDataBaseName(ch.addition);
+      result[key] = key;
     }
   }
 
@@ -1379,11 +1412,13 @@ function resetChallengeTypeSelect() {
     const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
     let options = {};
     for (let type in challengesConfig) {
-      const name = getLanguageVariable('name', false, challengesConfig[type].name);
-      const requirements = challengesConfig[type].person.requirements ?? {};
+      const challengeConfig = challengesConfig[type] ?? {};
+      const name = getLanguageVariable('name', false, challengeConfig.name);
+      const requirements = challengeConfig.person.requirements ?? {};
+      const additionType = challengeConfig[CONFIG_FIELD_ADDITION_TYPE] ?? '';
 
       let allPersonsToTakeForChallengeType = {};
-      for (let personType of challengesConfig[type].person.types ?? []) {
+      for (let personType of challengeConfig.person.types ?? []) {
         allPersonsToTakeForChallengeType = {...allPersonsToTakeForChallengeType, ...allPersonsToTakeByPersonType[personType]};
       }
 
@@ -1392,7 +1427,7 @@ function resetChallengeTypeSelect() {
         || !checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate, 0)
         || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
         || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
-        || !checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, allPersonsToTakeForChallengeType, challengeDate)
+        || !checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, additionType, allPersonsToTakeForChallengeType, challengeDate)
       ) {
         continue;
       }
@@ -1478,6 +1513,7 @@ function resetPersonTypeSelect() {
       }
     }
 
+    const additionType = challengesConfig[challengeType][CONFIG_FIELD_ADDITION_TYPE] ?? '';
     const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
     const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
 
@@ -1511,20 +1547,22 @@ function resetPersonTypeSelect() {
         }
 
         if (additionIsNotEmpty) {
-          let allPersonsAdditionsWithPersonTypeIdCount = {};
+          let personsToCountAdditions = [];
           if (Object.keys(personsUnlocked).length == 0) {
-            allPersonsAdditionsWithPersonTypeIdCount = Object.keys(personsData)
-              .filter(v => v.substring(0, personTypeId.length + 1) == personTypeId + '/'
-                && inArray(PERSON_URL_ADDITION_SEPARATOR, v) !== false
-              )
-              .length;
+            personsToCountAdditions = Object.keys(personsData)
+              .filter(v => v.substring(0, personTypeId.length + 1) == personTypeId + '/')
+            ;
           } else {
-            allPersonsAdditionsWithPersonTypeIdCount = Object.keys(personsData)
+            personsToCountAdditions = Object.keys(personsData)
               .filter(v => v.substring(0, personTypeId.length + 1) == personTypeId + '/'
-                && inArray(PERSON_URL_ADDITION_SEPARATOR, v) !== false
-                && personsUnlocked[getPersonsDataDirName(v)] != undefined
+                && personsUnlocked[v] != undefined
               )
-              .length;
+            ;
+          }
+
+          let allPersonsAdditionsWithPersonTypeIdCount = 0;
+          for (const personId of personsToCountAdditions) {
+            allPersonsAdditionsWithPersonTypeIdCount += Object.keys(personsData[personId][additionType] ?? {}).length;
           }
 
           if (allPersonsAdditionsWithPersonTypeIdCount <= (personsTypesWithAdditionsToSkipCounts[personTypeId] ?? 0)) {
@@ -1566,8 +1604,9 @@ function resetPersonNameSelect() {
 
       const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
       let personsNamesToList = {};
+      let personsToList = {};
       if (typesNeeded != null) {
-        let personsToList = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
+        personsToList = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
 
         for (let personId of Object.keys(personsToList)) {
           const personNameId = getPersonsDataDirName(personId);
@@ -1586,6 +1625,7 @@ function resetPersonNameSelect() {
         }
       }
 
+      const additionType = challengesConfig[challengeType][CONFIG_FIELD_ADDITION_TYPE] ?? '';
       const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
       const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
 
@@ -1618,7 +1658,11 @@ function resetPersonNameSelect() {
           const personSubelements = getPersonsDataSubelements(subelement);
           let additionsCount = 0;
           for (let personSubelement of personSubelements) {
-            const additionsSubelements = getPersonsDataSubelements(personSubelement);
+            if (typesNeeded != null && personsToList[personSubelement] == undefined) {
+              continue;
+            }
+
+            const additionsSubelements = getPersonsAdditionDataElements(personSubelement, additionType);
             additionsCount += additionsSubelements.length;
           }
           if (additionsCount <= (personsNamesWithAdditionsToSkipCounts[subelement] ?? 0)) {
@@ -1685,6 +1729,7 @@ async function resetPersonSelect() {
       const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
       const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
 
+      const additionType = challengesConfig[challengeType][CONFIG_FIELD_ADDITION_TYPE] ?? '';
       const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
       const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
 
@@ -1708,7 +1753,7 @@ async function resetPersonSelect() {
         }
 
         if (additionIsNotEmpty) {
-          const additionsSubelements = getPersonsDataSubelements(subelement);
+          const additionsSubelements = getPersonsAdditionDataElements(subelement, additionType);
           if (additionsSubelements.length <= (personsWithAdditionsToSkipCounts[subelement] ?? 0)) {
             continue;
           }
@@ -1749,6 +1794,7 @@ function resetAdditionSelect() {
   additionSelect.value = '';
 
   if (personValue.length > 0) {
+    const additionType = challengesConfig[challengeType][CONFIG_FIELD_ADDITION_TYPE] ?? '';
     const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
     const additionHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_HAVING_CHALLENGES] ?? [];
     const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
@@ -1766,7 +1812,7 @@ function resetAdditionSelect() {
       const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
       const additionsToSkip = getPersonsAdditionsHavingAnyChallenge(typesNotAllowed, challengeDate);
 
-      const subelements = getPersonsDataSubelements(personValue);
+      const subelements = getPersonsAdditionDataElements(personValue, additionType);
       for (let subelement of subelements) {
         if (typesNeeded != null && !additionsToList[subelement]) {
           continue;
@@ -1776,7 +1822,8 @@ function resetAdditionSelect() {
           continue;
         }
 
-        namesToSort[subelement] = getPersonDataName(subelement);
+        const additionUrl = additionType + '/' + getPersonsDataBaseName(subelement);
+        namesToSort[additionUrl] = getPersonDataAdditionName(personValue, additionType, additionUrl);
       }
     }
 
@@ -1942,7 +1989,7 @@ async function addNewChallenge() {
   const date = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
   const type = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
   const person = document.getElementById(PERSON_SELECT_ELEMENT_ID).value;
-  const addition = additionValue.substring(person.length + 1);
+  const addition = additionValue !== person ? additionValue : '';
   const checklist = newChallengeChecklistValues;
   const notes = newChallengeNotesValues;
 
@@ -2322,12 +2369,13 @@ async function removeChallengeReset(rowId) {
 
     let date = challenge.date ?? '';
     let personUrl = (challenge.person ?? '');
-    let addition = challenge.addiition ?? '';
-    let additionUrl = addition.length > 0 ? personUrl + PERSON_URL_ADDITION_SEPARATOR + addition : '';
+    let addition = challenge.addition ?? '';
+    let additionUrl = addition.length > 0 ? addition : '';
     let type = challenge.type ?? '';
     let number = '';
 
     const config = challengesConfig[type] ?? {};
+    const additionType = config[CONFIG_FIELD_ADDITION_TYPE] ?? '';
     if (config.numbers ?? false) {
       number = 1;
       for (let i = 0; i < rowId - 1; i++) {
@@ -2346,8 +2394,8 @@ async function removeChallengeReset(rowId) {
       .replace(/#number#/g, number.toString())
       .replace(/#person-url#/g, personUrl)
       .replace(/#person#/g, getPersonDataName(personUrl))
-      .replace(/#addition-url#/g, additionUrl.length > 0 ? additionUrl + ANCHOR_CHARACTER + addition : '')
-      .replace(/#addition#/g, additionUrl.length > 0 ? getPersonDataName(additionUrl) : '')
+      .replace(/#addition-url#/g, additionUrl.length > 0 ? additionUrl : '')
+      .replace(/#addition#/g, additionUrl.length > 0 ? getPersonDataAdditionName(personUrl, additionType, additionUrl) : '')
     ;
   }
 

@@ -1,5 +1,6 @@
 {
     "categories": "/records/categories",
+    "feasts": "/records/feasts/",
     "god": "/records/god/",
     "other-feasts": "/records/other-feasts",
     "patrons": "/records/patrons/",
