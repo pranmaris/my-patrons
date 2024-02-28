@@ -52,6 +52,7 @@ const FILE_CONTENT_ELEMENT_ID = 'file-content';
 const NOTIFICATIONS_ELEMENT_ID = 'notifications';
 const CHALLENGE_DATE_INPUT_ELEMENT_ID = 'challenge-date-input';
 const CHALLENGE_TYPE_SELECT_ELEMENT_ID = 'challenge-type-select';
+const LAST_SELECTED_CHALLENGE_TYPE_ELEMENT_ID = 'last-selected-challenge-type';
 const CHALLENGE_TYPE_DIV_ELEMENT_ID = 'challenge-type-div';
 const CHALLENGE_DESCRIPTION_DIV_ELEMENT_ID = 'challenge-description-div';
 const PERSON_DESCRIPTION_DIV_ELEMENT_ID = 'person-description-div';
@@ -1386,8 +1387,10 @@ function resetChallengeTypeSelect() {
   let challengeTypeDiv = document.getElementById(CHALLENGE_TYPE_DIV_ELEMENT_ID);
   challengeTypeDiv.style = INVISIBLE_STYLE;
 
+  let lastSelectedChallengeType = document.getElementById(LAST_SELECTED_CHALLENGE_TYPE_ELEMENT_ID);
+  const selectedChallengeType = lastSelectedChallengeType.value;
+
   let challengeTypeSelect = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID);
-  const selectedChallengeType = challengeTypeSelect.value;
   challengeTypeSelect.innerHTML = '';
   challengeTypeSelect.value = '';
 
@@ -1470,6 +1473,9 @@ function resetPersonTypeSelect() {
     const descValues = {
       ['challenge-date']: challengeDate
     };
+
+    const lastSelectedChallengeType = document.getElementById(LAST_SELECTED_CHALLENGE_TYPE_ELEMENT_ID);
+    lastSelectedChallengeType.value = challengeType;
 
     const challengeDescData = challengesConfig[challengeType].description ?? {};
     const challengeDescFilePath = getLanguageVariable('description', false, challengeDescData.template ?? {});
