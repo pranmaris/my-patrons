@@ -82,7 +82,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -232,7 +232,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -337,7 +337,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -452,7 +452,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -534,7 +534,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -619,7 +619,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -710,7 +710,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -801,7 +801,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -892,7 +892,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -983,7 +983,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -1074,7 +1074,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -1165,7 +1165,7 @@
       },
       "note": {
         "to-complete-on-selected-date": false,
-        "required": true,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
@@ -1253,9 +1253,22 @@
           }
         }
       },
-      "note": {
+      "penance": {
         "to-complete-on-selected-date": false,
         "required": true,
+        "name": {
+          "pl": "wypełnij zadaną pokutę"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wypelnij-zadana-pokute"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
         "name": {
           "pl": "uzupełnij dowolne notatki"
         },
