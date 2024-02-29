@@ -1,5 +1,8 @@
-**Przyjmij godnie Komunię Świętą** w dowolnej intencji, fizycznie albo (z ważnych przyczyn) duchowo.
+**Przyjmij godnie**<sup>1</sup> **Komunię Świętą** w dowolnej intencji, fizycznie albo (tylko z ważnych przyczyn) duchowo.
 
-**Pamiętaj**, aby **w chwili przyjęcia Komunii Świętej** (nawet duchowo) być **w stanie Łaski Uświęcającej!**
+**UWAGA**! Dodatkowym wymogiem zaproszenia **Patrona Obrońcy** jest to, aby Twoja ostatnia spowiedź (dodana jako wyzwanie SPA) odbyła się **nie więcej niż 40 dni** wcześniej!
 
-Dodatkowym wymogiem zaproszenia **Patrona Obrońcy** jest, by Twoja ostatnia spowiedź (dodana jako wyzwanie SPA) odbyła się **nie więcej niż 40 dni** wcześniej!
+---
+Przypisy:
+
+- <sup>1</sup> **Pamiętaj** o odpowiedniej postawie i szacunku oraz że **w chwili przyjęcia Komunii Świętej** (nawet duchowo) musisz być **w stanie Łaski Uświęcającej**!

@@ -686,6 +686,19 @@ function parseChallenge(rowId, challenge, contextData) {
         }
         break;
 
+      case REQUIREMENT_PERSON_ADDITION_HAVING_CHALLENGES:
+        for (const type of reqTypes) {
+          if ((specifiedPersonAdditionCountsContext[type] ?? 0) === 0
+            && challengeAddition !== ''
+          ) {
+            throw {
+              message: 'lang-challenge-parse-error-for-requirement-person-addition-having-challenges',
+              data: [type]
+            };
+          }
+        }
+        break;
+
       case REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES:
         for (const type of reqTypes) {
           if ((specifiedPersonAdditionCountsContext[type] ?? null) !== null) {
@@ -1018,8 +1031,12 @@ function sortChallengesByDate() {
 }
 
 function addNewChallengeReset() {
+  const lastSelectedChallengeType = document.getElementById(LAST_SELECTED_CHALLENGE_TYPE_ELEMENT_ID);
+  lastSelectedChallengeType.value = '';
+
   sortChallengesByDate();
   resetDateInput();
+
 }
 
 function getToday() {

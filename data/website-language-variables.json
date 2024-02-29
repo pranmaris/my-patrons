@@ -228,6 +228,11 @@
         "pl": "wyzwanie musi mieć przypisany dodatek"
     },
 
+    "lang-challenge-parse-error-for-requirement-person-addition-having-challenges": {
+        "en": "missing type of challenge assigned to this addition before",
+        "pl": "brak typu wyzwania przypisanego do tej dodatku wcześniej"
+    },
+
     "lang-challenge-parse-error-for-requirement-person-addition-not-having-challenges": {
         "en": "this type of challenge has been assigned to this addition before",
         "pl": "ten typ wyzwania został już przypisany wcześniej do tego dodatku"
