@@ -13,6 +13,9 @@ abstract class ContentBlock extends Content
     protected const RECORD_ACTIVENESS_CLASS_ACTIVE = 'record-active';
     protected const RECORD_ACTIVENESS_CLASS_INACTIVE = 'record-inactive';
 
+    private const LEAP_YEAR_LANGUAGE_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-leap-year' . self::VARIABLE_NAME_SIGN;
+    private const NO_LEAP_YEAR_LANGUAGE_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-no-leap-year' . self::VARIABLE_NAME_SIGN;
+
     private const SPECIAL_TAGS_TO_REPLACE = [
       '[/]' => '<br />',
       '[(c)]' => '<span class="copyright-hidden-content-info">(' . self::VARIABLE_NAME_SIGN . 'lang-copyright-hidden-content-info' . self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL_ONLY_FOR_MISSING . self::VARIABLE_NAME_SIGN . ')</span>',
@@ -65,8 +68,18 @@ abstract class ContentBlock extends Content
         $result = [];
 
         foreach ($monthsWithDays as $monthWithDay) {
-            if ($this->getDate()->isMonthWithDayValid($monthWithDay)) {
-                $result[] = substr($this->getFormattedDate("2000-$monthWithDay"), 0, 6);
+            $changedMonthWithDay = preg_replace('/[^0-9]/', '-', $monthWithDay);
+            $dateSuffix = '';
+            if ($changedMonthWithDay !== $monthWithDay) {
+                if (false !== strpos($monthWithDay, self::LEAP_YEARS_ONLY_SEPARATOR)) {
+                    $dateSuffix = ' (' . self::LEAP_YEAR_LANGUAGE_VARIABLE . ')';
+                } else if (false !== strpos($monthWithDay, self::NO_LEAP_YEARS_ONLY_SEPARATOR)) {
+                    $dateSuffix = ' (' . self::NO_LEAP_YEAR_LANGUAGE_VARIABLE . ')';
+                }
+            }
+
+            if ($this->getDate()->isMonthWithDayValid($changedMonthWithDay)) {
+                $result[] = substr($this->getFormattedDate("2000-$changedMonthWithDay"), 0, 6) . $dateSuffix;
             } else {
                 $result[] = self::INVALID_SIGN;
             }

@@ -781,6 +781,11 @@
         "pl": "nowe wyzwanie zostało utworzone pomyślnie!"
     },
 
+    "lang-no-leap-year": {
+        "en": "no leap year",
+        "pl": "rok nieprzestępny"
+    },
+
     "lang-non-existence": {
         "en": "non-existence",
         "pl": "brak"
