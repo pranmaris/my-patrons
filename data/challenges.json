@@ -97,8 +97,8 @@
     "notes": {
       "criterion": {
         "type": {
-          "criterion-of-selecting-a-protector-patron": [0, 1],
-          "criterion-of-selecting-a-protector-patron-description": [0, 1]
+          "criterion-of-selecting-a-defender-patron": [0, 1],
+          "criterion-of-selecting-a-defender-patron-description": [0, 1]
         },
         "name": {
           "pl": "kryterium wyboru Patrona"
@@ -296,7 +296,7 @@
       }
     },
     "checklist": {
-      "patron-protector": {
+      "patron-defender": {
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
@@ -1303,6 +1303,133 @@
         },
         "name": {
           "pl": "Spowiednik"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "T": {
+    "name": {
+      "pl": "Patroni Opiekunowie"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/patroni-opiekunowie"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "addition-type": "",
+    "person": {
+      "types": ["Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/patroni-opiekunowie"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["I", "BLOCKED!"],
+        "person-not-having-challenges": ["T"],
+        "everybody-not-having-challenges-on-the-same-day": ["T"]
+      }
+    },
+    "checklist": {
+      "mass": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "wykonaj zadanie główne"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wykonaj-zadanie-glowne-dla-patrona-opiekuna"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "pomódl się do Patrona"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-do-patrona-opiekuna"
+          }
+        }
+      },
+      "knowledge": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "poznaj Patrona"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/poznaj-patrona"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "criterion": {
+        "type": {
+          "criterion-of-selecting-a-guardian-patron": [0, 1]
+        },
+        "name": {
+          "pl": "kryterium wyboru Patrona"
+        }
+      },
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina rozpoczęcia Mszy (jeśli wybrano kryterium Mszy)"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce Mszy (jeśli wybrano kryterium Mszy)"
+        }
+      },
+      "persons": {
+        "type": {
+          "person": [0, 0],
+          "role-at-mass": [1, 0]
+        },
+        "name": {
+          "pl": "osoby na Mszy (jeśli wybrano kryterium Mszy)"
         }
       },
       "other": {

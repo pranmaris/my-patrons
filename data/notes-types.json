@@ -61,10 +61,25 @@
     },
     "source": {}
   },
-  "criterion-of-selecting-a-protector-patron": {
-    "index": "criteria-of-selecting-protector-patrons",
+  "criterion-of-selecting-a-guardian-patron": {
+    "index": "criteria-of-selecting-guardian-patrons",
     "name": {
-      "en": "criterion of selecting a Protector Patron",
+      "en": "criterion of selecting a Guardian Patron",
+      "pl": "kryterium wyboru Patrona Opiekuna"
+    },
+    "source": {
+      "list": [
+        {"1": ["lang-mass", " + ", "lang-representation"]},
+        {"2": ["lang-mass", " + ", "lang-holy-card"]},
+        {"3": ["lang-representation", " + ", "lang-holy-card"]},
+        {"4": ["lang-relics"]}
+      ]
+    }
+  },
+  "criterion-of-selecting-a-defender-patron": {
+    "index": "criteria-of-selecting-defender-patrons",
+    "name": {
+      "en": "criterion of selecting a Defender Patron",
       "pl": "kryterium wyboru Patrona Obrońcy"
     },
     "source": {
@@ -108,10 +123,10 @@
       ]
     }
   },
-  "criterion-of-selecting-a-protector-patron-description": {
-    "index": "criterion-of-selecting-a-protector-patron-descriptions",
+  "criterion-of-selecting-a-defender-patron-description": {
+    "index": "criterion-of-selecting-a-defender-patron-descriptions",
     "name": {
-      "en": "criterion of selecting Protector Patron description",
+      "en": "criterion of selecting Defender Patron description",
       "pl": "opis kryterium wyboru Patrona Obrońcy"
     },
     "source": {}
@@ -126,10 +141,10 @@
       "values": "sorted"
     }
   },
-  "given-intercessor-patron": {
-    "index": "given-intercessor-patrons",
+  "given-advocate-patron": {
+    "index": "given-advocate-patrons",
     "name": {
-      "en": "given Intercessor Patron",
+      "en": "given Advocate Patron",
       "pl": "przekazany Patron Orędownik"
     },
     "source": {

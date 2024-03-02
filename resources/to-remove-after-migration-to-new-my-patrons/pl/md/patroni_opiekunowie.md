@@ -1,8 +1,6 @@
 # <span class="status status-list"><span class="status status-yellow">T</span> Patroni Opiekunowie</span>
 ---
 Jeśli chcesz **zaprosić nowego** świętego lub błogosławionego do grona swoich **Patronów Opiekunów**:
-## <span class="step-number">1.</span> Wybierz datę wyzwania
-Już wkrótce ...
 ## <span class="step-number">2.</span> Upewnij się, czy możesz sprostać temu wyzwaniu
 Już wkrótce ...
 ## <span class="step-number">3.</span> Wybierz Patrona

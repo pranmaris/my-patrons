@@ -602,6 +602,11 @@
         "pl": "ukryj pola"
     },
 
+    "lang-holy-card": {
+        "en": "holy card",
+        "pl": "obrazek"
+    },
+
     "lang-horizontal": {
         "en": "horizontal",
         "pl": "poziomy"
@@ -736,6 +741,11 @@
     "lang-mark-as": {
         "en": "mark as",
         "pl": "oznacz jako"
+    },
+
+    "lang-mass": {
+        "en": "mass",
+        "pl": "msza"
     },
 
     "lang-me": {
@@ -1049,6 +1059,11 @@
         "pl": "odśwież pola"
     },
 
+    "lang-relics": {
+        "en": "relics",
+        "pl": "relikwie"
+    },
+
     "lang-remove-challenge": {
         "en": "remove challenge",
         "pl": "usuń wyzwanie"
@@ -1067,6 +1082,11 @@
     "lang-remove-note-confirmation": {
         "en": "You must confirm that You want remove selected note and its subnotes",
         "pl": "musisz potwierdzić, że chcesz usunąć wybraną notatkę ze wszystkimi jej podnotatkami"
+    },
+
+    "lang-representation": {
+        "en": "representation",
+        "pl": "wizerunek"
     },
 
     "lang-resource": {
