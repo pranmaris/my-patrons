@@ -1,1 +1,13 @@
-**Pomódl się do Patrona** w dowolny sposób. Może to być np. _„Ojcze Nasz”_, _„Zdrowaś Maryjo”_, _„Chwała Ojcu”_  i _„[imię patrona], módl się za mną”_.
+**Pomódl się do Patrona** w dowolny sposób. Może to być np.: 
+> Ojcze Nasz ...
+<hr />
+
+> Zdrowaś Maryjo ...
+<hr />
+
+> Chwała Ojcu ...
+<hr />
+
+> Św./Bł. _**[tutaj zwróć się do Patrona lub Boga, którego nazwa to „#person-name#”]**_,  
+> ... módl/módlcie się za mną. _**(gdy zwracamy się do Patrona)**_  
+> ... zmiłuj się nade mną. _**(gdy zwracamy się do Boga)**_

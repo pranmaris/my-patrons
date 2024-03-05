@@ -2298,7 +2298,9 @@ async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, bac
   waitingButton.setAttribute(CHECKLIST_ITEM_TARGET_ATTRIBUTE_NAME, modalTargetAttributeToSet);
   doneButton.setAttribute(CHECKLIST_ITEM_TARGET_ATTRIBUTE_NAME, modalTargetAttributeToSet);
 
-  const config = ((challengesConfig[challengeType] ?? [])[CONFIG_FIELD_CHECKLIST] ?? [])[itemType] ?? [];
+  const challengeConfig = challengesConfig[challengeType] ?? {};
+  const additionType = challengeConfig[CONFIG_FIELD_ADDITION_TYPE] ?? '';
+  const config = (challengeConfig[CONFIG_FIELD_CHECKLIST] ?? [])[itemType] ?? [];
   if (Object.keys(config).length == 0) {
     return;
   }
@@ -2306,11 +2308,17 @@ async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, bac
   const required = config.required ?? true;
   const name = getLanguageVariable('name', true, config.name ?? {});
 
+  const rowData = (fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {};
+  const personName = getPersonDataName(rowData.person)
+  const additionName = getPersonDataAdditionName(rowData.person, additionType, rowData.addition);
+
   const descData = config.description ?? {};
   const descFilePath = getLanguageVariable('description', false, descData.template ?? {});
   const descParams = descData.params ?? [];
   const descValues = {
-    ['row-id']: rowId
+    ['row-id']: rowId,
+    ['person-name']: personName,
+    ['addition-name']: additionName,
   };
 
   labelElement.innerHTML = name;

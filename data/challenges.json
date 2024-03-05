@@ -61,7 +61,7 @@
           "pl": "pomódl się do Patrona"
         },
         "description": {
-          "params": [],
+          "params": ["person-name"],
           "template": {
             "pl": "pl/kroki/pomodl-sie-do-patrona-obroncy"
           }
@@ -211,7 +211,7 @@
           "pl": "pomódl się do Patrona"
         },
         "description": {
-          "params": [],
+          "params": ["person-name"],
           "template": {
             "pl": "pl/kroki/pomodl-sie-do-patrona"
           }
@@ -316,7 +316,7 @@
           "pl": "podziękuj Bogu za święto"
         },
         "description": {
-          "params": [],
+          "params": ["addition-name"],
           "template": {
             "pl": "pl/kroki/podziekuj-bogu-za-swieto"
           }
@@ -1339,7 +1339,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["I", "BLOCKED!"],
+        "anybody-having-challenges": ["I"],
         "person-not-having-challenges": ["T"],
         "everybody-not-having-challenges-on-the-same-day": ["T"]
       }
@@ -1365,7 +1365,7 @@
           "pl": "pomódl się do Patrona"
         },
         "description": {
-          "params": [],
+          "params": ["person-name"],
           "template": {
             "pl": "pl/kroki/pomodl-sie-do-patrona-opiekuna"
           }
@@ -1412,7 +1412,7 @@
           "time": [0, 1]
         },
         "name": {
-          "pl": "godzina rozpoczęcia Mszy (jeśli wybrano kryterium Mszy)"
+          "pl": "godzina rozpoczęcia Mszy (jeśli wybrano kryterium Mszy) lub zaproszenia Patrona"
         }
       },
       "place": {
@@ -1420,7 +1420,7 @@
           "place": [0, 1]
         },
         "name": {
-          "pl": "miejsce Mszy (jeśli wybrano kryterium Mszy)"
+          "pl": "miejsce Mszy (jeśli wybrano kryterium Mszy) lub zaproszenia Patrona"
         }
       },
       "persons": {
@@ -1446,12 +1446,12 @@
 
   "X": {
     "name": {
-      "pl": "Czynności do wykonania"
+      "pl": "Inne"
     },
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/czynnosc-do-wykonania"
+        "pl": "pl/wyzwania/inne"
       }
     },
     "numbers": true,
@@ -1473,11 +1473,11 @@
     "notes": {
       "description": {
         "type": {
-          "todo": [1, 1]
+          "other": [1, 1]
         },
         "name": {
-          "en": "action to do",
-          "pl": "czynność do wykonania"
+          "en": "description",
+          "pl": "opis"
         }
       }
     }

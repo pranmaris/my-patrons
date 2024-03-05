@@ -69,9 +69,9 @@
     },
     "source": {
       "list": [
-        {"1": ["lang-mass", " + ", "lang-representation"]},
-        {"2": ["lang-mass", " + ", "lang-holy-card"]},
-        {"3": ["lang-representation", " + ", "lang-holy-card"]},
+        {"1": ["lang-holy-card", " + ", "lang-representation"]},
+        {"2": ["lang-holy-card", " + ", "lang-mass"]},
+        {"3": ["lang-representation", " + ", "lang-mass"]},
         {"4": ["lang-relics"]}
       ]
     }
@@ -153,6 +153,14 @@
       }
     }
   },
+  "other": {
+    "index": "other",
+    "name": {
+      "en": "description",
+      "pl": "opis"
+    },
+    "source": {}
+  },
   "person": {
     "index": "persons",
     "name": {
@@ -227,13 +235,5 @@
     "source": {
       "values": "sorted"
     }
-  },
-  "todo": {
-    "index": "todos",
-    "name": {
-      "en": "action description",
-      "pl": "opis czynności"
-    },
-    "source": {}
   }
 }
