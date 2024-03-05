@@ -1229,7 +1229,7 @@ function getPersonsDataSubelements(personIdPrefix) {
 
     const data = Object.keys(personsData);
     for (let personId of data) {
-      if (personId.substring(0, personIdPrefix.length) == personIdPrefix
+      if (personId.substring(0, personIdPrefix.length + 1) == personIdPrefix + '/'
         && personId.split('/').length - 1 === personIdPrefixSlashesCount + 1
       ) {
         result.push(personId);
