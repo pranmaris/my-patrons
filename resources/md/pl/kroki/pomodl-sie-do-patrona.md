@@ -8,6 +8,7 @@
 > Chwała Ojcu ...
 <hr />
 
-> Św./Bł. _**[tutaj zwróć się do Patrona lub Boga, którego nazwa to „#person-name#”]**_,  
+(adresat modlitwy to: „#person-name#”)  
+> Św./Bł. _**[wymień adresata modlitwy]**_,  
 > ... módl/módlcie się za mną. _**(gdy zwracamy się do Patrona)**_  
 > ... zmiłuj się nade mną. _**(gdy zwracamy się do Boga)**_

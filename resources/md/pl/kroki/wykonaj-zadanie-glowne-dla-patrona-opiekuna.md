@@ -18,9 +18,9 @@ lub **samodzielne zadanie**
   <li class="list-group-item">
     <span class="status status-title">WIZERUNEK</span><sup>1</sup> Miej bezpośrednio w zasięgu wzroku lub przebywaj w pomieszczeniu, gdzie jest:
     <ul>
-      <li><strong>rzeźba</strong> Patrona,</li>
-      <li><strong>witraż</strong> z Patronem,</li>
-      <li><strong>malowidło</strong> lub <strong>obraz ścienny</strong> z Patronem.</li>
+      <li><strong>rzeźba</strong> wybranego Patrona,</li>
+      <li><strong>witraż</strong> z tym Patronem,</li>
+      <li><strong>malowidło</strong> lub <strong>obraz ścienny</strong> z tym Patronem.</li>
     </ul>
   </li>
   <li class="list-group-item">

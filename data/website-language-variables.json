@@ -52,6 +52,11 @@
         "pl": "ministrant"
     },
 
+    "lang-ampoule-reliquary": {
+        "en": "ampoule reliquary",
+        "pl": "relikwiarz ampułkowy"
+    },
+
     "lang-around": {
         "en": "around",
         "la": "circa",
@@ -96,8 +101,28 @@
         "pl": "spad drukarski (mm)"
     },
 
+    "lang-blood-relics": {
+        "en": "blood relics",
+        "pl": "relikwie krwi"
+    },
+
+    "lang-body-relics": {
+        "en": "body relics",
+        "pl": "relikwie ciała"
+    },
+
+    "lang-bone-relics": {
+        "en": "bone relics",
+        "pl": "relikwie kości"
+    },
+
     "lang-buy-coffee": {
         "pl": "Buy Coffee"
+    },
+
+    "lang-bust-reliquary": {
+        "en": "bust reliquary",
+        "pl": "relikwiarz popiersia"
     },
 
     "lang-cancel": {
@@ -333,6 +358,11 @@
         "pl": "wyczyść"
     },
 
+    "lang-coffin-reliquary": {
+        "en": "coffin reliquary",
+        "pl": "relikwiarz trumienny"
+    },
+
     "lang-coming-soon": {
         "en": "coming soon",
         "pl": "już wkrótce"
@@ -367,6 +397,11 @@
     "lang-copyright-hidden-content-info": {
         "en": "content protected by copyright!",
         "pl": "treść chroniona prawami autorskimi!"
+    },
+
+    "lang-current-grave": {
+        "en": "current grave",
+        "pl": "aktualny grób"
     },
 
     "lang-data": {
@@ -588,6 +623,16 @@
         "pl": "imiona"
     },
 
+    "lang-former-grave": {
+        "en": "former grave",
+        "pl": "dawny grób"
+    },
+
+    "lang-frame-reliquary": {
+        "en": "frame reliquary",
+        "pl": "relikwiarz ramowy"
+    },
+
     "lang-further-name": {
         "en": "further name",
         "pl": "dalsza nazwa"
@@ -595,6 +640,11 @@
 
     "lang-github": {
         "en": "GitHub"
+    },
+
+    "lang-hair-relics": {
+        "en": "hair relics",
+        "pl": "relikwie włosów"
     },
 
     "lang-hide-fields": {
@@ -718,6 +768,11 @@
         "pl": "lokalizacja"
     },
 
+    "lang-locket-reliquary": {
+        "en": "locket reliquary",
+        "pl": "relikwiarz medalionowy"
+    },
+
     "lang-main-celebrant": {
         "en": "main celebrant",
         "pl": "główny celebrans"
@@ -764,6 +819,11 @@
         "pl": "nie podano właściciela"
     },
 
+    "lang-monstrance-reliquary": {
+        "en": "monstrance reliquary",
+        "pl": "relikwiarz monstrancyjny"
+    },
+
     "lang-month": {
         "en": "month",
         "la": "mensis",
@@ -778,6 +838,11 @@
     "lang-my-patrons-for-today": {
         "en": "My Patrons for today",
         "pl": "Moi Patroni na dziś"
+    },
+
+    "lang-nail-relics": {
+        "en": "nail relics",
+        "pl": "relikwie paznokci"
     },
 
     "lang-name": {
@@ -1064,6 +1129,16 @@
         "pl": "relikwie"
     },
 
+    "lang-relics-of-the-ashes": {
+        "en": "relics of the ashes",
+        "pl": "relikwie popiołu"
+    },
+
+    "lang-reliquary": {
+        "en": "reliquary",
+        "pl": "relikwiarz"
+    },
+
     "lang-remove-challenge": {
         "en": "remove challenge",
         "pl": "usuń wyzwanie"
@@ -1147,6 +1222,11 @@
         "pl": "Pokuta"
     },
 
+    "lang-second-class-relics": {
+        "en": "second class relics",
+        "pl": "relikwie drugiej klasy"
+    },
+
     "lang-second-or-further-name": {
         "en": "second or further name",
         "pl": "drugie imię lub dalsza nazwa"
@@ -1154,6 +1234,11 @@
 
     "lang-service-name": {
         "en": "myPatrons.org"
+    },
+
+    "lang-skull-relics": {
+        "en": "skull relics",
+        "pl": "relikwie czaszki"
     },
 
     "lang-status": {
@@ -1217,6 +1302,11 @@
     "lang-translations": {
         "en": "translations",
         "pl": "tłumaczenia"
+    },
+
+    "lang-transparent-coffin-reliquary": {
+        "en": "transparent coffin reliquary",
+        "pl": "przeźroczysty relikwiarz trumienny"
     },
 
     "lang-type": {
@@ -1312,8 +1402,8 @@
     },
 
     "lang-without-addition-selection": {
-        "en": "without additions selection",
-        "pl": "bez wybierania dodatku"
+        "en": "as person",
+        "pl": "jako osoba"
     },
 
     "lang-year": {

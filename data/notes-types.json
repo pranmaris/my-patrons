@@ -235,5 +235,35 @@
     "source": {
       "values": "sorted"
     }
+  },
+  "type-of-relic-or-grave": {
+    "index": "types-of-relics-and-graves",
+    "name": {
+      "en": "type of relic or grave",
+      "pl": "typ relikwii lub grobu"
+    },
+    "source": {
+      "list": [
+        {"1": ["lang-current-grave"]},
+        {"2": ["lang-former-grave"]},
+        {"31": ["lang-reliquary"]},
+        {"32": ["lang-ampoule-reliquary"]},
+        {"33": ["lang-coffin-reliquary"]},
+        {"34": ["lang-transparent-coffin-reliquary"]},
+        {"35": ["lang-bust-reliquary"]},
+        {"36": ["lang-monstrance-reliquary"]},
+        {"37": ["lang-frame-reliquary"]},
+        {"38": ["lang-locket-reliquary"]},
+        {"61": ["lang-body-relics"]},
+        {"62": ["lang-blood-relics"]},
+        {"63": ["lang-bone-relics"]},
+        {"64": ["lang-nail-relics"]},
+        {"65": ["lang-hair-relics"]},
+        {"66": ["lang-skull-relics"]},
+        {"67": ["lang-relics-of-the-ashes"]},
+        {"100": ["lang-second-class-relics"]}
+      ],
+      "values": "sorted"
+    }
   }
 }

@@ -1,6 +1,6 @@
 Wybierz święto, które:
-- **nie zostało** jeszcze przez Ciebie **odkryte**,
-- dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z kryterium**:
+- **nie zostało** jeszcze przez Ciebie **odkryte** (bez obaw, wykluczyliśmy je automatycznie z poniższej listy wyboru),
+- dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z kryterium** (tu musisz wybrać prawidłowe święto ręcznie, o ile w tym dniu takie w ogóle jest):
   - Martyrologium Rzymskie<sup>1</sup>,
   - kalendarz liturgiczny<sup>2</sup>,
   - odpust parafialny<sup>3</sup>

@@ -1,5 +1,5 @@
-**Odmów** następującą modlitwę:
-> Św./Bł. _**[tutaj zwróć się do Patrona, którego nazwa to „#person-name#”]**_,  
+**Odmów** następującą modlitwę (adresat modlitwy to: „#person-name#”):
+> Św./Bł. _**[wymień adresata modlitwy]**_,  
 > zapraszam Ciebie/Was do grona moich Patronów Opiekunów,  
 > proszę o opiekę i prowadzenie  
 > najlepszą dla mnie drogą do Nieba,  

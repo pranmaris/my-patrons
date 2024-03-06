@@ -1,5 +1,5 @@
-**Odmów** następującą modlitwę:
-> Św./Bł. _**[tutaj zwróć się do Patrona, którego nazwa to „#person-name#”]**_,  
+**Odmów** następującą modlitwę (adresat modlitwy to: „#person-name#”):
+> Św./Bł. _**[wymień adresata modlitwy]**_,  
 > zapraszam Ciebie/Was do grona moich Patronów Obrońców,  
 > proszę o obronę i umocnienie  
 > w mojej walce ze złem, grzechem i słabościami,  

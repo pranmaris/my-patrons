@@ -1444,6 +1444,103 @@
     }
   },
 
+  "TR": {
+    "name": {
+      "pl": "Relikwie i Groby"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/relikwie-i-groby"
+      }
+    },
+    "numbers": true,
+    "uniqueness": ["person", "notes/place"],
+    "addition-type": "",
+    "person": {
+      "types": ["God", "Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/wyzwania-patronow-opiekunow"
+        }
+      },
+      "requirements": {
+        "god-having-needed-challenges": true,
+        "anybody-having-challenges": ["T"],
+        "person-having-challenges": ["T"]
+      }
+    },
+    "checklist": {
+      "place": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "odwiedź relikwie lub grób Patrona"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odwiedz-relikwie-lub-grob-patrona"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "pomódl się do Patrona"
+        },
+        "description": {
+          "params": ["person-name"],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-do-patrona"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "place": {
+        "type": {
+          "place": [1, 1]
+        },
+        "name": {
+          "pl": "miejsce relikwii lub grobu"
+        }
+      },
+      "type": {
+        "type": {
+          "type-of-relic-or-grave": [0, 0]
+        },
+        "name": {
+          "pl": "typ relikwii lub grobu"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "X": {
     "name": {
       "pl": "Inne"
