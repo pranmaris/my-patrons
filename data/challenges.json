@@ -265,6 +265,106 @@
     }
   },
 
+  "AF": {
+    "name": {
+      "pl": "Odpusty Parafialne"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/odpusty-parafialne"
+      }
+    },
+    "numbers": true,
+    "uniqueness": ["person", "addition", "notes/place"],
+    "addition-type": "feasts",
+    "person": {
+      "types": ["God", "Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/wyzwania-patronow-obroncow"
+        }
+      },
+      "requirements": {
+        "god-having-needed-challenges": true,
+        "anybody-having-challenges": ["A"],
+        "anybody-having-challenges-on-the-same-day": ["A"],
+        "person-having-challenges": ["A"],
+        "person-addition-having-challenges": ["B"],
+        "everybody-not-having-challenges-on-the-same-day": ["AF"]
+      }
+    },
+    "checklist": {
+      "mass": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "weź udział w sumie odpustowej"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wez-udzial-w-sumie-odpustowej"
+          }
+        }
+      },
+      "indulgence": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "zdobądź odpust parafialny"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/zdobadz-odpust-parafialny"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina rozpoczęcia sumy odpustowej"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce sumy odpustowej"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "B": {
     "name": {
       "pl": "Święta"
@@ -296,19 +396,6 @@
       }
     },
     "checklist": {
-      "patron-defender": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "zaproś dowolnego Patrona Obrońcę"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/zapros-dowolnego-patrona-obronce"
-          }
-        }
-      },
       "prayer": {
         "to-complete-on-selected-date": false,
         "required": true,

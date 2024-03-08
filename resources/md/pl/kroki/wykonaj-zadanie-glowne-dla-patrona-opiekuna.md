@@ -16,11 +16,12 @@ lub **samodzielne zadanie**
     <strong>UWAGA!</strong> Każda osoba musi mieć swój osobny obrazek!
   </li>
   <li class="list-group-item">
-    <span class="status status-title">WIZERUNEK</span><sup>1</sup> Miej bezpośrednio w zasięgu wzroku lub przebywaj w pomieszczeniu, gdzie jest:
+    <span class="status status-title">WIZERUNEK</span><sup>1</sup> Miej bezpośrednio w zasięgu wzroku (ewentualnie zza krat lub szyby) lub przebywaj w pomieszczeniu, gdzie jest:
     <ul>
       <li><strong>rzeźba</strong> wybranego Patrona,</li>
       <li><strong>witraż</strong> z tym Patronem,</li>
       <li><strong>malowidło</strong> lub <strong>obraz ścienny</strong> z tym Patronem.</li>
+      <li><strong>ołtarz główny w świątyni</strong>, która jest pod wezwaniem tego Patrona, co pozwoli uniknąć wątpliwości gdzie jest jakikolwiek jego wizerunek, który zapewne gdzieś będzie się tam znajdował.</li>
     </ul>
   </li>
   <li class="list-group-item">
