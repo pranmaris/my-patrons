@@ -152,6 +152,7 @@ const REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES = 'person-not-having-challenges';
 const REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY = 'person-addition-is-not-empty';
 const REQUIREMENT_PERSON_ADDITION_HAVING_CHALLENGES = 'person-addition-having-challenges';
 const REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES = 'person-addition-not-having-challenges';
+const REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST = 'day-of-week-having-whitelist';
 
 const NOTE_CONFIG_SOURCE_TYPE_VALUES = 'values';
 const NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_SORTED = 'sorted';
@@ -755,6 +756,21 @@ function parseChallenge(rowId, challenge, contextData) {
         }
         break;
 
+      case REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST:
+        const weekday = getWeekdayForDateString(challengeDate);
+        const allowedDaysOfWeek = reqTypes;
+        if (!inArray(weekday, allowedDaysOfWeek)) {
+          let daysNames = [];
+          for (const englishName of allowedDaysOfWeek) {
+            daysNames.push(getLanguageVariable(WEEKDAY_LANGUAGE_VARIABLES_PREFIX + englishName));
+          }
+          throw {
+            message: 'lang-challenge-parse-error-for-requirement-day-of-week-having-whitelist',
+            data: daysNames
+          };
+        }
+        break;
+
       default:
         throw {
           message: 'lang-challenge-parse-error-missing-assigned-to-challenge-persons-requirement-type',
@@ -1019,8 +1035,12 @@ function getChallengeSuccessStatus(rowId) {
   return result;
 }
 
+function getWeekdayForDateString(dateString) {
+  return new Date(dateString).toLocaleString('en-us', {weekday: 'long'}).toLowerCase();
+}
+
 function getDateFormat(dateString) {
-  const weekday = new Date(dateString).toLocaleString('en-us', {weekday: 'long'});
+  const weekday = getWeekdayForDateString(dateString);
   const prefix = getLanguageVariable(WEEKDAY_LANGUAGE_VARIABLES_PREFIX + weekday.toLowerCase());
 
   return prefix + ' ' + dateString;
@@ -1231,6 +1251,16 @@ function checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirem
     if (additionsCount <= Object.keys(additionsToSkip).length) {
       return false;
     }
+  }
+
+  return true;
+}
+
+function checkIfChallengeDayOfWeekIsOnWhitelist(allowedDaysOfWeek, challengeDate) {
+  if (allowedDaysOfWeek.length > 0) {
+    const weekday = getWeekdayForDateString(challengeDate);
+
+    return inArray(weekday, allowedDaysOfWeek);
   }
 
   return true;
@@ -1478,6 +1508,7 @@ function resetChallengeTypeSelect() {
         || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
         || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
         || !checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, additionType, allPersonsToTakeForChallengeType, challengeDate)
+        || !checkIfChallengeDayOfWeekIsOnWhitelist(requirements[REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST] ?? [], challengeDate)
       ) {
         continue;
       }

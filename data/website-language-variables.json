@@ -238,6 +238,11 @@
         "pl": "brak typu wyzwania przypisanego do kogokolwiek w tym samym dniu"
     },
 
+    "lang-challenge-parse-error-for-requirement-day-of-week-having-whitelist": {
+        "en": "challenge day of week is not on whitelist",
+        "pl": "dzień tygodnia wyzwania nie jest na liście dozwolonych"
+    },
+
     "lang-challenge-parse-error-for-requirement-everybody-not-having-challenges": {
         "en": "this type of challenge has been assigned to anyone before mote times than there is allowed",
         "pl": "ten typ wyzwania został już przypisany wcześniej do jakiejkolwiek osoby więcej niż dozwolona liczba razy"

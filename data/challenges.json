@@ -605,7 +605,8 @@
         "anybody-having-challenges": ["N", "BLOCKED!"],
         "anybody-having-challenges-in-last-40-days": ["GF"],
         "everybody-not-having-challenges": ["9xGF"],
-        "everybody-not-having-challenges-on-the-same-day": ["GF"]
+        "everybody-not-having-challenges-on-the-same-day": ["GF"],
+        "day-of-week-having-whitelist": ["friday"]
 
 
 
