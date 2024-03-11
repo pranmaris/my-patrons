@@ -153,6 +153,7 @@ const REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY = 'person-addition-is-not-empty';
 const REQUIREMENT_PERSON_ADDITION_HAVING_CHALLENGES = 'person-addition-having-challenges';
 const REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES = 'person-addition-not-having-challenges';
 const REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST = 'day-of-week-having-whitelist';
+const REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM = 'day-of-month-having-maximum';
 
 const NOTE_CONFIG_SOURCE_TYPE_VALUES = 'values';
 const NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_SORTED = 'sorted';
@@ -771,6 +772,17 @@ function parseChallenge(rowId, challenge, contextData) {
         }
         break;
 
+      case REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM:
+        const dayOfMonth = getDayOfMonthForDateString(challengeDate);
+        const maxAllowedDayOfMonth = reqTypes;
+        if (dayOfMonth > maxAllowedDayOfMonth) {
+          throw {
+            message: 'lang-challenge-parse-error-for-requirement-day-of-month-having-maximum',
+            data: [maxAllowedDayOfMonth]
+          };
+        }
+        break;
+
       default:
         throw {
           message: 'lang-challenge-parse-error-missing-assigned-to-challenge-persons-requirement-type',
@@ -1039,6 +1051,10 @@ function getWeekdayForDateString(dateString) {
   return new Date(dateString).toLocaleString('en-us', {weekday: 'long'}).toLowerCase();
 }
 
+function getDayOfMonthForDateString(dateString) {
+  return Number(dateString.substring(8));
+}
+
 function getDateFormat(dateString) {
   const weekday = getWeekdayForDateString(dateString);
   const prefix = getLanguageVariable(WEEKDAY_LANGUAGE_VARIABLES_PREFIX + weekday.toLowerCase());
@@ -1261,6 +1277,16 @@ function checkIfChallengeDayOfWeekIsOnWhitelist(allowedDaysOfWeek, challengeDate
     const weekday = getWeekdayForDateString(challengeDate);
 
     return inArray(weekday, allowedDaysOfWeek);
+  }
+
+  return true;
+}
+
+function checkIfChallengeDayOfMonthIsNotGreaterThanMaximum(maximum, challengeDate) {
+  if (maximum > 0) {
+    const dayOfMonth = getDayOfMonthForDateString(challengeDate);
+
+    return dayOfMonth <= maximum;
   }
 
   return true;
@@ -1509,6 +1535,7 @@ function resetChallengeTypeSelect() {
         || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
         || !checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, additionType, allPersonsToTakeForChallengeType, challengeDate)
         || !checkIfChallengeDayOfWeekIsOnWhitelist(requirements[REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST] ?? [], challengeDate)
+        || !checkIfChallengeDayOfMonthIsNotGreaterThanMaximum(requirements[REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM] ?? 0, challengeDate)
       ) {
         continue;
       }

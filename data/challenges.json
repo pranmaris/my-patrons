@@ -606,10 +606,8 @@
         "anybody-having-challenges-in-last-40-days": ["GF"],
         "everybody-not-having-challenges": ["9xGF"],
         "everybody-not-having-challenges-on-the-same-day": ["GF"],
-        "day-of-week-having-whitelist": ["friday"]
-
-
-
+        "day-of-week-having-whitelist": ["friday"],
+        "day-of-month-having-maximum": 7
       }
     },
     "checklist": {

@@ -238,6 +238,11 @@
         "pl": "brak typu wyzwania przypisanego do kogokolwiek w tym samym dniu"
     },
 
+    "lang-challenge-parse-error-for-requirement-day-of-month-having-maximum": {
+        "en": "challenge day of month cannot be greater than specified maximum",
+        "pl": "dzień miesiąca wyzwania nie może być większy niż określone maksimum"
+    },
+
     "lang-challenge-parse-error-for-requirement-day-of-week-having-whitelist": {
         "en": "challenge day of week is not on whitelist",
         "pl": "dzień tygodnia wyzwania nie jest na liście dozwolonych"
