@@ -1130,6 +1130,10 @@ function checkExistingChallengeTypesBeforeDate(challengeType, requirements, chal
       const type = ch.type;
       const date = ch.date;
 
+      if (Date.parse(date) > checkDate) {
+        continue;
+      }
+
       if (type === challengeType) {
         foundAnyChallengeWithSameTypeBefore = true;
       }
@@ -1139,9 +1143,6 @@ function checkExistingChallengeTypesBeforeDate(challengeType, requirements, chal
         if (diffInDays > numberOfDaysBeforeCheckDate) {
           continue;
         }
-      }
-      if (Date.parse(date) > checkDate) {
-        continue;
       }
 
       foundPosition = types.indexOf(type);

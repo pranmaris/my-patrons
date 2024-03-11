@@ -602,7 +602,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["N", "BLOCKED!"],
+        "anybody-having-challenges": ["N", "SP", "SE", "BLOCKED!"],
         "anybody-having-challenges-in-last-40-days": ["GF"],
         "everybody-not-having-challenges": ["9xGF"],
         "everybody-not-having-challenges-on-the-same-day": ["GF"],
