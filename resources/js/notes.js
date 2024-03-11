@@ -643,10 +643,12 @@ function parseChallenge(rowId, challenge, contextData) {
           if ((manyPersonsDatesContext[type] ?? null) === null
             || getDatesDiffInDays(challengeDate, manyPersonsDatesContext[type]) > 40
           ) {
-            throw {
-              message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-40-days',
-              data: [type]
-            };
+            if (challengeType !== type || (manyPersonsCountsContext[type] ?? null) !== null) {
+              throw {
+                message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-40-days',
+                data: [type]
+              };
+            }
           }
         }
         break;
@@ -1076,11 +1078,12 @@ function getTypesArrayWithDuplications(array) {
   return result;
 }
 
-function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDateString, numberOfDaysBeforeCheckDate = null) {
+function checkExistingChallengeTypesBeforeDate(challengeType, requirements, challenges, checkDateString, numberOfDaysBeforeCheckDate = null) {
   const checkDate = Date.parse(checkDateString);
 
   let types = getTypesArrayWithDuplications(requirements);
   if (types.length > 0) {
+    let foundAnyChallengeWithSameTypeBefore = false;
     let rowId = 0;
     for (let ch of challenges) {
       rowId++;
@@ -1091,6 +1094,10 @@ function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDa
       const type = ch.type;
       const date = ch.date;
 
+      if (type === challengeType) {
+        foundAnyChallengeWithSameTypeBefore = true;
+      }
+
       if (numberOfDaysBeforeCheckDate !== null) {
         const diffInDays = getDatesDiffInDays(checkDateString, date);
         if (diffInDays > numberOfDaysBeforeCheckDate) {
@@ -1098,7 +1105,7 @@ function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDa
         }
       }
       if (Date.parse(date) > checkDate) {
-        return false;
+        continue;
       }
 
       foundPosition = types.indexOf(type);
@@ -1109,6 +1116,16 @@ function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDa
           return true;
         }
       }
+    }
+
+    if (!foundAnyChallengeWithSameTypeBefore) {
+      for (let type of types) {
+        if (type !== challengeType) {
+          return false;
+        }
+      }
+
+      return true;
     }
 
     return false;
@@ -1455,9 +1472,9 @@ function resetChallengeTypeSelect() {
         allPersonsToTakeForChallengeType = {...allPersonsToTakeForChallengeType, ...allPersonsToTakeByPersonType[personType]};
       }
 
-      if (!checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
-        || !checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS] ?? [], challenges, challengeDate, 40)
-        || !checkExistingChallengeTypesBeforeDate(requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate, 0)
+      if (!checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
+        || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS] ?? [], challenges, challengeDate, 40)
+        || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate, 0)
         || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
         || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
         || !checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, additionType, allPersonsToTakeForChallengeType, challengeDate)
