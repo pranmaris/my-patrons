@@ -239,8 +239,8 @@
     },
 
     "lang-challenge-parse-error-for-requirement-everybody-not-having-challenges": {
-        "en": "this type of challenge has been assigned to anyone before",
-        "pl": "ten typ wyzwania został już przypisany wcześniej do jakiejkolwiek osoby"
+        "en": "this type of challenge has been assigned to anyone before mote times than there is allowed",
+        "pl": "ten typ wyzwania został już przypisany wcześniej do jakiejkolwiek osoby więcej niż dozwolona liczba razy"
     },
 
     "lang-challenge-parse-error-for-requirement-everybody-not-having-challenges-on-the-same-day": {

@@ -665,11 +665,15 @@ function parseChallenge(rowId, challenge, contextData) {
         break;
 
       case REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES:
-        for (const type of reqTypes) {
-          if ((manyPersonsCountsContext[type] ?? null) !== null) {
+        let exceededCounts = {};
+        for (const type of reqTypesWithDuplications) {
+          exceededCounts[type] = (exceededCounts[type] ?? 0) + 1;
+        }
+        for (const type of reqTypesWithDuplications) {
+          if ((manyPersonsCountsContext[type] ?? 0) >= (exceededCounts[type] ?? 0)) {
             throw {
               message: 'lang-challenge-parse-error-for-requirement-everybody-not-having-challenges',
-              data: [type]
+              data: [exceededCounts[type] + 'x' + type]
             };
           }
         }
@@ -1114,8 +1118,13 @@ function checkExistingChallengeTypesBeforeDate(requirements, challenges, checkDa
 }
 
 function checkNotExistingChallengeTypes(requirements, challenges) {
-  let types = requirements;
+  let types = reqTypesWithDuplications = getTypesArrayWithDuplications(requirements);
   if (types.length > 0) {
+    let exceededCounts = [];
+    for (const type of types) {
+      exceededCounts[type] = (exceededCounts[type] ?? 0) + 1;
+    }
+
     let rowId = 0;
     for (let ch of challenges) {
       rowId++;
@@ -1126,7 +1135,11 @@ function checkNotExistingChallengeTypes(requirements, challenges) {
       const type = ch.type;
 
       if (inArray(type, types)) {
-        return false;
+        if (exceededCounts[type] === 1) {
+          return false;
+        }
+
+        exceededCounts[type]--;
       }
     }
   }

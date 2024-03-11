@@ -580,6 +580,47 @@
     }
   },
 
+  "GF": {
+    "name": {
+      "pl": "Nabożeństwo IX Pierwszych Piątków Miesiąca"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/nabozenstwo-ix-pierwszych-piatkow-miesiaca"
+      }
+    },
+    "numbers": true,
+    "uniqueness": [],
+    "addition-type": "",
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["N", "BLOCKED!"],
+        "everybody-not-having-challenges": ["9xGF"]
+
+
+
+      }
+    },
+    "checklist": {
+
+
+
+    },
+    "notes": {
+
+
+
+    }
+  },
+
   "N": {
     "name": {
       "pl": "Narodziny"

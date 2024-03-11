@@ -1,4 +1,4 @@
-Zakładając, że w tym dniu przyjąłeś już **Komunię Świętą** (zapraszając dowolnego **Patrona Obrońcę** w osobnym wyzwaniu) oraz wziąłeś udział w **sumie odpustowej** (patrz poprzedni krok), aby **zdobyć odpust parafialny** musisz wykonać jeszcze poniższe kroki:
+Zakładając, że w tym dniu przyjąłeś już **Komunię Świętą** (zapraszając dowolnego **Patrona Obrońcę** w osobnym wyzwaniu) oraz wziąłeś udział w **sumie odpustowej** (patrz poprzedni krok), aby **zdobyć odpust parafialny** musisz wykonać jeszcze tylko poniższe kroki:
 - **odmów** poniższe modlitwy **w intencjach papieskich**: 
 > Ojcze Nasz ...,  
 > Zdrowaś Maryjo ....
