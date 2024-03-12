@@ -30,7 +30,7 @@ lub **samodzielne zadanie**
   <li class="list-group-item">
     <span class="status status-title">RELIKWIE</span> Miej bezpośrednio w zasięgu wzroku <strong>grób</strong> (nie musi być aktualny), <strong>relikwiarz</strong> lub <strong>relikwie</strong> Patrona.
     <br />
-    <strong>UWAGA!</strong> W tej sytuacji, w <span class="selected-day-info">wybranym dniu</span> <strong>musisz</strong> również dodać pierwsze wyzwanie <span class="status status-list"><span class="status status-list">TR</span> Relikwie i Groby</span> dla tego Patrona!
+    <strong>UWAGA!</strong> W tej sytuacji, w <span class="selected-day-info">wybranym dniu</span> <strong>musisz</strong> również dodać pierwsze wyzwanie <span class="status status-list"><span class="status status-list">TR</span> Relikwie lub Grób</span> dla tego Patrona!
   </li>
 </ul>
 

@@ -1,12 +1,12 @@
 {
   "A": {
     "name": {
-      "pl": "Patroni Obrońcy"
+      "pl": "Patron Obrońca"
     },
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/patroni-obroncy"
+        "pl": "pl/wyzwania/patron-obronca"
       }
     },
     "numbers": false,
@@ -17,7 +17,7 @@
       "description": {
         "params": ["current-year", "challenge-date"],
         "template": {
-          "pl": "pl/osoby/patroni-obroncy"
+          "pl": "pl/osoby/patron-obronca"
         }
       },
       "requirements": {
@@ -151,12 +151,12 @@
 
   "AC": {
     "name": {
-      "pl": "Kościoły"
+      "pl": "Kościół"
     },
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/koscioly"
+        "pl": "pl/wyzwania/kosciol"
       }
     },
     "numbers": true,
@@ -267,12 +267,12 @@
 
   "AF": {
     "name": {
-      "pl": "Odpusty Parafialne"
+      "pl": "Odpust Parafialny"
     },
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/odpusty-parafialne"
+        "pl": "pl/wyzwania/odpust-parafialny"
       }
     },
     "numbers": true,
@@ -367,12 +367,12 @@
 
   "B": {
     "name": {
-      "pl": "Święta"
+      "pl": "Święto"
     },
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/swieta"
+        "pl": "pl/wyzwania/swieto"
       }
     },
     "numbers": true,
@@ -383,7 +383,7 @@
       "description": {
         "params": ["current-year", "challenge-date"],
         "template": {
-          "pl": "pl/osoby/swieta"
+          "pl": "pl/osoby/swieto"
         }
       },
       "requirements": {
@@ -1455,12 +1455,12 @@
 
   "SPA": {
     "name": {
-      "pl": "Spowiedzi Święte"
+      "pl": "Spowiedź Święta"
     },
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/spowiedzi-swiete"
+        "pl": "pl/wyzwania/spowiedz-swieta"
       }
     },
     "numbers": true,
@@ -1558,12 +1558,12 @@
 
   "T": {
     "name": {
-      "pl": "Patroni Opiekunowie"
+      "pl": "Patron Opiekun"
     },
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/patroni-opiekunowie"
+        "pl": "pl/wyzwania/patron-opiekun"
       }
     },
     "numbers": false,
@@ -1574,7 +1574,7 @@
       "description": {
         "params": [],
         "template": {
-          "pl": "pl/osoby/patroni-opiekunowie"
+          "pl": "pl/osoby/patron-opiekun"
         }
       },
       "requirements": {
@@ -1685,12 +1685,12 @@
 
   "TR": {
     "name": {
-      "pl": "Relikwie i Groby"
+      "pl": "Relikwie lub Grób"
     },
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/relikwie-i-groby"
+        "pl": "pl/wyzwania/relikwie-lub-grob"
       }
     },
     "numbers": true,
