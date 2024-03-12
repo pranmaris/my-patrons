@@ -181,6 +181,14 @@
       "values": "sorted"
     }
   },
+  "relic-or-grave-description": {
+    "index": "relic-or-grave-descriptions",
+    "name": {
+      "en": "relic of grave description",
+      "pl": "opis relikwii lub grobu"
+    },
+    "source": {}
+  },
   "role-at-mass": {
     "index": "roles-at-mass",
     "name": {

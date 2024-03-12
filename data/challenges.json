@@ -602,7 +602,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["N", "SP", "SE", "BLOCKED!"],
+        "anybody-having-challenges": ["N", "SP", "SE"],
         "anybody-having-challenges-in-last-40-days": ["GF"],
         "everybody-not-having-challenges": ["9xGF"],
         "everybody-not-having-challenges-on-the-same-day": ["GF"],
@@ -611,14 +611,124 @@
       }
     },
     "checklist": {
-
-
-
+      "confession": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "wyspowiadaj się przed pierwszym piątkiem miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wyspowiadaj-sie-przed-pierwszym-piatkiem-miesiaca"
+          }
+        }
+      },
+      "holy-hour": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "adoruj Jezusa w „Godzinę Świętą” przed pierwszym piątkiem miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/adoruj-jezusa-w-godzine-swieta-przed-pierwszym-piatkiem-miesiaca"
+          }
+        }
+      },
+      "communion": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "przyjmij Komunię Świętą w pierwszy piątek miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/przyjmij-komunie-swieta-w-pierwszy-piatek-miesiaca"
+          }
+        }
+      },
+      "mass": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "weź udział we Mszy Świętej w pierwszy piątek miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wez-udzial-we-mszy-swietej-w-pierwszy-piatek-miesiaca"
+          }
+        }
+      },
+      "litany": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "odmów „Litanię do Najświętszego Serca Jezusa” w pierwszy piątek miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odmow-litanie-do-najswietszego-serca-jezusa-w-pierwszy-piatek-miesiaca"
+          }
+        }
+      },
+      "act-of-dedication": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "odmów „Akt poświęcenia rodzaju ludzkiego Najświętszemu Sercu Jezusa” w pierwszy piątek miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odmow-akt-poswiecenia-rodzaju-ludzkiego-najswietszemu-sercu-jezusa-w-pierwszy-piatek-miesiaca"
+          }
+        }
+      },
+      "9-fridays-in-a-row": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "odpraw IX Nabożeństw Pierwszych Piątków Miesiąca z rzędu"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odpraw-ix-nabozenstw-pierwszych-piatkow-miesiaca-z-rzedu"
+          }
+        }
+      }
     },
     "notes": {
-
-
-
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina rozpoczęcia Mszy lub przyjęcia Komunii Świętej"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce Mszy lub przyjęcia Komunii Świętej"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
     }
   },
 
@@ -1652,7 +1762,8 @@
       },
       "type": {
         "type": {
-          "type-of-relic-or-grave": [0, 0]
+          "type-of-relic-or-grave": [0, 0],
+          "relic-or-grave-description": [0, 1]
         },
         "name": {
           "pl": "typ relikwii lub grobu"
