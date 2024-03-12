@@ -155,6 +155,15 @@ const REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES = 'person-addition-not-h
 const REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST = 'day-of-week-having-whitelist';
 const REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM = 'day-of-month-having-maximum';
 
+const PARSE_REQUIREMENTS_SINCE_ACTIVE_DATES = {
+  [REQUIREMENT_ANYBODY_HAVING_CHALLENGES]: {
+    I: '2021-01-01'
+  },
+  [REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS]: {
+    SPA: '2021-01-01'
+  }
+};
+
 const NOTE_CONFIG_SOURCE_TYPE_VALUES = 'values';
 const NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_SORTED = 'sorted';
 const NOTE_CONFIG_SOURCE_TYPE_LIST = 'list';
@@ -631,7 +640,9 @@ function parseChallenge(rowId, challenge, contextData) {
           neededCounts[type] = (neededCounts[type] ?? 0) + 1;
 
           const neededCount = neededCounts[type] ?? 1;
-          if ((manyPersonsCountsContext[type] ?? 0) < neededCount) {
+          if (!isWarningIgnoredForOldChallenges(challengeDate, type, reqName)
+            && (manyPersonsCountsContext[type] ?? 0) < neededCount
+          ) {
             throw {
               message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges',
               data: [neededCount + 'x' + type]
@@ -645,7 +656,9 @@ function parseChallenge(rowId, challenge, contextData) {
           if ((manyPersonsDatesContext[type] ?? null) === null
             || getDatesDiffInDays(challengeDate, manyPersonsDatesContext[type]) > 40
           ) {
-            if (challengeType !== type || (manyPersonsCountsContext[type] ?? null) !== null) {
+            if (!isWarningIgnoredForOldChallenges(challengeDate, type, reqName)
+              && (challengeType !== type || (manyPersonsCountsContext[type] ?? null) !== null)
+            ) {
               throw {
                 message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-40-days',
                 data: [type]
@@ -3390,6 +3403,19 @@ async function setRandomBibleChapter(language) {
   }
 
   button.innerHTML += ': ' + suffix;
+}
+
+function isWarningIgnoredForOldChallenges(challengeDateString, challengeType, requirementName) {
+  const inactiveDateString = (PARSE_REQUIREMENTS_SINCE_ACTIVE_DATES[requirementName] ?? {})[challengeType] ?? null;
+
+  if (inactiveDateString !== null) {
+    const challengeDate = Date.parse(challengeDateString);
+    const inactiveDate = Date.parse(inactiveDateString);
+
+    return challengeDate < inactiveDate;
+  }
+
+  return false;
 }
 
 build();
