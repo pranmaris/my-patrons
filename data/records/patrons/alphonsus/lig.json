@@ -55,7 +55,7 @@
   "also-in-martyrology": ["08-01", "08-02"],
   "also-mentioned": [],
 
-  "categories": ["male", "bishop", "doctor-of-the-church", "religious"],
+  "categories": ["mal", "bis", "doc", "rel"],
   "order": ["CSsR"],
 
   "images": {
