@@ -591,7 +591,7 @@
       }
     },
     "numbers": true,
-    "uniqueness": [],
+    "uniqueness": ["person", "date"],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -637,19 +637,6 @@
           }
         }
       },
-      "communion": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "przyjmij Komunię Świętą w pierwszy piątek miesiąca"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/przyjmij-komunie-swieta-w-pierwszy-piatek-miesiaca"
-          }
-        }
-      },
       "mass": {
         "to-complete-on-selected-date": false,
         "required": false,
@@ -660,6 +647,19 @@
           "params": [],
           "template": {
             "pl": "pl/kroki/wez-udzial-we-mszy-swietej-w-pierwszy-piatek-miesiaca"
+          }
+        }
+      },
+      "communion": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "przyjmij Komunię Świętą w pierwszy piątek miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/przyjmij-komunie-swieta-w-pierwszy-piatek-miesiaca"
           }
         }
       },
@@ -718,6 +718,152 @@
         },
         "name": {
           "pl": "miejsce Mszy lub przyjęcia Komunii Świętej"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "GS": {
+    "name": {
+      "pl": "Nabożeństwo V Pierwszych Sobót Miesiąca"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/nabozenstwo-v-pierwszych-sobot-miesiaca"
+      }
+    },
+    "numbers": true,
+    "uniqueness": ["person", "date"],
+    "addition-type": "",
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["N", "SP", "SE"],
+        "everybody-not-having-challenges": ["5xGS"],
+        "everybody-not-having-challenges-on-the-same-day": ["GS"],
+        "day-of-week-having-whitelist": ["saturday"],
+        "day-of-month-having-maximum": 7
+      }
+    },
+    "checklist": {
+      "offence": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "wybierz za które zniewagi przeciw Niepokalanemu Sercu Maryi będziesz wynagradzać"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wybierz-za-ktore-zniewagi-przeciw-niepokalanemu-sercu-maryi-bedziesz-wynagradzac"
+          }
+        }
+      },
+      "confession": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "wyspowiadaj się przed pierwszą sobotą miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wyspowiadaj-sie-przed-pierwsza-sobota-miesiaca"
+          }
+        }
+      },
+      "mass": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "weź udział we Mszy Świętej w pierwszą sobotę miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wez-udzial-we-mszy-swietej-w-pierwsza-sobote-miesiaca"
+          }
+        }
+      },
+      "communion": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "przyjmij Komunię Świętą w pierwszą sobotę miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/przyjmij-komunie-swieta-w-pierwsza-sobote-miesiaca"
+          }
+        }
+      },
+      "rosary": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "odmów jedną część różańca w pierwszą sobotę miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odmow-jedna-czesc-rozanca-w-pierwsza-sobote-miesiaca"
+          }
+        }
+      },
+      "meditation": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "medytuj nad tajemnicami różańcowymi w pierwszą sobotę miesiąca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/medytuj-nad-tajemnicami-rozancowymi-w-pierwsza-sobote-miesiaca"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina rozpoczęcia Mszy lub przyjęcia Komunii Świętej"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce Mszy lub przyjęcia Komunii Świętej"
+        }
+      },
+      "rosary": {
+        "type": {
+          "mysteries-of-the-rosary": [0, 1]
+        },
+        "name": {
+          "pl": "odmówione tajemnice Różańca"
         }
       },
       "other": {

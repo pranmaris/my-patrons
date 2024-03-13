@@ -1185,6 +1185,26 @@
         "pl": "Martyrologium Rzymskie"
     },
 
+    "lang-rosary-glorious-mysteries": {
+        "en": "glorious mysteries",
+        "pl": "tajemnice chwalebne"
+    },
+
+    "lang-rosary-joyful-mysteries": {
+        "en": "joyful mysteries",
+        "pl": "tajemnice radosne"
+    },
+
+    "lang-rosary-mysteries-of-light": {
+        "en": "mysteries of light",
+        "pl": "tajemnice światła"
+    },
+
+    "lang-rosary-sorrowful-mysteries": {
+        "en": "sorrowful mysteries",
+        "pl": "tajemnice bolesne"
+    },
+
     "lang-row-id": {
         "en": "No.",
         "pl": "Lp."

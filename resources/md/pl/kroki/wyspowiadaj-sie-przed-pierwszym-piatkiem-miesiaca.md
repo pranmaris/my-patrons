@@ -5,4 +5,4 @@ Przed pierwszym piątkiem miesiąca **przystąp** do Sakramentu Pokuty i Pojedna
 1. Spowiedź szczera,
 1. Zadośćuczynienie Panu Bogu i Bliźniemu.
 
-**UWAGA**! Jeżeli nie udało Ci się wyspowiadać na krótko (maksymalnie kilka dni) przed tym konkretnym pierwszym piątkiem, którego dotyczy to wyzwanie, **pozostaw ten krok jako oczekujący i daj sobie szansę jego zmiany na wykonany w przyszłości**, spowiadając się przed jakimkolwiek pierwszym piątkiem nieprzypisanym do żadnego wyzwania.
+**UWAGA**! Jeżeli nie udało Ci się wyspowiadać na krótko (maksymalnie kilka dni) przed tym konkretnym pierwszym piątkiem, którego dotyczy to wyzwanie, **pozostaw ten krok jako oczekujący i daj sobie szansę jego zmiany na wykonany w przyszłości**, spowiadając się przed jakimkolwiek pierwszym piątkiem nieprzypisanym już do żadnego wyzwania.

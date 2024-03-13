@@ -153,6 +153,22 @@
       }
     }
   },
+  "mysteries-of-the-rosary": {
+    "index": "mysteries-of-the-rosary",
+    "name": {
+      "en": "mysteries of the Rosary",
+      "pl": "tajemnice Różańca"
+    },
+    "source": {
+      "list": [
+        {"1": ["lang-rosary-joyful-mysteries"]},
+        {"2": ["lang-rosary-mysteries-of-light"]},
+        {"3": ["lang-rosary-sorrowful-mysteries"]},
+        {"4": ["lang-rosary-glorious-mysteries"]}
+      ],
+      "values": "sorted"
+    }
+  },
   "other": {
     "index": "other",
     "name": {
