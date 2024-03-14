@@ -15,7 +15,7 @@
     "3": {
         "base": "getBaptismOfJesusFeastDateValidToday",
         "move": 0,
-        "la": "[(c)]: ([1|1])"
+        "la": "(...)[/][1|F(...)i], (...)[/][(c)]"
     },
 
     "4": {
@@ -109,6 +109,6 @@
     "15": {
         "base": "getFirstSundayOfAdventDateValidToday",
         "move": -7,
-        "la": "[(c)]: ([1|1])"
+        "la": "(...)[/][1|S(...)s]. (...)[/][(c)]"
     }
 }

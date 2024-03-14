@@ -344,10 +344,10 @@
         "base": "getJesusTheKingFeastDateValidBeforeMr2001",
         "move": 0,
         "title": {
-          "la": "[(c)]: ([1|1])"
+          "la": "(...)"
         },
         "description": {
-          "la": ""
+          "la": "[1|F(...)s].[/][(c)]"
         },
         "additional-info": {
           "la": ""
