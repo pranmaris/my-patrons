@@ -3,13 +3,13 @@
         "page": 35,
         "base": "getFirstSundayOfAdventDateValidToday",
         "move": 0,
-        "la": "[(c)]: ([1|1])"
+        "la": "...[/][1|D...i], ...[/][(c)]"
     },
 
     "2": {
         "base": "getHolyFamilyFeastDateValidToday",
         "move": 0,
-        "la": "[(c)]: ([1|1], [2|2], [3|3])"
+        "la": "...[/][1|F...u], [2|M...æ] ... [3|I...h], ...[/][(c)]"
     },
 
     "3": {
@@ -21,13 +21,13 @@
     "4": {
         "base": "getResurrectionFeastDateValidToday",
         "move": -46,
-        "la": "[(c)]: ([1|1])"
+        "la": "...[/][1|D...m] ...[/][(c)]"
     },
 
     "5": {
         "base": "getResurrectionFeastDateValidToday",
         "move": -42,
-        "la": "[(c)]: ([1|1])"
+        "la": "...[/][1|D...a], ...[/][(c)]"
     },
 
     "6": {
@@ -48,13 +48,13 @@
             "2": -2,
             "3": -1
         },
-        "la": "[(c)]: ([1|1], [2|2], [3|3])"
+        "la": "[1|F...æ], [2|f...i] ... [3|S...o][/]...[/][(c)]"
     },
 
     "8": {
         "base": "getResurrectionFeastDateValidToday",
         "move": 0,
-        "la": "[(c)]: ([1|1])"
+        "la": "...[/]...: [1|R...i] ...[/]...[/][(c)]"
     },
 
     "9": {
@@ -66,19 +66,19 @@
             "1": 39,
             "2": 42
         },
-        "la": "[(c)]: ([1|1], [2|2])"
+        "la": "...*[/][1|S...i], ...[/]*..., [2|d...e].[/][(c)]"
     },
 
     "10": {
         "base": "getResurrectionFeastDateValidToday",
         "move": 49,
-        "la": "[(c)]: ([1|1])"
+        "la": "...[/][1|D...s], ...[/][(c)]"
     },
 
     "11": {
         "base": "getResurrectionFeastDateValidToday",
         "move": 56,
-        "la": "[(c)]: ([1|1])"
+        "la": "...[/][1|S...s], ...[/][(c)]"
     },
 
     "12": {
@@ -103,7 +103,7 @@
     "14": {
         "base": "getResurrectionFeastDateValidToday",
         "move": 69,
-        "la": "[(c)]: ([1|1])"
+        "la": "...[/][1|M...s], ...[/][(c)]"
     },
 
     "15": {

@@ -61,10 +61,10 @@
         "base": "getResurrectionFeastDateValidToday",
         "move": -46,
         "title": {
-          "la": "[(c)]: ([1|1])"
+          "la": "..."
         },
         "description": {
-          "la": ""
+          "la": "[1|D...m], ...[/][(c)]"
         },
         "additional-info": {
           "la": ""
@@ -89,10 +89,10 @@
         "base": "getResurrectionFeastDateValidToday",
         "move": -9,
         "title": {
-          "la": "[(c)]: ([1|1])"
+          "la": "..."
         },
         "description": {
-          "la": ""
+          "la": "[1|F...æ].[/][(c)]"
         },
         "additional-info": {
           "la": ""
@@ -106,7 +106,7 @@
           "la": "..."
         },
         "description": {
-          "la": "[1|D...m] ...[/][(c)]"
+          "la": "[1|D...m], ...[/][(c)]"
         },
         "additional-info": {
           "la": ""
@@ -117,10 +117,10 @@
         "base": "getResurrectionFeastDateValidToday",
         "move": -3,
         "title": {
-          "la": "[(c)]: ([1|1])"
+          "la": "..."
         },
         "description": {
-          "la": ""
+          "la": "[1|C...a], ...[/][(c)]"
         },
         "additional-info": {
           "la": ""
@@ -131,10 +131,10 @@
         "base": "getResurrectionFeastDateValidToday",
         "move": 0,
         "title": {
-          "la": "[(c)]: ([1|1])"
+          "la": "..."
         },
         "description": {
-          "la": ""
+          "la": "...: [1|R...i] ...[/][(c)]"
         },
         "additional-info": {
           "la": ""
@@ -216,10 +216,10 @@
         "base": "getResurrectionFeastDateValidToday",
         "move": 39,
         "title": {
-          "la": "[(c)]: ([1|1])"
+          "la": "..."
         },
         "description": {
-          "la": ""
+          "la": "... [1|A...i].[/][(c)]"
         },
         "additional-info": {
           "la": ""
@@ -230,10 +230,10 @@
         "base": "getResurrectionFeastDateValidToday",
         "move": 46,
         "title": {
-          "la": "[(c)]: ([1|1])"
+          "la": "..."
         },
         "description": {
-          "la": ""
+          "la": "[1|O...i].[/][(c)]"
         },
         "additional-info": {
           "la": ""
@@ -244,10 +244,10 @@
         "base": "getResurrectionFeastDateValidToday",
         "move": 48,
         "title": {
-          "la": "[(c)]: ([1|1])"
+          "la": "..."
         },
         "description": {
-          "la": ""
+          "la": "[1|V...s].[/][(c)]"
         },
         "additional-info": {
           "la": ""
@@ -258,10 +258,10 @@
         "base": "getResurrectionFeastDateValidToday",
         "move": 49,
         "title": {
-          "la": "[(c)]: ([1|1])"
+          "la": "..."
         },
         "description": {
-          "la": ""
+          "la": "[1|D...s], ...[/][(c)]"
         },
         "additional-info": {
           "la": ""
@@ -272,10 +272,10 @@
         "base": "getResurrectionFeastDateValidToday",
         "move": 56,
         "title": {
-          "la": "[(c)]: ([1|1])"
+          "la": "..."
         },
         "description": {
-          "la": ""
+          "la": "[1|F...s], ... [2|O...s].[/][(c)]"
         },
         "additional-info": {
           "la": ""
