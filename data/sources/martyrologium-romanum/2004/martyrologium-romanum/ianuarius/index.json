@@ -3,5 +3,10 @@
         "la": "Die 1 ianuarii (Kaléndis ianuárii)",
         "en": "On 1st January (On the January Kalends)",
         "pl": "Dnia 1 stycznia (Kalendy styczniowe)"
+    },
+    "die-3-ianuarii": {
+        "la": "Die 3 ianuarii (Tértio Nonas ianuárii)",
+        "en": "On 3rd January (The 3rd day before the January Nones)",
+        "pl": "Dnia 3 stycznia (3 dzień przed nonami styczniowymi)"
     }
 }

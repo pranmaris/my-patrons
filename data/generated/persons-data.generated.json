@@ -24,6 +24,12 @@
                     "pl": "Pierwsza Niedziela Adwentu"
                 }
             },
+            "feasts/nat": {
+                "names": {
+                    "la": "Nativitas Domini",
+                    "pl": "Narodzenie Pańskie"
+                }
+            },
             "feasts/sni": {
                 "names": {
                     "la": "Sanctissimum Nomen Iesus",
@@ -155,6 +161,12 @@
                 "names": {
                     "la": "Octava Sacratissimi Cordis Iesu",
                     "pl": "Oktawa Najświętszego Serca Jezusa"
+                }
+            },
+            "feasts/tra": {
+                "names": {
+                    "la": "Transfiguratio Domini",
+                    "pl": "Przemienienie Pańskie"
                 }
             },
             "feasts/rex": {

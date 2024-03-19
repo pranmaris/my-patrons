@@ -94,6 +94,10 @@
     "mis": {
         "pl": "Miłosierdzie Boże"
     },
+    "nat": {
+        "la": "Nativitas Domini",
+        "pl": "Narodzenie Pańskie"
+    },
     "pen": {
         "la": "Dies Pentecostes",
         "pl": "Zesłanie Ducha Świętego"
@@ -149,6 +153,10 @@
     "sni": {
         "la": "Sanctissimum Nomen Iesus",
         "pl": "Najświętsze Imię Jezus"
+    },
+    "tra": {
+        "la": "Transfiguratio Domini",
+        "pl": "Przemienienie Pańskie"
     },
     "tri": {
         "la": "Sollemnitas sacratissimae et indivíduae Trinitatis",

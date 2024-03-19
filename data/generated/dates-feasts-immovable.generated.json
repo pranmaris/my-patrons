@@ -11,6 +11,40 @@
             }
         }
     },
+    "01-03": {
+        "records/god/fil#sni": {
+            "name": {
+                "la": "Iesus Christus (Sanctissimum Nomen Iesus)",
+                "pl": "Jezus Chrystus (Najświętsze Imię Jezus)"
+            },
+            "sources": {
+                "mr-2004": "3 I: #1"
+            }
+        }
+    },
+    "08-06": {
+        "records/god/fil#tra": {
+            "name": {
+                "la": "Iesus Christus (Transfiguratio Domini)",
+                "pl": "Jezus Chrystus (Przemienienie Pańskie)"
+            },
+            "sources": {
+                "mr-2004": "6 VIII: #1"
+            }
+        }
+    },
+    "08-15": {
+        "records/patrons/maria/naz#ass": {
+            "name": {
+                "en": "Mary, mother of Jesus (Assumption of Mary)",
+                "la": "Maria Virgo (Assumptio Beatae Mariae Virginis)",
+                "pl": "Maria z Nazaretu (Wniebowzięcie Najświętszej Maryi Panny)"
+            },
+            "sources": {
+                "mr-2004": "15 VIII: #1"
+            }
+        }
+    },
     "10-11": {
         "records/patrons/maria/naz#mat": {
             "name": {
@@ -20,6 +54,17 @@
             },
             "sources": {
                 "mr-1956": "11 X: #1"
+            }
+        }
+    },
+    "12-25": {
+        "records/god/fil#nat": {
+            "name": {
+                "la": "Iesus Christus (Nativitas Domini)",
+                "pl": "Jezus Chrystus (Narodzenie Pańskie)"
+            },
+            "sources": {
+                "mr-2004": "25 XII: #1"
             }
         }
     }

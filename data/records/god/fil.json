@@ -64,8 +64,14 @@
         "mr-1956-movable": ["1:#1"]
       }
     },
+    "nat": {
+      "data-links": {
+        "mr-2004": ["1:dec/25#1"]
+      }
+    },
     "sni": {
       "data-links": {
+        "mr-2004": ["1:ian/3#1"],
         "mr-1956-movable": ["1:#2"]
       }
     },
@@ -178,6 +184,11 @@
     "sco": {
       "data-links": {
         "mr-1956-movable": ["1:#24"]
+      }
+    },
+    "tra": {
+      "data-links": {
+        "mr-2004": ["1:aug/6#1"]
       }
     },
     "rex": {
