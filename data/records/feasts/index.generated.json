@@ -3,6 +3,14 @@
         "la": "Septem Dolores beatissimae Vírginis Mariae",
         "pl": "Siedem Boleści Najświętszej Maryi Panny"
     },
+    "amo": {
+        "la": "Octava Assumptionis Beatae Mariae Virginis",
+        "pl": "Oktawa Wniebowzięcia Najświętszej Maryi Panny"
+    },
+    "amv": {
+        "la": "Vigilia Assumptionis Beatae Mariae Virginis",
+        "pl": "Wigilia Wniebowzięcia Najświętszej Maryi Panny"
+    },
     "asc": {
         "la": "Ascénsio Iesu Christi",
         "pl": "Wniebowstąpienie Jezusa Chrystusa"
@@ -27,6 +35,10 @@
     "ces": {
         "la": "Sanctissimum Corpore et Sanguis Christi",
         "pl": "Najświętsze Ciało i Krew Chrystusa"
+    },
+    "cir": {
+        "la": "Circumcisio Domini",
+        "pl": "Obrzezanie Pańskie"
     },
     "cro": {
         "la": "Octava Sanctissimi Corporis Christi",
@@ -94,9 +106,17 @@
     "mis": {
         "pl": "Miłosierdzie Boże"
     },
+    "nao": {
+        "la": "Octava Nativitatis Domini",
+        "pl": "Oktawa Narodzenia Pańskiego"
+    },
     "nat": {
         "la": "Nativitas Domini",
         "pl": "Narodzenie Pańskie"
+    },
+    "nav": {
+        "la": "Vigilia Nativitatis Domini",
+        "pl": "Wigilia Narodzenia Pańskiego"
     },
     "pen": {
         "la": "Dies Pentecostes",
@@ -105,6 +125,10 @@
     "peo": {
         "la": "Octava Pentecostes",
         "pl": "Oktawa Zesłania Ducha Świętego"
+    },
+    "per": {
+        "la": "Beate Maria Virgo Perdolentis",
+        "pl": "Matka Boska Bolesna"
     },
     "pev": {
         "la": "Vigilia Pentecostes",

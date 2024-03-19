@@ -1,5 +1,23 @@
 {
     "01-01": {
+        "records/god/fil#cir": {
+            "name": {
+                "la": "Iesus Christus (Circumcisio Domini)",
+                "pl": "Jezus Chrystus (Obrzezanie Pańskie)"
+            },
+            "sources": {
+                "mr-1956": "1 I: #1"
+            }
+        },
+        "records/god/fil#nao": {
+            "name": {
+                "la": "Iesus Christus (Octava Nativitatis Domini)",
+                "pl": "Jezus Chrystus (Oktawa Narodzenia Pańskiego)"
+            },
+            "sources": {
+                "mr-1956": "1 I: #1"
+            }
+        },
         "records/patrons/maria/naz#gen": {
             "name": {
                 "en": "Mary, mother of Jesus (Maria, Holy Mother of God)",
@@ -22,6 +40,17 @@
             }
         }
     },
+    "04-25": {
+        "records/patrons/petrus/apo#r1p": {
+            "name": {
+                "la": "Petrus (Romae Litaníae majores ad sanctum Petrum)",
+                "pl": "Piotr Apostoł (Rzymska wielka procesja błagalna do świętego Piotra)"
+            },
+            "sources": {
+                "mr-1956": "25 IV: #1"
+            }
+        }
+    },
     "08-06": {
         "records/god/fil#tra": {
             "name": {
@@ -29,7 +58,19 @@
                 "pl": "Jezus Chrystus (Przemienienie Pańskie)"
             },
             "sources": {
+                "mr-1956": "6 VIII: #1",
                 "mr-2004": "6 VIII: #1"
+            }
+        }
+    },
+    "08-14": {
+        "records/patrons/maria/naz#amv": {
+            "name": {
+                "la": "Maria Virgo (Vigilia Assumptionis Beatae Mariae Virginis)",
+                "pl": "Maria z Nazaretu (Wigilia Wniebowzięcia Najświętszej Maryi Panny)"
+            },
+            "sources": {
+                "mr-1956": "14 VIII: #1"
             }
         }
     },
@@ -41,7 +82,40 @@
                 "pl": "Maria z Nazaretu (Wniebowzięcie Najświętszej Maryi Panny)"
             },
             "sources": {
+                "mr-1956": "15 VIII: #1",
                 "mr-2004": "15 VIII: #1"
+            }
+        }
+    },
+    "08-22": {
+        "records/patrons/maria/naz#amo": {
+            "name": {
+                "la": "Maria Virgo (Octava Assumptionis Beatae Mariae Virginis)",
+                "pl": "Maria z Nazaretu (Oktawa Wniebowzięcia Najświętszej Maryi Panny)"
+            },
+            "sources": {
+                "mr-1956": "22 VIII: #1"
+            }
+        },
+        "records/patrons/maria/naz#ico": {
+            "name": {
+                "la": "Maria Virgo (Immaculatum Cor beate Mariae Virginis)",
+                "pl": "Maria z Nazaretu (Niepokalane Serce Najświętszej Maryi Panny)"
+            },
+            "sources": {
+                "mr-1956": "22 VIII: #2"
+            }
+        }
+    },
+    "09-15": {
+        "records/patrons/maria/naz#per": {
+            "name": {
+                "la": "Maria Virgo (Beate Maria Virgo Perdolentis)",
+                "pl": "Maria z Nazaretu (Matka Boska Bolesna)"
+            },
+            "sources": {
+                "mr-1956": "15 IX: #2",
+                "mr-2004": "15 IX: #1"
             }
         }
     },
@@ -57,6 +131,17 @@
             }
         }
     },
+    "12-24": {
+        "records/god/fil#nav": {
+            "name": {
+                "la": "Iesus Christus (Vigilia Nativitatis Domini)",
+                "pl": "Jezus Chrystus (Wigilia Narodzenia Pańskiego)"
+            },
+            "sources": {
+                "mr-1956": "24 XII: #1"
+            }
+        }
+    },
     "12-25": {
         "records/god/fil#nat": {
             "name": {
@@ -64,6 +149,7 @@
                 "pl": "Jezus Chrystus (Narodzenie Pańskie)"
             },
             "sources": {
+                "mr-1956": "25 XII: #1",
                 "mr-2004": "25 XII: #1"
             }
         }

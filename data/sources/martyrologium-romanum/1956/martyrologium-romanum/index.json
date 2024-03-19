@@ -4,9 +4,29 @@
         "en": "January",
         "pl": "Styczeń"
     },
+    "aprilis": {
+        "la": "Aprilis",
+        "en": "April",
+        "pl": "Kwiecień"
+    },
+    "augustus": {
+        "la": "Augustus",
+        "en": "August",
+        "pl": "Sierpień"
+    },
+    "september": {
+        "la": "September",
+        "en": "September",
+        "pl": "Wrzesień"
+    },
     "october": {
         "la": "October",
         "en": "October",
         "pl": "Październik"
+    },
+    "december": {
+        "la": "December",
+        "en": "December",
+        "pl": "Grudzień"
     }
 }

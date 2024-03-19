@@ -24,10 +24,28 @@
                     "pl": "Pierwsza Niedziela Adwentu"
                 }
             },
+            "feasts/nav": {
+                "names": {
+                    "la": "Vigilia Nativitatis Domini",
+                    "pl": "Wigilia Narodzenia Pańskiego"
+                }
+            },
             "feasts/nat": {
                 "names": {
                     "la": "Nativitas Domini",
                     "pl": "Narodzenie Pańskie"
+                }
+            },
+            "feasts/cir": {
+                "names": {
+                    "la": "Circumcisio Domini",
+                    "pl": "Obrzezanie Pańskie"
+                }
+            },
+            "feasts/nao": {
+                "names": {
+                    "la": "Octava Nativitatis Domini",
+                    "pl": "Oktawa Narodzenia Pańskiego"
                 }
             },
             "feasts/sni": {
@@ -638,11 +656,23 @@
                     "pl": "Macierzyństwo błogosławionej Maryi Dziewicy"
                 }
             },
+            "feasts/amv": {
+                "names": {
+                    "la": "Vigilia Assumptionis Beatae Mariae Virginis",
+                    "pl": "Wigilia Wniebowzięcia Najświętszej Maryi Panny"
+                }
+            },
             "feasts/ass": {
                 "names": {
                     "en": "Assumption of Mary",
                     "la": "Assumptio Beatae Mariae Virginis",
                     "pl": "Wniebowzięcie Najświętszej Maryi Panny"
+                }
+            },
+            "feasts/amo": {
+                "names": {
+                    "la": "Octava Assumptionis Beatae Mariae Virginis",
+                    "pl": "Oktawa Wniebowzięcia Najświętszej Maryi Panny"
                 }
             },
             "feasts/sfa": {
@@ -667,6 +697,12 @@
                 "names": {
                     "la": "Immaculatum Cor beate Mariae Virginis",
                     "pl": "Niepokalane Serce Najświętszej Maryi Panny"
+                }
+            },
+            "feasts/per": {
+                "names": {
+                    "la": "Beate Maria Virgo Perdolentis",
+                    "pl": "Matka Boska Bolesna"
                 }
             }
         }
