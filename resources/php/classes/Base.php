@@ -208,7 +208,7 @@ abstract class Base
 
     protected function getRequestPathRecordIdOnly(string $requestPath): string
     {
-        return preg_replace('~(/[-' . self::FEAST_ID_SEPARATOR . '0-9a-zA-Z]+)' . self::RECORD_ID_WITH_NAME_EXTENSION_SEPARATOR . '[^/]*$~', '\1', $requestPath);
+        return preg_replace('~(/[-' . self::FEAST_ID_SEPARATOR . '0-9a-zA-Z]+)' . self::RECORD_ID_WITH_NAME_EXTENSION_SEPARATOR . '[^/]*$~U', '\1', $requestPath);
     }
 
     protected function getRecordIdPathWithNameExtension(string $path, string $name): string
