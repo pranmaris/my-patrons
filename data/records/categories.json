@@ -61,6 +61,19 @@
         }
     },
 
+    "fun": {
+        "name": {
+            "en": "order fundator",
+            "la": "conditor ordo",
+            "pl": "załóżyciel zakonu"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "gro": {
         "name": {
             "en": "group",

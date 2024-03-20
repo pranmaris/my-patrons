@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "order fundator"
+    },
+    "translations": {
+        "en": [
+            "order fundator"
+        ],
+        "la": [
+            "conditor ordinis"
+        ],
+        "pl": [
+            "załóżyciel zakonu"
+        ]
+    },
+    "links": {
+        "records/patrons/alphonsus/lig": {
+            "it": "Alfonso Maria de' Liguori",
+            "en": "Alphonsus Maria Liguori",
+            "la": "Alphonsus Maria a Ligorio",
+            "pl": "Alfons Maria Liguori"
+        }
+    }
+}

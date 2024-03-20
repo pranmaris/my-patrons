@@ -15,6 +15,18 @@
         ]
     },
     "links": {
+        "records/patrons/albertus/mag": {
+            "de": "Albert der Große",
+            "en": "Albert the Great",
+            "la": "Albertus Magnus",
+            "pl": "Albert Wielki"
+        },
+        "records/patrons/alphonsus/lig": {
+            "it": "Alfonso Maria de' Liguori",
+            "en": "Alphonsus Maria Liguori",
+            "la": "Alphonsus Maria a Ligorio",
+            "pl": "Alfons Maria Liguori"
+        },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",
             "en": "John Mary Vianney",

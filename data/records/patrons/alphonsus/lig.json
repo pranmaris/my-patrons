@@ -55,7 +55,7 @@
   "also-in-martyrology": ["08-01", "08-02"],
   "also-mentioned": [],
 
-  "categories": ["mal", "bis", "doc", "rel"],
+  "categories": ["mal", "bis", "con", "doc", "fun", "rel"],
   "order": ["CSsR"],
 
   "images": {

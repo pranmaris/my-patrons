@@ -15,12 +15,6 @@
         ]
     },
     "links": {
-        "records/god/fil": {
-            "arc": "ܝܫܘܥ",
-            "en": "Jesus Christ",
-            "la": "Iesus Christus",
-            "pl": "Jezus Chrystus"
-        },
         "records/patrons/andreas/bob": {
             "pl": "Andrzej Bobola",
             "en": "Andrew Bobola",

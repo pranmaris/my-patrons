@@ -41,7 +41,7 @@
   "born": [">-8", "<-4"],
   "died": ["30", "33"],
 
-  "categories": ["god", "mal", "mar"],
+  "categories": ["god", "mal"],
 
   "images": {
     "1": {
