@@ -60,6 +60,24 @@
                     "pl": "Święta Rodzina"
                 }
             },
+            "feasts/epv": {
+                "names": {
+                    "la": "Vigilia Epiphaniae Domini",
+                    "pl": "Wigilia Objawienia Pańskiego"
+                }
+            },
+            "feasts/epi": {
+                "names": {
+                    "la": "Epiphania Domini",
+                    "pl": "Objawienie Pańskie"
+                }
+            },
+            "feasts/epo": {
+                "names": {
+                    "la": "Octava Epiphaniae Domini",
+                    "pl": "Oktawa Objawienia Pańskiego"
+                }
+            },
             "feasts/bad": {
                 "names": {
                     "la": "Baptismus Domini",

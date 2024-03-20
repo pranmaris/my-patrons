@@ -42,6 +42,50 @@
             }
         }
     },
+    "01-05": {
+        "records/god/fil#epv": {
+            "name": {
+                "la": "Iesus Christus (Vigilia Epiphaniae Domini)",
+                "pl": "Jezus Chrystus (Wigilia Objawienia Pańskiego)"
+            },
+            "sources": {
+                "mr-1956": "5 I: #1"
+            }
+        }
+    },
+    "01-06": {
+        "records/god/fil#epi": {
+            "name": {
+                "la": "Iesus Christus (Epiphania Domini)",
+                "pl": "Jezus Chrystus (Objawienie Pańskie)"
+            },
+            "sources": {
+                "mr-1956": "6 I: #1",
+                "mr-1960": "6 I: #1",
+                "mr-2004": "6 I: #1"
+            }
+        }
+    },
+    "01-13": {
+        "records/god/fil#epo": {
+            "name": {
+                "la": "Iesus Christus (Octava Epiphaniae Domini)",
+                "pl": "Jezus Chrystus (Oktawa Objawienia Pańskiego)"
+            },
+            "sources": {
+                "mr-1956": "13 I: #1"
+            }
+        },
+        "records/god/fil#bad": {
+            "name": {
+                "la": "Iesus Christus (Baptismus Domini)",
+                "pl": "Jezus Chrystus (Chrzest Pański)"
+            },
+            "sources": {
+                "mr-1960": "13 I: #1"
+            }
+        }
+    },
     "04-25": {
         "records/patrons/petrus/apo#r1p": {
             "name": {

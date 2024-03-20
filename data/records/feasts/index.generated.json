@@ -81,6 +81,18 @@
         "la": "Dominica Passionis",
         "pl": "Niedziela Męki Pańskiej"
     },
+    "epi": {
+        "la": "Epiphania Domini",
+        "pl": "Objawienie Pańskie"
+    },
+    "epo": {
+        "la": "Octava Epiphaniae Domini",
+        "pl": "Oktawa Objawienia Pańskiego"
+    },
+    "epv": {
+        "la": "Vigilia Epiphaniae Domini",
+        "pl": "Wigilia Objawienia Pańskiego"
+    },
     "f5h": {
         "la": "Feria quinta Hebdomadae sanctae",
         "pl": "Wielki Czwartek"
