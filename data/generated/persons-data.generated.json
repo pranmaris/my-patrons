@@ -133,6 +133,12 @@
                     "pl": "Niedziela Biała"
                 }
             },
+            "feasts/ril": {
+                "names": {
+                    "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
+                    "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+                }
+            },
             "feasts/asv": {
                 "names": {
                     "la": "Vigilia Ascensionis Iesu Christi",
@@ -197,12 +203,6 @@
                 "names": {
                     "la": "Iesus Christus Universorum Rex",
                     "pl": "Jezus Chrystus Król Wszechświata"
-                }
-            },
-            "feasts/ril": {
-                "names": {
-                    "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
-                    "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
                 }
             }
         }

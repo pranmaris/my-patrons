@@ -6,7 +6,8 @@
                 "pl": "Jezus Chrystus (Obrzezanie Pańskie)"
             },
             "sources": {
-                "mr-1956": "1 I: #1"
+                "mr-1956": "1 I: #1",
+                "mr-1960": "1 I: #2"
             }
         },
         "records/god/fil#nao": {
@@ -15,7 +16,8 @@
                 "pl": "Jezus Chrystus (Oktawa Narodzenia Pańskiego)"
             },
             "sources": {
-                "mr-1956": "1 I: #1"
+                "mr-1956": "1 I: #1",
+                "mr-1960": "1 I: #1"
             }
         },
         "records/patrons/maria/naz#gen": {
@@ -47,7 +49,8 @@
                 "pl": "Piotr Apostoł (Rzymska wielka procesja błagalna do świętego Piotra)"
             },
             "sources": {
-                "mr-1956": "25 IV: #1"
+                "mr-1956": "25 IV: #1",
+                "mr-1960": "25 IV: #1"
             }
         }
     },
@@ -59,6 +62,7 @@
             },
             "sources": {
                 "mr-1956": "6 VIII: #1",
+                "mr-1960": "6 VIII: #1",
                 "mr-2004": "6 VIII: #1"
             }
         }
@@ -70,7 +74,8 @@
                 "pl": "Maria z Nazaretu (Wigilia Wniebowzięcia Najświętszej Maryi Panny)"
             },
             "sources": {
-                "mr-1956": "14 VIII: #1"
+                "mr-1956": "14 VIII: #1",
+                "mr-1960": "14 VIII: #1"
             }
         }
     },
@@ -83,6 +88,7 @@
             },
             "sources": {
                 "mr-1956": "15 VIII: #1",
+                "mr-1960": "15 VIII: #1",
                 "mr-2004": "15 VIII: #1"
             }
         }
@@ -103,7 +109,8 @@
                 "pl": "Maria z Nazaretu (Niepokalane Serce Najświętszej Maryi Panny)"
             },
             "sources": {
-                "mr-1956": "22 VIII: #2"
+                "mr-1956": "22 VIII: #2",
+                "mr-1960": "22 VIII: #1"
             }
         }
     },
@@ -115,6 +122,7 @@
             },
             "sources": {
                 "mr-1956": "15 IX: #2",
+                "mr-1960": "15 IX: #1",
                 "mr-2004": "15 IX: #1"
             }
         }
@@ -127,7 +135,8 @@
                 "pl": "Maria z Nazaretu (Macierzyństwo błogosławionej Maryi Dziewicy)"
             },
             "sources": {
-                "mr-1956": "11 X: #1"
+                "mr-1956": "11 X: #1",
+                "mr-1960": "11 X: #1"
             }
         }
     },
@@ -138,7 +147,8 @@
                 "pl": "Jezus Chrystus (Wigilia Narodzenia Pańskiego)"
             },
             "sources": {
-                "mr-1956": "24 XII: #1"
+                "mr-1956": "24 XII: #1",
+                "mr-1960": "24 XII: #1"
             }
         }
     },
@@ -150,6 +160,7 @@
             },
             "sources": {
                 "mr-1956": "25 XII: #1",
+                "mr-1960": "25 XII: #1",
                 "mr-2004": "25 XII: #1"
             }
         }

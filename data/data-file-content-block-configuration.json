@@ -13,6 +13,10 @@
     "/sources/martyrologium-romanum/2004/index-nominum-sanctorum-et-beatorum/": "RomanMartyrologyIndexTypeAContentBlock",
     "/sources/martyrologium-romanum/2004/elogia-pro-celebrationibus-mobilibus/": "RomanMartyrologyMovableFeastsTypeAContentBlock",
 
+    "/sources/martyrologium-romanum/1960/editio/": "RomanMartyrologyEditionContentBlock",
+    "/sources/martyrologium-romanum/1960/martyrologium-romanum/": "RomanMartyrologyDayElogiesTypeBContentBlock",
+    "/sources/martyrologium-romanum/1960/elogia-festorum-et-officiorum-mobilium/": "RomanMartyrologyMovableFeastsTypeBContentBlock",
+
     "/sources/martyrologium-romanum/1956/editio/": "RomanMartyrologyEditionContentBlock",
     "/sources/martyrologium-romanum/1956/martyrologium-romanum/": "RomanMartyrologyDayElogiesTypeBContentBlock",
     "/sources/martyrologium-romanum/1956/i-index-sanctorum-omnium-qui-in-hoc-martyrologio-descripti-inveniuntur/": "RomanMartyrologyIndexTypeAContentBlock",

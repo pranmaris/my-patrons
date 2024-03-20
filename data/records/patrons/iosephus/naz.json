@@ -51,6 +51,7 @@
     "sfa": {
       "data-links": {
         "mr-2004-movable": ["3:#2"],
+        "mr-1960-movable": ["3:#3"],
         "mr-1956-movable": ["3:#3"]
       }
     }

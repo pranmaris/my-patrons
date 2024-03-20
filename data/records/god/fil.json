@@ -61,39 +61,46 @@
     "d1a": {
       "data-links": {
         "mr-2004-movable": ["1:#1"],
+        "mr-1960-movable": ["1:#1"],
         "mr-1956-movable": ["1:#1"]
       }
     },
     "nav": {
       "data-links": {
+        "mr-1960": ["1:dec/24#1"],
         "mr-1956": ["1:dec/24#1"]
       }
     },
     "nat": {
       "data-links": {
         "mr-2004": ["1:dec/25#1"],
+        "mr-1960": ["1:dec/25#1"],
         "mr-1956": ["1:dec/25#1"]
       }
     },
     "cir": {
       "data-links": {
+        "mr-1960": ["1:ian/1#2"],
         "mr-1956": ["1:ian/1#1"]
       }
     },
     "nao": {
       "data-links": {
+        "mr-1960": ["1:ian/1#1"],
         "mr-1956": ["2:ian/1#1"]
       }
     },
     "sni": {
       "data-links": {
         "mr-2004": ["1:ian/3#1"],
+        "mr-1960-movable": ["1:#2"],
         "mr-1956-movable": ["1:#2"]
       }
     },
     "sfa": {
       "data-links": {
         "mr-2004-movable": ["1:#2"],
+        "mr-1960-movable": ["1:#3"],
         "mr-1956-movable": ["1:#3"]
       }
     },
@@ -104,12 +111,14 @@
     },
     "d70": {
       "data-links": {
+        "mr-1960-movable": ["1:#4"],
         "mr-1956-movable": ["1:#4"]
       }
     },
     "dci": {
       "data-links": {
         "mr-2004-movable": ["1:#4"],
+        "mr-1960-movable": ["1:#5"],
         "mr-1956-movable": ["1:#5"]
       }
     },
@@ -120,11 +129,13 @@
     },
     "dps": {
       "data-links": {
+        "mr-1960-movable": ["1:#6"],
         "mr-1956-movable": ["1:#6"]
       }
     },
     "dpl": {
       "data-links": {
+        "mr-1960-movable": ["1:#8"],
         "mr-1956-movable": ["1:#8"]
       }
     },
@@ -136,6 +147,7 @@
     "f5h": {
       "data-links": {
         "mr-2004-movable": ["1:#7"],
+        "mr-1960-movable": ["1:#9"],
         "mr-1956-movable": ["1:#9"]
       }
     },
@@ -152,22 +164,32 @@
     "res": {
       "data-links": {
         "mr-2004-movable": ["1:#8"],
+        "mr-1960-movable": ["1:#10"],
         "mr-1956-movable": ["1:#10"]
       }
     },
     "dia": {
       "data-links": {
+        "mr-1960-movable": ["1:#12"],
         "mr-1956-movable": ["1:#12"]
+      }
+    },
+    "ril": {
+      "data-links": {
+        "mr-1960-movable": ["1:#14"],
+        "mr-1956-movable": ["1:#14"]
       }
     },
     "asv": {
       "data-links": {
+        "mr-1960-movable": ["1:#15"],
         "mr-1956-movable": ["1:#15"]
       }
     },
     "asc": {
       "data-links": {
         "mr-2004-movable": ["1:#9", "2:#9"],
+        "mr-1960-movable": ["1:#16"],
         "mr-1956-movable": ["1:#16"]
       }
     },
@@ -178,6 +200,7 @@
     },
     "crp": {
       "data-links": {
+        "mr-1960-movable": ["1:#20"],
         "mr-1956-movable": ["1:#21"]
       }
     },
@@ -194,6 +217,7 @@
     "sci": {
       "data-links": {
         "mr-2004-movable": ["1:#13"],
+        "mr-1960-movable": ["1:#21"],
         "mr-1956-movable": ["1:#23"]
       }
     },
@@ -205,22 +229,19 @@
     "tra": {
       "data-links": {
         "mr-2004": ["1:aug/6#1"],
+        "mr-1960": ["1:aug/6#1"],
         "mr-1956": ["1:aug/6#1"]
       }
     },
     "rex": {
       "data-links": {
+        "mr-1960-movable": ["1:#22"],
         "mr-1956-movable": ["1:#25"]
       }
     },
     "ure": {
       "data-links": {
         "mr-2004-movable": ["1:#15"]
-      }
-    },
-    "ril": {
-      "data-links": {
-        "mr-1956-movable": ["1:#14"]
       }
     }
   }

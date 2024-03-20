@@ -62,17 +62,20 @@
     },
     "mat": {
       "data-links": {
+        "mr-1960": ["1:oct/11#1"],
         "mr-1956": ["1:oct/11#1"]
       }
     },
     "amv": {
       "data-links": {
+        "mr-1960": ["1:aug/14#1"],
         "mr-1956": ["1:aug/14#1"]
       }
     },
     "ass": {
       "data-links": {
         "mr-2004": ["1:aug/15#1"],
+        "mr-1960": ["1:aug/15#1"],
         "mr-1956": ["1:aug/15#1"]
       }
     },
@@ -84,28 +87,33 @@
     "sfa": {
       "data-links": {
         "mr-2004-movable": ["2:#2"],
+        "mr-1960-movable": ["2:#3"],
         "mr-1956-movable": ["2:#3"]
       }
     },
     "7dm": {
       "data-links": {
+        "mr-1960-movable": ["1:#7"],
         "mr-1956-movable": ["1:#7"]
       }
     },
     "rmm": {
       "data-links": {
+        "mr-1960-movable": ["1:#13"],
         "mr-1956-movable": ["1:#13"]
       }
     },
     "ico": {
       "data-links": {
         "mr-2004-movable": ["1:#14"],
+        "mr-1960": ["1:aug/22#1"],
         "mr-1956": ["1:aug/22#2"]
       }
     },
     "per": {
       "data-links": {
         "mr-2004": ["1:sep/15#1"],
+        "mr-1960": ["1:sep/15#1"],
         "mr-1956": ["1:sep/15#2"]
       }
     }

@@ -44,31 +44,22 @@
         "16": {
             "1": "records/god/fil#asc"
         },
-        "17": {
-            "1": "records/god/fil#aso"
-        },
-        "21": {
+        "20": {
             "1": "records/god/fil#crp"
         },
-        "22": {
-            "1": "records/god/fil#cro"
-        },
-        "23": {
+        "21": {
             "1": "records/god/fil#sci"
         },
-        "24": {
-            "1": "records/god/fil#sco"
-        },
-        "25": {
+        "22": {
             "1": "records/god/fil#rex"
         },
-        "18": {
+        "17": {
             "1": "records/god/spi#pev"
         },
-        "19": {
+        "18": {
             "1": "records/god/spi#pen"
         },
-        "20": {
+        "19": {
             "2": "records/god/spi#peo",
             "1": "records/god/tri#tri"
         },

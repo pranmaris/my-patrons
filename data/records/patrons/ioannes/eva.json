@@ -60,6 +60,7 @@
   "feasts": {
     "ril": {
       "data-links": {
+        "mr-1960-movable": ["3:#14"],
         "mr-1956-movable": ["3:#14"]
       }
     }

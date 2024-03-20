@@ -40,17 +40,20 @@
   "feasts": {
     "pev": {
       "data-links": {
+        "mr-1960-movable": ["1:#17"],
         "mr-1956-movable": ["1:#18"]
       }
     },
     "pen": {
       "data-links": {
         "mr-2004-movable": ["1:#10"],
+        "mr-1960-movable": ["1:#18"],
         "mr-1956-movable": ["1:#19"]
       }
     },
     "peo": {
       "data-links": {
+        "mr-1960-movable": ["2:#19"],
         "mr-1956-movable": ["2:#20"]
       }
     }

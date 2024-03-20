@@ -65,12 +65,15 @@
   "feasts": {
     "r1p": {
       "data-links": {
+        "mr-1960-movable": ["1:#11"],
+        "mr-1960": ["1:apr/25#1"],
         "mr-1956-movable": ["1:#11"],
         "mr-1956": ["1:apr/25#1"]
       }
     },
     "r2p": {
       "data-links": {
+        "mr-1960-movable": ["2:#15"],
         "mr-1956-movable": ["2:#15"]
       }
     }

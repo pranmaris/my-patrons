@@ -50,6 +50,7 @@
     "tri": {
       "data-links": {
         "mr-2004-movable": ["1:#11"],
+        "mr-1960-movable": ["1:#19"],
         "mr-1956-movable": ["1:#20"]
       }
     }

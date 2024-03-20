@@ -2,8 +2,8 @@
 
 abstract class ContentBlock extends Content
 {
-    protected const UNKNOWN_PAGE_NUMBER = self::VARIABLE_NAME_SIGN . 'unknown' . self::VARIABLE_NAME_SIGN;
-    protected const UNKNOWN_PAGE_COLUMN_NUMBER = self::VARIABLE_NAME_SIGN . 'unknown' . self::VARIABLE_NAME_SIGN;
+    protected const UNKNOWN_PAGE_NUMBER = '?';
+    protected const UNKNOWN_PAGE_COLUMN_NUMBER = '?';
 
     protected const NON_EXISTENCE = self::VARIABLE_NAME_SIGN . 'lang-non-existence' . self::VARIABLE_NAME_SIGN;
     protected const NON_EXISTENCE_SIGN = '-';
