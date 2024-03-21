@@ -33,9 +33,6 @@ class GenerateDataLinkFilesProcedure extends Procedure
 
             $fileData = $this->getOriginalJsonFIleContentArrayForFullPath($sourceFileFullPath);
             $dataLinksData = $this->getFileDataLinks($fileData, $fieldName);
-            if (empty($dataLinksData)) {
-                $this->error("file '$sourceFileFullPath' must have any '$fieldName' section");
-            }
 
             $dataRootPath = $this->getPath()->getDataPath();
             $fileExtension = $this->getDataFileSuffix();

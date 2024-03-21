@@ -30,15 +30,11 @@
       "pl": "Maria"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
   "born": ["<-20"],
   "died": [">30"],
 
-  "categories": ["mat", "fem", "vrg", "vid"],
+  "categories": ["fem", "mat", "vrg", "reg"],
 
   "images": {
     "1": {
@@ -49,9 +45,6 @@
       "area-center-y": 1938,
       "area-center-to-edge-distance": 1520
     }
-  },
-
-  "data-links": {
   },
 
   "feasts": {

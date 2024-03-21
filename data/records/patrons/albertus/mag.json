@@ -43,8 +43,6 @@
       "pl": "Albert"
     }
   ],
-  "surnames": [
-  ],
   "epithets": [
     {
       "de": "der Große",
@@ -73,16 +71,8 @@
   },
 
   "also-in-martyrology": ["11-15"],
-  "also-mentioned": [],
 
-  "categories": ["vir", "epi", "con", "rel", "doc"],
+  "categories": ["vir", "con", "epi", "rel", "doc"],
 
-  "order": ["op"],
-  "order-founder": [],
-
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "order": ["op"]
 }

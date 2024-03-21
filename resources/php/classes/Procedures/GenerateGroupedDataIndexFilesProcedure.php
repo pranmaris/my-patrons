@@ -36,10 +36,7 @@ class GenerateGroupedDataIndexFilesProcedure extends Procedure
             }
 
             $fileData = $this->getOriginalJsonFileContentArrayForFullPath($fullSourceFilePath);
-            $fieldData = $fileData[$dataField] ?? null;
-            if (is_null($fieldData)) {
-                $this->error("Field '$dataField' cannot be null for path '$fullSourceFilePath'");
-            }
+            $fieldData = $fileData[$dataField] ?? [];
 
             $namesData = $fileData[$namesField] ?? null;
             if (is_null($namesData)) {

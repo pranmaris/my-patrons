@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "król"
+    },
+    "translations": {
+        "en": [
+            "king"
+        ],
+        "la": [
+            "rex"
+        ],
+        "pl": [
+            "król"
+        ]
+    },
+    "links": {
+        "records/god/fil": {
+            "arc": "ܝܫܘܥ",
+            "en": "Jesus Christ",
+            "la": "Iesus Christus",
+            "pl": "Jezus Chrystus"
+        }
+    }
+}

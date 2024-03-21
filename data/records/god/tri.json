@@ -15,13 +15,6 @@
     ]
   },
 
-  "forenames": [
-  ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
-
   "born": ["-"],
   "died": ["-"],
 
@@ -36,9 +29,6 @@
       "area-center-y": 2329,
       "area-center-to-edge-distance": 1200
     }
-  },
-
-  "data-links": {
   },
 
   "feasts": {

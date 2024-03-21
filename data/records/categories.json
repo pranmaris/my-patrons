@@ -23,13 +23,38 @@
         }
     },
 
-    "epi": {
+    "fem": {
         "name": {
-            "en": "bishop",
-            "la": "episcopus",
-            "pl": "biskup"
+            "en": "female",
+            "la": "femina",
+            "pl": "kobieta"
         },
-        "color": "#B300B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "mat": {
+        "name": {
+            "en": "Mother of God",
+            "la": "Mater Dei",
+            "pl": "Matka Boża"
+        },
+        "color": "#0DCAF0",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "vrg": {
+        "name": {
+            "en": "virgin",
+            "la": "virgo",
+            "pl": "dziewica"
+        },
+        "color": "#FFB6DA",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."
@@ -43,6 +68,45 @@
             "pl": "wyznawca"
         },
         "color": "#00B300",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "epi": {
+        "name": {
+            "en": "bishop",
+            "la": "episcopus",
+            "pl": "biskup"
+        },
+        "color": "#B300B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "rex": {
+        "name": {
+            "en": "king",
+            "la": "rex",
+            "pl": "król"
+        },
+        "color": "#0000B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "reg": {
+        "name": {
+            "en": "queen",
+            "la": "regina",
+            "pl": "królowa"
+        },
+        "color": "#0000B3",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."
@@ -144,31 +208,6 @@
         }
     },
 
-    "fem": {
-        "name": {
-            "en": "female",
-            "la": "femina",
-            "pl": "kobieta"
-        },
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "mat": {
-        "name": {
-            "en": "Mother of God",
-            "la": "Mater Dei",
-            "pl": "Matka Boża"
-        },
-        "color": "#0DCAF0",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
     "mar": {
         "name": {
             "en": "martyr",
@@ -189,19 +228,6 @@
             "pl": "męczennica"
         },
         "color": "#DC3545",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "vrg": {
-        "name": {
-            "en": "virgin",
-            "la": "virgo",
-            "pl": "dziewica"
-        },
-        "color": "#FFB6DA",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."
@@ -447,32 +473,6 @@
             "en": "empress",
             "la": "imperatrix",
             "pl": "cesarzowa"
-        },
-        "color": "#0000B3",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "rex": {
-        "name": {
-            "en": "king",
-            "la": "rex",
-            "pl": "król"
-        },
-        "color": "#0000B3",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "reg": {
-        "name": {
-            "en": "queen",
-            "la": "regina",
-            "pl": "królowa"
         },
         "color": "#0000B3",
         "description": {

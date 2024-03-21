@@ -28,8 +28,6 @@
       "pl": "Jezus"
     }
   ],
-  "surnames": [
-  ],
   "epithets": [
     {
       "en": "Christ",
@@ -41,7 +39,7 @@
   "born": [">-8", "<-4"],
   "died": ["30", "33"],
 
-  "categories": ["deu", "vir"],
+  "categories": ["deu", "vir", "rex"],
 
   "images": {
     "1": {
@@ -52,9 +50,6 @@
       "area-center-y": 1353,
       "area-center-to-edge-distance": 1279
     }
-  },
-
-  "data-links": {
   },
 
   "feasts": {

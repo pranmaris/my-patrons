@@ -17,8 +17,14 @@
     "1938fb7aedeb9ff3e8e66591718955df": {
         "la": "conditor ordo"
     },
+    "1eebfc936ec1c21dd0404b228c594997": {
+        "pl": "królowa"
+    },
     "205123e4c71ab84e641079e6f46b6f45": {
         "pl": "dziewica"
+    },
+    "221182760f5b980c97c7a74a94d57364": {
+        "la": "regina"
     },
     "22f67d833c8310eab41c6d8b81b67a5a": {
         "pl": "Bóg"
@@ -32,9 +38,6 @@
     },
     "2a81e2977d5c03ae3454ec95dca40d70": {
         "en": "presbyter"
-    },
-    "2af19384a5ee00fab3a4e213307626d4": {
-        "pl": "wdowa"
     },
     "3281d64d71abcf40e862001e6a5e7c58": {
         "la": "Deus"
@@ -63,11 +66,17 @@
     "590f35821fbed7b2ab58a9dbaf36c42d": {
         "la": "vir"
     },
+    "6b4023d367b91c97f19597c4069337d3": {
+        "la": "rex"
+    },
     "6c0d8168cfaa07c22349b87dbe1541df": {
         "pl": "wyznawca"
     },
     "6e362f83d382361df11befc976f1dd55": {
         "pl": "prezbiter"
+    },
+    "72545f3f86fad045a26ed54abd2bbb9f": {
+        "en": "queen"
     },
     "73d6323223b2413e5bfa9c6307a76a49": {
         "en": "pope"
@@ -103,23 +112,23 @@
     "aeb9573c09919d210512b643907e56b8": {
         "en": "God"
     },
+    "af6725bf03a59d7c6b24aa2b2c1ad05a": {
+        "pl": "król"
+    },
+    "b2086154f101464aab3328ba7e060deb": {
+        "en": "king"
+    },
     "b9966b903e860aba4f7deec8262051ae": {
         "en": "apostle"
     },
     "b9bba0357bc3fa8929d14b1f34a5e35e": {
         "en": "religious"
     },
-    "be3b0a36a11cc13dadec2e3639927f13": {
-        "la": "vidua"
-    },
     "bf43b661e988366f97a46d67b7f822ca": {
         "pl": "biskup"
     },
     "c72b77a62c4a43e34adac460398332e6": {
         "pl": "mężczyzna"
-    },
-    "c9ad31e5740747285dae5c168715d2de": {
-        "en": "widow"
     },
     "cdec765e51fc3ed533486e3641bd1305": {
         "la": "episcopus"

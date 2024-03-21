@@ -37,8 +37,6 @@
       "it": "Liguori"
     }
   ],
-  "epithets": [
-  ],
 
   "born": ["1696-09-27"],
   "died": ["1787-08-01"],
@@ -53,9 +51,8 @@
   },
 
   "also-in-martyrology": ["08-01", "08-02"],
-  "also-mentioned": [],
 
-  "categories": ["vir", "epi", "con", "cor", "rel", "doc"],
+  "categories": ["vir", "con", "epi", "cor", "rel", "doc"],
 
   "order": ["cssr"],
   "order-founder": ["cssr"],
@@ -69,8 +66,5 @@
       "area-center-y": 95,
       "area-center-to-edge-distance": 91
     }
-  },
-
-  "data-links": {
   }
 }
