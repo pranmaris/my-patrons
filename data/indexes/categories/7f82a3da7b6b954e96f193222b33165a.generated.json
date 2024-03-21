@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "priest"
+    },
+    "translations": {
+        "en": [
+            "priest"
+        ],
+        "la": [
+            "sacerdos"
+        ],
+        "pl": [
+            "kapłan"
+        ]
+    },
+    "links": {
+        "records/patrons/andreas/bob": {
+            "pl": "Andrzej Bobola",
+            "en": "Andrew Bobola",
+            "la": "Andreas Bobola"
+        }
+    }
+}

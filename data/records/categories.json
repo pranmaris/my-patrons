@@ -48,6 +48,19 @@
         }
     },
 
+    "mar": {
+        "name": {
+            "en": "martyr",
+            "la": "martyr",
+            "pl": "męczennik"
+        },
+        "color": "#DC3545",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "vrg": {
         "name": {
             "en": "virgin",
@@ -81,6 +94,32 @@
             "pl": "biskup"
         },
         "color": "#B300B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "sac": {
+        "name": {
+            "en": "priest",
+            "la": "sacerdos",
+            "pl": "kapłan"
+        },
+        "color": "#555555",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "pre": {
+        "name": {
+            "en": "presbyter",
+            "la": "prezbyter",
+            "pl": "prezbiter"
+        },
+        "color": "#555555",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."
@@ -202,19 +241,6 @@
             "la": "coetus",
             "pl": "grupa"
         },
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "mar": {
-        "name": {
-            "en": "martyr",
-            "la": "martyr",
-            "pl": "męczennik"
-        },
-        "color": "#DC3545",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."
@@ -423,19 +449,6 @@
             "pl": "papież"
         },
         "color": "#EEEEEE",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "pre": {
-        "name": {
-            "en": "presbyter",
-            "la": "prezbyter",
-            "pl": "prezbiter"
-        },
-        "color": "#555555",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."

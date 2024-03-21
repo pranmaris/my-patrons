@@ -23,8 +23,6 @@
       "pl": "Bobola"
     }
   ],
-  "epithets": [
-  ],
 
   "born": ["1591-11-30"],
   "died": ["1657-05-16"],
@@ -39,14 +37,8 @@
   },
 
   "also-in-martyrology": ["05-16"],
-  "also-mentioned": [],
 
-  "categories": ["vir", "pre", "rel", "mar"],
-  "order": ["SJ"],
+  "categories": ["vir", "mar", "sac", "pre", "rel"],
 
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "order": ["sj"]
 }
