@@ -1,5 +1,5 @@
 {
-    "god": {
+    "deu": {
         "name": {
             "en": "God",
             "la": "Deus",
@@ -10,6 +10,101 @@
             "pl": "opis pojawi się wkrótce ..."
         }
     },
+
+    "vir": {
+        "name": {
+            "en": "male",
+            "la": "vir",
+            "pl": "mężczyzna"
+        },
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "epi": {
+        "name": {
+            "en": "bishop",
+            "la": "episcopus",
+            "pl": "biskup"
+        },
+        "color": "#B300B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "con": {
+        "name": {
+            "en": "confessor",
+            "la": "confessor",
+            "pl": "wyznawca"
+        },
+        "color": "#00B300",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "cor": {
+        "name": {
+            "en": "order fundator",
+            "la": "conditor ordo",
+            "pl": "założyciel zakonu"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "rel": {
+        "name": {
+            "en": "religious",
+            "la": "religiosus",
+            "pl": "zakonnik"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "doc": {
+        "name": {
+            "en": "doctor of the Church",
+            "la": "doctor Ecclesiae",
+            "pl": "doktor Kościoła"
+        },
+        "color": "#E6E600",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     "arc": {
         "name": {
@@ -37,11 +132,11 @@
         }
     },
 
-    "mal": {
+    "coe": {
         "name": {
-            "en": "male",
-            "la": "vir",
-            "pl": "mężczyzna"
+            "en": "group",
+            "la": "coetus",
+            "pl": "grupa"
         },
         "description": {
             "en": "description coming soon ...",
@@ -61,32 +156,7 @@
         }
     },
 
-    "fun": {
-        "name": {
-            "en": "order fundator",
-            "la": "conditor ordo",
-            "pl": "załóżyciel zakonu"
-        },
-        "color": "#000000",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "gro": {
-        "name": {
-            "en": "group",
-            "la": "grex",
-            "pl": "grupa"
-        },
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "mot": {
+    "mat": {
         "name": {
             "en": "Mother of God",
             "la": "Mater Dei",
@@ -105,8 +175,17 @@
             "la": "martyr",
             "pl": "męczennik"
         },
-        "female-equivalent-name": {
+        "color": "#DC3545",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "maa": {
+        "name": {
             "en": "martyress",
+            "la": "martyr",
             "pl": "męczennica"
         },
         "color": "#DC3545",
@@ -116,7 +195,7 @@
         }
     },
 
-    "vir": {
+    "vrg": {
         "name": {
             "en": "virgin",
             "la": "virgo",
@@ -168,7 +247,7 @@
         }
     },
 
-    "wid": {
+    "vid": {
         "name": {
             "en": "widow",
             "la": "vidua",
@@ -200,7 +279,15 @@
             "la": "propheta",
             "pl": "prorok"
         },
-        "female-equivalent-name": {
+        "color": "#7000A1",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "pra": {
+        "name": {
             "en": "prophetess",
             "la": "prophetissa",
             "pl": "prorokini"
@@ -212,28 +299,11 @@
         }
     },
 
-    "con": {
-        "name": {
-            "en": "confessor",
-            "la": "confessor",
-            "pl": "wyznawca"
-        },
-        "color": "#00B300",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "her": {
+    "ana": {
         "name": {
             "en": "hermit",
             "la": "anachoreta",
             "pl": "pustelnik"
-        },
-        "female-equivalent-name": {
-            "en": "hermitess",
-            "pl": "pustelnica"
         },
         "color": "#A15116",
         "description": {
@@ -248,9 +318,17 @@
             "la": "tertiarius",
             "pl": "tercjarz"
         },
-        "female-equivalent-name": {
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "tea": {
+        "name": {
             "en": "tertiary",
-            "la": "tertiarius",
+            "la": "tertiaria",
             "pl": "tercjarka"
         },
         "color": "#000000",
@@ -266,7 +344,15 @@
             "la": "abbas",
             "pl": "opat"
         },
-        "female-equivalent-name": {
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "aba": {
+        "name": {
             "en": "abbess",
             "la": "abbatissa",
             "pl": "ksieni"
@@ -278,13 +364,21 @@
         }
     },
 
-    "rel": {
+    "mon": {
         "name": {
-            "en": "religious",
-            "la": "religiosus",
-            "pl": "zakonnik"
+            "en": "",
+            "la": "monachus",
+            "pl": "mnich"
         },
-        "female-equivalent-name": {
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "rea": {
+        "name": {
             "en": "religious",
             "la": "religiosa",
             "pl": "zakonnica"
@@ -296,39 +390,13 @@
         }
     },
 
-    "doc": {
-        "name": {
-            "en": "doctor of the Church",
-            "la": "doctor Ecclesiae",
-            "pl": "doktor Kościoła"
-        },
-        "color": "#E6E600",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "pop": {
+    "pap": {
         "name": {
             "en": "pope",
             "la": "papa",
             "pl": "papież"
         },
         "color": "#EEEEEE",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "bis": {
-        "name": {
-            "en": "bishop",
-            "la": "episcopus",
-            "pl": "biskup"
-        },
-        "color": "#B300B3",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."
@@ -348,7 +416,7 @@
         }
     },
 
-    "dea": {
+    "dia": {
         "name": {
             "en": "deacon",
             "la": "diaconus",
@@ -361,13 +429,21 @@
         }
     },
 
-    "emp": {
+    "imp": {
         "name": {
             "en": "emperor",
             "la": "imperator",
             "pl": "cesarz"
         },
-        "female-equivalent-name": {
+        "color": "#0000B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "imx": {
+        "name": {
             "en": "empress",
             "la": "imperatrix",
             "pl": "cesarzowa"
@@ -379,13 +455,21 @@
         }
     },
 
-    "kin": {
+    "rex": {
         "name": {
             "en": "king",
             "la": "rex",
             "pl": "król"
         },
-        "female-equivalent-name": {
+        "color": "#0000B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "reg": {
+        "name": {
             "en": "queen",
             "la": "regina",
             "pl": "królowa"
@@ -402,11 +486,6 @@
             "en": "prince",
             "la": "princeps",
             "pl": "książę"
-        },
-        "female-equivalent-name": {
-            "en": "princess",
-            "la": "principissa",
-            "pl": "księżna"
         },
         "color": "#0000B3",
         "description": {

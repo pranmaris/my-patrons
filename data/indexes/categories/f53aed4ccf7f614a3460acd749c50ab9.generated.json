@@ -1,16 +1,16 @@
 {
     "names": {
-        "pl": "załóżyciel zakonu"
+        "pl": "założyciel zakonu"
     },
     "translations": {
         "en": [
             "order fundator"
         ],
         "la": [
-            "conditor ordinis"
+            "conditor ordo"
         ],
         "pl": [
-            "załóżyciel zakonu"
+            "założyciel zakonu"
         ]
     },
     "links": {

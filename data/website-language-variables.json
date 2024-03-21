@@ -973,6 +973,12 @@
         "pl": "zakon"
     },
 
+    "lang-order-founder": {
+        "en": "order founder",
+        "la": "conditor ordo",
+        "pl": "założyciel zakonu"
+    },
+
     "lang-organist": {
         "en": "organist",
         "pl": "organista"

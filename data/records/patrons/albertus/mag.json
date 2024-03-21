@@ -75,8 +75,10 @@
   "also-in-martyrology": ["11-15"],
   "also-mentioned": [],
 
-  "categories": ["mal", "bis", "con", "rel", "doc"],
-  "order": ["OP"],
+  "categories": ["vir", "epi", "con", "rel", "doc"],
+
+  "order": ["op"],
+  "order-founder": [],
 
   "images": {
   },

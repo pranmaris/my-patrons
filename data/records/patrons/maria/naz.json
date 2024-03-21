@@ -38,7 +38,7 @@
   "born": ["<-20"],
   "died": [">30"],
 
-  "categories": ["mot", "fem", "vir", "wid"],
+  "categories": ["mat", "fem", "vrg", "vid"],
 
   "images": {
     "1": {
