@@ -8,6 +8,7 @@
     ],
     "la": [
       "Antonius Patavinus",
+      "Antonius Lusitanus",
       "Antonius Olisiponensis",
       "Doctor Evangelicus"
     ],
@@ -55,22 +56,14 @@
   "born": ["~1191"],
   "died": ["1231-06-13"],
 
-  "beatified": {
-  },
   "canonized": {
     "type": "equipollently",
     "date": "1232-05-30"
   },
 
   "also-in-martyrology": ["06-13"],
-  "also-mentioned": [],
 
-  "categories": ["vir", "pre", "rel", "doc"],
-  "order": ["OFM"],
+  "categories": ["vir", "con", "sac", "pre", "rel", "doc"],
 
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "order": ["crsa", "ofm"]
 }
