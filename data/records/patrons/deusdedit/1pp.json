@@ -29,8 +29,6 @@
       "pl": "Adeodat"
     }
   ],
-  "surnames": [
-  ],
   "epithets": [
     {
       "la": "Primus",
@@ -42,20 +40,7 @@
   "born": ["~570"],
   "died": ["618-11-08"],
 
-  "beatified": {
-  },
-  "canonized": {
-  },
-
   "also-in-martyrology": ["11-08"],
-  "also-mentioned": [],
 
-  "categories": ["vir", "pre", "pap"],
-  "order": [],
-
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "categories": ["vir", "pap"]
 }
