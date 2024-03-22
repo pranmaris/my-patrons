@@ -474,7 +474,14 @@
         "died": [
             "371-08-01"
         ],
-        "feasts": []
+        "feasts": {
+            "feasts/oev": {
+                "names": {
+                    "la": "Ordinatio sancti Eusebii Vercellensis",
+                    "pl": "Wyświęcenie na biskupa świętego Euzebiusza z Vercelli"
+                }
+            }
+        }
     },
     "patrons/hormisdas": {
         "names": {

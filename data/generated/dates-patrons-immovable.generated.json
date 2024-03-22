@@ -431,18 +431,6 @@
             }
         }
     },
-    "12-15": {
-        "records/patrons/eusebius/ver": {
-            "name": {
-                "la": "Eusebius Vercellensis",
-                "en": "Eusebius of Vercelli",
-                "pl": "Euzebiusz z Vercelli"
-            },
-            "sources": {
-                "other-martyrology-days": "15 XII"
-            }
-        }
-    },
     "12-16": {
         "records/patrons/eusebius/ver": {
             "name": {

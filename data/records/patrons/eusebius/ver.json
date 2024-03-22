@@ -22,7 +22,7 @@
   "born": ["~283"],
   "died": ["371-08-01"],
 
-  "also-in-martyrology": ["08-01", "08-02", "12-15", "12-16"],
+  "also-in-martyrology": ["08-01", "08-02", "12-16"],
 
   "categories": ["vir", "mar", "epi"],
 
@@ -34,6 +34,15 @@
       "area-center-x": 158,
       "area-center-y": 179,
       "area-center-to-edge-distance": 103
+    }
+  },
+
+  "feasts": {
+    "oev": {
+      "data-links": {
+        "mr-1960": ["1:dec/15#6"],
+        "mr-1956": ["1:dec/15#7"]
+      }
     }
   }
 }

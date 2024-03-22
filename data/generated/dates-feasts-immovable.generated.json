@@ -240,6 +240,18 @@
             }
         }
     },
+    "12-15": {
+        "records/patrons/eusebius/ver#oev": {
+            "name": {
+                "la": "Eusebius Vercellensis (Ordinatio sancti Eusebii Vercellensis)",
+                "pl": "Euzebiusz z Vercelli (Wyświęcenie na biskupa świętego Euzebiusza z Vercelli)"
+            },
+            "sources": {
+                "mr-1956": "15 XII: #7",
+                "mr-1960": "15 XII: #6"
+            }
+        }
+    },
     "12-24": {
         "records/god/fil#nav": {
             "name": {
