@@ -178,6 +178,19 @@
         }
     },
 
+    "cat": {
+        "name": {
+            "en": "catechist",
+            "la": "catechista",
+            "pl": "katechista"
+        },
+        "color": "#FFA500",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "doc": {
         "name": {
             "en": "doctor of the Church",
@@ -278,19 +291,6 @@
             "en": "evangelist",
             "la": "evangelista",
             "pl": "ewangelista"
-        },
-        "color": "#FFA500",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "cat": {
-        "name": {
-            "en": "catechist",
-            "la": "catechista",
-            "pl": "katechista"
         },
         "color": "#FFA500",
         "description": {

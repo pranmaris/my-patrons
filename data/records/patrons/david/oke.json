@@ -30,8 +30,6 @@
       "sw": "Okelo"
     }
   ],
-  "epithets": [
-  ],
 
   "born": ["~1902"],
   "died": ["1918-10-18"],
@@ -40,18 +38,8 @@
     "type": "ceremonially",
     "date": "2002-10-20"
   },
-  "canonized": {
-  },
 
   "also-in-martyrology": ["09-18"],
-  "also-mentioned": [],
 
-  "categories": ["vir", "cat", "mar"],
-  "order": [],
-
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "categories": ["vir", "mar", "cat"]
 }
