@@ -120,6 +120,16 @@
             "sources": {
                 "other-martyrology-days": "2 VIII"
             }
+        },
+        "records/patrons/eusebius/ver": {
+            "name": {
+                "la": "Eusebius Vercellensis",
+                "en": "Eusebius of Vercelli",
+                "pl": "Euzebiusz z Vercelli"
+            },
+            "sources": {
+                "other-martyrology-days": "2 VIII"
+            }
         }
     },
     "08-03": {

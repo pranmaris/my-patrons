@@ -18,16 +18,11 @@
       "pl": "Euzebiusz"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
   "born": ["~283"],
   "died": ["371-08-01"],
 
-  "also-in-martyrology": ["08-01", "12-15", "12-16"],
-  "also-mentioned": [],
+  "also-in-martyrology": ["08-01", "08-02", "12-15", "12-16"],
 
   "categories": ["vir", "mar", "epi"],
 
@@ -40,9 +35,5 @@
       "area-center-y": 179,
       "area-center-to-edge-distance": 103
     }
-  },
-
-  "data-links": {
   }
 }
-
