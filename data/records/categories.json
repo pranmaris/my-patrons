@@ -48,6 +48,32 @@
         }
     },
 
+    "apo": {
+        "name": {
+            "en": "apostle",
+            "la": "apostolus",
+            "pl": "apostoł"
+        },
+        "color": "#FFA500",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "eva": {
+        "name": {
+            "en": "evangelist",
+            "la": "evangelista",
+            "pl": "ewangelista"
+        },
+        "color": "#FFA500",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "mar": {
         "name": {
             "en": "martyr",
@@ -267,32 +293,6 @@
             "pl": "męczennica"
         },
         "color": "#DC3545",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "apo": {
-        "name": {
-            "en": "apostle",
-            "la": "apostolus",
-            "pl": "apostoł"
-        },
-        "color": "#FFA500",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "eva": {
-        "name": {
-            "en": "evangelist",
-            "la": "evangelista",
-            "pl": "ewangelista"
-        },
-        "color": "#FFA500",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."

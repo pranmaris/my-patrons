@@ -22,18 +22,13 @@
       "pl": "Jan"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
   "born": ["?"],
   "died": ["~100"],
 
   "also-in-martyrology": ["12-27"],
-  "also-mentioned": [],
 
-  "categories": ["vir", "eva", "apo"],
+  "categories": ["vir", "apo", "eva"],
 
   "images": {
     "1": {
@@ -54,14 +49,29 @@
     }
   },
 
-  "data-links": {
-  },
-
   "feasts": {
+    "oie": {
+      "data-links": {
+        "mr-1956": ["1:ian/3#1"]
+      }
+    },
+    "ole": {
+      "data-links": {
+        "mr-1960": ["1:mai/6#2"],
+        "mr-1956": ["1:mai/6#1"]
+      }
+    },
     "ril": {
       "data-links": {
         "mr-1960-movable": ["3:#14"],
         "mr-1956-movable": ["3:#14"]
+      }
+    },
+    "dbl": {
+      "data-links": {
+        "mr-2004": ["3:nov/9#1"],
+        "mr-1960": ["3:nov/9#1"],
+        "mr-1956": ["3:nov/9#1"]
       }
     }
   }

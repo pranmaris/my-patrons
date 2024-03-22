@@ -9,6 +9,11 @@
         "en": "April",
         "pl": "Kwiecień"
     },
+    "majus": {
+        "la": "Majus",
+        "en": "May",
+        "pl": "Maj"
+    },
     "augustus": {
         "la": "Augustus",
         "en": "August",
@@ -23,6 +28,11 @@
         "la": "October",
         "en": "October",
         "pl": "Październik"
+    },
+    "november": {
+        "la": "November",
+        "en": "November",
+        "pl": "Listopad"
     },
     "december": {
         "la": "December",

@@ -60,6 +60,10 @@
         "la": "Dominica Septuagesimæ",
         "pl": "Niedziela Siedemdziesiątnicy"
     },
+    "dbl": {
+        "la": "Dedicatio Basilicae Lateranensis in Romae",
+        "pl": "Poświęcenie Bazyliki Laterańskiej w Rzymie"
+    },
     "dci": {
         "en": "Ash Wednesday",
         "la": "Dies Cinerum",
@@ -129,6 +133,14 @@
     "nav": {
         "la": "Vigilia Nativitatis Domini",
         "pl": "Wigilia Narodzenia Pańskiego"
+    },
+    "oie": {
+        "la": "Octava sancti Joannis, Apostoli et Evangelistae",
+        "pl": "Oktawa świętego Jana, Apostoła i Ewangelisty"
+    },
+    "ole": {
+        "la": "Joannis Apostolus in olei",
+        "pl": "Jan Apostoł w oleju"
     },
     "pen": {
         "la": "Dies Pentecostes",

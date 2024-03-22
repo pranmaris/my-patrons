@@ -211,6 +211,12 @@
                     "pl": "Przemienienie Pańskie"
                 }
             },
+            "feasts/dbl": {
+                "names": {
+                    "la": "Dedicatio Basilicae Lateranensis in Romae",
+                    "pl": "Poświęcenie Bazyliki Laterańskiej w Rzymie"
+                }
+            },
             "feasts/rex": {
                 "names": {
                     "la": "Iesus Christus Rex",
@@ -507,6 +513,12 @@
                     "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
                     "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
                 }
+            },
+            "feasts/dbl": {
+                "names": {
+                    "la": "Dedicatio Basilicae Lateranensis in Romae",
+                    "pl": "Poświęcenie Bazyliki Laterańskiej w Rzymie"
+                }
             }
         }
     },
@@ -529,10 +541,28 @@
             "~100"
         ],
         "feasts": {
+            "feasts/oie": {
+                "names": {
+                    "la": "Octava sancti Joannis, Apostoli et Evangelistae",
+                    "pl": "Oktawa świętego Jana, Apostoła i Ewangelisty"
+                }
+            },
+            "feasts/ole": {
+                "names": {
+                    "la": "Joannis Apostolus in olei",
+                    "pl": "Jan Apostoł w oleju"
+                }
+            },
             "feasts/ril": {
                 "names": {
                     "la": "Romae Litaniae minores ad sanctum Joannem in Laterano",
                     "pl": "Rzymska mała procesja błagalna do świętego Jana na Lateranie"
+                }
+            },
+            "feasts/dbl": {
+                "names": {
+                    "la": "Dedicatio Basilicae Lateranensis in Romae",
+                    "pl": "Poświęcenie Bazyliki Laterańskiej w Rzymie"
                 }
             }
         }
