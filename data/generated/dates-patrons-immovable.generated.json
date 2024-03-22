@@ -216,6 +216,17 @@
             "sources": {
                 "other-martyrology-days": "8 VIII"
             }
+        },
+        "records/patrons/ioannes/via": {
+            "name": {
+                "fr": "Jean-Marie Vianney",
+                "en": "John Mary Vianney",
+                "la": "Ioannes Maria Vianney",
+                "pl": "Jan Maria Vianney"
+            },
+            "sources": {
+                "other-martyrology-days": "8 VIII"
+            }
         }
     },
     "08-09": {

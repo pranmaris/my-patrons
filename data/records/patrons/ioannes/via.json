@@ -46,8 +46,6 @@
       "fr": "Vianney"
     }
   ],
-  "epithets": [
-  ],
 
   "born": ["1786-05-08"],
   "died": ["1859-08-04"],
@@ -61,8 +59,7 @@
     "date": "1925-05-31"
   },
 
-  "also-in-martyrology": ["08-04", "08-09"],
-  "also-mentioned": [],
+  "also-in-martyrology": ["08-04", "08-08", "08-09"],
 
   "categories": ["vir", "con", "pre"],
 
@@ -75,8 +72,5 @@
       "area-center-y": 63,
       "area-center-to-edge-distance": 61
     }
-  },
-
-  "data-links": {
   }
 }
