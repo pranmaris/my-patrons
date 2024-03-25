@@ -12,6 +12,18 @@
             }
         }
     },
+    "05-20": {
+        "records/patrons/lydia/thy": {
+            "name": {
+                "la": "Lydia Thyatirensis",
+                "en": "Lydia of Thyatira",
+                "pl": "Lidia z Tiatyry"
+            },
+            "sources": {
+                "other-martyrology-days": "20 V"
+            }
+        }
+    },
     "06-13": {
         "records/patrons/antonius/pat": {
             "name": {

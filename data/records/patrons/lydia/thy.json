@@ -1,7 +1,8 @@
 {
   "names": {
     "la": [
-      "Lydia Thyatirensis"
+      "Lydia Thyatirensis",
+      "Lydia purpuraria"
     ],
     "en": [
       "Lydia of Thyatira"
@@ -18,15 +19,10 @@
       "pl": "Lidia"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
   "died": ["<100"],
 
-  "also-in-martyrology": ["08-03"],
-  "also-mentioned": [],
+  "also-in-martyrology": ["05-20", "08-03"],
 
   "categories": ["fem"],
 
@@ -39,9 +35,5 @@
       "area-center-y": 71,
       "area-center-to-edge-distance": 60
     }
-  },
-
-  "data-links": {
   }
 }
-
