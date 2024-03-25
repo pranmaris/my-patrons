@@ -32,6 +32,10 @@
         "la": "Baptismus Domini",
         "pl": "Chrzest Pański"
     },
+    "cah": {
+        "la": "Conversio sancti Augustini",
+        "pl": "Nawrócenie świętego Augustyna"
+    },
     "ces": {
         "la": "Sanctissimum Corpore et Sanguis Christi",
         "pl": "Najświętsze Ciało i Krew Chrystusa"
@@ -135,12 +139,12 @@
         "pl": "Wigilia Narodzenia Pańskiego"
     },
     "oev": {
-        "la": "Ordinatio sancti Eusebii Vercellensis",
-        "pl": "Wyświęcenie na biskupa świętego Euzebiusza z Vercelli"
+        "la": "Ordinatio sancti Eusebii",
+        "pl": "Wyświęcenie na biskupa świętego Euzebiusza"
     },
     "oie": {
-        "la": "Octava sancti Joannis, Apostoli et Evangelistae",
-        "pl": "Oktawa świętego Jana, Apostoła i Ewangelisty"
+        "la": "Octava sancti Ioannis",
+        "pl": "Oktawa świętego Jana"
     },
     "ole": {
         "la": "Joannis Apostolus in olei",
@@ -205,6 +209,10 @@
     "sni": {
         "la": "Sanctissimum Nomen Iesus",
         "pl": "Najświętsze Imię Jezus"
+    },
+    "tah": {
+        "la": "Translatio corporis sancti Augustini",
+        "pl": "Przeniesienie ciała świętego Augustyna"
     },
     "tra": {
         "la": "Transfiguratio Domini",

@@ -1,0 +1,31 @@
+{
+    "01": "1",
+    "02": "2",
+    "03": "3",
+    "04": "4",
+    "05": "5",
+    "06": "6",
+    "07": "7",
+    "08": "8",
+    "09": "9",
+
+    "23x": "23-in-anno-non-bisextili",
+    "23+": "23-in-anno-bisextili",
+
+    "24x": "24-in-anno-non-bisextili",
+    "24+": "24-in-anno-bisextili",
+
+    "25x": "25-in-anno-non-bisextili",
+    "25+": "25-in-anno-bisextili",
+
+    "26x": "26-in-anno-non-bisextili",
+    "26+": "26-in-anno-bisextili",
+
+    "27x": "27-in-anno-non-bisextili",
+    "27+": "27-in-anno-bisextili",
+
+    "28x": "28-in-anno-non-bisextili",
+    "28+": "28-in-anno-bisextili",
+
+    "29+": "29-in-anno-bisextili"
+}

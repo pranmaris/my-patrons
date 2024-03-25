@@ -403,7 +403,20 @@
         "died": [
             "430-08-28"
         ],
-        "feasts": []
+        "feasts": {
+            "feasts/tah": {
+                "names": {
+                    "la": "Translatio corporis sancti Augustini",
+                    "pl": "Przeniesienie ciała świętego Augustyna"
+                }
+            },
+            "feasts/cah": {
+                "names": {
+                    "la": "Conversio sancti Augustini",
+                    "pl": "Nawrócenie świętego Augustyna"
+                }
+            }
+        }
     },
     "patrons/david": {
         "names": {
@@ -477,8 +490,8 @@
         "feasts": {
             "feasts/oev": {
                 "names": {
-                    "la": "Ordinatio sancti Eusebii Vercellensis",
-                    "pl": "Wyświęcenie na biskupa świętego Euzebiusza z Vercelli"
+                    "la": "Ordinatio sancti Eusebii",
+                    "pl": "Wyświęcenie na biskupa świętego Euzebiusza"
                 }
             }
         }
@@ -550,8 +563,8 @@
         "feasts": {
             "feasts/oie": {
                 "names": {
-                    "la": "Octava sancti Joannis, Apostoli et Evangelistae",
-                    "pl": "Oktawa świętego Jana, Apostoła i Ewangelisty"
+                    "la": "Octava sancti Ioannis",
+                    "pl": "Oktawa świętego Jana"
                 }
             },
             "feasts/ole": {

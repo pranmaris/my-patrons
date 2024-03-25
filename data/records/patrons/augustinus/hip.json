@@ -30,7 +30,7 @@
   "born": ["354-11-13"],
   "died": ["430-08-28"],
 
-  "also-in-martyrology": ["02x28", "02+29", "04-24", "08-28"],
+  "also-in-martyrology": ["08-28"],
 
   "categories": ["vir", "con", "epi", "doc"],
 
@@ -42,6 +42,21 @@
       "area-center-x": 1797,
       "area-center-y": 1472,
       "area-center-to-edge-distance": 1125
+    }
+  },
+
+  "feasts": {
+    "tah": {
+      "data-links": {
+        "mr-1960": ["1:feb/28x#6", "1:feb/29+#6"],
+        "mr-1956": ["1:feb/28x#6", "1:feb/29+#6"]
+      }
+    },
+    "cah": {
+      "data-links": {
+        "mr-1960": ["1:apr/24#11"],
+        "mr-1956": ["1:apr/24#11"]
+      }
     }
   }
 }
