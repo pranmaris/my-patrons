@@ -181,6 +181,18 @@
             }
         }
     },
+    "08-01": {
+        "records/patrons/petrus/apo#pav": {
+            "name": {
+                "la": "Petrus (Petrus Apostolus ad Vincula)",
+                "pl": "Piotr Apostoł (Piotr w Okowach)"
+            },
+            "sources": {
+                "mr-1956": "1 VIII: #1",
+                "mr-1960": "1 VIII: #13"
+            }
+        }
+    },
     "08-06": {
         "records/god/fil#tra": {
             "name": {

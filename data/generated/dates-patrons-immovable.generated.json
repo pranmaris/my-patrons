@@ -49,6 +49,17 @@
         }
     },
     "06-29": {
+        "records/patrons/paulus/tar": {
+            "name": {
+                "he": "שָׁאוּל התרס",
+                "la": "Paulus Tersensis",
+                "en": "Paul of Tarsus",
+                "pl": "Paweł z Tarsu"
+            },
+            "sources": {
+                "other-martyrology-days": "29 VI"
+            }
+        },
         "records/patrons/petrus/apo": {
             "name": {
                 "la": "Petrus",

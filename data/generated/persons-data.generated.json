@@ -811,6 +811,26 @@
         ],
         "feasts": []
     },
+    "patrons/paulus": {
+        "names": {
+            "la": "Paulus",
+            "en": "Paul",
+            "pl": "Paweł"
+        }
+    },
+    "patrons/paulus/tar": {
+        "names": {
+            "he": "שָׁאוּל התרס",
+            "la": "Paulus Tersensis",
+            "en": "Paul of Tarsus",
+            "pl": "Paweł z Tarsu"
+        },
+        "died": [
+            "64",
+            "67"
+        ],
+        "feasts": []
+    },
     "patrons/petrus": {
         "names": {
             "la": "Petrus",
@@ -839,6 +859,12 @@
                 "names": {
                     "la": "Romae Litaníae minores ad sanctum Petrum",
                     "pl": "Rzymska mała procesja błagalna do świętego Piotra"
+                }
+            },
+            "feasts/pav": {
+                "names": {
+                    "la": "Petrus Apostolus ad Vincula",
+                    "pl": "Piotr w Okowach"
                 }
             }
         }

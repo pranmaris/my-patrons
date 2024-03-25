@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "Szaweł"
+    },
+    "translations": {
+        "la": [
+            "Saul"
+        ],
+        "en": [
+            "Saul"
+        ],
+        "pl": [
+            "Szaweł"
+        ]
+    },
+    "links": {
+        "records/patrons/paulus/tar": {
+            "he": "שָׁאוּל התרס",
+            "la": "Paulus Tersensis",
+            "en": "Paul of Tarsus",
+            "pl": "Paweł z Tarsu"
+        }
+    }
+}

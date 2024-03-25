@@ -30,6 +30,12 @@
             "en": "Eusebius of Vercelli",
             "pl": "Euzebiusz z Vercelli"
         },
+        "records/patrons/paulus/tar": {
+            "he": "שָׁאוּל התרס",
+            "la": "Paulus Tersensis",
+            "en": "Paul of Tarsus",
+            "pl": "Paweł z Tarsu"
+        },
         "records/patrons/petrus/apo": {
             "la": "Petrus",
             "en": "Peter the Apostle",

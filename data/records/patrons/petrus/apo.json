@@ -35,17 +35,12 @@
       "pl": "Kefas"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
   "died": ["64", "67"],
 
   "also-in-martyrology": ["06-29"],
-  "also-mentioned": [],
 
-  "categories": ["vir", "mar", "apo", "pap"],
+  "categories": ["vir", "apo", "mar", "pap"],
 
   "images": {
     "1": {
@@ -75,6 +70,12 @@
       "data-links": {
         "mr-1960-movable": ["2:#15"],
         "mr-1956-movable": ["2:#15"]
+      }
+    },
+    "pav": {
+      "data-links": {
+        "mr-1960": ["1:aug/1#13"],
+        "mr-1956": ["1:aug/1#1"]
       }
     }
   }

@@ -46,6 +46,9 @@
     "1b90006a303411b65baeb317c7c942f0": {
         "en": "Ferdinand"
     },
+    "1f7a7bf58268d503f9d6e5e92caa90be": {
+        "pl": "Paweł"
+    },
     "20f1aeb7819d7858684c898d1e98c1bb": {
         "en": "Anthony"
     },
@@ -171,6 +174,10 @@
     "a78bcf26721280c66741cb091d89a774": {
         "la": "Laurentius"
     },
+    "adc9b28bd8dfb77067387507e48b282d": {
+        "la": "Saul",
+        "en": "Saul"
+    },
     "b69020f93d705d3c253c52fab5b5fb7e": {
         "pl": "Aureliusz"
     },
@@ -183,6 +190,9 @@
     },
     "c13791dacd682a46cfdb398273dfb8ea": {
         "pl": "Euzebiusz"
+    },
+    "c13e13da2073260c2194c15d782e86a9": {
+        "en": "Paul"
     },
     "c49b4b5354970c16bd009d5d52173fb5": {
         "la": "Cephas",
@@ -210,6 +220,9 @@
     "d0d9b90ccdd0c7ba5bb6498d9c501e11": {
         "la": "Iosephus"
     },
+    "d29de0e0ae2ac1642eb7daecc8d302a5": {
+        "pl": "Szaweł"
+    },
     "d4d637abc4c55b49ce90b4d5df20dcdb": {
         "pl": "Hormizdas"
     },
@@ -218,6 +231,9 @@
     },
     "dea170d785b6b874342900615fc3de77": {
         "pl": "Augustyn"
+    },
+    "e0cb1379ab294dcd3723470c1d4244bf": {
+        "la": "Paulus"
     },
     "e24b41208d2416014c52b398b5132eac": {
         "pl": "Roch"

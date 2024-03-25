@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "Paweł"
+    },
+    "translations": {
+        "la": [
+            "Paulus"
+        ],
+        "en": [
+            "Paul"
+        ],
+        "pl": [
+            "Paweł"
+        ]
+    },
+    "links": {
+        "records/patrons/paulus/tar": {
+            "he": "שָׁאוּל התרס",
+            "la": "Paulus Tersensis",
+            "en": "Paul of Tarsus",
+            "pl": "Paweł z Tarsu"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "names": {
+    "he": [
+      "שָׁאוּל התרס"
+    ],
+    "la": [
+      "Paulus Tersensis",
+      "Paulus",
+      "Saul"
+    ],
+    "en": [
+      "Paul of Tarsus",
+      "Paul",
+      "Paul the Apostle",
+      "Saul"
+    ],
+    "pl": [
+      "Paweł z Tarsu",
+      "Paweł",
+      "Paweł Apostoł",
+      "Szaweł"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Paulus",
+      "en": "Paul",
+      "pl": "Paweł"
+    },
+    {
+      "la": "Saul",
+      "en": "Saul",
+      "pl": "Szaweł"
+    }
+  ],
+
+  "born": [">5", "<10"],
+  "died": ["64", "67"],
+
+  "also-in-martyrology": ["06-29"],
+
+  "categories": ["vir", "apo", "mar"],
+
+  "feasts": {
+  }
+}
