@@ -841,6 +841,12 @@
                     "la": "Octava sanctorum Apostolorum Patri et Pauli",
                     "pl": "Oktawa świętych Apostołów Piotra i Pawła"
                 }
+            },
+            "feasts/dba": {
+                "names": {
+                    "la": "Dedicatio Basilicarum Sanctorum Petri et Pauli in Romae",
+                    "pl": "Poświęcenie Bazylik Świętych Piotra i Pawła w Rzymie"
+                }
             }
         }
     },
@@ -890,6 +896,12 @@
                 "names": {
                     "la": "Petrus Apostolus ad Vincula",
                     "pl": "Piotr w Okowach"
+                }
+            },
+            "feasts/dba": {
+                "names": {
+                    "la": "Dedicatio Basilicarum Sanctorum Petri et Pauli in Romae",
+                    "pl": "Poświęcenie Bazylik Świętych Piotra i Pawła w Rzymie"
                 }
             }
         }

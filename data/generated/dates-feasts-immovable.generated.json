@@ -356,6 +356,30 @@
             }
         }
     },
+    "11-18": {
+        "records/patrons/petrus/apo#dba": {
+            "name": {
+                "la": "Petrus (Dedicatio Basilicarum Sanctorum Petri et Pauli in Romae)",
+                "pl": "Piotr Apostoł (Poświęcenie Bazylik Świętych Piotra i Pawła w Rzymie)"
+            },
+            "sources": {
+                "mr-1956": "18 XI: #1",
+                "mr-1960": "18 XI: #1",
+                "mr-2004": "18 XI: #1"
+            }
+        },
+        "records/patrons/paulus/tar#dba": {
+            "name": {
+                "la": "Paulus Tersensis (Dedicatio Basilicarum Sanctorum Petri et Pauli in Romae)",
+                "pl": "Paweł z Tarsu (Poświęcenie Bazylik Świętych Piotra i Pawła w Rzymie)"
+            },
+            "sources": {
+                "mr-1956": "18 XI: #1",
+                "mr-1960": "18 XI: #1",
+                "mr-2004": "18 XI: #1"
+            }
+        }
+    },
     "12-15": {
         "records/patrons/eusebius/ver#oev": {
             "name": {
