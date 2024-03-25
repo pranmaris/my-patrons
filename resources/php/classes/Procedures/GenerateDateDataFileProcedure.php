@@ -14,7 +14,7 @@ class GenerateDateDataFileProcedure extends Procedure
 
     private const DATES_TREE_PATH_ELEMENTS_ALIASES_PATTERN = [
         '/^(0[1-9]|1[0-2])$/', //month
-        '/^(0[1-9]|[1-2][0-9]|3[0-1])$/', //day
+        '/^((0[1-9]|[1-2][0-9]|3[0-1])[' . self::LEAP_YEARS_ONLY_SEPARATOR . self::NO_LEAP_YEARS_ONLY_SEPARATOR . ']?)$/', //day
     ];
 
     private const RECORD_TREE_SOURCE_FIELDS = [
@@ -149,6 +149,12 @@ class GenerateDateDataFileProcedure extends Procedure
             }
 
             $alias = "$monthAlias-$dayAlias";
+            $aliasForRomanFormatting = substr($alias, 0, 5);
+            if (strlen($alias) === 6) {
+                $alias[2] = $alias[5];
+                $alias = substr($alias, 0, 5);
+            }
+
             $fileData = $this->getOriginalJsonFileContentArrayForFullPath($path)[self::DATA_LINKS_GENERATED_FILES_INDEX] ?? [];
             if (empty($fileData)) {
                 continue;
@@ -156,7 +162,7 @@ class GenerateDateDataFileProcedure extends Procedure
 
             foreach ($fileData as $recordId => $recordData) {
                 foreach ($recordData as $patronUrl) {
-                    $dayWithRomanMonth = $this->getDate()->getDayWithRomanMonth($alias);
+                    $dayWithRomanMonth = $this->getDate()->getDayWithRomanMonth($aliasForRomanFormatting);
                     $this->addToFileData($alias, $patronUrl, $sourceId, "$dayWithRomanMonth: #$recordId");
                 }
             }

@@ -95,6 +95,30 @@
             }
         }
     },
+    "02b29": {
+        "records/patrons/augustinus/hip#tah": {
+            "name": {
+                "la": "Augustinus Hipponensis (Translatio corporis sancti Augustini)",
+                "pl": "Augustyn z Hippony (Przeniesienie ciała świętego Augustyna)"
+            },
+            "sources": {
+                "mr-1956": "29 II: #6",
+                "mr-1960": "29 II: #6"
+            }
+        }
+    },
+    "02n28": {
+        "records/patrons/augustinus/hip#tah": {
+            "name": {
+                "la": "Augustinus Hipponensis (Translatio corporis sancti Augustini)",
+                "pl": "Augustyn z Hippony (Przeniesienie ciała świętego Augustyna)"
+            },
+            "sources": {
+                "mr-1956": "28 II: #6",
+                "mr-1960": "28 II: #6"
+            }
+        }
+    },
     "04-24": {
         "records/patrons/augustinus/hip#cah": {
             "name": {
