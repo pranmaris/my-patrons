@@ -829,7 +829,20 @@
             "64",
             "67"
         ],
-        "feasts": []
+        "feasts": {
+            "feasts/ppv": {
+                "names": {
+                    "la": "Vigilia sanctorum Apostolorum Patri et Pauli",
+                    "pl": "Wigilia świętych Apostołów Piotra i Pawła"
+                }
+            },
+            "feasts/ppo": {
+                "names": {
+                    "la": "Octava sanctorum Apostolorum Patri et Pauli",
+                    "pl": "Oktawa świętych Apostołów Piotra i Pawła"
+                }
+            }
+        }
     },
     "patrons/petrus": {
         "names": {
@@ -859,6 +872,18 @@
                 "names": {
                     "la": "Romae Litaníae minores ad sanctum Petrum",
                     "pl": "Rzymska mała procesja błagalna do świętego Piotra"
+                }
+            },
+            "feasts/ppv": {
+                "names": {
+                    "la": "Vigilia sanctorum Apostolorum Patri et Pauli",
+                    "pl": "Wigilia świętych Apostołów Piotra i Pawła"
+                }
+            },
+            "feasts/ppo": {
+                "names": {
+                    "la": "Octava sanctorum Apostolorum Patri et Pauli",
+                    "pl": "Oktawa świętych Apostołów Piotra i Pawła"
                 }
             },
             "feasts/pav": {

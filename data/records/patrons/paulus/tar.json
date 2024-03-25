@@ -43,5 +43,16 @@
   "categories": ["vir", "apo", "mar"],
 
   "feasts": {
+    "ppv": {
+      "data-links": {
+        "mr-1960": ["2:iun/28#1"],
+        "mr-1956": ["2:iun/28#1"]
+      }
+    },
+    "ppo": {
+      "data-links": {
+        "mr-1956": ["2:iul/6#1"]
+      }
+    }
   }
 }
