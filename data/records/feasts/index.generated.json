@@ -146,6 +146,10 @@
         "la": "Octava sancti Ioannis",
         "pl": "Oktawa świętego Jana"
     },
+    "oin": {
+        "la": "loseph Opifex",
+        "pl": "Józef Rzemieślnik"
+    },
     "ole": {
         "la": "Joannis Apostolus in olei",
         "pl": "Jan Apostoł w oleju"
@@ -205,6 +209,10 @@
     "sfa": {
         "la": "Sancta Familia",
         "pl": "Święta Rodzina"
+    },
+    "sin": {
+        "la": "loseph Sponsus beatissimae Virginis Mariae",
+        "pl": "Józef Oblubieniec Najświętszej Maryi Panny"
     },
     "sni": {
         "la": "Sanctissimum Nomen Iesus",

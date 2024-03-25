@@ -623,6 +623,18 @@
                     "la": "Sancta Familia",
                     "pl": "Święta Rodzina"
                 }
+            },
+            "feasts/sin": {
+                "names": {
+                    "la": "loseph Sponsus beatissimae Virginis Mariae",
+                    "pl": "Józef Oblubieniec Najświętszej Maryi Panny"
+                }
+            },
+            "feasts/oin": {
+                "names": {
+                    "la": "loseph Opifex",
+                    "pl": "Józef Rzemieślnik"
+                }
             }
         }
     },

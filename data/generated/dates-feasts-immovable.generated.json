@@ -119,6 +119,19 @@
             }
         }
     },
+    "03-19": {
+        "records/patrons/iosephus/naz#sin": {
+            "name": {
+                "la": "Iosephus (loseph Sponsus beatissimae Virginis Mariae)",
+                "pl": "Józef z Nazaretu (Józef Oblubieniec Najświętszej Maryi Panny)"
+            },
+            "sources": {
+                "mr-1956": "19 III: #1",
+                "mr-1960": "19 III: #1",
+                "mr-2004": "19 III: #1"
+            }
+        }
+    },
     "04-24": {
         "records/patrons/augustinus/hip#cah": {
             "name": {
@@ -140,6 +153,19 @@
             "sources": {
                 "mr-1956": "25 IV: #1",
                 "mr-1960": "25 IV: #1"
+            }
+        }
+    },
+    "05-01": {
+        "records/patrons/iosephus/naz#oin": {
+            "name": {
+                "la": "Iosephus (loseph Opifex)",
+                "pl": "Józef z Nazaretu (Józef Rzemieślnik)"
+            },
+            "sources": {
+                "mr-1956": "1 V: #1",
+                "mr-1960": "1 V: #1",
+                "mr-2004": "1 V: #1"
             }
         }
     },

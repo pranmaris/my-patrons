@@ -4,6 +4,11 @@
         "en": "January",
         "pl": "Styczeń"
     },
+    "martius": {
+        "la": "Martius",
+        "en": "March",
+        "pl": "Marzec"
+    },
     "augustus": {
         "la": "Augustus",
         "en": "August",

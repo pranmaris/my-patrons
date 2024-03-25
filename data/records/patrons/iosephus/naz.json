@@ -23,15 +23,11 @@
       "pl": "Józef"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
   "born": ["<-20"],
   "died": ["~20"],
 
-  "categories": ["vir"],
+  "categories": ["vir", "con"],
 
   "images": {
     "1": {
@@ -44,15 +40,26 @@
     }
   },
 
-  "data-links": {
-  },
-
   "feasts": {
     "sfa": {
       "data-links": {
         "mr-2004-movable": ["3:#2"],
         "mr-1960-movable": ["3:#3"],
         "mr-1956-movable": ["3:#3"]
+      }
+    },
+    "sin": {
+      "data-links": {
+        "mr-2004": ["1:mar/19#1"],
+        "mr-1960": ["1:mar/19#1"],
+        "mr-1956": ["1:mar/19#1"]
+      }
+    },
+    "oin": {
+      "data-links": {
+        "mr-2004": ["1:mai/1#1"],
+        "mr-1960": ["1:mai/1#1"],
+        "mr-1956": ["1:mai/1#1"]
       }
     }
   }

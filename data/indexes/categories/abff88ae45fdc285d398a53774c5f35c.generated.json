@@ -43,6 +43,12 @@
             "en": "John Mary Vianney",
             "la": "Ioannes Maria Vianney",
             "pl": "Jan Maria Vianney"
+        },
+        "records/patrons/iosephus/naz": {
+            "arc": "ܡܪܝ ܝܘܣܦ",
+            "en": "Joseph",
+            "la": "Iosephus",
+            "pl": "Józef z Nazaretu"
         }
     }
 }

@@ -9,6 +9,11 @@
         "en": "February",
         "pl": "Luty"
     },
+    "martius": {
+        "la": "Martius",
+        "en": "March",
+        "pl": "Marzec"
+    },
     "aprilis": {
         "la": "Aprilis",
         "en": "April",
