@@ -205,7 +205,7 @@
                 "mr-1960": "28 VI: #1"
             }
         },
-        "records/patrons/paulus/tar#ppv": {
+        "records/patrons/paulus/apo#ppv": {
             "name": {
                 "la": "Paulus Tersensis (Vigilia sanctorum Apostolorum Patri et Pauli)",
                 "pl": "Paweł z Tarsu (Wigilia świętych Apostołów Piotra i Pawła)"
@@ -226,7 +226,7 @@
                 "mr-1956": "6 VII: #1"
             }
         },
-        "records/patrons/paulus/tar#ppo": {
+        "records/patrons/paulus/apo#ppo": {
             "name": {
                 "la": "Paulus Tersensis (Octava sanctorum Apostolorum Patri et Pauli)",
                 "pl": "Paweł z Tarsu (Oktawa świętych Apostołów Piotra i Pawła)"
@@ -394,7 +394,7 @@
                 "mr-2004": "18 XI: #1"
             }
         },
-        "records/patrons/paulus/tar#dba": {
+        "records/patrons/paulus/apo#dba": {
             "name": {
                 "la": "Paulus Tersensis (Dedicatio Basilicarum Sanctorum Petri et Pauli in Romae)",
                 "pl": "Paweł z Tarsu (Poświęcenie Bazylik Świętych Piotra i Pawła w Rzymie)"
