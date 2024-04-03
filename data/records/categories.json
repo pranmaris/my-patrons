@@ -48,19 +48,6 @@
         }
     },
 
-    "sponsus-mariae-virginis": {
-        "name": {
-            "la": "sponsus Mariae Virginis",
-            "en": "spouse of the Virgin Mary",
-            "pl": "oblubieniec Maryi Dziewicy"
-        },
-        "color": "#0DCAF0",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
     "apostolus": {
         "name": {
             "la": "apostolus",

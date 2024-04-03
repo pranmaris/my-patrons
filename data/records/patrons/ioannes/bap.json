@@ -5,14 +5,18 @@
     ],
     "en": [
       "John the Baptist",
-      "John the Forerunner"
+      "John the Forerunner",
+      "Forerunner of Jesus"
     ],
     "la": [
-      "Ioannes Baptista"
+      "Ioannes Baptista",
+      "Praecursor Domini"
     ],
     "pl": [
       "Jan Chrzciciel",
-      "Jan Baptysta"
+      "Jan Baptysta",
+      "Poprzednik Pański",
+      "Przesłaniec Pański"
     ]
   },
 
@@ -28,11 +32,6 @@
       "la": "Baptista",
       "en": "the Baptist",
       "pl": "Chrzciciel"
-    },
-    {
-      "la": "praecursor Domini",
-      "en": "forerunner of Jesus",
-      "pl": ["poprzednik Pański", "przesłaniec Pański"]
     }
   ],
 
