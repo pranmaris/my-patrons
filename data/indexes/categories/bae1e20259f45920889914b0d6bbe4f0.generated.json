@@ -3,11 +3,11 @@
         "la": "sacerdos"
     },
     "translations": {
-        "en": [
-            "priest"
-        ],
         "la": [
             "sacerdos"
+        ],
+        "en": [
+            "priest"
         ],
         "pl": [
             "kapłan"

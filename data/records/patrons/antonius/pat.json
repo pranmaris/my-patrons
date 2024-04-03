@@ -63,7 +63,7 @@
 
   "also-in-martyrology": ["06-13"],
 
-  "categories": ["vir", "con", "sac", "pre", "rel", "doc"],
+  "categories": ["vir", "confessor", "sacerdos", "presbyter", "religiosus", "doctor-ecclesiae"],
 
   "order": ["crsa", "ofm"]
 }

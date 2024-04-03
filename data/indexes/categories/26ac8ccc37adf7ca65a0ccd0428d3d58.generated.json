@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "other apostle"
+    },
+    "translations": {
+        "la": [
+            "alius apostolus"
+        ],
+        "en": [
+            "other apostle"
+        ],
+        "pl": [
+            "inny apostoł"
+        ]
+    },
+    "links": {
+        "records/patrons/paulus/tar": {
+            "he": "שָׁאוּל התרס",
+            "la": "Paulus Tersensis",
+            "en": "Paul of Tarsus",
+            "pl": "Paweł z Tarsu"
+        }
+    }
+}

@@ -3,11 +3,11 @@
         "pl": "zakonnik"
     },
     "translations": {
-        "en": [
-            "religious"
-        ],
         "la": [
             "religiosus"
+        ],
+        "en": [
+            "religious"
         ],
         "pl": [
             "zakonnik"

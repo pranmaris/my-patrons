@@ -39,7 +39,7 @@
   "born": [">-8", "<-4"],
   "died": ["30", "33"],
 
-  "categories": ["deu", "vir", "rex"],
+  "categories": ["deus", "vir", "rex"],
 
   "images": {
     "1": {

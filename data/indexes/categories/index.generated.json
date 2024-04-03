@@ -2,6 +2,12 @@
     "0367205ba9d9ef14735884d4b3f2e7a3": {
         "en": "doctor of the Church"
     },
+    "0368ba3eb0d5a9127ee701c97b2ef084": {
+        "pl": "oblubieniec Maryi Dziewicy"
+    },
+    "0685f400aabcaedd89fe7a83bb922c71": {
+        "la": "alius apostolus"
+    },
     "07cf4f8f5d8b76282917320715dda2ad": {
         "en": "male"
     },
@@ -30,8 +36,11 @@
         "pl": "Bóg"
     },
     "265dbcbd2bce07dfa721ed3daaa30912": {
-        "en": "martyr",
-        "la": "martyr"
+        "la": "martyr",
+        "en": "martyr"
+    },
+    "26ac8ccc37adf7ca65a0ccd0428d3d58": {
+        "en": "other apostle"
     },
     "273b9ae535de53399c86a9b83148a8ed": {
         "en": "female"
@@ -39,14 +48,17 @@
     "2a81e2977d5c03ae3454ec95dca40d70": {
         "en": "presbyter"
     },
+    "2da9e8bd7ffe9837e7fa6d0f289bbf32": {
+        "en": "founder of the order"
+    },
     "3281d64d71abcf40e862001e6a5e7c58": {
         "la": "Deus"
     },
+    "35b905c172a6e8cd2a6acf6f63cbe8c1": {
+        "la": "sponsus Mariae Virginis"
+    },
     "3a65fe50077b0ec7a6e2d45c22f8b92b": {
         "la": "Mater Dei"
-    },
-    "3f4ea0191bc1ddaea190d059deef00bc": {
-        "en": "order fundator"
     },
     "4c0711c0dd6649d201428feb644fcf94": {
         "la": "virgo"
@@ -65,6 +77,9 @@
     },
     "590f35821fbed7b2ab58a9dbaf36c42d": {
         "la": "vir"
+    },
+    "60bf0103818f36db046649843c547310": {
+        "en": "spouse of the Virgin Mary"
     },
     "6b4023d367b91c97f19597c4069337d3": {
         "la": "rex"
@@ -109,8 +124,8 @@
         "en": "catechist"
     },
     "abff88ae45fdc285d398a53774c5f35c": {
-        "en": "confessor",
-        "la": "confessor"
+        "la": "confessor",
+        "en": "confessor"
     },
     "ae609841ccf25c60746089466c13aaf0": {
         "pl": "zakonnik"
@@ -138,6 +153,9 @@
     },
     "c72b77a62c4a43e34adac460398332e6": {
         "pl": "mężczyzna"
+    },
+    "caf1c89e37206ef637fec26d5ae93b98": {
+        "pl": "inny apostoł"
     },
     "cdec765e51fc3ed533486e3641bd1305": {
         "la": "episcopus"

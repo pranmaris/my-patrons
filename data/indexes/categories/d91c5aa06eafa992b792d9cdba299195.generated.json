@@ -3,11 +3,11 @@
         "la": "femina"
     },
     "translations": {
-        "en": [
-            "female"
-        ],
         "la": [
             "femina"
+        ],
+        "en": [
+            "female"
         ],
         "pl": [
             "kobieta"

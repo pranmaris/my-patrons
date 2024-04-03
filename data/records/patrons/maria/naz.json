@@ -34,7 +34,7 @@
   "born": ["<-20"],
   "died": [">30"],
 
-  "categories": ["fem", "mat", "vrg", "reg"],
+  "categories": ["femina", "mater-dei", "virgo", "regina"],
 
   "images": {
     "1": {

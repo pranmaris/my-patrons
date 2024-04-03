@@ -3,11 +3,11 @@
         "en": "apostle"
     },
     "translations": {
-        "en": [
-            "apostle"
-        ],
         "la": [
             "apostolus"
+        ],
+        "en": [
+            "apostle"
         ],
         "pl": [
             "apostoł"
@@ -18,12 +18,6 @@
             "la": "Ioannes Evangelista",
             "en": "John the Evangelist",
             "pl": "Jan Ewangelista"
-        },
-        "records/patrons/paulus/tar": {
-            "he": "שָׁאוּל התרס",
-            "la": "Paulus Tersensis",
-            "en": "Paul of Tarsus",
-            "pl": "Paweł z Tarsu"
         },
         "records/patrons/petrus/apo": {
             "la": "Petrus",

@@ -3,11 +3,11 @@
         "la": "episcopus"
     },
     "translations": {
-        "en": [
-            "bishop"
-        ],
         "la": [
             "episcopus"
+        ],
+        "en": [
+            "bishop"
         ],
         "pl": [
             "biskup"

@@ -52,7 +52,7 @@
 
   "also-in-martyrology": ["08-01", "08-02"],
 
-  "categories": ["vir", "con", "epi", "cor", "rel", "doc"],
+  "categories": ["vir", "confessor", "episcopus", "conditor-ordo", "religiosus", "doctor-ecclesiae"],
 
   "order": ["cssr"],
   "order-founder": ["cssr"],

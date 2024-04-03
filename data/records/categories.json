@@ -1,8 +1,8 @@
 {
-    "deu": {
+    "deus": {
         "name": {
-            "en": "God",
             "la": "Deus",
+            "en": "God",
             "pl": "Bóg"
         },
         "description": {
@@ -13,8 +13,8 @@
 
     "vir": {
         "name": {
-            "en": "male",
             "la": "vir",
+            "en": "male",
             "pl": "mężczyzna"
         },
         "description": {
@@ -23,10 +23,10 @@
         }
     },
 
-    "fem": {
+    "femina": {
         "name": {
-            "en": "female",
             "la": "femina",
+            "en": "female",
             "pl": "kobieta"
         },
         "description": {
@@ -35,10 +35,10 @@
         }
     },
 
-    "mat": {
+    "mater-dei": {
         "name": {
-            "en": "Mother of God",
             "la": "Mater Dei",
+            "en": "Mother of God",
             "pl": "Matka Boża"
         },
         "color": "#0DCAF0",
@@ -48,10 +48,23 @@
         }
     },
 
-    "apo": {
+    "sponsus-mariae-virginis": {
         "name": {
-            "en": "apostle",
+            "la": "sponsus Mariae Virginis",
+            "en": "spouse of the Virgin Mary",
+            "pl": "oblubieniec Maryi Dziewicy"
+        },
+        "color": "#0DCAF0",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "apostolus": {
+        "name": {
             "la": "apostolus",
+            "en": "apostle",
             "pl": "apostoł"
         },
         "color": "#FFA500",
@@ -61,10 +74,23 @@
         }
     },
 
-    "eva": {
+    "alius-apostolus": {
         "name": {
-            "en": "evangelist",
+            "la": "alius apostolus",
+            "en": "other apostle",
+            "pl": "inny apostoł"
+        },
+        "color": "#FFA500",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "evangelista": {
+        "name": {
             "la": "evangelista",
+            "en": "evangelist",
             "pl": "ewangelista"
         },
         "color": "#FFA500",
@@ -74,10 +100,10 @@
         }
     },
 
-    "mar": {
+    "martyr": {
         "name": {
-            "en": "martyr",
             "la": "martyr",
+            "en": "martyr",
             "pl": "męczennik"
         },
         "color": "#DC3545",
@@ -87,10 +113,10 @@
         }
     },
 
-    "vrg": {
+    "virgo": {
         "name": {
-            "en": "virgin",
             "la": "virgo",
+            "en": "virgin",
             "pl": "dziewica"
         },
         "color": "#FFB6DA",
@@ -100,10 +126,10 @@
         }
     },
 
-    "con": {
+    "confessor": {
         "name": {
-            "en": "confessor",
             "la": "confessor",
+            "en": "confessor",
             "pl": "wyznawca"
         },
         "color": "#00B300",
@@ -113,10 +139,10 @@
         }
     },
 
-    "epi": {
+    "episcopus": {
         "name": {
-            "en": "bishop",
             "la": "episcopus",
+            "en": "bishop",
             "pl": "biskup"
         },
         "color": "#B300B3",
@@ -126,10 +152,10 @@
         }
     },
 
-    "sac": {
+    "sacerdos": {
         "name": {
-            "en": "priest",
             "la": "sacerdos",
+            "en": "priest",
             "pl": "kapłan"
         },
         "color": "#555555",
@@ -139,10 +165,10 @@
         }
     },
 
-    "pre": {
+    "presbyter": {
         "name": {
-            "en": "presbyter",
             "la": "prezbyter",
+            "en": "presbyter",
             "pl": "prezbiter"
         },
         "color": "#555555",
@@ -154,8 +180,8 @@
 
     "rex": {
         "name": {
-            "en": "king",
             "la": "rex",
+            "en": "king",
             "pl": "król"
         },
         "color": "#0000B3",
@@ -165,10 +191,10 @@
         }
     },
 
-    "reg": {
+    "regina": {
         "name": {
-            "en": "queen",
             "la": "regina",
+            "en": "queen",
             "pl": "królowa"
         },
         "color": "#0000B3",
@@ -178,10 +204,10 @@
         }
     },
 
-    "cor": {
+    "conditor-ordo": {
         "name": {
-            "en": "order fundator",
             "la": "conditor ordo",
+            "en": "founder of the order",
             "pl": "założyciel zakonu"
         },
         "color": "#000000",
@@ -191,10 +217,10 @@
         }
     },
 
-    "rel": {
+    "religiosus": {
         "name": {
-            "en": "religious",
             "la": "religiosus",
+            "en": "religious",
             "pl": "zakonnik"
         },
         "color": "#000000",
@@ -204,10 +230,10 @@
         }
     },
 
-    "cat": {
+    "catechista": {
         "name": {
-            "en": "catechist",
             "la": "catechista",
+            "en": "catechist",
             "pl": "katechista"
         },
         "color": "#FFA500",
@@ -217,10 +243,10 @@
         }
     },
 
-    "doc": {
+    "doctor-ecclesiae": {
         "name": {
-            "en": "doctor of the Church",
             "la": "doctor Ecclesiae",
+            "en": "doctor of the Church",
             "pl": "doktor Kościoła"
         },
         "color": "#E6E600",
@@ -248,10 +274,10 @@
 
 
 
-    "arc": {
+    "archangelus": {
         "name": {
-            "en": "archangel",
             "la": "archangelus",
+            "en": "archangel",
             "pl": "archanioł"
         },
         "color": "#FFFFFF",
@@ -261,10 +287,10 @@
         }
     },
 
-    "ang": {
+    "angelus": {
         "name": {
-            "en": "angel",
             "la": "angelus",
+            "en": "angel",
             "pl": "anioł"
         },
         "color": "#FFFFFF",
@@ -274,10 +300,10 @@
         }
     },
 
-    "coe": {
+    "coetus": {
         "name": {
-            "en": "group",
             "la": "coetus",
+            "en": "group",
             "pl": "grupa"
         },
         "description": {
@@ -286,10 +312,10 @@
         }
     },
 
-    "maa": {
+    "martyrix": {
         "name": {
+            "la": "martyrix",
             "en": "martyress",
-            "la": "martyr",
             "pl": "męczennica"
         },
         "color": "#DC3545",
@@ -299,10 +325,10 @@
         }
     },
 
-    "vid": {
+    "vidua": {
         "name": {
-            "en": "widow",
             "la": "vidua",
+            "en": "widow",
             "pl": "wdowa"
         },
         "color": "#381A1A",
@@ -312,10 +338,10 @@
         }
     },
 
-    "pat": {
+    "patriarcha": {
         "name": {
-            "en": "patriarch",
             "la": "patriarcha",
+            "en": "patriarch",
             "pl": "patriarcha"
         },
         "color": "#7000A1",
@@ -325,10 +351,10 @@
         }
     },
 
-    "pro": {
+    "propheta": {
         "name": {
-            "en": "prophet",
             "la": "propheta",
+            "en": "prophet",
             "pl": "prorok"
         },
         "color": "#7000A1",
@@ -338,10 +364,10 @@
         }
     },
 
-    "pra": {
+    "prophetissa": {
         "name": {
-            "en": "prophetess",
             "la": "prophetissa",
+            "en": "prophetess",
             "pl": "prorokini"
         },
         "color": "#7000A1",
@@ -351,10 +377,10 @@
         }
     },
 
-    "ana": {
+    "anachoreta": {
         "name": {
-            "en": "hermit",
             "la": "anachoreta",
+            "en": "hermit",
             "pl": "pustelnik"
         },
         "color": "#A15116",
@@ -364,10 +390,10 @@
         }
     },
 
-    "ter": {
+    "tertiarius": {
         "name": {
-            "en": "tertiary",
             "la": "tertiarius",
+            "en": "tertiary",
             "pl": "tercjarz"
         },
         "color": "#000000",
@@ -377,10 +403,10 @@
         }
     },
 
-    "tea": {
+    "tertiaria": {
         "name": {
-            "en": "tertiary",
             "la": "tertiaria",
+            "en": "tertiary",
             "pl": "tercjarka"
         },
         "color": "#000000",
@@ -390,10 +416,10 @@
         }
     },
 
-    "abb": {
+    "abbas": {
         "name": {
-            "en": "abbot",
             "la": "abbas",
+            "en": "abbot",
             "pl": "opat"
         },
         "color": "#000000",
@@ -403,10 +429,10 @@
         }
     },
 
-    "aba": {
+    "abbatissa": {
         "name": {
-            "en": "abbess",
             "la": "abbatissa",
+            "en": "abbess",
             "pl": "ksieni"
         },
         "color": "#000000",
@@ -416,10 +442,10 @@
         }
     },
 
-    "mon": {
+    "monachus": {
         "name": {
-            "en": "",
             "la": "monachus",
+            "en": "hermit",
             "pl": "mnich"
         },
         "color": "#000000",
@@ -429,10 +455,10 @@
         }
     },
 
-    "rea": {
+    "religiosa": {
         "name": {
-            "en": "religious",
             "la": "religiosa",
+            "en": "religious",
             "pl": "zakonnica"
         },
         "color": "#000000",
@@ -442,10 +468,10 @@
         }
     },
 
-    "pap": {
+    "papa": {
         "name": {
-            "en": "pope",
             "la": "papa",
+            "en": "pope",
             "pl": "papież"
         },
         "color": "#EEEEEE",
@@ -455,10 +481,10 @@
         }
     },
 
-    "dia": {
+    "diaconus": {
         "name": {
-            "en": "deacon",
             "la": "diaconus",
+            "en": "deacon",
             "pl": "diakon"
         },
         "color": "#CCCCCC",
@@ -468,10 +494,10 @@
         }
     },
 
-    "imp": {
+    "imperator": {
         "name": {
-            "en": "emperor",
             "la": "imperator",
+            "en": "emperor",
             "pl": "cesarz"
         },
         "color": "#0000B3",
@@ -481,10 +507,10 @@
         }
     },
 
-    "imx": {
+    "imperatrix": {
         "name": {
-            "en": "empress",
             "la": "imperatrix",
+            "en": "empress",
             "pl": "cesarzowa"
         },
         "color": "#0000B3",
@@ -494,10 +520,10 @@
         }
     },
 
-    "pri": {
+    "princeps": {
         "name": {
-            "en": "prince",
             "la": "princeps",
+            "en": "prince",
             "pl": "książę"
         },
         "color": "#0000B3",

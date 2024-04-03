@@ -3,11 +3,11 @@
         "pl": "papież"
     },
     "translations": {
-        "en": [
-            "pope"
-        ],
         "la": [
             "papa"
+        ],
+        "en": [
+            "pope"
         ],
         "pl": [
             "papież"
