@@ -1,17 +1,16 @@
 {
     "names": {
-        "pl": "Wawrzyniec"
+        "la": "diaconus"
     },
     "translations": {
         "la": [
-            "Laurentius"
+            "diaconus"
         ],
         "en": [
-            "Lawrence",
-            "Laurence"
+            "deacon"
         ],
         "pl": [
-            "Wawrzyniec"
+            "diakon"
         ]
     },
     "links": {

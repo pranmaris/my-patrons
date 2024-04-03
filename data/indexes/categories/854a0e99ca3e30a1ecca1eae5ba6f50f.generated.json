@@ -1,17 +1,16 @@
 {
     "names": {
-        "pl": "Wawrzyniec"
+        "la": "archdiaconus"
     },
     "translations": {
         "la": [
-            "Laurentius"
+            "archdiaconus"
         ],
         "en": [
-            "Lawrence",
-            "Laurence"
+            "archideacon"
         ],
         "pl": [
-            "Wawrzyniec"
+            "archidiakon"
         ]
     },
     "links": {

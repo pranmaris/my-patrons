@@ -139,6 +139,19 @@
         }
     },
 
+    "papa": {
+        "name": {
+            "la": "papa",
+            "en": "pope",
+            "pl": "papież"
+        },
+        "color": "#EEEEEE",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "episcopus": {
         "name": {
             "la": "episcopus",
@@ -172,6 +185,32 @@
             "pl": "prezbiter"
         },
         "color": "#555555",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "archidiaconus": {
+        "name": {
+            "la": "archdiaconus",
+            "en": "archideacon",
+            "pl": "archidiakon"
+        },
+        "color": "#CCCCCC",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "diaconus": {
+        "name": {
+            "la": "diaconus",
+            "en": "deacon",
+            "pl": "diakon"
+        },
+        "color": "#CCCCCC",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."
@@ -449,32 +488,6 @@
             "pl": "zakonnica"
         },
         "color": "#000000",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "papa": {
-        "name": {
-            "la": "papa",
-            "en": "pope",
-            "pl": "papież"
-        },
-        "color": "#EEEEEE",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "diaconus": {
-        "name": {
-            "la": "diaconus",
-            "en": "deacon",
-            "pl": "diakon"
-        },
-        "color": "#CCCCCC",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."

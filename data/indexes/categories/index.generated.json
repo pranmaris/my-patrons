@@ -26,6 +26,9 @@
     "205123e4c71ab84e641079e6f46b6f45": {
         "pl": "dziewica"
     },
+    "21e63bb6bc0db57fe1529d83080ac4b0": {
+        "en": "archideacon"
+    },
     "221182760f5b980c97c7a74a94d57364": {
         "la": "regina"
     },
@@ -51,11 +54,17 @@
     "2da9e8bd7ffe9837e7fa6d0f289bbf32": {
         "en": "founder of the order"
     },
+    "31f48939f268e29ba8755294708c3a76": {
+        "pl": "archidiakon"
+    },
     "3281d64d71abcf40e862001e6a5e7c58": {
         "la": "Deus"
     },
     "3a65fe50077b0ec7a6e2d45c22f8b92b": {
         "la": "Mater Dei"
+    },
+    "3bc4b63194c49dc2a328ad2dee2406a6": {
+        "pl": "diakon"
     },
     "4c0711c0dd6649d201428feb644fcf94": {
         "la": "virgo"
@@ -101,6 +110,9 @@
     },
     "841d7efb8651af128939b922bb867c46": {
         "pl": "męczennik"
+    },
+    "854a0e99ca3e30a1ecca1eae5ba6f50f": {
+        "la": "archdiaconus"
     },
     "861da2fdf7ff3cd76aa506b55575d6a4": {
         "pl": "Matka Boża"
@@ -151,6 +163,9 @@
     "bf43b661e988366f97a46d67b7f822ca": {
         "pl": "biskup"
     },
+    "c29d9e1a0751535c7266fd8c7f176d6d": {
+        "en": "deacon"
+    },
     "c72b77a62c4a43e34adac460398332e6": {
         "pl": "mężczyzna"
     },
@@ -162,6 +177,9 @@
     },
     "d0a87b4018d6521b0f5a49e5e03adb6d": {
         "en": "virgin"
+    },
+    "d52daa36758a165b0ea8193084a9c3be": {
+        "la": "diaconus"
     },
     "d91c5aa06eafa992b792d9cdba299195": {
         "la": "femina"

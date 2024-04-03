@@ -657,12 +657,15 @@
     "patrons/laurentius": {
         "names": {
             "la": "Laurentius",
+            "en": "Lawrence",
             "pl": "Wawrzyniec"
         }
     },
     "patrons/laurentius/rom": {
         "names": {
-            "pl": "Wawrzyniec z Rzymu [draft]"
+            "la": "Laurentius de Roma",
+            "en": "Lawrence of Rome",
+            "pl": "Wawrzyniec z Rzymu"
         },
         "died": [
             "258-08-10"

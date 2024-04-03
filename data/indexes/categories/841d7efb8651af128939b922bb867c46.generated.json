@@ -36,6 +36,11 @@
             "la": "Ioannes Baptista",
             "pl": "Jan Chrzciciel"
         },
+        "records/patrons/laurentius/rom": {
+            "la": "Laurentius de Roma",
+            "en": "Lawrence of Rome",
+            "pl": "Wawrzyniec z Rzymu"
+        },
         "records/patrons/paulus/tar": {
             "he": "שָׁאוּל התרס",
             "la": "Paulus Tersensis",

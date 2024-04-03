@@ -1,38 +1,29 @@
 {
   "names": {
+    "la": [
+      "Laurentius de Roma"
+    ],
+    "en": [
+      "Lawrence of Rome",
+      "Laurence of Rome"
+    ],
     "pl": [
-      "Wawrzyniec z Rzymu [draft]"
+      "Wawrzyniec z Rzymu"
     ]
   },
 
   "forenames": [
     {
       "la": "Laurentius",
+      "en": ["Lawrence", "Laurence"],
       "pl": "Wawrzyniec"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
-  "born": ["?"],
+  "born": ["225-12-31"],
   "died": ["258-08-10"],
 
-  "beatified": {
-  },
-  "canonized": {
-  },
-
   "also-in-martyrology": ["08-10"],
-  "also-mentioned": [],
 
-  "categories": [],
-  "order": [],
-
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "categories": ["vir", "martyr", "archidiaconus", "diaconus"]
 }
