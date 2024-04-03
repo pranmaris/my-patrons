@@ -34,8 +34,8 @@
     "01-03": {
         "records/patrons/ioannes/eva#oie": {
             "name": {
-                "la": "Ioannes Evangelista (Octava sancti Ioannis)",
-                "pl": "Jan Ewangelista (Oktawa świętego Jana)"
+                "la": "Ioannes Evangelista (Octava sancti Ioannis Apostoli)",
+                "pl": "Jan Ewangelista (Oktawa świętego Jana Apostoła)"
             },
             "sources": {
                 "mr-1956": "3 I: #1"
@@ -181,6 +181,19 @@
             }
         }
     },
+    "06-24": {
+        "records/patrons/ioannes/bap#nib": {
+            "name": {
+                "la": "Ioannes Baptista (Nativitas sancti Ioannis Baptistae)",
+                "pl": "Jan Chrzciciel (Narodziny świętego Jana Chrzciciela)"
+            },
+            "sources": {
+                "mr-1956": "24 VI: #1",
+                "mr-1960": "24 VI: #1",
+                "mr-2004": "24 VI: #1"
+            }
+        }
+    },
     "06-28": {
         "records/patrons/petrus/apo#ppv": {
             "name": {
@@ -295,6 +308,19 @@
             }
         }
     },
+    "08-29": {
+        "records/patrons/ioannes/bap#pib": {
+            "name": {
+                "la": "Ioannes Baptista (Passio sancti Ioannis Baptistae)",
+                "pl": "Jan Chrzciciel (Męczeństwo świętego Jana Chrzciciela)"
+            },
+            "sources": {
+                "mr-1956": "29 VIII: #1",
+                "mr-1960": "29 VIII: #1",
+                "mr-2004": "29 VIII: #1"
+            }
+        }
+    },
     "09-15": {
         "records/patrons/maria/naz#per": {
             "name": {
@@ -335,8 +361,8 @@
         },
         "records/patrons/ioannes/bap#dbl": {
             "name": {
-                "la": "Dedicatio Basilicae Lateranensis in Romae",
-                "pl": "Jan Chrzciciel [draft] (Poświęcenie Bazyliki Laterańskiej w Rzymie)"
+                "la": "Ioannes Baptista (Dedicatio Basilicae Lateranensis in Romae)",
+                "pl": "Jan Chrzciciel (Poświęcenie Bazyliki Laterańskiej w Rzymie)"
             },
             "sources": {
                 "mr-1956": "9 XI: #1",

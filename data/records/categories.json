@@ -139,6 +139,19 @@
         }
     },
 
+    "propheta": {
+        "name": {
+            "la": "propheta",
+            "en": "prophet",
+            "pl": "prorok"
+        },
+        "color": "#7000A1",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "episcopus": {
         "name": {
             "la": "episcopus",
@@ -343,19 +356,6 @@
             "la": "patriarcha",
             "en": "patriarch",
             "pl": "patriarcha"
-        },
-        "color": "#7000A1",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "propheta": {
-        "name": {
-            "la": "propheta",
-            "en": "prophet",
-            "pl": "prorok"
         },
         "color": "#7000A1",
         "description": {

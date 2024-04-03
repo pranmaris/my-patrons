@@ -142,13 +142,17 @@
         "la": "Vigilia Nativitatis Domini",
         "pl": "Wigilia Narodzenia Pańskiego"
     },
+    "nib": {
+        "la": "Nativitas sancti Ioannis Baptistae",
+        "pl": "Narodziny świętego Jana Chrzciciela"
+    },
     "oev": {
         "la": "Ordinatio sancti Eusebii",
         "pl": "Wyświęcenie na biskupa świętego Euzebiusza"
     },
     "oie": {
-        "la": "Octava sancti Ioannis",
-        "pl": "Oktawa świętego Jana"
+        "la": "Octava sancti Ioannis Apostoli",
+        "pl": "Oktawa świętego Jana Apostoła"
     },
     "oin": {
         "la": "loseph Opifex",
@@ -177,6 +181,10 @@
     "pev": {
         "la": "Vigilia Pentecostes",
         "pl": "Wigilia Zesłania Ducha Świętego"
+    },
+    "pib": {
+        "la": "Passio sancti Ioannis Baptistae",
+        "pl": "Męczeństwo świętego Jana Chrzciciela"
     },
     "ppo": {
         "la": "Octava sanctorum Apostolorum Patri et Pauli",

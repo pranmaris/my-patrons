@@ -6,17 +6,23 @@
         "la": [
             "Ioannes"
         ],
-        "pl": [
-            "Jan"
-        ],
         "en": [
             "John"
+        ],
+        "pl": [
+            "Jan"
         ],
         "fr": [
             "Jean"
         ]
     },
     "links": {
+        "records/patrons/ioannes/bap": {
+            "he": "יוֹחָנָן",
+            "en": "John the Baptist",
+            "la": "Ioannes Baptista",
+            "pl": "Jan Chrzciciel"
+        },
         "records/patrons/ioannes/chr": {
             "pl": "Jan Chryzostom [draft]"
         },

@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "Chrzciciel"
+    },
+    "translations": {
+        "la": [
+            "Baptista"
+        ],
+        "en": [
+            "the Baptist"
+        ],
+        "pl": [
+            "Chrzciciel"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/bap": {
+            "he": "יוֹחָנָן",
+            "en": "John the Baptist",
+            "la": "Ioannes Baptista",
+            "pl": "Jan Chrzciciel"
+        }
+    }
+}

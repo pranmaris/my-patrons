@@ -38,16 +38,6 @@
             }
         }
     },
-    "06-24": {
-        "records/patrons/ioannes/bap": {
-            "name": {
-                "pl": "Jan Chrzciciel [draft]"
-            },
-            "sources": {
-                "other-martyrology-days": "24 VI"
-            }
-        }
-    },
     "06-29": {
         "records/patrons/paulus/tar": {
             "name": {
@@ -300,14 +290,6 @@
             },
             "sources": {
                 "reliable-death-anniversary": "29 VIII",
-                "other-martyrology-days": "29 VIII"
-            }
-        },
-        "records/patrons/ioannes/bap": {
-            "name": {
-                "pl": "Jan Chrzciciel [draft]"
-            },
-            "sources": {
                 "other-martyrology-days": "29 VIII"
             }
         }

@@ -64,6 +64,12 @@
             "en": "Eusebius of Vercelli",
             "pl": "Euzebiusz z Vercelli"
         },
+        "records/patrons/ioannes/bap": {
+            "he": "יוֹחָנָן",
+            "en": "John the Baptist",
+            "la": "Ioannes Baptista",
+            "pl": "Jan Chrzciciel"
+        },
         "records/patrons/ioannes/eva": {
             "la": "Ioannes Evangelista",
             "en": "John the Evangelist",

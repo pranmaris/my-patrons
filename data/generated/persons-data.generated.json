@@ -514,17 +514,21 @@
     "patrons/ioannes": {
         "names": {
             "la": "Ioannes",
-            "pl": "Jan",
             "en": "John",
+            "pl": "Jan",
             "fr": "Jean"
         }
     },
     "patrons/ioannes/bap": {
         "names": {
-            "pl": "Jan Chrzciciel [draft]"
+            "he": "יוֹחָנָן",
+            "en": "John the Baptist",
+            "la": "Ioannes Baptista",
+            "pl": "Jan Chrzciciel"
         },
         "died": [
             "~28",
+            "~30",
             "~32"
         ],
         "feasts": {
@@ -538,6 +542,18 @@
                 "names": {
                     "la": "Dedicatio Basilicae Lateranensis in Romae",
                     "pl": "Poświęcenie Bazyliki Laterańskiej w Rzymie"
+                }
+            },
+            "feasts/nib": {
+                "names": {
+                    "la": "Nativitas sancti Ioannis Baptistae",
+                    "pl": "Narodziny świętego Jana Chrzciciela"
+                }
+            },
+            "feasts/pib": {
+                "names": {
+                    "la": "Passio sancti Ioannis Baptistae",
+                    "pl": "Męczeństwo świętego Jana Chrzciciela"
                 }
             }
         }
@@ -563,8 +579,8 @@
         "feasts": {
             "feasts/oie": {
                 "names": {
-                    "la": "Octava sancti Ioannis",
-                    "pl": "Oktawa świętego Jana"
+                    "la": "Octava sancti Ioannis Apostoli",
+                    "pl": "Oktawa świętego Jana Apostoła"
                 }
             },
             "feasts/ole": {
