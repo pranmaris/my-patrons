@@ -36,6 +36,12 @@
             "la": "Antonius Patavinus",
             "en": "Anthony of Padua",
             "pl": "Antoni Padewski"
+        },
+        "records/patrons/dominicus/oxo": {
+            "es": "Domingo de Osma",
+            "en": "Dominic of Osma",
+            "la": "Dominicus Oxomensis",
+            "pl": "Dominik z Osmy"
         }
     }
 }

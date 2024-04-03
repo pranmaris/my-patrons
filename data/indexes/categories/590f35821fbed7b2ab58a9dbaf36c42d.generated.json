@@ -59,6 +59,12 @@
             "en": "Deusdedit I",
             "pl": "Deusdedit I"
         },
+        "records/patrons/dominicus/oxo": {
+            "es": "Domingo de Osma",
+            "en": "Dominic of Osma",
+            "la": "Dominicus Oxomensis",
+            "pl": "Dominik z Osmy"
+        },
         "records/patrons/eusebius/ver": {
             "la": "Eusebius Vercellensis",
             "en": "Eusebius of Vercelli",

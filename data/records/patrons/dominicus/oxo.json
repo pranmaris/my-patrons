@@ -1,0 +1,50 @@
+{
+  "names": {
+    "es": [
+      "Domingo de Osma",
+      "Domingo de Guzmán"
+    ],
+    "en": [
+      "Dominic of Osma",
+      "Dominic de Guzmán",
+      "Dominic of Caleruega"
+    ],
+    "la": [
+      "Dominicus Oxomensis",
+      "Dominicus de Guzmán"
+    ],
+    "pl": [
+      "Dominik z Osmy",
+      "Dominik Guzmán"
+    ]
+  },
+
+  "forenames": [
+    {
+      "es": "Domingo",
+      "en": "Dominicus",
+      "la": "Dominic",
+      "pl": "Dominik"
+    }
+  ],
+  "surnames": [
+    {
+      "es": "Guzmán"
+    }
+  ],
+
+  "born": [">1173", "<1173"],
+  "died": ["1221-08-06"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1234-07-13"
+  },
+
+  "also-in-martyrology": ["08-04", "08-06", "08-08"],
+
+  "categories": ["vir", "confessor", "canonicus", "presbyter", "conditor-ordo", "religiosus"],
+
+  "order": ["op"],
+  "order-founder": ["op"]
+}

@@ -133,6 +133,17 @@
                 "reliable-death-anniversary": "4 VIII",
                 "other-martyrology-days": "4 VIII"
             }
+        },
+        "records/patrons/dominicus/oxo": {
+            "name": {
+                "es": "Domingo de Osma",
+                "en": "Dominic of Osma",
+                "la": "Dominicus Oxomensis",
+                "pl": "Dominik z Osmy"
+            },
+            "sources": {
+                "other-martyrology-days": "4 VIII"
+            }
         }
     },
     "08-05": {
@@ -147,9 +158,12 @@
         }
     },
     "08-06": {
-        "records/patrons/dominicus/guz": {
+        "records/patrons/dominicus/oxo": {
             "name": {
-                "pl": "Dominik Guzman [draft]"
+                "es": "Domingo de Osma",
+                "en": "Dominic of Osma",
+                "la": "Dominicus Oxomensis",
+                "pl": "Dominik z Osmy"
             },
             "sources": {
                 "reliable-death-anniversary": "6 VIII",
@@ -186,9 +200,12 @@
         }
     },
     "08-08": {
-        "records/patrons/dominicus/guz": {
+        "records/patrons/dominicus/oxo": {
             "name": {
-                "pl": "Dominik Guzman [draft]"
+                "es": "Domingo de Osma",
+                "en": "Dominic of Osma",
+                "la": "Dominicus Oxomensis",
+                "pl": "Dominik z Osmy"
             },
             "sources": {
                 "other-martyrology-days": "8 VIII"

@@ -165,6 +165,19 @@
         }
     },
 
+    "canonicus": {
+        "name": {
+            "la": "canonicus",
+            "en": "canon",
+            "pl": "kanonik"
+        },
+        "color": "#B300B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "sacerdos": {
         "name": {
             "la": "sacerdos",

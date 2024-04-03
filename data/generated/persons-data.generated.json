@@ -458,13 +458,18 @@
     },
     "patrons/dominicus": {
         "names": {
-            "la": "Dominicus",
+            "es": "Domingo",
+            "en": "Dominicus",
+            "la": "Dominic",
             "pl": "Dominik"
         }
     },
-    "patrons/dominicus/guz": {
+    "patrons/dominicus/oxo": {
         "names": {
-            "pl": "Dominik Guzman [draft]"
+            "es": "Domingo de Osma",
+            "en": "Dominic of Osma",
+            "la": "Dominicus Oxomensis",
+            "pl": "Dominik z Osmy"
         },
         "died": [
             "1221-08-06"

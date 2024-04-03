@@ -38,6 +38,12 @@
             "en": "Augustine of Hippo",
             "pl": "Augustyn z Hippony"
         },
+        "records/patrons/dominicus/oxo": {
+            "es": "Domingo de Osma",
+            "en": "Dominic of Osma",
+            "la": "Dominicus Oxomensis",
+            "pl": "Dominik z Osmy"
+        },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",
             "en": "John Mary Vianney",

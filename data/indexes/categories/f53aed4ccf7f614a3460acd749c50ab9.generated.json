@@ -19,6 +19,12 @@
             "en": "Alphonsus Maria Liguori",
             "la": "Alphonsus Maria a Ligorio",
             "pl": "Alfons Maria Liguori"
+        },
+        "records/patrons/dominicus/oxo": {
+            "es": "Domingo de Osma",
+            "en": "Dominic of Osma",
+            "la": "Dominicus Oxomensis",
+            "pl": "Dominik z Osmy"
         }
     }
 }

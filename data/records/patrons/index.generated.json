@@ -39,7 +39,9 @@
         "pl": "Deusdedit"
     },
     "dominicus": {
-        "la": "Dominicus",
+        "es": "Domingo",
+        "en": "Dominicus",
+        "la": "Dominic",
         "pl": "Dominik"
     },
     "eusebius": {
