@@ -230,26 +230,13 @@
         }
     },
 
-    "rex": {
+    "abbas": {
         "name": {
-            "la": "rex",
-            "en": "king",
-            "pl": "król"
+            "la": "abbas",
+            "en": "abbot",
+            "pl": "opat"
         },
-        "color": "#0000B3",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "regina": {
-        "name": {
-            "la": "regina",
-            "en": "queen",
-            "pl": "królowa"
-        },
-        "color": "#0000B3",
+        "color": "#000000",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."
@@ -289,6 +276,32 @@
             "pl": "katechista"
         },
         "color": "#FFA500",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "rex": {
+        "name": {
+            "la": "rex",
+            "en": "king",
+            "pl": "król"
+        },
+        "color": "#0000B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "regina": {
+        "name": {
+            "la": "regina",
+            "en": "queen",
+            "pl": "królowa"
+        },
+        "color": "#0000B3",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."
@@ -447,19 +460,6 @@
             "la": "tertiaria",
             "en": "tertiary",
             "pl": "tercjarka"
-        },
-        "color": "#000000",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "abbas": {
-        "name": {
-            "la": "abbas",
-            "en": "abbot",
-            "pl": "opat"
         },
         "color": "#000000",
         "description": {

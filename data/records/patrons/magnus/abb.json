@@ -1,0 +1,33 @@
+{
+  "names": {
+    "de": [
+      "Magnus von Füssen"
+    ],
+    "la": [
+      "Magnus"
+    ],
+    "en": [
+      "Magnus of Füssen",
+      "Magnoald",
+      "Mang"
+    ],
+    "pl": [
+      "Magnus z Füssen"
+    ]
+  },
+
+  "forenames": [
+    {
+      "de": "Magnus",
+      "la": "Magnus",
+      "en": "Magnus",
+      "pl": "Magnus"
+    }
+  ],
+
+  "died": [">700", "<800"],
+
+  "also-in-martyrology": ["09-06"],
+
+  "categories": ["vir", "abbas"]
+}

@@ -702,16 +702,22 @@
     },
     "patrons/magnus": {
         "names": {
+            "de": "Magnus",
             "la": "Magnus",
+            "en": "Magnus",
             "pl": "Magnus"
         }
     },
-    "patrons/magnus/fus": {
+    "patrons/magnus/abb": {
         "names": {
-            "pl": "Magnus z Füssen [draft]"
+            "de": "Magnus von Füssen",
+            "la": "Magnus",
+            "en": "Magnus of Füssen",
+            "pl": "Magnus z Füssen"
         },
         "died": [
-            "772-09-06"
+            ">700",
+            "<800"
         ],
         "feasts": []
     },

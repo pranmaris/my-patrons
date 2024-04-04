@@ -1,22 +1,16 @@
 {
     "names": {
-        "de": "Magnus",
-        "la": "Magnus",
-        "en": "Magnus",
-        "pl": "Magnus"
+        "la": "abbas"
     },
     "translations": {
-        "de": [
-            "Magnus"
-        ],
         "la": [
-            "Magnus"
+            "abbas"
         ],
         "en": [
-            "Magnus"
+            "abbot"
         ],
         "pl": [
-            "Magnus"
+            "opat"
         ]
     },
     "links": {

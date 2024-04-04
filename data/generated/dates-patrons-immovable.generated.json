@@ -337,12 +337,14 @@
         }
     },
     "09-06": {
-        "records/patrons/magnus/fus": {
+        "records/patrons/magnus/abb": {
             "name": {
-                "pl": "Magnus z Füssen [draft]"
+                "de": "Magnus von Füssen",
+                "la": "Magnus",
+                "en": "Magnus of Füssen",
+                "pl": "Magnus z Füssen"
             },
             "sources": {
-                "reliable-death-anniversary": "6 IX",
                 "other-martyrology-days": "6 IX"
             }
         }
