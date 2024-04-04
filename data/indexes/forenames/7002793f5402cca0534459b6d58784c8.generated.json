@@ -3,6 +3,9 @@
         "pl": "Małgorzata"
     },
     "translations": {
+        "en": [
+            "Margaret"
+        ],
         "la": [
             "Margarita"
         ],
@@ -12,7 +15,9 @@
     },
     "links": {
         "records/patrons/margarita/war": {
-            "pl": "Małgorzata Ward [draft]"
+            "en": "Margaret Ward",
+            "la": "Margarita Ward",
+            "pl": "Małgorzata Ward"
         }
     }
 }

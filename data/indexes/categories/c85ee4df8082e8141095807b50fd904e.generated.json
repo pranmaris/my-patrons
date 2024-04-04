@@ -1,16 +1,16 @@
 {
     "names": {
-        "la": "Margarita"
+        "en": "martyress"
     },
     "translations": {
-        "en": [
-            "Margaret"
-        ],
         "la": [
-            "Margarita"
+            "martyrix"
+        ],
+        "en": [
+            "martyress"
         ],
         "pl": [
-            "Małgorzata"
+            "męczennica"
         ]
     },
     "links": {

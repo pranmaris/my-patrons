@@ -723,13 +723,16 @@
     },
     "patrons/margarita": {
         "names": {
+            "en": "Margaret",
             "la": "Margarita",
             "pl": "Małgorzata"
         }
     },
     "patrons/margarita/war": {
         "names": {
-            "pl": "Małgorzata Ward [draft]"
+            "en": "Margaret Ward",
+            "la": "Margarita Ward",
+            "pl": "Małgorzata Ward"
         },
         "died": [
             "1588-08-30"

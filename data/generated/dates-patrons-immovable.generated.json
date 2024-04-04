@@ -318,7 +318,9 @@
     "08-30": {
         "records/patrons/margarita/war": {
             "name": {
-                "pl": "Małgorzata Ward [draft]"
+                "en": "Margaret Ward",
+                "la": "Margarita Ward",
+                "pl": "Małgorzata Ward"
             },
             "sources": {
                 "reliable-death-anniversary": "30 VIII",

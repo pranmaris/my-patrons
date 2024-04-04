@@ -100,6 +100,19 @@
         }
     },
 
+    "martyrix": {
+        "name": {
+            "la": "martyrix",
+            "en": "martyress",
+            "pl": "męczennica"
+        },
+        "color": "#DC3545",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "virgo": {
         "name": {
             "la": "virgo",
@@ -371,19 +384,6 @@
             "en": "group",
             "pl": "grupa"
         },
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "martyrix": {
-        "name": {
-            "la": "martyrix",
-            "en": "martyress",
-            "pl": "męczennica"
-        },
-        "color": "#DC3545",
         "description": {
             "en": "description coming soon ...",
             "pl": "opis pojawi się wkrótce ..."

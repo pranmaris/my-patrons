@@ -1,38 +1,43 @@
 {
   "names": {
+    "en": [
+      "Margaret Ward",
+      "Pearl of Tuburn"
+    ],
+    "la": [
+      "Margarita Ward"
+    ],
     "pl": [
-      "Małgorzata Ward [draft]"
+      "Małgorzata Ward"
     ]
   },
 
   "forenames": [
     {
+      "en": "Margaret",
       "la": "Margarita",
       "pl": "Małgorzata"
     }
   ],
   "surnames": [
-  ],
-  "epithets": [
+    {
+      "en": "Ward"
+    }
   ],
 
-  "born": ["?"],
+  "born": ["~1550"],
   "died": ["1588-08-30"],
 
   "beatified": {
+    "type": "unknown",
+    "date": "1929-12-15"
   },
   "canonized": {
+    "type": "unknown",
+    "date": "1970-10-25"
   },
 
   "also-in-martyrology": ["08-30"],
-  "also-mentioned": [],
 
-  "categories": [],
-  "order": [],
-
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "categories": ["femina", "martyrix"]
 }
