@@ -36,6 +36,11 @@
             "la": "Augustinus Hipponensis",
             "en": "Augustine of Hippo",
             "pl": "Augustyn z Hippony"
+        },
+        "records/patrons/ioannes/chr": {
+            "la": "Ioannes Chrysostomus",
+            "en": "John Chrysostom",
+            "pl": "Jan Chryzostom"
         }
     }
 }

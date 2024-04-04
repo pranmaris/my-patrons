@@ -350,7 +350,9 @@
     "09-13": {
         "records/patrons/ioannes/chr": {
             "name": {
-                "pl": "Jan Chryzostom [draft]"
+                "la": "Ioannes Chrysostomus",
+                "en": "John Chrysostom",
+                "pl": "Jan Chryzostom"
             },
             "sources": {
                 "other-martyrology-days": "13 IX"
@@ -360,7 +362,9 @@
     "09-14": {
         "records/patrons/ioannes/chr": {
             "name": {
-                "pl": "Jan Chryzostom [draft]"
+                "la": "Ioannes Chrysostomus",
+                "en": "John Chrysostom",
+                "pl": "Jan Chryzostom"
             },
             "sources": {
                 "reliable-death-anniversary": "14 IX",

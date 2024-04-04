@@ -1,0 +1,26 @@
+{
+    "names": {
+        "en": "Chrysostom"
+    },
+    "translations": {
+        "la": [
+            "Chrysostomus",
+            "Aureum Os"
+        ],
+        "en": [
+            "Chrysostom",
+            "Golden-mouthed"
+        ],
+        "pl": [
+            "Chryzostom",
+            "Złotousty"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/chr": {
+            "la": "Ioannes Chrysostomus",
+            "en": "John Chrysostom",
+            "pl": "Jan Chryzostom"
+        }
+    }
+}

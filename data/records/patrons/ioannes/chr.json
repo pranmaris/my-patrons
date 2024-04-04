@@ -1,38 +1,37 @@
 {
   "names": {
+    "la": [
+      "Ioannes Chrysostomus",
+      "Ioannes Antiochensis"
+    ],
+    "en": [
+      "John Chrysostom"
+    ],
     "pl": [
-      "Jan Chryzostom [draft]"
+      "Jan Chryzostom",
+      "Jan Złotousty"
     ]
   },
 
   "forenames": [
     {
       "la": "Ioannes",
+      "en": "John",
       "pl": "Jan"
     }
   ],
-  "surnames": [
-  ],
   "epithets": [
+    {
+      "la": ["Chrysostomus", "Aureum Os"],
+      "en": ["Chrysostom", "Golden-mouthed"],
+      "pl": ["Chryzostom", "Złotousty"]
+    }
   ],
 
-  "born": ["?"],
+  "born": ["~347"],
   "died": ["407-09-14"],
 
-  "beatified": {
-  },
-  "canonized": {
-  },
-
   "also-in-martyrology": ["09-13", "09-14"],
-  "also-mentioned": [],
 
-  "categories": [],
-  "order": [],
-
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "categories": ["vir", "confessor", "episcopus", "doctor-ecclesiae"]
 }

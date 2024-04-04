@@ -24,7 +24,9 @@
             "pl": "Jan Chrzciciel"
         },
         "records/patrons/ioannes/chr": {
-            "pl": "Jan Chryzostom [draft]"
+            "la": "Ioannes Chrysostomus",
+            "en": "John Chrysostom",
+            "pl": "Jan Chryzostom"
         },
         "records/patrons/ioannes/eva": {
             "la": "Ioannes Evangelista",

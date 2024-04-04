@@ -2,6 +2,15 @@
     "01ab366bd3af2987fbd35208bf146c57": {
         "la": "Magnus"
     },
+    "02db1fdc3550181c223ed5f93205b573": {
+        "en": "Chrysostom"
+    },
+    "0e5d29857a0f8ba8067bc5dd9c1ed50b": {
+        "la": "Aureum Os"
+    },
+    "1719b6b69bc48490194c2327f00c83f0": {
+        "pl": "Złotousty"
+    },
     "1a6ec62713d2fdca4156501175b6c53f": {
         "la": "Doctor Evangelicus"
     },
@@ -29,11 +38,17 @@
     "86ba036e39bf52f041b49a5b136a5e82": {
         "en": "the Baptist"
     },
+    "92aa525ecd6f44381598c217d43fbcf1": {
+        "la": "Chrysostomus"
+    },
     "9904b7516ff50ed584eced27f3a4e0e5": {
         "en": "the First"
     },
     "9f56ee8194eb46ba0b255ef12629070c": {
         "la": "Doctor Expertus"
+    },
+    "a0e7201343db1d6d0b951c0e02e521f2": {
+        "en": "Golden-mouthed"
     },
     "a2fa4156fc81b9c871309b9dbf1009e0": {
         "pl": "Chrystus"
@@ -43,6 +58,9 @@
     },
     "c5d15c94e363ddde89a51abb488d38e5": {
         "la": "Primus"
+    },
+    "cb6c2160dcf4c78f415002c8c9aafc59": {
+        "pl": "Chryzostom"
     },
     "e899ff9981dd693a299459d17ef1ce31": {
         "de": "der Große"

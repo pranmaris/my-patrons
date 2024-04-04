@@ -568,7 +568,9 @@
     },
     "patrons/ioannes/chr": {
         "names": {
-            "pl": "Jan Chryzostom [draft]"
+            "la": "Ioannes Chrysostomus",
+            "en": "John Chrysostom",
+            "pl": "Jan Chryzostom"
         },
         "died": [
             "407-09-14"

@@ -48,6 +48,11 @@
             "en": "Hormisdas",
             "pl": "Hormizdas"
         },
+        "records/patrons/ioannes/chr": {
+            "la": "Ioannes Chrysostomus",
+            "en": "John Chrysostom",
+            "pl": "Jan Chryzostom"
+        },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",
             "en": "John Mary Vianney",
