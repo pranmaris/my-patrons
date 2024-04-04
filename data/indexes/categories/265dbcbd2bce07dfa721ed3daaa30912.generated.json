@@ -8,10 +8,12 @@
             "martyr"
         ],
         "en": [
-            "martyr"
+            "martyr",
+            "martyress"
         ],
         "pl": [
-            "męczennik"
+            "męczennik",
+            "męczennica"
         ]
     },
     "links": {
@@ -41,6 +43,11 @@
             "la": "Laurentius de Roma",
             "en": "Lawrence of Rome",
             "pl": "Wawrzyniec z Rzymu"
+        },
+        "records/patrons/margarita/war": {
+            "en": "Margaret Ward",
+            "la": "Margarita Ward",
+            "pl": "Małgorzata Ward"
         },
         "records/patrons/paulus/apo": {
             "he": "שָׁאוּל התרס",
