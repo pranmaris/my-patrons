@@ -43,6 +43,11 @@
             "la": "Dominicus Oxomensis",
             "pl": "Dominik z Osmy"
         },
+        "records/patrons/hormisdas/1pp": {
+            "la": "Hormisdas",
+            "en": "Hormisdas",
+            "pl": "Hormizdas"
+        },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",
             "en": "John Mary Vianney",

@@ -1,9 +1,13 @@
 {
     "names": {
-        "la": "Hormisdas"
+        "la": "Hormisdas",
+        "en": "Hormisdas"
     },
     "translations": {
         "la": [
+            "Hormisdas"
+        ],
+        "en": [
             "Hormisdas"
         ],
         "pl": [
@@ -12,7 +16,9 @@
     },
     "links": {
         "records/patrons/hormisdas/1pp": {
-            "pl": "Hormizdas [draft]"
+            "la": "Hormisdas",
+            "en": "Hormisdas",
+            "pl": "Hormizdas"
         }
     }
 }

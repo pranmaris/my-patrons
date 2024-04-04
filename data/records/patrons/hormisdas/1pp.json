@@ -1,38 +1,31 @@
 {
   "names": {
+    "la": [
+      "Hormisdas"
+    ],
+    "en": [
+      "Hormisdas"
+    ],
     "pl": [
-      "Hormizdas [draft]"
+      "Hormizdas"
     ]
   },
 
   "forenames": [
     {
       "la": "Hormisdas",
+      "en": "Hormisdas",
       "pl": "Hormizdas"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
-  "born": ["?"],
   "died": ["523-08-06"],
 
-  "beatified": {
-  },
-  "canonized": {
-  },
-
   "also-in-martyrology": ["08-06"],
-  "also-mentioned": [],
 
-  "categories": [],
-  "order": [],
-
-  "images": {
-  },
+  "categories": ["vir", "confessor", "papa"],
 
   "data-links": {
+    "popes": ["1:#52"]
   }
 }

@@ -42,5 +42,9 @@
 
   "also-in-martyrology": ["11-08"],
 
-  "categories": ["vir", "papa"]
+  "categories": ["vir", "papa"],
+
+  "data-links": {
+    "popes": ["1:#68"]
+  }
 }

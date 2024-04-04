@@ -504,12 +504,15 @@
     "patrons/hormisdas": {
         "names": {
             "la": "Hormisdas",
+            "en": "Hormisdas",
             "pl": "Hormizdas"
         }
     },
     "patrons/hormisdas/1pp": {
         "names": {
-            "pl": "Hormizdas [draft]"
+            "la": "Hormisdas",
+            "en": "Hormisdas",
+            "pl": "Hormizdas"
         },
         "died": [
             "523-08-06"

@@ -172,7 +172,9 @@
         },
         "records/patrons/hormisdas/1pp": {
             "name": {
-                "pl": "Hormizdas [draft]"
+                "la": "Hormisdas",
+                "en": "Hormisdas",
+                "pl": "Hormizdas"
             },
             "sources": {
                 "reliable-death-anniversary": "6 VIII",

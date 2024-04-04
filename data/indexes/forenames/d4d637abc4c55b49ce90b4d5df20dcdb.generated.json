@@ -6,13 +6,18 @@
         "la": [
             "Hormisdas"
         ],
+        "en": [
+            "Hormisdas"
+        ],
         "pl": [
             "Hormizdas"
         ]
     },
     "links": {
         "records/patrons/hormisdas/1pp": {
-            "pl": "Hormizdas [draft]"
+            "la": "Hormisdas",
+            "en": "Hormisdas",
+            "pl": "Hormizdas"
         }
     }
 }

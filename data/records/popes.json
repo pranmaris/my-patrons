@@ -511,8 +511,8 @@
     },
     "52": {
         "name": {
-            "la": "Hormisdus",
-            "pl": "Hormizdas"
+            "la": "[1|Hormisdas]",
+            "pl": "[1|Hormizdas]"
         },
         "pontificate": {
             "from": "514-07-20",
@@ -671,8 +671,8 @@
     },
     "68": {
         "name": {
-            "la": "Adeodatus",
-            "pl": "Adeodat"
+            "la": "[1|Adeodatus]",
+            "pl": "[1|Adeodat]"
         },
         "pontificate": {
             "from": "615-10-19",
