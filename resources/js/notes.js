@@ -3,7 +3,6 @@ const DEV_HOSTNAME_REMOVE_STRING = '.dev';
 const SELECT_NAME = '...';
 const SELECT_SEPARATOR = '----------';
 const NAME_TO_IGNORE = '~~~';
-const REMOVE_NAME_PART_PATTERN = /\s+\[draft\]$/;
 
 const ANCHOR_CHARACTER = '#';
 const UNIQUENESS_STRING_SEPARATOR = '|#|#|';
@@ -1308,9 +1307,8 @@ function checkIfChallengeDayOfMonthIsNotGreaterThanMaximum(maximum, challengeDat
 
 function getPersonDataName(personId) {
   const data = personsData[personId] ?? [];
-  const translatedName = getLanguageVariable(PERSONS_DATA_FIELD_NAMES, true, data[PERSONS_DATA_FIELD_NAMES] ?? []);
 
-  return translatedName.replace(new RegExp(REMOVE_NAME_PART_PATTERN), '');
+  return getLanguageVariable(PERSONS_DATA_FIELD_NAMES, true, data[PERSONS_DATA_FIELD_NAMES] ?? []);
 }
 
 function getPersonDataAdditionName(personId, additionType, additionId) {
