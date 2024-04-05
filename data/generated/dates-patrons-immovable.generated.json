@@ -278,7 +278,10 @@
     "08-23": {
         "records/patrons/rosa/lim": {
             "name": {
-                "pl": "Róża z Limy [draft]"
+                "es": "Rosa de Lima",
+                "en": "Rose of Lima",
+                "la": "Rosa de Lima",
+                "pl": "Róża z Limy"
             },
             "sources": {
                 "other-martyrology-days": "23 VIII"
@@ -288,7 +291,10 @@
     "08-24": {
         "records/patrons/rosa/lim": {
             "name": {
-                "pl": "Róża z Limy [draft]"
+                "es": "Rosa de Lima",
+                "en": "Rose of Lima",
+                "la": "Rosa de Lima",
+                "pl": "Róża z Limy"
             },
             "sources": {
                 "reliable-death-anniversary": "24 VIII",
@@ -331,6 +337,17 @@
             },
             "sources": {
                 "reliable-death-anniversary": "30 VIII",
+                "other-martyrology-days": "30 VIII"
+            }
+        },
+        "records/patrons/rosa/lim": {
+            "name": {
+                "es": "Rosa de Lima",
+                "en": "Rose of Lima",
+                "la": "Rosa de Lima",
+                "pl": "Róża z Limy"
+            },
+            "sources": {
                 "other-martyrology-days": "30 VIII"
             }
         }

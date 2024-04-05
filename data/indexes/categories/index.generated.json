@@ -2,6 +2,9 @@
     "0367205ba9d9ef14735884d4b3f2e7a3": {
         "en": "doctor of the Church"
     },
+    "0537791fe7afbce2a0c46b57f63c8a41": {
+        "pl": "tercjarka"
+    },
     "0685f400aabcaedd89fe7a83bb922c71": {
         "la": "alius apostolus"
     },
@@ -96,6 +99,9 @@
     "5de1809c9a350ed640f8e644f41cbc86": {
         "la": "canonicus"
     },
+    "64e59885a7e12dad4032c93e82456eec": {
+        "la": "tertiaria"
+    },
     "6638070bc99321b316adbd95e6951f5b": {
         "en": "canon"
     },
@@ -189,6 +195,9 @@
     },
     "bf43b661e988366f97a46d67b7f822ca": {
         "pl": "biskup"
+    },
+    "c16e378185ee71ca686e24abc62bf832": {
+        "en": "tertiary"
     },
     "c29d9e1a0751535c7266fd8c7f176d6d": {
         "en": "deacon"

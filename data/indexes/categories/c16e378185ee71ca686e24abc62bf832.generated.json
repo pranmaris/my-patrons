@@ -1,19 +1,16 @@
 {
     "names": {
-        "pl": "Róża"
+        "en": "tertiary"
     },
     "translations": {
-        "es": [
-            "Rosa"
+        "la": [
+            "tertiaria"
         ],
         "en": [
-            "Rose"
-        ],
-        "la": [
-            "Rosa"
+            "tertiary"
         ],
         "pl": [
-            "Róża"
+            "tercjarka"
         ]
     },
     "links": {

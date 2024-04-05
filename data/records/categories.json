@@ -295,6 +295,19 @@
         }
     },
 
+    "tertiaria": {
+        "name": {
+            "la": "tertiaria",
+            "en": "tertiary",
+            "pl": "tercjarka"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "catechista": {
         "name": {
             "la": "catechista",
@@ -460,19 +473,6 @@
             "la": "tertiarius",
             "en": "tertiary",
             "pl": "tercjarz"
-        },
-        "color": "#000000",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "x-tertiaria": {
-        "name": {
-            "la": "tertiaria",
-            "en": "tertiary",
-            "pl": "tercjarka"
         },
         "color": "#000000",
         "description": {

@@ -1,38 +1,53 @@
 {
   "names": {
+    "es": [
+      "Rosa de Lima",
+      "Isabel Flores de Oliva"
+    ],
+    "en": [
+      "Rose of Lima",
+      "Isabel Flores de Oliva"
+    ],
+    "la": [
+      "Rosa de Lima",
+      "Isabel Flores de Oliva"
+    ],
     "pl": [
-      "Róża z Limy [draft]"
+      "Róża z Limy",
+      "Isabel Flores de Oliva"
     ]
   },
 
   "forenames": [
     {
+      "es": "Rosa",
+      "en": "Rose",
       "la": "Rosa",
       "pl": "Róża"
     }
   ],
-  "surnames": [
-  ],
   "epithets": [
+    {
+      "es": "de Sancta Maria",
+      "en": "of Saint Mary",
+      "la": "a Sancta Maria",
+      "pl": "od Najświętszej Maryi"
+    }
   ],
 
-  "born": ["?"],
+  "born": ["1586-04-20"],
   "died": ["1617-08-24"],
 
   "beatified": {
+    "date": "1668-04-15"
   },
   "canonized": {
+    "date": "1671-04-12"
   },
 
-  "also-in-martyrology": ["08-23", "08-24"],
-  "also-mentioned": [],
+  "also-in-martyrology": ["08-23", "08-24", "08-30"],
 
-  "categories": [],
-  "order": [],
+  "categories": ["femina", "virgo", "tertiaria"],
 
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "order": ["top", "op"]
 }

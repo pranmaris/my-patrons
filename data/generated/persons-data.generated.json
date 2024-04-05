@@ -961,13 +961,18 @@
     },
     "patrons/rosa": {
         "names": {
+            "es": "Rosa",
+            "en": "Rose",
             "la": "Rosa",
             "pl": "Róża"
         }
     },
     "patrons/rosa/lim": {
         "names": {
-            "pl": "Róża z Limy [draft]"
+            "es": "Rosa de Lima",
+            "en": "Rose of Lima",
+            "la": "Rosa de Lima",
+            "pl": "Róża z Limy"
         },
         "died": [
             "1617-08-24"
