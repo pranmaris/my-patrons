@@ -1,13 +1,16 @@
 {
     "names": {
-        "pl": "Bulonne"
+        "pl": "Portugalczyk"
     },
     "translations": {
-        "pt": [
-            "Martins de Bulhões"
+        "la": [
+            "Lusitanus"
+        ],
+        "en": [
+            "Portuguese"
         ],
         "pl": [
-            "Bulonne"
+            "Portugalczyk"
         ]
     },
     "links": {

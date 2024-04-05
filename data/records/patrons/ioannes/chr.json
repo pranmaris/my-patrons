@@ -22,9 +22,9 @@
   ],
   "epithets": [
     {
-      "la": ["Chrysostomus", "Aureum Os"],
-      "en": ["Chrysostom", "Golden-mouthed"],
-      "pl": ["Chryzostom", "Złotousty"]
+      "la": "Chrysostomus",
+      "en": "Chrysostom",
+      "pl": "Chryzostom"
     }
   ],
 

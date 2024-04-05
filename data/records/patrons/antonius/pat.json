@@ -33,23 +33,16 @@
       "en": "Anthony",
       "la": "Antonius",
       "pl": "Antoni"
-    },
-    {
-      "pt": "Fernando",
-      "en": "Ferdinand",
-      "la": "Fernandus",
-      "pl": "Ferdynand"
-    }
-  ],
-  "surnames": [
-    {
-      "pt": "Martins de Bulhões",
-      "pl": "Bulonne"
     }
   ],
   "epithets": [
     {
       "la": "Doctor Evangelicus"
+    },
+    {
+      "la": "Lusitanus",
+      "en": "Portuguese",
+      "pl": "Portugalczyk"
     }
   ],
 
