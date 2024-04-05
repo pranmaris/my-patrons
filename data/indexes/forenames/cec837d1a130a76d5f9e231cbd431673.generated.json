@@ -3,6 +3,9 @@
         "la": "Oswaldus"
     },
     "translations": {
+        "en": [
+            "Oswald"
+        ],
         "la": [
             "Oswaldus"
         ],
@@ -12,7 +15,9 @@
     },
     "links": {
         "records/patrons/oswaldus/nor": {
-            "pl": "Oswald z Nortumbrii [draft]"
+            "en": "Oswald of Nortumbria",
+            "la": "Oswaldus rex Nortumbriae",
+            "pl": "Oswald z Nortumbrii"
         }
     }
 }

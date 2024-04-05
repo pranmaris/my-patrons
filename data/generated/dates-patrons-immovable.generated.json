@@ -139,7 +139,7 @@
                 "es": "Domingo de Osma",
                 "en": "Dominic of Osma",
                 "la": "Dominicus Oxomensis",
-                "pl": "Dominik z Osmy"
+                "pl": "Dominik „Guzmán” z Osmy"
             },
             "sources": {
                 "other-martyrology-days": "4 VIII"
@@ -149,7 +149,9 @@
     "08-05": {
         "records/patrons/oswaldus/nor": {
             "name": {
-                "pl": "Oswald z Nortumbrii [draft]"
+                "en": "Oswald of Nortumbria",
+                "la": "Oswaldus rex Nortumbriae",
+                "pl": "Oswald z Nortumbrii"
             },
             "sources": {
                 "reliable-death-anniversary": "5 VIII",
@@ -163,7 +165,7 @@
                 "es": "Domingo de Osma",
                 "en": "Dominic of Osma",
                 "la": "Dominicus Oxomensis",
-                "pl": "Dominik z Osmy"
+                "pl": "Dominik „Guzmán” z Osmy"
             },
             "sources": {
                 "reliable-death-anniversary": "6 VIII",
@@ -207,7 +209,7 @@
                 "es": "Domingo de Osma",
                 "en": "Dominic of Osma",
                 "la": "Dominicus Oxomensis",
-                "pl": "Dominik z Osmy"
+                "pl": "Dominik „Guzmán” z Osmy"
             },
             "sources": {
                 "other-martyrology-days": "8 VIII"

@@ -469,7 +469,7 @@
             "es": "Domingo de Osma",
             "en": "Dominic of Osma",
             "la": "Dominicus Oxomensis",
-            "pl": "Dominik z Osmy"
+            "pl": "Dominik „Guzmán” z Osmy"
         },
         "died": [
             "1221-08-06"
@@ -827,13 +827,16 @@
     },
     "patrons/oswaldus": {
         "names": {
+            "en": "Oswald",
             "la": "Oswaldus",
             "pl": "Oswald"
         }
     },
     "patrons/oswaldus/nor": {
         "names": {
-            "pl": "Oswald z Nortumbrii [draft]"
+            "en": "Oswald of Nortumbria",
+            "la": "Oswaldus rex Nortumbriae",
+            "pl": "Oswald z Nortumbrii"
         },
         "died": [
             "642-08-05"

@@ -63,7 +63,7 @@
             "es": "Domingo de Osma",
             "en": "Dominic of Osma",
             "la": "Dominicus Oxomensis",
-            "pl": "Dominik z Osmy"
+            "pl": "Dominik „Guzmán” z Osmy"
         },
         "records/patrons/eusebius/ver": {
             "la": "Eusebius Vercellensis",
@@ -113,6 +113,11 @@
             "la": "Magnus",
             "en": "Magnus of Füssen",
             "pl": "Magnus z Füssen"
+        },
+        "records/patrons/oswaldus/nor": {
+            "en": "Oswald of Nortumbria",
+            "la": "Oswaldus rex Nortumbriae",
+            "pl": "Oswald z Nortumbrii"
         },
         "records/patrons/paulus/apo": {
             "he": "שָׁאוּל התרס",

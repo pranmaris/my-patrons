@@ -1,38 +1,28 @@
 {
   "names": {
+    "en": [
+      "Oswald of Nortumbria"
+    ],
+    "la": [
+      "Oswaldus rex Nortumbriae"
+    ],
     "pl": [
-      "Oswald z Nortumbrii [draft]"
+      "Oswald z Nortumbrii"
     ]
   },
 
   "forenames": [
     {
+      "en": "Oswald",
       "la": "Oswaldus",
       "pl": "Oswald"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
-  "born": ["?"],
+  "born": ["~604"],
   "died": ["642-08-05"],
 
-  "beatified": {
-  },
-  "canonized": {
-  },
-
   "also-in-martyrology": ["08-05"],
-  "also-mentioned": [],
 
-  "categories": [],
-  "order": [],
-
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "categories": ["vir", "martyr", "rex"]
 }
