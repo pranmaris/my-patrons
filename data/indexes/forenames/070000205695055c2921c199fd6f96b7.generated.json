@@ -3,6 +3,12 @@
         "la": "Rochus"
     },
     "translations": {
+        "fr": [
+            "Roch"
+        ],
+        "en": [
+            "Roch"
+        ],
         "la": [
             "Rochus"
         ],
@@ -12,7 +18,10 @@
     },
     "links": {
         "records/patrons/rochus/per": {
-            "pl": "Roch [draft]"
+            "fr": "Roch de Montpellier",
+            "en": "Roch",
+            "la": "Rochus",
+            "pl": "Roch"
         }
     }
 }

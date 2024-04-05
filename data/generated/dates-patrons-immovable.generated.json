@@ -265,7 +265,10 @@
     "08-16": {
         "records/patrons/rochus/per": {
             "name": {
-                "pl": "Roch [draft]"
+                "fr": "Roch de Montpellier",
+                "en": "Roch",
+                "la": "Rochus",
+                "pl": "Roch"
             },
             "sources": {
                 "other-martyrology-days": "16 VIII"

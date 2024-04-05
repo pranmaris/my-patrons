@@ -940,19 +940,22 @@
     },
     "patrons/rochus": {
         "names": {
+            "fr": "Roch",
+            "en": "Roch",
             "la": "Rochus",
             "pl": "Roch"
         }
     },
     "patrons/rochus/per": {
         "names": {
-            "pl": "Roch [draft]"
+            "fr": "Roch de Montpellier",
+            "en": "Roch",
+            "la": "Rochus",
+            "pl": "Roch"
         },
         "died": [
             "~1327",
-            "~1377",
-            "1376-08-15",
-            "~1378"
+            "~1379"
         ],
         "feasts": []
     },

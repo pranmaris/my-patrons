@@ -1,38 +1,35 @@
 {
   "names": {
+    "fr": [
+      "Roch de Montpellier",
+      "Roch"
+    ],
+    "en": [
+      "Roch",
+      "Roch of Montpellier"
+    ],
+    "la": [
+      "Rochus",
+      "Rochus peregrinus"
+    ],
     "pl": [
-      "Roch [draft]"
+      "Roch",
+      "Roch z Montpellier"
     ]
   },
 
   "forenames": [
     {
+      "fr": "Roch",
+      "en": "Roch",
       "la": "Rochus",
       "pl": "Roch"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
-  "born": ["?"],
-  "died": ["~1327", "~1377", "1376-08-15", "~1378"],
-
-  "beatified": {
-  },
-  "canonized": {
-  },
+  "died": ["~1327", "~1379"],
 
   "also-in-martyrology": ["08-16"],
-  "also-mentioned": [],
 
-  "categories": [],
-  "order": [],
-
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "categories": ["vir", "confessor"]
 }
