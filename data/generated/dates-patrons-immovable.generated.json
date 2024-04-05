@@ -185,7 +185,9 @@
         },
         "records/patrons/xystus/2pp": {
             "name": {
-                "pl": "Sykstus II [draft]"
+                "la": "Xystus II",
+                "en": "Sixtus II",
+                "pl": "Sykstus II"
             },
             "sources": {
                 "reliable-death-anniversary": "6 VIII",
@@ -196,7 +198,9 @@
     "08-07": {
         "records/patrons/xystus/2pp": {
             "name": {
-                "pl": "Sykstus II [draft]"
+                "la": "Xystus II",
+                "en": "Sixtus II",
+                "pl": "Sykstus II"
             },
             "sources": {
                 "other-martyrology-days": "7 VIII"

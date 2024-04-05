@@ -1037,12 +1037,15 @@
     "patrons/xystus": {
         "names": {
             "la": "Xystus",
+            "en": "Sixtus",
             "pl": "Sykstus"
         }
     },
     "patrons/xystus/2pp": {
         "names": {
-            "pl": "Sykstus II [draft]"
+            "la": "Xystus II",
+            "en": "Sixtus II",
+            "pl": "Sykstus II"
         },
         "died": [
             "258-08-06"

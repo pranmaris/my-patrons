@@ -6,13 +6,18 @@
         "la": [
             "Xystus"
         ],
+        "en": [
+            "Sixtus"
+        ],
         "pl": [
             "Sykstus"
         ]
     },
     "links": {
         "records/patrons/xystus/2pp": {
-            "pl": "Sykstus II [draft]"
+            "la": "Xystus II",
+            "en": "Sixtus II",
+            "pl": "Sykstus II"
         }
     }
 }

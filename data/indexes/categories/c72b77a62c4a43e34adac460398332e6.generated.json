@@ -135,6 +135,11 @@
             "en": "Roch",
             "la": "Rochus",
             "pl": "Roch"
+        },
+        "records/patrons/xystus/2pp": {
+            "la": "Xystus II",
+            "en": "Sixtus II",
+            "pl": "Sykstus II"
         }
     }
 }
