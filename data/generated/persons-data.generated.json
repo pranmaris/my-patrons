@@ -834,8 +834,8 @@
     },
     "patrons/oswaldus/nor": {
         "names": {
-            "en": "Oswald of Nortumbria",
-            "la": "Oswaldus rex Nortumbriae",
+            "en": "Oswald of Northumbria",
+            "la": "Oswaldus rex Northumbriae",
             "pl": "Oswald z Nortumbrii"
         },
         "died": [
@@ -858,8 +858,7 @@
             "pl": "Paweł z Tarsu"
         },
         "died": [
-            "64",
-            "67"
+            "~67"
         ],
         "feasts": {
             "feasts/ppv": {
@@ -896,8 +895,7 @@
             "pl": "Piotr Apostoł"
         },
         "died": [
-            "64",
-            "67"
+            "~64"
         ],
         "feasts": {
             "feasts/r1p": {
@@ -954,7 +952,6 @@
             "pl": "Roch"
         },
         "died": [
-            "~1327",
             "~1379"
         ],
         "feasts": []
