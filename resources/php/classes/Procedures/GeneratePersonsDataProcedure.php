@@ -5,7 +5,6 @@ class GeneratePersonsDataProcedure extends Procedure
     private const TRANSLATIONS_FILE_PATH = 'website-language-variables.json';
     private const TRANSLATIONS_VARIABLE_NAME_PREFIX = 'lang-';
 
-    private const PATH_TO_SKIP = '~~~';
     private const FEASTS_PATH = 'feasts';
     private const FEASTS_ROOT_PATH = 'records/' . self::FEASTS_PATH;
 
@@ -65,8 +64,7 @@ class GeneratePersonsDataProcedure extends Procedure
             $staticIndexPath = $this->getIndexFilePath($dirName);
             $generatedIndexPath = $this->getIndexFilePath($dirName, true);
 
-            if (false !== strpos($elementPath, self::PATH_TO_SKIP)
-                || in_array($elementPath, [
+            if (in_array($elementPath, [
                     $staticIndexPath,
                     $generatedIndexPath,
                     $this->getAliasFilePath($dirName),

@@ -2,7 +2,6 @@ const DEV_HOSTNAME_REMOVE_STRING = '.dev';
 
 const SELECT_NAME = '...';
 const SELECT_SEPARATOR = '----------';
-const NAME_TO_IGNORE = '~~~';
 
 const ANCHOR_CHARACTER = '#';
 const UNIQUENESS_STRING_SEPARATOR = '|#|#|';

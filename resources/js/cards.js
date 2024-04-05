@@ -281,8 +281,6 @@ const LANGUAGE_VARIABLE_IMPORT_VALUES_FROM_JSON_BUTTON = 'lang-import-values-fro
 const LANGUAGE_VARIABLE_COPY_TO_CLIPBOARD_BUTTON = 'lang-copy-json-to-clipboard';
 const LANGUAGE_VARIABLE_CARD_FORM_DATA_CONTACT_INFO = 'lang-card-form-data-contact-info';
 
-const SELECT_NAME_TO_IGNORE = '~~~';
-
 let languageVariables = {};
 let patronCategories = {};
 let cardsData = [];
@@ -1336,9 +1334,6 @@ const buildCardFormSelects = async function(cardId, path, contextPath, options) 
   const nextOptions = new Map();
   nextOptions.set(CARD_FORM_UNSELECTED_VALUE, CARD_FORM_UNSELECTED_NAME);
   for (const option in indexData) {
-    if (option == SELECT_NAME_TO_IGNORE) {
-      continue;
-    }
     nextOptions.set(option, getTranslatedNameData(indexData, option)[0]);
   }
 
