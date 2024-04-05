@@ -230,7 +230,10 @@
     "08-09": {
         "records/patrons/teresia/ben": {
             "name": {
-                "pl": "Teresa Benedykta od Krzyża [draft]"
+                "de": "Therese Benedicta vom Kreuz",
+                "en": "Teresa Benedicta of the Cross",
+                "la": "Teresia Benedicta a Cruce",
+                "pl": "Teresa Benedykta od Krzyża"
             },
             "sources": {
                 "reliable-death-anniversary": "9 VIII",

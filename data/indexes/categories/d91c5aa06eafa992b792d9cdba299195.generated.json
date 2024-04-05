@@ -46,6 +46,12 @@
             "pl": "Sancja Szymkowiak",
             "en": "Sancja Szymkowiak",
             "la": "Sancia Szymkowiak"
+        },
+        "records/patrons/teresia/ben": {
+            "de": "Therese Benedicta vom Kreuz",
+            "en": "Teresa Benedicta of the Cross",
+            "la": "Teresia Benedicta a Cruce",
+            "pl": "Teresa Benedykta od Krzyża"
         }
     }
 }

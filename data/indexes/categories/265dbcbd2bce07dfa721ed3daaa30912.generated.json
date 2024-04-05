@@ -64,6 +64,12 @@
             "la": "Petrus",
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
+        },
+        "records/patrons/teresia/ben": {
+            "de": "Therese Benedicta vom Kreuz",
+            "en": "Teresa Benedicta of the Cross",
+            "la": "Teresia Benedicta a Cruce",
+            "pl": "Teresa Benedykta od Krzyża"
         }
     }
 }

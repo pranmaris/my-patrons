@@ -3,6 +3,12 @@
         "la": "Teresia"
     },
     "translations": {
+        "de": [
+            "Therese"
+        ],
+        "en": [
+            "Teresa"
+        ],
         "la": [
             "Teresia"
         ],
@@ -12,7 +18,10 @@
     },
     "links": {
         "records/patrons/teresia/ben": {
-            "pl": "Teresa Benedykta od Krzyża [draft]"
+            "de": "Therese Benedicta vom Kreuz",
+            "en": "Teresa Benedicta of the Cross",
+            "la": "Teresia Benedicta a Cruce",
+            "pl": "Teresa Benedykta od Krzyża"
         }
     }
 }

@@ -1016,13 +1016,18 @@
     },
     "patrons/teresia": {
         "names": {
+            "de": "Therese",
+            "en": "Teresa",
             "la": "Teresia",
             "pl": "Teresa"
         }
     },
     "patrons/teresia/ben": {
         "names": {
-            "pl": "Teresa Benedykta od Krzyża [draft]"
+            "de": "Therese Benedicta vom Kreuz",
+            "en": "Teresa Benedicta of the Cross",
+            "la": "Teresia Benedicta a Cruce",
+            "pl": "Teresa Benedykta od Krzyża"
         },
         "died": [
             "1942-08-09"

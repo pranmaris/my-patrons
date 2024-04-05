@@ -44,11 +44,17 @@
     "19540a95864c60062bd552605f14c948": {
         "la": "Margarita"
     },
+    "19b991ed42f2df77d1ca51c1db2f2bbc": {
+        "de": "Therese"
+    },
     "19d8ae528679c65dde17044a8aaa44d5": {
         "en": "Augustine"
     },
     "1f7a7bf58268d503f9d6e5e92caa90be": {
         "pl": "Paweł"
+    },
+    "2090e4d0ca1928fbe1dba34050c9a02b": {
+        "la": "Editha"
     },
     "20f1aeb7819d7858684c898d1e98c1bb": {
         "en": "Anthony"
@@ -100,14 +106,23 @@
     "61409aa1fd47d4a5332de23cbf59a36f": {
         "en": "John"
     },
+    "61781b0d2f5282b28b02f2a8139e30fd": {
+        "pl": "Edyta"
+    },
     "638c2805f086b9cd8c12b9d0acbb56d0": {
         "pl": "Wawrzyniec"
     },
     "649e314529ae99fee77bffd211851b7d": {
+        "en": "Teresa",
         "pl": "Teresa"
     },
     "6a1a376d8169cfc1835f59ac934edbb7": {
         "en": "Joseph"
+    },
+    "6c8b4a296cdee01df1df82596b1d2e2d": {
+        "de": "Benedicta",
+        "en": "Benedicta",
+        "la": "Benedicta"
     },
     "6ddcc3a30915d395fc1f7b9841f193f0": {
         "it": "Rosalia",
@@ -138,6 +153,10 @@
     },
     "84d25b44916943b3890cee054ebef343": {
         "la": "Augustinus"
+    },
+    "84dc70177f6b8007530b2e3dcec34f76": {
+        "de": "Edith",
+        "en": "Edith"
     },
     "877fb7c9b4f0df10bbbc2cf8c65e5d87": {
         "la": "Antonius"
@@ -182,6 +201,9 @@
     },
     "a78bcf26721280c66741cb091d89a774": {
         "la": "Laurentius"
+    },
+    "b322f79ef26d512c24dc3ea75a32e66e": {
+        "pl": "Benedykta"
     },
     "b7dfd31a1e14a0300f8a16f53d399084": {
         "pl": "Jezus"

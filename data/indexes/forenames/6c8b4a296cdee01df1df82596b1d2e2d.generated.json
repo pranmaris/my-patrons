@@ -1,20 +1,21 @@
 {
     "names": {
-        "en": "Teresa",
-        "pl": "Teresa"
+        "de": "Benedicta",
+        "en": "Benedicta",
+        "la": "Benedicta"
     },
     "translations": {
         "de": [
-            "Therese"
+            "Benedicta"
         ],
         "en": [
-            "Teresa"
+            "Benedicta"
         ],
         "la": [
-            "Teresia"
+            "Benedicta"
         ],
         "pl": [
-            "Teresa"
+            "Benedykta"
         ]
     },
     "links": {
