@@ -1,21 +1,16 @@
 {
     "names": {
-        "it": "Rosalia",
-        "en": "Rosalia",
-        "la": "Rosalia"
+        "la": "solitaria"
     },
     "translations": {
-        "it": [
-            "Rosalia"
+        "la": [
+            "solitaria"
         ],
         "en": [
-            "Rosalia"
-        ],
-        "la": [
-            "Rosalia"
+            "solitaress"
         ],
         "pl": [
-            "Rozalia"
+            "samotnica"
         ]
     },
     "links": {

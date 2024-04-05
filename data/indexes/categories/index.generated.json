@@ -156,6 +156,9 @@
     "a1d6b5694b31e76b8c226d4be6b26093": {
         "la": "evangelista"
     },
+    "a586cb6a726f6fb58a0a984c4536092f": {
+        "pl": "samotnica"
+    },
     "a675aa630a716a40072b18c8cfee8ce8": {
         "en": "catechist"
     },
@@ -193,6 +196,9 @@
     "bae1e20259f45920889914b0d6bbe4f0": {
         "la": "sacerdos"
     },
+    "bb28d7d05b81ffd100cfcb5762dd2690": {
+        "la": "solitaria"
+    },
     "bf43b661e988366f97a46d67b7f822ca": {
         "pl": "biskup"
     },
@@ -222,6 +228,9 @@
     },
     "d91c5aa06eafa992b792d9cdba299195": {
         "la": "femina"
+    },
+    "db9ba0f4837435258a27af3fd4b31b06": {
+        "en": "solitaress"
     },
     "e206eeeda7c29b90d14249ee7ef14dc6": {
         "la": "catechista"

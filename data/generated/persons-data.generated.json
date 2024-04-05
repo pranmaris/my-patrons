@@ -981,18 +981,22 @@
     },
     "patrons/rosalia": {
         "names": {
+            "it": "Rosalia",
+            "en": "Rosalia",
             "la": "Rosalia",
             "pl": "Rozalia"
         }
     },
     "patrons/rosalia/pan": {
         "names": {
-            "pl": "Rozalia z Palermo [draft]"
+            "it": "Rosalia di Palermo",
+            "en": "Rosalia of Palermo",
+            "la": "Rosalia Panormitana",
+            "pl": "Rozalia z Palermo"
         },
         "died": [
-            "~1165",
-            "~1170",
-            "1170-09-04"
+            ">1101",
+            "<1200"
         ],
         "feasts": []
     },

@@ -308,6 +308,19 @@
         }
     },
 
+    "solitaria": {
+        "name": {
+            "la": "solitaria",
+            "en": "solitaress",
+            "pl": "samotnica"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "catechista": {
         "name": {
             "la": "catechista",
@@ -499,6 +512,19 @@
             "la": "monachus",
             "en": "hermit",
             "pl": "mnich"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "x-solitarius": {
+        "name": {
+            "la": "solitarius",
+            "en": "solitary",
+            "pl": "samotnik"
         },
         "color": "#000000",
         "description": {

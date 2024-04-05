@@ -1,38 +1,36 @@
 {
   "names": {
+    "it": [
+      "Rosalia di Palermo",
+      "Rosalia Sinibaldi"
+    ],
+    "en": [
+      "Rosalia of Palermo",
+      "Rosalia Sinibaldi"
+    ],
+    "la": [
+      "Rosalia Panormitana",
+      "Rosalia Sinibaldi"
+    ],
     "pl": [
-      "Rozalia z Palermo [draft]"
+      "Rozalia z Palermo",
+      "Rozalia Sycylijska",
+      "Rozalia Sinibaldi"
     ]
   },
 
   "forenames": [
     {
+      "it": "Rosalia",
+      "en": "Rosalia",
       "la": "Rosalia",
       "pl": "Rozalia"
     }
   ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
 
-  "born": ["?"],
-  "died": ["~1165", "~1170", "1170-09-04"],
-
-  "beatified": {
-  },
-  "canonized": {
-  },
+  "died": [">1101", "<1200"],
 
   "also-in-martyrology": ["09-04"],
-  "also-mentioned": [],
 
-  "categories": [],
-  "order": [],
-
-  "images": {
-  },
-
-  "data-links": {
-  }
+  "categories": ["femina", "virgo", "solitaria"]
 }

@@ -3,6 +3,12 @@
         "pl": "Rozalia"
     },
     "translations": {
+        "it": [
+            "Rosalia"
+        ],
+        "en": [
+            "Rosalia"
+        ],
         "la": [
             "Rosalia"
         ],
@@ -12,7 +18,10 @@
     },
     "links": {
         "records/patrons/rosalia/pan": {
-            "pl": "Rozalia z Palermo [draft]"
+            "it": "Rosalia di Palermo",
+            "en": "Rosalia of Palermo",
+            "la": "Rosalia Panormitana",
+            "pl": "Rozalia z Palermo"
         }
     }
 }
