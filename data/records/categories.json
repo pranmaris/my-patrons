@@ -282,6 +282,19 @@
         }
     },
 
+    "religiosa": {
+        "name": {
+            "la": "religiosa",
+            "en": "religious",
+            "pl": "zakonnica"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "catechista": {
         "name": {
             "la": "catechista",
@@ -352,7 +365,7 @@
 
 
 
-    "archangelus": {
+    "x-archangelus": {
         "name": {
             "la": "archangelus",
             "en": "archangel",
@@ -365,7 +378,7 @@
         }
     },
 
-    "angelus": {
+    "x-angelus": {
         "name": {
             "la": "angelus",
             "en": "angel",
@@ -378,7 +391,7 @@
         }
     },
 
-    "coetus": {
+    "x-coetus": {
         "name": {
             "la": "coetus",
             "en": "group",
@@ -390,7 +403,7 @@
         }
     },
 
-    "vidua": {
+    "x-vidua": {
         "name": {
             "la": "vidua",
             "en": "widow",
@@ -403,7 +416,7 @@
         }
     },
 
-    "patriarcha": {
+    "x-patriarcha": {
         "name": {
             "la": "patriarcha",
             "en": "patriarch",
@@ -416,7 +429,7 @@
         }
     },
 
-    "prophetissa": {
+    "x-prophetissa": {
         "name": {
             "la": "prophetissa",
             "en": "prophetess",
@@ -429,7 +442,7 @@
         }
     },
 
-    "anachoreta": {
+    "x-anachoreta": {
         "name": {
             "la": "anachoreta",
             "en": "hermit",
@@ -442,7 +455,7 @@
         }
     },
 
-    "tertiarius": {
+    "x-tertiarius": {
         "name": {
             "la": "tertiarius",
             "en": "tertiary",
@@ -455,7 +468,7 @@
         }
     },
 
-    "tertiaria": {
+    "x-tertiaria": {
         "name": {
             "la": "tertiaria",
             "en": "tertiary",
@@ -468,7 +481,7 @@
         }
     },
 
-    "abbatissa": {
+    "x-abbatissa": {
         "name": {
             "la": "abbatissa",
             "en": "abbess",
@@ -481,7 +494,7 @@
         }
     },
 
-    "monachus": {
+    "x-monachus": {
         "name": {
             "la": "monachus",
             "en": "hermit",
@@ -494,20 +507,7 @@
         }
     },
 
-    "religiosa": {
-        "name": {
-            "la": "religiosa",
-            "en": "religious",
-            "pl": "zakonnica"
-        },
-        "color": "#000000",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "imperator": {
+    "x-imperator": {
         "name": {
             "la": "imperator",
             "en": "emperor",
@@ -520,7 +520,7 @@
         }
     },
 
-    "imperatrix": {
+    "x-imperatrix": {
         "name": {
             "la": "imperatrix",
             "en": "empress",
@@ -533,7 +533,7 @@
         }
     },
 
-    "princeps": {
+    "x-princeps": {
         "name": {
             "la": "princeps",
             "en": "prince",

@@ -19,6 +19,11 @@
             "en": "Mary, mother of Jesus",
             "la": "Maria Virgo",
             "pl": "Maria z Nazaretu"
+        },
+        "records/patrons/sancia/szy": {
+            "pl": "Sancja Szymkowiak",
+            "en": "Sancja Szymkowiak",
+            "la": "Sancia Szymkowiak"
         }
     }
 }

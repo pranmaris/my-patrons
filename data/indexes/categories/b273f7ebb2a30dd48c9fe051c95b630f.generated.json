@@ -1,25 +1,19 @@
 {
     "names": {
-        "pl": "dziewica"
+        "la": "religiosa"
     },
     "translations": {
         "la": [
-            "virgo"
+            "religiosa"
         ],
         "en": [
-            "virgin"
+            "religious"
         ],
         "pl": [
-            "dziewica"
+            "zakonnica"
         ]
     },
     "links": {
-        "records/patrons/maria/naz": {
-            "arc": "ܡܪܝܡ",
-            "en": "Mary, mother of Jesus",
-            "la": "Maria Virgo",
-            "pl": "Maria z Nazaretu"
-        },
         "records/patrons/sancia/szy": {
             "pl": "Sancja Szymkowiak",
             "en": "Sancja Szymkowiak",

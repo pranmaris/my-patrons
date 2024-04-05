@@ -305,9 +305,11 @@
         }
     },
     "08-29": {
-        "records/patrons/maria/san": {
+        "records/patrons/sancia/szy": {
             "name": {
-                "pl": "Maria Sancja Szymkowiak [draft]"
+                "pl": "Sancja Szymkowiak",
+                "en": "Sancja Szymkowiak",
+                "la": "Sancia Szymkowiak"
             },
             "sources": {
                 "reliable-death-anniversary": "29 VIII",

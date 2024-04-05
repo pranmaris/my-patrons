@@ -4,13 +4,15 @@
     },
     "translations": {
         "la": [
-            "religiosus"
+            "religiosus",
+            "religiosa"
         ],
         "en": [
             "religious"
         ],
         "pl": [
-            "zakonnik"
+            "zakonnik",
+            "zakonnica"
         ]
     },
     "links": {
@@ -42,6 +44,11 @@
             "en": "Dominic of Osma",
             "la": "Dominicus Oxomensis",
             "pl": "Dominik z Osmy"
+        },
+        "records/patrons/sancia/szy": {
+            "pl": "Sancja Szymkowiak",
+            "en": "Sancja Szymkowiak",
+            "la": "Sancia Szymkowiak"
         }
     }
 }

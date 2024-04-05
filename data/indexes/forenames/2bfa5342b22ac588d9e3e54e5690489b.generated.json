@@ -1,0 +1,20 @@
+{
+    "names": {
+        "pl": "Sancja"
+    },
+    "translations": {
+        "pl": [
+            "Sancja"
+        ],
+        "la": [
+            "Sancia"
+        ]
+    },
+    "links": {
+        "records/patrons/sancia/szy": {
+            "pl": "Sancja Szymkowiak",
+            "en": "Sancja Szymkowiak",
+            "la": "Sancia Szymkowiak"
+        }
+    }
+}

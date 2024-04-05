@@ -825,15 +825,6 @@
             }
         }
     },
-    "patrons/maria/san": {
-        "names": {
-            "pl": "Maria Sancja Szymkowiak [draft]"
-        },
-        "died": [
-            "1942-08-29"
-        ],
-        "feasts": []
-    },
     "patrons/oswaldus": {
         "names": {
             "la": "Oswaldus",
@@ -991,6 +982,23 @@
             "~1165",
             "~1170",
             "1170-09-04"
+        ],
+        "feasts": []
+    },
+    "patrons/sancia": {
+        "names": {
+            "pl": "Sancja",
+            "la": "Sancia"
+        }
+    },
+    "patrons/sancia/szy": {
+        "names": {
+            "pl": "Sancja Szymkowiak",
+            "en": "Sancja Szymkowiak",
+            "la": "Sancia Szymkowiak"
+        },
+        "died": [
+            "1942-08-29"
         ],
         "feasts": []
     },
