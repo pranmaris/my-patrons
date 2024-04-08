@@ -309,6 +309,26 @@
             "pl": "Patroni"
         }
     },
+    "patrons/adalbertus": {
+        "names": {
+            "cz": "Adalbert",
+            "en": "Adalbert",
+            "la": "Adalbertus",
+            "pl": "Adalbert"
+        }
+    },
+    "patrons/adalbertus/pra": {
+        "names": {
+            "cz": "Vojtěch Slavníkovec",
+            "en": "Adalbert of Prague",
+            "la": "Adalbertus Pragensis",
+            "pl": "Wojciech Sławnikowic"
+        },
+        "died": [
+            "997-04-23"
+        ],
+        "feasts": []
+    },
     "patrons/albertus": {
         "names": {
             "de": "Albert",

@@ -1,0 +1,43 @@
+{
+  "names": {
+    "cz": [
+      "Vojtěch Slavníkovec"
+    ],
+    "en": [
+      "Adalbert of Prague"
+    ],
+    "la": [
+      "Adalbertus Pragensis"
+    ],
+    "pl": [
+      "Wojciech Sławnikowic",
+      "Adalbert z Pragi"
+    ]
+  },
+
+  "forenames": [
+    {
+      "cz": "Adalbert",
+      "en": "Adalbert",
+      "la": "Adalbertus",
+      "pl": "Adalbert"
+    },
+    {
+      "cz": "Vojtěch",
+      "en": "Vojtech",
+      "la": "Vojtech",
+      "pl": "Wojciech"
+    }
+  ],
+
+  "born": ["~956"],
+  "died": ["997-04-23"],
+
+  "canonized": {
+    "date": "999"
+  },
+
+  "also-in-martyrology": ["04-23"],
+
+  "categories": ["vir", "martyr", "episcopus", "monachus"]
+}

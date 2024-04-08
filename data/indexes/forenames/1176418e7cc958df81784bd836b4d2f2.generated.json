@@ -1,16 +1,19 @@
 {
     "names": {
-        "en": "monk"
+        "cz": "Vojtěch"
     },
     "translations": {
-        "la": [
-            "monachus"
+        "cz": [
+            "Vojtěch"
         ],
         "en": [
-            "monk"
+            "Vojtech"
+        ],
+        "la": [
+            "Vojtech"
         ],
         "pl": [
-            "mnich"
+            "Wojciech"
         ]
     },
     "links": {
@@ -19,11 +22,6 @@
             "en": "Adalbert of Prague",
             "la": "Adalbertus Pragensis",
             "pl": "Wojciech Sławnikowic"
-        },
-        "records/patrons/martinus/tur": {
-            "la": "Martinus Turonensis",
-            "en": "Martin of Tours",
-            "pl": "Marcin z Tours"
         }
     }
 }

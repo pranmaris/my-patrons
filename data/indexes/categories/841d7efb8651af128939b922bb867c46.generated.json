@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/adalbertus/pra": {
+            "cz": "Vojtěch Slavníkovec",
+            "en": "Adalbert of Prague",
+            "la": "Adalbertus Pragensis",
+            "pl": "Wojciech Sławnikowic"
+        },
         "records/patrons/andreas/bob": {
             "pl": "Andrzej Bobola",
             "en": "Andrew Bobola",

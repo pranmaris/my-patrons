@@ -28,11 +28,17 @@
     "0afca49306b28c1650a1d4130a6a0ce1": {
         "la": "Clara"
     },
+    "0cfef07dbbce03cb2bcfec95267f5e82": {
+        "la": "Adalbertus"
+    },
     "0df4dccc4aac3f6f36e00ef2a6a4bfac": {
         "en": "Rose"
     },
     "0e1c2885bc3fcd96020d335699835ac9": {
         "pl": "Róża"
+    },
+    "1176418e7cc958df81784bd836b4d2f2": {
+        "cz": "Vojtěch"
     },
     "12dcd3c521065905636bcf7c5026540d": {
         "la": "Eusebius",
@@ -102,11 +108,18 @@
     "477669175a142d11dbcd1f8e4d3a33c6": {
         "pl": "Rozalia"
     },
+    "479a238dc01c507833c3252a18d7dc6f": {
+        "pl": "Wojciech"
+    },
     "4da3d7c5cdacb12a24c77592ff3d6f05": {
         "en": "Clare"
     },
     "4e165e6c334cc2647c2774c8c663a639": {
         "la": "Albertus"
+    },
+    "4ff0303e6c501a733d9a065a33dbe5a6": {
+        "en": "Vojtech",
+        "la": "Vojtech"
     },
     "549004080d5a0695b9f985e1c752f414": {
         "pl": "Józef"
@@ -225,6 +238,11 @@
     },
     "a9d4b4f5e663ce1431e7f203376166cb": {
         "pl": "Ryta"
+    },
+    "ac18bbccfd9fac75b8c68b9bd53ae5db": {
+        "cz": "Adalbert",
+        "en": "Adalbert",
+        "pl": "Adalbert"
     },
     "b322f79ef26d512c24dc3ea75a32e66e": {
         "pl": "Benedykta"

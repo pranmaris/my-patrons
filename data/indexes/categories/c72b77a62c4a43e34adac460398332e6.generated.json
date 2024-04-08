@@ -20,6 +20,12 @@
             "la": "Iesus Christus",
             "pl": "Jezus Chrystus"
         },
+        "records/patrons/adalbertus/pra": {
+            "cz": "Vojtěch Slavníkovec",
+            "en": "Adalbert of Prague",
+            "la": "Adalbertus Pragensis",
+            "pl": "Wojciech Sławnikowic"
+        },
         "records/patrons/albertus/mag": {
             "de": "Albert der Große",
             "en": "Albert the Great",
