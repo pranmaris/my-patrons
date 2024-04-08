@@ -70,6 +70,12 @@
             "en": "Martin of Tours",
             "pl": "Marcin z Tours"
         },
+        "records/patrons/patricius/hib": {
+            "ga": "Naomh Pádraig",
+            "en": "Patrick",
+            "la": "Patricius episcopus in Hibernia",
+            "pl": "Patryk z Irlandii"
+        },
         "records/patrons/rochus/per": {
             "fr": "Roch de Montpellier",
             "en": "Roch",

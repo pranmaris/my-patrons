@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "Patrick"
+    },
+    "translations": {
+        "ga": [
+            "Pádraig"
+        ],
+        "en": [
+            "Patrick"
+        ],
+        "la": [
+            "Patricius"
+        ],
+        "pl": [
+            "Patryk"
+        ]
+    },
+    "links": {
+        "records/patrons/patricius/hib": {
+            "ga": "Naomh Pádraig",
+            "en": "Patrick",
+            "la": "Patricius episcopus in Hibernia",
+            "pl": "Patryk z Irlandii"
+        }
+    }
+}

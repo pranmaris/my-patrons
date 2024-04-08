@@ -1,4 +1,18 @@
 {
+    "03-17": {
+        "records/patrons/patricius/hib": {
+            "name": {
+                "ga": "Naomh Pádraig",
+                "en": "Patrick",
+                "la": "Patricius episcopus in Hibernia",
+                "pl": "Patryk z Irlandii"
+            },
+            "sources": {
+                "reliable-death-anniversary": "17 III",
+                "other-martyrology-days": "17 III"
+            }
+        }
+    },
     "05-16": {
         "records/patrons/andreas/bob": {
             "name": {

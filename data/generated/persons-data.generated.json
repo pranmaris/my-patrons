@@ -881,6 +881,26 @@
         ],
         "feasts": []
     },
+    "patrons/patricius": {
+        "names": {
+            "ga": "Pádraig",
+            "en": "Patrick",
+            "la": "Patricius",
+            "pl": "Patryk"
+        }
+    },
+    "patrons/patricius/hib": {
+        "names": {
+            "ga": "Naomh Pádraig",
+            "en": "Patrick",
+            "la": "Patricius episcopus in Hibernia",
+            "pl": "Patryk z Irlandii"
+        },
+        "died": [
+            "~461-03-17"
+        ],
+        "feasts": []
+    },
     "patrons/paulus": {
         "names": {
             "la": "Paulus",
