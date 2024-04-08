@@ -283,6 +283,33 @@
             }
         }
     },
+    "08-11": {
+        "records/patrons/clara/asi": {
+            "name": {
+                "it": "Chiara d'Assisi",
+                "en": "Clara of Assisi",
+                "la": "Clara Assisiensis",
+                "pl": "Klara z Asyżu"
+            },
+            "sources": {
+                "reliable-death-anniversary": "11 VIII",
+                "other-martyrology-days": "11 VIII"
+            }
+        }
+    },
+    "08-12": {
+        "records/patrons/clara/asi": {
+            "name": {
+                "it": "Chiara d'Assisi",
+                "en": "Clara of Assisi",
+                "la": "Clara Assisiensis",
+                "pl": "Klara z Asyżu"
+            },
+            "sources": {
+                "other-martyrology-days": "12 VIII"
+            }
+        }
+    },
     "08-16": {
         "records/patrons/rochus/per": {
             "name": {

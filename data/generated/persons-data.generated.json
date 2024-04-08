@@ -418,6 +418,26 @@
             }
         }
     },
+    "patrons/clara": {
+        "names": {
+            "it": "Chiara",
+            "en": "Clare",
+            "la": "Clara",
+            "pl": "Klara"
+        }
+    },
+    "patrons/clara/asi": {
+        "names": {
+            "it": "Chiara d'Assisi",
+            "en": "Clara of Assisi",
+            "la": "Clara Assisiensis",
+            "pl": "Klara z Asyżu"
+        },
+        "died": [
+            "1253-08-11"
+        ],
+        "feasts": []
+    },
     "patrons/david": {
         "names": {
             "sw": "Daudi",

@@ -39,6 +39,12 @@
             "en": "Anthony of Padua",
             "pl": "Antoni Padewski"
         },
+        "records/patrons/clara/asi": {
+            "it": "Chiara d'Assisi",
+            "en": "Clara of Assisi",
+            "la": "Clara Assisiensis",
+            "pl": "Klara z Asyżu"
+        },
         "records/patrons/dominicus/oxo": {
             "es": "Domingo de Osma",
             "en": "Dominic of Osma",

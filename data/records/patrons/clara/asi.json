@@ -1,0 +1,45 @@
+{
+  "names": {
+    "it": [
+      "Chiara d'Assisi",
+      "Chiara Offreduccio"
+    ],
+    "en": [
+      "Clara of Assisi",
+      "Chiara Offreduccio"
+    ],
+    "la": [
+      "Clara Assisiensis",
+      "Clara de Asisio",
+      "prima planta pauperum Dominarum Ordinis Minorum"
+    ],
+    "pl": [
+      "Klara z Asyżu",
+      "Chiara Offreduccio"
+    ]
+  },
+
+  "forenames": [
+    {
+      "it": "Chiara",
+      "en": "Clare",
+      "la": "Clara",
+      "pl": "Klara"
+    }
+  ],
+
+  "born": ["1194-07-16"],
+  "died": ["1253-08-11"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1255-12-08"
+  },
+
+  "also-in-martyrology": ["08-11", "08-12"],
+
+  "categories": ["femina", "virgo", "religiosa"],
+
+  "order": ["osc"],
+  "order-founder": ["osc"]
+}

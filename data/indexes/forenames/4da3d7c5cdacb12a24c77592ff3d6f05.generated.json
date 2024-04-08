@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "Clare"
+    },
+    "translations": {
+        "it": [
+            "Chiara"
+        ],
+        "en": [
+            "Clare"
+        ],
+        "la": [
+            "Clara"
+        ],
+        "pl": [
+            "Klara"
+        ]
+    },
+    "links": {
+        "records/patrons/clara/asi": {
+            "it": "Chiara d'Assisi",
+            "en": "Clara of Assisi",
+            "la": "Clara Assisiensis",
+            "pl": "Klara z Asyżu"
+        }
+    }
+}
