@@ -1,0 +1,50 @@
+{
+  "names": {
+    "it": [
+      "Gaspare del Bufalo",
+      "Gaspare Melchiorre Baldassarre del Bufalo"
+    ],
+    "en": [
+      "Gaspar del Bufalo",
+      "Gaspar Melchior Balthazar del Bufalo"
+    ],
+    "la": [
+      "Gaspar del Bufalo"
+    ],
+    "pl": [
+      "Kasper del Bufalo",
+      "Kasper Melchior Baltazar del Bufalo"
+    ]
+  },
+
+  "forenames": [
+    {
+      "it": "Gaspare",
+      "en": "Gaspar",
+      "la": "Gaspar",
+      "pl": "Kasper"
+    }
+  ],
+  "surnames": [
+    {
+      "it": "del Bufalo"
+    }
+  ],
+
+  "born": ["1786-01-06"],
+  "died": ["1837-12-28"],
+
+  "beatified": {
+    "date": "1904-12-18"
+  },
+  "canonized": {
+    "date": "1954-06-12"
+  },
+
+  "also-in-martyrology": ["12-28"],
+
+  "categories": ["vir", "presbyter", "conditor-ordo", "religiosus"],
+
+  "order": ["cpps"],
+  "order-founder": ["cpps"]
+}

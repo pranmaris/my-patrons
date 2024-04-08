@@ -51,6 +51,12 @@
             "la": "Dominicus Oxomensis",
             "pl": "Dominik Guzmán"
         },
+        "records/patrons/gaspar/buf": {
+            "it": "Gaspare del Bufalo",
+            "en": "Gaspar del Bufalo",
+            "la": "Gaspar del Bufalo",
+            "pl": "Kasper del Bufalo"
+        },
         "records/patrons/rita/cas": {
             "it": "Rita da Cascia",
             "en": "Rita of Cascia",

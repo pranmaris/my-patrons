@@ -76,6 +76,12 @@
             "en": "Eusebius of Vercelli",
             "pl": "Euzebiusz z Vercelli"
         },
+        "records/patrons/gaspar/buf": {
+            "it": "Gaspare del Bufalo",
+            "en": "Gaspar del Bufalo",
+            "la": "Gaspar del Bufalo",
+            "pl": "Kasper del Bufalo"
+        },
         "records/patrons/hormisdas/1pp": {
             "la": "Hormisdas",
             "en": "Hormisdas",

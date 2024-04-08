@@ -1,0 +1,27 @@
+{
+    "names": {
+        "it": "Gaspare"
+    },
+    "translations": {
+        "it": [
+            "Gaspare"
+        ],
+        "en": [
+            "Gaspar"
+        ],
+        "la": [
+            "Gaspar"
+        ],
+        "pl": [
+            "Kasper"
+        ]
+    },
+    "links": {
+        "records/patrons/gaspar/buf": {
+            "it": "Gaspare del Bufalo",
+            "en": "Gaspar del Bufalo",
+            "la": "Gaspar del Bufalo",
+            "pl": "Kasper del Bufalo"
+        }
+    }
+}

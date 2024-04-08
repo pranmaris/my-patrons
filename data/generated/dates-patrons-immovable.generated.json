@@ -577,5 +577,19 @@
                 "other-martyrology-days": "27 XII"
             }
         }
+    },
+    "12-28": {
+        "records/patrons/gaspar/buf": {
+            "name": {
+                "it": "Gaspare del Bufalo",
+                "en": "Gaspar del Bufalo",
+                "la": "Gaspar del Bufalo",
+                "pl": "Kasper del Bufalo"
+            },
+            "sources": {
+                "reliable-death-anniversary": "28 XII",
+                "other-martyrology-days": "28 XII"
+            }
+        }
     }
 }

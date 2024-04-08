@@ -31,6 +31,12 @@
             "la": "Dominicus Oxomensis",
             "pl": "Dominik Guzmán"
         },
+        "records/patrons/gaspar/buf": {
+            "it": "Gaspare del Bufalo",
+            "en": "Gaspar del Bufalo",
+            "la": "Gaspar del Bufalo",
+            "pl": "Kasper del Bufalo"
+        },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",
             "en": "John Mary Vianney",

@@ -541,6 +541,26 @@
             }
         }
     },
+    "patrons/gaspar": {
+        "names": {
+            "it": "Gaspare",
+            "en": "Gaspar",
+            "la": "Gaspar",
+            "pl": "Kasper"
+        }
+    },
+    "patrons/gaspar/buf": {
+        "names": {
+            "it": "Gaspare del Bufalo",
+            "en": "Gaspar del Bufalo",
+            "la": "Gaspar del Bufalo",
+            "pl": "Kasper del Bufalo"
+        },
+        "died": [
+            "1837-12-28"
+        ],
+        "feasts": []
+    },
     "patrons/hormisdas": {
         "names": {
             "la": "Hormisdas",
