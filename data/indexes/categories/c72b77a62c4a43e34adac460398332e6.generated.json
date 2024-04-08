@@ -114,6 +114,11 @@
             "en": "Magnus of Füssen",
             "pl": "Magnus z Füssen"
         },
+        "records/patrons/martinus/tur": {
+            "la": "Martinus Turonensis",
+            "en": "Martin of Tours",
+            "pl": "Marcin z Tours"
+        },
         "records/patrons/oswaldus/nor": {
             "en": "Oswald of Northumbria",
             "la": "Oswaldus rex Northumbriae",

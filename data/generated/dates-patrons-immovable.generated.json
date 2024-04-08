@@ -488,6 +488,28 @@
                 "reliable-death-anniversary": "8 XI",
                 "other-martyrology-days": "8 XI"
             }
+        },
+        "records/patrons/martinus/tur": {
+            "name": {
+                "la": "Martinus Turonensis",
+                "en": "Martin of Tours",
+                "pl": "Marcin z Tours"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 XI"
+            }
+        }
+    },
+    "11-11": {
+        "records/patrons/martinus/tur": {
+            "name": {
+                "la": "Martinus Turonensis",
+                "en": "Martin of Tours",
+                "pl": "Marcin z Tours"
+            },
+            "sources": {
+                "other-martyrology-days": "11 XI"
+            }
         }
     },
     "11-15": {

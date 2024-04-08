@@ -308,6 +308,19 @@
         }
     },
 
+    "monachus": {
+        "name": {
+            "la": "monachus",
+            "en": "monk",
+            "pl": "mnich"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "monialis": {
         "name": {
             "la": "monialis",
@@ -512,19 +525,6 @@
             "la": "abbatissa",
             "en": "abbess",
             "pl": "ksieni"
-        },
-        "color": "#000000",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "x-monachus": {
-        "name": {
-            "la": "monachus",
-            "en": "monk",
-            "pl": "mnich"
         },
         "color": "#000000",
         "description": {

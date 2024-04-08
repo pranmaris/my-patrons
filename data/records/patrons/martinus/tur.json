@@ -1,0 +1,29 @@
+{
+  "names": {
+    "la": [
+      "Martinus Turonensis"
+    ],
+    "en": [
+      "Martin of Tours",
+      "Martin Merciful"
+    ],
+    "pl": [
+      "Marcin z Tours"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Martinus",
+      "en": "Martin",
+      "pl": "Marcin"
+    }
+  ],
+
+  "born": ["~316", "~336"],
+  "died": ["397-11-08"],
+
+  "also-in-martyrology": ["11-11"],
+
+  "categories": ["vir", "confessor", "episcopus", "sacerdos", "monachus"]
+}

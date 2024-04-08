@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Marcin"
+    },
+    "translations": {
+        "la": [
+            "Martinus"
+        ],
+        "en": [
+            "Martin"
+        ],
+        "pl": [
+            "Marcin"
+        ]
+    },
+    "links": {
+        "records/patrons/martinus/tur": {
+            "la": "Martinus Turonensis",
+            "en": "Martin of Tours",
+            "pl": "Marcin z Tours"
+        }
+    }
+}

@@ -65,6 +65,11 @@
             "la": "Iosephus",
             "pl": "Józef z Nazaretu"
         },
+        "records/patrons/martinus/tur": {
+            "la": "Martinus Turonensis",
+            "en": "Martin of Tours",
+            "pl": "Marcin z Tours"
+        },
         "records/patrons/rochus/per": {
             "fr": "Roch de Montpellier",
             "en": "Roch",

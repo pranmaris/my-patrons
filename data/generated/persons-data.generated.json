@@ -845,6 +845,24 @@
             }
         }
     },
+    "patrons/martinus": {
+        "names": {
+            "la": "Martinus",
+            "en": "Martin",
+            "pl": "Marcin"
+        }
+    },
+    "patrons/martinus/tur": {
+        "names": {
+            "la": "Martinus Turonensis",
+            "en": "Martin of Tours",
+            "pl": "Marcin z Tours"
+        },
+        "died": [
+            "397-11-08"
+        ],
+        "feasts": []
+    },
     "patrons/oswaldus": {
         "names": {
             "en": "Oswald",

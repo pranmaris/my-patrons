@@ -26,6 +26,9 @@
     "1067a19924602f0e33cb5b4ebaff02ed": {
         "pl": "papież"
     },
+    "171b6ba14aeefeb08caf15065042a4c2": {
+        "en": "monk"
+    },
     "1938fb7aedeb9ff3e8e66591718955df": {
         "la": "conditor ordo"
     },
@@ -138,6 +141,9 @@
     "7f82a3da7b6b954e96f193222b33165a": {
         "en": "priest"
     },
+    "8031b0aa75d793cda52be7adb74af9bf": {
+        "pl": "mnich"
+    },
     "841d7efb8651af128939b922bb867c46": {
         "pl": "męczennik"
     },
@@ -216,6 +222,9 @@
     },
     "c16e378185ee71ca686e24abc62bf832": {
         "en": "tertiary"
+    },
+    "c220efd20da17fbd59d67bd77fb003da": {
+        "la": "monachus"
     },
     "c29d9e1a0751535c7266fd8c7f176d6d": {
         "en": "deacon"
