@@ -20,11 +20,17 @@
             "la": "Alphonsus Maria a Ligorio",
             "pl": "Alfons Maria Liguori"
         },
+        "records/patrons/clara/asi": {
+            "it": "Chiara d'Assisi",
+            "en": "Clara of Assisi",
+            "la": "Clara Assisiensis",
+            "pl": "Klara z Asyżu"
+        },
         "records/patrons/dominicus/oxo": {
             "es": "Domingo de Osma",
             "en": "Dominic of Osma",
             "la": "Dominicus Oxomensis",
-            "pl": "Dominik „Guzmán” z Osmy"
+            "pl": "Dominik Guzmán"
         }
     }
 }
