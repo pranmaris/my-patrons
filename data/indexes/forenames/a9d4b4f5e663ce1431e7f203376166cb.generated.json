@@ -1,0 +1,28 @@
+{
+    "names": {
+        "pl": "Ryta"
+    },
+    "translations": {
+        "it": [
+            "Rita"
+        ],
+        "en": [
+            "Rita"
+        ],
+        "la": [
+            "Rita"
+        ],
+        "pl": [
+            "Rita",
+            "Ryta"
+        ]
+    },
+    "links": {
+        "records/patrons/rita/cas": {
+            "it": "Rita da Cascia",
+            "en": "Rita of Cascia",
+            "la": "Rita de Cassia",
+            "pl": "Rita z Cascii"
+        }
+    }
+}

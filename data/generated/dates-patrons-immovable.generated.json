@@ -24,6 +24,20 @@
             }
         }
     },
+    "05-22": {
+        "records/patrons/rita/cas": {
+            "name": {
+                "it": "Rita da Cascia",
+                "en": "Rita of Cascia",
+                "la": "Rita de Cassia",
+                "pl": "Rita z Cascii"
+            },
+            "sources": {
+                "reliable-death-anniversary": "22 V",
+                "other-martyrology-days": "22 V"
+            }
+        }
+    },
     "06-13": {
         "records/patrons/antonius/pat": {
             "name": {

@@ -139,6 +139,19 @@
         }
     },
 
+    "vidua": {
+        "name": {
+            "la": "vidua",
+            "en": "widow",
+            "pl": "wdowa"
+        },
+        "color": "#381A1A",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "propheta": {
         "name": {
             "la": "propheta",
@@ -295,6 +308,19 @@
         }
     },
 
+    "monialis": {
+        "name": {
+            "la": "monialis",
+            "en": "nun",
+            "pl": "mniszka"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "tertiaria": {
         "name": {
             "la": "tertiaria",
@@ -429,19 +455,6 @@
         }
     },
 
-    "x-vidua": {
-        "name": {
-            "la": "vidua",
-            "en": "widow",
-            "pl": "wdowa"
-        },
-        "color": "#381A1A",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
     "x-patriarcha": {
         "name": {
             "la": "patriarcha",
@@ -510,7 +523,7 @@
     "x-monachus": {
         "name": {
             "la": "monachus",
-            "en": "hermit",
+            "en": "monk",
             "pl": "mnich"
         },
         "color": "#000000",

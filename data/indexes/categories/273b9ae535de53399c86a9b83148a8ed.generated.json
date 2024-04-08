@@ -30,6 +30,12 @@
             "la": "Maria Virgo",
             "pl": "Maria z Nazaretu"
         },
+        "records/patrons/rita/cas": {
+            "it": "Rita da Cascia",
+            "en": "Rita of Cascia",
+            "la": "Rita de Cassia",
+            "pl": "Rita z Cascii"
+        },
         "records/patrons/rosa/lim": {
             "es": "Rosa de Lima",
             "en": "Rose of Lima",

@@ -1,0 +1,46 @@
+{
+  "names": {
+    "it": [
+      "Rita da Cascia",
+      "Margherita Lotti"
+    ],
+    "en": [
+      "Rita of Cascia",
+      "Mergherita Ferri Lotti"
+    ],
+    "la": [
+      "Rita de Cassia"
+    ],
+    "pl": [
+      "Rita z Cascii",
+      "Margherita Lotti",
+      "Margherita Mancini"
+    ]
+  },
+
+  "forenames": [
+    {
+      "it": "Rita",
+      "en": "Rita",
+      "la": "Rita",
+      "pl": ["Rita", "Ryta"]
+    }
+  ],
+
+  "born": ["~1381"],
+  "died": ["1457-05-22"],
+
+  
+  "beatified": {
+    "date": "1627-10-01"
+  },
+  "canonized": {
+    "date": "1900-05-24"
+  },
+
+  "also-in-martyrology": ["05-22"],
+
+  "categories": ["femina", "vidua", "religiosa", "monialis"],
+  "order": ["osa"]
+}
+

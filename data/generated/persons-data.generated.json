@@ -936,6 +936,26 @@
             }
         }
     },
+    "patrons/rita": {
+        "names": {
+            "it": "Rita",
+            "en": "Rita",
+            "la": "Rita",
+            "pl": "Rita"
+        }
+    },
+    "patrons/rita/cas": {
+        "names": {
+            "it": "Rita da Cascia",
+            "en": "Rita of Cascia",
+            "la": "Rita de Cassia",
+            "pl": "Rita z Cascii"
+        },
+        "died": [
+            "1457-05-22"
+        ],
+        "feasts": []
+    },
     "patrons/rochus": {
         "names": {
             "fr": "Roch",

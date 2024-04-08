@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "widow"
+    },
+    "translations": {
+        "la": [
+            "vidua"
+        ],
+        "en": [
+            "widow"
+        ],
+        "pl": [
+            "wdowa"
+        ]
+    },
+    "links": {
+        "records/patrons/rita/cas": {
+            "it": "Rita da Cascia",
+            "en": "Rita of Cascia",
+            "la": "Rita de Cassia",
+            "pl": "Rita z Cascii"
+        }
+    }
+}

@@ -17,6 +17,9 @@
     "0ac6cd34e2fac333bf0ee3cd06bdcf96": {
         "la": "papa"
     },
+    "0fd7a44fdd13ad881b07c0446d857a1a": {
+        "en": "nun"
+    },
     "1047bb80c8730f40cba4af88940d341b": {
         "pl": "męczennica"
     },
@@ -41,6 +44,9 @@
     "22f67d833c8310eab41c6d8b81b67a5a": {
         "pl": "Bóg"
     },
+    "259058bb86d85d62f14b7feee0a165da": {
+        "la": "monialis"
+    },
     "265dbcbd2bce07dfa721ed3daaa30912": {
         "la": "martyr",
         "en": "martyr"
@@ -56,6 +62,9 @@
     },
     "2a81e2977d5c03ae3454ec95dca40d70": {
         "en": "presbyter"
+    },
+    "2af19384a5ee00fab3a4e213307626d4": {
+        "pl": "wdowa"
     },
     "2da9e8bd7ffe9837e7fa6d0f289bbf32": {
         "en": "founder of the order"
@@ -199,6 +208,9 @@
     "bb28d7d05b81ffd100cfcb5762dd2690": {
         "la": "solitaria"
     },
+    "be3b0a36a11cc13dadec2e3639927f13": {
+        "la": "vidua"
+    },
     "bf43b661e988366f97a46d67b7f822ca": {
         "pl": "biskup"
     },
@@ -214,8 +226,14 @@
     "c85ee4df8082e8141095807b50fd904e": {
         "en": "martyress"
     },
+    "c9ad31e5740747285dae5c168715d2de": {
+        "en": "widow"
+    },
     "caf1c89e37206ef637fec26d5ae93b98": {
         "pl": "inny apostoł"
+    },
+    "cce126c8a1002b5b18a19aac87463f40": {
+        "pl": "mniszka"
     },
     "cdec765e51fc3ed533486e3641bd1305": {
         "la": "episcopus"

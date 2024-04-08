@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/rita/cas": {
+            "it": "Rita da Cascia",
+            "en": "Rita of Cascia",
+            "la": "Rita de Cassia",
+            "pl": "Rita z Cascii"
+        },
         "records/patrons/sancia/szy": {
             "pl": "Sancja Szymkowiak",
             "en": "Sancja Szymkowiak",

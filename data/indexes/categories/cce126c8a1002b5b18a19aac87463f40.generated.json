@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "mniszka"
+    },
+    "translations": {
+        "la": [
+            "monialis"
+        ],
+        "en": [
+            "nun"
+        ],
+        "pl": [
+            "mniszka"
+        ]
+    },
+    "links": {
+        "records/patrons/rita/cas": {
+            "it": "Rita da Cascia",
+            "en": "Rita of Cascia",
+            "la": "Rita de Cassia",
+            "pl": "Rita z Cascii"
+        }
+    }
+}
