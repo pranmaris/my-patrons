@@ -3,11 +3,14 @@
         "pl": "Jan"
     },
     "translations": {
-        "la": [
-            "Ioannes"
+        "it": [
+            "Giovanni"
         ],
         "en": [
             "John"
+        ],
+        "la": [
+            "Ioannes"
         ],
         "pl": [
             "Jan"
@@ -17,6 +20,12 @@
         ]
     },
     "links": {
+        "records/patrons/ioannes/23p": {
+            "it": "Giovanni XXIII",
+            "en": "John XXIII",
+            "la": "Ioannes XXIII",
+            "pl": "Jan XXIII"
+        },
         "records/patrons/ioannes/bap": {
             "he": "יוֹחָנָן",
             "en": "John the Baptist",

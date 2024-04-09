@@ -615,11 +615,24 @@
     },
     "patrons/ioannes": {
         "names": {
-            "la": "Ioannes",
+            "it": "Giovanni",
             "en": "John",
+            "la": "Ioannes",
             "pl": "Jan",
             "fr": "Jean"
         }
+    },
+    "patrons/ioannes/23p": {
+        "names": {
+            "it": "Giovanni XXIII",
+            "en": "John XXIII",
+            "la": "Ioannes XXIII",
+            "pl": "Jan XXIII"
+        },
+        "died": [
+            "1963-06-03"
+        ],
+        "feasts": []
     },
     "patrons/ioannes/bap": {
         "names": {

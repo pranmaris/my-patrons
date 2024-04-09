@@ -1,0 +1,27 @@
+{
+    "names": {
+        "it": "Giovanni"
+    },
+    "translations": {
+        "it": [
+            "Giovanni"
+        ],
+        "en": [
+            "John"
+        ],
+        "la": [
+            "Ioannes"
+        ],
+        "pl": [
+            "Jan"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/23p": {
+            "it": "Giovanni XXIII",
+            "en": "John XXIII",
+            "la": "Ioannes XXIII",
+            "pl": "Jan XXIII"
+        }
+    }
+}

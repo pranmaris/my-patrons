@@ -1,0 +1,50 @@
+{
+  "names": {
+    "it": [
+      "Giovanni XXIII",
+      "Angelo Giuseppe Roncalli"
+    ],
+    "en": [
+      "John XXIII",
+      "Angelo Giuseppe Roncalli"
+    ],
+    "la": [
+      "Ioannes XXIII",
+      "Angelo Giuseppe Roncalli"
+    ],
+    "pl": [
+      "Jan XXIII",
+      "Angelo Giuseppe Roncalli"
+    ]
+  },
+
+  "forenames": [
+    {
+      "it": "Giovanni",
+      "en": "John",
+      "la": "Ioannes",
+      "pl": "Jan"
+    }
+  ],
+  "epithets": [
+    {
+      "en": "the Twenty-Third",
+      "la": "Vigesimus Tertius",
+      "pl": "Dwudziesty Trzeci"
+    }
+  ],
+
+  "born": ["1881-11-25"],
+  "died": ["1963-06-03"],
+
+  "beatified": {
+    "date": "2000-09-03"
+  },
+  "canonized": {
+    "date": "2014-04-27"
+  },
+
+  "also-in-martyrology": ["06-03"],
+
+  "categories": ["vir", "papa"]
+}

@@ -24,6 +24,12 @@
             "en": "Hormisdas",
             "pl": "Hormizdas"
         },
+        "records/patrons/ioannes/23p": {
+            "it": "Giovanni XXIII",
+            "en": "John XXIII",
+            "la": "Ioannes XXIII",
+            "pl": "Jan XXIII"
+        },
         "records/patrons/petrus/apo": {
             "la": "Petrus",
             "en": "Peter the Apostle",
