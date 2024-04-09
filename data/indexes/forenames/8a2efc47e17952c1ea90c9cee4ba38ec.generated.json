@@ -1,0 +1,29 @@
+{
+    "names": {
+        "it": "Lucia",
+        "en": "Lucia",
+        "la": "Lucia"
+    },
+    "translations": {
+        "it": [
+            "Lucia"
+        ],
+        "en": [
+            "Lucia"
+        ],
+        "la": [
+            "Lucia"
+        ],
+        "pl": [
+            "Łucja"
+        ]
+    },
+    "links": {
+        "records/patrons/lucia/syr": {
+            "it": "Lucia da Siracusa",
+            "en": "Lucia of Syracuse",
+            "la": "Lucia Syracusana",
+            "pl": "Łucja z Syrakuz"
+        }
+    }
+}

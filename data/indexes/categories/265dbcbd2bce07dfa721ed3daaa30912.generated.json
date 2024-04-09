@@ -56,6 +56,12 @@
             "en": "Lawrence of Rome",
             "pl": "Wawrzyniec z Rzymu"
         },
+        "records/patrons/lucia/syr": {
+            "it": "Lucia da Siracusa",
+            "en": "Lucia of Syracuse",
+            "la": "Lucia Syracusana",
+            "pl": "Łucja z Syrakuz"
+        },
         "records/patrons/margarita/war": {
             "en": "Margaret Ward",
             "la": "Margarita Ward",

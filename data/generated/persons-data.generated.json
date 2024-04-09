@@ -821,6 +821,27 @@
         ],
         "feasts": []
     },
+    "patrons/lucia": {
+        "names": {
+            "it": "Lucia",
+            "en": "Lucia",
+            "la": "Lucia",
+            "pl": "Łucja"
+        }
+    },
+    "patrons/lucia/syr": {
+        "names": {
+            "it": "Lucia da Siracusa",
+            "en": "Lucia of Syracuse",
+            "la": "Lucia Syracusana",
+            "pl": "Łucja z Syrakuz"
+        },
+        "died": [
+            ">304",
+            "<305"
+        ],
+        "feasts": []
+    },
     "patrons/lydia": {
         "names": {
             "la": "Lydia",

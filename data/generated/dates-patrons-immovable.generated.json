@@ -661,6 +661,19 @@
             }
         }
     },
+    "12-13": {
+        "records/patrons/lucia/syr": {
+            "name": {
+                "it": "Lucia da Siracusa",
+                "en": "Lucia of Syracuse",
+                "la": "Lucia Syracusana",
+                "pl": "Łucja z Syrakuz"
+            },
+            "sources": {
+                "other-martyrology-days": "13 XII"
+            }
+        }
+    },
     "12-16": {
         "records/patrons/eusebius/ver": {
             "name": {

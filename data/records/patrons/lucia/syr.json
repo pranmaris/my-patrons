@@ -1,0 +1,32 @@
+{
+  "names": {
+    "it": [
+      "Lucia da Siracusa"
+    ],
+    "en": [
+      "Lucia of Syracuse"
+    ],
+    "la": [
+      "Lucia Syracusana"
+    ],
+    "pl": [
+      "Łucja z Syrakuz"
+    ]
+  },
+
+  "forenames": [
+    {
+      "it": "Lucia",
+      "en": "Lucia",
+      "la": "Lucia",
+      "pl": "Łucja"
+    }
+  ],
+
+  "born": ["~281"],
+  "died": [">304", "<305"],
+
+  "also-in-martyrology": ["12-13"],
+
+  "categories": ["femina", "martyrix", "virgo"]
+}
