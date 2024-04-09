@@ -3,19 +3,24 @@
         "la": "Secundus"
     },
     "translations": {
-        "la": [
-            "Secundus"
+        "pl": [
+            "Drugi"
         ],
         "en": [
             "the Second"
         ],
-        "pl": [
-            "Drugi"
+        "la": [
+            "Secundus"
         ]
     },
     "links": {
+        "records/patrons/ioannes/p2p": {
+            "pl": "Jan Paweł II",
+            "en": "John Paul II",
+            "la": "Ioannes Paulus Pp. II"
+        },
         "records/patrons/xystus/2pp": {
-            "la": "Xystus II",
+            "la": "Xystus Pp. II",
             "en": "Sixtus II",
             "pl": "Sykstus II"
         }

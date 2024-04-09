@@ -3,17 +3,22 @@
         "en": "Paul"
     },
     "translations": {
-        "la": [
-            "Paulus"
+        "pl": [
+            "Paweł"
         ],
         "en": [
             "Paul"
         ],
-        "pl": [
-            "Paweł"
+        "la": [
+            "Paulus"
         ]
     },
     "links": {
+        "records/patrons/ioannes/p2p": {
+            "pl": "Jan Paweł II",
+            "en": "John Paul II",
+            "la": "Ioannes Paulus Pp. II"
+        },
         "records/patrons/paulus/apo": {
             "he": "שָׁאוּל התרס",
             "la": "Paulus Tersensis",

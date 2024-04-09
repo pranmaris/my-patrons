@@ -15,7 +15,7 @@
     },
     "links": {
         "records/patrons/deusdedit/1pp": {
-            "la": "Deusdedit I",
+            "la": "Deusdedit Pp. I",
             "en": "Deusdedit I",
             "pl": "Deusdedit I"
         },
@@ -27,8 +27,13 @@
         "records/patrons/ioannes/23p": {
             "it": "Giovanni XXIII",
             "en": "John XXIII",
-            "la": "Ioannes XXIII",
+            "la": "Ioannes Pp. XXIII",
             "pl": "Jan XXIII"
+        },
+        "records/patrons/ioannes/p2p": {
+            "pl": "Jan Paweł II",
+            "en": "John Paul II",
+            "la": "Ioannes Paulus Pp. II"
         },
         "records/patrons/petrus/apo": {
             "la": "Petrus",
@@ -36,7 +41,7 @@
             "pl": "Piotr Apostoł"
         },
         "records/patrons/xystus/2pp": {
-            "la": "Xystus II",
+            "la": "Xystus Pp. II",
             "en": "Sixtus II",
             "pl": "Sykstus II"
         }

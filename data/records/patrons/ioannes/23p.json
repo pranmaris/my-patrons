@@ -9,6 +9,7 @@
       "Angelo Giuseppe Roncalli"
     ],
     "la": [
+      "Ioannes Pp. XXIII",
       "Ioannes XXIII",
       "Angelo Giuseppe Roncalli"
     ],
@@ -38,9 +39,11 @@
   "died": ["1963-06-03"],
 
   "beatified": {
+    "type": "ceremonially",
     "date": "2000-09-03"
   },
   "canonized": {
+    "type": "ceremonially",
     "date": "2014-04-27"
   },
 

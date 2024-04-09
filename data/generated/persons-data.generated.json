@@ -521,7 +521,7 @@
     },
     "patrons/deusdedit/1pp": {
         "names": {
-            "la": "Deusdedit I",
+            "la": "Deusdedit Pp. I",
             "en": "Deusdedit I",
             "pl": "Deusdedit I"
         },
@@ -626,7 +626,7 @@
         "names": {
             "it": "Giovanni XXIII",
             "en": "John XXIII",
-            "la": "Ioannes XXIII",
+            "la": "Ioannes Pp. XXIII",
             "pl": "Jan XXIII"
         },
         "died": [
@@ -719,6 +719,17 @@
                 }
             }
         }
+    },
+    "patrons/ioannes/p2p": {
+        "names": {
+            "pl": "Jan Paweł II",
+            "en": "John Paul II",
+            "la": "Ioannes Paulus Pp. II"
+        },
+        "died": [
+            "2005-04-02"
+        ],
+        "feasts": []
     },
     "patrons/ioannes/via": {
         "names": {
@@ -990,9 +1001,9 @@
     },
     "patrons/paulus": {
         "names": {
-            "la": "Paulus",
+            "pl": "Paweł",
             "en": "Paul",
-            "pl": "Paweł"
+            "la": "Paulus"
         }
     },
     "patrons/paulus/apo": {
@@ -1228,7 +1239,7 @@
     },
     "patrons/xystus/2pp": {
         "names": {
-            "la": "Xystus II",
+            "la": "Xystus Pp. II",
             "en": "Sixtus II",
             "pl": "Sykstus II"
         },

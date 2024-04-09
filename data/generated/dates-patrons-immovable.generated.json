@@ -13,6 +13,18 @@
             }
         }
     },
+    "04-02": {
+        "records/patrons/ioannes/p2p": {
+            "name": {
+                "pl": "Jan Paweł II",
+                "en": "John Paul II",
+                "la": "Ioannes Paulus Pp. II"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 IV"
+            }
+        }
+    },
     "04-23": {
         "records/patrons/adalbertus/pra": {
             "name": {
@@ -85,7 +97,7 @@
             "name": {
                 "it": "Giovanni XXIII",
                 "en": "John XXIII",
-                "la": "Ioannes XXIII",
+                "la": "Ioannes Pp. XXIII",
                 "pl": "Jan XXIII"
             },
             "sources": {
@@ -255,7 +267,7 @@
         },
         "records/patrons/xystus/2pp": {
             "name": {
-                "la": "Xystus II",
+                "la": "Xystus Pp. II",
                 "en": "Sixtus II",
                 "pl": "Sykstus II"
             },
@@ -268,7 +280,7 @@
     "08-07": {
         "records/patrons/xystus/2pp": {
             "name": {
-                "la": "Xystus II",
+                "la": "Xystus Pp. II",
                 "en": "Sixtus II",
                 "pl": "Sykstus II"
             },
@@ -549,7 +561,7 @@
     "11-08": {
         "records/patrons/deusdedit/1pp": {
             "name": {
-                "la": "Deusdedit I",
+                "la": "Deusdedit Pp. I",
                 "en": "Deusdedit I",
                 "pl": "Deusdedit I"
             },

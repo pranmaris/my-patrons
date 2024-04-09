@@ -29,9 +29,11 @@
   "died": ["1588-08-30"],
 
   "beatified": {
+    "type": "ceremonially",
     "date": "1929-12-15"
   },
   "canonized": {
+    "type": "ceremonially",
     "date": "1970-10-25"
   },
 

@@ -39,9 +39,11 @@
   "died": ["1617-08-24"],
 
   "beatified": {
+    "type": "ceremonially",
     "date": "1668-04-15"
   },
   "canonized": {
+    "type": "ceremonially",
     "date": "1671-04-12"
   },
 

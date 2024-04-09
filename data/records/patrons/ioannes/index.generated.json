@@ -2,7 +2,7 @@
     "23p": {
         "it": "Giovanni XXIII",
         "en": "John XXIII",
-        "la": "Ioannes XXIII",
+        "la": "Ioannes Pp. XXIII",
         "pl": "Jan XXIII"
     },
     "bap": {
@@ -20,6 +20,11 @@
         "la": "Ioannes Evangelista",
         "en": "John the Evangelist",
         "pl": "Jan Ewangelista"
+    },
+    "p2p": {
+        "pl": "Jan Paweł II",
+        "en": "John Paul II",
+        "la": "Ioannes Paulus Pp. II"
     },
     "via": {
         "fr": "Jean-Marie Vianney",

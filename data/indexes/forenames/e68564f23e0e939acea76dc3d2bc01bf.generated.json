@@ -23,7 +23,7 @@
         "records/patrons/ioannes/23p": {
             "it": "Giovanni XXIII",
             "en": "John XXIII",
-            "la": "Ioannes XXIII",
+            "la": "Ioannes Pp. XXIII",
             "pl": "Jan XXIII"
         },
         "records/patrons/ioannes/bap": {
@@ -41,6 +41,11 @@
             "la": "Ioannes Evangelista",
             "en": "John the Evangelist",
             "pl": "Jan Ewangelista"
+        },
+        "records/patrons/ioannes/p2p": {
+            "pl": "Jan Paweł II",
+            "en": "John Paul II",
+            "la": "Ioannes Paulus Pp. II"
         },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",

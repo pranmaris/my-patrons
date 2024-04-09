@@ -56,9 +56,11 @@
   "died": ["1942-08-09"],
 
   "beatified": {
+    "type": "ceremonially",
     "date": "1987-05-01"
   },
   "canonized": {
+    "type": "ceremonially",
     "date": "1998-10-11"
   },
 

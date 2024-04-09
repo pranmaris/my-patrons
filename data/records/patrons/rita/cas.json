@@ -30,11 +30,12 @@
   "born": ["~1381"],
   "died": ["1457-05-22"],
 
-  
   "beatified": {
+    "type": "ceremonially",
     "date": "1627-10-01"
   },
   "canonized": {
+    "type": "ceremonially",
     "date": "1900-05-24"
   },
 

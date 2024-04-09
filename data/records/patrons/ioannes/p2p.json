@@ -1,0 +1,51 @@
+{
+  "names": {
+    "pl": [
+      "Jan Paweł II",
+      "Karol Józef Wojtyła"
+    ],
+    "en": [
+      "John Paul II",
+      "Karol Józef Wojtyła"
+    ],
+    "la": [
+      "Ioannes Paulus Pp. II",
+      "Ioannes Paulus II",
+      "Carolus Iosephus Wojtyła"
+    ]
+  },
+
+  "forenames": [
+    {
+      "pl": "Jan",
+      "en": "John",
+      "la": "Ioannes"
+    },
+    {
+      "pl": "Paweł",
+      "en": "Paul",
+      "la": "Paulus"
+    }
+  ],
+  "epithets": [
+    {
+      "pl": "Drugi",
+      "en": "the Second",
+      "la": "Secundus"
+    }
+  ],
+
+  "born": ["1920-05-18"],
+  "died": ["2005-04-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2011-05-01"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2014-04-27"
+  },
+
+  "categories": ["vir", "papa"]
+}
