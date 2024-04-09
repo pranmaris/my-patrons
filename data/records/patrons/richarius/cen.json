@@ -1,0 +1,36 @@
+{
+  "names": {
+    "fr": [
+      "Riquier de Centule",
+      "Riquier"
+    ],
+    "en": [
+      "Richarius of Centula",
+      "Richarius"
+    ],
+    "la": [
+      "Richarius Centulensis",
+      "Richarius"
+    ],
+    "pl": [
+      "Rychard z Centuli",
+      "Rychard"
+    ]
+  },
+
+  "forenames": [
+    {
+      "fr": "Riquier",
+      "en": "Richarius",
+      "la": "Richarius",
+      "pl": "Rychard"
+    }
+  ],
+
+  "born": ["~560"],
+  "died": ["645-04-26"],
+
+  "also-in-martyrology": ["04-26"],
+
+  "categories": ["vir", "confessor", "presbyter"]
+}

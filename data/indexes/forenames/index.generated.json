@@ -93,8 +93,15 @@
     "2bfa5342b22ac588d9e3e54e5690489b": {
         "pl": "Sancja"
     },
+    "2cc0545d20bbdb7ac47133c3e7ceac8a": {
+        "en": "Richarius",
+        "la": "Richarius"
+    },
     "2d647ce96d7705f6381fa0882bc8c5ee": {
         "la": "Ioannes Baptista"
+    },
+    "330cde80123b2d965ef5911ad2d9ab49": {
+        "pl": "Rychard"
     },
     "393c54ff004277d44580d2805270872d": {
         "la": "Xystus"
@@ -331,6 +338,9 @@
     },
     "e68564f23e0e939acea76dc3d2bc01bf": {
         "pl": "Jan"
+    },
+    "e7058eaf4443f49cd58ce39ec1d10534": {
+        "fr": "Riquier"
     },
     "e91e0cb9a000b03dcdbb1f5474aff734": {
         "pl": "Janina"

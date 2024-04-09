@@ -1034,6 +1034,26 @@
             }
         }
     },
+    "patrons/richarius": {
+        "names": {
+            "fr": "Riquier",
+            "en": "Richarius",
+            "la": "Richarius",
+            "pl": "Rychard"
+        }
+    },
+    "patrons/richarius/cen": {
+        "names": {
+            "fr": "Riquier de Centule",
+            "en": "Richarius of Centula",
+            "la": "Richarius Centulensis",
+            "pl": "Rychard z Centuli"
+        },
+        "died": [
+            "645-04-26"
+        ],
+        "feasts": []
+    },
     "patrons/rita": {
         "names": {
             "it": "Rita",

@@ -27,6 +27,20 @@
             }
         }
     },
+    "04-26": {
+        "records/patrons/richarius/cen": {
+            "name": {
+                "fr": "Riquier de Centule",
+                "en": "Richarius of Centula",
+                "la": "Richarius Centulensis",
+                "pl": "Rychard z Centuli"
+            },
+            "sources": {
+                "reliable-death-anniversary": "26 IV",
+                "other-martyrology-days": "26 IV"
+            }
+        }
+    },
     "05-16": {
         "records/patrons/andreas/bob": {
             "name": {
