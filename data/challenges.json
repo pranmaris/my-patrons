@@ -480,7 +480,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["N"],
+        "anybody-having-challenges": ["H"],
         "everybody-not-having-challenges": ["I"]
       }
     },
@@ -602,7 +602,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["N", "SP", "SE"],
+        "anybody-having-challenges": ["H", "SP", "SE"],
         "anybody-having-challenges-in-last-40-days": ["GF"],
         "everybody-not-having-challenges": ["9xGF"],
         "everybody-not-having-challenges-on-the-same-day": ["GF"],
@@ -754,7 +754,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["N", "SP", "SE"],
+        "anybody-having-challenges": ["H", "SP", "SE"],
         "everybody-not-having-challenges": ["5xGS"],
         "everybody-not-having-challenges-on-the-same-day": ["GS"],
         "day-of-week-having-whitelist": ["saturday"],
@@ -878,7 +878,7 @@
     }
   },
 
-  "N": {
+  "H": {
     "name": {
       "pl": "Narodziny"
     },
@@ -900,7 +900,7 @@
         }
       },
       "requirements": {
-        "everybody-not-having-challenges": ["N"]
+        "everybody-not-having-challenges": ["H"]
       }
     },
     "checklist": {
@@ -1076,7 +1076,7 @@
       },
       "requirements": {
         "everybody-not-having-challenges": ["SB"],
-        "anybody-having-challenges": ["N"]
+        "anybody-having-challenges": ["H"]
       }
     },
     "checklist": {
@@ -1730,7 +1730,7 @@
       }
     },
     "checklist": {
-      "mass": {
+      "main": {
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
@@ -1753,19 +1753,6 @@
           "params": ["person-name"],
           "template": {
             "pl": "pl/kroki/pomodl-sie-do-patrona-opiekuna"
-          }
-        }
-      },
-      "knowledge": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "poznaj Patrona"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/poznaj-patrona"
           }
         }
       },
@@ -1949,7 +1936,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["N"]
+        "anybody-having-challenges": ["H"]
       }
     },
     "checklist": {},
