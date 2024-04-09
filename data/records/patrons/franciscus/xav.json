@@ -1,0 +1,51 @@
+{
+  "names": {
+    "es": [
+      "Francisco Javier",
+      "Francisco de Jasso y Azpilicueta",
+      "Francisco Xavier",
+      "Francisco de Javier",
+      "Francés de Jaso"
+    ],
+    "en": [
+      "Francis Xavier",
+      "Francisco de Jasso y Azpilicueta"
+    ],
+    "la": [
+      "Franciscus Xavier",
+      "Franciscus Xaverius",
+      "Franciscus de Jasso Azpilcueta"
+    ],
+    "pl": [
+      "Franciszek Ksawery",
+      "Francisco de Jaso y Azpilcueta"
+    ]
+  },
+
+  "forenames": [
+    {
+      "es": "Francisco",
+      "en": "Francis",
+      "la": "Franciscus",
+      "pl": "Franciszek"
+    }
+  ],
+
+  "born": ["1506-04-07"],
+  "died": ["1552-12-02", "1552-12-03"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1619-10-25"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1622-03-12"
+  },
+
+  "also-in-martyrology": ["12-02", "12-03"],
+
+  "categories": ["vir", "confessor", "sacerdos", "presbyter", "religiosus"],
+
+  "order": ["sj"]
+}

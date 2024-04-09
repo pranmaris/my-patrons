@@ -575,6 +575,27 @@
             }
         }
     },
+    "patrons/franciscus": {
+        "names": {
+            "es": "Francisco",
+            "en": "Francis",
+            "la": "Franciscus",
+            "pl": "Franciszek"
+        }
+    },
+    "patrons/franciscus/xav": {
+        "names": {
+            "es": "Francisco Javier",
+            "en": "Francis Xavier",
+            "la": "Franciscus Xavier",
+            "pl": "Franciszek Ksawery"
+        },
+        "died": [
+            "1552-12-02",
+            "1552-12-03"
+        ],
+        "feasts": []
+    },
     "patrons/gaspar": {
         "names": {
             "it": "Gaspare",

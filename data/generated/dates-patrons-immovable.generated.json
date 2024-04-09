@@ -621,6 +621,33 @@
             }
         }
     },
+    "12-02": {
+        "records/patrons/franciscus/xav": {
+            "name": {
+                "es": "Francisco Javier",
+                "en": "Francis Xavier",
+                "la": "Franciscus Xavier",
+                "pl": "Franciszek Ksawery"
+            },
+            "sources": {
+                "other-martyrology-days": "2 XII"
+            }
+        }
+    },
+    "12-03": {
+        "records/patrons/franciscus/xav": {
+            "name": {
+                "es": "Francisco Javier",
+                "en": "Francis Xavier",
+                "la": "Franciscus Xavier",
+                "pl": "Franciszek Ksawery"
+            },
+            "sources": {
+                "reliable-death-anniversary": "3 XII",
+                "other-martyrology-days": "3 XII"
+            }
+        }
+    },
     "12-16": {
         "records/patrons/eusebius/ver": {
             "name": {

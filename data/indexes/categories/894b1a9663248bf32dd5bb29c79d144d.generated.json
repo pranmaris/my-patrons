@@ -31,6 +31,12 @@
             "la": "Dominicus Oxomensis",
             "pl": "Dominik Guzmán"
         },
+        "records/patrons/franciscus/xav": {
+            "es": "Francisco Javier",
+            "en": "Francis Xavier",
+            "la": "Franciscus Xavier",
+            "pl": "Franciszek Ksawery"
+        },
         "records/patrons/gaspar/buf": {
             "it": "Gaspare del Bufalo",
             "en": "Gaspar del Bufalo",

@@ -25,6 +25,12 @@
             "en": "Anthony of Padua",
             "pl": "Antoni Padewski"
         },
+        "records/patrons/franciscus/xav": {
+            "es": "Francisco Javier",
+            "en": "Francis Xavier",
+            "la": "Franciscus Xavier",
+            "pl": "Franciszek Ksawery"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",

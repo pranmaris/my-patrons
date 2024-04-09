@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Franciszek"
+    },
+    "translations": {
+        "es": [
+            "Francisco"
+        ],
+        "en": [
+            "Francis"
+        ],
+        "la": [
+            "Franciscus"
+        ],
+        "pl": [
+            "Franciszek"
+        ]
+    },
+    "links": {
+        "records/patrons/franciscus/xav": {
+            "es": "Francisco Javier",
+            "en": "Francis Xavier",
+            "la": "Franciscus Xavier",
+            "pl": "Franciszek Ksawery"
+        }
+    }
+}
