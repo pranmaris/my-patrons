@@ -568,6 +568,20 @@
             }
         }
     },
+    "11-30": {
+        "records/patrons/andreas/apo": {
+            "name": {
+                "grc": "Ανδρέας",
+                "en": "Andrew the Apostle",
+                "la": "Andreas Apostolus",
+                "pl": "Andrzej Apostoł"
+            },
+            "sources": {
+                "reliable-death-anniversary": "30 XI",
+                "other-martyrology-days": "30 XI"
+            }
+        }
+    },
     "12-16": {
         "records/patrons/eusebius/ver": {
             "name": {

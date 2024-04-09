@@ -1,6 +1,6 @@
 {
     "names": {
-        "en": "Andrew"
+        "grc": "Ανδρέας"
     },
     "translations": {
         "grc": [
@@ -22,11 +22,6 @@
             "en": "Andrew the Apostle",
             "la": "Andreas Apostolus",
             "pl": "Andrzej Apostoł"
-        },
-        "records/patrons/andreas/bob": {
-            "pl": "Andrzej Bobola",
-            "en": "Andrew Bobola",
-            "la": "Andreas Bobola"
         }
     }
 }

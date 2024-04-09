@@ -38,6 +38,12 @@
             "la": "Alphonsus Maria a Ligorio",
             "pl": "Alfons Maria Liguori"
         },
+        "records/patrons/andreas/apo": {
+            "grc": "Ανδρέας",
+            "en": "Andrew the Apostle",
+            "la": "Andreas Apostolus",
+            "pl": "Andrzej Apostoł"
+        },
         "records/patrons/andreas/bob": {
             "pl": "Andrzej Bobola",
             "en": "Andrew Bobola",

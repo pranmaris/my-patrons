@@ -371,10 +371,24 @@
     },
     "patrons/andreas": {
         "names": {
-            "la": "Andreas",
+            "grc": "Ανδρέας",
             "en": "Andrew",
+            "la": "Andreas",
             "pl": "Andrzej"
         }
+    },
+    "patrons/andreas/apo": {
+        "names": {
+            "grc": "Ανδρέας",
+            "en": "Andrew the Apostle",
+            "la": "Andreas Apostolus",
+            "pl": "Andrzej Apostoł"
+        },
+        "died": [
+            ">60-11-30",
+            "<70-11-30"
+        ],
+        "feasts": []
     },
     "patrons/andreas/bob": {
         "names": {

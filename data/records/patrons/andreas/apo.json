@@ -1,0 +1,35 @@
+{
+  "names": {
+    "grc": [
+      "Ανδρέας",
+      "Πρωτόκλητος"
+    ],
+    "en": [
+      "Andrew the Apostle",
+      "First-Called"
+    ],
+    "la": [
+      "Andreas Apostolus",
+      "Primus Vocatus"
+    ],
+    "pl": [
+      "Andrzej Apostoł",
+      "Pierwszy Powołany"
+    ]
+  },
+
+  "forenames": [
+    {
+      "grc": "Ανδρέας",
+      "en": "Andrew",
+      "la": "Andreas",
+      "pl": "Andrzej"
+    }
+  ],
+
+  "died": [">60-11-30", "<70-11-30"],
+
+  "also-in-martyrology": ["11-30"],
+
+  "categories": ["vir", "apostolus", "martyr"]
+}
