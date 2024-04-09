@@ -25,6 +25,9 @@
         "es": "Rosa",
         "la": "Rosa"
     },
+    "0a14bc6a5f6c89d54cc7d459333e21c0": {
+        "la": "Carolus"
+    },
     "0afca49306b28c1650a1d4130a6a0ce1": {
         "la": "Clara"
     },
@@ -81,6 +84,9 @@
         "en": "Gaspar",
         "la": "Gaspar"
     },
+    "2a5a93caf31cbc3e2b9073d7e7c7dd70": {
+        "it": "Carlo"
+    },
     "2a5ea26afb2c1fdbd0e7ab0941b9b9ab": {
         "fr": "Jean"
     },
@@ -105,6 +111,9 @@
     },
     "393c54ff004277d44580d2805270872d": {
         "la": "Xystus"
+    },
+    "399423ff652ebb6a6701be7ec3202fc6": {
+        "en": "Charles"
     },
     "3ad23a007ddf1d4f26249cc1c18562e1": {
         "pl": "Piotr"
@@ -263,6 +272,9 @@
         "cz": "Adalbert",
         "en": "Adalbert",
         "pl": "Adalbert"
+    },
+    "ae8b230185f87291b57446518b81b684": {
+        "pl": "Karol"
     },
     "b322f79ef26d512c24dc3ea75a32e66e": {
         "pl": "Benedykta"

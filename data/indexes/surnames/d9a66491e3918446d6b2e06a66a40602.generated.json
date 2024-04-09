@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Acutis"
+    },
+    "translations": {
+        "it": [
+            "Acutis"
+        ]
+    },
+    "links": {
+        "records/patrons/carolus/acu": {
+            "it": "Carlo Acutis",
+            "en": "Charles Acutis",
+            "la": "Carolus Acutis",
+            "pl": "Karol Acutis"
+        }
+    }
+}

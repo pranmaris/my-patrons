@@ -506,6 +506,19 @@
             }
         }
     },
+    "10-12": {
+        "records/patrons/carolus/acu": {
+            "name": {
+                "it": "Carlo Acutis",
+                "en": "Charles Acutis",
+                "la": "Carolus Acutis",
+                "pl": "Karol Acutis"
+            },
+            "sources": {
+                "reliable-death-anniversary": "12 X"
+            }
+        }
+    },
     "10-18": {
         "records/patrons/david/oke": {
             "name": {

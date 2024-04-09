@@ -60,6 +60,12 @@
             "en": "Augustine of Hippo",
             "pl": "Augustyn z Hippony"
         },
+        "records/patrons/carolus/acu": {
+            "it": "Carlo Acutis",
+            "en": "Charles Acutis",
+            "la": "Carolus Acutis",
+            "pl": "Karol Acutis"
+        },
         "records/patrons/david/oke": {
             "sw": "Daudi Okelo",
             "en": "David Okelo",

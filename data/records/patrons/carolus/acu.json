@@ -1,0 +1,43 @@
+{
+  "names": {
+    "it": [
+      "Carlo Acutis"
+    ],
+    "en": [
+      "Charles Acutis",
+      "Carl Acutis",
+      "Carlo Acutis"
+    ],
+    "la": [
+      "Carolus Acutis",
+      "Carlo Acutis"
+    ],
+    "pl": [
+      "Karol Acutis",
+      "Carlo Acutis"
+    ]
+  },
+
+  "forenames": [
+    {
+      "it": "Carlo",
+      "en": "Charles",
+      "la": "Carolus",
+      "pl": "Karol"
+    }
+  ],
+  "surnames": [
+    {
+      "it": "Acutis"
+    }
+  ],
+
+  "born": ["1991-05-03"],
+  "died": ["2006-10-12"],
+
+  "beatified": {
+    "date": "2020-10-10"
+  },
+
+  "categories": ["vir"]
+}
