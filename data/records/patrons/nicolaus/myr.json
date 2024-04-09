@@ -1,0 +1,38 @@
+{
+  "names": {
+    "gr": [
+      "Άγιος Νικόλαος"
+    ],
+    "en": [
+      "Nicholas of Myra",
+      "Nicholas of Bari",
+      "Nicholas the Wonderworker"
+    ],
+    "la": [
+      "Nicolaus Myrensis",
+      "Nicolaus de Myra",
+      "Nicolaus Barii"
+    ],
+    "pl": [
+      "Mikołaj z Miry",
+      "Mikołaj z Bari",
+      "Mikołaj Cudotwórca"
+    ]
+  },
+
+  "forenames": [
+    {
+      "gr": "Νικόλαος",
+      "en": "Nicholas",
+      "la": "Nicolaus",
+      "pl": "Mikołaj"
+    }
+  ],
+
+  "born": ["~270"],
+  "died": [">301", "<400"],
+
+  "also-in-martyrology": ["12-06"],
+
+  "categories": ["vir", "confessor", "episcopus"]
+}

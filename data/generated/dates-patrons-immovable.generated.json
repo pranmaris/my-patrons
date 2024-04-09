@@ -648,6 +648,19 @@
             }
         }
     },
+    "12-06": {
+        "records/patrons/nicolaus/myr": {
+            "name": {
+                "gr": "Άγιος Νικόλαος",
+                "en": "Nicholas of Myra",
+                "la": "Nicolaus Myrensis",
+                "pl": "Mikołaj z Miry"
+            },
+            "sources": {
+                "other-martyrology-days": "6 XII"
+            }
+        }
+    },
     "12-16": {
         "records/patrons/eusebius/ver": {
             "name": {

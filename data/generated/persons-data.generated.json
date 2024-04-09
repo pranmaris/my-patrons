@@ -982,6 +982,27 @@
         ],
         "feasts": []
     },
+    "patrons/nicolaus": {
+        "names": {
+            "gr": "Νικόλαος",
+            "en": "Nicholas",
+            "la": "Nicolaus",
+            "pl": "Mikołaj"
+        }
+    },
+    "patrons/nicolaus/myr": {
+        "names": {
+            "gr": "Άγιος Νικόλαος",
+            "en": "Nicholas of Myra",
+            "la": "Nicolaus Myrensis",
+            "pl": "Mikołaj z Miry"
+        },
+        "died": [
+            ">301",
+            "<400"
+        ],
+        "feasts": []
+    },
     "patrons/oswaldus": {
         "names": {
             "en": "Oswald",

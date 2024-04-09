@@ -160,6 +160,12 @@
             "en": "Martin of Tours",
             "pl": "Marcin z Tours"
         },
+        "records/patrons/nicolaus/myr": {
+            "gr": "Άγιος Νικόλαος",
+            "en": "Nicholas of Myra",
+            "la": "Nicolaus Myrensis",
+            "pl": "Mikołaj z Miry"
+        },
         "records/patrons/oswaldus/nor": {
             "en": "Oswald of Northumbria",
             "la": "Oswaldus rex Northumbriae",
