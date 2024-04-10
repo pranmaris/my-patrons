@@ -1,16 +1,17 @@
 {
     "names": {
-        "la": "vidua"
+        "la": "Monica",
+        "en": "Monica"
     },
     "translations": {
         "la": [
-            "vidua"
+            "Monica"
         ],
         "en": [
-            "widow"
+            "Monica"
         ],
         "pl": [
-            "wdowa"
+            "Monika"
         ]
     },
     "links": {
@@ -18,12 +19,6 @@
             "la": "Monica Thagastensis",
             "en": "Monica of Tagasta",
             "pl": "Monika z Tagasty"
-        },
-        "records/patrons/rita/cas": {
-            "it": "Rita da Cascia",
-            "en": "Rita of Cascia",
-            "la": "Rita de Cassia",
-            "pl": "Rita z Cascii"
         }
     }
 }

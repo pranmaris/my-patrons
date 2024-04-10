@@ -42,6 +42,11 @@
             "la": "Maria Virgo",
             "pl": "Maria z Nazaretu"
         },
+        "records/patrons/monica/vid": {
+            "la": "Monica Thagastensis",
+            "en": "Monica of Tagasta",
+            "pl": "Monika z Tagasty"
+        },
         "records/patrons/rita/cas": {
             "it": "Rita da Cascia",
             "en": "Rita of Cascia",

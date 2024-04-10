@@ -25,6 +25,10 @@
         "es": "Rosa",
         "la": "Rosa"
     },
+    "09084cc0cda34fd80bfa3cc0ae8fe3dc": {
+        "la": "Monica",
+        "en": "Monica"
+    },
     "0a14bc6a5f6c89d54cc7d459333e21c0": {
         "la": "Carolus"
     },
@@ -436,6 +440,9 @@
     },
     "f0d0ee6925487af34a16050f6bc22bfe": {
         "en": "Dominicus"
+    },
+    "f6ebeddf69768d741ff3f057448bedf1": {
+        "pl": "Monika"
     },
     "f87567f2159b425795ebb7ba9bc406ec": {
         "en": "Patrick"

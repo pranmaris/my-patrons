@@ -1,0 +1,31 @@
+{
+  "names": {
+    "la": [
+      "Monica Thagastensis",
+      "Monica Vidua"
+    ],
+    "en": [
+      "Monica of Tagasta"
+    ],
+    "pl": [
+      "Monika z Tagasty",
+      "Monika z Hippony",
+      "Monika Wdowa"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Monica",
+      "en": "Monica",
+      "pl": "Monika"
+    }
+  ],
+
+  "born": ["~332"],
+  "died": ["387"],
+
+  "also-in-martyrology": ["05-04", "08-27"],
+
+  "categories": ["femina", "vidua"]
+}

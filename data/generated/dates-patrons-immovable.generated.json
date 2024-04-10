@@ -66,6 +66,18 @@
             }
         }
     },
+    "05-04": {
+        "records/patrons/monica/vid": {
+            "name": {
+                "la": "Monica Thagastensis",
+                "en": "Monica of Tagasta",
+                "pl": "Monika z Tagasty"
+            },
+            "sources": {
+                "other-martyrology-days": "4 V"
+            }
+        }
+    },
     "05-16": {
         "records/patrons/andreas/bob": {
             "name": {
@@ -428,6 +440,18 @@
             "sources": {
                 "reliable-death-anniversary": "24 VIII",
                 "other-martyrology-days": "24 VIII"
+            }
+        }
+    },
+    "08-27": {
+        "records/patrons/monica/vid": {
+            "name": {
+                "la": "Monica Thagastensis",
+                "en": "Monica of Tagasta",
+                "pl": "Monika z Tagasty"
+            },
+            "sources": {
+                "other-martyrology-days": "27 VIII"
             }
         }
     },

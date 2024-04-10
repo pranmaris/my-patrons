@@ -1033,6 +1033,24 @@
         ],
         "feasts": []
     },
+    "patrons/monica": {
+        "names": {
+            "la": "Monica",
+            "en": "Monica",
+            "pl": "Monika"
+        }
+    },
+    "patrons/monica/vid": {
+        "names": {
+            "la": "Monica Thagastensis",
+            "en": "Monica of Tagasta",
+            "pl": "Monika z Tagasty"
+        },
+        "died": [
+            "387"
+        ],
+        "feasts": []
+    },
     "patrons/nicolaus": {
         "names": {
             "gr": "Νικόλαος",
