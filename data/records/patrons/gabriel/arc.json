@@ -1,0 +1,28 @@
+{
+  "names": {
+    "en": [
+      "Gabriel Archangelus"
+    ],
+    "la": [
+      "Gabriel Archangel"
+    ],
+    "pl": [
+      "Gabriel Archanioł"
+    ]
+  },
+
+  "forenames": [
+    {
+      "en": "Gabriel",
+      "la": "Gabriel",
+      "pl": "Gabriel"
+    }
+  ],
+
+  "born": ["-"],
+  "died": ["-"],
+
+  "also-in-martyrology": ["09-29", "03-24"],
+
+  "categories": ["archangelus"]
+}

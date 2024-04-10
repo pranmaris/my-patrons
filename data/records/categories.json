@@ -11,6 +11,19 @@
         }
     },
 
+    "archangelus": {
+        "name": {
+            "la": "archangelus",
+            "en": "archangel",
+            "pl": "archanioł"
+        },
+        "color": "#FFFFFF",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "vir": {
         "name": {
             "la": "vir",
@@ -442,19 +455,6 @@
 
 
 
-
-    "x-archangelus": {
-        "name": {
-            "la": "archangelus",
-            "en": "archangel",
-            "pl": "archanioł"
-        },
-        "color": "#FFFFFF",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
 
     "x-angelus": {
         "name": {

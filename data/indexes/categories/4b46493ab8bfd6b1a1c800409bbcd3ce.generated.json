@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "archangelus"
+    },
+    "translations": {
+        "la": [
+            "archangelus"
+        ],
+        "en": [
+            "archangel"
+        ],
+        "pl": [
+            "archanioł"
+        ]
+    },
+    "links": {
+        "records/patrons/gabriel/arc": {
+            "en": "Gabriel Archangelus",
+            "la": "Gabriel Archangel",
+            "pl": "Gabriel Archanioł"
+        }
+    }
+}

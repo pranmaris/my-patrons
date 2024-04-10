@@ -26,6 +26,18 @@
             }
         }
     },
+    "03-24": {
+        "records/patrons/gabriel/arc": {
+            "name": {
+                "en": "Gabriel Archangelus",
+                "la": "Gabriel Archangel",
+                "pl": "Gabriel Archanioł"
+            },
+            "sources": {
+                "other-martyrology-days": "24 III"
+            }
+        }
+    },
     "04-02": {
         "records/patrons/ioannes/p2p": {
             "name": {
@@ -580,6 +592,18 @@
             "sources": {
                 "reliable-death-anniversary": "23 IX",
                 "other-martyrology-days": "23 IX"
+            }
+        }
+    },
+    "09-29": {
+        "records/patrons/gabriel/arc": {
+            "name": {
+                "en": "Gabriel Archangelus",
+                "la": "Gabriel Archangel",
+                "pl": "Gabriel Archanioł"
+            },
+            "sources": {
+                "other-martyrology-days": "29 IX"
             }
         }
     },

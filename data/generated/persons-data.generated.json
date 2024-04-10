@@ -626,6 +626,24 @@
         ],
         "feasts": []
     },
+    "patrons/gabriel": {
+        "names": {
+            "en": "Gabriel",
+            "la": "Gabriel",
+            "pl": "Gabriel"
+        }
+    },
+    "patrons/gabriel/arc": {
+        "names": {
+            "en": "Gabriel Archangelus",
+            "la": "Gabriel Archangel",
+            "pl": "Gabriel Archanioł"
+        },
+        "died": [
+            "-"
+        ],
+        "feasts": []
+    },
     "patrons/gaspar": {
         "names": {
             "it": "Gaspare",
