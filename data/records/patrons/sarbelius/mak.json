@@ -1,0 +1,53 @@
+{
+  "names": {
+    "ar": [
+      "شربل مخلوف",
+      "يوسف أنطون مخلوف"
+    ],
+    "en": [
+      "Charbel Makhlouf"
+    ],
+    "la": [
+      "Sarbelius Makhlouf"
+    ],
+    "pl": [
+      "Szarbel Makhlouf"
+    ]
+  },
+
+  "forenames": [
+    {
+      "en": "Charbel",
+      "la": "Sarbelius",
+      "pl": "Szarbel"
+    },
+    {
+      "en": "Joseph",
+      "la": "Iosephus",
+      "pl": "Józef"
+    }
+  ],
+  "surnames": [
+    {
+      "la": "Makhlouf"
+    }
+  ],
+
+  "born": ["1828-05-08"],
+  "died": ["1898-12-24"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1965-12-05"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1977-10-09"
+  },
+
+  "also-in-martyrology": ["07-24", "12-24"],
+
+  "categories": ["vir", "presbyter", "religiosus"],
+
+  "order": ["olm"]
+}

@@ -65,6 +65,12 @@
             "en": "Pio of Pietrelcina",
             "la": "Pius de Pietrelcina",
             "pl": "Pio z Pietrelciny"
+        },
+        "records/patrons/sarbelius/mak": {
+            "ar": "شربل مخلوف",
+            "en": "Charbel Makhlouf",
+            "la": "Sarbelius Makhlouf",
+            "pl": "Szarbel Makhlouf"
         }
     }
 }

@@ -193,6 +193,19 @@
             }
         }
     },
+    "07-24": {
+        "records/patrons/sarbelius/mak": {
+            "name": {
+                "ar": "شربل مخلوف",
+                "en": "Charbel Makhlouf",
+                "la": "Sarbelius Makhlouf",
+                "pl": "Szarbel Makhlouf"
+            },
+            "sources": {
+                "other-martyrology-days": "24 VII"
+            }
+        }
+    },
     "07-26": {
         "records/patrons/ioachim/mar": {
             "name": {
@@ -808,6 +821,20 @@
             },
             "sources": {
                 "other-martyrology-days": "16 XII"
+            }
+        }
+    },
+    "12-24": {
+        "records/patrons/sarbelius/mak": {
+            "name": {
+                "ar": "شربل مخلوف",
+                "en": "Charbel Makhlouf",
+                "la": "Sarbelius Makhlouf",
+                "pl": "Szarbel Makhlouf"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 XII",
+                "other-martyrology-days": "24 XII"
             }
         }
     },

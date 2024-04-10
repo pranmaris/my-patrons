@@ -1398,6 +1398,25 @@
         ],
         "feasts": []
     },
+    "patrons/sarbelius": {
+        "names": {
+            "en": "Charbel",
+            "la": "Sarbelius",
+            "pl": "Szarbel"
+        }
+    },
+    "patrons/sarbelius/mak": {
+        "names": {
+            "ar": "شربل مخلوف",
+            "en": "Charbel Makhlouf",
+            "la": "Sarbelius Makhlouf",
+            "pl": "Szarbel Makhlouf"
+        },
+        "died": [
+            "1898-12-24"
+        ],
+        "feasts": []
+    },
     "patrons/teresia": {
         "names": {
             "de": "Therese",

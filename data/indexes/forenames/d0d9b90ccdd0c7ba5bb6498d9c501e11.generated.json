@@ -23,6 +23,12 @@
             "en": "Joseph",
             "la": "Iosephus",
             "pl": "Józef z Nazaretu"
+        },
+        "records/patrons/sarbelius/mak": {
+            "ar": "شربل مخلوف",
+            "en": "Charbel Makhlouf",
+            "la": "Sarbelius Makhlouf",
+            "pl": "Szarbel Makhlouf"
         }
     }
 }

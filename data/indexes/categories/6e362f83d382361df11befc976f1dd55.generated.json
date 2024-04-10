@@ -60,6 +60,12 @@
             "en": "Richarius of Centula",
             "la": "Richarius Centulensis",
             "pl": "Rychard z Centuli"
+        },
+        "records/patrons/sarbelius/mak": {
+            "ar": "شربل مخلوف",
+            "en": "Charbel Makhlouf",
+            "la": "Sarbelius Makhlouf",
+            "pl": "Szarbel Makhlouf"
         }
     }
 }
