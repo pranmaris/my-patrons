@@ -1,10 +1,10 @@
 {
   "names": {
-    "en": [
+    "la": [
       "Gabriel Archangelus"
     ],
-    "la": [
-      "Gabriel Archangel"
+    "en": [
+      "Archangel Gabriel"
     ],
     "pl": [
       "Gabriel Archanioł"
@@ -13,8 +13,8 @@
 
   "forenames": [
     {
-      "en": "Gabriel",
       "la": "Gabriel",
+      "en": "Gabriel",
       "pl": "Gabriel"
     }
   ],

@@ -646,15 +646,15 @@
     },
     "patrons/gabriel": {
         "names": {
-            "en": "Gabriel",
             "la": "Gabriel",
+            "en": "Gabriel",
             "pl": "Gabriel"
         }
     },
     "patrons/gabriel/arc": {
         "names": {
-            "en": "Gabriel Archangelus",
-            "la": "Gabriel Archangel",
+            "la": "Gabriel Archangelus",
+            "en": "Archangel Gabriel",
             "pl": "Gabriel Archanioł"
         },
         "died": [

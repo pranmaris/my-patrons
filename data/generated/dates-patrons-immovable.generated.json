@@ -42,8 +42,8 @@
     "03-24": {
         "records/patrons/gabriel/arc": {
             "name": {
-                "en": "Gabriel Archangelus",
-                "la": "Gabriel Archangel",
+                "la": "Gabriel Archangelus",
+                "en": "Archangel Gabriel",
                 "pl": "Gabriel Archanioł"
             },
             "sources": {
@@ -648,8 +648,8 @@
     "09-29": {
         "records/patrons/gabriel/arc": {
             "name": {
-                "en": "Gabriel Archangelus",
-                "la": "Gabriel Archangel",
+                "la": "Gabriel Archangelus",
+                "en": "Archangel Gabriel",
                 "pl": "Gabriel Archanioł"
             },
             "sources": {
