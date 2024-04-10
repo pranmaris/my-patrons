@@ -49,6 +49,12 @@
             "la": "Ioannes Maria Vianney",
             "pl": "Jan Maria Vianney"
         },
+        "records/patrons/pius/pie": {
+            "it": "Pio da Pietrelcina",
+            "en": "Pio of Pietrelcina",
+            "la": "Pius de Pietrelcina",
+            "pl": "Pio z Pietrelciny"
+        },
         "records/patrons/richarius/cen": {
             "fr": "Riquier de Centule",
             "en": "Richarius of Centula",

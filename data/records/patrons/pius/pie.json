@@ -1,0 +1,62 @@
+{
+  "names": {
+    "it": [
+      "Pio da Pietrelcina",
+      "Francesco Forgione",
+      "Padre Pio"
+    ],
+    "en": [
+      "Pio of Pietrelcina",
+      "Francesco Forgione",
+      "Padre Pio"
+    ],
+    "la": [
+      "Pius de Pietrelcina",
+      "Francesco Forgione",
+      "Pius Franciscus Forgione de Pietrelcina"
+    ],
+    "pl": [
+      "Pio z Pietrelciny",
+      "Francesco Forgione",
+      "Ojciec Pio"
+    ]
+  },
+
+  "forenames": [
+    {
+      "it": "Pio",
+      "en": "Pius",
+      "la": "Pius",
+      "pl": "Pius"
+    },
+    {
+      "it": "Francesco",
+      "en": "Francis",
+      "la": "Franciscus",
+      "pl": "Franciszek"
+    }
+  ],
+  "surnames": [
+    {
+      "it": "Forgione"
+    }
+  ],
+
+  "born": ["1887-05-25"],
+  "died": ["1968-09-23"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-05-02"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2002-06-16"
+  },
+
+  "also-in-martyrology": ["09-23"],
+
+  "categories": ["vir", "presbyter", "religiosus"],
+
+  "order": ["ofmcap"]
+}

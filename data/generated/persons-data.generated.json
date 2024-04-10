@@ -580,7 +580,8 @@
             "es": "Francisco",
             "en": "Francis",
             "la": "Franciscus",
-            "pl": "Franciszek"
+            "pl": "Franciszek",
+            "it": "Francesco"
         }
     },
     "patrons/franciscus/xav": {
@@ -1154,6 +1155,26 @@
                 }
             }
         }
+    },
+    "patrons/pius": {
+        "names": {
+            "it": "Pio",
+            "en": "Pius",
+            "la": "Pius",
+            "pl": "Pius"
+        }
+    },
+    "patrons/pius/pie": {
+        "names": {
+            "it": "Pio da Pietrelcina",
+            "en": "Pio of Pietrelcina",
+            "la": "Pius de Pietrelcina",
+            "pl": "Pio z Pietrelciny"
+        },
+        "died": [
+            "1968-09-23"
+        ],
+        "feasts": []
     },
     "patrons/richarius": {
         "names": {

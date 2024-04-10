@@ -54,6 +54,12 @@
             "en": "Gaspar del Bufalo",
             "la": "Gaspar del Bufalo",
             "pl": "Kasper del Bufalo"
+        },
+        "records/patrons/pius/pie": {
+            "it": "Pio da Pietrelcina",
+            "en": "Pio of Pietrelcina",
+            "la": "Pius de Pietrelcina",
+            "pl": "Pio z Pietrelciny"
         }
     }
 }

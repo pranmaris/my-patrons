@@ -72,7 +72,8 @@
         "es": "Francisco",
         "en": "Francis",
         "la": "Franciscus",
-        "pl": "Franciszek"
+        "pl": "Franciszek",
+        "it": "Francesco"
     },
     "gaspar": {
         "it": "Gaspare",
@@ -164,6 +165,12 @@
         "la": "Petrus",
         "en": "Peter",
         "pl": "Piotr"
+    },
+    "pius": {
+        "it": "Pio",
+        "en": "Pius",
+        "la": "Pius",
+        "pl": "Pius"
     },
     "richarius": {
         "fr": "Riquier",

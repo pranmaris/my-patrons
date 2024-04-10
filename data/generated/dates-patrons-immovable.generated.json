@@ -532,6 +532,20 @@
             }
         }
     },
+    "09-23": {
+        "records/patrons/pius/pie": {
+            "name": {
+                "it": "Pio da Pietrelcina",
+                "en": "Pio of Pietrelcina",
+                "la": "Pius de Pietrelcina",
+                "pl": "Pio z Pietrelciny"
+            },
+            "sources": {
+                "reliable-death-anniversary": "23 IX",
+                "other-martyrology-days": "23 IX"
+            }
+        }
+    },
     "10-12": {
         "records/patrons/carolus/acu": {
             "name": {

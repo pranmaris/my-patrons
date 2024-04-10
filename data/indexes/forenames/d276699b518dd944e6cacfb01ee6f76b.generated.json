@@ -1,10 +1,10 @@
 {
     "names": {
-        "pl": "Franciszek"
+        "it": "Francesco"
     },
     "translations": {
-        "es": [
-            "Francisco"
+        "it": [
+            "Francesco"
         ],
         "en": [
             "Francis"
@@ -14,18 +14,9 @@
         ],
         "pl": [
             "Franciszek"
-        ],
-        "it": [
-            "Francesco"
         ]
     },
     "links": {
-        "records/patrons/franciscus/xav": {
-            "es": "Francisco Javier",
-            "en": "Francis Xavier",
-            "la": "Franciscus Xavier",
-            "pl": "Franciszek Ksawery"
-        },
         "records/patrons/pius/pie": {
             "it": "Pio da Pietrelcina",
             "en": "Pio of Pietrelcina",

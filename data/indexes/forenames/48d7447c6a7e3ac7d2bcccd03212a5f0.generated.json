@@ -1,0 +1,27 @@
+{
+    "names": {
+        "it": "Pio"
+    },
+    "translations": {
+        "it": [
+            "Pio"
+        ],
+        "en": [
+            "Pius"
+        ],
+        "la": [
+            "Pius"
+        ],
+        "pl": [
+            "Pius"
+        ]
+    },
+    "links": {
+        "records/patrons/pius/pie": {
+            "it": "Pio da Pietrelcina",
+            "en": "Pio of Pietrelcina",
+            "la": "Pius de Pietrelcina",
+            "pl": "Pio z Pietrelciny"
+        }
+    }
+}
