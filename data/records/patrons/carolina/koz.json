@@ -1,0 +1,40 @@
+{
+  "names": {
+    "pl": [
+      "Karolina Kózka",
+      "Karolina Kózkówna"
+    ],
+    "en": [
+      "Karolina Kózka"
+    ],
+    "la": [
+      "Carolina Kózka",
+      "Karolina Kózka"
+    ]
+  },
+
+  "forenames": [
+    {
+      "pl": "Karolina",
+      "en": "Caroline",
+      "la": "Carolina"
+    }
+  ],
+  "surnames": [
+    {
+      "pl": "Kózka"
+    }
+  ],
+
+  "born": ["1898-08-02"],
+  "died": ["1914-11-18"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1987-06-10"
+  },
+
+  "also-in-martyrology": ["11-18"],
+
+  "categories": ["femina", "martyrix", "virgo"]
+}

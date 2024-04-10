@@ -14,6 +14,11 @@
         ]
     },
     "links": {
+        "records/patrons/carolina/koz": {
+            "pl": "Karolina Kózka",
+            "en": "Karolina Kózka",
+            "la": "Carolina Kózka"
+        },
         "records/patrons/clara/asi": {
             "it": "Chiara d'Assisi",
             "en": "Clara of Assisi",

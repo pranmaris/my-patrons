@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Karolina"
+    },
+    "translations": {
+        "pl": [
+            "Karolina"
+        ],
+        "en": [
+            "Caroline"
+        ],
+        "la": [
+            "Carolina"
+        ]
+    },
+    "links": {
+        "records/patrons/carolina/koz": {
+            "pl": "Karolina Kózka",
+            "en": "Karolina Kózka",
+            "la": "Carolina Kózka"
+        }
+    }
+}

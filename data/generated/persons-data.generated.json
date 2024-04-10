@@ -463,6 +463,24 @@
             }
         }
     },
+    "patrons/carolina": {
+        "names": {
+            "pl": "Karolina",
+            "en": "Caroline",
+            "la": "Carolina"
+        }
+    },
+    "patrons/carolina/koz": {
+        "names": {
+            "pl": "Karolina Kózka",
+            "en": "Karolina Kózka",
+            "la": "Carolina Kózka"
+        },
+        "died": [
+            "1914-11-18"
+        ],
+        "feasts": []
+    },
     "patrons/carolus": {
         "names": {
             "it": "Carlo",

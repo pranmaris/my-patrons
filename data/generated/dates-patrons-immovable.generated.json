@@ -682,6 +682,19 @@
             }
         }
     },
+    "11-18": {
+        "records/patrons/carolina/koz": {
+            "name": {
+                "pl": "Karolina Kózka",
+                "en": "Karolina Kózka",
+                "la": "Carolina Kózka"
+            },
+            "sources": {
+                "reliable-death-anniversary": "18 XI",
+                "other-martyrology-days": "18 XI"
+            }
+        }
+    },
     "11-30": {
         "records/patrons/andreas/apo": {
             "name": {
