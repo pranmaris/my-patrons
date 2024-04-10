@@ -700,6 +700,27 @@
         ],
         "feasts": []
     },
+    "patrons/ioachim": {
+        "names": {
+            "he": "יהוֹיָקִים",
+            "en": "Joachim",
+            "la": "Ioachim",
+            "pl": "Joachim"
+        }
+    },
+    "patrons/ioachim/mar": {
+        "names": {
+            "he": "יהוֹיָקִים",
+            "en": "Joachim father of Mary",
+            "la": "Ioachim pater Mariae",
+            "pl": "Joachim ojciec Maryi"
+        },
+        "died": [
+            ">-100",
+            "<-1"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes": {
         "names": {
             "it": "Giovanni",

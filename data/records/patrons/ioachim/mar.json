@@ -1,0 +1,36 @@
+{
+  "names": {
+    "he": [
+      "יהוֹיָקִים"
+    ],
+    "en": [
+      "Joachim father of Mary"
+    ],
+    "la": [
+      "Ioachim pater Mariae"
+    ],
+    "pl": [
+      "Joachim ojciec Maryi"
+    ]
+  },
+
+  "forenames": [
+    {
+      "he": "יהוֹיָקִים",
+      "en": "Joachim",
+      "la": "Ioachim",
+      "pl": "Joachim"
+    }
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+  ],
+
+  "born": [">-100", "<-1"],
+  "died": [">-100", "<-1"],
+
+  "also-in-martyrology": ["03-20", "07-26", "08-16"],
+
+  "categories": ["vir", "confessor"]
+}

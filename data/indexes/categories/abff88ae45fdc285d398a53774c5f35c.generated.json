@@ -60,6 +60,12 @@
             "en": "Hormisdas",
             "pl": "Hormizdas"
         },
+        "records/patrons/ioachim/mar": {
+            "he": "יהוֹיָקִים",
+            "en": "Joachim father of Mary",
+            "la": "Ioachim pater Mariae",
+            "pl": "Joachim ojciec Maryi"
+        },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",

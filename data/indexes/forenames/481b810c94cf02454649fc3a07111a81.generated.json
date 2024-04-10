@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Ioachim"
+    },
+    "translations": {
+        "he": [
+            "יהוֹיָקִים"
+        ],
+        "en": [
+            "Joachim"
+        ],
+        "la": [
+            "Ioachim"
+        ],
+        "pl": [
+            "Joachim"
+        ]
+    },
+    "links": {
+        "records/patrons/ioachim/mar": {
+            "he": "יהוֹיָקִים",
+            "en": "Joachim father of Mary",
+            "la": "Ioachim pater Mariae",
+            "pl": "Joachim ojciec Maryi"
+        }
+    }
+}

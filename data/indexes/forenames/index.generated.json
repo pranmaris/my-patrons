@@ -1,4 +1,8 @@
 {
+    "006999e496e8df9c2839f5c41a41f393": {
+        "en": "Joachim",
+        "pl": "Joachim"
+    },
     "01ab366bd3af2987fbd35208bf146c57": {
         "de": "Magnus",
         "la": "Magnus",
@@ -143,6 +147,9 @@
     },
     "479a238dc01c507833c3252a18d7dc6f": {
         "pl": "Wojciech"
+    },
+    "481b810c94cf02454649fc3a07111a81": {
+        "la": "Ioachim"
     },
     "48d7447c6a7e3ac7d2bcccd03212a5f0": {
         "it": "Pio"
@@ -468,6 +475,9 @@
         "la": "Deusdedit",
         "en": "Deusdedit",
         "pl": "Deusdedit"
+    },
+    "fe778c08ca6d5831866ed6d3a0cb0a8b": {
+        "he": "יהוֹיָקִים"
     },
     "ff24e8242af12887587574abe4fed8da": {
         "arc": "ܡܪܝ ܝܘܣܦ"
