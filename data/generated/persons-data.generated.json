@@ -331,11 +331,22 @@
     },
     "patrons/albertus": {
         "names": {
-            "de": "Albert",
+            "pl": "Albert",
             "en": "Albert",
             "la": "Albertus",
-            "pl": "Albert"
+            "de": "Albert"
         }
+    },
+    "patrons/albertus/chm": {
+        "names": {
+            "pl": "Albert Chmielowski",
+            "en": "Albert Chmielowski",
+            "la": "Albertus Chmielowski"
+        },
+        "died": [
+            "1916-12-25"
+        ],
+        "feasts": []
     },
     "patrons/albertus/mag": {
         "names": {

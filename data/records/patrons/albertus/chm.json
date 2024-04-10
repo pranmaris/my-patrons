@@ -1,0 +1,55 @@
+{
+  "names": {
+    "pl": [
+      "Albert Chmielowski",
+      "Adam Chmielowski",
+      "Brat Albert"
+    ],
+    "en": [
+      "Albert Chmielowski",
+      "Adam Chmielowski",
+      "Brat Albert"
+    ],
+    "la": [
+      "Albertus Chmielowski",
+      "Adamus Chmielowski"
+    ]
+  },
+
+  "forenames": [
+    {
+      "pl": "Albert",
+      "en": "Albert",
+      "la": "Albertus"
+    },
+    {
+      "pl": "Adam",
+      "en": "Adam",
+      "la": "Adamus"
+    }
+  ],
+  "surnames": [
+    {
+      "pl": "Chmielowski"
+    }
+  ],
+
+  "born": ["1845-08-20"],
+  "died": ["1916-12-25"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1983-06-22"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1989-11-12"
+  },
+
+  "also-in-martyrology": ["12-25"],
+
+  "categories": ["vir", "religiosus"],
+
+  "order": ["tor"],
+  "order-founder": ["cfapu", "csapi"]
+}

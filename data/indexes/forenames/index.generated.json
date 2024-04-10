@@ -225,6 +225,10 @@
     "7c534484504b838cc57101ee127ecd82": {
         "arc": "ܡܪܝܡ"
     },
+    "7efd721c8bfff2937c66235f2d0dbac1": {
+        "pl": "Adam",
+        "en": "Adam"
+    },
     "81d6f316d169150d0e8733866c38684d": {
         "en": "Martin"
     },
@@ -273,9 +277,9 @@
         "it": "Giovanni"
     },
     "91869f9f8d6f767b7b960a41d133fc67": {
-        "de": "Albert",
+        "pl": "Albert",
         "en": "Albert",
-        "pl": "Albert"
+        "de": "Albert"
     },
     "974e8b11c6cb14fef0e1552aebe847c2": {
         "en": "Alphonsus",
@@ -315,6 +319,9 @@
     },
     "b7dfd31a1e14a0300f8a16f53d399084": {
         "pl": "Jezus"
+    },
+    "bc1b4013697e3e7dc23b9d872382e8f9": {
+        "la": "Adamus"
     },
     "be1ae2eeeca8fb8302aed56fb0a6019d": {
         "it": "Rita",

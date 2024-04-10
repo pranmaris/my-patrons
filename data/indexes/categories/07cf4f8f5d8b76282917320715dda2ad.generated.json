@@ -26,6 +26,11 @@
             "la": "Adalbertus Pragensis",
             "pl": "Wojciech Sławnikowic"
         },
+        "records/patrons/albertus/chm": {
+            "pl": "Albert Chmielowski",
+            "en": "Albert Chmielowski",
+            "la": "Albertus Chmielowski"
+        },
         "records/patrons/albertus/mag": {
             "de": "Albert der Große",
             "en": "Albert the Great",

@@ -700,6 +700,19 @@
             }
         }
     },
+    "12-25": {
+        "records/patrons/albertus/chm": {
+            "name": {
+                "pl": "Albert Chmielowski",
+                "en": "Albert Chmielowski",
+                "la": "Albertus Chmielowski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "25 XII",
+                "other-martyrology-days": "25 XII"
+            }
+        }
+    },
     "12-27": {
         "records/patrons/ioannes/eva": {
             "name": {

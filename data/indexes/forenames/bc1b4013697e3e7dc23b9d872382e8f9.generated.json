@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Adamus"
+    },
+    "translations": {
+        "pl": [
+            "Adam"
+        ],
+        "en": [
+            "Adam"
+        ],
+        "la": [
+            "Adamus"
+        ]
+    },
+    "links": {
+        "records/patrons/albertus/chm": {
+            "pl": "Albert Chmielowski",
+            "en": "Albert Chmielowski",
+            "la": "Albertus Chmielowski"
+        }
+    }
+}
