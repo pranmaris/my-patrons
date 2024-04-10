@@ -71,6 +71,11 @@
             "la": "Carolus Acutis",
             "pl": "Karol Acutis"
         },
+        "records/patrons/casimirus/pri": {
+            "pl": "Kazimierz Królewicz",
+            "en": "Casimir Jagiellon",
+            "la": "Casimirus Princeps"
+        },
         "records/patrons/david/oke": {
             "sw": "Daudi Okelo",
             "en": "David Okelo",

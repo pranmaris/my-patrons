@@ -399,6 +399,19 @@
         }
     },
 
+    "princeps": {
+        "name": {
+            "la": "princeps",
+            "en": "prince",
+            "pl": "książę"
+        },
+        "color": "#0000B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "doctor-ecclesiae": {
         "name": {
             "la": "doctor Ecclesiae",
@@ -564,19 +577,6 @@
             "la": "imperatrix",
             "en": "empress",
             "pl": "cesarzowa"
-        },
-        "color": "#0000B3",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "x-princeps": {
-        "name": {
-            "la": "princeps",
-            "en": "prince",
-            "pl": "książę"
         },
         "color": "#0000B3",
         "description": {

@@ -1,0 +1,34 @@
+{
+  "names": {
+    "pl": [
+      "Kazimierz Królewicz",
+      "Kazimierz Jagiellończyk"
+    ],
+    "en": [
+      "Casimir Jagiellon"
+    ],
+    "la": [
+      "Casimirus Princeps"
+    ]
+  },
+
+  "forenames": [
+    {
+      "pl": "Kazimierz",
+      "en": "Casimir",
+      "la": "Casimirus"
+    }
+  ],
+
+  "born": ["1458-10-03"],
+  "died": ["1484-03-04"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1521"
+  },
+
+  "also-in-martyrology": ["03-04"],
+
+  "categories": ["vir", "confessor", "princeps"]
+}

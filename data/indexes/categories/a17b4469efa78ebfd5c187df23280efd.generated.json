@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "książę"
+    },
+    "translations": {
+        "la": [
+            "princeps"
+        ],
+        "en": [
+            "prince"
+        ],
+        "pl": [
+            "książę"
+        ]
+    },
+    "links": {
+        "records/patrons/casimirus/pri": {
+            "pl": "Kazimierz Królewicz",
+            "en": "Casimir Jagiellon",
+            "la": "Casimirus Princeps"
+        }
+    }
+}

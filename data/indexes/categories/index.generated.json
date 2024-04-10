@@ -32,11 +32,17 @@
     "1938fb7aedeb9ff3e8e66591718955df": {
         "la": "conditor ordo"
     },
+    "1cdf4c400619855d6dba5d6292da42fa": {
+        "la": "princeps"
+    },
     "1eebfc936ec1c21dd0404b228c594997": {
         "pl": "królowa"
     },
     "205123e4c71ab84e641079e6f46b6f45": {
         "pl": "dziewica"
+    },
+    "2077e4a6bafa9b4e7b55e1fff16818af": {
+        "en": "prince"
     },
     "21e63bb6bc0db57fe1529d83080ac4b0": {
         "en": "archideacon"
@@ -167,6 +173,9 @@
     },
     "9f72ba8ec590a081a3f8e643c2491a6b": {
         "pl": "kapłan"
+    },
+    "a17b4469efa78ebfd5c187df23280efd": {
+        "pl": "książę"
     },
     "a1d6b5694b31e76b8c226d4be6b26093": {
         "la": "evangelista"

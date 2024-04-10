@@ -1,4 +1,17 @@
 {
+    "03-04": {
+        "records/patrons/casimirus/pri": {
+            "name": {
+                "pl": "Kazimierz Królewicz",
+                "en": "Casimir Jagiellon",
+                "la": "Casimirus Princeps"
+            },
+            "sources": {
+                "reliable-death-anniversary": "4 III",
+                "other-martyrology-days": "4 III"
+            }
+        }
+    },
     "03-17": {
         "records/patrons/patricius/hib": {
             "name": {

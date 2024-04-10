@@ -483,6 +483,24 @@
         ],
         "feasts": []
     },
+    "patrons/casimirus": {
+        "names": {
+            "pl": "Kazimierz",
+            "en": "Casimir",
+            "la": "Casimirus"
+        }
+    },
+    "patrons/casimirus/pri": {
+        "names": {
+            "pl": "Kazimierz Królewicz",
+            "en": "Casimir Jagiellon",
+            "la": "Casimirus Princeps"
+        },
+        "died": [
+            "1484-03-04"
+        ],
+        "feasts": []
+    },
     "patrons/clara": {
         "names": {
             "it": "Chiara",
