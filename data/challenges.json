@@ -67,19 +67,6 @@
           }
         }
       },
-      "bible": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "przeczytaj fragment Pisma Świętego"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/przeczytaj-fragment-pisma-swietego"
-          }
-        }
-      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": false,
@@ -102,14 +89,6 @@
         },
         "name": {
           "pl": "kryterium wyboru Patrona"
-        }
-      },
-      "bible": {
-        "type": {
-          "bible-lection": [0, 1]
-        },
-        "name": {
-          "pl": "przeczytany fragment Pisma Świętego"
         }
       },
       "time": {
@@ -689,7 +668,7 @@
           }
         }
       },
-      "9-fridays-in-a-row": {
+      "all-in-a-row": {
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
