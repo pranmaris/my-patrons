@@ -655,6 +655,16 @@
             "sources": {
                 "other-martyrology-days": "29 IX"
             }
+        },
+        "records/patrons/michael/arc": {
+            "name": {
+                "la": "Michael Archangelus",
+                "en": "Archangel Michael",
+                "pl": "Michał Archanioł"
+            },
+            "sources": {
+                "other-martyrology-days": "29 IX"
+            }
         }
     },
     "10-12": {

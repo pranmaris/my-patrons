@@ -1,24 +1,20 @@
 {
     "names": {
-        "la": "archangelus"
+        "la": "Michael",
+        "en": "Michael"
     },
     "translations": {
         "la": [
-            "archangelus"
+            "Michael"
         ],
         "en": [
-            "archangel"
+            "Michael"
         ],
         "pl": [
-            "archanioł"
+            "Michał"
         ]
     },
     "links": {
-        "records/patrons/gabriel/arc": {
-            "en": "Gabriel Archangelus",
-            "la": "Gabriel Archangel",
-            "pl": "Gabriel Archanioł"
-        },
         "records/patrons/michael/arc": {
             "la": "Michael Archangelus",
             "en": "Archangel Michael",

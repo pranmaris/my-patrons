@@ -1,0 +1,28 @@
+{
+  "names": {
+    "la": [
+      "Michael Archangelus"
+    ],
+    "en": [
+      "Archangel Michael"
+    ],
+    "pl": [
+      "Michał Archanioł"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Michael",
+      "en": "Michael",
+      "pl": "Michał"
+    }
+  ],
+
+  "born": ["-"],
+  "died": ["-"],
+
+  "also-in-martyrology": ["09-29"],
+
+  "categories": ["archangelus"]
+}

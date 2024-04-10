@@ -1090,6 +1090,24 @@
         ],
         "feasts": []
     },
+    "patrons/michael": {
+        "names": {
+            "la": "Michael",
+            "en": "Michael",
+            "pl": "Michał"
+        }
+    },
+    "patrons/michael/arc": {
+        "names": {
+            "la": "Michael Archangelus",
+            "en": "Archangel Michael",
+            "pl": "Michał Archanioł"
+        },
+        "died": [
+            "-"
+        ],
+        "feasts": []
+    },
     "patrons/monica": {
         "names": {
             "la": "Monica",

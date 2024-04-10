@@ -18,6 +18,11 @@
             "en": "Gabriel Archangelus",
             "la": "Gabriel Archangel",
             "pl": "Gabriel Archanioł"
+        },
+        "records/patrons/michael/arc": {
+            "la": "Michael Archangelus",
+            "en": "Archangel Michael",
+            "pl": "Michał Archanioł"
         }
     }
 }
