@@ -390,7 +390,7 @@
         }
     },
     "08-09": {
-        "records/patrons/teresia/ben": {
+        "records/patrons/teresia/ste": {
             "name": {
                 "de": "Therese Benedicta vom Kreuz",
                 "en": "Teresa Benedicta of the Cross",
@@ -664,6 +664,19 @@
             },
             "sources": {
                 "other-martyrology-days": "29 IX"
+            }
+        }
+    },
+    "10-05": {
+        "records/patrons/maria/kow": {
+            "name": {
+                "pl": "Maria Faustyna Kowalska",
+                "en": "Maria Faustyna Kowalska",
+                "la": "Maria Faustina Kowalska"
+            },
+            "sources": {
+                "reliable-death-anniversary": "5 X",
+                "other-martyrology-days": "5 X"
             }
         }
     },

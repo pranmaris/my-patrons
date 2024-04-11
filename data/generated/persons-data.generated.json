@@ -996,6 +996,17 @@
             "arc": "ܡܪܝܡ"
         }
     },
+    "patrons/maria/kow": {
+        "names": {
+            "pl": "Maria Faustyna Kowalska",
+            "en": "Maria Faustyna Kowalska",
+            "la": "Maria Faustina Kowalska"
+        },
+        "died": [
+            "1938-10-05"
+        ],
+        "feasts": []
+    },
     "patrons/maria/naz": {
         "names": {
             "arc": "ܡܪܝܡ",
@@ -1481,7 +1492,7 @@
             "pl": "Teresa"
         }
     },
-    "patrons/teresia/ben": {
+    "patrons/teresia/ste": {
         "names": {
             "de": "Therese Benedicta vom Kreuz",
             "en": "Teresa Benedicta of the Cross",

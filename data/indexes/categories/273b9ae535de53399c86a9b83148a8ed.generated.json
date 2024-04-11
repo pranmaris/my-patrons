@@ -41,6 +41,11 @@
             "la": "Margarita Ward",
             "pl": "Małgorzata Ward"
         },
+        "records/patrons/maria/kow": {
+            "pl": "Maria Faustyna Kowalska",
+            "en": "Maria Faustyna Kowalska",
+            "la": "Maria Faustina Kowalska"
+        },
         "records/patrons/maria/naz": {
             "arc": "ܡܪܝܡ",
             "en": "Mary, mother of Jesus",
@@ -75,7 +80,7 @@
             "en": "Sancja Szymkowiak",
             "la": "Sancia Szymkowiak"
         },
-        "records/patrons/teresia/ben": {
+        "records/patrons/teresia/ste": {
             "de": "Therese Benedicta vom Kreuz",
             "en": "Teresa Benedicta of the Cross",
             "la": "Teresia Benedicta a Cruce",

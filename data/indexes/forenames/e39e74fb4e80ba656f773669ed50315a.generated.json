@@ -35,6 +35,11 @@
             "la": "Ioannes Maria Vianney",
             "pl": "Jan Maria Vianney"
         },
+        "records/patrons/maria/kow": {
+            "pl": "Maria Faustyna Kowalska",
+            "en": "Maria Faustyna Kowalska",
+            "la": "Maria Faustina Kowalska"
+        },
         "records/patrons/maria/naz": {
             "arc": "ܡܪܝܡ",
             "en": "Mary, mother of Jesus",

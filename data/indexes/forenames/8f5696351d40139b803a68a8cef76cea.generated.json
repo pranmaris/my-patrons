@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "Helena",
+        "la": "Helena"
+    },
+    "translations": {
+        "pl": [
+            "Helena"
+        ],
+        "en": [
+            "Helen"
+        ],
+        "la": [
+            "Helena"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/kow": {
+            "pl": "Maria Faustyna Kowalska",
+            "en": "Maria Faustyna Kowalska",
+            "la": "Maria Faustina Kowalska"
+        }
+    }
+}

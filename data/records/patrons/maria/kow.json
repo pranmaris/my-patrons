@@ -1,0 +1,57 @@
+{
+  "names": {
+    "pl": [
+      "Maria Faustyna Kowalska",
+      "Helena Kowalska"
+    ],
+    "en": [
+      "Maria Faustyna Kowalska",
+      "Helena Kowalska",
+      "Maria Faustyna Kowalska of the Blessed Sacrament"
+    ],
+    "la": [
+      "Maria Faustina Kowalska",
+      "Helena Kowalska"
+    ]
+  },
+
+  "forenames": [
+    {
+      "pl": "Maria",
+      "en": "Mary",
+      "la": "Maria"
+    },
+    {
+      "pl": "Faustyna",
+      "en": "Faustina",
+      "la": "Faustina"
+    },
+    {
+      "pl": "Helena",
+      "en": "Helen",
+      "la": "Helena"
+    }
+  ],
+  "surnames": [
+    {
+      "pl": "Kowalska"
+    }
+  ],
+
+  "born": ["1905-08-25"],
+  "died": ["1938-10-05"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1993-04-18"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2000-04-30"
+  },
+
+  "also-in-martyrology": ["10-05"],
+
+  "categories": ["femina", "virgo"],
+  "order": ["olm"]
+}
