@@ -385,7 +385,8 @@
             "grc": "Ανδρέας",
             "en": "Andrew",
             "la": "Andreas",
-            "pl": "Andrzej"
+            "pl": "Andrzej",
+            "ko": "안드레아"
         }
     },
     "patrons/andreas/apo": {
@@ -409,6 +410,18 @@
         },
         "died": [
             "1657-05-16"
+        ],
+        "feasts": []
+    },
+    "patrons/andreas/kim": {
+        "names": {
+            "ko": "김대건 안드레아",
+            "en": "Andrew Kim Taegon",
+            "la": "Andreas Kim Tae-gŏn",
+            "pl": "Andrzej Kim Tae-gŏn"
+        },
+        "died": [
+            "1846-09-16"
         ],
         "feasts": []
     },

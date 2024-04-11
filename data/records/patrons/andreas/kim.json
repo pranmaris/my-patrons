@@ -1,0 +1,53 @@
+{
+  "names": {
+    "ko": [
+      "김대건 안드레아"
+    ],
+    "en": [
+      "Andrew Kim Taegon"
+    ],
+    "la": [
+      "Andreas Kim Tae-gŏn"
+    ],
+    "pl": [
+      "Andrzej Kim Tae-gŏn"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Andreas",
+      "ko": "안드레아",
+      "en": "Andrew",
+      "pl": "Andrzej"
+    },
+    {
+      "la": "Taegon",
+      "ko": "대건",
+      "en": "Taegon",
+      "pl": "Tae-gŏn"
+    }
+  ],
+  "surnames": [
+    {
+      "la": "Kim",
+      "ko": "김"
+    }
+  ],
+
+  "born": ["1821-08-21"],
+  "died": ["1846-09-16"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1925-07-05"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1984-05-06"
+  },
+
+  "also-in-martyrology": ["09-16", "09-20"],
+
+  "categories": ["vir", "martyr", "presbyter"]
+}

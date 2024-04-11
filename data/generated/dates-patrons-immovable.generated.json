@@ -618,6 +618,20 @@
             }
         }
     },
+    "09-16": {
+        "records/patrons/andreas/kim": {
+            "name": {
+                "ko": "김대건 안드레아",
+                "en": "Andrew Kim Taegon",
+                "la": "Andreas Kim Tae-gŏn",
+                "pl": "Andrzej Kim Tae-gŏn"
+            },
+            "sources": {
+                "reliable-death-anniversary": "16 IX",
+                "other-martyrology-days": "16 IX"
+            }
+        }
+    },
     "09-18": {
         "records/patrons/david/oke": {
             "name": {
@@ -628,6 +642,19 @@
             },
             "sources": {
                 "other-martyrology-days": "18 IX"
+            }
+        }
+    },
+    "09-20": {
+        "records/patrons/andreas/kim": {
+            "name": {
+                "ko": "김대건 안드레아",
+                "en": "Andrew Kim Taegon",
+                "la": "Andreas Kim Tae-gŏn",
+                "pl": "Andrzej Kim Tae-gŏn"
+            },
+            "sources": {
+                "other-martyrology-days": "20 IX"
             }
         }
     },
