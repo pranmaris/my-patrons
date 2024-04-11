@@ -755,6 +755,18 @@
             }
         }
     },
+    "11-29": {
+        "records/patrons/saturninus/tol": {
+            "name": {
+                "la": "Saturninus Tolosanensis",
+                "en": "Saturnin of Toulouse",
+                "pl": "Saturnin z Tuluzy"
+            },
+            "sources": {
+                "other-martyrology-days": "29 XI"
+            }
+        }
+    },
     "11-30": {
         "records/patrons/andreas/apo": {
             "name": {

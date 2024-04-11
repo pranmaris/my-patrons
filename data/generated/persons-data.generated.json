@@ -1435,6 +1435,24 @@
         ],
         "feasts": []
     },
+    "patrons/saturninus": {
+        "names": {
+            "la": "Saturninus",
+            "en": "Saturnin",
+            "pl": "Saturnin"
+        }
+    },
+    "patrons/saturninus/tol": {
+        "names": {
+            "la": "Saturninus Tolosanensis",
+            "en": "Saturnin of Toulouse",
+            "pl": "Saturnin z Tuluzy"
+        },
+        "died": [
+            "~250"
+        ],
+        "feasts": []
+    },
     "patrons/stephanus": {
         "names": {
             "gr": "Στέφανος",

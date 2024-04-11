@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "Saturnin",
+        "pl": "Saturnin"
+    },
+    "translations": {
+        "la": [
+            "Saturninus"
+        ],
+        "en": [
+            "Saturnin"
+        ],
+        "pl": [
+            "Saturnin"
+        ]
+    },
+    "links": {
+        "records/patrons/saturninus/tol": {
+            "la": "Saturninus Tolosanensis",
+            "en": "Saturnin of Toulouse",
+            "pl": "Saturnin z Tuluzy"
+        }
+    }
+}

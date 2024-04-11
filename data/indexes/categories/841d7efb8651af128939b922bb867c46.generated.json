@@ -69,6 +69,11 @@
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
         },
+        "records/patrons/saturninus/tol": {
+            "la": "Saturninus Tolosanensis",
+            "en": "Saturnin of Toulouse",
+            "pl": "Saturnin z Tuluzy"
+        },
         "records/patrons/stephanus/pro": {
             "gr": "Στέφανος",
             "en": "Stephen Protomartyr",

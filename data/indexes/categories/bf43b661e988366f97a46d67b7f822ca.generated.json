@@ -63,6 +63,11 @@
             "en": "Patrick",
             "la": "Patricius episcopus in Hibernia",
             "pl": "Patryk z Irlandii"
+        },
+        "records/patrons/saturninus/tol": {
+            "la": "Saturninus Tolosanensis",
+            "en": "Saturnin of Toulouse",
+            "pl": "Saturnin z Tuluzy"
         }
     }
 }

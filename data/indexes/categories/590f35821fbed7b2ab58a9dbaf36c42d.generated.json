@@ -228,6 +228,11 @@
             "la": "Sarbelius Makhlouf",
             "pl": "Szarbel Makhlouf"
         },
+        "records/patrons/saturninus/tol": {
+            "la": "Saturninus Tolosanensis",
+            "en": "Saturnin of Toulouse",
+            "pl": "Saturnin z Tuluzy"
+        },
         "records/patrons/stephanus/pro": {
             "gr": "Στέφανος",
             "en": "Stephen Protomartyr",
