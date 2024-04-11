@@ -1435,6 +1435,26 @@
         ],
         "feasts": []
     },
+    "patrons/stephanus": {
+        "names": {
+            "gr": "Στέφανος",
+            "en": "Stephen",
+            "la": "Stephanus",
+            "pl": "Stefan"
+        }
+    },
+    "patrons/stephanus/pro": {
+        "names": {
+            "gr": "Στέφανος",
+            "en": "Stephen Protomartyr",
+            "la": "Stephanus protomartyr",
+            "pl": "Szczepan Pramęczennik"
+        },
+        "died": [
+            "~34"
+        ],
+        "feasts": []
+    },
     "patrons/teresia": {
         "names": {
             "de": "Therese",

@@ -1,24 +1,19 @@
 {
     "names": {
-        "en": "deacon"
+        "pl": "Pramęczennik"
     },
     "translations": {
-        "la": [
-            "diaconus"
-        ],
         "en": [
-            "deacon"
+            "Protomartyr"
+        ],
+        "la": [
+            "Protomartyr"
         ],
         "pl": [
-            "diakon"
+            "Pramęczennik"
         ]
     },
     "links": {
-        "records/patrons/laurentius/rom": {
-            "la": "Laurentius de Roma",
-            "en": "Lawrence of Rome",
-            "pl": "Wawrzyniec z Rzymu"
-        },
         "records/patrons/stephanus/pro": {
             "gr": "Στέφανος",
             "en": "Stephen Protomartyr",

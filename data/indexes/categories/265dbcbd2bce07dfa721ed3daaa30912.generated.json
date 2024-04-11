@@ -88,6 +88,12 @@
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
         },
+        "records/patrons/stephanus/pro": {
+            "gr": "Στέφανος",
+            "en": "Stephen Protomartyr",
+            "la": "Stephanus protomartyr",
+            "pl": "Szczepan Pramęczennik"
+        },
         "records/patrons/teresia/ben": {
             "de": "Therese Benedicta vom Kreuz",
             "en": "Teresa Benedicta of the Cross",

@@ -29,6 +29,12 @@
         "pl": "irlandzki"
     },
 
+    "gr": {
+        "en": "Greek",
+        "la": "Graeca",
+        "pl": "grecki"
+    },
+
     "grc": {
         "en": "Koine Greek",
         "la": "Graeca Antiqua communis",

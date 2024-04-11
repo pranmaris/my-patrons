@@ -861,6 +861,19 @@
             }
         }
     },
+    "12-26": {
+        "records/patrons/stephanus/pro": {
+            "name": {
+                "gr": "Στέφανος",
+                "en": "Stephen Protomartyr",
+                "la": "Stephanus protomartyr",
+                "pl": "Szczepan Pramęczennik"
+            },
+            "sources": {
+                "other-martyrology-days": "26 XII"
+            }
+        }
+    },
     "12-27": {
         "records/patrons/ioannes/eva": {
             "name": {

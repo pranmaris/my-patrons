@@ -1,0 +1,44 @@
+{
+  "names": {
+    "gr": [
+      "Στέφανος"
+    ],
+    "en": [
+      "Stephen Protomartyr",
+      "Stephen"
+    ],
+    "la": [
+      "Stephanus protomartyr",
+      "Stephanus"
+    ],
+    "pl": [
+      "Szczepan Pramęczennik",
+      "Szczepan",
+      "Stefan",
+      "Pierwszy Męczennik",
+      "Pramęczennik"
+    ]
+  },
+
+  "forenames": [
+    {
+      "gr": "Στέφανος",
+      "en": "Stephen",
+      "la": "Stephanus",
+      "pl": ["Stefan", "Szczepan"]
+    }
+  ],
+  "epithets": [
+    {
+      "en": "Protomartyr",
+      "la": "Protomartyr",
+      "pl": "Pramęczennik"
+    }
+  ],
+
+  "died": ["~34"],
+
+  "also-in-martyrology": ["12-26"],
+
+  "categories": ["vir", "martyr", "diaconus"]
+}
