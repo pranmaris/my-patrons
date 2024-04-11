@@ -221,6 +221,7 @@
         {"23": ["lang-reader"]},
         {"31": ["lang-psalterist"]},
         {"32": ["lang-organist"]},
+        {"81": ["lang-minister-of-holy-communion"]},
         {"91": ["lang-baptized-person"]},
         {"92": ["lang-person-receiving-first-holy-communion"]},
         {"93": ["lang-person-receiving-confirmation"]},

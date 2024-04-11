@@ -830,6 +830,11 @@
         "pl": "ja"
     },
 
+    "lang-minister-of-holy-communion": {
+        "en": "minister of Holy Communion",
+        "pl": "szafarz Komunii Świętej"
+    },
+
     "lang-missing-filename-without-extension": {
         "en": "missing filename without extension",
         "pl": "nie podano nazwy pliku bez rozszerzenia"
