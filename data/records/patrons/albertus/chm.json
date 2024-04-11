@@ -48,7 +48,7 @@
 
   "also-in-martyrology": ["12-25"],
 
-  "categories": ["vir", "religiosus"],
+  "categories": ["vir", "conditor-ordo", "religiosus"],
 
   "order": ["tor"],
   "order-founder": ["cfapu", "csapi"]

@@ -45,7 +45,6 @@
 
   "also-in-martyrology": ["12-02", "12-03"],
 
-  "categories": ["vir", "confessor", "sacerdos", "presbyter", "religiosus"],
-
+  "categories": ["vir", "confessor", "sacerdos", "presbyter"],
   "order": ["sj"]
 }

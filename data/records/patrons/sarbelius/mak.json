@@ -47,7 +47,6 @@
 
   "also-in-martyrology": ["07-24", "12-24"],
 
-  "categories": ["vir", "presbyter", "religiosus"],
-
+  "categories": ["vir", "presbyter"],
   "order": ["olm"]
 }

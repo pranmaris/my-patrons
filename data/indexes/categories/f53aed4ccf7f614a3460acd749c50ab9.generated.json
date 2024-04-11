@@ -14,6 +14,11 @@
         ]
     },
     "links": {
+        "records/patrons/albertus/chm": {
+            "pl": "Albert Chmielowski",
+            "en": "Albert Chmielowski",
+            "la": "Albertus Chmielowski"
+        },
         "records/patrons/alphonsus/lig": {
             "it": "Alfonso Maria de' Liguori",
             "en": "Alphonsus Maria Liguori",

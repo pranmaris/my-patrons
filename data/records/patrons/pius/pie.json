@@ -56,7 +56,6 @@
 
   "also-in-martyrology": ["09-23"],
 
-  "categories": ["vir", "presbyter", "religiosus"],
-
+  "categories": ["vir", "presbyter"],
   "order": ["ofmcap"]
 }

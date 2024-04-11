@@ -18,59 +18,6 @@
             "pl": "Albert Chmielowski",
             "en": "Albert Chmielowski",
             "la": "Albertus Chmielowski"
-        },
-        "records/patrons/albertus/mag": {
-            "de": "Albert der Große",
-            "en": "Albert the Great",
-            "la": "Albertus Magnus",
-            "pl": "Albert Wielki"
-        },
-        "records/patrons/alphonsus/lig": {
-            "it": "Alfonso Maria de' Liguori",
-            "en": "Alphonsus Maria Liguori",
-            "la": "Alphonsus Maria a Ligorio",
-            "pl": "Alfons Maria Liguori"
-        },
-        "records/patrons/andreas/bob": {
-            "pl": "Andrzej Bobola",
-            "en": "Andrew Bobola",
-            "la": "Andreas Bobola"
-        },
-        "records/patrons/antonius/pat": {
-            "pt": "Antônio de Pádua",
-            "la": "Antonius Patavinus",
-            "en": "Anthony of Padua",
-            "pl": "Antoni Padewski"
-        },
-        "records/patrons/dominicus/oxo": {
-            "es": "Domingo de Osma",
-            "en": "Dominic of Osma",
-            "la": "Dominicus Oxomensis",
-            "pl": "Dominik Guzmán"
-        },
-        "records/patrons/franciscus/xav": {
-            "es": "Francisco Javier",
-            "en": "Francis Xavier",
-            "la": "Franciscus Xavier",
-            "pl": "Franciszek Ksawery"
-        },
-        "records/patrons/gaspar/buf": {
-            "it": "Gaspare del Bufalo",
-            "en": "Gaspar del Bufalo",
-            "la": "Gaspar del Bufalo",
-            "pl": "Kasper del Bufalo"
-        },
-        "records/patrons/pius/pie": {
-            "it": "Pio da Pietrelcina",
-            "en": "Pio of Pietrelcina",
-            "la": "Pius de Pietrelcina",
-            "pl": "Pio z Pietrelciny"
-        },
-        "records/patrons/sarbelius/mak": {
-            "ar": "شربل مخلوف",
-            "en": "Charbel Makhlouf",
-            "la": "Sarbelius Makhlouf",
-            "pl": "Szarbel Makhlouf"
         }
     }
 }

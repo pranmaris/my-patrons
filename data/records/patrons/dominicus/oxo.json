@@ -38,7 +38,7 @@
 
   "also-in-martyrology": ["08-04", "08-06", "08-08"],
 
-  "categories": ["vir", "confessor", "canonicus", "presbyter", "conditor-ordo", "religiosus"],
+  "categories": ["vir", "confessor", "canonicus", "presbyter", "conditor-ordo"],
 
   "order": ["op"],
   "order-founder": ["op"]
