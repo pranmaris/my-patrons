@@ -193,6 +193,19 @@
             }
         }
     },
+    "07-19": {
+        "records/patrons/vincentius/pau": {
+            "name": {
+                "fr": "Vincent de Paul",
+                "en": "Vincent de Paul",
+                "la": "Vincentius a Paulo",
+                "pl": "Wincenty a Paulo"
+            },
+            "sources": {
+                "other-martyrology-days": "19 VII"
+            }
+        }
+    },
     "07-24": {
         "records/patrons/sarbelius/mak": {
             "name": {
@@ -669,6 +682,20 @@
             "sources": {
                 "reliable-death-anniversary": "23 IX",
                 "other-martyrology-days": "23 IX"
+            }
+        }
+    },
+    "09-27": {
+        "records/patrons/vincentius/pau": {
+            "name": {
+                "fr": "Vincent de Paul",
+                "en": "Vincent de Paul",
+                "la": "Vincentius a Paulo",
+                "pl": "Wincenty a Paulo"
+            },
+            "sources": {
+                "reliable-death-anniversary": "27 IX",
+                "other-martyrology-days": "27 IX"
             }
         }
     },

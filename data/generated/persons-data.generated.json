@@ -1517,6 +1517,26 @@
         ],
         "feasts": []
     },
+    "patrons/vincentius": {
+        "names": {
+            "fr": "Vincent",
+            "en": "Vincent",
+            "la": "Vincentius",
+            "pl": "Wincenty"
+        }
+    },
+    "patrons/vincentius/pau": {
+        "names": {
+            "fr": "Vincent de Paul",
+            "en": "Vincent de Paul",
+            "la": "Vincentius a Paulo",
+            "pl": "Wincenty a Paulo"
+        },
+        "died": [
+            "1660-09-27"
+        ],
+        "feasts": []
+    },
     "patrons/xystus": {
         "names": {
             "la": "Xystus",

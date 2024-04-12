@@ -72,6 +72,12 @@
             "en": "Charbel Makhlouf",
             "la": "Sarbelius Makhlouf",
             "pl": "Szarbel Makhlouf"
+        },
+        "records/patrons/vincentius/pau": {
+            "fr": "Vincent de Paul",
+            "en": "Vincent de Paul",
+            "la": "Vincentius a Paulo",
+            "pl": "Wincenty a Paulo"
         }
     }
 }

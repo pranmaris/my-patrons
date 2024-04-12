@@ -1,0 +1,46 @@
+{
+  "names": {
+    "fr": [
+      "Vincent de Paul",
+      "Vincent Depaul"
+    ],
+    "en": [
+      "Vincent de Paul"
+    ],
+    "la": [
+      "Vincentius a Paulo",
+      "Vincentius de Paul"
+    ],
+    "pl": [
+      "Wincenty a Paulo"
+    ]
+  },
+
+  "forenames": [
+    {
+      "fr": "Vincent",
+      "en": "Vincent",
+      "la": "Vincentius",
+      "pl": "Wincenty"
+    }
+  ],
+
+  "born": ["1580-04-24", "1581-04-24"],
+  "died": ["1660-09-27"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1729-08-21"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1737-06-16"
+  },
+
+  "also-in-martyrology": ["07-19", "09-27"],
+
+  "categories": ["vir", "confessor", "presbyter", "conditor-ordo"],
+
+  "order": ["cm"],
+  "order-founder": ["cm", "sm"]
+}

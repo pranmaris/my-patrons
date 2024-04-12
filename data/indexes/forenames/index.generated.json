@@ -203,6 +203,9 @@
         "la": "Pius",
         "pl": "Pius"
     },
+    "5e34c3acc31609119eb4e8505c9e22b5": {
+        "la": "Vincentius"
+    },
     "5ed2ce73ea6a1c6910e4c98c2e65d25e": {
         "la": "Lydia",
         "en": "Lydia"
@@ -459,6 +462,10 @@
     "d3ef0547c5beee59908f7afc00eeabec": {
         "en": "Charbel"
     },
+    "d3facf360f0b4f2d570c093e7e130210": {
+        "fr": "Vincent",
+        "en": "Vincent"
+    },
     "d4d637abc4c55b49ce90b4d5df20dcdb": {
         "pl": "Hormizdas"
     },
@@ -529,6 +536,9 @@
     },
     "f6ebeddf69768d741ff3f057448bedf1": {
         "pl": "Monika"
+    },
+    "f859b43c70473cd91ce8f0a20b19ad8c": {
+        "pl": "Wincenty"
     },
     "f87567f2159b425795ebb7ba9bc406ec": {
         "en": "Patrick"
