@@ -745,6 +745,27 @@
         ],
         "feasts": []
     },
+    "patrons/hedwigis": {
+        "names": {
+            "de": "Hedwig",
+            "en": "Hedwig",
+            "la": "Hedwigis",
+            "pl": "Jadwiga"
+        }
+    },
+    "patrons/hedwigis/duc": {
+        "names": {
+            "de": "Hedwig von Andechs",
+            "en": "Hedwig of Silesia",
+            "la": "Hedwigis ducissa Polonorum",
+            "pl": "Jadwiga Śląska"
+        },
+        "died": [
+            "1243-10-14",
+            "1243-10-15"
+        ],
+        "feasts": []
+    },
     "patrons/hormisdas": {
         "names": {
             "la": "Hormisdas",

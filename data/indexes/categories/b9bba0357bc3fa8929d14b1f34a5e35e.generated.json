@@ -21,6 +21,12 @@
             "en": "Albert Chmielowski",
             "la": "Albertus Chmielowski"
         },
+        "records/patrons/hedwigis/duc": {
+            "de": "Hedwig von Andechs",
+            "en": "Hedwig of Silesia",
+            "la": "Hedwigis ducissa Polonorum",
+            "pl": "Jadwiga Śląska"
+        },
         "records/patrons/rita/cas": {
             "it": "Rita da Cascia",
             "en": "Rita of Cascia",

@@ -812,6 +812,18 @@
         }
     },
     "10-15": {
+        "records/patrons/hedwigis/duc": {
+            "name": {
+                "de": "Hedwig von Andechs",
+                "en": "Hedwig of Silesia",
+                "la": "Hedwigis ducissa Polonorum",
+                "pl": "Jadwiga Śląska"
+            },
+            "sources": {
+                "reliable-death-anniversary": "15 X",
+                "other-martyrology-days": "15 X"
+            }
+        },
         "records/patrons/teresia/ies": {
             "name": {
                 "es": "Teresa de Jesús",
@@ -822,6 +834,19 @@
             "sources": {
                 "reliable-death-anniversary": "15 X",
                 "other-martyrology-days": "15 X"
+            }
+        }
+    },
+    "10-16": {
+        "records/patrons/hedwigis/duc": {
+            "name": {
+                "de": "Hedwig von Andechs",
+                "en": "Hedwig of Silesia",
+                "la": "Hedwigis ducissa Polonorum",
+                "pl": "Jadwiga Śląska"
+            },
+            "sources": {
+                "other-martyrology-days": "16 X"
             }
         }
     },

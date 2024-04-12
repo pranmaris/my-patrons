@@ -475,6 +475,19 @@
         }
     },
 
+    "ducissa": {
+        "name": {
+            "la": "ducissa",
+            "en": "duchess",
+            "pl": "księżna"
+        },
+        "color": "#0000B3",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "doctor-ecclesiae": {
         "name": {
             "la": "doctor Ecclesiae",

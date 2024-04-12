@@ -129,6 +129,9 @@
     "5b7855fb09792aeb9820c29cee334b02": {
         "pl": "zakonnica"
     },
+    "5d6bed03dfb82662c8f822dbcf3a95a6": {
+        "en": "duchess"
+    },
     "5de1809c9a350ed640f8e644f41cbc86": {
         "la": "canonicus"
     },
@@ -188,6 +191,9 @@
     },
     "8e07dafd13495561db9063ebe4db4b27": {
         "en": "levi"
+    },
+    "919e189d488a04190ce6bda0cfd1693c": {
+        "pl": "księżna"
     },
     "9c553d758d4fde12ba5cc72299df6bdd": {
         "pl": "kanonik"
@@ -292,6 +298,9 @@
     },
     "d52daa36758a165b0ea8193084a9c3be": {
         "la": "diaconus"
+    },
+    "d8bbf4e88cd5243070825e6f7666be3a": {
+        "la": "ducissa"
     },
     "d91c5aa06eafa992b792d9cdba299195": {
         "la": "femina"

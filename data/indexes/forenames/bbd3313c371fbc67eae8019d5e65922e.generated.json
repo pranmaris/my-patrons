@@ -1,16 +1,19 @@
 {
     "names": {
-        "pl": "zakonnica"
+        "la": "Hedwigis"
     },
     "translations": {
-        "la": [
-            "religiosa"
+        "de": [
+            "Hedwig"
         ],
         "en": [
-            "religious"
+            "Hedwig"
+        ],
+        "la": [
+            "Hedwigis"
         ],
         "pl": [
-            "zakonnica"
+            "Jadwiga"
         ]
     },
     "links": {
@@ -19,12 +22,6 @@
             "en": "Hedwig of Silesia",
             "la": "Hedwigis ducissa Polonorum",
             "pl": "Jadwiga Śląska"
-        },
-        "records/patrons/rita/cas": {
-            "it": "Rita da Cascia",
-            "en": "Rita of Cascia",
-            "la": "Rita de Cassia",
-            "pl": "Rita z Cascii"
         }
     }
 }
