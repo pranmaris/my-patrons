@@ -31,6 +31,12 @@
             "en": "Anthony of Padua",
             "pl": "Antoni Padewski"
         },
+        "records/patrons/bruno/ere": {
+            "de": "Bruno von Köln",
+            "en": "Bruno of Cologne",
+            "la": "Bruno Cartusiensis",
+            "pl": "Bruno Kartuz"
+        },
         "records/patrons/dominicus/oxo": {
             "es": "Domingo de Osma",
             "en": "Dominic of Osma",

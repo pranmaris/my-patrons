@@ -772,6 +772,20 @@
             }
         }
     },
+    "10-06": {
+        "records/patrons/bruno/ere": {
+            "name": {
+                "de": "Bruno von Köln",
+                "en": "Bruno of Cologne",
+                "la": "Bruno Cartusiensis",
+                "pl": "Bruno Kartuz"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 X",
+                "other-martyrology-days": "6 X"
+            }
+        }
+    },
     "10-12": {
         "records/patrons/carolus/acu": {
             "name": {

@@ -38,6 +38,12 @@
             "en": "Augustine of Hippo",
             "pl": "Augustyn z Hippony"
         },
+        "records/patrons/bruno/ere": {
+            "de": "Bruno von Köln",
+            "en": "Bruno of Cologne",
+            "la": "Bruno Cartusiensis",
+            "pl": "Bruno Kartuz"
+        },
         "records/patrons/casimirus/pri": {
             "pl": "Kazimierz Królewicz",
             "en": "Casimir Jagiellon",

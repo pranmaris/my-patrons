@@ -363,6 +363,12 @@
         "en": "Alphonsus",
         "la": "Alphonsus"
     },
+    "9b2b78033ecf0401a2feab5b4ba7462e": {
+        "de": "Bruno",
+        "en": "Bruno",
+        "la": "Bruno",
+        "pl": "Bruno"
+    },
     "9bd04b52e10b05ba37efdee804278c29": {
         "en": "John the Baptist"
     },
@@ -386,6 +392,9 @@
     },
     "a78bcf26721280c66741cb091d89a774": {
         "la": "Laurentius"
+    },
+    "a9129e03e4c6258dc7822663daa032c6": {
+        "pl": "Brunon"
     },
     "a9d4b4f5e663ce1431e7f203376166cb": {
         "pl": "Ryta"

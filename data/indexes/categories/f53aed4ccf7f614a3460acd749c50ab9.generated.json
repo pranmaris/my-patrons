@@ -25,6 +25,12 @@
             "la": "Alphonsus Maria a Ligorio",
             "pl": "Alfons Maria Liguori"
         },
+        "records/patrons/bruno/ere": {
+            "de": "Bruno von Köln",
+            "en": "Bruno of Cologne",
+            "la": "Bruno Cartusiensis",
+            "pl": "Bruno Kartuz"
+        },
         "records/patrons/clara/asi": {
             "it": "Chiara d'Assisi",
             "en": "Clara of Assisi",

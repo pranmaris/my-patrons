@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "hermit"
+    },
+    "translations": {
+        "la": [
+            "eremita"
+        ],
+        "en": [
+            "hermit"
+        ],
+        "pl": [
+            "eremita"
+        ]
+    },
+    "links": {
+        "records/patrons/bruno/ere": {
+            "de": "Bruno von Köln",
+            "en": "Bruno of Cologne",
+            "la": "Bruno Cartusiensis",
+            "pl": "Bruno Kartuz"
+        }
+    }
+}

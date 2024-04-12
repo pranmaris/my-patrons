@@ -397,6 +397,19 @@
         }
     },
 
+    "eremita": {
+        "name": {
+            "la": "eremita",
+            "en": "hermit",
+            "pl": "eremita"
+        },
+        "color": "#A15116",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "solitaria": {
         "name": {
             "la": "solitaria",
@@ -521,8 +534,8 @@
     "x-anachoreta": {
         "name": {
             "la": "anachoreta",
-            "en": "hermit",
-            "pl": "pustelnik"
+            "en": "anachorite",
+            "pl": "anachoreta"
         },
         "color": "#A15116",
         "description": {

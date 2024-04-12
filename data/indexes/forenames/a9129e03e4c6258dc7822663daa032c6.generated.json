@@ -1,0 +1,28 @@
+{
+    "names": {
+        "pl": "Brunon"
+    },
+    "translations": {
+        "de": [
+            "Bruno"
+        ],
+        "en": [
+            "Bruno"
+        ],
+        "la": [
+            "Bruno"
+        ],
+        "pl": [
+            "Bruno",
+            "Brunon"
+        ]
+    },
+    "links": {
+        "records/patrons/bruno/ere": {
+            "de": "Bruno von Köln",
+            "en": "Bruno of Cologne",
+            "la": "Bruno Cartusiensis",
+            "pl": "Bruno Kartuz"
+        }
+    }
+}

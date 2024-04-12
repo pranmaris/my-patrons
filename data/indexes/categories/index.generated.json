@@ -114,6 +114,9 @@
     "50ed33c642a7b2404c3b38d6270f132c": {
         "la": "religiosus"
     },
+    "518183d207ac39dd55a8b0ecced4ab3e": {
+        "en": "hermit"
+    },
     "5470f9552e0d98a2d8c8b3345a680316": {
         "en": "bishop"
     },
@@ -206,6 +209,10 @@
     },
     "a675aa630a716a40072b18c8cfee8ce8": {
         "en": "catechist"
+    },
+    "a7a07602cd63618843de131261ac218a": {
+        "la": "eremita",
+        "pl": "eremita"
     },
     "abff88ae45fdc285d398a53774c5f35c": {
         "la": "confessor",
