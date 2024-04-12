@@ -1,0 +1,49 @@
+{
+  "names": {
+    "it": [
+      "Francesco d'Assisi",
+      "Giovanni di Pietro di Bernardone"
+    ],
+    "en": [
+      "Francis of Assisi",
+      "Giovanni di Pietro di Bernardone"
+    ],
+    "la": [
+      "Franciscus Asisiensis",
+      "Giovanni di Pietro di Bernardone"
+    ],
+    "pl": [
+      "Franciszek z Asyżu",
+      "Biedaczyna z Asyżu",
+      "Giovanni di Pietro di Bernardone"
+    ]
+  },
+
+  "forenames": [
+    {
+      "it": "Francesco",
+      "en": "Francis",
+      "la": "Franciscus",
+      "pl": "Franciszek"
+    }
+  ],
+  "surnames": [
+  ],
+  "epithets": [
+  ],
+
+  "born": ["~1181", "~1182"],
+  "died": ["1226-10-03"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1228-07-16"
+  },
+
+  "also-in-martyrology": ["10-04"],
+
+  "categories": ["vir", "confessor", "levita", "conditor-ordo"],
+
+  "order": ["ofm"],
+  "order-founder": ["ofm", "osc", "ofs", "tor"]
+}

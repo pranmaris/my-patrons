@@ -3,8 +3,8 @@
         "la": "Franciscus"
     },
     "translations": {
-        "es": [
-            "Francisco"
+        "it": [
+            "Francesco"
         ],
         "en": [
             "Francis"
@@ -15,11 +15,17 @@
         "pl": [
             "Franciszek"
         ],
-        "it": [
-            "Francesco"
+        "es": [
+            "Francisco"
         ]
     },
     "links": {
+        "records/patrons/franciscus/asi": {
+            "it": "Francesco d'Assisi",
+            "en": "Francis of Assisi",
+            "la": "Franciscus Asisiensis",
+            "pl": "Franciszek z Asyżu"
+        },
         "records/patrons/franciscus/xav": {
             "es": "Francisco Javier",
             "en": "Francis Xavier",

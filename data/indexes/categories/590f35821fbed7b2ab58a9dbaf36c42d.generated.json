@@ -104,6 +104,12 @@
             "en": "Eusebius of Vercelli",
             "pl": "Euzebiusz z Vercelli"
         },
+        "records/patrons/franciscus/asi": {
+            "it": "Francesco d'Assisi",
+            "en": "Francis of Assisi",
+            "la": "Franciscus Asisiensis",
+            "pl": "Franciszek z Asyżu"
+        },
         "records/patrons/franciscus/xav": {
             "es": "Francisco Javier",
             "en": "Francis Xavier",

@@ -637,12 +637,24 @@
     },
     "patrons/franciscus": {
         "names": {
-            "es": "Francisco",
+            "it": "Francesco",
             "en": "Francis",
             "la": "Franciscus",
             "pl": "Franciszek",
-            "it": "Francesco"
+            "es": "Francisco"
         }
+    },
+    "patrons/franciscus/asi": {
+        "names": {
+            "it": "Francesco d'Assisi",
+            "en": "Francis of Assisi",
+            "la": "Franciscus Asisiensis",
+            "pl": "Franciszek z Asyżu"
+        },
+        "died": [
+            "1226-10-03"
+        ],
+        "feasts": []
     },
     "patrons/franciscus/xav": {
         "names": {

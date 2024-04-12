@@ -17,6 +17,12 @@
         ]
     },
     "links": {
+        "records/patrons/franciscus/asi": {
+            "it": "Francesco d'Assisi",
+            "en": "Francis of Assisi",
+            "la": "Franciscus Asisiensis",
+            "pl": "Franciszek z Asyżu"
+        },
         "records/patrons/pius/pie": {
             "it": "Pio da Pietrelcina",
             "en": "Pio of Pietrelcina",

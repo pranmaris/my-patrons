@@ -733,6 +733,32 @@
             }
         }
     },
+    "10-03": {
+        "records/patrons/franciscus/asi": {
+            "name": {
+                "it": "Francesco d'Assisi",
+                "en": "Francis of Assisi",
+                "la": "Franciscus Asisiensis",
+                "pl": "Franciszek z Asyżu"
+            },
+            "sources": {
+                "reliable-death-anniversary": "3 X"
+            }
+        }
+    },
+    "10-04": {
+        "records/patrons/franciscus/asi": {
+            "name": {
+                "it": "Francesco d'Assisi",
+                "en": "Francis of Assisi",
+                "la": "Franciscus Asisiensis",
+                "pl": "Franciszek z Asyżu"
+            },
+            "sources": {
+                "other-martyrology-days": "4 X"
+            }
+        }
+    },
     "10-05": {
         "records/patrons/maria/kow": {
             "name": {

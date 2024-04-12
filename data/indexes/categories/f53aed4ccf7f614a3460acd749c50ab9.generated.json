@@ -37,6 +37,12 @@
             "la": "Dominicus Oxomensis",
             "pl": "Dominik Guzmán"
         },
+        "records/patrons/franciscus/asi": {
+            "it": "Francesco d'Assisi",
+            "en": "Francis of Assisi",
+            "la": "Franciscus Asisiensis",
+            "pl": "Franciszek z Asyżu"
+        },
         "records/patrons/gaspar/buf": {
             "it": "Gaspare del Bufalo",
             "en": "Gaspar del Bufalo",

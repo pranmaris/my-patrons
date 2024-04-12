@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "lewita"
+    },
+    "translations": {
+        "la": [
+            "levita"
+        ],
+        "en": [
+            "levi"
+        ],
+        "pl": [
+            "lewita"
+        ]
+    },
+    "links": {
+        "records/patrons/franciscus/asi": {
+            "it": "Francesco d'Assisi",
+            "en": "Francis of Assisi",
+            "la": "Franciscus Asisiensis",
+            "pl": "Franciszek z Asyżu"
+        }
+    }
+}

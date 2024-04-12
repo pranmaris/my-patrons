@@ -56,6 +56,9 @@
     "22f67d833c8310eab41c6d8b81b67a5a": {
         "pl": "Bóg"
     },
+    "249ef937372dec2eb1a1220b33376bd0": {
+        "pl": "lewita"
+    },
     "259058bb86d85d62f14b7feee0a165da": {
         "la": "monialis"
     },
@@ -180,6 +183,9 @@
     "8b2fd85fa6bec435e3bc0c92e49e09f7": {
         "en": "abbot"
     },
+    "8e07dafd13495561db9063ebe4db4b27": {
+        "en": "levi"
+    },
     "9c553d758d4fde12ba5cc72299df6bdd": {
         "pl": "kanonik"
     },
@@ -294,6 +300,9 @@
     },
     "e206eeeda7c29b90d14249ee7ef14dc6": {
         "la": "catechista"
+    },
+    "e71314dc2768dcf6fd370ad09ad30959": {
+        "la": "levita"
     },
     "f4f068e71e0d87bf0ad51e6214ab84e9": {
         "en": "angel"

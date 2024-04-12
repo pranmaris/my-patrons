@@ -294,6 +294,18 @@
         }
     },
 
+    "levita": {
+        "name": {
+            "la": "levita",
+            "en": "levi",
+            "pl": "lewita"
+        },
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "abbas": {
         "name": {
             "la": "abbas",
