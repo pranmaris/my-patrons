@@ -14,6 +14,9 @@
     "08cda30276b654374de678fe3f981675": {
         "pl": "katechista"
     },
+    "0a83e7800dc366de363639804ea71c87": {
+        "pl": "anioł"
+    },
     "0ac6cd34e2fac333bf0ee3cd06bdcf96": {
         "la": "papa"
     },
@@ -92,6 +95,9 @@
     },
     "3bc4b63194c49dc2a328ad2dee2406a6": {
         "pl": "diakon"
+    },
+    "466764052acadf446abd1ff3a89d7a4d": {
+        "pl": "grupa"
     },
     "4b46493ab8bfd6b1a1c800409bbcd3ce": {
         "la": "archangelus"
@@ -211,6 +217,9 @@
     "b0a0c1146cfdd2c67b0d5f359bc53349": {
         "en": "prophet"
     },
+    "b0c7cdfec394aa2f9b61038b135a9717": {
+        "la": "socia"
+    },
     "b2086154f101464aab3328ba7e060deb": {
         "en": "king"
     },
@@ -274,11 +283,20 @@
     "d91c5aa06eafa992b792d9cdba299195": {
         "la": "femina"
     },
+    "db0f6f37ebeb6ea09489124345af2a45": {
+        "en": "group"
+    },
     "db9ba0f4837435258a27af3fd4b31b06": {
         "en": "solitaress"
     },
+    "e1d42842652d17dff26877072006184c": {
+        "la": "angelus"
+    },
     "e206eeeda7c29b90d14249ee7ef14dc6": {
         "la": "catechista"
+    },
+    "f4f068e71e0d87bf0ad51e6214ab84e9": {
+        "en": "angel"
     },
     "f53aed4ccf7f614a3460acd749c50ab9": {
         "pl": "założyciel zakonu"

@@ -1150,6 +1150,24 @@
         ],
         "feasts": []
     },
+    "patrons/multi": {
+        "names": {
+            "la": "Multi",
+            "en": "Many",
+            "pl": "Wiele"
+        }
+    },
+    "patrons/multi/ang": {
+        "names": {
+            "la": "Angeli Custodes",
+            "en": "Guardian Angels",
+            "pl": "Aniołowie Stróżowie"
+        },
+        "died": [
+            "-"
+        ],
+        "feasts": []
+    },
     "patrons/nicolaus": {
         "names": {
             "gr": "Νικόλαος",

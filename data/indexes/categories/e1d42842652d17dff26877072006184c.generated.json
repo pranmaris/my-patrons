@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "angelus"
+    },
+    "translations": {
+        "la": [
+            "angelus"
+        ],
+        "en": [
+            "angel"
+        ],
+        "pl": [
+            "anioł"
+        ]
+    },
+    "links": {
+        "records/patrons/multi/ang": {
+            "la": "Angeli Custodes",
+            "en": "Guardian Angels",
+            "pl": "Aniołowie Stróżowie"
+        }
+    }
+}

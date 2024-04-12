@@ -1,0 +1,28 @@
+{
+  "names": {
+    "la": [
+      "Angeli Custodes"
+    ],
+    "en": [
+      "Guardian Angels"
+    ],
+    "pl": [
+      "Aniołowie Stróżowie"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Multi",
+      "en": "Many",
+      "pl": "Wiele"
+    }
+  ],
+
+  "born": ["-"],
+  "died": ["-"],
+
+  "also-in-martyrology": ["10-02"],
+
+  "categories": ["socia", "angelus"]
+}

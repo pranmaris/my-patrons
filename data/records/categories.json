@@ -11,6 +11,31 @@
         }
     },
 
+    "socia": {
+        "name": {
+            "la": "socia",
+            "en": "group",
+            "pl": "grupa"
+        },
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "angelus": {
+        "name": {
+            "la": "angelus",
+            "en": "angel",
+            "pl": "anioł"
+        },
+        "color": "#FFFFFF",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "archangelus": {
         "name": {
             "la": "archangelus",
@@ -454,32 +479,6 @@
 
 
 
-
-
-    "x-angelus": {
-        "name": {
-            "la": "angelus",
-            "en": "angel",
-            "pl": "anioł"
-        },
-        "color": "#FFFFFF",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "x-coetus": {
-        "name": {
-            "la": "coetus",
-            "en": "group",
-            "pl": "grupa"
-        },
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
 
     "x-patriarcha": {
         "name": {

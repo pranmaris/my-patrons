@@ -171,6 +171,11 @@
         "en": "Monica",
         "pl": "Monika"
     },
+    "multi": {
+        "la": "Multi",
+        "en": "Many",
+        "pl": "Wiele"
+    },
     "nicolaus": {
         "gr": "Νικόλαος",
         "en": "Nicholas",

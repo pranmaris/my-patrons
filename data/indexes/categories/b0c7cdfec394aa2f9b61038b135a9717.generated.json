@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "socia"
+    },
+    "translations": {
+        "la": [
+            "socia"
+        ],
+        "en": [
+            "group"
+        ],
+        "pl": [
+            "grupa"
+        ]
+    },
+    "links": {
+        "records/patrons/multi/ang": {
+            "la": "Angeli Custodes",
+            "en": "Guardian Angels",
+            "pl": "Aniołowie Stróżowie"
+        }
+    }
+}

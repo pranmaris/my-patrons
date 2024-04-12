@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "Many"
+    },
+    "translations": {
+        "la": [
+            "Multi"
+        ],
+        "en": [
+            "Many"
+        ],
+        "pl": [
+            "Wiele"
+        ]
+    },
+    "links": {
+        "records/patrons/multi/ang": {
+            "la": "Angeli Custodes",
+            "en": "Guardian Angels",
+            "pl": "Aniołowie Stróżowie"
+        }
+    }
+}
