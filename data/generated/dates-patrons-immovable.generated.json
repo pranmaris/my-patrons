@@ -786,6 +786,18 @@
             }
         }
     },
+    "10-11": {
+        "records/patrons/gaudentius/rad": {
+            "name": {
+                "pl": "Radzim Gaudenty",
+                "en": "Radim Gaudentius",
+                "la": "Gaudentius seu Radzim"
+            },
+            "sources": {
+                "other-martyrology-days": "11 X"
+            }
+        }
+    },
     "10-12": {
         "records/patrons/carolus/acu": {
             "name": {

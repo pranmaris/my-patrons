@@ -206,6 +206,10 @@
         "la": "Pius",
         "pl": "Pius"
     },
+    "5b9ad95b7190fdc3a603c53089185c48": {
+        "en": "Gaudentius",
+        "la": "Gaudentius"
+    },
     "5e34c3acc31609119eb4e8505c9e22b5": {
         "la": "Vincentius"
     },
@@ -260,6 +264,10 @@
     },
     "713aa4167bf6a1e83ec45a032c721cad": {
         "pl": "Kasper"
+    },
+    "73b08daebd463631b0b15e93280e6db1": {
+        "pl": "Radzim",
+        "la": "Radzim"
     },
     "742ec37e975764168b23ca956e84ec99": {
         "grc": "Ανδρέας"
@@ -537,6 +545,9 @@
     "e9829608dd90ff6b8bf7cb50746eae78": {
         "en": "Jesus"
     },
+    "ee1fe2fc02285ef1035c56cd4300d7a5": {
+        "pl": "Gaudenty"
+    },
     "ef48f94260867a2a9fdad53362cd24a0": {
         "es": "Domingo"
     },
@@ -568,6 +579,9 @@
         "la": "Deusdedit",
         "en": "Deusdedit",
         "pl": "Deusdedit"
+    },
+    "fdc5df53847da6f54f5e5d3c3291a181": {
+        "en": "Radim"
     },
     "fe778c08ca6d5831866ed6d3a0cb0a8b": {
         "he": "יהוֹיָקִים"

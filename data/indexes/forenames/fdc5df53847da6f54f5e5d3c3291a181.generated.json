@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "Radim"
+    },
+    "translations": {
+        "pl": [
+            "Radzim"
+        ],
+        "en": [
+            "Radim"
+        ],
+        "la": [
+            "Radzim"
+        ]
+    },
+    "links": {
+        "records/patrons/gaudentius/rad": {
+            "pl": "Radzim Gaudenty",
+            "en": "Radim Gaudentius",
+            "la": "Gaudentius seu Radzim"
+        }
+    }
+}

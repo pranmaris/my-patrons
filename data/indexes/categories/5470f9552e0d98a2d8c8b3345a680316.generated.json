@@ -42,6 +42,11 @@
             "en": "Eusebius of Vercelli",
             "pl": "Euzebiusz z Vercelli"
         },
+        "records/patrons/gaudentius/rad": {
+            "pl": "Radzim Gaudenty",
+            "en": "Radim Gaudentius",
+            "la": "Gaudentius seu Radzim"
+        },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",

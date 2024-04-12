@@ -727,6 +727,24 @@
         ],
         "feasts": []
     },
+    "patrons/gaudentius": {
+        "names": {
+            "pl": "Gaudenty",
+            "en": "Gaudentius",
+            "la": "Gaudentius"
+        }
+    },
+    "patrons/gaudentius/rad": {
+        "names": {
+            "pl": "Radzim Gaudenty",
+            "en": "Radim Gaudentius",
+            "la": "Gaudentius seu Radzim"
+        },
+        "died": [
+            "~1011"
+        ],
+        "feasts": []
+    },
     "patrons/hormisdas": {
         "names": {
             "la": "Hormisdas",
