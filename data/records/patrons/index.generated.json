@@ -271,10 +271,11 @@
         "pl": "Stefan"
     },
     "teresia": {
-        "de": "Therese",
+        "es": "Teresa",
         "en": "Teresa",
         "la": "Teresia",
-        "pl": "Teresa"
+        "pl": "Teresa",
+        "de": "Therese"
     },
     "vincentius": {
         "fr": "Vincent",

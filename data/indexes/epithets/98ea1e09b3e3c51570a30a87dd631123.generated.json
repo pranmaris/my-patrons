@@ -1,0 +1,27 @@
+{
+    "names": {
+        "es": "de Jesús"
+    },
+    "translations": {
+        "es": [
+            "de Jesús"
+        ],
+        "en": [
+            "of Jesus"
+        ],
+        "la": [
+            "a Iesu"
+        ],
+        "pl": [
+            "od Jezusa"
+        ]
+    },
+    "links": {
+        "records/patrons/teresia/ies": {
+            "es": "Teresa de Jesús",
+            "en": "Teresa of Ávila",
+            "la": "Teresia Abulensis",
+            "pl": "Teresa z Ávili"
+        }
+    }
+}

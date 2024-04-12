@@ -1,0 +1,61 @@
+{
+  "names": {
+    "es": [
+      "Teresa de Jesús",
+      "Teresa de Ávila",
+      "Teresa Sánchez de Cepeda y Ahumada"
+    ],
+    "en": [
+      "Teresa of Ávila",
+      "Teresa of Jesus",
+      "Teresa Sánchez de Cepeda Dávila y Ahumada"
+    ],
+    "la": [
+      "Teresia Abulensis",
+      "Teresia a Iesu"
+    ],
+    "pl": [
+      "Teresa z Ávili",
+      "Teresa od Jezusa",
+      "Teresa Wielka",
+      "Teresa Hiszpanka",
+      "Teresa Sánchez de Cepeda Dávila y Ahumada"
+    ]
+  },
+
+  "forenames": [
+    {
+      "es": "Teresa",
+      "en": "Teresa",
+      "la": "Teresia",
+      "pl": "Teresa"
+    }
+  ],
+  "epithets": [
+    {
+      "es": "de Jesús",
+      "en": "of Jesus",
+      "la": "a Iesu",
+      "pl": "od Jezusa"
+    }
+  ],
+
+  "born": ["1515-03-28"],
+  "died": ["1582-10-04", "1582-10-15"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1614-04-24"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1622-03-12"
+  },
+
+  "also-in-martyrology": ["10-15"],
+
+  "categories": ["femina", "virgo", "doctor-ecclesiae"],
+
+  "order": ["ocarm", "ocd"],
+  "order-founder": ["ocd"]
+}

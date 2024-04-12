@@ -1567,11 +1567,25 @@
     },
     "patrons/teresia": {
         "names": {
-            "de": "Therese",
+            "es": "Teresa",
             "en": "Teresa",
             "la": "Teresia",
-            "pl": "Teresa"
+            "pl": "Teresa",
+            "de": "Therese"
         }
+    },
+    "patrons/teresia/ies": {
+        "names": {
+            "es": "Teresa de Jesús",
+            "en": "Teresa of Ávila",
+            "la": "Teresia Abulensis",
+            "pl": "Teresa z Ávili"
+        },
+        "died": [
+            "1582-10-04",
+            "1582-10-15"
+        ],
+        "feasts": []
     },
     "patrons/teresia/ste": {
         "names": {

@@ -41,6 +41,12 @@
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",
             "pl": "Jan Chryzostom"
+        },
+        "records/patrons/teresia/ies": {
+            "es": "Teresa de Jesús",
+            "en": "Teresa of Ávila",
+            "la": "Teresia Abulensis",
+            "pl": "Teresa z Ávili"
         }
     }
 }
