@@ -1,0 +1,34 @@
+{
+  "names": {
+    "es": [
+      "Domingo de Silos",
+      "Domingo Manso"
+    ],
+    "en": [
+      "Dominic of Silos"
+    ],
+    "la": [
+      "Dominicus de Silos"
+    ],
+    "pl": [
+      "Dominik z Silos"
+    ]
+  },
+
+  "forenames": [
+    {
+      "es": "Domingo",
+      "en": "Dominic",
+      "la": "Dominicus",
+      "pl": "Dominik"
+    }
+  ],
+
+  "born": ["~1000"],
+  "died": ["1073-12-20"],
+
+  "also-in-martyrology": ["12-20"],
+
+  "categories": ["vir", "abbas", "eremita"],
+  "order": ["osb"]
+}

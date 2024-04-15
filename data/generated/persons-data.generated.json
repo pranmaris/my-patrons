@@ -668,10 +668,22 @@
     "patrons/dominicus": {
         "names": {
             "es": "Domingo",
-            "en": "Dominicus",
-            "la": "Dominic",
+            "en": "Dominic",
+            "la": "Dominicus",
             "pl": "Dominik"
         }
+    },
+    "patrons/dominicus/exi": {
+        "names": {
+            "es": "Domingo de Silos",
+            "en": "Dominic of Silos",
+            "la": "Dominicus de Silos",
+            "pl": "Dominik z Silos"
+        },
+        "died": [
+            "1073-12-20"
+        ],
+        "feasts": []
     },
     "patrons/dominicus/oxo": {
         "names": {

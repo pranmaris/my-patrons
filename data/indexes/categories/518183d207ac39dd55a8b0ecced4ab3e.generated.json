@@ -20,6 +20,12 @@
             "la": "Bruno Cartusiensis",
             "pl": "Bruno Kartuz"
         },
+        "records/patrons/dominicus/exi": {
+            "es": "Domingo de Silos",
+            "en": "Dominic of Silos",
+            "la": "Dominicus de Silos",
+            "pl": "Dominik z Silos"
+        },
         "records/patrons/leonardus/ere": {
             "fr": "Léonard de Noblat",
             "en": "Leonard of Noblac",

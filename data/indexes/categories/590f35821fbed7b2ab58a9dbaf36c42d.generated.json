@@ -104,6 +104,12 @@
             "en": "Deusdedit I",
             "pl": "Deusdedit I"
         },
+        "records/patrons/dominicus/exi": {
+            "es": "Domingo de Silos",
+            "en": "Dominic of Silos",
+            "la": "Dominicus de Silos",
+            "pl": "Dominik z Silos"
+        },
         "records/patrons/dominicus/oxo": {
             "es": "Domingo de Osma",
             "en": "Dominic of Osma",
