@@ -1,0 +1,27 @@
+{
+  "names": {
+    "la": [
+      "Caecilia Romana"
+    ],
+    "en": [
+      "Cecilia of Rome"
+    ],
+    "pl": [
+      "Cecylia z Rzymu"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Caecilia",
+      "en": "Cecilia",
+      "pl": "Cecylia"
+    }
+  ],
+
+  "died": [">201", "<300"],
+
+  "also-in-martyrology": ["11-22"],
+
+  "categories": ["femina", "martyrix", "virgo"]
+}

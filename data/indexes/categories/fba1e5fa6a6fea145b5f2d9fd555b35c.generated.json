@@ -14,6 +14,11 @@
         ]
     },
     "links": {
+        "records/patrons/caecilia/rom": {
+            "la": "Caecilia Romana",
+            "en": "Cecilia of Rome",
+            "pl": "Cecylia z Rzymu"
+        },
         "records/patrons/carolina/koz": {
             "pl": "Karolina Kózka",
             "en": "Karolina Kózka",

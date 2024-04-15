@@ -496,6 +496,25 @@
         ],
         "feasts": []
     },
+    "patrons/caecilia": {
+        "names": {
+            "la": "Caecilia",
+            "en": "Cecilia",
+            "pl": "Cecylia"
+        }
+    },
+    "patrons/caecilia/rom": {
+        "names": {
+            "la": "Caecilia Romana",
+            "en": "Cecilia of Rome",
+            "pl": "Cecylia z Rzymu"
+        },
+        "died": [
+            ">201",
+            "<300"
+        ],
+        "feasts": []
+    },
     "patrons/carolina": {
         "names": {
             "pl": "Karolina",

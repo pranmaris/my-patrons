@@ -1019,6 +1019,18 @@
             }
         }
     },
+    "11-22": {
+        "records/patrons/caecilia/rom": {
+            "name": {
+                "la": "Caecilia Romana",
+                "en": "Cecilia of Rome",
+                "pl": "Cecylia z Rzymu"
+            },
+            "sources": {
+                "other-martyrology-days": "22 XI"
+            }
+        }
+    },
     "11-29": {
         "records/patrons/saturninus/tol": {
             "name": {
