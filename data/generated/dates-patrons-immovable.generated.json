@@ -957,6 +957,18 @@
                 "other-martyrology-days": "8 XI"
             }
         },
+        "records/patrons/ioannes/dun": {
+            "name": {
+                "de": "Johannes Duns Scotus",
+                "en": "John Duns Scotus",
+                "la": "Ioannes Duns Scotus",
+                "pl": "Jan Duns Szkot"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 XI",
+                "other-martyrology-days": "8 XI"
+            }
+        },
         "records/patrons/martinus/tur": {
             "name": {
                 "la": "Martinus Turonensis",

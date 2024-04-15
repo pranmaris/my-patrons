@@ -1,0 +1,27 @@
+{
+    "names": {
+        "de": "Johannes"
+    },
+    "translations": {
+        "de": [
+            "Johannes"
+        ],
+        "en": [
+            "John"
+        ],
+        "la": [
+            "Ioannes"
+        ],
+        "pl": [
+            "Jan"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/dun": {
+            "de": "Johannes Duns Scotus",
+            "en": "John Duns Scotus",
+            "la": "Ioannes Duns Scotus",
+            "pl": "Jan Duns Szkot"
+        }
+    }
+}

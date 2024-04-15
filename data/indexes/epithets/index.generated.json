@@ -5,6 +5,12 @@
     "02db1fdc3550181c223ed5f93205b573": {
         "en": "Chrysostom"
     },
+    "0a3ab6965027afaed2ffe91416e8ec05": {
+        "de": "Schotte"
+    },
+    "0d950f318ba94f58feb059b133e81c06": {
+        "pl": "Szkot"
+    },
     "0ee11e4c8019c891aa9f79cbca9cdddb": {
         "la": "Vigesimus Tertius"
     },
@@ -54,6 +60,9 @@
     "604cf5ac86ca2069b1d86b101872f286": {
         "pl": "Chrzciciel"
     },
+    "60bdf6df060abedcc0bb5588af581696": {
+        "la": "Scotus"
+    },
     "619b136922b26ab131cd10d37c339eda": {
         "la": "Secundus"
     },
@@ -62,6 +71,12 @@
     },
     "6f8485ce1f3ecff0529e149f4368e6f5": {
         "pl": "Wielki"
+    },
+    "6fc1c29068c6da4dfb97aabb057b2bd1": {
+        "de": "Duns",
+        "en": "Duns",
+        "la": "Duns",
+        "pl": "Duns"
     },
     "812ef0b2119c99e59f7344056d361cc7": {
         "pl": "Pierwszy"
@@ -80,6 +95,9 @@
     },
     "9904b7516ff50ed584eced27f3a4e0e5": {
         "en": "the First"
+    },
+    "a1b27c48dae43b9ae63141c37f0a5034": {
+        "en": "Scottish"
     },
     "a2fa4156fc81b9c871309b9dbf1009e0": {
         "pl": "Chrystus"

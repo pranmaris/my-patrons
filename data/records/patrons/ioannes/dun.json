@@ -1,0 +1,52 @@
+{
+  "names": {
+    "de": [
+      "Johannes Duns Scotus"
+    ],
+    "en": [
+      "John Duns Scotus"
+    ],
+    "la": [
+      "Ioannes Duns Scotus"
+    ],
+    "pl": [
+      "Jan Duns Szkot"
+    ]
+  },
+
+  "forenames": [
+    {
+      "de": "Johannes",
+      "en": "John",
+      "la": "Ioannes",
+      "pl": "Jan"
+    }
+  ],
+  "epithets": [
+    {
+      "de": "Duns",
+      "en": "Duns",
+      "la": "Duns",
+      "pl": "Duns"
+    },
+    {
+      "de": "Schotte",
+      "en": "Scottish",
+      "la": "Scotus",
+      "pl": "Szkot"
+    }
+  ],
+
+  "born": ["~1266"],
+  "died": ["1308-11-08"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1991-07-06"
+  },
+
+  "also-in-martyrology": ["11-08"],
+
+  "categories": ["vir", "presbyter"],
+  "order": ["ofm"]
+}

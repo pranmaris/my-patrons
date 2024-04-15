@@ -21,6 +21,12 @@
         "en": "John Chrysostom",
         "pl": "Jan Chryzostom"
     },
+    "dun": {
+        "de": "Johannes Duns Scotus",
+        "en": "John Duns Scotus",
+        "la": "Ioannes Duns Scotus",
+        "pl": "Jan Duns Szkot"
+    },
     "eva": {
         "la": "Ioannes Evangelista",
         "en": "John the Evangelist",

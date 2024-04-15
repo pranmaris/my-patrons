@@ -847,6 +847,7 @@
             "en": "John",
             "la": "Ioannes",
             "pl": "Jan",
+            "de": "Johannes",
             "fr": "Jean"
         }
     },
@@ -920,6 +921,18 @@
         },
         "died": [
             "407-09-14"
+        ],
+        "feasts": []
+    },
+    "patrons/ioannes/dun": {
+        "names": {
+            "de": "Johannes Duns Scotus",
+            "en": "John Duns Scotus",
+            "la": "Ioannes Duns Scotus",
+            "pl": "Jan Duns Szkot"
+        },
+        "died": [
+            "1308-11-08"
         ],
         "feasts": []
     },
