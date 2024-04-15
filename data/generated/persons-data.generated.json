@@ -776,6 +776,22 @@
             }
         }
     },
+    "patrons/eva": {
+        "names": {
+            "la": "Eva",
+            "en": "Eva",
+            "pl": "Ewa"
+        }
+    },
+    "patrons/eva/ada": {
+        "names": {
+            "la": "Eva (cum Adam)",
+            "en": "Ewa (with Adam)",
+            "pl": "Ewa (z Adamem)"
+        },
+        "died": [],
+        "feasts": []
+    },
     "patrons/franciscus": {
         "names": {
             "it": "Francesco",

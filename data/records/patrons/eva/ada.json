@@ -1,0 +1,25 @@
+{
+  "names": {
+    "la": [
+      "Eva (cum Adam)"
+    ],
+    "en": [
+      "Ewa (with Adam)"
+    ],
+    "pl": [
+      "Ewa (z Adamem)"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Eva",
+      "en": "Eva",
+      "pl": "Ewa"
+    }
+  ],
+
+  "also-mentioned": ["12-24"],
+
+  "categories": ["femina"]
+}

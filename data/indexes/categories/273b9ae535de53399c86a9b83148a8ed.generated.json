@@ -50,6 +50,11 @@
             "en": "Daria (with Chrysanthus)",
             "pl": "Daria (z Chryzantem)"
         },
+        "records/patrons/eva/ada": {
+            "la": "Eva (cum Adam)",
+            "en": "Ewa (with Adam)",
+            "pl": "Ewa (z Adamem)"
+        },
         "records/patrons/hedwigis/duc": {
             "de": "Hedwig von Andechs",
             "en": "Hedwig of Silesia",

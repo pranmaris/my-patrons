@@ -1219,6 +1219,16 @@
                 "reliable-death-anniversary": "24 XII",
                 "other-martyrology-days": "24 XII"
             }
+        },
+        "records/patrons/eva/ada": {
+            "name": {
+                "la": "Eva (cum Adam)",
+                "en": "Ewa (with Adam)",
+                "pl": "Ewa (z Adamem)"
+            },
+            "sources": {
+                "other-memorial-days": "24 XII"
+            }
         }
     },
     "12-25": {

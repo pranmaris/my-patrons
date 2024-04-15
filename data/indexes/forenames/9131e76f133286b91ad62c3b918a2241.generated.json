@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Ewa"
+    },
+    "translations": {
+        "la": [
+            "Eva"
+        ],
+        "en": [
+            "Eva"
+        ],
+        "pl": [
+            "Ewa"
+        ]
+    },
+    "links": {
+        "records/patrons/eva/ada": {
+            "la": "Eva (cum Adam)",
+            "en": "Ewa (with Adam)",
+            "pl": "Ewa (z Adamem)"
+        }
+    }
+}
