@@ -442,36 +442,39 @@
     },
 
     "lang-date-source-mr-1956": {
-        "en": "1956",
-        "la": "1956",
-        "pl": "1956"
+        "en": "Roman Martyrology 1956",
+        "la": "Martyrologium Romanum 1956",
+        "pl": "Martyrologium Rzymskie 1956"
     },
 
     "lang-date-source-mr-1956-movable": {
-        "en": "1956 movable feasts",
-        "pl": "1956 święta ruchome"
+        "en": "Roman Martyrology 1956 movable feasts",
+        "la": "Martyrologium Romanum 1956 mobilia festa",
+        "pl": "Martyrologium Rzymskie 1956 święta ruchome"
     },
 
     "lang-date-source-mr-1960": {
-        "en": "1960",
-        "la": "1960",
-        "pl": "1960"
+        "en": "Roman Martyrology 1960",
+        "la": "Martyrologium Romanum 1960",
+        "pl": "Martyrologium Rzymskie 1960"
     },
 
     "lang-date-source-mr-1960-movable": {
-        "en": "1960 movable feasts",
-        "pl": "1960 święta ruchome"
+        "en": "Roman Martyrology 1960 movable feasts",
+        "la": "Martyrologium Romanum 1960 mobilia festa",
+        "pl": "Martyrologium Rzymskie 1960 święta ruchome"
     },
 
     "lang-date-source-mr-2004": {
-        "en": "2004",
-        "la": "2004",
-        "pl": "2004"
+        "en": "Roman Martyrology 2004",
+        "la": "Martyrologium Romanum 2004",
+        "pl": "Martyrologium Rzymskie 2004"
     },
 
     "lang-date-source-mr-2004-movable": {
-        "en": "2004 movable feasts",
-        "pl": "2004 święta ruchome"
+        "en": "Roman Martyrology 2004 movable feasts",
+        "la": "Martyrologium Romanum 2004 mobilia festa",
+        "pl": "Martyrologium Rzymskie 2004 święta ruchome"
     },
 
     "lang-date-source-other-feasts": {
