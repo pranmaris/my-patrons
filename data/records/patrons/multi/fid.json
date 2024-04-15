@@ -1,0 +1,25 @@
+{
+  "names": {
+    "la": [
+      "Omnes Fideles Defuncti"
+    ],
+    "en": [
+      "All the Faithful Departed"
+    ],
+    "pl": [
+      "Wszyscy Wierni Zmarli"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Multi",
+      "en": "Many",
+      "pl": "Wiele"
+    }
+  ],
+
+  "also-in-martyrology": ["11-02"],
+
+  "categories": ["socia"]
+}

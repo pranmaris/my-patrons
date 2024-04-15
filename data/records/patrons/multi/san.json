@@ -1,0 +1,25 @@
+{
+  "names": {
+    "la": [
+      "Omnes Sancti"
+    ],
+    "en": [
+      "All Saints"
+    ],
+    "pl": [
+      "Wszyscy Święci"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Multi",
+      "en": "Many",
+      "pl": "Wiele"
+    }
+  ],
+
+  "also-in-martyrology": ["11-01"],
+
+  "categories": ["socia"]
+}

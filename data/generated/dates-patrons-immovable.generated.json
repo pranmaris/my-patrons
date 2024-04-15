@@ -908,6 +908,30 @@
             }
         }
     },
+    "11-01": {
+        "records/patrons/multi/san": {
+            "name": {
+                "la": "Omnes Sancti",
+                "en": "All Saints",
+                "pl": "Wszyscy Święci"
+            },
+            "sources": {
+                "other-martyrology-days": "1 XI"
+            }
+        }
+    },
+    "11-02": {
+        "records/patrons/multi/fid": {
+            "name": {
+                "la": "Omnes Fideles Defuncti",
+                "en": "All the Faithful Departed",
+                "pl": "Wszyscy Wierni Zmarli"
+            },
+            "sources": {
+                "other-martyrology-days": "2 XI"
+            }
+        }
+    },
     "11-08": {
         "records/patrons/deusdedit/1pp": {
             "name": {

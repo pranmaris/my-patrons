@@ -18,6 +18,16 @@
             "la": "Angeli Custodes",
             "en": "Guardian Angels",
             "pl": "Aniołowie Stróżowie"
+        },
+        "records/patrons/multi/fid": {
+            "la": "Omnes Fideles Defuncti",
+            "en": "All the Faithful Departed",
+            "pl": "Wszyscy Wierni Zmarli"
+        },
+        "records/patrons/multi/san": {
+            "la": "Omnes Sancti",
+            "en": "All Saints",
+            "pl": "Wszyscy Święci"
         }
     }
 }

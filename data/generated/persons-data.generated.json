@@ -1307,6 +1307,24 @@
         ],
         "feasts": []
     },
+    "patrons/multi/fid": {
+        "names": {
+            "la": "Omnes Fideles Defuncti",
+            "en": "All the Faithful Departed",
+            "pl": "Wszyscy Wierni Zmarli"
+        },
+        "died": [],
+        "feasts": []
+    },
+    "patrons/multi/san": {
+        "names": {
+            "la": "Omnes Sancti",
+            "en": "All Saints",
+            "pl": "Wszyscy Święci"
+        },
+        "died": [],
+        "feasts": []
+    },
     "patrons/nicolaus": {
         "names": {
             "gr": "Νικόλαος",
