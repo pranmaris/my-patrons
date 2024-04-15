@@ -589,6 +589,24 @@
         ],
         "feasts": []
     },
+    "patrons/catharina": {
+        "names": {
+            "la": "Catharina",
+            "en": "Catherine",
+            "pl": "Katarzyna"
+        }
+    },
+    "patrons/catharina/ale": {
+        "names": {
+            "la": "Catharina Alexandrina",
+            "en": "Catherine of Alexandria",
+            "pl": "Katarzyna Aleksandryjska"
+        },
+        "died": [
+            ">300"
+        ],
+        "feasts": []
+    },
     "patrons/chrysanthus": {
         "names": {
             "la": "Chrysanthus",

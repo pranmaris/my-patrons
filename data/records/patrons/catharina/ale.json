@@ -1,0 +1,29 @@
+{
+  "names": {
+    "la": [
+      "Catharina Alexandrina",
+      "Catharina de Alexandria"
+    ],
+    "en": [
+      "Catherine of Alexandria"
+    ],
+    "pl": [
+      "Katarzyna Aleksandryjska",
+      "Katarzyna z Aleksandrii"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Catharina",
+      "en": "Catherine",
+      "pl": "Katarzyna"
+    }
+  ],
+
+  "died": [">300"],
+
+  "also-in-martyrology": ["11-25"],
+
+  "categories": ["femina", "martyrix", "virgo"]
+}

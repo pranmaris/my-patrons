@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Catharina"
+    },
+    "translations": {
+        "la": [
+            "Catharina"
+        ],
+        "en": [
+            "Catherine"
+        ],
+        "pl": [
+            "Katarzyna"
+        ]
+    },
+    "links": {
+        "records/patrons/catharina/ale": {
+            "la": "Catharina Alexandrina",
+            "en": "Catherine of Alexandria",
+            "pl": "Katarzyna Aleksandryjska"
+        }
+    }
+}
