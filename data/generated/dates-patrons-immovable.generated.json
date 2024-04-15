@@ -1,4 +1,28 @@
 {
+    "01-21": {
+        "records/patrons/agnes/rom": {
+            "name": {
+                "la": "Agnes Romana",
+                "en": "Agnes of Rome",
+                "pl": "Agnieszka Rzymianka"
+            },
+            "sources": {
+                "other-martyrology-days": "21 I"
+            }
+        }
+    },
+    "01-28": {
+        "records/patrons/agnes/rom": {
+            "name": {
+                "la": "Agnes Romana",
+                "en": "Agnes of Rome",
+                "pl": "Agnieszka Rzymianka"
+            },
+            "sources": {
+                "other-martyrology-days": "28 I"
+            }
+        }
+    },
     "03-04": {
         "records/patrons/casimirus/pri": {
             "name": {

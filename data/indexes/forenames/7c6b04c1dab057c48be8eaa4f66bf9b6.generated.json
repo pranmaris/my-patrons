@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Agnieszka"
+    },
+    "translations": {
+        "la": [
+            "Agnes"
+        ],
+        "en": [
+            "Agnes"
+        ],
+        "pl": [
+            "Agnieszka"
+        ]
+    },
+    "links": {
+        "records/patrons/agnes/rom": {
+            "la": "Agnes Romana",
+            "en": "Agnes of Rome",
+            "pl": "Agnieszka Rzymianka"
+        }
+    }
+}

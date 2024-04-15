@@ -329,6 +329,24 @@
         ],
         "feasts": []
     },
+    "patrons/agnes": {
+        "names": {
+            "la": "Agnes",
+            "en": "Agnes",
+            "pl": "Agnieszka"
+        }
+    },
+    "patrons/agnes/rom": {
+        "names": {
+            "la": "Agnes Romana",
+            "en": "Agnes of Rome",
+            "pl": "Agnieszka Rzymianka"
+        },
+        "died": [
+            "~304"
+        ],
+        "feasts": []
+    },
     "patrons/albertus": {
         "names": {
             "pl": "Albert",

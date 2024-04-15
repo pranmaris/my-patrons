@@ -14,6 +14,11 @@
         ]
     },
     "links": {
+        "records/patrons/agnes/rom": {
+            "la": "Agnes Romana",
+            "en": "Agnes of Rome",
+            "pl": "Agnieszka Rzymianka"
+        },
         "records/patrons/caecilia/rom": {
             "la": "Caecilia Romana",
             "en": "Cecilia of Rome",

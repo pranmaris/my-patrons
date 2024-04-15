@@ -1,0 +1,27 @@
+{
+  "names": {
+    "la": [
+      "Agnes Romana"
+    ],
+    "en": [
+      "Agnes of Rome"
+    ],
+    "pl": [
+      "Agnieszka Rzymianka"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Agnes",
+      "en": "Agnes",
+      "pl": "Agnieszka"
+    }
+  ],
+
+  "died": ["~304"],
+
+  "also-in-martyrology": ["01-21", "01-28"],
+
+  "categories": ["femina", "martyrix", "virgo"]
+}
