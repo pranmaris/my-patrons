@@ -190,6 +190,32 @@
         }
     },
 
+    "maritus": {
+        "name": {
+            "la": "maritus",
+            "en": "husband",
+            "pl": "małżonek"
+        },
+        "color": "#FFFFFF",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
+    "uxor": {
+        "name": {
+            "la": "uxor",
+            "en": "wife",
+            "pl": "małżonka"
+        },
+        "color": "#FFFFFF",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "propheta": {
         "name": {
             "la": "propheta",

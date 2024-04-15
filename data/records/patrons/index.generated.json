@@ -57,11 +57,21 @@
         "en": "Casimir",
         "la": "Casimirus"
     },
+    "chrysanthus": {
+        "la": "Chrysanthus",
+        "en": "Chrysanthus",
+        "pl": "Chryzant"
+    },
     "clara": {
         "it": "Chiara",
         "en": "Clare",
         "la": "Clara",
         "pl": "Klara"
+    },
+    "daria": {
+        "la": "Daria",
+        "en": "Daria",
+        "pl": "Daria"
     },
     "david": {
         "sw": "Daudi",

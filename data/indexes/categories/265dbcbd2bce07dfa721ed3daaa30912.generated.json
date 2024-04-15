@@ -45,6 +45,16 @@
             "en": "Karolina Kózka",
             "la": "Carolina Kózka"
         },
+        "records/patrons/chrysanthus/dar": {
+            "la": "Chrysanthus (cum Daria)",
+            "en": "Chrysanthus (with Daria)",
+            "pl": "Chryzant (z Darią)"
+        },
+        "records/patrons/daria/chr": {
+            "la": "Daria (cum Chrysanthus)",
+            "en": "Daria (with Chrysanthus)",
+            "pl": "Daria (z Chryzantem)"
+        },
         "records/patrons/david/oke": {
             "sw": "Daudi Okelo",
             "en": "David Okelo",

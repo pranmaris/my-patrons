@@ -552,6 +552,24 @@
         ],
         "feasts": []
     },
+    "patrons/chrysanthus": {
+        "names": {
+            "la": "Chrysanthus",
+            "en": "Chrysanthus",
+            "pl": "Chryzant"
+        }
+    },
+    "patrons/chrysanthus/dar": {
+        "names": {
+            "la": "Chrysanthus (cum Daria)",
+            "en": "Chrysanthus (with Daria)",
+            "pl": "Chryzant (z Darią)"
+        },
+        "died": [
+            "~253"
+        ],
+        "feasts": []
+    },
     "patrons/clara": {
         "names": {
             "it": "Chiara",
@@ -569,6 +587,24 @@
         },
         "died": [
             "1253-08-11"
+        ],
+        "feasts": []
+    },
+    "patrons/daria": {
+        "names": {
+            "la": "Daria",
+            "en": "Daria",
+            "pl": "Daria"
+        }
+    },
+    "patrons/daria/chr": {
+        "names": {
+            "la": "Daria (cum Chrysanthus)",
+            "en": "Daria (with Chrysanthus)",
+            "pl": "Daria (z Chryzantem)"
+        },
+        "died": [
+            "~253"
         ],
         "feasts": []
     },

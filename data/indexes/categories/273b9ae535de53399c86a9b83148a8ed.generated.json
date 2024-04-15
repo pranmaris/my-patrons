@@ -25,6 +25,11 @@
             "la": "Clara Assisiensis",
             "pl": "Klara z Asyżu"
         },
+        "records/patrons/daria/chr": {
+            "la": "Daria (cum Chrysanthus)",
+            "en": "Daria (with Chrysanthus)",
+            "pl": "Daria (z Chryzantem)"
+        },
         "records/patrons/hedwigis/duc": {
             "de": "Hedwig von Andechs",
             "en": "Hedwig of Silesia",

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "wife"
+    },
+    "translations": {
+        "la": [
+            "uxor"
+        ],
+        "en": [
+            "wife"
+        ],
+        "pl": [
+            "małżonka"
+        ]
+    },
+    "links": {
+        "records/patrons/daria/chr": {
+            "la": "Daria (cum Chrysanthus)",
+            "en": "Daria (with Chrysanthus)",
+            "pl": "Daria (z Chryzantem)"
+        }
+    }
+}

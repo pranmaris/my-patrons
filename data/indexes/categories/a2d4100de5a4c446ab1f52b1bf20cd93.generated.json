@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "husband"
+    },
+    "translations": {
+        "la": [
+            "maritus"
+        ],
+        "en": [
+            "husband"
+        ],
+        "pl": [
+            "małżonek"
+        ]
+    },
+    "links": {
+        "records/patrons/chrysanthus/dar": {
+            "la": "Chrysanthus (cum Daria)",
+            "en": "Chrysanthus (with Daria)",
+            "pl": "Chryzant (z Darią)"
+        }
+    }
+}

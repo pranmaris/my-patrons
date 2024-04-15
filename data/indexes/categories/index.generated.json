@@ -20,6 +20,9 @@
     "0ac6cd34e2fac333bf0ee3cd06bdcf96": {
         "la": "papa"
     },
+    "0b9bc8c247685beb57a15a97449735ac": {
+        "la": "uxor"
+    },
     "0fd7a44fdd13ad881b07c0446d857a1a": {
         "en": "nun"
     },
@@ -53,11 +56,17 @@
     "221182760f5b980c97c7a74a94d57364": {
         "la": "regina"
     },
+    "2270ebf9b927c980972bb7c93a443e8c": {
+        "pl": "małżonek"
+    },
     "22f67d833c8310eab41c6d8b81b67a5a": {
         "pl": "Bóg"
     },
     "249ef937372dec2eb1a1220b33376bd0": {
         "pl": "lewita"
+    },
+    "24e7628d5af80f8d2eb721893b1679a5": {
+        "la": "maritus"
     },
     "259058bb86d85d62f14b7feee0a165da": {
         "la": "monialis"
@@ -186,6 +195,9 @@
     "894b1a9663248bf32dd5bb29c79d144d": {
         "la": "prezbyter"
     },
+    "89f0058731a3ea17f84998659faf0dcf": {
+        "pl": "małżonka"
+    },
     "8b2fd85fa6bec435e3bc0c92e49e09f7": {
         "en": "abbot"
     },
@@ -206,6 +218,9 @@
     },
     "a1d6b5694b31e76b8c226d4be6b26093": {
         "la": "evangelista"
+    },
+    "a2d4100de5a4c446ab1f52b1bf20cd93": {
+        "en": "husband"
     },
     "a3f2decfa6e0d566fef69a10713738cd": {
         "en": "archangel"
@@ -259,6 +274,9 @@
     },
     "bb28d7d05b81ffd100cfcb5762dd2690": {
         "la": "solitaria"
+    },
+    "bb4694a26a39df7501f8bb8cbdd13e38": {
+        "en": "wife"
     },
     "be3b0a36a11cc13dadec2e3639927f13": {
         "la": "vidua"

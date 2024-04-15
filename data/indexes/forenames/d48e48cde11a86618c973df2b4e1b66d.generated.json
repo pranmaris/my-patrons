@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Chryzant"
+    },
+    "translations": {
+        "la": [
+            "Chrysanthus"
+        ],
+        "en": [
+            "Chrysanthus"
+        ],
+        "pl": [
+            "Chryzant"
+        ]
+    },
+    "links": {
+        "records/patrons/chrysanthus/dar": {
+            "la": "Chrysanthus (cum Daria)",
+            "en": "Chrysanthus (with Daria)",
+            "pl": "Chryzant (z Darią)"
+        }
+    }
+}

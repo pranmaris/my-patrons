@@ -88,6 +88,11 @@
             "en": "Casimir Jagiellon",
             "la": "Casimirus Princeps"
         },
+        "records/patrons/chrysanthus/dar": {
+            "la": "Chrysanthus (cum Daria)",
+            "en": "Chrysanthus (with Daria)",
+            "pl": "Chryzant (z Darią)"
+        },
         "records/patrons/david/oke": {
             "sw": "Daudi Okelo",
             "en": "David Okelo",

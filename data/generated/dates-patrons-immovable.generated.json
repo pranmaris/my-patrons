@@ -886,6 +886,28 @@
             }
         }
     },
+    "10-25": {
+        "records/patrons/chrysanthus/dar": {
+            "name": {
+                "la": "Chrysanthus (cum Daria)",
+                "en": "Chrysanthus (with Daria)",
+                "pl": "Chryzant (z Darią)"
+            },
+            "sources": {
+                "other-martyrology-days": "25 X"
+            }
+        },
+        "records/patrons/daria/chr": {
+            "name": {
+                "la": "Daria (cum Chrysanthus)",
+                "en": "Daria (with Chrysanthus)",
+                "pl": "Daria (z Chryzantem)"
+            },
+            "sources": {
+                "other-martyrology-days": "25 X"
+            }
+        }
+    },
     "11-08": {
         "records/patrons/deusdedit/1pp": {
             "name": {
