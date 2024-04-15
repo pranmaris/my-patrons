@@ -233,11 +233,11 @@
         }
     },
     "07-27": {
-        "records/patrons/natalia/aur": {
+        "records/patrons/sabigothon/aur": {
             "name": {
-                "la": "Natalia (cum Aurelius)",
-                "en": "Natalie (with Aurelius)",
-                "pl": "Natalia (z Aureliuszem)"
+                "la": "Sabigothon Natalia (cum Aurelius)",
+                "en": "Sabigothon Natalie (with Aurelius)",
+                "pl": "Sabigotona Natalia (z Aureliuszem)"
             },
             "sources": {
                 "other-martyrology-days": "27 VII"
@@ -887,7 +887,7 @@
         }
     },
     "10-20": {
-        "records/patrons/ioannes/can": {
+        "records/patrons/ioannes/ket": {
             "name": {
                 "pl": "Jan Kanty",
                 "en": "John Cantius",
@@ -1149,7 +1149,7 @@
         }
     },
     "12-23": {
-        "records/patrons/ioannes/can": {
+        "records/patrons/ioannes/ket": {
             "name": {
                 "pl": "Jan Kanty",
                 "en": "John Cantius",
@@ -1161,7 +1161,7 @@
         }
     },
     "12-24": {
-        "records/patrons/ioannes/can": {
+        "records/patrons/ioannes/ket": {
             "name": {
                 "pl": "Jan Kanty",
                 "en": "John Cantius",

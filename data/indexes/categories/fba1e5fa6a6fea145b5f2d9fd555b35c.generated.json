@@ -73,11 +73,6 @@
             "en": "Monica of Tagasta",
             "pl": "Monika z Tagasty"
         },
-        "records/patrons/natalia/aur": {
-            "la": "Natalia (cum Aurelius)",
-            "en": "Natalie (with Aurelius)",
-            "pl": "Natalia (z Aureliuszem)"
-        },
         "records/patrons/rita/cas": {
             "it": "Rita da Cascia",
             "en": "Rita of Cascia",
@@ -95,6 +90,11 @@
             "en": "Rosalia of Palermo",
             "la": "Rosalia Panormitana",
             "pl": "Rozalia z Palermo"
+        },
+        "records/patrons/sabigothon/aur": {
+            "la": "Sabigothon Natalia (cum Aurelius)",
+            "en": "Sabigothon Natalie (with Aurelius)",
+            "pl": "Sabigotona Natalia (z Aureliuszem)"
         },
         "records/patrons/sancia/szy": {
             "pl": "Sancja Szymkowiak",

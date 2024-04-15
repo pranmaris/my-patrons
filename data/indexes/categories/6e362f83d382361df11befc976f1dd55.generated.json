@@ -55,16 +55,16 @@
             "la": "Gaspar del Bufalo",
             "pl": "Kasper del Bufalo"
         },
-        "records/patrons/ioannes/can": {
-            "pl": "Jan Kanty",
-            "en": "John Cantius",
-            "la": "Ioannes Cantius"
-        },
         "records/patrons/ioannes/dun": {
             "de": "Johannes Duns Scotus",
             "en": "John Duns Scotus",
             "la": "Ioannes Duns Scotus",
             "pl": "Jan Duns Szkot"
+        },
+        "records/patrons/ioannes/ket": {
+            "pl": "Jan Kanty",
+            "en": "John Cantius",
+            "la": "Ioannes Cantius"
         },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",

@@ -14,10 +14,10 @@
         ]
     },
     "links": {
-        "records/patrons/natalia/aur": {
-            "la": "Natalia (cum Aurelius)",
-            "en": "Natalie (with Aurelius)",
-            "pl": "Natalia (z Aureliuszem)"
+        "records/patrons/sabigothon/aur": {
+            "la": "Sabigothon Natalia (cum Aurelius)",
+            "en": "Sabigothon Natalie (with Aurelius)",
+            "pl": "Sabigotona Natalia (z Aureliuszem)"
         }
     }
 }

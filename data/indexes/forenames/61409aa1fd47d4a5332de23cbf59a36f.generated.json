@@ -35,11 +35,6 @@
             "la": "Ioannes Baptista",
             "pl": "Jan Chrzciciel"
         },
-        "records/patrons/ioannes/can": {
-            "pl": "Jan Kanty",
-            "en": "John Cantius",
-            "la": "Ioannes Cantius"
-        },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",
@@ -55,6 +50,11 @@
             "la": "Ioannes Evangelista",
             "en": "John the Evangelist",
             "pl": "Jan Ewangelista"
+        },
+        "records/patrons/ioannes/ket": {
+            "pl": "Jan Kanty",
+            "en": "John Cantius",
+            "la": "Ioannes Cantius"
         },
         "records/patrons/ioannes/p2p": {
             "pl": "Jan Paweł II",

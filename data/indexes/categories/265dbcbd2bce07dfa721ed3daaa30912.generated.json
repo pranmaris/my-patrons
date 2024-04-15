@@ -93,11 +93,6 @@
             "la": "Margarita Ward",
             "pl": "Małgorzata Ward"
         },
-        "records/patrons/natalia/aur": {
-            "la": "Natalia (cum Aurelius)",
-            "en": "Natalie (with Aurelius)",
-            "pl": "Natalia (z Aureliuszem)"
-        },
         "records/patrons/oswaldus/nor": {
             "en": "Oswald of Northumbria",
             "la": "Oswaldus rex Northumbriae",
@@ -113,6 +108,11 @@
             "la": "Petrus",
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
+        },
+        "records/patrons/sabigothon/aur": {
+            "la": "Sabigothon Natalia (cum Aurelius)",
+            "en": "Sabigothon Natalie (with Aurelius)",
+            "pl": "Sabigotona Natalia (z Aureliuszem)"
         },
         "records/patrons/saturninus/tol": {
             "la": "Saturninus Tolosanensis",

@@ -933,17 +933,6 @@
             }
         }
     },
-    "patrons/ioannes/can": {
-        "names": {
-            "pl": "Jan Kanty",
-            "en": "John Cantius",
-            "la": "Ioannes Cantius"
-        },
-        "died": [
-            "1473-12-24"
-        ],
-        "feasts": []
-    },
     "patrons/ioannes/chr": {
         "names": {
             "la": "Ioannes Chrysostomus",
@@ -1002,6 +991,17 @@
                 }
             }
         }
+    },
+    "patrons/ioannes/ket": {
+        "names": {
+            "pl": "Jan Kanty",
+            "en": "John Cantius",
+            "la": "Ioannes Cantius"
+        },
+        "died": [
+            "1473-12-24"
+        ],
+        "feasts": []
     },
     "patrons/ioannes/p2p": {
         "names": {
@@ -1390,24 +1390,6 @@
         "died": [],
         "feasts": []
     },
-    "patrons/natalia": {
-        "names": {
-            "la": "Natalia",
-            "en": "Natalie",
-            "pl": "Natalia"
-        }
-    },
-    "patrons/natalia/aur": {
-        "names": {
-            "la": "Natalia (cum Aurelius)",
-            "en": "Natalie (with Aurelius)",
-            "pl": "Natalia (z Aureliuszem)"
-        },
-        "died": [
-            "~852"
-        ],
-        "feasts": []
-    },
     "patrons/nicolaus": {
         "names": {
             "gr": "Νικόλαος",
@@ -1678,6 +1660,24 @@
         "died": [
             ">1101",
             "<1200"
+        ],
+        "feasts": []
+    },
+    "patrons/sabigothon": {
+        "names": {
+            "la": "Sabigothon",
+            "en": "Sabigothon",
+            "pl": "Sabigotona"
+        }
+    },
+    "patrons/sabigothon/aur": {
+        "names": {
+            "la": "Sabigothon Natalia (cum Aurelius)",
+            "en": "Sabigothon Natalie (with Aurelius)",
+            "pl": "Sabigotona Natalia (z Aureliuszem)"
+        },
+        "died": [
+            "~852"
         ],
         "feasts": []
     },

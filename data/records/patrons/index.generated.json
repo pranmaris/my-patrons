@@ -221,11 +221,6 @@
         "en": "Many",
         "pl": "Wiele"
     },
-    "natalia": {
-        "la": "Natalia",
-        "en": "Natalie",
-        "pl": "Natalia"
-    },
     "nicolaus": {
         "gr": "Νικόλαος",
         "en": "Nicholas",
@@ -288,6 +283,11 @@
         "en": "Rosalia",
         "la": "Rosalia",
         "pl": "Rozalia"
+    },
+    "sabigothon": {
+        "la": "Sabigothon",
+        "en": "Sabigothon",
+        "pl": "Sabigotona"
     },
     "sancia": {
         "pl": "Sancja",

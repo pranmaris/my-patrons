@@ -1,26 +1,26 @@
 {
   "names": {
     "la": [
-      "Natalia (cum Aurelius)"
+      "Sabigothon Natalia (cum Aurelius)"
     ],
     "en": [
-      "Natalie (with Aurelius)"
+      "Sabigothon Natalie (with Aurelius)"
     ],
     "pl": [
-      "Natalia (z Aureliuszem)"
+      "Sabigotona Natalia (z Aureliuszem)"
     ]
   },
 
   "forenames": [
     {
-      "la": "Natalia",
-      "en": "Natalie",
-      "pl": "Natalia"
-    },
-    {
       "la": "Sabigothon",
       "en": "Sabigothon",
       "pl": "Sabigotona"
+    },
+    {
+      "la": "Natalia",
+      "en": "Natalie",
+      "pl": "Natalia"
     }
   ],
 
