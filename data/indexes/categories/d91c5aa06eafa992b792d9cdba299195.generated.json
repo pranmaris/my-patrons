@@ -73,6 +73,11 @@
             "en": "Monica of Tagasta",
             "pl": "Monika z Tagasty"
         },
+        "records/patrons/natalia/aur": {
+            "la": "Natalia (cum Aurelius)",
+            "en": "Natalie (with Aurelius)",
+            "pl": "Natalia (z Aureliuszem)"
+        },
         "records/patrons/rita/cas": {
             "it": "Rita da Cascia",
             "en": "Rita of Cascia",

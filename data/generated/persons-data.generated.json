@@ -1378,6 +1378,24 @@
         "died": [],
         "feasts": []
     },
+    "patrons/natalia": {
+        "names": {
+            "la": "Natalia",
+            "en": "Natalie",
+            "pl": "Natalia"
+        }
+    },
+    "patrons/natalia/aur": {
+        "names": {
+            "la": "Natalia (cum Aurelius)",
+            "en": "Natalie (with Aurelius)",
+            "pl": "Natalia (z Aureliuszem)"
+        },
+        "died": [
+            "~852"
+        ],
+        "feasts": []
+    },
     "patrons/nicolaus": {
         "names": {
             "gr": "Νικόλαος",

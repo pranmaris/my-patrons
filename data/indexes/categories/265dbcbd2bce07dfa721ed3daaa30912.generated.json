@@ -93,6 +93,11 @@
             "la": "Margarita Ward",
             "pl": "Małgorzata Ward"
         },
+        "records/patrons/natalia/aur": {
+            "la": "Natalia (cum Aurelius)",
+            "en": "Natalie (with Aurelius)",
+            "pl": "Natalia (z Aureliuszem)"
+        },
         "records/patrons/oswaldus/nor": {
             "en": "Oswald of Northumbria",
             "la": "Oswaldus rex Northumbriae",

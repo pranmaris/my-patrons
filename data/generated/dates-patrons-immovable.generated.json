@@ -232,6 +232,18 @@
             }
         }
     },
+    "07-27": {
+        "records/patrons/natalia/aur": {
+            "name": {
+                "la": "Natalia (cum Aurelius)",
+                "en": "Natalie (with Aurelius)",
+                "pl": "Natalia (z Aureliuszem)"
+            },
+            "sources": {
+                "other-martyrology-days": "27 VII"
+            }
+        }
+    },
     "08-01": {
         "records/patrons/alphonsus/lig": {
             "name": {

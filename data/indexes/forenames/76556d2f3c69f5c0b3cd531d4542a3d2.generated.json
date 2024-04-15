@@ -1,24 +1,20 @@
 {
     "names": {
-        "pl": "małżonka"
+        "la": "Sabigothon",
+        "en": "Sabigothon"
     },
     "translations": {
         "la": [
-            "uxor"
+            "Sabigothon"
         ],
         "en": [
-            "wife"
+            "Sabigothon"
         ],
         "pl": [
-            "małżonka"
+            "Sabigotona"
         ]
     },
     "links": {
-        "records/patrons/daria/chr": {
-            "la": "Daria (cum Chrysanthus)",
-            "en": "Daria (with Chrysanthus)",
-            "pl": "Daria (z Chryzantem)"
-        },
         "records/patrons/natalia/aur": {
             "la": "Natalia (cum Aurelius)",
             "en": "Natalie (with Aurelius)",

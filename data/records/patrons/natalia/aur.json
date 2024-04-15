@@ -1,0 +1,32 @@
+{
+  "names": {
+    "la": [
+      "Natalia (cum Aurelius)"
+    ],
+    "en": [
+      "Natalie (with Aurelius)"
+    ],
+    "pl": [
+      "Natalia (z Aureliuszem)"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Natalia",
+      "en": "Natalie",
+      "pl": "Natalia"
+    },
+    {
+      "la": "Sabigothon",
+      "en": "Sabigothon",
+      "pl": "Sabigotona"
+    }
+  ],
+
+  "died": ["~852"],
+
+  "also-in-martyrology": ["07-27"],
+
+  "categories": ["femina", "martyrix", "uxor"]
+}

@@ -18,6 +18,11 @@
             "la": "Daria (cum Chrysanthus)",
             "en": "Daria (with Chrysanthus)",
             "pl": "Daria (z Chryzantem)"
+        },
+        "records/patrons/natalia/aur": {
+            "la": "Natalia (cum Aurelius)",
+            "en": "Natalie (with Aurelius)",
+            "pl": "Natalia (z Aureliuszem)"
         }
     }
 }
