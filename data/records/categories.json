@@ -436,6 +436,19 @@
         }
     },
 
+    "solitarius": {
+        "name": {
+            "la": "solitarius",
+            "en": "solitary",
+            "pl": "samotnik"
+        },
+        "color": "#000000",
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "solitaria": {
         "name": {
             "la": "solitaria",
@@ -601,19 +614,6 @@
             "la": "abbatissa",
             "en": "abbess",
             "pl": "ksieni"
-        },
-        "color": "#000000",
-        "description": {
-            "en": "description coming soon ...",
-            "pl": "opis pojawi się wkrótce ..."
-        }
-    },
-
-    "x-solitarius": {
-        "name": {
-            "la": "solitarius",
-            "en": "solitary",
-            "pl": "samotnik"
         },
         "color": "#000000",
         "description": {

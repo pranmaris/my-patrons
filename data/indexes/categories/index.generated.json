@@ -32,6 +32,9 @@
     "1067a19924602f0e33cb5b4ebaff02ed": {
         "pl": "papież"
     },
+    "14e9e923ee281b96d809085e23e3a816": {
+        "pl": "samotnik"
+    },
     "171b6ba14aeefeb08caf15065042a4c2": {
         "en": "monk"
     },
@@ -210,8 +213,14 @@
     "9c553d758d4fde12ba5cc72299df6bdd": {
         "pl": "kanonik"
     },
+    "9efb0042848e63b8c51a7380ffaed037": {
+        "la": "solitarius"
+    },
     "9f72ba8ec590a081a3f8e643c2491a6b": {
         "pl": "kapłan"
+    },
+    "a0ff43c21d3ba8e8cdbea422af35ff14": {
+        "en": "solitary"
     },
     "a17b4469efa78ebfd5c187df23280efd": {
         "pl": "książę"

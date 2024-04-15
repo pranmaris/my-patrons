@@ -1039,6 +1039,27 @@
         ],
         "feasts": []
     },
+    "patrons/leonardus": {
+        "names": {
+            "fr": "Léonard",
+            "en": "Leonard",
+            "la": "Leonardus",
+            "pl": "Leonard"
+        }
+    },
+    "patrons/leonardus/ere": {
+        "names": {
+            "fr": "Léonard de Noblat",
+            "en": "Leonard of Noblac",
+            "la": "Leonardus Lemovicensis",
+            "pl": "Leonard z Limoges"
+        },
+        "died": [
+            ">501",
+            "<600"
+        ],
+        "feasts": []
+    },
     "patrons/lucas": {
         "names": {
             "gr": "Λουκάς",

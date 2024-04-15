@@ -19,6 +19,12 @@
             "en": "Bruno of Cologne",
             "la": "Bruno Cartusiensis",
             "pl": "Bruno Kartuz"
+        },
+        "records/patrons/leonardus/ere": {
+            "fr": "Léonard de Noblat",
+            "en": "Leonard of Noblac",
+            "la": "Leonardus Lemovicensis",
+            "pl": "Leonard z Limoges"
         }
     }
 }

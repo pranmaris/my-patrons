@@ -1,0 +1,37 @@
+{
+  "names": {
+    "fr": [
+      "Léonard de Noblat",
+      "Léonard de Limoges",
+      "Léonard le Noblet",
+      "Léonard de Noblac"
+    ],
+    "en": [
+      "Leonard of Noblac",
+      "Leonard of Noblat",
+      "Leonard of Limoges"
+    ],
+    "la": [
+      "Leonardus Lemovicensis"
+    ],
+    "pl": [
+      "Leonard z Limoges",
+      "Leonard z Noblac"
+    ]
+  },
+
+  "forenames": [
+    {
+      "fr": "Léonard",
+      "en": "Leonard",
+      "la": "Leonardus",
+      "pl": "Leonard"
+    }
+  ],
+
+  "died": [">501", "<600"],
+
+  "also-in-martyrology": ["11-06"],
+
+  "categories": ["vir", "confessor", "eremita", "solitarius"]
+}

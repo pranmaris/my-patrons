@@ -100,6 +100,12 @@
             "la": "Iosephus",
             "pl": "Józef z Nazaretu"
         },
+        "records/patrons/leonardus/ere": {
+            "fr": "Léonard de Noblat",
+            "en": "Leonard of Noblac",
+            "la": "Leonardus Lemovicensis",
+            "pl": "Leonard z Limoges"
+        },
         "records/patrons/lucas/eva": {
             "gr": "Ευαγγελιστής Λουκάς",
             "en": "Luke the Evangelist",

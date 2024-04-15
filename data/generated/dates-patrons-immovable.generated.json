@@ -932,6 +932,19 @@
             }
         }
     },
+    "11-06": {
+        "records/patrons/leonardus/ere": {
+            "name": {
+                "fr": "Léonard de Noblat",
+                "en": "Leonard of Noblac",
+                "la": "Leonardus Lemovicensis",
+                "pl": "Leonard z Limoges"
+            },
+            "sources": {
+                "other-martyrology-days": "6 XI"
+            }
+        }
+    },
     "11-08": {
         "records/patrons/deusdedit/1pp": {
             "name": {

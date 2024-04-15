@@ -1,26 +1,22 @@
 {
     "names": {
-        "la": "eremita",
-        "pl": "eremita"
+        "fr": "Léonard"
     },
     "translations": {
-        "la": [
-            "eremita"
+        "fr": [
+            "Léonard"
         ],
         "en": [
-            "hermit"
+            "Leonard"
+        ],
+        "la": [
+            "Leonardus"
         ],
         "pl": [
-            "eremita"
+            "Leonard"
         ]
     },
     "links": {
-        "records/patrons/bruno/ere": {
-            "de": "Bruno von Köln",
-            "en": "Bruno of Cologne",
-            "la": "Bruno Cartusiensis",
-            "pl": "Bruno Kartuz"
-        },
         "records/patrons/leonardus/ere": {
             "fr": "Léonard de Noblat",
             "en": "Leonard of Noblac",
