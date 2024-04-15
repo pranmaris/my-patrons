@@ -14,6 +14,11 @@
         ]
     },
     "links": {
+        "records/patrons/anastasia/sir": {
+            "la": "Anastasia Sirmiensis",
+            "en": "Anastasia of Sirmium",
+            "pl": "Anastazja z Dalmacji"
+        },
         "records/patrons/daria/chr": {
             "la": "Daria (cum Chrysanthus)",
             "en": "Daria (with Chrysanthus)",
