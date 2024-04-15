@@ -874,6 +874,18 @@
             }
         }
     },
+    "10-20": {
+        "records/patrons/ioannes/can": {
+            "name": {
+                "pl": "Jan Kanty",
+                "en": "John Cantius",
+                "la": "Ioannes Cantius"
+            },
+            "sources": {
+                "other-martyrology-days": "20 X"
+            }
+        }
+    },
     "11-08": {
         "records/patrons/deusdedit/1pp": {
             "name": {
@@ -1027,7 +1039,30 @@
             }
         }
     },
+    "12-23": {
+        "records/patrons/ioannes/can": {
+            "name": {
+                "pl": "Jan Kanty",
+                "en": "John Cantius",
+                "la": "Ioannes Cantius"
+            },
+            "sources": {
+                "other-martyrology-days": "23 XII"
+            }
+        }
+    },
     "12-24": {
+        "records/patrons/ioannes/can": {
+            "name": {
+                "pl": "Jan Kanty",
+                "en": "John Cantius",
+                "la": "Ioannes Cantius"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 XII",
+                "other-martyrology-days": "24 XII"
+            }
+        },
         "records/patrons/sarbelius/mak": {
             "name": {
                 "ar": "شربل مخلوف",

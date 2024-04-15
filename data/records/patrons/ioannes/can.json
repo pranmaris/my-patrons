@@ -1,0 +1,40 @@
+{
+  "names": {
+    "pl": [
+      "Jan Kanty",
+      "Jan z Kęt",
+      "Jan Wacięga"
+    ],
+    "en": [
+      "John Cantius"
+    ],
+    "la": [
+      "Ioannes Cantius",
+      "Ioannes de Kęty"
+    ]
+  },
+
+  "forenames": [
+    {
+      "pl": "Jan",
+      "en": "John",
+      "la": "Ioannes"
+    }
+  ],
+
+  "born": ["1390-06-24"],
+  "died": ["1473-12-24"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1676-03-28"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1767-07-16"
+  },
+
+  "also-in-martyrology": ["10-20", "12-23", "12-24"],
+
+  "categories": ["vir", "confessor", "presbyter"]
+}

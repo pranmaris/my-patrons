@@ -865,6 +865,17 @@
             }
         }
     },
+    "patrons/ioannes/can": {
+        "names": {
+            "pl": "Jan Kanty",
+            "en": "John Cantius",
+            "la": "Ioannes Cantius"
+        },
+        "died": [
+            "1473-12-24"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/chr": {
         "names": {
             "la": "Ioannes Chrysostomus",
