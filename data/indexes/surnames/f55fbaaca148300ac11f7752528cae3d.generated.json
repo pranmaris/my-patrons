@@ -1,13 +1,21 @@
 {
     "names": {
-        "la": "Kim"
+        "la": "Kim",
+        "en": "Kim",
+        "pl": "Kim"
     },
     "translations": {
+        "ko": [
+            "김"
+        ],
         "la": [
             "Kim"
         ],
-        "ko": [
-            "김"
+        "en": [
+            "Kim"
+        ],
+        "pl": [
+            "Kim"
         ]
     },
     "links": {

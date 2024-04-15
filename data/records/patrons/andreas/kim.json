@@ -16,22 +16,24 @@
 
   "forenames": [
     {
-      "la": "Andreas",
       "ko": "안드레아",
+      "la": "Andreas",
       "en": "Andrew",
       "pl": "Andrzej"
     },
     {
-      "la": "Taegon",
       "ko": "대건",
+      "la": "Taegon",
       "en": "Taegon",
       "pl": "Tae-gŏn"
     }
   ],
   "surnames": [
     {
+      "ko": "김",
       "la": "Kim",
-      "ko": "김"
+      "en": "Kim",
+      "pl": "Kim"
     }
   ],
 

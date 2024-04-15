@@ -3,11 +3,17 @@
         "ko": "김"
     },
     "translations": {
+        "ko": [
+            "김"
+        ],
         "la": [
             "Kim"
         ],
-        "ko": [
-            "김"
+        "en": [
+            "Kim"
+        ],
+        "pl": [
+            "Kim"
         ]
     },
     "links": {
