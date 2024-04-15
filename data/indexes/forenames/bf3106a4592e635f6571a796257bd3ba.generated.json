@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Anastazja"
+    },
+    "translations": {
+        "la": [
+            "Anastasia"
+        ],
+        "en": [
+            "Anastasia"
+        ],
+        "pl": [
+            "Anastazja"
+        ]
+    },
+    "links": {
+        "records/patrons/anastasia/sir": {
+            "la": "Anastasia Sirmiensis",
+            "en": "Anastasia of Sirmium",
+            "pl": "Anastazja z Dalmacji"
+        }
+    }
+}

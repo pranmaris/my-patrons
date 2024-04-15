@@ -380,6 +380,24 @@
         ],
         "feasts": []
     },
+    "patrons/anastasia": {
+        "names": {
+            "la": "Anastasia",
+            "en": "Anastasia",
+            "pl": "Anastazja"
+        }
+    },
+    "patrons/anastasia/sir": {
+        "names": {
+            "la": "Anastasia Sirmiensis",
+            "en": "Anastasia of Sirmium",
+            "pl": "Anastazja z Dalmacji"
+        },
+        "died": [
+            "~300"
+        ],
+        "feasts": []
+    },
     "patrons/andreas": {
         "names": {
             "grc": "Ανδρέας",

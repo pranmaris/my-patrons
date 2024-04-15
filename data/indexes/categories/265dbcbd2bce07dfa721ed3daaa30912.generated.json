@@ -23,6 +23,11 @@
             "la": "Adalbertus Pragensis",
             "pl": "Wojciech Sławnikowic"
         },
+        "records/patrons/anastasia/sir": {
+            "la": "Anastasia Sirmiensis",
+            "en": "Anastasia of Sirmium",
+            "pl": "Anastazja z Dalmacji"
+        },
         "records/patrons/andreas/apo": {
             "grc": "Ανδρέας",
             "en": "Andrew the Apostle",

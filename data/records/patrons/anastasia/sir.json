@@ -1,0 +1,30 @@
+{
+  "names": {
+    "la": [
+      "Anastasia Sirmiensis",
+      "Anastasia Illyrica",
+      "Anastasia Romana"
+    ],
+    "en": [
+      "Anastasia of Sirmium"
+    ],
+    "pl": [
+      "Anastazja z Dalmacji",
+      "Anastazja z Sirmium"
+    ]
+  },
+
+  "forenames": [
+    {
+      "la": "Anastasia",
+      "en": "Anastasia",
+      "pl": "Anastazja"
+    }
+  ],
+
+  "died": ["~300"],
+
+  "also-in-martyrology": ["12-25"],
+
+  "categories": ["femina", "martyrix"]
+}
