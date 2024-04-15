@@ -188,6 +188,12 @@
             "en": "Lawrence of Rome",
             "pl": "Wawrzyniec z Rzymu"
         },
+        "records/patrons/lucas/eva": {
+            "gr": "Ευαγγελιστής Λουκάς",
+            "en": "Luke the Evangelist",
+            "la": "Lucas Evangelista",
+            "pl": "Łukasz Ewangelista"
+        },
         "records/patrons/magnus/abb": {
             "de": "Magnus von Füssen",
             "la": "Magnus",

@@ -1,24 +1,22 @@
 {
     "names": {
-        "en": "evangelist"
+        "en": "Luke"
     },
     "translations": {
-        "la": [
-            "evangelista"
+        "gr": [
+            "Λουκάς"
         ],
         "en": [
-            "evangelist"
+            "Luke"
+        ],
+        "la": [
+            "Lucas"
         ],
         "pl": [
-            "ewangelista"
+            "Łukasz"
         ]
     },
     "links": {
-        "records/patrons/ioannes/eva": {
-            "la": "Ioannes Evangelista",
-            "en": "John the Evangelist",
-            "pl": "Jan Ewangelista"
-        },
         "records/patrons/lucas/eva": {
             "gr": "Ευαγγελιστής Λουκάς",
             "en": "Luke the Evangelist",

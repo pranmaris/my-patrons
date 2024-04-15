@@ -1,0 +1,32 @@
+{
+  "names": {
+    "gr": [
+      "Ευαγγελιστής Λουκάς"
+    ],
+    "en": [
+      "Luke the Evangelist"
+    ],
+    "la": [
+      "Lucas Evangelista"
+    ],
+    "pl": [
+      "Łukasz Ewangelista"
+    ]
+  },
+
+  "forenames": [
+    {
+      "gr": "Λουκάς",
+      "en": "Luke",
+      "la": "Lucas",
+      "pl": "Łukasz"
+    }
+  ],
+
+  "born": [">1", "<16"],
+  "died": [">80", "<100"],
+
+  "also-in-martyrology": ["10-18"],
+
+  "categories": ["vir", "evangelista", "confessor"]
+}

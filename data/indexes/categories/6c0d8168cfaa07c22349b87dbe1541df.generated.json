@@ -94,6 +94,12 @@
             "la": "Iosephus",
             "pl": "Józef z Nazaretu"
         },
+        "records/patrons/lucas/eva": {
+            "gr": "Ευαγγελιστής Λουκάς",
+            "en": "Luke the Evangelist",
+            "la": "Lucas Evangelista",
+            "pl": "Łukasz Ewangelista"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",

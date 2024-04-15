@@ -861,6 +861,17 @@
             "sources": {
                 "reliable-death-anniversary": "18 X"
             }
+        },
+        "records/patrons/lucas/eva": {
+            "name": {
+                "gr": "Ευαγγελιστής Λουκάς",
+                "en": "Luke the Evangelist",
+                "la": "Lucas Evangelista",
+                "pl": "Łukasz Ewangelista"
+            },
+            "sources": {
+                "other-martyrology-days": "18 X"
+            }
         }
     },
     "11-08": {

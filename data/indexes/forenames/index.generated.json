@@ -426,6 +426,9 @@
     "afbae8ee4d8e201b142767844c48f360": {
         "la": "Stephanus"
     },
+    "b21dfb148d20b1febdd8d86417f925c1": {
+        "en": "Luke"
+    },
     "b322f79ef26d512c24dc3ea75a32e66e": {
         "pl": "Benedykta"
     },
@@ -459,11 +462,17 @@
         "en": "Saturnin",
         "pl": "Saturnin"
     },
+    "c3d41bf5efb468a1bcce53bd53726c85": {
+        "la": "Lucas"
+    },
     "c686bdaebf942111778ead2eebe46c50": {
         "la": "Dominic"
     },
     "ca7976f952d10e93d0a3aa9dd38e8cb5": {
         "pl": "Dawid"
+    },
+    "caa5667fdb305a11ec785312e26f7cdd": {
+        "pl": "Łukasz"
     },
     "cac58b5234e1f98b4c956998b8ac2e26": {
         "la": "Andreas"
@@ -573,6 +582,9 @@
     },
     "f6ebeddf69768d741ff3f057448bedf1": {
         "pl": "Monika"
+    },
+    "f75ad75dca6d3ee13db8a730ad0c2975": {
+        "gr": "Λουκάς"
     },
     "f859b43c70473cd91ce8f0a20b19ad8c": {
         "pl": "Wincenty"
