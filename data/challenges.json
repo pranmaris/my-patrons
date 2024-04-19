@@ -1656,6 +1656,19 @@
           }
         }
       },
+      "satisfaction": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "dokonaj zadośćuczynienia Bogu i bliźniemu"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/dokonaj-zadoscuczynienia-po-spowiedzi"
+          }
+        }
+      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": false,
