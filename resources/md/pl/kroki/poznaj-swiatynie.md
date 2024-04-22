@@ -1,4 +1,5 @@
-Jeśli będzie to możliwe, **przeczytaj jakąkolwiek notkę** o odwiedzonej świątyni, opisującą jej historię, ciekawostki oraz zawarte w niej kaplice, relikwie i inne cenne przedmioty.
+Jeśli będzie to możliwe, **przeczytaj jakąkolwiek notkę** o odwiedzonej świątyni, opisującą jej historię, ciekawostki oraz zawarte w niej kaplice, relikwie i inne cenne przedmioty. Jeśli po uczciwych poszukiwaniach nadal nie znajdziesz żadnych informacji, także możesz **oznaczyć ten krok jako wykonany**.
+
 
 ---
 Przypisy:
