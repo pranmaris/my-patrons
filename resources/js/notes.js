@@ -936,80 +936,89 @@ async function fillChallenges(challenges) {
 
   const content = await getFileContent(CHALLENGE_ITEM_TEMPLATE_FILE_PATH);
 
+  let allRowsData = [];
   let numbers = {};
   let counter = 0;
+  let innerHtmlToSet = '';
   for (let challenge of challenges) {
     counter++;
 
-    let rowId = counter;
-    let date = challenge.date ?? '';
-    let personUrl = (challenge.person ?? '');
-    let addition = challenge.addition ?? '';
-    let additionUrl = addition.length > 0 ? addition : '';
-    let type = challenge.type ?? '';
-    let number = '';
-    let notes = challenge.notes ?? [];
+    let rowData = {};
+    rowData.rowId = counter;
+    rowData.date = challenge.date ?? '';
+    rowData.personUrl = (challenge.person ?? '');
+    rowData.addition = challenge.addition ?? '';
+    rowData.additionUrl = rowData.addition.length > 0 ? rowData.addition : '';
+    rowData.type = challenge.type ?? '';
+    rowData.number = '';
+    rowData.notes = challenge.notes ?? [];
 
-    const config = challengesConfig[type] ?? {};
+    const config = challengesConfig[rowData.type] ?? {};
     const additionType = config[CONFIG_FIELD_ADDITION_TYPE] ?? '';
     if (config.numbers ?? false) {
-      if (numbers[type] == undefined) {
-        numbers[type] = {};
+      if (numbers[rowData.type] == undefined) {
+        numbers[rowData.type] = {};
       }
-      numbers[type][personUrl] = (numbers[type][personUrl] ?? 0) + 1;
-      number = numbers[type][personUrl];
+      numbers[rowData.type][rowData.personUrl] = (numbers[rowData.type][rowData.personUrl] ?? 0) + 1;
+      rowData.number = numbers[rowData.type][rowData.personUrl];
 
-      const challengeStatus = getChallengeSuccessStatus(rowId);
+      const challengeStatus = getChallengeSuccessStatus(rowData.rowId);
       if (challengeStatus === CHALLENGE_SUCCESS_STATUS_ABORTED) {
-        numbers[type][personUrl]--;
+        numbers[rowData.type][rowData.personUrl]--;
       }
     }
     const typeName = getLanguageVariable('name', true, config.name ?? {});
 
-    list.innerHTML += content
-      .replace(/#row-id#/g, rowId)
-      .replace(/#date#/g, getDateFormat(date))
+    innerHtmlToSet += content
+      .replace(/#row-id#/g, rowData.rowId)
+      .replace(/#date#/g, getDateFormat(rowData.date))
       .replace(/#type-name#/g, typeName)
-      .replace(/#type#/g, type)
-      .replace(/#number#/g, number)
-      .replace(/#person-url#/g, personUrl)
-      .replace(/#person#/g, getPersonDataName(personUrl))
-      .replace(/#addition-url#/g, additionUrl.length > 0 ? additionUrl : '')
-      .replace(/#addition#/g, additionUrl.length > 0 ? getPersonDataAdditionName(personUrl, additionType, additionUrl) : '')
+      .replace(/#type#/g, rowData.type)
+      .replace(/#number#/g, rowData.number)
+      .replace(/#person-url#/g, rowData.personUrl)
+      .replace(/#person#/g, getPersonDataName(rowData.personUrl))
+      .replace(/#addition-url#/g, rowData.additionUrl.length > 0 ? rowData.additionUrl : '')
+      .replace(/#addition#/g, rowData.additionUrl.length > 0 ? getPersonDataAdditionName(rowData.personUrl, additionType, rowData.additionUrl) : '')
     ;
 
-    const personUrlElement = document.getElementById(PERSON_URL_ELEMENT_ID_PREFIX + rowId);
-    const additionUrlElement = document.getElementById(ADDITION_URL_ELEMENT_ID_PREFIX + rowId);
-    const moveChallengeUpButton = document.getElementById(MOVE_CHALLENGE_UP_BUTTON_ELEMENT_ID_PREFIX + rowId);
-    const moveChallengeDownButton = document.getElementById(MOVE_CHALLENGE_DOWN_BUTTON_ELEMENT_ID_PREFIX + rowId);
+    allRowsData.push(rowData);
+  }
 
-    if (date !== (challenges[rowId - 2] ?? {}).date ?? '') {
+  list.innerHTML = innerHtmlToSet;
+
+  for (let rowData of allRowsData) {
+    const personUrlElement = document.getElementById(PERSON_URL_ELEMENT_ID_PREFIX + rowData.rowId);
+    const additionUrlElement = document.getElementById(ADDITION_URL_ELEMENT_ID_PREFIX + rowData.rowId);
+    const moveChallengeUpButton = document.getElementById(MOVE_CHALLENGE_UP_BUTTON_ELEMENT_ID_PREFIX + rowData.rowId);
+    const moveChallengeDownButton = document.getElementById(MOVE_CHALLENGE_DOWN_BUTTON_ELEMENT_ID_PREFIX + rowData.rowId);
+
+    if (rowData.date !== (challenges[rowData.rowId - 2] ?? {}).date ?? '') {
       moveChallengeUpButton.style = INVISIBLE_STYLE;
     }
-    if (date !== (challenges[rowId] ?? {}).date ?? '') {
+    if (rowData.date !== (challenges[rowData.rowId] ?? {}).date ?? '') {
       moveChallengeDownButton.style = INVISIBLE_STYLE;
     }
 
-    drawProgressBarValue(rowId);
+    drawProgressBarValue(rowData.rowId);
 
-    if (inArray(personUrl, REMOVE_PERSON_URL_LINK_HREFS)) {
+    if (inArray(rowData.personUrl, REMOVE_PERSON_URL_LINK_HREFS)) {
       personUrlElement.removeAttribute('href');
     }
-    if (additionUrl == '') {
+    if (rowData.additionUrl == '') {
       additionUrlElement.removeAttribute('href');
     }
 
-    const successStatusIconTodo = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_TODO_ELEMENT_ID_PREFIX + rowId);
-    const successStatusIconAborted = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_ABORTED_ELEMENT_ID_PREFIX + rowId);
-    const successStatusIconWaiting = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX + rowId);
-    const successStatusIconDone = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX + rowId);
+    const successStatusIconTodo = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_TODO_ELEMENT_ID_PREFIX + rowData.rowId);
+    const successStatusIconAborted = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_ABORTED_ELEMENT_ID_PREFIX + rowData.rowId);
+    const successStatusIconWaiting = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX + rowData.rowId);
+    const successStatusIconDone = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX + rowData.rowId);
 
     successStatusIconTodo.style = INVISIBLE_STYLE;
     successStatusIconAborted.style = INVISIBLE_STYLE;
     successStatusIconWaiting.style = INVISIBLE_STYLE;
     successStatusIconDone.style = INVISIBLE_STYLE;
 
-    switch (getChallengeSuccessStatus(rowId)) {
+    switch (getChallengeSuccessStatus(rowData.rowId)) {
       case CHALLENGE_SUCCESS_STATUS_DONE:
         successStatusIconDone.style = VISIBLE_STYLE;
         break;
