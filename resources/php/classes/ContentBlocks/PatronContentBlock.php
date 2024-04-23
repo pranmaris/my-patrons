@@ -12,11 +12,10 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
         self::NAMES_INDEX,
     ];
 
-    private const FEASTS_ROOT_PATH = 'records/feasts';
+    private const RECORDS_ROOT_PATH = 'records';
 
     private $dataLinksContentBlock;
     private $galleryContentBlock;
-    private $categoriesContentBlock;
     private $indexedNamesListContentBlock;
 
     private $path;
@@ -27,7 +26,6 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
     {
         $this->dataLinksContentBlock = new DataLinksContentBlock();
         $this->galleryContentBlock = new GalleryContentBlock();
-        $this->categoriesContentBlock = new CategoriesContentBlock();
         $this->indexedNamesListContentBlock = new IndexedNamesListContentBlock();
 
         parent::__construct();
@@ -65,7 +63,7 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
         $variables['other-memorial-days'] = $this->getFormattedMonthsWithDays($mainFileData[self::PATRON_MENTIONED_INDEX] ?? []);
         $variables['order'] = empty($mainFileData['order'] ?? []) ? self::NON_EXISTENCE : $mainFileData['order'];
         $variables['order-founder'] = empty($mainFileData['order-founder'] ?? []) ? self::NON_EXISTENCE : $mainFileData['order-founder'];
-        $variables['categories'] = $this->getCategoriesList($mainFileData['categories'] ?? []);
+        $variables['categories'] = $this->getRecordTypeElementsList($mainFileData['categories'] ?? [], 'categories');
         $variables['forenames'] = $this->getIndexedNamesList('forenames');
         $variables['surnames'] = $this->getIndexedNamesList('surnames');
         $variables['epithets'] = $this->getIndexedNamesList('epithets');
@@ -111,7 +109,7 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
         }
 
         foreach ($data[self::FEASTS_INDEX] ?? [] as $recordId => $recordData) {
-            $feastFileData = $this->getFeastFileData($recordId);
+            $feastFileData = $this->getSubFileData('feasts', $recordId);
 
             foreach ($feastFileData as $key => $values) {
                 if (in_array($key, self::FEASTS_TRANSLATED_INDEXES)) {
@@ -156,11 +154,11 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
         return 'record-' . $recordId . '-' . $key;
     }
 
-    private function getFeastFileData(string $recordId): array
+    private function getSubFileData(string $recordType, string $recordId): array
     {
-        $feastFilePath = self::FEASTS_ROOT_PATH . '/' . $this->getDataFileSuffix($recordId);
+        $filePath = self::RECORDS_ROOT_PATH . '/' . $recordType . '/' . $this->getDataFileSuffix($recordId);
 
-        return $this->getOriginalJsonFileContentArray($feastFilePath);
+        return $this->getOriginalJsonFileContentArray($filePath);
     }
 
     private function getGalleryContent(): string
@@ -172,13 +170,36 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
         ;
     }
 
-    private function getCategoriesList(array $categories): array
+    private function getRecordTypeElementsList(array $elementsIds, string $elementsType): array
     {
-        return $this
-            ->categoriesContentBlock
-            ->prepare()
-            ->getListContent($categories)
-        ;
+        $result = [];
+
+        $itemContent = $this->getOriginalHtmlFileContent('items/record-type-elements-list-item.html');
+
+        foreach ($elementsIds as $elementId) {
+            $namesIndex = self::NAMES_INDEX;
+            $elementFilePath = "$elementsType/$elementId";
+
+            $data = $this->getSubFileData($elementsType, $elementId);
+
+            $translations = [$namesIndex => ($data[$namesIndex] ?? [])];
+            $language = $this->getLanguage();
+            $textVariables = $this->getTranslatedVariablesForLangData($language, $translations);
+
+            $variableName = self::VARIABLE_NAME_SIGN . $namesIndex . self::VARIABLE_NAME_SIGN;
+            $translatedName = $this->getReplacedContent($variableName, $textVariables, true);
+            $nameHash = $this->getNameHash($this->stripTags($translatedName));
+
+            $variables = [];
+            $variables['element-href'] = self::INDEXES_ROOT_PATH . '/' . $elementsType . '/' . $nameHash;
+            $variables['element-name'] = $translatedName;
+
+            $content = $this->getReplacedContent($itemContent, $variables);
+
+            $result[] = $content;
+        }
+
+        return $result;
     }
 
     private function getIndexedNamesList(string $field): string

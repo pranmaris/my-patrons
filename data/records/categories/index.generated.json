@@ -1,0 +1,212 @@
+{
+    "abbas": {
+        "la": "abbas",
+        "en": "abbot",
+        "pl": "opat"
+    },
+    "alius-apostolus": {
+        "la": "alius apostolus",
+        "en": "other apostle",
+        "pl": "inny apostoł"
+    },
+    "angelus": {
+        "la": "angelus",
+        "en": "angel",
+        "pl": "anioł"
+    },
+    "apostolus": {
+        "la": "apostolus",
+        "en": "apostle",
+        "pl": "apostoł"
+    },
+    "archangelus": {
+        "la": "archangelus",
+        "en": "archangel",
+        "pl": "archanioł"
+    },
+    "archidiaconus": {
+        "la": "archdiaconus",
+        "en": "archideacon",
+        "pl": "archidiakon"
+    },
+    "canonicus": {
+        "la": "canonicus",
+        "en": "canon",
+        "pl": "kanonik"
+    },
+    "catechista": {
+        "la": "catechista",
+        "en": "catechist",
+        "pl": "katechista"
+    },
+    "conditor-ordo": {
+        "la": "conditor ordo",
+        "en": "founder of the order",
+        "pl": "założyciel zakonu"
+    },
+    "confessor": {
+        "la": "confessor",
+        "en": "confessor",
+        "pl": "wyznawca"
+    },
+    "deus": {
+        "la": "Deus",
+        "en": "God",
+        "pl": "Bóg"
+    },
+    "diaconus": {
+        "la": "diaconus",
+        "en": "deacon",
+        "pl": "diakon"
+    },
+    "doctor-ecclesiae": {
+        "la": "doctor Ecclesiae",
+        "en": "doctor of the Church",
+        "pl": "doktor Kościoła"
+    },
+    "ducissa": {
+        "la": "ducissa",
+        "en": "duchess",
+        "pl": "księżna"
+    },
+    "episcopus": {
+        "la": "episcopus",
+        "en": "bishop",
+        "pl": "biskup"
+    },
+    "eremita": {
+        "la": "eremita",
+        "en": "hermit",
+        "pl": "eremita"
+    },
+    "evangelista": {
+        "la": "evangelista",
+        "en": "evangelist",
+        "pl": "ewangelista"
+    },
+    "femina": {
+        "la": "femina",
+        "en": "female",
+        "pl": "kobieta"
+    },
+    "levita": {
+        "la": "levita",
+        "en": "levi",
+        "pl": "lewita"
+    },
+    "maritus": {
+        "la": "maritus",
+        "en": "husband",
+        "pl": "małżonek"
+    },
+    "martyr": {
+        "la": "martyr",
+        "en": "martyr",
+        "pl": "męczennik"
+    },
+    "martyrix": {
+        "la": "martyr",
+        "en": "martyress",
+        "pl": "męczennica"
+    },
+    "mater-dei": {
+        "la": "Mater Dei",
+        "en": "Mother of God",
+        "pl": "Matka Boża"
+    },
+    "monachus": {
+        "la": "monachus",
+        "en": "monk",
+        "pl": "mnich"
+    },
+    "monialis": {
+        "la": "monialis",
+        "en": "nun",
+        "pl": "mniszka"
+    },
+    "papa": {
+        "la": "papa",
+        "en": "pope",
+        "pl": "papież"
+    },
+    "presbyter": {
+        "la": "prezbyter",
+        "en": "presbyter",
+        "pl": "prezbiter"
+    },
+    "princeps": {
+        "la": "princeps",
+        "en": "prince",
+        "pl": "książę"
+    },
+    "propheta": {
+        "la": "propheta",
+        "en": "prophet",
+        "pl": "prorok"
+    },
+    "regina": {
+        "la": "regina",
+        "en": "queen",
+        "pl": "królowa"
+    },
+    "religiosa": {
+        "la": "religiosa",
+        "en": "religious",
+        "pl": "zakonnica"
+    },
+    "religiosus": {
+        "la": "religiosus",
+        "en": "religious",
+        "pl": "zakonnik"
+    },
+    "rex": {
+        "la": "rex",
+        "en": "king",
+        "pl": "król"
+    },
+    "sacerdos": {
+        "la": "sacerdos",
+        "en": "priest",
+        "pl": "kapłan"
+    },
+    "socia": {
+        "la": "socia",
+        "en": "group",
+        "pl": "grupa"
+    },
+    "solitaria": {
+        "la": "solitaria",
+        "en": "solitaress",
+        "pl": "samotnica"
+    },
+    "solitarius": {
+        "la": "solitarius",
+        "en": "solitary",
+        "pl": "samotnik"
+    },
+    "tertiaria": {
+        "la": "tertiaria",
+        "en": "tertiary",
+        "pl": "tercjarka"
+    },
+    "uxor": {
+        "la": "uxor",
+        "en": "wife",
+        "pl": "małżonka"
+    },
+    "vidua": {
+        "la": "vidua",
+        "en": "widow",
+        "pl": "wdowa"
+    },
+    "vir": {
+        "la": "vir",
+        "en": "male",
+        "pl": "mężczyzna"
+    },
+    "virgo": {
+        "la": "virgo",
+        "en": "virgin",
+        "pl": "dziewica"
+    }
+}

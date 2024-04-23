@@ -15,6 +15,7 @@ abstract class Base
     protected const PATRON_GENERALLY_IN_MARTYROLOGY_INDEX = 'also-in-martyrology';
     protected const PATRON_MENTIONED_INDEX = 'also-mentioned';
     protected const PATRON_FEASTS_PATH = self::PATRON_FEASTS_INDEX . '/';
+    protected const INDEXES_ROOT_PATH = '/indexes';
 
     protected const LEAP_YEARS_ONLY_SEPARATOR = 'b';
     protected const NO_LEAP_YEARS_ONLY_SEPARATOR = 'n';

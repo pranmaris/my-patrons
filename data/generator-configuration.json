@@ -16,6 +16,10 @@
         "class": "GenerateIndexFileForAllSubDirectoriesDataFilesProcedure",
         "params": ["/records/feasts", "names"]
     },
+    {
+        "class": "GenerateIndexFileForAllSubDirectoriesDataFilesProcedure",
+        "params": ["/records/categories", "names"]
+    },
 
     {
         "class": "GenerateDataLinkFilesProcedure",

@@ -7,15 +7,11 @@ class GenerateGroupedDataIndexFilesProcedure extends Procedure
     private const FIELD_LINKS = 'links';
     private const FIELD_LANGUAGES = 'languages';
 
-    private const DATA_CONVERSION_METHODS = ['categories' => 'getConvertedCategoriesData'];
+    private const RECORDS_ROOT_PATH = '/records';
 
-    private const CATEGORIES_DATA_FILE_PATH = '/records/categories.json';
-    private const CATEGORIES_NAME_KEYS = [
-      'female' => 'female-equivalent-name',
-      'default' => 'name',
-    ];
+    private const DATA_CONVERSION_METHODS = ['categories' => 'getConvertedRecordTypeData'];
 
-    private $categoriesData = [];
+    private $recordsData = [];
 
     public function run(string $dataPath, string $dataField, string $namesField, string $destinationPath): void
     {
@@ -46,7 +42,7 @@ class GenerateGroupedDataIndexFilesProcedure extends Procedure
 
             $dataConversionMethod = self::DATA_CONVERSION_METHODS[$dataField] ?? null;
             if (!is_null($dataConversionMethod)) {
-                $fieldData = $this->$dataConversionMethod($fieldData, $fullSourceFilePath);
+                $fieldData = $this->$dataConversionMethod($dataField, $fieldData, $fullSourceFilePath);
             }
 
             foreach ($fieldData as $row) {
@@ -64,38 +60,28 @@ class GenerateGroupedDataIndexFilesProcedure extends Procedure
         }
     }
 
-    private function getCategoriesDataWithCache(): array
+    private function getRecordDataWithCache($recordType, $recordId): array
     {
-        if (empty($this->categoriesData)) {
-            $this->categoriesData = $this->getOriginalJsonFileContentArray(self::CATEGORIES_DATA_FILE_PATH);
+        if (!isset($this->recordsData[$recordType][$recordId])) {
+            $filePath = $this->getDataFileSuffix(self::RECORDS_ROOT_PATH . "/$recordType/$recordId");
+            $this->recordsData[$recordType][$recordId] = $this->getOriginalJsonFileContentArray($filePath);
         }
 
-        return $this->categoriesData;
+        return $this->recordsData[$recordType][$recordId] ?? [];
     }
 
-    private function getConvertedCategoriesData(array $data, string $sourceFilePath): array
+    private function getConvertedRecordTypeData(string $recordType, array $data, string $sourceFilePath): array
     {
         $result = [];
 
-        $categoriesData = $this->getCategoriesDataWithCache();
-        foreach ($data as $category) {
-            $categoryData = $categoriesData[$category] ?? null;
-            if (is_null($categoryData)) {
-                $this->error("Unknown category '$category' for path '$sourceFilePath'");
+        foreach ($data as $recordId) {
+            $recordData = $this->getRecordDataWithCache($recordType, $recordId);
+
+            if (empty($recordData)) {
+                $this->error("Unknown '$recordType' record ID '$recordId' for '$sourceFilePath'");
             }
 
-            $added = false;
-            foreach (self::CATEGORIES_NAME_KEYS as $categoryToFind => $nameKey) {
-                if (in_array($categoryToFind, $data) && isset($categoryData[$nameKey])) {
-                    $result[] = $categoryData[$nameKey];
-                    $added = true;
-                    break;
-                }
-            }
-
-            if (!$added) {
-                $result[] = $categoryData[$nameKey];
-            }
+            $result[] = $recordData[self::FIELD_NAMES] ?? [];
         }
 
         return $result;

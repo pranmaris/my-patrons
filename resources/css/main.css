@@ -339,7 +339,7 @@ footer {
   text-align: center;
 }
 
-.categories-list-item, .indexed-name-list-item {
+.record-type-elements-list-item, .indexed-name-list-item {
   width: auto;
   min-width: 20px;
   height: 20px;
@@ -354,6 +354,7 @@ footer {
 }
 .category-color {
   border-radius: 50px;
+  font-size: 25px;
 }
 
 .center {

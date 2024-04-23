@@ -2,8 +2,6 @@
 
 class IndexedNamesListContentBlock extends ContentBlock implements ContentBlockInterface
 {
-    private const INDEXED_NAMES_ROOT_PATH = '/indexes';
-
     private $fileData;
 
     private $namesKeys;
@@ -61,7 +59,7 @@ class IndexedNamesListContentBlock extends ContentBlock implements ContentBlockI
 
     public function getRecordContent(string $recordId): string
     {
-        $rootPath = self::INDEXED_NAMES_ROOT_PATH;
+        $rootPath = self::INDEXES_ROOT_PATH;
         $itemContent = $this->itemContent;
         $textVariables = $this->textVariables;
         $field = $this->field;
