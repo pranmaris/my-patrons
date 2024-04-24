@@ -3,27 +3,18 @@
         "la": "Iosephus"
     },
     "translations": {
-        "arc": [
-            "ܡܪܝ ܝܘܣܦ"
+        "la": [
+            "Iosephus",
+            "Josephus"
         ],
         "en": [
             "Joseph"
-        ],
-        "la": [
-            "Iosephus",
-            "Ioseph"
         ],
         "pl": [
             "Józef"
         ]
     },
     "links": {
-        "records/patrons/ioseph/naz": {
-            "arc": "ܡܪܝ ܝܘܣܦ",
-            "en": "Joseph",
-            "la": "Iosephus",
-            "pl": "Józef z Nazaretu"
-        },
         "records/patrons/sarbelius/mak": {
             "ar": "شربل مخلوف",
             "en": "Charbel Makhlouf",

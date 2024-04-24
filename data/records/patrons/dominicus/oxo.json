@@ -19,15 +19,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "es": "Domingo",
-      "en": "Dominicus",
-      "la": "Dominic",
-      "pl": "Dominik"
-    }
-  ],
-
   "born": ["1170-08-08"],
   "died": ["1221-08-06"],
 
@@ -38,6 +29,7 @@
 
   "also-in-martyrology": ["08-04", "08-06", "08-08"],
 
+  "forenames": ["dominicus"],
   "categories": ["vir", "confessor", "canonicus", "presbyter", "conditor-ordo"],
 
   "order": ["op"],

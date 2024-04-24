@@ -15,18 +15,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "pl": "Jan",
-      "en": "John",
-      "la": "Ioannes"
-    },
-    {
-      "pl": "Paweł",
-      "en": "Paul",
-      "la": "Paulus"
-    }
-  ],
   "epithets": [
     {
       "pl": "Drugi",
@@ -47,5 +35,6 @@
     "date": "2014-04-27"
   },
 
+  "forenames": ["ioannes", "paulus"],
   "categories": ["vir", "papa"]
 }

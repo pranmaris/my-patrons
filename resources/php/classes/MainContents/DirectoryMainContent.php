@@ -59,6 +59,10 @@ class DirectoryMainContent extends MainContent implements MainContentInterface
             $translatedName = $this->getReplacedContent($name, $indexVariables, true);
             $key = $this->stripTags($translatedName);
 
+            while (isset($listData[$key])) {
+                $key .=self::TEXT_CHARACTER_SORTED_AFTER_OTHERS;
+            }
+
             $listData[$key] = [$translatedName, $link];
         }
 

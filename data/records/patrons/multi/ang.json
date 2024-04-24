@@ -11,18 +11,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Multi",
-      "en": "Many",
-      "pl": "Wiele"
-    }
-  ],
-
   "born": ["-"],
   "died": ["-"],
 
   "also-in-martyrology": ["10-02"],
 
+  "forenames": ["multi"],
   "categories": ["socia", "angelus"]
 }

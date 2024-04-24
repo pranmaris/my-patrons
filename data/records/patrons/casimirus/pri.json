@@ -12,14 +12,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "pl": "Kazimierz",
-      "en": "Casimir",
-      "la": "Casimirus"
-    }
-  ],
-
   "born": ["1458-10-03"],
   "died": ["1484-03-04"],
 
@@ -30,5 +22,6 @@
 
   "also-in-martyrology": ["03-04"],
 
+  "forenames": ["casimirus"],
   "categories": ["vir", "confessor", "princeps"]
 }

@@ -1,23 +1,23 @@
 {
     "names": {
-        "it": "Rita",
-        "en": "Rita",
         "la": "Rita",
-        "pl": "Rita"
+        "en": "Rita",
+        "pl": "Rita",
+        "it": "Rita"
     },
     "translations": {
-        "it": [
+        "la": [
             "Rita"
         ],
         "en": [
             "Rita"
         ],
-        "la": [
-            "Rita"
-        ],
         "pl": [
             "Rita",
             "Ryta"
+        ],
+        "it": [
+            "Rita"
         ]
     },
     "links": {

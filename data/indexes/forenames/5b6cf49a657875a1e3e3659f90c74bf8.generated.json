@@ -1,21 +1,21 @@
 {
     "names": {
-        "en": "Pius",
         "la": "Pius",
+        "en": "Pius",
         "pl": "Pius"
     },
     "translations": {
-        "it": [
-            "Pio"
+        "la": [
+            "Pius"
         ],
         "en": [
             "Pius"
         ],
-        "la": [
-            "Pius"
-        ],
         "pl": [
             "Pius"
+        ],
+        "it": [
+            "Pio"
         ]
     },
     "links": {

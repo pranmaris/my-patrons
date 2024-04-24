@@ -311,10 +311,10 @@
     },
     "patrons/adalbertus": {
         "names": {
-            "cz": "Adalbert",
-            "en": "Adalbert",
             "la": "Adalbertus",
-            "pl": "Adalbert"
+            "en": "Adalbert",
+            "pl": "Adalbert",
+            "cz": "Adalbert"
         }
     },
     "patrons/adalbertus/pra": {
@@ -349,9 +349,9 @@
     },
     "patrons/albertus": {
         "names": {
-            "pl": "Albert",
-            "en": "Albert",
             "la": "Albertus",
+            "en": "Albert",
+            "pl": "Albert",
             "de": "Albert"
         }
     },
@@ -380,10 +380,10 @@
     },
     "patrons/alphonsus": {
         "names": {
-            "it": "Alfonso",
-            "en": "Alphonsus",
             "la": "Alphonsus",
-            "pl": "Alfons"
+            "en": "Alphonsus",
+            "pl": "Alfons",
+            "it": "Alfonso"
         }
     },
     "patrons/alphonsus/lig": {
@@ -418,10 +418,10 @@
     },
     "patrons/andreas": {
         "names": {
-            "grc": "Ανδρέας",
-            "en": "Andrew",
             "la": "Andreas",
+            "en": "Andrew",
             "pl": "Andrzej",
+            "grc": "Ανδρέας",
             "ko": "안드레아"
         }
     },
@@ -463,10 +463,10 @@
     },
     "patrons/antonius": {
         "names": {
-            "pt": "Antônio",
-            "en": "Anthony",
             "la": "Antonius",
-            "pl": "Antoni"
+            "en": "Anthony",
+            "pl": "Antoni",
+            "pt": "Antônio"
         }
     },
     "patrons/antonius/pat": {
@@ -514,10 +514,10 @@
     },
     "patrons/bruno": {
         "names": {
-            "de": "Bruno",
-            "en": "Bruno",
             "la": "Bruno",
-            "pl": "Bruno"
+            "en": "Bruno",
+            "pl": "Bruno",
+            "de": "Bruno"
         }
     },
     "patrons/bruno/ere": {
@@ -553,9 +553,9 @@
     },
     "patrons/carolina": {
         "names": {
-            "pl": "Karolina",
+            "la": "Carolina",
             "en": "Caroline",
-            "la": "Carolina"
+            "pl": "Karolina"
         }
     },
     "patrons/carolina/koz": {
@@ -571,10 +571,10 @@
     },
     "patrons/carolus": {
         "names": {
-            "it": "Carlo",
-            "en": "Charles",
             "la": "Carolus",
-            "pl": "Karol"
+            "en": "Charles",
+            "pl": "Karol",
+            "it": "Carlo"
         }
     },
     "patrons/carolus/acu": {
@@ -591,9 +591,9 @@
     },
     "patrons/casimirus": {
         "names": {
-            "pl": "Kazimierz",
+            "la": "Casimirus",
             "en": "Casimir",
-            "la": "Casimirus"
+            "pl": "Kazimierz"
         }
     },
     "patrons/casimirus/pri": {
@@ -645,10 +645,10 @@
     },
     "patrons/clara": {
         "names": {
-            "it": "Chiara",
-            "en": "Clare",
             "la": "Clara",
-            "pl": "Klara"
+            "en": "Clare",
+            "pl": "Klara",
+            "it": "Chiara"
         }
     },
     "patrons/clara/asi": {
@@ -683,10 +683,10 @@
     },
     "patrons/david": {
         "names": {
-            "sw": "Daudi",
-            "en": "David",
             "la": "David",
-            "pl": "Dawid"
+            "en": "David",
+            "pl": "Dawid",
+            "sw": "Daudi"
         }
     },
     "patrons/david/oke": {
@@ -721,10 +721,10 @@
     },
     "patrons/dominicus": {
         "names": {
-            "es": "Domingo",
-            "en": "Dominic",
             "la": "Dominicus",
-            "pl": "Dominik"
+            "en": "Dominic",
+            "pl": "Dominik",
+            "es": "Domingo"
         }
     },
     "patrons/dominicus/exi": {
@@ -794,11 +794,11 @@
     },
     "patrons/franciscus": {
         "names": {
-            "it": "Francesco",
-            "en": "Francis",
             "la": "Franciscus",
+            "en": "Francis",
             "pl": "Franciszek",
-            "es": "Francisco"
+            "es": "Francisco",
+            "it": "Francesco"
         }
     },
     "patrons/franciscus/asi": {
@@ -846,10 +846,10 @@
     },
     "patrons/gaspar": {
         "names": {
-            "it": "Gaspare",
-            "en": "Gaspar",
             "la": "Gaspar",
-            "pl": "Kasper"
+            "en": "Gaspar",
+            "pl": "Kasper",
+            "it": "Gaspare"
         }
     },
     "patrons/gaspar/buf": {
@@ -866,9 +866,9 @@
     },
     "patrons/gaudentius": {
         "names": {
-            "pl": "Gaudenty",
+            "la": "Gaudentius",
             "en": "Gaudentius",
-            "la": "Gaudentius"
+            "pl": "Gaudenty"
         }
     },
     "patrons/gaudentius/rad": {
@@ -884,10 +884,10 @@
     },
     "patrons/hedwigis": {
         "names": {
-            "de": "Hedwig",
-            "en": "Hedwig",
             "la": "Hedwigis",
-            "pl": "Jadwiga"
+            "en": "Hedwig",
+            "pl": "Jadwiga",
+            "de": "Hedwig"
         }
     },
     "patrons/hedwigis/duc": {
@@ -923,10 +923,10 @@
     },
     "patrons/ioachim": {
         "names": {
-            "he": "יהוֹיָקִים",
-            "en": "Joachim",
             "la": "Ioachim",
-            "pl": "Joachim"
+            "en": "Joachim",
+            "pl": "Joachim",
+            "he": "יהוֹיָקִים"
         }
     },
     "patrons/ioachim/mar": {
@@ -944,12 +944,12 @@
     },
     "patrons/ioannes": {
         "names": {
-            "it": "Giovanni",
-            "en": "John",
             "la": "Ioannes",
+            "en": "John",
             "pl": "Jan",
             "de": "Johannes",
-            "fr": "Jean"
+            "fr": "Jean",
+            "it": "Giovanni"
         }
     },
     "patrons/ioannes/23p": {
@@ -1098,10 +1098,10 @@
     },
     "patrons/ioseph": {
         "names": {
-            "arc": "ܡܪܝ ܝܘܣܦ",
+            "la": "Ioseph",
             "en": "Joseph",
-            "la": "Iosephus",
-            "pl": "Józef"
+            "pl": "Józef",
+            "arc": "ܡܪܝ ܝܘܣܦ"
         }
     },
     "patrons/ioseph/naz": {
@@ -1155,10 +1155,10 @@
     },
     "patrons/leonardus": {
         "names": {
-            "fr": "Léonard",
-            "en": "Leonard",
             "la": "Leonardus",
-            "pl": "Leonard"
+            "en": "Leonard",
+            "pl": "Leonard",
+            "fr": "Léonard"
         }
     },
     "patrons/leonardus/ere": {
@@ -1176,10 +1176,10 @@
     },
     "patrons/lucas": {
         "names": {
-            "gr": "Λουκάς",
-            "en": "Luke",
             "la": "Lucas",
-            "pl": "Łukasz"
+            "en": "Luke",
+            "pl": "Łukasz",
+            "gr": "Λουκάς"
         }
     },
     "patrons/lucas/eva": {
@@ -1197,10 +1197,10 @@
     },
     "patrons/lucia": {
         "names": {
-            "it": "Lucia",
-            "en": "Lucia",
             "la": "Lucia",
-            "pl": "Łucja"
+            "en": "Lucia",
+            "pl": "Łucja",
+            "it": "Lucia"
         }
     },
     "patrons/lucia/syr": {
@@ -1236,10 +1236,10 @@
     },
     "patrons/magnus": {
         "names": {
-            "de": "Magnus",
             "la": "Magnus",
             "en": "Magnus",
-            "pl": "Magnus"
+            "pl": "Magnus",
+            "de": "Magnus"
         }
     },
     "patrons/magnus/abb": {
@@ -1257,8 +1257,8 @@
     },
     "patrons/margarita": {
         "names": {
-            "en": "Margaret",
             "la": "Margarita",
+            "en": "Margaret",
             "pl": "Małgorzata"
         }
     },
@@ -1275,12 +1275,12 @@
     },
     "patrons/maria": {
         "names": {
-            "it": "Marie",
-            "en": "Mary",
             "la": "Maria",
+            "en": "Mary",
             "pl": "Maria",
+            "arc": "ܡܪܝܡ",
             "fr": "Marie",
-            "arc": "ܡܪܝܡ"
+            "it": "Marie"
         }
     },
     "patrons/maria/kow": {
@@ -1410,7 +1410,7 @@
         "names": {
             "la": "Monica",
             "en": "Monica",
-            "pl": "Monika"
+            "  pl": "Monika"
         }
     },
     "patrons/monica/vid": {
@@ -1462,10 +1462,10 @@
     },
     "patrons/nicolaus": {
         "names": {
-            "gr": "Νικόλαος",
-            "en": "Nicholas",
             "la": "Nicolaus",
-            "pl": "Mikołaj"
+            "en": "Nicholas",
+            "pl": "Mikołaj",
+            "gr": "Νικόλαος"
         }
     },
     "patrons/nicolaus/myr": {
@@ -1483,8 +1483,8 @@
     },
     "patrons/oswaldus": {
         "names": {
-            "en": "Oswald",
             "la": "Oswaldus",
+            "en": "Oswald",
             "pl": "Oswald"
         }
     },
@@ -1501,10 +1501,10 @@
     },
     "patrons/patricius": {
         "names": {
-            "ga": "Pádraig",
-            "en": "Patrick",
             "la": "Patricius",
-            "pl": "Patryk"
+            "en": "Patrick",
+            "pl": "Patryk",
+            "ga": "Pádraig"
         }
     },
     "patrons/patricius/hib": {
@@ -1521,9 +1521,9 @@
     },
     "patrons/paulus": {
         "names": {
-            "pl": "Paweł",
+            "la": "Paulus",
             "en": "Paul",
-            "la": "Paulus"
+            "pl": "Paweł"
         }
     },
     "patrons/paulus/apo": {
@@ -1614,10 +1614,10 @@
     },
     "patrons/pius": {
         "names": {
-            "it": "Pio",
-            "en": "Pius",
             "la": "Pius",
-            "pl": "Pius"
+            "en": "Pius",
+            "pl": "Pius",
+            "it": "Pio"
         }
     },
     "patrons/pius/pie": {
@@ -1634,10 +1634,10 @@
     },
     "patrons/richarius": {
         "names": {
-            "fr": "Riquier",
-            "en": "Richarius",
             "la": "Richarius",
-            "pl": "Rychard"
+            "en": "Richarius",
+            "pl": "Rychard",
+            "fr": "Riquier"
         }
     },
     "patrons/richarius/cen": {
@@ -1654,10 +1654,10 @@
     },
     "patrons/rita": {
         "names": {
-            "it": "Rita",
-            "en": "Rita",
             "la": "Rita",
-            "pl": "Rita"
+            "en": "Rita",
+            "pl": "Rita",
+            "it": "Rita"
         }
     },
     "patrons/rita/cas": {
@@ -1674,10 +1674,10 @@
     },
     "patrons/rochus": {
         "names": {
-            "fr": "Roch",
-            "en": "Roch",
             "la": "Rochus",
-            "pl": "Roch"
+            "en": "Roch",
+            "pl": "Roch",
+            "fr": "Roch"
         }
     },
     "patrons/rochus/per": {
@@ -1694,10 +1694,10 @@
     },
     "patrons/rosa": {
         "names": {
-            "es": "Rosa",
-            "en": "Rose",
             "la": "Rosa",
-            "pl": "Róża"
+            "en": "Rose",
+            "pl": "Róża",
+            "es": "Rosa"
         }
     },
     "patrons/rosa/lim": {
@@ -1714,10 +1714,10 @@
     },
     "patrons/rosalia": {
         "names": {
-            "it": "Rosalia",
-            "en": "Rosalia",
             "la": "Rosalia",
-            "pl": "Rozalia"
+            "en": "Rosalia",
+            "pl": "Rozalia",
+            "it": "Rosalia"
         }
     },
     "patrons/rosalia/pan": {
@@ -1753,8 +1753,9 @@
     },
     "patrons/sancia": {
         "names": {
-            "pl": "Sancja",
-            "la": "Sancia"
+            "la": "Sancia",
+            "en": "Santia",
+            "pl": "Sancja"
         }
     },
     "patrons/sancia/szy": {
@@ -1770,8 +1771,8 @@
     },
     "patrons/sarbelius": {
         "names": {
-            "en": "Charbel",
             "la": "Sarbelius",
+            "en": "Charbel",
             "pl": "Szarbel"
         }
     },
@@ -1807,10 +1808,10 @@
     },
     "patrons/stephanus": {
         "names": {
-            "gr": "Στέφανος",
-            "en": "Stephen",
             "la": "Stephanus",
-            "pl": "Stefan"
+            "en": "Stephen",
+            "pl": "Stefan",
+            "gr": "Στέφανος"
         }
     },
     "patrons/stephanus/pro": {
@@ -1827,11 +1828,11 @@
     },
     "patrons/teresia": {
         "names": {
-            "es": "Teresa",
-            "en": "Teresa",
             "la": "Teresia",
+            "en": "Teresa",
             "pl": "Teresa",
-            "de": "Therese"
+            "de": "Therese",
+            "es": "Teresa"
         }
     },
     "patrons/teresia/ies": {
@@ -1861,10 +1862,10 @@
     },
     "patrons/vincentius": {
         "names": {
-            "fr": "Vincent",
-            "en": "Vincent",
             "la": "Vincentius",
-            "pl": "Wincenty"
+            "en": "Vincent",
+            "pl": "Wincenty",
+            "fr": "Vincent"
         }
     },
     "patrons/vincentius/pau": {

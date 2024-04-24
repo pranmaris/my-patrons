@@ -1,20 +1,20 @@
 {
     "names": {
-        "fr": "Vincent",
-        "en": "Vincent"
+        "en": "Vincent",
+        "fr": "Vincent"
     },
     "translations": {
-        "fr": [
-            "Vincent"
+        "la": [
+            "Vincentius"
         ],
         "en": [
             "Vincent"
         ],
-        "la": [
-            "Vincentius"
-        ],
         "pl": [
             "Wincenty"
+        ],
+        "fr": [
+            "Vincent"
         ]
     },
     "links": {

@@ -1,24 +1,24 @@
 {
     "names": {
-        "es": "Teresa",
         "en": "Teresa",
-        "pl": "Teresa"
+        "pl": "Teresa",
+        "es": "Teresa"
     },
     "translations": {
-        "es": [
-            "Teresa"
+        "la": [
+            "Teresia"
         ],
         "en": [
             "Teresa"
-        ],
-        "la": [
-            "Teresia"
         ],
         "pl": [
             "Teresa"
         ],
         "de": [
             "Therese"
+        ],
+        "es": [
+            "Teresa"
         ]
     },
     "links": {

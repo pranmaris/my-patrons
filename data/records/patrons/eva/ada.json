@@ -11,15 +11,8 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Eva",
-      "en": "Eva",
-      "pl": "Ewa"
-    }
-  ],
-
   "also-mentioned": ["12-24"],
 
+  "forenames": ["eva"],
   "categories": ["femina"]
 }

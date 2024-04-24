@@ -23,14 +23,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "es": "Teresa",
-      "en": "Teresa",
-      "la": "Teresia",
-      "pl": "Teresa"
-    }
-  ],
   "epithets": [
     {
       "es": "de Jesús",
@@ -54,6 +46,7 @@
 
   "also-in-martyrology": ["10-15"],
 
+  "forenames": ["teresia"],
   "categories": ["femina", "virgo", "doctor-ecclesiae"],
 
   "order": ["ocarm", "ocd"],

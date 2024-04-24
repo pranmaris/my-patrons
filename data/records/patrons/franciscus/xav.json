@@ -22,15 +22,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "es": "Francisco",
-      "en": "Francis",
-      "la": "Franciscus",
-      "pl": "Franciszek"
-    }
-  ],
-
   "born": ["1506-04-07"],
   "died": ["1552-12-02", "1552-12-03"],
 
@@ -45,6 +36,7 @@
 
   "also-in-martyrology": ["12-02", "12-03"],
 
+  "forenames": ["franciscus"],
   "categories": ["vir", "confessor", "sacerdos", "presbyter"],
   "order": ["sj"]
 }

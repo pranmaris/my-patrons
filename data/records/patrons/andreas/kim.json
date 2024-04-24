@@ -14,20 +14,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "ko": "안드레아",
-      "la": "Andreas",
-      "en": "Andrew",
-      "pl": "Andrzej"
-    },
-    {
-      "ko": "대건",
-      "la": "Taegon",
-      "en": "Taegon",
-      "pl": "Tae-gŏn"
-    }
-  ],
   "surnames": [
     {
       "ko": "김",
@@ -51,5 +37,6 @@
 
   "also-in-martyrology": ["09-16", "09-20"],
 
+  "forenames": ["andreas", "taegon"],
   "categories": ["vir", "martyr", "presbyter"]
 }

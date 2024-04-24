@@ -11,23 +11,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "pl": "Gaudenty",
-      "en": "Gaudentius",
-      "la": "Gaudentius"
-    },
-    {
-      "pl": "Radzim",
-      "en": "Radim",
-      "la": "Radzim"
-    }
-  ],
-
   "born": [">960", "<970"],
   "died": ["~1011"],
 
   "also-in-martyrology": ["10-11"],
 
+  "forenames": ["gaudentius", "radzim"],
   "categories": ["vir", "episcopus"]
 }

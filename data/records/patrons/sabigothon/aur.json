@@ -11,22 +11,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Sabigothon",
-      "en": "Sabigothon",
-      "pl": "Sabigotona"
-    },
-    {
-      "la": "Natalia",
-      "en": "Natalie",
-      "pl": "Natalia"
-    }
-  ],
-
   "died": ["~852"],
 
   "also-in-martyrology": ["07-27"],
 
+  "forenames": ["sabigothon", "natalia"],
   "categories": ["femina", "martyrix", "uxor"]
 }

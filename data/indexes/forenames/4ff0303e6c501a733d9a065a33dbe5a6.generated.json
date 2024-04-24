@@ -4,9 +4,6 @@
         "la": "Vojtech"
     },
     "translations": {
-        "cz": [
-            "Vojtěch"
-        ],
         "en": [
             "Vojtech"
         ],
@@ -15,6 +12,9 @@
         ],
         "pl": [
             "Wojciech"
+        ],
+        "cz": [
+            "Vojtěch"
         ]
     },
     "links": {

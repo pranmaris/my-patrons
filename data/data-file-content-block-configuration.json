@@ -1,5 +1,6 @@
 {
     "/records/categories/": "CategoryContentBlock",
+    "/records/forenames/": "ForenameContentBlock",
     "/records/feasts/": "FeastContentBlock",
     "/records/god/": "PatronContentBlock",
     "/records/other-feasts/": "OtherFeastsContentBlock",

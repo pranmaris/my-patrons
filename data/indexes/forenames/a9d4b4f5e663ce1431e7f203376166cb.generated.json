@@ -3,18 +3,18 @@
         "pl": "Ryta"
     },
     "translations": {
-        "it": [
+        "la": [
             "Rita"
         ],
         "en": [
             "Rita"
         ],
-        "la": [
-            "Rita"
-        ],
         "pl": [
             "Rita",
             "Ryta"
+        ],
+        "it": [
+            "Rita"
         ]
     },
     "links": {

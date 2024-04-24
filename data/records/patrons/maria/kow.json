@@ -15,23 +15,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "pl": "Maria",
-      "en": "Mary",
-      "la": "Maria"
-    },
-    {
-      "pl": "Faustyna",
-      "en": "Faustina",
-      "la": "Faustina"
-    },
-    {
-      "pl": "Helena",
-      "en": "Helen",
-      "la": "Helena"
-    }
-  ],
   "surnames": [
     {
       "pl": "Kowalska"
@@ -52,6 +35,7 @@
 
   "also-in-martyrology": ["10-05"],
 
+  "forenames": ["maria", "faustina", "helena"],
   "categories": ["femina", "virgo"],
   "order": ["olm"]
 }

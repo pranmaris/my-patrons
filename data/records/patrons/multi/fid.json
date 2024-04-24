@@ -11,15 +11,8 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Multi",
-      "en": "Many",
-      "pl": "Wiele"
-    }
-  ],
-
   "also-in-martyrology": ["11-02"],
 
+  "forenames": ["multi"],
   "categories": ["socia"]
 }

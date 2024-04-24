@@ -12,18 +12,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Lydia",
-      "en": "Lydia",
-      "pl": "Lidia"
-    }
-  ],
-
   "died": ["<100"],
 
   "also-in-martyrology": ["05-20", "08-03"],
 
+  "forenames": ["lydia"],
   "categories": ["femina"],
 
   "images": {

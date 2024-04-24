@@ -20,14 +20,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "arc": "ܝܫܘܥ",
-      "en": "Jesus",
-      "la": "Iesus",
-      "pl": "Jezus"
-    }
-  ],
   "epithets": [
     {
       "en": "Christ",
@@ -39,6 +31,7 @@
   "born": [">-8", "<-4"],
   "died": ["30", "33"],
 
+  "forenames": ["iesus"],
   "categories": ["deus", "vir", "rex"],
 
   "images": {

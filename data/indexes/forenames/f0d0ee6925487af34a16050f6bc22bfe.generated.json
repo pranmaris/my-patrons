@@ -1,22 +1,19 @@
 {
     "names": {
-        "la": "Dominicus",
-        "en": "Dominicus"
+        "la": "Dominicus"
     },
     "translations": {
-        "es": [
-            "Domingo"
-        ],
-        "en": [
-            "Dominic",
+        "la": [
             "Dominicus"
         ],
-        "la": [
-            "Dominicus",
+        "en": [
             "Dominic"
         ],
         "pl": [
             "Dominik"
+        ],
+        "es": [
+            "Domingo"
         ]
     },
     "links": {

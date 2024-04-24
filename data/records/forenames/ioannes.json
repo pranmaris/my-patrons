@@ -1,0 +1,11 @@
+{
+    "names": {
+        "la": ["Ioannes", "Joannes"],
+        "en": "John",
+        "pl": "Jan",
+
+        "de": "Johannes",
+        "fr": "Jean",
+        "it": "Giovanni"
+    }
+}

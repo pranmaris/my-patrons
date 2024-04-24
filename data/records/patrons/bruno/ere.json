@@ -16,15 +16,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "de": "Bruno",
-      "en": "Bruno",
-      "la": "Bruno",
-      "pl": ["Bruno", "Brunon"]
-    }
-  ],
-
   "born": ["~1030"],
   "died": ["1101-10-06"],
 
@@ -35,6 +26,7 @@
 
   "also-in-martyrology": ["10-06"],
 
+  "forenames": ["bruno"],
   "categories": ["vir", "confessor", "presbyter", "conditor-ordo", "eremita"],
 
   "order": ["ocart"],

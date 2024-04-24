@@ -9,6 +9,11 @@
         "la": "Festa",
         "pl": "Święta"
     },
+    "forenames": {
+        "en": "Forenames",
+        "la": "Praenomina",
+        "pl": "Imiona"
+    },
     "god": {
         "en": "God",
         "la": "Deus",

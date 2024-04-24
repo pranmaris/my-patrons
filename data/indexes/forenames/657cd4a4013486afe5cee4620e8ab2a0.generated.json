@@ -1,20 +1,20 @@
 {
     "names": {
-        "de": "Hedwig",
-        "en": "Hedwig"
+        "en": "Hedwig",
+        "de": "Hedwig"
     },
     "translations": {
-        "de": [
-            "Hedwig"
+        "la": [
+            "Hedwigis"
         ],
         "en": [
             "Hedwig"
         ],
-        "la": [
-            "Hedwigis"
-        ],
         "pl": [
             "Jadwiga"
+        ],
+        "de": [
+            "Hedwig"
         ]
     },
     "links": {

@@ -33,6 +33,8 @@ abstract class Base
 
     protected const DATA_LINKS_GENERATED_FILES_INDEX = 'data-links';
 
+    protected const TEXT_CHARACTER_SORTED_AFTER_OTHERS = 'ﻩ';
+
     private const RECORD_ID_WITH_NAME_EXTENSION_SEPARATOR = '--';
     private const RECORD_ID_NAME_EXTENSION_CHARACTERS_MAPPING = [
         ' ' => '-',
@@ -242,5 +244,20 @@ abstract class Base
     protected function getNameHash(string $name): string
     {
         return md5($name);
+    }
+
+    protected function getAllMainLanguageValues(array $data): array
+    {
+        $result = [];
+
+        foreach ($data as $language => $valueData) {
+            if (is_array($valueData)) {
+                $result[$language] = reset($valueData);
+            } else {
+                $result[$language] = $valueData;
+            }
+        }
+
+        return $result;
     }
 }

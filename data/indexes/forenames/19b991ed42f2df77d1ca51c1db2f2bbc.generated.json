@@ -3,20 +3,29 @@
         "de": "Therese"
     },
     "translations": {
-        "de": [
-            "Therese"
+        "la": [
+            "Teresia"
         ],
         "en": [
             "Teresa"
         ],
-        "la": [
-            "Teresia"
-        ],
         "pl": [
+            "Teresa"
+        ],
+        "de": [
+            "Therese"
+        ],
+        "es": [
             "Teresa"
         ]
     },
     "links": {
+        "records/patrons/teresia/ies": {
+            "es": "Teresa de Jesús",
+            "en": "Teresa of Ávila",
+            "la": "Teresia Abulensis",
+            "pl": "Teresa z Ávili"
+        },
         "records/patrons/teresia/ste": {
             "de": "Therese Benedicta vom Kreuz",
             "en": "Teresa Benedicta of the Cross",

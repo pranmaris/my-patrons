@@ -12,18 +12,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Laurentius",
-      "en": ["Lawrence", "Laurence"],
-      "pl": "Wawrzyniec"
-    }
-  ],
-
   "born": ["225-12-31"],
   "died": ["258-08-10"],
 
   "also-in-martyrology": ["08-10"],
 
+  "forenames": ["laurentius"],
   "categories": ["vir", "martyr", "archidiaconus", "diaconus"]
 }

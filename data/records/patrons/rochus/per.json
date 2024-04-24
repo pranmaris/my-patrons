@@ -18,18 +18,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "fr": "Roch",
-      "en": "Roch",
-      "la": "Rochus",
-      "pl": "Roch"
-    }
-  ],
-
   "died": ["~1379"],
 
   "also-in-martyrology": ["08-16"],
 
+  "forenames": ["rochus"],
   "categories": ["vir", "confessor"]
 }

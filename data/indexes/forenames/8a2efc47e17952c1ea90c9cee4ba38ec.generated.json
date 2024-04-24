@@ -1,21 +1,21 @@
 {
     "names": {
-        "it": "Lucia",
+        "la": "Lucia",
         "en": "Lucia",
-        "la": "Lucia"
+        "it": "Lucia"
     },
     "translations": {
-        "it": [
+        "la": [
             "Lucia"
         ],
         "en": [
             "Lucia"
         ],
-        "la": [
-            "Lucia"
-        ],
         "pl": [
             "Łucja"
+        ],
+        "it": [
+            "Lucia"
         ]
     },
     "links": {

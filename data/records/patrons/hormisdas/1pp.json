@@ -11,18 +11,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Hormisdas",
-      "en": "Hormisdas",
-      "pl": "Hormizdas"
-    }
-  ],
-
   "died": ["523-08-06"],
 
   "also-in-martyrology": ["08-06"],
 
+  "forenames": ["hormisdas"],
   "categories": ["vir", "confessor", "papa"],
 
   "data-links": {

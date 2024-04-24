@@ -1,20 +1,21 @@
 {
     "names": {
-        "en": "Alphonsus",
-        "la": "Alphonsus"
+        "la": "Alphonsus",
+        "en": "Alphonsus"
     },
     "translations": {
-        "it": [
-            "Alfonso"
+        "la": [
+            "Alphonsus",
+            "Alfonsus"
         ],
         "en": [
             "Alphonsus"
         ],
-        "la": [
-            "Alphonsus"
-        ],
         "pl": [
             "Alfons"
+        ],
+        "it": [
+            "Alfonso"
         ]
     },
     "links": {

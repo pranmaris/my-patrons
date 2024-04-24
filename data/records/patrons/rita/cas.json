@@ -18,15 +18,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "it": "Rita",
-      "en": "Rita",
-      "la": "Rita",
-      "pl": ["Rita", "Ryta"]
-    }
-  ],
-
   "born": ["~1381"],
   "died": ["1457-05-22"],
 
@@ -41,6 +32,7 @@
 
   "also-in-martyrology": ["05-22"],
 
+  "forenames": ["rita"],
   "categories": ["femina", "vidua", "religiosa", "monialis"],
   "order": ["osa"]
 }

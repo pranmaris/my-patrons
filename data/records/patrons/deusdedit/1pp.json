@@ -18,13 +18,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Deusdedit",
-      "en": "Deusdedit",
-      "pl": "Deusdedit"
-    }
-  ],
   "epithets": [
     {
       "la": "Primus",
@@ -38,6 +31,7 @@
 
   "also-in-martyrology": ["11-08"],
 
+  "forenames": ["deusdedit"],
   "categories": ["vir", "papa"],
 
   "data-links": {

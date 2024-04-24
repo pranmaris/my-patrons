@@ -16,18 +16,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "pl": "Albert",
-      "en": "Albert",
-      "la": "Albertus"
-    },
-    {
-      "pl": "Adam",
-      "en": "Adam",
-      "la": "Adamus"
-    }
-  ],
   "surnames": [
     {
       "pl": "Chmielowski"
@@ -48,6 +36,7 @@
 
   "also-in-martyrology": ["12-25"],
 
+  "forenames": ["albertus", "adamus"],
   "categories": ["vir", "conditor-ordo", "religiosus"],
 
   "order": ["tor"],

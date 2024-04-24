@@ -11,17 +11,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Saturninus",
-      "en": "Saturnin",
-      "pl": "Saturnin"
-    }
-  ],
-
   "died": ["~250"],
 
   "also-in-martyrology": ["11-29"],
 
+  "forenames": ["saturninus"],
   "categories": ["vir", "martyr", "episcopus"]
 }

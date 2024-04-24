@@ -3,18 +3,18 @@
         "la": "Stephanus"
     },
     "translations": {
-        "gr": [
-            "Στέφανος"
+        "la": [
+            "Stephanus"
         ],
         "en": [
             "Stephen"
         ],
-        "la": [
-            "Stephanus"
-        ],
         "pl": [
             "Stefan",
             "Szczepan"
+        ],
+        "gr": [
+            "Στέφανος"
         ]
     },
     "links": {

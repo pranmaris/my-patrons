@@ -11,19 +11,12 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Eusebius",
-      "en": "Eusebius",
-      "pl": "Euzebiusz"
-    }
-  ],
-
   "born": ["~283"],
   "died": ["371-08-01"],
 
   "also-in-martyrology": ["08-01", "08-02", "12-16"],
 
+  "forenames": ["eusebius"],
   "categories": ["vir", "martyr", "episcopus"],
 
   "images": {

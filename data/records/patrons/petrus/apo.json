@@ -18,23 +18,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Petrus",
-      "en": "Peter",
-      "pl": "Piotr"
-    },
-    {
-      "la": "Simon",
-      "en": "Simon",
-      "pl": "Szymon"
-    }
-  ],
-
   "died": ["~64"],
 
   "also-in-martyrology": ["06-29"],
 
+  "forenames": ["petrus", "simon"],
   "categories": ["vir", "apostolus", "martyr", "papa"],
 
   "images": {

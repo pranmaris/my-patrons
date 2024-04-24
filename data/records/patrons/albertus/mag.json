@@ -35,14 +35,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "de": "Albert",
-      "en": "Albert",
-      "la": "Albertus",
-      "pl": "Albert"
-    }
-  ],
   "epithets": [
     {
       "de": "der Große",
@@ -69,6 +61,7 @@
 
   "also-in-martyrology": ["11-15"],
 
+  "forenames": ["albertus"],
   "categories": ["vir", "confessor", "episcopus", "doctor-ecclesiae"],
 
   "order": ["op"]

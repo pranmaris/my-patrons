@@ -20,18 +20,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "fr": "Léonard",
-      "en": "Leonard",
-      "la": "Leonardus",
-      "pl": "Leonard"
-    }
-  ],
-
   "died": [">501", "<600"],
 
   "also-in-martyrology": ["11-06"],
 
+  "forenames": ["leonardus"],
   "categories": ["vir", "confessor", "eremita", "solitarius"]
 }

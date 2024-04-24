@@ -1,20 +1,20 @@
 {
     "names": {
-        "es": "Rosa",
-        "la": "Rosa"
+        "la": "Rosa",
+        "es": "Rosa"
     },
     "translations": {
-        "es": [
+        "la": [
             "Rosa"
         ],
         "en": [
             "Rose"
         ],
-        "la": [
-            "Rosa"
-        ],
         "pl": [
             "Róża"
+        ],
+        "es": [
+            "Rosa"
         ]
     },
     "links": {

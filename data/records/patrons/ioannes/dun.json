@@ -14,14 +14,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "de": "Johannes",
-      "en": "John",
-      "la": "Ioannes",
-      "pl": "Jan"
-    }
-  ],
   "epithets": [
     {
       "de": "Duns",
@@ -47,6 +39,7 @@
 
   "also-in-martyrology": ["11-08"],
 
+  "forenames": ["ioannes"],
   "categories": ["vir", "presbyter"],
   "order": ["ofm"]
 }

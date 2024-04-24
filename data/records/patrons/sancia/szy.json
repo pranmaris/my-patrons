@@ -16,16 +16,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "pl": "Sancja",
-      "la": "Sancia"
-    },
-    {
-      "pl": "Janina",
-      "la": "Ioannina"
-    }
-  ],
   "surnames": [
     {
       "pl": "Szymkowiak"
@@ -42,6 +32,7 @@
 
   "also-in-martyrology": ["08-29"],
 
+  "forenames": ["sancia", "ioannina"],
   "categories": ["femina", "virgo"],
   "order": ["cmbb"]
 }

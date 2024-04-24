@@ -1,22 +1,25 @@
 {
     "names": {
-        "it": "Marie",
-        "fr": "Marie"
+        "fr": "Marie",
+        "it": "Marie"
     },
     "translations": {
-        "it": [
-            "Marie"
+        "la": [
+            "Maria"
         ],
         "en": [
             "Mary"
         ],
-        "la": [
-            "Maria"
-        ],
         "pl": [
             "Maria"
         ],
+        "arc": [
+            "ܡܪܝܡ"
+        ],
         "fr": [
+            "Marie"
+        ],
+        "it": [
             "Marie"
         ]
     },
@@ -32,6 +35,17 @@
             "en": "John Mary Vianney",
             "la": "Ioannes Maria Vianney",
             "pl": "Jan Maria Vianney"
+        },
+        "records/patrons/maria/kow": {
+            "pl": "Maria Faustyna Kowalska",
+            "en": "Maria Faustyna Kowalska",
+            "la": "Maria Faustina Kowalska"
+        },
+        "records/patrons/maria/naz": {
+            "arc": "ܡܪܝܡ",
+            "en": "Mary, mother of Jesus",
+            "la": "Maria Virgo",
+            "pl": "Maria z Nazaretu"
         }
     }
 }

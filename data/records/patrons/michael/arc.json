@@ -11,18 +11,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Michael",
-      "en": "Michael",
-      "pl": "Michał"
-    }
-  ],
-
   "born": ["-"],
   "died": ["-"],
 
   "also-in-martyrology": ["09-29"],
 
+  "forenames": ["michael"],
   "categories": ["archangelus"]
 }

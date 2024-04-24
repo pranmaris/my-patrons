@@ -11,18 +11,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Gabriel",
-      "en": "Gabriel",
-      "pl": "Gabriel"
-    }
-  ],
-
   "born": ["-"],
   "died": ["-"],
 
   "also-in-martyrology": ["09-29", "03-24"],
 
+  "forenames": ["gabriel"],
   "categories": ["archangelus"]
 }

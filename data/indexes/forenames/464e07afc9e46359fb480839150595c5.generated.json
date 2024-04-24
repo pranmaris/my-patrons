@@ -1,20 +1,20 @@
 {
     "names": {
-        "en": "David",
-        "la": "David"
+        "la": "David",
+        "en": "David"
     },
     "translations": {
-        "sw": [
-            "Daudi"
+        "la": [
+            "David"
         ],
         "en": [
             "David"
         ],
-        "la": [
-            "David"
-        ],
         "pl": [
             "Dawid"
+        ],
+        "sw": [
+            "Daudi"
         ]
     },
     "links": {

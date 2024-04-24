@@ -20,14 +20,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "gr": "Στέφανος",
-      "en": "Stephen",
-      "la": "Stephanus",
-      "pl": ["Stefan", "Szczepan"]
-    }
-  ],
   "epithets": [
     {
       "en": "Protomartyr",
@@ -40,5 +32,6 @@
 
   "also-in-martyrology": ["12-26"],
 
+  "forenames": ["stephanus"],
   "categories": ["vir", "martyr", "diaconus"]
 }

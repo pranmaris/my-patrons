@@ -3,11 +3,14 @@
         "pl": "Janina"
     },
     "translations": {
-        "pl": [
-            "Janina"
-        ],
         "la": [
             "Ioannina"
+        ],
+        "en": [
+            "Jane"
+        ],
+        "pl": [
+            "Janina"
         ]
     },
     "links": {

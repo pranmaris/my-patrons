@@ -15,18 +15,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "arc": "ܡܪܝ ܝܘܣܦ",
-      "en": "Joseph",
-      "la": ["Iosephus", "Ioseph"],
-      "pl": "Józef"
-    }
-  ],
-
   "born": ["<-20"],
   "died": ["~20"],
 
+  "forenames": ["ioseph"],
   "categories": ["vir", "confessor"],
 
   "images": {

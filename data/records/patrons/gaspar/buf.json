@@ -17,14 +17,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "it": "Gaspare",
-      "en": "Gaspar",
-      "la": "Gaspar",
-      "pl": "Kasper"
-    }
-  ],
   "surnames": [
     {
       "it": "del Bufalo"
@@ -45,6 +37,7 @@
 
   "also-in-martyrology": ["12-28"],
 
+  "forenames": ["gaspar"],
   "categories": ["vir", "presbyter", "conditor-ordo"],
 
   "order": ["cpps"],

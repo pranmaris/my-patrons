@@ -1,20 +1,20 @@
 {
     "names": {
-        "en": "Gaspar",
-        "la": "Gaspar"
+        "la": "Gaspar",
+        "en": "Gaspar"
     },
     "translations": {
-        "it": [
-            "Gaspare"
+        "la": [
+            "Gaspar"
         ],
         "en": [
             "Gaspar"
         ],
-        "la": [
-            "Gaspar"
-        ],
         "pl": [
             "Kasper"
+        ],
+        "it": [
+            "Gaspare"
         ]
     },
     "links": {

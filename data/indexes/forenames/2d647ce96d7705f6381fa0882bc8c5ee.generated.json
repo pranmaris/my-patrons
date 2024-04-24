@@ -3,17 +3,18 @@
         "la": "Ioannes Baptista"
     },
     "translations": {
-        "fr": [
-            "Jean Baptiste"
+        "la": [
+            "Ioannes Baptista",
+            "Joannes Baptista"
         ],
         "en": [
             "John the Baptist"
         ],
-        "la": [
-            "Ioannes Baptista"
-        ],
         "pl": [
             "Jan Chrzciciel"
+        ],
+        "fr": [
+            "Jean Baptiste"
         ]
     },
     "links": {

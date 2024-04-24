@@ -15,19 +15,12 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Ioannes",
-      "en": "John",
-      "pl": "Jan"
-    }
-  ],
-
   "born": ["?"],
   "died": ["~100"],
 
   "also-in-martyrology": ["12-27"],
 
+  "forenames": ["ioannes"],
   "categories": ["vir", "apostolus", "evangelista"],
 
   "images": {

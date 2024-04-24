@@ -22,19 +22,12 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Paulus",
-      "en": "Paul",
-      "pl": "Paweł"
-    }
-  ],
-
   "born": [">5", "<10"],
   "died": ["~67"],
 
   "also-in-martyrology": ["06-29"],
 
+  "forenames": ["paulus"],
   "categories": ["vir", "alius-apostolus", "martyr"],
 
   "feasts": {

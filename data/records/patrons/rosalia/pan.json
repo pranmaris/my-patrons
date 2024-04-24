@@ -19,18 +19,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "it": "Rosalia",
-      "en": "Rosalia",
-      "la": "Rosalia",
-      "pl": "Rozalia"
-    }
-  ],
-
   "died": [">1101", "<1200"],
 
   "also-in-martyrology": ["09-04"],
 
+  "forenames": ["rosalia"],
   "categories": ["femina", "virgo", "solitaria"]
 }

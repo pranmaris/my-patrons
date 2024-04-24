@@ -15,18 +15,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "en": "Charbel",
-      "la": "Sarbelius",
-      "pl": "Szarbel"
-    },
-    {
-      "en": "Joseph",
-      "la": "Iosephus",
-      "pl": "Józef"
-    }
-  ],
   "surnames": [
     {
       "la": "Makhlouf"
@@ -47,6 +35,7 @@
 
   "also-in-martyrology": ["07-24", "12-24"],
 
+  "forenames": ["sarbelius", "iosephus"],
   "categories": ["vir", "presbyter"],
   "order": ["olm"]
 }

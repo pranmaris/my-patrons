@@ -16,15 +16,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "de": "Hedwig",
-      "en": "Hedwig",
-      "la": "Hedwigis",
-      "pl": "Jadwiga"
-    }
-  ],
-
   "born": [">1174", "<1178"],
   "died": ["1243-10-14", "1243-10-15"],
 
@@ -35,5 +26,6 @@
 
   "also-in-martyrology": ["10-15", "10-16"],
 
+  "forenames": ["hedwigis"],
   "categories": ["femina", "vidua", "religiosa", "ducissa"]
 }

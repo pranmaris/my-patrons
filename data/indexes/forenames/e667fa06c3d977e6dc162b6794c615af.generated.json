@@ -3,17 +3,18 @@
         "arc": "ܝܫܘܥ"
     },
     "translations": {
-        "arc": [
-            "ܝܫܘܥ"
+        "la": [
+            "Iesus",
+            "Jesus"
         ],
         "en": [
             "Jesus"
         ],
-        "la": [
-            "Iesus"
-        ],
         "pl": [
             "Jezus"
+        ],
+        "arc": [
+            "ܝܫܘܥ"
         ]
     },
     "links": {

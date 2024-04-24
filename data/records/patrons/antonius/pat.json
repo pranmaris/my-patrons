@@ -27,14 +27,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "pt": "Antônio",
-      "en": "Anthony",
-      "la": "Antonius",
-      "pl": "Antoni"
-    }
-  ],
   "epithets": [
     {
       "la": "Doctor Evangelicus"
@@ -56,6 +48,7 @@
 
   "also-in-martyrology": ["06-13"],
 
+  "forenames": ["antonius"],
   "categories": ["vir", "confessor", "sacerdos", "presbyter", "doctor-ecclesiae"],
 
   "order": ["crsa", "ofm"]

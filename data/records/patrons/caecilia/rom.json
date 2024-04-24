@@ -11,17 +11,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Caecilia",
-      "en": "Cecilia",
-      "pl": "Cecylia"
-    }
-  ],
-
   "died": [">201", "<300"],
 
   "also-in-martyrology": ["11-22"],
 
+  "forenames": ["caecilia"],
   "categories": ["femina", "martyrix", "virgo"]
 }

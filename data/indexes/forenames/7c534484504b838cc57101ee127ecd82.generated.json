@@ -3,20 +3,43 @@
         "arc": "ܡܪܝܡ"
     },
     "translations": {
-        "arc": [
-            "ܡܪܝܡ"
+        "la": [
+            "Maria"
         ],
         "en": [
             "Mary"
         ],
-        "la": [
-            "Maria"
-        ],
         "pl": [
             "Maria"
+        ],
+        "arc": [
+            "ܡܪܝܡ"
+        ],
+        "fr": [
+            "Marie"
+        ],
+        "it": [
+            "Marie"
         ]
     },
     "links": {
+        "records/patrons/alphonsus/lig": {
+            "it": "Alfonso Maria de' Liguori",
+            "en": "Alphonsus Maria Liguori",
+            "la": "Alphonsus Maria a Ligorio",
+            "pl": "Alfons Maria Liguori"
+        },
+        "records/patrons/ioannes/via": {
+            "fr": "Jean-Marie Vianney",
+            "en": "John Mary Vianney",
+            "la": "Ioannes Maria Vianney",
+            "pl": "Jan Maria Vianney"
+        },
+        "records/patrons/maria/kow": {
+            "pl": "Maria Faustyna Kowalska",
+            "en": "Maria Faustyna Kowalska",
+            "la": "Maria Faustina Kowalska"
+        },
         "records/patrons/maria/naz": {
             "arc": "ܡܪܝܡ",
             "en": "Mary, mother of Jesus",

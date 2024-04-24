@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "Jane"
+    },
+    "translations": {
+        "la": [
+            "Ioannina"
+        ],
+        "en": [
+            "Jane"
+        ],
+        "pl": [
+            "Janina"
+        ]
+    },
+    "links": {
+        "records/patrons/sancia/szy": {
+            "pl": "Sancja Szymkowiak",
+            "en": "Sancja Szymkowiak",
+            "la": "Sancia Szymkowiak"
+        }
+    }
+}

@@ -1,20 +1,20 @@
 {
     "names": {
-        "cz": "Adalbert",
         "en": "Adalbert",
-        "pl": "Adalbert"
+        "pl": "Adalbert",
+        "cz": "Adalbert"
     },
     "translations": {
-        "cz": [
-            "Adalbert"
+        "la": [
+            "Adalbertus"
         ],
         "en": [
             "Adalbert"
         ],
-        "la": [
-            "Adalbertus"
-        ],
         "pl": [
+            "Adalbert"
+        ],
+        "cz": [
             "Adalbert"
         ]
     },

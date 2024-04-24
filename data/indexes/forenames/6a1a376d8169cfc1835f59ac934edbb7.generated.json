@@ -1,20 +1,23 @@
 {
     "names": {
+        "la": "Joseph",
         "en": "Joseph"
     },
     "translations": {
-        "arc": [
-            "ܡܪܝ ܝܘܣܦ"
+        "la": [
+            "Ioseph",
+            "Joseph",
+            "Iosephus",
+            "Josephus"
         ],
         "en": [
             "Joseph"
         ],
-        "la": [
-            "Iosephus",
-            "Ioseph"
-        ],
         "pl": [
             "Józef"
+        ],
+        "arc": [
+            "ܡܪܝ ܝܘܣܦ"
         ]
     },
     "links": {

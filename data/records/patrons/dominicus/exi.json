@@ -15,20 +15,12 @@
     ]
   },
 
-  "forenames": [
-    {
-      "es": "Domingo",
-      "en": "Dominic",
-      "la": "Dominicus",
-      "pl": "Dominik"
-    }
-  ],
-
   "born": ["~1000"],
   "died": ["1073-12-20"],
 
   "also-in-martyrology": ["12-20"],
 
+  "forenames": ["dominicus"],
   "categories": ["vir", "abbas", "eremita"],
   "order": ["osb"]
 }

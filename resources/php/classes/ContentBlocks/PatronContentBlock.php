@@ -64,7 +64,7 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
         $variables['order'] = empty($mainFileData['order'] ?? []) ? self::NON_EXISTENCE : $mainFileData['order'];
         $variables['order-founder'] = empty($mainFileData['order-founder'] ?? []) ? self::NON_EXISTENCE : $mainFileData['order-founder'];
         $variables['categories'] = $this->getRecordTypeElementsList($mainFileData['categories'] ?? [], 'categories');
-        $variables['forenames'] = $this->getIndexedNamesList('forenames');
+        $variables['forenames'] = $this->getRecordTypeElementsList($mainFileData['forenames'] ?? [], 'forenames');
         $variables['surnames'] = $this->getIndexedNamesList('surnames');
         $variables['epithets'] = $this->getIndexedNamesList('epithets');
         $variables['gallery'] = $this->getGalleryContent();
@@ -182,7 +182,8 @@ class PatronContentBlock extends ContentBlock implements ContentBlockInterface
 
             $data = $this->getSubFileData($elementsType, $elementId);
 
-            $translations = [$namesIndex => ($data[$namesIndex] ?? [])];
+            $mainLangValues = $this->getAllMainLanguageValues($data[$namesIndex] ?? []);
+            $translations = [$namesIndex => $mainLangValues];
             $language = $this->getLanguage();
             $textVariables = $this->getTranslatedVariablesForLangData($language, $translations);
 

@@ -9,7 +9,10 @@ class GenerateGroupedDataIndexFilesProcedure extends Procedure
 
     private const RECORDS_ROOT_PATH = '/records';
 
-    private const DATA_CONVERSION_METHODS = ['categories' => 'getConvertedRecordTypeData'];
+    private const DATA_CONVERSION_METHODS = [
+        'categories' => 'getConvertedRecordTypeData',
+        'forenames' => 'getConvertedRecordTypeData',
+    ];
 
     private $recordsData = [];
 

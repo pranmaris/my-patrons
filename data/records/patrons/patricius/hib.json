@@ -18,19 +18,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "ga": "Pádraig",
-      "en": "Patrick",
-      "la": "Patricius",
-      "pl": "Patryk"
-    }
-  ],
-
   "born": ["~385"],
   "died": ["~461-03-17"],
 
   "also-in-martyrology": ["03-17"],
 
+  "forenames": ["patricius"],
   "categories": ["vir", "confessor", "episcopus"]
 }

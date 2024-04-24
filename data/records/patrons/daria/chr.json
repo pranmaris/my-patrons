@@ -11,18 +11,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Daria",
-      "en": "Daria",
-      "pl": "Daria"
-    }
-  ],
-
   "born": [">201"],
   "died": ["~253"],
 
   "also-in-martyrology": ["10-25"],
 
+  "forenames": ["daria"],
   "categories": ["femina", "martyrix", "uxor"]
 }

@@ -11,18 +11,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Chrysanthus",
-      "en": "Chrysanthus",
-      "pl": "Chryzant"
-    }
-  ],
-
   "born": [">201"],
   "died": ["~253"],
 
   "also-in-martyrology": ["10-25"],
 
+  "forenames": ["chrysanthus"],
   "categories": ["vir", "martyr", "maritus"]
 }

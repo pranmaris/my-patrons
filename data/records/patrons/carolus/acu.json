@@ -18,14 +18,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "it": "Carlo",
-      "en": "Charles",
-      "la": "Carolus",
-      "pl": "Karol"
-    }
-  ],
   "surnames": [
     {
       "it": "Acutis"
@@ -40,5 +32,6 @@
     "date": "2020-10-10"
   },
 
+  "forenames": ["carolus"],
   "categories": ["vir"]
 }

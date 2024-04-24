@@ -1,14 +1,11 @@
 {
     "names": {
-        "de": "Magnus",
         "la": "Magnus",
         "en": "Magnus",
-        "pl": "Magnus"
+        "pl": "Magnus",
+        "de": "Magnus"
     },
     "translations": {
-        "de": [
-            "Magnus"
-        ],
         "la": [
             "Magnus"
         ],
@@ -16,6 +13,9 @@
             "Magnus"
         ],
         "pl": [
+            "Magnus"
+        ],
+        "de": [
             "Magnus"
         ]
     },

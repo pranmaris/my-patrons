@@ -11,13 +11,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Andreas",
-      "en": "Andrew",
-      "pl": "Andrzej"
-    }
-  ],
   "surnames": [
     {
       "pl": "Bobola"
@@ -38,6 +31,7 @@
 
   "also-in-martyrology": ["05-16"],
 
+  "forenames": ["andreas"],
   "categories": ["vir", "martyr", "sacerdos", "presbyter"],
 
   "order": ["sj"]

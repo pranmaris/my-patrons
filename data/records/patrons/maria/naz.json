@@ -22,18 +22,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "arc": "ܡܪܝܡ",
-      "en": "Mary",
-      "la": "Maria",
-      "pl": "Maria"
-    }
-  ],
-
   "born": ["<-20"],
   "died": [">30"],
 
+  "forenames": ["maria"],
   "categories": ["femina", "mater-dei", "virgo", "regina"],
 
   "images": {

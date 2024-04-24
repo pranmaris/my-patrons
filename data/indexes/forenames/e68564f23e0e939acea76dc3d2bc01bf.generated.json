@@ -3,14 +3,12 @@
         "pl": "Jan"
     },
     "translations": {
-        "it": [
-            "Giovanni"
+        "la": [
+            "Ioannes",
+            "Joannes"
         ],
         "en": [
             "John"
-        ],
-        "la": [
-            "Ioannes"
         ],
         "pl": [
             "Jan"
@@ -20,6 +18,9 @@
         ],
         "fr": [
             "Jean"
+        ],
+        "it": [
+            "Giovanni"
         ]
     },
     "links": {

@@ -12,18 +12,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Martinus",
-      "en": "Martin",
-      "pl": "Marcin"
-    }
-  ],
-
   "born": ["~316", "~336"],
   "died": ["397-11-08"],
 
   "also-in-martyrology": ["11-11"],
 
+  "forenames": ["martinus"],
   "categories": ["vir", "confessor", "episcopus", "sacerdos", "monachus"]
 }

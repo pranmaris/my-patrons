@@ -3,11 +3,14 @@
         "la": "Sancia"
     },
     "translations": {
-        "pl": [
-            "Sancja"
-        ],
         "la": [
             "Sancia"
+        ],
+        "en": [
+            "Santia"
+        ],
+        "pl": [
+            "Sancja"
         ]
     },
     "links": {

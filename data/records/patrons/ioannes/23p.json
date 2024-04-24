@@ -19,14 +19,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "it": "Giovanni",
-      "en": "John",
-      "la": "Ioannes",
-      "pl": "Jan"
-    }
-  ],
   "epithets": [
     {
       "en": "the Twenty-Third",
@@ -49,5 +41,6 @@
 
   "also-in-martyrology": ["06-03"],
 
+  "forenames": ["ioannes"],
   "categories": ["vir", "papa"]
 }

@@ -18,19 +18,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "fr": "Riquier",
-      "en": "Richarius",
-      "la": "Richarius",
-      "pl": "Rychard"
-    }
-  ],
-
   "born": ["~560"],
   "died": ["645-04-26"],
 
   "also-in-martyrology": ["04-26"],
 
+  "forenames": ["richarius"],
   "categories": ["vir", "confessor", "presbyter"]
 }

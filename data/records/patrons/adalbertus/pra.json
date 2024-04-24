@@ -15,21 +15,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "cz": "Adalbert",
-      "en": "Adalbert",
-      "la": "Adalbertus",
-      "pl": "Adalbert"
-    },
-    {
-      "cz": "Vojtěch",
-      "en": "Vojtech",
-      "la": "Vojtech",
-      "pl": "Wojciech"
-    }
-  ],
-
   "born": ["~956"],
   "died": ["997-04-23"],
 
@@ -40,5 +25,6 @@
 
   "also-in-martyrology": ["04-23"],
 
+  "forenames": ["adalbertus", "vojtech"],
   "categories": ["vir", "martyr", "episcopus", "monachus"]
 }

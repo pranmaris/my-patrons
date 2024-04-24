@@ -14,19 +14,12 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Augustinus",
-      "en": "Augustine",
-      "pl": "Augustyn"
-    }
-  ],
-
   "born": ["354-11-13"],
   "died": ["430-08-28"],
 
   "also-in-martyrology": ["08-28"],
 
+  "forenames": ["augustinus"],
   "categories": ["vir", "confessor", "episcopus", "doctor-ecclesiae"],
 
   "images": {

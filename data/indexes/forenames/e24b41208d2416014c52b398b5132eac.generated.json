@@ -1,20 +1,20 @@
 {
     "names": {
-        "fr": "Roch",
         "en": "Roch",
-        "pl": "Roch"
+        "pl": "Roch",
+        "fr": "Roch"
     },
     "translations": {
-        "fr": [
-            "Roch"
+        "la": [
+            "Rochus"
         ],
         "en": [
             "Roch"
         ],
-        "la": [
-            "Rochus"
-        ],
         "pl": [
+            "Roch"
+        ],
+        "fr": [
             "Roch"
         ]
     },

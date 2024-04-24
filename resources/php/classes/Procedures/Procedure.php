@@ -72,21 +72,6 @@ class Procedure extends Base
         }
     }
 
-    protected function getAllMainLanguageValues(array $data): array
-    {
-        $result = [];
-
-        foreach ($data as $language => $valueData) {
-            if (is_array($valueData)) {
-                $result[$language] = reset($valueData);
-            } else {
-                $result[$language] = $valueData;
-            }
-        }
-
-        return $result;
-    }
-
     protected function getFileNameWithoutExtension(string $fullPath): string
     {
         $result = basename($fullPath);

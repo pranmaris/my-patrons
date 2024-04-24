@@ -3,17 +3,17 @@
         "pl": "Róża"
     },
     "translations": {
-        "es": [
+        "la": [
             "Rosa"
         ],
         "en": [
             "Rose"
         ],
-        "la": [
-            "Rosa"
-        ],
         "pl": [
             "Róża"
+        ],
+        "es": [
+            "Rosa"
         ]
     },
     "links": {

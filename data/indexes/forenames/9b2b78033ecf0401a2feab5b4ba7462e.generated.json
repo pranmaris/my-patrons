@@ -1,23 +1,23 @@
 {
     "names": {
-        "de": "Bruno",
-        "en": "Bruno",
         "la": "Bruno",
-        "pl": "Bruno"
+        "en": "Bruno",
+        "pl": "Bruno",
+        "de": "Bruno"
     },
     "translations": {
-        "de": [
+        "la": [
             "Bruno"
         ],
         "en": [
             "Bruno"
         ],
-        "la": [
-            "Bruno"
-        ],
         "pl": [
             "Bruno",
             "Brunon"
+        ],
+        "de": [
+            "Bruno"
         ]
     },
     "links": {

@@ -17,14 +17,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "sw": "Daudi",
-      "en": "David",
-      "la": "David",
-      "pl": "Dawid"
-    }
-  ],
   "surnames": [
     {
       "sw": "Okelo"
@@ -41,5 +33,6 @@
 
   "also-in-martyrology": ["09-18"],
 
+  "forenames": ["david"],
   "categories": ["vir", "martyr", "catechista"]
 }

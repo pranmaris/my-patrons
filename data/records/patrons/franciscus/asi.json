@@ -19,19 +19,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "it": "Francesco",
-      "en": "Francis",
-      "la": "Franciscus",
-      "pl": "Franciszek"
-    }
-  ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
-
   "born": ["~1181", "~1182"],
   "died": ["1226-10-03"],
 
@@ -42,6 +29,7 @@
 
   "also-in-martyrology": ["10-04"],
 
+  "forenames": ["franciscus"],
   "categories": ["vir", "confessor", "levita", "conditor-ordo"],
 
   "order": ["ofm"],

@@ -14,19 +14,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "gr": "Λουκάς",
-      "en": "Luke",
-      "la": "Lucas",
-      "pl": "Łukasz"
-    }
-  ],
-
   "born": [">1", "<16"],
   "died": [">80", "<100"],
 
   "also-in-martyrology": ["10-18"],
 
+  "forenames": ["lucas"],
   "categories": ["vir", "evangelista", "confessor"]
 }

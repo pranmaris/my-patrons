@@ -14,19 +14,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "it": "Lucia",
-      "en": "Lucia",
-      "la": "Lucia",
-      "pl": "Łucja"
-    }
-  ],
-
   "born": ["~281"],
   "died": [">304", "<305"],
 
   "also-in-martyrology": ["12-13"],
 
+  "forenames": ["lucia"],
   "categories": ["femina", "martyrix", "virgo"]
 }

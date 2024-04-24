@@ -16,15 +16,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "fr": "Vincent",
-      "en": "Vincent",
-      "la": "Vincentius",
-      "pl": "Wincenty"
-    }
-  ],
-
   "born": ["1580-04-24", "1581-04-24"],
   "died": ["1660-09-27"],
 
@@ -39,6 +30,7 @@
 
   "also-in-martyrology": ["07-19", "09-27"],
 
+  "forenames": ["vincentius"],
   "categories": ["vir", "confessor", "presbyter", "conditor-ordo"],
 
   "order": ["cm"],

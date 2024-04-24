@@ -3,25 +3,40 @@
         "es": "Francisco"
     },
     "translations": {
-        "es": [
-            "Francisco"
+        "la": [
+            "Franciscus"
         ],
         "en": [
             "Francis"
         ],
-        "la": [
-            "Franciscus"
-        ],
         "pl": [
             "Franciszek"
+        ],
+        "es": [
+            "Francisco"
+        ],
+        "it": [
+            "Francesco"
         ]
     },
     "links": {
+        "records/patrons/franciscus/asi": {
+            "it": "Francesco d'Assisi",
+            "en": "Francis of Assisi",
+            "la": "Franciscus Asisiensis",
+            "pl": "Franciszek z Asyżu"
+        },
         "records/patrons/franciscus/xav": {
             "es": "Francisco Javier",
             "en": "Francis Xavier",
             "la": "Franciscus Xavier",
             "pl": "Franciszek Ksawery"
+        },
+        "records/patrons/pius/pie": {
+            "it": "Pio da Pietrelcina",
+            "en": "Pio of Pietrelcina",
+            "la": "Pius de Pietrelcina",
+            "pl": "Pio z Pietrelciny"
         }
     }
 }

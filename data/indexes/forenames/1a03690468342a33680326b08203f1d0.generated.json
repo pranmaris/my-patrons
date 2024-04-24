@@ -3,9 +3,6 @@
         "ko": "안드레아"
     },
     "translations": {
-        "ko": [
-            "안드레아"
-        ],
         "la": [
             "Andreas"
         ],
@@ -14,9 +11,26 @@
         ],
         "pl": [
             "Andrzej"
+        ],
+        "grc": [
+            "Ανδρέας"
+        ],
+        "ko": [
+            "안드레아"
         ]
     },
     "links": {
+        "records/patrons/andreas/apo": {
+            "grc": "Ανδρέας",
+            "en": "Andrew the Apostle",
+            "la": "Andreas Apostolus",
+            "pl": "Andrzej Apostoł"
+        },
+        "records/patrons/andreas/bob": {
+            "pl": "Andrzej Bobola",
+            "en": "Andrew Bobola",
+            "la": "Andreas Bobola"
+        },
         "records/patrons/andreas/kim": {
             "ko": "김대건 안드레아",
             "en": "Andrew Kim Taegon",

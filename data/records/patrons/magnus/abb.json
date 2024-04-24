@@ -16,18 +16,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "de": "Magnus",
-      "la": "Magnus",
-      "en": "Magnus",
-      "pl": "Magnus"
-    }
-  ],
-
   "died": [">700", "<800"],
 
   "also-in-martyrology": ["09-06"],
 
+  "forenames": ["magnus"],
   "categories": ["vir", "abbas"]
 }

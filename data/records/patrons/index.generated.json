@@ -1,9 +1,9 @@
 {
     "adalbertus": {
-        "cz": "Adalbert",
-        "en": "Adalbert",
         "la": "Adalbertus",
-        "pl": "Adalbert"
+        "en": "Adalbert",
+        "pl": "Adalbert",
+        "cz": "Adalbert"
     },
     "agnes": {
         "la": "Agnes",
@@ -11,16 +11,16 @@
         "pl": "Agnieszka"
     },
     "albertus": {
-        "pl": "Albert",
-        "en": "Albert",
         "la": "Albertus",
+        "en": "Albert",
+        "pl": "Albert",
         "de": "Albert"
     },
     "alphonsus": {
-        "it": "Alfonso",
-        "en": "Alphonsus",
         "la": "Alphonsus",
-        "pl": "Alfons"
+        "en": "Alphonsus",
+        "pl": "Alfons",
+        "it": "Alfonso"
     },
     "anastasia": {
         "la": "Anastasia",
@@ -28,17 +28,17 @@
         "pl": "Anastazja"
     },
     "andreas": {
-        "grc": "Ανδρέας",
-        "en": "Andrew",
         "la": "Andreas",
+        "en": "Andrew",
         "pl": "Andrzej",
+        "grc": "Ανδρέας",
         "ko": "안드레아"
     },
     "antonius": {
-        "pt": "Antônio",
-        "en": "Anthony",
         "la": "Antonius",
-        "pl": "Antoni"
+        "en": "Anthony",
+        "pl": "Antoni",
+        "pt": "Antônio"
     },
     "augustinus": {
         "la": "Augustinus",
@@ -46,10 +46,10 @@
         "pl": "Augustyn"
     },
     "bruno": {
-        "de": "Bruno",
-        "en": "Bruno",
         "la": "Bruno",
-        "pl": "Bruno"
+        "en": "Bruno",
+        "pl": "Bruno",
+        "de": "Bruno"
     },
     "caecilia": {
         "la": "Caecilia",
@@ -57,20 +57,20 @@
         "pl": "Cecylia"
     },
     "carolina": {
-        "pl": "Karolina",
+        "la": "Carolina",
         "en": "Caroline",
-        "la": "Carolina"
+        "pl": "Karolina"
     },
     "carolus": {
-        "it": "Carlo",
-        "en": "Charles",
         "la": "Carolus",
-        "pl": "Karol"
+        "en": "Charles",
+        "pl": "Karol",
+        "it": "Carlo"
     },
     "casimirus": {
-        "pl": "Kazimierz",
+        "la": "Casimirus",
         "en": "Casimir",
-        "la": "Casimirus"
+        "pl": "Kazimierz"
     },
     "catharina": {
         "la": "Catharina",
@@ -83,10 +83,10 @@
         "pl": "Chryzant"
     },
     "clara": {
-        "it": "Chiara",
-        "en": "Clare",
         "la": "Clara",
-        "pl": "Klara"
+        "en": "Clare",
+        "pl": "Klara",
+        "it": "Chiara"
     },
     "daria": {
         "la": "Daria",
@@ -94,10 +94,10 @@
         "pl": "Daria"
     },
     "david": {
-        "sw": "Daudi",
-        "en": "David",
         "la": "David",
-        "pl": "Dawid"
+        "en": "David",
+        "pl": "Dawid",
+        "sw": "Daudi"
     },
     "deusdedit": {
         "la": "Deusdedit",
@@ -105,10 +105,10 @@
         "pl": "Deusdedit"
     },
     "dominicus": {
-        "es": "Domingo",
-        "en": "Dominic",
         "la": "Dominicus",
-        "pl": "Dominik"
+        "en": "Dominic",
+        "pl": "Dominik",
+        "es": "Domingo"
     },
     "eusebius": {
         "la": "Eusebius",
@@ -121,11 +121,11 @@
         "pl": "Ewa"
     },
     "franciscus": {
-        "it": "Francesco",
-        "en": "Francis",
         "la": "Franciscus",
+        "en": "Francis",
         "pl": "Franciszek",
-        "es": "Francisco"
+        "es": "Francisco",
+        "it": "Francesco"
     },
     "gabriel": {
         "la": "Gabriel",
@@ -133,21 +133,21 @@
         "pl": "Gabriel"
     },
     "gaspar": {
-        "it": "Gaspare",
-        "en": "Gaspar",
         "la": "Gaspar",
-        "pl": "Kasper"
+        "en": "Gaspar",
+        "pl": "Kasper",
+        "it": "Gaspare"
     },
     "gaudentius": {
-        "pl": "Gaudenty",
+        "la": "Gaudentius",
         "en": "Gaudentius",
-        "la": "Gaudentius"
+        "pl": "Gaudenty"
     },
     "hedwigis": {
-        "de": "Hedwig",
-        "en": "Hedwig",
         "la": "Hedwigis",
-        "pl": "Jadwiga"
+        "en": "Hedwig",
+        "pl": "Jadwiga",
+        "de": "Hedwig"
     },
     "hormisdas": {
         "la": "Hormisdas",
@@ -155,24 +155,24 @@
         "pl": "Hormizdas"
     },
     "ioachim": {
-        "he": "יהוֹיָקִים",
-        "en": "Joachim",
         "la": "Ioachim",
-        "pl": "Joachim"
+        "en": "Joachim",
+        "pl": "Joachim",
+        "he": "יהוֹיָקִים"
     },
     "ioannes": {
-        "it": "Giovanni",
-        "en": "John",
         "la": "Ioannes",
+        "en": "John",
         "pl": "Jan",
         "de": "Johannes",
-        "fr": "Jean"
+        "fr": "Jean",
+        "it": "Giovanni"
     },
     "ioseph": {
-        "arc": "ܡܪܝ ܝܘܣܦ",
+        "la": "Ioseph",
         "en": "Joseph",
-        "la": "Iosephus",
-        "pl": "Józef"
+        "pl": "Józef",
+        "arc": "ܡܪܝ ܝܘܣܦ"
     },
     "laurentius": {
         "la": "Laurentius",
@@ -180,22 +180,22 @@
         "pl": "Wawrzyniec"
     },
     "leonardus": {
-        "fr": "Léonard",
-        "en": "Leonard",
         "la": "Leonardus",
-        "pl": "Leonard"
+        "en": "Leonard",
+        "pl": "Leonard",
+        "fr": "Léonard"
     },
     "lucas": {
-        "gr": "Λουκάς",
-        "en": "Luke",
         "la": "Lucas",
-        "pl": "Łukasz"
+        "en": "Luke",
+        "pl": "Łukasz",
+        "gr": "Λουκάς"
     },
     "lucia": {
-        "it": "Lucia",
-        "en": "Lucia",
         "la": "Lucia",
-        "pl": "Łucja"
+        "en": "Lucia",
+        "pl": "Łucja",
+        "it": "Lucia"
     },
     "lydia": {
         "la": "Lydia",
@@ -203,23 +203,23 @@
         "pl": "Lidia"
     },
     "magnus": {
-        "de": "Magnus",
         "la": "Magnus",
         "en": "Magnus",
-        "pl": "Magnus"
+        "pl": "Magnus",
+        "de": "Magnus"
     },
     "margarita": {
-        "en": "Margaret",
         "la": "Margarita",
+        "en": "Margaret",
         "pl": "Małgorzata"
     },
     "maria": {
-        "it": "Marie",
-        "en": "Mary",
         "la": "Maria",
+        "en": "Mary",
         "pl": "Maria",
+        "arc": "ܡܪܝܡ",
         "fr": "Marie",
-        "arc": "ܡܪܝܡ"
+        "it": "Marie"
     },
     "martinus": {
         "la": "Martinus",
@@ -234,7 +234,7 @@
     "monica": {
         "la": "Monica",
         "en": "Monica",
-        "pl": "Monika"
+        "  pl": "Monika"
     },
     "multi": {
         "la": "Multi",
@@ -242,26 +242,26 @@
         "pl": "Wiele"
     },
     "nicolaus": {
-        "gr": "Νικόλαος",
-        "en": "Nicholas",
         "la": "Nicolaus",
-        "pl": "Mikołaj"
+        "en": "Nicholas",
+        "pl": "Mikołaj",
+        "gr": "Νικόλαος"
     },
     "oswaldus": {
-        "en": "Oswald",
         "la": "Oswaldus",
+        "en": "Oswald",
         "pl": "Oswald"
     },
     "patricius": {
-        "ga": "Pádraig",
-        "en": "Patrick",
         "la": "Patricius",
-        "pl": "Patryk"
+        "en": "Patrick",
+        "pl": "Patryk",
+        "ga": "Pádraig"
     },
     "paulus": {
-        "pl": "Paweł",
+        "la": "Paulus",
         "en": "Paul",
-        "la": "Paulus"
+        "pl": "Paweł"
     },
     "petrus": {
         "la": "Petrus",
@@ -269,40 +269,40 @@
         "pl": "Piotr"
     },
     "pius": {
-        "it": "Pio",
-        "en": "Pius",
         "la": "Pius",
-        "pl": "Pius"
+        "en": "Pius",
+        "pl": "Pius",
+        "it": "Pio"
     },
     "richarius": {
-        "fr": "Riquier",
-        "en": "Richarius",
         "la": "Richarius",
-        "pl": "Rychard"
+        "en": "Richarius",
+        "pl": "Rychard",
+        "fr": "Riquier"
     },
     "rita": {
-        "it": "Rita",
-        "en": "Rita",
         "la": "Rita",
-        "pl": "Rita"
+        "en": "Rita",
+        "pl": "Rita",
+        "it": "Rita"
     },
     "rochus": {
-        "fr": "Roch",
-        "en": "Roch",
         "la": "Rochus",
-        "pl": "Roch"
+        "en": "Roch",
+        "pl": "Roch",
+        "fr": "Roch"
     },
     "rosa": {
-        "es": "Rosa",
-        "en": "Rose",
         "la": "Rosa",
-        "pl": "Róża"
+        "en": "Rose",
+        "pl": "Róża",
+        "es": "Rosa"
     },
     "rosalia": {
-        "it": "Rosalia",
-        "en": "Rosalia",
         "la": "Rosalia",
-        "pl": "Rozalia"
+        "en": "Rosalia",
+        "pl": "Rozalia",
+        "it": "Rosalia"
     },
     "sabigothon": {
         "la": "Sabigothon",
@@ -310,12 +310,13 @@
         "pl": "Sabigotona"
     },
     "sancia": {
-        "pl": "Sancja",
-        "la": "Sancia"
+        "la": "Sancia",
+        "en": "Santia",
+        "pl": "Sancja"
     },
     "sarbelius": {
-        "en": "Charbel",
         "la": "Sarbelius",
+        "en": "Charbel",
         "pl": "Szarbel"
     },
     "saturninus": {
@@ -324,23 +325,23 @@
         "pl": "Saturnin"
     },
     "stephanus": {
-        "gr": "Στέφανος",
-        "en": "Stephen",
         "la": "Stephanus",
-        "pl": "Stefan"
+        "en": "Stephen",
+        "pl": "Stefan",
+        "gr": "Στέφανος"
     },
     "teresia": {
-        "es": "Teresa",
-        "en": "Teresa",
         "la": "Teresia",
+        "en": "Teresa",
         "pl": "Teresa",
-        "de": "Therese"
+        "de": "Therese",
+        "es": "Teresa"
     },
     "vincentius": {
-        "fr": "Vincent",
-        "en": "Vincent",
         "la": "Vincentius",
-        "pl": "Wincenty"
+        "en": "Vincent",
+        "pl": "Wincenty",
+        "fr": "Vincent"
     },
     "xystus": {
         "la": "Xystus",

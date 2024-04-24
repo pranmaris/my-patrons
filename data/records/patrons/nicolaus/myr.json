@@ -22,19 +22,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "gr": "Νικόλαος",
-      "en": "Nicholas",
-      "la": "Nicolaus",
-      "pl": "Mikołaj"
-    }
-  ],
-
   "born": ["~270"],
   "died": [">301", "<400"],
 
   "also-in-martyrology": ["12-06"],
 
+  "forenames": ["nicolaus"],
   "categories": ["vir", "confessor", "episcopus"]
 }

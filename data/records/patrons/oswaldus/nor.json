@@ -11,18 +11,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "en": "Oswald",
-      "la": "Oswaldus",
-      "pl": "Oswald"
-    }
-  ],
-
   "born": ["~604"],
   "died": ["642-08-05"],
 
   "also-in-martyrology": ["08-05"],
 
+  "forenames": ["oswaldus"],
   "categories": ["vir", "martyr", "rex"]
 }

@@ -1,20 +1,20 @@
 {
     "names": {
-        "de": "Edith",
-        "en": "Edith"
+        "en": "Edith",
+        "de": "Edith"
     },
     "translations": {
-        "de": [
-            "Edith"
+        "la": [
+            "Editha"
         ],
         "en": [
             "Edith"
         ],
-        "la": [
-            "Editha"
-        ],
         "pl": [
             "Edyta"
+        ],
+        "de": [
+            "Edith"
         ]
     },
     "links": {

@@ -14,17 +14,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Anastasia",
-      "en": "Anastasia",
-      "pl": "Anastazja"
-    }
-  ],
-
   "died": ["~300"],
 
   "also-in-martyrology": ["12-25"],
 
+  "forenames": ["anastasia"],
   "categories": ["femina", "martyrix", "uxor"]
 }

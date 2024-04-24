@@ -13,13 +13,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "pl": "Karolina",
-      "en": "Caroline",
-      "la": "Carolina"
-    }
-  ],
   "surnames": [
     {
       "pl": "Kózka"
@@ -36,5 +29,6 @@
 
   "also-in-martyrology": ["11-18"],
 
+  "forenames": ["carolina"],
   "categories": ["femina", "martyrix", "virgo"]
 }

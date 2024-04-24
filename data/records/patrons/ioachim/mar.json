@@ -14,23 +14,11 @@
     ]
   },
 
-  "forenames": [
-    {
-      "he": "יהוֹיָקִים",
-      "en": "Joachim",
-      "la": "Ioachim",
-      "pl": "Joachim"
-    }
-  ],
-  "surnames": [
-  ],
-  "epithets": [
-  ],
-
   "born": [">-100", "<-1"],
   "died": [">-100", "<-1"],
 
   "also-in-martyrology": ["03-20", "07-26", "08-16"],
 
+  "forenames": ["ioachim"],
   "categories": ["vir", "confessor"]
 }

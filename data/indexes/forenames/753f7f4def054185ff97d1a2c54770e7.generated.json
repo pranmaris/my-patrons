@@ -3,18 +3,18 @@
         "la": "Ioseph"
     },
     "translations": {
-        "arc": [
-            "ܡܪܝ ܝܘܣܦ"
+        "la": [
+            "Ioseph",
+            "Joseph"
         ],
         "en": [
             "Joseph"
         ],
-        "la": [
-            "Iosephus",
-            "Ioseph"
-        ],
         "pl": [
             "Józef"
+        ],
+        "arc": [
+            "ܡܪܝ ܝܘܣܦ"
         ]
     },
     "links": {

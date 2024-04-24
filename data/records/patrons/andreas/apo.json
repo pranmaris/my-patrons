@@ -18,18 +18,10 @@
     ]
   },
 
-  "forenames": [
-    {
-      "grc": "Ανδρέας",
-      "en": "Andrew",
-      "la": "Andreas",
-      "pl": "Andrzej"
-    }
-  ],
-
   "died": [">60-11-30", "<70-11-30"],
 
   "also-in-martyrology": ["11-30"],
 
+  "forenames": ["andreas"],
   "categories": ["vir", "apostolus", "martyr"]
 }

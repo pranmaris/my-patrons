@@ -4,23 +4,23 @@
         "pl": "Maria"
     },
     "translations": {
-        "it": [
-            "Marie"
+        "la": [
+            "Maria"
         ],
         "en": [
             "Mary"
         ],
-        "la": [
-            "Maria"
-        ],
         "pl": [
             "Maria"
+        ],
+        "arc": [
+            "ܡܪܝܡ"
         ],
         "fr": [
             "Marie"
         ],
-        "arc": [
-            "ܡܪܝܡ"
+        "it": [
+            "Marie"
         ]
     },
     "links": {

@@ -3,17 +3,18 @@
         "pl": "Alfons"
     },
     "translations": {
-        "it": [
-            "Alfonso"
+        "la": [
+            "Alphonsus",
+            "Alfonsus"
         ],
         "en": [
             "Alphonsus"
         ],
-        "la": [
-            "Alphonsus"
-        ],
         "pl": [
             "Alfons"
+        ],
+        "it": [
+            "Alfonso"
         ]
     },
     "links": {

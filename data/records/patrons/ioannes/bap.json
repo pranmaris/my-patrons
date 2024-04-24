@@ -20,13 +20,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Ioannes",
-      "en": "John",
-      "pl": "Jan"
-    }
-  ],
   "epithets": [
     {
       "la": "Baptista",
@@ -38,6 +31,7 @@
   "born": [">-6", "<-2"],
   "died": ["~28", "~30", "~32"],
 
+  "forenames": ["ioannes"],
   "categories": ["vir", "martyr", "propheta"],
 
   "feasts": {

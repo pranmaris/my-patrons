@@ -12,13 +12,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "en": "Margaret",
-      "la": "Margarita",
-      "pl": "Małgorzata"
-    }
-  ],
   "surnames": [
     {
       "en": "Ward"
@@ -39,5 +32,6 @@
 
   "also-in-martyrology": ["08-30"],
 
+  "forenames": ["margarita"],
   "categories": ["femina", "martyrix"]
 }

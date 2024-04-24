@@ -13,13 +13,6 @@
     ]
   },
 
-  "forenames": [
-    {
-      "la": "Ioannes",
-      "en": "John",
-      "pl": "Jan"
-    }
-  ],
   "epithets": [
     {
       "la": "Chrysostomus",
@@ -33,5 +26,6 @@
 
   "also-in-martyrology": ["09-13", "09-14"],
 
+  "forenames": ["ioannes"],
   "categories": ["vir", "confessor", "episcopus", "doctor-ecclesiae"]
 }

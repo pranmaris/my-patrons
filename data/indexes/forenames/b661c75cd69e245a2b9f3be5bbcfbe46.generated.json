@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Josephus"
+    },
+    "translations": {
+        "la": [
+            "Iosephus",
+            "Josephus"
+        ],
+        "en": [
+            "Joseph"
+        ],
+        "pl": [
+            "Józef"
+        ]
+    },
+    "links": {
+        "records/patrons/sarbelius/mak": {
+            "ar": "شربل مخلوف",
+            "en": "Charbel Makhlouf",
+            "la": "Sarbelius Makhlouf",
+            "pl": "Szarbel Makhlouf"
+        }
+    }
+}
