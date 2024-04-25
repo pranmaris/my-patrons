@@ -19,10 +19,9 @@
         "la": "Deus",
         "pl": "Bóg"
     },
-    "other-feasts": {
-        "en": "Other feasts",
-        "la": "Alia festa",
-        "pl": "Inne święta"
+    "liturgical-calendar-feasts": {
+        "en": "Liturgical calendar feasts",
+        "pl": "Święta z kalendarza liturgicznego"
     },
     "patrons": {
         "en": "Patrons",

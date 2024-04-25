@@ -35,6 +35,10 @@ class MovableFeastBase
         return $this->isLastMonthWithDayImmovable;
     }
 
+    public function getMissingDate(int $year): string {
+        return self::MISSING_DATE;
+    }
+
     public function getResurrectionFeastDateValidToday(int $year): string
     {
         //Meeus/Jones/Butcher method

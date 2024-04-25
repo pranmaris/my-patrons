@@ -2,6 +2,9 @@
     "data-links": {
         "MIS": {
             "1": "records/god/tri#mis"
+        },
+        "MRP": {
+            "1": "records/patrons/maria/naz#mrp"
         }
     }
 }

@@ -1367,6 +1367,12 @@
                     "la": "Beate Maria Virgo Perdolentis",
                     "pl": "Matka Boska Bolesna"
                 }
+            },
+            "feasts/mrp": {
+                "names": {
+                    "en": "The Most Holy Virgin Mary, Queen of Poland",
+                    "pl": "Najświętsza Maryja Panna Królowa Polski"
+                }
             }
         }
     },

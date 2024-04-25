@@ -1,0 +1,22 @@
+{
+    "MIS": {
+        "base": "getMissingDate",
+        "move": 0,
+        "name": {
+            "pl": "[1|Miłosierdzie Boże]"
+        },
+        "description": {
+            "pl": "pierwsza niedziela po Zmartwychwstaniu (kalendarz rzymski)"
+        }
+    },
+    "MRP": {
+        "base": "getMissingDate",
+        "move": 0,
+        "name": {
+            "pl": "[1|Najświętsza Maryja Panna Królowa Polski]"
+        },
+        "description": {
+            "pl": "3 maja (kalendarz Polski)"
+        }
+    }
+}

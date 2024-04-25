@@ -1,6 +1,6 @@
 <?php
 
-class OtherFeastsContentBlock extends ContentBlock implements ContentBlockInterface
+class LiturgicalCalendarFeastsContentBlock extends ContentBlock implements ContentBlockInterface
 {
     private const BASE_INDEX = 'base';
     private const MOVE_INDEX = 'move';
@@ -13,7 +13,7 @@ class OtherFeastsContentBlock extends ContentBlock implements ContentBlockInterf
 
     public function prepare(string $path): ContentBlock
     {
-        $recordContent = $this->getOriginalHtmlFileContent('items/other-feast-item.html');
+        $recordContent = $this->getOriginalHtmlFileContent('items/liturgical-calendar-feast-item.html');
 
         $this->prepareConsolidatedDataFilesArray($path);
 
@@ -32,7 +32,7 @@ class OtherFeastsContentBlock extends ContentBlock implements ContentBlockInterf
 
     public function getFullContent(string $translatedName): string
     {
-        $contentBlockContent = $this->getOriginalHtmlFileContent('content-blocks/other-feasts-content-block.html');
+        $contentBlockContent = $this->getOriginalHtmlFileContent('content-blocks/liturgical-calendar-feasts-content-block.html');
         $mainFileData = $this->getMainFileData();
 
         $recordsContent = '';

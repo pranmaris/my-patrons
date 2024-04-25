@@ -101,6 +101,11 @@
         "mr-1960": ["1:sep/15#1"],
         "mr-1956": ["1:sep/15#2"]
       }
+    },
+    "mrp": {
+      "data-links": {
+        "liturgical-calendar-feasts": ["1:#MRP"]
+      }
     }
   }
 }

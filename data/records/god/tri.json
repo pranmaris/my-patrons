@@ -34,7 +34,7 @@
   "feasts": {
     "mis": {
       "data-links": {
-        "other-feasts": ["1:#MIS"]
+        "liturgical-calendar-feasts": ["1:#MIS"]
       }
     },
     "tri": {
