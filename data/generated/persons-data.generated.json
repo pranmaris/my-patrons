@@ -512,6 +512,24 @@
             }
         }
     },
+    "patrons/benedictus": {
+        "names": {
+            "la": "Benedictus",
+            "en": "Benedict",
+            "pl": "Benedykt"
+        }
+    },
+    "patrons/benedictus/nur": {
+        "names": {
+            "la": "Benedictus Nursinus",
+            "en": "Banadict of Nursia",
+            "pl": "Benedykt z Nursji"
+        },
+        "died": [
+            "547-03-21"
+        ],
+        "feasts": []
+    },
     "patrons/bernardinus": {
         "names": {
             "la": "Bernardinus",

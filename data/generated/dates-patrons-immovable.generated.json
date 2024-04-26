@@ -63,6 +63,19 @@
             }
         }
     },
+    "03-21": {
+        "records/patrons/benedictus/nur": {
+            "name": {
+                "la": "Benedictus Nursinus",
+                "en": "Banadict of Nursia",
+                "pl": "Benedykt z Nursji"
+            },
+            "sources": {
+                "reliable-death-anniversary": "21 III",
+                "other-martyrology-days": "21 III"
+            }
+        }
+    },
     "03-24": {
         "records/patrons/gabriel/arc": {
             "name": {
@@ -226,6 +239,18 @@
             },
             "sources": {
                 "other-martyrology-days": "29 VI"
+            }
+        }
+    },
+    "07-11": {
+        "records/patrons/benedictus/nur": {
+            "name": {
+                "la": "Benedictus Nursinus",
+                "en": "Banadict of Nursia",
+                "pl": "Benedykt z Nursji"
+            },
+            "sources": {
+                "other-martyrology-days": "11 VII"
             }
         }
     },

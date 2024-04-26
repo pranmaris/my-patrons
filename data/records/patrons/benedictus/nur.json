@@ -1,0 +1,22 @@
+{
+  "names": {
+    "la": [
+      "Benedictus Nursinus",
+      "Benedictus de Nursia"
+    ],
+    "en": [
+      "Banadict of Nursia"
+    ],
+    "pl": [
+      "Benedykt z Nursji"
+    ]
+  },
+
+  "born": ["~480"],
+  "died": ["547-03-21"],
+
+  "also-in-martyrology": ["03-21", "07-11"],
+
+  "forenames": ["benedictus"],
+  "categories": ["vir", "abbas", "eremita"]
+}

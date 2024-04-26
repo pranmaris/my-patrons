@@ -71,6 +71,11 @@
             "en": "Augustine of Hippo",
             "pl": "Augustyn z Hippony"
         },
+        "records/patrons/benedictus/nur": {
+            "la": "Benedictus Nursinus",
+            "en": "Banadict of Nursia",
+            "pl": "Benedykt z Nursji"
+        },
         "records/patrons/bernardinus/sen": {
             "it": "Bernardino da Siena",
             "en": "Bernardine of Siena",

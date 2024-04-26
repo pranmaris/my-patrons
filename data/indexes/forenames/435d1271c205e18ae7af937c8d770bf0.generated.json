@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "Benedict"
+    },
+    "translations": {
+        "la": [
+            "Benedictus"
+        ],
+        "en": [
+            "Benedict"
+        ],
+        "pl": [
+            "Benedykt"
+        ]
+    },
+    "links": {
+        "records/patrons/benedictus/nur": {
+            "la": "Benedictus Nursinus",
+            "en": "Banadict of Nursia",
+            "pl": "Benedykt z Nursji"
+        }
+    }
+}

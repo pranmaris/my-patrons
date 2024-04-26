@@ -14,6 +14,11 @@
         ]
     },
     "links": {
+        "records/patrons/benedictus/nur": {
+            "la": "Benedictus Nursinus",
+            "en": "Banadict of Nursia",
+            "pl": "Benedykt z Nursji"
+        },
         "records/patrons/bruno/ere": {
             "de": "Bruno von Köln",
             "en": "Bruno of Cologne",
