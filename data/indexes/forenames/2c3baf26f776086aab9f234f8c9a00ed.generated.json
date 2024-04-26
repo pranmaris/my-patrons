@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Felix",
+        "en": "Felix"
+    },
+    "translations": {
+        "la": [
+            "Felix"
+        ],
+        "en": [
+            "Felix"
+        ],
+        "pl": [
+            "Feliks"
+        ]
+    },
+    "links": {
+        "records/patrons/sigismundus/fel": {
+            "pl": "Zygmunt Szczęsny Feliński",
+            "en": "Zygmunt Szczęsny Feliński",
+            "la": "Sigismundus Felix Feliński"
+        }
+    }
+}

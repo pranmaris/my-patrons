@@ -153,6 +153,11 @@
         "en": "Faustina",
         "pl": "Faustyna"
     },
+    "felix": {
+        "la": "Felix",
+        "en": "Felix",
+        "pl": "Feliks"
+    },
     "franciscus": {
         "la": "Franciscus",
         "en": "Francis",
@@ -393,6 +398,11 @@
         "la": "Saturninus",
         "en": "Saturnin",
         "pl": "Saturnin"
+    },
+    "sigismundus": {
+        "la": "Sigismundus",
+        "en": "Sigismund",
+        "pl": "Zygmunt"
     },
     "simon": {
         "la": "Simon",

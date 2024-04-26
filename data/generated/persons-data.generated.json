@@ -1850,6 +1850,24 @@
         ],
         "feasts": []
     },
+    "patrons/sigismundus": {
+        "names": {
+            "la": "Sigismundus",
+            "en": "Sigismund",
+            "pl": "Zygmunt"
+        }
+    },
+    "patrons/sigismundus/fel": {
+        "names": {
+            "pl": "Zygmunt Szczęsny Feliński",
+            "en": "Zygmunt Szczęsny Feliński",
+            "la": "Sigismundus Felix Feliński"
+        },
+        "died": [
+            "1895-09-17"
+        ],
+        "feasts": []
+    },
     "patrons/stephanus": {
         "names": {
             "la": "Stephanus",
