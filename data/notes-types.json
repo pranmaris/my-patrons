@@ -71,21 +71,6 @@
     },
     "source": {}
   },
-  "criterion-of-selecting-a-guardian-patron": {
-    "index": "criteria-of-selecting-guardian-patrons",
-    "name": {
-      "en": "criterion of selecting a Guardian Patron",
-      "pl": "kryterium wyboru Patrona Opiekuna"
-    },
-    "source": {
-      "list": [
-        {"1": ["lang-holy-card", " + ", "lang-representation"]},
-        {"2": ["lang-holy-card", " + ", "lang-mass"]},
-        {"3": ["lang-representation", " + ", "lang-mass"]},
-        {"4": ["lang-relics"]}
-      ]
-    }
-  },
   "criterion-of-selecting-a-defender-patron": {
     "index": "criteria-of-selecting-defender-patrons",
     "name": {
@@ -141,11 +126,52 @@
     },
     "source": {}
   },
+  "criterion-of-selecting-a-guardian-patron": {
+    "index": "criteria-of-selecting-guardian-patrons",
+    "name": {
+      "en": "criterion of selecting a Guardian Patron",
+      "pl": "kryterium wyboru Patrona Opiekuna"
+    },
+    "source": {
+      "list": [
+        {"1": ["lang-holy-card", " + ", "lang-representation"]},
+        {"2": ["lang-holy-card", " + ", "lang-mass"]},
+        {"3": ["lang-representation", " + ", "lang-mass"]},
+        {"4": ["lang-relics"]}
+      ]
+    }
+  },
+  "criterion-of-selecting-a-name-patron": {
+    "index": "criteria-of-selecting-name-patrons",
+    "name": {
+      "en": "criterion of selecting a Name Patron",
+      "pl": "kryterium wyboru Patrona Imienia"
+    },
+    "source": {
+      "list": [
+        {"1": ["lang-name-given-at-birth"]},
+        {"2": ["lang-baptismal-name"]},
+        {"3": ["lang-confirmation-name"]},
+        {"4": ["lang-religious-name"]},
+        {"5": ["lang-other-name"]}
+      ]
+    }
+  },
   "description": {
     "index": "descriptions",
     "name": {
       "en": "description",
       "pl": "opis"
+    },
+    "source": {
+      "values": "sorted"
+    }
+  },
+  "forename": {
+    "index": "forenames",
+    "name": {
+      "en": "forename",
+      "pl": "imię"
     },
     "source": {
       "values": "sorted"

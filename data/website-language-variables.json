@@ -68,6 +68,11 @@
         "pl": "wróć"
     },
 
+    "lang-baptismal-name": {
+        "en": "baptismal name",
+        "pl": "imię z Chrztu św."
+    },
+
     "lang-baptized-person": {
         "en": "baptized person",
         "pl": "osoba ochrzczona"
@@ -381,6 +386,11 @@
     "lang-concelebrant": {
         "en": "concelebrant",
         "pl": "koncelebrans"
+    },
+
+    "lang-confirmation-name": {
+        "en": "confirmation name",
+        "pl": "imię z Bierzmowania"
     },
 
     "lang-contact": {
@@ -879,6 +889,11 @@
         "pl": "nazwa"
     },
 
+    "lang-name-given-at-birth": {
+        "en": "name given at birth",
+        "pl": "imię nadane przy narodzinach"
+    },
+
     "lang-next": {
         "en": "next",
         "pl": "dalej"
@@ -1004,6 +1019,11 @@
     "lang-other-memorial-days": {
         "en": "other memorial days",
         "pl": "inne dni wspomnienia"
+    },
+
+    "lang-other-name": {
+        "en": "other name",
+        "pl": "inne imię "
     },
 
     "lang-other-service-name-for-language": {
@@ -1166,6 +1186,11 @@
     "lang-relics-of-the-ashes": {
         "en": "relics of the ashes",
         "pl": "relikwie popiołu"
+    },
+
+    "lang-religious-name": {
+        "en": "religious name",
+        "pl": "imię zakonne"
     },
 
     "lang-reliquary": {

@@ -1,0 +1,1 @@
+**Podziękuj** Patronowi swojego imienia (jest nim: „#person-name#”) za całe dobro, które zdążył już dla Ciebie uczynić i uczyni w przyszłości, robiąc to w odpowiedzi na świadomy wybór (Twój lub innych osób, np. Twoich rodziców).

@@ -1,5 +1,5 @@
 Wybierz Patrona, który:
-- nie jest jeszcze Twoim **Patronem Obrońcą** (bez obaw, Patronów wykluczyliśmy automatycznie z poniższej listy wyboru),
+- nie jest jeszcze Twoim **Patronem Obrońcą** (bez obaw, wybranych wcześniej Patronów wykluczyliśmy automatycznie z poniższej listy wyboru),
 - dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z następujących kryteriów** (tu musisz wybrać prawidłowego Patrona ręcznie):
   - Martyrologium Rzymskie<sup>1</sup>,
   - wiarygodna rocznica śmierci<sup>2</sup>,

@@ -2080,5 +2080,88 @@
         }
       }
     }
+  },
+
+  "Y": {
+    "name": {
+      "pl": "Patron Imienia"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/patron-imienia"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "addition-type": "",
+    "person": {
+      "types": ["God", "Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/patron-imienia"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["H"],
+        "person-not-having-challenges": ["Y"]
+      }
+    },
+    "checklist": {
+      "acknowledgement": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "podziękuj Patronowi swojego imienia"
+        },
+        "description": {
+          "params": ["person-name"],
+          "template": {
+            "pl": "pl/kroki/podziekuj-patronowi-swojego-imienia"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "forename": {
+        "type": {
+          "forename": [1, 1]
+        },
+        "name": {
+          "pl": "posiadane imię"
+        }
+      },
+      "criterion": {
+        "type": {
+          "criterion-of-selecting-a-name-patron": [1, 0]
+        },
+        "name": {
+          "pl": "kryterium wyboru Patrona Imienia"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
   }
 }
