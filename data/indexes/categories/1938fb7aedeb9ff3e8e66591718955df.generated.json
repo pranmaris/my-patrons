@@ -55,6 +55,12 @@
             "la": "Gaspar del Bufalo",
             "pl": "Kasper del Bufalo"
         },
+        "records/patrons/philippus/ner": {
+            "it": "Filippo Neri",
+            "en": "Fhilip Neri",
+            "la": "Fhilippus Nerius",
+            "pl": "Filip Neri"
+        },
         "records/patrons/vincentius/pau": {
             "fr": "Vincent de Paul",
             "en": "Vincent de Paul",

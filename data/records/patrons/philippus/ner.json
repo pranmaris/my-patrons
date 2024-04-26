@@ -1,0 +1,47 @@
+{
+  "names": {
+    "it": [
+      "Filippo Neri",
+      "Filippo Romolo Neri"
+    ],
+    "en": [
+      "Fhilip Neri",
+      "Fhilip Romolo Neri"
+    ],
+    "la": [
+      "Fhilippus Nerius",
+      "Fhilippus Romulus Nerius"
+    ],
+    "pl": [
+      "Filip Neri",
+      "Filip Nereusz",
+      "Filip Neriusz"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Neri"
+    }
+  ],
+
+  "born": ["1515-07-21"],
+  "died": ["1595-05-26"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1615-05-11"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1622-03-12"
+  },
+
+  "also-in-martyrology": ["05-26"],
+
+  "forenames": ["philippus"],
+  "categories": ["vir", "confessor", "presbyter", "conditor-ordo"],
+
+  "order": ["cor"],
+  "order-founder": ["cor"]
+}

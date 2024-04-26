@@ -1656,6 +1656,25 @@
             }
         }
     },
+    "patrons/philippus": {
+        "names": {
+            "la": "Philippus",
+            "en": "Philip",
+            "pl": "Filip"
+        }
+    },
+    "patrons/philippus/ner": {
+        "names": {
+            "it": "Filippo Neri",
+            "en": "Fhilip Neri",
+            "la": "Fhilippus Nerius",
+            "pl": "Filip Neri"
+        },
+        "died": [
+            "1595-05-26"
+        ],
+        "feasts": []
+    },
     "patrons/pius": {
         "names": {
             "la": "Pius",

@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Neri"
+    },
+    "translations": {
+        "it": [
+            "Neri"
+        ]
+    },
+    "links": {
+        "records/patrons/philippus/ner": {
+            "it": "Filippo Neri",
+            "en": "Fhilip Neri",
+            "la": "Fhilippus Nerius",
+            "pl": "Filip Neri"
+        }
+    }
+}

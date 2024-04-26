@@ -134,6 +134,12 @@
             "la": "Patricius episcopus in Hibernia",
             "pl": "Patryk z Irlandii"
         },
+        "records/patrons/philippus/ner": {
+            "it": "Filippo Neri",
+            "en": "Fhilip Neri",
+            "la": "Fhilippus Nerius",
+            "pl": "Filip Neri"
+        },
         "records/patrons/richarius/cen": {
             "fr": "Riquier de Centule",
             "en": "Richarius of Centula",

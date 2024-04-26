@@ -191,6 +191,20 @@
             }
         }
     },
+    "05-26": {
+        "records/patrons/philippus/ner": {
+            "name": {
+                "it": "Filippo Neri",
+                "en": "Fhilip Neri",
+                "la": "Fhilippus Nerius",
+                "pl": "Filip Neri"
+            },
+            "sources": {
+                "reliable-death-anniversary": "26 V",
+                "other-martyrology-days": "26 V"
+            }
+        }
+    },
     "06-03": {
         "records/patrons/ioannes/23p": {
             "name": {

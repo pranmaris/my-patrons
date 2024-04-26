@@ -78,6 +78,12 @@
             "la": "Ioannes Maria Vianney",
             "pl": "Jan Maria Vianney"
         },
+        "records/patrons/philippus/ner": {
+            "it": "Filippo Neri",
+            "en": "Fhilip Neri",
+            "la": "Fhilippus Nerius",
+            "pl": "Filip Neri"
+        },
         "records/patrons/pius/pie": {
             "it": "Pio da Pietrelcina",
             "en": "Pio of Pietrelcina",
