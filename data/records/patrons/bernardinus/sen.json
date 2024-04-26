@@ -1,0 +1,32 @@
+{
+  "names": {
+    "it": [
+      "Bernardino da Siena",
+      "Bernardino degli Albizzeschi"
+    ],
+    "en": [
+      "Bernardine of Siena"
+    ],
+    "la": [
+      "Bernardinus Senensis"
+    ],
+    "pl": [
+      "Bernardyn ze Sieny"
+    ]
+  },
+
+  "born": ["1380-09-08"],
+  "died": ["1444-05-20"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1450-05-24"
+  },
+
+  "also-in-martyrology": ["05-20"],
+
+  "forenames": ["bernardinus"],
+  "categories": ["vir", "confessor", "sacerdos", "presbyter"],
+
+  "order": ["ofm"]
+}

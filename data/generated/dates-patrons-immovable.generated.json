@@ -141,6 +141,18 @@
         }
     },
     "05-20": {
+        "records/patrons/bernardinus/sen": {
+            "name": {
+                "it": "Bernardino da Siena",
+                "en": "Bernardine of Siena",
+                "la": "Bernardinus Senensis",
+                "pl": "Bernardyn ze Sieny"
+            },
+            "sources": {
+                "reliable-death-anniversary": "20 V",
+                "other-martyrology-days": "20 V"
+            }
+        },
         "records/patrons/lydia/thy": {
             "name": {
                 "la": "Lydia Thyatirensis",

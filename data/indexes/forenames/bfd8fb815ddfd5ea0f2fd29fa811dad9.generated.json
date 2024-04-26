@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Bernardyn"
+    },
+    "translations": {
+        "la": [
+            "Bernardinus"
+        ],
+        "en": [
+            "Bernardine"
+        ],
+        "pl": [
+            "Bernardyn"
+        ],
+        "it": [
+            "Bernardino"
+        ]
+    },
+    "links": {
+        "records/patrons/bernardinus/sen": {
+            "it": "Bernardino da Siena",
+            "en": "Bernardine of Siena",
+            "la": "Bernardinus Senensis",
+            "pl": "Bernardyn ze Sieny"
+        }
+    }
+}

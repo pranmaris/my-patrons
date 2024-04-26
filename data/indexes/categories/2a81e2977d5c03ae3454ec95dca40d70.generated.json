@@ -31,6 +31,12 @@
             "en": "Anthony of Padua",
             "pl": "Antoni Padewski"
         },
+        "records/patrons/bernardinus/sen": {
+            "it": "Bernardino da Siena",
+            "en": "Bernardine of Siena",
+            "la": "Bernardinus Senensis",
+            "pl": "Bernardyn ze Sieny"
+        },
         "records/patrons/bruno/ere": {
             "de": "Bruno von Köln",
             "en": "Bruno of Cologne",

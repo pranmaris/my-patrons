@@ -512,6 +512,26 @@
             }
         }
     },
+    "patrons/bernardinus": {
+        "names": {
+            "la": "Bernardinus",
+            "en": "Bernardine",
+            "pl": "Bernardyn",
+            "it": "Bernardino"
+        }
+    },
+    "patrons/bernardinus/sen": {
+        "names": {
+            "it": "Bernardino da Siena",
+            "en": "Bernardine of Siena",
+            "la": "Bernardinus Senensis",
+            "pl": "Bernardyn ze Sieny"
+        },
+        "died": [
+            "1444-05-20"
+        ],
+        "feasts": []
+    },
     "patrons/bruno": {
         "names": {
             "la": "Bruno",
