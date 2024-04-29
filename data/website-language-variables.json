@@ -313,6 +313,11 @@
         "pl": "to wyzwanie jest niedozwoloną duplikacją wcześniejszego wyzwania"
     },
 
+    "lang-challenges": {
+        "en": "challenges",
+        "pl": "wyzwania"
+    },
+
     "lang-challenges-card-challenge-column-header": {
         "en": "challenge type and its number (if exists)",
         "pl": "typ wyzwania oraz jego numer (jeśli istnieje)"
