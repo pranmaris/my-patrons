@@ -768,8 +768,8 @@
     },
 
     "lang-license": {
-        "en": "Content is available under <a href=\"#lang-source-link|original##license\">CC BY-NC-SA 4.0</a> unless otherwise noted.",
-        "pl": "Treść udostępniona na licencji <a href=\"#lang-source-link|original##license\">CC BY-NC-SA 4.0</a>, jeśli nie podano inaczej."
+        "en": "all rights reserved",
+        "pl": "wszystkie prawa zastrzeżone"
     },
 
     "lang-link-to-source": {
