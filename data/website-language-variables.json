@@ -528,6 +528,11 @@
         "pl": "data, rok lub stulecie śmierci"
     },
 
+    "lang-description": {
+        "en": "description",
+        "pl": "opis"
+    },
+
     "lang-donate": {
         "en": "",
         "pl": "<img class=\"svg-image\" src=\"/files/resources/svg/cup-hot-fill.svg\" />"
@@ -597,6 +602,11 @@
     "lang-error-other": {
         "en": "An unexpected error has occured!",
         "pl": "Wystąpił nieoczekiwany błąd!"
+    },
+
+    "lang-expand": {
+        "en": "expand",
+        "pl": "rozwiń"
     },
 
     "lang-export-values-to-json": {

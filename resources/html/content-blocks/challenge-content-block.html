@@ -1,13 +1,22 @@
-<div id="#type#" class="challenge-content-block description-area">
+<div id="#type#" class="challenge-content-block">
   <hr />
-  <span class="status status-list"><span class="status status-list">#type#</span> #name#</span>
-  <!--<br />-->
-  #lang-coming-soon# ...
-  <!--Challenge description: #desc#-->
-  <!--<br />-->
-  <!--Challenge person description: #person-desc#-->
-  <!--<br />-->
-  <!--Challenge checklist steps: #checklist-steps#-->
-  <!--<br />-->
-  <!--Challenge notes: #notes#-->
+  <span onclick="showChallenge('#element-id#')" class="status status-list description-area"><span class="status status-list">#type#</span> #name#</span>
+  <ul id="#element-id#" class="challenge-expandable">
+    <li>
+      <span>#lang-description|capitalize#:</span>
+      <div class="description-area" onclick="loadDescription(this, '#desc#')"><span class="expand-button">#lang-expand|capitalize#</span></div>
+    </li>
+    <li>
+      <span>#lang-person|capitalize#:</span>
+      <div class="description-area" onclick="loadDescription(this, '#person-desc#')"><span class="expand-button">#lang-expand|capitalize#</span></div>
+    </li>
+    <li>
+      #lang-checklist|capitalize#:
+      <ul>#checklist-steps#</ul>
+    </li>
+    <li>
+      #lang-notes|capitalize#:
+      <ul>#notes#</ul>
+    </li>
+  </ul>
 </div>

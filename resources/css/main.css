@@ -702,3 +702,7 @@ iframe {
   border-color: white;
   background-color: rgb(0, 100, 100);
 }
+
+.expand-button {
+  color: rgb(0, 100, 100);
+}
