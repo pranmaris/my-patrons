@@ -20,6 +20,12 @@
             "la": "Adalbertus Pragensis",
             "pl": "Wojciech Sławnikowic"
         },
+        "records/patrons/david/men": {
+            "cy": "Dewi Sant",
+            "en": "David of Menevia",
+            "la": "David episcopus Meneviensis",
+            "pl": "Dawid z Menevii"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",

@@ -104,6 +104,12 @@
             "en": "Chrysanthus (with Daria)",
             "pl": "Chryzant (z Darią)"
         },
+        "records/patrons/david/men": {
+            "cy": "Dewi Sant",
+            "en": "David of Menevia",
+            "la": "David episcopus Meneviensis",
+            "pl": "Dawid z Menevii"
+        },
         "records/patrons/david/oke": {
             "sw": "Daudi Okelo",
             "en": "David Okelo",

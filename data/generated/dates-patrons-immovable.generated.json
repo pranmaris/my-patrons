@@ -23,6 +23,20 @@
             }
         }
     },
+    "03-01": {
+        "records/patrons/david/men": {
+            "name": {
+                "cy": "Dewi Sant",
+                "en": "David of Menevia",
+                "la": "David episcopus Meneviensis",
+                "pl": "Dawid z Menevii"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 III",
+                "other-martyrology-days": "1 III"
+            }
+        }
+    },
     "03-04": {
         "records/patrons/casimirus/pri": {
             "name": {

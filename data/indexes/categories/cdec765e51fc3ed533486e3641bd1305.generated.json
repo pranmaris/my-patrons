@@ -37,6 +37,12 @@
             "en": "Augustine of Hippo",
             "pl": "Augustyn z Hippony"
         },
+        "records/patrons/david/men": {
+            "cy": "Dewi Sant",
+            "en": "David of Menevia",
+            "la": "David episcopus Meneviensis",
+            "pl": "Dawid z Menevii"
+        },
         "records/patrons/eusebius/ver": {
             "la": "Eusebius Vercellensis",
             "en": "Eusebius of Vercelli",

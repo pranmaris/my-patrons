@@ -724,8 +724,21 @@
             "la": "David",
             "en": "David",
             "pl": "Dawid",
+            "cy": "Dewi",
             "sw": "Daudi"
         }
+    },
+    "patrons/david/men": {
+        "names": {
+            "cy": "Dewi Sant",
+            "en": "David of Menevia",
+            "la": "David episcopus Meneviensis",
+            "pl": "Dawid z Menevii"
+        },
+        "died": [
+            "~601-03-01"
+        ],
+        "feasts": []
     },
     "patrons/david/oke": {
         "names": {
