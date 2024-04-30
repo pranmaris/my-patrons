@@ -110,6 +110,11 @@
         "pl": "Klara",
         "it": "Chiara"
     },
+    "cunegundis": {
+        "la": "Cunegundis",
+        "en": "CUnegunda",
+        "pl": "Kunegunda"
+    },
     "daria": {
         "la": "Daria",
         "en": "Daria",
@@ -239,6 +244,11 @@
         "la": "Iosephus",
         "en": "Joseph",
         "pl": "Józef"
+    },
+    "kinga": {
+        "la": "Kinga",
+        "en": "Kinga",
+        "pl": "Kinga"
     },
     "laurentius": {
         "la": "Laurentius",

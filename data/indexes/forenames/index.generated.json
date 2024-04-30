@@ -565,6 +565,9 @@
     "bfd8fb815ddfd5ea0f2fd29fa811dad9": {
         "pl": "Bernardyn"
     },
+    "c112fe0eef9a4432bba977684704a23b": {
+        "en": "CUnegunda"
+    },
     "c13791dacd682a46cfdb398273dfb8ea": {
         "pl": "Euzebiusz"
     },
@@ -608,6 +611,14 @@
     },
     "cec837d1a130a76d5f9e231cbd431673": {
         "la": "Oswaldus"
+    },
+    "cf54484152585938a98f86df5ba3316d": {
+        "la": "Kinga",
+        "en": "Kinga",
+        "pl": "Kinga"
+    },
+    "d0c6172432cf8adbf75e1aea6e74287d": {
+        "la": "Cunegundis"
     },
     "d0d9b90ccdd0c7ba5bb6498d9c501e11": {
         "la": "Iosephus"
@@ -697,6 +708,9 @@
     "ea833736b3e0774e89542f3a83395083": {
         "en": "Leonard",
         "pl": "Leonard"
+    },
+    "ecd1f2b0ac358efaf20ebd68e8967b14": {
+        "pl": "Kunegunda"
     },
     "ee1fe2fc02285ef1035c56cd4300d7a5": {
         "pl": "Gaudenty"

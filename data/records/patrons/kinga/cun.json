@@ -1,0 +1,35 @@
+{
+  "names": {
+    "pl": [
+      "Kinga",
+      "Kunegunda"
+    ],
+    "en": [
+      "Kinga of Poland",
+      "Kinga of Hungary",
+      "Cunegunda"
+    ],
+    "la": [
+      "Kinga seu Cunegundis"
+    ]
+  },
+
+  "born": ["1224-03-05", "1234-03-05"],
+  "died": ["1293-07-24"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1690-06-10"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1999-06-16"
+  },
+
+  "also-in-martyrology": ["07-24"],
+
+  "forenames": ["kinga", "cunegundis"],
+  "categories": ["femina", "virgo", "monialis", "ducissa"],
+
+  "order": ["osc"]
+}

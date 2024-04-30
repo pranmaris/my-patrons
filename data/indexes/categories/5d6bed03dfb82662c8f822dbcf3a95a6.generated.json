@@ -19,6 +19,11 @@
             "en": "Hedwig of Silesia",
             "la": "Hedwigis ducissa Polonorum",
             "pl": "Jadwiga Śląska"
+        },
+        "records/patrons/kinga/cun": {
+            "pl": "Kinga",
+            "en": "Kinga of Poland",
+            "la": "Kinga seu Cunegundis"
         }
     }
 }

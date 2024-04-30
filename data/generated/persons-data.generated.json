@@ -1186,6 +1186,24 @@
             }
         }
     },
+    "patrons/kinga": {
+        "names": {
+            "la": "Kinga",
+            "en": "Kinga",
+            "pl": "Kinga"
+        }
+    },
+    "patrons/kinga/cun": {
+        "names": {
+            "pl": "Kinga",
+            "en": "Kinga of Poland",
+            "la": "Kinga seu Cunegundis"
+        },
+        "died": [
+            "1293-07-24"
+        ],
+        "feasts": []
+    },
     "patrons/laurentius": {
         "names": {
             "la": "Laurentius",

@@ -1,16 +1,18 @@
 {
     "names": {
-        "la": "monialis"
+        "la": "Kinga",
+        "en": "Kinga",
+        "pl": "Kinga"
     },
     "translations": {
         "la": [
-            "monialis"
+            "Kinga"
         ],
         "en": [
-            "nun"
+            "Kinga"
         ],
         "pl": [
-            "mniszka"
+            "Kinga"
         ]
     },
     "links": {
@@ -18,12 +20,6 @@
             "pl": "Kinga",
             "en": "Kinga of Poland",
             "la": "Kinga seu Cunegundis"
-        },
-        "records/patrons/rita/cas": {
-            "it": "Rita da Cascia",
-            "en": "Rita of Cascia",
-            "la": "Rita de Cassia",
-            "pl": "Rita z Cascii"
         }
     }
 }

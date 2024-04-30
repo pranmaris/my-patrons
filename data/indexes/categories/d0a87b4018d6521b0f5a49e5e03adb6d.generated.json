@@ -40,6 +40,11 @@
             "la": "Clara Assisiensis",
             "pl": "Klara z Asyżu"
         },
+        "records/patrons/kinga/cun": {
+            "pl": "Kinga",
+            "en": "Kinga of Poland",
+            "la": "Kinga seu Cunegundis"
+        },
         "records/patrons/lucia/syr": {
             "it": "Lucia da Siracusa",
             "en": "Lucia of Syracuse",

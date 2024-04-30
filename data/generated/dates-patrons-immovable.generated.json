@@ -296,6 +296,17 @@
         }
     },
     "07-24": {
+        "records/patrons/kinga/cun": {
+            "name": {
+                "pl": "Kinga",
+                "en": "Kinga of Poland",
+                "la": "Kinga seu Cunegundis"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 VII",
+                "other-martyrology-days": "24 VII"
+            }
+        },
         "records/patrons/sarbelius/mak": {
             "name": {
                 "ar": "شربل مخلوف",
