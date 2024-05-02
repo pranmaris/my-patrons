@@ -1402,6 +1402,13 @@
                     "pl": "Oczyszczenie Błogosławionej Maryi Dziewicy"
                 }
             },
+            "feasts/vis": {
+                "names": {
+                    "la": "Visitatio Beatae Mariae Virginis",
+                    "en": "The Visitation of the Blessed Virgin Mary",
+                    "pl": "Nawiedzenie Błogosławionej Maryi Dziewicy"
+                }
+            },
             "feasts/amv": {
                 "names": {
                     "la": "Vigilia Assumptionis Beatae Mariae Virginis",

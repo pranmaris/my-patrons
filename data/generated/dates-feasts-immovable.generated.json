@@ -204,6 +204,18 @@
             }
         }
     },
+    "05-31": {
+        "records/patrons/maria/naz#vis": {
+            "name": {
+                "la": "Maria Virgo (Visitatio Beatae Mariae Virginis)",
+                "en": "Mary, mother of Jesus (The Visitation of the Blessed Virgin Mary)",
+                "pl": "Maria z Nazaretu (Nawiedzenie Błogosławionej Maryi Dziewicy)"
+            },
+            "sources": {
+                "mr-2004": "31 V: #1"
+            }
+        }
+    },
     "06-24": {
         "records/patrons/ioannes/bap#nib": {
             "name": {
@@ -236,6 +248,19 @@
             "sources": {
                 "mr-1956": "28 VI: #1",
                 "mr-1960": "28 VI: #1"
+            }
+        }
+    },
+    "07-02": {
+        "records/patrons/maria/naz#vis": {
+            "name": {
+                "la": "Maria Virgo (Visitatio Beatae Mariae Virginis)",
+                "en": "Mary, mother of Jesus (The Visitation of the Blessed Virgin Mary)",
+                "pl": "Maria z Nazaretu (Nawiedzenie Błogosławionej Maryi Dziewicy)"
+            },
+            "sources": {
+                "mr-1956": "2 VII: #1",
+                "mr-1960": "2 VII: #1"
             }
         }
     },
