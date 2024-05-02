@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Fulgencjusz"
+    },
+    "translations": {
+        "la": [
+            "Fulgentius"
+        ],
+        "en": [
+            "Fulgentius"
+        ],
+        "pl": [
+            "Fulgencjusz"
+        ]
+    },
+    "links": {
+        "records/patrons/fulgentius/rus": {
+            "la": "Fulgentius Ruspensis",
+            "en": "Fulgentius of Ruspe",
+            "pl": "Fulgencjusz z Ruspe"
+        }
+    }
+}

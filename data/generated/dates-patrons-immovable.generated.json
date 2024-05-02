@@ -1,4 +1,17 @@
 {
+    "01-01": {
+        "records/patrons/fulgentius/rus": {
+            "name": {
+                "la": "Fulgentius Ruspensis",
+                "en": "Fulgentius of Ruspe",
+                "pl": "Fulgencjusz z Ruspe"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 I",
+                "other-martyrology-days": "1 I"
+            }
+        }
+    },
     "01-21": {
         "records/patrons/agnes/rom": {
             "name": {

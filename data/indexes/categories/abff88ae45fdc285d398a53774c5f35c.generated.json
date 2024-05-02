@@ -73,6 +73,11 @@
             "la": "Franciscus Xavier",
             "pl": "Franciszek Ksawery"
         },
+        "records/patrons/fulgentius/rus": {
+            "la": "Fulgentius Ruspensis",
+            "en": "Fulgentius of Ruspe",
+            "pl": "Fulgencjusz z Ruspe"
+        },
         "records/patrons/hormisdas/1pp": {
             "la": "Hormisdas",
             "en": "Hormisdas",

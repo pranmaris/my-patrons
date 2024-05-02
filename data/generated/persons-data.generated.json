@@ -891,6 +891,24 @@
         ],
         "feasts": []
     },
+    "patrons/fulgentius": {
+        "names": {
+            "la": "Fulgentius",
+            "en": "Fulgentius",
+            "pl": "Fulgencjusz"
+        }
+    },
+    "patrons/fulgentius/rus": {
+        "names": {
+            "la": "Fulgentius Ruspensis",
+            "en": "Fulgentius of Ruspe",
+            "pl": "Fulgencjusz z Ruspe"
+        },
+        "died": [
+            "~533-01-01"
+        ],
+        "feasts": []
+    },
     "patrons/gabriel": {
         "names": {
             "la": "Gabriel",

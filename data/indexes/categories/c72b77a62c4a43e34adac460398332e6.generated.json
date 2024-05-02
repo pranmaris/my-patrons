@@ -150,6 +150,11 @@
             "la": "Franciscus Xavier",
             "pl": "Franciszek Ksawery"
         },
+        "records/patrons/fulgentius/rus": {
+            "la": "Fulgentius Ruspensis",
+            "en": "Fulgentius of Ruspe",
+            "pl": "Fulgencjusz z Ruspe"
+        },
         "records/patrons/gaspar/buf": {
             "it": "Gaspare del Bufalo",
             "en": "Gaspar del Bufalo",

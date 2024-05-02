@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Fulgentius Ruspensis"
+    ],
+    "en": [
+      "Fulgentius of Ruspe"
+    ],
+    "pl": [
+      "Fulgencjusz z Ruspe"
+    ]
+  },
+
+  "born": ["~465"],
+  "died": ["~533-01-01"],
+
+  "also-in-martyrology": ["01-01"],
+
+  "forenames": ["fulgentius"],
+  "categories": ["vir", "confessor", "episcopus", "monachus"]
+}
