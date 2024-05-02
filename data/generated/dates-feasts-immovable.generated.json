@@ -295,6 +295,20 @@
             }
         }
     },
+    "07-16": {
+        "records/patrons/maria/naz#mmc": {
+            "name": {
+                "en": "Mary, mother of Jesus (Blessed Maria Virgin of Mount Carmel)",
+                "la": "Maria Virgo (Beatae Maria Virgo de Monte Carmelo)",
+                "pl": "Maria z Nazaretu (Błogosławiona Maryja Dziewica z Góry Karmel)"
+            },
+            "sources": {
+                "mr-1956": "16 VII: #1",
+                "mr-1960": "16 VII: #1",
+                "mr-2004": "16 VII: #1"
+            }
+        }
+    },
     "08-01": {
         "records/patrons/petrus/apo#pav": {
             "name": {

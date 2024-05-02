@@ -24,6 +24,11 @@
         "en": "June",
         "pl": "Czerwiec"
     },
+    "iulius": {
+        "la": "Iulius",
+        "en": "July",
+        "pl": "Lipiec"
+    },
     "augustus": {
         "la": "Augustus",
         "en": "August",
