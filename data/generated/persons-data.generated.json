@@ -1422,6 +1422,13 @@
                     "pl": "Wniebowzięcie Najświętszej Maryi Panny"
                 }
             },
+            "feasts/reg": {
+                "names": {
+                    "la": "Beatae Maria Virgo Regina",
+                    "en": "The Blessed Virgin Mary, Queen",
+                    "pl": "Błogosławiona Maria Dziewica Królowa"
+                }
+            },
             "feasts/amo": {
                 "names": {
                     "la": "Octava Assumptionis Beatae Mariae Virginis",

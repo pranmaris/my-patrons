@@ -205,6 +205,17 @@
         }
     },
     "05-31": {
+        "records/patrons/maria/naz#reg": {
+            "name": {
+                "la": "Maria Virgo (Beatae Maria Virgo Regina)",
+                "en": "Mary, mother of Jesus (The Blessed Virgin Mary, Queen)",
+                "pl": "Maria z Nazaretu (Błogosławiona Maria Dziewica Królowa)"
+            },
+            "sources": {
+                "mr-1956": "31 V: #1",
+                "mr-1960": "31 V: #1"
+            }
+        },
         "records/patrons/maria/naz#vis": {
             "name": {
                 "la": "Maria Virgo (Visitatio Beatae Mariae Virginis)",
@@ -353,6 +364,16 @@
             "sources": {
                 "mr-1956": "22 VIII: #2",
                 "mr-1960": "22 VIII: #1"
+            }
+        },
+        "records/patrons/maria/naz#reg": {
+            "name": {
+                "la": "Maria Virgo (Beatae Maria Virgo Regina)",
+                "en": "Mary, mother of Jesus (The Blessed Virgin Mary, Queen)",
+                "pl": "Maria z Nazaretu (Błogosławiona Maria Dziewica Królowa)"
+            },
+            "sources": {
+                "mr-2004": "22 VIII: #1"
             }
         }
     },

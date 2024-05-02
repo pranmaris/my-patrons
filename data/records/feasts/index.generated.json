@@ -226,6 +226,11 @@
         "la": "Romae Litaníae minores ad sanctum Petrum",
         "pl": "Rzymska mała procesja błagalna do świętego Piotra"
     },
+    "reg": {
+        "la": "Beatae Maria Virgo Regina",
+        "en": "The Blessed Virgin Mary, Queen",
+        "pl": "Błogosławiona Maria Dziewica Królowa"
+    },
     "res": {
         "la": "Resurrectio Iesu Christi",
         "pl": "Zmartwychwstanie Jezusa Chrystusa"
