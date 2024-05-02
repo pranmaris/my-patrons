@@ -211,6 +211,13 @@
                     "pl": "Przemienienie Pańskie"
                 }
             },
+            "feasts/exa": {
+                "names": {
+                    "la": "Exaltatio Satnctae Crucis",
+                    "en": "The Exaltation of the Holy Cross",
+                    "pl": "Podwyższenie Krzyża Świętego"
+                }
+            },
             "feasts/dbl": {
                 "names": {
                     "la": "Dedicatio Basilicae Lateranensis in Romae",

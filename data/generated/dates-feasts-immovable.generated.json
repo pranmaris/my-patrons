@@ -321,6 +321,20 @@
             }
         }
     },
+    "09-14": {
+        "records/god/fil#exa": {
+            "name": {
+                "la": "Iesus Christus (Exaltatio Satnctae Crucis)",
+                "en": "Jesus Christ (The Exaltation of the Holy Cross)",
+                "pl": "Jezus Chrystus (Podwyższenie Krzyża Świętego)"
+            },
+            "sources": {
+                "mr-1956": "14 IX: #1",
+                "mr-1960": "14 IX: #1",
+                "mr-2004": "14 IX: #1"
+            }
+        }
+    },
     "09-15": {
         "records/patrons/maria/naz#per": {
             "name": {
