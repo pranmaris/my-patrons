@@ -90,6 +90,13 @@
                     "pl": "Niedziela Siedemdziesiątnicy"
                 }
             },
+            "feasts/prd": {
+                "names": {
+                    "la": "Praesentatio Domini",
+                    "en": "The Presentation of Jesus",
+                    "pl": "Ofiarowanie Pańskie"
+                }
+            },
             "feasts/dci": {
                 "names": {
                     "en": "Ash Wednesday",

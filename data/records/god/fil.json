@@ -121,6 +121,11 @@
         "mr-1956-movable": ["1:#4"]
       }
     },
+    "prd": {
+      "data-links": {
+        "mr-2004": ["1:feb/2#1"]
+      }
+    },
     "dci": {
       "data-links": {
         "mr-2004-movable": ["1:#4"],

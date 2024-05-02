@@ -95,6 +95,18 @@
             }
         }
     },
+    "02-02": {
+        "records/god/fil#prd": {
+            "name": {
+                "la": "Iesus Christus (Praesentatio Domini)",
+                "en": "Jesus Christ (The Presentation of Jesus)",
+                "pl": "Jezus Chrystus (Ofiarowanie Pańskie)"
+            },
+            "sources": {
+                "mr-2004": "2 II: #1"
+            }
+        }
+    },
     "02b29": {
         "records/patrons/augustinus/hip#tah": {
             "name": {
