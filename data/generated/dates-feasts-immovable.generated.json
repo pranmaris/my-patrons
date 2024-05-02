@@ -404,6 +404,19 @@
             }
         }
     },
+    "09-12": {
+        "records/patrons/maria/naz#snm": {
+            "name": {
+                "la": "Maria Virgo (Sanctissimum Nomen beate Virginis Mariae)",
+                "pl": "Maria z Nazaretu (Najświętsze Imię Błogosławionej Maryi Dziewicy)"
+            },
+            "sources": {
+                "mr-1956": "12 IX: #1",
+                "mr-1960": "12 IX: #1",
+                "mr-2004": "12 IX: #1"
+            }
+        }
+    },
     "09-14": {
         "records/god/fil#exa": {
             "name": {

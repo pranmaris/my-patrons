@@ -1466,6 +1466,12 @@
                     "pl": "Niepokalane Serce Najświętszej Maryi Panny"
                 }
             },
+            "feasts/snm": {
+                "names": {
+                    "la": "Sanctissimum Nomen beate Virginis Mariae",
+                    "pl": "Najświętsze Imię Błogosławionej Maryi Dziewicy"
+                }
+            },
             "feasts/per": {
                 "names": {
                     "la": "Beate Maria Virgo Perdolentis",
