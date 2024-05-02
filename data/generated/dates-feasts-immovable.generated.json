@@ -443,6 +443,20 @@
             }
         }
     },
+    "11-21": {
+        "records/patrons/maria/naz#prm": {
+            "name": {
+                "la": "Maria Virgo (Praesentatio Beatae Mariae Virginis)",
+                "en": "Mary, mother of Jesus (The Presentation of the Blessed Virgin Mary)",
+                "pl": "Maria z Nazaretu (Ofiarowanie Błogosławionej Maryi Dziewicy)"
+            },
+            "sources": {
+                "mr-1956": "21 XI: #1",
+                "mr-1960": "21 XI: #1",
+                "mr-2004": "21 XI: #1"
+            }
+        }
+    },
     "12-15": {
         "records/patrons/eusebius/ver#oev": {
             "name": {

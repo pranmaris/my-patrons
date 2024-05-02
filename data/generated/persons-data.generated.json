@@ -1395,13 +1395,6 @@
                     "pl": "Najświętsza Maryja Panna Święta Boża Rodzicielka"
                 }
             },
-            "feasts/mat": {
-                "names": {
-                    "en": "The Motherhood of the Blessed Virgin Mary",
-                    "la": "Maternitatem beatae Mariae Virginis",
-                    "pl": "Macierzyństwo błogosławionej Maryi Dziewicy"
-                }
-            },
             "feasts/pur": {
                 "names": {
                     "la": "Purificatio Beatae Mariae Virginis",
@@ -1456,6 +1449,20 @@
                 "names": {
                     "la": "Beate Maria Virgo Perdolentis",
                     "pl": "Matka Boska Bolesna"
+                }
+            },
+            "feasts/mat": {
+                "names": {
+                    "en": "The Motherhood of the Blessed Virgin Mary",
+                    "la": "Maternitatem beatae Mariae Virginis",
+                    "pl": "Macierzyństwo błogosławionej Maryi Dziewicy"
+                }
+            },
+            "feasts/prm": {
+                "names": {
+                    "la": "Praesentatio Beatae Mariae Virginis",
+                    "en": "The Presentation of the Blessed Virgin Mary",
+                    "pl": "Ofiarowanie Błogosławionej Maryi Dziewicy"
                 }
             },
             "feasts/mrp": {
