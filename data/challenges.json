@@ -2082,7 +2082,7 @@
     }
   },
 
-  "Y": {
+  "YN": {
     "name": {
       "pl": "Patron Imienia"
     },
@@ -2105,7 +2105,7 @@
       },
       "requirements": {
         "anybody-having-challenges": ["H"],
-        "person-not-having-challenges": ["Y"]
+        "person-not-having-challenges": ["YN"]
       }
     },
     "checklist": {
