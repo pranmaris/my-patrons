@@ -36,6 +36,12 @@
             "la": "Ioannes Baptista",
             "pl": "Jan Chrzciciel"
         },
+        "records/patrons/ioannes/bos": {
+            "it": "Giovanni Bosco",
+            "en": "John Bosco",
+            "la": "Ioannes Bosco",
+            "pl": "Jan Bosko"
+        },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",

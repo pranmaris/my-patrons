@@ -55,6 +55,12 @@
             "la": "Gaspar del Bufalo",
             "pl": "Kasper del Bufalo"
         },
+        "records/patrons/ioannes/bos": {
+            "it": "Giovanni Bosco",
+            "en": "John Bosco",
+            "la": "Ioannes Bosco",
+            "pl": "Jan Bosko"
+        },
         "records/patrons/philippus/ner": {
             "it": "Filippo Neri",
             "en": "Fhilip Neri",

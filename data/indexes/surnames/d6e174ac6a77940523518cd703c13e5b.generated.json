@@ -1,0 +1,21 @@
+{
+    "names": {
+        "pl": "Bosko"
+    },
+    "translations": {
+        "it": [
+            "Bosco"
+        ],
+        "pl": [
+            "Bosko"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/bos": {
+            "it": "Giovanni Bosco",
+            "en": "John Bosco",
+            "la": "Ioannes Bosco",
+            "pl": "Jan Bosko"
+        }
+    }
+}

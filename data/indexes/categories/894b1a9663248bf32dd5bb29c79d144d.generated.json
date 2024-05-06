@@ -61,6 +61,12 @@
             "la": "Gaspar del Bufalo",
             "pl": "Kasper del Bufalo"
         },
+        "records/patrons/ioannes/bos": {
+            "it": "Giovanni Bosco",
+            "en": "John Bosco",
+            "la": "Ioannes Bosco",
+            "pl": "Jan Bosko"
+        },
         "records/patrons/ioannes/dun": {
             "de": "Johannes Duns Scotus",
             "en": "John Duns Scotus",

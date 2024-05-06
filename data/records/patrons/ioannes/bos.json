@@ -1,0 +1,50 @@
+{
+  "names": {
+    "it": [
+      "Giovanni Bosco",
+      "Giovanni Melchiorre Bosco",
+      "Don Bosco"
+    ],
+    "en": [
+      "John Bosco",
+      "John Melchior Bosco",
+      "Don Bosco"
+    ],
+    "la": [
+      "Ioannes Bosco",
+      "Ioannes Melchior Bosco",
+      "Don Bosco"
+    ],
+    "pl": [
+      "Jan Bosko",
+      "Jan Melchior Bosko"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Bosco",
+      "pl": "Bosko"
+    }
+  ],
+
+  "born": ["1815-08-16"],
+  "died": ["1888-01-31"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1929-06-02"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1934-04-01"
+  },
+
+  "also-in-martyrology": ["01-31"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "confessor", "presbyter", "conditor-ordo"],
+
+  "order": ["sdb"],
+  "order-founder": ["sdb", "fma"]
+}

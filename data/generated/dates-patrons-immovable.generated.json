@@ -49,6 +49,20 @@
             }
         }
     },
+    "01-31": {
+        "records/patrons/ioannes/bos": {
+            "name": {
+                "it": "Giovanni Bosco",
+                "en": "John Bosco",
+                "la": "Ioannes Bosco",
+                "pl": "Jan Bosko"
+            },
+            "sources": {
+                "reliable-death-anniversary": "31 I",
+                "other-martyrology-days": "31 I"
+            }
+        }
+    },
     "03-01": {
         "records/patrons/david/men": {
             "name": {

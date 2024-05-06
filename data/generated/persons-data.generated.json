@@ -1106,6 +1106,18 @@
             }
         }
     },
+    "patrons/ioannes/bos": {
+        "names": {
+            "it": "Giovanni Bosco",
+            "en": "John Bosco",
+            "la": "Ioannes Bosco",
+            "pl": "Jan Bosko"
+        },
+        "died": [
+            "1888-01-31"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/chr": {
         "names": {
             "la": "Ioannes Chrysostomus",
