@@ -55,6 +55,12 @@
             "en": "Ewa (with Adam)",
             "pl": "Ewa (z Adamem)"
         },
+        "records/patrons/genovefa/nem": {
+            "fr": "Geneviève de Paris",
+            "en": "Genovefa of Paris",
+            "la": "Genovefa Nemptodurensis",
+            "pl": "Genowefa z Paryża"
+        },
         "records/patrons/hedwigis/duc": {
             "de": "Hedwig von Andechs",
             "en": "Hedwig of Silesia",

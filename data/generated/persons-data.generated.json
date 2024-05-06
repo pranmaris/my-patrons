@@ -965,6 +965,26 @@
         ],
         "feasts": []
     },
+    "patrons/genovefa": {
+        "names": {
+            "la": "Genovefa",
+            "en": "Genovefa",
+            "pl": "Genowefa",
+            "fr": "Geneviève"
+        }
+    },
+    "patrons/genovefa/nem": {
+        "names": {
+            "fr": "Geneviève de Paris",
+            "en": "Genovefa of Paris",
+            "la": "Genovefa Nemptodurensis",
+            "pl": "Genowefa z Paryża"
+        },
+        "died": [
+            "~500"
+        ],
+        "feasts": []
+    },
     "patrons/hedwigis": {
         "names": {
             "la": "Hedwigis",

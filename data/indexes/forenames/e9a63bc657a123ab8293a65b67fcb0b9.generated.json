@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Genovefa",
+        "en": "Genovefa"
+    },
+    "translations": {
+        "la": [
+            "Genovefa"
+        ],
+        "en": [
+            "Genovefa"
+        ],
+        "pl": [
+            "Genowefa"
+        ],
+        "fr": [
+            "Geneviève"
+        ]
+    },
+    "links": {
+        "records/patrons/genovefa/nem": {
+            "fr": "Geneviève de Paris",
+            "en": "Genovefa of Paris",
+            "la": "Genovefa Nemptodurensis",
+            "pl": "Genowefa z Paryża"
+        }
+    }
+}

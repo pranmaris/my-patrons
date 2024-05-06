@@ -1,0 +1,26 @@
+{
+  "names": {
+    "fr": [
+      "Geneviève de Paris"
+    ],
+    "en": [
+      "Genovefa of Paris",
+      "Genevieve"
+    ],
+    "la": [
+      "Genovefa Nemptodurensis",
+      "Genovefa Parisiensis"
+    ],
+    "pl": [
+      "Genowefa z Paryża"
+    ]
+  },
+
+  "born": ["~422"],
+  "died": ["~500"],
+
+  "also-in-martyrology": ["01-03"],
+
+  "forenames": ["genovefa"],
+  "categories": ["femina", "virgo"]
+}

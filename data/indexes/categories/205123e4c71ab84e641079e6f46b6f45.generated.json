@@ -40,6 +40,12 @@
             "la": "Clara Assisiensis",
             "pl": "Klara z Asyżu"
         },
+        "records/patrons/genovefa/nem": {
+            "fr": "Geneviève de Paris",
+            "en": "Genovefa of Paris",
+            "la": "Genovefa Nemptodurensis",
+            "pl": "Genowefa z Paryża"
+        },
         "records/patrons/kinga/cun": {
             "pl": "Kinga",
             "en": "Kinga of Poland",
