@@ -278,6 +278,11 @@
         "pl": "ten typ wyzwania został już przypisany wcześniej do tego dodatku"
     },
 
+    "lang-challenge-parse-error-for-requirement-person-having-any-challenge": {
+        "en": "missing any type of challenge assigned to this person before",
+        "pl": "brak któregokolwiek typu wyzwania przypisanego do tej osoby wcześniej"
+    },
+
     "lang-challenge-parse-error-for-requirement-person-having-challenges": {
         "en": "missing type of challenge assigned to this person before",
         "pl": "brak typu wyzwania przypisanego do tej osoby wcześniej"
