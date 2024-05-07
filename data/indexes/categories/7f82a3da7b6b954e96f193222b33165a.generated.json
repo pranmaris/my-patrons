@@ -37,6 +37,12 @@
             "la": "Franciscus Xavier",
             "pl": "Franciszek Ksawery"
         },
+        "records/patrons/ioannes/bos": {
+            "it": "Giovanni Bosco",
+            "en": "John Bosco",
+            "la": "Ioannes Bosco",
+            "pl": "Jan Bosko"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",

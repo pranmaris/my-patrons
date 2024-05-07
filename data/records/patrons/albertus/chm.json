@@ -37,7 +37,7 @@
   "also-in-martyrology": ["12-25"],
 
   "forenames": ["albertus", "adamus"],
-  "categories": ["vir", "conditor-ordo", "religiosus"],
+  "categories": ["vir", "fundator", "religiosus"],
 
   "order": ["tor"],
   "order-founder": ["cfapu", "csapi"]

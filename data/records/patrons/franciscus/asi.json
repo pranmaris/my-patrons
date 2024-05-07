@@ -30,7 +30,7 @@
   "also-in-martyrology": ["10-04"],
 
   "forenames": ["franciscus"],
-  "categories": ["vir", "confessor", "levita", "conditor-ordo"],
+  "categories": ["vir", "confessor", "levita", "fundator"],
 
   "order": ["ofm"],
   "order-founder": ["ofm", "osc", "ofs", "tor"]

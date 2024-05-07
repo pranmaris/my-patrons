@@ -27,7 +27,7 @@
   "also-in-martyrology": ["10-06"],
 
   "forenames": ["bruno"],
-  "categories": ["vir", "confessor", "presbyter", "conditor-ordo", "eremita"],
+  "categories": ["vir", "confessor", "presbyter", "fundator", "institutor", "eremita"],
 
   "order": ["ocart"],
   "order-founder": ["ocart"]

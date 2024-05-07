@@ -38,8 +38,8 @@
     "171b6ba14aeefeb08caf15065042a4c2": {
         "en": "monk"
     },
-    "1938fb7aedeb9ff3e8e66591718955df": {
-        "la": "conditor ordo"
+    "1c09f9aae4f7e062d1c6082e40988bcb": {
+        "en": "instituter"
     },
     "1cdf4c400619855d6dba5d6292da42fa": {
         "la": "princeps"
@@ -92,9 +92,6 @@
     },
     "2af19384a5ee00fab3a4e213307626d4": {
         "pl": "wdowa"
-    },
-    "2da9e8bd7ffe9837e7fa6d0f289bbf32": {
-        "en": "founder of the order"
     },
     "31f48939f268e29ba8755294708c3a76": {
         "pl": "archidiakon"
@@ -174,6 +171,9 @@
     "73d6323223b2413e5bfa9c6307a76a49": {
         "en": "pope"
     },
+    "743ce8abd2af1802e00b43a44da60717": {
+        "la": "institutor"
+    },
     "7c597376a05768bb79dc136dac94b6ab": {
         "en": "evangelist"
     },
@@ -212,6 +212,9 @@
     },
     "9c553d758d4fde12ba5cc72299df6bdd": {
         "pl": "kanonik"
+    },
+    "9c6f9c3585717c1e67b86e59859a5771": {
+        "pl": "instytutor"
     },
     "9efb0042848e63b8c51a7380ffaed037": {
         "la": "solitarius"
@@ -311,6 +314,12 @@
     "c9ad31e5740747285dae5c168715d2de": {
         "en": "widow"
     },
+    "c9cf58027d3ba34a0841ef24a7aac175": {
+        "pl": "założyciel"
+    },
+    "caaa84acca34f6fbe1be609bc4e81c43": {
+        "en": "founder"
+    },
     "caf1c89e37206ef637fec26d5ae93b98": {
         "pl": "inny apostoł"
     },
@@ -350,8 +359,8 @@
     "f4f068e71e0d87bf0ad51e6214ab84e9": {
         "en": "angel"
     },
-    "f53aed4ccf7f614a3460acd749c50ab9": {
-        "pl": "założyciel zakonu"
+    "f720259e99482a6e3a1f7e4079e1975e": {
+        "la": "fundator"
     },
     "f8119ce5b6b99992ce19cec80d595b95": {
         "la": "apostolus"

@@ -39,11 +39,6 @@
         "en": "catechist",
         "pl": "katechista"
     },
-    "conditor-ordo": {
-        "la": "conditor ordo",
-        "en": "founder of the order",
-        "pl": "założyciel zakonu"
-    },
     "confessor": {
         "la": "confessor",
         "en": "confessor",
@@ -88,6 +83,16 @@
         "la": "femina",
         "en": "female",
         "pl": "kobieta"
+    },
+    "fundator": {
+        "la": "fundator",
+        "en": "founder",
+        "pl": "założyciel"
+    },
+    "institutor": {
+        "la": "institutor",
+        "en": "instituter",
+        "pl": "instytutor"
     },
     "levita": {
         "la": "levita",

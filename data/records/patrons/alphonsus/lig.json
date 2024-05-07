@@ -39,7 +39,7 @@
   "also-in-martyrology": ["08-01", "08-02"],
 
   "forenames": ["alphonsus", "maria"],
-  "categories": ["vir", "confessor", "episcopus", "conditor-ordo", "doctor-ecclesiae"],
+  "categories": ["vir", "confessor", "episcopus", "fundator", "doctor-ecclesiae"],
 
   "order": ["cssr"],
   "order-founder": ["cssr"],

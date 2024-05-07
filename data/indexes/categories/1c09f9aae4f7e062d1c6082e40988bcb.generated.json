@@ -1,0 +1,36 @@
+{
+    "names": {
+        "en": "instituter"
+    },
+    "translations": {
+        "la": [
+            "institutor"
+        ],
+        "en": [
+            "instituter"
+        ],
+        "pl": [
+            "instytutor"
+        ]
+    },
+    "links": {
+        "records/patrons/bruno/ere": {
+            "de": "Bruno von Köln",
+            "en": "Bruno of Cologne",
+            "la": "Bruno Cartusiensis",
+            "pl": "Bruno Kartuz"
+        },
+        "records/patrons/gaspar/buf": {
+            "it": "Gaspare del Bufalo",
+            "en": "Gaspar del Bufalo",
+            "la": "Gaspar del Bufalo",
+            "pl": "Kasper del Bufalo"
+        },
+        "records/patrons/vincentius/pau": {
+            "fr": "Vincent de Paul",
+            "en": "Vincent de Paul",
+            "la": "Vincentius a Paulo",
+            "pl": "Wincenty a Paulo"
+        }
+    }
+}

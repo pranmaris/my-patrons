@@ -1,16 +1,16 @@
 {
     "names": {
-        "pl": "założyciel zakonu"
+        "pl": "założyciel"
     },
     "translations": {
         "la": [
-            "conditor ordo"
+            "fundator"
         ],
         "en": [
-            "founder of the order"
+            "founder"
         ],
         "pl": [
-            "założyciel zakonu"
+            "założyciel"
         ]
     },
     "links": {
@@ -31,12 +31,6 @@
             "la": "Bruno Cartusiensis",
             "pl": "Bruno Kartuz"
         },
-        "records/patrons/clara/asi": {
-            "it": "Chiara d'Assisi",
-            "en": "Clara of Assisi",
-            "la": "Clara Assisiensis",
-            "pl": "Klara z Asyżu"
-        },
         "records/patrons/dominicus/oxo": {
             "es": "Domingo de Osma",
             "en": "Dominic of Osma",
@@ -48,12 +42,6 @@
             "en": "Francis of Assisi",
             "la": "Franciscus Asisiensis",
             "pl": "Franciszek z Asyżu"
-        },
-        "records/patrons/gaspar/buf": {
-            "it": "Gaspare del Bufalo",
-            "en": "Gaspar del Bufalo",
-            "la": "Gaspar del Bufalo",
-            "pl": "Kasper del Bufalo"
         },
         "records/patrons/ioannes/bos": {
             "it": "Giovanni Bosco",

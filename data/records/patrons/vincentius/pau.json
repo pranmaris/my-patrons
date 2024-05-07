@@ -31,7 +31,7 @@
   "also-in-martyrology": ["07-19", "09-27"],
 
   "forenames": ["vincentius"],
-  "categories": ["vir", "confessor", "presbyter", "conditor-ordo"],
+  "categories": ["vir", "confessor", "presbyter", "fundator", "institutor"],
 
   "order": ["cm"],
   "order-founder": ["cm", "sm"]

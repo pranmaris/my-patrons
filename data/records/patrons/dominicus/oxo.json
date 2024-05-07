@@ -30,7 +30,7 @@
   "also-in-martyrology": ["08-04", "08-06", "08-08"],
 
   "forenames": ["dominicus"],
-  "categories": ["vir", "confessor", "canonicus", "presbyter", "conditor-ordo"],
+  "categories": ["vir", "confessor", "canonicus", "presbyter", "fundator"],
 
   "order": ["op"],
   "order-founder": ["op"]
