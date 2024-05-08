@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Agata"
+    },
+    "translations": {
+        "la": [
+            "Agatha"
+        ],
+        "en": [
+            "Agatha"
+        ],
+        "pl": [
+            "Agata"
+        ]
+    },
+    "links": {
+        "records/patrons/agatha/cat": {
+            "la": "Agatha Catanensis",
+            "en": "Agatha of Sicily",
+            "pl": "Agata Sycylijska"
+        }
+    }
+}

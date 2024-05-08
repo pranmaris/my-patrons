@@ -23,6 +23,11 @@
             "la": "Adalbertus Pragensis",
             "pl": "Wojciech Sławnikowic"
         },
+        "records/patrons/agatha/cat": {
+            "la": "Agatha Catanensis",
+            "en": "Agatha of Sicily",
+            "pl": "Agata Sycylijska"
+        },
         "records/patrons/agnes/rom": {
             "la": "Agnes Romana",
             "en": "Agnes of Rome",

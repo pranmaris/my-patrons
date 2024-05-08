@@ -343,6 +343,24 @@
         ],
         "feasts": []
     },
+    "patrons/agatha": {
+        "names": {
+            "la": "Agatha",
+            "en": "Agatha",
+            "pl": "Agata"
+        }
+    },
+    "patrons/agatha/cat": {
+        "names": {
+            "la": "Agatha Catanensis",
+            "en": "Agatha of Sicily",
+            "pl": "Agata Sycylijska"
+        },
+        "died": [
+            "~251"
+        ],
+        "feasts": []
+    },
     "patrons/agnes": {
         "names": {
             "la": "Agnes",

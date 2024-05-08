@@ -63,6 +63,18 @@
             }
         }
     },
+    "02-05": {
+        "records/patrons/agatha/cat": {
+            "name": {
+                "la": "Agatha Catanensis",
+                "en": "Agatha of Sicily",
+                "pl": "Agata Sycylijska"
+            },
+            "sources": {
+                "other-martyrology-days": "5 II"
+            }
+        }
+    },
     "03-01": {
         "records/patrons/david/men": {
             "name": {

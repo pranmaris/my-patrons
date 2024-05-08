@@ -1,0 +1,23 @@
+{
+  "names": {
+    "la": [
+      "Agatha Catanensis"
+    ],
+    "en": [
+      "Agatha of Sicily",
+      "Agatha of Catania"
+    ],
+    "pl": [
+      "Agata Sycylijska",
+      "Agata z Katanii"
+    ]
+  },
+
+  "born": ["~231"],
+  "died": ["~251"],
+
+  "also-in-martyrology": ["02-05"],
+
+  "forenames": ["agatha"],
+  "categories": ["femina", "martyrix", "virgo"]
+}
