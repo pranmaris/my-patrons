@@ -287,6 +287,16 @@
       ]
     }
   },
+  "source-of-knowledge": {
+    "index": "sources-of-knowledge",
+    "name": {
+      "en": "source of knowledge",
+      "pl": "źródło wiedzy"
+    },
+    "source": {
+      "values": "sorted"
+    }
+  },
   "time": {
     "index": "times",
     "name": {

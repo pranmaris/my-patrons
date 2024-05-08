@@ -1078,6 +1078,117 @@
     }
   },
 
+  "N": {
+    "name": {
+      "pl": "Patron Mentor"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/patron-mentor"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "addition-type": "",
+    "person": {
+      "types": ["Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/patron-mentor"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["I"],
+        "person-having-any-challenge": ["A", "T", "R"],
+        "person-not-having-challenges": ["N"],
+        "everybody-not-having-challenges-on-the-same-day": ["N"]
+      }
+    },
+    "checklist": {
+      "knowledge": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "poznaj Patrona"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/poznaj-patrona"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "pomódl się do Patrona"
+        },
+        "description": {
+          "params": ["person-name"],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-do-patrona-mentora"
+          }
+        }
+      },
+      "bible": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "przeczytaj fragment Pisma Świętego"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/przeczytaj-fragment-pisma-swietego"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "source": {
+        "type": {
+          "source-of-knowledge": [0, 0]
+        },
+        "name": {
+          "pl": "źródło wiedzy o Patronie"
+        }
+      },
+      "bible": {
+        "type": {
+          "bible-lection": [0, 1]
+        },
+        "name": {
+          "pl": "przeczytany fragment Pisma Świętego"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "SA": {
     "name": {
       "pl": "Sakrament Namaszczenia Chorych"

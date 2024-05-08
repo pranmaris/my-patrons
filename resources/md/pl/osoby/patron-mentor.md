@@ -1,0 +1,1 @@
+Wybierz Patrona, który nie jest jeszcze Twoim **Patronem Mentorem**, ale jest już Twoim Patronem: **Obrońcą**, **Opiekunem** lub **Orędownikiem** (bez obaw, wystarczy wybrać każdego dostępnego Patrona z poniższej listy wyboru).
