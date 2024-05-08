@@ -2,6 +2,9 @@
     "0367205ba9d9ef14735884d4b3f2e7a3": {
         "en": "doctor of the Church"
     },
+    "03ff693ab8e19b6774ec397e64d95ee6": {
+        "pl": "pielgrzym"
+    },
     "0537791fe7afbce2a0c46b57f63c8a41": {
         "pl": "tercjarka"
     },
@@ -107,6 +110,9 @@
     },
     "3bc4b63194c49dc2a328ad2dee2406a6": {
         "pl": "diakon"
+    },
+    "45bc88a1cec11f28939332d6c1fb1d88": {
+        "en": "pilgrim"
     },
     "466764052acadf446abd1ff3a89d7a4d": {
         "pl": "grupa"
@@ -246,6 +252,9 @@
     "a7a07602cd63618843de131261ac218a": {
         "la": "eremita",
         "pl": "eremita"
+    },
+    "a7c4edd9f6376ca27eeba08fb8ced443": {
+        "la": "peregrinus"
     },
     "abff88ae45fdc285d398a53774c5f35c": {
         "la": "confessor",

@@ -301,6 +301,11 @@
             "la": "Pius de Pietrelcina",
             "pl": "Pio z Pietrelciny"
         },
+        "records/patrons/richardus/per": {
+            "en": "Richard the Pilgrim",
+            "la": "Richardus Peregrinus",
+            "pl": "Ryszard z Lukki"
+        },
         "records/patrons/richarius/cen": {
             "fr": "Riquier de Centule",
             "en": "Richarius of Centula",

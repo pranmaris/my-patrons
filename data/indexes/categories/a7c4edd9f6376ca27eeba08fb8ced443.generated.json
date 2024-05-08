@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "peregrinus"
+    },
+    "translations": {
+        "la": [
+            "peregrinus"
+        ],
+        "en": [
+            "pilgrim"
+        ],
+        "pl": [
+            "pielgrzym"
+        ]
+    },
+    "links": {
+        "records/patrons/richardus/per": {
+            "en": "Richard the Pilgrim",
+            "la": "Richardus Peregrinus",
+            "pl": "Ryszard z Lukki"
+        }
+    }
+}

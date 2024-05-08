@@ -1849,6 +1849,24 @@
         ],
         "feasts": []
     },
+    "patrons/richardus": {
+        "names": {
+            "la": "Richardus",
+            "en": "Richard",
+            "pl": "Ryszard"
+        }
+    },
+    "patrons/richardus/per": {
+        "names": {
+            "en": "Richard the Pilgrim",
+            "la": "Richardus Peregrinus",
+            "pl": "Ryszard z Lukki"
+        },
+        "died": [
+            "~720"
+        ],
+        "feasts": []
+    },
     "patrons/richarius": {
         "names": {
             "la": "Richarius",

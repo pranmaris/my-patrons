@@ -75,6 +75,18 @@
             }
         }
     },
+    "02-07": {
+        "records/patrons/richardus/per": {
+            "name": {
+                "en": "Richard the Pilgrim",
+                "la": "Richardus Peregrinus",
+                "pl": "Ryszard z Lukki"
+            },
+            "sources": {
+                "other-martyrology-days": "7 II"
+            }
+        }
+    },
     "03-01": {
         "records/patrons/david/men": {
             "name": {

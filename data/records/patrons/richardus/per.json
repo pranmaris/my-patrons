@@ -1,0 +1,26 @@
+{
+  "names": {
+    "en": [
+      "Richard the Pilgrim",
+      "Richard of Wessex"
+    ],
+    "la": [
+      "Richardus Peregrinus"
+    ],
+    "pl": [
+      "Ryszard z Lukki",
+      "Ryszard z Wesseksu",
+      "Ryszard ze Szwabii",
+      "Ryszard Saksończyk",
+      "Ryszard Król",
+      "Ryszard Pielgrzym"
+    ]
+  },
+
+  "died": ["~720"],
+
+  "also-in-martyrology": ["02-07"],
+
+  "forenames": ["richardus"],
+  "categories": ["vir", "peregrinus", "rex"]
+}

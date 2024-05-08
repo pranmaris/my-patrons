@@ -134,6 +134,11 @@
         "en": "pope",
         "pl": "papież"
     },
+    "peregrinus": {
+        "la": "peregrinus",
+        "en": "pilgrim",
+        "pl": "pielgrzym"
+    },
     "presbyter": {
         "la": "prezbyter",
         "en": "presbyter",

@@ -24,6 +24,11 @@
             "en": "Oswald of Northumbria",
             "la": "Oswaldus rex Northumbriae",
             "pl": "Oswald z Nortumbrii"
+        },
+        "records/patrons/richardus/per": {
+            "en": "Richard the Pilgrim",
+            "la": "Richardus Peregrinus",
+            "pl": "Ryszard z Lukki"
         }
     }
 }
