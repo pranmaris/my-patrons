@@ -1315,7 +1315,7 @@ function checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirem
   for (const personId of Object.keys(personsToSkip)) {
     delete personsToTake[personId];
   }
-  if (Object.keys(personsToTake).length <= 0) {
+  if ((typesNeeded != null || typesNeededForAny != null) && Object.keys(personsToTake).length <= 0) {
     return false;
   }
 
