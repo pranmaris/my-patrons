@@ -733,6 +733,31 @@
         ],
         "feasts": []
     },
+    "patrons/cyrillus": {
+        "names": {
+            "la": "Cyrillus",
+            "en": "Cyril",
+            "pl": "Cyryl"
+        }
+    },
+    "patrons/cyrillus/met": {
+        "names": {
+            "la": "Cyrillus (cum Methodius)",
+            "en": "Cyril of Thessalonica",
+            "pl": "Cyryl z Tesaloniki"
+        },
+        "died": [
+            "869-02-14"
+        ],
+        "feasts": {
+            "feasts/cem": {
+                "names": {
+                    "la": "Cyrilli et Methodii",
+                    "pl": "Cyryla i Metodego"
+                }
+            }
+        }
+    },
     "patrons/daria": {
         "names": {
             "la": "Daria",
@@ -1585,6 +1610,31 @@
             "397-11-08"
         ],
         "feasts": []
+    },
+    "patrons/methodius": {
+        "names": {
+            "la": "Methodius",
+            "en": "Methodius",
+            "pl": "Metody"
+        }
+    },
+    "patrons/methodius/cyr": {
+        "names": {
+            "la": "Methodius (cum Cyrillus)",
+            "en": "Methodius (with Cyril)",
+            "pl": "Metody (z Cyrylem)"
+        },
+        "died": [
+            "~885-04-06"
+        ],
+        "feasts": {
+            "feasts/cem": {
+                "names": {
+                    "la": "Cyrilli et Methodii",
+                    "pl": "Cyryla i Metodego"
+                }
+            }
+        }
     },
     "patrons/michael": {
         "names": {

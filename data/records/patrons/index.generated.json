@@ -104,6 +104,11 @@
         "pl": "Klara",
         "it": "Chiara"
     },
+    "cyrillus": {
+        "la": "Cyrillus",
+        "en": "Cyril",
+        "pl": "Cyryl"
+    },
     "daria": {
         "la": "Daria",
         "en": "Daria",
@@ -258,6 +263,11 @@
         "la": "Martinus",
         "en": "Martin",
         "pl": "Marcin"
+    },
+    "methodius": {
+        "la": "Methodius",
+        "en": "Methodius",
+        "pl": "Metody"
     },
     "michael": {
         "la": "Michael",

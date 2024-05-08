@@ -104,6 +104,11 @@
             "en": "Chrysanthus (with Daria)",
             "pl": "Chryzant (z Darią)"
         },
+        "records/patrons/cyrillus/met": {
+            "la": "Cyrillus (cum Methodius)",
+            "en": "Cyril of Thessalonica",
+            "pl": "Cyryl z Tesaloniki"
+        },
         "records/patrons/david/men": {
             "cy": "Dewi Sant",
             "en": "David of Menevia",
@@ -260,6 +265,11 @@
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",
             "pl": "Marcin z Tours"
+        },
+        "records/patrons/methodius/cyr": {
+            "la": "Methodius (cum Cyrillus)",
+            "en": "Methodius (with Cyril)",
+            "pl": "Metody (z Cyrylem)"
         },
         "records/patrons/nicolaus/myr": {
             "gr": "Άγιος Νικόλαος",

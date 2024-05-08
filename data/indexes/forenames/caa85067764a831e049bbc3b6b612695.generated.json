@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Metody"
+    },
+    "translations": {
+        "la": [
+            "Methodius"
+        ],
+        "en": [
+            "Methodius"
+        ],
+        "pl": [
+            "Metody"
+        ]
+    },
+    "links": {
+        "records/patrons/methodius/cyr": {
+            "la": "Methodius (cum Cyrillus)",
+            "en": "Methodius (with Cyril)",
+            "pl": "Metody (z Cyrylem)"
+        }
+    }
+}

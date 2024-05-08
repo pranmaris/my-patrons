@@ -87,6 +87,29 @@
             }
         }
     },
+    "02-14": {
+        "records/patrons/cyrillus/met": {
+            "name": {
+                "la": "Cyrillus (cum Methodius)",
+                "en": "Cyril of Thessalonica",
+                "pl": "Cyryl z Tesaloniki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "14 II",
+                "other-martyrology-days": "14 II"
+            }
+        },
+        "records/patrons/methodius/cyr": {
+            "name": {
+                "la": "Methodius (cum Cyrillus)",
+                "en": "Methodius (with Cyril)",
+                "pl": "Metody (z Cyrylem)"
+            },
+            "sources": {
+                "other-martyrology-days": "14 II"
+            }
+        }
+    },
     "03-01": {
         "records/patrons/david/men": {
             "name": {
@@ -175,6 +198,19 @@
             },
             "sources": {
                 "reliable-death-anniversary": "2 IV"
+            }
+        }
+    },
+    "04-06": {
+        "records/patrons/methodius/cyr": {
+            "name": {
+                "la": "Methodius (cum Cyrillus)",
+                "en": "Methodius (with Cyril)",
+                "pl": "Metody (z Cyrylem)"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 IV",
+                "other-martyrology-days": "6 IV"
             }
         }
     },

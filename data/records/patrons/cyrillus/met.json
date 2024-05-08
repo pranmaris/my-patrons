@@ -1,0 +1,31 @@
+{
+  "names": {
+    "la": [
+      "Cyrillus (cum Methodius)"
+    ],
+    "en": [
+      "Cyril of Thessalonica"
+    ],
+    "pl": [
+      "Cyryl z Tesaloniki",
+      "Cyryl (z Metodym)"
+    ]
+  },
+
+  "born": [">826", "<828"],
+  "died": ["869-02-14"],
+
+  "also-in-martyrology": ["02-14"],
+
+  "forenames": ["cyrillus", "constantinus"],
+  "categories": ["vir", "confessor", "episcopus", "monachus"],
+
+  "feasts": {
+    "cem": {
+      "data-links": {
+        "mr-1960": ["1:iul/7#1"],
+        "mr-1956": ["1:iul/7#1"]
+      }
+    }
+  }
+}

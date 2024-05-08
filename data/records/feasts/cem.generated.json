@@ -1,0 +1,14 @@
+{
+    "links": {
+        "records/patrons/cyrillus/met": {
+            "la": "Cyrillus (cum Methodius)",
+            "en": "Cyril of Thessalonica",
+            "pl": "Cyryl z Tesaloniki"
+        },
+        "records/patrons/methodius/cyr": {
+            "la": "Methodius (cum Cyrillus)",
+            "en": "Methodius (with Cyril)",
+            "pl": "Metody (z Cyrylem)"
+        }
+    }
+}

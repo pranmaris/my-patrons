@@ -295,6 +295,28 @@
             }
         }
     },
+    "07-07": {
+        "records/patrons/cyrillus/met#cem": {
+            "name": {
+                "la": "Cyrillus (cum Methodius) (Cyrilli et Methodii)",
+                "pl": "Cyryl z Tesaloniki (Cyryla i Metodego)"
+            },
+            "sources": {
+                "mr-1956": "7 VII: #1",
+                "mr-1960": "7 VII: #1"
+            }
+        },
+        "records/patrons/methodius/cyr#cem": {
+            "name": {
+                "la": "Methodius (cum Cyrillus) (Cyrilli et Methodii)",
+                "pl": "Metody (z Cyrylem) (Cyryla i Metodego)"
+            },
+            "sources": {
+                "mr-1956": "7 VII: #1",
+                "mr-1960": "7 VII: #1"
+            }
+        }
+    },
     "07-16": {
         "records/patrons/maria/naz#mmc": {
             "name": {

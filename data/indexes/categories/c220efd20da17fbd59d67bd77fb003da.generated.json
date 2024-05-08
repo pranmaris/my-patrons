@@ -20,6 +20,11 @@
             "la": "Adalbertus Pragensis",
             "pl": "Wojciech Sławnikowic"
         },
+        "records/patrons/cyrillus/met": {
+            "la": "Cyrillus (cum Methodius)",
+            "en": "Cyril of Thessalonica",
+            "pl": "Cyryl z Tesaloniki"
+        },
         "records/patrons/david/men": {
             "cy": "Dewi Sant",
             "en": "David of Menevia",

@@ -1,0 +1,30 @@
+{
+  "names": {
+    "la": [
+      "Methodius (cum Cyrillus)"
+    ],
+    "en": [
+      "Methodius (with Cyril)"
+    ],
+    "pl": [
+      "Metody (z Cyrylem)"
+    ]
+  },
+
+  "born": ["~815"],
+  "died": ["~885-04-06"],
+
+  "also-in-martyrology": ["02-14", "04-06"],
+
+  "forenames": ["methodius"],
+  "categories": ["vir", "confessor", "episcopus"],
+
+  "feasts": {
+    "cem": {
+      "data-links": {
+        "mr-1960": ["2:iul/7#1"],
+        "mr-1956": ["2:iul/7#1"]
+      }
+    }
+  }
+}

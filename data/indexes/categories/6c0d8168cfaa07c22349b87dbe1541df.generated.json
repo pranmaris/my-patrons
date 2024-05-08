@@ -54,6 +54,11 @@
             "en": "Casimir Jagiellon",
             "la": "Casimirus Princeps"
         },
+        "records/patrons/cyrillus/met": {
+            "la": "Cyrillus (cum Methodius)",
+            "en": "Cyril of Thessalonica",
+            "pl": "Cyryl z Tesaloniki"
+        },
         "records/patrons/dominicus/oxo": {
             "es": "Domingo de Osma",
             "en": "Dominic of Osma",
@@ -132,6 +137,11 @@
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",
             "pl": "Marcin z Tours"
+        },
+        "records/patrons/methodius/cyr": {
+            "la": "Methodius (cum Cyrillus)",
+            "en": "Methodius (with Cyril)",
+            "pl": "Metody (z Cyrylem)"
         },
         "records/patrons/nicolaus/myr": {
             "gr": "Άγιος Νικόλαος",

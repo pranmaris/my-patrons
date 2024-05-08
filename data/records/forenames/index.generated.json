@@ -115,10 +115,20 @@
         "pl": "Klara",
         "it": "Chiara"
     },
+    "constantinus": {
+        "la": "Constantinus",
+        "en": "Constantine",
+        "pl": "Konstantyn"
+    },
     "cunegundis": {
         "la": "Cunegundis",
         "en": "CUnegunda",
         "pl": "Kunegunda"
+    },
+    "cyrillus": {
+        "la": "Cyrillus",
+        "en": "Cyril",
+        "pl": "Cyryl"
     },
     "daria": {
         "la": "Daria",
@@ -317,6 +327,11 @@
         "la": "Martinus",
         "en": "Martin",
         "pl": "Marcin"
+    },
+    "methodius": {
+        "la": "Methodius",
+        "en": "Methodius",
+        "pl": "Metody"
     },
     "michael": {
         "la": "Michael",
