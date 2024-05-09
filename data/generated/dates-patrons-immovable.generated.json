@@ -237,6 +237,30 @@
             }
         }
     },
+    "03-07": {
+        "records/patrons/felicitas/car": {
+            "name": {
+                "la": "Felicitas Carthaginensis",
+                "en": "Felicity of Carthage",
+                "pl": "Felicyta z Kartaginy"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 III",
+                "other-martyrology-days": "7 III"
+            }
+        },
+        "records/patrons/perpetua/car": {
+            "name": {
+                "la": "Perpetua Carthaginensis",
+                "en": "Perpetua of Carthage",
+                "pl": "Perpetua z Kartaginy"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 III",
+                "other-martyrology-days": "7 III"
+            }
+        }
+    },
     "03-17": {
         "records/patrons/patricius/hib": {
             "name": {

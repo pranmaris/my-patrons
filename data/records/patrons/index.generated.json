@@ -142,6 +142,11 @@
         "en": "Eva",
         "pl": "Ewa"
     },
+    "felicitas": {
+        "la": "Felicitas",
+        "en": "Felicity",
+        "pl": "Felicyta"
+    },
     "franciscus": {
         "la": "Franciscus",
         "en": "Francis",
@@ -310,6 +315,11 @@
         "la": "Paulus",
         "en": "Paul",
         "pl": "Paweł"
+    },
+    "perpetua": {
+        "la": "Perpetua",
+        "en": "Perpetua",
+        "pl": "Perpetua"
     },
     "petrus": {
         "la": "Petrus",

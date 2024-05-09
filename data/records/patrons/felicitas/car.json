@@ -1,0 +1,29 @@
+{
+  "names": {
+    "la": [
+      "Felicitas Carthaginensis"
+    ],
+    "en": [
+      "Felicity of Carthage"
+    ],
+    "pl": [
+      "Felicyta z Kartaginy"
+    ]
+  },
+
+  "died": ["~203-03-07"],
+
+  "also-in-martyrology": ["03-07"],
+
+  "forenames": ["felicitas"],
+  "categories": ["femina", "martyrix", "catechumena"],
+
+  "feasts": {
+    "pef": {
+      "data-links": {
+        "mr-1960": ["2:mar/6#1"],
+        "mr-1956": ["2:mar/6#1"]
+      }
+    }
+  }
+}

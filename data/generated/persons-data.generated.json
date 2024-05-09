@@ -900,6 +900,31 @@
         "died": [],
         "feasts": []
     },
+    "patrons/felicitas": {
+        "names": {
+            "la": "Felicitas",
+            "en": "Felicity",
+            "pl": "Felicyta"
+        }
+    },
+    "patrons/felicitas/car": {
+        "names": {
+            "la": "Felicitas Carthaginensis",
+            "en": "Felicity of Carthage",
+            "pl": "Felicyta z Kartaginy"
+        },
+        "died": [
+            "~203-03-07"
+        ],
+        "feasts": {
+            "feasts/pef": {
+                "names": {
+                    "la": "Perpetuae et Felicitatis",
+                    "pl": "Perpetuy i Felicyty"
+                }
+            }
+        }
+    },
     "patrons/franciscus": {
         "names": {
             "la": "Franciscus",
@@ -1819,6 +1844,31 @@
                 "names": {
                     "la": "Dedicatio Basilicarum Sanctorum Petri et Pauli in Romae",
                     "pl": "Poświęcenie Bazylik Świętych Piotra i Pawła w Rzymie"
+                }
+            }
+        }
+    },
+    "patrons/perpetua": {
+        "names": {
+            "la": "Perpetua",
+            "en": "Perpetua",
+            "pl": "Perpetua"
+        }
+    },
+    "patrons/perpetua/car": {
+        "names": {
+            "la": "Perpetua Carthaginensis",
+            "en": "Perpetua of Carthage",
+            "pl": "Perpetua z Kartaginy"
+        },
+        "died": [
+            "~203-03-07"
+        ],
+        "feasts": {
+            "feasts/pef": {
+                "names": {
+                    "la": "Perpetuae et Felicitatis",
+                    "pl": "Perpetuy i Felicyty"
                 }
             }
         }

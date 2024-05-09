@@ -1,0 +1,30 @@
+{
+  "names": {
+    "la": [
+      "Perpetua Carthaginensis"
+    ],
+    "en": [
+      "Perpetua of Carthage"
+    ],
+    "pl": [
+      "Perpetua z Kartaginy"
+    ]
+  },
+
+  "born": ["~181"],
+  "died": ["~203-03-07"],
+
+  "also-in-martyrology": ["03-07"],
+
+  "forenames": ["perpetua"],
+  "categories": ["femina", "martyrix", "catechumena"],
+
+  "feasts": {
+    "pef": {
+      "data-links": {
+        "mr-1960": ["1:mar/6#1"],
+        "mr-1956": ["1:mar/6#1"]
+      }
+    }
+  }
+}

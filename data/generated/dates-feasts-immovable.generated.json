@@ -142,6 +142,28 @@
             }
         }
     },
+    "03-06": {
+        "records/patrons/perpetua/car#pef": {
+            "name": {
+                "la": "Perpetua Carthaginensis (Perpetuae et Felicitatis)",
+                "pl": "Perpetua z Kartaginy (Perpetuy i Felicyty)"
+            },
+            "sources": {
+                "mr-1956": "6 III: #1",
+                "mr-1960": "6 III: #1"
+            }
+        },
+        "records/patrons/felicitas/car#pef": {
+            "name": {
+                "la": "Felicitas Carthaginensis (Perpetuae et Felicitatis)",
+                "pl": "Felicyta z Kartaginy (Perpetuy i Felicyty)"
+            },
+            "sources": {
+                "mr-1956": "6 III: #1",
+                "mr-1960": "6 III: #1"
+            }
+        }
+    },
     "03-19": {
         "records/patrons/ioseph/naz#sin": {
             "name": {

@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Perpetua",
+        "en": "Perpetua",
+        "pl": "Perpetua"
+    },
+    "translations": {
+        "la": [
+            "Perpetua"
+        ],
+        "en": [
+            "Perpetua"
+        ],
+        "pl": [
+            "Perpetua"
+        ]
+    },
+    "links": {
+        "records/patrons/perpetua/car": {
+            "la": "Perpetua Carthaginensis",
+            "en": "Perpetua of Carthage",
+            "pl": "Perpetua z Kartaginy"
+        }
+    }
+}

@@ -60,6 +60,11 @@
             "en": "Ewa (with Adam)",
             "pl": "Ewa (z Adamem)"
         },
+        "records/patrons/felicitas/car": {
+            "la": "Felicitas Carthaginensis",
+            "en": "Felicity of Carthage",
+            "pl": "Felicyta z Kartaginy"
+        },
         "records/patrons/genovefa/nem": {
             "fr": "Geneviève de Paris",
             "en": "Genovefa of Paris",
@@ -108,6 +113,11 @@
             "la": "Monica Thagastensis",
             "en": "Monica of Tagasta",
             "pl": "Monika z Tagasty"
+        },
+        "records/patrons/perpetua/car": {
+            "la": "Perpetua Carthaginensis",
+            "en": "Perpetua of Carthage",
+            "pl": "Perpetua z Kartaginy"
         },
         "records/patrons/rita/cas": {
             "it": "Rita da Cascia",

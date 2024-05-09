@@ -174,6 +174,11 @@
         "en": "Faustina",
         "pl": "Faustyna"
     },
+    "felicitas": {
+        "la": "Felicitas",
+        "en": "Felicity",
+        "pl": "Felicyta"
+    },
     "felix": {
         "la": "Felix",
         "en": "Felix",
@@ -379,6 +384,11 @@
         "la": "Paulus",
         "en": "Paul",
         "pl": "Paweł"
+    },
+    "perpetua": {
+        "la": "Perpetua",
+        "en": "Perpetua",
+        "pl": "Perpetua"
     },
     "petrus": {
         "la": "Petrus",

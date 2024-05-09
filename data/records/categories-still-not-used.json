@@ -38,6 +38,18 @@
         }
     },
 
+    "x-catechumenus": {
+        "names": {
+            "la": "catechumenus",
+            "en": "catechumen",
+            "pl": "katechumen"
+        },
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "x-tertiarius": {
         "names": {
             "la": "tertiarius",

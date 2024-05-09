@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Felicyta"
+    },
+    "translations": {
+        "la": [
+            "Felicitas"
+        ],
+        "en": [
+            "Felicity"
+        ],
+        "pl": [
+            "Felicyta"
+        ]
+    },
+    "links": {
+        "records/patrons/felicitas/car": {
+            "la": "Felicitas Carthaginensis",
+            "en": "Felicity of Carthage",
+            "pl": "Felicyta z Kartaginy"
+        }
+    }
+}

@@ -91,6 +91,11 @@
             "en": "Eusebius of Vercelli",
             "pl": "Euzebiusz z Vercelli"
         },
+        "records/patrons/felicitas/car": {
+            "la": "Felicitas Carthaginensis",
+            "en": "Felicity of Carthage",
+            "pl": "Felicyta z Kartaginy"
+        },
         "records/patrons/ioannes/bap": {
             "he": "יוֹחָנָן",
             "en": "John the Baptist",
@@ -123,6 +128,11 @@
             "la": "Paulus Tersensis",
             "en": "Paul of Tarsus",
             "pl": "Paweł z Tarsu"
+        },
+        "records/patrons/perpetua/car": {
+            "la": "Perpetua Carthaginensis",
+            "en": "Perpetua of Carthage",
+            "pl": "Perpetua z Kartaginy"
         },
         "records/patrons/petrus/apo": {
             "la": "Petrus",

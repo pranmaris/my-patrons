@@ -49,6 +49,11 @@
             "en": "Daria (with Chrysanthus)",
             "pl": "Daria (z Chryzantem)"
         },
+        "records/patrons/felicitas/car": {
+            "la": "Felicitas Carthaginensis",
+            "en": "Felicity of Carthage",
+            "pl": "Felicyta z Kartaginy"
+        },
         "records/patrons/lucia/syr": {
             "it": "Lucia da Siracusa",
             "en": "Lucia of Syracuse",
@@ -59,6 +64,11 @@
             "en": "Margaret Ward",
             "la": "Margarita Ward",
             "pl": "Małgorzata Ward"
+        },
+        "records/patrons/perpetua/car": {
+            "la": "Perpetua Carthaginensis",
+            "en": "Perpetua of Carthage",
+            "pl": "Perpetua z Kartaginy"
         },
         "records/patrons/sabigothon/aur": {
             "la": "Sabigothon Natalia (cum Aurelius)",

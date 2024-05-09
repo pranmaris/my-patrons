@@ -49,6 +49,11 @@
         "en": "catechist",
         "pl": "katechista"
     },
+    "catechumena": {
+        "la": "catechumena",
+        "en": "catechumen",
+        "pl": "katechumenka"
+    },
     "confessor": {
         "la": "confessor",
         "en": "confessor",
