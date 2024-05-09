@@ -26,5 +26,9 @@
   "also-in-martyrology": ["08-06", "08-07"],
 
   "forenames": ["xystus"],
-  "categories": ["vir", "martyr", "papa"]
+  "categories": ["vir", "martyr", "papa"],
+
+  "data-links": {
+    "popes": ["1:#24"]
+  }
 }

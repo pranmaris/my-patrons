@@ -42,5 +42,9 @@
   "also-in-martyrology": ["06-03"],
 
   "forenames": ["ioannes"],
-  "categories": ["vir", "papa"]
+  "categories": ["vir", "papa"],
+
+  "data-links": {
+    "popes": ["1:#261"]
+  }
 }

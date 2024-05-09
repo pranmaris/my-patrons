@@ -1049,6 +1049,24 @@
         ],
         "feasts": []
     },
+    "patrons/hilarius": {
+        "names": {
+            "la": "Hilarius",
+            "en": "Hilarius",
+            "pl": "Hilary"
+        }
+    },
+    "patrons/hilarius/1pp": {
+        "names": {
+            "la": "Papa Hilarius",
+            "en": "Pope Hilarius",
+            "pl": "Hilary Papież"
+        },
+        "died": [
+            "468-02-29"
+        ],
+        "feasts": []
+    },
     "patrons/hormisdas": {
         "names": {
             "la": "Hormisdas",

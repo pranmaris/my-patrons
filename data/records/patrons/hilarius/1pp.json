@@ -1,0 +1,24 @@
+{
+  "names": {
+    "la": [
+      "Papa Hilarius"
+    ],
+    "en": [
+      "Pope Hilarius"
+    ],
+    "pl": [
+      "Hilary Papież"
+    ]
+  },
+
+  "died": ["468-02-29"],
+
+  "also-in-martyrology": ["02n28", "02b29"],
+
+  "forenames": ["hilarius"],
+  "categories": ["vir", "confessor", "papa"],
+
+  "data-links": {
+    "popes": ["1:#46"]
+  }
+}

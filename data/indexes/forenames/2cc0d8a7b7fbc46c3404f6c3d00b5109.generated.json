@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Hilarius",
+        "en": "Hilarius"
+    },
+    "translations": {
+        "la": [
+            "Hilarius"
+        ],
+        "en": [
+            "Hilarius"
+        ],
+        "pl": [
+            "Hilary"
+        ]
+    },
+    "links": {
+        "records/patrons/hilarius/1pp": {
+            "la": "Papa Hilarius",
+            "en": "Pope Hilarius",
+            "pl": "Hilary Papież"
+        }
+    }
+}

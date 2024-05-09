@@ -3,11 +3,23 @@
         "68": {
             "1": "records/patrons/deusdedit/1pp"
         },
+        "46": {
+            "1": "records/patrons/hilarius/1pp"
+        },
         "52": {
             "1": "records/patrons/hormisdas/1pp"
         },
+        "261": {
+            "1": "records/patrons/ioannes/23p"
+        },
+        "264": {
+            "1": "records/patrons/ioannes/p2p"
+        },
         "1": {
             "1": "records/patrons/petrus/apo"
+        },
+        "24": {
+            "1": "records/patrons/xystus/2pp"
         }
     }
 }

@@ -36,5 +36,9 @@
   },
 
   "forenames": ["ioannes", "paulus"],
-  "categories": ["vir", "papa"]
+  "categories": ["vir", "papa"],
+
+  "data-links": {
+    "popes": ["1:#264"]
+  }
 }

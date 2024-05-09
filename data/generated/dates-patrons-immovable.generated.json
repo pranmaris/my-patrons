@@ -162,6 +162,42 @@
             }
         }
     },
+    "02-29": {
+        "records/patrons/hilarius/1pp": {
+            "name": {
+                "la": "Papa Hilarius",
+                "en": "Pope Hilarius",
+                "pl": "Hilary Papież"
+            },
+            "sources": {
+                "reliable-death-anniversary": "29 II"
+            }
+        }
+    },
+    "02b29": {
+        "records/patrons/hilarius/1pp": {
+            "name": {
+                "la": "Papa Hilarius",
+                "en": "Pope Hilarius",
+                "pl": "Hilary Papież"
+            },
+            "sources": {
+                "other-martyrology-days": "29 II"
+            }
+        }
+    },
+    "02n28": {
+        "records/patrons/hilarius/1pp": {
+            "name": {
+                "la": "Papa Hilarius",
+                "en": "Pope Hilarius",
+                "pl": "Hilary Papież"
+            },
+            "sources": {
+                "other-martyrology-days": "28 II"
+            }
+        }
+    },
     "03-01": {
         "records/patrons/david/men": {
             "name": {

@@ -231,8 +231,8 @@
     },
     "24": {
         "name": {
-            "la": "Xystus Secundus",
-            "pl": "Sykstus II"
+            "la": "[1|Xystus Secundus]",
+            "pl": "[1|Sykstus II]"
         },
         "pontificate": {
             "from": "257-08-30",
@@ -451,8 +451,8 @@
     },
     "46": {
         "name": {
-            "la": "Hilarius",
-            "pl": "Hilary"
+            "la": "[1|Hilarius]",
+            "pl": "[1|Hilary]"
         },
         "pontificate": {
             "from": "461-11-19",
@@ -2601,8 +2601,8 @@
     },
     "261": {
         "name": {
-            "la": "Ioannes Vicesimus Tertius",
-            "pl": "Jan XXIII"
+            "la": "[1|Ioannes Vicesimus Tertius]",
+            "pl": "[1|Jan XXIII]"
         },
         "pontificate": {
             "from": "1958-10-28",
@@ -2631,8 +2631,8 @@
     },
     "264": {
         "name": {
-            "la": "Ioannes Paulus Secundus",
-            "pl": "Jan Paweł II"
+            "la": "[1|Ioannes Paulus Secundus]",
+            "pl": "[1|Jan Paweł II]"
         },
         "pontificate": {
             "from": "1978-10-16",
