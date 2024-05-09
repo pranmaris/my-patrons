@@ -1078,6 +1078,81 @@
     }
   },
 
+  "MA": {
+    "name": {
+      "pl": "Misja Apostoła"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/misja-apostola"
+      }
+    },
+    "numbers": false,
+    "uniqueness": ["person"],
+    "addition-type": "",
+    "person": {
+      "types": ["Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/patron-ktoremu-powierzona-bedzie-misja-apostola"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["I"],
+        "person-not-having-challenges": ["MA"]
+      }
+    },
+    "checklist": {
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "powierz Patronowi swoją Misję Apostoła"
+        },
+        "description": {
+          "params": ["person-name"],
+          "template": {
+            "pl": "pl/kroki/powierz-patronowi-swoja-misje-apostola"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "person": {
+        "type": {
+          "person": [0, 1]
+        },
+        "name": {
+          "pl": "osoba"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "N": {
     "name": {
       "pl": "Patron Mentor"
@@ -2207,7 +2282,7 @@
     "uniqueness": ["person"],
     "addition-type": "",
     "person": {
-      "types": ["God", "Patrons"],
+      "types": ["Patrons", "God"],
       "description": {
         "params": [],
         "template": {
