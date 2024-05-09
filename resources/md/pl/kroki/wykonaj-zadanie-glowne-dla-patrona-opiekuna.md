@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 **Wykonaj** którąkolwiek **parę zadań** jednocześnie:
 <span class="status status-title"><span class="status status-title">OBRAZEK</span>+<span class="status status-title">WIZERUNEK</span></span>
 lub 

@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 **Odmów** _„Credo”_, czyli:
 > Wierzę w jednego Boga, Ojca Wszechmogącego, Stworzyciela nieba i ziemi, wszystkich rzeczy widzialnych i niewidzialnych.  
 > I w jednego Pana Jezusa Chrystusa, Syna Bożego Jednorodzonego, który z Ojca jest zrodzony przed wszystkimi wiekami. Bóg z Boga, Światłość ze Światłości, Bóg prawdziwy z Boga prawdziwego. Zrodzony, a nie stworzony, współistotny Ojcu, a przez Niego wszystko się stało. On to dla nas ludzi i dla naszego zbawienia zstąpił z nieba. I za sprawą Ducha Świętego przyjął ciało z Maryi Dziewicy i stał się człowiekiem. Ukrzyżowany również za nas pod Poncjuszem Piłatem został umęczony i pogrzebany. I zmartwychwstał trzeciego dnia, jak oznajmia Pismo. I wstąpił do nieba; siedzi po prawicy Ojca. I powtórnie przyjdzie w chwale sądzić żywych i umarłych, a królestwu Jego nie będzie końca.  

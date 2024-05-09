@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 W pierwszą sobotę miesiąca lub wcześniej **wybierz**, za które zniewagi będziesz wynagradzać **Niepokalanemu Sercu Maryi**.
 
 Dla każdej pierwszej soboty **wybierz** kolejną zniewagę z listy:

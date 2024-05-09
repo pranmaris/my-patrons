@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 **Znajdź odpowiednie miejsce**, w którym się skupisz i **w myślach lub na głos**, bez pośpiechu spróbuj własnymi słowami wykonać poniższe czynności:
 - **zawierz Bogu** cały Twój udział w inicjatywie _„Moich Patronów”_,
 - **poproś Go**, aby dał Ci siły, radość, umiejętności i zapał do wykonywania wszystkich wyzwań,

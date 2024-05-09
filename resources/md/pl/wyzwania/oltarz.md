@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 **Przybądź do miejsca**<sup>1</sup>, w którym znajduje się odrębny i **poświęcony ołtarz boczny (kaplica) Kościoła Rzymskokatolickiego**, który jest pod wezwaniem<sup>2</sup> **Osoby Boskiej**, zaproszonego przez Ciebie **Patrona Obrońcy** lub odkrytego **święta**.
 
 ---

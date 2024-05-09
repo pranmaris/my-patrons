@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 **Weź udział**<sup>1</sup> osobiście (nie online!) we Mszy Świętej<sup>2</sup> w **dowolnej** rzymskokatolickiej parafii lub kościele.
 
 ---

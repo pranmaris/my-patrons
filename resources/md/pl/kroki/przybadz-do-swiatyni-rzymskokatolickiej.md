@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 Osobiście **przybądź do świątyni** i najlepiej wejdź do niej<sup>1</sup>, by bezpośrednio **ujrzeć ołtarz główny**, choćby zza krat lub szyby.
 
 ---

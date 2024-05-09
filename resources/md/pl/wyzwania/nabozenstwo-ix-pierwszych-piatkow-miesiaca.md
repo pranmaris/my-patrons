@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 Nabożeństwo IX Pierwszych Piątków Miesiąca związane jest z kultem **Najświętszego Serca Pana Jezusa** i zostało objawione św. Marii Magdalenie Alacoque w 1673 roku przez Jezusa Chrystusa:
 
 > Kto przez dziewięć kolejnych pierwszych piątków przystąpi do Komunii Świętej i ofiaruje ją jako wynagrodzenie za grzechy własne i rodzaju ludzkiego, temu Boże Serce zapewni miłosierdzie w chwili zgonu, że nie umrze bez Jego łaski.

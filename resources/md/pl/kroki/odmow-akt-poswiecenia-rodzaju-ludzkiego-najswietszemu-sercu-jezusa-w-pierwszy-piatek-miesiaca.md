@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 W pierwszy piątek miesiąca **odmów** _„Akt poświęcenia rodzaju ludzkiego Najświętszemu Sercu Jezusa”_:
 
 > **P.:** O Jezu najsłodszy, Odkupicielu rodzaju ludzkiego, wejrzyj na nas, korzących się u stóp ołtarza Twego.  

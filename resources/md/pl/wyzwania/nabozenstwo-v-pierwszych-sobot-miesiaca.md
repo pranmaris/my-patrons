@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 Nabożeństwo V pierwszych sobót miesiąca związane jest z kultem **Niepokalanego Serca Maryi** i zostało objawione siostrze Łucji dos Santos, 10 grudnia 1925 roku przez Maryję z Dzieciątkiem Jezus.
 
 Dzieciątko powiedziało:

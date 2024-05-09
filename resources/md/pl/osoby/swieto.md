@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 Wybierz święto, które:
 - **nie zostało** jeszcze przez Ciebie **odkryte** (bez obaw, wykluczyliśmy je automatycznie z poniższej listy wyboru),
 - dla <span class="selected-day-info">wybranego dnia</span> spełnia **co najmniej jedno z kryterium** (tu musisz wybrać prawidłowe święto ręcznie, o ile w tym dniu takie w ogóle jest):

@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 **Weź udział** w **sumie odpustowej**<sup>1</sup> związanej ze świętem lub Patronem<sup>2</sup> tytularnym<sup>3</sup> **parafii** lub **kościoła** (np. filialnego<sup>4</sup>) i **uzyskaj** na nim **odpust** dla siebie lub osoby zmarłej.
 
 ---

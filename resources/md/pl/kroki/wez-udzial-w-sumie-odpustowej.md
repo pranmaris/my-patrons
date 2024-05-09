@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 Osobiście (nie online) **weź udział** w **sumie odpustowej**<sup>1</sup> w kościele pod wezwaniem Patrona lub święta, którego dotyczy **odpust parafialny**.
 
 ---

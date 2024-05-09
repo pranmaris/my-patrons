@@ -1,3 +1,6 @@
+<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+
+---
 **Odwiedź**<sup>1</sup> relikwie<sup>2</sup> lub grób<sup>3</sUP> Osoby Boskiej<sup>4</sup> bądź Patrona<sup>5/6</sup>.
 
 ---
