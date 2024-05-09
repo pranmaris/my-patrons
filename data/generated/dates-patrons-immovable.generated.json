@@ -225,6 +225,18 @@
             }
         }
     },
+    "03-05": {
+        "records/patrons/virgilius/are": {
+            "name": {
+                "la": "Virgilius Arelatensis",
+                "en": "Virgilius of Arles",
+                "pl": "Wirgiliusz z Arles"
+            },
+            "sources": {
+                "other-martyrology-days": "5 III"
+            }
+        }
+    },
     "03-17": {
         "records/patrons/patricius/hib": {
             "name": {

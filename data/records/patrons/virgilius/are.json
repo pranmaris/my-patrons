@@ -1,0 +1,23 @@
+{
+  "names": {
+    "la": [
+      "Virgilius Arelatensis"
+    ],
+    "en": [
+      "Virgilius of Arles"
+    ],
+    "pl": [
+      "Wirgiliusz z Arles"
+    ]
+  },
+
+  "born": ["~550"],
+  "died": ["~618"],
+
+  "also-in-martyrology": ["03-05"],
+
+  "forenames": ["virgilius"],
+  "categories": ["vir", "episcopus"],
+
+  "order": ["ocist"]
+}

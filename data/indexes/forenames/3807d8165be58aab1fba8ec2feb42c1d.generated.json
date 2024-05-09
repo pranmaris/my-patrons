@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Virgilius",
+        "en": "Virgilius"
+    },
+    "translations": {
+        "la": [
+            "Virgilius"
+        ],
+        "en": [
+            "Virgilius"
+        ],
+        "pl": [
+            "Wirgiliusz"
+        ]
+    },
+    "links": {
+        "records/patrons/virgilius/are": {
+            "la": "Virgilius Arelatensis",
+            "en": "Virgilius of Arles",
+            "pl": "Wirgiliusz z Arles"
+        }
+    }
+}

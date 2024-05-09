@@ -105,6 +105,11 @@
             "pl": "Zygmunt Szczęsny Feliński",
             "en": "Zygmunt Szczęsny Feliński",
             "la": "Sigismundus Felix Feliński"
+        },
+        "records/patrons/virgilius/are": {
+            "la": "Virgilius Arelatensis",
+            "en": "Virgilius of Arles",
+            "pl": "Wirgiliusz z Arles"
         }
     }
 }

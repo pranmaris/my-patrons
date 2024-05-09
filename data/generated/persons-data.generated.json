@@ -2214,6 +2214,24 @@
         ],
         "feasts": []
     },
+    "patrons/virgilius": {
+        "names": {
+            "la": "Virgilius",
+            "en": "Virgilius",
+            "pl": "Wirgiliusz"
+        }
+    },
+    "patrons/virgilius/are": {
+        "names": {
+            "la": "Virgilius Arelatensis",
+            "en": "Virgilius of Arles",
+            "pl": "Wirgiliusz z Arles"
+        },
+        "died": [
+            "~618"
+        ],
+        "feasts": []
+    },
     "patrons/xystus": {
         "names": {
             "la": "Xystus",
