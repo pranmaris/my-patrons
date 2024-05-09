@@ -1,28 +1,19 @@
 {
     "names": {
-        "la": "Petrus"
+        "en": "cardinal bishop"
     },
     "translations": {
         "la": [
-            "Petrus"
+            "cardinalis episcopus"
         ],
         "en": [
-            "Peter"
+            "cardinal bishop"
         ],
         "pl": [
-            "Piotr"
-        ],
-        "it": [
-            "Pietro",
-            "Pier"
+            "biskup kardynał"
         ]
     },
     "links": {
-        "records/patrons/petrus/apo": {
-            "la": "Petrus",
-            "en": "Peter the Apostle",
-            "pl": "Piotr Apostoł"
-        },
         "records/patrons/petrus/dam": {
             "it": "Pier Damiani",
             "en": "Peter Damian",

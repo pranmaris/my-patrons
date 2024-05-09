@@ -26,6 +26,9 @@
     "0b9bc8c247685beb57a15a97449735ac": {
         "la": "uxor"
     },
+    "0e44fab8173e8bbc157eba02c481bea6": {
+        "la": "cardinalis episcopus"
+    },
     "0fd7a44fdd13ad881b07c0446d857a1a": {
         "en": "nun"
     },
@@ -105,11 +108,20 @@
     "37387b0d7989ded00353bbfa0a15d1fb": {
         "pl": "opat"
     },
+    "39719bde558fb9b4367151f9a9e33451": {
+        "en": "cardinal bishop"
+    },
     "3a65fe50077b0ec7a6e2d45c22f8b92b": {
         "la": "Mater Dei"
     },
     "3bc4b63194c49dc2a328ad2dee2406a6": {
         "pl": "diakon"
+    },
+    "3d28205b9c6217322c1ffa8f1bb1bc72": {
+        "la": "cardinalis"
+    },
+    "427023ff7e5f28a11e61fce0b4917b57": {
+        "en": "cardinal"
     },
     "45bc88a1cec11f28939332d6c1fb1d88": {
         "en": "pilgrim"
@@ -368,6 +380,9 @@
     "f4f068e71e0d87bf0ad51e6214ab84e9": {
         "en": "angel"
     },
+    "f579a15dfcea423131461aaf5da4fbc6": {
+        "pl": "kardynał"
+    },
     "f720259e99482a6e3a1f7e4079e1975e": {
         "la": "fundator"
     },
@@ -379,6 +394,9 @@
     },
     "fbb6ee53d2123e8bd42fe769bf18ec0c": {
         "la": "doctor Ecclesiae"
+    },
+    "fc312f6500885babfda4fe794afead82": {
+        "pl": "biskup kardynał"
     },
     "fcefc137babc8d872498f1549ee72735": {
         "en": "Mother of God"

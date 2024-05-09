@@ -42,6 +42,12 @@
             "en": "John Chrysostom",
             "pl": "Jan Chryzostom"
         },
+        "records/patrons/petrus/dam": {
+            "it": "Pier Damiani",
+            "en": "Peter Damian",
+            "la": "Petrus Damiani",
+            "pl": "Piotr Damiani"
+        },
         "records/patrons/teresia/ies": {
             "es": "Teresa de Jesús",
             "en": "Teresa of Ávila",

@@ -11,6 +11,10 @@
         ],
         "pl": [
             "Piotr"
+        ],
+        "it": [
+            "Pietro",
+            "Pier"
         ]
     },
     "links": {
@@ -18,6 +22,12 @@
             "la": "Petrus",
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
+        },
+        "records/patrons/petrus/dam": {
+            "it": "Pier Damiani",
+            "en": "Peter Damian",
+            "la": "Petrus Damiani",
+            "pl": "Piotr Damiani"
         }
     }
 }

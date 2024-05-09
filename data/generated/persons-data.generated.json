@@ -1809,7 +1809,8 @@
         "names": {
             "la": "Petrus",
             "en": "Peter",
-            "pl": "Piotr"
+            "pl": "Piotr",
+            "it": "Pietro"
         }
     },
     "patrons/petrus/apo": {
@@ -1859,6 +1860,18 @@
                 }
             }
         }
+    },
+    "patrons/petrus/dam": {
+        "names": {
+            "it": "Pier Damiani",
+            "en": "Peter Damian",
+            "la": "Petrus Damiani",
+            "pl": "Piotr Damiani"
+        },
+        "died": [
+            "1072-01-22"
+        ],
+        "feasts": []
     },
     "patrons/philippus": {
         "names": {

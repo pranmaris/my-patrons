@@ -90,6 +90,12 @@
             "la": "Patricius episcopus in Hibernia",
             "pl": "Patryk z Irlandii"
         },
+        "records/patrons/petrus/dam": {
+            "it": "Pier Damiani",
+            "en": "Peter Damian",
+            "la": "Petrus Damiani",
+            "pl": "Piotr Damiani"
+        },
         "records/patrons/saturninus/tol": {
             "la": "Saturninus Tolosanensis",
             "en": "Saturnin of Toulouse",

@@ -34,6 +34,16 @@
         "en": "canon",
         "pl": "kanonik"
     },
+    "cardinalis-episcopus": {
+        "la": "cardinalis episcopus",
+        "en": "cardinal bishop",
+        "pl": "biskup kardynał"
+    },
+    "cardinalis": {
+        "la": "cardinalis",
+        "en": "cardinal",
+        "pl": "kardynał"
+    },
     "catechista": {
         "la": "catechista",
         "en": "catechist",

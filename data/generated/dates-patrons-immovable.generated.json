@@ -37,6 +37,19 @@
             }
         }
     },
+    "01-22": {
+        "records/patrons/petrus/dam": {
+            "name": {
+                "it": "Pier Damiani",
+                "en": "Peter Damian",
+                "la": "Petrus Damiani",
+                "pl": "Piotr Damiani"
+            },
+            "sources": {
+                "reliable-death-anniversary": "22 I"
+            }
+        }
+    },
     "01-28": {
         "records/patrons/agnes/rom": {
             "name": {
@@ -107,6 +120,45 @@
             },
             "sources": {
                 "other-martyrology-days": "14 II"
+            }
+        }
+    },
+    "02-21": {
+        "records/patrons/petrus/dam": {
+            "name": {
+                "it": "Pier Damiani",
+                "en": "Peter Damian",
+                "la": "Petrus Damiani",
+                "pl": "Piotr Damiani"
+            },
+            "sources": {
+                "other-martyrology-days": "21 II"
+            }
+        }
+    },
+    "02-22": {
+        "records/patrons/petrus/dam": {
+            "name": {
+                "it": "Pier Damiani",
+                "en": "Peter Damian",
+                "la": "Petrus Damiani",
+                "pl": "Piotr Damiani"
+            },
+            "sources": {
+                "other-martyrology-days": "22 II"
+            }
+        }
+    },
+    "02-23": {
+        "records/patrons/petrus/dam": {
+            "name": {
+                "it": "Pier Damiani",
+                "en": "Peter Damian",
+                "la": "Petrus Damiani",
+                "pl": "Piotr Damiani"
+            },
+            "sources": {
+                "other-martyrology-days": "23 II"
             }
         }
     },

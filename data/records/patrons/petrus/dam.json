@@ -1,0 +1,29 @@
+{
+  "names": {
+    "it": [
+      "Pier Damiani",
+      "Pier di Damiano",
+      "Pietro Damiani"
+    ],
+    "en": [
+      "Peter Damian"
+    ],
+    "la": [
+      "Petrus Damiani",
+      "Petrus Damianus"
+    ],
+    "pl": [
+      "Piotr Damiani"
+    ]
+  },
+
+  "born": ["~1007-01"],
+  "died": ["1072-01-22"],
+
+  "also-in-martyrology": ["02-21", "02-22", "02-23"],
+
+  "forenames": ["petrus"],
+  "categories": ["vir", "confessor", "cardinalis", "cardinalis-episcopus", "episcopus", "doctor-ecclesiae"],
+
+  "order": ["osbcam"]
+}
