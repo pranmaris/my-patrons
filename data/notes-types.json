@@ -164,7 +164,7 @@
       "pl": "opis"
     },
     "source": {
-      "values": "sorted"
+      "values": "last-year-or-10-challenges-sorted"
     }
   },
   "forename": {
@@ -220,7 +220,7 @@
       "pl": "osoba"
     },
     "source": {
-      "values": "sorted"
+      "values": "last-year-or-10-challenges-sorted"
     }
   },
   "place": {
@@ -230,7 +230,7 @@
       "pl": "miejsce"
     },
     "source": {
-      "values": "sorted"
+      "values": "last-year-or-10-challenges-sorted"
     }
   },
   "relic-or-grave-description": {
@@ -266,7 +266,7 @@
         {"96": ["lang-person-receiving-anointing-of-the-sick"]},
         {"100": ["lang-person-mentioned-in-mass-intentions"]}
       ],
-      "values": "sorted"
+      "values": "last-year-or-10-challenges-sorted"
     }
   },
   "sacrament": {
@@ -304,7 +304,7 @@
       "pl": "czas"
     },
     "source": {
-      "values": "sorted"
+      "values": "last-year-or-10-challenges-sorted"
     }
   },
   "type-of-relic-or-grave": {

@@ -165,6 +165,7 @@ const PARSE_REQUIREMENTS_SINCE_ACTIVE_DATES = {
 
 const NOTE_CONFIG_SOURCE_TYPE_VALUES = 'values';
 const NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_SORTED = 'sorted';
+const NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_LAST_YEAR_OR_10_CHALLENGES_SORTED = 'last-year-or-10-challenges-sorted';
 const NOTE_CONFIG_SOURCE_TYPE_LIST = 'list';
 const NOTE_CONFIG_SOURCE_TYPE_PATRONS = 'patrons';
 
@@ -2875,12 +2876,14 @@ async function showNoteContent(rowId, challengeType, itemType, isEditMode = fals
 async function showNoteValue(tableBodyElement, tableRowElement, rowId, challengeType, challengeConfig, itemType, value, path, tableColumnsCount, isEditMode, level = 1) {
   let totalRows = 0;
 
+  let noteType = '';
   let noteTypeConfig = {};
   let noteQuantityMin = 0;
   let noteQuantityMax = NOTE_QUANTITY_INFINITY_MAX;
   let doubleLoopTimes = path.length;
   for (const noteTypeData of Object.entries(challengeConfig.type ?? {})) {
     if (doubleLoopTimes <= 0) {
+      noteType = noteTypeData[0] ?? '';
       noteTypeConfig = notesTypesConfig[noteTypeData[0] ?? null] ?? {};
 
       const noteQuantity = noteTypeData[1] ?? [];
@@ -2910,7 +2913,7 @@ async function showNoteValue(tableBodyElement, tableRowElement, rowId, challenge
 
       let cellElement = tableRowElementToUse.insertCell(0);
       cellElement.rowSpan = rowsCount;
-      await showNoteCellContent(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig, noteQuantityMin, noteQuantityMax, value.length, rowsCount, isEditMode);
+      await showNoteCellContent(cellElement, rowId, challengeType, itemType, itemPath, noteType, noteTypeConfig, noteQuantityMin, noteQuantityMax, value.length, rowsCount, isEditMode);
 
       totalRows += rowsCount;
       isNewTableRowNeeded = true;
@@ -2989,7 +2992,7 @@ function getNoteFromFileData(index, noteId) {
 
 async function showNoteCellContent(
   cellElement, rowId, challengeType, itemType, itemPath,
-  noteTypeConfig, noteQuantityMin, noteQuantityMax,
+  noteType, noteTypeConfig, noteQuantityMin, noteQuantityMax,
   totalNotes, rowsCount, isEditMode
 ) {
   const itemPathString = itemPath.join('-');
@@ -3045,7 +3048,7 @@ async function showNoteCellContent(
   ;
 
   if (isEditFormMode) {
-    await showNoteCellContentInFormMode(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig);
+    await showNoteCellContentInFormMode(cellElement, rowId, challengeType, itemType, itemPath, noteType, noteTypeConfig);
   }
 }
 
@@ -3117,7 +3120,7 @@ function getSiblingsNoteIds(rowId, itemType, itemPath) {
   return result;
 }
 
-async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, itemType, itemPath, noteTypeConfig) {
+async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, itemType, itemPath, noteType, noteTypeConfig) {
   const currentNoteId = Number(itemPath.at(-1));
 
   const selectElement = document.getElementById(NOTE_CELL_SELECT_ELEMENT_ID);
@@ -3261,6 +3264,9 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
         let valuesData = structuredClone(fileDataValues);
         if (sourceData === NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_SORTED) {
           valuesData = getSortedArray(valuesData);
+        } else if (sourceData === NOTE_CONFIG_SOURCE_TYPE_VALUES_TYPE_LAST_YEAR_OR_10_CHALLENGES_SORTED) {
+          valuesData = getLastYearOrTenChallengesValuesData(valuesData, rowId, noteType);
+          valuesData = getSortedArray(valuesData);
         } else {
           valuesData = Object.entries(valuesData);
         }
@@ -3320,6 +3326,38 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
     selectElement.style = VISIBLE_STYLE;
     selectElement.onchange();
   }
+}
+
+function getLastYearOrTenChallengesValuesData(valuesData, challengeRowId, noteType) {
+  let result = {};
+
+  const lastMiliseconds = 30 * 24 * 60 * 60 * 1000;
+  const lastRows = 10;
+
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  const challengeDate = Date.parse(challenges[challengeRowId - 1].date ?? getToday());
+
+  let rowId = 0;
+  for (const challenge of challenges) {
+    rowId++;
+    if (rowId > challengeRowId) {
+      break;
+    }
+
+    const date = Date.parse(challenge.date ?? getToday());
+    const type = challenge.type;
+    const notes = challenge.notes;
+    const notesConfig = (challengesConfig[type] ?? {})[DATA_FIELD_NOTES] ?? {};
+
+    if (challengeRowId - rowId > lastRows && challengeDate - date > lastMiliseconds) {
+      continue;
+    }
+
+    //todo get matching notes
+  }
+  result = valuesData; //to remove
+
+  return result;
 }
 
 async function moveUpNote(rowId, challengeType, itemType, itemPath) {
