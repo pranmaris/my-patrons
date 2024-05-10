@@ -3328,14 +3328,18 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
   }
 }
 
-function getLastYearOrTenChallengesValuesData(valuesData, challengeRowId, noteType) {
+function getLastYearOrTenChallengesValuesData(valuesData, challengeRowId, selectedNoteType) {
   let result = {};
 
-  const lastMiliseconds = 30 * 24 * 60 * 60 * 1000;
+  const lastMiliseconds = 366 * 24 * 60 * 60 * 1000;
   const lastRows = 10;
 
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
-  const challengeDate = Date.parse(challenges[challengeRowId - 1].date ?? getToday());
+  if (challengeRowId == EMPTY_ROW_ID) {
+    challengeRowId = challenges.length;
+  }
+
+  const challengeDate = Date.parse((challenges[challengeRowId - 1] ?? {}).date ?? getToday());
 
   let rowId = 0;
   for (const challenge of challenges) {
@@ -3349,13 +3353,48 @@ function getLastYearOrTenChallengesValuesData(valuesData, challengeRowId, noteTy
     const notes = challenge.notes;
     const notesConfig = (challengesConfig[type] ?? {})[DATA_FIELD_NOTES] ?? {};
 
-    if (challengeRowId - rowId > lastRows && challengeDate - date > lastMiliseconds) {
+    if ((challengeRowId - rowId) > lastRows && (challengeDate - date) > lastMiliseconds) {
       continue;
     }
 
-    //todo get matching notes
+    for (const noteConfigId of Object.keys(notesConfig)) {
+      let level = 0;
+      for (const noteType in (notesConfig[noteConfigId] ?? {}).type ?? {}) {
+        level++;
+
+        if (noteType !== selectedNoteType) {
+          continue;
+        }
+        const noteIds = getNotesIdsForLevel(notes[noteConfigId] ?? [], level);
+        for (const noteId of Object.keys(noteIds)) {
+          result[noteId] = valuesData[noteId] ?? '---';
+        }
+      }
+    }
   }
-  result = valuesData; //to remove
+
+  return result;
+}
+
+function getNotesIdsForLevel(data, level, currentLevel = 1) {
+  let result = {};
+
+  if (currentLevel < level) {
+    for (const row of data) {
+      for (const key of Object.keys(row)) {
+        const subData = getNotesIdsForLevel(data[key] ?? [], level, currentLevel + 1);
+        for (const value of Object.keys(subData)) {
+          result[value] = value;
+        }
+      }
+    }
+  } else if (currentLevel == level) {
+    for (const row of data) {
+      for (const key of Object.keys(row)) {
+        result[key] = key;
+      }
+    }
+  }
 
   return result;
 }
@@ -3499,7 +3538,7 @@ async function assignExistingNote(rowId, challengeType, itemType, itemPath) {
   for (const i of path) {
     context = context[i];
   }
-  context[noteNumber] = {[noteId]: []};
+  context[noteNumber] = {[noteId]: (context[noteNumber] ?? [])[noteId] ?? []};
 
   synchronizeFileData();
 
