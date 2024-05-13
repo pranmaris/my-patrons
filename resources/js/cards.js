@@ -265,7 +265,7 @@ const JSON_VALUES_INPUT_ID_PREFIX = 'json-values';
 const JSON_VALUES_FIELDS_PREFIX = 'lang-';
 const JSON_VALUES_SECTIONS_PREFIXES = ['image'];
 
-const PATRON_CATEGORIES_JSON_FILE = '/files/data/records/categories.json';
+const PATRON_CATEGORIES_JSON_FILE = '/files/data/records/categories/index.generated.json';
 const FEMALE_CATEGORY = 'female';
 const CATEGORY_NAME = 'name';
 const CATEGORY_FEMALE_EQUIVALENT_NAME = 'female-equivalent-' + CATEGORY_NAME;
@@ -969,24 +969,9 @@ const getLanguageVariable = function(variable, capitalize) {
 const getCategoriesLanguageVariables = function(categories) {
   let result = [];
   let language = getLanguage();
-  let isFemale = false;
-  if (categories.indexOf(FEMALE_CATEGORY) != -1) {
-    isFemale = true;
-  }
 
   for (const category of categories) {
-    let translation = category + LANGUAGE_MISSING_VARIABLE_SIGN;
-
-    if (isFemale && patronCategories[category][CATEGORY_FEMALE_EQUIVALENT_NAME] != undefined) {
-      if (patronCategories[category][CATEGORY_FEMALE_EQUIVALENT_NAME][language] != undefined) {
-        translation = patronCategories[category][CATEGORY_FEMALE_EQUIVALENT_NAME][language];
-      }
-    } else if (patronCategories[category][CATEGORY_NAME] != undefined) {
-      if (patronCategories[category][CATEGORY_NAME][language] != undefined) {
-        translation = patronCategories[category][CATEGORY_NAME][language];
-      }
-    }
-
+    let translation = patronCategories[category][language] ?? category + LANGUAGE_MISSING_VARIABLE_SIGN;
     result.push(translation);
   }
 
@@ -1632,7 +1617,7 @@ const getDataFileParams = function(cardType, data, dataPath) {
 
   if (cardType === CARD_TYPE_PATRONS || cardType === CARD_TYPE_GOD) {
     const nameData = getTranslatedNameData(data, FILE_DATA_NAMES_KEY);
-    const imageData = data[FILE_DATA_IMAGES_KEY][IMAGES_DATA_DEFAULT_KEY] ?? {};
+    const imageData = (data[FILE_DATA_IMAGES_KEY] ?? {})[IMAGES_DATA_DEFAULT_KEY] ?? {};
     const qrCodeUrl = getProtocol() + '//' + getHostname() + '/' + dataPath;
 
     result[CARD_DATA_PARAMS_FIELD_NAME] = nameData[1];
@@ -1682,7 +1667,7 @@ const getICardQrCodeUrl = function(data) {
 }
 
 const getDeathDate = function(dates) {
-  if (dates.length === 0) {
+  if ((dates ?? []).length === 0) {
     return UNKNOWN;
   } else if (dates.length === 1) {
     return dates[0];
