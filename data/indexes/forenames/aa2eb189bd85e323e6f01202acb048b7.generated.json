@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Stanisław"
+    },
+    "translations": {
+        "la": [
+            "Stanislaus"
+        ],
+        "en": [
+            "Stanislaus"
+        ],
+        "pl": [
+            "Stanisław"
+        ]
+    },
+    "links": {
+        "records/patrons/stanislaus/cra": {
+            "pl": "Stanisław ze Szczepanowa",
+            "en": "Stanislaus of Szczepanów",
+            "la": "Stanislaus Cracoviensis"
+        }
+    }
+}

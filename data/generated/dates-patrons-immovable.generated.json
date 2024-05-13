@@ -387,6 +387,19 @@
             }
         }
     },
+    "04-11": {
+        "records/patrons/stanislaus/cra": {
+            "name": {
+                "pl": "Stanisław ze Szczepanowa",
+                "en": "Stanislaus of Szczepanów",
+                "la": "Stanislaus Cracoviensis"
+            },
+            "sources": {
+                "reliable-death-anniversary": "11 IV",
+                "other-martyrology-days": "11 IV"
+            }
+        }
+    },
     "04-23": {
         "records/patrons/adalbertus/pra": {
             "name": {
@@ -424,6 +437,30 @@
             },
             "sources": {
                 "other-martyrology-days": "4 V"
+            }
+        }
+    },
+    "05-07": {
+        "records/patrons/stanislaus/cra": {
+            "name": {
+                "pl": "Stanisław ze Szczepanowa",
+                "en": "Stanislaus of Szczepanów",
+                "la": "Stanislaus Cracoviensis"
+            },
+            "sources": {
+                "other-martyrology-days": "7 V"
+            }
+        }
+    },
+    "05-08": {
+        "records/patrons/stanislaus/cra": {
+            "name": {
+                "pl": "Stanisław ze Szczepanowa",
+                "en": "Stanislaus of Szczepanów",
+                "la": "Stanislaus Cracoviensis"
+            },
+            "sources": {
+                "other-martyrology-days": "8 V"
             }
         }
     },

@@ -1,0 +1,27 @@
+{
+  "names": {
+    "pl": [
+      "Stanisław ze Szczepanowa",
+      "Stanisław Szczepanowski"
+    ],
+    "en": [
+      "Stanislaus of Szczepanów"
+    ],
+    "la": [
+      "Stanislaus Cracoviensis"
+    ]
+  },
+
+  "born": [">1030", "<1040"],
+  "died": ["1079-04-11"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1253-09-08"
+  },
+
+  "also-in-martyrology": ["04-11", "05-07", "05-08"],
+
+  "forenames": ["stanislaus"],
+  "categories": ["vir", "martyr", "episcopus"]
+}
