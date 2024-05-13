@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Łazarz"
+    },
+    "translations": {
+        "la": [
+            "Lazarus"
+        ],
+        "en": [
+            "Lazarus"
+        ],
+        "pl": [
+            "Łazarz"
+        ]
+    },
+    "links": {
+        "records/patrons/lazarus/med": {
+            "la": "Lazarus Mediolanensis",
+            "en": "Lazarus of Milan",
+            "pl": "Łazarz z Mediolanu"
+        }
+    }
+}

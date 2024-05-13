@@ -1372,6 +1372,24 @@
         ],
         "feasts": []
     },
+    "patrons/lazarus": {
+        "names": {
+            "la": "Lazarus",
+            "en": "Lazarus",
+            "pl": "Łazarz"
+        }
+    },
+    "patrons/lazarus/med": {
+        "names": {
+            "la": "Lazarus Mediolanensis",
+            "en": "Lazarus of Milan",
+            "pl": "Łazarz z Mediolanu"
+        },
+        "died": [
+            "~449"
+        ],
+        "feasts": []
+    },
     "patrons/leonardus": {
         "names": {
             "la": "Leonardus",

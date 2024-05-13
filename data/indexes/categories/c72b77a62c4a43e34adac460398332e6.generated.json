@@ -248,6 +248,11 @@
             "en": "Lawrence of Rome",
             "pl": "Wawrzyniec z Rzymu"
         },
+        "records/patrons/lazarus/med": {
+            "la": "Lazarus Mediolanensis",
+            "en": "Lazarus of Milan",
+            "pl": "Łazarz z Mediolanu"
+        },
         "records/patrons/leonardus/ere": {
             "fr": "Léonard de Noblat",
             "en": "Leonard of Noblac",

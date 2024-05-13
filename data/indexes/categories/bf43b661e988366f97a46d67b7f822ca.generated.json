@@ -68,6 +68,11 @@
             "en": "John Chrysostom",
             "pl": "Jan Chryzostom"
         },
+        "records/patrons/lazarus/med": {
+            "la": "Lazarus Mediolanensis",
+            "en": "Lazarus of Milan",
+            "pl": "Łazarz z Mediolanu"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",

@@ -74,6 +74,9 @@
     "1565002270dd6ce3f63e821048890782": {
         "la": "Ioannes"
     },
+    "162115e92c300d6ee11c2f2c5a09b1fe": {
+        "pl": "Łazarz"
+    },
     "1745f9d46df9712e5fb68709e607a2ec": {
         "pt": "Antônio"
     },
@@ -588,6 +591,10 @@
     },
     "afbae8ee4d8e201b142767844c48f360": {
         "la": "Stephanus"
+    },
+    "b1800a239311fb1009eb5bf83db32309": {
+        "la": "Lazarus",
+        "en": "Lazarus"
     },
     "b21dfb148d20b1febdd8d86417f925c1": {
         "en": "Luke"
