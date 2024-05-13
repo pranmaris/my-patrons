@@ -1,0 +1,37 @@
+{
+  "names": {
+    "it": [
+      "Francesco da Paola"
+    ],
+    "en": [
+      "Francis of Paola",
+      "Francis the Fire Handler"
+    ],
+    "la": [
+      "Franciscus de Paula"
+    ],
+    "pl": [
+      "Franciszek z Paoli"
+    ]
+  },
+
+  "born": ["1416-03-27"],
+  "died": ["1507-04-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1513-07-28"
+  },
+  "canonized": {
+    "type": "equipollently",
+    "date": "1519-05-01"
+  },
+
+  "also-in-martyrology": ["04-02"],
+
+  "forenames": ["franciscus"],
+  "categories": ["vir", "confessor", "fundator", "institutor", "eremita"],
+
+  "order": ["om"],
+  "order-founder": ["om"]
+}

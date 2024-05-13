@@ -338,6 +338,18 @@
         }
     },
     "04-02": {
+        "records/patrons/franciscus/pau": {
+            "name": {
+                "it": "Francesco da Paola",
+                "en": "Francis of Paola",
+                "la": "Franciscus de Paula",
+                "pl": "Franciszek z Paoli"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 IV",
+                "other-martyrology-days": "2 IV"
+            }
+        },
         "records/patrons/ioannes/p2p": {
             "name": {
                 "pl": "Jan Paweł II",

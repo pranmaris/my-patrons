@@ -946,6 +946,18 @@
         ],
         "feasts": []
     },
+    "patrons/franciscus/pau": {
+        "names": {
+            "it": "Francesco da Paola",
+            "en": "Francis of Paola",
+            "la": "Franciscus de Paula",
+            "pl": "Franciszek z Paoli"
+        },
+        "died": [
+            "1507-04-02"
+        ],
+        "feasts": []
+    },
     "patrons/franciscus/xav": {
         "names": {
             "es": "Francisco Javier",

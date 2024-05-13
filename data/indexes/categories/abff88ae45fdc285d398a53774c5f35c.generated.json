@@ -72,6 +72,12 @@
             "la": "Franciscus Asisiensis",
             "pl": "Franciszek z Asyżu"
         },
+        "records/patrons/franciscus/pau": {
+            "it": "Francesco da Paola",
+            "en": "Francis of Paola",
+            "la": "Franciscus de Paula",
+            "pl": "Franciszek z Paoli"
+        },
         "records/patrons/franciscus/xav": {
             "es": "Francisco Javier",
             "en": "Francis Xavier",

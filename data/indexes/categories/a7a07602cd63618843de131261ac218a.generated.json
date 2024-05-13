@@ -32,6 +32,12 @@
             "la": "Dominicus de Silos",
             "pl": "Dominik z Silos"
         },
+        "records/patrons/franciscus/pau": {
+            "it": "Francesco da Paola",
+            "en": "Francis of Paola",
+            "la": "Franciscus de Paula",
+            "pl": "Franciszek z Paoli"
+        },
         "records/patrons/leonardus/ere": {
             "fr": "Léonard de Noblat",
             "en": "Leonard of Noblac",
