@@ -1,0 +1,23 @@
+{
+  "names": {
+    "he": [
+      "יְשַׁעְיָהוּ"
+    ],
+    "en": [
+      "Isaiah"
+    ],
+    "la": [
+      "Isaias"
+    ],
+    "pl": [
+      "Izajasz"
+    ]
+  },
+
+  "died": [">-800", "<-701"],
+
+  "also-in-martyrology": ["05-09", "07-06"],
+
+  "forenames": ["isaias"],
+  "categories": ["vir", "martyr", "propheta"]
+}

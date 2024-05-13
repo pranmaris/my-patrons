@@ -464,6 +464,19 @@
             }
         }
     },
+    "05-09": {
+        "records/patrons/isaias/pro": {
+            "name": {
+                "he": "יְשַׁעְיָהוּ",
+                "en": "Isaiah",
+                "la": "Isaias",
+                "pl": "Izajasz"
+            },
+            "sources": {
+                "other-martyrology-days": "9 V"
+            }
+        }
+    },
     "05-16": {
         "records/patrons/andreas/bob": {
             "name": {
@@ -577,6 +590,19 @@
             },
             "sources": {
                 "other-martyrology-days": "29 VI"
+            }
+        }
+    },
+    "07-06": {
+        "records/patrons/isaias/pro": {
+            "name": {
+                "he": "יְשַׁעְיָהוּ",
+                "en": "Isaiah",
+                "la": "Isaias",
+                "pl": "Izajasz"
+            },
+            "sources": {
+                "other-martyrology-days": "6 VII"
             }
         }
     },

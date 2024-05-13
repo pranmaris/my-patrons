@@ -102,6 +102,12 @@
             "la": "Ioannes Baptista",
             "pl": "Jan Chrzciciel"
         },
+        "records/patrons/isaias/pro": {
+            "he": "יְשַׁעְיָהוּ",
+            "en": "Isaiah",
+            "la": "Isaias",
+            "pl": "Izajasz"
+        },
         "records/patrons/laurentius/rom": {
             "la": "Laurentius de Roma",
             "en": "Lawrence of Rome",

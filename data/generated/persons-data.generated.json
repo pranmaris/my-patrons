@@ -1348,6 +1348,27 @@
             }
         }
     },
+    "patrons/isaias": {
+        "names": {
+            "la": "Isaias",
+            "en": "Isaiah",
+            "pl": "Izajasz",
+            "he": "יְשַׁעְיָהוּ"
+        }
+    },
+    "patrons/isaias/pro": {
+        "names": {
+            "he": "יְשַׁעְיָהוּ",
+            "en": "Isaiah",
+            "la": "Isaias",
+            "pl": "Izajasz"
+        },
+        "died": [
+            ">-800",
+            "<-701"
+        ],
+        "feasts": []
+    },
     "patrons/isidorus": {
         "names": {
             "la": "Isidorus",
