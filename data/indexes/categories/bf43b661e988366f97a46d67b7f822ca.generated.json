@@ -68,6 +68,11 @@
             "en": "John Chrysostom",
             "pl": "Jan Chryzostom"
         },
+        "records/patrons/isidorus/his": {
+            "la": "Isidorus Hispalensis",
+            "en": "Isidore of Seville",
+            "pl": "Izydor z Sewilli"
+        },
         "records/patrons/lazarus/med": {
             "la": "Lazarus Mediolanensis",
             "en": "Lazarus of Milan",

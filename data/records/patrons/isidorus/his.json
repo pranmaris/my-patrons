@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Isidorus Hispalensis"
+    ],
+    "en": [
+      "Isidore of Seville"
+    ],
+    "pl": [
+      "Izydor z Sewilli"
+    ]
+  },
+
+  "born": ["~560"],
+  "died": ["636-04-04"],
+
+  "also-in-martyrology": ["04-04"],
+
+  "forenames": ["isidorus"],
+  "categories": ["vir", "confessor", "episcopus", "doctor-ecclesiae"]
+}

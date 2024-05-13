@@ -132,6 +132,11 @@
             "la": "Iosephus",
             "pl": "Józef z Nazaretu"
         },
+        "records/patrons/isidorus/his": {
+            "la": "Isidorus Hispalensis",
+            "en": "Isidore of Seville",
+            "pl": "Izydor z Sewilli"
+        },
         "records/patrons/leonardus/ere": {
             "fr": "Léonard de Noblat",
             "en": "Leonard of Noblac",

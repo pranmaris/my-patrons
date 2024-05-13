@@ -1348,6 +1348,24 @@
             }
         }
     },
+    "patrons/isidorus": {
+        "names": {
+            "la": "Isidorus",
+            "en": "Isidore",
+            "pl": "Izydor"
+        }
+    },
+    "patrons/isidorus/his": {
+        "names": {
+            "la": "Isidorus Hispalensis",
+            "en": "Isidore of Seville",
+            "pl": "Izydor z Sewilli"
+        },
+        "died": [
+            "636-04-04"
+        ],
+        "feasts": []
+    },
     "patrons/kinga": {
         "names": {
             "la": "Kinga",

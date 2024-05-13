@@ -361,6 +361,19 @@
             }
         }
     },
+    "04-04": {
+        "records/patrons/isidorus/his": {
+            "name": {
+                "la": "Isidorus Hispalensis",
+                "en": "Isidore of Seville",
+                "pl": "Izydor z Sewilli"
+            },
+            "sources": {
+                "reliable-death-anniversary": "4 IV",
+                "other-martyrology-days": "4 IV"
+            }
+        }
+    },
     "04-06": {
         "records/patrons/methodius/cyr": {
             "name": {

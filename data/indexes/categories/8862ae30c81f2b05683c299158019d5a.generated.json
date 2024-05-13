@@ -42,6 +42,11 @@
             "en": "John Chrysostom",
             "pl": "Jan Chryzostom"
         },
+        "records/patrons/isidorus/his": {
+            "la": "Isidorus Hispalensis",
+            "en": "Isidore of Seville",
+            "pl": "Izydor z Sewilli"
+        },
         "records/patrons/petrus/dam": {
             "it": "Pier Damiani",
             "en": "Peter Damian",

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Izydor"
+    },
+    "translations": {
+        "la": [
+            "Isidorus"
+        ],
+        "en": [
+            "Isidore"
+        ],
+        "pl": [
+            "Izydor"
+        ]
+    },
+    "links": {
+        "records/patrons/isidorus/his": {
+            "la": "Isidorus Hispalensis",
+            "en": "Isidore of Seville",
+            "pl": "Izydor z Sewilli"
+        }
+    }
+}
