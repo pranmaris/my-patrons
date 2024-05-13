@@ -196,6 +196,9 @@
     "2e60a2cd293ed7c92d7752b2185b9d51": {
         "la": "Sarbelius"
     },
+    "311ba248903382fd1eee8670472d3f39": {
+        "fr": "Pierre"
+    },
     "330cde80123b2d965ef5911ad2d9ab49": {
         "pl": "Rychard"
     },
@@ -320,6 +323,10 @@
     },
     "606310b274a9fa112cdba296bb5b4a1b": {
         "la": "Alfonsus"
+    },
+    "60659cfda992013e610f285c46692d28": {
+        "en": "Julian",
+        "pl": "Julian"
     },
     "61409aa1fd47d4a5332de23cbf59a36f": {
         "en": "John"
@@ -567,6 +574,9 @@
     },
     "a3fc0f3dc006e80232a209184f045323": {
         "pl": "Hilary"
+    },
+    "a64cd8062eaa4562c0ba463f2ee7c828": {
+        "fr": "Julien"
     },
     "a78bcf26721280c66741cb091d89a774": {
         "la": "Laurentius"
@@ -886,6 +896,9 @@
     },
     "fdc5df53847da6f54f5e5d3c3291a181": {
         "en": "Radim"
+    },
+    "fe3155cc342bd6c85b442b2805d5af25": {
+        "la": "Iulianus"
     },
     "fe3382745e2cf6d80fab177ad783bd2d": {
         "la": "Daria",

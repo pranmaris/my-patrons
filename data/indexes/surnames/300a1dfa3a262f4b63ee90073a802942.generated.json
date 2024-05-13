@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Eymard"
+    },
+    "translations": {
+        "fr": [
+            "Eymard"
+        ]
+    },
+    "links": {
+        "records/patrons/petrus/eym": {
+            "fr": "Pierre-Julien Eymard",
+            "en": "Peter Julian Eymanrd",
+            "la": "Patrus Iulianus Eymard",
+            "pl": "Piotr Julian Eymard"
+        }
+    }
+}

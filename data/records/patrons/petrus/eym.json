@@ -1,0 +1,42 @@
+{
+  "names": {
+    "fr": [
+      "Pierre-Julien Eymard"
+    ],
+    "en": [
+      "Peter Julian Eymanrd"
+    ],
+    "la": [
+      "Patrus Iulianus Eymard"
+    ],
+    "pl": [
+      "Piotr Julian Eymard"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Eymard"
+    }
+  ],
+
+  "born": ["1811-02-04"],
+  "died": ["1868-08-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1925-12-07"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1962-12-09"
+  },
+
+  "also-in-martyrology": ["08-01", "08-02"],
+
+  "forenames": ["petrus", "iulianus"],
+  "categories": ["vir", "sacerdos", "presbyter", "institutor"],
+
+  "order": ["sss"],
+  "order-founder": ["sss"]
+}

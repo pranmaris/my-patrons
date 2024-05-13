@@ -12,6 +12,9 @@
         "pl": [
             "Piotr"
         ],
+        "fr": [
+            "Pierre"
+        ],
         "it": [
             "Pietro",
             "Pier"
@@ -28,6 +31,12 @@
             "en": "Peter Damian",
             "la": "Petrus Damiani",
             "pl": "Piotr Damiani"
+        },
+        "records/patrons/petrus/eym": {
+            "fr": "Pierre-Julien Eymard",
+            "en": "Peter Julian Eymanrd",
+            "la": "Patrus Iulianus Eymard",
+            "pl": "Piotr Julian Eymard"
         }
     }
 }

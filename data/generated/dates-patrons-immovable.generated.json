@@ -703,6 +703,18 @@
                 "reliable-death-anniversary": "1 VIII",
                 "other-martyrology-days": "1 VIII"
             }
+        },
+        "records/patrons/petrus/eym": {
+            "name": {
+                "fr": "Pierre-Julien Eymard",
+                "en": "Peter Julian Eymanrd",
+                "la": "Patrus Iulianus Eymard",
+                "pl": "Piotr Julian Eymard"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 VIII",
+                "other-martyrology-days": "1 VIII"
+            }
         }
     },
     "08-02": {
@@ -722,6 +734,17 @@
                 "la": "Eusebius Vercellensis",
                 "en": "Eusebius of Vercelli",
                 "pl": "Euzebiusz z Vercelli"
+            },
+            "sources": {
+                "other-martyrology-days": "2 VIII"
+            }
+        },
+        "records/patrons/petrus/eym": {
+            "name": {
+                "fr": "Pierre-Julien Eymard",
+                "en": "Peter Julian Eymanrd",
+                "la": "Patrus Iulianus Eymard",
+                "pl": "Piotr Julian Eymard"
             },
             "sources": {
                 "other-martyrology-days": "2 VIII"

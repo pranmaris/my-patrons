@@ -32,6 +32,12 @@
             "la": "Gaspar del Bufalo",
             "pl": "Kasper del Bufalo"
         },
+        "records/patrons/petrus/eym": {
+            "fr": "Pierre-Julien Eymard",
+            "en": "Peter Julian Eymanrd",
+            "la": "Patrus Iulianus Eymard",
+            "pl": "Piotr Julian Eymard"
+        },
         "records/patrons/vincentius/pau": {
             "fr": "Vincent de Paul",
             "en": "Vincent de Paul",

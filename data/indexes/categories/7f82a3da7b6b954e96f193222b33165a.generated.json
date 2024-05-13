@@ -47,6 +47,12 @@
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",
             "pl": "Marcin z Tours"
+        },
+        "records/patrons/petrus/eym": {
+            "fr": "Pierre-Julien Eymard",
+            "en": "Peter Julian Eymanrd",
+            "la": "Patrus Iulianus Eymard",
+            "pl": "Piotr Julian Eymard"
         }
     }
 }

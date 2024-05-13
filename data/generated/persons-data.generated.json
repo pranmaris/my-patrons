@@ -1947,6 +1947,7 @@
             "la": "Petrus",
             "en": "Peter",
             "pl": "Piotr",
+            "fr": "Pierre",
             "it": "Pietro"
         }
     },
@@ -2007,6 +2008,18 @@
         },
         "died": [
             "1072-01-22"
+        ],
+        "feasts": []
+    },
+    "patrons/petrus/eym": {
+        "names": {
+            "fr": "Pierre-Julien Eymard",
+            "en": "Peter Julian Eymanrd",
+            "la": "Patrus Iulianus Eymard",
+            "pl": "Piotr Julian Eymard"
+        },
+        "died": [
+            "1868-08-01"
         ],
         "feasts": []
     },

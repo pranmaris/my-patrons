@@ -292,6 +292,12 @@
         "en": "Isidore",
         "pl": "Izydor"
     },
+    "iulianus": {
+        "la": "Iulianus",
+        "en": "Julian",
+        "pl": "Julian",
+        "fr": "Julien"
+    },
     "kinga": {
         "la": "Kinga",
         "en": "Kinga",
@@ -410,6 +416,7 @@
         "la": "Petrus",
         "en": "Peter",
         "pl": "Piotr",
+        "fr": "Pierre",
         "it": "Pietro"
     },
     "philippus": {
