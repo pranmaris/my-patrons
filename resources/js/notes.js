@@ -21,6 +21,8 @@ const CHALLENGES_CONFIG_JSON_FILE = '/files/data/challenges.json';
 const NOTES_CONFIG_JSON_FILE = '/files/data/notes-types.json';
 const PERSONS_DATA_JSON_FILE = '/files/data/generated/persons-data.generated.json';
 const BIBLE_CHAPTERS_DATA_JSON_FILE = '/files/data/bible_chapters.json';
+const DATES_FEASTS_IMMOVABLE_JSON_FILE = '/files/data/generated/dates-feasts-immovable.generated.json';
+const DATES_PATRONS_IMMOVABLE_JSON_FILE = '/files/data/generated/dates-patrons-immovable.generated.json';
 
 const PARSE_CHALLENGE_MANY_PERSONS_SIGN = '*';
 
@@ -218,6 +220,7 @@ let filesContentsErrors = {};
 let personsData = {};
 let personsDataSubelementsCache = {};
 let personsAdditionDataElementsCache = {};
+let immovableDatesPatronsData = {};
 
 let fileName = DEFAULT_JSON_FILENAME;
 let fileContent = '{}';
@@ -233,6 +236,7 @@ async function build() {
   challengesConfig = await getJsonFromFile(CHALLENGES_CONFIG_JSON_FILE);
   notesTypesConfig = await getJsonFromFile(NOTES_CONFIG_JSON_FILE);
   personsData = await getJsonFromFile(PERSONS_DATA_JSON_FILE);
+  immovableDatesPatronsData = await getImmovableDatesPatronsData([DATES_FEASTS_IMMOVABLE_JSON_FILE, DATES_PATRONS_IMMOVABLE_JSON_FILE]);
 
   doActionsDependentOfAdvancedMode();
   reloadFileTab();
@@ -419,6 +423,36 @@ const getJsonFromFile = async function(path) {
   const content = await getFileContent(path);
 
   return JSON.parse(content);
+}
+
+async function getImmovableDatesPatronsData(filePaths) {
+  let result = {};
+
+  const personPrefixNeeded = PERSON_TYPE_PATRONS.toLowerCase();
+
+  for (const filePath of filePaths) {
+    const fileData = await getJsonFromFile(filePath);
+    for (const monthWithDay of Object.keys(fileData)) {
+      const dayData = fileData[monthWithDay] ?? {};
+      for (const patronWithAdditionId of Object.keys(dayData)) {
+        if (!patronWithAdditionId.match(new RegExp('/' + personPrefixNeeded + '/'))) {
+          continue;
+        }
+
+        const patronId = patronWithAdditionId
+          .replace(/[#].+$/, '')
+          .replace(new RegExp('^.*/' + personPrefixNeeded + '/'), personPrefixNeeded + '/')
+        ;
+
+        if (result[monthWithDay] == undefined) {
+          result[monthWithDay] = {};
+        }
+        result[monthWithDay][patronId] = true;
+      }
+    }
+  }
+
+  return result;
 }
 
 function synchronizeFileData() {
