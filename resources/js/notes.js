@@ -7,6 +7,12 @@ const ANCHOR_CHARACTER = '#';
 const UNIQUENESS_STRING_SEPARATOR = '|#|#|';
 const TEXT_CHARACTER_SORTED_AFTER_OTHERS = 'ﻩ';
 
+const IMMOVABLE_DATES_PATRONS_LIST_CHARACTER = '#';
+const IMMOVABLE_DATES_TAKEN_CHALLENGES_LIST = ['H', 'SA', 'SB', 'SC', 'SE', 'SM', 'SO', 'SP'];
+
+const MONTH_WITH_DAY_LEAP_YEAR_SEPARATOR = 'b';
+const MONTH_WITH_DAY_NON_LEAP_YEAR_SEPARATOR = 'n';
+
 const MISSING_INDEX_OF_VALUE = -1;
 const MISSING_TABLE_HEADER_NOTE_NAME = '?';
 const EMPTY_NOTE_ID = 0;
@@ -287,6 +293,10 @@ function getDatesDiffInDays(firstDateStr, secondDateStr) {
   const diffInDays = Math.round((firstDate - secondDate) / dayMiliseconds);
 
   return diffInDays;
+}
+
+function isYearLeap(year) {
+  return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
 }
 
 function getPersonsDataDirName(id) {
@@ -654,7 +664,7 @@ function parseChallenge(rowId, challenge, contextData) {
   const specifiedPersonAdditionCountsContext = contextData.additions.counts[challengePersonWithAddition] ?? {};
   const manyPersonsDatesContext = contextData.persons.dates[PARSE_CHALLENGE_MANY_PERSONS_SIGN] ?? {};
   const specifiedPersonDatesContext = contextData.persons.dates[challengePerson] ?? {};
-  const uniqs = contextData.uniqs[challengeType] ?? {};
+  const uniqs = contextData.uniqs[challengeType] ?? [];
 
   let isPersonGodHavingNeededChallenges = false;
 
@@ -807,6 +817,28 @@ function parseChallenge(rowId, challenge, contextData) {
           }
         }
 
+        if (!foundAny && inArray(IMMOVABLE_DATES_PATRONS_LIST_CHARACTER, reqTypes)) {
+          for (const challengeTypeToCheck of IMMOVABLE_DATES_TAKEN_CHALLENGES_LIST) {
+            const dateToCheck = manyPersonsDatesContext[challengeTypeToCheck] ?? null;
+            if (dateToCheck == null) {
+              continue;
+            }
+
+            const monthWithDay = dateToCheck.substring(5);
+            if (true === ((immovableDatesPatronsData[monthWithDay] ?? {})[challengePerson] ?? false)) {
+              foundAny = true;
+              break;
+            }
+
+            const isDateToCheckYearLeap = isYearLeap(dateToCheck.substring(0, 4));
+            const leapYearSeparator = isDateToCheckYearLeap ? MONTH_WITH_DAY_LEAP_YEAR_SEPARATOR : MONTH_WITH_DAY_NON_LEAP_YEAR_SEPARATOR;
+            if (true === ((immovableDatesPatronsData[monthWithDay.replace('-', leapYearSeparator)] ?? {})[challengePerson] ?? false)) {
+              foundAny = true;
+              break;
+            }
+          }
+        }
+
         if (!foundAny) {
           throw {
             message: 'lang-challenge-parse-error-for-requirement-person-having-any-challenge',
@@ -891,13 +923,20 @@ function parseChallenge(rowId, challenge, contextData) {
   }
 
   //check duplications
-  const uniq = getUniquenessString(challenge, configUniqueness);
-  const foundUniq = uniqs[uniq] ?? '';
-  if (foundUniq !== '' && configUniqueness.length > 0) {
-    throw {
-      message: 'lang-challenge-parse-error-uniqueness',
-      data: ['#' + foundUniq]
-    };
+  for (configUniquenessRow of configUniqueness) {
+    const uniq = getUniquenessString(challenge, configUniquenessRow);
+    const foundUniq = uniqs[uniq] ?? '';
+    if (foundUniq !== '') {
+      throw {
+        message: 'lang-challenge-parse-error-uniqueness',
+        data: ['#' + foundUniq]
+      };
+    }
+
+    if (contextData.uniqs[challengeType] === undefined) {
+      contextData.uniqs[challengeType] = {};
+    }
+    contextData.uniqs[challengeType][uniq] = rowId;
   }
 
   //add context data
@@ -923,11 +962,6 @@ function parseChallenge(rowId, challenge, contextData) {
     contextData.additions.counts[challengePersonWithAddition] = {};
   }
   contextData.additions.counts[challengePersonWithAddition][challengeType] = (contextData.additions.counts[challengePersonWithAddition][challengeType] ?? 0) + 1;
-
-  if (contextData.uniqs[challengeType] === undefined) {
-    contextData.uniqs[challengeType] = {};
-  }
-  contextData.uniqs[challengeType][uniq] = rowId;
 }
 
 function getUniquenessString(challenge, uniqFields) {
@@ -1526,6 +1560,9 @@ function getPersonsHavingAnyChallenge(types, checkDateString) {
   let result = {};
   let rowId = 0;
 
+  const isImmovableDatesChallengeType = inArray(IMMOVABLE_DATES_PATRONS_LIST_CHARACTER, types);
+  let immovableTakenDates = {};
+
   const checkDate = null ? null : Date.parse(checkDateString);
 
   const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
@@ -1540,6 +1577,30 @@ function getPersonsHavingAnyChallenge(types, checkDateString) {
 
     if (inArray(ch.type, types)) {
       result[ch.person] = ch.person;
+    }
+
+    if (isImmovableDatesChallengeType && inArray(ch.type, IMMOVABLE_DATES_TAKEN_CHALLENGES_LIST)) {
+      immovableTakenDates[ch.date] = true;
+    }
+  }
+
+  if (isImmovableDatesChallengeType) {
+    const isCheckDateYearLeap = isYearLeap(checkDateString.substring(0, 4));
+
+    let monthWithDayList = {};
+    for (const dateString of Object.keys(immovableTakenDates)) {
+      const isDateYearLeap = isYearLeap(dateString.substring(0, 4));
+      const monthWithDay = dateString.substring(5);
+      const leapYearSeparator = isDateYearLeap ? MONTH_WITH_DAY_LEAP_YEAR_SEPARATOR : MONTH_WITH_DAY_NON_LEAP_YEAR_SEPARATOR;
+
+      monthWithDayList[monthWithDay] = true;
+      monthWithDayList[monthWithDay.replace('-', leapYearSeparator)] = true;
+    }
+
+    for (const monthWithDay of Object.keys(monthWithDayList)) {
+      for (const patronId of Object.keys(immovableDatesPatronsData[monthWithDay] ?? {})) {
+        result[patronId] = patronId;
+      }
     }
   }
 

@@ -10,7 +10,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Patrons"],
@@ -139,7 +141,9 @@
       }
     },
     "numbers": true,
-    "uniqueness": ["person", "addition", "notes/place", "notes/altar-name"],
+    "uniqueness": [
+      ["person", "addition", "notes/place", "notes/altar-name"]
+    ],
     "addition-type": "feasts",
     "person": {
       "types": ["God", "Patrons"],
@@ -250,7 +254,9 @@
       }
     },
     "numbers": true,
-    "uniqueness": ["person", "addition", "notes/place"],
+    "uniqueness": [
+      ["person", "addition", "notes/place"]
+    ],
     "addition-type": "feasts",
     "person": {
       "types": ["God", "Patrons"],
@@ -366,7 +372,9 @@
       }
     },
     "numbers": true,
-    "uniqueness": ["person", "addition", "notes/place"],
+    "uniqueness": [
+      ["person", "addition", "notes/place"]
+    ],
     "addition-type": "feasts",
     "person": {
       "types": ["God", "Patrons"],
@@ -466,7 +474,9 @@
       }
     },
     "numbers": true,
-    "uniqueness": ["person", "addition"],
+    "uniqueness": [
+      ["person", "addition"]
+    ],
     "addition-type": "feasts",
     "person": {
       "types": ["God", "Patrons"],
@@ -559,7 +569,9 @@
       }
     },
     "numbers": true,
-    "uniqueness": ["person", "date"],
+    "uniqueness": [
+      ["person", "date"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -724,7 +736,9 @@
       }
     },
     "numbers": true,
-    "uniqueness": ["person", "date"],
+    "uniqueness": [
+      ["person", "date"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -883,7 +897,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -967,7 +983,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -1089,7 +1107,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Patrons"],
@@ -1153,6 +1173,98 @@
     }
   },
 
+  "MM": {
+    "name": {
+      "pl": "Misja Posłańca"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/misja-poslanca"
+      }
+    },
+    "numbers": false,
+    "uniqueness": [
+      ["person"],
+      ["notes/place"]
+    ],
+    "addition-type": "",
+    "person": {
+      "types": ["Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/patron-ktoremu-powierzona-bedzie-misja-poslanca"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["I", "BLOCKED"],
+        "person-having-any-challenge": ["YN", "P", "#"],
+        "person-not-having-challenges": ["MM"]
+      }
+    },
+    "checklist": {
+      "place": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "pomódl się przy przydrożnym krzyżu lub kapliczce"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-przy-przydroznym-krzyzu-lub-kapliczce"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "powierz Patronowi swoją Misję Posłańca"
+        },
+        "description": {
+          "params": ["person-name"],
+          "template": {
+            "pl": "pl/kroki/powierz-patronowi-swoja-misje-poslanca"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "place": {
+        "type": {
+          "place": [1, 1]
+        },
+        "name": {
+          "pl": "miejsce z opisem krzyża lub kapliczki"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "N": {
     "name": {
       "pl": "Patron Mentor"
@@ -1164,7 +1276,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Patrons"],
@@ -1275,7 +1389,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -1366,7 +1482,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -1457,7 +1575,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -1548,7 +1668,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -1639,7 +1761,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -1730,7 +1854,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -1821,7 +1947,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -2028,7 +2156,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Patrons"],
@@ -2142,7 +2272,9 @@
       }
     },
     "numbers": true,
-    "uniqueness": ["person", "notes/place"],
+    "uniqueness": [
+      ["person", "notes/place"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["God", "Patrons"],
@@ -2279,7 +2411,9 @@
       }
     },
     "numbers": false,
-    "uniqueness": ["person"],
+    "uniqueness": [
+      ["person"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Patrons", "God"],
