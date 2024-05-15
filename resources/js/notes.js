@@ -8,8 +8,9 @@ const UNIQUENESS_STRING_SEPARATOR = '|#|#|';
 const TEXT_CHARACTER_SORTED_AFTER_OTHERS = 'ﻩ';
 
 const IMMOVABLE_DATES_PATRONS_LIST_CHARACTER = '#';
-const IMMOVABLE_DATES_TAKEN_CHALLENGES_LIST = ['H', 'SA', 'SB', 'SC', 'SE', 'SM', 'SO', 'SP'];
+const IMMOVABLE_DATES_TAKEN_CHALLENGES_LIST = ['H', 'SB', 'SC', 'SE', 'SP', 'SA', 'SO', 'SM']; //order is important!
 
+const MONTH_WITH_DAY_LEAP_YEAR_SEPARATOR_IN_IMMOVABLE_DATES_SITE = '!';
 const MONTH_WITH_DAY_LEAP_YEAR_SEPARATOR = 'b';
 const MONTH_WITH_DAY_NON_LEAP_YEAR_SEPARATOR = 'n';
 
@@ -2710,9 +2711,40 @@ function getDescriptionParamValue(paramName, paramValue) {
       return paramValue;
     case 'current-year':
       return getToday().substring(0, 4);
+    case 'immovable-dates':
+      return getImmovableDatesSiteParam();
     default:
       return '';
   }
+}
+
+function getImmovableDatesSiteParam() {
+  let result = '';
+
+  let rowId = 0;
+  let lastDates = {};
+
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  for (const challenge of challenges) {
+    rowId++;
+    if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+      continue;
+    }
+
+    lastDates[challenge.type] = challenge.date;
+  }
+
+  for (const challengeType of IMMOVABLE_DATES_TAKEN_CHALLENGES_LIST) {
+    const dateString = lastDates[challengeType] ?? '';
+    let monthWithDay = dateString.substring(5);
+    if (isYearLeap(dateString.substring(0, 4))) {
+      monthWithDay = monthWithDay.replace(/-/, MONTH_WITH_DAY_LEAP_YEAR_SEPARATOR_IN_IMMOVABLE_DATES_SITE);
+    }
+
+    result = result + monthWithDay + ',';
+  }
+
+  return result.replace(/[,]+$/, '');
 }
 
 async function removeChallengeReset(rowId) {

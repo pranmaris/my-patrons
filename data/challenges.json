@@ -1192,13 +1192,13 @@
     "person": {
       "types": ["Patrons"],
       "description": {
-        "params": [],
+        "params": ["immovable-dates"],
         "template": {
           "pl": "pl/osoby/patron-ktoremu-powierzona-bedzie-misja-poslanca"
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["I", "BLOCKED"],
+        "anybody-having-challenges": ["I"],
         "person-having-any-challenge": ["YN", "P", "#"],
         "person-not-having-challenges": ["MM"]
       }
@@ -1250,7 +1250,7 @@
           "place": [1, 1]
         },
         "name": {
-          "pl": "miejsce z opisem krzyża lub kapliczki"
+          "pl": "miejscowość i opis miejsca przydrożnego krzyża lub kapliczki"
         }
       },
       "other": {
