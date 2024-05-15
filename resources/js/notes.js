@@ -1922,7 +1922,6 @@ function resetPersonNameSelect() {
       let personsToListForAny = {};
       if (typesNeededForAny != null) {
         personsToListForAny = getPersonsHavingAnyChallenge(typesNeededForAny, challengeDate);
-
         for (let personId of Object.keys(personsToListForAny)) {
           const personNameId = getPersonsDataDirName(personId);
           personsNamesToListForAny[personNameId] = personNameId;
@@ -1933,7 +1932,6 @@ function resetPersonNameSelect() {
       let personsNamesToSkipCounts = {};
       if (typesNotAllowed.length > 0) {
         const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
-
         for (let personId of Object.keys(personsToSkip)) {
           const personNameId = getPersonsDataDirName(personId);
           personsNamesToSkipCounts[personNameId] = (personsNamesToSkipCounts[personNameId] ?? 0) + 1;
@@ -1966,7 +1964,19 @@ function resetPersonNameSelect() {
 
         if (personsNamesToSkipCounts[subelement] != undefined) {
           const nameSubelements = getPersonsDataSubelements(subelement);
-          if (nameSubelements.length <= personsNamesToSkipCounts[subelement]) {
+          let nameSubelementsLength = 0;
+          for (nameSubelement of nameSubelements) {
+            if (typesNeeded != null && !personsNamesToList[nameSubelement]) {
+              continue;
+            }
+            if (typesNeededForAny != null && !personsNamesToListForAny[nameSubelement]) {
+              continue;
+            }
+
+            nameSubelementsLength++;
+          }
+
+          if (nameSubelementsLength <= personsNamesToSkipCounts[subelement]) {
             continue;
           }
         }
