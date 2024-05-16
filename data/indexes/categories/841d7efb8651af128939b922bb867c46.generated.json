@@ -20,6 +20,12 @@
             "la": "Adalbertus Pragensis",
             "pl": "Wojciech Sławnikowic"
         },
+        "records/patrons/albertus/lov": {
+            "fr": "Albert de Louvain",
+            "en": "Albert of Louvain",
+            "la": "Albertus Lovaniensis",
+            "pl": "Albert z Louvain"
+        },
         "records/patrons/andreas/apo": {
             "grc": "Ανδρέας",
             "en": "Andrew the Apostle",

@@ -33,6 +33,12 @@
             "en": "Agnes of Rome",
             "pl": "Agnieszka Rzymianka"
         },
+        "records/patrons/albertus/lov": {
+            "fr": "Albert de Louvain",
+            "en": "Albert of Louvain",
+            "la": "Albertus Lovaniensis",
+            "pl": "Albert z Louvain"
+        },
         "records/patrons/anastasia/sir": {
             "la": "Anastasia Sirmiensis",
             "en": "Anastasia of Sirmium",

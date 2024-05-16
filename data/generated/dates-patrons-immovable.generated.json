@@ -1596,6 +1596,19 @@
             }
         }
     },
+    "11-21": {
+        "records/patrons/albertus/lov": {
+            "name": {
+                "fr": "Albert de Louvain",
+                "en": "Albert of Louvain",
+                "la": "Albertus Lovaniensis",
+                "pl": "Albert z Louvain"
+            },
+            "sources": {
+                "other-martyrology-days": "21 XI"
+            }
+        }
+    },
     "11-22": {
         "records/patrons/caecilia/rom": {
             "name": {
@@ -1605,6 +1618,20 @@
             },
             "sources": {
                 "other-martyrology-days": "22 XI"
+            }
+        }
+    },
+    "11-24": {
+        "records/patrons/albertus/lov": {
+            "name": {
+                "fr": "Albert de Louvain",
+                "en": "Albert of Louvain",
+                "la": "Albertus Lovaniensis",
+                "pl": "Albert z Louvain"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 XI",
+                "other-martyrology-days": "24 XI"
             }
         }
     },

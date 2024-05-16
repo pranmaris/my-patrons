@@ -1,0 +1,30 @@
+{
+  "names": {
+    "fr": [
+      "Albert de Louvain",
+      "Albert de Liège"
+    ],
+    "en": [
+      "Albert of Louvain"
+    ],
+    "la": [
+      "Albertus Lovaniensis"
+    ],
+    "pl": [
+      "Albert z Louvain"
+    ]
+  },
+
+  "born": ["~1160"],
+  "died": ["1192-11-24"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1613-08-09"
+  },
+
+  "also-in-martyrology": ["11-21", "11-24"],
+
+  "forenames": ["albertus"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

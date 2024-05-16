@@ -20,6 +20,12 @@
             "la": "Adalbertus Pragensis",
             "pl": "Wojciech Sławnikowic"
         },
+        "records/patrons/albertus/lov": {
+            "fr": "Albert de Louvain",
+            "en": "Albert of Louvain",
+            "la": "Albertus Lovaniensis",
+            "pl": "Albert z Louvain"
+        },
         "records/patrons/albertus/mag": {
             "de": "Albert der Große",
             "en": "Albert the Great",

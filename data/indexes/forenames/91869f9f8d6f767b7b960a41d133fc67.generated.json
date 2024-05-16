@@ -2,7 +2,8 @@
     "names": {
         "en": "Albert",
         "pl": "Albert",
-        "de": "Albert"
+        "de": "Albert",
+        "fr": "Albert"
     },
     "translations": {
         "la": [
@@ -16,6 +17,9 @@
         ],
         "de": [
             "Albert"
+        ],
+        "fr": [
+            "Albert"
         ]
     },
     "links": {
@@ -23,6 +27,12 @@
             "pl": "Albert Chmielowski",
             "en": "Albert Chmielowski",
             "la": "Albertus Chmielowski"
+        },
+        "records/patrons/albertus/lov": {
+            "fr": "Albert de Louvain",
+            "en": "Albert of Louvain",
+            "la": "Albertus Lovaniensis",
+            "pl": "Albert z Louvain"
         },
         "records/patrons/albertus/mag": {
             "de": "Albert der Große",

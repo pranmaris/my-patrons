@@ -384,7 +384,8 @@
             "la": "Albertus",
             "en": "Albert",
             "pl": "Albert",
-            "de": "Albert"
+            "de": "Albert",
+            "fr": "Albert"
         }
     },
     "patrons/albertus/chm": {
@@ -395,6 +396,18 @@
         },
         "died": [
             "1916-12-25"
+        ],
+        "feasts": []
+    },
+    "patrons/albertus/lov": {
+        "names": {
+            "fr": "Albert de Louvain",
+            "en": "Albert of Louvain",
+            "la": "Albertus Lovaniensis",
+            "pl": "Albert z Louvain"
+        },
+        "died": [
+            "1192-11-24"
         ],
         "feasts": []
     },
