@@ -1378,6 +1378,31 @@
             "sources": {
                 "other-martyrology-days": "16 X"
             }
+        },
+        "records/patrons/margarita/ala": {
+            "name": {
+                "fr": "Marguerite-Marie Alacoque",
+                "en": "Margaret Mary Alacoque",
+                "la": "Margarita Maria Alacoque",
+                "pl": "Małgorzata Maria Alacoque"
+            },
+            "sources": {
+                "other-martyrology-days": "16 X"
+            }
+        }
+    },
+    "10-17": {
+        "records/patrons/margarita/ala": {
+            "name": {
+                "fr": "Marguerite-Marie Alacoque",
+                "en": "Margaret Mary Alacoque",
+                "la": "Margarita Maria Alacoque",
+                "pl": "Małgorzata Maria Alacoque"
+            },
+            "sources": {
+                "reliable-death-anniversary": "17 X",
+                "other-martyrology-days": "17 X"
+            }
         }
     },
     "10-18": {

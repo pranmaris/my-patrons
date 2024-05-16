@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Alacoque"
+    },
+    "translations": {
+        "fr": [
+            "Alacoque"
+        ]
+    },
+    "links": {
+        "records/patrons/margarita/ala": {
+            "fr": "Marguerite-Marie Alacoque",
+            "en": "Margaret Mary Alacoque",
+            "la": "Margarita Maria Alacoque",
+            "pl": "Małgorzata Maria Alacoque"
+        }
+    }
+}

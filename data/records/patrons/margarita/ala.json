@@ -1,0 +1,42 @@
+{
+  "names": {
+    "fr": [
+      "Marguerite-Marie Alacoque"
+    ],
+    "en": [
+      "Margaret Mary Alacoque"
+    ],
+    "la": [
+      "Margarita Maria Alacoque",
+      "Margarita Maria Burgunda"
+    ],
+    "pl": [
+      "Małgorzata Maria Alacoque"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Alacoque"
+    }
+  ],
+
+  "born": ["1647-07-22"],
+  "died": ["1690-10-17"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1864-09-18"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1920-05-13"
+  },
+
+  "also-in-martyrology": ["10-16", "10-17"],
+
+  "forenames": ["margarita", "maria"],
+  "categories": ["femina", "virgo", "monialis"],
+
+  "order": ["vsm"]
+}

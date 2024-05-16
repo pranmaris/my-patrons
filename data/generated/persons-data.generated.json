@@ -1584,8 +1584,21 @@
         "names": {
             "la": "Margarita",
             "en": "Margaret",
-            "pl": "Małgorzata"
+            "pl": "Małgorzata",
+            "fr": "Marguerite"
         }
+    },
+    "patrons/margarita/ala": {
+        "names": {
+            "fr": "Marguerite-Marie Alacoque",
+            "en": "Margaret Mary Alacoque",
+            "la": "Margarita Maria Alacoque",
+            "pl": "Małgorzata Maria Alacoque"
+        },
+        "died": [
+            "1690-10-17"
+        ],
+        "feasts": []
     },
     "patrons/margarita/war": {
         "names": {
