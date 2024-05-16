@@ -2112,6 +2112,24 @@
         ],
         "feasts": []
     },
+    "patrons/raphael": {
+        "names": {
+            "la": "Raphael",
+            "en": "Raphael",
+            "pl": "Rafał"
+        }
+    },
+    "patrons/raphael/arc": {
+        "names": {
+            "la": "Raphael Archangelus",
+            "en": "Archangel Raphael",
+            "pl": "Rafał Archanioł"
+        },
+        "died": [
+            "-"
+        ],
+        "feasts": []
+    },
     "patrons/richardus": {
         "names": {
             "la": "Richardus",

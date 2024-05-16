@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Rafał"
+    },
+    "translations": {
+        "la": [
+            "Raphael"
+        ],
+        "en": [
+            "Raphael"
+        ],
+        "pl": [
+            "Rafał"
+        ]
+    },
+    "links": {
+        "records/patrons/raphael/arc": {
+            "la": "Raphael Archangelus",
+            "en": "Archangel Raphael",
+            "pl": "Rafał Archanioł"
+        }
+    }
+}

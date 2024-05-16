@@ -1249,6 +1249,16 @@
             "sources": {
                 "other-martyrology-days": "29 IX"
             }
+        },
+        "records/patrons/raphael/arc": {
+            "name": {
+                "la": "Raphael Archangelus",
+                "en": "Archangel Raphael",
+                "pl": "Rafał Archanioł"
+            },
+            "sources": {
+                "other-martyrology-days": "29 IX"
+            }
         }
     },
     "10-02": {
@@ -1438,6 +1448,18 @@
             },
             "sources": {
                 "other-martyrology-days": "20 X"
+            }
+        }
+    },
+    "10-24": {
+        "records/patrons/raphael/arc": {
+            "name": {
+                "la": "Raphael Archangelus",
+                "en": "Archangel Raphael",
+                "pl": "Rafał Archanioł"
+            },
+            "sources": {
+                "other-martyrology-days": "24 X"
             }
         }
     },

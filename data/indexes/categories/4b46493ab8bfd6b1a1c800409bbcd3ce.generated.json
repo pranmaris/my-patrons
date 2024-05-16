@@ -23,6 +23,11 @@
             "la": "Michael Archangelus",
             "en": "Archangel Michael",
             "pl": "Michał Archanioł"
+        },
+        "records/patrons/raphael/arc": {
+            "la": "Raphael Archangelus",
+            "en": "Archangel Raphael",
+            "pl": "Rafał Archanioł"
         }
     }
 }
