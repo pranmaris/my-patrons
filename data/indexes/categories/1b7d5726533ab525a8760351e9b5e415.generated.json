@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "child"
+    },
+    "translations": {
+        "la": [
+            "puer"
+        ],
+        "en": [
+            "child"
+        ],
+        "pl": [
+            "dziecko"
+        ]
+    },
+    "links": {
+        "records/patrons/iustus/pas": {
+            "la": "Iustus (cum Pastor)",
+            "en": "Justus (with Pastor)",
+            "pl": "Just (z Pastorem)"
+        }
+    }
+}

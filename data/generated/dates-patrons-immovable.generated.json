@@ -847,6 +847,16 @@
                 "reliable-death-anniversary": "6 VIII",
                 "other-martyrology-days": "6 VIII"
             }
+        },
+        "records/patrons/iustus/pas": {
+            "name": {
+                "la": "Iustus (cum Pastor)",
+                "en": "Justus (with Pastor)",
+                "pl": "Just (z Pastorem)"
+            },
+            "sources": {
+                "other-martyrology-days": "6 VIII"
+            }
         }
     },
     "08-07": {

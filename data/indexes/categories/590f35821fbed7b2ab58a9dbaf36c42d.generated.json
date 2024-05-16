@@ -265,6 +265,11 @@
             "en": "Isidore of Seville",
             "pl": "Izydor z Sewilli"
         },
+        "records/patrons/iustus/pas": {
+            "la": "Iustus (cum Pastor)",
+            "en": "Justus (with Pastor)",
+            "pl": "Just (z Pastorem)"
+        },
         "records/patrons/laurentius/rom": {
             "la": "Laurentius de Roma",
             "en": "Lawrence of Rome",

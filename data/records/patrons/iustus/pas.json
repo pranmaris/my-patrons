@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Iustus (cum Pastor)"
+    ],
+    "en": [
+      "Justus (with Pastor)"
+    ],
+    "pl": [
+      "Just (z Pastorem)"
+    ]
+  },
+
+  "died": ["~304"],
+
+  "also-in-martyrology": ["08-06"],
+
+  "forenames": ["iustus"],
+  "categories": ["vir", "puer", "martyr"]
+}

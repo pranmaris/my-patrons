@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "Just"
+    },
+    "translations": {
+        "la": [
+            "Iustus",
+            "Justus"
+        ],
+        "en": [
+            "Justus"
+        ],
+        "pl": [
+            "Just"
+        ]
+    },
+    "links": {
+        "records/patrons/iustus/pas": {
+            "la": "Iustus (cum Pastor)",
+            "en": "Justus (with Pastor)",
+            "pl": "Just (z Pastorem)"
+        }
+    }
+}

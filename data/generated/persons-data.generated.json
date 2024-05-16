@@ -1406,6 +1406,24 @@
         ],
         "feasts": []
     },
+    "patrons/iustus": {
+        "names": {
+            "la": "Iustus",
+            "en": "Justus",
+            "pl": "Just"
+        }
+    },
+    "patrons/iustus/pas": {
+        "names": {
+            "la": "Iustus (cum Pastor)",
+            "en": "Justus (with Pastor)",
+            "pl": "Just (z Pastorem)"
+        },
+        "died": [
+            "~304"
+        ],
+        "feasts": []
+    },
     "patrons/kinga": {
         "names": {
             "la": "Kinga",
