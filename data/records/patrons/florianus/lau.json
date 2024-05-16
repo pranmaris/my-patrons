@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Florianus Lauriacensis"
+    ],
+    "en": [
+      "Florian of Lauriacum"
+    ],
+    "pl": [
+      "Florian z Lauriacum"
+    ]
+  },
+
+  "born": ["~250"],
+  "died": ["304-05-04"],
+
+  "also-in-martyrology": ["05-04"],
+
+  "forenames": ["florianus"],
+  "categories": ["vir", "martyr"]
+}

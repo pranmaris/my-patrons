@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "Florian",
+        "pl": "Florian"
+    },
+    "translations": {
+        "la": [
+            "Florianus"
+        ],
+        "en": [
+            "Florian"
+        ],
+        "pl": [
+            "Florian"
+        ]
+    },
+    "links": {
+        "records/patrons/florianus/lau": {
+            "la": "Florianus Lauriacensis",
+            "en": "Florian of Lauriacum",
+            "pl": "Florian z Lauriacum"
+        }
+    }
+}

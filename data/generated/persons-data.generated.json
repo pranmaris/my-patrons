@@ -938,6 +938,24 @@
             }
         }
     },
+    "patrons/florianus": {
+        "names": {
+            "la": "Florianus",
+            "en": "Florian",
+            "pl": "Florian"
+        }
+    },
+    "patrons/florianus/lau": {
+        "names": {
+            "la": "Florianus Lauriacensis",
+            "en": "Florian of Lauriacum",
+            "pl": "Florian z Lauriacum"
+        },
+        "died": [
+            "304-05-04"
+        ],
+        "feasts": []
+    },
     "patrons/franciscus": {
         "names": {
             "la": "Franciscus",

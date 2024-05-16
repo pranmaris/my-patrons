@@ -429,6 +429,17 @@
         }
     },
     "05-04": {
+        "records/patrons/florianus/lau": {
+            "name": {
+                "la": "Florianus Lauriacensis",
+                "en": "Florian of Lauriacum",
+                "pl": "Florian z Lauriacum"
+            },
+            "sources": {
+                "reliable-death-anniversary": "4 V",
+                "other-martyrology-days": "4 V"
+            }
+        },
         "records/patrons/monica/vid": {
             "name": {
                 "la": "Monica Thagastensis",
