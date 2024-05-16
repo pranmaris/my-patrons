@@ -1804,6 +1804,26 @@
         ],
         "feasts": []
     },
+    "patrons/matthaeus": {
+        "names": {
+            "la": "Matthaeus",
+            "en": "Matthew",
+            "pl": "Mateusz",
+            "he": "מַתִּתְיָהוּ"
+        }
+    },
+    "patrons/matthaeus/eva": {
+        "names": {
+            "he": "מתיו האוונגליסט",
+            "en": "Matthew the Evengelist",
+            "la": "Matthaeus Evengelista",
+            "pl": "Mateusz Ewangelista"
+        },
+        "died": [
+            "~60"
+        ],
+        "feasts": []
+    },
     "patrons/maximilianus": {
         "names": {
             "la": "Maximilianus",

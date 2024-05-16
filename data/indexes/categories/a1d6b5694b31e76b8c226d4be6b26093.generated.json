@@ -24,6 +24,12 @@
             "en": "Luke the Evangelist",
             "la": "Lucas Evangelista",
             "pl": "Łukasz Ewangelista"
+        },
+        "records/patrons/matthaeus/eva": {
+            "he": "מתיו האוונגליסט",
+            "en": "Matthew the Evengelist",
+            "la": "Matthaeus Evengelista",
+            "pl": "Mateusz Ewangelista"
         }
     }
 }

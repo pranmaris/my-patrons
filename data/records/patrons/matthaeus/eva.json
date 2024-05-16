@@ -1,0 +1,29 @@
+{
+  "names": {
+    "he": [
+      "מתיו האוונגליסט"
+    ],
+    "en": [
+      "Matthew the Evengelist",
+      "Matthew Levi",
+      "Matthew the Apostle"
+    ],
+    "la": [
+      "Matthaeus Evengelista",
+      "Matthaeus Levi",
+      "Matthaeus Apostolus"
+    ],
+    "pl": [
+      "Mateusz Ewangelista",
+      "Mateusz Lewi",
+      "Mateusz Apostoł"
+    ]
+  },
+
+  "died": ["~60"],
+
+  "also-in-martyrology": ["09-21"],
+
+  "forenames": ["matthaeus", "levi"],
+  "categories": ["vir", "apostolus", "evangelista", "martyr"]
+}

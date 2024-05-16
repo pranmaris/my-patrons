@@ -91,6 +91,12 @@
             "en": "Lawrence of Rome",
             "pl": "Wawrzyniec z Rzymu"
         },
+        "records/patrons/matthaeus/eva": {
+            "he": "מתיו האוונגליסט",
+            "en": "Matthew the Evengelist",
+            "la": "Matthaeus Evengelista",
+            "pl": "Mateusz Ewangelista"
+        },
         "records/patrons/maximilianus/kol": {
             "pl": "Maksymilian Maria Kolbe",
             "en": "Maximilian Maria Kolbe",

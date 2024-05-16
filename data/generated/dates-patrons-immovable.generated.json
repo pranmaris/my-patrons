@@ -1225,6 +1225,19 @@
             }
         }
     },
+    "09-21": {
+        "records/patrons/matthaeus/eva": {
+            "name": {
+                "he": "מתיו האוונגליסט",
+                "en": "Matthew the Evengelist",
+                "la": "Matthaeus Evengelista",
+                "pl": "Mateusz Ewangelista"
+            },
+            "sources": {
+                "other-martyrology-days": "21 IX"
+            }
+        }
+    },
     "09-23": {
         "records/patrons/pius/pie": {
             "name": {

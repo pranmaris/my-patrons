@@ -75,6 +75,10 @@
         "la": "Eusebius",
         "en": "Eusebius"
     },
+    "145f64f1760a3fc2eac89c8f29c3083d": {
+        "la": "Levi",
+        "en": "Levi"
+    },
     "1565002270dd6ce3f63e821048890782": {
         "la": "Ioannes"
     },
@@ -227,6 +231,9 @@
         "la": "Virgilius",
         "en": "Virgilius"
     },
+    "3859d29cdb04d0d8ed7b6dc9f79799c6": {
+        "la": "Matthaeus"
+    },
     "393c54ff004277d44580d2805270872d": {
         "la": "Xystus"
     },
@@ -371,6 +378,9 @@
     "638c2805f086b9cd8c12b9d0acbb56d0": {
         "pl": "Wawrzyniec"
     },
+    "64730ca35ed9274ff6aa8a719407fe53": {
+        "en": "Matthew"
+    },
     "649e314529ae99fee77bffd211851b7d": {
         "en": "Teresa",
         "pl": "Teresa",
@@ -471,6 +481,9 @@
     },
     "7f6511101b9aa76468ff092c4ea81357": {
         "ko": "대건"
+    },
+    "7f9d965fa491021cda9311f64f630f2a": {
+        "he": "מַתִּתְיָהוּ"
     },
     "80d4d410d6b330bc2015e461e6b6b78d": {
         "en": "Caroline"
@@ -829,8 +842,14 @@
     "d52e32f3a96a64786814ae9b5279fbe5": {
         "en": "James"
     },
+    "d7196c9311d164908b07db070a3b3f20": {
+        "pl": "Mateusz"
+    },
     "d8710f0653a849ea6d9b4436d6c877e4": {
         "en": "Constantine"
+    },
+    "d8cd157904e10e81e8c205fc36f2b470": {
+        "pl": "Lewi"
     },
     "db406d4a22ea91aea90f477daf14b8f6": {
         "pl": "Felicyta"

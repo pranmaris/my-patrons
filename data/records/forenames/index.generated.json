@@ -335,6 +335,11 @@
         "pl": "Leonard",
         "fr": "Léonard"
     },
+    "levi": {
+        "la": "Levi",
+        "en": "Levi",
+        "pl": "Lewi"
+    },
     "lucas": {
         "la": "Lucas",
         "en": "Luke",
@@ -376,6 +381,12 @@
         "la": "Martinus",
         "en": "Martin",
         "pl": "Marcin"
+    },
+    "matthaeus": {
+        "la": "Matthaeus",
+        "en": "Matthew",
+        "pl": "Mateusz",
+        "he": "מַתִּתְיָהוּ"
     },
     "maximilianus": {
         "la": "Maximilianus",
