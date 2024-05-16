@@ -1,0 +1,40 @@
+{
+  "names": {
+    "pl": [
+      "Maksymilian Maria Kolbe",
+      "Rajmund Kolbe"
+    ],
+    "en": [
+      "Maximilian Maria Kolbe",
+      "Raymund Kolbe"
+    ],
+    "la": [
+      "Maximilianus Maria Kolbe"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Kolbe"
+    }
+  ],
+
+  "born": ["1894-01-08"],
+  "died": ["1941-08-14"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1971-10-17"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1982-10-10"
+  },
+
+  "also-in-martyrology": ["08-14"],
+
+  "forenames": ["maximilianus", "maria", "raymundus"],
+  "categories": ["vir", "martyr", "presbyter", "fundator"],
+
+  "order": ["ofmconv"]
+}

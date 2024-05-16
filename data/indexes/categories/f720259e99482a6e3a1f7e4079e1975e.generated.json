@@ -55,6 +55,11 @@
             "la": "Ioannes Bosco",
             "pl": "Jan Bosko"
         },
+        "records/patrons/maximilianus/kol": {
+            "pl": "Maksymilian Maria Kolbe",
+            "en": "Maximilian Maria Kolbe",
+            "la": "Maximilianus Maria Kolbe"
+        },
         "records/patrons/philippus/ner": {
             "it": "Filippo Neri",
             "en": "Fhilip Neri",

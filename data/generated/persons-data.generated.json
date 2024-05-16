@@ -1786,6 +1786,24 @@
         ],
         "feasts": []
     },
+    "patrons/maximilianus": {
+        "names": {
+            "la": "Maximilianus",
+            "en": "Maximilian",
+            "pl": "Maksymilian"
+        }
+    },
+    "patrons/maximilianus/kol": {
+        "names": {
+            "pl": "Maksymilian Maria Kolbe",
+            "en": "Maximilian Maria Kolbe",
+            "la": "Maximilianus Maria Kolbe"
+        },
+        "died": [
+            "1941-08-14"
+        ],
+        "feasts": []
+    },
     "patrons/methodius": {
         "names": {
             "la": "Methodius",

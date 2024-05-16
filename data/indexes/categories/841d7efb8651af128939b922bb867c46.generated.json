@@ -86,6 +86,11 @@
             "en": "Lawrence of Rome",
             "pl": "Wawrzyniec z Rzymu"
         },
+        "records/patrons/maximilianus/kol": {
+            "pl": "Maksymilian Maria Kolbe",
+            "en": "Maximilian Maria Kolbe",
+            "la": "Maximilianus Maria Kolbe"
+        },
         "records/patrons/oswaldus/nor": {
             "en": "Oswald of Northumbria",
             "la": "Oswaldus rex Northumbriae",

@@ -84,6 +84,11 @@
             "la": "Ioannes Maria Vianney",
             "pl": "Jan Maria Vianney"
         },
+        "records/patrons/maximilianus/kol": {
+            "pl": "Maksymilian Maria Kolbe",
+            "en": "Maximilian Maria Kolbe",
+            "la": "Maximilianus Maria Kolbe"
+        },
         "records/patrons/petrus/eym": {
             "fr": "Pierre-Julien Eymard",
             "en": "Peter Julian Eymanrd",

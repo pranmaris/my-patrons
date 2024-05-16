@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "Raymund"
+    },
+    "translations": {
+        "la": [
+            "Raymundus"
+        ],
+        "en": [
+            "Raymund"
+        ],
+        "pl": [
+            "Rajmund"
+        ]
+    },
+    "links": {
+        "records/patrons/maximilianus/kol": {
+            "pl": "Maksymilian Maria Kolbe",
+            "en": "Maximilian Maria Kolbe",
+            "la": "Maximilianus Maria Kolbe"
+        }
+    }
+}

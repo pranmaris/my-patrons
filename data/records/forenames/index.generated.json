@@ -372,6 +372,11 @@
         "en": "Martin",
         "pl": "Marcin"
     },
+    "maximilianus": {
+        "la": "Maximilianus",
+        "en": "Maximilian",
+        "pl": "Maksymilian"
+    },
     "methodius": {
         "la": "Methodius",
         "en": "Methodius",
@@ -451,6 +456,11 @@
         "la": "Raphael",
         "en": "Raphael",
         "pl": "Rafał"
+    },
+    "raymundus": {
+        "la": "Raymundus",
+        "en": "Raymund",
+        "pl": "Rajmund"
     },
     "richardus": {
         "la": "Richardus",

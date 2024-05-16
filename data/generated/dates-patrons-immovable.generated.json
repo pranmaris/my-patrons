@@ -971,6 +971,19 @@
             }
         }
     },
+    "08-14": {
+        "records/patrons/maximilianus/kol": {
+            "name": {
+                "pl": "Maksymilian Maria Kolbe",
+                "en": "Maximilian Maria Kolbe",
+                "la": "Maximilianus Maria Kolbe"
+            },
+            "sources": {
+                "reliable-death-anniversary": "14 VIII",
+                "other-martyrology-days": "14 VIII"
+            }
+        }
+    },
     "08-15": {
         "records/patrons/stanislaus/kos": {
             "name": {

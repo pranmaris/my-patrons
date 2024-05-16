@@ -52,6 +52,11 @@
             "en": "Mary, mother of Jesus",
             "la": "Maria Virgo",
             "pl": "Maria z Nazaretu"
+        },
+        "records/patrons/maximilianus/kol": {
+            "pl": "Maksymilian Maria Kolbe",
+            "en": "Maximilian Maria Kolbe",
+            "la": "Maximilianus Maria Kolbe"
         }
     }
 }

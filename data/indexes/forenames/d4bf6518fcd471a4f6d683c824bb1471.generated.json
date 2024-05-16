@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Maximilianus"
+    },
+    "translations": {
+        "la": [
+            "Maximilianus"
+        ],
+        "en": [
+            "Maximilian"
+        ],
+        "pl": [
+            "Maksymilian"
+        ]
+    },
+    "links": {
+        "records/patrons/maximilianus/kol": {
+            "pl": "Maksymilian Maria Kolbe",
+            "en": "Maximilian Maria Kolbe",
+            "la": "Maximilianus Maria Kolbe"
+        }
+    }
+}
