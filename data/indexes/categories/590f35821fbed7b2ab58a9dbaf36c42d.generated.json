@@ -187,6 +187,11 @@
             "en": "Hormisdas",
             "pl": "Hormizdas"
         },
+        "records/patrons/iacobus/mai": {
+            "la": "Iacobus Maior Apostolus",
+            "en": "James the Great",
+            "pl": "Jakub Większy Apostoł"
+        },
         "records/patrons/ioachim/mar": {
             "he": "יהוֹיָקִים",
             "en": "Joachim father of Mary",

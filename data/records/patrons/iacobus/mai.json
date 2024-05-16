@@ -1,0 +1,24 @@
+{
+  "names": {
+    "la": [
+      "Iacobus Maior Apostolus"
+    ],
+    "en": [
+      "James the Great",
+      "James the Great Apostle"
+    ],
+    "pl": [
+      "Jakub Większy Apostoł",
+      "Jakub Starszy Apostoł",
+      "Jakub Pielgrzym",
+      "Jakub z Compostelli"
+    ]
+  },
+
+  "died": ["43", "44"],
+
+  "also-in-martyrology": ["07-25"],
+
+  "forenames": ["iacobus"],
+  "categories": ["vir", "apostolus", "martyr"]
+}

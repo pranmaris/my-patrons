@@ -1122,6 +1122,25 @@
         ],
         "feasts": []
     },
+    "patrons/iacobus": {
+        "names": {
+            "la": "Iacobus",
+            "en": "James",
+            "pl": "Jakub"
+        }
+    },
+    "patrons/iacobus/mai": {
+        "names": {
+            "la": "Iacobus Maior Apostolus",
+            "en": "James the Great",
+            "pl": "Jakub Większy Apostoł"
+        },
+        "died": [
+            "43",
+            "44"
+        ],
+        "feasts": []
+    },
     "patrons/ioachim": {
         "names": {
             "la": "Ioachim",

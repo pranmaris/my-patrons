@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "Jakub"
+    },
+    "translations": {
+        "la": [
+            "Iacobus",
+            "Jacobus"
+        ],
+        "en": [
+            "James"
+        ],
+        "pl": [
+            "Jakub"
+        ]
+    },
+    "links": {
+        "records/patrons/iacobus/mai": {
+            "la": "Iacobus Maior Apostolus",
+            "en": "James the Great",
+            "pl": "Jakub Większy Apostoł"
+        }
+    }
+}

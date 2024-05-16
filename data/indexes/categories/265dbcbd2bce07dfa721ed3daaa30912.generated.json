@@ -96,6 +96,11 @@
             "en": "Felicity of Carthage",
             "pl": "Felicyta z Kartaginy"
         },
+        "records/patrons/iacobus/mai": {
+            "la": "Iacobus Maior Apostolus",
+            "en": "James the Great",
+            "pl": "Jakub Większy Apostoł"
+        },
         "records/patrons/ioannes/bap": {
             "he": "יוֹחָנָן",
             "en": "John the Baptist",

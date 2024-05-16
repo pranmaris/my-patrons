@@ -211,6 +211,9 @@
     "35ad6bb780b673346fd07409b0032caf": {
         "en": "Natalie"
     },
+    "36019957bb9608c702e48a87bb8fcabc": {
+        "la": "Iacobus"
+    },
     "3807d8165be58aab1fba8ec2feb42c1d": {
         "la": "Virgilius",
         "en": "Virgilius"
@@ -496,6 +499,9 @@
         "la": "Hormisdas",
         "en": "Hormisdas"
     },
+    "8cc6fcef7d3e41ff8bda76c7aefff7a2": {
+        "pl": "Jakub"
+    },
     "8cc865f6f4b3fba0b76123a4110b0633": {
         "la": "Iesus"
     },
@@ -511,6 +517,9 @@
     },
     "8f8439bd01556aace5fd2b93ea927958": {
         "it": "Giovanni"
+    },
+    "900d2beadde5ad64d701f01a68793b68": {
+        "la": "Jacobus"
     },
     "9131e76f133286b91ad62c3b918a2241": {
         "pl": "Ewa"
@@ -768,6 +777,9 @@
     },
     "d5216d56cf18e82d7130660e05ee1899": {
         "la": "Petrus"
+    },
+    "d52e32f3a96a64786814ae9b5279fbe5": {
+        "en": "James"
     },
     "d8710f0653a849ea6d9b4436d6c877e4": {
         "en": "Constantine"

@@ -655,6 +655,18 @@
             }
         }
     },
+    "07-25": {
+        "records/patrons/iacobus/mai": {
+            "name": {
+                "la": "Iacobus Maior Apostolus",
+                "en": "James the Great",
+                "pl": "Jakub Większy Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "25 VII"
+            }
+        }
+    },
     "07-26": {
         "records/patrons/ioachim/mar": {
             "name": {
