@@ -398,6 +398,11 @@
             "en": "Stanislaus of Szczepanów",
             "la": "Stanislaus Cracoviensis"
         },
+        "records/patrons/stanislaus/kos": {
+            "pl": "Stanisław Kostka",
+            "en": "Stanislaus Kostka",
+            "la": "Stanislaus Kostka"
+        },
         "records/patrons/stephanus/pro": {
             "gr": "Στέφανος",
             "en": "Stephen Protomartyr",

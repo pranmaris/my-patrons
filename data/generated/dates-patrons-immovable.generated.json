@@ -971,6 +971,19 @@
             }
         }
     },
+    "08-15": {
+        "records/patrons/stanislaus/kos": {
+            "name": {
+                "pl": "Stanisław Kostka",
+                "en": "Stanislaus Kostka",
+                "la": "Stanislaus Kostka"
+            },
+            "sources": {
+                "reliable-death-anniversary": "15 VIII",
+                "other-martyrology-days": "15 VIII"
+            }
+        }
+    },
     "08-16": {
         "records/patrons/ioachim/mar": {
             "name": {

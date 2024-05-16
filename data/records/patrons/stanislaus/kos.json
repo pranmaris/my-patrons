@@ -1,0 +1,38 @@
+{
+  "names": {
+    "pl": [
+      "Stanisław Kostka"
+    ],
+    "en": [
+      "Stanislaus Kostka"
+    ],
+    "la": [
+      "Stanislaus Kostka"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Kostka"
+    }
+  ],
+
+  "born": ["1550-10-28"],
+  "died": ["1568-08-15"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1605-10-19"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1726-12-31"
+  },
+
+  "also-in-martyrology": ["08-15"],
+
+  "forenames": ["stanislaus"],
+  "categories": ["vir", "confessor", "novitius"],
+
+  "order": ["sj"]
+}

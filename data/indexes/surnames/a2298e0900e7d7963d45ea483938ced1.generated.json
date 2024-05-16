@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Kostka"
+    },
+    "translations": {
+        "pl": [
+            "Kostka"
+        ]
+    },
+    "links": {
+        "records/patrons/stanislaus/kos": {
+            "pl": "Stanisław Kostka",
+            "en": "Stanislaus Kostka",
+            "la": "Stanislaus Kostka"
+        }
+    }
+}

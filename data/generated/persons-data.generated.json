@@ -2327,6 +2327,17 @@
         ],
         "feasts": []
     },
+    "patrons/stanislaus/kos": {
+        "names": {
+            "pl": "Stanisław Kostka",
+            "en": "Stanislaus Kostka",
+            "la": "Stanislaus Kostka"
+        },
+        "died": [
+            "1568-08-15"
+        ],
+        "feasts": []
+    },
     "patrons/stephanus": {
         "names": {
             "la": "Stephanus",
