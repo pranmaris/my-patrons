@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Vladimirus"
+    },
+    "translations": {
+        "la": [
+            "Vladimirus"
+        ],
+        "en": [
+            "Vladimir"
+        ],
+        "pl": [
+            "Włodzimierz"
+        ]
+    },
+    "links": {
+        "records/patrons/vladimirus/las": {
+            "pl": "Włodzimierz Laskowski",
+            "en": "Wlodzimierz Laskowski",
+            "la": "Vladimirus Laskowski"
+        }
+    }
+}

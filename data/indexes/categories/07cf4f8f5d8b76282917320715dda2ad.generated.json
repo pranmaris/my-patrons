@@ -415,6 +415,11 @@
             "en": "Virgilius of Arles",
             "pl": "Wirgiliusz z Arles"
         },
+        "records/patrons/vladimirus/las": {
+            "pl": "Włodzimierz Laskowski",
+            "en": "Wlodzimierz Laskowski",
+            "la": "Vladimirus Laskowski"
+        },
         "records/patrons/xystus/2pp": {
             "la": "Xystus Pp. II",
             "en": "Sixtus II",

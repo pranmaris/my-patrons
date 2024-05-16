@@ -1,0 +1,33 @@
+{
+  "names": {
+    "pl": [
+      "Włodzimierz Laskowski"
+    ],
+    "en": [
+      "Wlodzimierz Laskowski",
+      "Vladimir Laskowski"
+    ],
+    "la": [
+      "Vladimirus Laskowski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Laskowski"
+    }
+  ],
+
+  "born": ["1886-01-30"],
+  "died": ["1940-08-08"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["08-08"],
+
+  "forenames": ["vladimirus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

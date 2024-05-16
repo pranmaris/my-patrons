@@ -872,6 +872,17 @@
         }
     },
     "08-08": {
+        "records/patrons/vladimirus/las": {
+            "name": {
+                "pl": "Włodzimierz Laskowski",
+                "en": "Wlodzimierz Laskowski",
+                "la": "Vladimirus Laskowski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 VIII",
+                "other-martyrology-days": "8 VIII"
+            }
+        },
         "records/patrons/dominicus/oxo": {
             "name": {
                 "es": "Domingo de Osma",

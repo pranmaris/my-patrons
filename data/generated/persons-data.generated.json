@@ -2419,6 +2419,24 @@
         ],
         "feasts": []
     },
+    "patrons/vladimirus": {
+        "names": {
+            "la": "Vladimirus",
+            "en": "Vladimir",
+            "pl": "Włodzimierz"
+        }
+    },
+    "patrons/vladimirus/las": {
+        "names": {
+            "pl": "Włodzimierz Laskowski",
+            "en": "Wlodzimierz Laskowski",
+            "la": "Vladimirus Laskowski"
+        },
+        "died": [
+            "1940-08-08"
+        ],
+        "feasts": []
+    },
     "patrons/xystus": {
         "names": {
             "la": "Xystus",
