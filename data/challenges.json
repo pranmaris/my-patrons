@@ -1378,6 +1378,222 @@
     }
   },
 
+  "R": {
+    "name": {
+      "pl": "Patron Orędownik"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/patron-oredownik"
+      }
+    },
+    "numbers": false,
+    "uniqueness": [
+      ["person"],
+      ["notes/person", "date|first-7-characters-only"],
+      ["notes/person", "notes/given-patron"]
+    ],
+    "addition-type": "",
+    "person": {
+      "types": ["Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/patron-oredownik"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["I", "MM", "NOT_AVAILABLE"],
+        "person-not-having-challenges": ["R"],
+        "everybody-not-having-challenges-on-the-same-day": ["R"]
+      }
+    },
+    "checklist": {
+      "meeting": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "spotkaj się z Uczestnikiem, by wspólnie zaprosić Patrona Orędownika"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/spotkaj-sie-z-uczestnikiem-by-wspolnie-zaprosic-patrona-oredownika"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "pomódl się z drugim Uczestnikiem do wybranych Patronów"
+        },
+        "description": {
+          "params": ["person-name", "given-advocate-patron-name"],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-z-drugim-uczestnikiem-do-patronow-oredownikow"
+          }
+        }
+      },
+      "rosary-introduction": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "odmów wstęp Różańca razem z drugim Uczestnikiem"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odmow-wstep-rozanca-razem-z-drugim-uczestnikiem"
+          }
+        }
+      },
+      "rosary-1st-decade": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "odmów samodzielnie pierwszą tajemnicę Różańca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odmow-samodzielnie-pierwsza-tajemnice-rozanca"
+          }
+        }
+      },
+      "rosary-2nd-decade": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "odmów samodzielnie drugą tajemnicę Różańca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odmow-samodzielnie-druga-tajemnice-rozanca"
+          }
+        }
+      },
+      "rosary-3rd-decade": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "odmów samodzielnie trzecią tajemnicę Różańca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odmow-samodzielnie-trzecia-tajemnice-rozanca"
+          }
+        }
+      },
+      "rosary-4th-decade": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "odmów samodzielnie czwartą tajemnicę Różańca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odmow-samodzielnie-czwarta-tajemnice-rozanca"
+          }
+        }
+      },
+      "rosary-5th-decade": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "odmów samodzielnie piątą tajemnicę Różańca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odmow-samodzielnie-piata-tajemnice-rozanca"
+          }
+        }
+      },
+      "rosary-conslusion": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "odmów samodzielnie zakończenie Różańca"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odmow-samodzielnie-zakonczenie-rozanca"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "person": {
+        "type": {
+          "person": [1, 1]
+        },
+        "name": {
+          "pl": "drugi Uczestnik zaproszenia Patrona Orędownika"
+        }
+      },
+      "given-patron": {
+        "type": {
+          "given-advocate-patron": [1, 1]
+        },
+        "name": {
+          "pl": "Patron zaproszony przez drugiego Uczestnika"
+        }
+      },
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina wspólnej modlitwy z drugim Uczestnikiem"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce wspólnej modlitwy z drugim Uczestnikiem"
+        }
+      },
+      "rosary": {
+        "type": {
+          "mysteries-of-the-rosary": [0, 1]
+        },
+        "name": {
+          "pl": "samodzielnie odmówione tajemnice Różańca"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "SA": {
     "name": {
       "pl": "Sakrament Namaszczenia Chorych"

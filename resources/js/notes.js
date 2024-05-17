@@ -5,6 +5,7 @@ const SELECT_SEPARATOR = '----------';
 
 const ANCHOR_CHARACTER = '#';
 const UNIQUENESS_STRING_SEPARATOR = '|#|#|';
+const UNIQUENESS_FIELD_MODIFIER_SEPARATOR = '|';
 const TEXT_CHARACTER_SORTED_AFTER_OTHERS = 'ﻩ';
 
 const IMMOVABLE_DATES_PATRONS_LIST_CHARACTER = '#';
@@ -906,6 +907,54 @@ function parseChallenge(rowId, challenge, contextData) {
     }
   }
 
+  //notes with persons requirements
+  for (const itemType of Object.keys(configNotes)) {
+    const noteType = configNotes[itemType].type ?? {};
+
+    let noteLevel = 0;
+    for (const noteConfigType of Object.keys(noteType)) {
+      noteLevel++;
+
+      const noteConfigForType = notesTypesConfig[noteConfigType] ?? {};
+      const noteReqs = (noteConfigForType.source ?? {})[NOTE_CONFIG_SOURCE_TYPE_PATRONS] ?? null;
+      if (noteReqs == null) {
+        continue;
+      }
+
+      const noteIndex = noteConfigForType.index ?? '';
+      const notesIndexValues = (fileData[DATA_FIELD_NOTES] ?? {})[noteIndex] ?? {};
+      const noteIds = getNotesIdsForLevel(challengeNotes[itemType] ?? [], noteLevel);
+      for (const noteId of Object.keys(noteIds)) {
+        const notePerson = notesIndexValues[noteId];
+
+        for (const reqName of Object.keys(noteReqs)) {
+          const reqTypes = noteReqs[reqName] ?? [];
+          const noteSpecifiedPersonCountsContext = contextData.persons.counts[notePerson] ?? {};
+
+          switch (reqName) {
+            case REQUIREMENT_PERSON_HAVING_CHALLENGES:
+              for (const type of reqTypes) {
+                if ((noteSpecifiedPersonCountsContext[type] ?? 0) === 0) {
+                  throw {
+                    message: 'lang-challenge-parse-error-for-requirement-person-having-challenges',
+                    data: [itemType, noteConfigType, type]
+                  };
+                }
+              }
+              break;
+
+            default:
+              throw {
+                message: 'lang-challenge-parse-error-missing-assigned-to-challenge-persons-requirement-type',
+                data: [itemType, noteConfigType, reqName]
+              };
+              break;
+          }
+        }
+      }
+    }
+  }
+
   //check if checklist steps to complete on selected date are done
   for (const stepType of Object.keys(configChecklist)) {
     const stepName = getLanguageVariable('name', true, configChecklist[stepType].name ?? {});
@@ -930,7 +979,7 @@ function parseChallenge(rowId, challenge, contextData) {
     if (foundUniq !== '') {
       throw {
         message: 'lang-challenge-parse-error-uniqueness',
-        data: ['#' + foundUniq]
+        data: ['#' + foundUniq + ': ' + configUniquenessRow.join(', ')]
       };
     }
 
@@ -968,12 +1017,24 @@ function parseChallenge(rowId, challenge, contextData) {
 function getUniquenessString(challenge, uniqFields) {
   let resultArr = [];
 
-  for (const fieldPath of uniqFields) {
+  for (const fieldPathWithModifiers of uniqFields) {
+    const modifiers = fieldPathWithModifiers.split(UNIQUENESS_FIELD_MODIFIER_SEPARATOR);
+    const fieldPath = modifiers.shift();
+
     let context = challenge;
     const fields = fieldPath.split('/');
 
     for (const field of fields) {
       context = context[field] ?? '';
+    }
+
+    for (const modifier of modifiers) {
+      switch (modifier) {
+
+        case 'first-7-characters-only':
+          context = context.substring(0, 7);
+          break;
+      }
     }
 
     const string = JSON.stringify(context);
@@ -3138,7 +3199,10 @@ async function showNoteCellContent(
   const noteNo = Number(itemPath.at(-2) ?? '0') + 1;
   const noteIndex = noteTypeConfig.index ?? '';
   const content = getNoteFromFileData(noteIndex, noteId);
-  const escapedContent = getHtmlTagsEscapedString(content);
+  let escapedContent = getHtmlTagsEscapedString(content);
+  if ((noteTypeConfig.source ?? {})[NOTE_CONFIG_SOURCE_TYPE_PATRONS] != undefined) {
+    escapedContent = getPersonDataName(escapedContent);
+  }
 
   const isEditFormMode = (isEditMode && (lastFormModeNoteCellElementIdSuffix[itemType] ?? '') === itemPathString);
 
@@ -3212,12 +3276,49 @@ function getNotesConfiguredListValues(list) {
   return result;
 }
 
-function getNotesPatronsValues(config) {
-  result = {};
+function getNotesPatronsValues(config, fileDataValues, rowId, currentValue) {
+  result = [];
 
-  //todo later ...
+  const typesNeeded = config[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
+  if (typesNeeded != null) {
+    const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+    let challengeDate = (challenges[rowId - 1] ?? {}).date ?? null;
+    if (challengeDate == null) {
+      challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value ?? getToday();
+    }
 
-  return result;
+    let personIdKeys = {};
+    for (const noteId in fileDataValues) {
+      personIdKeys[fileDataValues[noteId]] = noteId;
+    }
+
+    persons = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
+    if (currentValue.length > 0) {
+      persons[currentValue] = currentValue;
+    }
+
+    let noteId = 0;
+    for (let personId of Object.keys(persons)) {
+      let foundNoteId = personIdKeys[personId] ?? EMPTY_NOTE_ID;
+      while (foundNoteId === EMPTY_ROW_ID) {
+        noteId++;
+        if (fileDataValues[noteId] === undefined) {
+          foundNoteId = noteId;
+        }
+      }
+
+      result.push({
+        [foundNoteId]: personId,
+        name: getPersonDataName(personId)
+      });
+    }
+  }
+
+  return result.sort(function(a, b) {
+    var x = getDiacriticalRepresentationStringForSort(a['name']);
+    var y = getDiacriticalRepresentationStringForSort(b['name']);
+    return x < y ? -1 : x > y ? 1 : 0;
+  });
 }
 
 function getNotesFileDataValues(index) {
@@ -3273,9 +3374,8 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
   const noteIndex = noteTypeConfig.index ?? '';
   const noteSources = noteTypeConfig.source ?? {};
 
-  const listValues = getNotesConfiguredListValues(noteSources[NOTE_CONFIG_SOURCE_TYPE_LIST] ?? []);
-  const patronsValues = getNotesPatronsValues(noteSources[NOTE_CONFIG_SOURCE_TYPE_PATRONS] ?? {});
   const fileDataValues = getNotesFileDataValues(noteIndex);
+  const listValues = getNotesConfiguredListValues(noteSources[NOTE_CONFIG_SOURCE_TYPE_LIST] ?? []);
   const siblingsNoteIds = getSiblingsNoteIds(rowId, itemType, itemPath);
 
   const currentValue = fileDataValues[currentNoteId] ?? '';
@@ -3386,9 +3486,12 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
   let foundAnySource = false;
   let foundSelectedOption = false;
   for (let source of Object.keys(noteSources)) {
+    let isSelected = false;
+    let isDisabled = false;
+
     if (foundAnySource && anySelectOptionAddedAfterSeparator) {
-      const isSelected = false;
-      const isDisabled = true;
+      isSelected = false;
+      isDisabled = true;
       addOptionToSelect(selectElement, EMPTY_NOTE_ID, SELECT_SEPARATOR, isSelected, isDisabled);
       anySelectOptionAddedAfterSeparator = false;
     }
@@ -3409,7 +3512,7 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
         }
 
         for (const [noteId, value] of valuesData) {
-          let isSelected = (!foundSelectedOption && currentNoteId.toString() === noteId);
+          isSelected = (!foundSelectedOption && currentNoteId.toString() === noteId);
           if (isSelected) {
             foundSelectedOption = true;
           }
@@ -3422,7 +3525,7 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
         }
 
         isSelected = false;
-        const isDisabled = true;
+        isDisabled = true;
         if (anySelectOptionAddedAfterSeparator) {
           addOptionToSelect(selectElement, EMPTY_NOTE_ID, SELECT_SEPARATOR, isSelected, isDisabled);
         }
@@ -3436,7 +3539,7 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
           const noteId = Object.keys(row)[0] ?? '';
           const value = row[noteId] ?? [];
 
-          let isSelected = (!foundSelectedOption && currentNoteId.toString() === noteId);
+          isSelected = (!foundSelectedOption && currentNoteId.toString() === noteId);
           if (isSelected) {
             foundSelectedOption = true;
           }
@@ -3450,7 +3553,23 @@ async function showNoteCellContentInFormMode(cellElement, rowId, challengeType, 
         break;
 
       case NOTE_CONFIG_SOURCE_TYPE_PATRONS:
-        //todo later ...
+        const patronsValues = getNotesPatronsValues(noteSources[NOTE_CONFIG_SOURCE_TYPE_PATRONS] ?? {}, fileDataValues, rowId, currentValue);
+        for (const row of patronsValues) {
+          const noteId = Object.keys(row)[0] ?? '';
+          const personId = row[noteId] ?? [];
+
+          isSelected = (!foundSelectedOption && currentNoteId.toString() === noteId);
+          if (isSelected) {
+            foundSelectedOption = true;
+          }
+          if (siblingsNoteIds[noteId] == undefined) {
+            const value = getPersonDataName(personId);
+            const escapedValue = getHtmlTagsEscapedString(value);
+            addOptionToSelect(selectElement, noteId, escapedValue, isSelected);
+            anySelectOptionAddedAfterSeparator = true;
+            selectableValues[noteId] = personId;
+          }
+        }
         break;
     }
   }
@@ -3519,7 +3638,7 @@ function getNotesIdsForLevel(data, level, currentLevel = 1) {
   if (currentLevel < level) {
     for (const row of data) {
       for (const key of Object.keys(row)) {
-        const subData = getNotesIdsForLevel(data[key] ?? [], level, currentLevel + 1);
+        const subData = getNotesIdsForLevel(row[key] ?? [], level, currentLevel + 1);
         for (const value of Object.keys(subData)) {
           result[value] = value;
         }
