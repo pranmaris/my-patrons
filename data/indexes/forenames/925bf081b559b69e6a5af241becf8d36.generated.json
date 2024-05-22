@@ -11,6 +11,9 @@
         ],
         "pl": [
             "Katarzyna"
+        ],
+        "fr": [
+            "Catherine"
         ]
     },
     "links": {
@@ -18,6 +21,12 @@
             "la": "Catharina Alexandrina",
             "en": "Catherine of Alexandria",
             "pl": "Katarzyna Aleksandryjska"
+        },
+        "records/patrons/catharina/lab": {
+            "fr": "Catherine Labouré",
+            "en": "Catherine Labouré",
+            "la": "Catherina Labouré",
+            "pl": "Katarzyna Labouré"
         }
     }
 }

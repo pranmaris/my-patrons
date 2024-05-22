@@ -1897,5 +1897,19 @@
                 "other-martyrology-days": "28 XII"
             }
         }
+    },
+    "12-31": {
+        "records/patrons/catharina/lab": {
+            "name": {
+                "fr": "Catherine Labouré",
+                "en": "Catherine Labouré",
+                "la": "Catherina Labouré",
+                "pl": "Katarzyna Labouré"
+            },
+            "sources": {
+                "reliable-death-anniversary": "31 XII",
+                "other-martyrology-days": "31 XII"
+            }
+        }
     }
 }

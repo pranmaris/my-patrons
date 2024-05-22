@@ -694,7 +694,8 @@
         "names": {
             "la": "Catharina",
             "en": "Catherine",
-            "pl": "Katarzyna"
+            "pl": "Katarzyna",
+            "fr": "Catherine"
         }
     },
     "patrons/catharina/ale": {
@@ -705,6 +706,18 @@
         },
         "died": [
             ">300"
+        ],
+        "feasts": []
+    },
+    "patrons/catharina/lab": {
+        "names": {
+            "fr": "Catherine Labouré",
+            "en": "Catherine Labouré",
+            "la": "Catherina Labouré",
+            "pl": "Katarzyna Labouré"
+        },
+        "died": [
+            "1876-12-31"
         ],
         "feasts": []
     },

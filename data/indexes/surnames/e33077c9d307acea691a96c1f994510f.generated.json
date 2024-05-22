@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Labouré"
+    },
+    "translations": {
+        "fr": [
+            "Labouré"
+        ]
+    },
+    "links": {
+        "records/patrons/catharina/lab": {
+            "fr": "Catherine Labouré",
+            "en": "Catherine Labouré",
+            "la": "Catherina Labouré",
+            "pl": "Katarzyna Labouré"
+        }
+    }
+}

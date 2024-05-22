@@ -1,0 +1,41 @@
+{
+  "names": {
+    "fr": [
+      "Catherine Labouré"
+    ],
+    "en": [
+      "Catherine Labouré"
+    ],
+    "la": [
+      "Catherina Labouré"
+    ],
+    "pl": [
+      "Katarzyna Labouré"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Labouré"
+    }
+  ],
+
+  "born": ["1806-05-02"],
+  "died": ["1876-12-31"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1933-05-28"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1947-07-27"
+  },
+
+  "also-in-martyrology": ["12-31"],
+
+  "forenames": ["catharina"],
+  "categories": ["femina", "virgo"],
+
+  "order": ["sm"]
+}
