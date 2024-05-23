@@ -1431,6 +1431,25 @@
             }
         }
     },
+    "patrons/iosephus": {
+        "names": {
+            "la": "Iosephus",
+            "en": "Joseph",
+            "pl": "Józef"
+        }
+    },
+    "patrons/iosephus/esc": {
+        "names": {
+            "es": "Josemaría Escrivá de Balaguer",
+            "en": "Josemaría Escrivá de Balaguer",
+            "la": "Iosephus Maria Escrivá de Balaguer",
+            "pl": "Josemaría Escrivá de Balaguer"
+        },
+        "died": [
+            "1975-06-26"
+        ],
+        "feasts": []
+    },
     "patrons/isaias": {
         "names": {
             "la": "Isaias",

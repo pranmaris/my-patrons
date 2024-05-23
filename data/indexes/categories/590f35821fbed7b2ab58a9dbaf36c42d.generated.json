@@ -265,6 +265,12 @@
             "la": "Iosephus",
             "pl": "Józef z Nazaretu"
         },
+        "records/patrons/iosephus/esc": {
+            "es": "Josemaría Escrivá de Balaguer",
+            "en": "Josemaría Escrivá de Balaguer",
+            "la": "Iosephus Maria Escrivá de Balaguer",
+            "pl": "Josemaría Escrivá de Balaguer"
+        },
         "records/patrons/isaias/pro": {
             "he": "יְשַׁעְיָהוּ",
             "en": "Isaiah",

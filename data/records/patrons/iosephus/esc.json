@@ -1,0 +1,39 @@
+{
+  "names": {
+    "es": [
+      "Josemaría Escrivá de Balaguer"
+    ],
+    "en": [
+      "Josemaría Escrivá de Balaguer"
+    ],
+    "la": [
+      "Iosephus Maria Escrivá de Balaguer"
+    ],
+    "pl": [
+      "Josemaría Escrivá de Balaguer"
+    ]
+  },
+
+  "surnames": [
+    {
+      "es": "Escrivá de Balaguer"
+    }
+  ],
+
+  "born": ["1902-01-09"],
+  "died": ["1975-06-26"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1992-05-17"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2002-10-06"
+  },
+
+  "also-in-martyrology": ["06-26"],
+
+  "forenames": ["iosephus", "maria"],
+  "categories": ["vir", "presbyter", "fundator"]
+}

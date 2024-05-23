@@ -595,6 +595,20 @@
             }
         }
     },
+    "06-26": {
+        "records/patrons/iosephus/esc": {
+            "name": {
+                "es": "Josemaría Escrivá de Balaguer",
+                "en": "Josemaría Escrivá de Balaguer",
+                "la": "Iosephus Maria Escrivá de Balaguer",
+                "pl": "Josemaría Escrivá de Balaguer"
+            },
+            "sources": {
+                "reliable-death-anniversary": "26 VI",
+                "other-martyrology-days": "26 VI"
+            }
+        }
+    },
     "06-29": {
         "records/patrons/paulus/apo": {
             "name": {
