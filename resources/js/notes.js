@@ -3625,7 +3625,10 @@ function getLastYearOrTenChallengesValuesData(valuesData, challengeRowId, select
         }
         const noteIds = getNotesIdsForLevel(notes[noteConfigId] ?? [], level);
         for (const noteId of Object.keys(noteIds)) {
-          result[noteId] = valuesData[noteId] ?? '---';
+          const value = valuesData[noteId] ?? null;
+          if (value != null) {
+            result[noteId] = value;
+          }
         }
       }
     }
