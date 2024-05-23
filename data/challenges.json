@@ -1404,7 +1404,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["I", "MM", "NOT_AVAILABLE"],
+        "anybody-having-challenges": ["I", "MM"],
         "person-not-having-challenges": ["R"],
         "everybody-not-having-challenges-on-the-same-day": ["R"]
       }
@@ -1414,12 +1414,12 @@
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
-          "pl": "spotkaj się z Uczestnikiem, by wspólnie zaprosić Patrona Orędownika"
+          "pl": "spotkaj się z drugim Uczestnikiem, by wspólnie zaprosić Patronów Orędowników"
         },
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/kroki/spotkaj-sie-z-uczestnikiem-by-wspolnie-zaprosic-patrona-oredownika"
+            "pl": "pl/kroki/spotkaj-sie-z-drugim-uczestnikiem-by-wspolnie-zaprosic-patronow-oredownikow"
           }
         }
       },
@@ -1427,12 +1427,12 @@
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
-          "pl": "pomódl się z drugim Uczestnikiem do wybranych Patronów"
+          "pl": "pomódl się wspólnie z drugim Uczestnikiem do wybranych Patronów"
         },
         "description": {
-          "params": ["person-name", "given-advocate-patron-name"],
+          "params": ["person-name"],
           "template": {
-            "pl": "pl/kroki/pomodl-sie-z-drugim-uczestnikiem-do-patronow-oredownikow"
+            "pl": "pl/kroki/pomodl-sie-wspolnie-z-drugim-uczestnikiem-do-patronow-oredownikow"
           }
         }
       },

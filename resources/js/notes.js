@@ -2699,8 +2699,10 @@ async function drawChecklistInfo(challengeType, rowId, itemType, itemStatus, bac
   const name = getLanguageVariable('name', true, config.name ?? {});
 
   const rowData = (fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {};
-  const personName = getPersonDataName(rowData.person)
-  const additionName = getPersonDataAdditionName(rowData.person, additionType, rowData.addition);
+  const personId = rowData.person ?? document.getElementById(PERSON_SELECT_ELEMENT_ID).value;
+  const additionId = rowData.addition ?? document.getElementById(ADDITION_SELECT_ELEMENT_ID).value;
+  const personName = getPersonDataName(personId)
+  const additionName = getPersonDataAdditionName(personId, additionType, additionId);
 
   const descData = config.description ?? {};
   const descFilePath = getLanguageVariable('description', false, descData.template ?? {});
