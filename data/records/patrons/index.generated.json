@@ -112,10 +112,22 @@
         "pl": "Klara",
         "it": "Chiara"
     },
+    "cosmas": {
+        "la": "Cosmas",
+        "en": "Cosmas",
+        "pl": "Kosma",
+        "gr": "Κοσμάς"
+    },
     "cyrillus": {
         "la": "Cyrillus",
         "en": "Cyril",
         "pl": "Cyryl"
+    },
+    "damianus": {
+        "la": "Damianus",
+        "en": "Damian",
+        "pl": "Damian",
+        "gr": "Δαμιανός"
     },
     "daria": {
         "la": "Daria",

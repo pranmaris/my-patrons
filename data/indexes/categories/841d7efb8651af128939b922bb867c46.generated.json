@@ -48,6 +48,18 @@
             "en": "Chrysanthus (with Daria)",
             "pl": "Chryzant (z Darią)"
         },
+        "records/patrons/cosmas/dam": {
+            "gr": "Κοσμάς (καὶ Δαμιανός)",
+            "en": "Cosmas (with Damian)",
+            "la": "Cosmas (cum Damianus)",
+            "pl": "Kosma (z Damianem)"
+        },
+        "records/patrons/damianus/cos": {
+            "gr": "Δαμιανός (καὶ Κοσμάς)",
+            "en": "Damian (with Cosmas)",
+            "la": "Damianus (cum Cosmas)",
+            "pl": "Damian (z Kosmą)"
+        },
         "records/patrons/david/oke": {
             "sw": "Daudi Okelo",
             "en": "David Okelo",

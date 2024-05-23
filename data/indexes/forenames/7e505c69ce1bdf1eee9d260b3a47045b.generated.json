@@ -1,0 +1,27 @@
+{
+    "names": {
+        "gr": "Δαμιανός"
+    },
+    "translations": {
+        "la": [
+            "Damianus"
+        ],
+        "en": [
+            "Damian"
+        ],
+        "pl": [
+            "Damian"
+        ],
+        "gr": [
+            "Δαμιανός"
+        ]
+    },
+    "links": {
+        "records/patrons/damianus/cos": {
+            "gr": "Δαμιανός (καὶ Κοσμάς)",
+            "en": "Damian (with Cosmas)",
+            "la": "Damianus (cum Cosmas)",
+            "pl": "Damian (z Kosmą)"
+        }
+    }
+}

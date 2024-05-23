@@ -1306,6 +1306,28 @@
                 "reliable-death-anniversary": "27 IX",
                 "other-martyrology-days": "27 IX"
             }
+        },
+        "records/patrons/cosmas/dam": {
+            "name": {
+                "gr": "Κοσμάς (καὶ Δαμιανός)",
+                "en": "Cosmas (with Damian)",
+                "la": "Cosmas (cum Damianus)",
+                "pl": "Kosma (z Damianem)"
+            },
+            "sources": {
+                "other-martyrology-days": "27 IX"
+            }
+        },
+        "records/patrons/damianus/cos": {
+            "name": {
+                "gr": "Δαμιανός (καὶ Κοσμάς)",
+                "en": "Damian (with Cosmas)",
+                "la": "Damianus (cum Cosmas)",
+                "pl": "Damian (z Kosmą)"
+            },
+            "sources": {
+                "other-martyrology-days": "27 IX"
+            }
         }
     },
     "09-29": {

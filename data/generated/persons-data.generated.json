@@ -779,6 +779,27 @@
         ],
         "feasts": []
     },
+    "patrons/cosmas": {
+        "names": {
+            "la": "Cosmas",
+            "en": "Cosmas",
+            "pl": "Kosma",
+            "gr": "Κοσμάς"
+        }
+    },
+    "patrons/cosmas/dam": {
+        "names": {
+            "gr": "Κοσμάς (καὶ Δαμιανός)",
+            "en": "Cosmas (with Damian)",
+            "la": "Cosmas (cum Damianus)",
+            "pl": "Kosma (z Damianem)"
+        },
+        "died": [
+            ">287",
+            "<303"
+        ],
+        "feasts": []
+    },
     "patrons/cyrillus": {
         "names": {
             "la": "Cyrillus",
@@ -803,6 +824,27 @@
                 }
             }
         }
+    },
+    "patrons/damianus": {
+        "names": {
+            "la": "Damianus",
+            "en": "Damian",
+            "pl": "Damian",
+            "gr": "Δαμιανός"
+        }
+    },
+    "patrons/damianus/cos": {
+        "names": {
+            "gr": "Δαμιανός (καὶ Κοσμάς)",
+            "en": "Damian (with Cosmas)",
+            "la": "Damianus (cum Cosmas)",
+            "pl": "Damian (z Kosmą)"
+        },
+        "died": [
+            ">287",
+            "<303"
+        ],
+        "feasts": []
     },
     "patrons/daria": {
         "names": {

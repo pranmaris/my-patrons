@@ -128,6 +128,12 @@
         "en": "Constantine",
         "pl": "Konstantyn"
     },
+    "cosmas": {
+        "la": "Cosmas",
+        "en": "Cosmas",
+        "pl": "Kosma",
+        "gr": "Κοσμάς"
+    },
     "cunegundis": {
         "la": "Cunegundis",
         "en": "CUnegunda",
@@ -137,6 +143,12 @@
         "la": "Cyrillus",
         "en": "Cyril",
         "pl": "Cyryl"
+    },
+    "damianus": {
+        "la": "Damianus",
+        "en": "Damian",
+        "pl": "Damian",
+        "gr": "Δαμιανός"
     },
     "daria": {
         "la": "Daria",

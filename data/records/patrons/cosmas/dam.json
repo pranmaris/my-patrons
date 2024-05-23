@@ -1,0 +1,23 @@
+{
+  "names": {
+    "gr": [
+      "Κοσμάς (καὶ Δαμιανός)"
+    ],
+    "en": [
+      "Cosmas (with Damian)"
+    ],
+    "la": [
+      "Cosmas (cum Damianus)"
+    ],
+    "pl": [
+      "Kosma (z Damianem)"
+    ]
+  },
+
+  "died": [">287", "<303"],
+
+  "also-in-martyrology": ["09-27"],
+
+  "forenames": ["cosmas"],
+  "categories": ["vir", "martyr"]
+}

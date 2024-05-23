@@ -68,6 +68,10 @@
     "0e1c2885bc3fcd96020d335699835ac9": {
         "pl": "Róża"
     },
+    "0e87ad684b8a9be667465b884f0f8f12": {
+        "la": "Cosmas",
+        "en": "Cosmas"
+    },
     "1176418e7cc958df81784bd836b4d2f2": {
         "cz": "Vojtěch"
     },
@@ -258,6 +262,9 @@
     "3b948865c68fbebbdfce382e5eb95169": {
         "en": "Cecilia"
     },
+    "3dd84aa794606dfd5eb82cdcba205a8e": {
+        "pl": "Kosma"
+    },
     "3e06fa3927cbdf4e9d93ba4541acce86": {
         "la": "Michael",
         "en": "Michael"
@@ -295,6 +302,9 @@
     },
     "48d7447c6a7e3ac7d2bcccd03212a5f0": {
         "it": "Pio"
+    },
+    "49193a24546c767b6feb6ddc25390739": {
+        "la": "Damianus"
     },
     "492a23820f41458fd89cec3d0027712b": {
         "la": "Perpetua",
@@ -487,6 +497,9 @@
     },
     "7c6b04c1dab057c48be8eaa4f66bf9b6": {
         "pl": "Agnieszka"
+    },
+    "7e505c69ce1bdf1eee9d260b3a47045b": {
+        "gr": "Δαμιανός"
     },
     "7efd721c8bfff2937c66235f2d0dbac1": {
         "en": "Adam",
@@ -785,6 +798,10 @@
         "en": "Florian",
         "pl": "Florian"
     },
+    "c95ee506b1bfeab0f9ad36a22c9a54b2": {
+        "en": "Damian",
+        "pl": "Damian"
+    },
     "ca557ca8ecc8a2556120555a588425a0": {
         "la": "Joannes"
     },
@@ -806,6 +823,9 @@
     },
     "cc86db2cb6845e5cd5442a4fc97b3ee1": {
         "pl": "Andrzej"
+    },
+    "cdf85264f47182e2e0a8b8b15affb0c7": {
+        "gr": "Κοσμάς"
     },
     "ce7898536dd0e928d1640ee2ad531cc8": {
         "la": "Multi"
