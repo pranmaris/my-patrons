@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Camillus",
+        "en": "Camillus"
+    },
+    "translations": {
+        "la": [
+            "Camillus"
+        ],
+        "en": [
+            "Camillus"
+        ],
+        "pl": [
+            "Kamil"
+        ],
+        "it": [
+            "Camillo"
+        ]
+    },
+    "links": {
+        "records/patrons/camillus/lel": {
+            "it": "Camillo de Lellis",
+            "en": "Camillus de Lellis",
+            "la": "Camillus de Lellis",
+            "pl": "Kamil de Lellis"
+        }
+    }
+}

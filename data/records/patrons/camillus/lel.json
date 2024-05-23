@@ -1,0 +1,36 @@
+{
+  "names": {
+    "it": [
+      "Camillo de Lellis"
+    ],
+    "en": [
+      "Camillus de Lellis"
+    ],
+    "la": [
+      "Camillus de Lellis"
+    ],
+    "pl": [
+      "Kamil de Lellis"
+    ]
+  },
+
+  "born": ["1550-05-25"],
+  "died": ["1614-07-14"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1742-04-07"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1746"
+  },
+
+  "also-in-martyrology": ["07-14"],
+
+  "forenames": ["camillus"],
+  "categories": ["vir", "presbyter", "fundator"],
+
+  "order": ["mi"],
+  "order-founder": ["mi"]
+}

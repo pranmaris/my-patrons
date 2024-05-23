@@ -634,6 +634,26 @@
         ],
         "feasts": []
     },
+    "patrons/camillus": {
+        "names": {
+            "la": "Camillus",
+            "en": "Camillus",
+            "pl": "Kamil",
+            "it": "Camillo"
+        }
+    },
+    "patrons/camillus/lel": {
+        "names": {
+            "it": "Camillo de Lellis",
+            "en": "Camillus de Lellis",
+            "la": "Camillus de Lellis",
+            "pl": "Kamil de Lellis"
+        },
+        "died": [
+            "1614-07-14"
+        ],
+        "feasts": []
+    },
     "patrons/carolina": {
         "names": {
             "la": "Carolina",
