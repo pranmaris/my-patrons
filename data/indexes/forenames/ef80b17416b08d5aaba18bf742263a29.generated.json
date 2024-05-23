@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Marcelin"
+    },
+    "translations": {
+        "la": [
+            "Marcellinus"
+        ],
+        "en": [
+            "Marcellinus"
+        ],
+        "pl": [
+            "Marcelin"
+        ]
+    },
+    "links": {
+        "records/patrons/marcellinus/1pp": {
+            "la": "Marcellinus Papa",
+            "en": "Pope Marcellinus",
+            "pl": "Marcelin Papież"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "names": {
+    "la": [
+      "Marcellinus Papa"
+    ],
+    "en": [
+      "Pope Marcellinus"
+    ],
+    "pl": [
+      "Marcelin Papież"
+    ]
+  },
+
+  "died": ["304-10-25"],
+
+  "also-in-martyrology": ["10-25"],
+
+  "forenames": ["marcellinus"],
+  "categories": ["vir", "martyr", "papa"],
+
+  "data-links": {
+    "popes": ["1:#29"]
+  }
+}

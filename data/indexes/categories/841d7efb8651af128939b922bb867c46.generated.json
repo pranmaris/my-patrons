@@ -91,6 +91,11 @@
             "en": "Lawrence of Rome",
             "pl": "Wawrzyniec z Rzymu"
         },
+        "records/patrons/marcellinus/1pp": {
+            "la": "Marcellinus Papa",
+            "en": "Pope Marcellinus",
+            "pl": "Marcelin Papież"
+        },
         "records/patrons/matthaeus/eva": {
             "he": "מתיו האוונגליסט",
             "en": "Matthew the Evengelist",

@@ -40,6 +40,11 @@
             "en": "John Paul II",
             "la": "Ioannes Paulus Pp. II"
         },
+        "records/patrons/marcellinus/1pp": {
+            "la": "Marcellinus Papa",
+            "en": "Pope Marcellinus",
+            "pl": "Marcelin Papież"
+        },
         "records/patrons/petrus/apo": {
             "la": "Petrus",
             "en": "Peter the Apostle",

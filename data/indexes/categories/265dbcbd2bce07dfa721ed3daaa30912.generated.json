@@ -140,6 +140,11 @@
             "la": "Lucia Syracusana",
             "pl": "Łucja z Syrakuz"
         },
+        "records/patrons/marcellinus/1pp": {
+            "la": "Marcellinus Papa",
+            "en": "Pope Marcellinus",
+            "pl": "Marcelin Papież"
+        },
         "records/patrons/margarita/war": {
             "en": "Margaret Ward",
             "la": "Margarita Ward",

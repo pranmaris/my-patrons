@@ -309,6 +309,11 @@
             "en": "Magnus of Füssen",
             "pl": "Magnus z Füssen"
         },
+        "records/patrons/marcellinus/1pp": {
+            "la": "Marcellinus Papa",
+            "en": "Pope Marcellinus",
+            "pl": "Marcelin Papież"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",

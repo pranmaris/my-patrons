@@ -1515,6 +1515,17 @@
         }
     },
     "10-25": {
+        "records/patrons/marcellinus/1pp": {
+            "name": {
+                "la": "Marcellinus Papa",
+                "en": "Pope Marcellinus",
+                "pl": "Marcelin Papież"
+            },
+            "sources": {
+                "reliable-death-anniversary": "25 X",
+                "other-martyrology-days": "25 X"
+            }
+        },
         "records/patrons/chrysanthus/dar": {
             "name": {
                 "la": "Chrysanthus (cum Daria)",
