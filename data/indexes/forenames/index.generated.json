@@ -145,6 +145,9 @@
     "260549eff4053a1d6496833316e1d8ad": {
         "pl": "Cyryl"
     },
+    "262fec7c039e1d318a8c3c983d2af143": {
+        "fr": "Jeanne"
+    },
     "27adb0b3f92d9b8f7fa4cb55b60114cc": {
         "en": "Lawrence"
     },
@@ -546,6 +549,9 @@
     "8cc865f6f4b3fba0b76123a4110b0633": {
         "la": "Iesus"
     },
+    "8d6473df9778220dc0bdf1efb93a9916": {
+        "la": "Ioanna"
+    },
     "8dce4161a75a55b45b790dca68b87658": {
         "gr": "Νικόλαος"
     },
@@ -637,6 +643,9 @@
     },
     "a78bcf26721280c66741cb091d89a774": {
         "la": "Laurentius"
+    },
+    "a7fc44290f691cd888b68b59eb4989a1": {
+        "en": "Joan"
     },
     "a850016a75b48183f73f8aa71b1f1c35": {
         "la": "Methodius",
@@ -937,6 +946,10 @@
     },
     "f036caf730c4750f0b9ab4700ab76045": {
         "la": "Martinus"
+    },
+    "f03bcc45c56d9bea12ef3df075b345ba": {
+        "la": "Joanna",
+        "pl": "Joanna"
     },
     "f0a7c2032a85967151f653f8bd7fac89": {
         "en": "Sixtus"

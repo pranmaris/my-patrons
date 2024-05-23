@@ -57,6 +57,12 @@
             "la": "Genovefa Nemptodurensis",
             "pl": "Genowefa z Paryża"
         },
+        "records/patrons/ioanna/arc": {
+            "fr": "Jeanne d'Arc",
+            "en": "Joan of Arc",
+            "la": "Ioanna Arcensis",
+            "pl": "Joanna d'Arc"
+        },
         "records/patrons/kinga/cun": {
             "pl": "Kinga",
             "en": "Kinga of Poland",

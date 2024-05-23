@@ -1206,6 +1206,26 @@
         ],
         "feasts": []
     },
+    "patrons/ioanna": {
+        "names": {
+            "la": "Ioanna",
+            "en": "Joan",
+            "pl": "Joanna",
+            "fr": "Jeanne"
+        }
+    },
+    "patrons/ioanna/arc": {
+        "names": {
+            "fr": "Jeanne d'Arc",
+            "en": "Joan of Arc",
+            "la": "Ioanna Arcensis",
+            "pl": "Joanna d'Arc"
+        },
+        "died": [
+            "1431-05-30"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes": {
         "names": {
             "la": "Ioannes",

@@ -553,6 +553,20 @@
             }
         }
     },
+    "05-30": {
+        "records/patrons/ioanna/arc": {
+            "name": {
+                "fr": "Jeanne d'Arc",
+                "en": "Joan of Arc",
+                "la": "Ioanna Arcensis",
+                "pl": "Joanna d'Arc"
+            },
+            "sources": {
+                "reliable-death-anniversary": "30 V",
+                "other-martyrology-days": "30 V"
+            }
+        }
+    },
     "06-03": {
         "records/patrons/ioannes/23p": {
             "name": {

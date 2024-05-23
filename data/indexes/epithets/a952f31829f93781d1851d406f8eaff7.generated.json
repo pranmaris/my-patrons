@@ -1,0 +1,27 @@
+{
+    "names": {
+        "fr": "La Pucelle d'Orléans"
+    },
+    "translations": {
+        "fr": [
+            "La Pucelle d'Orléans"
+        ],
+        "en": [
+            "The Maid of Orléans"
+        ],
+        "la": [
+            "Puella Aurelianensis"
+        ],
+        "pl": [
+            "Dziewica Orleańska"
+        ]
+    },
+    "links": {
+        "records/patrons/ioanna/arc": {
+            "fr": "Jeanne d'Arc",
+            "en": "Joan of Arc",
+            "la": "Ioanna Arcensis",
+            "pl": "Joanna d'Arc"
+        }
+    }
+}
