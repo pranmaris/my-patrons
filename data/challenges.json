@@ -157,7 +157,7 @@
         "god-having-needed-challenges": true,
         "anybody-having-challenges": ["A"],
         "person-having-challenges": ["A"],
-        "person-addition-having-challenges": ["B"]
+        "person-addition-having-challenges": ["DF"]
       }
     },
     "checklist": {
@@ -270,7 +270,7 @@
         "god-having-needed-challenges": true,
         "anybody-having-challenges": ["A"],
         "person-having-challenges": ["A"],
-        "person-addition-having-challenges": ["B"]
+        "person-addition-having-challenges": ["DF"]
       }
     },
     "checklist": {
@@ -389,7 +389,7 @@
         "anybody-having-challenges": ["A"],
         "anybody-having-challenges-on-the-same-day": ["A"],
         "person-having-challenges": ["A"],
-        "person-addition-having-challenges": ["B"],
+        "person-addition-having-challenges": ["DF"],
         "everybody-not-having-challenges-on-the-same-day": ["AF"]
       }
     },
@@ -465,7 +465,93 @@
 
   "B": {
     "name": {
-      "pl": "Święto"
+      "pl": "Narodziny"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/narodziny"
+      }
+    },
+    "numbers": false,
+    "uniqueness": [
+      ["person"]
+    ],
+    "addition-type": "",
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "everybody-not-having-challenges": ["B"]
+      }
+    },
+    "checklist": {
+      "verification": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "potwierdź datę swoich narodzin"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/potwierdz-date-narodzin"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": ["row-id"],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "en": "time of birth",
+          "pl": "godzina narodzin"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "en": "place of birth",
+          "pl": "miejsce narodzin"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "DF": {
+    "name": {
+      "pl": "Święto Patrona"
     },
     "description": {
       "params": [],
@@ -492,7 +578,7 @@
         "anybody-having-challenges": ["A"],
         "anybody-having-challenges-on-the-same-day": ["A"],
         "person-having-challenges": ["A"],
-        "person-addition-not-having-challenges": ["B"]
+        "person-addition-not-having-challenges": ["DF"]
       }
     },
     "checklist": {
@@ -558,7 +644,7 @@
     }
   },
 
-  "GF": {
+  "EF": {
     "name": {
       "pl": "Nabożeństwo IX Pierwszych Piątków Miesiąca"
     },
@@ -582,10 +668,10 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["H", "SP", "SE"],
-        "anybody-having-challenges-in-last-40-days": ["GF"],
-        "everybody-not-having-challenges": ["9xGF"],
-        "everybody-not-having-challenges-on-the-same-day": ["GF"],
+        "anybody-having-challenges": ["B", "SP", "SE"],
+        "anybody-having-challenges-in-last-40-days": ["EF"],
+        "everybody-not-having-challenges": ["9xEF"],
+        "everybody-not-having-challenges-on-the-same-day": ["EF"],
         "day-of-week-having-whitelist": ["friday"],
         "day-of-month-having-maximum": 7
       }
@@ -725,7 +811,7 @@
     }
   },
 
-  "GS": {
+  "ES": {
     "name": {
       "pl": "Nabożeństwo V Pierwszych Sobót Miesiąca"
     },
@@ -749,9 +835,9 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["H", "SP", "SE"],
-        "everybody-not-having-challenges": ["5xGS"],
-        "everybody-not-having-challenges-on-the-same-day": ["GS"],
+        "anybody-having-challenges": ["B", "SP", "SE"],
+        "everybody-not-having-challenges": ["5xES"],
+        "everybody-not-having-challenges-on-the-same-day": ["ES"],
         "day-of-week-having-whitelist": ["saturday"],
         "day-of-month-having-maximum": 7
       }
@@ -886,92 +972,6 @@
     }
   },
 
-  "H": {
-    "name": {
-      "pl": "Narodziny"
-    },
-    "description": {
-      "params": [],
-      "template": {
-        "pl": "pl/wyzwania/narodziny"
-      }
-    },
-    "numbers": false,
-    "uniqueness": [
-      ["person"]
-    ],
-    "addition-type": "",
-    "person": {
-      "types": ["Me"],
-      "description": {
-        "params": [],
-        "template": {
-          "pl": "pl/osoby/ja"
-        }
-      },
-      "requirements": {
-        "everybody-not-having-challenges": ["H"]
-      }
-    },
-    "checklist": {
-      "verification": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "potwierdź datę swoich narodzin"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/potwierdz-date-narodzin"
-          }
-        }
-      },
-      "note": {
-        "to-complete-on-selected-date": false,
-        "required": false,
-        "name": {
-          "pl": "uzupełnij dowolne notatki"
-        },
-        "description": {
-          "params": ["row-id"],
-          "template": {
-            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
-          }
-        }
-      }
-    },
-    "notes": {
-      "time": {
-        "type": {
-          "time": [0, 1]
-        },
-        "name": {
-          "en": "time of birth",
-          "pl": "godzina narodzin"
-        }
-      },
-      "place": {
-        "type": {
-          "place": [0, 1]
-        },
-        "name": {
-          "en": "place of birth",
-          "pl": "miejsce narodzin"
-        }
-      },
-      "other": {
-        "type": {
-          "description": [0, 0]
-        },
-        "name": {
-          "en": "additional information",
-          "pl": "informacje dodatkowe"
-        }
-      }
-    }
-  },
-
   "I": {
     "name": {
       "pl": "Bóg"
@@ -996,7 +996,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["H"],
+        "anybody-having-challenges": ["B"],
         "everybody-not-having-challenges": ["I"]
       }
     },
@@ -1712,7 +1712,7 @@
       },
       "requirements": {
         "everybody-not-having-challenges": ["SB"],
-        "anybody-having-challenges": ["H"]
+        "anybody-having-challenges": ["B"]
       }
     },
     "checklist": {
@@ -2599,7 +2599,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["H"]
+        "anybody-having-challenges": ["B"]
       }
     },
     "checklist": {},
@@ -2640,7 +2640,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["H"],
+        "anybody-having-challenges": ["B"],
         "person-not-having-challenges": ["YN"]
       }
     },
