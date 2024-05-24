@@ -1,0 +1,30 @@
+{
+  "names": {
+    "pl": [
+      "Michał Sopoćko"
+    ],
+    "en": [
+      "Michael Sopocko"
+    ],
+    "la": [
+      "Michael Sopocko"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Sopoćko"
+    }
+  ],
+
+  "born": ["1888-11-01"],
+  "died": ["1975-02-15"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2008-09-28"
+  },
+
+  "forenames": ["michael"],
+  "categories": ["vir", "presbyter"]
+}

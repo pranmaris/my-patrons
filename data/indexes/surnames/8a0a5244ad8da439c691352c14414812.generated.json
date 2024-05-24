@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Sopoćko"
+    },
+    "translations": {
+        "pl": [
+            "Sopoćko"
+        ]
+    },
+    "links": {
+        "records/patrons/michael/sop": {
+            "pl": "Michał Sopoćko",
+            "en": "Michael Sopocko",
+            "la": "Michael Sopocko"
+        }
+    }
+}

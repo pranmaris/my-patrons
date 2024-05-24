@@ -18,6 +18,11 @@
             "la": "Michael Archangelus",
             "en": "Archangel Michael",
             "pl": "Michał Archanioł"
+        },
+        "records/patrons/michael/sop": {
+            "pl": "Michał Sopoćko",
+            "en": "Michael Sopocko",
+            "la": "Michael Sopocko"
         }
     }
 }

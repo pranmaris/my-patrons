@@ -2028,6 +2028,17 @@
         ],
         "feasts": []
     },
+    "patrons/michael/sop": {
+        "names": {
+            "pl": "Michał Sopoćko",
+            "en": "Michael Sopocko",
+            "la": "Michael Sopocko"
+        },
+        "died": [
+            "1975-02-15"
+        ],
+        "feasts": []
+    },
     "patrons/monica": {
         "names": {
             "la": "Monica",

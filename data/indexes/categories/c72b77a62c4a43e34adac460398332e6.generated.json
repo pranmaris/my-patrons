@@ -359,6 +359,11 @@
             "en": "Methodius (with Cyril)",
             "pl": "Metody (z Cyrylem)"
         },
+        "records/patrons/michael/sop": {
+            "pl": "Michał Sopoćko",
+            "en": "Michael Sopocko",
+            "la": "Michael Sopocko"
+        },
         "records/patrons/nicolaus/myr": {
             "gr": "Άγιος Νικόλαος",
             "en": "Nicholas of Myra",
