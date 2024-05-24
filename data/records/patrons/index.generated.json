@@ -101,6 +101,11 @@
         "pl": "Katarzyna",
         "fr": "Catherine"
     },
+    "ceslaus": {
+        "la": "Ceslaus",
+        "en": "Ceslaus",
+        "pl": "Czesław"
+    },
     "chrysanthus": {
         "la": "Chrysanthus",
         "en": "Chrysanthus",
@@ -151,6 +156,11 @@
         "en": "Dominic",
         "pl": "Dominik",
         "es": "Domingo"
+    },
+    "eduardus": {
+        "la": "Eduardus",
+        "en": "Edward",
+        "pl": "Edward"
     },
     "eusebius": {
         "la": "Eusebius",
@@ -226,6 +236,11 @@
         "la": "Iacobus",
         "en": "James",
         "pl": "Jakub"
+    },
+    "iarognievus": {
+        "la": "Iarognievus",
+        "en": "Iarognievus",
+        "pl": "Jarogniew"
     },
     "ioachim": {
         "la": "Ioachim",

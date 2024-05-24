@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Jóźwiak"
+    },
+    "translations": {
+        "pl": [
+            "Jóźwiak"
+        ]
+    },
+    "links": {
+        "records/patrons/ceslaus/joz": {
+            "pl": "Czesław Jóźwiak",
+            "en": "Czesław Jóźwiak",
+            "la": "Czeslaus Jóźwiak"
+        }
+    }
+}

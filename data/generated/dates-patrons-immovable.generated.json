@@ -1112,6 +1112,61 @@
         }
     },
     "08-24": {
+        "records/patrons/ceslaus/joz": {
+            "name": {
+                "pl": "Czesław Jóźwiak",
+                "en": "Czesław Jóźwiak",
+                "la": "Czeslaus Jóźwiak"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 VIII",
+                "other-martyrology-days": "24 VIII"
+            }
+        },
+        "records/patrons/eduardus/kaz": {
+            "name": {
+                "pl": "Edward Kaźmierski",
+                "en": "Edward Kazmierski",
+                "la": "Edwardus Kaźmierski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 VIII",
+                "other-martyrology-days": "24 VIII"
+            }
+        },
+        "records/patrons/eduardus/kli": {
+            "name": {
+                "pl": "Edward Klinik",
+                "en": "Edward Klinik",
+                "la": "Eduardus Klinik"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 VIII",
+                "other-martyrology-days": "24 VIII"
+            }
+        },
+        "records/patrons/franciscus/kes": {
+            "name": {
+                "pl": "Franciszek Kęsy",
+                "en": "Franciszek Kęsy",
+                "la": "Franciscus Kęsy"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 VIII",
+                "other-martyrology-days": "24 VIII"
+            }
+        },
+        "records/patrons/iarognievus/woj": {
+            "name": {
+                "pl": "Jarogniew Wojciechowski",
+                "en": "Jarogniew Wojciechowski",
+                "la": "Jarognievus Wojciechowski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 VIII",
+                "other-martyrology-days": "24 VIII"
+            }
+        },
         "records/patrons/rosa/lim": {
             "name": {
                 "es": "Rosa de Lima",

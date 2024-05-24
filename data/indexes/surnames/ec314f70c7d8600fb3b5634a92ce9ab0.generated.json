@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Klinik"
+    },
+    "translations": {
+        "pl": [
+            "Klinik"
+        ]
+    },
+    "links": {
+        "records/patrons/eduardus/kli": {
+            "pl": "Edward Klinik",
+            "en": "Edward Klinik",
+            "la": "Eduardus Klinik"
+        }
+    }
+}

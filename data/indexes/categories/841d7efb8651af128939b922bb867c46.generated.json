@@ -43,6 +43,11 @@
             "la": "Andreas Kim Tae-gŏn",
             "pl": "Andrzej Kim Tae-gŏn"
         },
+        "records/patrons/ceslaus/joz": {
+            "pl": "Czesław Jóźwiak",
+            "en": "Czesław Jóźwiak",
+            "la": "Czeslaus Jóźwiak"
+        },
         "records/patrons/chrysanthus/dar": {
             "la": "Chrysanthus (cum Daria)",
             "en": "Chrysanthus (with Daria)",
@@ -66,6 +71,16 @@
             "la": "David Okelo",
             "pl": "Dawid Okelo"
         },
+        "records/patrons/eduardus/kaz": {
+            "pl": "Edward Kaźmierski",
+            "en": "Edward Kazmierski",
+            "la": "Edwardus Kaźmierski"
+        },
+        "records/patrons/eduardus/kli": {
+            "pl": "Edward Klinik",
+            "en": "Edward Klinik",
+            "la": "Eduardus Klinik"
+        },
         "records/patrons/eusebius/ver": {
             "la": "Eusebius Vercellensis",
             "en": "Eusebius of Vercelli",
@@ -76,10 +91,20 @@
             "en": "Florian of Lauriacum",
             "pl": "Florian z Lauriacum"
         },
+        "records/patrons/franciscus/kes": {
+            "pl": "Franciszek Kęsy",
+            "en": "Franciszek Kęsy",
+            "la": "Franciscus Kęsy"
+        },
         "records/patrons/iacobus/mai": {
             "la": "Iacobus Maior Apostolus",
             "en": "James the Great",
             "pl": "Jakub Większy Apostoł"
+        },
+        "records/patrons/iarognievus/woj": {
+            "pl": "Jarogniew Wojciechowski",
+            "en": "Jarogniew Wojciechowski",
+            "la": "Jarognievus Wojciechowski"
         },
         "records/patrons/ioannes/bap": {
             "he": "יוֹחָנָן",

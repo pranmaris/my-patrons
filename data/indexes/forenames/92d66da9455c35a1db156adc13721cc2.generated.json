@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Czesław"
+    },
+    "translations": {
+        "la": [
+            "Ceslaus"
+        ],
+        "en": [
+            "Ceslaus"
+        ],
+        "pl": [
+            "Czesław"
+        ]
+    },
+    "links": {
+        "records/patrons/ceslaus/joz": {
+            "pl": "Czesław Jóźwiak",
+            "en": "Czesław Jóźwiak",
+            "la": "Czeslaus Jóźwiak"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Kęsy"
+    },
+    "translations": {
+        "pl": [
+            "Kęsy"
+        ]
+    },
+    "links": {
+        "records/patrons/franciscus/kes": {
+            "pl": "Franciszek Kęsy",
+            "en": "Franciszek Kęsy",
+            "la": "Franciscus Kęsy"
+        }
+    }
+}

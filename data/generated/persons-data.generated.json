@@ -741,6 +741,24 @@
         ],
         "feasts": []
     },
+    "patrons/ceslaus": {
+        "names": {
+            "la": "Ceslaus",
+            "en": "Ceslaus",
+            "pl": "Czesław"
+        }
+    },
+    "patrons/ceslaus/joz": {
+        "names": {
+            "pl": "Czesław Jóźwiak",
+            "en": "Czesław Jóźwiak",
+            "la": "Czeslaus Jóźwiak"
+        },
+        "died": [
+            "1942-08-24"
+        ],
+        "feasts": []
+    },
     "patrons/chrysanthus": {
         "names": {
             "la": "Chrysanthus",
@@ -947,6 +965,35 @@
         ],
         "feasts": []
     },
+    "patrons/eduardus": {
+        "names": {
+            "la": "Eduardus",
+            "en": "Edward",
+            "pl": "Edward"
+        }
+    },
+    "patrons/eduardus/kaz": {
+        "names": {
+            "pl": "Edward Kaźmierski",
+            "en": "Edward Kazmierski",
+            "la": "Edwardus Kaźmierski"
+        },
+        "died": [
+            "1942-08-24"
+        ],
+        "feasts": []
+    },
+    "patrons/eduardus/kli": {
+        "names": {
+            "pl": "Edward Klinik",
+            "en": "Edward Klinik",
+            "la": "Eduardus Klinik"
+        },
+        "died": [
+            "1942-08-24"
+        ],
+        "feasts": []
+    },
     "patrons/eusebius": {
         "names": {
             "la": "Eusebius",
@@ -1049,6 +1096,17 @@
         },
         "died": [
             "1226-10-03"
+        ],
+        "feasts": []
+    },
+    "patrons/franciscus/kes": {
+        "names": {
+            "pl": "Franciszek Kęsy",
+            "en": "Franciszek Kęsy",
+            "la": "Franciscus Kęsy"
+        },
+        "died": [
+            "1942-08-24"
         ],
         "feasts": []
     },
@@ -1244,6 +1302,24 @@
         "died": [
             "43",
             "44"
+        ],
+        "feasts": []
+    },
+    "patrons/iarognievus": {
+        "names": {
+            "la": "Iarognievus",
+            "en": "Iarognievus",
+            "pl": "Jarogniew"
+        }
+    },
+    "patrons/iarognievus/woj": {
+        "names": {
+            "pl": "Jarogniew Wojciechowski",
+            "en": "Jarogniew Wojciechowski",
+            "la": "Jarognievus Wojciechowski"
+        },
+        "died": [
+            "1942-08-24"
         ],
         "feasts": []
     },

@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Iarognievus",
+        "en": "Iarognievus"
+    },
+    "translations": {
+        "la": [
+            "Iarognievus"
+        ],
+        "en": [
+            "Iarognievus"
+        ],
+        "pl": [
+            "Jarogniew"
+        ]
+    },
+    "links": {
+        "records/patrons/iarognievus/woj": {
+            "pl": "Jarogniew Wojciechowski",
+            "en": "Jarogniew Wojciechowski",
+            "la": "Jarognievus Wojciechowski"
+        }
+    }
+}

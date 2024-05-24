@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Kaźmierski"
+    },
+    "translations": {
+        "pl": [
+            "Kaźmierski"
+        ]
+    },
+    "links": {
+        "records/patrons/eduardus/kaz": {
+            "pl": "Edward Kaźmierski",
+            "en": "Edward Kazmierski",
+            "la": "Edwardus Kaźmierski"
+        }
+    }
+}

@@ -26,6 +26,11 @@
             "la": "Franciscus Asisiensis",
             "pl": "Franciszek z Asyżu"
         },
+        "records/patrons/franciscus/kes": {
+            "pl": "Franciszek Kęsy",
+            "en": "Franciszek Kęsy",
+            "la": "Franciscus Kęsy"
+        },
         "records/patrons/franciscus/pau": {
             "it": "Francesco da Paola",
             "en": "Francis of Paola",
