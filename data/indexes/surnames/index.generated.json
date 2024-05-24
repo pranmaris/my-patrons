@@ -1,4 +1,7 @@
 {
+    "06783d0b7737697cf6133886af2e28e7": {
+        "pl": "Jóźwik"
+    },
     "06bbad75185cdb0f713601dcd4a9dc16": {
         "pl": "Kózka"
     },
@@ -17,6 +20,9 @@
     "3239616e1b111fcd51f7959d1e2a8c39": {
         "pl": "Chmielowski"
     },
+    "34dae378517d5a0053ac536ae6d8a04f": {
+        "pl": "Mackiewicz"
+    },
     "35fd7073c9099832dd6c4bc7e7614f90": {
         "es": "Escrivá de Balaguer"
     },
@@ -31,6 +37,12 @@
     },
     "555fbd3dda8b7047b0578fe10500326e": {
         "fr": "Alacoque"
+    },
+    "56a67904ae251dd7b8aa5402dfb83a5a": {
+        "pl": "Żak"
+    },
+    "5820d1492f64c4331520d6a04662f2a5": {
+        "pl": "Matuszewska"
     },
     "5898dab8bda99d3da092d07a3dd32f6b": {
         "pl": "Kowalska"
@@ -53,6 +65,12 @@
     "8a0a5244ad8da439c691352c14414812": {
         "pl": "Sopoćko"
     },
+    "9510a4e700a96ea68128cfdff8e5a848": {
+        "pl": "Cierpka"
+    },
+    "9f45b746d5be06225a80138be9ecc37c": {
+        "pl": "Rapiej"
+    },
     "a13f7668e4a7f75b209d3c89a2c6cbdb": {
         "it": "Neri"
     },
@@ -67,6 +85,15 @@
     },
     "a588c1e9a3a1fd2680569b0f483cd740": {
         "sw": "Okelo"
+    },
+    "a6e000ea43904d9a324e461a47eccc70": {
+        "pl": "Mardosewicz"
+    },
+    "bdf1356f54bdbca427dff27ff414f766": {
+        "pl": "Chrobot"
+    },
+    "c3a71adc8626151904afc680b3c56a25": {
+        "pl": "Narmontowicz"
     },
     "c624e2931b89f8da367a6c5d86f65cc2": {
         "it": "del Bufalo"
@@ -89,11 +116,17 @@
     "de0d10f682463b36639bf775a0c17382": {
         "pl": "Feliński"
     },
+    "e0dbd5823abe808540506fa8837f664b": {
+        "pl": "Borowik"
+    },
     "e33077c9d307acea691a96c1f994510f": {
         "fr": "Labouré"
     },
     "ec314f70c7d8600fb3b5634a92ce9ab0": {
         "pl": "Klinik"
+    },
+    "f02ad58ffcdf2b84a7696b738f815d8f": {
+        "pl": "Kukołowicz"
     },
     "f55fbaaca148300ac11f7752528cae3d": {
         "la": "Kim",

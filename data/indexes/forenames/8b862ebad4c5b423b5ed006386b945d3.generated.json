@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Boromea",
+        "en": "Boromea",
+        "pl": "Boromea"
+    },
+    "translations": {
+        "la": [
+            "Boromea"
+        ],
+        "en": [
+            "Boromea"
+        ],
+        "pl": [
+            "Boromea"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/nar": {
+            "pl": "Maria Boromea Narmontowicz",
+            "en": "Mary Boromea Narmontowicz",
+            "la": "Maria Boromea Narmontowicz"
+        }
+    }
+}

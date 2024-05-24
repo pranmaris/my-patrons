@@ -1,0 +1,44 @@
+{
+  "names": {
+    "pl": [
+      "Maria Sergia od Matki Bożej Bolesnej",
+      "Julia Rapiej"
+    ],
+    "en": [
+      "Mary Sergia of Our Lady of Sorrows",
+      "Julia Rapiej"
+    ],
+    "la": [
+      "Maria Sergia a Virgine Perdolenti",
+      "Iulia Rapiej"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Rapiej"
+    }
+  ],
+  "epithets": [
+    {
+      "pl": "od Matki Bożej Bolesnej",
+      "en": "of Our Lady of Sorrows",
+      "la": "a Virgine Perdolenti"
+    }
+  ],
+
+  "born": ["1900-08-18"],
+  "died": ["1943-08-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-03-05"
+  },
+
+  "also-in-martyrology": ["08-01"],
+
+  "forenames": ["maria", "sergia", "iulia"],
+  "categories": ["femina", "martyrix", "virgo"],
+
+  "order": ["csfn"]
+}

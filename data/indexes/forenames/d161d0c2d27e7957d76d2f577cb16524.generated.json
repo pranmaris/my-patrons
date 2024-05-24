@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Heliodora",
+        "en": "Heliodora",
+        "pl": "Heliodora"
+    },
+    "translations": {
+        "la": [
+            "Heliodora"
+        ],
+        "en": [
+            "Heliodora"
+        ],
+        "pl": [
+            "Heliodora"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/mat": {
+            "pl": "Maria Heliodora Matuszewska",
+            "en": "Mary Heliodora Matuszewska",
+            "la": "Maria Heliodora Matuszewska"
+        }
+    }
+}

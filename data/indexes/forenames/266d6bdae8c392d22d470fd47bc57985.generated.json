@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Kanuta"
+    },
+    "translations": {
+        "la": [
+            "Canuta"
+        ],
+        "en": [
+            "Canuta"
+        ],
+        "pl": [
+            "Kanuta"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/chr": {
+            "pl": "Maria Kanuta od Pana Jezusa w Ogrójcu",
+            "en": "Mary Canuta of the Agonized Jesus in the Garden",
+            "la": "Maria Canuta a Iesu in Horto Getsemani"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "names": {
+    "pl": [
+      "Maria Kanuta od Pana Jezusa w Ogrójcu",
+      "Józefa Chrobot"
+    ],
+    "en": [
+      "Mary Canuta of the Agonized Jesus in the Garden",
+      "Josepha Chrobot"
+    ],
+    "la": [
+      "Maria Canuta a Iesu in Horto Getsemani",
+      "Iosepha Chrobot"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Chrobot"
+    }
+  ],
+  "epithets": [
+    {
+      "pl": "od Pana Jezusa w Ogrójcu",
+      "en": "of the Agonized Jesus in the Garden",
+      "la": "a Iesu in Horto Getsemani"
+    }
+  ],
+
+  "born": ["1896-05-22"],
+  "died": ["1943-08-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-03-05"
+  },
+
+  "also-in-martyrology": ["08-01"],
+
+  "forenames": ["maria", "canuta", "iosepha"],
+  "categories": ["femina", "martyrix", "virgo"],
+
+  "order": ["csfn"]
+}

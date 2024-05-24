@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Paulina",
+        "en": "Paulina",
+        "pl": "Paulina"
+    },
+    "translations": {
+        "la": [
+            "Paulina"
+        ],
+        "en": [
+            "Paulina"
+        ],
+        "pl": [
+            "Paulina"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/bor": {
+            "pl": "Maria Felicyta Borowik",
+            "en": "Mary Felicity Borowik",
+            "la": "Maria Felicitas Borowik"
+        }
+    }
+}

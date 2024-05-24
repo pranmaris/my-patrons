@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "od Matki Bożej Bolesnej"
+    },
+    "translations": {
+        "pl": [
+            "od Matki Bożej Bolesnej"
+        ],
+        "en": [
+            "of Our Lady of Sorrows"
+        ],
+        "la": [
+            "a Virgine Perdolenti"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/rap": {
+            "pl": "Maria Sergia od Matki Bożej Bolesnej",
+            "en": "Mary Sergia of Our Lady of Sorrows",
+            "la": "Maria Sergia a Virgine Perdolenti"
+        }
+    }
+}

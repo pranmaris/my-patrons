@@ -1,0 +1,37 @@
+{
+  "names": {
+    "pl": [
+      "Maria Felicyta Borowik",
+      "Paulina Borowik"
+    ],
+    "en": [
+      "Mary Felicity Borowik",
+      "Pauline Borowik"
+    ],
+    "la": [
+      "Maria Felicitas Borowik",
+      "Paulina Borowik"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Borowik"
+    }
+  ],
+
+  "born": ["1905-08-30"],
+  "died": ["1943-08-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-03-05"
+  },
+
+  "also-in-martyrology": ["08-01"],
+
+  "forenames": ["maria", "felicitas", "paulina"],
+  "categories": ["femina", "martyrix", "virgo"],
+
+  "order": ["csfn"]
+}

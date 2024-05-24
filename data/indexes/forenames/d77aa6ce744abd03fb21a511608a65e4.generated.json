@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Eugenia",
+        "en": "Eugenia",
+        "pl": "Eugenia"
+    },
+    "translations": {
+        "la": [
+            "Eugenia"
+        ],
+        "en": [
+            "Eugenia"
+        ],
+        "pl": [
+            "Eugenia"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/mac": {
+            "pl": "Maria Kanizja Mackiewicz",
+            "en": "Mary Canisia Mackiewicz",
+            "la": "Maria Canisia Mackiewicz"
+        }
+    }
+}

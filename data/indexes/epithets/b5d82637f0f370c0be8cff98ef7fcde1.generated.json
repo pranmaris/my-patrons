@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "od Jezusa Hostii"
+    },
+    "translations": {
+        "pl": [
+            "od Jezusa Hostii"
+        ],
+        "en": [
+            "of the Eucharistic Jesus"
+        ],
+        "la": [
+            "a Iesu Hostia"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/zak": {
+            "pl": "Maria Imelda od Jezusa Hostii",
+            "en": "Mary Imelda of the Eucharistic Jesus",
+            "la": "Maria Imelda a Iesu Hostia"
+        }
+    }
+}

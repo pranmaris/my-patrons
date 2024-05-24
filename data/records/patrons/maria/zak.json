@@ -1,0 +1,44 @@
+{
+  "names": {
+    "pl": [
+      "Maria Imelda od Jezusa Hostii",
+      "Jadwiga Karolina Żak"
+    ],
+    "en": [
+      "Mary Imelda of the Eucharistic Jesus",
+      "Hedwig Caroline Żak"
+    ],
+    "la": [
+      "Maria Imelda a Iesu Hostia",
+      "Hedwigis Carolina Żak"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Żak"
+    }
+  ],
+  "epithets": [
+    {
+      "pl": "od Jezusa Hostii",
+      "en": "of the Eucharistic Jesus",
+      "la": "a Iesu Hostia"
+    }
+  ],
+
+  "born": ["1892-12-29"],
+  "died": ["1943-08-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-03-05"
+  },
+
+  "also-in-martyrology": ["08-01"],
+
+  "forenames": ["maria", "imelda", "hedwigis", "carolina"],
+  "categories": ["femina", "martyrix", "virgo"],
+
+  "order": ["csfn"]
+}

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "of the Blessed Sacrament"
+    },
+    "translations": {
+        "pl": [
+            "od Najświętszego Sakramentu"
+        ],
+        "en": [
+            "of the Blessed Sacrament"
+        ],
+        "la": [
+            "a Sanctissimo Sacramento"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/mar": {
+            "pl": "Maria Stella od Najświętszego Sakramentu",
+            "en": "Maria Stella of the Blessed Sacrament",
+            "la": "Maria Stella a Sanctissimo Sacramento"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "of Jesus and Mary"
+    },
+    "translations": {
+        "pl": [
+            "od Jezusa i Maryi"
+        ],
+        "en": [
+            "of Jesus and Mary"
+        ],
+        "la": [
+            "a Iesu et Maria"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/kuk": {
+            "pl": "Maria Rajmunda od Jezusa i Maryi",
+            "en": "Mary Raymunda of Jesus and Mary",
+            "la": "Maria Raymunda a Iesu et Maria"
+        }
+    }
+}

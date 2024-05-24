@@ -23,6 +23,11 @@
             "en": "Hedwig of Silesia",
             "la": "Hedwigis ducissa Polonorum",
             "pl": "Jadwiga Śląska"
+        },
+        "records/patrons/maria/zak": {
+            "pl": "Maria Imelda od Jezusa Hostii",
+            "en": "Mary Imelda of the Eucharistic Jesus",
+            "la": "Maria Imelda a Iesu Hostia"
         }
     }
 }

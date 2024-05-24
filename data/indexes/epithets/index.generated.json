@@ -1,4 +1,7 @@
 {
+    "00f007a4f4db56758ee52e639e2a49a0": {
+        "en": "of the Agonized Jesus in the Garden"
+    },
     "01ab366bd3af2987fbd35208bf146c57": {
         "la": "Magnus"
     },
@@ -8,6 +11,9 @@
     "0a3ab6965027afaed2ffe91416e8ec05": {
         "de": "Schotte"
     },
+    "0cbc9707cd90c437df1cf618d09ef667": {
+        "en": "of Our Lady of Sorrows"
+    },
     "0d950f318ba94f58feb059b133e81c06": {
         "pl": "Szkot"
     },
@@ -16,6 +22,9 @@
     },
     "0f12dd134ced4bfbfa7447e5b61bf882": {
         "de": "vom Kreuz"
+    },
+    "1560673bc08ac85eee8c5b1335b29aea": {
+        "la": "a Sanctissimo Sacramento"
     },
     "1a6ec62713d2fdca4156501175b6c53f": {
         "la": "Doctor Evangelicus"
@@ -29,6 +38,9 @@
     "2d385bc213db379c78cab5251a03f1d9": {
         "en": "of Jesus"
     },
+    "2e9d37a08d7fff5aff523973e9cff52e": {
+        "en": "of Divine Mercy"
+    },
     "2f631b3dfbebd54f43e6bbbb5541ed12": {
         "en": "the Great"
     },
@@ -38,11 +50,17 @@
     "321317b1f50fa1889f92f95496349319": {
         "en": "The Maid of Orléans"
     },
+    "332453dc981855f1f5d868306318e1fc": {
+        "pl": "od Pana Jezusa w Ogrójcu"
+    },
     "3fa7cb3a9a8784869fbb3b8f43c0d6ad": {
         "la": "Doctor Universalis"
     },
     "443ed50b4d0affef38b857fe7e3c0e9d": {
         "pl": "Drugi"
+    },
+    "444e2cd8b8df66ec91fbcd26ab1e47b9": {
+        "la": "a Divina Misericordia"
     },
     "4a7dcccc6f81ab32083a34a05f82f6ae": {
         "en": "Christ"
@@ -56,6 +74,12 @@
     },
     "53ce4c5eddf390c4439d20e60a58a2d1": {
         "pl": "Portugalczyk"
+    },
+    "5746801e9cbd3ea60dbc3197d86191a3": {
+        "la": "a Virgine Perdolenti"
+    },
+    "58a11261f00e8d9710fe314d951cd9ef": {
+        "en": "of Jesus and Immaculate Mary"
     },
     "5badd4176dc6363f4b27252c9f354547": {
         "es": "de Sancta Maria"
@@ -81,14 +105,29 @@
         "la": "Duns",
         "pl": "Duns"
     },
+    "7249da433a81fe772c92789f7656f214": {
+        "en": "of the Eucharistic Jesus"
+    },
+    "77bdd2820938503663cd9ef1d5255624": {
+        "pl": "od Miłsierdzia Bożego"
+    },
     "812ef0b2119c99e59f7344056d361cc7": {
         "pl": "Pierwszy"
+    },
+    "831bbc586b06e8ce92741e56920b2f6e": {
+        "pl": "od Jezusa i Maryi Niepokalanej"
+    },
+    "85372661258ce908f61da0b74375cc13": {
+        "la": "a Iesu Hostia"
     },
     "86216d7ec7aeb40d8f28000e165bf600": {
         "la": "Christus"
     },
     "86ba036e39bf52f041b49a5b136a5e82": {
         "en": "the Baptist"
+    },
+    "881427e5b44d44091b7e61ad637db50a": {
+        "la": "a Iesu et Maria Immaculata"
     },
     "92aa525ecd6f44381598c217d43fbcf1": {
         "la": "Chrysostomus"
@@ -98,6 +137,9 @@
     },
     "9904b7516ff50ed584eced27f3a4e0e5": {
         "en": "the First"
+    },
+    "9f9be9eff06483e3617debac2facedf3": {
+        "en": "of Jesus and Mary"
     },
     "a1b27c48dae43b9ae63141c37f0a5034": {
         "en": "Scottish"
@@ -114,11 +156,17 @@
     "aa480e39e03296a80bb9be8acbc820f4": {
         "en": "the Second"
     },
+    "b5d82637f0f370c0be8cff98ef7fcde1": {
+        "pl": "od Jezusa Hostii"
+    },
     "bb3e3fffadaa999c47df137ad475b6b2": {
         "en": "of the Cross"
     },
     "c2ec7a86fdd36e41bbeeef08723760e3": {
         "en": "of Saint Mary"
+    },
+    "c3836e6e3af8f99c179cf2b51a6cc923": {
+        "la": "a Iesu et Maria"
     },
     "c5d15c94e363ddde89a51abb488d38e5": {
         "la": "Primus"
@@ -126,11 +174,20 @@
     "c66679f1e3fb900616ba65f014104059": {
         "pl": "Pramęczennik"
     },
+    "c75337ee197ff03f992b6ae50f40b073": {
+        "pl": "od Jezusa i Maryi"
+    },
     "cb6c2160dcf4c78f415002c8c9aafc59": {
         "pl": "Chryzostom"
     },
     "cf43b05606f1991373b14123d8802967": {
         "la": "Puella Aurelianensis"
+    },
+    "d057e01cc0ab025e8a72248f90f66506": {
+        "en": "of the Blessed Sacrament"
+    },
+    "d2241a4cd9a22f91a648abf478d5e1a1": {
+        "la": "a Iesu in Horto Getsemani"
     },
     "def880c9ec1497cc2e0a8956ea60b708": {
         "pl": "Dziewica Orleańska"
@@ -141,6 +198,9 @@
     "e2f40abb9ef5cea809073c780847147b": {
         "pl": "od Krzyża"
     },
+    "e387412daed7575aeb31c35b96ea2dad": {
+        "pl": "od Matki Bożej Bolesnej"
+    },
     "e3bed119228ccc49dbae9b850db88501": {
         "pl": "od Najświętszej Maryi"
     },
@@ -149,6 +209,9 @@
     },
     "e899ff9981dd693a299459d17ef1ce31": {
         "de": "der Große"
+    },
+    "ec17f7acf21c5b9faa33546d9788d026": {
+        "pl": "od Najświętszego Sakramentu"
     },
     "ffe2866811834f461f9baf070251f472": {
         "la": "a Cruce"

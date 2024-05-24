@@ -1,13 +1,68 @@
 {
+    "bor": {
+        "pl": "Maria Felicyta Borowik",
+        "en": "Mary Felicity Borowik",
+        "la": "Maria Felicitas Borowik"
+    },
+    "chr": {
+        "pl": "Maria Kanuta od Pana Jezusa w Ogrójcu",
+        "en": "Mary Canuta of the Agonized Jesus in the Garden",
+        "la": "Maria Canuta a Iesu in Horto Getsemani"
+    },
+    "cie": {
+        "pl": "Maria Gwidona od Miłosierdzia Bożego",
+        "en": "Mary Guidona of Divine Mercy",
+        "la": "Maria Guidona a Divina Misericordia"
+    },
+    "joz": {
+        "pl": "Maria Daniela od Jezusa i Maryi Niepokalanej",
+        "en": "Mary Daniela of Jesus and Immaculate Mary",
+        "la": "Maria Daniela a Iusei et Maria Immaculata"
+    },
     "kow": {
         "pl": "Maria Faustyna Kowalska",
         "en": "Maria Faustyna Kowalska",
         "la": "Maria Faustina Kowalska"
+    },
+    "kuk": {
+        "pl": "Maria Rajmunda od Jezusa i Maryi",
+        "en": "Mary Raymunda of Jesus and Mary",
+        "la": "Maria Raymunda a Iesu et Maria"
+    },
+    "mac": {
+        "pl": "Maria Kanizja Mackiewicz",
+        "en": "Mary Canisia Mackiewicz",
+        "la": "Maria Canisia Mackiewicz"
+    },
+    "mar": {
+        "pl": "Maria Stella od Najświętszego Sakramentu",
+        "en": "Maria Stella of the Blessed Sacrament",
+        "la": "Maria Stella a Sanctissimo Sacramento"
+    },
+    "mat": {
+        "pl": "Maria Heliodora Matuszewska",
+        "en": "Mary Heliodora Matuszewska",
+        "la": "Maria Heliodora Matuszewska"
+    },
+    "nar": {
+        "pl": "Maria Boromea Narmontowicz",
+        "en": "Mary Boromea Narmontowicz",
+        "la": "Maria Boromea Narmontowicz"
     },
     "naz": {
         "arc": "ܡܪܝܡ",
         "en": "Mary, mother of Jesus",
         "la": "Maria Virgo",
         "pl": "Maria z Nazaretu"
+    },
+    "rap": {
+        "pl": "Maria Sergia od Matki Bożej Bolesnej",
+        "en": "Mary Sergia of Our Lady of Sorrows",
+        "la": "Maria Sergia a Virgine Perdolenti"
+    },
+    "zak": {
+        "pl": "Maria Imelda od Jezusa Hostii",
+        "en": "Mary Imelda of the Eucharistic Jesus",
+        "la": "Maria Imelda a Iesu Hostia"
     }
 }

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Kanizja"
+    },
+    "translations": {
+        "la": [
+            "Canisia"
+        ],
+        "en": [
+            "Canisia"
+        ],
+        "pl": [
+            "Kanizja"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/mac": {
+            "pl": "Maria Kanizja Mackiewicz",
+            "en": "Mary Canisia Mackiewicz",
+            "la": "Maria Canisia Mackiewicz"
+        }
+    }
+}

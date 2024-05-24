@@ -1,0 +1,37 @@
+{
+  "names": {
+    "pl": [
+      "Maria Kanizja Mackiewicz",
+      "Eugenia Mackiewicz"
+    ],
+    "en": [
+      "Mary Canisia Mackiewicz",
+      "Eugenia Mackiewicz"
+    ],
+    "la": [
+      "Maria Canisia Mackiewicz",
+      "Eugenia Mackiewicz"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Mackiewicz"
+    }
+  ],
+
+  "born": ["1903-11-27"],
+  "died": ["1943-08-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-03-05"
+  },
+
+  "also-in-martyrology": ["08-01"],
+
+  "forenames": ["maria", "canisia", "eugenia"],
+  "categories": ["femina", "martyrix", "virgo"],
+
+  "order": ["csfn"]
+}

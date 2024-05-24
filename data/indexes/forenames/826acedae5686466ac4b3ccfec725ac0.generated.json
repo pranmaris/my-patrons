@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Daniela",
+        "en": "Daniela",
+        "pl": "Daniela"
+    },
+    "translations": {
+        "la": [
+            "Daniela"
+        ],
+        "en": [
+            "Daniela"
+        ],
+        "pl": [
+            "Daniela"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/joz": {
+            "pl": "Maria Daniela od Jezusa i Maryi Niepokalanej",
+            "en": "Mary Daniela of Jesus and Immaculate Mary",
+            "la": "Maria Daniela a Iusei et Maria Immaculata"
+        }
+    }
+}

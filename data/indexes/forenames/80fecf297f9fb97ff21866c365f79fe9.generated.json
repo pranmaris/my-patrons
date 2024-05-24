@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "Leocadia"
+    },
+    "translations": {
+        "la": [
+            "Leukadia"
+        ],
+        "en": [
+            "Leocadia"
+        ],
+        "pl": [
+            "Leokadia"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/mat": {
+            "pl": "Maria Heliodora Matuszewska",
+            "en": "Mary Heliodora Matuszewska",
+            "la": "Maria Heliodora Matuszewska"
+        }
+    }
+}

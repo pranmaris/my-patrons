@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "Julia",
+        "pl": "Julia"
+    },
+    "translations": {
+        "la": [
+            "Iulia"
+        ],
+        "en": [
+            "Julia"
+        ],
+        "pl": [
+            "Julia"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/rap": {
+            "pl": "Maria Sergia od Matki Bożej Bolesnej",
+            "en": "Mary Sergia of Our Lady of Sorrows",
+            "la": "Maria Sergia a Virgine Perdolenti"
+        }
+    }
+}

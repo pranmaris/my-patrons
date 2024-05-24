@@ -18,6 +18,11 @@
             "pl": "Karolina Kózka",
             "en": "Karolina Kózka",
             "la": "Carolina Kózka"
+        },
+        "records/patrons/maria/zak": {
+            "pl": "Maria Imelda od Jezusa Hostii",
+            "en": "Mary Imelda of the Eucharistic Jesus",
+            "la": "Maria Imelda a Iesu Hostia"
         }
     }
 }

@@ -1,0 +1,44 @@
+{
+  "names": {
+    "pl": [
+      "Maria Stella od Najświętszego Sakramentu",
+      "Adela Mardosewicz"
+    ],
+    "en": [
+      "Maria Stella of the Blessed Sacrament",
+      "Adele Mardosewicz"
+    ],
+    "la": [
+      "Maria Stella a Sanctissimo Sacramento",
+      "Adelheidis Mardosewicz"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Mardosewicz"
+    }
+  ],
+  "epithets": [
+    {
+      "pl": "od Najświętszego Sakramentu",
+      "en": "of the Blessed Sacrament",
+      "la": "a Sanctissimo Sacramento"
+    }
+  ],
+
+  "born": ["1888-12-14"],
+  "died": ["1943-08-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-03-05"
+  },
+
+  "also-in-martyrology": ["08-01"],
+
+  "forenames": ["maria", "stella", "adelheidis"],
+  "categories": ["femina", "martyrix", "virgo"],
+
+  "order": ["csfn"]
+}

@@ -1,0 +1,44 @@
+{
+  "names": {
+    "pl": [
+      "Maria Rajmunda od Jezusa i Maryi",
+      "Anna Kukołowicz"
+    ],
+    "en": [
+      "Mary Raymunda of Jesus and Mary",
+      "Anna Kukołowicz"
+    ],
+    "la": [
+      "Maria Raymunda a Iesu et Maria",
+      "Anna Kukołowicz"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Kukołowicz"
+    }
+  ],
+  "epithets": [
+    {
+      "pl": "od Jezusa i Maryi",
+      "en": "of Jesus and Mary",
+      "la": "a Iesu et Maria"
+    }
+  ],
+
+  "born": ["1892-08-24"],
+  "died": ["1943-08-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-03-05"
+  },
+
+  "also-in-martyrology": ["08-01"],
+
+  "forenames": ["maria", "raymunda", "anna"],
+  "categories": ["femina", "martyrix", "virgo"],
+
+  "order": ["csfn"]
+}

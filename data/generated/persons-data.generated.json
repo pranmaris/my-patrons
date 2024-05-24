@@ -752,7 +752,7 @@
         "names": {
             "pl": "Czesław Jóźwiak",
             "en": "Czesław Jóźwiak",
-            "la": "Czeslaus Jóźwiak"
+            "la": "Ceslaus Jóźwiak"
         },
         "died": [
             "1942-08-24"
@@ -1871,6 +1871,50 @@
             "it": "Marie"
         }
     },
+    "patrons/maria/bor": {
+        "names": {
+            "pl": "Maria Felicyta Borowik",
+            "en": "Mary Felicity Borowik",
+            "la": "Maria Felicitas Borowik"
+        },
+        "died": [
+            "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/chr": {
+        "names": {
+            "pl": "Maria Kanuta od Pana Jezusa w Ogrójcu",
+            "en": "Mary Canuta of the Agonized Jesus in the Garden",
+            "la": "Maria Canuta a Iesu in Horto Getsemani"
+        },
+        "died": [
+            "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/cie": {
+        "names": {
+            "pl": "Maria Gwidona od Miłosierdzia Bożego",
+            "en": "Mary Guidona of Divine Mercy",
+            "la": "Maria Guidona a Divina Misericordia"
+        },
+        "died": [
+            "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/joz": {
+        "names": {
+            "pl": "Maria Daniela od Jezusa i Maryi Niepokalanej",
+            "en": "Mary Daniela of Jesus and Immaculate Mary",
+            "la": "Maria Daniela a Iusei et Maria Immaculata"
+        },
+        "died": [
+            "1943-08-01"
+        ],
+        "feasts": []
+    },
     "patrons/maria/kow": {
         "names": {
             "pl": "Maria Faustyna Kowalska",
@@ -1879,6 +1923,61 @@
         },
         "died": [
             "1938-10-05"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/kuk": {
+        "names": {
+            "pl": "Maria Rajmunda od Jezusa i Maryi",
+            "en": "Mary Raymunda of Jesus and Mary",
+            "la": "Maria Raymunda a Iesu et Maria"
+        },
+        "died": [
+            "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/mac": {
+        "names": {
+            "pl": "Maria Kanizja Mackiewicz",
+            "en": "Mary Canisia Mackiewicz",
+            "la": "Maria Canisia Mackiewicz"
+        },
+        "died": [
+            "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/mar": {
+        "names": {
+            "pl": "Maria Stella od Najświętszego Sakramentu",
+            "en": "Maria Stella of the Blessed Sacrament",
+            "la": "Maria Stella a Sanctissimo Sacramento"
+        },
+        "died": [
+            "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/mat": {
+        "names": {
+            "pl": "Maria Heliodora Matuszewska",
+            "en": "Mary Heliodora Matuszewska",
+            "la": "Maria Heliodora Matuszewska"
+        },
+        "died": [
+            "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/nar": {
+        "names": {
+            "pl": "Maria Boromea Narmontowicz",
+            "en": "Mary Boromea Narmontowicz",
+            "la": "Maria Boromea Narmontowicz"
+        },
+        "died": [
+            "1943-08-01"
         ],
         "feasts": []
     },
@@ -2004,6 +2103,28 @@
                 }
             }
         }
+    },
+    "patrons/maria/rap": {
+        "names": {
+            "pl": "Maria Sergia od Matki Bożej Bolesnej",
+            "en": "Mary Sergia of Our Lady of Sorrows",
+            "la": "Maria Sergia a Virgine Perdolenti"
+        },
+        "died": [
+            "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/zak": {
+        "names": {
+            "pl": "Maria Imelda od Jezusa Hostii",
+            "en": "Mary Imelda of the Eucharistic Jesus",
+            "la": "Maria Imelda a Iesu Hostia"
+        },
+        "died": [
+            "1943-08-01"
+        ],
+        "feasts": []
     },
     "patrons/martinus": {
         "names": {

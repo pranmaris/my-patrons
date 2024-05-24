@@ -18,6 +18,11 @@
             "la": "Felicitas Carthaginensis",
             "en": "Felicity of Carthage",
             "pl": "Felicyta z Kartaginy"
+        },
+        "records/patrons/maria/bor": {
+            "pl": "Maria Felicyta Borowik",
+            "en": "Mary Felicity Borowik",
+            "la": "Maria Felicitas Borowik"
         }
     }
 }

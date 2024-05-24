@@ -1,0 +1,45 @@
+{
+  "names": {
+    "pl": [
+      "Maria Daniela od Jezusa i Maryi Niepokalanej",
+      "Eleonora Aniela Jóźwik"
+    ],
+    "en": [
+      "Mary Daniela of Jesus and Immaculate Mary",
+      "Eleonore Angela Jóźwik"
+    ],
+    "la": [
+      "Maria Daniela a Iusei et Maria Immaculata",
+      "Eleonora Aniela Jóźwik"
+    ]
+  },
+
+
+  "surnames": [
+    {
+      "pl": "Jóźwik"
+    }
+  ],
+  "epithets": [
+    {
+      "pl": "od Jezusa i Maryi Niepokalanej",
+      "en": "of Jesus and Immaculate Mary",
+      "la": "a Iesu et Maria Immaculata"
+    }
+  ],
+
+  "born": ["1895-01-25"],
+  "died": ["1943-08-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-03-05"
+  },
+
+  "also-in-martyrology": ["08-01"],
+
+  "forenames": ["maria", "daniela", "eleonora", "aniela"],
+  "categories": ["femina", "martyrix", "virgo"],
+
+  "order": ["csfn"]
+}
