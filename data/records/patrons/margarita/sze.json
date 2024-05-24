@@ -1,0 +1,36 @@
+{
+  "names": {
+    "pl": [
+      "Małgorzata Łucja Szewczyk",
+      "Łucja Szewczyk"
+    ],
+    "en": [
+      "Margaret Lucy Szewczyk",
+      "Lucy Szewczyk"
+    ],
+    "la": [
+      "Margarita Lucia Szewczyk",
+      "Lucia Szewczyk"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Szewczyk"
+    }
+  ],
+
+  "born": ["1828"],
+  "died": ["1905-06-05"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2013-06-09"
+  },
+
+  "forenames": ["margarita", "lucia"],
+  "categories": ["femina", "fundatrix"],
+
+  "order": ["cmbb"],
+  "order-founder": ["cmbb"]
+}

@@ -1,28 +1,19 @@
 {
     "names": {
-        "pl": "Łucja"
+        "pl": "założycielka"
     },
     "translations": {
         "la": [
-            "Lucia"
+            "fundatrix"
         ],
         "en": [
-            "Lucia"
+            "foundress"
         ],
         "pl": [
-            "Łucja"
-        ],
-        "it": [
-            "Lucia"
+            "założycielka"
         ]
     },
     "links": {
-        "records/patrons/lucia/syr": {
-            "it": "Lucia da Siracusa",
-            "en": "Lucia of Syracuse",
-            "la": "Lucia Syracusana",
-            "pl": "Łucja z Syrakuz"
-        },
         "records/patrons/margarita/sze": {
             "pl": "Małgorzata Łucja Szewczyk",
             "en": "Margaret Lucy Szewczyk",

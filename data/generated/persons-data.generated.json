@@ -1763,6 +1763,17 @@
         ],
         "feasts": []
     },
+    "patrons/margarita/sze": {
+        "names": {
+            "pl": "Małgorzata Łucja Szewczyk",
+            "en": "Margaret Lucy Szewczyk",
+            "la": "Margarita Lucia Szewczyk"
+        },
+        "died": [
+            "1905-06-05"
+        ],
+        "feasts": []
+    },
     "patrons/margarita/war": {
         "names": {
             "en": "Margaret Ward",

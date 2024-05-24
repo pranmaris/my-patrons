@@ -24,6 +24,11 @@
             "en": "Lucia of Syracuse",
             "la": "Lucia Syracusana",
             "pl": "Łucja z Syrakuz"
+        },
+        "records/patrons/margarita/sze": {
+            "pl": "Małgorzata Łucja Szewczyk",
+            "en": "Margaret Lucy Szewczyk",
+            "la": "Margarita Lucia Szewczyk"
         }
     }
 }
