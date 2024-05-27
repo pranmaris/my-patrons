@@ -38,6 +38,11 @@
             "la": "Alphonsus Maria a Ligorio",
             "pl": "Alfons Maria Liguori"
         },
+        "records/patrons/ambrosius/med": {
+            "la": "Ambrosius Mediolanensis",
+            "en": "Ambrose of Milan",
+            "pl": "Ambroży z Mediolanu"
+        },
         "records/patrons/augustinus/hip": {
             "la": "Augustinus Hipponensis",
             "en": "Augustine of Hippo",

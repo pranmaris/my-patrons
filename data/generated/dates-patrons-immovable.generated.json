@@ -374,6 +374,17 @@
         }
     },
     "04-04": {
+        "records/patrons/ambrosius/med": {
+            "name": {
+                "la": "Ambrosius Mediolanensis",
+                "en": "Ambrose of Milan",
+                "pl": "Ambroży z Mediolanu"
+            },
+            "sources": {
+                "reliable-death-anniversary": "4 IV",
+                "other-martyrology-days": "4 IV"
+            }
+        },
         "records/patrons/isidorus/his": {
             "name": {
                 "la": "Isidorus Hispalensis",
@@ -2022,6 +2033,18 @@
             },
             "sources": {
                 "other-martyrology-days": "6 XII"
+            }
+        }
+    },
+    "12-07": {
+        "records/patrons/ambrosius/med": {
+            "name": {
+                "la": "Ambrosius Mediolanensis",
+                "en": "Ambrose of Milan",
+                "pl": "Ambroży z Mediolanu"
+            },
+            "sources": {
+                "other-martyrology-days": "7 XII"
             }
         }
     },

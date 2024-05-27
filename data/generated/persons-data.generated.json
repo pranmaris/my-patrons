@@ -443,6 +443,24 @@
         ],
         "feasts": []
     },
+    "patrons/ambrosius": {
+        "names": {
+            "la": "Ambrosius",
+            "en": "Ambrose",
+            "pl": "Ambroży"
+        }
+    },
+    "patrons/ambrosius/med": {
+        "names": {
+            "la": "Ambrosius Mediolanensis",
+            "en": "Ambrose of Milan",
+            "pl": "Ambroży z Mediolanu"
+        },
+        "died": [
+            "397-04-04"
+        ],
+        "feasts": []
+    },
     "patrons/anastasia": {
         "names": {
             "la": "Anastasia",

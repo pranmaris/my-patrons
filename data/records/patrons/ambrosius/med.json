@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Ambrosius Mediolanensis"
+    ],
+    "en": [
+      "Ambrose of Milan"
+    ],
+    "pl": [
+      "Ambroży z Mediolanu"
+    ]
+  },
+
+  "born": ["340"],
+  "died": ["397-04-04"],
+
+  "also-in-martyrology": ["04-04", "12-07"],
+
+  "forenames": ["ambrosius"],
+  "categories": ["vir", "confessor", "episcopus", "doctor-ecclesiae"]
+}
