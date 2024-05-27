@@ -1752,6 +1752,17 @@
         }
     },
     "10-20": {
+        "records/patrons/iacobus/str": {
+            "name": {
+                "pl": "Jakub Strzemię",
+                "en": "James Strzemie",
+                "la": "Iacobus Strepa"
+            },
+            "sources": {
+                "reliable-death-anniversary": "20 X",
+                "other-martyrology-days": "20 X"
+            }
+        },
         "records/patrons/ioannes/ket": {
             "name": {
                 "pl": "Jan Kanty",

@@ -3,5 +3,10 @@
         "la": "Iacobus Maior Apostolus",
         "en": "James the Great",
         "pl": "Jakub Większy Apostoł"
+    },
+    "str": {
+        "pl": "Jakub Strzemię",
+        "en": "James Strzemie",
+        "la": "Iacobus Strepa"
     }
 }

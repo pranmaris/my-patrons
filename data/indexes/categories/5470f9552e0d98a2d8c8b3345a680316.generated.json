@@ -74,6 +74,11 @@
             "en": "Radim Gaudentius",
             "la": "Gaudentius seu Radzim"
         },
+        "records/patrons/iacobus/str": {
+            "pl": "Jakub Strzemię",
+            "en": "James Strzemie",
+            "la": "Iacobus Strepa"
+        },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",

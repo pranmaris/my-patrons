@@ -246,6 +246,11 @@
             "en": "James the Great",
             "pl": "Jakub Większy Apostoł"
         },
+        "records/patrons/iacobus/str": {
+            "pl": "Jakub Strzemię",
+            "en": "James Strzemie",
+            "la": "Iacobus Strepa"
+        },
         "records/patrons/iarognievus/woj": {
             "pl": "Jarogniew Wojciechowski",
             "en": "Jarogniew Wojciechowski",

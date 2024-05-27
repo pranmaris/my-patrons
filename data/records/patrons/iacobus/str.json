@@ -1,0 +1,39 @@
+{
+  "names": {
+    "pl": [
+      "Jakub Strzemię",
+      "Jakub Strepa"
+    ],
+    "en": [
+      "James Strzemie",
+      "James Strepa"
+    ],
+    "la": [
+      "Iacobus Strepa"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Strzemię"
+    },
+    {
+      "pl": "Strepa"
+    }
+  ],
+
+  "born": ["1340"],
+  "died": ["1409-10-20"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1790-09-11"
+  },
+
+  "also-in-martyrology": ["10-20"],
+
+  "forenames": ["iacobus"],
+  "categories": ["vir", "episcopus"],
+
+  "order": ["ofm"]
+}

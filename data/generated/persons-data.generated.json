@@ -1323,6 +1323,17 @@
         ],
         "feasts": []
     },
+    "patrons/iacobus/str": {
+        "names": {
+            "pl": "Jakub Strzemię",
+            "en": "James Strzemie",
+            "la": "Iacobus Strepa"
+        },
+        "died": [
+            "1409-10-20"
+        ],
+        "feasts": []
+    },
     "patrons/iarognievus": {
         "names": {
             "la": "Iarognievus",
