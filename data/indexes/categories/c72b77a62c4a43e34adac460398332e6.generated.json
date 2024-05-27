@@ -231,6 +231,11 @@
             "en": "Radim Gaudentius",
             "la": "Gaudentius seu Radzim"
         },
+        "records/patrons/georgius/mar": {
+            "la": "Georgius",
+            "en": "George of Lydda",
+            "pl": "Jerzy"
+        },
         "records/patrons/hilarius/1pp": {
             "la": "Papa Hilarius",
             "en": "Pope Hilarius",

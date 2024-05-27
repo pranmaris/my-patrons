@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Georgius"
+    },
+    "translations": {
+        "la": [
+            "Georgius"
+        ],
+        "en": [
+            "George"
+        ],
+        "pl": [
+            "Jerzy"
+        ]
+    },
+    "links": {
+        "records/patrons/georgius/mar": {
+            "la": "Georgius",
+            "en": "George of Lydda",
+            "pl": "Jerzy"
+        }
+    }
+}

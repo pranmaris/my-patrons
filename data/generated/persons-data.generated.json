@@ -1247,6 +1247,25 @@
         ],
         "feasts": []
     },
+    "patrons/georgius": {
+        "names": {
+            "la": "Georgius",
+            "en": "George",
+            "pl": "Jerzy"
+        }
+    },
+    "patrons/georgius/mar": {
+        "names": {
+            "la": "Georgius",
+            "en": "George of Lydda",
+            "pl": "Jerzy"
+        },
+        "died": [
+            ">300",
+            "<400"
+        ],
+        "feasts": []
+    },
     "patrons/hedwigis": {
         "names": {
             "la": "Hedwigis",

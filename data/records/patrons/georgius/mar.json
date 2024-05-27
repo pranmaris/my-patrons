@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Georgius"
+    ],
+    "en": [
+      "George of Lydda"
+    ],
+    "pl": [
+      "Jerzy"
+    ]
+  },
+
+  "died": [">300", "<400"],
+
+  "also-in-martyrology": ["04-23"],
+
+  "forenames": ["georgius"],
+  "categories": ["vir", "martyr"]
+}

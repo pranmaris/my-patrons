@@ -435,6 +435,16 @@
                 "reliable-death-anniversary": "23 IV",
                 "other-martyrology-days": "23 IV"
             }
+        },
+        "records/patrons/georgius/mar": {
+            "name": {
+                "la": "Georgius",
+                "en": "George of Lydda",
+                "pl": "Jerzy"
+            },
+            "sources": {
+                "other-martyrology-days": "23 IV"
+            }
         }
     },
     "04-26": {
