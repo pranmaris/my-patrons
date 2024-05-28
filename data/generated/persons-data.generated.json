@@ -2899,6 +2899,24 @@
         ],
         "feasts": []
     },
+    "patrons/sophia": {
+        "names": {
+            "la": "Sophia",
+            "en": "Sophia",
+            "pl": "Zofia"
+        }
+    },
+    "patrons/sophia/mac": {
+        "names": {
+            "pl": "Zofia Czeska",
+            "en": "Sophia Maciejowska-Czeska",
+            "la": "Sophia Maciejowska-Czeska"
+        },
+        "died": [
+            "1650-04-01"
+        ],
+        "feasts": []
+    },
     "patrons/stanislaus": {
         "names": {
             "la": "Stanislaus",

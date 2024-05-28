@@ -1,24 +1,19 @@
 {
     "names": {
-        "en": "foundress"
+        "pl": "Zofia"
     },
     "translations": {
         "la": [
-            "fundatrix"
+            "Sophia"
         ],
         "en": [
-            "foundress"
+            "Sophia"
         ],
         "pl": [
-            "fundatorka"
+            "Zofia"
         ]
     },
     "links": {
-        "records/patrons/margarita/sze": {
-            "pl": "Małgorzata Łucja Szewczyk",
-            "en": "Margaret Lucy Szewczyk",
-            "la": "Margarita Lucia Szewczyk"
-        },
         "records/patrons/sophia/mac": {
             "pl": "Zofia Czeska",
             "en": "Sophia Maciejowska-Czeska",

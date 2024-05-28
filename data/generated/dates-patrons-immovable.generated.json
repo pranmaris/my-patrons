@@ -362,6 +362,18 @@
             }
         }
     },
+    "04-01": {
+        "records/patrons/sophia/mac": {
+            "name": {
+                "pl": "Zofia Czeska",
+                "en": "Sophia Maciejowska-Czeska",
+                "la": "Sophia Maciejowska-Czeska"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 IV"
+            }
+        }
+    },
     "04-02": {
         "records/patrons/franciscus/pau": {
             "name": {

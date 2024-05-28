@@ -1,0 +1,39 @@
+{
+  "names": {
+    "pl": [
+      "Zofia Czeska",
+      "Zofia z Maciejowskich",
+      "Zofia Maciejowska-Czeska",
+      "Zofia z Maciejowskich Czeska"
+    ],
+    "en": [
+      "Sophia Maciejowska-Czeska"
+    ],
+    "la": [
+      "Sophia Maciejowska-Czeska"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Maciejowska"
+    },
+    {
+      "pl": "Czeska"
+    }
+  ],
+
+  "born": ["1584"],
+  "died": ["1650-04-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2013-06-09"
+  },
+
+  "forenames": ["sophia"],
+  "categories": ["femina", "fundatrix"],
+
+  "order": ["cpbvm"],
+  "order-founder": ["cpbvm"]
+}
