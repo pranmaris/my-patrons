@@ -1,0 +1,29 @@
+{
+    "names": {
+        "en": "Bakhita",
+        "la": "Bakhita",
+        "pl": "Bakhita"
+    },
+    "translations": {
+        "ar": [
+            "بخيتة"
+        ],
+        "en": [
+            "Bakhita"
+        ],
+        "la": [
+            "Bakhita"
+        ],
+        "pl": [
+            "Bakhita"
+        ]
+    },
+    "links": {
+        "records/patrons/iosephina/bak": {
+            "ar": "جوزفين بخيتة",
+            "en": "Josephine Bakhita",
+            "la": "Iosephina Bakhita",
+            "pl": "Józefina Bakhita"
+        }
+    }
+}

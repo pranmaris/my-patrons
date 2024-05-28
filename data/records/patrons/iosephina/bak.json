@@ -1,0 +1,44 @@
+{
+  "names": {
+    "ar": [
+      "جوزفين بخيتة"
+    ],
+    "en": [
+      "Josephine Bakhita"
+    ],
+    "la": [
+      "Iosephina Bakhita"
+    ],
+    "pl": [
+      "Józefina Bakhita"
+    ]
+  },
+
+  "epithets": [
+    {
+      "ar": "بخيتة",
+      "en": "Bakhita",
+      "la": "Bakhita",
+      "pl": "Bakhita"
+    }
+  ],
+
+  "born": ["~1868", "~1869"],
+  "died": ["1947-02-08"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1992-05-17"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2000-10-01"
+  },
+
+  "also-in-martyrology": [],
+
+  "forenames": ["iosephina"],
+  "categories": ["femina", "virgo", "religiosa"],
+
+  "order": ["fdcc"]
+}

@@ -1630,6 +1630,26 @@
             }
         }
     },
+    "patrons/iosephina": {
+        "names": {
+            "la": "Iosephina",
+            "en": "Josephine",
+            "pl": "Józefina",
+            "ar": "جوزفين"
+        }
+    },
+    "patrons/iosephina/bak": {
+        "names": {
+            "ar": "جوزفين بخيتة",
+            "en": "Josephine Bakhita",
+            "la": "Iosephina Bakhita",
+            "pl": "Józefina Bakhita"
+        },
+        "died": [
+            "1947-02-08"
+        ],
+        "feasts": []
+    },
     "patrons/iosephus": {
         "names": {
             "la": "Iosephus",
