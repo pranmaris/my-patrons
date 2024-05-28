@@ -132,6 +132,9 @@
     "37387b0d7989ded00353bbfa0a15d1fb": {
         "pl": "opat"
     },
+    "38140d2170afd265499e45fdaf779e01": {
+        "la": "abbatissa"
+    },
     "39719bde558fb9b4367151f9a9e33451": {
         "en": "cardinal bishop"
     },
@@ -140,6 +143,9 @@
     },
     "3bc4b63194c49dc2a328ad2dee2406a6": {
         "pl": "diakon"
+    },
+    "3cc3ff4a469914f06e1bd4d12ff672df": {
+        "en": "professed nun"
     },
     "3d28205b9c6217322c1ffa8f1bb1bc72": {
         "la": "cardinalis"
@@ -189,6 +195,9 @@
     "5de1809c9a350ed640f8e644f41cbc86": {
         "la": "canonicus"
     },
+    "6044682a5ba85c27c579127a6ab7fc2b": {
+        "la": "coniunx"
+    },
     "64e59885a7e12dad4032c93e82456eec": {
         "la": "tertiaria"
     },
@@ -206,6 +215,9 @@
     },
     "6e362f83d382361df11befc976f1dd55": {
         "pl": "prezbiter"
+    },
+    "70b67b91e80811b55157cb190ee85e88": {
+        "en": "spouse"
     },
     "71dd21b124b3942e3743c8f20022ea26": {
         "la": "propheta"
@@ -261,6 +273,9 @@
     "919e189d488a04190ce6bda0cfd1693c": {
         "pl": "księżna"
     },
+    "934ed8980248b30750935b0780b6916e": {
+        "pl": "ksieni"
+    },
     "9c553d758d4fde12ba5cc72299df6bdd": {
         "pl": "kanonik"
     },
@@ -281,6 +296,9 @@
     },
     "a1d6b5694b31e76b8c226d4be6b26093": {
         "la": "evangelista"
+    },
+    "a1d81391bea49fe9e0c24d72478d14ee": {
+        "en": "abbess"
     },
     "a2d4100de5a4c446ab1f52b1bf20cd93": {
         "en": "husband"
@@ -303,6 +321,9 @@
     },
     "a7c4edd9f6376ca27eeba08fb8ced443": {
         "la": "peregrinus"
+    },
+    "a8652c59cdefa87fcf50bda52adbe15d": {
+        "la": "professa"
     },
     "abff88ae45fdc285d398a53774c5f35c": {
         "la": "confessor",
@@ -328,6 +349,9 @@
     },
     "b273f7ebb2a30dd48c9fe051c95b630f": {
         "la": "religiosa"
+    },
+    "b295c66465c1212719fc07586d0c545e": {
+        "pl": "profeska"
     },
     "b4a0fb87cce2a1196848cd77185a1278": {
         "pl": "dziecko"

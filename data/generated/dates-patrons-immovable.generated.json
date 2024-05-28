@@ -1979,6 +1979,19 @@
             }
         }
     },
+    "11-17": {
+        "records/patrons/salomea/reg": {
+            "name": {
+                "pl": "Salomea Piastówna",
+                "en": "Salomea of the Poland",
+                "la": "Salomea Regina Haliciensis"
+            },
+            "sources": {
+                "reliable-death-anniversary": "17 XI",
+                "other-martyrology-days": "17 XI"
+            }
+        }
+    },
     "11-18": {
         "records/patrons/carolina/koz": {
             "name": {

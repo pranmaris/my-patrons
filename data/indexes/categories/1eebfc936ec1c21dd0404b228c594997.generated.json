@@ -19,6 +19,11 @@
             "en": "Mary, mother of Jesus",
             "la": "Maria Virgo",
             "pl": "Maria z Nazaretu"
+        },
+        "records/patrons/salomea/reg": {
+            "pl": "Salomea Piastówna",
+            "en": "Salomea of the Poland",
+            "la": "Salomea Regina Haliciensis"
         }
     }
 }

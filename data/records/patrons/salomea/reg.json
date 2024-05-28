@@ -1,0 +1,29 @@
+{
+  "names": {
+    "pl": [
+      "Salomea Piastówna"
+    ],
+    "en": [
+      "Salomea of the Poland",
+      "Salomea of Crocow"
+    ],
+    "la": [
+      "Salomea Regina Haliciensis"
+    ]
+  },
+
+  "born": ["~1211", "~1212"],
+  "died": ["1268-11-17"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1672-05-27"
+  },
+
+  "also-in-martyrology": ["11-17"],
+
+  "forenames": ["salomea"],
+  "categories": ["femina", "coniunx", "abbatissa", "professa", "regina"],
+
+  "order": ["osc"]
+}

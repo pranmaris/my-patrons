@@ -1,25 +1,19 @@
 {
     "names": {
-        "la": "regina"
+        "la": "abbatissa"
     },
     "translations": {
         "la": [
-            "regina"
+            "abbatissa"
         ],
         "en": [
-            "queen"
+            "abbess"
         ],
         "pl": [
-            "królowa"
+            "ksieni"
         ]
     },
     "links": {
-        "records/patrons/maria/naz": {
-            "arc": "ܡܪܝܡ",
-            "en": "Mary, mother of Jesus",
-            "la": "Maria Virgo",
-            "pl": "Maria z Nazaretu"
-        },
         "records/patrons/salomea/reg": {
             "pl": "Salomea Piastówna",
             "en": "Salomea of the Poland",

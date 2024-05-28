@@ -4,6 +4,11 @@
         "en": "abbot",
         "pl": "opat"
     },
+    "abbatissa": {
+        "la": "abbatissa",
+        "en": "abbess",
+        "pl": "ksieni"
+    },
     "alius-apostolus": {
         "la": "alius apostolus",
         "en": "other apostle",
@@ -58,6 +63,11 @@
         "la": "confessor",
         "en": "confessor",
         "pl": "wyznawca"
+    },
+    "coniunx": {
+        "la": "coniunx",
+        "en": "spouse",
+        "pl": "małżonek"
     },
     "deus": {
         "la": "Deus",
@@ -178,6 +188,11 @@
         "la": "princeps",
         "en": "prince",
         "pl": "książę"
+    },
+    "professa": {
+        "la": "professa",
+        "en": "professed nun",
+        "pl": "profeska"
     },
     "propheta": {
         "la": "propheta",

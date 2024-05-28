@@ -2748,6 +2748,24 @@
         ],
         "feasts": []
     },
+    "patrons/salomea": {
+        "names": {
+            "la": "Salomea",
+            "en": "Salomea",
+            "pl": "Salomea"
+        }
+    },
+    "patrons/salomea/reg": {
+        "names": {
+            "pl": "Salomea Piastówna",
+            "en": "Salomea of the Poland",
+            "la": "Salomea Regina Haliciensis"
+        },
+        "died": [
+            "1268-11-17"
+        ],
+        "feasts": []
+    },
     "patrons/sancia": {
         "names": {
             "la": "Sancia",
