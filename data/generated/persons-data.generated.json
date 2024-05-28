@@ -1841,6 +1841,26 @@
         ],
         "feasts": []
     },
+    "patrons/magdalena": {
+        "names": {
+            "la": "Magdalena",
+            "en": "Magdalene",
+            "pl": "Magdalena",
+            "it": "Maddalena"
+        }
+    },
+    "patrons/magdalena/can": {
+        "names": {
+            "it": "Maddalena di Canossa",
+            "en": "Magdalene of Canossa",
+            "la": "Magdalena de Canossa",
+            "pl": "Magdalena z Canossy"
+        },
+        "died": [
+            "1835-04-10"
+        ],
+        "feasts": []
+    },
     "patrons/magnus": {
         "names": {
             "la": "Magnus",

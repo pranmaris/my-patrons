@@ -1,0 +1,36 @@
+{
+  "names": {
+    "it": [
+      "Maddalena di Canossa"
+    ],
+    "en": [
+      "Magdalene of Canossa"
+    ],
+    "la": [
+      "Magdalena de Canossa"
+    ],
+    "pl": [
+      "Magdalena z Canossy"
+    ]
+  },
+
+  "born": ["1774-03-01"],
+  "died": ["1835-04-10"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1941"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1988-10-02"
+  },
+
+  "also-in-martyrology": ["04-10"],
+
+  "forenames": ["magdalena"],
+  "categories": ["femina", "virgo", "fundator"],
+
+  "order": ["fdcc"],
+  "order-founder": ["fdcc", "fdcc"]
+}

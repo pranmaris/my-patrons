@@ -1,0 +1,27 @@
+{
+    "names": {
+        "it": "Maddalena"
+    },
+    "translations": {
+        "la": [
+            "Magdalena"
+        ],
+        "en": [
+            "Magdalene"
+        ],
+        "pl": [
+            "Magdalena"
+        ],
+        "it": [
+            "Maddalena"
+        ]
+    },
+    "links": {
+        "records/patrons/magdalena/can": {
+            "it": "Maddalena di Canossa",
+            "en": "Magdalene of Canossa",
+            "la": "Magdalena de Canossa",
+            "pl": "Magdalena z Canossy"
+        }
+    }
+}

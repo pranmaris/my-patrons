@@ -410,6 +410,20 @@
             }
         }
     },
+    "04-10": {
+        "records/patrons/magdalena/can": {
+            "name": {
+                "it": "Maddalena di Canossa",
+                "en": "Magdalene of Canossa",
+                "la": "Magdalena de Canossa",
+                "pl": "Magdalena z Canossy"
+            },
+            "sources": {
+                "reliable-death-anniversary": "10 IV",
+                "other-martyrology-days": "10 IV"
+            }
+        }
+    },
     "04-11": {
         "records/patrons/stanislaus/cra": {
             "name": {
