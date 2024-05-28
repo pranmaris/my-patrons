@@ -139,6 +139,11 @@
         "en": "Mother of God",
         "pl": "Matka Boża"
     },
+    "materfamilias": {
+        "la": "materfamilias",
+        "en": "mother of the household",
+        "pl": "matka rodziny"
+    },
     "monachus": {
         "la": "monachus",
         "en": "monk",

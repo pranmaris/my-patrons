@@ -1397,7 +1397,8 @@
             "la": "Ioanna",
             "en": "Joan",
             "pl": "Joanna",
-            "fr": "Jeanne"
+            "fr": "Jeanne",
+            "it": "Giana"
         }
     },
     "patrons/ioanna/arc": {
@@ -1409,6 +1410,18 @@
         },
         "died": [
             "1431-05-30"
+        ],
+        "feasts": []
+    },
+    "patrons/ioanna/ber": {
+        "names": {
+            "it": "Gianna Beretta Molla",
+            "en": "Joan Beretta Molla",
+            "la": "Ioanna Beretta Molla",
+            "pl": "Joanna Beretta Molla"
+        },
+        "died": [
+            "1962-04-28"
         ],
         "feasts": []
     },

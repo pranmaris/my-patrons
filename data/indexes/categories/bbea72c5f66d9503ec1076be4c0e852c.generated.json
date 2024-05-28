@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "mother of the household"
+    },
+    "translations": {
+        "la": [
+            "materfamilias"
+        ],
+        "en": [
+            "mother of the household"
+        ],
+        "pl": [
+            "matka rodziny"
+        ]
+    },
+    "links": {
+        "records/patrons/ioanna/ber": {
+            "it": "Gianna Beretta Molla",
+            "en": "Joan Beretta Molla",
+            "la": "Ioanna Beretta Molla",
+            "pl": "Joanna Beretta Molla"
+        }
+    }
+}

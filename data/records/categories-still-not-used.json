@@ -1,4 +1,16 @@
 {
+    "x-paterfamilias": {
+        "names": {
+            "la": "paterfamilias",
+            "en": "father of the household",
+            "pl": "ojciec rodziny"
+        },
+        "description": {
+            "en": "description coming soon ...",
+            "pl": "opis pojawi się wkrótce ..."
+        }
+    },
+
     "x-patriarcha": {
         "names": {
             "la": "patriarcha",

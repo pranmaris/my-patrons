@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Molla"
+    },
+    "translations": {
+        "it": [
+            "Molla"
+        ]
+    },
+    "links": {
+        "records/patrons/ioanna/ber": {
+            "it": "Gianna Beretta Molla",
+            "en": "Joan Beretta Molla",
+            "la": "Ioanna Beretta Molla",
+            "pl": "Joanna Beretta Molla"
+        }
+    }
+}

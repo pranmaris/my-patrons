@@ -461,6 +461,20 @@
             }
         }
     },
+    "04-28": {
+        "records/patrons/ioanna/ber": {
+            "name": {
+                "it": "Gianna Beretta Molla",
+                "en": "Joan Beretta Molla",
+                "la": "Ioanna Beretta Molla",
+                "pl": "Joanna Beretta Molla"
+            },
+            "sources": {
+                "reliable-death-anniversary": "28 IV",
+                "other-martyrology-days": "28 IV"
+            }
+        }
+    },
     "05-04": {
         "records/patrons/florianus/lau": {
             "name": {

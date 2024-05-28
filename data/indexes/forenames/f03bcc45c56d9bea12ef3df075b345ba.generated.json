@@ -16,6 +16,9 @@
         ],
         "fr": [
             "Jeanne"
+        ],
+        "it": [
+            "Giana"
         ]
     },
     "links": {
@@ -24,6 +27,12 @@
             "en": "Joan of Arc",
             "la": "Ioanna Arcensis",
             "pl": "Joanna d'Arc"
+        },
+        "records/patrons/ioanna/ber": {
+            "it": "Gianna Beretta Molla",
+            "en": "Joan Beretta Molla",
+            "la": "Ioanna Beretta Molla",
+            "pl": "Joanna Beretta Molla"
         }
     }
 }
