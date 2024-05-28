@@ -575,6 +575,26 @@
             }
         }
     },
+    "patrons/bartholomaeus": {
+        "names": {
+            "la": "Bartholomaeus",
+            "en": "Bartholomew",
+            "pl": "Bartłomiej",
+            "it": "Bartolomeo"
+        }
+    },
+    "patrons/bartholomaeus/lon": {
+        "names": {
+            "it": "Bartolo Longo",
+            "en": "Bartolo Longo",
+            "la": "Bartholomaeus Longo",
+            "pl": "Bartolo Longo"
+        },
+        "died": [
+            "1926-10-05"
+        ],
+        "feasts": []
+    },
     "patrons/benedictus": {
         "names": {
             "la": "Benedictus",

@@ -1,0 +1,38 @@
+{
+  "names": {
+    "it": [
+      "Bartolo Longo"
+    ],
+    "en": [
+      "Bartolo Longo"
+    ],
+    "la": [
+      "Bartholomaeus Longo"
+    ],
+    "pl": [
+      "Bartolo Longo",
+      "Bartłomiej Longo"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Longo"
+    }
+  ],
+
+  "born": ["1841-02-10"],
+  "died": ["1926-10-05"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1980-10-26"
+  },
+
+  "also-in-martyrology": ["10-05"],
+
+  "forenames": ["bartholomaeus"],
+  "categories": ["vir", "fundator"],
+
+  "order": ["top", "oessh"]
+}

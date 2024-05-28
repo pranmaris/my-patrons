@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Longo"
+    },
+    "translations": {
+        "it": [
+            "Longo"
+        ]
+    },
+    "links": {
+        "records/patrons/bartholomaeus/lon": {
+            "it": "Bartolo Longo",
+            "en": "Bartolo Longo",
+            "la": "Bartholomaeus Longo",
+            "pl": "Bartolo Longo"
+        }
+    }
+}

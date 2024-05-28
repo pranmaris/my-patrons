@@ -56,6 +56,12 @@
         "en": "Augustine",
         "pl": "Augustyn"
     },
+    "bartholomaeus": {
+        "la": "Bartholomaeus",
+        "en": "Bartholomew",
+        "pl": "Bartłomiej",
+        "it": "Bartolomeo"
+    },
     "benedictus": {
         "la": "Benedictus",
         "en": "Benedict",

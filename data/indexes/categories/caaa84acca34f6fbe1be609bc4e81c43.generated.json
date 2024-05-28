@@ -10,7 +10,7 @@
             "founder"
         ],
         "pl": [
-            "założyciel"
+            "fundator"
         ]
     },
     "links": {
@@ -24,6 +24,12 @@
             "en": "Alphonsus Maria Liguori",
             "la": "Alphonsus Maria a Ligorio",
             "pl": "Alfons Maria Liguori"
+        },
+        "records/patrons/bartholomaeus/lon": {
+            "it": "Bartolo Longo",
+            "en": "Bartolo Longo",
+            "la": "Bartholomaeus Longo",
+            "pl": "Bartolo Longo"
         },
         "records/patrons/bruno/ere": {
             "de": "Bruno von Köln",

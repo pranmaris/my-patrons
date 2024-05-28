@@ -177,6 +177,9 @@
     "518183d207ac39dd55a8b0ecced4ab3e": {
         "en": "hermit"
     },
+    "52629c7b17208f3a93f41e9bdaf0c20c": {
+        "pl": "fundatorka"
+    },
     "5470f9552e0d98a2d8c8b3345a680316": {
         "en": "bishop"
     },
@@ -401,9 +404,6 @@
     "c9ad31e5740747285dae5c168715d2de": {
         "en": "widow"
     },
-    "c9cf58027d3ba34a0841ef24a7aac175": {
-        "pl": "założyciel"
-    },
     "caaa84acca34f6fbe1be609bc4e81c43": {
         "en": "founder"
     },
@@ -418,9 +418,6 @@
     },
     "d0a87b4018d6521b0f5a49e5e03adb6d": {
         "en": "virgin"
-    },
-    "d2981ad66d7b1554215d9cbdb6a30cbf": {
-        "pl": "założycielka"
     },
     "d52daa36758a165b0ea8193084a9c3be": {
         "la": "diaconus"
@@ -453,7 +450,8 @@
         "pl": "kardynał"
     },
     "f720259e99482a6e3a1f7e4079e1975e": {
-        "la": "fundator"
+        "la": "fundator",
+        "pl": "fundator"
     },
     "f8119ce5b6b99992ce19cec80d595b95": {
         "la": "apostolus"
