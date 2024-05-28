@@ -15,6 +15,9 @@
         "de": [
             "Therese"
         ],
+        "fr": [
+            "Thérèse"
+        ],
         "es": [
             "Teresa"
         ]
@@ -25,6 +28,12 @@
             "en": "Teresa of Ávila",
             "la": "Teresia Abulensis",
             "pl": "Teresa z Ávili"
+        },
+        "records/patrons/teresia/inf": {
+            "fr": "Thérèse de Lisieux",
+            "en": "Therese of Lisieux",
+            "la": "Teresia Lexoviensis",
+            "pl": "Teresa z Lisieux"
         },
         "records/patrons/teresia/ste": {
             "de": "Therese Benedicta vom Kreuz",

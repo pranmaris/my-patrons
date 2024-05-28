@@ -2876,6 +2876,7 @@
             "en": "Teresa",
             "pl": "Teresa",
             "de": "Therese",
+            "fr": "Thérèse",
             "es": "Teresa"
         }
     },
@@ -2889,6 +2890,18 @@
         "died": [
             "1582-10-04",
             "1582-10-15"
+        ],
+        "feasts": []
+    },
+    "patrons/teresia/inf": {
+        "names": {
+            "fr": "Thérèse de Lisieux",
+            "en": "Therese of Lisieux",
+            "la": "Teresia Lexoviensis",
+            "pl": "Teresa z Lisieux"
+        },
+        "died": [
+            "1897-09-30"
         ],
         "feasts": []
     },

@@ -63,6 +63,12 @@
             "en": "Teresa of Ávila",
             "la": "Teresia Abulensis",
             "pl": "Teresa z Ávili"
+        },
+        "records/patrons/teresia/inf": {
+            "fr": "Thérèse de Lisieux",
+            "en": "Therese of Lisieux",
+            "la": "Teresia Lexoviensis",
+            "pl": "Teresa z Lisieux"
         }
     }
 }

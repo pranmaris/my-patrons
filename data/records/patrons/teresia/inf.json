@@ -1,0 +1,47 @@
+{
+  "names": {
+    "fr": [
+      "Thérèse de Lisieux",
+      "Thérèse de l'Enfant-Jésus"
+    ],
+    "en": [
+      "Therese of Lisieux",
+      "Thérèse of the Child Jesus",
+      "Therese of the Child Jesus and the Holy Face",
+      "Little Flower"
+    ],
+    "la": [
+      "Teresia Lexoviensis",
+      "Teresa a Iesu Infante",
+      "Teresia a Iesu Infante",
+      "Teresia a Iesu Infante et a Sacro Vultu",
+      "Teresina"
+    ],
+    "pl": [
+      "Teresa z Lisieux",
+      "Teresa od Dzieciątka Jezus",
+      "Teresa od Dzieciątka Jezus i Najświętszego Oblicza",
+      "Mała Teresa",
+      "Mały Kwiatek"
+    ]
+  },
+
+  "born": ["1873-01-02"],
+  "died": ["1897-09-30"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1923-04-29"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1925-05-17"
+  },
+
+  "also-in-martyrology": ["09-30", "10-01", "10-03"],
+
+  "forenames": ["teresia"],
+  "categories": ["femina", "virgo", "doctor-ecclesiae"],
+
+  "order": ["ocd"]
+}

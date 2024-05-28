@@ -1597,6 +1597,33 @@
             }
         }
     },
+    "09-30": {
+        "records/patrons/teresia/inf": {
+            "name": {
+                "fr": "Thérèse de Lisieux",
+                "en": "Therese of Lisieux",
+                "la": "Teresia Lexoviensis",
+                "pl": "Teresa z Lisieux"
+            },
+            "sources": {
+                "reliable-death-anniversary": "30 IX",
+                "other-martyrology-days": "30 IX"
+            }
+        }
+    },
+    "10-01": {
+        "records/patrons/teresia/inf": {
+            "name": {
+                "fr": "Thérèse de Lisieux",
+                "en": "Therese of Lisieux",
+                "la": "Teresia Lexoviensis",
+                "pl": "Teresa z Lisieux"
+            },
+            "sources": {
+                "other-martyrology-days": "1 X"
+            }
+        }
+    },
     "10-02": {
         "records/patrons/multi/ang": {
             "name": {
@@ -1619,6 +1646,17 @@
             },
             "sources": {
                 "reliable-death-anniversary": "3 X"
+            }
+        },
+        "records/patrons/teresia/inf": {
+            "name": {
+                "fr": "Thérèse de Lisieux",
+                "en": "Therese of Lisieux",
+                "la": "Teresia Lexoviensis",
+                "pl": "Teresa z Lisieux"
+            },
+            "sources": {
+                "other-martyrology-days": "3 X"
             }
         }
     },
