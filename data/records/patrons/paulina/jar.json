@@ -1,0 +1,37 @@
+{
+  "names": {
+    "fr": [
+      "Pauline Jaricot",
+      "Pauline-Marie Jaricot"
+    ],
+    "en": [
+      "Pauline Jaricot"
+    ],
+    "la": [
+      "Paulina Maria Jaricot"
+    ],
+    "pl": [
+      "Paulina Jaricot",
+      "Paulina Maria Jaricot"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Jaricot"
+    }
+  ],
+
+  "born": ["1799-07-22"],
+  "died": ["1862-01-09"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2022-05-22"
+  },
+
+  "forenames": ["paulina"],
+  "categories": ["femina"],
+
+  "order": ["tosd"]
+}

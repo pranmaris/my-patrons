@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Jaricot"
+    },
+    "translations": {
+        "fr": [
+            "Jaricot"
+        ]
+    },
+    "links": {
+        "records/patrons/paulina/jar": {
+            "fr": "Pauline Jaricot",
+            "en": "Pauline Jaricot",
+            "la": "Paulina Maria Jaricot",
+            "pl": "Paulina Jaricot"
+        }
+    }
+}

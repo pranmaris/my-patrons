@@ -210,6 +210,12 @@
             "en": "Monica of Tagasta",
             "pl": "Monika z Tagasty"
         },
+        "records/patrons/paulina/jar": {
+            "fr": "Pauline Jaricot",
+            "en": "Pauline Jaricot",
+            "la": "Paulina Maria Jaricot",
+            "pl": "Paulina Jaricot"
+        },
         "records/patrons/perpetua/car": {
             "la": "Perpetua Carthaginensis",
             "en": "Perpetua of Carthage",

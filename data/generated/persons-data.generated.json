@@ -2470,6 +2470,26 @@
         ],
         "feasts": []
     },
+    "patrons/paulina": {
+        "names": {
+            "la": "Paulina",
+            "en": "Paulina",
+            "pl": "Paulina",
+            "fr": "Pauline"
+        }
+    },
+    "patrons/paulina/jar": {
+        "names": {
+            "fr": "Pauline Jaricot",
+            "en": "Pauline Jaricot",
+            "la": "Paulina Maria Jaricot",
+            "pl": "Paulina Jaricot"
+        },
+        "died": [
+            "1862-01-09"
+        ],
+        "feasts": []
+    },
     "patrons/paulus": {
         "names": {
             "la": "Paulus",

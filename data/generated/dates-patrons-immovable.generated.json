@@ -25,6 +25,19 @@
             }
         }
     },
+    "01-09": {
+        "records/patrons/paulina/jar": {
+            "name": {
+                "fr": "Pauline Jaricot",
+                "en": "Pauline Jaricot",
+                "la": "Paulina Maria Jaricot",
+                "pl": "Paulina Jaricot"
+            },
+            "sources": {
+                "reliable-death-anniversary": "9 I"
+            }
+        }
+    },
     "01-21": {
         "records/patrons/agnes/rom": {
             "name": {
