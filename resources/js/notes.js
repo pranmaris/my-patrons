@@ -166,10 +166,14 @@ const REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM = 'day-of-month-having-maximum';
 
 const PARSE_REQUIREMENTS_SINCE_ACTIVE_DATES = {
   [REQUIREMENT_ANYBODY_HAVING_CHALLENGES]: {
-    I: '2021-01-01'
+    I: '2022-02-01',
+    MM: '2023-06-01'
+  },
+  [REQUIREMENT_PERSON_HAVING_CHALLENGES]: {
+    MM: '2023-06-01'
   },
   [REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS]: {
-    SPA: '2021-01-01'
+    SPA: '2024-01-01'
   }
 };
 
@@ -934,7 +938,10 @@ function parseChallenge(rowId, challenge, contextData) {
           switch (reqName) {
             case REQUIREMENT_PERSON_HAVING_CHALLENGES:
               for (const type of reqTypes) {
-                if ((noteSpecifiedPersonCountsContext[type] ?? 0) === 0) {
+
+                if (!isWarningIgnoredForOldChallenges(challengeDate, type, reqName)
+                  && (noteSpecifiedPersonCountsContext[type] ?? 0) === 0
+                ) {
                   throw {
                     message: 'lang-challenge-parse-error-for-requirement-person-having-challenges',
                     data: [itemType, noteConfigType, type]
