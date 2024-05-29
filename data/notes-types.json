@@ -307,6 +307,35 @@
       "values": "last-year-or-10-challenges-sorted"
     }
   },
+  "type-of-secular-place": {
+    "index": "types-of-secular-places",
+    "name": {
+      "en": "type of secular places",
+      "pl": "typ miejsca świeckiego"
+    },
+    "source": {
+      "list": [
+        {"1": ["lang-type-of-place-country"]},
+        {"2": ["lang-type-of-place-region"]},
+        {"3": ["lang-type-of-place-city-town-or-village"]},
+        {"4": ["lang-type-of-place-district"]},
+        {"5": ["lang-type-of-place-estate"]},
+        {"21": ["lang-type-of-place-street"]},
+        {"22": ["lang-type-of-place-square"]},
+        {"23": ["lang-type-of-place-roundabout"]},
+        {"24": ["lang-type-of-place-memorial"]},
+        {"41": ["lang-type-of-place-institution"]},
+        {"42": ["lang-type-of-place-department"]},
+        {"61": ["lang-type-of-place-building"]},
+        {"62": ["lang-type-of-place-shop"]},
+        {"81": ["lang-type-of-place-mountain"]},
+        {"82": ["lang-type-of-place-island"]},
+        {"99": ["lang-type-of-place-other-natural-place"]},
+        {"100": ["lang-type-of-place-other-place"]}
+      ],
+      "values": "sorted"
+    }
+  },
   "type-of-relic-or-grave": {
     "index": "types-of-relics-and-graves",
     "name": {

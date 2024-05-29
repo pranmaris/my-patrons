@@ -1418,6 +1418,91 @@
         "pl": "typ i numer"
     },
 
+    "lang-type-of-place-building": {
+        "en": "building",
+        "pl": "budynek"
+    },
+
+    "lang-type-of-place-city-town-or-village": {
+        "en": "city, town, or village",
+        "pl": "miejscowość"
+    },
+
+    "lang-type-of-place-country": {
+        "en": "country",
+        "pl": "kraj"
+    },
+
+    "lang-type-of-place-department": {
+        "en": "department",
+        "pl": "wydział"
+    },
+
+    "lang-type-of-place-district": {
+        "en": "district",
+        "pl": "dzielnica"
+    },
+
+    "lang-type-of-place-estate": {
+        "en": "estate",
+        "pl": "osiedle"
+    },
+
+    "lang-type-of-place-institution": {
+        "en": "institution",
+        "pl": "instytucja"
+    },
+
+    "lang-type-of-place-island": {
+        "en": "island",
+        "pl": "wyspa"
+    },
+
+    "lang-type-of-place-memorial": {
+        "en": "memorial",
+        "pl": "pomnik"
+    },
+
+    "lang-type-of-place-mountain": {
+        "en": "mountain",
+        "pl": "góra"
+    },
+
+    "lang-type-of-place-other-natural-place": {
+        "en": "other natural place",
+        "pl": "inne miejsce naturalne"
+    },
+
+    "lang-type-of-place-other-place": {
+        "en": "other place",
+        "pl": "inne miejsce"
+    },
+
+    "lang-type-of-place-region": {
+        "en": "region",
+        "pl": "region"
+    },
+
+    "lang-type-of-place-roundabout": {
+        "en": "roundabout",
+        "pl": "rondo"
+    },
+
+    "lang-type-of-place-shop": {
+        "en": "shop",
+        "pl": "sklep"
+    },
+
+    "lang-type-of-place-square": {
+        "en": "square",
+        "pl": "plac"
+    },
+
+    "lang-type-of-place-street": {
+        "en": "street",
+        "pl": "ulica"
+    },
+
     "lang-vertical": {
         "en": "vertical",
         "pl": "pionowy"

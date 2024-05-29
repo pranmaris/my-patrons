@@ -2477,6 +2477,105 @@
     }
   },
 
+  "TP": {
+    "name": {
+      "pl": "Miejsce Świeckie"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/miejsce-swieckie"
+      }
+    },
+    "numbers": true,
+    "uniqueness": [
+      ["person", "notes/type-of-place", "notes/place"]
+    ],
+    "addition-type": "",
+    "person": {
+      "types": ["God", "Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/wyzwania-patronow-opiekunow"
+        }
+      },
+      "requirements": {
+        "god-having-needed-challenges": true,
+        "anybody-having-challenges": ["T"],
+        "person-having-challenges": ["T"]
+      }
+    },
+    "checklist": {
+      "place": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "odwiedź miejsce świeckie"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odwiedz-miejsce-swieckie"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "pomódl się do Patrona w miejscu świeckim"
+        },
+        "description": {
+          "params": ["person-name"],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-do-patrona"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type-of-place": {
+        "type": {
+          "type-of-secular-place": [1, 1]
+        },
+        "name": {
+          "pl": "typ miejsca świeckiego"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [1, 1]
+        },
+        "name": {
+          "pl": "miejsce"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "TR": {
     "name": {
       "pl": "Relikwie lub Grób"
