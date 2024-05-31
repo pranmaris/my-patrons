@@ -1331,6 +1331,11 @@
         "pl": "drugie imię lub dalsza nazwa"
     },
 
+    "lang-search": {
+        "en": "search",
+        "pl": "szukaj"
+    },
+
     "lang-service-name": {
         "en": "myPatrons.org"
     },

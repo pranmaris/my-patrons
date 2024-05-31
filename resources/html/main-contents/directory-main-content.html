@@ -1,5 +1,14 @@
 <div id="directory-main-content">
-  <ul>
+  <div class="directory-search">
+    <input id="search-input" />
+    <button class="btn btn-primary" onclick="refreshPageByButton()">#lang-search|capitalize#</button>
+  </div>
+  <hr />
+  <div>
+    <ul>
 #list-content#
-  </ul>
+    </ul>
+  </div>
 </div>
+
+<script src="/files/resources/js/directory-main-content.js"></script>
