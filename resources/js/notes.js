@@ -2035,10 +2035,10 @@ function resetPersonNameSelect() {
           const nameSubelements = getPersonsDataSubelements(subelement);
           let nameSubelementsLength = 0;
           for (nameSubelement of nameSubelements) {
-            if (typesNeeded != null && !personsNamesToList[nameSubelement]) {
+            if (typesNeeded != null && !personsNamesToList[subelement]) {
               continue;
             }
-            if (typesNeededForAny != null && !personsNamesToListForAny[nameSubelement]) {
+            if (typesNeededForAny != null && !personsNamesToListForAny[subelement]) {
               continue;
             }
 
