@@ -330,6 +330,7 @@
         {"62": ["lang-type-of-place-shop"]},
         {"81": ["lang-type-of-place-mountain"]},
         {"82": ["lang-type-of-place-island"]},
+        {"83": ["lang-type-of-place-trail"]},
         {"99": ["lang-type-of-place-other-natural-place"]},
         {"100": ["lang-type-of-place-other-place"]}
       ],
