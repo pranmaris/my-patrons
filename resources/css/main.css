@@ -10,6 +10,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
+
+  font-family: "Poltawski Nowy", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /*400..700*/
+  font-style: normal;
 }
 
 .body-full main {
