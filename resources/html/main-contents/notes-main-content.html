@@ -4,8 +4,8 @@
   <nav>
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
       <button class="nav-link active" id="nav-file-tab" data-bs-toggle="tab" data-bs-target="#nav-file" type="button" role="tab" aria-controls="nav-file" aria-selected="true" onClick="reloadFileTab()">#lang-notes-tab-file|capitalize#</button>
-      <button class="nav-link" id="nav-achievements-tab" data-bs-toggle="tab" data-bs-target="#nav-achievements" type="button" role="tab" aria-controls="nav-achievements" aria-selected="false" onClick="reloadAchievementsTab()">#lang-notes-tab-achievements|capitalize#</button>
       <button class="nav-link" id="nav-challenges-tab" data-bs-toggle="tab" data-bs-target="#nav-challenges" type="button" role="tab" aria-controls="nav-challenges" aria-selected="false" onClick="reloadChallengesTab()">#lang-notes-tab-challenges|capitalize#</button>
+      <button class="nav-link" id="nav-achievements-tab" data-bs-toggle="tab" data-bs-target="#nav-achievements" type="button" role="tab" aria-controls="nav-achievements" aria-selected="false" onClick="reloadAchievementsTab()">#lang-notes-tab-achievements|capitalize#</button>
       <button style="display: none" class="nav-link" id="nav-json-editor-tab" data-bs-toggle="tab" data-bs-target="#nav-json-editor" type="button" role="tab" aria-controls="nav-json-editor" aria-selected="false" onClick="reloadJsonEditorTab()">#lang-notes-tab-json-editor|capitalize#</button>
     </div>
   </nav>
@@ -36,8 +36,22 @@
 
     </div>
     <div class="tab-pane fade" id="nav-achievements" role="tabpanel" aria-labelledby="nav-achievements-tab" tabindex="0">
-      <br />
-      #lang-coming-soon|capitalize# ...
+      <div class="accordion accordion-flush" id="accordion-achievements">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading-general">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-general" aria-expanded="false" aria-controls="flush-collapse-general">
+              #lang-achievements-section-general|capitalize#
+            </button>
+          </h2>
+          <div id="flush-collapse-general" class="accordion-collapse collapse" aria-labelledby="flush-heading-general" data-bs-parent="#accordion-achievements">
+            <div class="accordion-body">
+              <table id="achievements-general-table" class="table table-bordered border-primary"></table>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
     <div class="tab-pane fade" id="nav-challenges" role="tabpanel" aria-labelledby="nav-challenges-tab" tabindex="0">
       <table class="table table-bordered border-primary">

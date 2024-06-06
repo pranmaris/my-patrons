@@ -10,6 +10,41 @@
         "pl": "https://pl.gratiadei.org#o-nas"
     },
 
+    "lang-achievements-section-general": {
+        "en": "general",
+        "pl": "ogólne"
+    },
+
+    "lang-achievements-section-general-aborted": {
+        "en": "aborted",
+        "pl": "anulowane"
+    },
+
+    "lang-achievements-section-general-done-completely": {
+        "en": "done completely",
+        "pl": "wykonane całkowicie"
+    },
+
+    "lang-achievements-section-general-done-without-some-optional-steps": {
+        "en": "done (without some optional steps)",
+        "pl": "wykonane (bez niektórych opcjonalnych kroków)"
+    },
+
+    "lang-achievements-section-general-number-of-challenges-started": {
+        "en": "number of challenges started",
+        "pl": "liczba rozpoczętych wyzwań"
+    },
+
+    "lang-achievements-section-general-with-todo-status": {
+        "en": "with \"to do\" status",
+        "pl": "ze statusem „do wykonania”"
+    },
+
+    "lang-achievements-section-general-waiting-to-be-completed": {
+        "en": "waiting to be completed",
+        "pl": "oczekujące na dokończenie"
+    },
+
     "lang-acolyte": {
         "en": "acolyte",
         "pl": "akolita"
