@@ -268,9 +268,14 @@
         "pl": "brak wymaganej liczby wcześniejszych wyzwań określonego typu"
     },
 
+    "lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-1-day": {
+        "en": "previous challenge with a specific type cannot be older than 1 day",
+        "pl": "poprzednie wyzwanie określonego typu nie może być wcześniej niż 1 dzień"
+    },
+
     "lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-40-days": {
-        "en": "a challenge of a specific type cannot be older than 40 days",
-        "pl": "wyzwanie określonego typu nie może być wcześniej niż 40 dni"
+        "en": "previous challenge with a specific type cannot be older than 40 days",
+        "pl": "poprzednie wyzwanie określonego typu nie może być wcześniej niż 40 dni"
     },
 
     "lang-challenge-parse-error-for-requirement-anybody-having-challenges-on-the-same-day": {
@@ -286,6 +291,11 @@
     "lang-challenge-parse-error-for-requirement-day-of-week-having-whitelist": {
         "en": "challenge day of week is not on whitelist",
         "pl": "dzień tygodnia wyzwania nie jest na liście dozwolonych"
+    },
+
+    "lang-challenge-parse-error-for-requirement-month-having-whitelist": {
+        "en": "challenge month is not on whitelist",
+        "pl": "miesiąc wyzwania nie jest na liście dozwolonych"
     },
 
     "lang-challenge-parse-error-for-requirement-everybody-not-having-challenges": {
@@ -921,6 +931,78 @@
         "en": "month",
         "la": "mensis",
         "pl": "miesiąc"
+    },
+
+    "lang-month-january": {
+        "en": "January",
+        "la": "ianuarius",
+        "pl": "styczeń"
+    },
+
+    "lang-month-february": {
+        "en": "February",
+        "la": "februarius",
+        "pl": "luty"
+    },
+
+    "lang-month-march": {
+        "en": "March",
+        "la": "martius",
+        "pl": "marzec"
+    },
+
+    "lang-month-april": {
+        "en": "April",
+        "la": "aprilis",
+        "pl": "kwiecień"
+    },
+
+    "lang-month-may": {
+        "en": "May",
+        "la": "maius",
+        "pl": "maj"
+    },
+
+    "lang-month-june": {
+        "en": "June",
+        "la": "iunius",
+        "pl": "czerwiec"
+    },
+
+    "lang-month-july": {
+        "en": "July",
+        "la": "iulius",
+        "pl": "lipiec"
+    },
+
+    "lang-month-august": {
+        "en": "August",
+        "la": "augustus",
+        "pl": "sierpień"
+    },
+
+    "lang-month-september": {
+        "en": "September",
+        "la": "september",
+        "pl": "wrzesień"
+    },
+
+    "lang-month-october": {
+        "en": "October",
+        "la": "october",
+        "pl": "październik"
+    },
+
+    "lang-month-november": {
+        "en": "November",
+        "la": "november",
+        "pl": "listopad"
+    },
+
+    "lang-month-december": {
+        "en": "December",
+        "la": "december",
+        "pl": "grudzień"
     },
 
     "lang-movable-feasts": {

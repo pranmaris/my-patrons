@@ -777,7 +777,7 @@
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/kroki/odpraw-ix-nabozenstw-pierwszych-piatkow-miesiaca-z-rzedu"
+            "pl": "pl/kroki/odpraw-9-nabozenstw-pierwszych-piatkow-miesiaca-z-rzedu"
           }
         }
       }
@@ -797,6 +797,113 @@
         },
         "name": {
           "pl": "miejsce Mszy lub przyjęcia Komunii Świętej"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "EN": {
+    "name": {
+      "pl": "Listopadowe Odpusty za Zmarłych"
+    },
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/listopadowe-odpusty-za-zmarlych"
+      }
+    },
+    "numbers": true,
+    "uniqueness": [
+      ["person", "date"]
+    ],
+    "addition-type": "",
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["B", "SP", "SE"],
+        "anybody-having-challenges-in-last-1-day": ["EN"],
+        "everybody-not-having-challenges": ["8xEN"],
+        "everybody-not-having-challenges-on-the-same-day": ["EN"],
+        "month-having-whitelist": ["november"],
+        "day-of-month-having-maximum": 8
+      }
+    },
+    "checklist": {
+      "indulgence": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "zdobądź odpust za zmarłych"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/zdobadz-odpust-za-zmarlych"
+          }
+        }
+      },
+      "cemetery": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "pomódl się za zmarłych na cmentarzu"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-za-zmarlych-na-cmentarzu"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      },
+      "all-in-a-row": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "zdobądź 8 odpustów listopadowych z rzędu"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/zdobadz-8-odpustow-listopadowych-z-rzedu"
+          }
+        }
+      }
+    },
+    "notes": {
+      "cemetery": {
+        "type": {
+          "place": [1, 1]
+        },
+        "name": {
+          "pl": "odwiedzony cmentarz"
         }
       },
       "other": {

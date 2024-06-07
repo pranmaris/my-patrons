@@ -158,6 +158,7 @@ const COPY_PERSON_NAME_TO_ID_IDS = ['me'];
 const GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL = 'god';
 
 const REQUIREMENT_ANYBODY_HAVING_CHALLENGES = 'anybody-having-challenges';
+const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_1_DAY = 'anybody-having-challenges-in-last-1-day';
 const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS = 'anybody-having-challenges-in-last-40-days';
 const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY = 'anybody-having-challenges-on-the-same-day';
 const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES = 'everybody-not-having-challenges';
@@ -170,6 +171,7 @@ const REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY = 'person-addition-is-not-empty';
 const REQUIREMENT_PERSON_ADDITION_HAVING_CHALLENGES = 'person-addition-having-challenges';
 const REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES = 'person-addition-not-having-challenges';
 const REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST = 'day-of-week-having-whitelist';
+const REQUIREMENT_MONTH_HAVING_WHITELIST = 'month-having-whitelist';
 const REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM = 'day-of-month-having-maximum';
 
 const PARSE_REQUIREMENTS_SINCE_ACTIVE_DATES = {
@@ -203,6 +205,7 @@ const MAX_NOTE_OBJECT_STRUCTURE_LEVELS = 5;
 const LANGUAGE_VARIABLE_PREFIX = 'lang-';
 const LANGUAGE_VARIABLE_CAPITALIZE_SUFFIX_REGEXP = '[|]capitalize$';
 const WEEKDAY_LANGUAGE_VARIABLES_PREFIX = 'lang-weekday-abbreviation-';
+const MONTH_LANGUAGE_VARIABLES_PREFIX = 'lang-month-';
 
 const SELECTED_PERSON_IN_GENERAL_LANGUAGE_VARIABLE_NAME = 'lang-without-addition-selection';
 
@@ -710,6 +713,21 @@ function parseChallenge(rowId, challenge, contextData) {
         }
         break;
 
+      case REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_1_DAY:
+        for (const type of reqTypes) {
+          if ((manyPersonsDatesContext[type] ?? null) === null
+            || getDatesDiffInDays(challengeDate, manyPersonsDatesContext[type]) > 1
+          ) {
+            if (challengeType !== type || (manyPersonsCountsContext[type] ?? null) !== null) {
+              throw {
+                message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-1-day',
+                data: [type]
+              };
+            }
+          }
+        }
+        break;
+
       case REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS:
         for (const type of reqTypes) {
           if ((manyPersonsDatesContext[type] ?? null) === null
@@ -884,6 +902,21 @@ function parseChallenge(rowId, challenge, contextData) {
           throw {
             message: 'lang-challenge-parse-error-for-requirement-day-of-week-having-whitelist',
             data: daysNames
+          };
+        }
+        break;
+
+      case REQUIREMENT_MONTH_HAVING_WHITELIST:
+        const month = getMonthForDateString(challengeDate);
+        const allowedMonths = reqTypes;
+        if (!inArray(month, allowedMonths)) {
+          let monthsNames = [];
+          for (const englishName of allowedMonths) {
+            monthsNames.push(getLanguageVariable(MONTH_LANGUAGE_VARIABLES_PREFIX + englishName));
+          }
+          throw {
+            message: 'lang-challenge-parse-error-for-requirement-month-having-whitelist',
+            data: monthsNames
           };
         }
         break;
@@ -1245,6 +1278,10 @@ function getDayOfMonthForDateString(dateString) {
   return Number(dateString.substring(8));
 }
 
+function getMonthForDateString(dateString) {
+  return new Date(dateString).toLocaleString('en-us', {month: 'long'}).toLowerCase();
+}
+
 function getDateFormat(dateString) {
   const weekday = getWeekdayForDateString(dateString);
   const prefix = getLanguageVariable(WEEKDAY_LANGUAGE_VARIABLES_PREFIX + weekday.toLowerCase());
@@ -1489,6 +1526,16 @@ function checkIfChallengeDayOfWeekIsOnWhitelist(allowedDaysOfWeek, challengeDate
     const weekday = getWeekdayForDateString(challengeDate);
 
     return inArray(weekday, allowedDaysOfWeek);
+  }
+
+  return true;
+}
+
+function checkIfChallengeMonthIsOnWhitelist(allowedMonths, challengeDate) {
+  if (allowedMonths.length > 0) {
+    const month = getMonthForDateString(challengeDate);
+
+    return inArray(month, allowedMonths);
   }
 
   return true;
@@ -1767,12 +1814,14 @@ function resetChallengeTypeSelect() {
       }
 
       if (!checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
+        || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_1_DAY] ?? [], challenges, challengeDate, 1)
         || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS] ?? [], challenges, challengeDate, 40)
         || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate, 0)
         || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
         || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
         || !checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, additionType, allPersonsToTakeForChallengeType, challengeDate)
         || !checkIfChallengeDayOfWeekIsOnWhitelist(requirements[REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST] ?? [], challengeDate)
+        || !checkIfChallengeMonthIsOnWhitelist(requirements[REQUIREMENT_MONTH_HAVING_WHITELIST] ?? [], challengeDate)
         || !checkIfChallengeDayOfMonthIsNotGreaterThanMaximum(requirements[REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM] ?? 0, challengeDate)
       ) {
         continue;
