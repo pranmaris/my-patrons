@@ -11,11 +11,35 @@ body {
   background-size: cover;
   height: 100%;
 
-  font-family: "Poltawski Nowy", serif;
-  font-optical-sizing: auto;
-  font-weight: 400; /*400..700*/
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
+
+
+
+.headline {
+  font-family: "Poltawski Nowy", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; [>400..700<]
+  font-style: normal;
+
+  font-size: 40px;
+}
+
+.headline-small {
+  font-size: 25px;
+}
+
+.headline-red {
+  color: red;
+}
+
+.headline-gray {
+  color: gray;
+}
+
+
 
 .body-full main {
   min-height: 65vh;
