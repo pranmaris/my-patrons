@@ -20,6 +20,11 @@
             "la": "Iesus Christus",
             "pl": "Jezus Chrystus"
         },
+        "records/patrons/acacius/mel": {
+            "la": "Acacius Melitenensis",
+            "en": "Acathius of Melitene",
+            "pl": "Akacjusz z Melitene"
+        },
         "records/patrons/adalbertus/pra": {
             "cz": "Vojtěch Slavníkovec",
             "en": "Adalbert of Prague",

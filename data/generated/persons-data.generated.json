@@ -323,6 +323,24 @@
             "pl": "Patroni"
         }
     },
+    "patrons/acacius": {
+        "names": {
+            "la": "Acacius",
+            "en": "Acacius",
+            "pl": "Akacjusz"
+        }
+    },
+    "patrons/acacius/mel": {
+        "names": {
+            "la": "Acacius Melitenensis",
+            "en": "Acathius of Melitene",
+            "pl": "Akacjusz z Melitene"
+        },
+        "died": [
+            "~435"
+        ],
+        "feasts": []
+    },
     "patrons/adalbertus": {
         "names": {
             "la": "Adalbertus",

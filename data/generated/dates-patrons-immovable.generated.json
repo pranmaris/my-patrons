@@ -486,6 +486,18 @@
             }
         }
     },
+    "04-17": {
+        "records/patrons/acacius/mel": {
+            "name": {
+                "la": "Acacius Melitenensis",
+                "en": "Acathius of Melitene",
+                "pl": "Akacjusz z Melitene"
+            },
+            "sources": {
+                "other-martyrology-days": "17 IV"
+            }
+        }
+    },
     "04-23": {
         "records/patrons/adalbertus/pra": {
             "name": {

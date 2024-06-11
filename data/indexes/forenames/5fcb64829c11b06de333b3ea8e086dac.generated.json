@@ -1,0 +1,25 @@
+{
+    "names": {
+        "pl": "Akacjusz"
+    },
+    "translations": {
+        "la": [
+            "Acacius"
+        ],
+        "en": [
+            "Acacius",
+            "Acathius"
+        ],
+        "pl": [
+            "Akacjusz",
+            "Achacjusz"
+        ]
+    },
+    "links": {
+        "records/patrons/acacius/mel": {
+            "la": "Acacius Melitenensis",
+            "en": "Acathius of Melitene",
+            "pl": "Akacjusz z Melitene"
+        }
+    }
+}

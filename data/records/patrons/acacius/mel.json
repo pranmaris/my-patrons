@@ -1,0 +1,23 @@
+{
+  "names": {
+    "la": [
+      "Acacius Melitenensis"
+    ],
+    "en": [
+      "Acathius of Melitene",
+      "Acacius of Melitene",
+      "Achates of Melitene"
+    ],
+    "pl": [
+      "Akacjusz z Melitene",
+      "Achacjusz z Melitene"
+    ]
+  },
+
+  "died": ["~435"],
+
+  "also-in-martyrology": ["04-17"],
+
+  "forenames": ["acacius"],
+  "categories": ["vir", "episcopus"]
+}
