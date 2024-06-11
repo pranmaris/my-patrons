@@ -44,5 +44,9 @@
   "forenames": ["pius"],
   "categories": ["vir", "confessor", "papa"],
 
-  "order": ["op"]
+  "order": ["op"],
+
+  "data-links": {
+    "popes": ["1:#225"]
+  }
 }
