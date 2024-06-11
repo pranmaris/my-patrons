@@ -365,6 +365,19 @@
             }
         }
     },
+    "08-05": {
+        "records/patrons/maria/naz#dbm": {
+            "name": {
+                "la": "Maria Virgo (Dedicatio Basilicae Sanctae Mariae in Romae)",
+                "pl": "Maria z Nazaretu (Poświęcenie Bazyliki Najświętszej Maryi Panny Śnieżnej w Rzymie)"
+            },
+            "sources": {
+                "mr-1956": "5 VIII: #1",
+                "mr-1960": "5 VIII: #1",
+                "mr-2004": "5 VIII: #1"
+            }
+        }
+    },
     "08-06": {
         "records/god/fil#tra": {
             "name": {
@@ -476,14 +489,22 @@
         }
     },
     "09-15": {
+        "records/patrons/maria/naz#7dm": {
+            "name": {
+                "la": "Maria Virgo (Septem Dolores beatissimae Vírginis Mariae)",
+                "pl": "Maria z Nazaretu (Siedem Boleści Najświętszej Maryi Panny)"
+            },
+            "sources": {
+                "mr-1956": "15 IX: #2",
+                "mr-1960": "15 IX: #1"
+            }
+        },
         "records/patrons/maria/naz#per": {
             "name": {
                 "la": "Maria Virgo (Beate Maria Virgo Perdolentis)",
                 "pl": "Maria z Nazaretu (Matka Boska Bolesna)"
             },
             "sources": {
-                "mr-1956": "15 IX: #2",
-                "mr-1960": "15 IX: #1",
                 "mr-2004": "15 IX: #1"
             }
         }

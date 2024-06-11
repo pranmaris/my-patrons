@@ -2141,6 +2141,12 @@
                     "pl": "Błogosławiona Maryja Dziewica z Góry Karmel"
                 }
             },
+            "feasts/dbm": {
+                "names": {
+                    "la": "Dedicatio Basilicae Sanctae Mariae in Romae",
+                    "pl": "Poświęcenie Bazyliki Najświętszej Maryi Panny Śnieżnej w Rzymie"
+                }
+            },
             "feasts/amv": {
                 "names": {
                     "la": "Vigilia Assumptionis Beatae Mariae Virginis",
@@ -2173,12 +2179,6 @@
                     "pl": "Święta Rodzina"
                 }
             },
-            "feasts/7dm": {
-                "names": {
-                    "la": "Septem Dolores beatissimae Vírginis Mariae",
-                    "pl": "Siedem Boleści Najświętszej Maryi Panny"
-                }
-            },
             "feasts/rmm": {
                 "names": {
                     "la": "Romae Litaniae minores ad sanctam Mariam Majorem",
@@ -2195,6 +2195,12 @@
                 "names": {
                     "la": "Sanctissimum Nomen beate Virginis Mariae",
                     "pl": "Najświętsze Imię Błogosławionej Maryi Dziewicy"
+                }
+            },
+            "feasts/7dm": {
+                "names": {
+                    "la": "Septem Dolores beatissimae Vírginis Mariae",
+                    "pl": "Siedem Boleści Najświętszej Maryi Panny"
                 }
             },
             "feasts/per": {

@@ -76,6 +76,10 @@
         "la": "Dedicatio Basilicae Lateranensis in Romae",
         "pl": "Poświęcenie Bazyliki Laterańskiej w Rzymie"
     },
+    "dbm": {
+        "la": "Dedicatio Basilicae Sanctae Mariae in Romae",
+        "pl": "Poświęcenie Bazyliki Najświętszej Maryi Panny Śnieżnej w Rzymie"
+    },
     "dci": {
         "en": "Ash Wednesday",
         "la": "Dies Cinerum",
