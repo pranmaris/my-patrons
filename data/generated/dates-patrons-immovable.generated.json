@@ -562,6 +562,33 @@
             }
         }
     },
+    "04-30": {
+        "records/patrons/pius/5pp": {
+            "name": {
+                "it": "Pio V",
+                "en": "Pope Pius V",
+                "la": "Pius Pp. V",
+                "pl": "Pius V"
+            },
+            "sources": {
+                "other-martyrology-days": "30 IV"
+            }
+        }
+    },
+    "05-01": {
+        "records/patrons/pius/5pp": {
+            "name": {
+                "it": "Pio V",
+                "en": "Pope Pius V",
+                "la": "Pius Pp. V",
+                "pl": "Pius V"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 V",
+                "other-martyrology-days": "1 V"
+            }
+        }
+    },
     "05-04": {
         "records/patrons/florianus/lau": {
             "name": {
@@ -582,6 +609,19 @@
             },
             "sources": {
                 "other-martyrology-days": "4 V"
+            }
+        }
+    },
+    "05-05": {
+        "records/patrons/pius/5pp": {
+            "name": {
+                "it": "Pio V",
+                "en": "Pope Pius V",
+                "la": "Pius Pp. V",
+                "pl": "Pius V"
+            },
+            "sources": {
+                "other-martyrology-days": "5 V"
             }
         }
     },

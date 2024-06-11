@@ -50,6 +50,12 @@
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
         },
+        "records/patrons/pius/5pp": {
+            "it": "Pio V",
+            "en": "Pope Pius V",
+            "la": "Pius Pp. V",
+            "pl": "Pius V"
+        },
         "records/patrons/xystus/2pp": {
             "la": "Xystus Pp. II",
             "en": "Sixtus II",

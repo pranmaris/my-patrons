@@ -1,0 +1,48 @@
+{
+  "names": {
+    "it": [
+      "Pio V",
+      "Antonio Ghislieri"
+    ],
+    "en": [
+      "Pope Pius V",
+      "Antonio Ghislieri"
+    ],
+    "la": [
+      "Pius Pp. V",
+      "Antonius Ghislieri"
+    ],
+    "pl": [
+      "Pius V",
+      "Antonio Ghislieri"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Quintus",
+      "it": "Quinto",
+      "en": "the Fifth",
+      "pl": "Piąty"
+    }
+  ],
+
+  "born": ["1504-01-17"],
+  "died": ["1572-05-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1672-05-01"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1712-05-22"
+  },
+
+  "also-in-martyrology": ["04-30", "05-01", "05-05"],
+
+  "forenames": ["pius"],
+  "categories": ["vir", "confessor", "papa"],
+
+  "order": ["op"]
+}

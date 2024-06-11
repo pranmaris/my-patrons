@@ -2729,6 +2729,18 @@
             "it": "Pio"
         }
     },
+    "patrons/pius/5pp": {
+        "names": {
+            "it": "Pio V",
+            "en": "Pope Pius V",
+            "la": "Pius Pp. V",
+            "pl": "Pius V"
+        },
+        "died": [
+            "1572-05-01"
+        ],
+        "feasts": []
+    },
     "patrons/pius/pie": {
         "names": {
             "it": "Pio da Pietrelcina",

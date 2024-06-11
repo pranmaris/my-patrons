@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Piąty"
+    },
+    "translations": {
+        "la": [
+            "Quintus"
+        ],
+        "it": [
+            "Quinto"
+        ],
+        "en": [
+            "the Fifth"
+        ],
+        "pl": [
+            "Piąty"
+        ]
+    },
+    "links": {
+        "records/patrons/pius/5pp": {
+            "it": "Pio V",
+            "en": "Pope Pius V",
+            "la": "Pius Pp. V",
+            "pl": "Pius V"
+        }
+    }
+}
