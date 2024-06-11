@@ -1,0 +1,24 @@
+{
+  "names": {
+    "he": [
+      "יְחֶזְקֵאל"
+    ],
+    "en": [
+      "Ezekiel"
+    ],
+    "la": [
+      "Ezechiel"
+    ],
+    "pl": [
+      "Ezechiel"
+    ]
+  },
+
+  "born": ["~-623"],
+  "died": [">-571"],
+
+  "also-in-martyrology": ["04-10", "07-23"],
+
+  "forenames": ["ezechiel"],
+  "categories": ["vir", "martyr", "propheta"]
+}

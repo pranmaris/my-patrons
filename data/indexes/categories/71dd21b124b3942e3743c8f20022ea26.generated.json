@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/ezechiel/pro": {
+            "he": "יְחֶזְקֵאל",
+            "en": "Ezekiel",
+            "la": "Ezechiel",
+            "pl": "Ezechiel"
+        },
         "records/patrons/ioannes/bap": {
             "he": "יוֹחָנָן",
             "en": "John the Baptist",

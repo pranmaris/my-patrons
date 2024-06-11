@@ -1073,6 +1073,26 @@
         "died": [],
         "feasts": []
     },
+    "patrons/ezechiel": {
+        "names": {
+            "la": "Ezechiel",
+            "en": "Ezekiel",
+            "pl": "Ezechiel",
+            "he": "יְחֶזְקֵאל"
+        }
+    },
+    "patrons/ezechiel/pro": {
+        "names": {
+            "he": "יְחֶזְקֵאל",
+            "en": "Ezekiel",
+            "la": "Ezechiel",
+            "pl": "Ezechiel"
+        },
+        "died": [
+            ">-571"
+        ],
+        "feasts": []
+    },
     "patrons/felicitas": {
         "names": {
             "la": "Felicitas",

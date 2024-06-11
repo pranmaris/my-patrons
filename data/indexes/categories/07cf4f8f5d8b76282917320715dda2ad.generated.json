@@ -193,6 +193,12 @@
             "en": "Eusebius of Vercelli",
             "pl": "Euzebiusz z Vercelli"
         },
+        "records/patrons/ezechiel/pro": {
+            "he": "יְחֶזְקֵאל",
+            "en": "Ezekiel",
+            "la": "Ezechiel",
+            "pl": "Ezechiel"
+        },
         "records/patrons/florianus/lau": {
             "la": "Florianus Lauriacensis",
             "en": "Florian of Lauriacum",

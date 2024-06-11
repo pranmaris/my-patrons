@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Ezechiel",
+        "pl": "Ezechiel"
+    },
+    "translations": {
+        "la": [
+            "Ezechiel"
+        ],
+        "en": [
+            "Ezekiel"
+        ],
+        "pl": [
+            "Ezechiel"
+        ],
+        "he": [
+            "יְחֶזְקֵאל"
+        ]
+    },
+    "links": {
+        "records/patrons/ezechiel/pro": {
+            "he": "יְחֶזְקֵאל",
+            "en": "Ezekiel",
+            "la": "Ezechiel",
+            "pl": "Ezechiel"
+        }
+    }
+}

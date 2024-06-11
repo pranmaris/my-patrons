@@ -460,6 +460,17 @@
                 "reliable-death-anniversary": "10 IV",
                 "other-martyrology-days": "10 IV"
             }
+        },
+        "records/patrons/ezechiel/pro": {
+            "name": {
+                "he": "יְחֶזְקֵאל",
+                "en": "Ezekiel",
+                "la": "Ezechiel",
+                "pl": "Ezechiel"
+            },
+            "sources": {
+                "other-martyrology-days": "10 IV"
+            }
         }
     },
     "04-11": {
@@ -792,6 +803,19 @@
             },
             "sources": {
                 "other-martyrology-days": "19 VII"
+            }
+        }
+    },
+    "07-23": {
+        "records/patrons/ezechiel/pro": {
+            "name": {
+                "he": "יְחֶזְקֵאל",
+                "en": "Ezekiel",
+                "la": "Ezechiel",
+                "pl": "Ezechiel"
+            },
+            "sources": {
+                "other-martyrology-days": "23 VII"
             }
         }
     },

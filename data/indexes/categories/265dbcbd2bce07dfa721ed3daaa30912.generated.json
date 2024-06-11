@@ -124,6 +124,12 @@
             "en": "Eusebius of Vercelli",
             "pl": "Euzebiusz z Vercelli"
         },
+        "records/patrons/ezechiel/pro": {
+            "he": "יְחֶזְקֵאל",
+            "en": "Ezekiel",
+            "la": "Ezechiel",
+            "pl": "Ezechiel"
+        },
         "records/patrons/felicitas/car": {
             "la": "Felicitas Carthaginensis",
             "en": "Felicity of Carthage",
