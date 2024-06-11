@@ -853,6 +853,26 @@
         ],
         "feasts": []
     },
+    "patrons/clemens": {
+        "names": {
+            "la": "Clemens",
+            "en": "Clement",
+            "pl": "Klemens",
+            "uk": "Климентій"
+        }
+    },
+    "patrons/clemens/sep": {
+        "names": {
+            "uk": "Климентій Шептицький",
+            "en": "Clement Sheptytsky",
+            "la": "Clemens Šeptyckyj",
+            "pl": "Klemens Szeptycki"
+        },
+        "died": [
+            "1951-05-01"
+        ],
+        "feasts": []
+    },
     "patrons/cosmas": {
         "names": {
             "la": "Cosmas",

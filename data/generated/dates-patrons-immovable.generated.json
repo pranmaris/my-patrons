@@ -576,6 +576,18 @@
         }
     },
     "05-01": {
+        "records/patrons/clemens/sep": {
+            "name": {
+                "uk": "Климентій Шептицький",
+                "en": "Clement Sheptytsky",
+                "la": "Clemens Šeptyckyj",
+                "pl": "Klemens Szeptycki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 V",
+                "other-martyrology-days": "1 V"
+            }
+        },
         "records/patrons/pius/5pp": {
             "name": {
                 "it": "Pio V",

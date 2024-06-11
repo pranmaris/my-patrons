@@ -11,11 +11,17 @@
     "15f6dca2698e220e4c392c275806ca73": {
         "pl": "Kęsy"
     },
+    "170f72081ad3682fb1057b62dbf687e8": {
+        "pl": "Szeptycki"
+    },
     "18461b36d04a053a66c86180bc79a59b": {
         "it": "Forgione"
     },
     "290a77d7756e05fc2761afedc5572c24": {
         "it": "Longo"
+    },
+    "2c93f2145bb9ed9062a138f8a7dad44f": {
+        "uk": "Шептицький"
     },
     "300a1dfa3a262f4b63ee90073a802942": {
         "fr": "Eymard"
@@ -143,6 +149,9 @@
     "e33077c9d307acea691a96c1f994510f": {
         "fr": "Labouré"
     },
+    "e358b195ddf5cde4445f0065a95f4831": {
+        "en": "Sheptytsky"
+    },
     "ec314f70c7d8600fb3b5634a92ce9ab0": {
         "pl": "Klinik"
     },
@@ -156,6 +165,9 @@
         "la": "Kim",
         "en": "Kim",
         "pl": "Kim"
+    },
+    "f8a2bd4600e93e5b0e096b9985eeff83": {
+        "la": "Šeptyckyj"
     },
     "fa2fc0dc0e3e2830ea86556d6b3fee74": {
         "pl": "Laskowski"

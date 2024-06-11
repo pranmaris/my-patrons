@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Clemens"
+    },
+    "translations": {
+        "la": [
+            "Clemens"
+        ],
+        "en": [
+            "Clement"
+        ],
+        "pl": [
+            "Klemens"
+        ],
+        "uk": [
+            "Климентій"
+        ]
+    },
+    "links": {
+        "records/patrons/clemens/sep": {
+            "uk": "Климентій Шептицький",
+            "en": "Clement Sheptytsky",
+            "la": "Clemens Šeptyckyj",
+            "pl": "Klemens Szeptycki"
+        }
+    }
+}

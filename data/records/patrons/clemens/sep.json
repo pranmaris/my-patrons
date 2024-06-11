@@ -1,0 +1,44 @@
+{
+  "names": {
+    "uk": [
+      "Климентій Шептицький",
+      "Казимир Марія Стефан Шептицький"
+    ],
+    "en": [
+      "Clement Sheptytsky",
+      "Kazimierz Maria Stefan Sheptytsky"
+    ],
+    "la": [
+      "Clemens Šeptyckyj",
+      "Casimirus Maria Stephanus Šeptyckyj"
+    ],
+    "pl": [
+      "Klemens Szeptycki",
+      "Kazimierz Maria Stefan Szeptycki"
+    ]
+  },
+
+  "surnames": [
+    {
+      "uk": "Шептицький",
+      "en": "Sheptytsky",
+      "la": "Šeptyckyj",
+      "pl": "Szeptycki"
+    }
+  ],
+
+  "born": ["1869-11-17"],
+  "died": ["1951-05-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2001-06-27"
+  },
+
+  "also-in-martyrology": ["05-01"],
+
+  "forenames": ["clemens"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["msu"]
+}
