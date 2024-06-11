@@ -2209,6 +2209,12 @@
                     "pl": "Matka Boska Bolesna"
                 }
             },
+            "feasts/ros": {
+                "names": {
+                    "la": "Beatae Maria Virgo de Rosario",
+                    "pl": "Błogosławiona Maryja Dziewica Różańcowa"
+                }
+            },
             "feasts/mat": {
                 "names": {
                     "en": "The Motherhood of the Blessed Virgin Mary",
