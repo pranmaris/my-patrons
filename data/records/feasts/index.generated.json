@@ -44,9 +44,21 @@
         "la": "Sanctissimum Corpore et Sanguis Christi",
         "pl": "Najświętsze Ciało i Krew Chrystusa"
     },
+    "cim": {
+        "la": "Conceptio Immaculata beatae Mariae Virginis",
+        "pl": "Niepokalane Poczęcie Błogosławionej Maryi Dziewicy"
+    },
+    "cio": {
+        "la": "Octava Conceptionis Immaculatae beatae Mariae Virginis",
+        "pl": "Oktawa Niepokalanego Poczęcia Błogosławionej Maryi Dziewicy"
+    },
     "cir": {
         "la": "Circumcisio Domini",
         "pl": "Obrzezanie Pańskie"
+    },
+    "civ": {
+        "la": "Vigilia Conceptionis Immaculatae beatae Mariae Virginis",
+        "pl": "Wigilia Niepokalanego Poczęcia Błogosławionej Maryi Dziewicy"
     },
     "cro": {
         "la": "Octava Sanctissimi Corporis Christi",

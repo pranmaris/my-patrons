@@ -161,6 +161,23 @@
       "data-links": {
         "liturgical-calendar-feasts": ["1:#MRP"]
       }
+    },
+    "civ": {
+      "data-links": {
+        "mr-1956": ["1:dec/7#1"]
+      }
+    },
+    "cim": {
+      "data-links": {
+        "mr-2004": ["1:dec/8#1"],
+        "mr-1960": ["1:dec/8#1"],
+        "mr-1956": ["1:dec/8#1"]
+      }
+    },
+    "cio": {
+      "data-links": {
+        "mr-1956": ["1:dec/15#1"]
+      }
     }
   }
 }

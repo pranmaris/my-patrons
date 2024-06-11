@@ -2234,6 +2234,24 @@
                     "en": "The Most Holy Virgin Mary, Queen of Poland",
                     "pl": "Najświętsza Maryja Panna Królowa Polski"
                 }
+            },
+            "feasts/civ": {
+                "names": {
+                    "la": "Vigilia Conceptionis Immaculatae beatae Mariae Virginis",
+                    "pl": "Wigilia Niepokalanego Poczęcia Błogosławionej Maryi Dziewicy"
+                }
+            },
+            "feasts/cim": {
+                "names": {
+                    "la": "Conceptio Immaculata beatae Mariae Virginis",
+                    "pl": "Niepokalane Poczęcie Błogosławionej Maryi Dziewicy"
+                }
+            },
+            "feasts/cio": {
+                "names": {
+                    "la": "Octava Conceptionis Immaculatae beatae Mariae Virginis",
+                    "pl": "Oktawa Niepokalanego Poczęcia Błogosławionej Maryi Dziewicy"
+                }
             }
         }
     },

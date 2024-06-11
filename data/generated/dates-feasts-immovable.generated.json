@@ -608,6 +608,30 @@
             }
         }
     },
+    "12-07": {
+        "records/patrons/maria/naz#civ": {
+            "name": {
+                "la": "Maria Virgo (Vigilia Conceptionis Immaculatae beatae Mariae Virginis)",
+                "pl": "Maria z Nazaretu (Wigilia Niepokalanego Poczęcia Błogosławionej Maryi Dziewicy)"
+            },
+            "sources": {
+                "mr-1956": "7 XII: #1"
+            }
+        }
+    },
+    "12-08": {
+        "records/patrons/maria/naz#cim": {
+            "name": {
+                "la": "Maria Virgo (Conceptio Immaculata beatae Mariae Virginis)",
+                "pl": "Maria z Nazaretu (Niepokalane Poczęcie Błogosławionej Maryi Dziewicy)"
+            },
+            "sources": {
+                "mr-1956": "8 XII: #1",
+                "mr-1960": "8 XII: #1",
+                "mr-2004": "8 XII: #1"
+            }
+        }
+    },
     "12-15": {
         "records/patrons/eusebius/ver#oev": {
             "name": {
@@ -617,6 +641,15 @@
             "sources": {
                 "mr-1956": "15 XII: #7",
                 "mr-1960": "15 XII: #6"
+            }
+        },
+        "records/patrons/maria/naz#cio": {
+            "name": {
+                "la": "Maria Virgo (Octava Conceptionis Immaculatae beatae Mariae Virginis)",
+                "pl": "Maria z Nazaretu (Oktawa Niepokalanego Poczęcia Błogosławionej Maryi Dziewicy)"
+            },
+            "sources": {
+                "mr-1956": "15 XII: #1"
             }
         }
     },
