@@ -3157,6 +3157,24 @@
         ],
         "feasts": []
     },
+    "patrons/wilfridus": {
+        "names": {
+            "la": "Wilfridus",
+            "en": "Wilfrid",
+            "pl": "Wilfryd"
+        }
+    },
+    "patrons/wilfridus/ebo": {
+        "names": {
+            "en": "Wilfrid of York",
+            "la": "Wilfridus Eboracensis",
+            "pl": "Wilfryd z Yorku"
+        },
+        "died": [
+            "709"
+        ],
+        "feasts": []
+    },
     "patrons/xystus": {
         "names": {
             "la": "Xystus",

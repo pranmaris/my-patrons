@@ -30,6 +30,11 @@
             "la": "Magnus",
             "en": "Magnus of Füssen",
             "pl": "Magnus z Füssen"
+        },
+        "records/patrons/wilfridus/ebo": {
+            "en": "Wilfrid of York",
+            "la": "Wilfridus Eboracensis",
+            "pl": "Wilfryd z Yorku"
         }
     }
 }

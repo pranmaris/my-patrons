@@ -522,6 +522,18 @@
             }
         }
     },
+    "04-24": {
+        "records/patrons/wilfridus/ebo": {
+            "name": {
+                "en": "Wilfrid of York",
+                "la": "Wilfridus Eboracensis",
+                "pl": "Wilfryd z Yorku"
+            },
+            "sources": {
+                "other-martyrology-days": "24 IV"
+            }
+        }
+    },
     "04-26": {
         "records/patrons/richarius/cen": {
             "name": {
@@ -1822,6 +1834,16 @@
             },
             "sources": {
                 "reliable-death-anniversary": "12 X"
+            }
+        },
+        "records/patrons/wilfridus/ebo": {
+            "name": {
+                "en": "Wilfrid of York",
+                "la": "Wilfridus Eboracensis",
+                "pl": "Wilfryd z Yorku"
+            },
+            "sources": {
+                "other-martyrology-days": "12 X"
             }
         }
     },

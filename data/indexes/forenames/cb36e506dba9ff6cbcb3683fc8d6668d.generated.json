@@ -1,0 +1,26 @@
+{
+    "names": {
+        "en": "Wilfrid",
+        "pl": "Wilfrid"
+    },
+    "translations": {
+        "la": [
+            "Wilfridus",
+            "Walfridus"
+        ],
+        "en": [
+            "Wilfrid"
+        ],
+        "pl": [
+            "Wilfryd",
+            "Wilfrid"
+        ]
+    },
+    "links": {
+        "records/patrons/wilfridus/ebo": {
+            "en": "Wilfrid of York",
+            "la": "Wilfridus Eboracensis",
+            "pl": "Wilfryd z Yorku"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "names": {
+    "en": [
+      "Wilfrid of York",
+      "Wilfrid"
+    ],
+    "la": [
+      "Wilfridus Eboracensis"
+    ],
+    "pl": [
+      "Wilfryd z Yorku",
+      "Wilfrid z Yorku",
+      "Wilfrid z Ripon"
+    ]
+  },
+
+  "born": ["~634"],
+  "died": ["709"],
+
+  "also-in-martyrology": ["04-24", "10-12"],
+
+  "forenames": ["wilfridus"],
+  "categories": ["vir", "confessor", "episcopus", "abbas"]
+}

@@ -146,6 +146,11 @@
             "la": "Virgilius Arelatensis",
             "en": "Virgilius of Arles",
             "pl": "Wirgiliusz z Arles"
+        },
+        "records/patrons/wilfridus/ebo": {
+            "en": "Wilfrid of York",
+            "la": "Wilfridus Eboracensis",
+            "pl": "Wilfryd z Yorku"
         }
     }
 }
