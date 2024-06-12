@@ -1,0 +1,39 @@
+{
+  "names": {
+    "pl": [
+      "Antoni Bajewski",
+      "Antonin Bajewski",
+      "Jan Eugeniusz Bajewski"
+    ],
+    "en": [
+      "Anthony Bajewski",
+      "Antonin Bajewski",
+      "John Eugene Bajewski"
+    ],
+    "la": [
+      "Antonius Bajewski",
+      "Antoninus Bajewski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Bajewski"
+    }
+  ],
+
+  "born": ["1915-01-17"],
+  "died": ["1941-05-08"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["05-08"],
+
+  "forenames": ["antonius"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["ofmconv"]
+}

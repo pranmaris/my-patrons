@@ -550,6 +550,17 @@
             "pt": "Antônio"
         }
     },
+    "patrons/antonius/baj": {
+        "names": {
+            "pl": "Antoni Bajewski",
+            "en": "Anthony Bajewski",
+            "la": "Antonius Bajewski"
+        },
+        "died": [
+            "1941-05-08"
+        ],
+        "feasts": []
+    },
     "patrons/antonius/pat": {
         "names": {
             "pt": "Antônio de Pádua",

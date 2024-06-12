@@ -650,6 +650,16 @@
         }
     },
     "05-08": {
+        "records/patrons/antonius/baj": {
+            "name": {
+                "pl": "Antoni Bajewski",
+                "en": "Anthony Bajewski",
+                "la": "Antonius Bajewski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 V"
+            }
+        },
         "records/patrons/stanislaus/cra": {
             "name": {
                 "pl": "Stanisław ze Szczepanowa",

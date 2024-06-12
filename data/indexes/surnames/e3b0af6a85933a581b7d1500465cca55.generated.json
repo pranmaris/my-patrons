@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Bajewski"
+    },
+    "translations": {
+        "pl": [
+            "Bajewski"
+        ]
+    },
+    "links": {
+        "records/patrons/antonius/baj": {
+            "pl": "Antoni Bajewski",
+            "en": "Anthony Bajewski",
+            "la": "Antonius Bajewski"
+        }
+    }
+}
