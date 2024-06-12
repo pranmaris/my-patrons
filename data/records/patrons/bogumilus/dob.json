@@ -1,0 +1,29 @@
+{
+  "names": {
+    "pl":  [
+      "Bogumił z Dobrowa",
+      "Bogumił Leszczyc"
+    ],
+    "la": [
+      "Bogumilus Dobrovensis"
+    ],
+    "en": [
+      "Bogumil of Dobrow"
+    ]
+  },
+
+  "born": ["~1135"],
+  "died": ["1182"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1925-05-27"
+  },
+
+  "also-in-martyrology": ["06-10"],
+
+  "forenames": ["bogumilus"],
+  "categories": ["vir", "episcopus", "eremita"],
+
+  "order": ["ecmc"]
+}

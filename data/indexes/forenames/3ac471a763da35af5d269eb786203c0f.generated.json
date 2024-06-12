@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Bogumił"
+    },
+    "translations": {
+        "la": [
+            "Bogumilus"
+        ],
+        "en": [
+            "Bogumilus"
+        ],
+        "pl": [
+            "Bogumił"
+        ]
+    },
+    "links": {
+        "records/patrons/bogumilus/dob": {
+            "pl": "Bogumił z Dobrowa",
+            "la": "Bogumilus Dobrovensis",
+            "en": "Bogumil of Dobrow"
+        }
+    }
+}

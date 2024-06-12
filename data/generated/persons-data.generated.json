@@ -662,6 +662,24 @@
         ],
         "feasts": []
     },
+    "patrons/bogumilus": {
+        "names": {
+            "la": "Bogumilus",
+            "en": "Bogumilus",
+            "pl": "Bogumił"
+        }
+    },
+    "patrons/bogumilus/dob": {
+        "names": {
+            "pl": "Bogumił z Dobrowa",
+            "la": "Bogumilus Dobrovensis",
+            "en": "Bogumil of Dobrow"
+        },
+        "died": [
+            "1182"
+        ],
+        "feasts": []
+    },
     "patrons/bonifatius": {
         "names": {
             "la": "Bonifatius",

@@ -109,6 +109,11 @@
             "la": "Bernardinus Senensis",
             "pl": "Bernardyn ze Sieny"
         },
+        "records/patrons/bogumilus/dob": {
+            "pl": "Bogumił z Dobrowa",
+            "la": "Bogumilus Dobrovensis",
+            "en": "Bogumil of Dobrow"
+        },
         "records/patrons/bonifatius/win": {
             "en": "Boniface Wynfreth",
             "la": "Bonifatius Winfrid",

@@ -858,6 +858,18 @@
             }
         }
     },
+    "06-10": {
+        "records/patrons/bogumilus/dob": {
+            "name": {
+                "pl": "Bogumił z Dobrowa",
+                "la": "Bogumilus Dobrovensis",
+                "en": "Bogumil of Dobrow"
+            },
+            "sources": {
+                "other-martyrology-days": "10 VI"
+            }
+        }
+    },
     "06-13": {
         "records/patrons/antonius/pat": {
             "name": {

@@ -19,6 +19,11 @@
             "en": "Banadict of Nursia",
             "pl": "Benedykt z Nursji"
         },
+        "records/patrons/bogumilus/dob": {
+            "pl": "Bogumił z Dobrowa",
+            "la": "Bogumilus Dobrovensis",
+            "en": "Bogumil of Dobrow"
+        },
         "records/patrons/bruno/ere": {
             "de": "Bruno von Köln",
             "en": "Bruno of Cologne",

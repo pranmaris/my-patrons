@@ -53,6 +53,11 @@
             "en": "Augustine of Hippo",
             "pl": "Augustyn z Hippony"
         },
+        "records/patrons/bogumilus/dob": {
+            "pl": "Bogumił z Dobrowa",
+            "la": "Bogumilus Dobrovensis",
+            "en": "Bogumil of Dobrow"
+        },
         "records/patrons/bonifatius/win": {
             "en": "Boniface Wynfreth",
             "la": "Bonifatius Winfrid",
