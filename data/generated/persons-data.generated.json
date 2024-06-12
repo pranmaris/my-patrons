@@ -1444,6 +1444,17 @@
         ],
         "feasts": []
     },
+    "patrons/iacobus/min": {
+        "names": {
+            "la": "Iacobus Minor Apostolus",
+            "en": "James the Less Apostle",
+            "pl": "Jakub Mniejszy Apostoł"
+        },
+        "died": [
+            "~62"
+        ],
+        "feasts": []
+    },
     "patrons/iacobus/str": {
         "names": {
             "pl": "Jakub Strzemię",

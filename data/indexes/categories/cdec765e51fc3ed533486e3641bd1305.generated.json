@@ -79,6 +79,11 @@
             "en": "Radim Gaudentius",
             "la": "Gaudentius seu Radzim"
         },
+        "records/patrons/iacobus/min": {
+            "la": "Iacobus Minor Apostolus",
+            "en": "James the Less Apostle",
+            "pl": "Jakub Mniejszy Apostoł"
+        },
         "records/patrons/iacobus/str": {
             "pl": "Jakub Strzemię",
             "en": "James Strzemie",

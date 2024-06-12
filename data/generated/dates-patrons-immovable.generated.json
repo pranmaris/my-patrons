@@ -602,6 +602,16 @@
         }
     },
     "05-03": {
+        "records/patrons/iacobus/min": {
+            "name": {
+                "la": "Iacobus Minor Apostolus",
+                "en": "James the Less Apostle",
+                "pl": "Jakub Mniejszy Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "3 V"
+            }
+        },
         "records/patrons/philippus/apo": {
             "name": {
                 "la": "Philippus Apostolus",
@@ -698,6 +708,16 @@
         }
     },
     "05-11": {
+        "records/patrons/iacobus/min": {
+            "name": {
+                "la": "Iacobus Minor Apostolus",
+                "en": "James the Less Apostle",
+                "pl": "Jakub Mniejszy Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "11 V"
+            }
+        },
         "records/patrons/philippus/apo": {
             "name": {
                 "la": "Philippus Apostolus",

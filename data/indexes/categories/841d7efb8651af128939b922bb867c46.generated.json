@@ -123,6 +123,11 @@
             "en": "James the Great",
             "pl": "Jakub Większy Apostoł"
         },
+        "records/patrons/iacobus/min": {
+            "la": "Iacobus Minor Apostolus",
+            "en": "James the Less Apostle",
+            "pl": "Jakub Mniejszy Apostoł"
+        },
         "records/patrons/iarognievus/woj": {
             "pl": "Jarogniew Wojciechowski",
             "en": "Jarogniew Wojciechowski",

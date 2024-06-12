@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Frater Domini"
+    },
+    "translations": {
+        "la": [
+            "Frater Domini"
+        ],
+        "en": [
+            "Brother of Lord"
+        ],
+        "pl": [
+            "Brat Pana"
+        ]
+    },
+    "links": {
+        "records/patrons/iacobus/min": {
+            "la": "Iacobus Minor Apostolus",
+            "en": "James the Less Apostle",
+            "pl": "Jakub Mniejszy Apostoł"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "names": {
+    "la": [
+      "Iacobus Minor Apostolus"
+    ],
+    "en": [
+      "James the Less Apostle",
+      "James the Younger Apostle"
+    ],
+    "pl": [
+      "Jakub Mniejszy Apostoł",
+      "Jakub Młodszy Apostoł"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Frater Domini",
+      "en": "Brother of Lord",
+      "pl": "Brat Pana"
+    },
+    {
+      "la": "Primus Hierosolymorum Episcopus",
+      "en": "First Bishop of Jerusalem",
+      "pl": "Pierwszy Biskup Jerozolimy"
+    }
+  ],
+
+  "died": ["~62"],
+
+  "also-in-martyrology": ["05-03", "05-11"],
+
+  "forenames": ["iacobus"],
+  "categories": ["vir", "apostolus", "martyr", "episcopus"]
+}

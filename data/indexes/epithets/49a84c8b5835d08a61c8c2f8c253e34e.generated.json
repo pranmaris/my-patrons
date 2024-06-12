@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Primus Hierosolymorum Episcopus"
+    },
+    "translations": {
+        "la": [
+            "Primus Hierosolymorum Episcopus"
+        ],
+        "en": [
+            "First Bishop of Jerusalem"
+        ],
+        "pl": [
+            "Pierwszy Biskup Jerozolimy"
+        ]
+    },
+    "links": {
+        "records/patrons/iacobus/min": {
+            "la": "Iacobus Minor Apostolus",
+            "en": "James the Less Apostle",
+            "pl": "Jakub Mniejszy Apostoł"
+        }
+    }
+}
