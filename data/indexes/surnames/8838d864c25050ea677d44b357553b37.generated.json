@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Ledóchowska"
+    },
+    "translations": {
+        "pl": [
+            "Ledóchowska"
+        ]
+    },
+    "links": {
+        "records/patrons/ursula/led": {
+            "pl": "Urszula Ledóchowska",
+            "en": "Ursula Ledóchowska",
+            "la": "Urszula Ledóchowska"
+        }
+    }
+}

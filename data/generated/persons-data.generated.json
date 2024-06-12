@@ -3179,6 +3179,24 @@
         ],
         "feasts": []
     },
+    "patrons/ursula": {
+        "names": {
+            "la": "Ursula",
+            "en": "Ursula",
+            "pl": "Urszula"
+        }
+    },
+    "patrons/ursula/led": {
+        "names": {
+            "pl": "Urszula Ledóchowska",
+            "en": "Ursula Ledóchowska",
+            "la": "Urszula Ledóchowska"
+        },
+        "died": [
+            "1939-05-29"
+        ],
+        "feasts": []
+    },
     "patrons/vincentius": {
         "names": {
             "la": "Vincentius",

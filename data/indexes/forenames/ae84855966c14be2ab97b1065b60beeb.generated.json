@@ -1,24 +1,20 @@
 {
     "names": {
-        "la": "Iulia"
+        "la": "Ursula",
+        "en": "Ursula"
     },
     "translations": {
         "la": [
-            "Iulia"
+            "Ursula"
         ],
         "en": [
-            "Julia"
+            "Ursula"
         ],
         "pl": [
-            "Julia"
+            "Urszula"
         ]
     },
     "links": {
-        "records/patrons/maria/rap": {
-            "pl": "Maria Sergia od Matki Bożej Bolesnej",
-            "en": "Mary Sergia of Our Lady of Sorrows",
-            "la": "Maria Sergia a Virgine Perdolenti"
-        },
         "records/patrons/ursula/led": {
             "pl": "Urszula Ledóchowska",
             "en": "Ursula Ledóchowska",

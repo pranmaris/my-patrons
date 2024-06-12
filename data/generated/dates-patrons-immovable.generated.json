@@ -794,6 +794,19 @@
             }
         }
     },
+    "05-29": {
+        "records/patrons/ursula/led": {
+            "name": {
+                "pl": "Urszula Ledóchowska",
+                "en": "Ursula Ledóchowska",
+                "la": "Urszula Ledóchowska"
+            },
+            "sources": {
+                "reliable-death-anniversary": "29 V",
+                "other-martyrology-days": "29 V"
+            }
+        }
+    },
     "05-30": {
         "records/patrons/ioanna/arc": {
             "name": {

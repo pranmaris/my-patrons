@@ -1,0 +1,42 @@
+{
+  "names": {
+    "pl": [
+      "Urszula Ledóchowska",
+      "Julia Ledóchowska"
+    ],
+    "en": [
+      "Ursula Ledóchowska",
+      "Julia Ledóchowska"
+    ],
+    "la": [
+      "Urszula Ledóchowska",
+      "Iulia Ledóchowska"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Ledóchowska"
+    }
+  ],
+
+  "born": ["1865-04-17"],
+  "died": ["1939-05-29"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1983-06-20"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2003-05-18"
+  },
+
+  "also-in-martyrology": ["05-29"],
+
+  "forenames": ["ursula", "iulia"],
+  "categories": ["femina", "virgo", "fundatrix"],
+
+  "order": ["usjk"],
+  "order-founder": ["usjk"]
+}

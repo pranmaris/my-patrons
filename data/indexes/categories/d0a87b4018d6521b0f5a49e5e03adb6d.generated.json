@@ -192,6 +192,11 @@
             "en": "Teresa Benedicta of the Cross",
             "la": "Teresia Benedicta a Cruce",
             "pl": "Teresa Benedykta od Krzyża"
+        },
+        "records/patrons/ursula/led": {
+            "pl": "Urszula Ledóchowska",
+            "en": "Ursula Ledóchowska",
+            "la": "Urszula Ledóchowska"
         }
     }
 }
