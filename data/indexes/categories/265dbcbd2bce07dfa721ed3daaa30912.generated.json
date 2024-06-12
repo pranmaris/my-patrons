@@ -296,6 +296,11 @@
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
         },
+        "records/patrons/philippus/apo": {
+            "la": "Philippus Apostolus",
+            "en": "Philip Apostle",
+            "pl": "Filip Apostoł"
+        },
         "records/patrons/sabigothon/aur": {
             "la": "Sabigothon Natalia (cum Aurelius)",
             "en": "Sabigothon Natalie (with Aurelius)",

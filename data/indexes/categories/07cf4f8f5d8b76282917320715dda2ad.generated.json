@@ -478,6 +478,11 @@
             "la": "Patrus Iulianus Eymard",
             "pl": "Piotr Julian Eymard"
         },
+        "records/patrons/philippus/apo": {
+            "la": "Philippus Apostolus",
+            "en": "Philip Apostle",
+            "pl": "Filip Apostoł"
+        },
         "records/patrons/philippus/ner": {
             "it": "Filippo Neri",
             "en": "Fhilip Neri",

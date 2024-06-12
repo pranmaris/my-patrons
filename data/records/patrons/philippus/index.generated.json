@@ -1,4 +1,9 @@
 {
+    "apo": {
+        "la": "Philippus Apostolus",
+        "en": "Philip Apostle",
+        "pl": "Filip Apostoł"
+    },
     "ner": {
         "it": "Filippo Neri",
         "en": "Fhilip Neri",

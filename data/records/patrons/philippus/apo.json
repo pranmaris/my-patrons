@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+        "Philippus Apostolus"
+    ],
+    "en": [
+        "Philip Apostle"
+    ],
+    "pl": [
+        "Filip Apostoł"
+    ]
+  },
+
+  "died": ["~81"],
+
+  "also-in-martyrology": ["05-03", "05-11"],
+
+  "forenames": ["philippus"],
+  "categories": ["vir", "apostolus", "martyr"]
+}

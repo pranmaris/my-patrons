@@ -182,6 +182,11 @@
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
         },
+        "records/patrons/philippus/apo": {
+            "la": "Philippus Apostolus",
+            "en": "Philip Apostle",
+            "pl": "Filip Apostoł"
+        },
         "records/patrons/saturninus/tol": {
             "la": "Saturninus Tolosanensis",
             "en": "Saturnin of Toulouse",

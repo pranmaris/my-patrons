@@ -601,6 +601,18 @@
             }
         }
     },
+    "05-03": {
+        "records/patrons/philippus/apo": {
+            "name": {
+                "la": "Philippus Apostolus",
+                "en": "Philip Apostle",
+                "pl": "Filip Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "3 V"
+            }
+        }
+    },
     "05-04": {
         "records/patrons/florianus/lau": {
             "name": {
@@ -682,6 +694,18 @@
             },
             "sources": {
                 "other-martyrology-days": "9 V"
+            }
+        }
+    },
+    "05-11": {
+        "records/patrons/philippus/apo": {
+            "name": {
+                "la": "Philippus Apostolus",
+                "en": "Philip Apostle",
+                "pl": "Filip Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "11 V"
             }
         }
     },

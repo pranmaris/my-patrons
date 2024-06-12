@@ -2753,6 +2753,17 @@
             "pl": "Filip"
         }
     },
+    "patrons/philippus/apo": {
+        "names": {
+            "la": "Philippus Apostolus",
+            "en": "Philip Apostle",
+            "pl": "Filip Apostoł"
+        },
+        "died": [
+            "~81"
+        ],
+        "feasts": []
+    },
     "patrons/philippus/ner": {
         "names": {
             "it": "Filippo Neri",
