@@ -453,6 +453,11 @@
         "en": "Isidore",
         "pl": "Izydor"
     },
+    "iudas": {
+        "la": "Iudas",
+        "en": "Judas",
+        "pl": "Judasz"
+    },
     "iulia": {
         "la": "Iulia",
         "en": "Julia",
@@ -769,6 +774,11 @@
         "de": "Therese",
         "fr": "Thérèse",
         "es": "Teresa"
+    },
+    "thaddaeus": {
+        "la": "Thaddaeus",
+        "en": "Thaddaeus",
+        "pl": "Tadeusz"
     },
     "ursula": {
         "la": "Ursula",

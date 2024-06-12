@@ -1839,6 +1839,24 @@
         ],
         "feasts": []
     },
+    "patrons/iudas": {
+        "names": {
+            "la": "Iudas",
+            "en": "Judas",
+            "pl": "Judasz"
+        }
+    },
+    "patrons/iudas/tha": {
+        "names": {
+            "la": "Iudas Thaddaeus",
+            "en": "Judas Thaddaeus",
+            "pl": "Juda Tadeusz Apostoł"
+        },
+        "died": [
+            "~80"
+        ],
+        "feasts": []
+    },
     "patrons/iustus": {
         "names": {
             "la": "Iustus",

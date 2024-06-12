@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Judas",
+        "en": "Judas"
+    },
+    "translations": {
+        "la": [
+            "Iudas",
+            "Judas"
+        ],
+        "en": [
+            "Judas",
+            "Jude"
+        ],
+        "pl": [
+            "Judasz",
+            "Juda"
+        ]
+    },
+    "links": {
+        "records/patrons/iudas/tha": {
+            "la": "Iudas Thaddaeus",
+            "en": "Judas Thaddaeus",
+            "pl": "Juda Tadeusz Apostoł"
+        }
+    }
+}

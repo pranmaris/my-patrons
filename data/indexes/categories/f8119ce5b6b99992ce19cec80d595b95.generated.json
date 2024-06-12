@@ -35,6 +35,11 @@
             "en": "John the Evangelist",
             "pl": "Jan Ewangelista"
         },
+        "records/patrons/iudas/tha": {
+            "la": "Iudas Thaddaeus",
+            "en": "Judas Thaddaeus",
+            "pl": "Juda Tadeusz Apostoł"
+        },
         "records/patrons/matthaeus/eva": {
             "he": "מתיו האוונגליסט",
             "en": "Matthew the Evengelist",

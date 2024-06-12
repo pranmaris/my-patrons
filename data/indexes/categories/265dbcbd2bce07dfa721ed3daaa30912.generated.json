@@ -193,6 +193,11 @@
             "la": "Isaias",
             "pl": "Izajasz"
         },
+        "records/patrons/iudas/tha": {
+            "la": "Iudas Thaddaeus",
+            "en": "Judas Thaddaeus",
+            "pl": "Juda Tadeusz Apostoł"
+        },
         "records/patrons/iustus/pas": {
             "la": "Iustus (cum Pastor)",
             "en": "Justus (with Pastor)",

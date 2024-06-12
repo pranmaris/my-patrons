@@ -2134,6 +2134,18 @@
             }
         }
     },
+    "10-28": {
+        "records/patrons/iudas/tha": {
+            "name": {
+                "la": "Iudas Thaddaeus",
+                "en": "Judas Thaddaeus",
+                "pl": "Juda Tadeusz Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "28 X"
+            }
+        }
+    },
     "11-01": {
         "records/patrons/multi/san": {
             "name": {

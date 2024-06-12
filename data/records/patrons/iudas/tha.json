@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Iudas Thaddaeus",
+      "Iudas Iacobi"
+    ],
+    "en": [
+      "Judas Thaddaeus"
+    ],
+    "pl": [
+      "Juda Tadeusz Apostoł"
+    ]
+  },
+
+  "died": ["~80"],
+
+  "also-in-martyrology": ["10-28"],
+
+  "forenames": ["iudas", "thaddaeus"],
+  "categories": ["vir", "apostolus", "martyr"]
+}

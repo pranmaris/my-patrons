@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "Sprawiedliwy"
+    },
+    "translations": {
+        "la": [
+            "Iustus"
+        ],
+        "en": [
+            "Just",
+            "the Righteous"
+        ],
+        "pl": [
+            "Sprawiedliwy"
+        ]
+    },
+    "links": {
+        "records/patrons/iacobus/min": {
+            "la": "Iacobus Minor Apostolus",
+            "en": "James the Less Apostle",
+            "pl": "Jakub Mniejszy Apostoł"
+        }
+    }
+}
