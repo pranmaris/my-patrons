@@ -1,25 +1,20 @@
 {
     "names": {
-        "la": "Simon",
-        "en": "Simon"
+        "la": "Cananaeus"
     },
     "translations": {
         "la": [
-            "Simon"
+            "Cananaeus",
+            "Chananaeus"
         ],
         "en": [
-            "Simon"
+            "Canaanite"
         ],
         "pl": [
-            "Szymon"
+            "Kananejczyk"
         ]
     },
     "links": {
-        "records/patrons/petrus/apo": {
-            "la": "Petrus",
-            "en": "Peter the Apostle",
-            "pl": "Piotr Apostoł"
-        },
         "records/patrons/simon/apo": {
             "la": "Simon Apostolus",
             "en": "Simon Apostle",

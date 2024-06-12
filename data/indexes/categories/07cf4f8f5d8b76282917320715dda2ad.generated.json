@@ -549,6 +549,11 @@
             "en": "Zygmunt Szczęsny Feliński",
             "la": "Sigismundus Felix Feliński"
         },
+        "records/patrons/simon/apo": {
+            "la": "Simon Apostolus",
+            "en": "Simon Apostle",
+            "pl": "Szymon Apostoł"
+        },
         "records/patrons/stanislaus/cra": {
             "pl": "Stanisław ze Szczepanowa",
             "en": "Stanislaus of Szczepanów",

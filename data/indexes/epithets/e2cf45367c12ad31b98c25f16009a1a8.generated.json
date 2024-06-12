@@ -1,25 +1,19 @@
 {
     "names": {
-        "la": "Simon",
-        "en": "Simon"
+        "en": "Zealot"
     },
     "translations": {
         "la": [
-            "Simon"
+            "Zelotes"
         ],
         "en": [
-            "Simon"
+            "Zealot"
         ],
         "pl": [
-            "Szymon"
+            "Zelotes"
         ]
     },
     "links": {
-        "records/patrons/petrus/apo": {
-            "la": "Petrus",
-            "en": "Peter the Apostle",
-            "pl": "Piotr Apostoł"
-        },
         "records/patrons/simon/apo": {
             "la": "Simon Apostolus",
             "en": "Simon Apostle",

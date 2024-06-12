@@ -1,0 +1,33 @@
+{
+  "names": {
+    "la": [
+      "Simon Apostolus"
+    ],
+    "en": [
+      "Simon Apostle"
+    ],
+    "pl": [
+      "Szymon Apostoł"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": ["Cananaeus", "Chananaeus"],
+      "en": "Canaanite",
+      "pl": "Kananejczyk"
+    },
+    {
+      "la": "Zelotes",
+      "en": "Zealot",
+      "pl": "Zelotes"
+    }
+  ],
+
+  "died": ["~80"],
+
+  "also-in-martyrology": ["10-28"],
+
+  "forenames": ["simon"],
+  "categories": ["vir", "apostolus", "martyr"]
+}

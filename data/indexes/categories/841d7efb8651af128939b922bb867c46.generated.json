@@ -207,6 +207,11 @@
             "en": "Saturnin of Toulouse",
             "pl": "Saturnin z Tuluzy"
         },
+        "records/patrons/simon/apo": {
+            "la": "Simon Apostolus",
+            "en": "Simon Apostle",
+            "pl": "Szymon Apostoł"
+        },
         "records/patrons/stanislaus/cra": {
             "pl": "Stanisław ze Szczepanowa",
             "en": "Stanislaus of Szczepanów",

@@ -3101,6 +3101,24 @@
         ],
         "feasts": []
     },
+    "patrons/simon": {
+        "names": {
+            "la": "Simon",
+            "en": "Simon",
+            "pl": "Szymon"
+        }
+    },
+    "patrons/simon/apo": {
+        "names": {
+            "la": "Simon Apostolus",
+            "en": "Simon Apostle",
+            "pl": "Szymon Apostoł"
+        },
+        "died": [
+            "~80"
+        ],
+        "feasts": []
+    },
     "patrons/sophia": {
         "names": {
             "la": "Sophia",

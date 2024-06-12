@@ -2144,6 +2144,16 @@
             "sources": {
                 "other-martyrology-days": "28 X"
             }
+        },
+        "records/patrons/simon/apo": {
+            "name": {
+                "la": "Simon Apostolus",
+                "en": "Simon Apostle",
+                "pl": "Szymon Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "28 X"
+            }
         }
     },
     "11-01": {
