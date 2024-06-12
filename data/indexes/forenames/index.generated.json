@@ -95,6 +95,9 @@
         "la": "Cosmas",
         "en": "Cosmas"
     },
+    "0f4e53159862ba021875b71d9d504d61": {
+        "pl": "Bonifacy"
+    },
     "1176418e7cc958df81784bd836b4d2f2": {
         "cz": "Vojtěch"
     },
@@ -394,6 +397,9 @@
     "4e165e6c334cc2647c2774c8c663a639": {
         "la": "Albertus"
     },
+    "4fce54f456642e3f8e052d64877aa1f7": {
+        "en": "Boniface"
+    },
     "4ff0303e6c501a733d9a065a33dbe5a6": {
         "en": "Vojtech",
         "la": "Vojtech"
@@ -524,6 +530,9 @@
     "6a1a376d8169cfc1835f59ac934edbb7": {
         "la": "Joseph",
         "en": "Joseph"
+    },
+    "6a68d4cbe6a80e92cfdc6924abc5883f": {
+        "la": "Winfridus"
     },
     "6c8b4a296cdee01df1df82596b1d2e2d": {
         "la": "Benedicta",
@@ -660,6 +669,9 @@
     "868694d8ebdf741537033c24eac17042": {
         "la": "Ezechiel",
         "pl": "Ezechiel"
+    },
+    "8741231c092fd0837b6a179aae89bd8a": {
+        "la": "Bonifatius"
     },
     "877fb7c9b4f0df10bbbc2cf8c65e5d87": {
         "la": "Antonius"
@@ -1290,12 +1302,18 @@
     "f92e4d1b5a0c6517c9f535ed7e913b09": {
         "pl": "Wiele"
     },
+    "f9565e11b7c4df433dd6f4edc8cb055f": {
+        "en": "Winfreth"
+    },
     "f9a378fe142ae10293adc18ce3ac03cd": {
         "la": "Marcellinus",
         "en": "Marcellinus"
     },
     "fc69efaba5c47ad5742a75bad9a90a76": {
         "it": "Alfonso"
+    },
+    "fcc819b2b0453249f6da6ef7d8f063f5": {
+        "pl": "Wynfryd"
     },
     "fd284a7ba3215a33995aacfc9b38f234": {
         "la": "Deusdedit",

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Wynfryd"
+    },
+    "translations": {
+        "la": [
+            "Winfridus"
+        ],
+        "en": [
+            "Winfreth"
+        ],
+        "pl": [
+            "Wynfryd"
+        ]
+    },
+    "links": {
+        "records/patrons/bonifatius/win": {
+            "en": "Boniface Wynfreth",
+            "la": "Bonifatius Winfrid",
+            "pl": "Bonifacy Wynfryd"
+        }
+    }
+}

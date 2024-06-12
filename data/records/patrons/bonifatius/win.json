@@ -1,0 +1,30 @@
+{
+  "names": {
+    "en": [
+      "Boniface Wynfreth",
+      "Apostle to the Germans"
+    ],
+    "la": [
+      "Bonifatius Winfrid"
+    ],
+    "pl": [
+      "Bonifacy Wynfryd"
+    ]
+  },
+
+  "epithets": [
+    {
+      "en": "Apostle of the Germans",
+      "la": "Germanorum Apostolus",
+      "pl": "Apostoł Germanii"
+    }
+  ],
+
+  "born": [">672", "<675"],
+  "died": ["754-06-05"],
+
+  "also-in-martyrology": ["06-05"],
+
+  "forenames": ["bonifatius", "winfridus"],
+  "categories": ["vir", "martyr", "episcopus", "monachus"]
+}

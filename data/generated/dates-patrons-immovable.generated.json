@@ -836,6 +836,17 @@
         }
     },
     "06-05": {
+        "records/patrons/bonifatius/win": {
+            "name": {
+                "en": "Boniface Wynfreth",
+                "la": "Bonifatius Winfrid",
+                "pl": "Bonifacy Wynfryd"
+            },
+            "sources": {
+                "reliable-death-anniversary": "5 VI",
+                "other-martyrology-days": "5 VI"
+            }
+        },
         "records/patrons/margarita/sze": {
             "name": {
                 "pl": "Małgorzata Łucja Szewczyk",

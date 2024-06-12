@@ -103,6 +103,11 @@
         "pl": "Bernardyn",
         "it": "Bernardino"
     },
+    "bonifatius": {
+        "la": "Bonifatius",
+        "en": "Boniface",
+        "pl": "Bonifacy"
+    },
     "boromea": {
         "la": "Boromea",
         "en": "Boromea",
@@ -801,6 +806,11 @@
         "la": "Wilfridus",
         "en": "Wilfrid",
         "pl": "Wilfryd"
+    },
+    "winfridus": {
+        "la": "Winfridus",
+        "en": "Winfreth",
+        "pl": "Wynfryd"
     },
     "xystus": {
         "la": "Xystus",

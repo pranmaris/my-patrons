@@ -662,6 +662,24 @@
         ],
         "feasts": []
     },
+    "patrons/bonifatius": {
+        "names": {
+            "la": "Bonifatius",
+            "en": "Boniface",
+            "pl": "Bonifacy"
+        }
+    },
+    "patrons/bonifatius/win": {
+        "names": {
+            "en": "Boniface Wynfreth",
+            "la": "Bonifatius Winfrid",
+            "pl": "Bonifacy Wynfryd"
+        },
+        "died": [
+            "754-06-05"
+        ],
+        "feasts": []
+    },
     "patrons/bruno": {
         "names": {
             "la": "Bruno",

@@ -20,6 +20,11 @@
             "la": "Adalbertus Pragensis",
             "pl": "Wojciech Sławnikowic"
         },
+        "records/patrons/bonifatius/win": {
+            "en": "Boniface Wynfreth",
+            "la": "Bonifatius Winfrid",
+            "pl": "Bonifacy Wynfryd"
+        },
         "records/patrons/cyrillus/met": {
             "la": "Cyrillus (cum Methodius)",
             "en": "Cyril of Thessalonica",

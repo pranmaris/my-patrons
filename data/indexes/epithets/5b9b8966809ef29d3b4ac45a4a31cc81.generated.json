@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Apostoł Germanii"
+    },
+    "translations": {
+        "en": [
+            "Apostle of the Germans"
+        ],
+        "la": [
+            "Germanorum Apostolus"
+        ],
+        "pl": [
+            "Apostoł Germanii"
+        ]
+    },
+    "links": {
+        "records/patrons/bonifatius/win": {
+            "en": "Boniface Wynfreth",
+            "la": "Bonifatius Winfrid",
+            "pl": "Bonifacy Wynfryd"
+        }
+    }
+}
