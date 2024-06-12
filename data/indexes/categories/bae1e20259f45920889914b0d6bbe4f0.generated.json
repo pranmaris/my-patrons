@@ -31,6 +31,12 @@
             "la": "Bernardinus Senensis",
             "pl": "Bernardyn ze Sieny"
         },
+        "records/patrons/carolus/fou": {
+            "fr": "Charles de Foucauld",
+            "en": "Charles de Foucauld",
+            "la": "Carolus de Foucauld",
+            "pl": "Karol de Foucauld"
+        },
         "records/patrons/franciscus/xav": {
             "es": "Francisco Javier",
             "en": "Francis Xavier",

@@ -657,7 +657,8 @@
                 "la": "Antonius Bajewski"
             },
             "sources": {
-                "reliable-death-anniversary": "8 V"
+                "reliable-death-anniversary": "8 V",
+                "other-martyrology-days": "8 V"
             }
         },
         "records/patrons/stanislaus/cra": {
@@ -2263,6 +2264,19 @@
             "sources": {
                 "reliable-death-anniversary": "30 XI",
                 "other-martyrology-days": "30 XI"
+            }
+        }
+    },
+    "12-01": {
+        "records/patrons/carolus/fou": {
+            "name": {
+                "fr": "Charles de Foucauld",
+                "en": "Charles de Foucauld",
+                "la": "Carolus de Foucauld",
+                "pl": "Karol de Foucauld"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 XII"
             }
         }
     },

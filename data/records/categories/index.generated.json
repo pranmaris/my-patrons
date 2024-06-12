@@ -224,6 +224,11 @@
         "en": "king",
         "pl": "król"
     },
+    "sacerdos-saecularis": {
+        "la": "sacerdos saecularis",
+        "en": "secular priest",
+        "pl": "kapłan świecki"
+    },
     "sacerdos": {
         "la": "sacerdos",
         "en": "priest",

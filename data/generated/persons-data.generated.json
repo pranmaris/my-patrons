@@ -744,6 +744,7 @@
             "la": "Carolus",
             "en": "Charles",
             "pl": "Karol",
+            "fr": "Charles",
             "it": "Carlo"
         }
     },
@@ -756,6 +757,18 @@
         },
         "died": [
             "2006-10-12"
+        ],
+        "feasts": []
+    },
+    "patrons/carolus/fou": {
+        "names": {
+            "fr": "Charles de Foucauld",
+            "en": "Charles de Foucauld",
+            "la": "Carolus de Foucauld",
+            "pl": "Karol de Foucauld"
+        },
+        "died": [
+            "1916-12-01"
         ],
         "feasts": []
     },

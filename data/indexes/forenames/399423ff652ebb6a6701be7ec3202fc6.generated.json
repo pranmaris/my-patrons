@@ -1,6 +1,7 @@
 {
     "names": {
-        "en": "Charles"
+        "en": "Charles",
+        "fr": "Charles"
     },
     "translations": {
         "la": [
@@ -12,6 +13,9 @@
         "pl": [
             "Karol"
         ],
+        "fr": [
+            "Charles"
+        ],
         "it": [
             "Carlo"
         ]
@@ -22,6 +26,12 @@
             "en": "Charles Acutis",
             "la": "Carolus Acutis",
             "pl": "Karol Acutis"
+        },
+        "records/patrons/carolus/fou": {
+            "fr": "Charles de Foucauld",
+            "en": "Charles de Foucauld",
+            "la": "Carolus de Foucauld",
+            "pl": "Karol de Foucauld"
         }
     }
 }
