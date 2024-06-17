@@ -1,0 +1,34 @@
+{
+  "names": {
+    "pl": [
+      "Bronisław Kostkowski",
+      "Bronisław Kostowski"
+    ],
+    "la": [
+      "Bronislaus Kostkowski",
+      "Bronislaus Kostowski"
+    ],
+    "en": [
+      "Bronislaus Kostkowski",
+      "Bronislaus Kostowski"
+    ]
+  },
+  "surnames": [
+    {
+      "pl": "Kostowski"
+    }
+  ],
+
+  "born": ["1915-03-11"],
+  "died": ["1942-09-27"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["11-27"],
+
+  "forenames": ["bronislaus"],
+  "categories": ["vir", "martyr"]
+}

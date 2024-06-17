@@ -1,0 +1,42 @@
+{
+  "names": {
+    "es": [
+      "Martín de Porres",
+      "Martín de Porres Velázquez"
+    ],
+    "la": [
+      "Martinus de Porres"
+    ],
+    "en": [
+      "Martin de Porres"
+    ],
+    "pl": [
+      "Marcin de Porres"
+    ]
+  },
+
+  "surnames": [
+    {
+      "es": "de Porres"
+    }
+  ],
+
+  "born": ["1579-12-09"],
+  "died": ["1639-11-03"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1837-10-29"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1962-05-06"
+  },
+
+  "also-in-martyrology": ["11-03"],
+
+  "forenames": ["martinus"],
+  "categories": ["vir", "religiosus"],
+
+  "order": ["op"]
+}

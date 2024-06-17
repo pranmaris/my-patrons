@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "acolyte"
+    },
+    "translations": {
+        "la": [
+            "acolytus"
+        ],
+        "en": [
+            "acolyte"
+        ],
+        "pl": [
+            "akolita"
+        ]
+    },
+    "links": {
+        "records/patrons/tarsicius/aco": {
+            "la": "Tarsicius Acolytus",
+            "en": "Tarcisius Acolyte",
+            "pl": "Tarsycjusz Akolita"
+        }
+    }
+}

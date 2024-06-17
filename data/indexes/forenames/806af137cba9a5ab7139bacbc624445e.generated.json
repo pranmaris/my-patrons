@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Edmundus"
+    },
+    "translations": {
+        "la": [
+            "Edmundus"
+        ],
+        "en": [
+            "Edmund"
+        ],
+        "pl": [
+            "Edmund"
+        ]
+    },
+    "links": {
+        "records/patrons/edmundus/boj": {
+            "pl": "Edmund Bojanowski",
+            "la": "Edmundus Bojanowski",
+            "en": "Edmund Bojanowski"
+        }
+    }
+}

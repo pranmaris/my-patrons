@@ -38,6 +38,18 @@
             }
         }
     },
+    "01-14": {
+        "records/patrons/malachias/pro": {
+            "name": {
+                "la": "Malachias Propheta",
+                "en": "Malachi the Prophet",
+                "pl": "Malachiasz Prorok"
+            },
+            "sources": {
+                "other-martyrology-days": "14 I"
+            }
+        }
+    },
     "01-21": {
         "records/patrons/agnes/rom": {
             "name": {
@@ -372,6 +384,19 @@
             },
             "sources": {
                 "other-martyrology-days": "24 III"
+            }
+        }
+    },
+    "03-28": {
+        "records/patrons/ioannes/cap": {
+            "name": {
+                "it": "Giovanni da Capestrano",
+                "la": "Ioannes de Capistranus",
+                "en": "John of Capistrano",
+                "pl": "Jan Kapistran"
+            },
+            "sources": {
+                "other-martyrology-days": "28 III"
             }
         }
     },
@@ -858,6 +883,18 @@
             }
         }
     },
+    "06-07": {
+        "records/patrons/paulus/con": {
+            "name": {
+                "la": "Paulus Constantinopolitanus",
+                "en": "Paul of Constantinople",
+                "pl": "Paweł z Bizancjum"
+            },
+            "sources": {
+                "other-martyrology-days": "7 VI"
+            }
+        }
+    },
     "06-10": {
         "records/patrons/bogumilus/dob": {
             "name": {
@@ -867,6 +904,20 @@
             },
             "sources": {
                 "other-martyrology-days": "10 VI"
+            }
+        }
+    },
+    "06-12": {
+        "records/patrons/gaspar/ber": {
+            "name": {
+                "it": "Gaspare Bertoni",
+                "la": "Gaspar Bertoni",
+                "en": "Casper Bertoni",
+                "pl": "Kasper Bertoni"
+            },
+            "sources": {
+                "reliable-death-anniversary": "12 VI",
+                "other-martyrology-days": "12 VI"
             }
         }
     },
@@ -921,6 +972,31 @@
             }
         }
     },
+    "07-01": {
+        "records/patrons/aaron/lev": {
+            "name": {
+                "he": "אַהֲרֹן",
+                "la": "Aaron Levi",
+                "en": "Aaron the Levite",
+                "pl": "Aaron Lewi"
+            },
+            "sources": {
+                "other-martyrology-days": "1 VII"
+            }
+        }
+    },
+    "07-03": {
+        "records/patrons/thomas/apo": {
+            "name": {
+                "la": "Thomas Apostolus",
+                "en": "Thomas the Apostle",
+                "pl": "Tomasz Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "3 VII"
+            }
+        }
+    },
     "07-06": {
         "records/patrons/isaias/pro": {
             "name": {
@@ -931,6 +1007,18 @@
             },
             "sources": {
                 "other-martyrology-days": "6 VII"
+            }
+        }
+    },
+    "07-10": {
+        "records/patrons/philippus/fel": {
+            "name": {
+                "la": "Philippus (cum Felix, infra in Septem Fratribus)",
+                "en": "Philip (with Felix, one of Seven Brothers)",
+                "pl": "Filip (z Feliksem, jeden z Siedmiu Braci)"
+            },
+            "sources": {
+                "other-martyrology-days": "10 VII"
             }
         }
     },
@@ -946,6 +1034,18 @@
             }
         }
     },
+    "07-12": {
+        "records/patrons/veronica/hie": {
+            "name": {
+                "la": "Veronica",
+                "en": "Veronica",
+                "pl": "Weronika"
+            },
+            "sources": {
+                "other-memorial-days": "12 VII"
+            }
+        }
+    },
     "07-14": {
         "records/patrons/camillus/lel": {
             "name": {
@@ -957,6 +1057,20 @@
             "sources": {
                 "reliable-death-anniversary": "14 VII",
                 "other-martyrology-days": "14 VII"
+            }
+        }
+    },
+    "07-17": {
+        "records/patrons/hedwigis/hun": {
+            "name": {
+                "hu": "Anjou Hedvig",
+                "la": "Hedvigis Andegavensis",
+                "en": "Hedwig of Anjou",
+                "pl": "Jadwiga Andegaweńska"
+            },
+            "sources": {
+                "reliable-death-anniversary": "17 VII",
+                "other-martyrology-days": "17 VII"
             }
         }
     },
@@ -1011,6 +1125,16 @@
         }
     },
     "07-25": {
+        "records/patrons/christophorus/lyc": {
+            "name": {
+                "la": "Christophorus Lyciensis",
+                "en": "Christopher of Lycia",
+                "pl": "Krzysztof z Licji"
+            },
+            "sources": {
+                "other-martyrology-days": "25 VII"
+            }
+        },
         "records/patrons/iacobus/mai": {
             "name": {
                 "la": "Iacobus Maior Apostolus",
@@ -1044,6 +1168,20 @@
             },
             "sources": {
                 "other-martyrology-days": "27 VII"
+            }
+        }
+    },
+    "07-31": {
+        "records/patrons/ignatius/loy": {
+            "name": {
+                "es": "Ignacio de Loyola",
+                "la": "Ignatius de Loyola",
+                "en": "Ignatius of Loyola",
+                "pl": "Ignacy Loyola"
+            },
+            "sources": {
+                "reliable-death-anniversary": "31 VII",
+                "other-martyrology-days": "31 VII"
             }
         }
     },
@@ -1287,6 +1425,17 @@
                 "reliable-death-anniversary": "5 VIII",
                 "other-martyrology-days": "5 VIII"
             }
+        },
+        "records/patrons/cassianus/aug": {
+            "name": {
+                "fr": "Cassien d'Autun",
+                "la": "Cassianus episcopus Augustodunensis",
+                "en": "Cassian of Autun",
+                "pl": "Kasjan z Autun"
+            },
+            "sources": {
+                "other-martyrology-days": "5 VIII"
+            }
         }
     },
     "08-06": {
@@ -1336,6 +1485,17 @@
         }
     },
     "08-07": {
+        "records/patrons/edmundus/boj": {
+            "name": {
+                "pl": "Edmund Bojanowski",
+                "la": "Edmundus Bojanowski",
+                "en": "Edmund Bojanowski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 VIII",
+                "other-martyrology-days": "7 VIII"
+            }
+        },
         "records/patrons/xystus/2pp": {
             "name": {
                 "la": "Xystus Pp. II",
@@ -1471,6 +1631,16 @@
                 "reliable-death-anniversary": "15 VIII",
                 "other-martyrology-days": "15 VIII"
             }
+        },
+        "records/patrons/tarsicius/aco": {
+            "name": {
+                "la": "Tarsicius Acolytus",
+                "en": "Tarcisius Acolyte",
+                "pl": "Tarsycjusz Akolita"
+            },
+            "sources": {
+                "other-martyrology-days": "15 VIII"
+            }
         }
     },
     "08-16": {
@@ -1494,6 +1664,33 @@
             },
             "sources": {
                 "other-martyrology-days": "16 VIII"
+            }
+        }
+    },
+    "08-20": {
+        "records/patrons/pius/10p": {
+            "name": {
+                "it": "Papa Pio X",
+                "la": "Pius X",
+                "en": "Pope Pius X",
+                "pl": "Pius X"
+            },
+            "sources": {
+                "reliable-death-anniversary": "20 VIII",
+                "other-martyrology-days": "20 VIII"
+            }
+        }
+    },
+    "08-21": {
+        "records/patrons/pius/10p": {
+            "name": {
+                "it": "Papa Pio X",
+                "la": "Pius X",
+                "en": "Pope Pius X",
+                "pl": "Pius X"
+            },
+            "sources": {
+                "other-martyrology-days": "21 VIII"
             }
         }
     },
@@ -1577,6 +1774,16 @@
                 "reliable-death-anniversary": "24 VIII",
                 "other-martyrology-days": "24 VIII"
             }
+        },
+        "records/patrons/bartholomaeus/apo": {
+            "name": {
+                "la": "Bartholomaeus Apostolus",
+                "en": "Bartholomew the Apostle",
+                "pl": "Bartłomiej Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "24 VIII"
+            }
         }
     },
     "08-27": {
@@ -1641,6 +1848,31 @@
             }
         }
     },
+    "09-02": {
+        "records/patrons/antoninus/apa": {
+            "name": {
+                "la": "Antoninus de Apamea",
+                "en": "Antoninus of Apamea",
+                "pl": "Antonin z Apamei"
+            },
+            "sources": {
+                "other-martyrology-days": "2 IX"
+            }
+        }
+    },
+    "09-03": {
+        "records/patrons/pius/10p": {
+            "name": {
+                "it": "Papa Pio X",
+                "la": "Pius X",
+                "en": "Pope Pius X",
+                "pl": "Pius X"
+            },
+            "sources": {
+                "other-martyrology-days": "3 IX"
+            }
+        }
+    },
     "09-04": {
         "records/patrons/rosalia/pan": {
             "name": {
@@ -1664,6 +1896,18 @@
             },
             "sources": {
                 "other-martyrology-days": "6 IX"
+            }
+        }
+    },
+    "09-11": {
+        "records/patrons/paphnutius/epi": {
+            "name": {
+                "la": "Paphnutius Thebanus",
+                "en": "Paphnutius of Thebes",
+                "pl": "Pafnucy z Teb"
+            },
+            "sources": {
+                "other-martyrology-days": "11 IX"
             }
         }
     },
@@ -1772,7 +2016,31 @@
             }
         }
     },
+    "09-25": {
+        "records/patrons/sergius/rad": {
+            "name": {
+                "ru": "Сергий Радонежский",
+                "la": "Sergius de Radonez",
+                "en": "Sergius of Radonezh",
+                "pl": "Sergiusz z Radoneża"
+            },
+            "sources": {
+                "reliable-death-anniversary": "25 IX",
+                "other-martyrology-days": "25 IX"
+            }
+        }
+    },
     "09-27": {
+        "records/patrons/bronislaus/kos": {
+            "name": {
+                "pl": "Bronisław Kostkowski",
+                "la": "Bronislaus Kostkowski",
+                "en": "Bronislaus Kostkowski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "27 IX"
+            }
+        },
         "records/patrons/vincentius/pau": {
             "name": {
                 "fr": "Vincent de Paul",
@@ -1805,6 +2073,19 @@
             },
             "sources": {
                 "other-martyrology-days": "27 IX"
+            }
+        }
+    },
+    "09-28": {
+        "records/patrons/ioannes/p1p": {
+            "name": {
+                "it": "Giovanni Paolo I",
+                "la": "Ioannes Paulus Pp. I",
+                "en": "John Paul I",
+                "pl": "Jan Paweł I"
+            },
+            "sources": {
+                "reliable-death-anniversary": "28 IX"
             }
         }
     },
@@ -1868,6 +2149,17 @@
         }
     },
     "10-02": {
+        "records/patrons/maria/kra": {
+            "name": {
+                "pl": "Maria Antonina Kratochwil",
+                "la": "Maria Antonina Kratochwil",
+                "en": "Mary Antoinette Kratochwil"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 X",
+                "other-martyrology-days": "2 X"
+            }
+        },
         "records/patrons/multi/ang": {
             "name": {
                 "la": "Angeli Custodes",
@@ -1955,6 +2247,32 @@
             }
         }
     },
+    "10-07": {
+        "records/patrons/iustina/pat": {
+            "name": {
+                "it": "Giustina di Padova",
+                "la": "Iustina Patavina",
+                "en": "Justine of Padua",
+                "pl": "Justyna z Padwy"
+            },
+            "sources": {
+                "other-martyrology-days": "7 X"
+            }
+        }
+    },
+    "10-09": {
+        "records/patrons/dionysius/lut": {
+            "name": {
+                "fr": "Denis de Paris",
+                "la": "Dionysius Parisiensis",
+                "en": "Denis of Paris",
+                "pl": "Dionizy z Paryża"
+            },
+            "sources": {
+                "other-martyrology-days": "9 X"
+            }
+        }
+    },
     "10-11": {
         "records/patrons/gaudentius/rad": {
             "name": {
@@ -2017,6 +2335,17 @@
         }
     },
     "10-16": {
+        "records/patrons/anicetus/kop": {
+            "name": {
+                "pl": "Anicet Kopliński",
+                "la": "Anicetus Koplinski",
+                "en": "Anicetus Kopliński"
+            },
+            "sources": {
+                "reliable-death-anniversary": "16 X",
+                "other-martyrology-days": "16 X"
+            }
+        },
         "records/patrons/hedwigis/duc": {
             "name": {
                 "de": "Hedwig von Andechs",
@@ -2078,6 +2407,18 @@
             }
         }
     },
+    "10-19": {
+        "records/patrons/georgius/pop": {
+            "name": {
+                "pl": "Jerzy Popiełuszko",
+                "la": "Georgius Popiełuszko",
+                "en": "George Popiełuszko"
+            },
+            "sources": {
+                "reliable-death-anniversary": "19 X"
+            }
+        }
+    },
     "10-20": {
         "records/patrons/iacobus/str": {
             "name": {
@@ -2098,6 +2439,32 @@
             },
             "sources": {
                 "other-martyrology-days": "20 X"
+            }
+        }
+    },
+    "10-22": {
+        "records/patrons/marcus/hie": {
+            "name": {
+                "la": "Marcus Hierosolymitanus",
+                "en": "Mark of Jerusalem",
+                "pl": "Marek z Jerozolimy"
+            },
+            "sources": {
+                "other-martyrology-days": "22 X"
+            }
+        }
+    },
+    "10-23": {
+        "records/patrons/ioannes/cap": {
+            "name": {
+                "it": "Giovanni da Capestrano",
+                "la": "Ioannes de Capistranus",
+                "en": "John of Capistrano",
+                "pl": "Jan Kapistran"
+            },
+            "sources": {
+                "reliable-death-anniversary": "23 X",
+                "other-martyrology-days": "23 X"
             }
         }
     },
@@ -2168,6 +2535,20 @@
             }
         }
     },
+    "10-30": {
+        "records/patrons/alexius/zar": {
+            "name": {
+                "uk": "Олексій Васильович Зарицький",
+                "la": "Alexius Zaryckyj",
+                "en": "Lex Zaryckyy",
+                "pl": "Aleksy Zarycki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "30 X",
+                "other-martyrology-days": "30 X"
+            }
+        }
+    },
     "11-01": {
         "records/patrons/multi/san": {
             "name": {
@@ -2192,7 +2573,69 @@
             }
         }
     },
+    "11-03": {
+        "records/patrons/carolus/bor": {
+            "name": {
+                "it": "Carlo Borromeo",
+                "la": "Carolus Borromeo",
+                "en": "Charles Borromeo",
+                "pl": "Karol Boromeusz"
+            },
+            "sources": {
+                "reliable-death-anniversary": "3 XI",
+                "other-martyrology-days": "3 XI"
+            }
+        },
+        "records/patrons/martinus/por": {
+            "name": {
+                "es": "Martín de Porres",
+                "la": "Martinus de Porres",
+                "en": "Martin de Porres",
+                "pl": "Marcin de Porres"
+            },
+            "sources": {
+                "reliable-death-anniversary": "3 XI",
+                "other-martyrology-days": "3 XI"
+            }
+        }
+    },
+    "11-04": {
+        "records/patrons/carolus/bor": {
+            "name": {
+                "it": "Carlo Borromeo",
+                "la": "Carolus Borromeo",
+                "en": "Charles Borromeo",
+                "pl": "Karol Boromeusz"
+            },
+            "sources": {
+                "other-martyrology-days": "4 XI"
+            }
+        }
+    },
+    "11-05": {
+        "records/patrons/domninus/cae": {
+            "name": {
+                "la": "Domninus Caesariensis",
+                "en": "Domninus of Caesarea",
+                "pl": "Domnin z Cezarei"
+            },
+            "sources": {
+                "other-martyrology-days": "5 XI"
+            }
+        }
+    },
     "11-06": {
+        "records/patrons/antonius/bal": {
+            "name": {
+                "it": "Antonio Baldinucci",
+                "la": "Antonius Baldinucci",
+                "en": "Anthony Baldinucci",
+                "pl": "Antoni Baldinucci"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 XI"
+            }
+        },
         "records/patrons/leonardus/ere": {
             "name": {
                 "fr": "Léonard de Noblat",
@@ -2202,6 +2645,29 @@
             },
             "sources": {
                 "other-martyrology-days": "6 XI"
+            }
+        },
+        "records/patrons/paulus/con": {
+            "name": {
+                "la": "Paulus Constantinopolitanus",
+                "en": "Paul of Constantinople",
+                "pl": "Paweł z Bizancjum"
+            },
+            "sources": {
+                "other-martyrology-days": "6 XI"
+            }
+        }
+    },
+    "11-07": {
+        "records/patrons/antonius/bal": {
+            "name": {
+                "it": "Antonio Baldinucci",
+                "la": "Antonius Baldinucci",
+                "en": "Anthony Baldinucci",
+                "pl": "Antoni Baldinucci"
+            },
+            "sources": {
+                "other-martyrology-days": "7 XI"
             }
         }
     },
@@ -2229,6 +2695,18 @@
                 "other-martyrology-days": "8 XI"
             }
         },
+        "records/patrons/iosephus/ngu": {
+            "name": {
+                "vi": "Giuse Nguyễn Đình Nghi",
+                "la": "Iosephus Nguyen Dinh Nghi",
+                "en": "Joseph Nguyen Dinh Nghi",
+                "pl": "Józef Nguyen Dinh Nghi"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 XI",
+                "other-martyrology-days": "8 XI"
+            }
+        },
         "records/patrons/martinus/tur": {
             "name": {
                 "la": "Martinus Turonensis",
@@ -2249,6 +2727,18 @@
             },
             "sources": {
                 "other-martyrology-days": "11 XI"
+            }
+        }
+    },
+    "11-13": {
+        "records/patrons/antonius/nic": {
+            "name": {
+                "la": "Antoninus (cum Nicephorus)",
+                "en": "Antoninus (with Nicephorus)",
+                "pl": "Antonin (z Niceforem)"
+            },
+            "sources": {
+                "other-martyrology-days": "13 XI"
             }
         }
     },
@@ -2289,6 +2779,18 @@
             "sources": {
                 "reliable-death-anniversary": "18 XI",
                 "other-martyrology-days": "18 XI"
+            }
+        }
+    },
+    "11-20": {
+        "records/patrons/basilius/ant": {
+            "name": {
+                "la": "Basilius Antiochenus",
+                "en": "Basil of Antioch",
+                "pl": "Bazyli z Antiochii"
+            },
+            "sources": {
+                "other-martyrology-days": "20 XI"
             }
         }
     },
@@ -2343,6 +2845,18 @@
             }
         }
     },
+    "11-27": {
+        "records/patrons/bronislaus/kos": {
+            "name": {
+                "pl": "Bronisław Kostkowski",
+                "la": "Bronislaus Kostkowski",
+                "en": "Bronislaus Kostkowski"
+            },
+            "sources": {
+                "other-martyrology-days": "27 XI"
+            }
+        }
+    },
     "11-29": {
         "records/patrons/saturninus/tol": {
             "name": {
@@ -2383,6 +2897,17 @@
         }
     },
     "12-02": {
+        "records/patrons/raphael/chy": {
+            "name": {
+                "pl": "Rafał Chyliński",
+                "la": "Raphael Chylinski",
+                "en": "Raphael Chylinski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 XII",
+                "other-martyrology-days": "2 XII"
+            }
+        },
         "records/patrons/franciscus/xav": {
             "name": {
                 "es": "Francisco Javier",
@@ -2406,6 +2931,18 @@
             "sources": {
                 "reliable-death-anniversary": "3 XII",
                 "other-martyrology-days": "3 XII"
+            }
+        }
+    },
+    "12-04": {
+        "records/patrons/barbara/nic": {
+            "name": {
+                "la": "Barbara Nicomedensis",
+                "en": "Barbara of Nicomedia",
+                "pl": "Barbara z Nikomedii"
+            },
+            "sources": {
+                "other-martyrology-days": "4 XII"
             }
         }
     },
@@ -2434,6 +2971,32 @@
             }
         }
     },
+    "12-08": {
+        "records/patrons/aloysius/lig": {
+            "name": {
+                "pl": "Alojzy Liguda",
+                "la": "Aloysius Liguda",
+                "en": "Aloysius Liguda"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 XII",
+                "other-martyrology-days": "8 XII"
+            }
+        }
+    },
+    "12-11": {
+        "records/patrons/hieronymus/tif": {
+            "name": {
+                "it": "Jeronimo Ranuzzi",
+                "la": "Hieronymus Ranuzzi",
+                "en": "Jerome Ranuzzi",
+                "pl": "Hieronim Ranuzzi"
+            },
+            "sources": {
+                "other-martyrology-days": "11 XII"
+            }
+        }
+    },
     "12-13": {
         "records/patrons/lucia/syr": {
             "name": {
@@ -2459,6 +3022,18 @@
             }
         }
     },
+    "12-18": {
+        "records/patrons/malachias/pro": {
+            "name": {
+                "la": "Malachias Propheta",
+                "en": "Malachi the Prophet",
+                "pl": "Malachiasz Prorok"
+            },
+            "sources": {
+                "other-martyrology-days": "18 XII"
+            }
+        }
+    },
     "12-20": {
         "records/patrons/dominicus/exi": {
             "name": {
@@ -2470,6 +3045,18 @@
             "sources": {
                 "reliable-death-anniversary": "20 XII",
                 "other-martyrology-days": "20 XII"
+            }
+        }
+    },
+    "12-21": {
+        "records/patrons/thomas/apo": {
+            "name": {
+                "la": "Thomas Apostolus",
+                "en": "Thomas the Apostle",
+                "pl": "Tomasz Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "21 XII"
             }
         }
     },
@@ -2579,6 +3166,19 @@
             "sources": {
                 "reliable-death-anniversary": "28 XII",
                 "other-martyrology-days": "28 XII"
+            }
+        }
+    },
+    "12-29": {
+        "records/patrons/thomas/bec": {
+            "name": {
+                "en": "Thomas Becket",
+                "la": "Thomas Becket",
+                "pl": "Tomasz Becket"
+            },
+            "sources": {
+                "reliable-death-anniversary": "29 XII",
+                "other-martyrology-days": "29 XII"
             }
         }
     },

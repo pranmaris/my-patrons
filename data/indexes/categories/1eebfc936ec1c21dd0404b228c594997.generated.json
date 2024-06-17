@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/hedwigis/hun": {
+            "hu": "Anjou Hedvig",
+            "la": "Hedvigis Andegavensis",
+            "en": "Hedwig of Anjou",
+            "pl": "Jadwiga Andegaweńska"
+        },
         "records/patrons/maria/naz": {
             "arc": "ܡܪܝܡ",
             "en": "Mary, mother of Jesus",

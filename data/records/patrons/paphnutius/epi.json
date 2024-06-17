@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Paphnutius Thebanus"
+    ],
+    "en": [
+      "Paphnutius of Thebes"
+    ],
+    "pl": [
+      "Pafnucy z Teb"
+    ]
+  },
+
+  "died": [">301", "<400"],
+
+  "also-in-martyrology": ["09-11"],
+
+  "forenames": ["paphnutius"],
+  "categories": ["vir", "confessor", "episcopus"]
+}

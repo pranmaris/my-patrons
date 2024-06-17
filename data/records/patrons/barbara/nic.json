@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Barbara Nicomedensis"
+    ],
+    "en": [
+      "Barbara of Nicomedia"
+    ],
+    "pl": [
+      "Barbara z Nikomedii"
+    ]
+  },
+
+  "died": ["~305"],
+
+  "also-in-martyrology": ["12-04"],
+
+  "forenames": ["barbara"],
+  "categories": ["femina", "martyrix", "virgo"]
+}

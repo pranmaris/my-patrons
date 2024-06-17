@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Bronisław"
+    },
+    "translations": {
+        "la": [
+            "Bronislaus"
+        ],
+        "en": [
+            "Bronislaus"
+        ],
+        "pl": [
+            "Bronisław"
+        ]
+    },
+    "links": {
+        "records/patrons/bronislaus/kos": {
+            "pl": "Bronisław Kostkowski",
+            "la": "Bronislaus Kostkowski",
+            "en": "Bronislaus Kostkowski"
+        }
+    }
+}

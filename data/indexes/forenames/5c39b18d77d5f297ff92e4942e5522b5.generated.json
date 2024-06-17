@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Barbara",
+        "en": "Barbara",
+        "pl": "Barbara"
+    },
+    "translations": {
+        "la": [
+            "Barbara"
+        ],
+        "en": [
+            "Barbara"
+        ],
+        "pl": [
+            "Barbara"
+        ]
+    },
+    "links": {
+        "records/patrons/barbara/nic": {
+            "la": "Barbara Nicomedensis",
+            "en": "Barbara of Nicomedia",
+            "pl": "Barbara z Nikomedii"
+        }
+    }
+}

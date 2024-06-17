@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Kopliński"
+    },
+    "translations": {
+        "pl": [
+            "Kopliński"
+        ]
+    },
+    "links": {
+        "records/patrons/anicetus/kop": {
+            "pl": "Anicet Kopliński",
+            "la": "Anicetus Koplinski",
+            "en": "Anicetus Kopliński"
+        }
+    }
+}

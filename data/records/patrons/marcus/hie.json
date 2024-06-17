@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Marcus Hierosolymitanus"
+    ],
+    "en": [
+      "Mark of Jerusalem"
+    ],
+    "pl": [
+      "Marek z Jerozolimy"
+    ]
+  },
+
+  "died": ["~156"],
+
+  "also-in-martyrology": ["10-22"],
+
+  "forenames": ["marcus"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

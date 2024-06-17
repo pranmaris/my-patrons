@@ -14,6 +14,17 @@
         ]
     },
     "links": {
+        "records/patrons/alexius/zar": {
+            "uk": "Олексій Васильович Зарицький",
+            "la": "Alexius Zaryckyj",
+            "en": "Lex Zaryckyy",
+            "pl": "Aleksy Zarycki"
+        },
+        "records/patrons/aloysius/lig": {
+            "pl": "Alojzy Liguda",
+            "la": "Aloysius Liguda",
+            "en": "Aloysius Liguda"
+        },
         "records/patrons/andreas/bob": {
             "pl": "Andrzej Bobola",
             "en": "Andrew Bobola",
@@ -25,10 +36,21 @@
             "la": "Andreas Kim Tae-gŏn",
             "pl": "Andrzej Kim Tae-gŏn"
         },
+        "records/patrons/anicetus/kop": {
+            "pl": "Anicet Kopliński",
+            "la": "Anicetus Koplinski",
+            "en": "Anicetus Kopliński"
+        },
         "records/patrons/antonius/baj": {
             "pl": "Antoni Bajewski",
             "en": "Anthony Bajewski",
             "la": "Antonius Bajewski"
+        },
+        "records/patrons/antonius/bal": {
+            "it": "Antonio Baldinucci",
+            "la": "Antonius Baldinucci",
+            "en": "Anthony Baldinucci",
+            "pl": "Antoni Baldinucci"
         },
         "records/patrons/antonius/pat": {
             "pt": "Antônio de Pádua",
@@ -72,17 +94,41 @@
             "la": "Franciscus Xavier",
             "pl": "Franciszek Ksawery"
         },
+        "records/patrons/gaspar/ber": {
+            "it": "Gaspare Bertoni",
+            "la": "Gaspar Bertoni",
+            "en": "Casper Bertoni",
+            "pl": "Kasper Bertoni"
+        },
         "records/patrons/gaspar/buf": {
             "it": "Gaspare del Bufalo",
             "en": "Gaspar del Bufalo",
             "la": "Gaspar del Bufalo",
             "pl": "Kasper del Bufalo"
         },
+        "records/patrons/hieronymus/tif": {
+            "it": "Jeronimo Ranuzzi",
+            "la": "Hieronymus Ranuzzi",
+            "en": "Jerome Ranuzzi",
+            "pl": "Hieronim Ranuzzi"
+        },
+        "records/patrons/ignatius/loy": {
+            "es": "Ignacio de Loyola",
+            "la": "Ignatius de Loyola",
+            "en": "Ignatius of Loyola",
+            "pl": "Ignacy Loyola"
+        },
         "records/patrons/ioannes/bos": {
             "it": "Giovanni Bosco",
             "en": "John Bosco",
             "la": "Ioannes Bosco",
             "pl": "Jan Bosko"
+        },
+        "records/patrons/ioannes/cap": {
+            "it": "Giovanni da Capestrano",
+            "la": "Ioannes de Capistranus",
+            "en": "John of Capistrano",
+            "pl": "Jan Kapistran"
         },
         "records/patrons/ioannes/dun": {
             "de": "Johannes Duns Scotus",
@@ -106,6 +152,12 @@
             "en": "Josemaría Escrivá de Balaguer",
             "la": "Iosephus Maria Escrivá de Balaguer",
             "pl": "Josemaría Escrivá de Balaguer"
+        },
+        "records/patrons/iosephus/ngu": {
+            "vi": "Giuse Nguyễn Đình Nghi",
+            "la": "Iosephus Nguyen Dinh Nghi",
+            "en": "Joseph Nguyen Dinh Nghi",
+            "pl": "Józef Nguyen Dinh Nghi"
         },
         "records/patrons/maximilianus/kol": {
             "pl": "Maksymilian Maria Kolbe",
@@ -134,6 +186,11 @@
             "en": "Pio of Pietrelcina",
             "la": "Pius de Pietrelcina",
             "pl": "Pio z Pietrelciny"
+        },
+        "records/patrons/raphael/chy": {
+            "pl": "Rafał Chyliński",
+            "la": "Raphael Chylinski",
+            "en": "Raphael Chylinski"
         },
         "records/patrons/richarius/cen": {
             "fr": "Riquier de Centule",

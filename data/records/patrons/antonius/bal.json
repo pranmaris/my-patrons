@@ -1,0 +1,37 @@
+{
+  "names": {
+    "it": [
+      "Antonio Baldinucci"
+    ],
+    "la": [
+      "Antonius Baldinucci"
+    ],
+    "en": [
+      "Anthony Baldinucci"
+    ],
+    "pl": [
+      "Antoni Baldinucci"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Baldinucci"
+    }
+  ],
+
+  "born": ["1665-06-19"],
+  "died": ["1717-11-06"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1893-04-23"
+  },
+
+  "also-in-martyrology": ["11-07"],
+
+  "forenames": ["antonius"],
+  "categories": ["vir", "presbyter"],
+
+  "order": ["sj"]
+}

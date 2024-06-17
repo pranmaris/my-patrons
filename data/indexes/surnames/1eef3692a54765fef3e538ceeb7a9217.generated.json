@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Boromeusz"
+    },
+    "translations": {
+        "it": [
+            "Borromeo"
+        ],
+        "la": [
+            "Borromeo"
+        ],
+        "en": [
+            "Borromeo"
+        ],
+        "pl": [
+            "Boromeusz"
+        ]
+    },
+    "links": {
+        "records/patrons/carolus/bor": {
+            "it": "Carlo Borromeo",
+            "la": "Carolus Borromeo",
+            "en": "Charles Borromeo",
+            "pl": "Karol Boromeusz"
+        }
+    }
+}

@@ -48,6 +48,12 @@
             "en": "Leonard of Noblac",
             "la": "Leonardus Lemovicensis",
             "pl": "Leonard z Limoges"
+        },
+        "records/patrons/sergius/rad": {
+            "ru": "Сергий Радонежский",
+            "la": "Sergius de Radonez",
+            "en": "Sergius of Radonezh",
+            "pl": "Sergiusz z Radoneża"
         }
     }
 }

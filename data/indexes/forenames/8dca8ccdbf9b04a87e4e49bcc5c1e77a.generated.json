@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Domnin"
+    },
+    "translations": {
+        "la": [
+            "Domninus"
+        ],
+        "en": [
+            "Domninus"
+        ],
+        "pl": [
+            "Domnin"
+        ]
+    },
+    "links": {
+        "records/patrons/domninus/cae": {
+            "la": "Domninus Caesariensis",
+            "en": "Domninus of Caesarea",
+            "pl": "Domnin z Cezarei"
+        }
+    }
+}

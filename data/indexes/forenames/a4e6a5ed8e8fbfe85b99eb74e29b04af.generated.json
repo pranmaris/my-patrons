@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Marcus"
+    },
+    "translations": {
+        "la": [
+            "Marcus"
+        ],
+        "en": [
+            "Mark"
+        ],
+        "pl": [
+            "Marek"
+        ]
+    },
+    "links": {
+        "records/patrons/marcus/hie": {
+            "la": "Marcus Hierosolymitanus",
+            "en": "Mark of Jerusalem",
+            "pl": "Marek z Jerozolimy"
+        }
+    }
+}

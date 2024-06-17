@@ -29,6 +29,11 @@
             "en": "Anastasia of Sirmium",
             "pl": "Anastazja z Dalmacji"
         },
+        "records/patrons/barbara/nic": {
+            "la": "Barbara Nicomedensis",
+            "en": "Barbara of Nicomedia",
+            "pl": "Barbara z Nikomedii"
+        },
         "records/patrons/caecilia/rom": {
             "la": "Caecilia Romana",
             "en": "Cecilia of Rome",
@@ -53,6 +58,12 @@
             "la": "Felicitas Carthaginensis",
             "en": "Felicity of Carthage",
             "pl": "Felicyta z Kartaginy"
+        },
+        "records/patrons/iustina/pat": {
+            "it": "Giustina di Padova",
+            "la": "Iustina Patavina",
+            "en": "Justine of Padua",
+            "pl": "Justyna z Padwy"
         },
         "records/patrons/lucia/syr": {
             "it": "Lucia da Siracusa",
@@ -84,6 +95,11 @@
             "pl": "Maria Daniela od Jezusa i Maryi Niepokalanej",
             "en": "Mary Daniela of Jesus and Immaculate Mary",
             "la": "Maria Daniela a Iusei et Maria Immaculata"
+        },
+        "records/patrons/maria/kra": {
+            "pl": "Maria Antonina Kratochwil",
+            "la": "Maria Antonina Kratochwil",
+            "en": "Mary Antoinette Kratochwil"
         },
         "records/patrons/maria/kuk": {
             "pl": "Maria Rajmunda od Jezusa i Maryi",

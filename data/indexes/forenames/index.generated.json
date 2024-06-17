@@ -13,6 +13,9 @@
     "00d7fde199dfc88b00b9682cdc7d2824": {
         "la": "Sigismundus"
     },
+    "015a73318484df00283b5016a9b5e323": {
+        "pl": "Bronisław"
+    },
     "01ab366bd3af2987fbd35208bf146c57": {
         "la": "Magnus",
         "en": "Magnus",
@@ -21,6 +24,9 @@
     },
     "01cfe8113c97244f0b84223e1f64d820": {
         "en": "Felicity"
+    },
+    "02c62c4fa95ddedd0352dd3a198e0c3c": {
+        "la": "Alexius"
     },
     "02c83131c584452c0136947966533121": {
         "pl": "Lidia"
@@ -63,6 +69,9 @@
         "la": "Monica",
         "en": "Monica"
     },
+    "091cbaf8fc9a3d12ce957d6228b3c04c": {
+        "pl": "Marek"
+    },
     "0a14bc6a5f6c89d54cc7d459333e21c0": {
         "la": "Carolus"
     },
@@ -102,12 +111,22 @@
     "0f4e53159862ba021875b71d9d504d61": {
         "pl": "Bonifacy"
     },
+    "0fbb4405ca75411476334a329fb49617": {
+        "la": "Justina"
+    },
     "0fbb7b668d380403ab02f1d4b3d86297": {
         "la": "Bogumilus",
         "en": "Bogumilus"
     },
     "1176418e7cc958df81784bd836b4d2f2": {
         "cz": "Vojtěch"
+    },
+    "118c4522a2cfcb001e411f19e9f0ecec": {
+        "la": "Antonina",
+        "pl": "Antonina"
+    },
+    "12071ae292a0192ca5149099089bcbcc": {
+        "en": "Malachi"
     },
     "12dcd3c521065905636bcf7c5026540d": {
         "la": "Eusebius",
@@ -116,12 +135,19 @@
     "142c8c8a7072d8d322daa4df258d8610": {
         "la": "Iudas"
     },
+    "14447028404bfea548134633aa2983f0": {
+        "pl": "Dionizy"
+    },
     "145f64f1760a3fc2eac89c8f29c3083d": {
         "la": "Levi",
         "en": "Levi"
     },
     "1565002270dd6ce3f63e821048890782": {
         "la": "Ioannes"
+    },
+    "15770d25cc0b5341723c48e73d9f8353": {
+        "la": "Bronislaus",
+        "en": "Bronislaus"
     },
     "162115e92c300d6ee11c2f2c5a09b1fe": {
         "pl": "Łazarz"
@@ -159,17 +185,28 @@
     "1b7a97cf64a74035872f547d808255c5": {
         "en": "Raymund"
     },
+    "1c0a11cc4ddc0dbd3fa4d77232a4e22e": {
+        "en": "Aaron",
+        "pl": "Aaron"
+    },
     "1dd029c86182b65ffacd8bbaacafcee3": {
         "fr": "Geneviève"
     },
     "1f7a7bf58268d503f9d6e5e92caa90be": {
         "pl": "Paweł"
     },
+    "2042101ac1f6e7741bfe43f3672e6d7c": {
+        "la": "Thomas",
+        "en": "Thomas"
+    },
     "208703a9414b8821b0e00768e9fb4d17": {
         "pl": "Fulgencjusz"
     },
     "2090e4d0ca1928fbe1dba34050c9a02b": {
         "la": "Editha"
+    },
+    "20e047bdfcd3186b9193d87d84ea6b70": {
+        "pl": "Anicet"
     },
     "20f1aeb7819d7858684c898d1e98c1bb": {
         "en": "Anthony"
@@ -184,6 +221,7 @@
         "en": "Jude"
     },
     "2344521e389d6897ae7af9abf16e7ccc": {
+        "la": "Julia",
         "en": "Julia",
         "pl": "Julia"
     },
@@ -220,6 +258,9 @@
     },
     "282ce0d4138eab43224d7590aab9e295": {
         "pl": "Filip"
+    },
+    "283790ce89deb23936ef0250b233bf7c": {
+        "it": "Jeronimo"
     },
     "28dbf3a8499981fd71e91ffaaf56c817": {
         "gr": "Στέφανος"
@@ -276,6 +317,9 @@
     "2e60a2cd293ed7c92d7752b2185b9d51": {
         "la": "Sarbelius"
     },
+    "2e7197e4e718ac740bb881ec84162118": {
+        "la": "Tarsicius"
+    },
     "2eb79f564af164ac850c5e24888346c4": {
         "it": "Camillo"
     },
@@ -297,6 +341,13 @@
     "33f06aff36c935066f2953426c156aa5": {
         "la": "Constantinus"
     },
+    "343b3274443cca1a7bf7b048ca5c7fd4": {
+        "ru": "Сергий"
+    },
+    "344770e8fd3b4fcaac0694a44e67e148": {
+        "la": "Ignatius",
+        "en": "Ignatius"
+    },
     "3452356811d7c08ee78fb2d237483fef": {
         "pl": "Ambroży"
     },
@@ -305,6 +356,10 @@
     },
     "36019957bb9608c702e48a87bb8fcabc": {
         "la": "Iacobus"
+    },
+    "3645b16cfa998f10d8497045e0da0701": {
+        "la": "Antoninus",
+        "en": "Antoninus"
     },
     "3807d8165be58aab1fba8ec2feb42c1d": {
         "la": "Virgilius",
@@ -344,6 +399,12 @@
     "3cf38729739b006a8b865d060c46e910": {
         "he": "יְחֶזְקֵאל"
     },
+    "3d62d959a6d9a815b54e7d606e503f69": {
+        "es": "Martín"
+    },
+    "3da53d560803711a0298e6531e989dfc": {
+        "it": "Giustina"
+    },
     "3dd84aa794606dfd5eb82cdcba205a8e": {
         "pl": "Kosma"
     },
@@ -366,14 +427,28 @@
     "3ffda8f7ce7d32c8b5b8039826d68ec3": {
         "la": "Teresia"
     },
+    "41ba362a20b37f5d4d42d8d36e13fcd0": {
+        "en": "Edmund",
+        "pl": "Edmund"
+    },
     "41ebf0a3432f0cba1b280e6ed64fc5e8": {
         "it": "Maddalena"
+    },
+    "42f55ded59100bb64d85f02bb09db417": {
+        "la": "Sergius",
+        "en": "Sergius"
     },
     "4322b0c9e8b8c7fb1308763e9a854cda": {
         "pl": "Juda"
     },
     "435d1271c205e18ae7af937c8d770bf0": {
         "en": "Benedict"
+    },
+    "45f984f5b20c2d839a449e79cdb78659": {
+        "la": "Hieronymus"
+    },
+    "4616279fab8b6e788b2213f135ff944f": {
+        "pl": "Nataniel"
     },
     "464e07afc9e46359fb480839150595c5": {
         "la": "David",
@@ -417,6 +492,10 @@
     "4db62eb711e130e45f196d986b63b134": {
         "la": "Florianus"
     },
+    "4e055e9b5237412586ad6de5196ba9ca": {
+        "la": "Nathanael",
+        "en": "Nathanael"
+    },
     "4e165e6c334cc2647c2774c8c663a639": {
         "la": "Albertus"
     },
@@ -440,6 +519,9 @@
         "la": "Agnes",
         "en": "Agnes"
     },
+    "5447aa4026288039fccf95cf270282b3": {
+        "en": "Christopher"
+    },
     "549004080d5a0695b9f985e1c752f414": {
         "pl": "Józef"
     },
@@ -448,6 +530,9 @@
     },
     "5811aa05fd3d3bdfa9646c0b496a7d34": {
         "it": "Pietro"
+    },
+    "58926ba6398968a32ab9f05c72737668": {
+        "la": "אַהֲרֹן"
     },
     "5aa02cbf7b97f160d245b3ff058797c3": {
         "la": "Camillus",
@@ -465,8 +550,16 @@
         "la": "Gaudentius",
         "en": "Gaudentius"
     },
+    "5c39b18d77d5f297ff92e4942e5522b5": {
+        "la": "Barbara",
+        "en": "Barbara",
+        "pl": "Barbara"
+    },
     "5c4cf7dd9e4b8abab98eef0a69f58ce1": {
         "la": "Leukadia"
+    },
+    "5cba1ef1a6b54c491a2a0e99434fbc23": {
+        "pl": "Aleksy"
     },
     "5e34c3acc31609119eb4e8505c9e22b5": {
         "la": "Vincentius"
@@ -480,6 +573,9 @@
     },
     "5f6c6631d9c54a3e57db7949af685244": {
         "pl": "Kanizja"
+    },
+    "5fad747662b3bb9a2feaa4f95d760071": {
+        "en": "Antoinette"
     },
     "5fcb64829c11b06de333b3ea8e086dac": {
         "pl": "Akacjusz"
@@ -496,6 +592,9 @@
     },
     "61781b0d2f5282b28b02f2a8139e30fd": {
         "pl": "Edyta"
+    },
+    "619baeeff24d38377c4a9991abba485a": {
+        "pl": "Tarsycjusz"
     },
     "61e659896928e70cf233e92a0f1a2837": {
         "la": "Fulgentius",
@@ -517,6 +616,9 @@
         "en": "Teresa",
         "pl": "Teresa",
         "es": "Teresa"
+    },
+    "64bf6a86230365619e9249e5b083aa46": {
+        "en": "Basil"
     },
     "652c32e3acec34c19d209ebca0a0dcd1": {
         "la": "Adela"
@@ -547,6 +649,9 @@
     "6920fcbf5d633a60600165b41074c11d": {
         "pl": "Konstantyn"
     },
+    "695c1f6060a047ae743a8bdf2de51386": {
+        "pl": "Antonin"
+    },
     "69c69a0d233a8947a30011a0322af4e0": {
         "en": "Cyril"
     },
@@ -556,6 +661,9 @@
     },
     "6a68d4cbe6a80e92cfdc6924abc5883f": {
         "la": "Winfridus"
+    },
+    "6b4a05ef884e5729140363467651d91e": {
+        "en": "Tarcisius"
     },
     "6c8b4a296cdee01df1df82596b1d2e2d": {
         "la": "Benedicta",
@@ -575,11 +683,17 @@
         "en": "Salomea",
         "pl": "Salomea"
     },
+    "6f37021f96f37dcb9a4b5dc508756a9f": {
+        "pl": "Sergiusz"
+    },
     "6fa95b1427af77b3d769ae9cb853382f": {
         "en": "Peter"
     },
     "7002793f5402cca0534459b6d58784c8": {
         "pl": "Małgorzata"
+    },
+    "70251ff4781378897d81ff5530fe7f9b": {
+        "pl": "Malachiasz"
     },
     "713aa4167bf6a1e83ec45a032c721cad": {
         "pl": "Kasper"
@@ -620,6 +734,9 @@
     "78ae48c995b80ef722c595cc65f996a3": {
         "pl": "Sykstus"
     },
+    "79b139b3789af39a5406b5f2a563db0f": {
+        "pl": "Bazyli"
+    },
     "7a27845aa66da1c354af9cef7f135cc5": {
         "la": "Richardus"
     },
@@ -635,8 +752,16 @@
     "7c534484504b838cc57101ee127ecd82": {
         "arc": "ܡܪܝܡ"
     },
+    "7c58d5610b1c05a26c699c35c2774419": {
+        "pl": "Krzysztof"
+    },
     "7c6b04c1dab057c48be8eaa4f66bf9b6": {
         "pl": "Agnieszka"
+    },
+    "7dece2e59706269e4987951b5e3bbc73": {
+        "la": "Dinh",
+        "en": "Dinh",
+        "pl": "Dinh"
     },
     "7e505c69ce1bdf1eee9d260b3a47045b": {
         "gr": "Δαμιανός"
@@ -650,6 +775,9 @@
     },
     "7f9d965fa491021cda9311f64f630f2a": {
         "he": "מַתִּתְיָהוּ"
+    },
+    "806af137cba9a5ab7139bacbc624445e": {
+        "la": "Edmundus"
     },
     "80d4d410d6b330bc2015e461e6b6b78d": {
         "en": "Caroline"
@@ -703,6 +831,9 @@
         "fr": "Marie",
         "it": "Marie"
     },
+    "885383f16fccd10370814fcd862aa10d": {
+        "it": "Antonio"
+    },
     "89ebcb1314820df6c2dd09399c1752c6": {
         "sw": "Daudi"
     },
@@ -713,6 +844,9 @@
         "la": "Lucia",
         "en": "Lucia",
         "it": "Lucia"
+    },
+    "8a41a5ee50a63e7a6cfd172bf1138a1c": {
+        "pl": "Ignacy"
     },
     "8aae3a73a9a43ee6b04dfd986fe9d136": {
         "en": "Andrew"
@@ -744,6 +878,12 @@
     "8d6473df9778220dc0bdf1efb93a9916": {
         "la": "Ioanna"
     },
+    "8d74fb69381b04d4240ea04880388a01": {
+        "pl": "Hieronim"
+    },
+    "8dca8ccdbf9b04a87e4e49bcc5c1e77a": {
+        "pl": "Domnin"
+    },
     "8dce4161a75a55b45b790dca68b87658": {
         "gr": "Νικόλαος"
     },
@@ -759,6 +899,9 @@
     },
     "900d2beadde5ad64d701f01a68793b68": {
         "la": "Jacobus"
+    },
+    "901f3d29aaac0af0158d4ec6c3066508": {
+        "hu": "Hedvig"
     },
     "9131e76f133286b91ad62c3b918a2241": {
         "pl": "Ewa"
@@ -781,6 +924,10 @@
     "92d66da9455c35a1db156adc13721cc2": {
         "pl": "Czesław"
     },
+    "93b0696d3e608dc0fbe69fd163675827": {
+        "la": "Domninus",
+        "en": "Domninus"
+    },
     "945788951dd03b7b55645e9b3355c02d": {
         "la": "Caecilia"
     },
@@ -793,6 +940,12 @@
     "951de19ef806b67662f3282df0458279": {
         "pl": "Maksymilian"
     },
+    "965d66ff2af1f7e8310194acfea5f20c": {
+        "la": "Nghi",
+        "en": "Nghi",
+        "pl": "Nghi",
+        "vi": "Nghi"
+    },
     "9728bffed7b2c9de67319dc8aee86a7b": {
         "pl": "Cecylia"
     },
@@ -803,6 +956,9 @@
         "la": "Alphonsus",
         "en": "Alphonsus"
     },
+    "976472a144efa6a4b849b24ac6b18867": {
+        "en": "Lex"
+    },
     "97a9d330e236c8d067f01da1894a5438": {
         "la": "Anna",
         "en": "Anna",
@@ -810,6 +966,9 @@
     },
     "99726419a70604874e762e683c60250b": {
         "en": "Vladimir"
+    },
+    "9b0de1694e20f0f1c20e7ede9915b4c6": {
+        "en": "Jerome"
     },
     "9b2b78033ecf0401a2feab5b4ba7462e": {
         "la": "Bruno",
@@ -836,11 +995,17 @@
     "9fde8523792a8e3fdd8b875a87a6c8fa": {
         "pl": "Patryk"
     },
+    "a05b6a141c5e2a19384151d83681b783": {
+        "la": "Cassianus"
+    },
     "a07122d44e6f77a65766e7760c60340e": {
         "pl": "Szarbel"
     },
     "a0776f65bc7afdf998aa787efb9c30b7": {
         "en": "Acathius"
+    },
+    "a0a83d6b255f67549da7d01d15e45242": {
+        "la": "Malachias"
     },
     "a0c1b6bf7d3d9f6c2ce001dfeaa26fa8": {
         "de": "Johannes"
@@ -854,8 +1019,15 @@
     "a36e5df6089966dca4b38397aae00efd": {
         "en": "Stephen"
     },
+    "a3b8eb6faaf230bd0944847c527d30bf": {
+        "en": "Denis",
+        "fr": "Denis"
+    },
     "a3fc0f3dc006e80232a209184f045323": {
         "pl": "Hilary"
+    },
+    "a4e6a5ed8e8fbfe85b99eb74e29b04af": {
+        "la": "Marcus"
     },
     "a5c59c0315098e6d67bb57610f7fb9b1": {
         "en": "Adele"
@@ -922,8 +1094,7 @@
     },
     "aea641b3cdf732fb73c71a3d55a6e8e2": {
         "la": "Veronica",
-        "en": "Veronica",
-        "pl": "Veronica"
+        "en": "Veronica"
     },
     "afbae8ee4d8e201b142767844c48f360": {
         "la": "Stephanus"
@@ -942,11 +1113,17 @@
     "b27bfe5ba5bec17f80de30b9f23ff658": {
         "pl": "Jerzy"
     },
+    "b27dccb9f435534feea3c1e2e09d4e0e": {
+        "pl": "Alojzy"
+    },
     "b2f4f440070e30b4c97b992108667dfc": {
         "la": "Iosephina"
     },
     "b322f79ef26d512c24dc3ea75a32e66e": {
         "pl": "Benedykta"
+    },
+    "b3dd1e0a6b170ae008d5ceaa4958f872": {
+        "pl": "Weronika"
     },
     "b45153d04dcbe4a6af5b76bc18ec302e": {
         "la": "Anastasia",
@@ -969,6 +1146,12 @@
     },
     "b7dfd31a1e14a0300f8a16f53d399084": {
         "pl": "Jezus"
+    },
+    "b7f54569f82cc34fcdff75a314ccfd2e": {
+        "en": "Justine"
+    },
+    "b82a9a13f4651e9abcbde90cd24ce2cb": {
+        "en": "Mark"
     },
     "b90f70c49df6d4e52760d8bf224a1952": {
         "la": "Cyrillus"
@@ -996,6 +1179,9 @@
     "bcb95d7803263ac66f617e874a3a5a63": {
         "he": "יְשַׁעְיָהוּ"
     },
+    "bd5f296e64b3923339ae237b8afdd51f": {
+        "la": "Christophorus"
+    },
     "bda6a984e70a3f9e77c8160ebe0ee6c8": {
         "la": "Acacius",
         "en": "Acacius"
@@ -1005,6 +1191,9 @@
         "en": "Rita",
         "pl": "Rita",
         "it": "Rita"
+    },
+    "be55204b98ba9ad57341a8049ddc8ed4": {
+        "vi": "Đình"
     },
     "beaeb07021cb2d5ec32b8399042cd81e": {
         "cy": "Dewi"
@@ -1029,6 +1218,9 @@
     },
     "c13e13da2073260c2194c15d782e86a9": {
         "en": "Paul"
+    },
+    "c2858240380c447cc409ffd9a518fe84": {
+        "uk": "Олексій"
     },
     "c382ba2127954a917f01dbd651bb9365": {
         "en": "Saturnin",
@@ -1068,6 +1260,9 @@
     "ca557ca8ecc8a2556120555a588425a0": {
         "la": "Joannes"
     },
+    "ca5ca538b620317863e86588bc6898d0": {
+        "la": "Tharsicius"
+    },
     "ca7976f952d10e93d0a3aa9dd38e8cb5": {
         "pl": "Dawid"
     },
@@ -1094,6 +1289,12 @@
     "ccccb075f22a7524a19bdd2ae1b70b4a": {
         "la": "Aniela",
         "pl": "Aniela"
+    },
+    "cd078bfbbe7e182ef1283a4acc897235": {
+        "en": "Cassian"
+    },
+    "cd48da64f4483a1a5b41a638876059f1": {
+        "vi": "Giuse"
     },
     "cdf85264f47182e2e0a8b8b15affb0c7": {
         "gr": "Κοσμάς"
@@ -1145,6 +1346,9 @@
     "d276699b518dd944e6cacfb01ee6f76b": {
         "it": "Francesco"
     },
+    "d3c71aa90c07cb82ef35598db031de86": {
+        "pl": "Pafnucy"
+    },
     "d3ef0547c5beee59908f7afc00eeabec": {
         "en": "Charbel"
     },
@@ -1172,6 +1376,9 @@
     },
     "d7196c9311d164908b07db070a3b3f20": {
         "pl": "Mateusz"
+    },
+    "d741afd67807956d878fa9959880c065": {
+        "pl": "Kasjan"
     },
     "d77aa6ce744abd03fb21a511608a65e4": {
         "la": "Eugenia",
@@ -1223,6 +1430,10 @@
     "e4c78fc2807e476471c627ae32ad5e0c": {
         "pl": "Szymon"
     },
+    "e4c9e565970290f929d3de18f392727e": {
+        "la": "Paphnutius",
+        "en": "Paphnutius"
+    },
     "e58302cdd555a6293dcc8821733190b6": {
         "pl": "Alfons"
     },
@@ -1251,6 +1462,9 @@
     },
     "e81cc8a54977693f611ffcfb220a5010": {
         "pl": "Benedykt"
+    },
+    "e914da4c61712d27894e8302ae69fa65": {
+        "la": "Iustina"
     },
     "e91e0cb9a000b03dcdbb1f5474aff734": {
         "pl": "Janina"
@@ -1286,12 +1500,20 @@
     "ef80b17416b08d5aaba18bf742263a29": {
         "pl": "Marcelin"
     },
+    "eff50bb852e73d1fd010dc2c15e0784d": {
+        "la": "Melchior",
+        "en": "Melchior",
+        "pl": "Melchior"
+    },
     "f036caf730c4750f0b9ab4700ab76045": {
         "la": "Martinus"
     },
     "f03bcc45c56d9bea12ef3df075b345ba": {
         "la": "Joanna",
         "pl": "Joanna"
+    },
+    "f06d05ccd6e732900debff210c1d8ff8": {
+        "fr": "Cassien"
     },
     "f0a7c2032a85967151f653f8bd7fac89": {
         "en": "Sixtus"
@@ -1305,6 +1527,9 @@
     "f5c3ac4cbf092a063786243913a4c139": {
         "en": "Catherine",
         "fr": "Catherine"
+    },
+    "f610be8dbef00371466764fb13d21a8c": {
+        "la": "Dionysius"
     },
     "f636cd79241dcc24461859732df8656c": {
         "la": "Judas",
@@ -1323,11 +1548,17 @@
     "f75ad75dca6d3ee13db8a730ad0c2975": {
         "gr": "Λουκάς"
     },
+    "f77df668b77912f4eff5440fad803c08": {
+        "pl": "Justyna"
+    },
     "f859b43c70473cd91ce8f0a20b19ad8c": {
         "pl": "Wincenty"
     },
     "f87567f2159b425795ebb7ba9bc406ec": {
         "en": "Patrick"
+    },
+    "f91a4426dd179e1cee9bfcfb73decfc7": {
+        "la": "Basilius"
     },
     "f92e4d1b5a0c6517c9f535ed7e913b09": {
         "pl": "Wiele"
@@ -1339,11 +1570,28 @@
         "la": "Marcellinus",
         "en": "Marcellinus"
     },
+    "faaea6d3da369cc71aa7d0970b7589de": {
+        "la": "Julianus"
+    },
+    "fb2a7e07febbe7636dbbce0824477691": {
+        "la": "Anicetus",
+        "en": "Anicetus"
+    },
+    "fbc86de39e68a819722cff24706cd5b3": {
+        "es": "Ignacio"
+    },
     "fc69efaba5c47ad5742a75bad9a90a76": {
         "it": "Alfonso"
     },
+    "fcb6fec1270538cce0d4dae1fe8ab592": {
+        "la": "Aloysius",
+        "en": "Aloysius"
+    },
     "fcc819b2b0453249f6da6ef7d8f063f5": {
         "pl": "Wynfryd"
+    },
+    "fcd7d475a014d4a4552195e62f91953b": {
+        "pl": "Tomasz"
     },
     "fd284a7ba3215a33995aacfc9b38f234": {
         "la": "Deusdedit",

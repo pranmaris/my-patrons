@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "Jerome"
+    },
+    "translations": {
+        "la": [
+            "Hieronymus"
+        ],
+        "en": [
+            "Jerome"
+        ],
+        "pl": [
+            "Hieronim"
+        ],
+        "it": [
+            "Jeronimo"
+        ]
+    },
+    "links": {
+        "records/patrons/hieronymus/tif": {
+            "it": "Jeronimo Ranuzzi",
+            "la": "Hieronymus Ranuzzi",
+            "en": "Jerome Ranuzzi",
+            "pl": "Hieronim Ranuzzi"
+        }
+    }
+}

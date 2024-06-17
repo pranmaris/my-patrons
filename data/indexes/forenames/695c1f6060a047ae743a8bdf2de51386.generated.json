@@ -1,0 +1,28 @@
+{
+    "names": {
+        "pl": "Antonin"
+    },
+    "translations": {
+        "la": [
+            "Antoninus"
+        ],
+        "en": [
+            "Antoninus"
+        ],
+        "pl": [
+            "Antonin"
+        ]
+    },
+    "links": {
+        "records/patrons/antoninus/apa": {
+            "la": "Antoninus de Apamea",
+            "en": "Antoninus of Apamea",
+            "pl": "Antonin z Apamei"
+        },
+        "records/patrons/antonius/nic": {
+            "la": "Antoninus (cum Nicephorus)",
+            "en": "Antoninus (with Nicephorus)",
+            "pl": "Antonin (z Niceforem)"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "names": {
+    "it": [
+      "Jeronimo Ranuzzi"
+    ],
+    "la": [
+      "Hieronymus Ranuzzi",
+      "Hieronymus de Tiferno Metaurensi"
+    ],
+    "en": [
+      "Jerome Ranuzzi"
+    ],
+    "pl": [
+      "Hieronim Ranuzzi"
+    ]
+  },
+
+  "born": ["~1410"],
+  "died": ["~1468"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1775-04-01"
+  },
+
+  "also-in-martyrology": ["12-11"],
+
+  "forenames": ["hieronymus"],
+  "categories": ["vir", "presbyter"],
+
+  "order": ["osm"]
+}

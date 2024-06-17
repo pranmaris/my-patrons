@@ -1,11 +1,13 @@
 {
     "names": {
+        "la": "Julia",
         "en": "Julia",
         "pl": "Julia"
     },
     "translations": {
         "la": [
-            "Iulia"
+            "Iulia",
+            "Julia"
         ],
         "en": [
             "Julia"

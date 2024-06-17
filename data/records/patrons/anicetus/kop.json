@@ -1,0 +1,35 @@
+{
+  "names": {
+    "pl": [
+      "Anicet Kopliński",
+      "Adalbert Kopliński"
+    ],
+    "la": [
+      "Anicetus Koplinski"
+    ],
+    "en": [
+      "Anicetus Kopliński",
+      "Anicetus Adalbert Kopliński"
+    ]
+  },
+  "surnames": [
+    {
+      "pl": "Kopliński"
+    }
+  ],
+
+  "born": ["1875-07-30"],
+  "died": ["1941-10-16"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["10-16"],
+
+  "forenames": ["anicetus"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["ofmcap"]
+}

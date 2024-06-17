@@ -39,6 +39,17 @@
             "la": "Albertus Lovaniensis",
             "pl": "Albert z Louvain"
         },
+        "records/patrons/alexius/zar": {
+            "uk": "Олексій Васильович Зарицький",
+            "la": "Alexius Zaryckyj",
+            "en": "Lex Zaryckyy",
+            "pl": "Aleksy Zarycki"
+        },
+        "records/patrons/aloysius/lig": {
+            "pl": "Alojzy Liguda",
+            "la": "Aloysius Liguda",
+            "en": "Aloysius Liguda"
+        },
         "records/patrons/anastasia/sir": {
             "la": "Anastasia Sirmiensis",
             "en": "Anastasia of Sirmium",
@@ -61,15 +72,50 @@
             "la": "Andreas Kim Tae-gŏn",
             "pl": "Andrzej Kim Tae-gŏn"
         },
+        "records/patrons/anicetus/kop": {
+            "pl": "Anicet Kopliński",
+            "la": "Anicetus Koplinski",
+            "en": "Anicetus Kopliński"
+        },
+        "records/patrons/antoninus/apa": {
+            "la": "Antoninus de Apamea",
+            "en": "Antoninus of Apamea",
+            "pl": "Antonin z Apamei"
+        },
         "records/patrons/antonius/baj": {
             "pl": "Antoni Bajewski",
             "en": "Anthony Bajewski",
             "la": "Antonius Bajewski"
         },
+        "records/patrons/antonius/nic": {
+            "la": "Antoninus (cum Nicephorus)",
+            "en": "Antoninus (with Nicephorus)",
+            "pl": "Antonin (z Niceforem)"
+        },
+        "records/patrons/barbara/nic": {
+            "la": "Barbara Nicomedensis",
+            "en": "Barbara of Nicomedia",
+            "pl": "Barbara z Nikomedii"
+        },
+        "records/patrons/bartholomaeus/apo": {
+            "la": "Bartholomaeus Apostolus",
+            "en": "Bartholomew the Apostle",
+            "pl": "Bartłomiej Apostoł"
+        },
+        "records/patrons/basilius/ant": {
+            "la": "Basilius Antiochenus",
+            "en": "Basil of Antioch",
+            "pl": "Bazyli z Antiochii"
+        },
         "records/patrons/bonifatius/win": {
             "en": "Boniface Wynfreth",
             "la": "Bonifatius Winfrid",
             "pl": "Bonifacy Wynfryd"
+        },
+        "records/patrons/bronislaus/kos": {
+            "pl": "Bronisław Kostkowski",
+            "la": "Bronislaus Kostkowski",
+            "en": "Bronislaus Kostkowski"
         },
         "records/patrons/caecilia/rom": {
             "la": "Caecilia Romana",
@@ -90,6 +136,11 @@
             "pl": "Czesław Jóźwiak",
             "en": "Czesław Jóźwiak",
             "la": "Ceslaus Jóźwiak"
+        },
+        "records/patrons/christophorus/lyc": {
+            "la": "Christophorus Lyciensis",
+            "en": "Christopher of Lycia",
+            "pl": "Krzysztof z Licji"
         },
         "records/patrons/chrysanthus/dar": {
             "la": "Chrysanthus (cum Daria)",
@@ -124,6 +175,17 @@
             "en": "David Okelo",
             "la": "David Okelo",
             "pl": "Dawid Okelo"
+        },
+        "records/patrons/dionysius/lut": {
+            "fr": "Denis de Paris",
+            "la": "Dionysius Parisiensis",
+            "en": "Denis of Paris",
+            "pl": "Dionizy z Paryża"
+        },
+        "records/patrons/domninus/cae": {
+            "la": "Domninus Caesariensis",
+            "en": "Domninus of Caesarea",
+            "pl": "Domnin z Cezarei"
         },
         "records/patrons/eduardus/kaz": {
             "pl": "Edward Kaźmierski",
@@ -166,6 +228,11 @@
             "en": "George of Lydda",
             "pl": "Jerzy"
         },
+        "records/patrons/georgius/pop": {
+            "pl": "Jerzy Popiełuszko",
+            "la": "Georgius Popiełuszko",
+            "en": "George Popiełuszko"
+        },
         "records/patrons/iacobus/mai": {
             "la": "Iacobus Maior Apostolus",
             "en": "James the Great",
@@ -187,6 +254,12 @@
             "la": "Ioannes Baptista",
             "pl": "Jan Chrzciciel"
         },
+        "records/patrons/iosephus/ngu": {
+            "vi": "Giuse Nguyễn Đình Nghi",
+            "la": "Iosephus Nguyen Dinh Nghi",
+            "en": "Joseph Nguyen Dinh Nghi",
+            "pl": "Józef Nguyen Dinh Nghi"
+        },
         "records/patrons/isaias/pro": {
             "he": "יְשַׁעְיָהוּ",
             "en": "Isaiah",
@@ -197,6 +270,12 @@
             "la": "Iudas Thaddaeus",
             "en": "Judas Thaddaeus",
             "pl": "Juda Tadeusz Apostoł"
+        },
+        "records/patrons/iustina/pat": {
+            "it": "Giustina di Padova",
+            "la": "Iustina Patavina",
+            "en": "Justine of Padua",
+            "pl": "Justyna z Padwy"
         },
         "records/patrons/iustus/pas": {
             "la": "Iustus (cum Pastor)",
@@ -218,6 +297,11 @@
             "la": "Marcellinus Papa",
             "en": "Pope Marcellinus",
             "pl": "Marcelin Papież"
+        },
+        "records/patrons/marcus/hie": {
+            "la": "Marcus Hierosolymitanus",
+            "en": "Mark of Jerusalem",
+            "pl": "Marek z Jerozolimy"
         },
         "records/patrons/margarita/war": {
             "en": "Margaret Ward",
@@ -243,6 +327,11 @@
             "pl": "Maria Daniela od Jezusa i Maryi Niepokalanej",
             "en": "Mary Daniela of Jesus and Immaculate Mary",
             "la": "Maria Daniela a Iusei et Maria Immaculata"
+        },
+        "records/patrons/maria/kra": {
+            "pl": "Maria Antonina Kratochwil",
+            "la": "Maria Antonina Kratochwil",
+            "en": "Mary Antoinette Kratochwil"
         },
         "records/patrons/maria/kuk": {
             "pl": "Maria Rajmunda od Jezusa i Maryi",
@@ -301,6 +390,11 @@
             "en": "Paul of Tarsus",
             "pl": "Paweł z Tarsu"
         },
+        "records/patrons/paulus/con": {
+            "la": "Paulus Constantinopolitanus",
+            "en": "Paul of Constantinople",
+            "pl": "Paweł z Bizancjum"
+        },
         "records/patrons/perpetua/car": {
             "la": "Perpetua Carthaginensis",
             "en": "Perpetua of Carthage",
@@ -315,6 +409,11 @@
             "la": "Philippus Apostolus",
             "en": "Philip Apostle",
             "pl": "Filip Apostoł"
+        },
+        "records/patrons/philippus/fel": {
+            "la": "Philippus (cum Felix, infra in Septem Fratribus)",
+            "en": "Philip (with Felix, one of Seven Brothers)",
+            "pl": "Filip (z Feliksem, jeden z Siedmiu Braci)"
         },
         "records/patrons/sabigothon/aur": {
             "la": "Sabigothon Natalia (cum Aurelius)",
@@ -342,11 +441,26 @@
             "la": "Stephanus protomartyr",
             "pl": "Szczepan Pramęczennik"
         },
+        "records/patrons/tarsicius/aco": {
+            "la": "Tarsicius Acolytus",
+            "en": "Tarcisius Acolyte",
+            "pl": "Tarsycjusz Akolita"
+        },
         "records/patrons/teresia/ste": {
             "de": "Therese Benedicta vom Kreuz",
             "en": "Teresa Benedicta of the Cross",
             "la": "Teresia Benedicta a Cruce",
             "pl": "Teresa Benedykta od Krzyża"
+        },
+        "records/patrons/thomas/apo": {
+            "la": "Thomas Apostolus",
+            "en": "Thomas the Apostle",
+            "pl": "Tomasz Apostoł"
+        },
+        "records/patrons/thomas/bec": {
+            "en": "Thomas Becket",
+            "la": "Thomas Becket",
+            "pl": "Tomasz Becket"
         },
         "records/patrons/vladimirus/las": {
             "pl": "Włodzimierz Laskowski",

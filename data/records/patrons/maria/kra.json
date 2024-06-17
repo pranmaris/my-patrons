@@ -1,0 +1,35 @@
+{
+  "names": {
+    "pl": [
+      "Maria Antonina Kratochwil"
+    ],
+    "la": [
+      "Maria Antonina Kratochwil"
+    ],
+    "en": [
+      "Mary Antoinette Kratochwil",
+      "Maria Antonina Kratochwil"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Kratochwil"
+    }
+  ],
+
+  "born": ["1881-08-21"],
+  "died": ["1942-10-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["10-02"],
+
+  "forenames": ["maria", "antonina"],
+  "categories": ["femina", "martyrix", "virgo"],
+
+  "order": ["ssnd"]
+}

@@ -1,0 +1,41 @@
+{
+    "names": {
+        "it": "Antonio"
+    },
+    "translations": {
+        "la": [
+            "Antonius"
+        ],
+        "en": [
+            "Anthony"
+        ],
+        "pl": [
+            "Antoni"
+        ],
+        "it": [
+            "Antonio"
+        ],
+        "pt": [
+            "Antônio"
+        ]
+    },
+    "links": {
+        "records/patrons/antonius/baj": {
+            "pl": "Antoni Bajewski",
+            "en": "Anthony Bajewski",
+            "la": "Antonius Bajewski"
+        },
+        "records/patrons/antonius/bal": {
+            "it": "Antonio Baldinucci",
+            "la": "Antonius Baldinucci",
+            "en": "Anthony Baldinucci",
+            "pl": "Antoni Baldinucci"
+        },
+        "records/patrons/antonius/pat": {
+            "pt": "Antônio de Pádua",
+            "la": "Antonius Patavinus",
+            "en": "Anthony of Padua",
+            "pl": "Antoni Padewski"
+        }
+    }
+}

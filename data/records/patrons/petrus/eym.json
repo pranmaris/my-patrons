@@ -35,7 +35,7 @@
   "also-in-martyrology": ["08-01", "08-02"],
 
   "forenames": ["petrus", "iulianus"],
-  "categories": ["vir", "sacerdos", "presbyter", "institutor"],
+  "categories": ["vir", "sacerdos-dioecesanus", "presbyter", "institutor"],
 
   "order": ["sss"],
   "order-founder": ["sss"]

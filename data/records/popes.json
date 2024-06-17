@@ -2561,8 +2561,8 @@
     },
     "257": {
         "name": {
-            "la": "Pius Decimus",
-            "pl": "Pius X"
+            "la": "[1|Pius Decimus]",
+            "pl": "[1|Pius X]"
         },
         "pontificate": {
             "from": "1903-08-04",
@@ -2621,8 +2621,8 @@
     },
     "263": {
         "name": {
-            "la": "Ioannes Paulus Primus",
-            "pl": "Jan Paweł I"
+            "la": "[1|Ioannes Paulus Primus]",
+            "pl": "[1|Jan Paweł I]"
         },
         "pontificate": {
             "from": "1978-08-26",

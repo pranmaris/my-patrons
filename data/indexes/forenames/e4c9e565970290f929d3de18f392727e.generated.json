@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Paphnutius",
+        "en": "Paphnutius"
+    },
+    "translations": {
+        "la": [
+            "Paphnutius"
+        ],
+        "en": [
+            "Paphnutius"
+        ],
+        "pl": [
+            "Pafnucy"
+        ]
+    },
+    "links": {
+        "records/patrons/paphnutius/epi": {
+            "la": "Paphnutius Thebanus",
+            "en": "Paphnutius of Thebes",
+            "pl": "Pafnucy z Teb"
+        }
+    }
+}

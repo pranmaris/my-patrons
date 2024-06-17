@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Malachias Propheta"
+    ],
+    "en": [
+      "Malachi the Prophet"
+    ],
+    "pl": [
+      "Malachiasz Prorok"
+    ]
+  },
+
+  "died": [">-500", "<-401"],
+
+  "also-in-martyrology": ["01-14", "12-18"],
+
+  "forenames": ["malachias"],
+  "categories": ["vir", "propheta"]
+}

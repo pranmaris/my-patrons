@@ -1,0 +1,29 @@
+{
+  "names": {
+    "ru": [
+      "Сергий Радонежский"
+    ],
+    "la": [
+      "Sergius de Radonez"
+    ],
+    "en": [
+      "Sergius of Radonezh"
+    ],
+    "pl": [
+      "Sergiusz z Radoneża"
+    ]
+  },
+
+  "born": ["1314-05-03"],
+  "died": ["1392-09-25"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1448"
+  },
+
+  "also-in-martyrology": ["09-25"],
+
+  "forenames": ["sergius"],
+  "categories": ["vir", "hegumenus", "coenobita", "eremita"]
+}

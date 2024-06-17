@@ -17,6 +17,12 @@
         "la": "Ioannes Bosco",
         "pl": "Jan Bosko"
     },
+    "cap": {
+        "it": "Giovanni da Capestrano",
+        "la": "Ioannes de Capistranus",
+        "en": "John of Capistrano",
+        "pl": "Jan Kapistran"
+    },
     "chr": {
         "la": "Ioannes Chrysostomus",
         "en": "John Chrysostom",
@@ -37,6 +43,12 @@
         "pl": "Jan Kanty",
         "en": "John Cantius",
         "la": "Ioannes Cantius"
+    },
+    "p1p": {
+        "it": "Giovanni Paolo I",
+        "la": "Ioannes Paulus Pp. I",
+        "en": "John Paul I",
+        "pl": "Jan Paweł I"
     },
     "p2p": {
         "pl": "Jan Paweł II",

@@ -1,0 +1,35 @@
+{
+  "names": {
+    "pl": [
+      "Edmund Bojanowski",
+      "Edmund Wojciech Stanisław Bojanowski"
+    ],
+    "la": [
+      "Edmundus Bojanowski"
+    ],
+    "en": [
+      "Edmund Bojanowski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Bojanowski"
+    }
+  ],
+
+  "born": ["1814-11-14"],
+  "died": ["1871-08-07"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["08-07"],
+
+  "forenames": ["edmundus"],
+  "categories": ["vir", "fundator"],
+
+  "order-founder": ["abmv"]
+}

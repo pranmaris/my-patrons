@@ -1,0 +1,33 @@
+{
+  "names": {
+    "pl": [
+      "Jerzy Popiełuszko",
+      "Jerzy ALeksander Popiełuszko",
+      "Alfons Popiełuszko"
+    ],
+    "la": [
+      "Georgius Popiełuszko",
+      "Alphonsus Popiełuszko"
+    ],
+    "en": [
+      "George Popiełuszko"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Popiełuszko"
+    }
+  ],
+
+  "born": ["1947-09-14"],
+  "died": ["1984-10-19"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2010-06-06"
+  },
+
+  "forenames": ["georgius"],
+  "categories": ["vir", "martyr", "sacerdos-dioecesanus"]
+}

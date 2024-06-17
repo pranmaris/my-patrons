@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Paulus Constantinopolitanus"
+    ],
+    "en": [
+      "Paul of Constantinople"
+    ],
+    "pl": [
+      "Paweł z Bizancjum"
+    ]
+  },
+
+  "died": ["~351"],
+
+  "also-in-martyrology": ["06-07", "11-06"],
+
+  "forenames": ["paulus"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

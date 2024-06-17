@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Malachiasz"
+    },
+    "translations": {
+        "la": [
+            "Malachias"
+        ],
+        "en": [
+            "Malachi"
+        ],
+        "pl": [
+            "Malachiasz"
+        ]
+    },
+    "links": {
+        "records/patrons/malachias/pro": {
+            "la": "Malachias Propheta",
+            "en": "Malachi the Prophet",
+            "pl": "Malachiasz Prorok"
+        }
+    }
+}

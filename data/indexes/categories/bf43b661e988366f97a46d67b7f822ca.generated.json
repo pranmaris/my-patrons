@@ -63,6 +63,18 @@
             "la": "Bonifatius Winfrid",
             "pl": "Bonifacy Wynfryd"
         },
+        "records/patrons/carolus/bor": {
+            "it": "Carlo Borromeo",
+            "la": "Carolus Borromeo",
+            "en": "Charles Borromeo",
+            "pl": "Karol Boromeusz"
+        },
+        "records/patrons/cassianus/aug": {
+            "fr": "Cassien d'Autun",
+            "la": "Cassianus episcopus Augustodunensis",
+            "en": "Cassian of Autun",
+            "pl": "Kasjan z Autun"
+        },
         "records/patrons/cyrillus/met": {
             "la": "Cyrillus (cum Methodius)",
             "en": "Cyril of Thessalonica",
@@ -73,6 +85,12 @@
             "en": "David of Menevia",
             "la": "David episcopus Meneviensis",
             "pl": "Dawid z Menevii"
+        },
+        "records/patrons/dionysius/lut": {
+            "fr": "Denis de Paris",
+            "la": "Dionysius Parisiensis",
+            "en": "Denis of Paris",
+            "pl": "Dionizy z Paryża"
         },
         "records/patrons/eusebius/ver": {
             "la": "Eusebius Vercellensis",
@@ -114,6 +132,11 @@
             "en": "Lazarus of Milan",
             "pl": "Łazarz z Mediolanu"
         },
+        "records/patrons/marcus/hie": {
+            "la": "Marcus Hierosolymitanus",
+            "en": "Mark of Jerusalem",
+            "pl": "Marek z Jerozolimy"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",
@@ -130,17 +153,33 @@
             "la": "Nicolaus Myrensis",
             "pl": "Mikołaj z Miry"
         },
+        "records/patrons/paphnutius/epi": {
+            "la": "Paphnutius Thebanus",
+            "en": "Paphnutius of Thebes",
+            "pl": "Pafnucy z Teb"
+        },
         "records/patrons/patricius/hib": {
             "ga": "Naomh Pádraig",
             "en": "Patrick",
             "la": "Patricius episcopus in Hibernia",
             "pl": "Patryk z Irlandii"
         },
+        "records/patrons/paulus/con": {
+            "la": "Paulus Constantinopolitanus",
+            "en": "Paul of Constantinople",
+            "pl": "Paweł z Bizancjum"
+        },
         "records/patrons/petrus/dam": {
             "it": "Pier Damiani",
             "en": "Peter Damian",
             "la": "Petrus Damiani",
             "pl": "Piotr Damiani"
+        },
+        "records/patrons/pius/10p": {
+            "it": "Papa Pio X",
+            "la": "Pius X",
+            "en": "Pope Pius X",
+            "pl": "Pius X"
         },
         "records/patrons/saturninus/tol": {
             "la": "Saturninus Tolosanensis",
@@ -156,6 +195,11 @@
             "pl": "Stanisław ze Szczepanowa",
             "en": "Stanislaus of Szczepanów",
             "la": "Stanislaus Cracoviensis"
+        },
+        "records/patrons/thomas/bec": {
+            "en": "Thomas Becket",
+            "la": "Thomas Becket",
+            "pl": "Tomasz Becket"
         },
         "records/patrons/virgilius/are": {
             "la": "Virgilius Arelatensis",

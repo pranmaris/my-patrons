@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/ioannes/p1p": {
+            "it": "Giovanni Paolo I",
+            "la": "Ioannes Paulus Pp. I",
+            "en": "John Paul I",
+            "pl": "Jan Paweł I"
+        },
         "records/patrons/ioannes/p2p": {
             "pl": "Jan Paweł II",
             "en": "John Paul II",
@@ -24,6 +30,11 @@
             "la": "Paulus Tersensis",
             "en": "Paul of Tarsus",
             "pl": "Paweł z Tarsu"
+        },
+        "records/patrons/paulus/con": {
+            "la": "Paulus Constantinopolitanus",
+            "en": "Paul of Constantinople",
+            "pl": "Paweł z Bizancjum"
         }
     }
 }

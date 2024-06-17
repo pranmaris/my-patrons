@@ -35,6 +35,12 @@
             "la": "Ioannes Pp. XXIII",
             "pl": "Jan XXIII"
         },
+        "records/patrons/ioannes/p1p": {
+            "it": "Giovanni Paolo I",
+            "la": "Ioannes Paulus Pp. I",
+            "en": "John Paul I",
+            "pl": "Jan Paweł I"
+        },
         "records/patrons/ioannes/p2p": {
             "pl": "Jan Paweł II",
             "en": "John Paul II",
@@ -49,6 +55,12 @@
             "la": "Petrus",
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
+        },
+        "records/patrons/pius/10p": {
+            "it": "Papa Pio X",
+            "la": "Pius X",
+            "en": "Pope Pius X",
+            "pl": "Pius X"
         },
         "records/patrons/pius/5pp": {
             "it": "Pio V",

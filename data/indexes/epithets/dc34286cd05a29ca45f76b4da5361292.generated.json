@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "the Tenth"
+    },
+    "translations": {
+        "it": [
+            "Decimo"
+        ],
+        "la": [
+            "Decimus"
+        ],
+        "en": [
+            "the Tenth"
+        ],
+        "pl": [
+            "Dziesiąty"
+        ]
+    },
+    "links": {
+        "records/patrons/pius/10p": {
+            "it": "Papa Pio X",
+            "la": "Pius X",
+            "en": "Pope Pius X",
+            "pl": "Pius X"
+        }
+    }
+}

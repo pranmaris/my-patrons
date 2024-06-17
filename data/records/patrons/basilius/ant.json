@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Basilius Antiochenus"
+    ],
+    "en": [
+      "Basil of Antioch"
+    ],
+    "pl": [
+      "Bazyli z Antiochii"
+    ]
+  },
+
+  "died": [">301", "<400"],
+
+  "also-in-martyrology": ["11-20"],
+
+  "forenames": ["basilius"],
+  "categories": ["vir", "martyr"]
+}

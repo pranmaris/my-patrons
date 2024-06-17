@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/aaron/lev": {
+            "he": "אַהֲרֹן",
+            "la": "Aaron Levi",
+            "en": "Aaron the Levite",
+            "pl": "Aaron Lewi"
+        },
         "records/patrons/andreas/bob": {
             "pl": "Andrzej Bobola",
             "en": "Andrew Bobola",
@@ -49,16 +55,22 @@
             "la": "Ioannes Bosco",
             "pl": "Jan Bosko"
         },
+        "records/patrons/ioannes/cap": {
+            "it": "Giovanni da Capestrano",
+            "la": "Ioannes de Capistranus",
+            "en": "John of Capistrano",
+            "pl": "Jan Kapistran"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",
             "pl": "Marcin z Tours"
         },
-        "records/patrons/petrus/eym": {
-            "fr": "Pierre-Julien Eymard",
-            "en": "Peter Julian Eymanrd",
-            "la": "Patrus Iulianus Eymard",
-            "pl": "Piotr Julian Eymard"
+        "records/patrons/pius/10p": {
+            "it": "Papa Pio X",
+            "la": "Pius X",
+            "en": "Pope Pius X",
+            "pl": "Pius X"
         }
     }
 }

@@ -54,6 +54,12 @@
             "la": "Bruno Cartusiensis",
             "pl": "Bruno Kartuz"
         },
+        "records/patrons/carolus/bor": {
+            "it": "Carlo Borromeo",
+            "la": "Carolus Borromeo",
+            "en": "Charles Borromeo",
+            "pl": "Karol Boromeusz"
+        },
         "records/patrons/casimirus/pri": {
             "pl": "Kazimierz Królewicz",
             "en": "Casimir Jagiellon",
@@ -103,6 +109,12 @@
             "en": "Hormisdas",
             "pl": "Hormizdas"
         },
+        "records/patrons/ignatius/loy": {
+            "es": "Ignacio de Loyola",
+            "la": "Ignatius de Loyola",
+            "en": "Ignatius of Loyola",
+            "pl": "Ignacy Loyola"
+        },
         "records/patrons/ioachim/mar": {
             "he": "יהוֹיָקִים",
             "en": "Joachim father of Mary",
@@ -114,6 +126,12 @@
             "en": "John Bosco",
             "la": "Ioannes Bosco",
             "pl": "Jan Bosko"
+        },
+        "records/patrons/ioannes/cap": {
+            "it": "Giovanni da Capestrano",
+            "la": "Ioannes de Capistranus",
+            "en": "John of Capistrano",
+            "pl": "Jan Kapistran"
         },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
@@ -170,6 +188,11 @@
             "la": "Nicolaus Myrensis",
             "pl": "Mikołaj z Miry"
         },
+        "records/patrons/paphnutius/epi": {
+            "la": "Paphnutius Thebanus",
+            "en": "Paphnutius of Thebes",
+            "pl": "Pafnucy z Teb"
+        },
         "records/patrons/patricius/hib": {
             "ga": "Naomh Pádraig",
             "en": "Patrick",
@@ -187,6 +210,12 @@
             "en": "Fhilip Neri",
             "la": "Fhilippus Nerius",
             "pl": "Filip Neri"
+        },
+        "records/patrons/pius/10p": {
+            "it": "Papa Pio X",
+            "la": "Pius X",
+            "en": "Pope Pius X",
+            "pl": "Pius X"
         },
         "records/patrons/pius/5pp": {
             "it": "Pio V",

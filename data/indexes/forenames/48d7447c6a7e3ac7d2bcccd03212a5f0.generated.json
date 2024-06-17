@@ -17,6 +17,12 @@
         ]
     },
     "links": {
+        "records/patrons/pius/10p": {
+            "it": "Papa Pio X",
+            "la": "Pius X",
+            "en": "Pope Pius X",
+            "pl": "Pius X"
+        },
         "records/patrons/pius/5pp": {
             "it": "Pio V",
             "en": "Pope Pius V",

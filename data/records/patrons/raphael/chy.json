@@ -1,0 +1,37 @@
+{
+  "names": {
+    "pl": [
+      "Rafał Chyliński",
+      "Melchior Chyliński"
+    ],
+    "la": [
+      "Raphael Chylinski",
+      "Melchior Chyliński"
+    ],
+    "en": [
+      "Raphael Chylinski",
+      "Melchior Chyliński"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Chyliński"
+    }
+  ],
+
+  "born": ["1694-01-08"],
+  "died": ["1741-12-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1991-06-09"
+  },
+
+  "also-in-martyrology": ["12-02"],
+
+  "forenames": ["raphael", "melchior"],
+  "categories": ["vir", "presbyter"],
+
+  "order": ["ofmconv"]
+}

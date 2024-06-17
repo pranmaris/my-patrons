@@ -19,6 +19,11 @@
             "en": "Philip Apostle",
             "pl": "Filip Apostoł"
         },
+        "records/patrons/philippus/fel": {
+            "la": "Philippus (cum Felix, infra in Septem Fratribus)",
+            "en": "Philip (with Felix, one of Seven Brothers)",
+            "pl": "Filip (z Feliksem, jeden z Siedmiu Braci)"
+        },
         "records/patrons/philippus/ner": {
             "it": "Filippo Neri",
             "en": "Fhilip Neri",

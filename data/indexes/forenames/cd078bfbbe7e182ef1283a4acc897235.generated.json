@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "Cassian"
+    },
+    "translations": {
+        "la": [
+            "Cassianus"
+        ],
+        "en": [
+            "Cassian"
+        ],
+        "pl": [
+            "Kasjan"
+        ],
+        "fr": [
+            "Cassien"
+        ]
+    },
+    "links": {
+        "records/patrons/cassianus/aug": {
+            "fr": "Cassien d'Autun",
+            "la": "Cassianus episcopus Augustodunensis",
+            "en": "Cassian of Autun",
+            "pl": "Kasjan z Autun"
+        }
+    }
+}

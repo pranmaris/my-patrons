@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Liguda"
+    },
+    "translations": {
+        "pl": [
+            "Liguda"
+        ]
+    },
+    "links": {
+        "records/patrons/aloysius/lig": {
+            "pl": "Alojzy Liguda",
+            "la": "Aloysius Liguda",
+            "en": "Aloysius Liguda"
+        }
+    }
+}

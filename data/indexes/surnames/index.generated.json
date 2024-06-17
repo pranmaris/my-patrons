@@ -5,6 +5,9 @@
     "06bbad75185cdb0f713601dcd4a9dc16": {
         "pl": "Kózka"
     },
+    "12f29ea7d65f7da29b088d2415b9ed20": {
+        "it": "Capestrano"
+    },
     "14afe3d4aafb7c4a2dc0f195aeb6b394": {
         "pl": "Kolbe"
     },
@@ -17,8 +20,25 @@
     "18461b36d04a053a66c86180bc79a59b": {
         "it": "Forgione"
     },
+    "1ad1e0e1586168eecafa7c9c9651b15e": {
+        "it": "Bertoni"
+    },
+    "1c198f75af8fa30bebfaf08b193bc2d2": {
+        "it": "Borromeo",
+        "la": "Borromeo",
+        "en": "Borromeo"
+    },
+    "1eef3692a54765fef3e538ceeb7a9217": {
+        "pl": "Boromeusz"
+    },
+    "22dcb169508871ab9b9a077a9e438943": {
+        "it": "Baldinucci"
+    },
     "290a77d7756e05fc2761afedc5572c24": {
         "it": "Longo"
+    },
+    "2b6e502352af47303fd60fac483e5acd": {
+        "en": "Zaryckyy"
     },
     "2c93f2145bb9ed9062a138f8a7dad44f": {
         "uk": "Шептицький"
@@ -41,8 +61,14 @@
     "3c6c7535faa64ca951a73a872a5c2cde": {
         "pl": "Kaźmierski"
     },
+    "40ea84ceb8024e5ea8692861f3f37d13": {
+        "pl": "Kopliński"
+    },
     "414a3eefc2bb16b5403eda52c5921e2f": {
         "pl": "Bobola"
+    },
+    "4d3ab21dbd750fa8681d63715e66fd14": {
+        "es": "de Porres"
     },
     "543399c257b4c8b42151733f631a321d": {
         "pl": "Jóźwiak"
@@ -89,11 +115,20 @@
     "90fd52707a70f20702531b220ab00a50": {
         "it": "Molla"
     },
+    "94b40da0e09e69fb01c2ae5ea6f85aaa": {
+        "pl": "Bojanowski"
+    },
     "9510a4e700a96ea68128cfdff8e5a848": {
         "pl": "Cierpka"
     },
+    "9b478b93d86cd819201908fe9822ef4e": {
+        "en": "Becket"
+    },
     "9f45b746d5be06225a80138be9ecc37c": {
         "pl": "Rapiej"
+    },
+    "9fe1a71a68275e5732854ec078ca71ad": {
+        "pl": "Chyliński"
     },
     "a13f7668e4a7f75b209d3c89a2c6cbdb": {
         "it": "Neri"
@@ -116,14 +151,29 @@
     "a6e000ea43904d9a324e461a47eccc70": {
         "pl": "Mardosewicz"
     },
+    "a84b6ed4ab6d990cc60ccf6213fd10a8": {
+        "uk": "Зарицький"
+    },
     "aa931c9fc3054d596e6bd8214927e95f": {
         "fr": "de Foucauld"
+    },
+    "ac4d60ea467e650ff1579c0cc9c16b89": {
+        "pl": "Kratochwil"
+    },
+    "b29f76463feff89b6b0f397428d47c83": {
+        "la": "Zaryckyj"
     },
     "ba11a0f343996c2a558dedf2ed3c18a1": {
         "pl": "Czeska"
     },
     "bdf1356f54bdbca427dff27ff414f766": {
         "pl": "Chrobot"
+    },
+    "bdf2b5389ded2aa686ead0bcc25bdfec": {
+        "pl": "Zarycki"
+    },
+    "bf7acc64184037b8102433c81bdab492": {
+        "pl": "Popiełuszko"
     },
     "c3a71adc8626151904afc680b3c56a25": {
         "pl": "Narmontowicz"
@@ -149,6 +199,9 @@
     "de0d10f682463b36639bf775a0c17382": {
         "pl": "Feliński"
     },
+    "de6a7572388a4e567839bb02de3a3405": {
+        "vi": "Nguyễn"
+    },
     "e0dbd5823abe808540506fa8837f664b": {
         "pl": "Borowik"
     },
@@ -161,6 +214,9 @@
     "e3b0af6a85933a581b7d1500465cca55": {
         "pl": "Bajewski"
     },
+    "e9f91b069772819a3cbdc0f19e4a43a1": {
+        "pl": "Kostowski"
+    },
     "ec314f70c7d8600fb3b5634a92ce9ab0": {
         "pl": "Klinik"
     },
@@ -169,6 +225,9 @@
     },
     "f173424f29af787b27486e58bff57d54": {
         "pl": "Strepa"
+    },
+    "f488a6391867f8f50d0b96a76a22c409": {
+        "pl": "Liguda"
     },
     "f55fbaaca148300ac11f7752528cae3d": {
         "la": "Kim",

@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Antoninus (cum Nicephorus)"
+    ],
+    "en": [
+      "Antoninus (with Nicephorus)"
+    ],
+    "pl": [
+      "Antonin (z Niceforem)"
+    ]
+  },
+
+  "died": ["~308"],
+
+  "also-in-martyrology": ["11-13"],
+
+  "forenames": ["antoninus"],
+  "categories": ["vir", "martyr"]
+}

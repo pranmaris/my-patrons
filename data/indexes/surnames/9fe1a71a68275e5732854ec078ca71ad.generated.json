@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Chyliński"
+    },
+    "translations": {
+        "pl": [
+            "Chyliński"
+        ]
+    },
+    "links": {
+        "records/patrons/raphael/chy": {
+            "pl": "Rafał Chyliński",
+            "la": "Raphael Chylinski",
+            "en": "Raphael Chylinski"
+        }
+    }
+}

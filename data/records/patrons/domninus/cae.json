@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Domninus Caesariensis"
+    ],
+    "en": [
+      "Domninus of Caesarea"
+    ],
+    "pl": [
+      "Domnin z Cezarei"
+    ]
+  },
+
+  "died": ["~307"],
+
+  "also-in-martyrology": ["11-05"],
+
+  "forenames": ["domninus"],
+  "categories": ["vir", "martyr"]
+}

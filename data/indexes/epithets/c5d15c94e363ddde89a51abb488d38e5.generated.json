@@ -1,6 +1,7 @@
 {
     "names": {
-        "la": "Primus"
+        "la": "Primus",
+        "  la": "Primus"
     },
     "translations": {
         "la": [
@@ -11,6 +12,18 @@
         ],
         "pl": [
             "Pierwszy"
+        ],
+        "it": [
+            "Primo"
+        ],
+        "  la": [
+            "Primus"
+        ],
+        "  en": [
+            "the First"
+        ],
+        "  pl": [
+            "Pierwszy"
         ]
     },
     "links": {
@@ -18,6 +31,12 @@
             "la": "Deusdedit Pp. I",
             "en": "Deusdedit I",
             "pl": "Deusdedit I"
+        },
+        "records/patrons/ioannes/p1p": {
+            "it": "Giovanni Paolo I",
+            "la": "Ioannes Paulus Pp. I",
+            "en": "John Paul I",
+            "pl": "Jan Paweł I"
         }
     }
 }

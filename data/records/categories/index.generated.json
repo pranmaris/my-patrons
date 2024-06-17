@@ -9,6 +9,11 @@
         "en": "abbess",
         "pl": "ksieni"
     },
+    "acolytus": {
+        "la": "acolytus",
+        "en": "acolyte",
+        "pl": "akolita"
+    },
     "alius-apostolus": {
         "la": "alius apostolus",
         "en": "other apostle",
@@ -59,6 +64,11 @@
         "en": "catechumen",
         "pl": "katechumenka"
     },
+    "coenobita": {
+        "la": "coenobita",
+        "en": "cenobite",
+        "pl": "cenobita"
+    },
     "confessor": {
         "la": "confessor",
         "en": "confessor",
@@ -68,6 +78,11 @@
         "la": "coniunx",
         "en": "spouse",
         "pl": "małżonek"
+    },
+    "constitutor": {
+        "la": "constitutor",
+        "en": "constitutor",
+        "pl": "ustanawiacz"
     },
     "deus": {
         "la": "Deus",
@@ -119,6 +134,11 @@
         "en": "foundress",
         "pl": "fundatorka"
     },
+    "hegumenus": {
+        "la": "hegumenus",
+        "en": "hegumen",
+        "pl": "ihumen"
+    },
     "institutor": {
         "la": "institutor",
         "en": "instituter",
@@ -154,6 +174,11 @@
         "en": "mother of the household",
         "pl": "matka rodziny"
     },
+    "miles": {
+        "la": "miles",
+        "en": "soldier",
+        "pl": "żołnierz"
+    },
     "monachus": {
         "la": "monachus",
         "en": "monk",
@@ -173,6 +198,11 @@
         "la": "papa",
         "en": "pope",
         "pl": "papież"
+    },
+    "patriarcha": {
+        "la": "patriarcha",
+        "en": "patriarch",
+        "pl": "patriarcha"
     },
     "peregrinus": {
         "la": "peregrinus",
@@ -224,10 +254,10 @@
         "en": "king",
         "pl": "król"
     },
-    "sacerdos-saecularis": {
-        "la": "sacerdos saecularis",
-        "en": "secular priest",
-        "pl": "kapłan świecki"
+    "sacerdos-dioecesanus": {
+        "la": "sacerdos dioecesanus",
+        "en": "diocesan priest",
+        "pl": "kapłan diecezjalny"
     },
     "sacerdos": {
         "la": "sacerdos",

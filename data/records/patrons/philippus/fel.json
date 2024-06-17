@@ -1,0 +1,14 @@
+{
+  "names": {
+    "la": ["Philippus (cum Felix, infra in Septem Fratribus)"],
+    "en": ["Philip (with Felix, one of Seven Brothers)"],
+    "pl": ["Filip (z Feliksem, jeden z Siedmiu Braci)"]
+  },
+
+  "died": ["~165"],
+
+  "also-in-martyrology": ["07-10"],
+
+  "forenames": ["philippus"],
+  "categories": ["vir", "martyr"]
+}

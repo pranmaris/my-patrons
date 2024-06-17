@@ -42,6 +42,12 @@
             "la": "Ioannes Bosco",
             "pl": "Jan Bosko"
         },
+        "records/patrons/ioannes/cap": {
+            "it": "Giovanni da Capestrano",
+            "la": "Ioannes de Capistranus",
+            "en": "John of Capistrano",
+            "pl": "Jan Kapistran"
+        },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",
@@ -62,6 +68,12 @@
             "pl": "Jan Kanty",
             "en": "John Cantius",
             "la": "Ioannes Cantius"
+        },
+        "records/patrons/ioannes/p1p": {
+            "it": "Giovanni Paolo I",
+            "la": "Ioannes Paulus Pp. I",
+            "en": "John Paul I",
+            "pl": "Jan Paweł I"
         },
         "records/patrons/ioannes/p2p": {
             "pl": "Jan Paweł II",

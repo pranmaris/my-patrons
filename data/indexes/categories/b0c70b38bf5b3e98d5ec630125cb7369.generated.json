@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "żołnierz"
+    },
+    "translations": {
+        "la": [
+            "miles"
+        ],
+        "en": [
+            "soldier"
+        ],
+        "pl": [
+            "żołnierz"
+        ]
+    },
+    "links": {
+        "records/patrons/ignatius/loy": {
+            "es": "Ignacio de Loyola",
+            "la": "Ignatius de Loyola",
+            "en": "Ignatius of Loyola",
+            "pl": "Ignacy Loyola"
+        }
+    }
+}

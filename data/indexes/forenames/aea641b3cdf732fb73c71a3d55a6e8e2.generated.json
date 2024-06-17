@@ -1,8 +1,7 @@
 {
     "names": {
         "la": "Veronica",
-        "en": "Veronica",
-        "pl": "Veronica"
+        "en": "Veronica"
     },
     "translations": {
         "la": [
@@ -12,7 +11,7 @@
             "Veronica"
         ],
         "pl": [
-            "Veronica"
+            "Weronika"
         ]
     },
     "links": {
@@ -20,6 +19,11 @@
             "pl": "Maria Boromea Narmontowicz",
             "en": "Mary Boromea Narmontowicz",
             "la": "Maria Boromea Narmontowicz"
+        },
+        "records/patrons/veronica/hie": {
+            "la": "Veronica",
+            "en": "Veronica",
+            "pl": "Weronika"
         }
     }
 }

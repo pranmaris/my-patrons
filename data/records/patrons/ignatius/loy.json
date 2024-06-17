@@ -1,0 +1,40 @@
+{
+  "names": {
+    "es": [
+      "Ignacio de Loyola",
+      "Iñigo López de Oñaz y Loyola"
+    ],
+    "la": [
+      "Ignatius de Loyola",
+      "Iñigo López de Oñaz y Loyola"
+    ],
+    "en": [
+      "Ignatius of Loyola",
+      "Iñigo López de Oñaz y Loyola"
+    ],
+    "pl": [
+      "Ignacy Loyola",
+      "Iñigo López de Oñaz y Loyola"
+    ]
+  },
+
+  "born": ["<1491-10-23"],
+  "died": ["1556-07-31"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1609-07-27"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1622-03-13"
+  },
+
+  "also-in-martyrology": ["07-31"],
+
+  "forenames": ["ignatius"],
+  "categories": ["vir", "confessor", "presbyter", "fundator", "constitutor", "miles"],
+
+  "order": ["sj"],
+  "order-founder": ["sj"]
+}

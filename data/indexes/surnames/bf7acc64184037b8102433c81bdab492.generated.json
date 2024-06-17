@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Popiełuszko"
+    },
+    "translations": {
+        "pl": [
+            "Popiełuszko"
+        ]
+    },
+    "links": {
+        "records/patrons/georgius/pop": {
+            "pl": "Jerzy Popiełuszko",
+            "la": "Georgius Popiełuszko",
+            "en": "George Popiełuszko"
+        }
+    }
+}

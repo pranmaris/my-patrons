@@ -1,0 +1,32 @@
+{
+  "names": {
+    "en": [
+      "Thomas Becket"
+    ],
+    "la": [
+      "Thomas Becket"
+    ],
+    "pl": [
+      "Tomasz Becket"
+    ]
+  },
+
+  "surnames": [
+    {
+      "en": "Becket"
+    }
+  ],
+
+  "born": ["~1119-12-21"],
+  "died": ["1170-12-29"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1173-02-21"
+  },
+
+  "also-in-martyrology": ["12-29"],
+
+  "forenames": ["thomas"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

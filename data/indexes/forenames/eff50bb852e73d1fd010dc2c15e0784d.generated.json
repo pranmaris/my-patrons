@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Melchior",
+        "en": "Melchior",
+        "pl": "Melchior"
+    },
+    "translations": {
+        "la": [
+            "Melchior"
+        ],
+        "en": [
+            "Melchior"
+        ],
+        "pl": [
+            "Melchior"
+        ]
+    },
+    "links": {
+        "records/patrons/raphael/chy": {
+            "pl": "Rafał Chyliński",
+            "la": "Raphael Chylinski",
+            "en": "Raphael Chylinski"
+        }
+    }
+}

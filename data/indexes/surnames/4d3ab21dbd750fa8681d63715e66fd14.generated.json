@@ -1,0 +1,18 @@
+{
+    "names": {
+        "es": "de Porres"
+    },
+    "translations": {
+        "es": [
+            "de Porres"
+        ]
+    },
+    "links": {
+        "records/patrons/martinus/por": {
+            "es": "Martín de Porres",
+            "la": "Martinus de Porres",
+            "en": "Martin de Porres",
+            "pl": "Marcin de Porres"
+        }
+    }
+}

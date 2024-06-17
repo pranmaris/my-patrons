@@ -1,0 +1,44 @@
+{
+  "names": {
+    "it": [
+      "Giovanni Paolo I",
+      "Albino Luciani"
+    ],
+    "la": [
+      "Ioannes Paulus Pp. I",
+      "Albino Luciani"
+    ],
+    "en": [
+      "John Paul I",
+      "Albino Luciani"
+    ],
+    "pl": [
+      "Jan Paweł I",
+      "Albino Luciani"
+    ]
+  },
+
+  "epithets": [
+    {
+      "it": "Primo",
+    "  la": "Primus",
+    "  en": "the First",
+    "  pl": "Pierwszy"
+    }
+  ],
+
+  "born": ["1912-10-17"],
+  "died": ["1978-09-28"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2022-09-04"
+  },
+
+  "forenames": ["ioannes", "paulus"],
+  "categories": ["vir", "papa"],
+
+  "data-links": {
+    "popes": ["1:#263"]
+  }
+}

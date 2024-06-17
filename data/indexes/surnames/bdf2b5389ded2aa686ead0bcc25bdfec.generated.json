@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Zarycki"
+    },
+    "translations": {
+        "uk": [
+            "Зарицький"
+        ],
+        "la": [
+            "Zaryckyj"
+        ],
+        "en": [
+            "Zaryckyy"
+        ],
+        "pl": [
+            "Zarycki"
+        ]
+    },
+    "links": {
+        "records/patrons/alexius/zar": {
+            "uk": "Олексій Васильович Зарицький",
+            "la": "Alexius Zaryckyj",
+            "en": "Lex Zaryckyy",
+            "pl": "Aleksy Zarycki"
+        }
+    }
+}

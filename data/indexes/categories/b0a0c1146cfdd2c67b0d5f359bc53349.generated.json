@@ -31,6 +31,11 @@
             "en": "Isaiah",
             "la": "Isaias",
             "pl": "Izajasz"
+        },
+        "records/patrons/malachias/pro": {
+            "la": "Malachias Propheta",
+            "en": "Malachi the Prophet",
+            "pl": "Malachiasz Prorok"
         }
     }
 }

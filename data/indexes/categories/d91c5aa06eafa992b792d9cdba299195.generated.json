@@ -29,6 +29,11 @@
             "en": "Anastasia of Sirmium",
             "pl": "Anastazja z Dalmacji"
         },
+        "records/patrons/barbara/nic": {
+            "la": "Barbara Nicomedensis",
+            "en": "Barbara of Nicomedia",
+            "pl": "Barbara z Nikomedii"
+        },
         "records/patrons/caecilia/rom": {
             "la": "Caecilia Romana",
             "en": "Cecilia of Rome",
@@ -83,6 +88,12 @@
             "la": "Hedwigis ducissa Polonorum",
             "pl": "Jadwiga Śląska"
         },
+        "records/patrons/hedwigis/hun": {
+            "hu": "Anjou Hedvig",
+            "la": "Hedvigis Andegavensis",
+            "en": "Hedwig of Anjou",
+            "pl": "Jadwiga Andegaweńska"
+        },
         "records/patrons/ioanna/arc": {
             "fr": "Jeanne d'Arc",
             "en": "Joan of Arc",
@@ -100,6 +111,12 @@
             "en": "Josephine Bakhita",
             "la": "Iosephina Bakhita",
             "pl": "Józefina Bakhita"
+        },
+        "records/patrons/iustina/pat": {
+            "it": "Giustina di Padova",
+            "la": "Iustina Patavina",
+            "en": "Justine of Padua",
+            "pl": "Justyna z Padwy"
         },
         "records/patrons/kinga/cun": {
             "pl": "Kinga",
@@ -163,6 +180,11 @@
             "pl": "Maria Faustyna Kowalska",
             "en": "Maria Faustyna Kowalska",
             "la": "Maria Faustina Kowalska"
+        },
+        "records/patrons/maria/kra": {
+            "pl": "Maria Antonina Kratochwil",
+            "la": "Maria Antonina Kratochwil",
+            "en": "Mary Antoinette Kratochwil"
         },
         "records/patrons/maria/kuk": {
             "pl": "Maria Rajmunda od Jezusa i Maryi",
@@ -281,6 +303,11 @@
             "pl": "Urszula Ledóchowska",
             "en": "Ursula Ledóchowska",
             "la": "Urszula Ledóchowska"
+        },
+        "records/patrons/veronica/hie": {
+            "la": "Veronica",
+            "en": "Veronica",
+            "pl": "Weronika"
         }
     }
 }

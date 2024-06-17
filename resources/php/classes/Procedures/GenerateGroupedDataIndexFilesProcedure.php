@@ -49,6 +49,10 @@ class GenerateGroupedDataIndexFilesProcedure extends Procedure
             }
 
             foreach ($fieldData as $row) {
+                if (gettype($row) === 'string') {
+                    $this->error("Invalid non-array structure of '$dataField' for '$row' in $fullSourceFilePath");
+                }
+
                 foreach ($row as $language => $names) {
                     if (!is_array($names)) {
                         $names = [$names];

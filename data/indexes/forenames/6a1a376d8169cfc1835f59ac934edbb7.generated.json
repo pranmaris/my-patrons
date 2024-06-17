@@ -18,6 +18,9 @@
         ],
         "arc": [
             "ܡܪܝ ܝܘܣܦ"
+        ],
+        "vi": [
+            "Giuse"
         ]
     },
     "links": {
@@ -32,6 +35,12 @@
             "en": "Josemaría Escrivá de Balaguer",
             "la": "Iosephus Maria Escrivá de Balaguer",
             "pl": "Josemaría Escrivá de Balaguer"
+        },
+        "records/patrons/iosephus/ngu": {
+            "vi": "Giuse Nguyễn Đình Nghi",
+            "la": "Iosephus Nguyen Dinh Nghi",
+            "en": "Joseph Nguyen Dinh Nghi",
+            "pl": "Józef Nguyen Dinh Nghi"
         },
         "records/patrons/sarbelius/mak": {
             "ar": "شربل مخلوف",

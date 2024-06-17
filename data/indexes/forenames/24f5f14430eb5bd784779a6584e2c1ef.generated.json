@@ -18,6 +18,11 @@
         ]
     },
     "links": {
+        "records/patrons/bartholomaeus/apo": {
+            "la": "Bartholomaeus Apostolus",
+            "en": "Bartholomew the Apostle",
+            "pl": "Bartłomiej Apostoł"
+        },
         "records/patrons/bartholomaeus/lon": {
             "it": "Bartolo Longo",
             "en": "Bartolo Longo",

@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Dionysius"
+    },
+    "translations": {
+        "la": [
+            "Dionysius"
+        ],
+        "en": [
+            "Denis"
+        ],
+        "pl": [
+            "Dionizy"
+        ],
+        "fr": [
+            "Denis"
+        ]
+    },
+    "links": {
+        "records/patrons/dionysius/lut": {
+            "fr": "Denis de Paris",
+            "la": "Dionysius Parisiensis",
+            "en": "Denis of Paris",
+            "pl": "Dionizy z Paryża"
+        }
+    }
+}

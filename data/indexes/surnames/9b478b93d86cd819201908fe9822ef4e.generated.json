@@ -1,0 +1,17 @@
+{
+    "names": {
+        "en": "Becket"
+    },
+    "translations": {
+        "en": [
+            "Becket"
+        ]
+    },
+    "links": {
+        "records/patrons/thomas/bec": {
+            "en": "Thomas Becket",
+            "la": "Thomas Becket",
+            "pl": "Tomasz Becket"
+        }
+    }
+}

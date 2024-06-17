@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Veronica"
+    ],
+    "en": [
+      "Veronica"
+    ],
+    "pl": [
+      "Weronika"
+    ]
+  },
+
+  "died": ["<100"],
+
+  "also-mentioned": ["07-12"],
+
+  "forenames": ["veronica"],
+  "categories": ["femina"]
+}

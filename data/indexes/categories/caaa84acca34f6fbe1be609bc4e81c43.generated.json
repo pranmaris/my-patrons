@@ -49,6 +49,11 @@
             "la": "Dominicus Oxomensis",
             "pl": "Dominik Guzmán"
         },
+        "records/patrons/edmundus/boj": {
+            "pl": "Edmund Bojanowski",
+            "la": "Edmundus Bojanowski",
+            "en": "Edmund Bojanowski"
+        },
         "records/patrons/franciscus/asi": {
             "it": "Francesco d'Assisi",
             "en": "Francis of Assisi",
@@ -60,6 +65,12 @@
             "en": "Francis of Paola",
             "la": "Franciscus de Paula",
             "pl": "Franciszek z Paoli"
+        },
+        "records/patrons/ignatius/loy": {
+            "es": "Ignacio de Loyola",
+            "la": "Ignatius de Loyola",
+            "en": "Ignatius of Loyola",
+            "pl": "Ignacy Loyola"
         },
         "records/patrons/ioannes/bos": {
             "it": "Giovanni Bosco",

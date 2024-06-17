@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Sergiusz"
+    },
+    "translations": {
+        "la": [
+            "Sergius"
+        ],
+        "en": [
+            "Sergius"
+        ],
+        "pl": [
+            "Sergiusz"
+        ],
+        "ru": [
+            "Сергий"
+        ]
+    },
+    "links": {
+        "records/patrons/sergius/rad": {
+            "ru": "Сергий Радонежский",
+            "la": "Sergius de Radonez",
+            "en": "Sergius of Radonezh",
+            "pl": "Sergiusz z Radoneża"
+        }
+    }
+}

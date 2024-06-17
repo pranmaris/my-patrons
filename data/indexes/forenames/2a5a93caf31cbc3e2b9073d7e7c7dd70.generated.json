@@ -26,6 +26,12 @@
             "la": "Carolus Acutis",
             "pl": "Karol Acutis"
         },
+        "records/patrons/carolus/bor": {
+            "it": "Carlo Borromeo",
+            "la": "Carolus Borromeo",
+            "en": "Charles Borromeo",
+            "pl": "Karol Boromeusz"
+        },
         "records/patrons/carolus/fou": {
             "fr": "Charles de Foucauld",
             "en": "Charles de Foucauld",

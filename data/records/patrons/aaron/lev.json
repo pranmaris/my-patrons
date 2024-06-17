@@ -1,0 +1,31 @@
+{
+  "names": {
+    "he": [
+      "אַהֲרֹן"
+    ],
+    "la": [
+      "Aaron Levi"
+    ],
+    "en": [
+      "Aaron the Levite"
+    ],
+    "pl": [
+      "Aaron Lewi"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Primus ex ordine Levitico Sacerdos",
+    "  en": "First Levitical Priest",
+    "  pl": "Pierwszy kapłan z pokolenia Lewiego"
+    }
+  ],
+
+  "died": ["~-1273"],
+
+  "also-in-martyrology": ["07-01"],
+
+  "forenames": ["aaron"],
+  "categories": ["vir", "sacerdos"]
+}

@@ -1,0 +1,23 @@
+{
+  "names": {
+    "fr": [
+      "Denis de Paris"
+    ],
+    "la": [
+      "Dionysius Parisiensis"
+    ],
+    "en": [
+      "Denis of Paris"
+    ],
+    "pl": [
+      "Dionizy z Paryża"
+    ]
+  },
+
+  "died": ["~258"],
+
+  "also-in-martyrology": ["10-09"],
+
+  "forenames": ["dionysius"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

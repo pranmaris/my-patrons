@@ -1,0 +1,29 @@
+{
+    "names": {
+        "la": "sacerdos dioecesanus"
+    },
+    "translations": {
+        "la": [
+            "sacerdos dioecesanus"
+        ],
+        "en": [
+            "diocesan priest"
+        ],
+        "pl": [
+            "kapłan diecezjalny"
+        ]
+    },
+    "links": {
+        "records/patrons/georgius/pop": {
+            "pl": "Jerzy Popiełuszko",
+            "la": "Georgius Popiełuszko",
+            "en": "George Popiełuszko"
+        },
+        "records/patrons/petrus/eym": {
+            "fr": "Pierre-Julien Eymard",
+            "en": "Peter Julian Eymanrd",
+            "la": "Patrus Iulianus Eymard",
+            "pl": "Piotr Julian Eymard"
+        }
+    }
+}

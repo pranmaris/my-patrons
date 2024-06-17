@@ -1,0 +1,44 @@
+{
+  "names": {
+    "it": [
+      "Gaspare Bertoni",
+      "Gaspare Luigi Bertoni"
+    ],
+    "la": [
+      "Gaspar Bertoni"
+      ],
+    "en": [
+      "Casper Bertoni",
+      "Gaspare Luigi Bertoni"
+      ],
+    "pl": [
+      "Kasper Bertoni"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Bertoni"
+    }
+  ],
+
+  "born": ["1777-10-09"],
+  "died": ["1843-06-12", "1853-06-12"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1975-11-01"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1989-11-01"
+  },
+
+  "also-in-martyrology": ["06-12"],
+
+  "forenames": ["gaspar"],
+  "categories": ["vir", "presbyter", "institutor"],
+
+  "order": ["css"],
+  "order-founder": ["css"]
+}

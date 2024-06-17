@@ -1,0 +1,23 @@
+{
+  "names": {
+    "it": [
+      "Giustina di Padova"
+    ],
+    "la": [
+      "Iustina Patavina"
+    ],
+    "en": [
+      "Justine of Padua"
+    ],
+    "pl": [
+      "Justyna z Padwy"
+    ]
+  },
+
+  "died": ["~304"],
+
+  "also-in-martyrology": ["10-07"],
+
+  "forenames": ["iustina"],
+  "categories": ["femina", "martyrix", "virgo"]
+}

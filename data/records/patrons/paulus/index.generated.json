@@ -4,5 +4,10 @@
         "la": "Paulus Tersensis",
         "en": "Paul of Tarsus",
         "pl": "Paweł z Tarsu"
+    },
+    "con": {
+        "la": "Paulus Constantinopolitanus",
+        "en": "Paul of Constantinople",
+        "pl": "Paweł z Bizancjum"
     }
 }

@@ -15,6 +15,9 @@
         ],
         "de": [
             "Hedwig"
+        ],
+        "hu": [
+            "Hedvig"
         ]
     },
     "links": {
@@ -23,6 +26,12 @@
             "en": "Hedwig of Silesia",
             "la": "Hedwigis ducissa Polonorum",
             "pl": "Jadwiga Śląska"
+        },
+        "records/patrons/hedwigis/hun": {
+            "hu": "Anjou Hedvig",
+            "la": "Hedvigis Andegavensis",
+            "en": "Hedwig of Anjou",
+            "pl": "Jadwiga Andegaweńska"
         },
         "records/patrons/maria/zak": {
             "pl": "Maria Imelda od Jezusa Hostii",

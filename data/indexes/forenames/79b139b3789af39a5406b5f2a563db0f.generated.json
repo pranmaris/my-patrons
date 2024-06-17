@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Bazyli"
+    },
+    "translations": {
+        "la": [
+            "Basilius"
+        ],
+        "en": [
+            "Basil"
+        ],
+        "pl": [
+            "Bazyli"
+        ]
+    },
+    "links": {
+        "records/patrons/basilius/ant": {
+            "la": "Basilius Antiochenus",
+            "en": "Basil of Antioch",
+            "pl": "Bazyli z Antiochii"
+        }
+    }
+}

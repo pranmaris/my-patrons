@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Baldinucci"
+    },
+    "translations": {
+        "it": [
+            "Baldinucci"
+        ]
+    },
+    "links": {
+        "records/patrons/antonius/bal": {
+            "it": "Antonio Baldinucci",
+            "la": "Antonius Baldinucci",
+            "en": "Anthony Baldinucci",
+            "pl": "Antoni Baldinucci"
+        }
+    }
+}

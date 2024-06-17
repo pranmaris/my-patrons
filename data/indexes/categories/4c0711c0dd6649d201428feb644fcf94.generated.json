@@ -24,6 +24,11 @@
             "en": "Agnes of Rome",
             "pl": "Agnieszka Rzymianka"
         },
+        "records/patrons/barbara/nic": {
+            "la": "Barbara Nicomedensis",
+            "en": "Barbara of Nicomedia",
+            "pl": "Barbara z Nikomedii"
+        },
         "records/patrons/caecilia/rom": {
             "la": "Caecilia Romana",
             "en": "Cecilia of Rome",
@@ -68,6 +73,12 @@
             "en": "Josephine Bakhita",
             "la": "Iosephina Bakhita",
             "pl": "Józefina Bakhita"
+        },
+        "records/patrons/iustina/pat": {
+            "it": "Giustina di Padova",
+            "la": "Iustina Patavina",
+            "en": "Justine of Padua",
+            "pl": "Justyna z Padwy"
         },
         "records/patrons/kinga/cun": {
             "pl": "Kinga",
@@ -116,6 +127,11 @@
             "pl": "Maria Faustyna Kowalska",
             "en": "Maria Faustyna Kowalska",
             "la": "Maria Faustina Kowalska"
+        },
+        "records/patrons/maria/kra": {
+            "pl": "Maria Antonina Kratochwil",
+            "la": "Maria Antonina Kratochwil",
+            "en": "Mary Antoinette Kratochwil"
         },
         "records/patrons/maria/kuk": {
             "pl": "Maria Rajmunda od Jezusa i Maryi",

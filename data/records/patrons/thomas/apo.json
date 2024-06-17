@@ -1,0 +1,23 @@
+{
+  "names": {
+    "la": [
+      "Thomas Apostolus",
+      "Didymus"
+    ],
+    "en": [
+      "Thomas the Apostle",
+      "Didymus"
+    ],
+    "pl": [
+      "Tomasz Apostoł",
+      "Didymos"
+    ]
+  },
+
+  "died": ["~72"],
+
+  "also-in-martyrology": ["07-03", "12-21"],
+
+  "forenames": ["thomas"],
+  "categories": ["vir", "apostolus", "martyr"]
+}

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Krzysztof"
+    },
+    "translations": {
+        "la": [
+            "Christophorus"
+        ],
+        "en": [
+            "Christopher"
+        ],
+        "pl": [
+            "Krzysztof"
+        ]
+    },
+    "links": {
+        "records/patrons/christophorus/lyc": {
+            "la": "Christophorus Lyciensis",
+            "en": "Christopher of Lycia",
+            "pl": "Krzysztof z Licji"
+        }
+    }
+}

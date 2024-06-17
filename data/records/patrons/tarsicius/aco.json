@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Tarsicius Acolytus"
+    ],
+    "en": [
+      "Tarcisius Acolyte"
+    ],
+    "pl": [
+      "Tarsycjusz Akolita"
+    ]
+  },
+
+  "died": ["~257"],
+
+  "also-in-martyrology": ["08-15"],
+
+  "forenames": ["tarsicius"],
+  "categories": ["vir", "martyr", "acolytus"]
+}

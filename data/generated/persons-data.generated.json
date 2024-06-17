@@ -323,6 +323,25 @@
             "pl": "Patroni"
         }
     },
+    "patrons/aaron": {
+        "names": {
+            "la": "אַהֲרֹן",
+            "en": "Aaron",
+            "pl": "Aaron"
+        }
+    },
+    "patrons/aaron/lev": {
+        "names": {
+            "he": "אַהֲרֹן",
+            "la": "Aaron Levi",
+            "en": "Aaron the Levite",
+            "pl": "Aaron Lewi"
+        },
+        "died": [
+            "~-1273"
+        ],
+        "feasts": []
+    },
     "patrons/acacius": {
         "names": {
             "la": "Acacius",
@@ -441,6 +460,44 @@
         ],
         "feasts": []
     },
+    "patrons/alexius": {
+        "names": {
+            "la": "Alexius",
+            "en": "Lex",
+            "pl": "Aleksy",
+            "uk": "Олексій"
+        }
+    },
+    "patrons/alexius/zar": {
+        "names": {
+            "uk": "Олексій Васильович Зарицький",
+            "la": "Alexius Zaryckyj",
+            "en": "Lex Zaryckyy",
+            "pl": "Aleksy Zarycki"
+        },
+        "died": [
+            "1963-10-30"
+        ],
+        "feasts": []
+    },
+    "patrons/aloysius": {
+        "names": {
+            "la": "Aloysius",
+            "en": "Aloysius",
+            "pl": "Alojzy"
+        }
+    },
+    "patrons/aloysius/lig": {
+        "names": {
+            "pl": "Alojzy Liguda",
+            "la": "Aloysius Liguda",
+            "en": "Aloysius Liguda"
+        },
+        "died": [
+            "1942-12-08"
+        ],
+        "feasts": []
+    },
     "patrons/alphonsus": {
         "names": {
             "la": "Alphonsus",
@@ -542,11 +599,48 @@
         ],
         "feasts": []
     },
+    "patrons/anicetus": {
+        "names": {
+            "la": "Anicetus",
+            "en": "Anicetus",
+            "pl": "Anicet"
+        }
+    },
+    "patrons/anicetus/kop": {
+        "names": {
+            "pl": "Anicet Kopliński",
+            "la": "Anicetus Koplinski",
+            "en": "Anicetus Kopliński"
+        },
+        "died": [
+            "1941-10-16"
+        ],
+        "feasts": []
+    },
+    "patrons/antoninus": {
+        "names": {
+            "la": "Antoninus",
+            "en": "Antoninus",
+            "pl": "Antonin"
+        }
+    },
+    "patrons/antoninus/apa": {
+        "names": {
+            "la": "Antoninus de Apamea",
+            "en": "Antoninus of Apamea",
+            "pl": "Antonin z Apamei"
+        },
+        "died": [
+            "~307"
+        ],
+        "feasts": []
+    },
     "patrons/antonius": {
         "names": {
             "la": "Antonius",
             "en": "Anthony",
             "pl": "Antoni",
+            "it": "Antonio",
             "pt": "Antônio"
         }
     },
@@ -558,6 +652,29 @@
         },
         "died": [
             "1941-05-08"
+        ],
+        "feasts": []
+    },
+    "patrons/antonius/bal": {
+        "names": {
+            "it": "Antonio Baldinucci",
+            "la": "Antonius Baldinucci",
+            "en": "Anthony Baldinucci",
+            "pl": "Antoni Baldinucci"
+        },
+        "died": [
+            "1717-11-06"
+        ],
+        "feasts": []
+    },
+    "patrons/antonius/nic": {
+        "names": {
+            "la": "Antoninus (cum Nicephorus)",
+            "en": "Antoninus (with Nicephorus)",
+            "pl": "Antonin (z Niceforem)"
+        },
+        "died": [
+            "~308"
         ],
         "feasts": []
     },
@@ -604,6 +721,24 @@
             }
         }
     },
+    "patrons/barbara": {
+        "names": {
+            "la": "Barbara",
+            "en": "Barbara",
+            "pl": "Barbara"
+        }
+    },
+    "patrons/barbara/nic": {
+        "names": {
+            "la": "Barbara Nicomedensis",
+            "en": "Barbara of Nicomedia",
+            "pl": "Barbara z Nikomedii"
+        },
+        "died": [
+            "~305"
+        ],
+        "feasts": []
+    },
     "patrons/bartholomaeus": {
         "names": {
             "la": "Bartholomaeus",
@@ -611,6 +746,17 @@
             "pl": "Bartłomiej",
             "it": "Bartolomeo"
         }
+    },
+    "patrons/bartholomaeus/apo": {
+        "names": {
+            "la": "Bartholomaeus Apostolus",
+            "en": "Bartholomew the Apostle",
+            "pl": "Bartłomiej Apostoł"
+        },
+        "died": [
+            "~80"
+        ],
+        "feasts": []
     },
     "patrons/bartholomaeus/lon": {
         "names": {
@@ -621,6 +767,25 @@
         },
         "died": [
             "1926-10-05"
+        ],
+        "feasts": []
+    },
+    "patrons/basilius": {
+        "names": {
+            "la": "Basilius",
+            "en": "Basil",
+            "pl": "Bazyli"
+        }
+    },
+    "patrons/basilius/ant": {
+        "names": {
+            "la": "Basilius Antiochenus",
+            "en": "Basil of Antioch",
+            "pl": "Bazyli z Antiochii"
+        },
+        "died": [
+            ">301",
+            "<400"
         ],
         "feasts": []
     },
@@ -695,6 +860,24 @@
         },
         "died": [
             "754-06-05"
+        ],
+        "feasts": []
+    },
+    "patrons/bronislaus": {
+        "names": {
+            "la": "Bronislaus",
+            "en": "Bronislaus",
+            "pl": "Bronisław"
+        }
+    },
+    "patrons/bronislaus/kos": {
+        "names": {
+            "pl": "Bronisław Kostkowski",
+            "la": "Bronislaus Kostkowski",
+            "en": "Bronislaus Kostkowski"
+        },
+        "died": [
+            "1942-09-27"
         ],
         "feasts": []
     },
@@ -796,6 +979,18 @@
         ],
         "feasts": []
     },
+    "patrons/carolus/bor": {
+        "names": {
+            "it": "Carlo Borromeo",
+            "la": "Carolus Borromeo",
+            "en": "Charles Borromeo",
+            "pl": "Karol Boromeusz"
+        },
+        "died": [
+            "1584-11-03"
+        ],
+        "feasts": []
+    },
     "patrons/carolus/fou": {
         "names": {
             "fr": "Charles de Foucauld",
@@ -823,6 +1018,26 @@
         },
         "died": [
             "1484-03-04"
+        ],
+        "feasts": []
+    },
+    "patrons/cassianus": {
+        "names": {
+            "la": "Cassianus",
+            "en": "Cassian",
+            "pl": "Kasjan",
+            "fr": "Cassien"
+        }
+    },
+    "patrons/cassianus/aug": {
+        "names": {
+            "fr": "Cassien d'Autun",
+            "la": "Cassianus episcopus Augustodunensis",
+            "en": "Cassian of Autun",
+            "pl": "Kasjan z Autun"
+        },
+        "died": [
+            "~350"
         ],
         "feasts": []
     },
@@ -872,6 +1087,24 @@
         },
         "died": [
             "1942-08-24"
+        ],
+        "feasts": []
+    },
+    "patrons/christophorus": {
+        "names": {
+            "la": "Christophorus",
+            "en": "Christopher",
+            "pl": "Krzysztof"
+        }
+    },
+    "patrons/christophorus/lyc": {
+        "names": {
+            "la": "Christophorus Lyciensis",
+            "en": "Christopher of Lycia",
+            "pl": "Krzysztof z Licji"
+        },
+        "died": [
+            "~250"
         ],
         "feasts": []
     },
@@ -1069,6 +1302,26 @@
         ],
         "feasts": []
     },
+    "patrons/dionysius": {
+        "names": {
+            "la": "Dionysius",
+            "en": "Denis",
+            "pl": "Dionizy",
+            "fr": "Denis"
+        }
+    },
+    "patrons/dionysius/lut": {
+        "names": {
+            "fr": "Denis de Paris",
+            "la": "Dionysius Parisiensis",
+            "en": "Denis of Paris",
+            "pl": "Dionizy z Paryża"
+        },
+        "died": [
+            "~258"
+        ],
+        "feasts": []
+    },
     "patrons/dominicus": {
         "names": {
             "la": "Dominicus",
@@ -1098,6 +1351,42 @@
         },
         "died": [
             "1221-08-06"
+        ],
+        "feasts": []
+    },
+    "patrons/domninus": {
+        "names": {
+            "la": "Domninus",
+            "en": "Domninus",
+            "pl": "Domnin"
+        }
+    },
+    "patrons/domninus/cae": {
+        "names": {
+            "la": "Domninus Caesariensis",
+            "en": "Domninus of Caesarea",
+            "pl": "Domnin z Cezarei"
+        },
+        "died": [
+            "~307"
+        ],
+        "feasts": []
+    },
+    "patrons/edmundus": {
+        "names": {
+            "la": "Edmundus",
+            "en": "Edmund",
+            "pl": "Edmund"
+        }
+    },
+    "patrons/edmundus/boj": {
+        "names": {
+            "pl": "Edmund Bojanowski",
+            "la": "Edmundus Bojanowski",
+            "en": "Edmund Bojanowski"
+        },
+        "died": [
+            "1871-08-07"
         ],
         "feasts": []
     },
@@ -1335,6 +1624,19 @@
             "it": "Gaspare"
         }
     },
+    "patrons/gaspar/ber": {
+        "names": {
+            "it": "Gaspare Bertoni",
+            "la": "Gaspar Bertoni",
+            "en": "Casper Bertoni",
+            "pl": "Kasper Bertoni"
+        },
+        "died": [
+            "1843-06-12",
+            "1853-06-12"
+        ],
+        "feasts": []
+    },
     "patrons/gaspar/buf": {
         "names": {
             "it": "Gaspare del Bufalo",
@@ -1404,12 +1706,24 @@
         ],
         "feasts": []
     },
+    "patrons/georgius/pop": {
+        "names": {
+            "pl": "Jerzy Popiełuszko",
+            "la": "Georgius Popiełuszko",
+            "en": "George Popiełuszko"
+        },
+        "died": [
+            "1984-10-19"
+        ],
+        "feasts": []
+    },
     "patrons/hedwigis": {
         "names": {
             "la": "Hedwigis",
             "en": "Hedwig",
             "pl": "Jadwiga",
-            "de": "Hedwig"
+            "de": "Hedwig",
+            "hu": "Hedvig"
         }
     },
     "patrons/hedwigis/duc": {
@@ -1422,6 +1736,38 @@
         "died": [
             "1243-10-14",
             "1243-10-15"
+        ],
+        "feasts": []
+    },
+    "patrons/hedwigis/hun": {
+        "names": {
+            "hu": "Anjou Hedvig",
+            "la": "Hedvigis Andegavensis",
+            "en": "Hedwig of Anjou",
+            "pl": "Jadwiga Andegaweńska"
+        },
+        "died": [
+            "1399-07-17"
+        ],
+        "feasts": []
+    },
+    "patrons/hieronymus": {
+        "names": {
+            "la": "Hieronymus",
+            "en": "Jerome",
+            "pl": "Hieronim",
+            "it": "Jeronimo"
+        }
+    },
+    "patrons/hieronymus/tif": {
+        "names": {
+            "it": "Jeronimo Ranuzzi",
+            "la": "Hieronymus Ranuzzi",
+            "en": "Jerome Ranuzzi",
+            "pl": "Hieronim Ranuzzi"
+        },
+        "died": [
+            "~1468"
         ],
         "feasts": []
     },
@@ -1517,6 +1863,26 @@
         },
         "died": [
             "1942-08-24"
+        ],
+        "feasts": []
+    },
+    "patrons/ignatius": {
+        "names": {
+            "la": "Ignatius",
+            "en": "Ignatius",
+            "pl": "Ignacy",
+            "es": "Ignacio"
+        }
+    },
+    "patrons/ignatius/loy": {
+        "names": {
+            "es": "Ignacio de Loyola",
+            "la": "Ignatius de Loyola",
+            "en": "Ignatius of Loyola",
+            "pl": "Ignacy Loyola"
+        },
+        "died": [
+            "1556-07-31"
         ],
         "feasts": []
     },
@@ -1647,6 +2013,18 @@
         ],
         "feasts": []
     },
+    "patrons/ioannes/cap": {
+        "names": {
+            "it": "Giovanni da Capestrano",
+            "la": "Ioannes de Capistranus",
+            "en": "John of Capistrano",
+            "pl": "Jan Kapistran"
+        },
+        "died": [
+            "1456-10-23"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/chr": {
         "names": {
             "la": "Ioannes Chrysostomus",
@@ -1714,6 +2092,18 @@
         },
         "died": [
             "1473-12-24"
+        ],
+        "feasts": []
+    },
+    "patrons/ioannes/p1p": {
+        "names": {
+            "it": "Giovanni Paolo I",
+            "la": "Ioannes Paulus Pp. I",
+            "en": "John Paul I",
+            "pl": "Jan Paweł I"
+        },
+        "died": [
+            "1978-09-28"
         ],
         "feasts": []
     },
@@ -1803,7 +2193,8 @@
         "names": {
             "la": "Iosephus",
             "en": "Joseph",
-            "pl": "Józef"
+            "pl": "Józef",
+            "vi": "Giuse"
         }
     },
     "patrons/iosephus/esc": {
@@ -1815,6 +2206,18 @@
         },
         "died": [
             "1975-06-26"
+        ],
+        "feasts": []
+    },
+    "patrons/iosephus/ngu": {
+        "names": {
+            "vi": "Giuse Nguyễn Đình Nghi",
+            "la": "Iosephus Nguyen Dinh Nghi",
+            "en": "Joseph Nguyen Dinh Nghi",
+            "pl": "Józef Nguyen Dinh Nghi"
+        },
+        "died": [
+            "1840-11-08"
         ],
         "feasts": []
     },
@@ -1872,6 +2275,26 @@
         },
         "died": [
             "~80"
+        ],
+        "feasts": []
+    },
+    "patrons/iustina": {
+        "names": {
+            "la": "Iustina",
+            "en": "Justine",
+            "pl": "Justyna",
+            "it": "Giustina"
+        }
+    },
+    "patrons/iustina/pat": {
+        "names": {
+            "it": "Giustina di Padova",
+            "la": "Iustina Patavina",
+            "en": "Justine of Padua",
+            "pl": "Justyna z Padwy"
+        },
+        "died": [
+            "~304"
         ],
         "feasts": []
     },
@@ -2069,6 +2492,25 @@
         ],
         "feasts": []
     },
+    "patrons/malachias": {
+        "names": {
+            "la": "Malachias",
+            "en": "Malachi",
+            "pl": "Malachiasz"
+        }
+    },
+    "patrons/malachias/pro": {
+        "names": {
+            "la": "Malachias Propheta",
+            "en": "Malachi the Prophet",
+            "pl": "Malachiasz Prorok"
+        },
+        "died": [
+            ">-500",
+            "<-401"
+        ],
+        "feasts": []
+    },
     "patrons/marcellinus": {
         "names": {
             "la": "Marcellinus",
@@ -2084,6 +2526,24 @@
         },
         "died": [
             "304-10-25"
+        ],
+        "feasts": []
+    },
+    "patrons/marcus": {
+        "names": {
+            "la": "Marcus",
+            "en": "Mark",
+            "pl": "Marek"
+        }
+    },
+    "patrons/marcus/hie": {
+        "names": {
+            "la": "Marcus Hierosolymitanus",
+            "en": "Mark of Jerusalem",
+            "pl": "Marek z Jerozolimy"
+        },
+        "died": [
+            "~156"
         ],
         "feasts": []
     },
@@ -2191,6 +2651,17 @@
         },
         "died": [
             "1938-10-05"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/kra": {
+        "names": {
+            "pl": "Maria Antonina Kratochwil",
+            "la": "Maria Antonina Kratochwil",
+            "en": "Mary Antoinette Kratochwil"
+        },
+        "died": [
+            "1942-10-02"
         ],
         "feasts": []
     },
@@ -2428,8 +2899,21 @@
         "names": {
             "la": "Martinus",
             "en": "Martin",
-            "pl": "Marcin"
+            "pl": "Marcin",
+            "es": "Martín"
         }
+    },
+    "patrons/martinus/por": {
+        "names": {
+            "es": "Martín de Porres",
+            "la": "Martinus de Porres",
+            "en": "Martin de Porres",
+            "pl": "Marcin de Porres"
+        },
+        "died": [
+            "1639-11-03"
+        ],
+        "feasts": []
     },
     "patrons/martinus/tur": {
         "names": {
@@ -2627,6 +3111,25 @@
         ],
         "feasts": []
     },
+    "patrons/paphnutius": {
+        "names": {
+            "la": "Paphnutius",
+            "en": "Paphnutius",
+            "pl": "Pafnucy"
+        }
+    },
+    "patrons/paphnutius/epi": {
+        "names": {
+            "la": "Paphnutius Thebanus",
+            "en": "Paphnutius of Thebes",
+            "pl": "Pafnucy z Teb"
+        },
+        "died": [
+            ">301",
+            "<400"
+        ],
+        "feasts": []
+    },
     "patrons/patricius": {
         "names": {
             "la": "Patricius",
@@ -2704,6 +3207,17 @@
                 }
             }
         }
+    },
+    "patrons/paulus/con": {
+        "names": {
+            "la": "Paulus Constantinopolitanus",
+            "en": "Paul of Constantinople",
+            "pl": "Paweł z Bizancjum"
+        },
+        "died": [
+            "~351"
+        ],
+        "feasts": []
     },
     "patrons/perpetua": {
         "names": {
@@ -2829,6 +3343,17 @@
         ],
         "feasts": []
     },
+    "patrons/philippus/fel": {
+        "names": {
+            "la": "Philippus (cum Felix, infra in Septem Fratribus)",
+            "en": "Philip (with Felix, one of Seven Brothers)",
+            "pl": "Filip (z Feliksem, jeden z Siedmiu Braci)"
+        },
+        "died": [
+            "~165"
+        ],
+        "feasts": []
+    },
     "patrons/philippus/ner": {
         "names": {
             "it": "Filippo Neri",
@@ -2848,6 +3373,18 @@
             "pl": "Pius",
             "it": "Pio"
         }
+    },
+    "patrons/pius/10p": {
+        "names": {
+            "it": "Papa Pio X",
+            "la": "Pius X",
+            "en": "Pope Pius X",
+            "pl": "Pius X"
+        },
+        "died": [
+            "1914-08-20"
+        ],
+        "feasts": []
     },
     "patrons/pius/5pp": {
         "names": {
@@ -2888,6 +3425,17 @@
         },
         "died": [
             "-"
+        ],
+        "feasts": []
+    },
+    "patrons/raphael/chy": {
+        "names": {
+            "pl": "Rafał Chyliński",
+            "la": "Raphael Chylinski",
+            "en": "Raphael Chylinski"
+        },
+        "died": [
+            "1741-12-02"
         ],
         "feasts": []
     },
@@ -3101,6 +3649,26 @@
         ],
         "feasts": []
     },
+    "patrons/sergius": {
+        "names": {
+            "la": "Sergius",
+            "en": "Sergius",
+            "pl": "Sergiusz",
+            "ru": "Сергий"
+        }
+    },
+    "patrons/sergius/rad": {
+        "names": {
+            "ru": "Сергий Радонежский",
+            "la": "Sergius de Radonez",
+            "en": "Sergius of Radonezh",
+            "pl": "Sergiusz z Radoneża"
+        },
+        "died": [
+            "1392-09-25"
+        ],
+        "feasts": []
+    },
     "patrons/sigismundus": {
         "names": {
             "la": "Sigismundus",
@@ -3204,6 +3772,24 @@
         ],
         "feasts": []
     },
+    "patrons/tarsicius": {
+        "names": {
+            "la": "Tarsicius",
+            "en": "Tarcisius",
+            "pl": "Tarsycjusz"
+        }
+    },
+    "patrons/tarsicius/aco": {
+        "names": {
+            "la": "Tarsicius Acolytus",
+            "en": "Tarcisius Acolyte",
+            "pl": "Tarsycjusz Akolita"
+        },
+        "died": [
+            "~257"
+        ],
+        "feasts": []
+    },
     "patrons/teresia": {
         "names": {
             "la": "Teresia",
@@ -3251,6 +3837,35 @@
         ],
         "feasts": []
     },
+    "patrons/thomas": {
+        "names": {
+            "la": "Thomas",
+            "en": "Thomas",
+            "pl": "Tomasz"
+        }
+    },
+    "patrons/thomas/apo": {
+        "names": {
+            "la": "Thomas Apostolus",
+            "en": "Thomas the Apostle",
+            "pl": "Tomasz Apostoł"
+        },
+        "died": [
+            "~72"
+        ],
+        "feasts": []
+    },
+    "patrons/thomas/bec": {
+        "names": {
+            "en": "Thomas Becket",
+            "la": "Thomas Becket",
+            "pl": "Tomasz Becket"
+        },
+        "died": [
+            "1170-12-29"
+        ],
+        "feasts": []
+    },
     "patrons/ursula": {
         "names": {
             "la": "Ursula",
@@ -3266,6 +3881,24 @@
         },
         "died": [
             "1939-05-29"
+        ],
+        "feasts": []
+    },
+    "patrons/veronica": {
+        "names": {
+            "la": "Veronica",
+            "en": "Veronica",
+            "pl": "Weronika"
+        }
+    },
+    "patrons/veronica/hie": {
+        "names": {
+            "la": "Veronica",
+            "en": "Veronica",
+            "pl": "Weronika"
+        },
+        "died": [
+            "<100"
         ],
         "feasts": []
     },

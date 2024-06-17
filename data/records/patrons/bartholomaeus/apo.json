@@ -1,0 +1,22 @@
+{
+  "names": {
+    "la": [
+      "Bartholomaeus Apostolus",
+      "Nathanael"
+    ],
+    "en": [
+      "Bartholomew the Apostle"
+    ],
+    "pl": [
+      "Bartłomiej Apostoł",
+      "Nataniel"
+    ]
+  },
+
+  "died": ["~80"],
+
+  "also-in-martyrology": ["08-24"],
+
+  "forenames": ["bartholomaeus", "nathanael"],
+  "categories": ["vir", "apostolus", "martyr"]
+}

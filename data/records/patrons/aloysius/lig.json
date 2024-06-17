@@ -1,0 +1,34 @@
+{
+  "names": {
+    "pl": [
+      "Alojzy Liguda"
+    ],
+    "la": [
+      "Aloysius Liguda"
+    ],
+    "en": [
+      "Aloysius Liguda"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Liguda"
+    }
+  ],
+
+  "born": ["1898-01-23"],
+  "died": ["1942-12-08"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["12-08"],
+
+  "forenames": ["aloysius"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["svd"]
+}

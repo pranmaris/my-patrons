@@ -1,0 +1,23 @@
+{
+  "names": {
+    "fr": [
+      "Cassien d'Autun"
+    ],
+    "la": [
+      "Cassianus episcopus Augustodunensis"
+    ],
+    "en": [
+      "Cassian of Autun"
+    ],
+    "pl": [
+      "Kasjan z Autun"
+    ]
+  },
+
+  "died": ["~350"],
+
+  "also-in-martyrology": ["08-05"],
+
+  "forenames": ["cassianus"],
+  "categories": ["vir", "episcopus"]
+}

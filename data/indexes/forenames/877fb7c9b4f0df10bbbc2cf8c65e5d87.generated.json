@@ -12,6 +12,9 @@
         "pl": [
             "Antoni"
         ],
+        "it": [
+            "Antonio"
+        ],
         "pt": [
             "Antônio"
         ]
@@ -21,6 +24,12 @@
             "pl": "Antoni Bajewski",
             "en": "Anthony Bajewski",
             "la": "Antonius Bajewski"
+        },
+        "records/patrons/antonius/bal": {
+            "it": "Antonio Baldinucci",
+            "la": "Antonius Baldinucci",
+            "en": "Anthony Baldinucci",
+            "pl": "Antoni Baldinucci"
         },
         "records/patrons/antonius/pat": {
             "pt": "Antônio de Pádua",

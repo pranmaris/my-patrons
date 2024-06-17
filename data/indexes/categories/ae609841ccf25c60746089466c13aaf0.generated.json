@@ -18,6 +18,12 @@
             "pl": "Albert Chmielowski",
             "en": "Albert Chmielowski",
             "la": "Albertus Chmielowski"
+        },
+        "records/patrons/martinus/por": {
+            "es": "Martín de Porres",
+            "la": "Martinus de Porres",
+            "en": "Martin de Porres",
+            "pl": "Marcin de Porres"
         }
     }
 }

@@ -1,0 +1,28 @@
+{
+    "names": {
+        "pl": "Tomasz"
+    },
+    "translations": {
+        "la": [
+            "Thomas"
+        ],
+        "en": [
+            "Thomas"
+        ],
+        "pl": [
+            "Tomasz"
+        ]
+    },
+    "links": {
+        "records/patrons/thomas/apo": {
+            "la": "Thomas Apostolus",
+            "en": "Thomas the Apostle",
+            "pl": "Tomasz Apostoł"
+        },
+        "records/patrons/thomas/bec": {
+            "en": "Thomas Becket",
+            "la": "Thomas Becket",
+            "pl": "Tomasz Becket"
+        }
+    }
+}

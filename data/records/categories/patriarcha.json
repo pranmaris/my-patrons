@@ -1,10 +1,10 @@
 {
     "names": {
-        "la": "sacerdos saecularis",
-        "en": "secular priest",
-        "pl": "kapłan świecki"
+        "la": "patriarcha",
+        "en": "patriarch",
+        "pl": "patriarcha"
     },
-    "color": "#555555",
+    "color": "#7000A1",
     "description": {
         "en": "description coming soon ...",
         "pl": "opis pojawi się wkrótce ..."

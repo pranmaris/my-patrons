@@ -1,0 +1,27 @@
+{
+    "names": {
+        "vi": "Đình"
+    },
+    "translations": {
+        "la": [
+            "Dinh"
+        ],
+        "en": [
+            "Dinh"
+        ],
+        "pl": [
+            "Dinh"
+        ],
+        "vi": [
+            "Đình"
+        ]
+    },
+    "links": {
+        "records/patrons/iosephus/ngu": {
+            "vi": "Giuse Nguyễn Đình Nghi",
+            "la": "Iosephus Nguyen Dinh Nghi",
+            "en": "Joseph Nguyen Dinh Nghi",
+            "pl": "Józef Nguyen Dinh Nghi"
+        }
+    }
+}

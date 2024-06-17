@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Ignacy"
+    },
+    "translations": {
+        "la": [
+            "Ignatius"
+        ],
+        "en": [
+            "Ignatius"
+        ],
+        "pl": [
+            "Ignacy"
+        ],
+        "es": [
+            "Ignacio"
+        ]
+    },
+    "links": {
+        "records/patrons/ignatius/loy": {
+            "es": "Ignacio de Loyola",
+            "la": "Ignatius de Loyola",
+            "en": "Ignatius of Loyola",
+            "pl": "Ignacy Loyola"
+        }
+    }
+}

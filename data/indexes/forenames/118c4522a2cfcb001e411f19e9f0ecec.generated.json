@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Antonina",
+        "pl": "Antonina"
+    },
+    "translations": {
+        "la": [
+            "Antonina"
+        ],
+        "en": [
+            "Antoinette"
+        ],
+        "pl": [
+            "Antonina"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/kra": {
+            "pl": "Maria Antonina Kratochwil",
+            "la": "Maria Antonina Kratochwil",
+            "en": "Mary Antoinette Kratochwil"
+        }
+    }
+}

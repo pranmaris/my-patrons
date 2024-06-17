@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "patriarch"
+    },
+    "translations": {
+        "la": [
+            "patriarcha"
+        ],
+        "en": [
+            "patriarch"
+        ],
+        "pl": [
+            "patriarcha"
+        ]
+    },
+    "links": {
+        "records/patrons/pius/10p": {
+            "it": "Papa Pio X",
+            "la": "Pius X",
+            "en": "Pope Pius X",
+            "pl": "Pius X"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Christophorus Lyciensis"
+    ],
+    "en": [
+      "Christopher of Lycia"
+    ],
+    "pl": [
+      "Krzysztof z Licji"
+    ]
+  },
+
+  "died": ["~250"],
+
+  "also-in-martyrology": ["07-25"],
+
+  "forenames": ["christophorus"],
+  "categories": ["vir", "martyr"]
+}

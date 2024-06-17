@@ -26,6 +26,17 @@
             "la": "Albertus Lovaniensis",
             "pl": "Albert z Louvain"
         },
+        "records/patrons/alexius/zar": {
+            "uk": "Олексій Васильович Зарицький",
+            "la": "Alexius Zaryckyj",
+            "en": "Lex Zaryckyy",
+            "pl": "Aleksy Zarycki"
+        },
+        "records/patrons/aloysius/lig": {
+            "pl": "Alojzy Liguda",
+            "la": "Aloysius Liguda",
+            "en": "Aloysius Liguda"
+        },
         "records/patrons/andreas/apo": {
             "grc": "Ανδρέας",
             "en": "Andrew the Apostle",
@@ -43,20 +54,55 @@
             "la": "Andreas Kim Tae-gŏn",
             "pl": "Andrzej Kim Tae-gŏn"
         },
+        "records/patrons/anicetus/kop": {
+            "pl": "Anicet Kopliński",
+            "la": "Anicetus Koplinski",
+            "en": "Anicetus Kopliński"
+        },
+        "records/patrons/antoninus/apa": {
+            "la": "Antoninus de Apamea",
+            "en": "Antoninus of Apamea",
+            "pl": "Antonin z Apamei"
+        },
         "records/patrons/antonius/baj": {
             "pl": "Antoni Bajewski",
             "en": "Anthony Bajewski",
             "la": "Antonius Bajewski"
+        },
+        "records/patrons/antonius/nic": {
+            "la": "Antoninus (cum Nicephorus)",
+            "en": "Antoninus (with Nicephorus)",
+            "pl": "Antonin (z Niceforem)"
+        },
+        "records/patrons/bartholomaeus/apo": {
+            "la": "Bartholomaeus Apostolus",
+            "en": "Bartholomew the Apostle",
+            "pl": "Bartłomiej Apostoł"
+        },
+        "records/patrons/basilius/ant": {
+            "la": "Basilius Antiochenus",
+            "en": "Basil of Antioch",
+            "pl": "Bazyli z Antiochii"
         },
         "records/patrons/bonifatius/win": {
             "en": "Boniface Wynfreth",
             "la": "Bonifatius Winfrid",
             "pl": "Bonifacy Wynfryd"
         },
+        "records/patrons/bronislaus/kos": {
+            "pl": "Bronisław Kostkowski",
+            "la": "Bronislaus Kostkowski",
+            "en": "Bronislaus Kostkowski"
+        },
         "records/patrons/ceslaus/joz": {
             "pl": "Czesław Jóźwiak",
             "en": "Czesław Jóźwiak",
             "la": "Ceslaus Jóźwiak"
+        },
+        "records/patrons/christophorus/lyc": {
+            "la": "Christophorus Lyciensis",
+            "en": "Christopher of Lycia",
+            "pl": "Krzysztof z Licji"
         },
         "records/patrons/chrysanthus/dar": {
             "la": "Chrysanthus (cum Daria)",
@@ -86,6 +132,17 @@
             "en": "David Okelo",
             "la": "David Okelo",
             "pl": "Dawid Okelo"
+        },
+        "records/patrons/dionysius/lut": {
+            "fr": "Denis de Paris",
+            "la": "Dionysius Parisiensis",
+            "en": "Denis of Paris",
+            "pl": "Dionizy z Paryża"
+        },
+        "records/patrons/domninus/cae": {
+            "la": "Domninus Caesariensis",
+            "en": "Domninus of Caesarea",
+            "pl": "Domnin z Cezarei"
         },
         "records/patrons/eduardus/kaz": {
             "pl": "Edward Kaźmierski",
@@ -123,6 +180,11 @@
             "en": "George of Lydda",
             "pl": "Jerzy"
         },
+        "records/patrons/georgius/pop": {
+            "pl": "Jerzy Popiełuszko",
+            "la": "Georgius Popiełuszko",
+            "en": "George Popiełuszko"
+        },
         "records/patrons/iacobus/mai": {
             "la": "Iacobus Maior Apostolus",
             "en": "James the Great",
@@ -143,6 +205,12 @@
             "en": "John the Baptist",
             "la": "Ioannes Baptista",
             "pl": "Jan Chrzciciel"
+        },
+        "records/patrons/iosephus/ngu": {
+            "vi": "Giuse Nguyễn Đình Nghi",
+            "la": "Iosephus Nguyen Dinh Nghi",
+            "en": "Joseph Nguyen Dinh Nghi",
+            "pl": "Józef Nguyen Dinh Nghi"
         },
         "records/patrons/isaias/pro": {
             "he": "יְשַׁעְיָהוּ",
@@ -170,6 +238,11 @@
             "en": "Pope Marcellinus",
             "pl": "Marcelin Papież"
         },
+        "records/patrons/marcus/hie": {
+            "la": "Marcus Hierosolymitanus",
+            "en": "Mark of Jerusalem",
+            "pl": "Marek z Jerozolimy"
+        },
         "records/patrons/matthaeus/eva": {
             "he": "מתיו האוונגליסט",
             "en": "Matthew the Evengelist",
@@ -192,6 +265,11 @@
             "en": "Paul of Tarsus",
             "pl": "Paweł z Tarsu"
         },
+        "records/patrons/paulus/con": {
+            "la": "Paulus Constantinopolitanus",
+            "en": "Paul of Constantinople",
+            "pl": "Paweł z Bizancjum"
+        },
         "records/patrons/petrus/apo": {
             "la": "Petrus",
             "en": "Peter the Apostle",
@@ -201,6 +279,11 @@
             "la": "Philippus Apostolus",
             "en": "Philip Apostle",
             "pl": "Filip Apostoł"
+        },
+        "records/patrons/philippus/fel": {
+            "la": "Philippus (cum Felix, infra in Septem Fratribus)",
+            "en": "Philip (with Felix, one of Seven Brothers)",
+            "pl": "Filip (z Feliksem, jeden z Siedmiu Braci)"
         },
         "records/patrons/saturninus/tol": {
             "la": "Saturninus Tolosanensis",
@@ -222,6 +305,21 @@
             "en": "Stephen Protomartyr",
             "la": "Stephanus protomartyr",
             "pl": "Szczepan Pramęczennik"
+        },
+        "records/patrons/tarsicius/aco": {
+            "la": "Tarsicius Acolytus",
+            "en": "Tarcisius Acolyte",
+            "pl": "Tarsycjusz Akolita"
+        },
+        "records/patrons/thomas/apo": {
+            "la": "Thomas Apostolus",
+            "en": "Thomas the Apostle",
+            "pl": "Tomasz Apostoł"
+        },
+        "records/patrons/thomas/bec": {
+            "en": "Thomas Becket",
+            "la": "Thomas Becket",
+            "pl": "Tomasz Becket"
         },
         "records/patrons/vladimirus/las": {
             "pl": "Włodzimierz Laskowski",

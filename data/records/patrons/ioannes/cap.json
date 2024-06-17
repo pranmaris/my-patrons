@@ -1,0 +1,36 @@
+{
+  "names": {
+    "it": [
+      "Giovanni da Capestrano"
+    ],
+    "la": [
+      "Ioannes de Capistranus"
+    ],
+    "en": [
+      "John of Capistrano"
+    ],
+    "pl": [
+      "Jan Kapistran"
+    ]
+  },
+  "surnames": [
+    {
+      "it": "Capestrano"
+    }
+  ],
+
+  "born": ["1386-06-24"],
+  "died": ["1456-10-23"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1690-10-16"
+  },
+
+  "also-in-martyrology": ["03-28", "10-23"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "confessor", "sacerdos", "presbyter"],
+
+  "order": ["ofm"]
+}

@@ -1,0 +1,28 @@
+{
+    "names": {
+        "en": "Justine"
+    },
+    "translations": {
+        "la": [
+            "Iustina",
+            "Justina"
+        ],
+        "en": [
+            "Justine"
+        ],
+        "pl": [
+            "Justyna"
+        ],
+        "it": [
+            "Giustina"
+        ]
+    },
+    "links": {
+        "records/patrons/iustina/pat": {
+            "it": "Giustina di Padova",
+            "la": "Iustina Patavina",
+            "en": "Justine of Padua",
+            "pl": "Justyna z Padwy"
+        }
+    }
+}

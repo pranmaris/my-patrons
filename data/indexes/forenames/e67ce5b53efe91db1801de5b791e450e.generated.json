@@ -11,9 +11,18 @@
         ],
         "pl": [
             "Marcin"
+        ],
+        "es": [
+            "Martín"
         ]
     },
     "links": {
+        "records/patrons/martinus/por": {
+            "es": "Martín de Porres",
+            "la": "Martinus de Porres",
+            "en": "Martin de Porres",
+            "pl": "Marcin de Porres"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",
