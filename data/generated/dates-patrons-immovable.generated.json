@@ -10,6 +10,17 @@
                 "reliable-death-anniversary": "1 I",
                 "other-martyrology-days": "1 I"
             }
+        },
+        "records/patrons/marianus/kon": {
+            "name": {
+                "pl": "Marian Konopiński",
+                "en": "Marian Konopiński",
+                "la": "Marianus Konopiński"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 I",
+                "other-martyrology-days": "1 I"
+            }
         }
     },
     "01-03": {

@@ -2895,6 +2895,24 @@
         ],
         "feasts": []
     },
+    "patrons/marianus": {
+        "names": {
+            "la": "Marianus",
+            "en": "Marian",
+            "pl": "Marian"
+        }
+    },
+    "patrons/marianus/kon": {
+        "names": {
+            "pl": "Marian Konopiński",
+            "en": "Marian Konopiński",
+            "la": "Marianus Konopiński"
+        },
+        "died": [
+            "1943-01-01"
+        ],
+        "feasts": []
+    },
     "patrons/martinus": {
         "names": {
             "la": "Martinus",

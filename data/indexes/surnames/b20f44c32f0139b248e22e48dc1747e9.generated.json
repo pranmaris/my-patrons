@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Konopiński"
+    },
+    "translations": {
+        "pl": [
+            "Konopiński"
+        ]
+    },
+    "links": {
+        "records/patrons/marianus/kon": {
+            "pl": "Marian Konopiński",
+            "en": "Marian Konopiński",
+            "la": "Marianus Konopiński"
+        }
+    }
+}

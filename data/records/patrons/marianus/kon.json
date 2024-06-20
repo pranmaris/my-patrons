@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Marian Konopiński"
+    ],
+    "en": [
+      "Marian Konopiński"
+    ],
+    "la": [
+      "Marianus Konopiński"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Konopiński"
+    }
+  ],
+
+  "born": ["1907-09-10"],
+  "died": ["1943-01-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["01-01"],
+
+  "forenames": ["marianus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

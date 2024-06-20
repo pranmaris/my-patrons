@@ -569,6 +569,11 @@
             "en": "Mark of Jerusalem",
             "pl": "Marek z Jerozolimy"
         },
+        "records/patrons/marianus/kon": {
+            "pl": "Marian Konopiński",
+            "en": "Marian Konopiński",
+            "la": "Marianus Konopiński"
+        },
         "records/patrons/martinus/por": {
             "es": "Martín de Porres",
             "la": "Martinus de Porres",

@@ -243,6 +243,11 @@
             "en": "Mark of Jerusalem",
             "pl": "Marek z Jerozolimy"
         },
+        "records/patrons/marianus/kon": {
+            "pl": "Marian Konopiński",
+            "en": "Marian Konopiński",
+            "la": "Marianus Konopiński"
+        },
         "records/patrons/matthaeus/eva": {
             "he": "מתיו האוונגליסט",
             "en": "Matthew the Evengelist",
