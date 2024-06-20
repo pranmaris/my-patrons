@@ -857,6 +857,24 @@
         ],
         "feasts": []
     },
+    "patrons/boleslava": {
+        "names": {
+            "la": "Boleslava",
+            "en": "Boleslava",
+            "pl": "Bolesława"
+        }
+    },
+    "patrons/boleslava/lam": {
+        "names": {
+            "pl": "Bolesława Lament",
+            "en": "Boleslava Lament",
+            "la": "Boleslava Lament"
+        },
+        "died": [
+            "1946-01-29"
+        ],
+        "feasts": []
+    },
     "patrons/bonifatius": {
         "names": {
             "la": "Bonifatius",

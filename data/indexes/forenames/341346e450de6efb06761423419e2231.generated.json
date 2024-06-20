@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Bolesława"
+    },
+    "translations": {
+        "la": [
+            "Boleslava"
+        ],
+        "en": [
+            "Boleslava"
+        ],
+        "pl": [
+            "Bolesława"
+        ]
+    },
+    "links": {
+        "records/patrons/boleslava/lam": {
+            "pl": "Bolesława Lament",
+            "en": "Boleslava Lament",
+            "la": "Boleslava Lament"
+        }
+    }
+}

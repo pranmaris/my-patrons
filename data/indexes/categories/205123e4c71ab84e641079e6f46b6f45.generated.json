@@ -29,6 +29,11 @@
             "en": "Barbara of Nicomedia",
             "pl": "Barbara z Nikomedii"
         },
+        "records/patrons/boleslava/lam": {
+            "pl": "Bolesława Lament",
+            "en": "Boleslava Lament",
+            "la": "Boleslava Lament"
+        },
         "records/patrons/caecilia/rom": {
             "la": "Caecilia Romana",
             "en": "Cecilia of Rome",

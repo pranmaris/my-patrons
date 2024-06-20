@@ -150,6 +150,19 @@
             }
         }
     },
+    "01-29": {
+        "records/patrons/boleslava/lam": {
+            "name": {
+                "pl": "Bolesława Lament",
+                "en": "Boleslava Lament",
+                "la": "Boleslava Lament"
+            },
+            "sources": {
+                "reliable-death-anniversary": "29 I",
+                "other-martyrology-days": "29 I"
+            }
+        }
+    },
     "01-31": {
         "records/patrons/ioannes/bos": {
             "name": {

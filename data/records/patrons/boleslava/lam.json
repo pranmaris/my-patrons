@@ -1,0 +1,38 @@
+{
+  "names": {
+    "pl": [
+      "Bolesława Lament",
+      "Bolesława Maria Lament"
+    ],
+    "en": [
+      "Boleslava Lament",
+      "Boleslava Maria Lament"
+    ],
+    "la": [
+      "Boleslava Lament",
+      "Boleslava Maria Lament"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Lament"
+    }
+  ],
+
+  "born": ["1862-07-03"],
+  "died": ["1946-01-29"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1991-06-05"
+  },
+
+  "also-in-martyrology": ["01-29"],
+
+  "forenames": ["boleslava", "maria"],
+  "categories": ["femina", "virgo", "conditrix"],
+
+  "order": ["msf"],
+  "order-founder": ["msf"]
+}

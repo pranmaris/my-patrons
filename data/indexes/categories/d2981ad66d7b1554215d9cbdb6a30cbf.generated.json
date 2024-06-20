@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "założycielka"
+    },
+    "translations": {
+        "la": [
+            "conditrix"
+        ],
+        "en": [
+            "creatress"
+        ],
+        "pl": [
+            "założycielka"
+        ]
+    },
+    "links": {
+        "records/patrons/boleslava/lam": {
+            "pl": "Bolesława Lament",
+            "en": "Boleslava Lament",
+            "la": "Boleslava Lament"
+        }
+    }
+}
