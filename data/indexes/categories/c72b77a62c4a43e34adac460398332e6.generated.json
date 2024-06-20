@@ -628,6 +628,12 @@
             "en": "Paphnutius of Thebes",
             "pl": "Pafnucy z Teb"
         },
+        "records/patrons/patiens/met": {
+            "fr": "Patient de Metz",
+            "en": "Patiens of Metz",
+            "la": "Patiens Metensis",
+            "pl": "Pacjens z Metz"
+        },
         "records/patrons/patricius/hib": {
             "ga": "Naomh Pádraig",
             "en": "Patrick",

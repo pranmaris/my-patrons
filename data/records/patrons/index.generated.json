@@ -572,6 +572,12 @@
         "en": "Paphnutius",
         "pl": "Pafnucy"
     },
+    "patiens": {
+        "la": "Patiens",
+        "en": "Patiens",
+        "pl": "Pacjens",
+        "fr": "Patient"
+    },
     "patricius": {
         "la": "Patricius",
         "en": "Patrick",

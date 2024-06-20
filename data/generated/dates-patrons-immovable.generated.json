@@ -50,6 +50,19 @@
             }
         }
     },
+    "01-08": {
+        "records/patrons/patiens/met": {
+            "name": {
+                "fr": "Patient de Metz",
+                "en": "Patiens of Metz",
+                "la": "Patiens Metensis",
+                "pl": "Pacjens z Metz"
+            },
+            "sources": {
+                "other-martyrology-days": "8 I"
+            }
+        }
+    },
     "01-09": {
         "records/patrons/paulina/jar": {
             "name": {

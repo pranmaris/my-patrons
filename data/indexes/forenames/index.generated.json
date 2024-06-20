@@ -13,6 +13,9 @@
     "00d7fde199dfc88b00b9682cdc7d2824": {
         "la": "Sigismundus"
     },
+    "01122a97dca927210827560cb7d76af8": {
+        "fr": "Patient"
+    },
     "015a73318484df00283b5016a9b5e323": {
         "pl": "Bronisław"
     },
@@ -243,6 +246,10 @@
     },
     "253a4ce987457d31b7e57a20d04ac72f": {
         "la": "Philippus"
+    },
+    "259eb300ad10e0dae26b997d0ba6a16f": {
+        "la": "Patiens",
+        "en": "Patiens"
     },
     "260549eff4053a1d6496833316e1d8ad": {
         "pl": "Cyryl"
@@ -1355,6 +1362,9 @@
     },
     "d276699b518dd944e6cacfb01ee6f76b": {
         "it": "Francesco"
+    },
+    "d3b4635e6696676de26c35f823324ed4": {
+        "pl": "Pacjens"
     },
     "d3c71aa90c07cb82ef35598db031de86": {
         "pl": "Pafnucy"

@@ -1,0 +1,23 @@
+{
+  "names": {
+    "fr": [
+      "Patient de Metz"
+    ],
+    "en": [
+      "Patiens of Metz"
+    ],
+    "la": [
+      "Patiens Metensis"
+    ],
+    "pl": [
+      "Pacjens z Metz"
+    ]
+  },
+
+  "died": [">301", "<400"],
+
+  "also-in-martyrology": ["01-08"],
+
+  "forenames": ["patiens"],
+  "categories": ["vir", "episcopus"]
+}

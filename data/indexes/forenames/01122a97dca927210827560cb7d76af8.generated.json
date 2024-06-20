@@ -1,0 +1,27 @@
+{
+    "names": {
+        "fr": "Patient"
+    },
+    "translations": {
+        "la": [
+            "Patiens"
+        ],
+        "en": [
+            "Patiens"
+        ],
+        "pl": [
+            "Pacjens"
+        ],
+        "fr": [
+            "Patient"
+        ]
+    },
+    "links": {
+        "records/patrons/patiens/met": {
+            "fr": "Patient de Metz",
+            "en": "Patiens of Metz",
+            "la": "Patiens Metensis",
+            "pl": "Pacjens z Metz"
+        }
+    }
+}

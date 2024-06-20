@@ -3161,6 +3161,27 @@
         ],
         "feasts": []
     },
+    "patrons/patiens": {
+        "names": {
+            "la": "Patiens",
+            "en": "Patiens",
+            "pl": "Pacjens",
+            "fr": "Patient"
+        }
+    },
+    "patrons/patiens/met": {
+        "names": {
+            "fr": "Patient de Metz",
+            "en": "Patiens of Metz",
+            "la": "Patiens Metensis",
+            "pl": "Pacjens z Metz"
+        },
+        "died": [
+            ">301",
+            "<400"
+        ],
+        "feasts": []
+    },
     "patrons/patricius": {
         "names": {
             "la": "Patricius",
