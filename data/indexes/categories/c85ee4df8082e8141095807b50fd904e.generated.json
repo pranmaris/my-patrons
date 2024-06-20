@@ -50,9 +50,9 @@
             "pl": "Katarzyna Aleksandryjska"
         },
         "records/patrons/daria/chr": {
-            "la": "Daria (cum Chrysanthus)",
-            "en": "Daria (with Chrysanthus)",
-            "pl": "Daria (z Chryzantem)"
+            "la": "Daria /+ Chrysanthus",
+            "en": "Daria /+ Chrysanthus",
+            "pl": "Daria /+ Chryzant"
         },
         "records/patrons/felicitas/car": {
             "la": "Felicitas Carthaginensis",
@@ -142,9 +142,9 @@
             "pl": "Perpetua z Kartaginy"
         },
         "records/patrons/sabigothon/aur": {
-            "la": "Sabigothon Natalia (cum Aurelius)",
-            "en": "Sabigothon Natalie (with Aurelius)",
-            "pl": "Sabigotona Natalia (z Aureliuszem)"
+            "la": "Sabigothon Natalia /+ Aurelius et alii",
+            "en": "Sabigothon Natalie /+ Aurelius and others",
+            "pl": "Sabigotona Natalia /+ Aureliusz i inni"
         },
         "records/patrons/teresia/ste": {
             "de": "Therese Benedicta vom Kreuz",

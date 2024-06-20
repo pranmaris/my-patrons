@@ -26,9 +26,9 @@
             "pl": "Bonifacy Wynfryd"
         },
         "records/patrons/cyrillus/met": {
-            "la": "Cyrillus (cum Methodius)",
+            "la": "Cyrillus /+ Methodius",
             "en": "Cyril of Thessalonica",
-            "pl": "Cyryl (z Metodym)"
+            "pl": "Cyryl /+ Metody"
         },
         "records/patrons/david/men": {
             "cy": "Dewi Sant",

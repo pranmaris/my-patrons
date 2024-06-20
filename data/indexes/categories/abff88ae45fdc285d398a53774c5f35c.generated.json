@@ -67,9 +67,9 @@
             "la": "Casimirus Princeps"
         },
         "records/patrons/cyrillus/met": {
-            "la": "Cyrillus (cum Methodius)",
+            "la": "Cyrillus /+ Methodius",
             "en": "Cyril of Thessalonica",
-            "pl": "Cyryl (z Metodym)"
+            "pl": "Cyryl /+ Metody"
         },
         "records/patrons/dominicus/oxo": {
             "es": "Domingo de Osma",
@@ -179,9 +179,9 @@
             "pl": "Marcin z Tours"
         },
         "records/patrons/methodius/cyr": {
-            "la": "Methodius (cum Cyrillus)",
-            "en": "Methodius (with Cyril)",
-            "pl": "Metody (z Cyrylem)"
+            "la": "Methodius /+ Cyrillus",
+            "en": "Methodius /+ Cyril",
+            "pl": "Metody /+ Cyryl"
         },
         "records/patrons/nicolaus/myr": {
             "gr": "Άγιος Νικόλαος",

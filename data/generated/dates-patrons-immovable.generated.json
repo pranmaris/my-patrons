@@ -153,9 +153,9 @@
     "02-14": {
         "records/patrons/cyrillus/met": {
             "name": {
-                "la": "Cyrillus (cum Methodius)",
+                "la": "Cyrillus /+ Methodius",
                 "en": "Cyril of Thessalonica",
-                "pl": "Cyryl (z Metodym)"
+                "pl": "Cyryl /+ Metody"
             },
             "sources": {
                 "reliable-death-anniversary": "14 II",
@@ -164,9 +164,9 @@
         },
         "records/patrons/methodius/cyr": {
             "name": {
-                "la": "Methodius (cum Cyrillus)",
-                "en": "Methodius (with Cyril)",
-                "pl": "Metody (z Cyrylem)"
+                "la": "Methodius /+ Cyrillus",
+                "en": "Methodius /+ Cyril",
+                "pl": "Metody /+ Cyryl"
             },
             "sources": {
                 "other-martyrology-days": "14 II"
@@ -463,9 +463,9 @@
     "04-06": {
         "records/patrons/methodius/cyr": {
             "name": {
-                "la": "Methodius (cum Cyrillus)",
-                "en": "Methodius (with Cyril)",
-                "pl": "Metody (z Cyrylem)"
+                "la": "Methodius /+ Cyrillus",
+                "en": "Methodius /+ Cyril",
+                "pl": "Metody /+ Cyryl"
             },
             "sources": {
                 "reliable-death-anniversary": "6 IV",
@@ -1013,9 +1013,9 @@
     "07-10": {
         "records/patrons/philippus/fel": {
             "name": {
-                "la": "Philippus (cum Felix, infra in Septem Fratribus)",
-                "en": "Philip (with Felix, one of Seven Brothers)",
-                "pl": "Filip (z Feliksem, jeden z Siedmiu Braci)"
+                "la": "Philippus /+ Felix et alii, tamquam Septem Fratres",
+                "en": "Philip /+ Felix and others, as Seven Brothers",
+                "pl": "Filip /+ Feliks i inni, jako Siedmiu Braci"
             },
             "sources": {
                 "other-martyrology-days": "10 VII"
@@ -1162,9 +1162,9 @@
     "07-27": {
         "records/patrons/sabigothon/aur": {
             "name": {
-                "la": "Sabigothon Natalia (cum Aurelius)",
-                "en": "Sabigothon Natalie (with Aurelius)",
-                "pl": "Sabigotona Natalia (z Aureliuszem)"
+                "la": "Sabigothon Natalia /+ Aurelius et alii",
+                "en": "Sabigothon Natalie /+ Aurelius and others",
+                "pl": "Sabigotona Natalia /+ Aureliusz i inni"
             },
             "sources": {
                 "other-martyrology-days": "27 VII"
@@ -1475,9 +1475,9 @@
         },
         "records/patrons/iustus/pas": {
             "name": {
-                "la": "Iustus (cum Pastor)",
-                "en": "Justus (with Pastor)",
-                "pl": "Just (z Pastorem)"
+                "la": "Iustus /+ Pastor",
+                "en": "Justus /+ Pastor",
+                "pl": "Just /+ Pastor"
             },
             "sources": {
                 "other-martyrology-days": "6 VIII"
@@ -2055,10 +2055,10 @@
         },
         "records/patrons/cosmas/dam": {
             "name": {
-                "gr": "Κοσμάς (καὶ Δαμιανός)",
-                "en": "Cosmas (with Damian)",
-                "la": "Cosmas (cum Damianus)",
-                "pl": "Kosma (z Damianem)"
+                "gr": "Κοσμάς /+ Δαμιανός",
+                "en": "Cosmas /+ Damian",
+                "la": "Cosmas /+ Damianus",
+                "pl": "Kosma /+ Damian"
             },
             "sources": {
                 "other-martyrology-days": "27 IX"
@@ -2066,10 +2066,10 @@
         },
         "records/patrons/damianus/cos": {
             "name": {
-                "gr": "Δαμιανός (καὶ Κοσμάς)",
-                "en": "Damian (with Cosmas)",
-                "la": "Damianus (cum Cosmas)",
-                "pl": "Damian (z Kosmą)"
+                "gr": "Δαμιανός /+ Κοσμάς",
+                "en": "Damian /+ Cosmas",
+                "la": "Damianus /+ Cosmas",
+                "pl": "Damian /+ Kosma"
             },
             "sources": {
                 "other-martyrology-days": "27 IX"
@@ -2494,9 +2494,9 @@
         },
         "records/patrons/chrysanthus/dar": {
             "name": {
-                "la": "Chrysanthus (cum Daria)",
-                "en": "Chrysanthus (with Daria)",
-                "pl": "Chryzant (z Darią)"
+                "la": "Chrysanthus /+ Daria",
+                "en": "Chrysanthus /+ Daria",
+                "pl": "Chryzant /+ Daria"
             },
             "sources": {
                 "other-martyrology-days": "25 X"
@@ -2504,9 +2504,9 @@
         },
         "records/patrons/daria/chr": {
             "name": {
-                "la": "Daria (cum Chrysanthus)",
-                "en": "Daria (with Chrysanthus)",
-                "pl": "Daria (z Chryzantem)"
+                "la": "Daria /+ Chrysanthus",
+                "en": "Daria /+ Chrysanthus",
+                "pl": "Daria /+ Chryzant"
             },
             "sources": {
                 "other-martyrology-days": "25 X"
@@ -2733,9 +2733,9 @@
     "11-13": {
         "records/patrons/antonius/nic": {
             "name": {
-                "la": "Antoninus (cum Nicephorus)",
-                "en": "Antoninus (with Nicephorus)",
-                "pl": "Antonin (z Niceforem)"
+                "la": "Antoninus /+ Nicephorus et alii",
+                "en": "Antoninus /+ Nicephorus and others",
+                "pl": "Antonin /+ Nicefor i inni"
             },
             "sources": {
                 "other-martyrology-days": "13 XI"
@@ -3098,9 +3098,9 @@
         },
         "records/patrons/eva/ada": {
             "name": {
-                "la": "Eva (cum Adam)",
-                "en": "Ewa (with Adam)",
-                "pl": "Ewa (z Adamem)"
+                "la": "Eva /+ Adam",
+                "en": "Ewa /+ Adam",
+                "pl": "Ewa /+ Adam"
             },
             "sources": {
                 "other-memorial-days": "24 XII"

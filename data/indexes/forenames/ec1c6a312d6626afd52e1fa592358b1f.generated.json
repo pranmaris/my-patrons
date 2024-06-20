@@ -17,9 +17,9 @@
     },
     "links": {
         "records/patrons/iustus/pas": {
-            "la": "Iustus (cum Pastor)",
-            "en": "Justus (with Pastor)",
-            "pl": "Just (z Pastorem)"
+            "la": "Iustus /+ Pastor",
+            "en": "Justus /+ Pastor",
+            "pl": "Just /+ Pastor"
         }
     }
 }

@@ -669,9 +669,9 @@
     },
     "patrons/antonius/nic": {
         "names": {
-            "la": "Antoninus (cum Nicephorus)",
-            "en": "Antoninus (with Nicephorus)",
-            "pl": "Antonin (z Niceforem)"
+            "la": "Antoninus /+ Nicephorus et alii",
+            "en": "Antoninus /+ Nicephorus and others",
+            "pl": "Antonin /+ Nicefor i inni"
         },
         "died": [
             "~308"
@@ -1117,9 +1117,9 @@
     },
     "patrons/chrysanthus/dar": {
         "names": {
-            "la": "Chrysanthus (cum Daria)",
-            "en": "Chrysanthus (with Daria)",
-            "pl": "Chryzant (z Darią)"
+            "la": "Chrysanthus /+ Daria",
+            "en": "Chrysanthus /+ Daria",
+            "pl": "Chryzant /+ Daria"
         },
         "died": [
             "~253"
@@ -1176,10 +1176,10 @@
     },
     "patrons/cosmas/dam": {
         "names": {
-            "gr": "Κοσμάς (καὶ Δαμιανός)",
-            "en": "Cosmas (with Damian)",
-            "la": "Cosmas (cum Damianus)",
-            "pl": "Kosma (z Damianem)"
+            "gr": "Κοσμάς /+ Δαμιανός",
+            "en": "Cosmas /+ Damian",
+            "la": "Cosmas /+ Damianus",
+            "pl": "Kosma /+ Damian"
         },
         "died": [
             ">287",
@@ -1196,9 +1196,9 @@
     },
     "patrons/cyrillus/met": {
         "names": {
-            "la": "Cyrillus (cum Methodius)",
+            "la": "Cyrillus /+ Methodius",
             "en": "Cyril of Thessalonica",
-            "pl": "Cyryl (z Metodym)"
+            "pl": "Cyryl /+ Metody"
         },
         "died": [
             "869-02-14"
@@ -1222,10 +1222,10 @@
     },
     "patrons/damianus/cos": {
         "names": {
-            "gr": "Δαμιανός (καὶ Κοσμάς)",
-            "en": "Damian (with Cosmas)",
-            "la": "Damianus (cum Cosmas)",
-            "pl": "Damian (z Kosmą)"
+            "gr": "Δαμιανός /+ Κοσμάς",
+            "en": "Damian /+ Cosmas",
+            "la": "Damianus /+ Cosmas",
+            "pl": "Damian /+ Kosma"
         },
         "died": [
             ">287",
@@ -1242,9 +1242,9 @@
     },
     "patrons/daria/chr": {
         "names": {
-            "la": "Daria (cum Chrysanthus)",
-            "en": "Daria (with Chrysanthus)",
-            "pl": "Daria (z Chryzantem)"
+            "la": "Daria /+ Chrysanthus",
+            "en": "Daria /+ Chrysanthus",
+            "pl": "Daria /+ Chryzant"
         },
         "died": [
             "~253"
@@ -1453,9 +1453,9 @@
     },
     "patrons/eva/ada": {
         "names": {
-            "la": "Eva (cum Adam)",
-            "en": "Ewa (with Adam)",
-            "pl": "Ewa (z Adamem)"
+            "la": "Eva /+ Adam",
+            "en": "Ewa /+ Adam",
+            "pl": "Ewa /+ Adam"
         },
         "died": [],
         "feasts": []
@@ -2307,9 +2307,9 @@
     },
     "patrons/iustus/pas": {
         "names": {
-            "la": "Iustus (cum Pastor)",
-            "en": "Justus (with Pastor)",
-            "pl": "Just (z Pastorem)"
+            "la": "Iustus /+ Pastor",
+            "en": "Justus /+ Pastor",
+            "pl": "Just /+ Pastor"
         },
         "died": [
             "~304"
@@ -2973,9 +2973,9 @@
     },
     "patrons/methodius/cyr": {
         "names": {
-            "la": "Methodius (cum Cyrillus)",
-            "en": "Methodius (with Cyril)",
-            "pl": "Metody (z Cyrylem)"
+            "la": "Methodius /+ Cyrillus",
+            "en": "Methodius /+ Cyril",
+            "pl": "Metody /+ Cyryl"
         },
         "died": [
             "~885-04-06"
@@ -3345,9 +3345,9 @@
     },
     "patrons/philippus/fel": {
         "names": {
-            "la": "Philippus (cum Felix, infra in Septem Fratribus)",
-            "en": "Philip (with Felix, one of Seven Brothers)",
-            "pl": "Filip (z Feliksem, jeden z Siedmiu Braci)"
+            "la": "Philippus /+ Felix et alii, tamquam Septem Fratres",
+            "en": "Philip /+ Felix and others, as Seven Brothers",
+            "pl": "Filip /+ Feliks i inni, jako Siedmiu Braci"
         },
         "died": [
             "~165"
@@ -3567,9 +3567,9 @@
     },
     "patrons/sabigothon/aur": {
         "names": {
-            "la": "Sabigothon Natalia (cum Aurelius)",
-            "en": "Sabigothon Natalie (with Aurelius)",
-            "pl": "Sabigotona Natalia (z Aureliuszem)"
+            "la": "Sabigothon Natalia /+ Aurelius et alii",
+            "en": "Sabigothon Natalie /+ Aurelius and others",
+            "pl": "Sabigotona Natalia /+ Aureliusz i inni"
         },
         "died": [
             "~852"

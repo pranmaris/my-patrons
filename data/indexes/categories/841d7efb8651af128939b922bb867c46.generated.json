@@ -70,9 +70,9 @@
             "la": "Antonius Bajewski"
         },
         "records/patrons/antonius/nic": {
-            "la": "Antoninus (cum Nicephorus)",
-            "en": "Antoninus (with Nicephorus)",
-            "pl": "Antonin (z Niceforem)"
+            "la": "Antoninus /+ Nicephorus et alii",
+            "en": "Antoninus /+ Nicephorus and others",
+            "pl": "Antonin /+ Nicefor i inni"
         },
         "records/patrons/bartholomaeus/apo": {
             "la": "Bartholomaeus Apostolus",
@@ -105,9 +105,9 @@
             "pl": "Krzysztof z Licji"
         },
         "records/patrons/chrysanthus/dar": {
-            "la": "Chrysanthus (cum Daria)",
-            "en": "Chrysanthus (with Daria)",
-            "pl": "Chryzant (z Darią)"
+            "la": "Chrysanthus /+ Daria",
+            "en": "Chrysanthus /+ Daria",
+            "pl": "Chryzant /+ Daria"
         },
         "records/patrons/clemens/sep": {
             "uk": "Климентій Шептицький",
@@ -116,16 +116,16 @@
             "pl": "Klemens Szeptycki"
         },
         "records/patrons/cosmas/dam": {
-            "gr": "Κοσμάς (καὶ Δαμιανός)",
-            "en": "Cosmas (with Damian)",
-            "la": "Cosmas (cum Damianus)",
-            "pl": "Kosma (z Damianem)"
+            "gr": "Κοσμάς /+ Δαμιανός",
+            "en": "Cosmas /+ Damian",
+            "la": "Cosmas /+ Damianus",
+            "pl": "Kosma /+ Damian"
         },
         "records/patrons/damianus/cos": {
-            "gr": "Δαμιανός (καὶ Κοσμάς)",
-            "en": "Damian (with Cosmas)",
-            "la": "Damianus (cum Cosmas)",
-            "pl": "Damian (z Kosmą)"
+            "gr": "Δαμιανός /+ Κοσμάς",
+            "en": "Damian /+ Cosmas",
+            "la": "Damianus /+ Cosmas",
+            "pl": "Damian /+ Kosma"
         },
         "records/patrons/david/oke": {
             "sw": "Daudi Okelo",
@@ -224,9 +224,9 @@
             "pl": "Juda Tadeusz Apostoł"
         },
         "records/patrons/iustus/pas": {
-            "la": "Iustus (cum Pastor)",
-            "en": "Justus (with Pastor)",
-            "pl": "Just (z Pastorem)"
+            "la": "Iustus /+ Pastor",
+            "en": "Justus /+ Pastor",
+            "pl": "Just /+ Pastor"
         },
         "records/patrons/laurentius/rom": {
             "la": "Laurentius de Roma",
@@ -281,9 +281,9 @@
             "pl": "Filip Apostoł"
         },
         "records/patrons/philippus/fel": {
-            "la": "Philippus (cum Felix, infra in Septem Fratribus)",
-            "en": "Philip (with Felix, one of Seven Brothers)",
-            "pl": "Filip (z Feliksem, jeden z Siedmiu Braci)"
+            "la": "Philippus /+ Felix et alii, tamquam Septem Fratres",
+            "en": "Philip /+ Felix and others, as Seven Brothers",
+            "pl": "Filip /+ Feliks i inni, jako Siedmiu Braci"
         },
         "records/patrons/saturninus/tol": {
             "la": "Saturninus Tolosanensis",

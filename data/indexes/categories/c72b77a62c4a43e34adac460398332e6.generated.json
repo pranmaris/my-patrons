@@ -115,9 +115,9 @@
             "pl": "Antoni Baldinucci"
         },
         "records/patrons/antonius/nic": {
-            "la": "Antoninus (cum Nicephorus)",
-            "en": "Antoninus (with Nicephorus)",
-            "pl": "Antonin (z Niceforem)"
+            "la": "Antoninus /+ Nicephorus et alii",
+            "en": "Antoninus /+ Nicephorus and others",
+            "pl": "Antonin /+ Nicefor i inni"
         },
         "records/patrons/antonius/pat": {
             "pt": "Antônio de Pádua",
@@ -224,9 +224,9 @@
             "pl": "Krzysztof z Licji"
         },
         "records/patrons/chrysanthus/dar": {
-            "la": "Chrysanthus (cum Daria)",
-            "en": "Chrysanthus (with Daria)",
-            "pl": "Chryzant (z Darią)"
+            "la": "Chrysanthus /+ Daria",
+            "en": "Chrysanthus /+ Daria",
+            "pl": "Chryzant /+ Daria"
         },
         "records/patrons/clemens/sep": {
             "uk": "Климентій Шептицький",
@@ -235,21 +235,21 @@
             "pl": "Klemens Szeptycki"
         },
         "records/patrons/cosmas/dam": {
-            "gr": "Κοσμάς (καὶ Δαμιανός)",
-            "en": "Cosmas (with Damian)",
-            "la": "Cosmas (cum Damianus)",
-            "pl": "Kosma (z Damianem)"
+            "gr": "Κοσμάς /+ Δαμιανός",
+            "en": "Cosmas /+ Damian",
+            "la": "Cosmas /+ Damianus",
+            "pl": "Kosma /+ Damian"
         },
         "records/patrons/cyrillus/met": {
-            "la": "Cyrillus (cum Methodius)",
+            "la": "Cyrillus /+ Methodius",
             "en": "Cyril of Thessalonica",
-            "pl": "Cyryl (z Metodym)"
+            "pl": "Cyryl /+ Metody"
         },
         "records/patrons/damianus/cos": {
-            "gr": "Δαμιανός (καὶ Κοσμάς)",
-            "en": "Damian (with Cosmas)",
-            "la": "Damianus (cum Cosmas)",
-            "pl": "Damian (z Kosmą)"
+            "gr": "Δαμιανός /+ Κοσμάς",
+            "en": "Damian /+ Cosmas",
+            "la": "Damianus /+ Cosmas",
+            "pl": "Damian /+ Kosma"
         },
         "records/patrons/david/men": {
             "cy": "Dewi Sant",
@@ -522,9 +522,9 @@
             "pl": "Juda Tadeusz Apostoł"
         },
         "records/patrons/iustus/pas": {
-            "la": "Iustus (cum Pastor)",
-            "en": "Justus (with Pastor)",
-            "pl": "Just (z Pastorem)"
+            "la": "Iustus /+ Pastor",
+            "en": "Justus /+ Pastor",
+            "pl": "Just /+ Pastor"
         },
         "records/patrons/laurentius/rom": {
             "la": "Laurentius de Roma",
@@ -592,9 +592,9 @@
             "la": "Maximilianus Maria Kolbe"
         },
         "records/patrons/methodius/cyr": {
-            "la": "Methodius (cum Cyrillus)",
-            "en": "Methodius (with Cyril)",
-            "pl": "Metody (z Cyrylem)"
+            "la": "Methodius /+ Cyrillus",
+            "en": "Methodius /+ Cyril",
+            "pl": "Metody /+ Cyryl"
         },
         "records/patrons/michael/sop": {
             "pl": "Michał Sopoćko",
@@ -657,9 +657,9 @@
             "pl": "Filip Apostoł"
         },
         "records/patrons/philippus/fel": {
-            "la": "Philippus (cum Felix, infra in Septem Fratribus)",
-            "en": "Philip (with Felix, one of Seven Brothers)",
-            "pl": "Filip (z Feliksem, jeden z Siedmiu Braci)"
+            "la": "Philippus /+ Felix et alii, tamquam Septem Fratres",
+            "en": "Philip /+ Felix and others, as Seven Brothers",
+            "pl": "Filip /+ Feliks i inni, jako Siedmiu Braci"
         },
         "records/patrons/philippus/ner": {
             "it": "Filippo Neri",
