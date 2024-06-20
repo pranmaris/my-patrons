@@ -88,6 +88,19 @@
             }
         }
     },
+    "01-15": {
+        "records/patrons/maurus/abb": {
+            "name": {
+                "fr": "Maur Abbé",
+                "la": "Maurus Abbas",
+                "en": "Maurus Abbot",
+                "pl": "Maur Opat"
+            },
+            "sources": {
+                "other-martyrology-days": "15 I"
+            }
+        }
+    },
     "01-21": {
         "records/patrons/agnes/rom": {
             "name": {

@@ -1,0 +1,28 @@
+{
+    "names": {
+        "pl": "Maur",
+        "fr": "Maur"
+    },
+    "translations": {
+        "la": [
+            "Maurus"
+        ],
+        "en": [
+            "Maurus"
+        ],
+        "pl": [
+            "Maur"
+        ],
+        "fr": [
+            "Maur"
+        ]
+    },
+    "links": {
+        "records/patrons/maurus/abb": {
+            "fr": "Maur Abbé",
+            "la": "Maurus Abbas",
+            "en": "Maurus Abbot",
+            "pl": "Maur Opat"
+        }
+    }
+}

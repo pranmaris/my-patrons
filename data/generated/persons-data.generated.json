@@ -2977,6 +2977,26 @@
         ],
         "feasts": []
     },
+    "patrons/maurus": {
+        "names": {
+            "la": "Maurus",
+            "en": "Maurus",
+            "pl": "Maur",
+            "fr": "Maur"
+        }
+    },
+    "patrons/maurus/abb": {
+        "names": {
+            "fr": "Maur Abbé",
+            "la": "Maurus Abbas",
+            "en": "Maurus Abbot",
+            "pl": "Maur Opat"
+        },
+        "died": [
+            "~584"
+        ],
+        "feasts": []
+    },
     "patrons/maximilianus": {
         "names": {
             "la": "Maximilianus",

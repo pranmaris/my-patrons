@@ -597,6 +597,12 @@
             "la": "Matthaeus Evengelista",
             "pl": "Mateusz Ewangelista"
         },
+        "records/patrons/maurus/abb": {
+            "fr": "Maur Abbé",
+            "la": "Maurus Abbas",
+            "en": "Maurus Abbot",
+            "pl": "Maur Opat"
+        },
         "records/patrons/maximilianus/kol": {
             "pl": "Maksymilian Maria Kolbe",
             "en": "Maximilian Maria Kolbe",

@@ -31,6 +31,12 @@
             "en": "Magnus of Füssen",
             "pl": "Magnus z Füssen"
         },
+        "records/patrons/maurus/abb": {
+            "fr": "Maur Abbé",
+            "la": "Maurus Abbas",
+            "en": "Maurus Abbot",
+            "pl": "Maur Opat"
+        },
         "records/patrons/wilfridus/ebo": {
             "en": "Wilfrid of York",
             "la": "Wilfridus Eboracensis",

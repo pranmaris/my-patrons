@@ -1,0 +1,25 @@
+{
+  "names": {
+    "fr": [
+      "Maur Abbé"
+    ],
+    "la": [
+      "Maurus Abbas"
+    ],
+    "en": [
+      "Maurus Abbot"
+    ],
+    "pl": [
+      "Maur Opat"
+    ]
+  },
+
+  "died": ["~584"],
+
+  "also-in-martyrology": ["01-15"],
+
+  "forenames": ["maurus"],
+  "categories": ["vir", "abbas"],
+
+  "order": ["osb"]
+}
