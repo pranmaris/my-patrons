@@ -1,0 +1,37 @@
+{
+  "names": {
+    "it": [
+      "Antonio Della Chiesa"
+    ],
+    "en": [
+      "Anthony Della Chiesa"
+    ],
+    "la": [
+      "Antonius Della Chiesa"
+    ],
+    "pl": [
+      "Antoni Della Chiesa"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Della Chiesa"
+    }
+  ],
+
+  "born": ["1394"],
+  "died": ["1459-01-22"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1819-05-15"
+  },
+
+  "also-in-martyrology": ["01-22"],
+
+  "forenames": ["antonius"],
+  "categories": ["vir", "presbyter"],
+
+  "order": ["op"]
+}

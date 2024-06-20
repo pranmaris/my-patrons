@@ -667,6 +667,18 @@
         ],
         "feasts": []
     },
+    "patrons/antonius/chi": {
+        "names": {
+            "it": "Antonio Della Chiesa",
+            "en": "Anthony Della Chiesa",
+            "la": "Antonius Della Chiesa",
+            "pl": "Antoni Della Chiesa"
+        },
+        "died": [
+            "1459-01-22"
+        ],
+        "feasts": []
+    },
     "patrons/antonius/nic": {
         "names": {
             "la": "Antoninus /+ Nicephorus et alii",

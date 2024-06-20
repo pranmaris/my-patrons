@@ -114,6 +114,18 @@
         }
     },
     "01-22": {
+        "records/patrons/antonius/chi": {
+            "name": {
+                "it": "Antonio Della Chiesa",
+                "en": "Anthony Della Chiesa",
+                "la": "Antonius Della Chiesa",
+                "pl": "Antoni Della Chiesa"
+            },
+            "sources": {
+                "reliable-death-anniversary": "22 I",
+                "other-martyrology-days": "22 I"
+            }
+        },
         "records/patrons/petrus/dam": {
             "name": {
                 "it": "Pier Damiani",
