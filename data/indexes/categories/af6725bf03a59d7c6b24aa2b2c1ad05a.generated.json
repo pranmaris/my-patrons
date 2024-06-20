@@ -20,6 +20,12 @@
             "la": "Iesus Christus",
             "pl": "Jezus Chrystus"
         },
+        "records/patrons/ioannes/rib": {
+            "es": "Juan de Ribera",
+            "en": "John de Ribera",
+            "la": "Ioannes de Ribera",
+            "pl": "Jan de Ribera"
+        },
         "records/patrons/oswaldus/nor": {
             "en": "Oswald of Northumbria",
             "la": "Oswaldus rex Northumbriae",

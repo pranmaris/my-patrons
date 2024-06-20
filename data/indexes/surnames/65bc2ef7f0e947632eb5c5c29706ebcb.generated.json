@@ -1,0 +1,18 @@
+{
+    "names": {
+        "es": "de Ribera"
+    },
+    "translations": {
+        "es": [
+            "de Ribera"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/rib": {
+            "es": "Juan de Ribera",
+            "en": "John de Ribera",
+            "la": "Ioannes de Ribera",
+            "pl": "Jan de Ribera"
+        }
+    }
+}

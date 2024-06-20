@@ -36,6 +36,20 @@
             }
         }
     },
+    "01-06": {
+        "records/patrons/ioannes/rib": {
+            "name": {
+                "es": "Juan de Ribera",
+                "en": "John de Ribera",
+                "la": "Ioannes de Ribera",
+                "pl": "Jan de Ribera"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 I",
+                "other-martyrology-days": "6 I"
+            }
+        }
+    },
     "01-09": {
         "records/patrons/paulina/jar": {
             "name": {

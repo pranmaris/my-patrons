@@ -481,6 +481,12 @@
             "en": "John Paul II",
             "la": "Ioannes Paulus Pp. II"
         },
+        "records/patrons/ioannes/rib": {
+            "es": "Juan de Ribera",
+            "en": "John de Ribera",
+            "la": "Ioannes de Ribera",
+            "pl": "Jan de Ribera"
+        },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",
             "en": "John Mary Vianney",
