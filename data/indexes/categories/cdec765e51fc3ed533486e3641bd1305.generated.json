@@ -146,6 +146,11 @@
             "la": "Ioannes de Ribera",
             "pl": "Jan de Ribera"
         },
+        "records/patrons/iosephus/pel": {
+            "pl": "Józef Sebastian Pelczar",
+            "en": "Joseph Sebastian Pelczar",
+            "la": "Iosephus Sebastianus Pelczar"
+        },
         "records/patrons/isidorus/his": {
             "la": "Isidorus Hispalensis",
             "en": "Isidore of Seville",

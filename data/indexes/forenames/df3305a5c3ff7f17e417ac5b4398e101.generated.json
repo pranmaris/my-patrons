@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Sebastianus"
+    },
+    "translations": {
+        "la": [
+            "Sebastianus"
+        ],
+        "en": [
+            "Sebastian"
+        ],
+        "pl": [
+            "Sebastian"
+        ]
+    },
+    "links": {
+        "records/patrons/iosephus/pel": {
+            "pl": "Józef Sebastian Pelczar",
+            "en": "Joseph Sebastian Pelczar",
+            "la": "Iosephus Sebastianus Pelczar"
+        }
+    }
+}

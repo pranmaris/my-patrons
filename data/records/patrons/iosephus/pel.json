@@ -1,0 +1,38 @@
+{
+  "names": {
+    "pl": [
+      "Józef Sebastian Pelczar"
+    ],
+    "en": [
+      "Joseph Sebastian Pelczar"
+    ],
+    "la": [
+      "Iosephus Sebastianus Pelczar"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Pelczar"
+    }
+  ],
+
+  "born": ["1842-01-17"],
+  "died": ["1924-03-28"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1991-06-02"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2003-05-18"
+  },
+
+  "also-in-martyrology": ["03-28"],
+
+  "forenames": ["iosephus", "sebastianus"],
+  "categories": ["vir", "episcopus", "fundator"],
+
+  "order-founder": ["sscj"]
+}

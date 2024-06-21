@@ -596,6 +596,17 @@
         }
     },
     "03-28": {
+        "records/patrons/iosephus/pel": {
+            "name": {
+                "pl": "Józef Sebastian Pelczar",
+                "en": "Joseph Sebastian Pelczar",
+                "la": "Iosephus Sebastianus Pelczar"
+            },
+            "sources": {
+                "reliable-death-anniversary": "28 III",
+                "other-martyrology-days": "28 III"
+            }
+        },
         "records/patrons/ioannes/cap": {
             "name": {
                 "it": "Giovanni da Capestrano",

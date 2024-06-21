@@ -2412,6 +2412,17 @@
         ],
         "feasts": []
     },
+    "patrons/iosephus/pel": {
+        "names": {
+            "pl": "Józef Sebastian Pelczar",
+            "en": "Joseph Sebastian Pelczar",
+            "la": "Iosephus Sebastianus Pelczar"
+        },
+        "died": [
+            "1924-03-28"
+        ],
+        "feasts": []
+    },
     "patrons/iosephus/zap": {
         "names": {
             "pl": "Józef Zapłata",
