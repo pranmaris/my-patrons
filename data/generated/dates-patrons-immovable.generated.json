@@ -530,6 +530,19 @@
             }
         }
     },
+    "03-19": {
+        "records/patrons/narcissus/tur": {
+            "name": {
+                "pl": "Narcyz Turchan",
+                "en": "Narcissus Turchan",
+                "la": "Narcissus Turchan"
+            },
+            "sources": {
+                "reliable-death-anniversary": "19 III",
+                "other-martyrology-days": "19 III"
+            }
+        }
+    },
     "03-20": {
         "records/patrons/ioachim/mar": {
             "name": {

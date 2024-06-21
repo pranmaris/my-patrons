@@ -1,0 +1,35 @@
+{
+  "names": {
+    "pl": [
+      "Narcyz Turchan",
+      "Jan Turchan"
+    ],
+    "en": [
+      "Narcissus Turchan"
+    ],
+    "la": [
+      "Narcissus Turchan"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Turchan"
+    }
+  ],
+
+  "born": ["1879-09-19"],
+  "died": ["1942-03-19"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["03-19"],
+
+  "forenames": ["narcissus"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["ofm"]
+}

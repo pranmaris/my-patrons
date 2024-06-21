@@ -3311,6 +3311,24 @@
         "died": [],
         "feasts": []
     },
+    "patrons/narcissus": {
+        "names": {
+            "la": "Narcissus",
+            "en": "Narcissus",
+            "pl": "Narcyz"
+        }
+    },
+    "patrons/narcissus/tur": {
+        "names": {
+            "pl": "Narcyz Turchan",
+            "en": "Narcissus Turchan",
+            "la": "Narcissus Turchan"
+        },
+        "died": [
+            "1942-03-19"
+        ],
+        "feasts": []
+    },
     "patrons/nicolaus": {
         "names": {
             "la": "Nicolaus",

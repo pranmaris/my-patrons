@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Narcissus",
+        "en": "Narcissus"
+    },
+    "translations": {
+        "la": [
+            "Narcissus"
+        ],
+        "en": [
+            "Narcissus"
+        ],
+        "pl": [
+            "Narcyz"
+        ]
+    },
+    "links": {
+        "records/patrons/narcissus/tur": {
+            "pl": "Narcyz Turchan",
+            "en": "Narcissus Turchan",
+            "la": "Narcissus Turchan"
+        }
+    }
+}
