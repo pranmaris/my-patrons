@@ -1073,6 +1073,9 @@
         "en": "Denis",
         "fr": "Denis"
     },
+    "a3c3161593024d3644fb63e93afe5c5f": {
+        "fr": "Agricole"
+    },
     "a3fc0f3dc006e80232a209184f045323": {
         "pl": "Hilary"
     },
@@ -1445,6 +1448,10 @@
         "en": "Eugenia",
         "pl": "Eugenia"
     },
+    "d82b1470bb059f4546cb1e51d8455a3d": {
+        "en": "Agricola",
+        "la": "Agricola"
+    },
     "d8710f0653a849ea6d9b4436d6c877e4": {
         "en": "Constantine"
     },
@@ -1636,6 +1643,9 @@
     "fb2a7e07febbe7636dbbce0824477691": {
         "la": "Anicetus",
         "en": "Anicetus"
+    },
+    "fbc6516254f8f8cc45218b0a3caa872b": {
+        "pl": "Agrykola"
     },
     "fbc86de39e68a819722cff24706cd5b3": {
         "es": "Ignacio"

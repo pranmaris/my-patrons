@@ -1,0 +1,23 @@
+{
+  "names": {
+    "fr": [
+      "Agricole de Nevers"
+    ],
+    "en": [
+      "Agricola of Nevers"
+    ],
+    "la": [
+      "Agricola Nivernensis"
+    ],
+    "pl": [
+      "Agrykola z Nevers"
+    ]
+  },
+
+  "died": ["~594"],
+
+  "also-in-martyrology": ["02-26"],
+
+  "forenames": ["agricola"],
+  "categories": ["vir", "episcopus"]
+}

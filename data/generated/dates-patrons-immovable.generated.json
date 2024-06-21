@@ -353,6 +353,19 @@
             }
         }
     },
+    "02-26": {
+        "records/patrons/agricola/niv": {
+            "name": {
+                "fr": "Agricole de Nevers",
+                "en": "Agricola of Nevers",
+                "la": "Agricola Nivernensis",
+                "pl": "Agrykola z Nevers"
+            },
+            "sources": {
+                "other-martyrology-days": "26 II"
+            }
+        }
+    },
     "02-29": {
         "records/patrons/hilarius/1pp": {
             "name": {

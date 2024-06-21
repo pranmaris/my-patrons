@@ -25,6 +25,12 @@
             "la": "Adalbertus Pragensis",
             "pl": "Wojciech Sławnikowic"
         },
+        "records/patrons/agricola/niv": {
+            "fr": "Agricole de Nevers",
+            "en": "Agricola of Nevers",
+            "la": "Agricola Nivernensis",
+            "pl": "Agrykola z Nevers"
+        },
         "records/patrons/albertus/lov": {
             "fr": "Albert de Louvain",
             "en": "Albert of Louvain",

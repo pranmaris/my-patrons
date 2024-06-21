@@ -25,6 +25,12 @@
         "en": "Agnes",
         "pl": "Agnieszka"
     },
+    "agricola": {
+        "en": "Agricola",
+        "la": "Agricola",
+        "pl": "Agrykola",
+        "fr": "Agricole"
+    },
     "albertus": {
         "la": "Albertus",
         "en": "Albert",

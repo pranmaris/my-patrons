@@ -416,6 +416,26 @@
         ],
         "feasts": []
     },
+    "patrons/agricola": {
+        "names": {
+            "en": "Agricola",
+            "la": "Agricola",
+            "pl": "Agrykola",
+            "fr": "Agricole"
+        }
+    },
+    "patrons/agricola/niv": {
+        "names": {
+            "fr": "Agricole de Nevers",
+            "en": "Agricola of Nevers",
+            "la": "Agricola Nivernensis",
+            "pl": "Agrykola z Nevers"
+        },
+        "died": [
+            "~594"
+        ],
+        "feasts": []
+    },
     "patrons/albertus": {
         "names": {
             "la": "Albertus",
