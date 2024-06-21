@@ -490,6 +490,20 @@
             }
         }
     },
+    "03-12": {
+        "records/patrons/aloysius/ori": {
+            "name": {
+                "it": "Luigi Orione",
+                "en": "Aloysius Orione",
+                "la": "Aloysius Orione",
+                "pl": "Alojzy Orione"
+            },
+            "sources": {
+                "reliable-death-anniversary": "12 III",
+                "other-martyrology-days": "12 III"
+            }
+        }
+    },
     "03-14": {
         "records/patrons/lazarus/med": {
             "name": {

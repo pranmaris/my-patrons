@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Orione"
+    },
+    "translations": {
+        "it": [
+            "Orione"
+        ]
+    },
+    "links": {
+        "records/patrons/aloysius/ori": {
+            "it": "Luigi Orione",
+            "en": "Aloysius Orione",
+            "la": "Aloysius Orione",
+            "pl": "Alojzy Orione"
+        }
+    }
+}

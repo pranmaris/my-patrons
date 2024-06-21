@@ -11,6 +11,9 @@
         ],
         "pl": [
             "Alojzy"
+        ],
+        "it": [
+            "Luigi"
         ]
     },
     "links": {
@@ -18,6 +21,12 @@
             "pl": "Alojzy Liguda",
             "la": "Aloysius Liguda",
             "en": "Aloysius Liguda"
+        },
+        "records/patrons/aloysius/ori": {
+            "it": "Luigi Orione",
+            "en": "Aloysius Orione",
+            "la": "Aloysius Orione",
+            "pl": "Alojzy Orione"
         }
     }
 }

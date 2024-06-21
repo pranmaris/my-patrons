@@ -1,0 +1,42 @@
+{
+  "names": {
+    "it": [
+      "Luigi Orione"
+    ],
+    "en": [
+      "Aloysius Orione"
+    ],
+    "la": [
+      "Aloysius Orione"
+    ],
+    "pl": [
+      "Alojzy Orione"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Orione"
+    }
+  ],
+
+  "born": ["1872-06-23"],
+  "died": ["1940-03-12"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1980-10-26"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2004-05-16"
+  },
+
+  "also-in-martyrology": ["03-12"],
+
+  "forenames": ["aloysius"],
+  "categories": ["vir", "presbyter", "institutor"],
+
+  "order": ["fdp"],
+  "order-founder": ["fdp"]
+}

@@ -504,7 +504,8 @@
         "names": {
             "la": "Aloysius",
             "en": "Aloysius",
-            "pl": "Alojzy"
+            "pl": "Alojzy",
+            "it": "Luigi"
         }
     },
     "patrons/aloysius/lig": {
@@ -515,6 +516,18 @@
         },
         "died": [
             "1942-12-08"
+        ],
+        "feasts": []
+    },
+    "patrons/aloysius/ori": {
+        "names": {
+            "it": "Luigi Orione",
+            "en": "Aloysius Orione",
+            "la": "Aloysius Orione",
+            "pl": "Alojzy Orione"
+        },
+        "died": [
+            "1940-03-12"
         ],
         "feasts": []
     },
