@@ -1,0 +1,18 @@
+{
+    "names": {
+        "es": "Méndez"
+    },
+    "translations": {
+        "es": [
+            "Méndez"
+        ]
+    },
+    "links": {
+        "records/patrons/iesus/men": {
+            "es": "Jesús Méndez Montoya",
+            "en": "Jesus Mendez Montoya",
+            "la": "Iesus Mendez Montoya",
+            "pl": "Jezus Mendez Montoya"
+        }
+    }
+}

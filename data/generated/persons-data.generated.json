@@ -1936,6 +1936,27 @@
         ],
         "feasts": []
     },
+    "patrons/iesus": {
+        "names": {
+            "la": "Iesus",
+            "en": "Jesus",
+            "pl": "Jezus",
+            "arc": "ܝܫܘܥ",
+            "es": "Jesús"
+        }
+    },
+    "patrons/iesus/men": {
+        "names": {
+            "es": "Jesús Méndez Montoya",
+            "en": "Jesus Mendez Montoya",
+            "la": "Iesus Mendez Montoya",
+            "pl": "Jezus Mendez Montoya"
+        },
+        "died": [
+            "1928-02-05"
+        ],
+        "feasts": []
+    },
     "patrons/ignatius": {
         "names": {
             "la": "Ignatius",

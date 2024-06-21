@@ -192,6 +192,18 @@
         }
     },
     "02-05": {
+        "records/patrons/iesus/men": {
+            "name": {
+                "es": "Jesús Méndez Montoya",
+                "en": "Jesus Mendez Montoya",
+                "la": "Iesus Mendez Montoya",
+                "pl": "Jezus Mendez Montoya"
+            },
+            "sources": {
+                "reliable-death-anniversary": "5 II",
+                "other-martyrology-days": "5 II"
+            }
+        },
         "records/patrons/agatha/cat": {
             "name": {
                 "la": "Agatha Catanensis",
@@ -878,6 +890,19 @@
             },
             "sources": {
                 "other-martyrology-days": "20 V"
+            }
+        }
+    },
+    "05-21": {
+        "records/patrons/iesus/men": {
+            "name": {
+                "es": "Jesús Méndez Montoya",
+                "en": "Jesus Mendez Montoya",
+                "la": "Iesus Mendez Montoya",
+                "pl": "Jezus Mendez Montoya"
+            },
+            "sources": {
+                "other-martyrology-days": "21 V"
             }
         }
     },
