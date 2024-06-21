@@ -1223,6 +1223,17 @@
         }
     },
     "07-26": {
+        "records/patrons/anna/mar": {
+            "name": {
+                "he": "חַנָּה‎",
+                "en": "Anna mother of Mary",
+                "la": "Anna mater Mariae",
+                "pl": "Anna matka Maryi"
+            },
+            "sources": {
+                "other-martyrology-days": "26 VII"
+            }
+        },
         "records/patrons/ioachim/mar": {
             "name": {
                 "he": "יהוֹיָקִים",

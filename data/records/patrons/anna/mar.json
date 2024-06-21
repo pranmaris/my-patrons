@@ -1,0 +1,24 @@
+{
+  "names": {
+    "he": [
+      "חַנָּה‎"
+    ],
+    "en": [
+      "Anna mother of Mary"
+    ],
+    "la": [
+      "Anna mater Mariae"
+    ],
+    "pl": [
+      "Anna matka Maryi"
+    ]
+  },
+
+  "born": ["<-49"],
+  "died": [">4"],
+
+  "also-in-martyrology": ["07-26"],
+
+  "forenames": ["anna"],
+  "categories": ["femina"]
+}

@@ -617,6 +617,26 @@
         ],
         "feasts": []
     },
+    "patrons/anna": {
+        "names": {
+            "la": "Anna",
+            "en": "Anna",
+            "pl": "Anna",
+            "he": "חַנָּה‎"
+        }
+    },
+    "patrons/anna/mar": {
+        "names": {
+            "he": "חַנָּה‎",
+            "en": "Anna mother of Mary",
+            "la": "Anna mater Mariae",
+            "pl": "Anna matka Maryi"
+        },
+        "died": [
+            ">4"
+        ],
+        "feasts": []
+    },
     "patrons/antoninus": {
         "names": {
             "la": "Antoninus",
