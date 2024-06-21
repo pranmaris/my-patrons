@@ -1,0 +1,37 @@
+{
+  "names": {
+    "it": [
+      "Maddalena Caterina Morano"
+    ],
+    "en": [
+      "Magdalene Catherine Morano"
+    ],
+    "la": [
+      "Magdalena Catharina Morano"
+    ],
+    "pl": [
+      "Magdalena Katarzyna Morano"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Morano"
+    }
+  ],
+
+  "born": ["1847-11-15"],
+  "died": ["1908-03-26"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1994-11-05"
+  },
+
+  "also-in-martyrology": ["03-26"],
+
+  "forenames": ["magdalena", "catharina"],
+  "categories": ["femina", "virgo"],
+
+  "order": ["fma"]
+}

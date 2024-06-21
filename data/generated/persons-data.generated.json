@@ -1162,7 +1162,8 @@
             "la": "Catharina",
             "en": "Catherine",
             "pl": "Katarzyna",
-            "fr": "Catherine"
+            "fr": "Catherine",
+            "it": "Caterina"
         }
     },
     "patrons/catharina/ale": {
@@ -2669,6 +2670,18 @@
         },
         "died": [
             "1835-04-10"
+        ],
+        "feasts": []
+    },
+    "patrons/magdalena/mor": {
+        "names": {
+            "it": "Maddalena Caterina Morano",
+            "en": "Magdalene Catherine Morano",
+            "la": "Magdalena Catharina Morano",
+            "pl": "Magdalena Katarzyna Morano"
+        },
+        "died": [
+            "1908-03-26"
         ],
         "feasts": []
     },

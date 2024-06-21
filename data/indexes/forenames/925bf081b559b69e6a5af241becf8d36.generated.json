@@ -14,6 +14,9 @@
         ],
         "fr": [
             "Catherine"
+        ],
+        "it": [
+            "Caterina"
         ]
     },
     "links": {
@@ -27,6 +30,12 @@
             "en": "Catherine Labouré",
             "la": "Catherina Labouré",
             "pl": "Katarzyna Labouré"
+        },
+        "records/patrons/magdalena/mor": {
+            "it": "Maddalena Caterina Morano",
+            "en": "Magdalene Catherine Morano",
+            "la": "Magdalena Catharina Morano",
+            "pl": "Magdalena Katarzyna Morano"
         }
     }
 }

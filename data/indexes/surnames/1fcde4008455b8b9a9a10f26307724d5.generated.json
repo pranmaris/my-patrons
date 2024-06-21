@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Morano"
+    },
+    "translations": {
+        "it": [
+            "Morano"
+        ]
+    },
+    "links": {
+        "records/patrons/magdalena/mor": {
+            "it": "Maddalena Caterina Morano",
+            "en": "Magdalene Catherine Morano",
+            "la": "Magdalena Catharina Morano",
+            "pl": "Magdalena Katarzyna Morano"
+        }
+    }
+}

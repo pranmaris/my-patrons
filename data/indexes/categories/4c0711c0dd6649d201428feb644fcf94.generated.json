@@ -102,6 +102,12 @@
             "la": "Magdalena de Canossa",
             "pl": "Magdalena z Canossy"
         },
+        "records/patrons/magdalena/mor": {
+            "it": "Maddalena Caterina Morano",
+            "en": "Magdalene Catherine Morano",
+            "la": "Magdalena Catharina Morano",
+            "pl": "Magdalena Katarzyna Morano"
+        },
         "records/patrons/margarita/ala": {
             "fr": "Marguerite-Marie Alacoque",
             "en": "Margaret Mary Alacoque",
