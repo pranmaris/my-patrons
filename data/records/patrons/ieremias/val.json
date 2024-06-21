@@ -1,0 +1,44 @@
+{
+  "names": {
+    "ro": [
+      "Ieremia Valahul",
+      "Ioan Costiste"
+    ],
+    "en": [
+      "Jeremiah of Wallachia"
+    ],
+    "la": [
+      "Ieremias de Valachia",
+      "Ioannes Kostistik"
+    ],
+    "pl": [
+      "Jeremiasz z Wołoszczyzny",
+      "Jeremiasz z Wołoszy",
+      "Jon Kostist"
+    ]
+  },
+
+  "surnames": [
+    {
+      "ro": "Costişte",
+      "en": "Costiste",
+      "la": "Kostistik",
+      "pl": "Kostist"
+    }
+  ],
+
+  "born": ["1556-06-29"],
+  "died": ["1625-03-05"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1983-10-30"
+  },
+
+  "also-in-martyrology": ["03-05"],
+
+  "forenames": ["ieremias", "ioannes"],
+  "categories": ["vir", "religiosus"],
+
+  "order": ["ofmcap"]
+}

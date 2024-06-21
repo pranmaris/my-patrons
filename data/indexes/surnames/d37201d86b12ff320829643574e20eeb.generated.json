@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "Costiste"
+    },
+    "translations": {
+        "ro": [
+            "Costişte"
+        ],
+        "en": [
+            "Costiste"
+        ],
+        "la": [
+            "Kostistik"
+        ],
+        "pl": [
+            "Kostist"
+        ]
+    },
+    "links": {
+        "records/patrons/ieremias/val": {
+            "ro": "Ieremia Valahul",
+            "en": "Jeremiah of Wallachia",
+            "la": "Ieremias de Valachia",
+            "pl": "Jeremiasz z Wołoszczyzny"
+        }
+    }
+}

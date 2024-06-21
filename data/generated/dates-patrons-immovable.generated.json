@@ -443,6 +443,18 @@
         }
     },
     "03-05": {
+        "records/patrons/ieremias/val": {
+            "name": {
+                "ro": "Ieremia Valahul",
+                "en": "Jeremiah of Wallachia",
+                "la": "Ieremias de Valachia",
+                "pl": "Jeremiasz z Wołoszczyzny"
+            },
+            "sources": {
+                "reliable-death-anniversary": "5 III",
+                "other-martyrology-days": "5 III"
+            }
+        },
         "records/patrons/virgilius/are": {
             "name": {
                 "la": "Virgilius Arelatensis",

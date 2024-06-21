@@ -25,6 +25,12 @@
             "la": "Iacobinus de Canepacci",
             "pl": "Jakobin de Canepacci"
         },
+        "records/patrons/ieremias/val": {
+            "ro": "Ieremia Valahul",
+            "en": "Jeremiah of Wallachia",
+            "la": "Ieremias de Valachia",
+            "pl": "Jeremiasz z Wołoszczyzny"
+        },
         "records/patrons/iosephus/zap": {
             "pl": "Józef Zapłata",
             "en": "Joseph Zaplata",

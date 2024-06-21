@@ -27,6 +27,12 @@
         ]
     },
     "links": {
+        "records/patrons/ieremias/val": {
+            "ro": "Ieremia Valahul",
+            "en": "Jeremiah of Wallachia",
+            "la": "Ieremias de Valachia",
+            "pl": "Jeremiasz z Wołoszczyzny"
+        },
         "records/patrons/ioannes/23p": {
             "it": "Giovanni XXIII",
             "en": "John XXIII",

@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "Jeremiah"
+    },
+    "translations": {
+        "la": [
+            "Ieremias"
+        ],
+        "en": [
+            "Jeremiah"
+        ],
+        "pl": [
+            "Jeremiasz"
+        ],
+        "ro": [
+            "Ieremia"
+        ]
+    },
+    "links": {
+        "records/patrons/ieremias/val": {
+            "ro": "Ieremia Valahul",
+            "en": "Jeremiah of Wallachia",
+            "la": "Ieremias de Valachia",
+            "pl": "Jeremiasz z Wołoszczyzny"
+        }
+    }
+}
