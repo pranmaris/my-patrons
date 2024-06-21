@@ -417,6 +417,12 @@
             "en": "Hormisdas",
             "pl": "Hormizdas"
         },
+        "records/patrons/iacobinus/can": {
+            "it": "Giacomino de Canepacci",
+            "en": "Jacobinus de Canepacci",
+            "la": "Iacobinus de Canepacci",
+            "pl": "Jakobin de Canepacci"
+        },
         "records/patrons/iacobus/mai": {
             "la": "Iacobus Maior Apostolus",
             "en": "James the Great",

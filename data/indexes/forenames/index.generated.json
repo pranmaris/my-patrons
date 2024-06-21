@@ -259,6 +259,9 @@
         "la": "Patiens",
         "en": "Patiens"
     },
+    "25d098fb6b513a325b8903a46d45adbd": {
+        "it": "Giacomino"
+    },
     "260549eff4053a1d6496833316e1d8ad": {
         "pl": "Cyryl"
     },
@@ -467,6 +470,9 @@
     },
     "435d1271c205e18ae7af937c8d770bf0": {
         "en": "Benedict"
+    },
+    "459a907e84db7a3e6fb23cd1a0595558": {
+        "pl": "Jakobin"
     },
     "45f984f5b20c2d839a449e79cdb78659": {
         "la": "Hieronymus"
@@ -1135,8 +1141,14 @@
         "pl": "Adalbert",
         "cz": "Adalbert"
     },
+    "aca0923a57e8a980553dd1781bfe4073": {
+        "la": "Iacobinus"
+    },
     "ace300d174bb06b6e9a17211c2949504": {
         "la": "Joannes Baptista"
+    },
+    "ade1847c18f09992908f6d419930bb0d": {
+        "en": "Jacobinus"
     },
     "ae84855966c14be2ab97b1065b60beeb": {
         "la": "Ursula",

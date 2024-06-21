@@ -1,0 +1,37 @@
+{
+  "names": {
+    "it": [
+      "Giacomino de Canepacci"
+    ],
+    "en": [
+      "Jacobinus de Canepacci"
+    ],
+    "la": [
+      "Iacobinus de Canepacci"
+    ],
+    "pl": [
+      "Jakobin de Canepacci"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "de Canepacci"
+    }
+  ],
+
+  "born": ["~1438"],
+  "died": ["~1508"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1845-05-03"
+  },
+
+  "also-in-martyrology": ["03-03"],
+
+  "forenames": ["iacobinus"],
+  "categories": ["vir", "religiosus"],
+
+  "order": ["ocarm"]
+}

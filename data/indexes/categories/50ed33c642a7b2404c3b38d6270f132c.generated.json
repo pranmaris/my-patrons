@@ -19,6 +19,12 @@
             "en": "Albert Chmielowski",
             "la": "Albertus Chmielowski"
         },
+        "records/patrons/iacobinus/can": {
+            "it": "Giacomino de Canepacci",
+            "en": "Jacobinus de Canepacci",
+            "la": "Iacobinus de Canepacci",
+            "pl": "Jakobin de Canepacci"
+        },
         "records/patrons/iosephus/zap": {
             "pl": "Józef Zapłata",
             "en": "Joseph Zaplata",

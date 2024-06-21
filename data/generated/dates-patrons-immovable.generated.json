@@ -416,6 +416,19 @@
             }
         }
     },
+    "03-03": {
+        "records/patrons/iacobinus/can": {
+            "name": {
+                "it": "Giacomino de Canepacci",
+                "en": "Jacobinus de Canepacci",
+                "la": "Iacobinus de Canepacci",
+                "pl": "Jakobin de Canepacci"
+            },
+            "sources": {
+                "other-martyrology-days": "3 III"
+            }
+        }
+    },
     "03-04": {
         "records/patrons/casimirus/pri": {
             "name": {

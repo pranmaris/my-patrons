@@ -1910,6 +1910,26 @@
         ],
         "feasts": []
     },
+    "patrons/iacobinus": {
+        "names": {
+            "la": "Iacobinus",
+            "en": "Jacobinus",
+            "pl": "Jakobin",
+            "it": "Giacomino"
+        }
+    },
+    "patrons/iacobinus/can": {
+        "names": {
+            "it": "Giacomino de Canepacci",
+            "en": "Jacobinus de Canepacci",
+            "la": "Iacobinus de Canepacci",
+            "pl": "Jakobin de Canepacci"
+        },
+        "died": [
+            "~1508"
+        ],
+        "feasts": []
+    },
     "patrons/iacobus": {
         "names": {
             "la": "Iacobus",
