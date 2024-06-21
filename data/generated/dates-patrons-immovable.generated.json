@@ -177,6 +177,20 @@
             }
         }
     },
+    "02-03": {
+        "records/patrons/ansgarius/ham": {
+            "name": {
+                "de": "Ansgar",
+                "en": "Oscar",
+                "la": "Ansgarius",
+                "pl": "Oskar"
+            },
+            "sources": {
+                "reliable-death-anniversary": "3 II",
+                "other-martyrology-days": "3 II"
+            }
+        }
+    },
     "02-05": {
         "records/patrons/agatha/cat": {
             "name": {

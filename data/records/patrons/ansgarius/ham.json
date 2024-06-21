@@ -1,0 +1,27 @@
+{
+  "names": {
+    "de": [
+      "Ansgar",
+      "Anskar"
+    ],
+    "en": [
+      "Oscar",
+      "Ansgar"
+    ],
+    "la": [
+      "Ansgarius"
+    ],
+    "pl": [
+      "Oskar",
+      "Ansgar"
+    ]
+  },
+
+  "born": ["801-09-08"],
+  "died": ["865-02-03"],
+
+  "also-in-martyrology": ["02-03"],
+
+  "forenames": ["ansgarius"],
+  "categories": ["vir", "episcopus", "monachus"]
+}

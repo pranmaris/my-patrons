@@ -1,0 +1,29 @@
+{
+    "names": {
+        "pl": "Oskar"
+    },
+    "translations": {
+        "la": [
+            "Ansgarius"
+        ],
+        "en": [
+            "Ansgar",
+            "Oscar"
+        ],
+        "pl": [
+            "Ansgar",
+            "Oskar"
+        ],
+        "de": [
+            "Anskar"
+        ]
+    },
+    "links": {
+        "records/patrons/ansgarius/ham": {
+            "de": "Ansgar",
+            "en": "Oscar",
+            "la": "Ansgarius",
+            "pl": "Oskar"
+        }
+    }
+}

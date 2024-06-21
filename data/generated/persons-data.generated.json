@@ -637,6 +637,26 @@
         ],
         "feasts": []
     },
+    "patrons/ansgarius": {
+        "names": {
+            "la": "Ansgarius",
+            "en": "Ansgar",
+            "pl": "Ansgar",
+            "de": "Anskar"
+        }
+    },
+    "patrons/ansgarius/ham": {
+        "names": {
+            "de": "Ansgar",
+            "en": "Oscar",
+            "la": "Ansgarius",
+            "pl": "Oskar"
+        },
+        "died": [
+            "865-02-03"
+        ],
+        "feasts": []
+    },
     "patrons/antoninus": {
         "names": {
             "la": "Antoninus",

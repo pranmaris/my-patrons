@@ -48,6 +48,12 @@
             "en": "Ambrose of Milan",
             "pl": "Ambroży z Mediolanu"
         },
+        "records/patrons/ansgarius/ham": {
+            "de": "Ansgar",
+            "en": "Oscar",
+            "la": "Ansgarius",
+            "pl": "Oskar"
+        },
         "records/patrons/augustinus/hip": {
             "la": "Augustinus Hipponensis",
             "en": "Augustine of Hippo",
