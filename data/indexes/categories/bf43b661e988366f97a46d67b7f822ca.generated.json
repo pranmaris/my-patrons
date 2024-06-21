@@ -54,6 +54,12 @@
             "la": "Ansgarius",
             "pl": "Oskar"
         },
+        "records/patrons/antonius/cau": {
+            "gr": "Ἀντώνιος Καυλέας",
+            "en": "Anthony Cauleas",
+            "la": "Antonius Cauleas",
+            "pl": "Antoni Kauleas"
+        },
         "records/patrons/augustinus/hip": {
             "la": "Augustinus Hipponensis",
             "en": "Augustine of Hippo",

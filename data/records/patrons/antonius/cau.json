@@ -1,0 +1,33 @@
+{
+  "names": {
+    "gr": [
+      "Ἀντώνιος Καυλέας"
+    ],
+    "en": [
+      "Anthony Cauleas"
+    ],
+    "la": [
+      "Antonius Cauleas"
+    ],
+    "pl": [
+      "Antoni Kauleas"
+    ]
+  },
+
+  "surnames": [
+    {
+      "gr": "Καυλέας",
+      "en": "Cauleas",
+      "la": "Cauleas",
+      "pl": "Kauleas"
+    }
+  ],
+
+  "born": ["~629"],
+  "died": ["901-02-12"],
+
+  "also-in-martyrology": ["02-12"],
+
+  "forenames": ["antonius"],
+  "categories": ["vir", "episcopus"]
+}

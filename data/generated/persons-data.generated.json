@@ -680,6 +680,7 @@
             "la": "Antonius",
             "en": "Anthony",
             "pl": "Antoni",
+            "gr": "Ἀντώνιος",
             "it": "Antonio",
             "pt": "Antônio"
         }
@@ -704,6 +705,18 @@
         },
         "died": [
             "1717-11-06"
+        ],
+        "feasts": []
+    },
+    "patrons/antonius/cau": {
+        "names": {
+            "gr": "Ἀντώνιος Καυλέας",
+            "en": "Anthony Cauleas",
+            "la": "Antonius Cauleas",
+            "pl": "Antoni Kauleas"
+        },
+        "died": [
+            "901-02-12"
         ],
         "feasts": []
     },

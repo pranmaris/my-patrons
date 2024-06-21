@@ -12,6 +12,9 @@
         "pl": [
             "Antoni"
         ],
+        "gr": [
+            "Ἀντώνιος"
+        ],
         "it": [
             "Antonio"
         ],
@@ -30,6 +33,12 @@
             "la": "Antonius Baldinucci",
             "en": "Anthony Baldinucci",
             "pl": "Antoni Baldinucci"
+        },
+        "records/patrons/antonius/cau": {
+            "gr": "Ἀντώνιος Καυλέας",
+            "en": "Anthony Cauleas",
+            "la": "Antonius Cauleas",
+            "pl": "Antoni Kauleas"
         },
         "records/patrons/antonius/chi": {
             "it": "Antonio Della Chiesa",

@@ -252,6 +252,20 @@
             }
         }
     },
+    "02-12": {
+        "records/patrons/antonius/cau": {
+            "name": {
+                "gr": "Ἀντώνιος Καυλέας",
+                "en": "Anthony Cauleas",
+                "la": "Antonius Cauleas",
+                "pl": "Antoni Kauleas"
+            },
+            "sources": {
+                "reliable-death-anniversary": "12 II",
+                "other-martyrology-days": "12 II"
+            }
+        }
+    },
     "02-14": {
         "records/patrons/cyrillus/met": {
             "name": {
