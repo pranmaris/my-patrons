@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Zapłata"
+    },
+    "translations": {
+        "pl": [
+            "Zapłata"
+        ]
+    },
+    "links": {
+        "records/patrons/iosephus/zap": {
+            "pl": "Józef Zapłata",
+            "en": "Joseph Zaplata",
+            "la": "Iosephus Zaplata"
+        }
+    }
+}

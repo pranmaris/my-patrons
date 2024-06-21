@@ -1,0 +1,34 @@
+{
+  "names": {
+    "pl": [
+      "Józef Zapłata"
+    ],
+    "en": [
+      "Joseph Zaplata"
+    ],
+    "la": [
+      "Iosephus Zaplata"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Zapłata"
+    }
+  ],
+
+  "born": ["1904-03-05"],
+  "died": ["1945-02-19"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["02-19"],
+
+  "forenames": ["iosephus"],
+  "categories": ["vir", "martyr", "religiosus"],
+
+  "order": ["cfci"]
+}

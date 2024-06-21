@@ -2338,6 +2338,17 @@
         ],
         "feasts": []
     },
+    "patrons/iosephus/zap": {
+        "names": {
+            "pl": "Józef Zapłata",
+            "en": "Joseph Zaplata",
+            "la": "Iosephus Zaplata"
+        },
+        "died": [
+            "1945-02-19"
+        ],
+        "feasts": []
+    },
     "patrons/isaias": {
         "names": {
             "la": "Isaias",

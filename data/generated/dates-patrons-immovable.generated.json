@@ -301,6 +301,19 @@
             }
         }
     },
+    "02-19": {
+        "records/patrons/iosephus/zap": {
+            "name": {
+                "pl": "Józef Zapłata",
+                "en": "Joseph Zaplata",
+                "la": "Iosephus Zaplata"
+            },
+            "sources": {
+                "reliable-death-anniversary": "19 II",
+                "other-martyrology-days": "19 II"
+            }
+        }
+    },
     "02-21": {
         "records/patrons/petrus/dam": {
             "name": {

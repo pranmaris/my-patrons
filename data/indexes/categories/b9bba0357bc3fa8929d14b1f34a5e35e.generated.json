@@ -33,6 +33,11 @@
             "la": "Iosephina Bakhita",
             "pl": "Józefina Bakhita"
         },
+        "records/patrons/iosephus/zap": {
+            "pl": "Józef Zapłata",
+            "en": "Joseph Zaplata",
+            "la": "Iosephus Zaplata"
+        },
         "records/patrons/martinus/por": {
             "es": "Martín de Porres",
             "la": "Martinus de Porres",
