@@ -966,6 +966,17 @@
         }
     },
     "05-07": {
+        "records/patrons/antonius/ere": {
+            "name": {
+                "uk": "Антоній Печерський",
+                "en": "Anthony of Kiev",
+                "la": "Antonius Pecherskii",
+                "pl": "Antoni Pieczerski"
+            },
+            "sources": {
+                "other-martyrology-days": "7 V"
+            }
+        },
         "records/patrons/stanislaus/cra": {
             "name": {
                 "pl": "Stanisław ze Szczepanowa",

@@ -716,7 +716,8 @@
             "pl": "Antoni",
             "gr": "Ἀντώνιος",
             "it": "Antonio",
-            "pt": "Antônio"
+            "pt": "Antônio",
+            "uk": "Антоній"
         }
     },
     "patrons/antonius/baj": {
@@ -763,6 +764,19 @@
         },
         "died": [
             "1459-01-22"
+        ],
+        "feasts": []
+    },
+    "patrons/antonius/ere": {
+        "names": {
+            "uk": "Антоній Печерський",
+            "en": "Anthony of Kiev",
+            "la": "Antonius Pecherskii",
+            "pl": "Antoni Pieczerski"
+        },
+        "died": [
+            "1073-05-27",
+            "1073-07-10"
         ],
         "feasts": []
     },

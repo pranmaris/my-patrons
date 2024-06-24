@@ -20,6 +20,9 @@
         ],
         "pt": [
             "Antônio"
+        ],
+        "uk": [
+            "Антоній"
         ]
     },
     "links": {
@@ -45,6 +48,12 @@
             "en": "Anthony Della Chiesa",
             "la": "Antonius Della Chiesa",
             "pl": "Antoni Della Chiesa"
+        },
+        "records/patrons/antonius/ere": {
+            "uk": "Антоній Печерський",
+            "en": "Anthony of Kiev",
+            "la": "Antonius Pecherskii",
+            "pl": "Antoni Pieczerski"
         },
         "records/patrons/antonius/pat": {
             "pt": "Antônio de Pádua",

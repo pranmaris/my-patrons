@@ -1,0 +1,24 @@
+{
+  "names": {
+    "uk": [
+      "Антоній Печерський"
+    ],
+    "en": [
+      "Anthony of Kiev"
+    ],
+    "la": [
+      "Antonius Pecherskii"
+    ],
+    "pl": [
+      "Antoni Pieczerski"
+    ]
+  },
+
+  "born": [">963", "<983"],
+  "died": ["1073-05-27", "1073-07-10"],
+
+  "also-in-martyrology": ["05-07"],
+
+  "forenames": ["antonius"],
+  "categories": ["vir", "eremita"]
+}
