@@ -1,0 +1,23 @@
+{
+  "names": {
+    "it": [
+      "Sofia di Fermo"
+    ],
+    "la": [
+      "Sophia Firmana"
+    ],
+    "en": [
+      "Sophia of Fermo"
+    ],
+    "pl": [
+      "Zofia z Fermo"
+    ]
+  },
+
+  "died": ["~250"],
+
+  "also-in-martyrology": ["04-30"],
+
+  "forenames": ["sophia"],
+  "categories": ["femina", "martyrix", "virgo"]
+}

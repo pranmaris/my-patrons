@@ -868,6 +868,17 @@
             "sources": {
                 "other-martyrology-days": "30 IV"
             }
+        },
+        "records/patrons/sophia/fir": {
+            "name": {
+                "it": "Sofia di Fermo",
+                "la": "Sophia Firmana",
+                "en": "Sophia of Fermo",
+                "pl": "Zofia z Fermo"
+            },
+            "sources": {
+                "other-martyrology-days": "30 IV"
+            }
         }
     },
     "05-01": {

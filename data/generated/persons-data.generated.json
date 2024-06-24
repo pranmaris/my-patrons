@@ -4073,8 +4073,21 @@
         "names": {
             "la": "Sophia",
             "en": "Sophia",
-            "pl": "Zofia"
+            "pl": "Zofia",
+            "it": "Sofia"
         }
+    },
+    "patrons/sophia/fir": {
+        "names": {
+            "it": "Sofia di Fermo",
+            "la": "Sophia Firmana",
+            "en": "Sophia of Fermo",
+            "pl": "Zofia z Fermo"
+        },
+        "died": [
+            "~250"
+        ],
+        "feasts": []
     },
     "patrons/sophia/mac": {
         "names": {
