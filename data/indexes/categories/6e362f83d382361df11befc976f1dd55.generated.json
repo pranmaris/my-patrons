@@ -94,6 +94,12 @@
             "la": "Clemens Šeptyckyj",
             "pl": "Klemens Szeptycki"
         },
+        "records/patrons/didacus/vit": {
+            "es": "Diego Luis de San Vitores",
+            "en": "Didacus Louis de San Vitores",
+            "la": "Didacus Aloysius de San Vitores",
+            "pl": "Dydak Alojzy de San Vitores"
+        },
         "records/patrons/dominicus/oxo": {
             "es": "Domingo de Osma",
             "en": "Dominic of Osma",

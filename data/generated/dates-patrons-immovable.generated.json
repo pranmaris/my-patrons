@@ -644,6 +644,18 @@
         }
     },
     "04-02": {
+        "records/patrons/didacus/vit": {
+            "name": {
+                "es": "Diego Luis de San Vitores",
+                "en": "Didacus Louis de San Vitores",
+                "la": "Didacus Aloysius de San Vitores",
+                "pl": "Dydak Alojzy de San Vitores"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 IV",
+                "other-martyrology-days": "2 IV"
+            }
+        },
         "records/patrons/franciscus/pau": {
             "name": {
                 "it": "Francesco da Paola",

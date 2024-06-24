@@ -57,6 +57,7 @@
         "la": "Aloysius",
         "en": "Aloysius",
         "pl": "Alojzy",
+        "es": "Luis",
         "it": "Luigi"
     },
     "alphonsus": {
@@ -317,6 +318,12 @@
         "la": "Deusdedit",
         "en": "Deusdedit",
         "pl": "Deusdedit"
+    },
+    "didacus": {
+        "la": "Didacus",
+        "en": "Didacus",
+        "pl": "Dydak",
+        "es": "Diego"
     },
     "dinh": {
         "la": "Dinh",

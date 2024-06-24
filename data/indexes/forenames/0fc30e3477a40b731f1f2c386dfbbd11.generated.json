@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Didacus",
+        "en": "Didacus"
+    },
+    "translations": {
+        "la": [
+            "Didacus"
+        ],
+        "en": [
+            "Didacus"
+        ],
+        "pl": [
+            "Dydak"
+        ],
+        "es": [
+            "Diego"
+        ]
+    },
+    "links": {
+        "records/patrons/didacus/vit": {
+            "es": "Diego Luis de San Vitores",
+            "en": "Didacus Louis de San Vitores",
+            "la": "Didacus Aloysius de San Vitores",
+            "pl": "Dydak Alojzy de San Vitores"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "names": {
+    "es": [
+      "Diego Luis de San Vitores"
+    ],
+    "en": [
+      "Didacus Louis de San Vitores"
+    ],
+    "la": [
+      "Didacus Aloysius de San Vitores"
+    ],
+    "pl": [
+      "Dydak Alojzy de San Vitores",
+      "Jakub Alojzy de San Vitores"
+    ]
+  },
+
+  "born": ["1627-11-12"],
+  "died": ["1672-04-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1985-10-06"
+  },
+
+  "also-in-martyrology": ["04-02"],
+
+  "forenames": ["didacus", "aloysius"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["sj"]
+}

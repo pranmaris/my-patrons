@@ -125,6 +125,10 @@
         "la": "Bogumilus",
         "en": "Bogumilus"
     },
+    "0fc30e3477a40b731f1f2c386dfbbd11": {
+        "la": "Didacus",
+        "en": "Didacus"
+    },
     "1176418e7cc958df81784bd836b4d2f2": {
         "cz": "Vojtěch"
     },
@@ -307,6 +311,9 @@
     },
     "2bfa5342b22ac588d9e3e54e5690489b": {
         "pl": "Sancja"
+    },
+    "2c1e2b35d86edda85d9ded224fe47d67": {
+        "pl": "Dydak"
     },
     "2c3baf26f776086aab9f234f8c9a00ed": {
         "la": "Felix",
@@ -540,6 +547,9 @@
     },
     "4e165e6c334cc2647c2774c8c663a639": {
         "la": "Albertus"
+    },
+    "4fb845c67d91bcb3178498fc6fe1fedc": {
+        "es": "Diego"
     },
     "4fce54f456642e3f8e052d64877aa1f7": {
         "en": "Boniface"
@@ -1320,6 +1330,9 @@
     },
     "c3d41bf5efb468a1bcce53bd53726c85": {
         "la": "Lucas"
+    },
+    "c44688b5061756b3cca2b86c016a1535": {
+        "es": "Luis"
     },
     "c51c8bbd9e8c8bc49042ccd5d3e9864d": {
         "en": "Richard"

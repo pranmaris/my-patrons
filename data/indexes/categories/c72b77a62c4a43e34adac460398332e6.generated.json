@@ -298,6 +298,12 @@
             "en": "Deusdedit I",
             "pl": "Deusdedit I"
         },
+        "records/patrons/didacus/vit": {
+            "es": "Diego Luis de San Vitores",
+            "en": "Didacus Louis de San Vitores",
+            "la": "Didacus Aloysius de San Vitores",
+            "pl": "Dydak Alojzy de San Vitores"
+        },
         "records/patrons/dionysius/lut": {
             "fr": "Denis de Paris",
             "la": "Dionysius Parisiensis",

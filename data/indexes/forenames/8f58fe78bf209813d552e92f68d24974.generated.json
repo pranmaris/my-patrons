@@ -12,6 +12,9 @@
         "pl": [
             "Alojzy"
         ],
+        "es": [
+            "Luis"
+        ],
         "it": [
             "Luigi"
         ]
@@ -27,6 +30,12 @@
             "en": "Aloysius Orione",
             "la": "Aloysius Orione",
             "pl": "Alojzy Orione"
+        },
+        "records/patrons/didacus/vit": {
+            "es": "Diego Luis de San Vitores",
+            "en": "Didacus Louis de San Vitores",
+            "la": "Didacus Aloysius de San Vitores",
+            "pl": "Dydak Alojzy de San Vitores"
         }
     }
 }
