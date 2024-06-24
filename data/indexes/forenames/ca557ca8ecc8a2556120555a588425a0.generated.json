@@ -73,6 +73,11 @@
             "en": "John the Evangelist",
             "pl": "Jan Ewangelista"
         },
+        "records/patrons/ioannes/ham": {
+            "en": "John Hambley",
+            "la": "Ioannes Hambley",
+            "pl": "Jan Hambley"
+        },
         "records/patrons/ioannes/ket": {
             "pl": "Jan Kanty",
             "en": "John Cantius",

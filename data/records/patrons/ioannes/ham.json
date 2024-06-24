@@ -1,0 +1,32 @@
+{
+  "names": {
+    "en": [
+      "John Hambley"
+    ],
+    "la": [
+      "Ioannes Hambley"
+    ],
+    "pl": [
+      "Jan Hambley"
+    ]
+  },
+
+  "surnames": [
+    {
+      "en": "Hambley"
+    }
+  ],
+
+  "born": ["~1560"],
+  "died": ["1587"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1987-11-22"
+  },
+
+  "also-in-martyrology": ["03-29"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

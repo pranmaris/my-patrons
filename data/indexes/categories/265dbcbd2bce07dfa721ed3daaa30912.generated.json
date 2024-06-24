@@ -260,6 +260,11 @@
             "la": "Ioannes Baptista",
             "pl": "Jan Chrzciciel"
         },
+        "records/patrons/ioannes/ham": {
+            "en": "John Hambley",
+            "la": "Ioannes Hambley",
+            "pl": "Jan Hambley"
+        },
         "records/patrons/iosephus/ngu": {
             "vi": "Giuse Nguyễn Đình Nghi",
             "la": "Iosephus Nguyen Dinh Nghi",

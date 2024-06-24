@@ -619,6 +619,18 @@
             }
         }
     },
+    "03-29": {
+        "records/patrons/ioannes/ham": {
+            "name": {
+                "en": "John Hambley",
+                "la": "Ioannes Hambley",
+                "pl": "Jan Hambley"
+            },
+            "sources": {
+                "other-martyrology-days": "29 III"
+            }
+        }
+    },
     "04-01": {
         "records/patrons/sophia/mac": {
             "name": {

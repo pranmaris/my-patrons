@@ -154,6 +154,11 @@
             "la": "Ioannes Duns Scotus",
             "pl": "Jan Duns Szkot"
         },
+        "records/patrons/ioannes/ham": {
+            "en": "John Hambley",
+            "la": "Ioannes Hambley",
+            "pl": "Jan Hambley"
+        },
         "records/patrons/ioannes/ket": {
             "pl": "Jan Kanty",
             "en": "John Cantius",

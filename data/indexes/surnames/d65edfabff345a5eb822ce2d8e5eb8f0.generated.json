@@ -1,0 +1,17 @@
+{
+    "names": {
+        "en": "Hambley"
+    },
+    "translations": {
+        "en": [
+            "Hambley"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/ham": {
+            "en": "John Hambley",
+            "la": "Ioannes Hambley",
+            "pl": "Jan Hambley"
+        }
+    }
+}

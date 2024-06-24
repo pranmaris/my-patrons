@@ -2263,6 +2263,17 @@
             }
         }
     },
+    "patrons/ioannes/ham": {
+        "names": {
+            "en": "John Hambley",
+            "la": "Ioannes Hambley",
+            "pl": "Jan Hambley"
+        },
+        "died": [
+            "1587"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/ket": {
         "names": {
             "pl": "Jan Kanty",
