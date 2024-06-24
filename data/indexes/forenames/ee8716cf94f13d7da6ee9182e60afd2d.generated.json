@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Caelestina"
+    },
+    "translations": {
+        "la": [
+            "Caelestina"
+        ],
+        "en": [
+            "Celestine"
+        ],
+        "pl": [
+            "Celestyna"
+        ]
+    },
+    "links": {
+        "records/patrons/caelestina/far": {
+            "pl": "Celestyna Faron",
+            "en": "Celestine Faron",
+            "la": "Caelestina Faron"
+        }
+    }
+}

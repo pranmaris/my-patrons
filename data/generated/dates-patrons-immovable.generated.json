@@ -716,6 +716,19 @@
             }
         }
     },
+    "04-09": {
+        "records/patrons/caelestina/far": {
+            "name": {
+                "pl": "Celestyna Faron",
+                "en": "Celestine Faron",
+                "la": "Caelestina Faron"
+            },
+            "sources": {
+                "reliable-death-anniversary": "9 IV",
+                "other-martyrology-days": "9 IV"
+            }
+        }
+    },
     "04-10": {
         "records/patrons/magdalena/can": {
             "name": {

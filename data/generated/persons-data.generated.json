@@ -1037,6 +1037,24 @@
         ],
         "feasts": []
     },
+    "patrons/caelestina": {
+        "names": {
+            "la": "Caelestina",
+            "en": "Celestine",
+            "pl": "Celestyna"
+        }
+    },
+    "patrons/caelestina/far": {
+        "names": {
+            "pl": "Celestyna Faron",
+            "en": "Celestine Faron",
+            "la": "Caelestina Faron"
+        },
+        "died": [
+            "1944-04-09"
+        ],
+        "feasts": []
+    },
     "patrons/camillus": {
         "names": {
             "la": "Camillus",
