@@ -3159,6 +3159,18 @@
         ],
         "feasts": []
     },
+    "patrons/maria/sou": {
+        "names": {
+            "fr": "Bernadette-Marie Soubirous",
+            "en": "Bernadette Soubirous",
+            "la": "Maria Bernarda Soubirous",
+            "pl": "Bernadeta Soubirous"
+        },
+        "died": [
+            "1879-04-16"
+        ],
+        "feasts": []
+    },
     "patrons/maria/zak": {
         "names": {
             "pl": "Maria Imelda od Jezusa Hostii",

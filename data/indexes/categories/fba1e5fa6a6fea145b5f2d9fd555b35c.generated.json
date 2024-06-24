@@ -244,6 +244,12 @@
             "en": "Mary Sergia of Our Lady of Sorrows",
             "la": "Maria Sergia a Virgine Perdolenti"
         },
+        "records/patrons/maria/sou": {
+            "fr": "Bernadette-Marie Soubirous",
+            "en": "Bernadette Soubirous",
+            "la": "Maria Bernarda Soubirous",
+            "pl": "Bernadeta Soubirous"
+        },
         "records/patrons/maria/zak": {
             "pl": "Maria Imelda od Jezusa Hostii",
             "en": "Mary Imelda of the Eucharistic Jesus",

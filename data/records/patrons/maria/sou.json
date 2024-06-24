@@ -1,0 +1,42 @@
+{
+  "names": {
+    "fr": [
+      "Bernadette-Marie Soubirous",
+      "Bernadette Soubirous"
+    ],
+    "en": [
+      "Bernadette Soubirous"
+    ],
+    "la": [
+      "Maria Bernarda Soubirous"
+    ],
+    "pl": [
+      "Bernadeta Soubirous"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Soubirous"
+    }
+  ],
+
+  "born": ["1844-01-07"],
+  "died": ["1879-04-16"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1925-06-14"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1933-12-08"
+  },
+
+  "also-in-martyrology": ["04-16"],
+
+  "forenames": ["maria", "bernarda"],
+  "categories": ["femina", "virgo"],
+
+  "order": ["cic"]
+}

@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Soubirous"
+    },
+    "translations": {
+        "fr": [
+            "Soubirous"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/sou": {
+            "fr": "Bernadette-Marie Soubirous",
+            "en": "Bernadette Soubirous",
+            "la": "Maria Bernarda Soubirous",
+            "pl": "Bernadeta Soubirous"
+        }
+    }
+}

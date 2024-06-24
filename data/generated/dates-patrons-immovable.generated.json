@@ -767,6 +767,20 @@
             }
         }
     },
+    "04-16": {
+        "records/patrons/maria/sou": {
+            "name": {
+                "fr": "Bernadette-Marie Soubirous",
+                "en": "Bernadette Soubirous",
+                "la": "Maria Bernarda Soubirous",
+                "pl": "Bernadeta Soubirous"
+            },
+            "sources": {
+                "reliable-death-anniversary": "16 IV",
+                "other-martyrology-days": "16 IV"
+            }
+        }
+    },
     "04-17": {
         "records/patrons/acacius/mel": {
             "name": {
