@@ -20,7 +20,8 @@ abstract class Content extends Base
 
     protected const DATA_ROOT_PARENT_DIRECTORY_PATH = '/data';
 
-    private const CONTENT_ONLY_QUERY_PARAM_NAME = 'content-only';
+    private const CONTENT_ONLY_QUERY_PARAM_NAME = 'mode';
+    private const CONTENT_ONLY_QUERY_PARAM_VALUE = 'content-only';
     private const ACTIVE_RECORD_ID_QUERY_PARAM_NAME = 'active-record-id';
 
     private const LANGUAGE_VARIABLE_NAME_BEFORE = 'lang-language-before-final-translation';
@@ -166,7 +167,7 @@ abstract class Content extends Base
     {
         $requestParams = $this->getEnvironment()->getRequestQueryParams();
 
-        return !empty($requestParams[self::CONTENT_ONLY_QUERY_PARAM_NAME] ?? '');
+        return ($requestParams[self::CONTENT_ONLY_QUERY_PARAM_NAME] ?? '') === self::CONTENT_ONLY_QUERY_PARAM_VALUE;
     }
 
     private function getMissingTranslationMessage(string $originalLanguage): string
