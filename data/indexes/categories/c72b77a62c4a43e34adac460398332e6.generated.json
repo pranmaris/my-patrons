@@ -661,6 +661,11 @@
             "en": "Mark of Jerusalem",
             "pl": "Marek z Jerozolimy"
         },
+        "records/patrons/marcus/mar": {
+            "la": "Marcus /+ Marcellianus",
+            "en": "Mark /+ Marcellian",
+            "pl": "Marek /+ Marcelianus"
+        },
         "records/patrons/marianus/kon": {
             "pl": "Marian Konopiński",
             "en": "Marian Konopiński",

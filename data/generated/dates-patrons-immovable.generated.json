@@ -1316,6 +1316,18 @@
             }
         }
     },
+    "06-18": {
+        "records/patrons/marcus/mar": {
+            "name": {
+                "la": "Marcus /+ Marcellianus",
+                "en": "Mark /+ Marcellian",
+                "pl": "Marek /+ Marcelianus"
+            },
+            "sources": {
+                "other-martyrology-days": "18 VI"
+            }
+        }
+    },
     "06-26": {
         "records/patrons/iosephus/esc": {
             "name": {

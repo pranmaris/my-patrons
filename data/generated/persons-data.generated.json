@@ -2860,6 +2860,17 @@
         ],
         "feasts": []
     },
+    "patrons/marcus/mar": {
+        "names": {
+            "la": "Marcus /+ Marcellianus",
+            "en": "Mark /+ Marcellian",
+            "pl": "Marek /+ Marcelianus"
+        },
+        "died": [
+            "~304"
+        ],
+        "feasts": []
+    },
     "patrons/margarita": {
         "names": {
             "la": "Margarita",

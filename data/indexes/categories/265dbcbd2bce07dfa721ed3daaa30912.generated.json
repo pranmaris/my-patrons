@@ -330,6 +330,11 @@
             "en": "Mark of Jerusalem",
             "pl": "Marek z Jerozolimy"
         },
+        "records/patrons/marcus/mar": {
+            "la": "Marcus /+ Marcellianus",
+            "en": "Mark /+ Marcellian",
+            "pl": "Marek /+ Marcelianus"
+        },
         "records/patrons/margarita/war": {
             "en": "Margaret Ward",
             "la": "Margarita Ward",
