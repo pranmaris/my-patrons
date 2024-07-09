@@ -704,6 +704,11 @@
             "en": "Methodius /+ Cyril",
             "pl": "Metody /+ Cyryl"
         },
+        "records/patrons/michael/koz": {
+            "pl": "Michał Kozal",
+            "en": "Michael Kozal",
+            "la": "Michael Kozal"
+        },
         "records/patrons/michael/sop": {
             "pl": "Michał Sopoćko",
             "en": "Michael Sopocko",

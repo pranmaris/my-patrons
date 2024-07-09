@@ -3388,6 +3388,17 @@
         ],
         "feasts": []
     },
+    "patrons/michael/koz": {
+        "names": {
+            "pl": "Michał Kozal",
+            "en": "Michael Kozal",
+            "la": "Michael Kozal"
+        },
+        "died": [
+            "1943-01-26"
+        ],
+        "feasts": []
+    },
     "patrons/michael/sop": {
         "names": {
             "pl": "Michał Sopoćko",

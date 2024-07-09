@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Michał Kozal"
+    ],
+    "en": [
+      "Michael Kozal"
+    ],
+    "la": [
+      "Michael Kozal"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Kozal"
+    }
+  ],
+
+  "born": ["1893-09-25"],
+  "died": ["1943-01-26"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1987-06-14"
+  },
+
+  "also-in-martyrology": ["01-26"],
+
+  "forenames": ["michael"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

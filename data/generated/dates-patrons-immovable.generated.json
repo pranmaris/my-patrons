@@ -138,6 +138,19 @@
             }
         }
     },
+    "01-26": {
+        "records/patrons/michael/koz": {
+            "name": {
+                "pl": "Michał Kozal",
+                "en": "Michael Kozal",
+                "la": "Michael Kozal"
+            },
+            "sources": {
+                "reliable-death-anniversary": "26 I",
+                "other-martyrology-days": "26 I"
+            }
+        }
+    },
     "01-28": {
         "records/patrons/agnes/rom": {
             "name": {

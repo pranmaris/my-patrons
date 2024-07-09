@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Kozal"
+    },
+    "translations": {
+        "pl": [
+            "Kozal"
+        ]
+    },
+    "links": {
+        "records/patrons/michael/koz": {
+            "pl": "Michał Kozal",
+            "en": "Michael Kozal",
+            "la": "Michael Kozal"
+        }
+    }
+}

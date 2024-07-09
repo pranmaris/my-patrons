@@ -181,6 +181,11 @@
             "en": "Methodius /+ Cyril",
             "pl": "Metody /+ Cyryl"
         },
+        "records/patrons/michael/koz": {
+            "pl": "Michał Kozal",
+            "en": "Michael Kozal",
+            "la": "Michael Kozal"
+        },
         "records/patrons/nicolaus/myr": {
             "gr": "Άγιος Νικόλαος",
             "en": "Nicholas of Myra",
