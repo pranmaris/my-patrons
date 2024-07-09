@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Hubertus"
+    },
+    "translations": {
+        "la": [
+            "Hubertus"
+        ],
+        "en": [
+            "Hubert"
+        ],
+        "pl": [
+            "Hubert"
+        ],
+        "fr": [
+            "Hubert"
+        ]
+    },
+    "links": {
+        "records/patrons/andreas/fou": {
+            "fr": "André-Hubert Fournet",
+            "en": "Andrew Hubert Fournet",
+            "la": "Andreas Hubertus Fournet",
+            "pl": "Andrzej Hubert Fournet"
+        }
+    }
+}

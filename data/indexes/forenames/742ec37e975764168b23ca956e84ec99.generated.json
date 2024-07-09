@@ -12,6 +12,9 @@
         "pl": [
             "Andrzej"
         ],
+        "fr": [
+            "André"
+        ],
         "grc": [
             "Ανδρέας"
         ],
@@ -30,6 +33,12 @@
             "pl": "Andrzej Bobola",
             "en": "Andrew Bobola",
             "la": "Andreas Bobola"
+        },
+        "records/patrons/andreas/fou": {
+            "fr": "André-Hubert Fournet",
+            "en": "Andrew Hubert Fournet",
+            "la": "Andreas Hubertus Fournet",
+            "pl": "Andrzej Hubert Fournet"
         },
         "records/patrons/andreas/kim": {
             "ko": "김대건 안드레아",

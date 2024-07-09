@@ -1,0 +1,41 @@
+{
+  "names": {
+    "fr": [
+      "André-Hubert Fournet"
+    ],
+    "en": [
+      "Andrew Hubert Fournet"
+    ],
+    "la": [
+      "Andreas Hubertus Fournet"
+    ],
+    "pl": [
+      "Andrzej Hubert Fournet"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Fournet"
+    }
+  ],
+
+  "born": ["1752-12-06"],
+  "died": ["1834-05-13"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1926-05-16"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1933-06-04"
+  },
+
+  "also-in-martyrology": ["05-13"],
+
+  "forenames": ["andreas", "hubertus"],
+  "categories": ["vir", "confessor", "presbyter", "fundator"],
+
+  "order-founder": ["fc"]
+}

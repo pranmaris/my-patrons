@@ -593,6 +593,7 @@
             "la": "Andreas",
             "en": "Andrew",
             "pl": "Andrzej",
+            "fr": "André",
             "grc": "Ανδρέας",
             "ko": "안드레아"
         }
@@ -618,6 +619,18 @@
         },
         "died": [
             "1657-05-16"
+        ],
+        "feasts": []
+    },
+    "patrons/andreas/fou": {
+        "names": {
+            "fr": "André-Hubert Fournet",
+            "en": "Andrew Hubert Fournet",
+            "la": "Andreas Hubertus Fournet",
+            "pl": "Andrzej Hubert Fournet"
+        },
+        "died": [
+            "1834-05-13"
         ],
         "feasts": []
     },

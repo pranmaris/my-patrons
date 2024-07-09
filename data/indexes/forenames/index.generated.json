@@ -493,6 +493,9 @@
     "459a907e84db7a3e6fb23cd1a0595558": {
         "pl": "Jakobin"
     },
+    "45f1deffb45a5f6c2380a4cee9b3e452": {
+        "fr": "André"
+    },
     "45f984f5b20c2d839a449e79cdb78659": {
         "la": "Hieronymus"
     },
@@ -961,6 +964,11 @@
     },
     "8dce4161a75a55b45b790dca68b87658": {
         "gr": "Νικόλαος"
+    },
+    "8f29971e57bcead61420c7da8eff93de": {
+        "en": "Hubert",
+        "pl": "Hubert",
+        "fr": "Hubert"
     },
     "8f5696351d40139b803a68a8cef76cea": {
         "la": "Helena",
@@ -1772,5 +1780,8 @@
     },
     "ff24e8242af12887587574abe4fed8da": {
         "arc": "ܡܪܝ ܝܘܣܦ"
+    },
+    "ff60d4194e54e500b9ab2c9a527acff7": {
+        "la": "Hubertus"
     }
 }

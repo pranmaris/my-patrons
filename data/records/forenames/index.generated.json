@@ -80,6 +80,7 @@
         "la": "Andreas",
         "en": "Andrew",
         "pl": "Andrzej",
+        "fr": "André",
         "grc": "Ανδρέας",
         "ko": "안드레아"
     },
@@ -498,6 +499,12 @@
         "la": "Hormisdas",
         "en": "Hormisdas",
         "pl": "Hormizdas"
+    },
+    "hubertus": {
+        "la": "Hubertus",
+        "en": "Hubert",
+        "pl": "Hubert",
+        "fr": "Hubert"
     },
     "iacobinus": {
         "la": "Iacobinus",

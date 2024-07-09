@@ -1046,6 +1046,20 @@
             }
         }
     },
+    "05-13": {
+        "records/patrons/andreas/fou": {
+            "name": {
+                "fr": "André-Hubert Fournet",
+                "en": "Andrew Hubert Fournet",
+                "la": "Andreas Hubertus Fournet",
+                "pl": "Andrzej Hubert Fournet"
+            },
+            "sources": {
+                "reliable-death-anniversary": "13 V",
+                "other-martyrology-days": "13 V"
+            }
+        }
+    },
     "05-16": {
         "records/patrons/andreas/bob": {
             "name": {
