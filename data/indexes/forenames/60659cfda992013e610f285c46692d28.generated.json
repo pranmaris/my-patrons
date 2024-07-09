@@ -19,6 +19,11 @@
         ]
     },
     "links": {
+        "records/patrons/antonius/now": {
+            "pl": "Antoni Julian Nowowiejski",
+            "en": "Anthony Julian Nowowiejski",
+            "la": "Antonius Iulianus Nowowiejski"
+        },
         "records/patrons/petrus/eym": {
             "fr": "Pierre-Julien Eymard",
             "en": "Peter Julian Eymanrd",

@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Antoni Julian Nowowiejski"
+    ],
+    "en": [
+      "Anthony Julian Nowowiejski"
+    ],
+    "la": [
+      "Antonius Iulianus Nowowiejski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Nowowiejski"
+    }
+  ],
+
+  "born": ["1858-02-11"],
+  "died": ["1941-05-28"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["05-28"],
+
+  "forenames": ["antonius", "iulianus"],
+  "categories": ["vir", "episcopus"]
+}

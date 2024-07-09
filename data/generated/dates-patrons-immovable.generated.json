@@ -1174,6 +1174,19 @@
             }
         }
     },
+    "05-28": {
+        "records/patrons/antonius/now": {
+            "name": {
+                "pl": "Antoni Julian Nowowiejski",
+                "en": "Anthony Julian Nowowiejski",
+                "la": "Antonius Iulianus Nowowiejski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "28 V",
+                "other-martyrology-days": "28 V"
+            }
+        }
+    },
     "05-29": {
         "records/patrons/ursula/led": {
             "name": {

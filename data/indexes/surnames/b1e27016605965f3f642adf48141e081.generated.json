@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Nowowiejski"
+    },
+    "translations": {
+        "pl": [
+            "Nowowiejski"
+        ]
+    },
+    "links": {
+        "records/patrons/antonius/now": {
+            "pl": "Antoni Julian Nowowiejski",
+            "en": "Anthony Julian Nowowiejski",
+            "la": "Antonius Iulianus Nowowiejski"
+        }
+    }
+}

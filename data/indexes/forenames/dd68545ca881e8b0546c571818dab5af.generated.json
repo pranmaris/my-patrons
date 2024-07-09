@@ -55,6 +55,11 @@
             "la": "Antonius Pecherskii",
             "pl": "Antoni Pieczerski"
         },
+        "records/patrons/antonius/now": {
+            "pl": "Antoni Julian Nowowiejski",
+            "en": "Anthony Julian Nowowiejski",
+            "la": "Antonius Iulianus Nowowiejski"
+        },
         "records/patrons/antonius/pat": {
             "pt": "Antônio de Pádua",
             "la": "Antonius Patavinus",

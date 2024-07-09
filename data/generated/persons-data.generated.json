@@ -804,6 +804,17 @@
         ],
         "feasts": []
     },
+    "patrons/antonius/now": {
+        "names": {
+            "pl": "Antoni Julian Nowowiejski",
+            "en": "Anthony Julian Nowowiejski",
+            "la": "Antonius Iulianus Nowowiejski"
+        },
+        "died": [
+            "1941-05-28"
+        ],
+        "feasts": []
+    },
     "patrons/antonius/pat": {
         "names": {
             "pt": "Antônio de Pádua",

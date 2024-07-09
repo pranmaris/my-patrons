@@ -66,6 +66,11 @@
             "la": "Antonius Cauleas",
             "pl": "Antoni Kauleas"
         },
+        "records/patrons/antonius/now": {
+            "pl": "Antoni Julian Nowowiejski",
+            "en": "Anthony Julian Nowowiejski",
+            "la": "Antonius Iulianus Nowowiejski"
+        },
         "records/patrons/augustinus/hip": {
             "la": "Augustinus Hipponensis",
             "en": "Augustine of Hippo",

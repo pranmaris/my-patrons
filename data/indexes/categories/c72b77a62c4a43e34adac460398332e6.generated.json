@@ -161,6 +161,11 @@
             "en": "Antoninus /+ Nicephorus and others",
             "pl": "Antonin /+ Nicefor i inni"
         },
+        "records/patrons/antonius/now": {
+            "pl": "Antoni Julian Nowowiejski",
+            "en": "Anthony Julian Nowowiejski",
+            "la": "Antonius Iulianus Nowowiejski"
+        },
         "records/patrons/antonius/pat": {
             "pt": "Antônio de Pádua",
             "la": "Antonius Patavinus",
