@@ -378,6 +378,18 @@
             }
         }
     },
+    "02b25": {
+        "records/patrons/matthias/apo": {
+            "name": {
+                "en": "Matthias the Apostle",
+                "la": "Matthias Apostolus",
+                "pl": "Maciej Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "25 II"
+            }
+        }
+    },
     "02b29": {
         "records/patrons/hilarius/1pp": {
             "name": {
@@ -387,6 +399,18 @@
             },
             "sources": {
                 "other-martyrology-days": "29 II"
+            }
+        }
+    },
+    "02n24": {
+        "records/patrons/matthias/apo": {
+            "name": {
+                "en": "Matthias the Apostle",
+                "la": "Matthias Apostolus",
+                "pl": "Maciej Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "24 II"
             }
         }
     },
@@ -1057,6 +1081,18 @@
             "sources": {
                 "reliable-death-anniversary": "13 V",
                 "other-martyrology-days": "13 V"
+            }
+        }
+    },
+    "05-14": {
+        "records/patrons/matthias/apo": {
+            "name": {
+                "en": "Matthias the Apostle",
+                "la": "Matthias Apostolus",
+                "pl": "Maciej Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "14 V"
             }
         }
     },

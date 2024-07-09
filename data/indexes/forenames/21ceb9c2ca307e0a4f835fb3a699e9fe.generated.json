@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Maciej"
+    },
+    "translations": {
+        "la": [
+            "Matthias"
+        ],
+        "en": [
+            "Matthias"
+        ],
+        "pl": [
+            "Maciej"
+        ]
+    },
+    "links": {
+        "records/patrons/matthias/apo": {
+            "en": "Matthias the Apostle",
+            "la": "Matthias Apostolus",
+            "pl": "Maciej Apostoł"
+        }
+    }
+}

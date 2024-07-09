@@ -276,6 +276,11 @@
             "la": "Matthaeus Evengelista",
             "pl": "Mateusz Ewangelista"
         },
+        "records/patrons/matthias/apo": {
+            "en": "Matthias the Apostle",
+            "la": "Matthias Apostolus",
+            "pl": "Maciej Apostoł"
+        },
         "records/patrons/maximilianus/kol": {
             "pl": "Maksymilian Maria Kolbe",
             "en": "Maximilian Maria Kolbe",

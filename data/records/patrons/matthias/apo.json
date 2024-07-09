@@ -1,0 +1,20 @@
+{
+  "names": {
+    "en": [
+      "Matthias the Apostle"
+    ],
+    "la": [
+      "Matthias Apostolus"
+    ],
+    "pl": [
+      "Maciej Apostoł"
+    ]
+  },
+
+  "died": ["~80"],
+
+  "also-in-martyrology": ["02n24", "02b25", "05-14"],
+
+  "forenames": ["matthias"],
+  "categories": ["vir", "apostolus", "martyr"]
+}

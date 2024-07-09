@@ -678,6 +678,11 @@
             "la": "Matthaeus Evengelista",
             "pl": "Mateusz Ewangelista"
         },
+        "records/patrons/matthias/apo": {
+            "en": "Matthias the Apostle",
+            "la": "Matthias Apostolus",
+            "pl": "Maciej Apostoł"
+        },
         "records/patrons/maurus/abb": {
             "fr": "Maur Abbé",
             "la": "Maurus Abbas",

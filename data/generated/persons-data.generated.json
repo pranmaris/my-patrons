@@ -3278,6 +3278,24 @@
         ],
         "feasts": []
     },
+    "patrons/matthias": {
+        "names": {
+            "la": "Matthias",
+            "en": "Matthias",
+            "pl": "Maciej"
+        }
+    },
+    "patrons/matthias/apo": {
+        "names": {
+            "en": "Matthias the Apostle",
+            "la": "Matthias Apostolus",
+            "pl": "Maciej Apostoł"
+        },
+        "died": [
+            "~80"
+        ],
+        "feasts": []
+    },
     "patrons/maurus": {
         "names": {
             "la": "Maurus",
