@@ -1560,6 +1560,18 @@
         }
     },
     "07-23": {
+        "records/patrons/birgitta/sue": {
+            "name": {
+                "sv": "Birgitta Birgersdotter",
+                "en": "Bridget of Sweden",
+                "la": "Birgitta de Suecia",
+                "pl": "Brygida Szwedzka"
+            },
+            "sources": {
+                "reliable-death-anniversary": "23 VII",
+                "other-martyrology-days": "23 VII"
+            }
+        },
         "records/patrons/ezechiel/pro": {
             "name": {
                 "he": "יְחֶזְקֵאל",
@@ -2740,6 +2752,19 @@
             },
             "sources": {
                 "other-martyrology-days": "7 X"
+            }
+        }
+    },
+    "10-08": {
+        "records/patrons/birgitta/sue": {
+            "name": {
+                "sv": "Birgitta Birgersdotter",
+                "en": "Bridget of Sweden",
+                "la": "Birgitta de Suecia",
+                "pl": "Brygida Szwedzka"
+            },
+            "sources": {
+                "other-martyrology-days": "8 X"
             }
         }
     },

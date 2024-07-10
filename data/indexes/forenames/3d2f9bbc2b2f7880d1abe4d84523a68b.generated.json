@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Brygida"
+    },
+    "translations": {
+        "la": [
+            "Birgitta"
+        ],
+        "en": [
+            "Bridget"
+        ],
+        "pl": [
+            "Brygida"
+        ],
+        "sv": [
+            "Birgitta"
+        ]
+    },
+    "links": {
+        "records/patrons/birgitta/sue": {
+            "sv": "Birgitta Birgersdotter",
+            "en": "Bridget of Sweden",
+            "la": "Birgitta de Suecia",
+            "pl": "Brygida Szwedzka"
+        }
+    }
+}

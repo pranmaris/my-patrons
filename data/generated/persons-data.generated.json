@@ -989,6 +989,26 @@
         ],
         "feasts": []
     },
+    "patrons/birgitta": {
+        "names": {
+            "la": "Birgitta",
+            "en": "Bridget",
+            "pl": "Brygida",
+            "sv": "Birgitta"
+        }
+    },
+    "patrons/birgitta/sue": {
+        "names": {
+            "sv": "Birgitta Birgersdotter",
+            "en": "Bridget of Sweden",
+            "la": "Birgitta de Suecia",
+            "pl": "Brygida Szwedzka"
+        },
+        "died": [
+            "1373-07-23"
+        ],
+        "feasts": []
+    },
     "patrons/bogumilus": {
         "names": {
             "la": "Bogumilus",

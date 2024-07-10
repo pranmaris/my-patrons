@@ -1,0 +1,42 @@
+{
+  "names": {
+    "sv": [
+      "Birgitta Birgersdotter"
+    ],
+    "en": [
+      "Bridget of Sweden",
+      "Birgitta of Sweden",
+      "Birgitta of Vadstena"
+    ],
+    "la": [
+      "Birgitta de Suecia"
+    ],
+    "pl": [
+      "Brygida Szwedzka"
+    ]
+  },
+
+  "epithets": [
+    {
+      "en": "of Sweden",
+      "la": "de Suecia",
+      "pl": "Szwedzka"
+    }
+  ],
+
+  "born": ["1303"],
+  "died": ["1373-07-23"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1391-10-07"
+  },
+
+  "also-in-martyrology": ["07-23", "10-08"],
+
+  "forenames": ["birgitta"],
+  "categories": ["femina", "vidua", "religiosa"],
+
+  "order": ["osss"],
+  "order-founder": ["osss"]
+}

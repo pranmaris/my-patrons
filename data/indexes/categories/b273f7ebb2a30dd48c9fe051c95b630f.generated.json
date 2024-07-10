@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/birgitta/sue": {
+            "sv": "Birgitta Birgersdotter",
+            "en": "Bridget of Sweden",
+            "la": "Birgitta de Suecia",
+            "pl": "Brygida Szwedzka"
+        },
         "records/patrons/hedwigis/duc": {
             "de": "Hedwig von Andechs",
             "en": "Hedwig of Silesia",
