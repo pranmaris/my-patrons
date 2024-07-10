@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Dorothea",
+        "de": "Dorothea"
+    },
+    "translations": {
+        "la": [
+            "Dorothea"
+        ],
+        "en": [
+            "Dorothy"
+        ],
+        "pl": [
+            "Dorota"
+        ],
+        "de": [
+            "Dorothea"
+        ]
+    },
+    "links": {
+        "records/patrons/dorothea/mon": {
+            "de": "Dorothea von Montau",
+            "pl": "Dorota z Mątowów",
+            "en": "Dorothy of Montau",
+            "la": "Dorothea Montoviensis"
+        }
+    }
+}

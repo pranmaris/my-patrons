@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "recluse"
+    },
+    "translations": {
+        "la": [
+            "reclusa"
+        ],
+        "en": [
+            "recluse"
+        ],
+        "pl": [
+            "rekluza"
+        ]
+    },
+    "links": {
+        "records/patrons/dorothea/mon": {
+            "de": "Dorothea von Montau",
+            "pl": "Dorota z Mątowów",
+            "en": "Dorothy of Montau",
+            "la": "Dorothea Montoviensis"
+        }
+    }
+}

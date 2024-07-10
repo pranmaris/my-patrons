@@ -244,6 +244,11 @@
         "en": "child",
         "pl": "dziecko"
     },
+    "reclusa": {
+        "la": "reclusa",
+        "en": "recluse",
+        "pl": "rekluza"
+    },
     "regina": {
         "la": "regina",
         "en": "queen",

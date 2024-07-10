@@ -1566,6 +1566,26 @@
         ],
         "feasts": []
     },
+    "patrons/dorothea": {
+        "names": {
+            "la": "Dorothea",
+            "en": "Dorothy",
+            "pl": "Dorota",
+            "de": "Dorothea"
+        }
+    },
+    "patrons/dorothea/mon": {
+        "names": {
+            "de": "Dorothea von Montau",
+            "pl": "Dorota z Mątowów",
+            "en": "Dorothy of Montau",
+            "la": "Dorothea Montoviensis"
+        },
+        "died": [
+            "1394-06-25"
+        ],
+        "feasts": []
+    },
     "patrons/edmundus": {
         "names": {
             "la": "Edmundus",

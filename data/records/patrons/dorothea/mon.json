@@ -1,0 +1,32 @@
+{
+  "names": {
+    "de": [
+      "Dorothea von Montau"
+    ],
+    "pl": [
+      "Dorota z Mątowów",
+      "Dorota z Mątów",
+      "Dorota Schwarze"
+    ],
+    "en": [
+      "Dorothy of Montau",
+      "Dorothea of Montau"
+    ],
+    "la": [
+      "Dorothea Montoviensis"
+    ]
+  },
+
+  "born": ["1347-01-25", "1347-02-06"],
+  "died": ["1394-06-25"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1976-07-09"
+  },
+
+  "also-in-martyrology": ["06-25"],
+
+  "forenames": ["dorothea"],
+  "categories": ["femina", "vidua", "reclusa"]
+}

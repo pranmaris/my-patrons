@@ -82,6 +82,12 @@
             "en": "Daria /+ Chrysanthus",
             "pl": "Daria /+ Chryzant"
         },
+        "records/patrons/dorothea/mon": {
+            "de": "Dorothea von Montau",
+            "pl": "Dorota z Mątowów",
+            "en": "Dorothy of Montau",
+            "la": "Dorothea Montoviensis"
+        },
         "records/patrons/eva/ada": {
             "la": "Eva /+ Adam",
             "en": "Ewa /+ Adam",

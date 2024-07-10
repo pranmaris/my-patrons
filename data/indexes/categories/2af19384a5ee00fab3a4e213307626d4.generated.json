@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/dorothea/mon": {
+            "de": "Dorothea von Montau",
+            "pl": "Dorota z Mątowów",
+            "en": "Dorothy of Montau",
+            "la": "Dorothea Montoviensis"
+        },
         "records/patrons/hedwigis/duc": {
             "de": "Hedwig von Andechs",
             "en": "Hedwig of Silesia",

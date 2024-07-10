@@ -1328,6 +1328,20 @@
             }
         }
     },
+    "06-25": {
+        "records/patrons/dorothea/mon": {
+            "name": {
+                "de": "Dorothea von Montau",
+                "pl": "Dorota z Mątowów",
+                "en": "Dorothy of Montau",
+                "la": "Dorothea Montoviensis"
+            },
+            "sources": {
+                "reliable-death-anniversary": "25 VI",
+                "other-martyrology-days": "25 VI"
+            }
+        }
+    },
     "06-26": {
         "records/patrons/iosephus/esc": {
             "name": {
