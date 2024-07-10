@@ -3787,6 +3787,18 @@
         ],
         "feasts": []
     },
+    "patrons/petrus/lux": {
+        "names": {
+            "fr": "Pierre de Luxembourg",
+            "en": "Peter of Luxembourg",
+            "la": "Petrus de Luxemburgo",
+            "pl": "Piotr de Luxemburgo"
+        },
+        "died": [
+            "1387-07-02"
+        ],
+        "feasts": []
+    },
     "patrons/philippus": {
         "names": {
             "la": "Philippus",

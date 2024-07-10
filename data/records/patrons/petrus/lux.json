@@ -1,0 +1,29 @@
+{
+  "names": {
+    "fr": [
+      "Pierre de Luxembourg"
+    ],
+    "en": [
+      "Peter of Luxembourg"
+    ],
+    "la": [
+      "Petrus de Luxemburgo"
+    ],
+    "pl": [
+      "Piotr de Luxemburgo"
+    ]
+  },
+
+  "born": ["1369-07-19"],
+  "died": ["1387-07-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1527-04-09"
+  },
+
+  "also-in-martyrology": ["07-02"],
+
+  "forenames": ["petrus"],
+  "categories": ["vir", "episcopus"]
+}

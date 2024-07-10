@@ -220,6 +220,12 @@
             "la": "Petrus Damiani",
             "pl": "Piotr Damiani"
         },
+        "records/patrons/petrus/lux": {
+            "fr": "Pierre de Luxembourg",
+            "en": "Peter of Luxembourg",
+            "la": "Petrus de Luxemburgo",
+            "pl": "Piotr de Luxemburgo"
+        },
         "records/patrons/pius/10p": {
             "it": "Papa Pio X",
             "la": "Pius X",

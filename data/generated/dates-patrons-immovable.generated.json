@@ -1392,6 +1392,20 @@
             }
         }
     },
+    "07-02": {
+        "records/patrons/petrus/lux": {
+            "name": {
+                "fr": "Pierre de Luxembourg",
+                "en": "Peter of Luxembourg",
+                "la": "Petrus de Luxemburgo",
+                "pl": "Piotr de Luxemburgo"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 VII",
+                "other-martyrology-days": "2 VII"
+            }
+        }
+    },
     "07-03": {
         "records/patrons/thomas/apo": {
             "name": {
