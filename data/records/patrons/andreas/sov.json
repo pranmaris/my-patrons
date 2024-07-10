@@ -1,0 +1,41 @@
+{
+  "names": {
+    "pt": [
+      "André de Soveral"
+    ],
+    "en": [
+      "Andrew de Soveral"
+    ],
+    "la": [
+      "Andreas de Soveral"
+    ],
+    "pl": [
+      "Andrzej de Soveral"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pt": "de Soveral"
+    }
+  ],
+
+  "born": ["~1572"],
+  "died": ["1645-07-16"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-03-05"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2017-10-15"
+  },
+
+  "also-in-martyrology": ["07-16"],
+
+  "forenames": ["andreas"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["sj"]
+}

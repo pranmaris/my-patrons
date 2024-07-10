@@ -1,6 +1,7 @@
 {
     "names": {
-        "fr": "André"
+        "fr": "André",
+        "pt": "André"
     },
     "translations": {
         "la": [
@@ -20,6 +21,9 @@
         ],
         "ko": [
             "안드레아"
+        ],
+        "pt": [
+            "André"
         ]
     },
     "links": {
@@ -45,6 +49,12 @@
             "en": "Andrew Kim Taegon",
             "la": "Andreas Kim Tae-gŏn",
             "pl": "Andrzej Kim Tae-gŏn"
+        },
+        "records/patrons/andreas/sov": {
+            "pt": "André de Soveral",
+            "en": "Andrew de Soveral",
+            "la": "Andreas de Soveral",
+            "pl": "Andrzej de Soveral"
         }
     }
 }

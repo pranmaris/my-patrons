@@ -1,10 +1,11 @@
 {
     "names": {
+        "la": "presbyter",
         "en": "presbyter"
     },
     "translations": {
         "la": [
-            "prezbyter"
+            "presbyter"
         ],
         "en": [
             "presbyter"
@@ -48,6 +49,12 @@
             "la": "Andreas Kim Tae-gŏn",
             "pl": "Andrzej Kim Tae-gŏn"
         },
+        "records/patrons/andreas/sov": {
+            "pt": "André de Soveral",
+            "en": "Andrew de Soveral",
+            "la": "Andreas de Soveral",
+            "pl": "Andrzej de Soveral"
+        },
         "records/patrons/anicetus/kop": {
             "pl": "Anicet Kopliński",
             "la": "Anicetus Koplinski",
@@ -75,6 +82,12 @@
             "la": "Antonius Patavinus",
             "en": "Anthony of Padua",
             "pl": "Antoni Padewski"
+        },
+        "records/patrons/augustinus/zha": {
+            "zh": "趙榮",
+            "en": "Augustine Zhao Rong",
+            "la": "Augustinus Zhao Rong",
+            "pl": "Augustyn Zhao Rong"
         },
         "records/patrons/bernardinus/sen": {
             "it": "Bernardino da Siena",

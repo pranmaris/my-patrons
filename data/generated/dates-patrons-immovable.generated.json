@@ -151,6 +151,19 @@
             }
         }
     },
+    "01-27": {
+        "records/patrons/augustinus/zha": {
+            "name": {
+                "zh": "趙榮",
+                "en": "Augustine Zhao Rong",
+                "la": "Augustinus Zhao Rong",
+                "pl": "Augustyn Zhao Rong"
+            },
+            "sources": {
+                "reliable-death-anniversary": "27 I"
+            }
+        }
+    },
     "01-28": {
         "records/patrons/agnes/rom": {
             "name": {
@@ -602,6 +615,17 @@
             },
             "sources": {
                 "reliable-death-anniversary": "21 III",
+                "other-martyrology-days": "21 III"
+            }
+        },
+        "records/patrons/augustinus/zha": {
+            "name": {
+                "zh": "趙榮",
+                "en": "Augustine Zhao Rong",
+                "la": "Augustinus Zhao Rong",
+                "pl": "Augustyn Zhao Rong"
+            },
+            "sources": {
                 "other-martyrology-days": "21 III"
             }
         }
@@ -1431,6 +1455,19 @@
             }
         }
     },
+    "07-09": {
+        "records/patrons/augustinus/zha": {
+            "name": {
+                "zh": "趙榮",
+                "en": "Augustine Zhao Rong",
+                "la": "Augustinus Zhao Rong",
+                "pl": "Augustyn Zhao Rong"
+            },
+            "sources": {
+                "other-martyrology-days": "9 VII"
+            }
+        }
+    },
     "07-10": {
         "records/patrons/philippus/fel": {
             "name": {
@@ -1478,6 +1515,20 @@
             "sources": {
                 "reliable-death-anniversary": "14 VII",
                 "other-martyrology-days": "14 VII"
+            }
+        }
+    },
+    "07-16": {
+        "records/patrons/andreas/sov": {
+            "name": {
+                "pt": "André de Soveral",
+                "en": "Andrew de Soveral",
+                "la": "Andreas de Soveral",
+                "pl": "Andrzej de Soveral"
+            },
+            "sources": {
+                "reliable-death-anniversary": "16 VII",
+                "other-martyrology-days": "16 VII"
             }
         }
     },

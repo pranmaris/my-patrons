@@ -1,0 +1,42 @@
+{
+  "names": {
+    "zh": [
+      "趙榮"
+    ],
+    "en": [
+      "Augustine Zhao Rong"
+    ],
+    "la": [
+      "Augustinus Zhao Rong"
+    ],
+    "pl": [
+      "Augustyn Zhao Rong"
+    ]
+  },
+
+  "surnames": [
+    {
+      "zh": "趙",
+      "en": "Zhao",
+      "la": "Zhao",
+      "pl": "Zhao"
+    }
+  ],
+
+  "born": ["~1746"],
+  "died": ["1815-01-27"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1900-05-27"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2000-10-01"
+  },
+
+  "also-in-martyrology": ["03-21", "07-09"],
+
+  "forenames": ["augustinus", "rong"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

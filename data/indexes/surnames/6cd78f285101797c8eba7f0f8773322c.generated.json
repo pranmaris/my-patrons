@@ -1,0 +1,18 @@
+{
+    "names": {
+        "pt": "de Soveral"
+    },
+    "translations": {
+        "pt": [
+            "de Soveral"
+        ]
+    },
+    "links": {
+        "records/patrons/andreas/sov": {
+            "pt": "André de Soveral",
+            "en": "Andrew de Soveral",
+            "la": "Andreas de Soveral",
+            "pl": "Andrzej de Soveral"
+        }
+    }
+}

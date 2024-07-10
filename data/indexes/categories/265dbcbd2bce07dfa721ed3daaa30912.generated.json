@@ -72,6 +72,12 @@
             "la": "Andreas Kim Tae-gŏn",
             "pl": "Andrzej Kim Tae-gŏn"
         },
+        "records/patrons/andreas/sov": {
+            "pt": "André de Soveral",
+            "en": "Andrew de Soveral",
+            "la": "Andreas de Soveral",
+            "pl": "Andrzej de Soveral"
+        },
         "records/patrons/anicetus/kop": {
             "pl": "Anicet Kopliński",
             "la": "Anicetus Koplinski",
@@ -91,6 +97,12 @@
             "la": "Antoninus /+ Nicephorus et alii",
             "en": "Antoninus /+ Nicephorus and others",
             "pl": "Antonin /+ Nicefor i inni"
+        },
+        "records/patrons/augustinus/zha": {
+            "zh": "趙榮",
+            "en": "Augustine Zhao Rong",
+            "la": "Augustinus Zhao Rong",
+            "pl": "Augustyn Zhao Rong"
         },
         "records/patrons/barbara/nic": {
             "la": "Barbara Nicomedensis",

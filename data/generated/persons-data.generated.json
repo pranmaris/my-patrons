@@ -595,7 +595,8 @@
             "pl": "Andrzej",
             "fr": "André",
             "grc": "Ανδρέας",
-            "ko": "안드레아"
+            "ko": "안드레아",
+            "pt": "André"
         }
     },
     "patrons/andreas/apo": {
@@ -643,6 +644,18 @@
         },
         "died": [
             "1846-09-16"
+        ],
+        "feasts": []
+    },
+    "patrons/andreas/sov": {
+        "names": {
+            "pt": "André de Soveral",
+            "en": "Andrew de Soveral",
+            "la": "Andreas de Soveral",
+            "pl": "Andrzej de Soveral"
+        },
+        "died": [
+            "1645-07-16"
         ],
         "feasts": []
     },
@@ -857,6 +870,18 @@
                 }
             }
         }
+    },
+    "patrons/augustinus/zha": {
+        "names": {
+            "zh": "趙榮",
+            "en": "Augustine Zhao Rong",
+            "la": "Augustinus Zhao Rong",
+            "pl": "Augustyn Zhao Rong"
+        },
+        "died": [
+            "1815-01-27"
+        ],
+        "feasts": []
     },
     "patrons/barbara": {
         "names": {
