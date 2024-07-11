@@ -1,9 +1,38 @@
+:root {
+  /*brandbook colors */
+  --color-blue-black: #1b143b;
+  --color-tang-blue: #005ce5;
+  --color-blue: #2600e5;
+
+  --color-aqua: #51bdc6;
+
+  --color-violet: #6659a2;
+  --color-dark-violet: #3e2f86;
+  --color-light-violet: #aa9ecd;
+
+  --color-light-orange: #f8b466;
+  --color-orange: #f08719;
+
+  --color-white: #ffffff;
+  --color-light-gray: #d8d8d8;
+
+  /* other colors */
+  --color-black: #000000;
+  --color-red: #FF0000;
+}
+
+
+
+
+
+/* ----- OLD STYLES ------ */
+
 /* BODY */
 
 body {
   margin: 0;
   margin-top: 4rem;
-  background-color: white;
+  background-color: var(--color-white);
   background: url('/files/resources/jpg/background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -32,11 +61,11 @@ body {
 }
 
 .headline-red {
-  color: red;
+  color: var(--color-violet);
 }
 
 .headline-gray {
-  color: gray;
+  color: var(--color-light-gray);
 }
 
 
@@ -246,19 +275,19 @@ body {
 /* BREADCRUMBS */
 
 .breadcrumbs-active-link {
-  color: white;
+  color: var(--color-aqua);
   font-size: 15px;
 }
 .breadcrumbs-active-link:hover {
-  color: yellow;
+  color: var(--color-white);
   font-size: 15px;
 }
 .breadcrumbs-inactive-link {
-  color: grey;
+  color: var(--color-light-violet);
   font-size: 15px;
 }
 .breadcrumbs-path-separator {
-  color: darkgrey;
+  color: var(--color-light-gray);
   font-size: 15px;
 }
 
