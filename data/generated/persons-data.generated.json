@@ -3940,6 +3940,24 @@
         ],
         "feasts": []
     },
+    "patrons/pontianus": {
+        "names": {
+            "la": "Pontianus",
+            "en": "Pontian",
+            "pl": "Poncjan"
+        }
+    },
+    "patrons/pontianus/1pp": {
+        "names": {
+            "la": "Pontianus Papa",
+            "en": "Pontian Pope",
+            "pl": "Poncjan Papież"
+        },
+        "died": [
+            "~235"
+        ],
+        "feasts": []
+    },
     "patrons/raphael": {
         "names": {
             "la": "Raphael",

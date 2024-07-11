@@ -344,6 +344,11 @@
             "en": "Philip /+ Felix and others, as Seven Brothers",
             "pl": "Filip /+ Feliks i inni, jako Siedmiu Braci"
         },
+        "records/patrons/pontianus/1pp": {
+            "la": "Pontianus Papa",
+            "en": "Pontian Pope",
+            "pl": "Poncjan Papież"
+        },
         "records/patrons/saturninus/tol": {
             "la": "Saturninus Tolosanensis",
             "en": "Saturnin of Toulouse",

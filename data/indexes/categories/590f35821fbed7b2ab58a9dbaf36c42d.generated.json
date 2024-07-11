@@ -837,6 +837,11 @@
             "la": "Pius de Pietrelcina",
             "pl": "Pio z Pietrelciny"
         },
+        "records/patrons/pontianus/1pp": {
+            "la": "Pontianus Papa",
+            "en": "Pontian Pope",
+            "pl": "Poncjan Papież"
+        },
         "records/patrons/raphael/chy": {
             "pl": "Rafał Chyliński",
             "la": "Raphael Chylinski",

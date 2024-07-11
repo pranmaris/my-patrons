@@ -1,0 +1,25 @@
+{
+  "names": {
+    "la": [
+      "Pontianus Papa"
+    ],
+    "en": [
+      "Pontian Pope"
+    ],
+    "pl": [
+      "Poncjan Papież"
+    ]
+  },
+
+  "born": ["~200"],
+  "died": ["~235"],
+
+  "also-in-martyrology": ["10-30", "08-13"],
+
+  "forenames": ["pontianus"],
+  "categories": ["vir", "martyr", "papa"],
+
+  "data-links": {
+    "popes": ["1:#18"]
+  }
+}

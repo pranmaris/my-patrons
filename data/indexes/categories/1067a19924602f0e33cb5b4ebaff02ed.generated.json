@@ -68,6 +68,11 @@
             "la": "Pius Pp. V",
             "pl": "Pius V"
         },
+        "records/patrons/pontianus/1pp": {
+            "la": "Pontianus Papa",
+            "en": "Pontian Pope",
+            "pl": "Poncjan Papież"
+        },
         "records/patrons/xystus/2pp": {
             "la": "Xystus Pp. II",
             "en": "Sixtus II",

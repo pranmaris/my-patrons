@@ -2124,6 +2124,18 @@
             }
         }
     },
+    "08-13": {
+        "records/patrons/pontianus/1pp": {
+            "name": {
+                "la": "Pontianus Papa",
+                "en": "Pontian Pope",
+                "pl": "Poncjan Papież"
+            },
+            "sources": {
+                "other-martyrology-days": "13 VIII"
+            }
+        }
+    },
     "08-14": {
         "records/patrons/maximilianus/kol": {
             "name": {
@@ -3075,6 +3087,16 @@
             },
             "sources": {
                 "reliable-death-anniversary": "30 X",
+                "other-martyrology-days": "30 X"
+            }
+        },
+        "records/patrons/pontianus/1pp": {
+            "name": {
+                "la": "Pontianus Papa",
+                "en": "Pontian Pope",
+                "pl": "Poncjan Papież"
+            },
+            "sources": {
                 "other-martyrology-days": "30 X"
             }
         }
