@@ -1,0 +1,29 @@
+{
+  "names": {
+    "la": [
+      "Petrus Chrysologus"
+    ],
+    "en": [
+      "Peter Chrysologus"
+    ],
+    "pl": [
+      "Piotr Chryzolog"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Chrysologus",
+      "en": "Chrysologus",
+      "pl": "Chryzolog"
+    }
+  ],
+
+  "born": ["~380"],
+  "died": ["~450"],
+
+  "also-in-martyrology": ["07-30", "07-31", "12-02", "12-04"],
+
+  "forenames": ["petrus"],
+  "categories": ["vir", "confessor", "episcopus", "doctor-ecclesiae"]
+}

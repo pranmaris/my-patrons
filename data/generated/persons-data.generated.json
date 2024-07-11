@@ -3808,6 +3808,17 @@
             }
         }
     },
+    "patrons/petrus/chr": {
+        "names": {
+            "la": "Petrus Chrysologus",
+            "en": "Peter Chrysologus",
+            "pl": "Piotr Chryzolog"
+        },
+        "died": [
+            "~450"
+        ],
+        "feasts": []
+    },
     "patrons/petrus/dam": {
         "names": {
             "it": "Pier Damiani",

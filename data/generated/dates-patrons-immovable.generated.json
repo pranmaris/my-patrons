@@ -1666,6 +1666,18 @@
             }
         }
     },
+    "07-30": {
+        "records/patrons/petrus/chr": {
+            "name": {
+                "la": "Petrus Chrysologus",
+                "en": "Peter Chrysologus",
+                "pl": "Piotr Chryzolog"
+            },
+            "sources": {
+                "other-martyrology-days": "30 VII"
+            }
+        }
+    },
     "07-31": {
         "records/patrons/ignatius/loy": {
             "name": {
@@ -1676,6 +1688,16 @@
             },
             "sources": {
                 "reliable-death-anniversary": "31 VII",
+                "other-martyrology-days": "31 VII"
+            }
+        },
+        "records/patrons/petrus/chr": {
+            "name": {
+                "la": "Petrus Chrysologus",
+                "en": "Peter Chrysologus",
+                "pl": "Piotr Chryzolog"
+            },
+            "sources": {
                 "other-martyrology-days": "31 VII"
             }
         }
@@ -3426,6 +3448,16 @@
             "sources": {
                 "other-martyrology-days": "2 XII"
             }
+        },
+        "records/patrons/petrus/chr": {
+            "name": {
+                "la": "Petrus Chrysologus",
+                "en": "Peter Chrysologus",
+                "pl": "Piotr Chryzolog"
+            },
+            "sources": {
+                "other-martyrology-days": "2 XII"
+            }
         }
     },
     "12-03": {
@@ -3448,6 +3480,16 @@
                 "la": "Barbara Nicomedensis",
                 "en": "Barbara of Nicomedia",
                 "pl": "Barbara z Nikomedii"
+            },
+            "sources": {
+                "other-martyrology-days": "4 XII"
+            }
+        },
+        "records/patrons/petrus/chr": {
+            "name": {
+                "la": "Petrus Chrysologus",
+                "en": "Peter Chrysologus",
+                "pl": "Piotr Chryzolog"
             },
             "sources": {
                 "other-martyrology-days": "4 XII"

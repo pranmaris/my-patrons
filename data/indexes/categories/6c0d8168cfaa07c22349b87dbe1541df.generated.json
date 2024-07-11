@@ -205,6 +205,11 @@
             "la": "Patricius episcopus in Hibernia",
             "pl": "Patryk z Irlandii"
         },
+        "records/patrons/petrus/chr": {
+            "la": "Petrus Chrysologus",
+            "en": "Peter Chrysologus",
+            "pl": "Piotr Chryzolog"
+        },
         "records/patrons/petrus/dam": {
             "it": "Pier Damiani",
             "en": "Peter Damian",

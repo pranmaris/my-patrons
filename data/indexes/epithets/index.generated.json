@@ -85,9 +85,6 @@
     "444e2cd8b8df66ec91fbcd26ab1e47b9": {
         "la": "a Divina Misericordia"
     },
-    "472df2bb6f1f7319972cb8631ffa8e12": {
-        "la": "of Suecia"
-    },
     "49a84c8b5835d08a61c8c2f8c253e34e": {
         "la": "Primus Hierosolymorum Episcopus"
     },
@@ -137,6 +134,9 @@
     "6d7b5ed123e2db89590e16610f95c34f": {
         "la": "Decimus"
     },
+    "6da5d8b6add96e1c602d25f9cc4a1b3f": {
+        "pl": "Chryzolog"
+    },
     "6f13e522c8907388e3f4e602dfcc0ce0": {
         "en": "Canaanite"
     },
@@ -160,6 +160,9 @@
     },
     "740b1ee9d3629cb8a0689a0a2d2af47c": {
         "la": "Cananaeus"
+    },
+    "760389e6aadf0c10dd17bbf0c1b6074e": {
+        "la": "de Suecia"
     },
     "765d7d2fc450d959b7d479ee559b270b": {
         "la": "Chananaeus"
@@ -278,6 +281,10 @@
     },
     "cf443e972d04e1a55a1844680fc22ef6": {
         "en": "Apostle of the Germans"
+    },
+    "d048e2ad646f968fbccfc47f7ec3814d": {
+        "la": "Chrysologus",
+        "en": "Chrysologus"
     },
     "d057e01cc0ab025e8a72248f90f66506": {
         "en": "of the Blessed Sacrament"

@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Chrysologus",
+        "en": "Chrysologus"
+    },
+    "translations": {
+        "la": [
+            "Chrysologus"
+        ],
+        "en": [
+            "Chrysologus"
+        ],
+        "pl": [
+            "Chryzolog"
+        ]
+    },
+    "links": {
+        "records/patrons/petrus/chr": {
+            "la": "Petrus Chrysologus",
+            "en": "Peter Chrysologus",
+            "pl": "Piotr Chryzolog"
+        }
+    }
+}
