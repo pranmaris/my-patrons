@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "asceta",
+        "pl": "asceta"
+    },
+    "translations": {
+        "la": [
+            "asceta"
+        ],
+        "en": [
+            "ascetic"
+        ],
+        "pl": [
+            "asceta"
+        ]
+    },
+    "links": {
+        "records/patrons/antonius/abb": {
+            "el": "Ἀντώνιος Μέγας",
+            "en": "Anthony the Great",
+            "la": "Antonius Magnus",
+            "pl": "Antoni Wielki"
+        }
+    }
+}

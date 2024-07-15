@@ -746,6 +746,18 @@
             "uk": "Антоній"
         }
     },
+    "patrons/antonius/abb": {
+        "names": {
+            "el": "Ἀντώνιος Μέγας",
+            "en": "Anthony the Great",
+            "la": "Antonius Magnus",
+            "pl": "Antoni Wielki"
+        },
+        "died": [
+            "356"
+        ],
+        "feasts": []
+    },
     "patrons/antonius/baj": {
         "names": {
             "pl": "Antoni Bajewski",

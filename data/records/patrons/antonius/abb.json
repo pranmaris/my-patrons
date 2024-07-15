@@ -1,0 +1,27 @@
+{
+  "names": {
+    "el": [
+      "Ἀντώνιος Μέγας"
+    ],
+    "en": [
+      "Anthony the Great",
+      "Anthony of Egypt"
+    ],
+    "la": [
+      "Antonius Magnus",
+      "Antonius Aegyptius"
+    ],
+    "pl": [
+      "Antoni Wielki",
+      "Antoni Egipski"
+    ]
+  },
+
+  "born": ["~251"],
+  "died": ["356"],
+
+  "also-in-martyrology": ["01-17"],
+
+  "forenames": ["antonius"],
+  "categories": ["vir", "abbas", "asceta"]
+}

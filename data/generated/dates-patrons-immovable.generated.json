@@ -138,6 +138,19 @@
             }
         }
     },
+    "01-17": {
+        "records/patrons/antonius/abb": {
+            "name": {
+                "el": "Ἀντώνιος Μέγας",
+                "en": "Anthony the Great",
+                "la": "Antonius Magnus",
+                "pl": "Antoni Wielki"
+            },
+            "sources": {
+                "other-martyrology-days": "17 I"
+            }
+        }
+    },
     "01-21": {
         "records/patrons/agnes/rom": {
             "name": {

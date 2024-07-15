@@ -133,6 +133,12 @@
             "en": "Antoninus of Apamea",
             "pl": "Antonin z Apamei"
         },
+        "records/patrons/antonius/abb": {
+            "el": "Ἀντώνιος Μέγας",
+            "en": "Anthony the Great",
+            "la": "Antonius Magnus",
+            "pl": "Antoni Wielki"
+        },
         "records/patrons/antonius/baj": {
             "pl": "Antoni Bajewski",
             "en": "Anthony Bajewski",

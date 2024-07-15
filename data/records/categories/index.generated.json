@@ -39,6 +39,11 @@
         "en": "archideacon",
         "pl": "archidiakon"
     },
+    "asceta": {
+        "la": "asceta",
+        "en": "ascetic",
+        "pl": "asceta"
+    },
     "canonicus": {
         "la": "canonicus",
         "en": "canon",

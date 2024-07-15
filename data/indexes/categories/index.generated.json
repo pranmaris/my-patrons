@@ -304,6 +304,9 @@
     "8c21ffcf8ea6adcfeafed623f9c00e36": {
         "la": "materfamilias"
     },
+    "8d2490fbacef9189ea2557a654bbfd2b": {
+        "en": "ascetic"
+    },
     "8e07dafd13495561db9063ebe4db4b27": {
         "en": "levi"
     },
@@ -456,6 +459,10 @@
     },
     "c72b77a62c4a43e34adac460398332e6": {
         "pl": "mężczyzna"
+    },
+    "c74eb8da5b12adb6abc37b0b537d696e": {
+        "la": "asceta",
+        "pl": "asceta"
     },
     "c85ee4df8082e8141095807b50fd904e": {
         "en": "martyress"

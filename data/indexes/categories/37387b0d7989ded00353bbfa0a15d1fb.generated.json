@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/antonius/abb": {
+            "el": "Ἀντώνιος Μέγας",
+            "en": "Anthony the Great",
+            "la": "Antonius Magnus",
+            "pl": "Antoni Wielki"
+        },
         "records/patrons/benedictus/nur": {
             "la": "Benedictus Nursinus",
             "en": "Banadict of Nursia",
