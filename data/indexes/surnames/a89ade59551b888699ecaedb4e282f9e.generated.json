@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "de Sales"
+    },
+    "translations": {
+        "fr": [
+            "de Sales"
+        ]
+    },
+    "links": {
+        "records/patrons/franciscus/sal": {
+            "fr": "François de Sales",
+            "en": "Francis de Sales",
+            "la": "Franciscus de Sales",
+            "pl": "Franciszek Salezy"
+        }
+    }
+}

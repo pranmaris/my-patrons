@@ -32,6 +32,12 @@
             "la": "Franciscus de Paula",
             "pl": "Franciszek z Paoli"
         },
+        "records/patrons/franciscus/sal": {
+            "fr": "François de Sales",
+            "en": "Francis de Sales",
+            "la": "Franciscus de Sales",
+            "pl": "Franciszek Salezy"
+        },
         "records/patrons/gaspar/ber": {
             "it": "Gaspare Bertoni",
             "la": "Gaspar Bertoni",

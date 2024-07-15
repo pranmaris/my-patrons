@@ -120,6 +120,12 @@
             "en": "Eusebius of Vercelli",
             "pl": "Euzebiusz z Vercelli"
         },
+        "records/patrons/franciscus/sal": {
+            "fr": "François de Sales",
+            "en": "Francis de Sales",
+            "la": "Franciscus de Sales",
+            "pl": "Franciszek Salezy"
+        },
         "records/patrons/fulgentius/rus": {
             "la": "Fulgentius Ruspensis",
             "en": "Fulgentius of Ruspe",

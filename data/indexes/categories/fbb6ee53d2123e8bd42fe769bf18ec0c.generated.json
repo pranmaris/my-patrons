@@ -42,6 +42,12 @@
             "en": "Augustine of Hippo",
             "pl": "Augustyn z Hippony"
         },
+        "records/patrons/franciscus/sal": {
+            "fr": "François de Sales",
+            "en": "Francis de Sales",
+            "la": "Franciscus de Sales",
+            "pl": "Franciszek Salezy"
+        },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",

@@ -188,6 +188,19 @@
             }
         }
     },
+    "01-24": {
+        "records/patrons/franciscus/sal": {
+            "name": {
+                "fr": "François de Sales",
+                "en": "Francis de Sales",
+                "la": "Franciscus de Sales",
+                "pl": "Franciszek Salezy"
+            },
+            "sources": {
+                "other-martyrology-days": "24 I"
+            }
+        }
+    },
     "01-26": {
         "records/patrons/michael/koz": {
             "name": {
@@ -3791,6 +3804,18 @@
         }
     },
     "12-28": {
+        "records/patrons/franciscus/sal": {
+            "name": {
+                "fr": "François de Sales",
+                "en": "Francis de Sales",
+                "la": "Franciscus de Sales",
+                "pl": "Franciszek Salezy"
+            },
+            "sources": {
+                "reliable-death-anniversary": "28 XII",
+                "other-martyrology-days": "28 XII"
+            }
+        },
         "records/patrons/gaspar/buf": {
             "name": {
                 "it": "Gaspare del Bufalo",

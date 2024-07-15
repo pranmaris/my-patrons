@@ -15,6 +15,9 @@
         "es": [
             "Francisco"
         ],
+        "fr": [
+            "François"
+        ],
         "it": [
             "Francesco"
         ]
@@ -36,6 +39,12 @@
             "en": "Francis of Paola",
             "la": "Franciscus de Paula",
             "pl": "Franciszek z Paoli"
+        },
+        "records/patrons/franciscus/sal": {
+            "fr": "François de Sales",
+            "en": "Francis de Sales",
+            "la": "Franciscus de Sales",
+            "pl": "Franciszek Salezy"
         },
         "records/patrons/franciscus/xav": {
             "es": "Francisco Javier",
