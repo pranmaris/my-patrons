@@ -100,6 +100,19 @@
             }
         }
     },
+    "01-10": {
+        "records/patrons/gregorius/nys": {
+            "name": {
+                "el": "Γρηγόριος Νύσσης",
+                "en": "Gregory of Nyssa",
+                "la": "Gregorius Nyssenus",
+                "pl": "Grzegorz z Nyssy"
+            },
+            "sources": {
+                "other-martyrology-days": "10 I"
+            }
+        }
+    },
     "01-14": {
         "records/patrons/malachias/pro": {
             "name": {
@@ -305,7 +318,7 @@
     "02-12": {
         "records/patrons/antonius/cau": {
             "name": {
-                "gr": "Ἀντώνιος Καυλέας",
+                "el": "Ἀντώνιος Καυλέας",
                 "en": "Anthony Cauleas",
                 "la": "Antonius Cauleas",
                 "pl": "Antoni Kauleas"
@@ -561,6 +574,19 @@
             "sources": {
                 "reliable-death-anniversary": "7 III",
                 "other-martyrology-days": "7 III"
+            }
+        }
+    },
+    "03-09": {
+        "records/patrons/gregorius/nys": {
+            "name": {
+                "el": "Γρηγόριος Νύσσης",
+                "en": "Gregory of Nyssa",
+                "la": "Gregorius Nyssenus",
+                "pl": "Grzegorz z Nyssy"
+            },
+            "sources": {
+                "other-martyrology-days": "9 III"
             }
         }
     },
@@ -2608,7 +2634,7 @@
         },
         "records/patrons/cosmas/dam": {
             "name": {
-                "gr": "Κοσμάς /+ Δαμιανός",
+                "el": "Κοσμάς /+ Δαμιανός",
                 "en": "Cosmas /+ Damian",
                 "la": "Cosmas /+ Damianus",
                 "pl": "Kosma /+ Damian"
@@ -2619,7 +2645,7 @@
         },
         "records/patrons/damianus/cos": {
             "name": {
-                "gr": "Δαμιανός /+ Κοσμάς",
+                "el": "Δαμιανός /+ Κοσμάς",
                 "en": "Damian /+ Cosmas",
                 "la": "Damianus /+ Cosmas",
                 "pl": "Damian /+ Kosma"
@@ -2963,7 +2989,7 @@
         },
         "records/patrons/lucas/eva": {
             "name": {
-                "gr": "Ευαγγελιστής Λουκάς",
+                "el": "Ευαγγελιστής Λουκάς",
                 "en": "Luke the Evangelist",
                 "la": "Lucas Evangelista",
                 "pl": "Łukasz Ewangelista"
@@ -3545,7 +3571,7 @@
     "12-06": {
         "records/patrons/nicolaus/myr": {
             "name": {
-                "gr": "Άγιος Νικόλαος",
+                "el": "Άγιος Νικόλαος",
                 "en": "Nicholas of Myra",
                 "la": "Nicolaus Myrensis",
                 "pl": "Mikołaj z Miry"
@@ -3729,7 +3755,7 @@
     "12-26": {
         "records/patrons/stephanus/pro": {
             "name": {
-                "gr": "Στέφανος",
+                "el": "Στέφανος",
                 "en": "Stephen Protomartyr",
                 "la": "Stephanus protomartyr",
                 "pl": "Szczepan Pramęczennik"

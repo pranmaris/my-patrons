@@ -171,13 +171,13 @@
             "pl": "Klemens Szeptycki"
         },
         "records/patrons/cosmas/dam": {
-            "gr": "Κοσμάς /+ Δαμιανός",
+            "el": "Κοσμάς /+ Δαμιανός",
             "en": "Cosmas /+ Damian",
             "la": "Cosmas /+ Damianus",
             "pl": "Kosma /+ Damian"
         },
         "records/patrons/damianus/cos": {
-            "gr": "Δαμιανός /+ Κοσμάς",
+            "el": "Δαμιανός /+ Κοσμάς",
             "en": "Damian /+ Cosmas",
             "la": "Damianus /+ Cosmas",
             "pl": "Damian /+ Kosma"
@@ -511,7 +511,7 @@
             "la": "Stanislaus Cracoviensis"
         },
         "records/patrons/stephanus/pro": {
-            "gr": "Στέφανος",
+            "el": "Στέφανος",
             "en": "Stephen Protomartyr",
             "la": "Stephanus protomartyr",
             "pl": "Szczepan Pramęczennik"

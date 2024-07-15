@@ -1,0 +1,24 @@
+{
+  "names": {
+    "el": [
+      "Γρηγόριος Νύσσης"
+    ],
+    "en": [
+      "Gregory of Nyssa"
+    ],
+    "la": [
+      "Gregorius Nyssenus"
+    ],
+    "pl": [
+      "Grzegorz z Nyssy"
+    ]
+  },
+
+  "born": ["~335"],
+  "died": ["<400"],
+
+  "also-in-martyrology": ["01-10", "03-09"],
+
+  "forenames": ["gregorius"],
+  "categories": ["vir", "episcopus"]
+}

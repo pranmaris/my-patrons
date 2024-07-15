@@ -23,6 +23,12 @@
         "pl": "niemiecki"
     },
 
+    "el": {
+        "en": "Greek",
+        "la": "Graeca",
+        "pl": "grecki"
+    },
+
     "en": {
         "en": "English",
         "la": "Anglica",
@@ -45,12 +51,6 @@
         "en": "Irish",
         "la": "Hibernica",
         "pl": "irlandzki"
-    },
-
-    "gr": {
-        "en": "Greek",
-        "la": "Graeca",
-        "pl": "grecki"
     },
 
     "grc": {

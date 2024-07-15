@@ -1,6 +1,6 @@
 {
     "names": {
-        "gr": "Ἀντώνιος"
+        "el": "Ἀντώνιος"
     },
     "translations": {
         "la": [
@@ -12,7 +12,7 @@
         "pl": [
             "Antoni"
         ],
-        "gr": [
+        "el": [
             "Ἀντώνιος"
         ],
         "it": [
@@ -38,7 +38,7 @@
             "pl": "Antoni Baldinucci"
         },
         "records/patrons/antonius/cau": {
-            "gr": "Ἀντώνιος Καυλέας",
+            "el": "Ἀντώνιος Καυλέας",
             "en": "Anthony Cauleas",
             "la": "Antonius Cauleas",
             "pl": "Antoni Kauleas"

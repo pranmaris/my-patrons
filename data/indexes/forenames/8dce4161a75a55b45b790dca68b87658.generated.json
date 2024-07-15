@@ -1,6 +1,6 @@
 {
     "names": {
-        "gr": "Νικόλαος"
+        "el": "Νικόλαος"
     },
     "translations": {
         "la": [
@@ -12,13 +12,13 @@
         "pl": [
             "Mikołaj"
         ],
-        "gr": [
+        "el": [
             "Νικόλαος"
         ]
     },
     "links": {
         "records/patrons/nicolaus/myr": {
-            "gr": "Άγιος Νικόλαος",
+            "el": "Άγιος Νικόλαος",
             "en": "Nicholas of Myra",
             "la": "Nicolaus Myrensis",
             "pl": "Mikołaj z Miry"

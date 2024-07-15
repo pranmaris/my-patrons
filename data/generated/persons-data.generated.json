@@ -740,7 +740,7 @@
             "la": "Antonius",
             "en": "Anthony",
             "pl": "Antoni",
-            "gr": "Ἀντώνιος",
+            "el": "Ἀντώνιος",
             "it": "Antonio",
             "pt": "Antônio",
             "uk": "Антоній"
@@ -771,7 +771,7 @@
     },
     "patrons/antonius/cau": {
         "names": {
-            "gr": "Ἀντώνιος Καυλέας",
+            "el": "Ἀντώνιος Καυλέας",
             "en": "Anthony Cauleas",
             "la": "Antonius Cauleas",
             "pl": "Antoni Kauleas"
@@ -1390,12 +1390,12 @@
             "la": "Cosmas",
             "en": "Cosmas",
             "pl": "Kosma",
-            "gr": "Κοσμάς"
+            "el": "Κοσμάς"
         }
     },
     "patrons/cosmas/dam": {
         "names": {
-            "gr": "Κοσμάς /+ Δαμιανός",
+            "el": "Κοσμάς /+ Δαμιανός",
             "en": "Cosmas /+ Damian",
             "la": "Cosmas /+ Damianus",
             "pl": "Kosma /+ Damian"
@@ -1436,12 +1436,12 @@
             "la": "Damianus",
             "en": "Damian",
             "pl": "Damian",
-            "gr": "Δαμιανός"
+            "el": "Δαμιανός"
         }
     },
     "patrons/damianus/cos": {
         "names": {
-            "gr": "Δαμιανός /+ Κοσμάς",
+            "el": "Δαμιανός /+ Κοσμάς",
             "en": "Damian /+ Cosmas",
             "la": "Damianus /+ Cosmas",
             "pl": "Damian /+ Kosma"
@@ -1973,6 +1973,26 @@
         },
         "died": [
             "1984-10-19"
+        ],
+        "feasts": []
+    },
+    "patrons/gregorius": {
+        "names": {
+            "la": "Gregorius",
+            "en": "Gregory",
+            "pl": "Grzegorz",
+            "el": "Γρηγόριος"
+        }
+    },
+    "patrons/gregorius/nys": {
+        "names": {
+            "el": "Γρηγόριος Νύσσης",
+            "en": "Gregory of Nyssa",
+            "la": "Gregorius Nyssenus",
+            "pl": "Grzegorz z Nyssy"
+        },
+        "died": [
+            "<400"
         ],
         "feasts": []
     },
@@ -2775,12 +2795,12 @@
             "la": "Lucas",
             "en": "Luke",
             "pl": "Łukasz",
-            "gr": "Λουκάς"
+            "el": "Λουκάς"
         }
     },
     "patrons/lucas/eva": {
         "names": {
-            "gr": "Ευαγγελιστής Λουκάς",
+            "el": "Ευαγγελιστής Λουκάς",
             "en": "Luke the Evangelist",
             "la": "Lucas Evangelista",
             "pl": "Łukasz Ewangelista"
@@ -3577,12 +3597,12 @@
             "la": "Nicolaus",
             "en": "Nicholas",
             "pl": "Mikołaj",
-            "gr": "Νικόλαος"
+            "el": "Νικόλαος"
         }
     },
     "patrons/nicolaus/myr": {
         "names": {
-            "gr": "Άγιος Νικόλαος",
+            "el": "Άγιος Νικόλαος",
             "en": "Nicholas of Myra",
             "la": "Nicolaus Myrensis",
             "pl": "Mikołaj z Miry"
@@ -4352,12 +4372,12 @@
             "la": "Stephanus",
             "en": "Stephen",
             "pl": "Stefan",
-            "gr": "Στέφανος"
+            "el": "Στέφανος"
         }
     },
     "patrons/stephanus/pro": {
         "names": {
-            "gr": "Στέφανος",
+            "el": "Στέφανος",
             "en": "Stephen Protomartyr",
             "la": "Stephanus protomartyr",
             "pl": "Szczepan Pramęczennik"

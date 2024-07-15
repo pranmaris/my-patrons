@@ -102,7 +102,7 @@
         "la": "Antonius",
         "en": "Anthony",
         "pl": "Antoni",
-        "gr": "Ἀντώνιος",
+        "el": "Ἀντώνιος",
         "it": "Antonio",
         "pt": "Antônio",
         "uk": "Антоній"
@@ -248,7 +248,7 @@
         "la": "Cosmas",
         "en": "Cosmas",
         "pl": "Kosma",
-        "gr": "Κοσμάς"
+        "el": "Κοσμάς"
     },
     "cyrillus": {
         "la": "Cyrillus",
@@ -259,7 +259,7 @@
         "la": "Damianus",
         "en": "Damian",
         "pl": "Damian",
-        "gr": "Δαμιανός"
+        "el": "Δαμιανός"
     },
     "daria": {
         "la": "Daria",
@@ -381,6 +381,12 @@
         "la": "Georgius",
         "en": "George",
         "pl": "Jerzy"
+    },
+    "gregorius": {
+        "la": "Gregorius",
+        "en": "Gregory",
+        "pl": "Grzegorz",
+        "el": "Γρηγόριος"
     },
     "hedwigis": {
         "la": "Hedwigis",
@@ -533,7 +539,7 @@
         "la": "Lucas",
         "en": "Luke",
         "pl": "Łukasz",
-        "gr": "Λουκάς"
+        "el": "Λουκάς"
     },
     "lucia": {
         "la": "Lucia",
@@ -650,7 +656,7 @@
         "la": "Nicolaus",
         "en": "Nicholas",
         "pl": "Mikołaj",
-        "gr": "Νικόλαος"
+        "el": "Νικόλαος"
     },
     "oswaldus": {
         "la": "Oswaldus",
@@ -815,7 +821,7 @@
         "la": "Stephanus",
         "en": "Stephen",
         "pl": "Stefan",
-        "gr": "Στέφανος"
+        "el": "Στέφανος"
     },
     "tarsicius": {
         "la": "Tarsicius",

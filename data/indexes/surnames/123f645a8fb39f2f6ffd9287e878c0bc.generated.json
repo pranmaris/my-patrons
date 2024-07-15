@@ -1,9 +1,9 @@
 {
     "names": {
-        "gr": "Καυλέας"
+        "el": "Καυλέας"
     },
     "translations": {
-        "gr": [
+        "el": [
             "Καυλέας"
         ],
         "en": [
@@ -18,7 +18,7 @@
     },
     "links": {
         "records/patrons/antonius/cau": {
-            "gr": "Ἀντώνιος Καυλέας",
+            "el": "Ἀντώνιος Καυλέας",
             "en": "Anthony Cauleas",
             "la": "Antonius Cauleas",
             "pl": "Antoni Kauleas"

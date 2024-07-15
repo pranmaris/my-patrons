@@ -145,7 +145,7 @@
             "pl": "Antoni Baldinucci"
         },
         "records/patrons/antonius/cau": {
-            "gr": "Ἀντώνιος Καυλέας",
+            "el": "Ἀντώνιος Καυλέας",
             "en": "Anthony Cauleas",
             "la": "Antonius Cauleas",
             "pl": "Antoni Kauleas"
@@ -294,7 +294,7 @@
             "pl": "Klemens Szeptycki"
         },
         "records/patrons/cosmas/dam": {
-            "gr": "Κοσμάς /+ Δαμιανός",
+            "el": "Κοσμάς /+ Δαμιανός",
             "en": "Cosmas /+ Damian",
             "la": "Cosmas /+ Damianus",
             "pl": "Kosma /+ Damian"
@@ -305,7 +305,7 @@
             "pl": "Cyryl /+ Metody"
         },
         "records/patrons/damianus/cos": {
-            "gr": "Δαμιανός /+ Κοσμάς",
+            "el": "Δαμιανός /+ Κοσμάς",
             "en": "Damian /+ Cosmas",
             "la": "Damianus /+ Cosmas",
             "pl": "Damian /+ Kosma"
@@ -441,6 +441,12 @@
             "pl": "Jerzy Popiełuszko",
             "la": "Georgius Popiełuszko",
             "en": "George Popiełuszko"
+        },
+        "records/patrons/gregorius/nys": {
+            "el": "Γρηγόριος Νύσσης",
+            "en": "Gregory of Nyssa",
+            "la": "Gregorius Nyssenus",
+            "pl": "Grzegorz z Nyssy"
         },
         "records/patrons/hieronymus/tif": {
             "it": "Jeronimo Ranuzzi",
@@ -653,7 +659,7 @@
             "pl": "Leonard z Limoges"
         },
         "records/patrons/lucas/eva": {
-            "gr": "Ευαγγελιστής Λουκάς",
+            "el": "Ευαγγελιστής Λουκάς",
             "en": "Luke the Evangelist",
             "la": "Lucas Evangelista",
             "pl": "Łukasz Ewangelista"
@@ -743,7 +749,7 @@
             "la": "Narcissus Turchan"
         },
         "records/patrons/nicolaus/myr": {
-            "gr": "Άγιος Νικόλαος",
+            "el": "Άγιος Νικόλαος",
             "en": "Nicholas of Myra",
             "la": "Nicolaus Myrensis",
             "pl": "Mikołaj z Miry"
@@ -908,7 +914,7 @@
             "la": "Stanislaus Kostka"
         },
         "records/patrons/stephanus/pro": {
-            "gr": "Στέφανος",
+            "el": "Στέφανος",
             "en": "Stephen Protomartyr",
             "la": "Stephanus protomartyr",
             "pl": "Szczepan Pramęczennik"

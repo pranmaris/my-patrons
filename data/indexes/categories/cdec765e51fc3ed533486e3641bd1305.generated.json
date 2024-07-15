@@ -61,7 +61,7 @@
             "pl": "Oskar"
         },
         "records/patrons/antonius/cau": {
-            "gr": "Ἀντώνιος Καυλέας",
+            "el": "Ἀντώνιος Καυλέας",
             "en": "Anthony Cauleas",
             "la": "Antonius Cauleas",
             "pl": "Antoni Kauleas"
@@ -130,6 +130,12 @@
             "en": "Radim Gaudentius",
             "la": "Gaudentius seu Radzim"
         },
+        "records/patrons/gregorius/nys": {
+            "el": "Γρηγόριος Νύσσης",
+            "en": "Gregory of Nyssa",
+            "la": "Gregorius Nyssenus",
+            "pl": "Grzegorz z Nyssy"
+        },
         "records/patrons/iacobus/min": {
             "la": "Iacobus Minor Apostolus",
             "en": "James the Less Apostle",
@@ -187,7 +193,7 @@
             "la": "Michael Kozal"
         },
         "records/patrons/nicolaus/myr": {
-            "gr": "Άγιος Νικόλαος",
+            "el": "Άγιος Νικόλαος",
             "en": "Nicholas of Myra",
             "la": "Nicolaus Myrensis",
             "pl": "Mikołaj z Miry"

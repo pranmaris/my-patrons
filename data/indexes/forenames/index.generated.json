@@ -305,7 +305,7 @@
         "it": "Jeronimo"
     },
     "28dbf3a8499981fd71e91ffaaf56c817": {
-        "gr": "Στέφανος"
+        "el": "Στέφανος"
     },
     "290626a3fe848b4b73cb7800b3d67882": {
         "la": "Gaspar",
@@ -828,7 +828,7 @@
         "en": "Isaiah"
     },
     "77f97dbf0e8ecaafba2c950041ab4784": {
-        "gr": "Ἀντώνιος"
+        "el": "Ἀντώνιος"
     },
     "78843575bf3437d87361a2aba0a3fdea": {
         "la": "Simon",
@@ -867,7 +867,7 @@
         "pl": "Dinh"
     },
     "7e505c69ce1bdf1eee9d260b3a47045b": {
-        "gr": "Δαμιανός"
+        "el": "Δαμιανός"
     },
     "7efd721c8bfff2937c66235f2d0dbac1": {
         "en": "Adam",
@@ -940,6 +940,9 @@
     "879eb8aa505a968b831812aeb836c2a9": {
         "fr": "Marie"
     },
+    "88049cf2d425afa5e46bee35ab9a6f97": {
+        "pl": "Grzegorz"
+    },
     "885383f16fccd10370814fcd862aa10d": {
         "it": "Antonio"
     },
@@ -1003,7 +1006,7 @@
         "pl": "Domnin"
     },
     "8dce4161a75a55b45b790dca68b87658": {
-        "gr": "Νικόλαος"
+        "el": "Νικόλαος"
     },
     "8f29971e57bcead61420c7da8eff93de": {
         "en": "Hubert",
@@ -1341,6 +1344,9 @@
     "bc1b4013697e3e7dc23b9d872382e8f9": {
         "la": "Adamus"
     },
+    "bc442a3d927b2190ca2df2d49de47b14": {
+        "el": "Γρηγόριος"
+    },
     "bc6d18d4553306b76115602aa3c8516f": {
         "la": "Chrysanthus",
         "en": "Chrysanthus"
@@ -1476,7 +1482,7 @@
         "vi": "Giuse"
     },
     "cdf85264f47182e2e0a8b8b15affb0c7": {
-        "gr": "Κοσμάς"
+        "el": "Κοσμάς"
     },
     "ce7898536dd0e928d1640ee2ad531cc8": {
         "la": "Multi"
@@ -1712,6 +1718,9 @@
         "en": "Melchior",
         "pl": "Melchior"
     },
+    "f00a5998c29601848a83c00a8296d8e4": {
+        "en": "Gregory"
+    },
     "f036caf730c4750f0b9ab4700ab76045": {
         "la": "Martinus"
     },
@@ -1735,6 +1744,9 @@
     },
     "f4394bbd2bb1effe9ea1991e26a0bc78": {
         "pl": "Klemens"
+    },
+    "f4db62a6ccef5c90c8e7a000ea0a5288": {
+        "la": "Gregorius"
     },
     "f5c3ac4cbf092a063786243913a4c139": {
         "en": "Catherine",
@@ -1762,7 +1774,7 @@
         "pl": "Izajasz"
     },
     "f75ad75dca6d3ee13db8a730ad0c2975": {
-        "gr": "Λουκάς"
+        "el": "Λουκάς"
     },
     "f77df668b77912f4eff5440fad803c08": {
         "pl": "Justyna"

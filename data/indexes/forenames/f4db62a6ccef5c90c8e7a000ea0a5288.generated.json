@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Gregorius"
+    },
+    "translations": {
+        "la": [
+            "Gregorius"
+        ],
+        "en": [
+            "Gregory"
+        ],
+        "pl": [
+            "Grzegorz"
+        ],
+        "el": [
+            "Γρηγόριος"
+        ]
+    },
+    "links": {
+        "records/patrons/gregorius/nys": {
+            "el": "Γρηγόριος Νύσσης",
+            "en": "Gregory of Nyssa",
+            "la": "Gregorius Nyssenus",
+            "pl": "Grzegorz z Nyssy"
+        }
+    }
+}
