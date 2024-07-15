@@ -2538,6 +2538,7 @@
             "la": "Iosephus",
             "en": "Joseph",
             "pl": "Józef",
+            "it": "Giuseppe",
             "vi": "Giuse"
         }
     },
@@ -2573,6 +2574,18 @@
         },
         "died": [
             "1924-03-28"
+        ],
+        "feasts": []
+    },
+    "patrons/iosephus/tom": {
+        "names": {
+            "it": "Giuseppe Maria Tomasi",
+            "en": "Joseph Mary Tomasi",
+            "la": "Josephus Maria Tomasi",
+            "pl": "Józef Maria Tomasi"
+        },
+        "died": [
+            "1713-01-01"
         ],
         "feasts": []
     },
@@ -2985,7 +2998,7 @@
             "pl": "Maria",
             "arc": "ܡܪܝܡ",
             "fr": "Marie",
-            "it": "Marie"
+            "it": "Maria"
         }
     },
     "patrons/maria/bor": {

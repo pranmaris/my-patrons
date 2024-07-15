@@ -1,0 +1,41 @@
+{
+  "names": {
+    "it": [
+      "Giuseppe Maria Tomasi"
+    ],
+    "en": [
+      "Joseph Mary Tomasi"
+    ],
+    "la": [
+      "Josephus Maria Tomasi"
+    ],
+    "pl": [
+      "Józef Maria Tomasi"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Tomasi"
+    }
+  ],
+
+  "born": ["1649-09-12"],
+  "died": ["1713-01-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1803-09-29"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1986-10-12"
+  },
+
+  "also-in-martyrology": ["01-01"],
+
+  "forenames": ["iosephus", "maria"],
+  "categories": ["vir", "presbyter", "cardinalis"],
+
+  "order": ["cr"]
+}

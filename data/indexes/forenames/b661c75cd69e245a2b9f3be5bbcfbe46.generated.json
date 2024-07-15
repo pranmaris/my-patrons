@@ -13,6 +13,9 @@
         "pl": [
             "Józef"
         ],
+        "it": [
+            "Giuseppe"
+        ],
         "vi": [
             "Giuse"
         ]
@@ -34,6 +37,12 @@
             "pl": "Józef Sebastian Pelczar",
             "en": "Joseph Sebastian Pelczar",
             "la": "Iosephus Sebastianus Pelczar"
+        },
+        "records/patrons/iosephus/tom": {
+            "it": "Giuseppe Maria Tomasi",
+            "en": "Joseph Mary Tomasi",
+            "la": "Josephus Maria Tomasi",
+            "pl": "Józef Maria Tomasi"
         },
         "records/patrons/iosephus/zap": {
             "pl": "Józef Zapłata",

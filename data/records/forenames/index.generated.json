@@ -613,6 +613,7 @@
         "la": "Iosephus",
         "en": "Joseph",
         "pl": "Józef",
+        "it": "Giuseppe",
         "vi": "Giuse"
     },
     "isaias": {
@@ -740,7 +741,7 @@
         "pl": "Maria",
         "arc": "ܡܪܝܡ",
         "fr": "Marie",
-        "it": "Marie"
+        "it": "Maria"
     },
     "marianus": {
         "la": "Marianus",

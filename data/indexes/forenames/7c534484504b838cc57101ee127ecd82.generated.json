@@ -19,7 +19,7 @@
             "Marie"
         ],
         "it": [
-            "Marie"
+            "Maria"
         ]
     },
     "links": {
@@ -45,6 +45,12 @@
             "en": "Josemaría Escrivá de Balaguer",
             "la": "Iosephus Maria Escrivá de Balaguer",
             "pl": "Josemaría Escrivá de Balaguer"
+        },
+        "records/patrons/iosephus/tom": {
+            "it": "Giuseppe Maria Tomasi",
+            "en": "Joseph Mary Tomasi",
+            "la": "Josephus Maria Tomasi",
+            "pl": "Józef Maria Tomasi"
         },
         "records/patrons/margarita/ala": {
             "fr": "Marguerite-Marie Alacoque",

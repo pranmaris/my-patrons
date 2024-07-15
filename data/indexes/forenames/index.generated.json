@@ -709,6 +709,9 @@
         "en": "Hedwig",
         "de": "Hedwig"
     },
+    "65b15401237306b6b5023a3c9c24ae16": {
+        "it": "Giuseppe"
+    },
     "6620a8154213dfa7f111ed67eace6fc9": {
         "la": "Imelda",
         "en": "Imelda",
@@ -928,8 +931,7 @@
         "la": "Antonius"
     },
     "879eb8aa505a968b831812aeb836c2a9": {
-        "fr": "Marie",
-        "it": "Marie"
+        "fr": "Marie"
     },
     "885383f16fccd10370814fcd862aa10d": {
         "it": "Antonio"
@@ -1446,7 +1448,8 @@
     },
     "cbc19b07662418d5f14cc55657295924": {
         "la": "Maria",
-        "pl": "Maria"
+        "pl": "Maria",
+        "it": "Maria"
     },
     "cc86db2cb6845e5cd5442a4fc97b3ee1": {
         "pl": "Andrzej"

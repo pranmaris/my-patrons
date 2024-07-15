@@ -11,6 +11,18 @@
                 "other-martyrology-days": "1 I"
             }
         },
+        "records/patrons/iosephus/tom": {
+            "name": {
+                "it": "Giuseppe Maria Tomasi",
+                "en": "Joseph Mary Tomasi",
+                "la": "Josephus Maria Tomasi",
+                "pl": "Józef Maria Tomasi"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 I",
+                "other-martyrology-days": "1 I"
+            }
+        },
         "records/patrons/marianus/kon": {
             "name": {
                 "pl": "Marian Konopiński",
