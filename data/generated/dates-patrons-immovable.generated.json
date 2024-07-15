@@ -60,6 +60,18 @@
                 "reliable-death-anniversary": "6 I",
                 "other-martyrology-days": "6 I"
             }
+        },
+        "records/patrons/raphaela/por": {
+            "name": {
+                "es": "Rafaela María del Sagrado Corazón",
+                "en": "Rafaela Mary of the Sacred Heart",
+                "la": "Raphaela Maria a Sacro Corde",
+                "pl": "Rafaela Maria od Najświętszego Serca"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 I",
+                "other-martyrology-days": "6 I"
+            }
         }
     },
     "01-08": {

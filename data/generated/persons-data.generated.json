@@ -2997,6 +2997,7 @@
             "en": "Mary",
             "pl": "Maria",
             "arc": "ܡܪܝܡ",
+            "es": "María",
             "fr": "Marie",
             "it": "Maria"
         }
@@ -3997,6 +3998,26 @@
         },
         "died": [
             "1741-12-02"
+        ],
+        "feasts": []
+    },
+    "patrons/raphaela": {
+        "names": {
+            "la": "Raphaela",
+            "en": "Raphaela",
+            "pl": "Rafaela",
+            "es": "Rafaela"
+        }
+    },
+    "patrons/raphaela/por": {
+        "names": {
+            "es": "Rafaela María del Sagrado Corazón",
+            "en": "Rafaela Mary of the Sacred Heart",
+            "la": "Raphaela Maria a Sacro Corde",
+            "pl": "Rafaela Maria od Najświętszego Serca"
+        },
+        "died": [
+            "1925-01-06"
         ],
         "feasts": []
     },

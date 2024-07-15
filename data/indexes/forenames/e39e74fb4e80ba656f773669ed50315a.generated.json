@@ -15,6 +15,9 @@
         "arc": [
             "ܡܪܝܡ"
         ],
+        "es": [
+            "María"
+        ],
         "fr": [
             "Marie"
         ],
@@ -139,6 +142,12 @@
             "pl": "Maksymilian Maria Kolbe",
             "en": "Maximilian Maria Kolbe",
             "la": "Maximilianus Maria Kolbe"
+        },
+        "records/patrons/raphaela/por": {
+            "es": "Rafaela María del Sagrado Corazón",
+            "en": "Rafaela Mary of the Sacred Heart",
+            "la": "Raphaela Maria a Sacro Corde",
+            "pl": "Rafaela Maria od Najświętszego Serca"
         }
     }
 }

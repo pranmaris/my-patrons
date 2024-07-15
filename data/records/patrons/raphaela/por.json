@@ -1,0 +1,58 @@
+{
+  "names": {
+    "es": [
+      "Rafaela María del Sagrado Corazón",
+      "Rafaela Porras y Ayllón"
+    ],
+    "en": [
+      "Rafaela Mary of the Sacred Heart",
+      "Rafaela Porras y Ayllón"
+    ],
+    "la": [
+      "Raphaela Maria a Sacro Corde",
+      "Raphaela Maria Porras y Ayllón"
+    ],
+    "pl": [
+      "Rafaela Maria od Najświętszego Serca",
+      "Rafaela Porras y Ayllón"
+    ]
+  },
+
+  "surnames": [
+    {
+      "es": "Porras"
+    },
+    {
+      "es": "Ayllón"
+    }
+  ],
+
+  "epithets": [
+    {
+      "es": "del Sagrado Corazón",
+      "en": "of the Sacred Heart",
+      "la": "a Sacro Corde",
+      "pl": "od Najświętszego Serca"
+    }
+  ],
+
+  "born": ["1850-03-01"],
+  "died": ["1925-01-06"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1952-05-18"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1977-01-23"
+  },
+
+  "also-in-martyrology": ["01-06"],
+
+  "forenames": ["raphaela", "maria"],
+  "categories": ["femina", "virgo", "institutor"],
+
+  "order": ["aci"],
+  "order-founder": ["aci"]
+}

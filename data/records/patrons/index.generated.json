@@ -584,6 +584,7 @@
         "en": "Mary",
         "pl": "Maria",
         "arc": "ܡܪܝܡ",
+        "es": "María",
         "fr": "Marie",
         "it": "Maria"
     },
@@ -716,6 +717,12 @@
         "la": "Raphael",
         "en": "Raphael",
         "pl": "Rafał"
+    },
+    "raphaela": {
+        "la": "Raphaela",
+        "en": "Raphaela",
+        "pl": "Rafaela",
+        "es": "Rafaela"
     },
     "richardus": {
         "la": "Richardus",

@@ -1,0 +1,18 @@
+{
+    "names": {
+        "es": "Porras"
+    },
+    "translations": {
+        "es": [
+            "Porras"
+        ]
+    },
+    "links": {
+        "records/patrons/raphaela/por": {
+            "es": "Rafaela María del Sagrado Corazón",
+            "en": "Rafaela Mary of the Sacred Heart",
+            "la": "Raphaela Maria a Sacro Corde",
+            "pl": "Rafaela Maria od Najświętszego Serca"
+        }
+    }
+}

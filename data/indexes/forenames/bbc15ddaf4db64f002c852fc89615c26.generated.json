@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Raphaela",
+        "en": "Raphaela"
+    },
+    "translations": {
+        "la": [
+            "Raphaela"
+        ],
+        "en": [
+            "Raphaela"
+        ],
+        "pl": [
+            "Rafaela"
+        ],
+        "es": [
+            "Rafaela"
+        ]
+    },
+    "links": {
+        "records/patrons/raphaela/por": {
+            "es": "Rafaela María del Sagrado Corazón",
+            "en": "Rafaela Mary of the Sacred Heart",
+            "la": "Raphaela Maria a Sacro Corde",
+            "pl": "Rafaela Maria od Najświętszego Serca"
+        }
+    }
+}
