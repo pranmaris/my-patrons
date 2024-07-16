@@ -1,19 +1,5 @@
 <div id="main-page-main-content">
   <div align="center">
-    <a href="https://en.myPatrons.org">
-      <img src="https://flagcdn.com/w160/gb-eng.webp" class="flag-icon" />
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://la.myPatrons.org">
-      <img src="https://flagcdn.com/w160/va.webp" class="flag-icon" />
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://pl.myPatrons.org">
-      <img src="https://flagcdn.com/w160/pl.webp" class="flag-icon" />
-    </a>
-  </div>
-  <hr />
-  <div align="center">
     <input id="search-input" />
     <select id="search-select">
       <option value="categories">#lang-categories|capitalize#</option>
@@ -22,6 +8,10 @@
       <option value="epithets">#lang-epithets|capitalize#</option>
     </select>
     <button class="btn btn-primary" onclick="location = '/indexes/' + (document.getElementById('search-select').value ?? '') + '?q=' + document.getElementById('search-input').value">#lang-search|capitalize#</button>
+  </div>
+  <hr />
+  <div align="center">
+    <img src="#lang-main-page-logo-path|original-only-for-missing#" />
   </div>
   <hr />
   <ul>

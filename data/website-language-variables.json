@@ -886,6 +886,11 @@
         "pl": "strona główna"
     },
 
+    "lang-main-page-logo-path": {
+        "en": "/files/resources/brand/logo/rgb/horizontal/en-color-without-background.svg",
+        "pl": "/files/resources/brand/logo/rgb/horizontal/pl-color-without-background.svg"
+    },
+
     "lang-margin-size": {
         "en": "each side margin size (mm)",
         "pl": "rozmiar marginesu z każdej strony (mm)"
