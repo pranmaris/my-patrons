@@ -2,7 +2,7 @@
 
 class MainContentRouter extends Content
 {
-    private const TITLE_PREFIX = self::VARIABLE_NAME_SIGN . 'lang-service-name' . self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL . self::VARIABLE_NAME_SIGN;
+    private const TITLE_PREFIX = self::VARIABLE_NAME_SIGN . 'lang-service-name' . self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL_ONLY_FOR_MISSING . self::VARIABLE_NAME_SIGN;
 
     public function __construct()
     {

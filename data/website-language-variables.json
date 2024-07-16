@@ -1163,11 +1163,6 @@
         "pl": "inne imię "
     },
 
-    "lang-other-service-name-for-language": {
-        "en": "",
-        "pl": "moiPatroni.pl"
-    },
-
     "lang-owner": {
         "en": "owner",
         "pl": "właściciel"
@@ -1453,8 +1448,14 @@
         "pl": "szukaj"
     },
 
+    "lang-service-claim": {
+        "en": "Invite Heavenly Support",
+        "pl": "Zapraszaj Niebiańskie Wsparcie"
+    },
+
     "lang-service-name": {
-        "en": "myPatrons.org"
+        "en": "My Patrons",
+        "pl": "Moi Patroni"
     },
 
     "lang-skull-relics": {
