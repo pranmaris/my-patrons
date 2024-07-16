@@ -7,6 +7,17 @@
   RewriteBase /
 
   RewriteRule ^favicon\.ico$ /files/resources/favicon/favicon.ico [R=301,END]
+  RewriteRule ^favicon-32x32\.png$ /files/resources/favicon/favicon-32x32.png [R=301,END]
+  RewriteRule ^favicon-16x16\.png$ /files/resources/favicon/favicon-16x16.png [R=301,END]
+  RewriteRule ^site.webmanifest$ /files/resources/favicon/site.webmanifest [R=301,END]
+  RewriteRule ^safari-pinned-tab\.svg$ /files/resources/favicon/safari-pinned-tab.svg [R=301,END]
+  RewriteRule ^apple-touch-icon\.png /files/resources/favicon/apple-touch-icon.png [R=301,END]
+  RewriteRule ^apple-touch-icon-precomposed\.png /files/resources/favicon/apple-touch-icon-precomposed.png [R=301,END]
+  RewriteRule ^android-chrome-192x192\.png /files/resources/favicon/android-chrome-192x192.png [R=301,END]
+  RewriteRule ^android-chrome-512x512\.png /files/resources/favicon/android-chrome-512x512.png [R=301,END]
+  RewriteRule ^browserconfig\.xml /files/resources/favicon/browserconfig.xml [R=301,END]
+  RewriteRule ^mstile-150x150\.png$ /files/resources/favicon/mstile-150x150.png [R=301,END]
+
   RewriteRule ^(.+)/data/generated/?$ /data/$1.generated.json [END]
   RewriteRule ^(.+)/data/?$ /data/$1.json [END]
   RewriteRule ^files/(.*)$ $1 [END]
