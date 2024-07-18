@@ -1,0 +1,21 @@
+{
+  "names": {
+    "en": [
+      "Laurence of Canterbury",
+      "Lawrence of Canterbury"
+    ],
+    "la": [
+      "Laurentius Cantuariensis"
+    ],
+    "pl": [
+      "Wawrzyniec z Canterbury"
+    ]
+  },
+
+  "died": ["619-02-02"],
+
+  "also-in-martyrology": ["02-02"],
+
+  "forenames": ["laurentius"],
+  "categories": ["vir", "episcopus"]
+}

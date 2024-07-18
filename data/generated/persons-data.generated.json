@@ -2765,6 +2765,17 @@
             "pl": "Wawrzyniec"
         }
     },
+    "patrons/laurentius/can": {
+        "names": {
+            "en": "Laurence of Canterbury",
+            "la": "Laurentius Cantuariensis",
+            "pl": "Wawrzyniec z Canterbury"
+        },
+        "died": [
+            "619-02-02"
+        ],
+        "feasts": []
+    },
     "patrons/laurentius/rom": {
         "names": {
             "la": "Laurentius de Roma",

@@ -15,6 +15,11 @@
         ]
     },
     "links": {
+        "records/patrons/laurentius/can": {
+            "en": "Laurence of Canterbury",
+            "la": "Laurentius Cantuariensis",
+            "pl": "Wawrzyniec z Canterbury"
+        },
         "records/patrons/laurentius/rom": {
             "la": "Laurentius de Roma",
             "en": "Lawrence of Rome",

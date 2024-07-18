@@ -266,6 +266,19 @@
             }
         }
     },
+    "02-02": {
+        "records/patrons/laurentius/can": {
+            "name": {
+                "en": "Laurence of Canterbury",
+                "la": "Laurentius Cantuariensis",
+                "pl": "Wawrzyniec z Canterbury"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 II",
+                "other-martyrology-days": "2 II"
+            }
+        }
+    },
     "02-03": {
         "records/patrons/ansgarius/ham": {
             "name": {
