@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Falconieri"
+    },
+    "translations": {
+        "it": [
+            "Falconieri"
+        ]
+    },
+    "links": {
+        "records/patrons/alexius/fal": {
+            "it": "Alessio Falconieri",
+            "en": "Alexis Falconieri",
+            "la": "Alexius Falconieri",
+            "pl": "Aleksy Falconieri"
+        }
+    }
+}

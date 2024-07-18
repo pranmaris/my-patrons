@@ -1,0 +1,42 @@
+{
+  "names": {
+    "it": [
+      "Alessio Falconieri"
+    ],
+    "en": [
+      "Alexis Falconieri"
+    ],
+    "la": [
+      "Alexius Falconieri"
+    ],
+    "pl": [
+      "Aleksy Falconieri"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Falconieri"
+    }
+  ],
+
+  "born": [">1200"],
+  "died": ["1310-02-17"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1717-12-01"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1888-01-15"
+  },
+
+  "also-in-martyrology": ["02-17"],
+
+  "forenames": ["alexius"],
+  "categories": ["vir", "confessor", "fundator"],
+
+  "order": ["osm"],
+  "order-founder": ["osm"]
+}

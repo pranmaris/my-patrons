@@ -413,6 +413,20 @@
             }
         }
     },
+    "02-17": {
+        "records/patrons/alexius/fal": {
+            "name": {
+                "it": "Alessio Falconieri",
+                "en": "Alexis Falconieri",
+                "la": "Alexius Falconieri",
+                "pl": "Aleksy Falconieri"
+            },
+            "sources": {
+                "reliable-death-anniversary": "17 II",
+                "other-martyrology-days": "17 II"
+            }
+        }
+    },
     "02-19": {
         "records/patrons/iosephus/zap": {
             "name": {

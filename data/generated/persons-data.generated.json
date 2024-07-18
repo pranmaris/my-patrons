@@ -485,8 +485,21 @@
             "la": "Alexius",
             "en": "Lex",
             "pl": "Aleksy",
+            "it": "Alessio",
             "uk": "Олексій"
         }
+    },
+    "patrons/alexius/fal": {
+        "names": {
+            "it": "Alessio Falconieri",
+            "en": "Alexis Falconieri",
+            "la": "Alexius Falconieri",
+            "pl": "Aleksy Falconieri"
+        },
+        "died": [
+            "1310-02-17"
+        ],
+        "feasts": []
     },
     "patrons/alexius/zar": {
         "names": {

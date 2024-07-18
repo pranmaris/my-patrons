@@ -60,6 +60,12 @@
             "la": "Albertus Magnus",
             "pl": "Albert Wielki"
         },
+        "records/patrons/alexius/fal": {
+            "it": "Alessio Falconieri",
+            "en": "Alexis Falconieri",
+            "la": "Alexius Falconieri",
+            "pl": "Aleksy Falconieri"
+        },
         "records/patrons/alexius/zar": {
             "uk": "Олексій Васильович Зарицький",
             "la": "Alexius Zaryckyj",
