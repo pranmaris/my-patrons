@@ -2392,6 +2392,18 @@
         ],
         "feasts": []
     },
+    "patrons/ioannes/cal": {
+        "names": {
+            "it": "Giovanni Giuseppe della Croce",
+            "en": "John Joseph of the Cross",
+            "la": "Ioannes Ioseph a Cruce",
+            "pl": "Jan Józef od Krzyża"
+        },
+        "died": [
+            "1734-03-05"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/cap": {
         "names": {
             "it": "Giovanni da Capestrano",

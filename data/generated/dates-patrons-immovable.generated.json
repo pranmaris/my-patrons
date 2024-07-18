@@ -605,6 +605,18 @@
                 "other-martyrology-days": "5 III"
             }
         },
+        "records/patrons/ioannes/cal": {
+            "name": {
+                "it": "Giovanni Giuseppe della Croce",
+                "en": "John Joseph of the Cross",
+                "la": "Ioannes Ioseph a Cruce",
+                "pl": "Jan Józef od Krzyża"
+            },
+            "sources": {
+                "reliable-death-anniversary": "5 III",
+                "other-martyrology-days": "5 III"
+            }
+        },
         "records/patrons/virgilius/are": {
             "name": {
                 "la": "Virgilius Arelatensis",

@@ -1,6 +1,6 @@
 {
     "names": {
-        "en": "of the Cross"
+        "it": "della Croce"
     },
     "translations": {
         "it": [
@@ -14,9 +14,6 @@
         ],
         "pl": [
             "od Krzyża"
-        ],
-        "de": [
-            "vom Kreuz"
         ]
     },
     "links": {
@@ -25,12 +22,6 @@
             "en": "John Joseph of the Cross",
             "la": "Ioannes Ioseph a Cruce",
             "pl": "Jan Józef od Krzyża"
-        },
-        "records/patrons/teresia/ste": {
-            "de": "Therese Benedicta vom Kreuz",
-            "en": "Teresa Benedicta of the Cross",
-            "la": "Teresia Benedicta a Cruce",
-            "pl": "Teresa Benedykta od Krzyża"
         }
     }
 }

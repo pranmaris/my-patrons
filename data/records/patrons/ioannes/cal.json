@@ -1,0 +1,54 @@
+{
+  "names": {
+    "it": [
+      "Giovanni Giuseppe della Croce",
+      "Carlo Gaetano Calosirto"
+    ],
+    "en": [
+      "John Joseph of the Cross",
+      "Carlo Gaetano Calosirto"
+    ],
+    "la": [
+      "Ioannes Ioseph a Cruce"
+    ],
+    "pl": [
+      "Jan Józef od Krzyża",
+      "Karol Gaetano",
+      "Carlo Gaetano Calosirto"
+    ]
+  },
+
+  "epithets": [
+    {
+      "it": "della Croce",
+      "en": "of the Cross",
+      "la": "a Cruce",
+      "pl": "od Krzyża"
+    }
+  ],
+
+  "surnames": [
+    {
+      "it": "Calosirto"
+    }
+  ],
+
+  "born": ["1654-08-15"],
+  "died": ["1734-03-05"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1789-03-24"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1839-05-26"
+  },
+
+  "also-in-martyrology": ["03-05"],
+
+  "forenames": ["ioannes", "iosephus", "carolus", "caietanus"],
+  "categories": ["vir", "confessor", "sacerdos", "presbyter"],
+
+  "order": ["ofm"]
+}

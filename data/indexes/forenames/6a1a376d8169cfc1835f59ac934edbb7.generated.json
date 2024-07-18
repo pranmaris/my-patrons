@@ -1,14 +1,14 @@
 {
     "names": {
-        "la": "Joseph",
-        "en": "Joseph"
+        "en": "Joseph",
+        "la": "Joseph"
     },
     "translations": {
         "la": [
-            "Ioseph",
-            "Joseph",
             "Iosephus",
-            "Josephus"
+            "Josephus",
+            "Ioseph",
+            "Joseph"
         ],
         "en": [
             "Joseph"
@@ -16,17 +16,23 @@
         "pl": [
             "Józef"
         ],
-        "arc": [
-            "ܡܪܝ ܝܘܣܦ"
-        ],
         "it": [
             "Giuseppe"
         ],
         "vi": [
             "Giuse"
+        ],
+        "arc": [
+            "ܡܪܝ ܝܘܣܦ"
         ]
     },
     "links": {
+        "records/patrons/ioannes/cal": {
+            "it": "Giovanni Giuseppe della Croce",
+            "en": "John Joseph of the Cross",
+            "la": "Ioannes Ioseph a Cruce",
+            "pl": "Jan Józef od Krzyża"
+        },
         "records/patrons/ioseph/naz": {
             "arc": "ܡܪܝ ܝܘܣܦ",
             "en": "Joseph",
