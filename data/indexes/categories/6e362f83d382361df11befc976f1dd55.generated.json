@@ -267,6 +267,11 @@
             "la": "Sarbelius Makhlouf",
             "pl": "Szarbel Makhlouf"
         },
+        "records/patrons/valentinus/rom": {
+            "en": "Valentine of Rome",
+            "la": "Valentinus de Roma",
+            "pl": "Walenty z Rzymu"
+        },
         "records/patrons/vincentius/pau": {
             "fr": "Vincent de Paul",
             "en": "Vincent de Paul",

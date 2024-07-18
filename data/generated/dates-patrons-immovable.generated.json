@@ -389,6 +389,16 @@
             "sources": {
                 "other-martyrology-days": "14 II"
             }
+        },
+        "records/patrons/valentinus/rom": {
+            "name": {
+                "en": "Valentine of Rome",
+                "la": "Valentinus de Roma",
+                "pl": "Walenty z Rzymu"
+            },
+            "sources": {
+                "other-martyrology-days": "14 II"
+            }
         }
     },
     "02-15": {

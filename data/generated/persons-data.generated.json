@@ -4535,6 +4535,25 @@
         ],
         "feasts": []
     },
+    "patrons/valentinus": {
+        "names": {
+            "la": "Valentinus",
+            "en": "Valentine",
+            "pl": "Walenty"
+        }
+    },
+    "patrons/valentinus/rom": {
+        "names": {
+            "en": "Valentine of Rome",
+            "la": "Valentinus de Roma",
+            "pl": "Walenty z Rzymu"
+        },
+        "died": [
+            "~269",
+            "~270"
+        ],
+        "feasts": []
+    },
     "patrons/veronica": {
         "names": {
             "la": "Veronica",

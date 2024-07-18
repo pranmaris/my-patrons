@@ -1,0 +1,21 @@
+{
+  "names": {
+    "en": [
+      "Valentine of Rome"
+    ],
+    "la": [
+      "Valentinus de Roma"
+    ],
+    "pl": [
+      "Walenty z Rzymu"
+    ]
+  },
+
+  "born": ["~175", "~226"],
+  "died": ["~269", "~270"],
+
+  "also-in-martyrology": ["02-14"],
+
+  "forenames": ["valentinus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

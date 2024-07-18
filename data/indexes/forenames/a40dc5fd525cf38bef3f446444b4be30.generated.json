@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Walenty"
+    },
+    "translations": {
+        "la": [
+            "Valentinus"
+        ],
+        "en": [
+            "Valentine"
+        ],
+        "pl": [
+            "Walenty"
+        ]
+    },
+    "links": {
+        "records/patrons/valentinus/rom": {
+            "en": "Valentine of Rome",
+            "la": "Valentinus de Roma",
+            "pl": "Walenty z Rzymu"
+        }
+    }
+}
