@@ -1,0 +1,24 @@
+{
+  "names": {
+    "fr": [
+      "Gontran"
+    ],
+    "en": [
+      "Guntram"
+    ],
+    "la": [
+      "Gunthramnus"
+    ],
+    "pl": [
+      "Guntram"
+    ]
+  },
+
+  "born": ["~532"],
+  "died": ["592-03-28"],
+
+  "also-in-martyrology": ["03-28"],
+
+  "forenames": ["gunthramnus"],
+  "categories": ["vir", "rex"]
+}

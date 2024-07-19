@@ -2034,6 +2034,26 @@
         ],
         "feasts": []
     },
+    "patrons/gunthramnus": {
+        "names": {
+            "la": "Gunthramnus",
+            "en": "Guntram",
+            "pl": "Guntram",
+            "fr": "Gontran"
+        }
+    },
+    "patrons/gunthramnus/rex": {
+        "names": {
+            "fr": "Gontran",
+            "en": "Guntram",
+            "la": "Gunthramnus",
+            "pl": "Guntram"
+        },
+        "died": [
+            "592-03-28"
+        ],
+        "feasts": []
+    },
     "patrons/hedwigis": {
         "names": {
             "la": "Hedwigis",

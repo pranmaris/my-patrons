@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Gunthramnus"
+    },
+    "translations": {
+        "la": [
+            "Gunthramnus"
+        ],
+        "en": [
+            "Guntram"
+        ],
+        "pl": [
+            "Guntram"
+        ],
+        "fr": [
+            "Gontran"
+        ]
+    },
+    "links": {
+        "records/patrons/gunthramnus/rex": {
+            "fr": "Gontran",
+            "en": "Guntram",
+            "la": "Gunthramnus",
+            "pl": "Guntram"
+        }
+    }
+}

@@ -20,6 +20,12 @@
             "la": "Iesus Christus",
             "pl": "Jezus Chrystus"
         },
+        "records/patrons/gunthramnus/rex": {
+            "fr": "Gontran",
+            "en": "Guntram",
+            "la": "Gunthramnus",
+            "pl": "Guntram"
+        },
         "records/patrons/ioannes/rib": {
             "es": "Juan de Ribera",
             "en": "John de Ribera",

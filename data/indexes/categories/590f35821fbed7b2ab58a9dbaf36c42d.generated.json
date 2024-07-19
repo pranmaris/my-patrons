@@ -466,6 +466,12 @@
             "la": "Gregorius Nyssenus",
             "pl": "Grzegorz z Nyssy"
         },
+        "records/patrons/gunthramnus/rex": {
+            "fr": "Gontran",
+            "en": "Guntram",
+            "la": "Gunthramnus",
+            "pl": "Guntram"
+        },
         "records/patrons/hieronymus/tif": {
             "it": "Jeronimo Ranuzzi",
             "la": "Hieronymus Ranuzzi",

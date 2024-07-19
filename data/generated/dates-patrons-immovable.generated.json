@@ -806,6 +806,18 @@
         }
     },
     "03-28": {
+        "records/patrons/gunthramnus/rex": {
+            "name": {
+                "fr": "Gontran",
+                "en": "Guntram",
+                "la": "Gunthramnus",
+                "pl": "Guntram"
+            },
+            "sources": {
+                "reliable-death-anniversary": "28 III",
+                "other-martyrology-days": "28 III"
+            }
+        },
         "records/patrons/iosephus/pel": {
             "name": {
                 "pl": "Józef Sebastian Pelczar",

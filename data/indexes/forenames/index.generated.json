@@ -66,6 +66,10 @@
     "070000205695055c2921c199fd6f96b7": {
         "la": "Rochus"
     },
+    "075df80e892ec3796386ef5d0ece5b0e": {
+        "en": "Guntram",
+        "pl": "Guntram"
+    },
     "0831b4a2046a589f05af6adb585342aa": {
         "la": "Thaddaeus",
         "en": "Thaddaeus"
@@ -194,6 +198,9 @@
     },
     "1863fbf8fe3a98d8f8200953c42b32cc": {
         "fr": "Léonard"
+    },
+    "18ad93d61859c3a295c5124da8916345": {
+        "fr": "Gontran"
     },
     "192cd8ab27189931da71cda20ceb924c": {
         "pl": "Celestyna"
@@ -1780,6 +1787,9 @@
         "la": "Rong",
         "en": "Rong",
         "pl": "Rong"
+    },
+    "f14c99c772834c3c6148f9b6bf4c5d37": {
+        "la": "Gunthramnus"
     },
     "f3c0ff4acee8f5b9aa2165d00d789e5d": {
         "en": "Matilda"
