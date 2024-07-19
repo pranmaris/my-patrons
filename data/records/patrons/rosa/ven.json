@@ -1,0 +1,39 @@
+{
+  "names": {
+    "it": [
+      "Rosa Venerini"
+    ],
+    "en": [
+      "Rose Venerini"
+    ],
+    "la": [
+      "Rosa Venerini"
+    ],
+    "pl": [
+      "Róża Venerini"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Venerini"
+    }
+  ],
+
+  "born": ["1656-02-09"],
+  "died": ["1728-05-07"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1952-05-04"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2006-10-15"
+  },
+
+  "also-in-martyrology": ["05-07"],
+
+  "forenames": ["rosa"],
+  "categories": ["femina", "virgo"]
+}

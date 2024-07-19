@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Venerini"
+    },
+    "translations": {
+        "it": [
+            "Venerini"
+        ]
+    },
+    "links": {
+        "records/patrons/rosa/ven": {
+            "it": "Rosa Venerini",
+            "en": "Rose Venerini",
+            "la": "Rosa Venerini",
+            "pl": "Róża Venerini"
+        }
+    }
+}

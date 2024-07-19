@@ -1238,6 +1238,18 @@
         }
     },
     "05-07": {
+        "records/patrons/rosa/ven": {
+            "name": {
+                "it": "Rosa Venerini",
+                "en": "Rose Venerini",
+                "la": "Rosa Venerini",
+                "pl": "Róża Venerini"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 V",
+                "other-martyrology-days": "7 V"
+            }
+        },
         "records/patrons/antonius/ere": {
             "name": {
                 "uk": "Антоній Печерський",

@@ -4305,7 +4305,8 @@
             "la": "Rosa",
             "en": "Rose",
             "pl": "Róża",
-            "es": "Rosa"
+            "es": "Rosa",
+            "it": "Rosa"
         }
     },
     "patrons/rosa/lim": {
@@ -4317,6 +4318,18 @@
         },
         "died": [
             "1617-08-24"
+        ],
+        "feasts": []
+    },
+    "patrons/rosa/ven": {
+        "names": {
+            "it": "Rosa Venerini",
+            "en": "Rose Venerini",
+            "la": "Rosa Venerini",
+            "pl": "Róża Venerini"
+        },
+        "died": [
+            "1728-05-07"
         ],
         "feasts": []
     },

@@ -1,7 +1,8 @@
 {
     "names": {
         "la": "Rosa",
-        "es": "Rosa"
+        "es": "Rosa",
+        "it": "Rosa"
     },
     "translations": {
         "la": [
@@ -15,6 +16,9 @@
         ],
         "es": [
             "Rosa"
+        ],
+        "it": [
+            "Rosa"
         ]
     },
     "links": {
@@ -23,6 +27,12 @@
             "en": "Rose of Lima",
             "la": "Rosa de Lima",
             "pl": "Róża z Limy"
+        },
+        "records/patrons/rosa/ven": {
+            "it": "Rosa Venerini",
+            "en": "Rose Venerini",
+            "la": "Rosa Venerini",
+            "pl": "Róża Venerini"
         }
     }
 }
