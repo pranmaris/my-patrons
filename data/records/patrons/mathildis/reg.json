@@ -1,0 +1,24 @@
+{
+  "names": {
+    "de": [
+      "Mathilde von Ringelheim"
+    ],
+    "en": [
+      "Matilda of Ringelheim"
+    ],
+    "la": [
+      "Mathildis de Ringelheim"
+    ],
+    "pl": [
+      "Matylda von Ringelheim"
+    ]
+  },
+
+  "born": ["~895"],
+  "died": ["968-03-14"],
+
+  "also-in-martyrology": ["03-14"],
+
+  "forenames": ["mathildis"],
+  "categories": ["femina", "uxor", "regina"]
+}

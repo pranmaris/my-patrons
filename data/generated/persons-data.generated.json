@@ -3440,6 +3440,26 @@
         ],
         "feasts": []
     },
+    "patrons/mathildis": {
+        "names": {
+            "la": "Mathildis",
+            "en": "Matilda",
+            "pl": "Matylda",
+            "de": "Mathilde"
+        }
+    },
+    "patrons/mathildis/reg": {
+        "names": {
+            "de": "Mathilde von Ringelheim",
+            "en": "Matilda of Ringelheim",
+            "la": "Mathildis de Ringelheim",
+            "pl": "Matylda von Ringelheim"
+        },
+        "died": [
+            "968-03-14"
+        ],
+        "feasts": []
+    },
     "patrons/matthaeus": {
         "names": {
             "la": "Matthaeus",

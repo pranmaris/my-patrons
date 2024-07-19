@@ -26,6 +26,12 @@
             "la": "Maria Virgo",
             "pl": "Maria z Nazaretu"
         },
+        "records/patrons/mathildis/reg": {
+            "de": "Mathilde von Ringelheim",
+            "en": "Matilda of Ringelheim",
+            "la": "Mathildis de Ringelheim",
+            "pl": "Matylda von Ringelheim"
+        },
         "records/patrons/salomea/reg": {
             "pl": "Salomea Piastówna",
             "en": "Salomea of the Poland",

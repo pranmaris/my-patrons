@@ -24,6 +24,12 @@
             "en": "Daria /+ Chrysanthus",
             "pl": "Daria /+ Chryzant"
         },
+        "records/patrons/mathildis/reg": {
+            "de": "Mathilde von Ringelheim",
+            "en": "Matilda of Ringelheim",
+            "la": "Mathildis de Ringelheim",
+            "pl": "Matylda von Ringelheim"
+        },
         "records/patrons/sabigothon/aur": {
             "la": "Sabigothon Natalia /+ Aurelius et alii",
             "en": "Sabigothon Natalie /+ Aurelius and others",

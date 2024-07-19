@@ -267,6 +267,12 @@
             "en": "Mary Imelda of the Eucharistic Jesus",
             "la": "Maria Imelda a Iesu Hostia"
         },
+        "records/patrons/mathildis/reg": {
+            "de": "Mathilde von Ringelheim",
+            "en": "Matilda of Ringelheim",
+            "la": "Mathildis de Ringelheim",
+            "pl": "Matylda von Ringelheim"
+        },
         "records/patrons/monica/vid": {
             "la": "Monica Thagastensis",
             "en": "Monica of Tagasta",

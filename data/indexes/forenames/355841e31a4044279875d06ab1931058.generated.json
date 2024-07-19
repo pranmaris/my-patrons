@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Mathildis"
+    },
+    "translations": {
+        "la": [
+            "Mathildis"
+        ],
+        "en": [
+            "Matilda"
+        ],
+        "pl": [
+            "Matylda"
+        ],
+        "de": [
+            "Mathilde"
+        ]
+    },
+    "links": {
+        "records/patrons/mathildis/reg": {
+            "de": "Mathilde von Ringelheim",
+            "en": "Matilda of Ringelheim",
+            "la": "Mathildis de Ringelheim",
+            "pl": "Matylda von Ringelheim"
+        }
+    }
+}
