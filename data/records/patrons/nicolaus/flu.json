@@ -1,0 +1,34 @@
+{
+  "names": {
+    "de": [
+      "Niklaus von Flüe"
+    ],
+    "en": [
+      "Nicholas of Flüe",
+      "Nicholas of Flue"
+    ],
+    "la": [
+      "Nicolaus de Flue"
+    ],
+    "pl": [
+      "Mikołaj z Flüe"
+    ]
+  },
+
+  "born": ["1417"],
+  "died": ["1487-03-21"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1669-03-08"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1947-05-15"
+  },
+
+  "also-in-martyrology": ["03-21"],
+
+  "forenames": ["nicolaus"],
+  "categories": ["vir", "paterfamilias", "anachoreta"]
+}

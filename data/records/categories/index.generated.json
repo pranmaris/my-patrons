@@ -19,6 +19,11 @@
         "en": "other apostle",
         "pl": "inny apostoł"
     },
+    "anachoreta": {
+        "la": "anachoreta",
+        "en": "anachorite",
+        "pl": "anachoreta"
+    },
     "angelus": {
         "la": "angelus",
         "en": "angel",
@@ -213,6 +218,11 @@
         "la": "papa",
         "en": "pope",
         "pl": "papież"
+    },
+    "paterfamilias": {
+        "la": "paterfamilias",
+        "en": "father of the household",
+        "pl": "ojciec rodziny"
     },
     "patriarcha": {
         "la": "patriarcha",
