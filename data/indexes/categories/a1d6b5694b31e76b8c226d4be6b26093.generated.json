@@ -25,6 +25,11 @@
             "la": "Lucas Evangelista",
             "pl": "Łukasz Ewangelista"
         },
+        "records/patrons/marcus/eva": {
+            "la": "Marcus Evangelista",
+            "en": "Mark the Evangelist",
+            "pl": "Marek Ewangelista"
+        },
         "records/patrons/matthaeus/eva": {
             "he": "מתיו האוונגליסט",
             "en": "Matthew the Evengelist",

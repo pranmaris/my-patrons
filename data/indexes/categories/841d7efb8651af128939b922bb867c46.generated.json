@@ -272,6 +272,11 @@
             "en": "Pope Marcellinus",
             "pl": "Marcelin Papież"
         },
+        "records/patrons/marcus/eva": {
+            "la": "Marcus Evangelista",
+            "en": "Mark the Evangelist",
+            "pl": "Marek Ewangelista"
+        },
         "records/patrons/marcus/hie": {
             "la": "Marcus Hierosolymitanus",
             "en": "Mark of Jerusalem",

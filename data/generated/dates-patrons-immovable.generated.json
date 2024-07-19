@@ -1076,6 +1076,18 @@
             }
         }
     },
+    "04-25": {
+        "records/patrons/marcus/eva": {
+            "name": {
+                "la": "Marcus Evangelista",
+                "en": "Mark the Evangelist",
+                "pl": "Marek Ewangelista"
+            },
+            "sources": {
+                "other-martyrology-days": "25 IV"
+            }
+        }
+    },
     "04-26": {
         "records/patrons/richarius/cen": {
             "name": {

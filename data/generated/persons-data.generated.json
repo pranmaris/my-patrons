@@ -3048,6 +3048,17 @@
             "pl": "Marek"
         }
     },
+    "patrons/marcus/eva": {
+        "names": {
+            "la": "Marcus Evangelista",
+            "en": "Mark the Evangelist",
+            "pl": "Marek Ewangelista"
+        },
+        "died": [
+            "~68"
+        ],
+        "feasts": []
+    },
     "patrons/marcus/hie": {
         "names": {
             "la": "Marcus Hierosolymitanus",
