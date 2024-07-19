@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "Roman",
+        "pl": "Roman"
+    },
+    "translations": {
+        "la": [
+            "Romanus"
+        ],
+        "en": [
+            "Roman"
+        ],
+        "pl": [
+            "Roman"
+        ]
+    },
+    "links": {
+        "records/patrons/romanus/arc": {
+            "pl": "Roman Archutowski",
+            "en": "Roman Archutowski",
+            "la": "Romanus Archutowski"
+        }
+    }
+}

@@ -1323,6 +1323,10 @@
     "b4d9e2f31be5d6f6051cd639116426b6": {
         "pl": "Leokadia"
     },
+    "b5df36ac79aa6391ffb432b9e5ad7880": {
+        "en": "Roman",
+        "pl": "Roman"
+    },
     "b661c75cd69e245a2b9f3be5bbcfbe46": {
         "la": "Josephus"
     },
@@ -1790,6 +1794,9 @@
     },
     "f14c99c772834c3c6148f9b6bf4c5d37": {
         "la": "Gunthramnus"
+    },
+    "f16627b2063b702f580dfb2a9cff7f92": {
+        "la": "Romanus"
     },
     "f3c0ff4acee8f5b9aa2165d00d789e5d": {
         "en": "Matilda"

@@ -268,6 +268,11 @@
             "la": "Richarius Centulensis",
             "pl": "Rychard z Centuli"
         },
+        "records/patrons/romanus/arc": {
+            "pl": "Roman Archutowski",
+            "en": "Roman Archutowski",
+            "la": "Romanus Archutowski"
+        },
         "records/patrons/sarbelius/mak": {
             "ar": "شربل مخلوف",
             "en": "Charbel Makhlouf",

@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Roman Archutowski"
+    ],
+    "en": [
+      "Roman Archutowski"
+    ],
+    "la": [
+      "Romanus Archutowski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Archutowski"
+    }
+  ],
+
+  "born": ["1882-08-05"],
+  "died": ["1943-04-18"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["04-18"],
+
+  "forenames": ["romanus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

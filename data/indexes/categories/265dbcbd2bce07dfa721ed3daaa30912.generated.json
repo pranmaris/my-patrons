@@ -484,6 +484,11 @@
             "en": "Pontian Pope",
             "pl": "Poncjan Papież"
         },
+        "records/patrons/romanus/arc": {
+            "pl": "Roman Archutowski",
+            "en": "Roman Archutowski",
+            "la": "Romanus Archutowski"
+        },
         "records/patrons/sabigothon/aur": {
             "la": "Sabigothon Natalia /+ Aurelius et alii",
             "en": "Sabigothon Natalie /+ Aurelius and others",

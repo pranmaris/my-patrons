@@ -349,6 +349,11 @@
             "en": "Pontian Pope",
             "pl": "Poncjan Papież"
         },
+        "records/patrons/romanus/arc": {
+            "pl": "Roman Archutowski",
+            "en": "Roman Archutowski",
+            "la": "Romanus Archutowski"
+        },
         "records/patrons/saturninus/tol": {
             "la": "Saturninus Tolosanensis",
             "en": "Saturnin of Toulouse",

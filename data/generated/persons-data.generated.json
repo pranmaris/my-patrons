@@ -4253,6 +4253,24 @@
         ],
         "feasts": []
     },
+    "patrons/romanus": {
+        "names": {
+            "la": "Romanus",
+            "en": "Roman",
+            "pl": "Roman"
+        }
+    },
+    "patrons/romanus/arc": {
+        "names": {
+            "pl": "Roman Archutowski",
+            "en": "Roman Archutowski",
+            "la": "Romanus Archutowski"
+        },
+        "died": [
+            "1943-04-18"
+        ],
+        "feasts": []
+    },
     "patrons/rosa": {
         "names": {
             "la": "Rosa",
