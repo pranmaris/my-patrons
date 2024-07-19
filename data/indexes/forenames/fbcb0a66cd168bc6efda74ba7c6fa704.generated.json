@@ -1,0 +1,30 @@
+{
+    "names": {
+        "la": "Gemma",
+        "en": "Gemma",
+        "pl": "Gemma",
+        "it": "Gemma"
+    },
+    "translations": {
+        "la": [
+            "Gemma"
+        ],
+        "en": [
+            "Gemma"
+        ],
+        "pl": [
+            "Gemma"
+        ],
+        "it": [
+            "Gemma"
+        ]
+    },
+    "links": {
+        "records/patrons/gemma/gal": {
+            "it": "Gemma Galgani",
+            "en": "Gemma Galgani",
+            "la": "Gemma Galgani",
+            "pl": "Gemma Galgani"
+        }
+    }
+}

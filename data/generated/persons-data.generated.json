@@ -1964,6 +1964,26 @@
         ],
         "feasts": []
     },
+    "patrons/gemma": {
+        "names": {
+            "la": "Gemma",
+            "en": "Gemma",
+            "pl": "Gemma",
+            "it": "Gemma"
+        }
+    },
+    "patrons/gemma/gal": {
+        "names": {
+            "it": "Gemma Galgani",
+            "en": "Gemma Galgani",
+            "la": "Gemma Galgani",
+            "pl": "Gemma Galgani"
+        },
+        "died": [
+            "1903-04-11"
+        ],
+        "feasts": []
+    },
     "patrons/genovefa": {
         "names": {
             "la": "Genovefa",

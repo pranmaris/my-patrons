@@ -977,6 +977,18 @@
         }
     },
     "04-11": {
+        "records/patrons/gemma/gal": {
+            "name": {
+                "it": "Gemma Galgani",
+                "en": "Gemma Galgani",
+                "la": "Gemma Galgani",
+                "pl": "Gemma Galgani"
+            },
+            "sources": {
+                "reliable-death-anniversary": "11 IV",
+                "other-martyrology-days": "11 IV"
+            }
+        },
         "records/patrons/stanislaus/cra": {
             "name": {
                 "pl": "Stanisław ze Szczepanowa",

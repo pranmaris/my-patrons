@@ -1,0 +1,40 @@
+{
+  "names": {
+    "it": [
+      "Gemma Galgani"
+    ],
+    "en": [
+      "Gemma Galgani"
+    ],
+    "la": [
+      "Gemma Galgani"
+    ],
+    "pl": [
+      "Gemma Galgani",
+      "Maria Gemma Umberta Galgani"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Galgani"
+    }
+  ],
+
+  "born": ["1878-03-12"],
+  "died": ["1903-04-11"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1933-05-14"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1940-05-02"
+  },
+
+  "also-in-martyrology": ["04-11"],
+
+  "forenames": ["gemma"],
+  "categories": ["femina", "virgo"]
+}
