@@ -1166,6 +1166,19 @@
             }
         }
     },
+    "05-02": {
+        "records/patrons/athanasius/ale": {
+            "name": {
+                "la": "Athanasius Magnus",
+                "en": "Athanasius the Great",
+                "pl": "Atanazy Wielki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 V",
+                "other-martyrology-days": "2 V"
+            }
+        }
+    },
     "05-03": {
         "records/patrons/iacobus/min": {
             "name": {

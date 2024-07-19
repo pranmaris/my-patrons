@@ -31,6 +31,11 @@
             "en": "Anthony of Padua",
             "pl": "Antoni Padewski"
         },
+        "records/patrons/athanasius/ale": {
+            "la": "Athanasius Magnus",
+            "en": "Athanasius the Great",
+            "pl": "Atanazy Wielki"
+        },
         "records/patrons/bernardinus/sen": {
             "it": "Bernardino da Siena",
             "en": "Bernardine of Siena",

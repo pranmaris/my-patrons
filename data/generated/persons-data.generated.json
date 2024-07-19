@@ -865,6 +865,24 @@
         ],
         "feasts": []
     },
+    "patrons/athanasius": {
+        "names": {
+            "la": "Athanasius",
+            "en": "Athanasius",
+            "pl": "Atanazy"
+        }
+    },
+    "patrons/athanasius/ale": {
+        "names": {
+            "la": "Athanasius Magnus",
+            "en": "Athanasius the Great",
+            "pl": "Atanazy Wielki"
+        },
+        "died": [
+            "373-05-02"
+        ],
+        "feasts": []
+    },
     "patrons/augustinus": {
         "names": {
             "la": "Augustinus",

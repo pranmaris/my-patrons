@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Atanazy"
+    },
+    "translations": {
+        "la": [
+            "Athanasius"
+        ],
+        "en": [
+            "Athanasius"
+        ],
+        "pl": [
+            "Atanazy"
+        ]
+    },
+    "links": {
+        "records/patrons/athanasius/ale": {
+            "la": "Athanasius Magnus",
+            "en": "Athanasius the Great",
+            "pl": "Atanazy Wielki"
+        }
+    }
+}

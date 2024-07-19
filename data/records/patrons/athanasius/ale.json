@@ -1,0 +1,24 @@
+{
+  "names": {
+    "la": [
+      "Athanasius Magnus",
+      "Athanasius Alexandrinus"
+    ],
+    "en": [
+      "Athanasius the Great",
+      "Athanasius of Alexandria"
+    ],
+    "pl": [
+      "Atanazy Wielki",
+      "Atanazy z Aleksandrii"
+    ]
+  },
+
+  "born": ["~295"],
+  "died": ["373-05-02"],
+
+  "also-in-martyrology": ["05-02"],
+
+  "forenames": ["athanasius"],
+  "categories": ["vir", "confessor", "episcopus", "sacerdos", "doctor-ecclesiae"]
+}

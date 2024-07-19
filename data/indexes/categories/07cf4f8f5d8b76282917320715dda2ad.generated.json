@@ -190,6 +190,11 @@
             "en": "Anthony of Padua",
             "pl": "Antoni Padewski"
         },
+        "records/patrons/athanasius/ale": {
+            "la": "Athanasius Magnus",
+            "en": "Athanasius the Great",
+            "pl": "Atanazy Wielki"
+        },
         "records/patrons/augustinus/hip": {
             "la": "Augustinus Hipponensis",
             "en": "Augustine of Hippo",
