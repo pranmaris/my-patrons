@@ -29,6 +29,12 @@
             "la": "Franciscus Asisiensis",
             "pl": "Franciszek z Asyżu"
         },
+        "records/patrons/franciscus/car": {
+            "it": "Francesco Caracciolo",
+            "en": "Francis Caracciolo",
+            "la": "Franciscus Caracciolo",
+            "pl": "Franciszek Caracciolo"
+        },
         "records/patrons/franciscus/kes": {
             "pl": "Franciszek Kęsy",
             "en": "Franciszek Kęsy",

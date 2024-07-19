@@ -1,0 +1,42 @@
+{
+  "names": {
+    "it": [
+      "Francesco Caracciolo"
+    ],
+    "en": [
+      "Francis Caracciolo"
+    ],
+    "la": [
+      "Franciscus Caracciolo"
+    ],
+    "pl": [
+      "Franciszek Caracciolo"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Caracciolo"
+    }
+  ],
+
+  "born": ["1563-10-13"],
+  "died": ["1608-06-04"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1769-09-10"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1807-05-24"
+  },
+
+  "also-in-martyrology": ["06-04"],
+
+  "forenames": ["franciscus"],
+  "categories": ["vir", "confessor", "presbyter", "fundator"],
+
+  "order": ["crm"],
+  "order-founder": ["crm"]
+}

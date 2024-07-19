@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Caracciolo"
+    },
+    "translations": {
+        "it": [
+            "Caracciolo"
+        ]
+    },
+    "links": {
+        "records/patrons/franciscus/car": {
+            "it": "Francesco Caracciolo",
+            "en": "Francis Caracciolo",
+            "la": "Franciscus Caracciolo",
+            "pl": "Franciszek Caracciolo"
+        }
+    }
+}

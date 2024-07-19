@@ -1512,6 +1512,20 @@
             }
         }
     },
+    "06-04": {
+        "records/patrons/franciscus/car": {
+            "name": {
+                "it": "Francesco Caracciolo",
+                "en": "Francis Caracciolo",
+                "la": "Franciscus Caracciolo",
+                "pl": "Franciszek Caracciolo"
+            },
+            "sources": {
+                "reliable-death-anniversary": "4 VI",
+                "other-martyrology-days": "4 VI"
+            }
+        }
+    },
     "06-05": {
         "records/patrons/bonifatius/win": {
             "name": {

@@ -1847,6 +1847,18 @@
         ],
         "feasts": []
     },
+    "patrons/franciscus/car": {
+        "names": {
+            "it": "Francesco Caracciolo",
+            "en": "Francis Caracciolo",
+            "la": "Franciscus Caracciolo",
+            "pl": "Franciszek Caracciolo"
+        },
+        "died": [
+            "1608-06-04"
+        ],
+        "feasts": []
+    },
     "patrons/franciscus/kes": {
         "names": {
             "pl": "Franciszek Kęsy",

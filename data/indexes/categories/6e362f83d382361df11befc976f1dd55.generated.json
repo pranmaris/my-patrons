@@ -124,6 +124,12 @@
             "la": "Dominicus Oxomensis",
             "pl": "Dominik Guzmán"
         },
+        "records/patrons/franciscus/car": {
+            "it": "Francesco Caracciolo",
+            "en": "Francis Caracciolo",
+            "la": "Franciscus Caracciolo",
+            "pl": "Franciszek Caracciolo"
+        },
         "records/patrons/franciscus/xav": {
             "es": "Francisco Javier",
             "en": "Francis Xavier",
