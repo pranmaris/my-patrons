@@ -1420,6 +1420,30 @@
             }
         }
     },
+    "05-23": {
+        "records/patrons/iosephus/kur": {
+            "name": {
+                "pl": "Józef Kurzawa",
+                "en": "Joseph Kurzawa",
+                "la": "Iosephus Kurzawa"
+            },
+            "sources": {
+                "other-martyrology-days": "23 V"
+            }
+        }
+    },
+    "05-24": {
+        "records/patrons/iosephus/kur": {
+            "name": {
+                "pl": "Józef Kurzawa",
+                "en": "Joseph Kurzawa",
+                "la": "Iosephus Kurzawa"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 V"
+            }
+        }
+    },
     "05-26": {
         "records/patrons/philippus/ner": {
             "name": {

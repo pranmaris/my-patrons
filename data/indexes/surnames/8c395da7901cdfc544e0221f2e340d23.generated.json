@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Kurzawa"
+    },
+    "translations": {
+        "pl": [
+            "Kurzawa"
+        ]
+    },
+    "links": {
+        "records/patrons/iosephus/kur": {
+            "pl": "Józef Kurzawa",
+            "en": "Joseph Kurzawa",
+            "la": "Iosephus Kurzawa"
+        }
+    }
+}

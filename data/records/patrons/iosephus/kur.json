@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Józef Kurzawa"
+    ],
+    "en": [
+      "Joseph Kurzawa"
+    ],
+    "la": [
+      "Iosephus Kurzawa"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Kurzawa"
+    }
+  ],
+
+  "born": ["1910-01-06"],
+  "died": ["1940-05-23", "1940-05-24"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["05-23"],
+
+  "forenames": ["iosephus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

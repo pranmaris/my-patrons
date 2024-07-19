@@ -2682,6 +2682,18 @@
         ],
         "feasts": []
     },
+    "patrons/iosephus/kur": {
+        "names": {
+            "pl": "Józef Kurzawa",
+            "en": "Joseph Kurzawa",
+            "la": "Iosephus Kurzawa"
+        },
+        "died": [
+            "1940-05-23",
+            "1940-05-24"
+        ],
+        "feasts": []
+    },
     "patrons/iosephus/ngu": {
         "names": {
             "vi": "Giuse Nguyễn Đình Nghi",
