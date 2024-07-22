@@ -1,4 +1,9 @@
 {
+    "ale": {
+        "la": "Cyrillus Alexandrinus",
+        "en": "Cyril of Alexandria",
+        "pl": "Cyryl Aleksandryjski"
+    },
     "met": {
         "la": "Cyrillus /+ Methodius",
         "en": "Cyril of Thessalonica",

@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Cyrillus Alexandrinus"
+    ],
+    "en": [
+      "Cyril of Alexandria"
+    ],
+    "pl": [
+      "Cyryl Aleksandryjski"
+    ]
+  },
+
+  "born": ["~378"],
+  "died": ["444-06-27"],
+
+  "also-in-martyrology": ["01-28", "02-09", "06-27"],
+
+  "forenames": ["cyrillus"],
+  "categories": ["vir", "confessor", "episcopus", "doctor-ecclesiae"]
+}

@@ -321,6 +321,11 @@
             "la": "Cosmas /+ Damianus",
             "pl": "Kosma /+ Damian"
         },
+        "records/patrons/cyrillus/ale": {
+            "la": "Cyrillus Alexandrinus",
+            "en": "Cyril of Alexandria",
+            "pl": "Cyryl Aleksandryjski"
+        },
         "records/patrons/cyrillus/met": {
             "la": "Cyrillus /+ Methodius",
             "en": "Cyril of Thessalonica",

@@ -237,6 +237,16 @@
             "sources": {
                 "other-martyrology-days": "28 I"
             }
+        },
+        "records/patrons/cyrillus/ale": {
+            "name": {
+                "la": "Cyrillus Alexandrinus",
+                "en": "Cyril of Alexandria",
+                "pl": "Cyryl Aleksandryjski"
+            },
+            "sources": {
+                "other-martyrology-days": "28 I"
+            }
         }
     },
     "01-29": {
@@ -339,6 +349,18 @@
             },
             "sources": {
                 "reliable-death-anniversary": "8 II"
+            }
+        }
+    },
+    "02-09": {
+        "records/patrons/cyrillus/ale": {
+            "name": {
+                "la": "Cyrillus Alexandrinus",
+                "en": "Cyril of Alexandria",
+                "pl": "Cyryl Aleksandryjski"
+            },
+            "sources": {
+                "other-martyrology-days": "9 II"
             }
         }
     },
@@ -1678,6 +1700,19 @@
             "sources": {
                 "reliable-death-anniversary": "26 VI",
                 "other-martyrology-days": "26 VI"
+            }
+        }
+    },
+    "06-27": {
+        "records/patrons/cyrillus/ale": {
+            "name": {
+                "la": "Cyrillus Alexandrinus",
+                "en": "Cyril of Alexandria",
+                "pl": "Cyryl Aleksandryjski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "27 VI",
+                "other-martyrology-days": "27 VI"
             }
         }
     },

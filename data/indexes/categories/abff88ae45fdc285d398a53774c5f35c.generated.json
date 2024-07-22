@@ -83,6 +83,11 @@
             "en": "Casimir Jagiellon",
             "la": "Casimirus Princeps"
         },
+        "records/patrons/cyrillus/ale": {
+            "la": "Cyrillus Alexandrinus",
+            "en": "Cyril of Alexandria",
+            "pl": "Cyryl Aleksandryjski"
+        },
         "records/patrons/cyrillus/met": {
             "la": "Cyrillus /+ Methodius",
             "en": "Cyril of Thessalonica",

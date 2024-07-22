@@ -1474,6 +1474,17 @@
             "pl": "Cyryl"
         }
     },
+    "patrons/cyrillus/ale": {
+        "names": {
+            "la": "Cyrillus Alexandrinus",
+            "en": "Cyril of Alexandria",
+            "pl": "Cyryl Aleksandryjski"
+        },
+        "died": [
+            "444-06-27"
+        ],
+        "feasts": []
+    },
     "patrons/cyrillus/met": {
         "names": {
             "la": "Cyrillus /+ Methodius",
