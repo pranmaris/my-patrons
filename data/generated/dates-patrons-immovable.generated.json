@@ -1549,6 +1549,20 @@
             }
         }
     },
+    "06-06": {
+        "records/patrons/norbertus/mag": {
+            "name": {
+                "de": "Norbert von Xanten",
+                "en": "Norbert of Xanten",
+                "la": "Norbertus Magdeburgensis",
+                "pl": "Norbert z Xanten"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 VI",
+                "other-martyrology-days": "6 VI"
+            }
+        }
+    },
     "06-07": {
         "records/patrons/paulus/con": {
             "name": {

@@ -50,6 +50,12 @@
             "la": "Gaspar del Bufalo",
             "pl": "Kasper del Bufalo"
         },
+        "records/patrons/norbertus/mag": {
+            "de": "Norbert von Xanten",
+            "en": "Norbert of Xanten",
+            "la": "Norbertus Magdeburgensis",
+            "pl": "Norbert z Xanten"
+        },
         "records/patrons/petrus/eym": {
             "fr": "Pierre-Julien Eymard",
             "en": "Peter Julian Eymanrd",

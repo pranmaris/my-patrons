@@ -118,6 +118,12 @@
             "en": "Maximilian Maria Kolbe",
             "la": "Maximilianus Maria Kolbe"
         },
+        "records/patrons/norbertus/mag": {
+            "de": "Norbert von Xanten",
+            "en": "Norbert of Xanten",
+            "la": "Norbertus Magdeburgensis",
+            "pl": "Norbert z Xanten"
+        },
         "records/patrons/philippus/ner": {
             "it": "Filippo Neri",
             "en": "Fhilip Neri",

@@ -1,0 +1,33 @@
+{
+  "names": {
+    "de": [
+      "Norbert von Xanten"
+    ],
+    "en": [
+      "Norbert of Xanten",
+      "Norbert Gennep"
+    ],
+    "la": [
+      "Norbertus Magdeburgensis"
+    ],
+    "pl": [
+      "Norbert z Xanten"
+    ]
+  },
+
+  "born": ["~1080"],
+  "died": ["1134-06-06"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1582-07-28"
+  },
+
+  "also-in-martyrology": ["06-06"],
+
+  "forenames": ["norbertus"],
+  "categories": ["vir", "confessor", "episcopus", "fundator", "institutor"],
+
+  "order": ["opraem"],
+  "order-founder": ["opraem"]
+}

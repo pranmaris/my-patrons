@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Norbertus"
+    },
+    "translations": {
+        "la": [
+            "Norbertus"
+        ],
+        "en": [
+            "Norbert"
+        ],
+        "pl": [
+            "Norbert"
+        ],
+        "de": [
+            "Norbert"
+        ]
+    },
+    "links": {
+        "records/patrons/norbertus/mag": {
+            "de": "Norbert von Xanten",
+            "en": "Norbert of Xanten",
+            "la": "Norbertus Magdeburgensis",
+            "pl": "Norbert z Xanten"
+        }
+    }
+}

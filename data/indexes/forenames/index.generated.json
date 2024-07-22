@@ -154,6 +154,9 @@
         "la": "Didacus",
         "en": "Didacus"
     },
+    "10b0e6e2349c924f1133e49e214b3d3d": {
+        "la": "Norbertus"
+    },
     "1176418e7cc958df81784bd836b4d2f2": {
         "cz": "Vojtěch"
     },
@@ -1610,6 +1613,11 @@
     },
     "d4d637abc4c55b49ce90b4d5df20dcdb": {
         "pl": "Hormizdas"
+    },
+    "d51aa1fcf97c638e4fb09e39cb664a39": {
+        "en": "Norbert",
+        "pl": "Norbert",
+        "de": "Norbert"
     },
     "d5216d56cf18e82d7130660e05ee1899": {
         "la": "Petrus"

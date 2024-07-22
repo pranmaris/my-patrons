@@ -224,6 +224,12 @@
             "la": "Nicolaus Myrensis",
             "pl": "Mikołaj z Miry"
         },
+        "records/patrons/norbertus/mag": {
+            "de": "Norbert von Xanten",
+            "en": "Norbert of Xanten",
+            "la": "Norbertus Magdeburgensis",
+            "pl": "Norbert z Xanten"
+        },
         "records/patrons/paphnutius/epi": {
             "la": "Paphnutius Thebanus",
             "en": "Paphnutius of Thebes",

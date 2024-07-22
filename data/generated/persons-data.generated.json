@@ -3800,6 +3800,26 @@
         ],
         "feasts": []
     },
+    "patrons/norbertus": {
+        "names": {
+            "la": "Norbertus",
+            "en": "Norbert",
+            "pl": "Norbert",
+            "de": "Norbert"
+        }
+    },
+    "patrons/norbertus/mag": {
+        "names": {
+            "de": "Norbert von Xanten",
+            "en": "Norbert of Xanten",
+            "la": "Norbertus Magdeburgensis",
+            "pl": "Norbert z Xanten"
+        },
+        "died": [
+            "1134-06-06"
+        ],
+        "feasts": []
+    },
     "patrons/oswaldus": {
         "names": {
             "la": "Oswaldus",

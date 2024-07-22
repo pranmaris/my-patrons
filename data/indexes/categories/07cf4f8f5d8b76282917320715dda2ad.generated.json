@@ -816,6 +816,12 @@
             "la": "Nicolaus Myrensis",
             "pl": "Mikołaj z Miry"
         },
+        "records/patrons/norbertus/mag": {
+            "de": "Norbert von Xanten",
+            "en": "Norbert of Xanten",
+            "la": "Norbertus Magdeburgensis",
+            "pl": "Norbert z Xanten"
+        },
         "records/patrons/oswaldus/nor": {
             "en": "Oswald of Northumbria",
             "la": "Oswaldus rex Northumbriae",
