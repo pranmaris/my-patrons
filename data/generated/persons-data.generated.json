@@ -1038,6 +1038,18 @@
             "it": "Bernardino"
         }
     },
+    "patrons/bernardinus/rea": {
+        "names": {
+            "it": "Bernardino Realino",
+            "en": "Bernardine Realino",
+            "la": "Bernardinus Realinus",
+            "pl": "Bernardyn Realino"
+        },
+        "died": [
+            "1616-07-02"
+        ],
+        "feasts": []
+    },
     "patrons/bernardinus/sen": {
         "names": {
             "it": "Bernardino da Siena",

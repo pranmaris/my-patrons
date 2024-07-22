@@ -36,6 +36,12 @@
             "en": "Athanasius the Great",
             "pl": "Atanazy Wielki"
         },
+        "records/patrons/bernardinus/rea": {
+            "it": "Bernardino Realino",
+            "en": "Bernardine Realino",
+            "la": "Bernardinus Realinus",
+            "pl": "Bernardyn Realino"
+        },
         "records/patrons/bernardinus/sen": {
             "it": "Bernardino da Siena",
             "en": "Bernardine of Siena",

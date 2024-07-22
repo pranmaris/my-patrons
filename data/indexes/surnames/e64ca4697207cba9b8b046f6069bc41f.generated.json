@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Realino"
+    },
+    "translations": {
+        "it": [
+            "Realino"
+        ]
+    },
+    "links": {
+        "records/patrons/bernardinus/rea": {
+            "it": "Bernardino Realino",
+            "en": "Bernardine Realino",
+            "la": "Bernardinus Realinus",
+            "pl": "Bernardyn Realino"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "names": {
+    "it": [
+      "Bernardino Realino"
+    ],
+    "en": [
+      "Bernardine Realino"
+    ],
+    "la": [
+      "Bernardinus Realinus"
+    ],
+    "pl": [
+      "Bernardyn Realino"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Realino"
+    }
+  ],
+
+  "born": ["1530-12-01"],
+  "died": ["1616-07-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1896-01-12"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1947-06-22"
+  },
+
+  "also-in-martyrology": ["07-02"],
+
+  "forenames": ["bernardinus"],
+  "categories": ["vir", "confessor", "sacerdos", "presbyter"],
+
+  "order": ["sj"]
+}

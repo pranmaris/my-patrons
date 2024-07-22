@@ -232,6 +232,12 @@
             "en": "Banadict of Nursia",
             "pl": "Benedykt z Nursji"
         },
+        "records/patrons/bernardinus/rea": {
+            "it": "Bernardino Realino",
+            "en": "Bernardine Realino",
+            "la": "Bernardinus Realinus",
+            "pl": "Bernardyn Realino"
+        },
         "records/patrons/bernardinus/sen": {
             "it": "Bernardino da Siena",
             "en": "Bernardine of Siena",

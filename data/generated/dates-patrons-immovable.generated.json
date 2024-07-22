@@ -1753,6 +1753,18 @@
         }
     },
     "07-02": {
+        "records/patrons/bernardinus/rea": {
+            "name": {
+                "it": "Bernardino Realino",
+                "en": "Bernardine Realino",
+                "la": "Bernardinus Realinus",
+                "pl": "Bernardyn Realino"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 VII",
+                "other-martyrology-days": "2 VII"
+            }
+        },
         "records/patrons/petrus/lux": {
             "name": {
                 "fr": "Pierre de Luxembourg",
