@@ -1639,6 +1639,20 @@
             }
         }
     },
+    "06-20": {
+        "records/patrons/margarita/ebn": {
+            "name": {
+                "de": "Margareta Ebner",
+                "en": "Margaret Ebner",
+                "la": "Margarita Ebner",
+                "pl": "Małgorzata Ebner"
+            },
+            "sources": {
+                "reliable-death-anniversary": "20 VI",
+                "other-martyrology-days": "20 VI"
+            }
+        }
+    },
     "06-25": {
         "records/patrons/dorothea/mon": {
             "name": {

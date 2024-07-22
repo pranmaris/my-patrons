@@ -3146,6 +3146,7 @@
             "la": "Margarita",
             "en": "Margaret",
             "pl": "Małgorzata",
+            "de": "Margareta",
             "fr": "Marguerite"
         }
     },
@@ -3158,6 +3159,18 @@
         },
         "died": [
             "1690-10-17"
+        ],
+        "feasts": []
+    },
+    "patrons/margarita/ebn": {
+        "names": {
+            "de": "Margareta Ebner",
+            "en": "Margaret Ebner",
+            "la": "Margarita Ebner",
+            "pl": "Małgorzata Ebner"
+        },
+        "died": [
+            "1351-06-20"
         ],
         "feasts": []
     },

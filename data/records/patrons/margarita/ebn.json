@@ -1,0 +1,37 @@
+{
+  "names": {
+    "de": [
+      "Margareta Ebner"
+    ],
+    "en": [
+      "Margaret Ebner"
+    ],
+    "la": [
+      "Margarita Ebner"
+    ],
+    "pl": [
+      "Małgorzata Ebner"
+    ]
+  },
+
+  "surnames": [
+    {
+      "de": "Ebner"
+    }
+  ],
+
+  "born": ["1291"],
+  "died": ["1351-06-20"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1979-02-24"
+  },
+
+  "also-in-martyrology": ["06-20"],
+
+  "forenames": ["margarita"],
+  "categories": ["femina", "virgo"],
+
+  "order": ["op"]
+}

@@ -1,0 +1,18 @@
+{
+    "names": {
+        "de": "Ebner"
+    },
+    "translations": {
+        "de": [
+            "Ebner"
+        ]
+    },
+    "links": {
+        "records/patrons/margarita/ebn": {
+            "de": "Margareta Ebner",
+            "en": "Margaret Ebner",
+            "la": "Margarita Ebner",
+            "pl": "Małgorzata Ebner"
+        }
+    }
+}
