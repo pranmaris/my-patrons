@@ -1790,6 +1790,20 @@
             }
         }
     },
+    "07-04": {
+        "records/patrons/elisabeth/lus": {
+            "name": {
+                "es": "Elisabet de Aragón",
+                "en": "Elizabeth of Aragon",
+                "la": "Elisabeth Aragonae",
+                "pl": "Elżbieta Aragońska"
+            },
+            "sources": {
+                "reliable-death-anniversary": "4 VII",
+                "other-martyrology-days": "4 VII"
+            }
+        }
+    },
     "07-06": {
         "records/patrons/isaias/pro": {
             "name": {
@@ -1800,6 +1814,19 @@
             },
             "sources": {
                 "other-martyrology-days": "6 VII"
+            }
+        }
+    },
+    "07-08": {
+        "records/patrons/elisabeth/lus": {
+            "name": {
+                "es": "Elisabet de Aragón",
+                "en": "Elizabeth of Aragon",
+                "la": "Elisabeth Aragonae",
+                "pl": "Elżbieta Aragońska"
+            },
+            "sources": {
+                "other-martyrology-days": "8 VII"
             }
         }
     },

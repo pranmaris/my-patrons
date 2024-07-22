@@ -1,16 +1,19 @@
 {
     "names": {
-        "en": "tertiary"
+        "es": "Elisabet"
     },
     "translations": {
         "la": [
-            "tertiaria"
+            "Elisabeth"
         ],
         "en": [
-            "tertiary"
+            "Elizabeth"
         ],
         "pl": [
-            "tercjarka"
+            "Elżbieta"
+        ],
+        "es": [
+            "Elisabet"
         ]
     },
     "links": {
@@ -19,12 +22,6 @@
             "en": "Elizabeth of Aragon",
             "la": "Elisabeth Aragonae",
             "pl": "Elżbieta Aragońska"
-        },
-        "records/patrons/rosa/lim": {
-            "es": "Rosa de Lima",
-            "en": "Rose of Lima",
-            "la": "Rosa de Lima",
-            "pl": "Róża z Limy"
         }
     }
 }

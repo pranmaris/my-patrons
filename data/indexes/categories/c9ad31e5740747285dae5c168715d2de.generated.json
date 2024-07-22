@@ -26,6 +26,12 @@
             "en": "Dorothy of Montau",
             "la": "Dorothea Montoviensis"
         },
+        "records/patrons/elisabeth/lus": {
+            "es": "Elisabet de Aragón",
+            "en": "Elizabeth of Aragon",
+            "la": "Elisabeth Aragonae",
+            "pl": "Elżbieta Aragońska"
+        },
         "records/patrons/hedwigis/duc": {
             "de": "Hedwig von Andechs",
             "en": "Hedwig of Silesia",

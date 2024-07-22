@@ -1,0 +1,39 @@
+{
+  "names": {
+    "es": [
+      "Elisabet de Aragón",
+      "Isabel de Portugal"
+    ],
+    "en": [
+      "Elizabeth of Aragon",
+      "Isabel of Portugal"
+    ],
+    "la": [
+      "Elisabeth Aragonae",
+      "Isabella Portugalliae"
+    ],
+    "pl": [
+      "Elżbieta Aragońska",
+      "Izabela Portugalska"
+    ]
+  },
+
+  "born": ["1271-01-04"],
+  "died": ["1336-07-04"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1526-01-24"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1625-05-25"
+  },
+
+  "also-in-martyrology": ["07-04", "07-08"],
+
+  "forenames": ["elisabeth"],
+  "categories": ["femina", "vidua", "religiosa", "tertiaria", "regina"],
+
+  "order": ["tosf"]
+}

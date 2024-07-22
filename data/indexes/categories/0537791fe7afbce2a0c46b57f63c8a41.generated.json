@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/elisabeth/lus": {
+            "es": "Elisabet de Aragón",
+            "en": "Elizabeth of Aragon",
+            "la": "Elisabeth Aragonae",
+            "pl": "Elżbieta Aragońska"
+        },
         "records/patrons/rosa/lim": {
             "es": "Rosa de Lima",
             "en": "Rose of Lima",
