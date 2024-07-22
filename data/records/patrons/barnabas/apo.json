@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Barnabas Apostolus"
+    ],
+    "en": [
+      "Barnabas the Apostle"
+    ],
+    "pl": [
+      "Barnaba Apostoł"
+    ]
+  },
+
+  "died": ["~61"],
+
+  "also-in-martyrology": ["06-11"],
+
+  "forenames": ["barnabas"],
+  "categories": ["vir", "alius-apostolus", "martyr"]
+}

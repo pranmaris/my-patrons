@@ -1,16 +1,17 @@
 {
     "names": {
-        "la": "alius apostolus"
+        "la": "Barnabas",
+        "en": "Barnabas"
     },
     "translations": {
         "la": [
-            "alius apostolus"
+            "Barnabas"
         ],
         "en": [
-            "other apostle"
+            "Barnabas"
         ],
         "pl": [
-            "inny apostoł"
+            "Barnaba"
         ]
     },
     "links": {
@@ -18,12 +19,6 @@
             "la": "Barnabas Apostolus",
             "en": "Barnabas the Apostle",
             "pl": "Barnaba Apostoł"
-        },
-        "records/patrons/paulus/apo": {
-            "he": "שָׁאוּל התרס",
-            "la": "Paulus Tersensis",
-            "en": "Paul of Tarsus",
-            "pl": "Paweł z Tarsu"
         }
     }
 }

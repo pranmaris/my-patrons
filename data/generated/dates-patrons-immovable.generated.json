@@ -1587,6 +1587,18 @@
             }
         }
     },
+    "06-11": {
+        "records/patrons/barnabas/apo": {
+            "name": {
+                "la": "Barnabas Apostolus",
+                "en": "Barnabas the Apostle",
+                "pl": "Barnaba Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "11 VI"
+            }
+        }
+    },
     "06-12": {
         "records/patrons/gaspar/ber": {
             "name": {

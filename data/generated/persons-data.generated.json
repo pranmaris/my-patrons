@@ -944,6 +944,24 @@
         ],
         "feasts": []
     },
+    "patrons/barnabas": {
+        "names": {
+            "la": "Barnabas",
+            "en": "Barnabas",
+            "pl": "Barnaba"
+        }
+    },
+    "patrons/barnabas/apo": {
+        "names": {
+            "la": "Barnabas Apostolus",
+            "en": "Barnabas the Apostle",
+            "pl": "Barnaba Apostoł"
+        },
+        "died": [
+            "~61"
+        ],
+        "feasts": []
+    },
     "patrons/bartholomaeus": {
         "names": {
             "la": "Bartholomaeus",
