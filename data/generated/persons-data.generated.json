@@ -3793,6 +3793,17 @@
             "pl": "Wiele"
         }
     },
+    "patrons/multi/abr": {
+        "names": {
+            "la": "Monachi Abrahamitae",
+            "en": "Abrahamic Monks",
+            "pl": "Mnisi Abrahamici"
+        },
+        "died": [
+            "~835"
+        ],
+        "feasts": []
+    },
     "patrons/multi/ang": {
         "names": {
             "la": "Angeli Custodes",

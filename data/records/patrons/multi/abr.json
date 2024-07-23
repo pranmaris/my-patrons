@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Monachi Abrahamitae"
+    ],
+    "en": [
+      "Abrahamic Monks"
+    ],
+    "pl": [
+      "Mnisi Abrahamici"
+    ]
+  },
+
+  "died": ["~835"],
+
+  "also-in-martyrology": ["07-08"],
+
+  "forenames": ["multi"],
+  "categories": ["socia", "vir", "martyr", "monachus"]
+}

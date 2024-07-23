@@ -323,6 +323,11 @@
             "en": "Michael Kozal",
             "la": "Michael Kozal"
         },
+        "records/patrons/multi/abr": {
+            "la": "Monachi Abrahamitae",
+            "en": "Abrahamic Monks",
+            "pl": "Mnisi Abrahamici"
+        },
         "records/patrons/narcissus/tur": {
             "pl": "Narcyz Turchan",
             "en": "Narcissus Turchan",

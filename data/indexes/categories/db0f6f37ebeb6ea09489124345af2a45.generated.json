@@ -14,6 +14,11 @@
         ]
     },
     "links": {
+        "records/patrons/multi/abr": {
+            "la": "Monachi Abrahamitae",
+            "en": "Abrahamic Monks",
+            "pl": "Mnisi Abrahamici"
+        },
         "records/patrons/multi/ang": {
             "la": "Angeli Custodes",
             "en": "Guardian Angels",

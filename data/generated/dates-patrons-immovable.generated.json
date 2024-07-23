@@ -1828,6 +1828,16 @@
             "sources": {
                 "other-martyrology-days": "8 VII"
             }
+        },
+        "records/patrons/multi/abr": {
+            "name": {
+                "la": "Monachi Abrahamitae",
+                "en": "Abrahamic Monks",
+                "pl": "Mnisi Abrahamici"
+            },
+            "sources": {
+                "other-martyrology-days": "8 VII"
+            }
         }
     },
     "07-09": {

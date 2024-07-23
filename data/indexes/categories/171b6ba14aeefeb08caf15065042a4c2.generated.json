@@ -51,6 +51,11 @@
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",
             "pl": "Marcin z Tours"
+        },
+        "records/patrons/multi/abr": {
+            "la": "Monachi Abrahamitae",
+            "en": "Abrahamic Monks",
+            "pl": "Mnisi Abrahamici"
         }
     }
 }
