@@ -148,6 +148,7 @@ const DATA_FIELD_NOTES = 'notes';
 const CONFIG_FIELD_ADDITION_TYPE = 'addition-type';
 const CONFIG_FIELD_CHECKLIST = 'checklist';
 const CONFIG_FIELD_NOTES = 'notes';
+const CONFIG_FIELD_SELECTABLE = 'selectable';
 const CONFIG_FIELD_TO_COMPLETE_ON_SELECTED_DATE = 'to-complete-on-selected-date';
 
 const PERSON_TYPE_GOD = 'God';
@@ -267,12 +268,17 @@ async function build() {
   info(getLanguageVariable('lang-notes-form-info', true));
 }
 
-function doActionsDependentOfAdvancedMode() {
+function isAdvancedMode() {
   const search = getSearchString();
-  const isAdvancedMode = (search.match(/[?&]mode=advanced(&.*)?$/) !== null);
+
+  return (search.match(/[?&]mode=advanced(&.*)?$/) !== null);
+}
+
+function doActionsDependentOfAdvancedMode() {
+  const advancedMode = isAdvancedMode();
 
   const navJsonEditorTab = document.getElementById(NAV_JSON_EDITOR_TAB_ELEMENT_ID);
-  navJsonEditorTab.style = isAdvancedMode ? VISIBLE_STYLE : INVISIBLE_STYLE;
+  navJsonEditorTab.style = advancedMode ? VISIBLE_STYLE : INVISIBLE_STYLE;
 }
 
 function inArray(value, array) {
@@ -1305,7 +1311,6 @@ function addNewChallengeReset() {
 
   sortChallengesByDate();
   resetDateInput();
-
 }
 
 function getToday() {
@@ -1770,6 +1775,8 @@ function resetDateInput() {
 }
 
 function resetChallengeTypeSelect() {
+  const advancedMode = isAdvancedMode();
+
   let challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
 
   let challengeTypeDiv = document.getElementById(CHALLENGE_TYPE_DIV_ELEMENT_ID);
@@ -1807,13 +1814,15 @@ function resetChallengeTypeSelect() {
       const name = getLanguageVariable('name', false, challengeConfig.name);
       const requirements = challengeConfig.person.requirements ?? {};
       const additionType = challengeConfig[CONFIG_FIELD_ADDITION_TYPE] ?? '';
+      const isSelectable = challengeConfig[CONFIG_FIELD_SELECTABLE] ?? false;
 
       let allPersonsToTakeForChallengeType = {};
       for (let personType of challengeConfig.person.types ?? []) {
         allPersonsToTakeForChallengeType = {...allPersonsToTakeForChallengeType, ...allPersonsToTakeByPersonType[personType]};
       }
 
-      if (!checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
+      if ((!isSelectable && !advancedMode)
+        || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
         || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_1_DAY] ?? [], challenges, challengeDate, 1)
         || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS] ?? [], challenges, challengeDate, 40)
         || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate, 0)
