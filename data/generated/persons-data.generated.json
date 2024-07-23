@@ -2683,6 +2683,17 @@
             "arc": "ܡܪܝ ܝܘܣܦ"
         }
     },
+    "patrons/ioseph/ari": {
+        "names": {
+            "la": "Joseph ab Arimathaea",
+            "en": "Joseph of Arimathea",
+            "pl": "Józef z Arymatei"
+        },
+        "died": [
+            ">30"
+        ],
+        "feasts": []
+    },
     "patrons/ioseph/naz": {
         "names": {
             "arc": "ܡܪܝ ܝܘܣܦ",

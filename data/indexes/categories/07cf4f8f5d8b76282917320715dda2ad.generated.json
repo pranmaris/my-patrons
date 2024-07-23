@@ -644,6 +644,11 @@
             "la": "Ioannes Maria Vianney",
             "pl": "Jan Maria Vianney"
         },
+        "records/patrons/ioseph/ari": {
+            "la": "Joseph ab Arimathaea",
+            "en": "Joseph of Arimathea",
+            "pl": "Józef z Arymatei"
+        },
         "records/patrons/ioseph/naz": {
             "arc": "ܡܪܝ ܝܘܣܦ",
             "en": "Joseph",

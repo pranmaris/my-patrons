@@ -737,6 +737,16 @@
                 "reliable-death-anniversary": "17 III",
                 "other-martyrology-days": "17 III"
             }
+        },
+        "records/patrons/ioseph/ari": {
+            "name": {
+                "la": "Joseph ab Arimathaea",
+                "en": "Joseph of Arimathea",
+                "pl": "Józef z Arymatei"
+            },
+            "sources": {
+                "other-martyrology-days": "17 III"
+            }
         }
     },
     "03-19": {
@@ -2853,6 +2863,18 @@
             },
             "sources": {
                 "other-martyrology-days": "30 VIII"
+            }
+        }
+    },
+    "08-31": {
+        "records/patrons/ioseph/ari": {
+            "name": {
+                "la": "Joseph ab Arimathaea",
+                "en": "Joseph of Arimathea",
+                "pl": "Józef z Arymatei"
+            },
+            "sources": {
+                "other-martyrology-days": "31 VIII"
             }
         }
     },

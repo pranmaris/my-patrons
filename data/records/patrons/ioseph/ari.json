@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Joseph ab Arimathaea"
+    ],
+    "en": [
+      "Joseph of Arimathea"
+    ],
+    "pl": [
+      "Józef z Arymatei"
+    ]
+  },
+
+  "died": [">30"],
+
+  "also-in-martyrology": ["03-17", "08-31"],
+
+  "forenames": ["ioseph"],
+  "categories": ["vir"]
+}
