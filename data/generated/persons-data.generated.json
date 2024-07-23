@@ -2133,6 +2133,17 @@
             "el": "Γρηγόριος"
         }
     },
+    "patrons/gregorius/1pp": {
+        "names": {
+            "la": "Gregorius Magnus",
+            "en": "Gregory the Great",
+            "pl": "Grzegorz Wielki"
+        },
+        "died": [
+            "604-03-12"
+        ],
+        "feasts": []
+    },
     "patrons/gregorius/nys": {
         "names": {
             "el": "Γρηγόριος Νύσσης",

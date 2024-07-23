@@ -1,0 +1,46 @@
+{
+  "names": {
+    "la": [
+      "Gregorius Magnus",
+      "Gregorius I"
+    ],
+    "en": [
+      "Gregory the Great",
+      "Gregory I"
+    ],
+    "pl": [
+      "Grzegorz Wielki",
+      "Grzegorz I"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Magnus",
+      "en": "the Great",
+      "pl": "Wielki"
+    },
+    {
+      "la": "Primus",
+      "en": "the First",
+      "pl": "Pierwszy"
+    },
+    {
+      "la": "Anglorum Apostolus",
+      "en": "Apostle of Angles",
+      "pl": "Apostoł Anglów"
+    }
+  ],
+
+  "born": ["540"],
+  "died": ["604-03-12"],
+
+  "also-in-martyrology": ["03-12", "09-03"],
+
+  "forenames": ["gregorius"],
+  "categories": ["vir", "confessor", "papa", "monachus", "doctor-ecclesiae"],
+
+  "data-links": {
+    "popes": ["1:#64"]
+  }
+}

@@ -631,8 +631,8 @@
     },
     "64": {
         "name": {
-            "la": "Gregorius Magnus",
-            "pl": "Grzegorz Wielki"
+            "la": "[1|Gregorius Magnus]",
+            "pl": "[1|Grzegorz Wielki]"
         },
         "pontificate": {
             "from": "590-09-03",

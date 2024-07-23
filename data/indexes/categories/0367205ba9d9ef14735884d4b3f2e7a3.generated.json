@@ -58,6 +58,11 @@
             "la": "Franciscus de Sales",
             "pl": "Franciszek Salezy"
         },
+        "records/patrons/gregorius/1pp": {
+            "la": "Gregorius Magnus",
+            "en": "Gregory the Great",
+            "pl": "Grzegorz Wielki"
+        },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",

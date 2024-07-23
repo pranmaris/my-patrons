@@ -699,6 +699,17 @@
                 "reliable-death-anniversary": "12 III",
                 "other-martyrology-days": "12 III"
             }
+        },
+        "records/patrons/gregorius/1pp": {
+            "name": {
+                "la": "Gregorius Magnus",
+                "en": "Gregory the Great",
+                "pl": "Grzegorz Wielki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "12 III",
+                "other-martyrology-days": "12 III"
+            }
         }
     },
     "03-14": {
@@ -2891,6 +2902,16 @@
         }
     },
     "09-03": {
+        "records/patrons/gregorius/1pp": {
+            "name": {
+                "la": "Gregorius Magnus",
+                "en": "Gregory the Great",
+                "pl": "Grzegorz Wielki"
+            },
+            "sources": {
+                "other-martyrology-days": "3 IX"
+            }
+        },
         "records/patrons/pius/10p": {
             "name": {
                 "it": "Papa Pio X",

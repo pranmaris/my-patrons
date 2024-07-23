@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Anglorum Apostolus"
+    },
+    "translations": {
+        "la": [
+            "Anglorum Apostolus"
+        ],
+        "en": [
+            "Apostle of Angles"
+        ],
+        "pl": [
+            "Apostoł Anglów"
+        ]
+    },
+    "links": {
+        "records/patrons/gregorius/1pp": {
+            "la": "Gregorius Magnus",
+            "en": "Gregory the Great",
+            "pl": "Grzegorz Wielki"
+        }
+    }
+}

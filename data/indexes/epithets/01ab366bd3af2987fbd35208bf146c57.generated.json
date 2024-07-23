@@ -22,6 +22,11 @@
             "en": "Albert the Great",
             "la": "Albertus Magnus",
             "pl": "Albert Wielki"
+        },
+        "records/patrons/gregorius/1pp": {
+            "la": "Gregorius Magnus",
+            "en": "Gregory the Great",
+            "pl": "Grzegorz Wielki"
         }
     }
 }

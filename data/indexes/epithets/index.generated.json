@@ -82,8 +82,14 @@
     "3fa7cb3a9a8784869fbb3b8f43c0d6ad": {
         "la": "Doctor Universalis"
     },
+    "409a369af4c2f45b783c9d2f37b706a2": {
+        "la": "Anglorum Apostolus"
+    },
     "41e27012afd82cf625b1d779e297e3eb": {
         "en": "the Righteous"
+    },
+    "42bde621ddae11735820c3749829cbe2": {
+        "pl": "Apostoł Anglów"
     },
     "443ed50b4d0affef38b857fe7e3c0e9d": {
         "pl": "Drugi"
@@ -189,8 +195,7 @@
         "pl": "Brat Pana"
     },
     "812ef0b2119c99e59f7344056d361cc7": {
-        "pl": "Pierwszy",
-        "  pl": "Pierwszy"
+        "pl": "Pierwszy"
     },
     "817a1aec9ec2aa21c607df18e84b7641": {
         "la": "Zelotes",
@@ -221,8 +226,7 @@
         "es": "de Jesús"
     },
     "9904b7516ff50ed584eced27f3a4e0e5": {
-        "en": "the First",
-        "  en": "the First"
+        "en": "the First"
     },
     "9f9be9eff06483e3617debac2facedf3": {
         "en": "of Jesus and Mary"
@@ -273,8 +277,7 @@
         "la": "a Iesu et Maria"
     },
     "c5d15c94e363ddde89a51abb488d38e5": {
-        "la": "Primus",
-        "  la": "Primus"
+        "la": "Primus"
     },
     "c66679f1e3fb900616ba65f014104059": {
         "pl": "Pramęczennik"
@@ -342,6 +345,9 @@
     },
     "ec17f7acf21c5b9faa33546d9788d026": {
         "pl": "od Najświętszego Sakramentu"
+    },
+    "f6060d709f81e6b05f389ebbc463bf58": {
+        "en": "Apostle of Angles"
     },
     "f6bd0ef0b30f8d6d42c4a5d4b4aff1d4": {
         "it": "Quinto"

@@ -17,6 +17,11 @@
         ]
     },
     "links": {
+        "records/patrons/gregorius/1pp": {
+            "la": "Gregorius Magnus",
+            "en": "Gregory the Great",
+            "pl": "Grzegorz Wielki"
+        },
         "records/patrons/gregorius/nys": {
             "el": "Γρηγόριος Νύσσης",
             "en": "Gregory of Nyssa",

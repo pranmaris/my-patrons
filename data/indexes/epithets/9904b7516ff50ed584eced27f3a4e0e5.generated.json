@@ -1,7 +1,6 @@
 {
     "names": {
-        "en": "the First",
-        "  en": "the First"
+        "en": "the First"
     },
     "translations": {
         "la": [
@@ -15,15 +14,6 @@
         ],
         "it": [
             "Primo"
-        ],
-        "  la": [
-            "Primus"
-        ],
-        "  en": [
-            "the First"
-        ],
-        "  pl": [
-            "Pierwszy"
         ]
     },
     "links": {
@@ -31,6 +21,11 @@
             "la": "Deusdedit Pp. I",
             "en": "Deusdedit I",
             "pl": "Deusdedit I"
+        },
+        "records/patrons/gregorius/1pp": {
+            "la": "Gregorius Magnus",
+            "en": "Gregory the Great",
+            "pl": "Grzegorz Wielki"
         },
         "records/patrons/ioannes/p1p": {
             "it": "Giovanni Paolo I",
