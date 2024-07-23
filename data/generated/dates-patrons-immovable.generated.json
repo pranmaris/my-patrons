@@ -1969,6 +1969,18 @@
             }
         }
     },
+    "07-22": {
+        "records/patrons/maria/mag": {
+            "name": {
+                "en": "Mary Magdalene",
+                "la": "Maria Magdalena",
+                "pl": "Maria Magdalena"
+            },
+            "sources": {
+                "other-martyrology-days": "22 VII"
+            }
+        }
+    },
     "07-23": {
         "records/patrons/birgitta/sue": {
             "name": {

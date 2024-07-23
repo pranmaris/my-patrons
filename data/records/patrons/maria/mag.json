@@ -1,0 +1,21 @@
+{
+  "names": {
+    "en": [
+      "Mary Magdalene"
+    ],
+    "la": [
+      "Maria Magdalena"
+    ],
+    "pl": [
+      "Maria Magdalena",
+      "Maria z Magdali"
+    ]
+  },
+
+  "died": [">30"],
+
+  "also-in-martyrology": ["07-22"],
+
+  "forenames": ["maria", "magdalena"],
+  "categories": ["femina"]
+}

@@ -3339,6 +3339,17 @@
         ],
         "feasts": []
     },
+    "patrons/maria/mag": {
+        "names": {
+            "en": "Mary Magdalene",
+            "la": "Maria Magdalena",
+            "pl": "Maria Magdalena"
+        },
+        "died": [
+            ">30"
+        ],
+        "feasts": []
+    },
     "patrons/maria/mar": {
         "names": {
             "pl": "Maria Stella od Najświętszego Sakramentu",
