@@ -192,6 +192,12 @@
             "la": "Maria Virgo",
             "pl": "Maria z Nazaretu"
         },
+        "records/patrons/maria/pos": {
+            "fr": "Marie-Madeleine Postel",
+            "en": "Mary Magdalene Postel",
+            "la": "Maria Magdalena Postel",
+            "pl": "Maria Magdalena Postel"
+        },
         "records/patrons/maria/rap": {
             "pl": "Maria Sergia od Matki Bożej Bolesnej",
             "en": "Mary Sergia of Our Lady of Sorrows",

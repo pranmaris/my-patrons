@@ -3059,6 +3059,7 @@
             "la": "Magdalena",
             "en": "Magdalene",
             "pl": "Magdalena",
+            "fr": "Madeleine",
             "it": "Maddalena"
         }
     },
@@ -3523,6 +3524,18 @@
                 }
             }
         }
+    },
+    "patrons/maria/pos": {
+        "names": {
+            "fr": "Marie-Madeleine Postel",
+            "en": "Mary Magdalene Postel",
+            "la": "Maria Magdalena Postel",
+            "pl": "Maria Magdalena Postel"
+        },
+        "died": [
+            "1846-07-16"
+        ],
+        "feasts": []
     },
     "patrons/maria/rap": {
         "names": {

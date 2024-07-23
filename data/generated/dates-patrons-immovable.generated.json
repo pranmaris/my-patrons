@@ -1915,6 +1915,18 @@
                 "reliable-death-anniversary": "16 VII",
                 "other-martyrology-days": "16 VII"
             }
+        },
+        "records/patrons/maria/pos": {
+            "name": {
+                "fr": "Marie-Madeleine Postel",
+                "en": "Mary Magdalene Postel",
+                "la": "Maria Magdalena Postel",
+                "pl": "Maria Magdalena Postel"
+            },
+            "sources": {
+                "reliable-death-anniversary": "16 VII",
+                "other-martyrology-days": "16 VII"
+            }
         }
     },
     "07-17": {

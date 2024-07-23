@@ -12,6 +12,9 @@
         "pl": [
             "Magdalena"
         ],
+        "fr": [
+            "Madeleine"
+        ],
         "it": [
             "Maddalena"
         ]
@@ -28,6 +31,12 @@
             "en": "Magdalene Catherine Morano",
             "la": "Magdalena Catharina Morano",
             "pl": "Magdalena Katarzyna Morano"
+        },
+        "records/patrons/maria/pos": {
+            "fr": "Marie-Madeleine Postel",
+            "en": "Mary Magdalene Postel",
+            "la": "Maria Magdalena Postel",
+            "pl": "Maria Magdalena Postel"
         }
     }
 }

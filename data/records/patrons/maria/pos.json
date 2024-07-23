@@ -1,0 +1,42 @@
+{
+  "names": {
+    "fr": [
+      "Marie-Madeleine Postel"
+    ],
+    "en": [
+      "Mary Magdalene Postel"
+    ],
+    "la": [
+      "Maria Magdalena Postel"
+    ],
+    "pl": [
+      "Maria Magdalena Postel"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Postel"
+    }
+  ],
+
+  "born": ["1756-11-28"],
+  "died": ["1846-07-16"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1908-05-17"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1925-05-24"
+  },
+
+  "also-in-martyrology": ["07-16"],
+
+  "forenames": ["maria", "magdalena"],
+  "categories": ["femina", "virgo", "fundatrix"],
+
+  "order": ["smmp"],
+  "order-founder": ["smmp"]
+}

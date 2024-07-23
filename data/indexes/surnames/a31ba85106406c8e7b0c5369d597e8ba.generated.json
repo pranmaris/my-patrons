@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Postel"
+    },
+    "translations": {
+        "fr": [
+            "Postel"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/pos": {
+            "fr": "Marie-Madeleine Postel",
+            "en": "Mary Magdalene Postel",
+            "la": "Maria Magdalena Postel",
+            "pl": "Maria Magdalena Postel"
+        }
+    }
+}
