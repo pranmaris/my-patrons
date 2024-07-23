@@ -552,6 +552,11 @@
             "la": "Teresia Benedicta a Cruce",
             "pl": "Teresa Benedykta od Krzyża"
         },
+        "records/patrons/thaddaeus/dul": {
+            "pl": "Tadeusz Dulny",
+            "en": "Thaddeus Dulny",
+            "la": "Thaddaeus Dulny"
+        },
         "records/patrons/thomas/apo": {
             "la": "Thomas Apostolus",
             "en": "Thomas the Apostle",

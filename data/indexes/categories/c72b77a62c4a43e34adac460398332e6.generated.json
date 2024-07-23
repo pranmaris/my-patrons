@@ -1023,6 +1023,11 @@
             "en": "Tarcisius Acolyte",
             "pl": "Tarsycjusz Akolita"
         },
+        "records/patrons/thaddaeus/dul": {
+            "pl": "Tadeusz Dulny",
+            "en": "Thaddeus Dulny",
+            "la": "Thaddaeus Dulny"
+        },
         "records/patrons/thomas/apo": {
             "la": "Thomas Apostolus",
             "en": "Thomas the Apostle",

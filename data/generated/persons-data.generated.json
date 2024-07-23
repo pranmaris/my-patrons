@@ -4828,6 +4828,24 @@
         ],
         "feasts": []
     },
+    "patrons/thaddaeus": {
+        "names": {
+            "la": "Thaddaeus",
+            "en": "Thaddaeus",
+            "pl": "Tadeusz"
+        }
+    },
+    "patrons/thaddaeus/dul": {
+        "names": {
+            "pl": "Tadeusz Dulny",
+            "en": "Thaddeus Dulny",
+            "la": "Thaddaeus Dulny"
+        },
+        "died": [
+            "1942-08-07"
+        ],
+        "feasts": []
+    },
     "patrons/thomas": {
         "names": {
             "la": "Thomas",

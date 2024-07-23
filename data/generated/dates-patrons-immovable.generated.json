@@ -2433,6 +2433,16 @@
             "sources": {
                 "other-martyrology-days": "6 VIII"
             }
+        },
+        "records/patrons/thaddaeus/dul": {
+            "name": {
+                "pl": "Tadeusz Dulny",
+                "en": "Thaddeus Dulny",
+                "la": "Thaddaeus Dulny"
+            },
+            "sources": {
+                "other-martyrology-days": "6 VIII"
+            }
         }
     },
     "08-07": {
@@ -2445,6 +2455,16 @@
             "sources": {
                 "reliable-death-anniversary": "7 VIII",
                 "other-martyrology-days": "7 VIII"
+            }
+        },
+        "records/patrons/thaddaeus/dul": {
+            "name": {
+                "pl": "Tadeusz Dulny",
+                "en": "Thaddeus Dulny",
+                "la": "Thaddaeus Dulny"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 VIII"
             }
         },
         "records/patrons/xystus/2pp": {

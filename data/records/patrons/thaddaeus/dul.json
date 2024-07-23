@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Tadeusz Dulny"
+    ],
+    "en": [
+      "Thaddeus Dulny"
+    ],
+    "la": [
+      "Thaddaeus Dulny"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Dulny"
+    }
+  ],
+
+  "born": ["1914-08-08"],
+  "died": ["1942-08-07"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["08-06"],
+
+  "forenames": ["thaddaeus"],
+  "categories": ["vir", "martyr"]
+}
