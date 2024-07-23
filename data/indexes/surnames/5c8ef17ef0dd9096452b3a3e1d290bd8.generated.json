@@ -1,0 +1,26 @@
+{
+    "names": {
+        "it": "Benizi",
+        "la": "Benizi"
+    },
+    "translations": {
+        "it": [
+            "Benizi"
+        ],
+        "la": [
+            "Benizi",
+            "Benitius"
+        ],
+        "pl": [
+            "Benicjusz"
+        ]
+    },
+    "links": {
+        "records/patrons/philippus/ben": {
+            "it": "Filippo Benizi",
+            "en": "Philip Benizi",
+            "la": "Philippus Benitius",
+            "pl": "Filip Benicjusz"
+        }
+    }
+}

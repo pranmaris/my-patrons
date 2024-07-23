@@ -261,6 +261,12 @@
             "la": "Patrus Iulianus Eymard",
             "pl": "Piotr Julian Eymard"
         },
+        "records/patrons/philippus/ben": {
+            "it": "Filippo Benizi",
+            "en": "Philip Benizi",
+            "la": "Philippus Benitius",
+            "pl": "Filip Benicjusz"
+        },
         "records/patrons/philippus/ner": {
             "it": "Filippo Neri",
             "en": "Fhilip Neri",

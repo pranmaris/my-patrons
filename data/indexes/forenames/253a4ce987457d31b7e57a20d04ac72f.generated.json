@@ -11,6 +11,9 @@
         ],
         "pl": [
             "Filip"
+        ],
+        "it": [
+            "Filippo"
         ]
     },
     "links": {
@@ -18,6 +21,12 @@
             "la": "Philippus Apostolus",
             "en": "Philip Apostle",
             "pl": "Filip Apostoł"
+        },
+        "records/patrons/philippus/ben": {
+            "it": "Filippo Benizi",
+            "en": "Philip Benizi",
+            "la": "Philippus Benitius",
+            "pl": "Filip Benicjusz"
         },
         "records/patrons/philippus/fel": {
             "la": "Philippus /+ Felix et alii, tamquam Septem Fratres",

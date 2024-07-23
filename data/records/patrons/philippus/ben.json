@@ -1,0 +1,39 @@
+{
+  "names": {
+    "it": [
+      "Filippo Benizi"
+    ],
+    "en": [
+      "Philip Benizi"
+    ],
+    "la": [
+      "Philippus Benitius"
+    ],
+    "pl": [
+      "Filip Benicjusz"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Benizi",
+      "la": ["Benizi", "Benitius"],
+      "pl": "Benicjusz"
+    }
+  ],
+
+  "born": ["1233-08-15"],
+  "died": ["1285-08-22"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1671-04-12"
+  },
+
+  "also-in-martyrology": ["08-22", "08-23"],
+
+  "forenames": ["philippus"],
+  "categories": ["vir", "confessor", "presbyter"],
+
+  "order": ["osm"]
+}

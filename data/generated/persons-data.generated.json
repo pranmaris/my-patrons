@@ -4227,7 +4227,8 @@
         "names": {
             "la": "Philippus",
             "en": "Philip",
-            "pl": "Filip"
+            "pl": "Filip",
+            "it": "Filippo"
         }
     },
     "patrons/philippus/apo": {
@@ -4238,6 +4239,18 @@
         },
         "died": [
             "~81"
+        ],
+        "feasts": []
+    },
+    "patrons/philippus/ben": {
+        "names": {
+            "it": "Filippo Benizi",
+            "en": "Philip Benizi",
+            "la": "Philippus Benitius",
+            "pl": "Filip Benicjusz"
+        },
+        "died": [
+            "1285-08-22"
         ],
         "feasts": []
     },

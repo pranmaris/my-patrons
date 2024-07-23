@@ -2677,7 +2677,32 @@
             }
         }
     },
+    "08-22": {
+        "records/patrons/philippus/ben": {
+            "name": {
+                "it": "Filippo Benizi",
+                "en": "Philip Benizi",
+                "la": "Philippus Benitius",
+                "pl": "Filip Benicjusz"
+            },
+            "sources": {
+                "reliable-death-anniversary": "22 VIII",
+                "other-martyrology-days": "22 VIII"
+            }
+        }
+    },
     "08-23": {
+        "records/patrons/philippus/ben": {
+            "name": {
+                "it": "Filippo Benizi",
+                "en": "Philip Benizi",
+                "la": "Philippus Benitius",
+                "pl": "Filip Benicjusz"
+            },
+            "sources": {
+                "other-martyrology-days": "23 VIII"
+            }
+        },
         "records/patrons/rosa/lim": {
             "name": {
                 "es": "Rosa de Lima",
