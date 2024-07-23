@@ -2088,6 +2088,18 @@
             }
         }
     },
+    "07-29": {
+        "records/patrons/martha/laz": {
+            "name": {
+                "la": "Martha Bethaniae",
+                "en": "Martha of Bethany",
+                "pl": "Marta z Betanii"
+            },
+            "sources": {
+                "other-martyrology-days": "29 VII"
+            }
+        }
+    },
     "07-30": {
         "records/patrons/petrus/chr": {
             "name": {

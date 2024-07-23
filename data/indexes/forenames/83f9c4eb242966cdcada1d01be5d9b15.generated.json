@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Marta"
+    },
+    "translations": {
+        "la": [
+            "Martha"
+        ],
+        "en": [
+            "Martha"
+        ],
+        "pl": [
+            "Marta"
+        ]
+    },
+    "links": {
+        "records/patrons/martha/laz": {
+            "la": "Martha Bethaniae",
+            "en": "Martha of Bethany",
+            "pl": "Marta z Betanii"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Martha Bethaniae"
+    ],
+    "en": [
+      "Martha of Bethany"
+    ],
+    "pl": [
+      "Marta z Betanii"
+    ]
+  },
+
+  "died": [">27"],
+
+  "also-in-martyrology": ["07-29"],
+
+  "forenames": ["martha"],
+  "categories": ["femina", "virgo"]
+}

@@ -3600,6 +3600,24 @@
         ],
         "feasts": []
     },
+    "patrons/martha": {
+        "names": {
+            "la": "Martha",
+            "en": "Martha",
+            "pl": "Marta"
+        }
+    },
+    "patrons/martha/laz": {
+        "names": {
+            "la": "Martha Bethaniae",
+            "en": "Martha of Bethany",
+            "pl": "Marta z Betanii"
+        },
+        "died": [
+            ">27"
+        ],
+        "feasts": []
+    },
     "patrons/martinus": {
         "names": {
             "la": "Martinus",
