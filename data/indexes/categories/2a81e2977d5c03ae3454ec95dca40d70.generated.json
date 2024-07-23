@@ -296,6 +296,11 @@
             "la": "Sarbelius Makhlouf",
             "pl": "Szarbel Makhlouf"
         },
+        "records/patrons/simon/lip": {
+            "pl": "Szymon z Lipnicy",
+            "en": "Simon of Lipnica",
+            "la": "Simon de Lipnica"
+        },
         "records/patrons/valentinus/rom": {
             "en": "Valentine of Rome",
             "la": "Valentinus de Roma",

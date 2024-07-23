@@ -1943,6 +1943,19 @@
             }
         }
     },
+    "07-18": {
+        "records/patrons/simon/lip": {
+            "name": {
+                "pl": "Szymon z Lipnicy",
+                "en": "Simon of Lipnica",
+                "la": "Simon de Lipnica"
+            },
+            "sources": {
+                "reliable-death-anniversary": "18 VII",
+                "other-martyrology-days": "18 VII"
+            }
+        }
+    },
     "07-19": {
         "records/patrons/vincentius/pau": {
             "name": {

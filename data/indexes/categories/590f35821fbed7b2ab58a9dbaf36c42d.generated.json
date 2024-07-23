@@ -997,6 +997,11 @@
             "en": "Simon Apostle",
             "pl": "Szymon Apostoł"
         },
+        "records/patrons/simon/lip": {
+            "pl": "Szymon z Lipnicy",
+            "en": "Simon of Lipnica",
+            "la": "Simon de Lipnica"
+        },
         "records/patrons/stanislaus/cra": {
             "pl": "Stanisław ze Szczepanowa",
             "en": "Stanislaus of Szczepanów",

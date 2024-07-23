@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Szymon z Lipnicy"
+    ],
+    "en": [
+      "Simon of Lipnica"
+    ],
+    "la": [
+      "Simon de Lipnica"
+    ]
+  },
+
+  "born": [">1438", "<1440"],
+  "died": ["1482-07-18"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1685-02-24"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2007-06-03"
+  },
+
+  "also-in-martyrology": ["07-18"],
+
+  "forenames": ["simon"],
+  "categories": ["vir", "presbyter"],
+
+  "order": ["ofm"]
+}

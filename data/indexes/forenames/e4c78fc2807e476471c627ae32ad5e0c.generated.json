@@ -23,6 +23,11 @@
             "la": "Simon Apostolus",
             "en": "Simon Apostle",
             "pl": "Szymon Apostoł"
+        },
+        "records/patrons/simon/lip": {
+            "pl": "Szymon z Lipnicy",
+            "en": "Simon of Lipnica",
+            "la": "Simon de Lipnica"
         }
     }
 }

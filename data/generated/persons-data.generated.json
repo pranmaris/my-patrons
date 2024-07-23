@@ -4643,6 +4643,17 @@
         ],
         "feasts": []
     },
+    "patrons/simon/lip": {
+        "names": {
+            "pl": "Szymon z Lipnicy",
+            "en": "Simon of Lipnica",
+            "la": "Simon de Lipnica"
+        },
+        "died": [
+            "1482-07-18"
+        ],
+        "feasts": []
+    },
     "patrons/sophia": {
         "names": {
             "la": "Sophia",
