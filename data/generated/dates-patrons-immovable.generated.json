@@ -1512,6 +1512,16 @@
                 "reliable-death-anniversary": "28 V",
                 "other-martyrology-days": "28 V"
             }
+        },
+        "records/patrons/stephanus/wys": {
+            "name": {
+                "pl": "Stefan Wyszyński",
+                "en": "Stephen Wyszyński",
+                "la": "Stephanus Wyszyński"
+            },
+            "sources": {
+                "reliable-death-anniversary": "28 V"
+            }
         }
     },
     "05-29": {
