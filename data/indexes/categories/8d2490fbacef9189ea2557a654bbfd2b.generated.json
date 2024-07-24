@@ -19,6 +19,11 @@
             "en": "Anthony the Great",
             "la": "Antonius Magnus",
             "pl": "Antoni Wielki"
+        },
+        "records/patrons/hieronymus/dal": {
+            "la": "Hieronymus Stridonensis",
+            "en": "Jerome of Stridon",
+            "pl": "Hieronim ze Strydonu"
         }
     }
 }

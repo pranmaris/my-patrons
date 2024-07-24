@@ -63,6 +63,11 @@
             "en": "Gregory the Great",
             "pl": "Grzegorz Wielki"
         },
+        "records/patrons/hieronymus/dal": {
+            "la": "Hieronymus Stridonensis",
+            "en": "Jerome of Stridon",
+            "pl": "Hieronim ze Strydonu"
+        },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",

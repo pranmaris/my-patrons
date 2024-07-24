@@ -1,0 +1,22 @@
+{
+  "names": {
+    "la": [
+      "Hieronymus Stridonensis",
+      "Eusebius Sophronius Hieronymus"
+    ],
+    "en": [
+      "Jerome of Stridon"
+    ],
+    "pl": [
+      "Hieronim ze Strydonu"
+    ]
+  },
+
+  "born": ["~331", "~347"],
+  "died": ["420-09-30"],
+
+  "also-in-martyrology": ["09-30"],
+
+  "forenames": ["hieronymus"],
+  "categories": ["vir", "confessor", "presbyter", "monachus", "asceta", "doctor-ecclesiae"]
+}

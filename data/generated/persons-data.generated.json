@@ -2236,6 +2236,17 @@
             "it": "Jeronimo"
         }
     },
+    "patrons/hieronymus/dal": {
+        "names": {
+            "la": "Hieronymus Stridonensis",
+            "en": "Jerome of Stridon",
+            "pl": "Hieronim ze Strydonu"
+        },
+        "died": [
+            "420-09-30"
+        ],
+        "feasts": []
+    },
     "patrons/hieronymus/tif": {
         "names": {
             "it": "Jeronimo Ranuzzi",

@@ -3216,6 +3216,17 @@
         }
     },
     "09-30": {
+        "records/patrons/hieronymus/dal": {
+            "name": {
+                "la": "Hieronymus Stridonensis",
+                "en": "Jerome of Stridon",
+                "pl": "Hieronim ze Strydonu"
+            },
+            "sources": {
+                "reliable-death-anniversary": "30 IX",
+                "other-martyrology-days": "30 IX"
+            }
+        },
         "records/patrons/teresia/inf": {
             "name": {
                 "fr": "Thérèse de Lisieux",
