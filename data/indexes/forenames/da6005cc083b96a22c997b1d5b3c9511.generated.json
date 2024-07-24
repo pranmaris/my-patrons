@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Felicyssym"
+    },
+    "translations": {
+        "la": [
+            "Felicissimus"
+        ],
+        "en": [
+            "Felicissimus"
+        ],
+        "pl": [
+            "Felicyssym"
+        ]
+    },
+    "links": {
+        "records/patrons/felicissimus/rog": {
+            "la": "Felicissimus /+ Rogatianus",
+            "en": "Felicissimus /+ Rogatian",
+            "pl": "Felicyssym /+ Rogacjan"
+        }
+    }
+}

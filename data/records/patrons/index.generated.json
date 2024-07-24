@@ -355,6 +355,11 @@
         "pl": "Ezechiel",
         "he": "יְחֶזְקֵאל"
     },
+    "felicissimus": {
+        "la": "Felicissimus",
+        "en": "Felicissimus",
+        "pl": "Felicyssym"
+    },
     "felicitas": {
         "la": "Felicitas",
         "en": "Felicity",
@@ -574,6 +579,11 @@
         "la": "Lazarus",
         "en": "Lazarus",
         "pl": "Łazarz"
+    },
+    "leo": {
+        "la": "Leo",
+        "en": "Leon",
+        "pl": "Leon"
     },
     "leonardus": {
         "la": "Leonardus",

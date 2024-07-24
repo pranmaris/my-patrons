@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Leon Nowakowski"
+    ],
+    "en": [
+      "Leon Nowakowski"
+    ],
+    "la": [
+      "Leo Nowakowski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Nowakowski"
+    }
+  ],
+
+  "born": ["1913-06-28"],
+  "died": ["1939-10-31"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["10-31"],
+
+  "forenames": ["leo"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

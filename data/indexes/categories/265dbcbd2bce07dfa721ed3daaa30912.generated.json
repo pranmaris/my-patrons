@@ -241,6 +241,11 @@
             "la": "Ezechiel",
             "pl": "Ezechiel"
         },
+        "records/patrons/felicissimus/rog": {
+            "la": "Felicissimus /+ Rogatianus",
+            "en": "Felicissimus /+ Rogatian",
+            "pl": "Felicyssym /+ Rogacjan"
+        },
         "records/patrons/felicitas/car": {
             "la": "Felicitas Carthaginensis",
             "en": "Felicity of Carthage",
@@ -345,6 +350,11 @@
             "la": "Laurentius de Roma",
             "en": "Lawrence of Rome",
             "pl": "Wawrzyniec z Rzymu"
+        },
+        "records/patrons/leo/now": {
+            "pl": "Leon Nowakowski",
+            "en": "Leon Nowakowski",
+            "la": "Leo Nowakowski"
         },
         "records/patrons/lucia/syr": {
             "it": "Lucia da Siracusa",

@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Nowakowski"
+    },
+    "translations": {
+        "pl": [
+            "Nowakowski"
+        ]
+    },
+    "links": {
+        "records/patrons/leo/now": {
+            "pl": "Leon Nowakowski",
+            "en": "Leon Nowakowski",
+            "la": "Leo Nowakowski"
+        }
+    }
+}

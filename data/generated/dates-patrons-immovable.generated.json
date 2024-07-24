@@ -3681,6 +3681,18 @@
             }
         }
     },
+    "10-26": {
+        "records/patrons/felicissimus/rog": {
+            "name": {
+                "la": "Felicissimus /+ Rogatianus",
+                "en": "Felicissimus /+ Rogatian",
+                "pl": "Felicyssym /+ Rogacjan"
+            },
+            "sources": {
+                "other-martyrology-days": "26 X"
+            }
+        }
+    },
     "10-28": {
         "records/patrons/iudas/tha": {
             "name": {
@@ -3724,6 +3736,19 @@
             },
             "sources": {
                 "other-martyrology-days": "30 X"
+            }
+        }
+    },
+    "10-31": {
+        "records/patrons/leo/now": {
+            "name": {
+                "pl": "Leon Nowakowski",
+                "en": "Leon Nowakowski",
+                "la": "Leo Nowakowski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "31 X",
+                "other-martyrology-days": "31 X"
             }
         }
     },

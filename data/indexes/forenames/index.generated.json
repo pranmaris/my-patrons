@@ -649,6 +649,9 @@
     "55048b37d18052f7a613b4713eac36a0": {
         "la": "Caietanus"
     },
+    "550eadb88a230018bf043d1b6ad15863": {
+        "la": "Leo"
+    },
     "578ad8e10dc4edb52ff2bd4ec9bc93a3": {
         "en": "George"
     },
@@ -1702,6 +1705,13 @@
     "d8cd157904e10e81e8c205fc36f2b470": {
         "pl": "Lewi"
     },
+    "d8f7de479b1fae3d85d341f380524de5": {
+        "en": "Leon",
+        "pl": "Leon"
+    },
+    "da6005cc083b96a22c997b1d5b3c9511": {
+        "pl": "Felicyssym"
+    },
     "dafdc2d810aed14d855eae38b1ee5a24": {
         "la": "Canisia",
         "en": "Canisia"
@@ -1746,6 +1756,10 @@
         "en": "Roch",
         "pl": "Roch",
         "fr": "Roch"
+    },
+    "e29c67ce2ccdf9316474e6af29e92eba": {
+        "la": "Felicissimus",
+        "en": "Felicissimus"
     },
     "e355ec3b68d0fffc37d181f2da9d2fa3": {
         "es": "Francisco"

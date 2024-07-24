@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Felicissimus /+ Rogatianus"
+    ],
+    "en": [
+      "Felicissimus /+ Rogatian"
+    ],
+    "pl": [
+      "Felicyssym /+ Rogacjan"
+    ]
+  },
+
+  "died": ["~256", "~304"],
+
+  "also-in-martyrology": ["10-26"],
+
+  "forenames": ["felicissimus"],
+  "categories": ["vir", "martyr"]
+}

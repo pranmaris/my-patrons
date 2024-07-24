@@ -1861,6 +1861,25 @@
         ],
         "feasts": []
     },
+    "patrons/felicissimus": {
+        "names": {
+            "la": "Felicissimus",
+            "en": "Felicissimus",
+            "pl": "Felicyssym"
+        }
+    },
+    "patrons/felicissimus/rog": {
+        "names": {
+            "la": "Felicissimus /+ Rogatianus",
+            "en": "Felicissimus /+ Rogatian",
+            "pl": "Felicyssym /+ Rogacjan"
+        },
+        "died": [
+            "~256",
+            "~304"
+        ],
+        "feasts": []
+    },
     "patrons/felicitas": {
         "names": {
             "la": "Felicitas",
@@ -3071,6 +3090,24 @@
         },
         "died": [
             "~449"
+        ],
+        "feasts": []
+    },
+    "patrons/leo": {
+        "names": {
+            "la": "Leo",
+            "en": "Leon",
+            "pl": "Leon"
+        }
+    },
+    "patrons/leo/now": {
+        "names": {
+            "pl": "Leon Nowakowski",
+            "en": "Leon Nowakowski",
+            "la": "Leo Nowakowski"
+        },
+        "died": [
+            "1939-10-31"
         ],
         "feasts": []
     },
