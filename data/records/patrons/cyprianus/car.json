@@ -1,0 +1,22 @@
+{
+  "names": {
+    "la": [
+      "Cyprianus Carthaginensis",
+      "Thascius Caecilius Cyprianus"
+    ],
+    "en": [
+      "Cyprian of Carthage"
+    ],
+    "pl": [
+      "Cyprian z Kartaginy"
+    ]
+  },
+
+  "born": ["~200", "~210"],
+  "died": ["258-09-14"],
+
+  "also-in-martyrology": ["09-14", "09-16"],
+
+  "forenames": ["cyprianus"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

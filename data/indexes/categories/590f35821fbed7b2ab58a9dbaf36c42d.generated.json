@@ -327,6 +327,11 @@
             "la": "Cosmas /+ Damianus",
             "pl": "Kosma /+ Damian"
         },
+        "records/patrons/cyprianus/car": {
+            "la": "Cyprianus Carthaginensis",
+            "en": "Cyprian of Carthage",
+            "pl": "Cyprian z Kartaginy"
+        },
         "records/patrons/cyrillus/ale": {
             "la": "Cyrillus Alexandrinus",
             "en": "Cyril of Alexandria",

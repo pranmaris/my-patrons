@@ -2985,6 +2985,17 @@
         }
     },
     "09-14": {
+        "records/patrons/cyprianus/car": {
+            "name": {
+                "la": "Cyprianus Carthaginensis",
+                "en": "Cyprian of Carthage",
+                "pl": "Cyprian z Kartaginy"
+            },
+            "sources": {
+                "reliable-death-anniversary": "14 IX",
+                "other-martyrology-days": "14 IX"
+            }
+        },
         "records/patrons/ioannes/chr": {
             "name": {
                 "la": "Ioannes Chrysostomus",
@@ -3007,6 +3018,16 @@
             },
             "sources": {
                 "reliable-death-anniversary": "16 IX",
+                "other-martyrology-days": "16 IX"
+            }
+        },
+        "records/patrons/cyprianus/car": {
+            "name": {
+                "la": "Cyprianus Carthaginensis",
+                "en": "Cyprian of Carthage",
+                "pl": "Cyprian z Kartaginy"
+            },
+            "sources": {
                 "other-martyrology-days": "16 IX"
             }
         }

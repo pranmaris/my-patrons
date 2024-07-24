@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "Cyprian",
+        "pl": "Cyprian"
+    },
+    "translations": {
+        "la": [
+            "Cyprianus"
+        ],
+        "en": [
+            "Cyprian"
+        ],
+        "pl": [
+            "Cyprian"
+        ]
+    },
+    "links": {
+        "records/patrons/cyprianus/car": {
+            "la": "Cyprianus Carthaginensis",
+            "en": "Cyprian of Carthage",
+            "pl": "Cyprian z Kartaginy"
+        }
+    }
+}

@@ -103,6 +103,11 @@
             "en": "Cassian of Autun",
             "pl": "Kasjan z Autun"
         },
+        "records/patrons/cyprianus/car": {
+            "la": "Cyprianus Carthaginensis",
+            "en": "Cyprian of Carthage",
+            "pl": "Cyprian z Kartaginy"
+        },
         "records/patrons/cyrillus/ale": {
             "la": "Cyrillus Alexandrinus",
             "en": "Cyril of Alexandria",

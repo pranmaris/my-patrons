@@ -1479,6 +1479,24 @@
         ],
         "feasts": []
     },
+    "patrons/cyprianus": {
+        "names": {
+            "la": "Cyprianus",
+            "en": "Cyprian",
+            "pl": "Cyprian"
+        }
+    },
+    "patrons/cyprianus/car": {
+        "names": {
+            "la": "Cyprianus Carthaginensis",
+            "en": "Cyprian of Carthage",
+            "pl": "Cyprian z Kartaginy"
+        },
+        "died": [
+            "258-09-14"
+        ],
+        "feasts": []
+    },
     "patrons/cyrillus": {
         "names": {
             "la": "Cyrillus",
