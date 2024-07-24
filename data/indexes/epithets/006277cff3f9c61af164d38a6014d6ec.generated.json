@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "od Trójcy Przenajświętszej"
+    },
+    "translations": {
+        "fr": [
+            "de la Sainte Trinité"
+        ],
+        "en": [
+            "of the Holy Trinity"
+        ],
+        "la": [
+            "a Sanctissima Trinitate"
+        ],
+        "pl": [
+            "od Trójcy Przenajświętszej"
+        ]
+    },
+    "links": {
+        "records/patrons/elisabeth/cat": {
+            "fr": "Élisabeth de la Sainte Trinité",
+            "en": "Elizabeth of the Holy Trinity",
+            "la": "Elisabetha a Sanctissima Trinitate",
+            "pl": "Elżbieta od Trójcy Przenajświętszej"
+        }
+    }
+}

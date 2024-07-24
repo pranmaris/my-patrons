@@ -1806,8 +1806,21 @@
             "la": "Elisabeth",
             "en": "Elizabeth",
             "pl": "Elżbieta",
-            "es": "Elisabet"
+            "es": "Elisabet",
+            "fr": "Elisabeth"
         }
+    },
+    "patrons/elisabeth/cat": {
+        "names": {
+            "fr": "Élisabeth de la Sainte Trinité",
+            "en": "Elizabeth of the Holy Trinity",
+            "la": "Elisabetha a Sanctissima Trinitate",
+            "pl": "Elżbieta od Trójcy Przenajświętszej"
+        },
+        "died": [
+            "1906-11-09"
+        ],
+        "feasts": []
     },
     "patrons/elisabeth/lus": {
         "names": {

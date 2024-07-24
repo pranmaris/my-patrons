@@ -66,6 +66,12 @@
             "la": "Clara Assisiensis",
             "pl": "Klara z Asyżu"
         },
+        "records/patrons/elisabeth/cat": {
+            "fr": "Élisabeth de la Sainte Trinité",
+            "en": "Elizabeth of the Holy Trinity",
+            "la": "Elisabetha a Sanctissima Trinitate",
+            "pl": "Elżbieta od Trójcy Przenajświętszej"
+        },
         "records/patrons/gemma/gal": {
             "it": "Gemma Galgani",
             "en": "Gemma Galgani",

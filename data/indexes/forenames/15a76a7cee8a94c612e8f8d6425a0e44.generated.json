@@ -1,6 +1,7 @@
 {
     "names": {
-        "la": "Elisabeth"
+        "la": "Elisabeth",
+        "fr": "Elisabeth"
     },
     "translations": {
         "la": [
@@ -14,9 +15,18 @@
         ],
         "es": [
             "Elisabet"
+        ],
+        "fr": [
+            "Elisabeth"
         ]
     },
     "links": {
+        "records/patrons/elisabeth/cat": {
+            "fr": "Élisabeth de la Sainte Trinité",
+            "en": "Elizabeth of the Holy Trinity",
+            "la": "Elisabetha a Sanctissima Trinitate",
+            "pl": "Elżbieta od Trójcy Przenajświętszej"
+        },
         "records/patrons/elisabeth/lus": {
             "es": "Elisabet de Aragón",
             "en": "Elizabeth of Aragon",

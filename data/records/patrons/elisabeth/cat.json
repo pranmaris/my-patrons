@@ -1,0 +1,53 @@
+{
+  "names": {
+    "fr": [
+      "Élisabeth de la Sainte Trinité",
+      "Élisabeth Catez"
+    ],
+    "en": [
+      "Elizabeth of the Holy Trinity",
+      "Elizabeth Catez"
+    ],
+    "la": [
+      "Elisabetha a Sanctissima Trinitate",
+      "Elisabetha Catez"
+    ],
+    "pl": [
+      "Elżbieta od Trójcy Przenajświętszej",
+      "Elżbieta Catez"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Catez"
+    }
+  ],
+  "epithets": [
+    {
+      "fr": "de la Sainte Trinité",
+      "en": "of the Holy Trinity",
+      "la": "a Sanctissima Trinitate",
+      "pl": "od Trójcy Przenajświętszej"
+    }
+  ],
+
+  "born": ["1880-07-18"],
+  "died": ["1906-11-09"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1984-11-25"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2016-10-16"
+  },
+
+  "also-in-martyrology": [],
+
+  "forenames": ["elisabeth"],
+  "categories": ["femina", "virgo"],
+
+  "order": ["ocd"]
+}
