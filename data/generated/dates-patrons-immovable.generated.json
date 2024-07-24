@@ -3058,6 +3058,18 @@
             }
         }
     },
+    "09-19": {
+        "records/patrons/ianuarius/ben": {
+            "name": {
+                "la": "Ianuarius Beneventanus",
+                "en": "Januarius of Benevento",
+                "pl": "January z Benewentu"
+            },
+            "sources": {
+                "other-martyrology-days": "19 IX"
+            }
+        }
+    },
     "09-20": {
         "records/patrons/andreas/kim": {
             "name": {

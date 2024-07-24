@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Ianuarius Beneventanus"
+    ],
+    "en": [
+      "Januarius of Benevento"
+    ],
+    "pl": [
+      "January z Benewentu"
+    ]
+  },
+
+  "born": ["~270"],
+  "died": ["~305"],
+
+  "also-in-martyrology": ["09-19"],
+
+  "forenames": ["ianuarius"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

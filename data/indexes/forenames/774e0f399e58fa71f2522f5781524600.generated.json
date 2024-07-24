@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Ianuarius"
+    },
+    "translations": {
+        "la": [
+            "Ianuarius",
+            "Januarius"
+        ],
+        "en": [
+            "Januarius"
+        ],
+        "pl": [
+            "January"
+        ]
+    },
+    "links": {
+        "records/patrons/ianuarius/ben": {
+            "la": "Ianuarius Beneventanus",
+            "en": "Januarius of Benevento",
+            "pl": "January z Benewentu"
+        }
+    }
+}

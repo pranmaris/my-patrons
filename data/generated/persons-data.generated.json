@@ -2345,6 +2345,24 @@
         ],
         "feasts": []
     },
+    "patrons/ianuarius": {
+        "names": {
+            "la": "Ianuarius",
+            "en": "Januarius",
+            "pl": "January"
+        }
+    },
+    "patrons/ianuarius/ben": {
+        "names": {
+            "la": "Ianuarius Beneventanus",
+            "en": "Januarius of Benevento",
+            "pl": "January z Benewentu"
+        },
+        "died": [
+            "~305"
+        ],
+        "feasts": []
+    },
     "patrons/iarognievus": {
         "names": {
             "la": "Iarognievus",
