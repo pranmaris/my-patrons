@@ -144,6 +144,12 @@
             "en": "Celestine Faron",
             "la": "Caelestina Faron"
         },
+        "records/patrons/caesarius/tar": {
+            "it": "Cesario di Terracina",
+            "en": "Caesarius of Terracina",
+            "la": "Caesarius Terracinensis",
+            "pl": "Cezary z Terraciny"
+        },
         "records/patrons/carolina/koz": {
             "pl": "Karolina Kózka",
             "en": "Karolina Kózka",

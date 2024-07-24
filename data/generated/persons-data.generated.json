@@ -1211,6 +1211,27 @@
         ],
         "feasts": []
     },
+    "patrons/caesarius": {
+        "names": {
+            "la": "Caesarius",
+            "en": "Caesarius",
+            "pl": "Cezary",
+            "it": "Cesario"
+        }
+    },
+    "patrons/caesarius/tar": {
+        "names": {
+            "it": "Cesario di Terracina",
+            "en": "Caesarius of Terracina",
+            "la": "Caesarius Terracinensis",
+            "pl": "Cezary z Terraciny"
+        },
+        "died": [
+            ">201",
+            "<303"
+        ],
+        "feasts": []
+    },
     "patrons/camillus": {
         "names": {
             "la": "Camillus",

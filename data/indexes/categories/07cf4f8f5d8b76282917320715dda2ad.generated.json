@@ -265,6 +265,12 @@
             "la": "Bruno Cartusiensis",
             "pl": "Bruno Kartuz"
         },
+        "records/patrons/caesarius/tar": {
+            "it": "Cesario di Terracina",
+            "en": "Caesarius of Terracina",
+            "la": "Caesarius Terracinensis",
+            "pl": "Cezary z Terraciny"
+        },
         "records/patrons/camillus/lel": {
             "it": "Camillo de Lellis",
             "en": "Camillus de Lellis",

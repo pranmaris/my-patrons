@@ -154,6 +154,9 @@
         "la": "Didacus",
         "en": "Didacus"
     },
+    "10a6ebcbe4bb58230c982826f4509280": {
+        "pl": "Cezary"
+    },
     "10b0e6e2349c924f1133e49e214b3d3d": {
         "la": "Norbertus"
     },
@@ -335,6 +338,9 @@
     },
     "283790ce89deb23936ef0250b233bf7c": {
         "it": "Jeronimo"
+    },
+    "286635b1c90cc4b022584e5d58a43ae9": {
+        "it": "Cesario"
     },
     "28dbf3a8499981fd71e91ffaaf56c817": {
         "el": "Στέφανος"
@@ -820,6 +826,10 @@
         "la": "Rosalia",
         "en": "Rosalia",
         "it": "Rosalia"
+    },
+    "6e23358cf86e4fbcff966002f539bb05": {
+        "la": "Caesarius",
+        "en": "Caesarius"
     },
     "6f2ea64569981645cabaa50f57fad71f": {
         "la": "Boleslava",

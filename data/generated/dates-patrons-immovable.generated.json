@@ -3753,6 +3753,17 @@
         }
     },
     "11-01": {
+        "records/patrons/caesarius/tar": {
+            "name": {
+                "it": "Cesario di Terracina",
+                "en": "Caesarius of Terracina",
+                "la": "Caesarius Terracinensis",
+                "pl": "Cezary z Terraciny"
+            },
+            "sources": {
+                "other-martyrology-days": "1 XI"
+            }
+        },
         "records/patrons/multi/san": {
             "name": {
                 "la": "Omnes Sancti",
