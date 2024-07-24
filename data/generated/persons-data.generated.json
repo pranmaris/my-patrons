@@ -5004,7 +5004,8 @@
         "names": {
             "la": "Ursula",
             "en": "Ursula",
-            "pl": "Urszula"
+            "pl": "Urszula",
+            "de": "Ursula"
         }
     },
     "patrons/ursula/led": {
@@ -5015,6 +5016,19 @@
         },
         "died": [
             "1939-05-29"
+        ],
+        "feasts": []
+    },
+    "patrons/ursula/vir": {
+        "names": {
+            "de": "Ursula von Köln",
+            "en": "Ursula of Cologne",
+            "la": "Ursula Coloniensis",
+            "pl": "Urszula z Kolonii"
+        },
+        "died": [
+            ">301",
+            "<400"
         ],
         "feasts": []
     },

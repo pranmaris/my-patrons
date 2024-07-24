@@ -276,6 +276,12 @@
             "pl": "Urszula Ledóchowska",
             "en": "Ursula Ledóchowska",
             "la": "Urszula Ledóchowska"
+        },
+        "records/patrons/ursula/vir": {
+            "de": "Ursula von Köln",
+            "en": "Ursula of Cologne",
+            "la": "Ursula Coloniensis",
+            "pl": "Urszula z Kolonii"
         }
     }
 }

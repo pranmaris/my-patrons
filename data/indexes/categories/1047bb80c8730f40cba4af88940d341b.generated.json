@@ -162,6 +162,12 @@
             "en": "Teresa Benedicta of the Cross",
             "la": "Teresia Benedicta a Cruce",
             "pl": "Teresa Benedykta od Krzyża"
+        },
+        "records/patrons/ursula/vir": {
+            "de": "Ursula von Köln",
+            "en": "Ursula of Cologne",
+            "la": "Ursula Coloniensis",
+            "pl": "Urszula z Kolonii"
         }
     }
 }
