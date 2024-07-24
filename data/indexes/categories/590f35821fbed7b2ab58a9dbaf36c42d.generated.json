@@ -492,6 +492,12 @@
             "la": "Georgius Popiełuszko",
             "en": "George Popiełuszko"
         },
+        "records/patrons/gerardus/abb": {
+            "fr": "Gérard de Brogne",
+            "en": "Gerard of Brogne",
+            "la": "Gerardus Broniensis",
+            "pl": "Gerard z Brogne"
+        },
         "records/patrons/gregorius/1pp": {
             "la": "Gregorius Magnus",
             "en": "Gregory the Great",

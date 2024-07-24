@@ -2143,6 +2143,26 @@
         ],
         "feasts": []
     },
+    "patrons/gerardus": {
+        "names": {
+            "la": "Gerardus",
+            "en": "Gerard",
+            "pl": "Gerard",
+            "fr": "Gérard"
+        }
+    },
+    "patrons/gerardus/abb": {
+        "names": {
+            "fr": "Gérard de Brogne",
+            "en": "Gerard of Brogne",
+            "la": "Gerardus Broniensis",
+            "pl": "Gerard z Brogne"
+        },
+        "died": [
+            "959-10-03"
+        ],
+        "feasts": []
+    },
     "patrons/gregorius": {
         "names": {
             "la": "Gregorius",

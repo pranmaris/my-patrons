@@ -31,6 +31,12 @@
             "la": "Dominicus de Silos",
             "pl": "Dominik z Silos"
         },
+        "records/patrons/gerardus/abb": {
+            "fr": "Gérard de Brogne",
+            "en": "Gerard of Brogne",
+            "la": "Gerardus Broniensis",
+            "pl": "Gerard z Brogne"
+        },
         "records/patrons/magnus/abb": {
             "de": "Magnus von Füssen",
             "la": "Magnus",

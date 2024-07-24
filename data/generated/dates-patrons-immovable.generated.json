@@ -3288,6 +3288,18 @@
                 "reliable-death-anniversary": "3 X"
             }
         },
+        "records/patrons/gerardus/abb": {
+            "name": {
+                "fr": "Gérard de Brogne",
+                "en": "Gerard of Brogne",
+                "la": "Gerardus Broniensis",
+                "pl": "Gerard z Brogne"
+            },
+            "sources": {
+                "reliable-death-anniversary": "3 X",
+                "other-martyrology-days": "3 X"
+            }
+        },
         "records/patrons/teresia/inf": {
             "name": {
                 "fr": "Thérèse de Lisieux",

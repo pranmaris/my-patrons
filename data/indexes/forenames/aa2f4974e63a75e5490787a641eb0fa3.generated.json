@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Gerardus"
+    },
+    "translations": {
+        "la": [
+            "Gerardus"
+        ],
+        "en": [
+            "Gerard"
+        ],
+        "pl": [
+            "Gerard"
+        ],
+        "fr": [
+            "Gérard"
+        ]
+    },
+    "links": {
+        "records/patrons/gerardus/abb": {
+            "fr": "Gérard de Brogne",
+            "en": "Gerard of Brogne",
+            "la": "Gerardus Broniensis",
+            "pl": "Gerard z Brogne"
+        }
+    }
+}

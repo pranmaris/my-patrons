@@ -1,0 +1,24 @@
+{
+  "names": {
+    "fr": [
+      "Gérard de Brogne"
+    ],
+    "en": [
+      "Gerard of Brogne"
+    ],
+    "la": [
+      "Gerardus Broniensis"
+    ],
+    "pl": [
+      "Gerard z Brogne"
+    ]
+  },
+
+  "born": ["~895"],
+  "died": ["959-10-03"],
+
+  "also-in-martyrology": ["10-03"],
+
+  "forenames": ["gerardus"],
+  "categories": ["vir", "abbas"]
+}
