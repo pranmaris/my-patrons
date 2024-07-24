@@ -3216,6 +3216,18 @@
         }
     },
     "09-30": {
+        "records/patrons/franciscus/bor": {
+            "name": {
+                "es": "Francisco de Borja",
+                "en": "Francis Borgia",
+                "la": "Franciscus Borgia",
+                "pl": "Franciszek Borgiasz"
+            },
+            "sources": {
+                "reliable-death-anniversary": "30 IX",
+                "other-martyrology-days": "30 IX"
+            }
+        },
         "records/patrons/hieronymus/dal": {
             "name": {
                 "la": "Hieronymus Stridonensis",
@@ -3400,6 +3412,19 @@
             },
             "sources": {
                 "other-martyrology-days": "9 X"
+            }
+        }
+    },
+    "10-10": {
+        "records/patrons/franciscus/bor": {
+            "name": {
+                "es": "Francisco de Borja",
+                "en": "Francis Borgia",
+                "la": "Franciscus Borgia",
+                "pl": "Franciszek Borgiasz"
+            },
+            "sources": {
+                "other-martyrology-days": "10 X"
             }
         }
     },

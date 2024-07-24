@@ -1,0 +1,44 @@
+{
+  "names": {
+    "es": [
+      "Francisco de Borja"
+    ],
+    "en": [
+      "Francis Borgia"
+    ],
+    "la": [
+      "Franciscus Borgia"
+    ],
+    "pl": [
+      "Franciszek Borgiasz"
+    ]
+  },
+
+  "surnames": [
+    {
+      "es": "de Borja",
+      "en": "Borgia",
+      "la": ["Borgia", "de Borja"],
+      "pl": "Borgiasz"
+    }
+  ],
+
+  "born": ["1510-10-28"],
+  "died": ["1572-09-30"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1624-11-23"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1670-06-20"
+  },
+
+  "also-in-martyrology": ["09-30", "10-10"],
+
+  "forenames": ["franciscus"],
+  "categories": ["vir", "confessor", "uxorius", "sacerdos", "presbyter", "generalis"],
+
+  "order": ["sj"]
+}

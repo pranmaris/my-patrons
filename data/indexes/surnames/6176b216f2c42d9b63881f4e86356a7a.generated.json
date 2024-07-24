@@ -1,0 +1,28 @@
+{
+    "names": {
+        "pl": "Borgiasz"
+    },
+    "translations": {
+        "es": [
+            "de Borja"
+        ],
+        "en": [
+            "Borgia"
+        ],
+        "la": [
+            "Borgia",
+            "de Borja"
+        ],
+        "pl": [
+            "Borgiasz"
+        ]
+    },
+    "links": {
+        "records/patrons/franciscus/bor": {
+            "es": "Francisco de Borja",
+            "en": "Francis Borgia",
+            "la": "Franciscus Borgia",
+            "pl": "Franciszek Borgiasz"
+        }
+    }
+}

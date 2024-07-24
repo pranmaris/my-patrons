@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "żonaty"
+    },
+    "translations": {
+        "la": [
+            "uxorius"
+        ],
+        "en": [
+            "wifish"
+        ],
+        "pl": [
+            "żonaty"
+        ]
+    },
+    "links": {
+        "records/patrons/franciscus/bor": {
+            "es": "Francisco de Borja",
+            "en": "Francis Borgia",
+            "la": "Franciscus Borgia",
+            "pl": "Franciszek Borgiasz"
+        }
+    }
+}

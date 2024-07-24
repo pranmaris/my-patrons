@@ -1926,6 +1926,18 @@
         ],
         "feasts": []
     },
+    "patrons/franciscus/bor": {
+        "names": {
+            "es": "Francisco de Borja",
+            "en": "Francis Borgia",
+            "la": "Franciscus Borgia",
+            "pl": "Franciszek Borgiasz"
+        },
+        "died": [
+            "1572-09-30"
+        ],
+        "feasts": []
+    },
     "patrons/franciscus/car": {
         "names": {
             "it": "Francesco Caracciolo",

@@ -154,6 +154,11 @@
         "en": "foundress",
         "pl": "fundatorka"
     },
+    "generalis": {
+        "la": "generalis",
+        "en": "general",
+        "pl": "generał"
+    },
     "hegumenus": {
         "la": "hegumenus",
         "en": "hegumen",
@@ -318,6 +323,11 @@
         "la": "uxor",
         "en": "wife",
         "pl": "małżonka"
+    },
+    "uxorius": {
+        "la": "uxorius",
+        "en": "wifish",
+        "pl": "żonaty"
     },
     "vidua": {
         "la": "vidua",
