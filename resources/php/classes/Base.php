@@ -29,6 +29,7 @@ abstract class Base
     protected const GENERATED_FILE_NAME_SUFFIX = '.generated';
     protected const DATA_FILE_EXTENSION = '.json';
 
+    protected const VARIABLE_NAME_SIGN = '#';
     protected const LANG_VARIABLE_PREFIX = 'lang-';
 
     protected const DATA_LINKS_GENERATED_FILES_INDEX = 'data-links';
@@ -221,13 +222,18 @@ abstract class Base
 
         $extension = $name;
         $extension = $this->stripTags($extension);
+        if (mb_substr($extension, 0, 1) === self::VARIABLE_NAME_SIGN
+            && mb_substr($extension, -1) === self::VARIABLE_NAME_SIGN
+        ) {
+            $extension = '';
+        }
         $extension = mb_strtolower($extension);
         $extension = str_replace($charsFrom, $charsTo, $extension);
         $extension = urlencode($extension);
 
         return preg_replace(
             '~(/[-' . self::FEAST_ID_SEPARATOR . '0-9A-Za-z]+|/[0-9a-f]{32})([?#].*)?$~',
-            '\1' . self::RECORD_ID_WITH_NAME_EXTENSION_SEPARATOR . $extension . '\2',
+            '\1' . ($extension === '' ? '' : self::RECORD_ID_WITH_NAME_EXTENSION_SEPARATOR . $extension) . '\2',
             $path
         );
     }

@@ -222,6 +222,9 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
             $name = $this->getReplacedContent(self::VARIABLE_NAME_SIGN . $element . self::VARIABLE_NAME_SIGN, $indexVariables, true);
             $name = preg_replace('/^' . self::VARIABLE_NAME_SIGN . '(.+)' . self::VARIABLE_NAME_SIGN . '$/', '\1', $name);
 
+            if ($found && !isset($indexVariables[$element])) {
+                $name = self::VARIABLE_NAME_SIGN . self::LANG_VARIABLE_PREFIX . $element . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
+            }
             if (!$found && $element === $name) {
                 $isActive = self::BREADCRUMBS_HIDE_DATA_ELEMENT_PATHS[$element] ?? null;
                 if (!is_null($isActive)) {

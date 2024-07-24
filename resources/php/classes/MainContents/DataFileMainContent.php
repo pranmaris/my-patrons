@@ -79,6 +79,11 @@ class DataFileMainContent extends MainContent implements MainContentInterface
         $fileNameVariable = self::VARIABLE_NAME_SIGN . basename($path) . self::VARIABLE_NAME_SIGN;
         $translatedFileName = $this->getReplacedContent($fileNameVariable, $indexVariables, true);
 
+        if (mb_substr($translatedFileName, 0, 1) === self::VARIABLE_NAME_SIGN
+            && mb_substr($translatedFileName, -1) === self::VARIABLE_NAME_SIGN) {
+            $translatedFileName = self::VARIABLE_NAME_SIGN . self::LANG_VARIABLE_PREFIX . mb_substr($translatedFileName, 1, -1) . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
+        }
+
         return $translatedFileName;
     }
 

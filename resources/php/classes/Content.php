@@ -6,7 +6,6 @@ abstract class Content extends Base
 
     protected const ENCODING = 'UTF-8';
 
-    protected const VARIABLE_NAME_SIGN = '#';
     protected const MODIFIER_SEPARATOR = '|';
 
     protected const MODIFIER_CAPITALIZE = 'capitalize';
