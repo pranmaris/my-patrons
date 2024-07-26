@@ -146,6 +146,11 @@
             "en": "Mary Imelda of the Eucharistic Jesus",
             "la": "Maria Imelda a Iesu Hostia"
         },
+        "records/patrons/multi/nie": {
+            "la": "Multa Milia Martyres in Nicomediae Ecclesia",
+            "en": "Many Thousands of Martyrs from church in Nicomedia",
+            "pl": "Wiele Tysięcy Męczenników z kościoła w Nikomedii"
+        },
         "records/patrons/perpetua/car": {
             "la": "Perpetua Carthaginensis",
             "en": "Perpetua of Carthage",

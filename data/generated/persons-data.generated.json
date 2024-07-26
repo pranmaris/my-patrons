@@ -4079,6 +4079,17 @@
         "died": [],
         "feasts": []
     },
+    "patrons/multi/nie": {
+        "names": {
+            "la": "Multa Milia Martyres in Nicomediae Ecclesia",
+            "en": "Many Thousands of Martyrs from church in Nicomedia",
+            "pl": "Wiele Tysięcy Męczenników z kościoła w Nikomedii"
+        },
+        "died": [
+            "~303"
+        ],
+        "feasts": []
+    },
     "patrons/multi/san": {
         "names": {
             "la": "Omnes Sancti",

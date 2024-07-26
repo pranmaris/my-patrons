@@ -4435,6 +4435,16 @@
             "sources": {
                 "other-martyrology-days": "25 XII"
             }
+        },
+        "records/patrons/multi/nie": {
+            "name": {
+                "la": "Multa Milia Martyres in Nicomediae Ecclesia",
+                "en": "Many Thousands of Martyrs from church in Nicomedia",
+                "pl": "Wiele Tysięcy Męczenników z kościoła w Nikomedii"
+            },
+            "sources": {
+                "other-martyrology-days": "25 XII"
+            }
         }
     },
     "12-26": {

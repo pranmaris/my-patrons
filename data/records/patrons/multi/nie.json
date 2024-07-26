@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Multa Milia Martyres in Nicomediae Ecclesia"
+    ],
+    "en": [
+      "Many Thousands of Martyrs from church in Nicomedia"
+    ],
+    "pl": [
+      "Wiele Tysięcy Męczenników z kościoła w Nikomedii"
+    ]
+  },
+
+  "died": ["~303"],
+
+  "also-in-martyrology": ["12-25"],
+
+  "forenames": ["multi"],
+  "categories": ["socia", "vir", "femina", "martyr", "martyrix"]
+}
