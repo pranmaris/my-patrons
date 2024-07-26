@@ -1,12 +1,18 @@
 {
+    "cam": {
+        "es": "Luis Campos Górriz",
+        "en": "Aloise Campos Górriz",
+        "la": "Aloysius Campos Górriz",
+        "pl": "Alojzy Campos Górriz"
+    },
     "lig": {
         "pl": "Alojzy Liguda",
-        "la": "Aloysius Liguda",
+        "la": "Aloise Liguda",
         "en": "Aloysius Liguda"
     },
     "ori": {
         "it": "Luigi Orione",
-        "en": "Aloysius Orione",
+        "en": "Aloise Orione",
         "la": "Aloysius Orione",
         "pl": "Alojzy Orione"
     }

@@ -1,0 +1,38 @@
+{
+  "names": {
+    "es": [
+      "Luis Campos Górriz"
+    ],
+    "en": [
+      "Aloise Campos Górriz"
+    ],
+    "la": [
+      "Aloysius Campos Górriz"
+    ],
+    "pl": [
+      "Alojzy Campos Górriz"
+    ]
+  },
+
+  "surnames": [
+    {
+      "es": "Campos"
+    },
+    {
+      "es": "Górriz"
+    }
+  ],
+
+  "born": ["1905-06-30"],
+  "died": ["1936-08-29"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2001-03-11"
+  },
+
+  "also-in-martyrology": ["11-28"],
+
+  "forenames": ["aloysius"],
+  "categories": ["vir", "martyr"]
+}

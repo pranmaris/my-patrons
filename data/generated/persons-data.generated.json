@@ -516,16 +516,28 @@
     "patrons/aloysius": {
         "names": {
             "la": "Aloysius",
-            "en": "Aloysius",
+            "en": "Aloise",
             "pl": "Alojzy",
             "es": "Luis",
             "it": "Luigi"
         }
     },
+    "patrons/aloysius/cam": {
+        "names": {
+            "es": "Luis Campos Górriz",
+            "en": "Aloise Campos Górriz",
+            "la": "Aloysius Campos Górriz",
+            "pl": "Alojzy Campos Górriz"
+        },
+        "died": [
+            "1936-08-29"
+        ],
+        "feasts": []
+    },
     "patrons/aloysius/lig": {
         "names": {
             "pl": "Alojzy Liguda",
-            "la": "Aloysius Liguda",
+            "la": "Aloise Liguda",
             "en": "Aloysius Liguda"
         },
         "died": [
@@ -536,7 +548,7 @@
     "patrons/aloysius/ori": {
         "names": {
             "it": "Luigi Orione",
-            "en": "Aloysius Orione",
+            "en": "Aloise Orione",
             "la": "Aloysius Orione",
             "pl": "Alojzy Orione"
         },
@@ -1655,7 +1667,7 @@
     "patrons/didacus/vit": {
         "names": {
             "es": "Diego Luis de San Vitores",
-            "en": "Didacus Louis de San Vitores",
+            "en": "Didacus Aloise de San Vitores",
             "la": "Didacus Aloysius de San Vitores",
             "pl": "Dydak Alojzy de San Vitores"
         },

@@ -22,12 +22,12 @@
         },
         "records/patrons/aloysius/lig": {
             "pl": "Alojzy Liguda",
-            "la": "Aloysius Liguda",
+            "la": "Aloise Liguda",
             "en": "Aloysius Liguda"
         },
         "records/patrons/aloysius/ori": {
             "it": "Luigi Orione",
-            "en": "Aloysius Orione",
+            "en": "Aloise Orione",
             "la": "Aloysius Orione",
             "pl": "Alojzy Orione"
         },
@@ -120,7 +120,7 @@
         },
         "records/patrons/didacus/vit": {
             "es": "Diego Luis de San Vitores",
-            "en": "Didacus Louis de San Vitores",
+            "en": "Didacus Aloise de San Vitores",
             "la": "Didacus Aloysius de San Vitores",
             "pl": "Dydak Alojzy de San Vitores"
         },

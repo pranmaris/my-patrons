@@ -691,7 +691,7 @@
         "records/patrons/aloysius/ori": {
             "name": {
                 "it": "Luigi Orione",
-                "en": "Aloysius Orione",
+                "en": "Aloise Orione",
                 "la": "Aloysius Orione",
                 "pl": "Alojzy Orione"
             },
@@ -912,7 +912,7 @@
         "records/patrons/didacus/vit": {
             "name": {
                 "es": "Diego Luis de San Vitores",
-                "en": "Didacus Louis de San Vitores",
+                "en": "Didacus Aloise de San Vitores",
                 "la": "Didacus Aloysius de San Vitores",
                 "pl": "Dydak Alojzy de San Vitores"
             },
@@ -2851,6 +2851,17 @@
         }
     },
     "08-29": {
+        "records/patrons/aloysius/cam": {
+            "name": {
+                "es": "Luis Campos Górriz",
+                "en": "Aloise Campos Górriz",
+                "la": "Aloysius Campos Górriz",
+                "pl": "Alojzy Campos Górriz"
+            },
+            "sources": {
+                "reliable-death-anniversary": "29 VIII"
+            }
+        },
         "records/patrons/sancia/szy": {
             "name": {
                 "pl": "Sancja Szymkowiak",
@@ -4108,6 +4119,19 @@
             }
         }
     },
+    "11-28": {
+        "records/patrons/aloysius/cam": {
+            "name": {
+                "es": "Luis Campos Górriz",
+                "en": "Aloise Campos Górriz",
+                "la": "Aloysius Campos Górriz",
+                "pl": "Alojzy Campos Górriz"
+            },
+            "sources": {
+                "other-martyrology-days": "28 XI"
+            }
+        }
+    },
     "11-29": {
         "records/patrons/saturninus/tol": {
             "name": {
@@ -4246,7 +4270,7 @@
         "records/patrons/aloysius/lig": {
             "name": {
                 "pl": "Alojzy Liguda",
-                "la": "Aloysius Liguda",
+                "la": "Aloise Liguda",
                 "en": "Aloysius Liguda"
             },
             "sources": {

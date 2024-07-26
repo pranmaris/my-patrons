@@ -45,9 +45,15 @@
             "en": "Lex Zaryckyy",
             "pl": "Aleksy Zarycki"
         },
+        "records/patrons/aloysius/cam": {
+            "es": "Luis Campos Górriz",
+            "en": "Aloise Campos Górriz",
+            "la": "Aloysius Campos Górriz",
+            "pl": "Alojzy Campos Górriz"
+        },
         "records/patrons/aloysius/lig": {
             "pl": "Alojzy Liguda",
-            "la": "Aloysius Liguda",
+            "la": "Aloise Liguda",
             "en": "Aloysius Liguda"
         },
         "records/patrons/anastasia/sir": {
@@ -211,7 +217,7 @@
         },
         "records/patrons/didacus/vit": {
             "es": "Diego Luis de San Vitores",
-            "en": "Didacus Louis de San Vitores",
+            "en": "Didacus Aloise de San Vitores",
             "la": "Didacus Aloysius de San Vitores",
             "pl": "Dydak Alojzy de San Vitores"
         },

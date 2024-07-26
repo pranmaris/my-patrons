@@ -1,0 +1,18 @@
+{
+    "names": {
+        "es": "Campos"
+    },
+    "translations": {
+        "es": [
+            "Campos"
+        ]
+    },
+    "links": {
+        "records/patrons/aloysius/cam": {
+            "es": "Luis Campos Górriz",
+            "en": "Aloise Campos Górriz",
+            "la": "Aloysius Campos Górriz",
+            "pl": "Alojzy Campos Górriz"
+        }
+    }
+}
