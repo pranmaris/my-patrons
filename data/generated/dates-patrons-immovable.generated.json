@@ -4035,6 +4035,17 @@
         }
     },
     "11-21": {
+        "records/patrons/maria/sie": {
+            "name": {
+                "pl": "Maria od Jezusa Dobrego Pasterza",
+                "en": "Maria of Jesus the Good Shepherd",
+                "la": "Maria a Iesu Bono Pastore"
+            },
+            "sources": {
+                "reliable-death-anniversary": "21 XI",
+                "other-martyrology-days": "21 XI"
+            }
+        },
         "records/patrons/albertus/lov": {
             "name": {
                 "fr": "Albert de Louvain",

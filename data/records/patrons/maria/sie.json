@@ -1,0 +1,46 @@
+{
+  "names": {
+    "pl": [
+      "Maria od Jezusa Dobrego Pasterza",
+      "Franciszka Siedliska"
+    ],
+    "en": [
+      "Maria of Jesus the Good Shepherd",
+      "Frances Siedliska"
+    ],
+    "la": [
+      "Maria a Iesu Bono Pastore",
+      "Francisca Siedliska"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Siedliska"
+    }
+  ],
+
+  "epithets": [
+    {
+      "pl": "od Jezusa Dobrego Pasterza",
+      "en": "of Jesus the Good Shepherd",
+      "la": "a Iesu Bono Pastore"
+    }
+  ],
+
+  "born": ["1842-11-12"],
+  "died": ["1902-11-21"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1989-04-23"
+  },
+
+  "also-in-martyrology": ["11-21"],
+
+  "forenames": ["maria", "francisca"],
+  "categories": ["femina", "virgo", "fundator"],
+
+  "order": ["csfn"],
+  "order-founder": ["csfn"]
+}

@@ -3731,6 +3731,17 @@
         ],
         "feasts": []
     },
+    "patrons/maria/sie": {
+        "names": {
+            "pl": "Maria od Jezusa Dobrego Pasterza",
+            "en": "Maria of Jesus the Good Shepherd",
+            "la": "Maria a Iesu Bono Pastore"
+        },
+        "died": [
+            "1902-11-21"
+        ],
+        "feasts": []
+    },
     "patrons/maria/sou": {
         "names": {
             "fr": "Bernadette-Marie Soubirous",
