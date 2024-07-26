@@ -1,5 +1,17 @@
 {
     "01-01": {
+        "records/patrons/basilius/mag": {
+            "name": {
+                "el": "Βασίλειος Μέγας",
+                "en": "Basil the Great",
+                "la": "Basilius Magnus",
+                "pl": "Bazyli Wielki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 I",
+                "other-martyrology-days": "1 I"
+            }
+        },
         "records/patrons/fulgentius/rus": {
             "name": {
                 "la": "Fulgentius Ruspensis",
@@ -32,6 +44,19 @@
             "sources": {
                 "reliable-death-anniversary": "1 I",
                 "other-martyrology-days": "1 I"
+            }
+        }
+    },
+    "01-02": {
+        "records/patrons/basilius/mag": {
+            "name": {
+                "el": "Βασίλειος Μέγας",
+                "en": "Basil the Great",
+                "la": "Basilius Magnus",
+                "pl": "Bazyli Wielki"
+            },
+            "sources": {
+                "other-martyrology-days": "2 I"
             }
         }
     },

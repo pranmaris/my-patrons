@@ -1009,7 +1009,8 @@
         "names": {
             "la": "Basilius",
             "en": "Basil",
-            "pl": "Bazyli"
+            "pl": "Bazyli",
+            "el": "Βασίλειος"
         }
     },
     "patrons/basilius/ant": {
@@ -1021,6 +1022,18 @@
         "died": [
             ">301",
             "<400"
+        ],
+        "feasts": []
+    },
+    "patrons/basilius/mag": {
+        "names": {
+            "el": "Βασίλειος Μέγας",
+            "en": "Basil the Great",
+            "la": "Basilius Magnus",
+            "pl": "Bazyli Wielki"
+        },
+        "died": [
+            "379-01-01"
         ],
         "feasts": []
     },

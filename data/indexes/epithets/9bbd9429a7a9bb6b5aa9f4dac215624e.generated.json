@@ -1,27 +1,22 @@
 {
     "names": {
-        "la": "Basilius"
+        "el": "Μέγας"
     },
     "translations": {
-        "la": [
-            "Basilius"
+        "el": [
+            "Μέγας"
         ],
         "en": [
-            "Basil"
+            "the Great"
+        ],
+        "la": [
+            "Magnus"
         ],
         "pl": [
-            "Bazyli"
-        ],
-        "el": [
-            "Βασίλειος"
+            "Wielki"
         ]
     },
     "links": {
-        "records/patrons/basilius/ant": {
-            "la": "Basilius Antiochenus",
-            "en": "Basil of Antioch",
-            "pl": "Bazyli z Antiochii"
-        },
         "records/patrons/basilius/mag": {
             "el": "Βασίλειος Μέγας",
             "en": "Basil the Great",

@@ -11,6 +11,9 @@
         ],
         "pl": [
             "Bazyli"
+        ],
+        "el": [
+            "Βασίλειος"
         ]
     },
     "links": {
@@ -18,6 +21,12 @@
             "la": "Basilius Antiochenus",
             "en": "Basil of Antioch",
             "pl": "Bazyli z Antiochii"
+        },
+        "records/patrons/basilius/mag": {
+            "el": "Βασίλειος Μέγας",
+            "en": "Basil the Great",
+            "la": "Basilius Magnus",
+            "pl": "Bazyli Wielki"
         }
     }
 }

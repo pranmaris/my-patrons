@@ -233,6 +233,12 @@
             "en": "Basil of Antioch",
             "pl": "Bazyli z Antiochii"
         },
+        "records/patrons/basilius/mag": {
+            "el": "Βασίλειος Μέγας",
+            "en": "Basil the Great",
+            "la": "Basilius Magnus",
+            "pl": "Bazyli Wielki"
+        },
         "records/patrons/benedictus/nur": {
             "la": "Benedictus Nursinus",
             "en": "Banadict of Nursia",

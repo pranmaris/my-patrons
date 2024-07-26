@@ -1,0 +1,33 @@
+{
+  "names": {
+    "el": [
+      "Βασίλειος Μέγας"
+    ],
+    "en": [
+      "Basil the Great"
+    ],
+    "la": [
+      "Basilius Magnus"
+    ],
+    "pl": [
+      "Bazyli Wielki"
+    ]
+  },
+
+  "epithets": [
+    {
+      "el": "Μέγας",
+      "en": "the Great",
+      "la": "Magnus",
+      "pl": "Wielki"
+    }
+  ],
+
+  "born": ["~329", "~330"],
+  "died": ["379-01-01"],
+
+  "also-in-martyrology": ["01-01", "01-02"],
+
+  "forenames": ["basilius"],
+  "categories": ["vir", "confessor", "episcopus", "doctor-ecclesiae"]
+}

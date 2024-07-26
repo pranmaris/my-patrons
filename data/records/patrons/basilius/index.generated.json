@@ -3,5 +3,11 @@
         "la": "Basilius Antiochenus",
         "en": "Basil of Antioch",
         "pl": "Bazyli z Antiochii"
+    },
+    "mag": {
+        "el": "Βασίλειος Μέγας",
+        "en": "Basil the Great",
+        "la": "Basilius Magnus",
+        "pl": "Bazyli Wielki"
     }
 }
