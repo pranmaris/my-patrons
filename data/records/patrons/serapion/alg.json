@@ -1,0 +1,32 @@
+{
+  "names": {
+    "la": [
+      "Serapion Algirensis"
+    ],
+    "en": [
+      "Serapion of Algiers"
+    ],
+    "pl": [
+      "Serapion z Algieru"
+    ]
+  },
+
+  "born": ["~1179"],
+  "died": ["1240-11-14"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1625-03-23"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1728-04-14"
+  },
+
+  "also-in-martyrology": ["11-14"],
+
+  "forenames": ["serapion"],
+  "categories": ["vir", "martyr"],
+
+  "order": ["odem"]
+}

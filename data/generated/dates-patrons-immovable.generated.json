@@ -3969,6 +3969,19 @@
             }
         }
     },
+    "11-14": {
+        "records/patrons/serapion/alg": {
+            "name": {
+                "la": "Serapion Algirensis",
+                "en": "Serapion of Algiers",
+                "pl": "Serapion z Algieru"
+            },
+            "sources": {
+                "reliable-death-anniversary": "14 XI",
+                "other-martyrology-days": "14 XI"
+            }
+        }
+    },
     "11-15": {
         "records/patrons/albertus/mag": {
             "name": {

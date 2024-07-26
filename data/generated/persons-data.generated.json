@@ -4801,6 +4801,24 @@
         ],
         "feasts": []
     },
+    "patrons/serapion": {
+        "names": {
+            "la": "Serapion",
+            "en": "Serapion",
+            "pl": "Serapion"
+        }
+    },
+    "patrons/serapion/alg": {
+        "names": {
+            "la": "Serapion Algirensis",
+            "en": "Serapion of Algiers",
+            "pl": "Serapion z Algieru"
+        },
+        "died": [
+            "1240-11-14"
+        ],
+        "feasts": []
+    },
     "patrons/sergius": {
         "names": {
             "la": "Sergius",

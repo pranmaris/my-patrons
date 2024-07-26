@@ -545,6 +545,11 @@
             "en": "Saturnin of Toulouse",
             "pl": "Saturnin z Tuluzy"
         },
+        "records/patrons/serapion/alg": {
+            "la": "Serapion Algirensis",
+            "en": "Serapion of Algiers",
+            "pl": "Serapion z Algieru"
+        },
         "records/patrons/simon/apo": {
             "la": "Simon Apostolus",
             "en": "Simon Apostle",

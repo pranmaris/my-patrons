@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Serapion",
+        "en": "Serapion",
+        "pl": "Serapion"
+    },
+    "translations": {
+        "la": [
+            "Serapion"
+        ],
+        "en": [
+            "Serapion"
+        ],
+        "pl": [
+            "Serapion"
+        ]
+    },
+    "links": {
+        "records/patrons/serapion/alg": {
+            "la": "Serapion Algirensis",
+            "en": "Serapion of Algiers",
+            "pl": "Serapion z Algieru"
+        }
+    }
+}
