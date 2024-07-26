@@ -1512,6 +1512,24 @@
         ],
         "feasts": []
     },
+    "patrons/crispina": {
+        "names": {
+            "la": "Crispina",
+            "en": "Crispina",
+            "pl": "Kryspina"
+        }
+    },
+    "patrons/crispina/tha": {
+        "names": {
+            "la": "Crispina Thagorensis",
+            "en": "Crispina of Numidia",
+            "pl": "Kryspina z Numidii"
+        },
+        "died": [
+            "~304"
+        ],
+        "feasts": []
+    },
     "patrons/cyprianus": {
         "names": {
             "la": "Cyprianus",

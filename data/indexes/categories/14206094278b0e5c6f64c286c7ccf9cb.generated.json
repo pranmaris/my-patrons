@@ -14,6 +14,11 @@
         ]
     },
     "links": {
+        "records/patrons/crispina/tha": {
+            "la": "Crispina Thagorensis",
+            "en": "Crispina of Numidia",
+            "pl": "Kryspina z Numidii"
+        },
         "records/patrons/ioanna/ber": {
             "it": "Gianna Beretta Molla",
             "en": "Joan Beretta Molla",

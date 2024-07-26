@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Crispina Thagorensis"
+    ],
+    "en": [
+      "Crispina of Numidia"
+    ],
+    "pl": [
+      "Kryspina z Numidii"
+    ]
+  },
+
+  "died": ["~304"],
+
+  "also-in-martyrology": ["12-05"],
+
+  "forenames": ["crispina"],
+  "categories": ["femina", "martyrix", "materfamilias"]
+}

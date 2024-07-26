@@ -193,6 +193,11 @@
             "la": "Cosmas /+ Damianus",
             "pl": "Kosma /+ Damian"
         },
+        "records/patrons/crispina/tha": {
+            "la": "Crispina Thagorensis",
+            "en": "Crispina of Numidia",
+            "pl": "Kryspina z Numidii"
+        },
         "records/patrons/cyprianus/car": {
             "la": "Cyprianus Carthaginensis",
             "en": "Cyprian of Carthage",

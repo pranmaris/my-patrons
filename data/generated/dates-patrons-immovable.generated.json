@@ -4241,6 +4241,18 @@
             }
         }
     },
+    "12-05": {
+        "records/patrons/crispina/tha": {
+            "name": {
+                "la": "Crispina Thagorensis",
+                "en": "Crispina of Numidia",
+                "pl": "Kryspina z Numidii"
+            },
+            "sources": {
+                "other-martyrology-days": "5 XII"
+            }
+        }
+    },
     "12-06": {
         "records/patrons/nicolaus/myr": {
             "name": {

@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Crispina",
+        "en": "Crispina"
+    },
+    "translations": {
+        "la": [
+            "Crispina"
+        ],
+        "en": [
+            "Crispina"
+        ],
+        "pl": [
+            "Kryspina"
+        ]
+    },
+    "links": {
+        "records/patrons/crispina/tha": {
+            "la": "Crispina Thagorensis",
+            "en": "Crispina of Numidia",
+            "pl": "Kryspina z Numidii"
+        }
+    }
+}
