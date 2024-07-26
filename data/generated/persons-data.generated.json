@@ -1702,6 +1702,17 @@
             "fr": "Denis"
         }
     },
+    "patrons/dionysius/1pp": {
+        "names": {
+            "la": "Dionysius Papa",
+            "en": "Dionysius Pope",
+            "pl": "Dionizy Papież"
+        },
+        "died": [
+            "268-12-26"
+        ],
+        "feasts": []
+    },
     "patrons/dionysius/lut": {
         "names": {
             "fr": "Denis de Paris",

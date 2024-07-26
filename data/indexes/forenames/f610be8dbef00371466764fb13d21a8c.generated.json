@@ -17,6 +17,11 @@
         ]
     },
     "links": {
+        "records/patrons/dionysius/1pp": {
+            "la": "Dionysius Papa",
+            "en": "Dionysius Pope",
+            "pl": "Dionizy Papież"
+        },
         "records/patrons/dionysius/lut": {
             "fr": "Denis de Paris",
             "la": "Dionysius Parisiensis",

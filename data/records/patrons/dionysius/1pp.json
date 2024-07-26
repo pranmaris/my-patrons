@@ -1,0 +1,24 @@
+{
+  "names": {
+    "la": [
+      "Dionysius Papa"
+    ],
+    "en": [
+      "Dionysius Pope"
+    ],
+    "pl": [
+      "Dionizy Papież"
+    ]
+  },
+
+  "died": ["268-12-26"],
+
+  "also-in-martyrology": ["12-26"],
+
+  "forenames": ["dionysius"],
+  "categories": ["vir", "papa"],
+
+  "data-links": {
+    "popes": ["1:#25"]
+  }
+}

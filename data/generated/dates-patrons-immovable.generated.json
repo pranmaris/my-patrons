@@ -1706,6 +1706,18 @@
             }
         }
     },
+    "06-23": {
+        "records/patrons/multi/nie": {
+            "name": {
+                "la": "Multa Milia Martyres in Nicomediae Ecclesia",
+                "en": "Many Thousands of Martyrs from church in Nicomedia",
+                "pl": "Wiele Tysięcy Męczenników z kościoła w Nikomedii"
+            },
+            "sources": {
+                "other-martyrology-days": "23 VI"
+            }
+        }
+    },
     "06-25": {
         "records/patrons/dorothea/mon": {
             "name": {
@@ -4448,6 +4460,17 @@
         }
     },
     "12-26": {
+        "records/patrons/dionysius/1pp": {
+            "name": {
+                "la": "Dionysius Papa",
+                "en": "Dionysius Pope",
+                "pl": "Dionizy Papież"
+            },
+            "sources": {
+                "reliable-death-anniversary": "26 XII",
+                "other-martyrology-days": "26 XII"
+            }
+        },
         "records/patrons/stephanus/pro": {
             "name": {
                 "el": "Στέφανος",

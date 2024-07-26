@@ -383,6 +383,11 @@
             "la": "Didacus Aloysius de San Vitores",
             "pl": "Dydak Alojzy de San Vitores"
         },
+        "records/patrons/dionysius/1pp": {
+            "la": "Dionysius Papa",
+            "en": "Dionysius Pope",
+            "pl": "Dionizy Papież"
+        },
         "records/patrons/dionysius/lut": {
             "fr": "Denis de Paris",
             "la": "Dionysius Parisiensis",
