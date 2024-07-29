@@ -4,6 +4,12 @@
         "en": "Gregory the Great",
         "pl": "Grzegorz Wielki"
     },
+    "naz": {
+        "grc": "Γρηγόριος Ναζιανζηνός",
+        "en": "Gregory of Nazianzus",
+        "la": "Gregorius Nazianzenus",
+        "pl": "Grzegorz z Nazjanzu"
+    },
     "nys": {
         "el": "Γρηγόριος Νύσσης",
         "en": "Gregory of Nyssa",

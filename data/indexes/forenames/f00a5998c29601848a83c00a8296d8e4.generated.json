@@ -14,6 +14,9 @@
         ],
         "el": [
             "Γρηγόριος"
+        ],
+        "grc": [
+            "Γρηγόριος"
         ]
     },
     "links": {
@@ -21,6 +24,12 @@
             "la": "Gregorius Magnus",
             "en": "Gregory the Great",
             "pl": "Grzegorz Wielki"
+        },
+        "records/patrons/gregorius/naz": {
+            "grc": "Γρηγόριος Ναζιανζηνός",
+            "en": "Gregory of Nazianzus",
+            "la": "Gregorius Nazianzenus",
+            "pl": "Grzegorz z Nazjanzu"
         },
         "records/patrons/gregorius/nys": {
             "el": "Γρηγόριος Νύσσης",

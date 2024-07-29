@@ -156,6 +156,12 @@
             "en": "Gregory the Great",
             "pl": "Grzegorz Wielki"
         },
+        "records/patrons/gregorius/naz": {
+            "grc": "Γρηγόριος Ναζιανζηνός",
+            "en": "Gregory of Nazianzus",
+            "la": "Gregorius Nazianzenus",
+            "pl": "Grzegorz z Nazjanzu"
+        },
         "records/patrons/hieronymus/dal": {
             "la": "Hieronymus Stridonensis",
             "en": "Jerome of Stridon",

@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Teolog"
+    },
+    "translations": {
+        "grc": [
+            "o Θεολόγος"
+        ],
+        "en": [
+            "the Theologian"
+        ],
+        "la": [
+            "Theologus"
+        ],
+        "pl": [
+            "Teolog"
+        ]
+    },
+    "links": {
+        "records/patrons/gregorius/naz": {
+            "grc": "Γρηγόριος Ναζιανζηνός",
+            "en": "Gregory of Nazianzus",
+            "la": "Gregorius Nazianzenus",
+            "pl": "Grzegorz z Nazjanzu"
+        }
+    }
+}

@@ -157,6 +157,12 @@
             "en": "Radim Gaudentius",
             "la": "Gaudentius seu Radzim"
         },
+        "records/patrons/gregorius/naz": {
+            "grc": "Γρηγόριος Ναζιανζηνός",
+            "en": "Gregory of Nazianzus",
+            "la": "Gregorius Nazianzenus",
+            "pl": "Grzegorz z Nazjanzu"
+        },
         "records/patrons/gregorius/nys": {
             "el": "Γρηγόριος Νύσσης",
             "en": "Gregory of Nyssa",

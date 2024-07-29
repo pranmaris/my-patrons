@@ -2287,7 +2287,8 @@
             "la": "Gregorius",
             "en": "Gregory",
             "pl": "Grzegorz",
-            "el": "Γρηγόριος"
+            "el": "Γρηγόριος",
+            "grc": "Γρηγόριος"
         }
     },
     "patrons/gregorius/1pp": {
@@ -2298,6 +2299,18 @@
         },
         "died": [
             "604-03-12"
+        ],
+        "feasts": []
+    },
+    "patrons/gregorius/naz": {
+        "names": {
+            "grc": "Γρηγόριος Ναζιανζηνός",
+            "en": "Gregory of Nazianzus",
+            "la": "Gregorius Nazianzenus",
+            "pl": "Grzegorz z Nazjanzu"
+        },
+        "died": [
+            "~389"
         ],
         "feasts": []
     },

@@ -58,6 +58,17 @@
             "sources": {
                 "other-martyrology-days": "2 I"
             }
+        },
+        "records/patrons/gregorius/naz": {
+            "name": {
+                "grc": "Γρηγόριος Ναζιανζηνός",
+                "en": "Gregory of Nazianzus",
+                "la": "Gregorius Nazianzenus",
+                "pl": "Grzegorz z Nazjanzu"
+            },
+            "sources": {
+                "other-martyrology-days": "2 I"
+            }
         }
     },
     "01-03": {
@@ -223,6 +234,19 @@
             },
             "sources": {
                 "other-martyrology-days": "24 I"
+            }
+        }
+    },
+    "01-25": {
+        "records/patrons/gregorius/naz": {
+            "name": {
+                "grc": "Γρηγόριος Ναζιανζηνός",
+                "en": "Gregory of Nazianzus",
+                "la": "Gregorius Nazianzenus",
+                "pl": "Grzegorz z Nazjanzu"
+            },
+            "sources": {
+                "other-martyrology-days": "25 I"
             }
         }
     },
@@ -1364,6 +1388,17 @@
         }
     },
     "05-09": {
+        "records/patrons/gregorius/naz": {
+            "name": {
+                "grc": "Γρηγόριος Ναζιανζηνός",
+                "en": "Gregory of Nazianzus",
+                "la": "Gregorius Nazianzenus",
+                "pl": "Grzegorz z Nazjanzu"
+            },
+            "sources": {
+                "other-martyrology-days": "9 V"
+            }
+        },
         "records/patrons/isaias/pro": {
             "name": {
                 "he": "יְשַׁעְיָהוּ",
