@@ -163,6 +163,17 @@
         }
     },
     "01-09": {
+        "records/patrons/casimirus/gre": {
+            "name": {
+                "pl": "Kazimierz Grelewski",
+                "en": "Casimir Grelewski",
+                "la": "Casimirus Grelewski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "9 I",
+                "other-martyrology-days": "9 I"
+            }
+        },
         "records/patrons/paulina/jar": {
             "name": {
                 "fr": "Pauline Jaricot",

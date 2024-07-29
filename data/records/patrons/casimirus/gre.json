@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Kazimierz Grelewski"
+    ],
+    "en": [
+      "Casimir Grelewski"
+    ],
+    "la": [
+      "Casimirus Grelewski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Grelewski"
+    }
+  ],
+
+  "born": ["1907-02-20"],
+  "died": ["1942-01-09"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["01-09"],
+
+  "forenames": ["casimirus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}
