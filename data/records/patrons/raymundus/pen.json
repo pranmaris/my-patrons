@@ -1,0 +1,38 @@
+{
+  "names": {
+    "ca": [
+      "Ramon de Penyafort"
+    ],
+    "es": [
+      "Raimundo de Peñafort"
+    ],
+    "en": [
+      "Raymond of Penyafort"
+    ],
+    "la": [
+      "Raymundus de Penyafort"
+    ],
+    "pl": [
+      "Rajmund z Penyafortu"
+    ]
+  },
+
+  "born": [">1170", "<1175"],
+  "died": ["1275-01-06"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1542-01-06"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1601-04-29"
+  },
+
+  "also-in-martyrology": ["01-06", "01-07", "01-23"],
+
+  "forenames": ["raymundus"],
+  "categories": ["vir", "confessor", "presbyter", "generalis"],
+
+  "order": ["op"]
+}

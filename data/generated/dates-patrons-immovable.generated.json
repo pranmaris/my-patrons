@@ -120,6 +120,33 @@
                 "reliable-death-anniversary": "6 I",
                 "other-martyrology-days": "6 I"
             }
+        },
+        "records/patrons/raymundus/pen": {
+            "name": {
+                "ca": "Ramon de Penyafort",
+                "es": "Raimundo de Peñafort",
+                "en": "Raymond of Penyafort",
+                "la": "Raymundus de Penyafort",
+                "pl": "Rajmund z Penyafortu"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 I",
+                "other-martyrology-days": "6 I"
+            }
+        }
+    },
+    "01-07": {
+        "records/patrons/raymundus/pen": {
+            "name": {
+                "ca": "Ramon de Penyafort",
+                "es": "Raimundo de Peñafort",
+                "en": "Raymond of Penyafort",
+                "la": "Raymundus de Penyafort",
+                "pl": "Rajmund z Penyafortu"
+            },
+            "sources": {
+                "other-martyrology-days": "7 I"
+            }
         }
     },
     "01-08": {
@@ -233,6 +260,20 @@
             },
             "sources": {
                 "reliable-death-anniversary": "22 I"
+            }
+        }
+    },
+    "01-23": {
+        "records/patrons/raymundus/pen": {
+            "name": {
+                "ca": "Ramon de Penyafort",
+                "es": "Raimundo de Peñafort",
+                "en": "Raymond of Penyafort",
+                "la": "Raymundus de Penyafort",
+                "pl": "Rajmund z Penyafortu"
+            },
+            "sources": {
+                "other-martyrology-days": "23 I"
             }
         }
     },

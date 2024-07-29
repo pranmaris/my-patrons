@@ -4662,6 +4662,28 @@
         ],
         "feasts": []
     },
+    "patrons/raymundus": {
+        "names": {
+            "la": "Raymundus",
+            "en": "Raymund",
+            "pl": "Rajmund",
+            "ca": "Ramon",
+            "es": "Raimundo"
+        }
+    },
+    "patrons/raymundus/pen": {
+        "names": {
+            "ca": "Ramon de Penyafort",
+            "es": "Raimundo de Peñafort",
+            "en": "Raymond of Penyafort",
+            "la": "Raymundus de Penyafort",
+            "pl": "Rajmund z Penyafortu"
+        },
+        "died": [
+            "1275-01-06"
+        ],
+        "feasts": []
+    },
     "patrons/richardus": {
         "names": {
             "la": "Richardus",
