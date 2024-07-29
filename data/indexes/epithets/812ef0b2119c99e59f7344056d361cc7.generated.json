@@ -32,6 +32,11 @@
             "la": "Ioannes Paulus Pp. I",
             "en": "John Paul I",
             "pl": "Jan Paweł I"
+        },
+        "records/patrons/marcellus/1pp": {
+            "la": "Marcellus Papa",
+            "en": "Marcellus Pope",
+            "pl": "Marceli Papież"
         }
     }
 }

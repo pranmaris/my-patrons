@@ -61,6 +61,11 @@
             "en": "Pope Marcellinus",
             "pl": "Marcelin Papież"
         },
+        "records/patrons/marcellus/1pp": {
+            "la": "Marcellus Papa",
+            "en": "Marcellus Pope",
+            "pl": "Marceli Papież"
+        },
         "records/patrons/petrus/apo": {
             "la": "Petrus",
             "en": "Peter the Apostle",

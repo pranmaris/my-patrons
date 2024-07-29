@@ -3408,6 +3408,24 @@
         ],
         "feasts": []
     },
+    "patrons/marcellus": {
+        "names": {
+            "la": "Marcellus",
+            "en": "Marcellus",
+            "pl": "Marceli"
+        }
+    },
+    "patrons/marcellus/1pp": {
+        "names": {
+            "la": "Marcellus Papa",
+            "en": "Marcellus Pope",
+            "pl": "Marceli Papież"
+        },
+        "died": [
+            "309-01-16"
+        ],
+        "feasts": []
+    },
     "patrons/marcus": {
         "names": {
             "la": "Marcus",

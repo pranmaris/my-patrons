@@ -291,8 +291,8 @@
     },
     "30": {
         "name": {
-            "la": "Marcellus",
-            "pl": "Marceli"
+            "la": "[1|Marcellus]",
+            "pl": "[1|Marceli]"
         },
         "pontificate": {
             "from": "308-05-27",

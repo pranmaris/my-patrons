@@ -1,0 +1,32 @@
+{
+  "names": {
+    "la": [
+      "Marcellus Papa"
+    ],
+    "en": [
+      "Marcellus Pope"
+    ],
+    "pl": [
+      "Marceli Papież"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Primus",
+      "en": "the First",
+      "pl": "Pierwszy"
+    }
+  ],
+
+  "died": ["309-01-16"],
+
+  "also-in-martyrology": ["01-16"],
+
+  "forenames": ["marcellus"],
+  "categories": ["vir", "martyr", "papa"],
+
+  "data-links": {
+    "popes": ["1:#30"]
+  }
+}
