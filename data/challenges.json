@@ -1092,7 +1092,7 @@
     "name": {
       "pl": "Bóg"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
