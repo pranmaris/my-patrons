@@ -13,7 +13,7 @@ class NotesMainContent extends MainContent implements MainContentInterface
 
     public function getTitle(string $prefix): string
     {
-        return self::VARIABLE_NAME_SIGN . 'lang-notes' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
+        return $prefix . ': ' . self::VARIABLE_NAME_SIGN . 'lang-notes' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
     }
 
     public function getContent(): string

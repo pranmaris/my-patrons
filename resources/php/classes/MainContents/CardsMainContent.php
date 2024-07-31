@@ -13,7 +13,7 @@ class CardsMainContent extends MainContent implements MainContentInterface
 
     public function getTitle(string $prefix): string
     {
-        return self::VARIABLE_NAME_SIGN . 'lang-cards' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
+        return $prefix . ': ' . self::VARIABLE_NAME_SIGN . 'lang-cards' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
     }
 
     public function getContent(): string
