@@ -1,0 +1,29 @@
+{
+    "names": {
+        "la": "Benignus",
+        "en": "Benignus",
+        "pl": "Benignus"
+    },
+    "translations": {
+        "la": [
+            "Benignus"
+        ],
+        "en": [
+            "Benignus"
+        ],
+        "pl": [
+            "Benignus"
+        ],
+        "it": [
+            "Benigno"
+        ]
+    },
+    "links": {
+        "records/patrons/benignus/tud": {
+            "it": "Benigno da Todi",
+            "en": "Benignus of Todi",
+            "la": "Benignus Tudertinus",
+            "pl": "Benignus z Todi"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "names": {
+    "it": [
+      "Benigno da Todi"
+    ],
+    "en": [
+      "Benignus of Todi"
+    ],
+    "la": [
+      "Benignus Tudertinus"
+    ],
+    "pl": [
+      "Benignus z Todi"
+    ]
+  },
+
+  "died": ["~303"],
+
+  "also-in-martyrology": ["02-13"],
+
+  "forenames": ["benignus"],
+  "categories": ["vir", "martyr", "sacerdos", "presbyter"]
+}
