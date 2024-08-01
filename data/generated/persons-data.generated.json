@@ -2740,6 +2740,18 @@
         ],
         "feasts": []
     },
+    "patrons/ioanna/val": {
+        "names": {
+            "fr": "Jeanne de Valois",
+            "en": "Joan of Valois",
+            "la": "Ioanna de Valois",
+            "pl": "Joanna de Valois"
+        },
+        "died": [
+            "1505-02-04"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes": {
         "names": {
             "la": "Ioannes",

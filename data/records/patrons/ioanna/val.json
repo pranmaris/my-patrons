@@ -1,0 +1,42 @@
+{
+  "names": {
+    "fr": [
+      "Jeanne de Valois"
+    ],
+    "en": [
+      "Joan of Valois"
+    ],
+    "la": [
+      "Ioanna de Valois"
+    ],
+    "pl": [
+      "Joanna de Valois"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "de Valois"
+    }
+  ],
+
+  "born": ["1464-04-23"],
+  "died": ["1505-02-04"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1742-06-18"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1950-05-28"
+  },
+
+  "also-in-martyrology": ["02-04"],
+
+  "forenames": ["ioanna"],
+  "categories": ["femina", "fundatrix", "regina"],
+
+  "order": ["oannm"],
+  "order-founder": ["oannm"]
+}

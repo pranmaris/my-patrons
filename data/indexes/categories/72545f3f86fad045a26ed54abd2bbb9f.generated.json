@@ -26,6 +26,12 @@
             "en": "Hedwig of Anjou",
             "pl": "Jadwiga Andegaweńska"
         },
+        "records/patrons/ioanna/val": {
+            "fr": "Jeanne de Valois",
+            "en": "Joan of Valois",
+            "la": "Ioanna de Valois",
+            "pl": "Joanna de Valois"
+        },
         "records/patrons/maria/naz": {
             "arc": "ܡܪܝܡ",
             "en": "Mary, mother of Jesus",

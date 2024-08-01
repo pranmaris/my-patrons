@@ -479,6 +479,18 @@
         }
     },
     "02-04": {
+        "records/patrons/ioanna/val": {
+            "name": {
+                "fr": "Jeanne de Valois",
+                "en": "Joan of Valois",
+                "la": "Ioanna de Valois",
+                "pl": "Joanna de Valois"
+            },
+            "sources": {
+                "reliable-death-anniversary": "4 II",
+                "other-martyrology-days": "4 II"
+            }
+        },
         "records/patrons/andreas/cor": {
             "name": {
                 "it": "Andrea Corsini",

@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "de Valois"
+    },
+    "translations": {
+        "fr": [
+            "de Valois"
+        ]
+    },
+    "links": {
+        "records/patrons/ioanna/val": {
+            "fr": "Jeanne de Valois",
+            "en": "Joan of Valois",
+            "la": "Ioanna de Valois",
+            "pl": "Joanna de Valois"
+        }
+    }
+}
