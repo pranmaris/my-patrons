@@ -324,6 +324,12 @@
             "la": "Iesus Mendez Montoya",
             "pl": "Jezus Mendez Montoya"
         },
+        "records/patrons/ignatius/ant": {
+            "grc": "Ἰγνάτιος Ἀντιοχείας",
+            "en": "Ignatius of Antioch",
+            "la": "Ignatius Antiochenus",
+            "pl": "Ignacy Antiocheński"
+        },
         "records/patrons/ioannes/bap": {
             "he": "יוֹחָנָן",
             "en": "John the Baptist",

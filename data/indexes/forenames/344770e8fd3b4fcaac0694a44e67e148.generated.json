@@ -15,9 +15,18 @@
         ],
         "es": [
             "Ignacio"
+        ],
+        "grc": [
+            "Ἰγνάτιος"
         ]
     },
     "links": {
+        "records/patrons/ignatius/ant": {
+            "grc": "Ἰγνάτιος Ἀντιοχείας",
+            "en": "Ignatius of Antioch",
+            "la": "Ignatius Antiochenus",
+            "pl": "Ignacy Antiocheński"
+        },
         "records/patrons/ignatius/loy": {
             "es": "Ignacio de Loyola",
             "la": "Ignatius de Loyola",

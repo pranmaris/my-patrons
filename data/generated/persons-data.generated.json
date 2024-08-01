@@ -2646,8 +2646,21 @@
             "la": "Ignatius",
             "en": "Ignatius",
             "pl": "Ignacy",
-            "es": "Ignacio"
+            "es": "Ignacio",
+            "grc": "Ἰγνάτιος"
         }
+    },
+    "patrons/ignatius/ant": {
+        "names": {
+            "grc": "Ἰγνάτιος Ἀντιοχείας",
+            "en": "Ignatius of Antioch",
+            "la": "Ignatius Antiochenus",
+            "pl": "Ignacy Antiocheński"
+        },
+        "died": [
+            "~107"
+        ],
+        "feasts": []
     },
     "patrons/ignatius/loy": {
         "names": {

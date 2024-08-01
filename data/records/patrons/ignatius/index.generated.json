@@ -1,4 +1,10 @@
 {
+    "ant": {
+        "grc": "Ἰγνάτιος Ἀντιοχείας",
+        "en": "Ignatius of Antioch",
+        "la": "Ignatius Antiochenus",
+        "pl": "Ignacy Antiocheński"
+    },
     "loy": {
         "es": "Ignacio de Loyola",
         "la": "Ignatius de Loyola",

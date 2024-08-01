@@ -1,0 +1,24 @@
+{
+  "names": {
+    "grc": [
+      "Ἰγνάτιος Ἀντιοχείας"
+    ],
+    "en": [
+      "Ignatius of Antioch"
+    ],
+    "la": [
+      "Ignatius Antiochenus"
+    ],
+    "pl": [
+      "Ignacy Antiocheński"
+    ]
+  },
+
+  "born": ["~30"],
+  "died": ["~107"],
+
+  "also-in-martyrology": ["02-01", "10-17", "12-20"],
+
+  "forenames": ["ignatius"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

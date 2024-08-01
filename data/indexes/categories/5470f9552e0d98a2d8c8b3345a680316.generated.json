@@ -195,6 +195,12 @@
             "en": "Januarius of Benevento",
             "pl": "January z Benewentu"
         },
+        "records/patrons/ignatius/ant": {
+            "grc": "Ἰγνάτιος Ἀντιοχείας",
+            "en": "Ignatius of Antioch",
+            "la": "Ignatius Antiochenus",
+            "pl": "Ignacy Antiocheński"
+        },
         "records/patrons/ioannes/chr": {
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",
