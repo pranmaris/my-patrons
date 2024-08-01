@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Hiacynta"
+    },
+    "translations": {
+        "la": [
+            "Hyacintha"
+        ],
+        "en": [
+            "Hyacintha"
+        ],
+        "pl": [
+            "Hiacynta"
+        ],
+        "it": [
+            "Giacinta"
+        ]
+    },
+    "links": {
+        "records/patrons/hyacintha/mar": {
+            "it": "Giacinta Marescotti",
+            "en": "Hyacintha Mariscotti",
+            "la": "Hyacintha de Mariscottis",
+            "pl": "Hiacynta Mariscotti"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "sanctimonialis"
+    },
+    "translations": {
+        "la": [
+            "sanctimonialis"
+        ],
+        "en": [
+            "nun"
+        ],
+        "pl": [
+            "zakonnica"
+        ]
+    },
+    "links": {
+        "records/patrons/hyacintha/mar": {
+            "it": "Giacinta Marescotti",
+            "en": "Hyacintha Mariscotti",
+            "la": "Hyacintha de Mariscottis",
+            "pl": "Hiacynta Mariscotti"
+        }
+    }
+}

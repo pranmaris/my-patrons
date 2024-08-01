@@ -398,6 +398,20 @@
             }
         }
     },
+    "01-30": {
+        "records/patrons/hyacintha/mar": {
+            "name": {
+                "it": "Giacinta Marescotti",
+                "en": "Hyacintha Mariscotti",
+                "la": "Hyacintha de Mariscottis",
+                "pl": "Hiacynta Mariscotti"
+            },
+            "sources": {
+                "reliable-death-anniversary": "30 I",
+                "other-martyrology-days": "30 I"
+            }
+        }
+    },
     "01-31": {
         "records/patrons/ioannes/bos": {
             "name": {

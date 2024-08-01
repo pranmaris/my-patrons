@@ -299,6 +299,11 @@
         "en": "priest",
         "pl": "kapłan"
     },
+    "sanctimonialis": {
+        "la": "sanctimonialis",
+        "en": "nun",
+        "pl": "zakonnica"
+    },
     "socia": {
         "la": "socia",
         "en": "group",

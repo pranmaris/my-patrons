@@ -2483,6 +2483,26 @@
         ],
         "feasts": []
     },
+    "patrons/hyacintha": {
+        "names": {
+            "la": "Hyacintha",
+            "en": "Hyacintha",
+            "pl": "Hiacynta",
+            "it": "Giacinta"
+        }
+    },
+    "patrons/hyacintha/mar": {
+        "names": {
+            "it": "Giacinta Marescotti",
+            "en": "Hyacintha Mariscotti",
+            "la": "Hyacintha de Mariscottis",
+            "pl": "Hiacynta Mariscotti"
+        },
+        "died": [
+            "1640-01-30"
+        ],
+        "feasts": []
+    },
     "patrons/iacobinus": {
         "names": {
             "la": "Iacobinus",

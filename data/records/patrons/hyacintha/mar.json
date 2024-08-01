@@ -1,0 +1,42 @@
+{
+  "names": {
+    "it": [
+      "Giacinta Marescotti"
+    ],
+    "en": [
+      "Hyacintha Mariscotti",
+      "Hyacintha of Mariscotti"
+    ],
+    "la": [
+      "Hyacintha de Mariscottis"
+    ],
+    "pl": [
+      "Hiacynta Mariscotti"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Mariscotti"
+    }
+  ],
+
+  "born": ["1585-03-16"],
+  "died": ["1640-01-30"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1726-08-01"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1807-05-14"
+  },
+
+  "also-in-martyrology": ["01-30"],
+
+  "forenames": ["hyacintha"],
+  "categories": ["femina", "virgo", "sanctimonialis", "tertiaria"],
+
+  "order": ["ofs"]
+}
