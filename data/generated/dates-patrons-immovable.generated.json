@@ -516,6 +516,18 @@
                 "other-martyrology-days": "5 II"
             }
         },
+        "records/patrons/paulus/mik": {
+            "name": {
+                "ja": "パウロ三木",
+                "en": "Paul Miki",
+                "la": "Paulus Miki",
+                "pl": "Paweł Miki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "5 II",
+                "other-martyrology-days": "5 II"
+            }
+        },
         "records/patrons/agatha/cat": {
             "name": {
                 "la": "Agatha Catanensis",
@@ -524,6 +536,19 @@
             },
             "sources": {
                 "other-martyrology-days": "5 II"
+            }
+        }
+    },
+    "02-06": {
+        "records/patrons/paulus/mik": {
+            "name": {
+                "ja": "パウロ三木",
+                "en": "Paul Miki",
+                "la": "Paulus Miki",
+                "pl": "Paweł Miki"
+            },
+            "sources": {
+                "other-martyrology-days": "6 II"
             }
         }
     },

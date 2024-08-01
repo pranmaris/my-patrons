@@ -1,0 +1,42 @@
+{
+  "names": {
+    "ja": [
+      "パウロ三木"
+    ],
+    "en": [
+      "Paul Miki"
+    ],
+    "la": [
+      "Paulus Miki"
+    ],
+    "pl": [
+      "Paweł Miki"
+    ]
+  },
+
+  "surnames": [
+    {
+      "ja": "三木",
+      "en": "Miki",
+      "la": "Miki",
+      "pl": "Miki"
+    }
+  ],
+
+  "born": ["~1565"],
+  "died": ["1597-02-05"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1627-09-14"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1862-06-08"
+  },
+
+  "also-in-martyrology": ["02-05", "02-06"],
+
+  "forenames": ["paulus"],
+  "categories": ["vir", "martyr"]
+}

@@ -989,6 +989,12 @@
             "en": "Paul of Constantinople",
             "pl": "Paweł z Bizancjum"
         },
+        "records/patrons/paulus/mik": {
+            "ja": "パウロ三木",
+            "en": "Paul Miki",
+            "la": "Paulus Miki",
+            "pl": "Paweł Miki"
+        },
         "records/patrons/petrus/apo": {
             "la": "Petrus",
             "en": "Peter the Apostle",

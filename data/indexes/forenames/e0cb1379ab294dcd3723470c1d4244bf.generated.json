@@ -11,6 +11,9 @@
         ],
         "pl": [
             "Paweł"
+        ],
+        "ja": [
+            "パウロ"
         ]
     },
     "links": {
@@ -35,6 +38,12 @@
             "la": "Paulus Constantinopolitanus",
             "en": "Paul of Constantinople",
             "pl": "Paweł z Bizancjum"
+        },
+        "records/patrons/paulus/mik": {
+            "ja": "パウロ三木",
+            "en": "Paul Miki",
+            "la": "Paulus Miki",
+            "pl": "Paweł Miki"
         }
     }
 }
