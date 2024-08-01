@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Rodzińska"
+    },
+    "translations": {
+        "pl": [
+            "Rodzińska"
+        ]
+    },
+    "links": {
+        "records/patrons/iulia/rod": {
+            "pl": "Julia Rodzińska",
+            "en": "Julia Rodzińska",
+            "la": "Iulia Rodzińska"
+        }
+    }
+}

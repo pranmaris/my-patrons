@@ -3204,6 +3204,24 @@
         ],
         "feasts": []
     },
+    "patrons/iulia": {
+        "names": {
+            "la": "Iulia",
+            "en": "Julia",
+            "pl": "Julia"
+        }
+    },
+    "patrons/iulia/rod": {
+        "names": {
+            "pl": "Julia Rodzińska",
+            "en": "Julia Rodzińska",
+            "la": "Iulia Rodzińska"
+        },
+        "died": [
+            "1945-02-20"
+        ],
+        "feasts": []
+    },
     "patrons/iustina": {
         "names": {
             "la": "Iustina",

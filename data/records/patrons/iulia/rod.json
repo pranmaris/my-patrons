@@ -1,0 +1,34 @@
+{
+  "names": {
+    "pl": [
+      "Julia Rodzińska"
+    ],
+    "en": [
+      "Julia Rodzińska"
+    ],
+    "la": [
+      "Iulia Rodzińska"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Rodzińska"
+    }
+  ],
+
+  "born": ["1899-03-16"],
+  "died": ["1945-02-20"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["02-20"],
+
+  "forenames": ["iulia"],
+  "categories": ["femina", "martyrix", "virgo"],
+
+  "order": ["op"]
+}

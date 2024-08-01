@@ -17,6 +17,11 @@
         ]
     },
     "links": {
+        "records/patrons/iulia/rod": {
+            "pl": "Julia Rodzińska",
+            "en": "Julia Rodzińska",
+            "la": "Iulia Rodzińska"
+        },
         "records/patrons/maria/rap": {
             "pl": "Maria Sergia od Matki Bożej Bolesnej",
             "en": "Mary Sergia of Our Lady of Sorrows",
