@@ -263,6 +263,11 @@
             "en": "Edward Klinik",
             "la": "Eduardus Klinik"
         },
+        "records/patrons/eunus/iul": {
+            "la": "Eunus Alexandrinus",
+            "en": "Eunus of Alexandria",
+            "pl": "Eunus z Aleksandrii"
+        },
         "records/patrons/eusebius/ver": {
             "la": "Eusebius Vercellensis",
             "en": "Eusebius of Vercelli",

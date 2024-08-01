@@ -1,0 +1,23 @@
+{
+  "names": {
+    "la": [
+      "Eunus Alexandrinus",
+      "Eunus /+ Iulianus"
+    ],
+    "en": [
+      "Eunus of Alexandria",
+      "Eunus /+ Julian"
+    ],
+    "pl": [
+      "Eunus z Aleksandrii",
+      "Eunus /+ Julian"
+    ]
+  },
+
+  "died": ["~250"],
+
+  "also-in-martyrology": ["02-27", "02n27", "02b28"],
+
+  "forenames": ["eunus"],
+  "categories": ["vir", "martyr"]
+}

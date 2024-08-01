@@ -1944,6 +1944,24 @@
         ],
         "feasts": []
     },
+    "patrons/eunus": {
+        "names": {
+            "la": "Eunus",
+            "en": "Eunus",
+            "pl": "Eunus"
+        }
+    },
+    "patrons/eunus/iul": {
+        "names": {
+            "la": "Eunus Alexandrinus",
+            "en": "Eunus of Alexandria",
+            "pl": "Eunus z Aleksandrii"
+        },
+        "died": [
+            "~250"
+        ],
+        "feasts": []
+    },
     "patrons/eusebius": {
         "names": {
             "la": "Eusebius",

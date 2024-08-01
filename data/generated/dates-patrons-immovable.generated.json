@@ -765,6 +765,18 @@
             }
         }
     },
+    "02-27": {
+        "records/patrons/eunus/iul": {
+            "name": {
+                "la": "Eunus Alexandrinus",
+                "en": "Eunus of Alexandria",
+                "pl": "Eunus z Aleksandrii"
+            },
+            "sources": {
+                "other-martyrology-days": "27 II"
+            }
+        }
+    },
     "02-29": {
         "records/patrons/hilarius/1pp": {
             "name": {
@@ -789,6 +801,18 @@
             }
         }
     },
+    "02b28": {
+        "records/patrons/eunus/iul": {
+            "name": {
+                "la": "Eunus Alexandrinus",
+                "en": "Eunus of Alexandria",
+                "pl": "Eunus z Aleksandrii"
+            },
+            "sources": {
+                "other-martyrology-days": "28 II"
+            }
+        }
+    },
     "02b29": {
         "records/patrons/hilarius/1pp": {
             "name": {
@@ -810,6 +834,18 @@
             },
             "sources": {
                 "other-martyrology-days": "24 II"
+            }
+        }
+    },
+    "02n27": {
+        "records/patrons/eunus/iul": {
+            "name": {
+                "la": "Eunus Alexandrinus",
+                "en": "Eunus of Alexandria",
+                "pl": "Eunus z Aleksandrii"
+            },
+            "sources": {
+                "other-martyrology-days": "27 II"
             }
         }
     },
