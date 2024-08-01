@@ -288,6 +288,16 @@
         }
     },
     "01-23": {
+        "records/patrons/clemens/aga": {
+            "name": {
+                "la": "Clemens Ancyranus",
+                "en": "Clement of Ancyra",
+                "pl": "Klemens z Ankary"
+            },
+            "sources": {
+                "other-martyrology-days": "23 I"
+            }
+        },
         "records/patrons/raymundus/pen": {
             "name": {
                 "ca": "Ramon de Penyafort",

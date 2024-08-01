@@ -1,0 +1,23 @@
+{
+  "names": {
+    "la": [
+      "Clemens Ancyranus",
+      "Clemens /+ Agathangelus"
+    ],
+    "en": [
+      "Clement of Ancyra",
+      "Clement /+ Agathangelus"
+    ],
+    "pl": [
+      "Klemens z Ankary",
+      "Klemens /+ Agatangiel"
+    ]
+  },
+
+  "died": ["~303", "~312"],
+
+  "also-in-martyrology": ["01-23"],
+
+  "forenames": ["clemens"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

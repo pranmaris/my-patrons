@@ -1516,6 +1516,18 @@
             "uk": "Климентій"
         }
     },
+    "patrons/clemens/aga": {
+        "names": {
+            "la": "Clemens Ancyranus",
+            "en": "Clement of Ancyra",
+            "pl": "Klemens z Ankary"
+        },
+        "died": [
+            "~303",
+            "~312"
+        ],
+        "feasts": []
+    },
     "patrons/clemens/sep": {
         "names": {
             "uk": "Климентій Шептицький",

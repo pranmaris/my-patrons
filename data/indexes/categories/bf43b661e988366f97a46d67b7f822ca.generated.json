@@ -115,6 +115,11 @@
             "en": "Cassian of Autun",
             "pl": "Kasjan z Autun"
         },
+        "records/patrons/clemens/aga": {
+            "la": "Clemens Ancyranus",
+            "en": "Clement of Ancyra",
+            "pl": "Klemens z Ankary"
+        },
         "records/patrons/cyprianus/car": {
             "la": "Cyprianus Carthaginensis",
             "en": "Cyprian of Carthage",
