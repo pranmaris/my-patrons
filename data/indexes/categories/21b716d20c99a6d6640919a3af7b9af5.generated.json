@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/ioanna/les": {
+            "fr": "Jeanne de Lestonnac",
+            "en": "Joan of Lestonnac",
+            "la": "Ioanna de Lestonnac",
+            "pl": "Joanna de Lestonnac"
+        },
         "records/patrons/margarita/sze": {
             "pl": "Małgorzata Łucja Szewczyk",
             "en": "Margaret Lucy Szewczyk",

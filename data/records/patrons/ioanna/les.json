@@ -1,0 +1,41 @@
+{
+  "names": {
+    "fr": [
+      "Jeanne de Lestonnac"
+    ],
+    "en": [
+      "Joan of Lestonnac"
+    ],
+    "la": [
+      "Ioanna de Lestonnac"
+    ],
+    "pl": [
+      "Joanna de Lestonnac"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "de Lestonnac"
+    }
+  ],
+
+  "born": ["1556-12-27"],
+  "died": ["1640-02-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1900"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1949-05-15"
+  },
+
+  "also-in-martyrology": ["02-02"],
+
+  "forenames": ["ioanna"],
+  "categories": ["femina", "vidua", "conditrix", "fundatrix"],
+
+  "order": ["odn"]
+}

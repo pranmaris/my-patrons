@@ -2728,6 +2728,18 @@
         ],
         "feasts": []
     },
+    "patrons/ioanna/les": {
+        "names": {
+            "fr": "Jeanne de Lestonnac",
+            "en": "Joan of Lestonnac",
+            "la": "Ioanna de Lestonnac",
+            "pl": "Joanna de Lestonnac"
+        },
+        "died": [
+            "1640-02-02"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes": {
         "names": {
             "la": "Ioannes",

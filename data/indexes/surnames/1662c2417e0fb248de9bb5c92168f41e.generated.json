@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "de Lestonnac"
+    },
+    "translations": {
+        "fr": [
+            "de Lestonnac"
+        ]
+    },
+    "links": {
+        "records/patrons/ioanna/les": {
+            "fr": "Jeanne de Lestonnac",
+            "en": "Joan of Lestonnac",
+            "la": "Ioanna de Lestonnac",
+            "pl": "Joanna de Lestonnac"
+        }
+    }
+}
