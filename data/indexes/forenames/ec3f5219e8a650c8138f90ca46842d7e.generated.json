@@ -1,16 +1,19 @@
 {
     "names": {
-        "la": "abbatissa"
+        "cs": "Anežka"
     },
     "translations": {
         "la": [
-            "abbatissa"
+            "Agnes"
         ],
         "en": [
-            "abbess"
+            "Agnes"
         ],
         "pl": [
-            "ksieni"
+            "Agnieszka"
+        ],
+        "cs": [
+            "Anežka"
         ]
     },
     "links": {
@@ -20,10 +23,10 @@
             "la": "Agnes de Bohemia",
             "pl": "Agnieszka Przemyślidka"
         },
-        "records/patrons/salomea/reg": {
-            "pl": "Salomea Piastówna",
-            "en": "Salomea of the Poland",
-            "la": "Salomea Regina Haliciensis"
+        "records/patrons/agnes/rom": {
+            "la": "Agnes Romana",
+            "en": "Agnes of Rome",
+            "pl": "Agnieszka Rzymianka"
         }
     }
 }

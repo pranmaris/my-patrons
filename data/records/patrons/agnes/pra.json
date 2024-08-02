@@ -1,0 +1,38 @@
+{
+  "names": {
+    "cs": [
+      "Anežka Česká"
+    ],
+    "en": [
+      "Agnes of Bohemia",
+      "Agnes of Prague"
+    ],
+    "la": [
+      "Agnes de Bohemia"
+    ],
+    "pl": [
+      "Agnieszka Przemyślidka",
+      "Agnieszka z Pragi",
+      "Agnieszka Czeska"
+    ]
+  },
+
+  "born": [">1205", "<1211"],
+  "died": ["1282-03-02", "1282-03-06"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1874-12-02"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1989-11-12"
+  },
+
+  "also-in-martyrology": ["03-02"],
+
+  "forenames": ["agnes"],
+  "categories": ["femina", "abbatissa", "principissa"],
+
+  "order": ["osc"]
+}

@@ -875,6 +875,19 @@
             }
         }
     },
+    "03-02": {
+        "records/patrons/agnes/pra": {
+            "name": {
+                "cs": "Anežka Česká",
+                "en": "Agnes of Bohemia",
+                "la": "Agnes de Bohemia",
+                "pl": "Agnieszka Przemyślidka"
+            },
+            "sources": {
+                "other-martyrology-days": "2 III"
+            }
+        }
+    },
     "03-03": {
         "records/patrons/iacobinus/can": {
             "name": {

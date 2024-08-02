@@ -1,16 +1,16 @@
 {
     "names": {
-        "la": "abbatissa"
+        "la": "principissa"
     },
     "translations": {
         "la": [
-            "abbatissa"
+            "principissa"
         ],
         "en": [
-            "abbess"
+            "princess"
         ],
         "pl": [
-            "ksieni"
+            "księżna"
         ]
     },
     "links": {
@@ -19,11 +19,6 @@
             "en": "Agnes of Bohemia",
             "la": "Agnes de Bohemia",
             "pl": "Agnieszka Przemyślidka"
-        },
-        "records/patrons/salomea/reg": {
-            "pl": "Salomea Piastówna",
-            "en": "Salomea of the Poland",
-            "la": "Salomea Regina Haliciensis"
         }
     }
 }
