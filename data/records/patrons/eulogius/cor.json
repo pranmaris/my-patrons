@@ -1,0 +1,23 @@
+{
+  "names": {
+    "es": [
+      "Eulogio de Córdoba"
+    ],
+    "en": [
+      "Eulogius of Cordoba"
+    ],
+    "la": [
+      "Eulogius de Corduba"
+    ],
+    "pl": [
+      "Eulogiusz z Kordoby"
+    ]
+  },
+
+  "died": ["859-03-11"],
+
+  "also-in-martyrology": ["03-11"],
+
+  "forenames": ["eulogius"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

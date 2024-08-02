@@ -1978,6 +1978,26 @@
         ],
         "feasts": []
     },
+    "patrons/eulogius": {
+        "names": {
+            "la": "Eulogius",
+            "en": "Eulogius",
+            "pl": "Eulogiusz",
+            "es": "Eulogio"
+        }
+    },
+    "patrons/eulogius/cor": {
+        "names": {
+            "es": "Eulogio de Córdoba",
+            "en": "Eulogius of Cordoba",
+            "la": "Eulogius de Corduba",
+            "pl": "Eulogiusz z Kordoby"
+        },
+        "died": [
+            "859-03-11"
+        ],
+        "feasts": []
+    },
     "patrons/eunus": {
         "names": {
             "la": "Eunus",

@@ -141,6 +141,12 @@
             "la": "Dominicus Oxomensis",
             "pl": "Dominik Guzmán"
         },
+        "records/patrons/eulogius/cor": {
+            "es": "Eulogio de Córdoba",
+            "en": "Eulogius of Cordoba",
+            "la": "Eulogius de Corduba",
+            "pl": "Eulogiusz z Kordoby"
+        },
         "records/patrons/franciscus/bor": {
             "es": "Francisco de Borja",
             "en": "Francis Borgia",

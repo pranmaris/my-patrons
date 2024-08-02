@@ -263,6 +263,12 @@
             "en": "Edward Klinik",
             "la": "Eduardus Klinik"
         },
+        "records/patrons/eulogius/cor": {
+            "es": "Eulogio de Córdoba",
+            "en": "Eulogius of Cordoba",
+            "la": "Eulogius de Corduba",
+            "pl": "Eulogiusz z Kordoby"
+        },
         "records/patrons/eunus/iul": {
             "la": "Eunus Alexandrinus",
             "en": "Eunus of Alexandria",

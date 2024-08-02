@@ -1,0 +1,27 @@
+{
+    "names": {
+        "es": "Eulogio"
+    },
+    "translations": {
+        "la": [
+            "Eulogius"
+        ],
+        "en": [
+            "Eulogius"
+        ],
+        "pl": [
+            "Eulogiusz"
+        ],
+        "es": [
+            "Eulogio"
+        ]
+    },
+    "links": {
+        "records/patrons/eulogius/cor": {
+            "es": "Eulogio de Córdoba",
+            "en": "Eulogius of Cordoba",
+            "la": "Eulogius de Corduba",
+            "pl": "Eulogiusz z Kordoby"
+        }
+    }
+}
