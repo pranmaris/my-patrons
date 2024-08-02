@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Boylet"
+    },
+    "translations": {
+        "fr": [
+            "Boylet"
+        ]
+    },
+    "links": {
+        "records/patrons/coleta/boy": {
+            "fr": "Colette Boylet",
+            "en": "Colette Boylet",
+            "la": "Coleta Boylet",
+            "pl": "Koleta Boylet"
+        }
+    }
+}

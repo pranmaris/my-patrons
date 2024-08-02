@@ -89,6 +89,12 @@
             "la": "Clara Assisiensis",
             "pl": "Klara z Asyżu"
         },
+        "records/patrons/coleta/boy": {
+            "fr": "Colette Boylet",
+            "en": "Colette Boylet",
+            "la": "Coleta Boylet",
+            "pl": "Koleta Boylet"
+        },
         "records/patrons/crispina/tha": {
             "la": "Crispina Thagorensis",
             "en": "Crispina of Numidia",

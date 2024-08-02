@@ -1574,6 +1574,26 @@
         ],
         "feasts": []
     },
+    "patrons/coleta": {
+        "names": {
+            "la": "Coleta",
+            "en": "Colette",
+            "pl": "Koleta",
+            "fr": "Colette"
+        }
+    },
+    "patrons/coleta/boy": {
+        "names": {
+            "fr": "Colette Boylet",
+            "en": "Colette Boylet",
+            "la": "Coleta Boylet",
+            "pl": "Koleta Boylet"
+        },
+        "died": [
+            "1447-03-06"
+        ],
+        "feasts": []
+    },
     "patrons/cosmas": {
         "names": {
             "la": "Cosmas",

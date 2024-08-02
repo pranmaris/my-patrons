@@ -1,0 +1,41 @@
+{
+  "names": {
+    "fr": [
+      "Colette Boylet"
+    ],
+    "en": [
+      "Colette Boylet"
+    ],
+    "la": [
+      "Coleta Boylet"
+    ],
+    "pl": [
+      "Koleta Boylet"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Boylet"
+    }
+  ],
+
+  "born": ["1381-01-13"],
+  "died": ["1447-03-06"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1740-01-23"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1807-05-24"
+  },
+
+  "also-in-martyrology": ["03-06"],
+
+  "forenames": ["coleta"],
+  "categories": ["femina", "virgo", "reclusa"],
+
+  "order": ["osc"]
+}

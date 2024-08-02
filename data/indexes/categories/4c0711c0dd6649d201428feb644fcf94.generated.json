@@ -66,6 +66,12 @@
             "la": "Clara Assisiensis",
             "pl": "Klara z Asyżu"
         },
+        "records/patrons/coleta/boy": {
+            "fr": "Colette Boylet",
+            "en": "Colette Boylet",
+            "la": "Coleta Boylet",
+            "pl": "Koleta Boylet"
+        },
         "records/patrons/elisabeth/cat": {
             "fr": "Élisabeth de la Sainte Trinité",
             "en": "Elizabeth of the Holy Trinity",

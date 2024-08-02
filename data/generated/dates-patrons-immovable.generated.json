@@ -950,6 +950,20 @@
             }
         }
     },
+    "03-06": {
+        "records/patrons/coleta/boy": {
+            "name": {
+                "fr": "Colette Boylet",
+                "en": "Colette Boylet",
+                "la": "Coleta Boylet",
+                "pl": "Koleta Boylet"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 III",
+                "other-martyrology-days": "6 III"
+            }
+        }
+    },
     "03-07": {
         "records/patrons/felicitas/car": {
             "name": {
