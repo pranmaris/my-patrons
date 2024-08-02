@@ -58,6 +58,12 @@
             "en": "Cyril of Alexandria",
             "pl": "Cyryl Aleksandryjski"
         },
+        "records/patrons/cyrillus/hie": {
+            "el": "Κύριλλος Ιεροσολύμων",
+            "en": "Cyril of Jerusalem",
+            "la": "Cyrillus Hierosolymitanus",
+            "pl": "Cyryl Jerozolimski"
+        },
         "records/patrons/franciscus/sal": {
             "fr": "François de Sales",
             "en": "Francis de Sales",

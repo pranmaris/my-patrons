@@ -1040,6 +1040,19 @@
             }
         }
     },
+    "03-13": {
+        "records/patrons/christina/per": {
+            "name": {
+                "fa": "کریستینا",
+                "en": "Christina of Persia",
+                "la": "Christina Persica",
+                "pl": "Krystyna z Persji"
+            },
+            "sources": {
+                "other-martyrology-days": "13 III"
+            }
+        }
+    },
     "03-14": {
         "records/patrons/mathildis/reg": {
             "name": {
@@ -1085,6 +1098,20 @@
             },
             "sources": {
                 "other-martyrology-days": "17 III"
+            }
+        }
+    },
+    "03-18": {
+        "records/patrons/cyrillus/hie": {
+            "name": {
+                "el": "Κύριλλος Ιεροσολύμων",
+                "en": "Cyril of Jerusalem",
+                "la": "Cyrillus Hierosolymitanus",
+                "pl": "Cyryl Jerozolimski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "18 III",
+                "other-martyrology-days": "18 III"
             }
         }
     },

@@ -300,6 +300,12 @@
         "en": "Ceslaus",
         "pl": "Czesław"
     },
+    "christina": {
+        "la": "Christina",
+        "en": "Christina",
+        "pl": "Krystyna",
+        "fa": "کریستینا"
+    },
     "christophorus": {
         "la": "Christophorus",
         "en": "Christopher",
@@ -357,7 +363,8 @@
     "cyrillus": {
         "la": "Cyrillus",
         "en": "Cyril",
-        "pl": "Cyryl"
+        "pl": "Cyryl",
+        "el": "Κύριλλος"
     },
     "damianus": {
         "la": "Damianus",

@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Christina",
+        "en": "Christina"
+    },
+    "translations": {
+        "la": [
+            "Christina"
+        ],
+        "en": [
+            "Christina"
+        ],
+        "pl": [
+            "Krystyna"
+        ],
+        "fa": [
+            "کریستینا"
+        ]
+    },
+    "links": {
+        "records/patrons/christina/per": {
+            "fa": "کریستینا",
+            "en": "Christina of Persia",
+            "la": "Christina Persica",
+            "pl": "Krystyna z Persji"
+        }
+    }
+}

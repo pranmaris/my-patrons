@@ -1,0 +1,24 @@
+{
+  "names": {
+    "el": [
+      "Κύριλλος Ιεροσολύμων"
+    ],
+    "en": [
+      "Cyril of Jerusalem"
+    ],
+    "la": [
+      "Cyrillus Hierosolymitanus"
+    ],
+    "pl": [
+      "Cyryl Jerozolimski"
+    ]
+  },
+
+  "born": ["~315"],
+  "died": ["386-03-18"],
+
+  "also-in-martyrology": ["03-18"],
+
+  "forenames": ["cyrillus"],
+  "categories": ["vir", "confessor", "episcopus", "doctor-ecclesiae"]
+}

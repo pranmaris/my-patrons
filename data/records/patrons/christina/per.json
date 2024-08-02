@@ -1,0 +1,23 @@
+{
+  "names": {
+    "fa": [
+      "کریستینا"
+    ],
+    "en": [
+      "Christina of Persia"
+    ],
+    "la": [
+      "Christina Persica"
+    ],
+    "pl": [
+      "Krystyna z Persji"
+    ]
+  },
+
+  "died": ["~559"],
+
+  "also-in-martyrology": ["03-13"],
+
+  "forenames": ["christina"],
+  "categories": ["femina", "martyrix"]
+}

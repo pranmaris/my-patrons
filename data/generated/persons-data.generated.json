@@ -1486,6 +1486,26 @@
         ],
         "feasts": []
     },
+    "patrons/christina": {
+        "names": {
+            "la": "Christina",
+            "en": "Christina",
+            "pl": "Krystyna",
+            "fa": "کریستینا"
+        }
+    },
+    "patrons/christina/per": {
+        "names": {
+            "fa": "کریستینا",
+            "en": "Christina of Persia",
+            "la": "Christina Persica",
+            "pl": "Krystyna z Persji"
+        },
+        "died": [
+            "~559"
+        ],
+        "feasts": []
+    },
     "patrons/christophorus": {
         "names": {
             "la": "Christophorus",
@@ -1655,7 +1675,8 @@
         "names": {
             "la": "Cyrillus",
             "en": "Cyril",
-            "pl": "Cyryl"
+            "pl": "Cyryl",
+            "el": "Κύριλλος"
         }
     },
     "patrons/cyrillus/ale": {
@@ -1666,6 +1687,18 @@
         },
         "died": [
             "444-06-27"
+        ],
+        "feasts": []
+    },
+    "patrons/cyrillus/hie": {
+        "names": {
+            "el": "Κύριλλος Ιεροσολύμων",
+            "en": "Cyril of Jerusalem",
+            "la": "Cyrillus Hierosolymitanus",
+            "pl": "Cyryl Jerozolimski"
+        },
+        "died": [
+            "386-03-18"
         ],
         "feasts": []
     },
