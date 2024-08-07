@@ -284,6 +284,18 @@
             }
         }
     },
+    "07-01": {
+        "records/god/fil#san": {
+            "name": {
+                "la": "Iesus Christus (Pretiosissimus Sanguis Christi)",
+                "pl": "Jezus Chrystus (Najdroższa Krew Chrystusa)"
+            },
+            "sources": {
+                "mr-1956": "1 VII: #2",
+                "mr-1960": "1 VII: #1"
+            }
+        }
+    },
     "07-02": {
         "records/patrons/maria/naz#vis": {
             "name": {

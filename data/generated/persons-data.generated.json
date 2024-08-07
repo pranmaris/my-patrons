@@ -212,6 +212,12 @@
                     "pl": "Oktawa Najświętszego Serca Jezusa"
                 }
             },
+            "feasts/san": {
+                "names": {
+                    "la": "Pretiosissimus Sanguis Christi",
+                    "pl": "Najdroższa Krew Chrystusa"
+                }
+            },
             "feasts/tra": {
                 "names": {
                     "la": "Transfiguratio Domini",
