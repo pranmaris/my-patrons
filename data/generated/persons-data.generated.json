@@ -103,6 +103,13 @@
                     "pl": "Ofiarowanie Pańskie"
                 }
             },
+            "feasts/and": {
+                "names": {
+                    "la": "Annuntatio Domini",
+                    "en": "The Annunciation of Jesus",
+                    "pl": "Zwiastowanie Pańskie"
+                }
+            },
             "feasts/dci": {
                 "names": {
                     "en": "Ash Wednesday",
@@ -3911,6 +3918,13 @@
                     "la": "Purificatio Beatae Mariae Virginis",
                     "en": "The Purification of the Blessed Virgin Mary",
                     "pl": "Oczyszczenie Błogosławionej Maryi Dziewicy"
+                }
+            },
+            "feasts/anm": {
+                "names": {
+                    "la": "Annuntatio beatissimae Virginis Genitricis Dei Mariae",
+                    "en": "The Annunciation to the Blessed Virgin Mary",
+                    "pl": "Zwiastowanie Błogosławionej Maryi Dziewicy Bożej Rodzicielki"
                 }
             },
             "feasts/vis": {

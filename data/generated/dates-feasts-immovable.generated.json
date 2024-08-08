@@ -189,6 +189,29 @@
             }
         }
     },
+    "03-25": {
+        "records/patrons/maria/naz#anm": {
+            "name": {
+                "la": "Maria Virgo (Annuntatio beatissimae Virginis Genitricis Dei Mariae)",
+                "en": "Mary, mother of Jesus (The Annunciation to the Blessed Virgin Mary)",
+                "pl": "Maria z Nazaretu (Zwiastowanie Błogosławionej Maryi Dziewicy Bożej Rodzicielki)"
+            },
+            "sources": {
+                "mr-1956": "25 III: #1",
+                "mr-1960": "25 III: #1"
+            }
+        },
+        "records/god/fil#and": {
+            "name": {
+                "la": "Iesus Christus (Annuntatio Domini)",
+                "en": "Jesus Christ (The Annunciation of Jesus)",
+                "pl": "Jezus Chrystus (Zwiastowanie Pańskie)"
+            },
+            "sources": {
+                "mr-2004": "25 III: #1"
+            }
+        }
+    },
     "04-24": {
         "records/patrons/augustinus/hip#cah": {
             "name": {

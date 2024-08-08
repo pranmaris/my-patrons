@@ -11,6 +11,16 @@
         "la": "Vigilia Assumptionis Beatae Mariae Virginis",
         "pl": "Wigilia Wniebowzięcia Najświętszej Maryi Panny"
     },
+    "and": {
+        "la": "Annuntatio Domini",
+        "en": "The Annunciation of Jesus",
+        "pl": "Zwiastowanie Pańskie"
+    },
+    "anm": {
+        "la": "Annuntatio beatissimae Virginis Genitricis Dei Mariae",
+        "en": "The Annunciation to the Blessed Virgin Mary",
+        "pl": "Zwiastowanie Błogosławionej Maryi Dziewicy Bożej Rodzicielki"
+    },
     "asc": {
         "la": "Ascénsio Iesu Christi",
         "pl": "Wniebowstąpienie Jezusa Chrystusa"
