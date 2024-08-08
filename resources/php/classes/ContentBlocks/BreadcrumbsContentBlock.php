@@ -222,7 +222,7 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
             $name = $this->getReplacedContent(self::VARIABLE_NAME_SIGN . $element . self::VARIABLE_NAME_SIGN, $indexVariables, true);
             $name = preg_replace('/^' . self::VARIABLE_NAME_SIGN . '(.+)' . self::VARIABLE_NAME_SIGN . '$/', '\1', $name);
 
-            if ($found && !isset($indexVariables[$element])) {
+            if ($found && strpos($this->stripTags($name), self::VARIABLE_NAME_SIGN) !== false) {
                 $name = self::VARIABLE_NAME_SIGN . self::LANG_VARIABLE_PREFIX . $element . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
             }
             if (!$found && $element === $name) {
