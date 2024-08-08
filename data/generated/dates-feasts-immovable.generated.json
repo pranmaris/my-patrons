@@ -75,6 +75,18 @@
             }
         }
     },
+    "01-07": {
+        "records/god/fil#rel": {
+            "name": {
+                "la": "Iesus Christus (Relatio Pueri Iesu de Aegypto)",
+                "pl": "Jezus Chrystus (Powrót Dzieciątka Jezus z Egiptu)"
+            },
+            "sources": {
+                "mr-1956": "7 I: #1",
+                "mr-1960": "7 I: #1"
+            }
+        }
+    },
     "01-13": {
         "records/god/fil#epo": {
             "name": {

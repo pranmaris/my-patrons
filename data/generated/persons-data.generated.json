@@ -72,6 +72,12 @@
                     "pl": "Objawienie Pańskie"
                 }
             },
+            "feasts/rel": {
+                "names": {
+                    "la": "Relatio Pueri Iesu de Aegypto",
+                    "pl": "Powrót Dzieciątka Jezus z Egiptu"
+                }
+            },
             "feasts/epo": {
                 "names": {
                     "la": "Octava Epiphaniae Domini",

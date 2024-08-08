@@ -260,6 +260,10 @@
         "en": "The Blessed Virgin Mary, Queen",
         "pl": "Błogosławiona Maria Dziewica Królowa"
     },
+    "rel": {
+        "la": "Relatio Pueri Iesu de Aegypto",
+        "pl": "Powrót Dzieciątka Jezus z Egiptu"
+    },
     "res": {
         "la": "Resurrectio Iesu Christi",
         "pl": "Zmartwychwstanie Jezusa Chrystusa"
