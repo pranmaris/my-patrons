@@ -107,6 +107,17 @@
             }
         }
     },
+    "01-18": {
+        "records/patrons/petrus/apo#pcr": {
+            "name": {
+                "la": "Petrus (Romae Cathedra sancti Petri Apostoli)",
+                "pl": "Piotr Apostoł (Katedra Świętego Piotra w Rzymie)"
+            },
+            "sources": {
+                "mr-1956": "18 I: #1"
+            }
+        }
+    },
     "02-02": {
         "records/patrons/maria/naz#pur": {
             "name": {
@@ -127,6 +138,27 @@
             },
             "sources": {
                 "mr-2004": "2 II: #1"
+            }
+        }
+    },
+    "02-22": {
+        "records/patrons/petrus/apo#pca": {
+            "name": {
+                "la": "Petrus (Antiochiae Cathedra sancti Petri Apostoli)",
+                "pl": "Piotr Apostoł (Katedra Świętego Piotra w Antiochii)"
+            },
+            "sources": {
+                "mr-1956": "22 II: #1"
+            }
+        },
+        "records/patrons/petrus/apo#pcr": {
+            "name": {
+                "la": "Petrus (Romae Cathedra sancti Petri Apostoli)",
+                "pl": "Piotr Apostoł (Katedra Świętego Piotra w Rzymie)"
+            },
+            "sources": {
+                "mr-1960": "22 II: #1",
+                "mr-2004": "22 II: #1"
             }
         }
     },

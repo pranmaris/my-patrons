@@ -28,5 +28,10 @@
         "la": "13. Idibus Januárii",
         "en": "13. The January Ides",
         "pl": "13. Idy styczniowe"
+    },
+    "18": {
+        "la": "18. Quintodécimo Kaléndas Febrnuárii",
+        "en": "18. The 15th day before the February Kalends",
+        "pl": "18. 15 dzień przed kalendami lutowymi"
     }
 }

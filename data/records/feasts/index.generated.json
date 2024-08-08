@@ -210,6 +210,14 @@
         "la": "Petrus Apostolus ad Vincula",
         "pl": "Piotr w Okowach"
     },
+    "pca": {
+        "la": "Antiochiae Cathedra sancti Petri Apostoli",
+        "pl": "Katedra Świętego Piotra w Antiochii"
+    },
+    "pcr": {
+        "la": "Romae Cathedra sancti Petri Apostoli",
+        "pl": "Katedra Świętego Piotra w Rzymie"
+    },
     "pef": {
         "la": "Perpetuae et Felicitatis",
         "pl": "Perpetuy i Felicyty"

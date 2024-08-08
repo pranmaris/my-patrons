@@ -4692,6 +4692,18 @@
             "~64"
         ],
         "feasts": {
+            "feasts/pcr": {
+                "names": {
+                    "la": "Romae Cathedra sancti Petri Apostoli",
+                    "pl": "Katedra Świętego Piotra w Rzymie"
+                }
+            },
+            "feasts/pca": {
+                "names": {
+                    "la": "Antiochiae Cathedra sancti Petri Apostoli",
+                    "pl": "Katedra Świętego Piotra w Antiochii"
+                }
+            },
             "feasts/r1p": {
                 "names": {
                     "la": "Romae Litaníae majores ad sanctum Petrum",
