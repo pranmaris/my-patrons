@@ -1228,6 +1228,19 @@
             }
         }
     },
+    "03-27": {
+        "records/patrons/rupertus/sal": {
+            "name": {
+                "de": "Rupert von Salzburg",
+                "en": "Rupert of Salzburg",
+                "la": "Rupertus Salisburgensis",
+                "pl": "Rupert z Salzburga"
+            },
+            "sources": {
+                "other-martyrology-days": "27 III"
+            }
+        }
+    },
     "03-28": {
         "records/patrons/gunthramnus/rex": {
             "name": {

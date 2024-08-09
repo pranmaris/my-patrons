@@ -1,0 +1,24 @@
+{
+  "names": {
+    "de": [
+      "Rupert von Salzburg"
+    ],
+    "en": [
+      "Rupert of Salzburg"
+    ],
+    "la": [
+      "Rupertus Salisburgensis"
+    ],
+    "pl": [
+      "Rupert z Salzburga"
+    ]
+  },
+
+  "born": ["~650", "~660"],
+  "died": ["~710"],
+
+  "also-in-martyrology": ["03-27"],
+
+  "forenames": ["rupertus"],
+  "categories": ["vir", "confessor", "episcopus"]
+}

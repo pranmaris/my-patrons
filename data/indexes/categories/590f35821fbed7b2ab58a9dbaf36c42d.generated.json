@@ -1130,6 +1130,12 @@
             "en": "Roman Archutowski",
             "la": "Romanus Archutowski"
         },
+        "records/patrons/rupertus/sal": {
+            "de": "Rupert von Salzburg",
+            "en": "Rupert of Salzburg",
+            "la": "Rupertus Salisburgensis",
+            "pl": "Rupert z Salzburga"
+        },
         "records/patrons/sarbelius/mak": {
             "ar": "شربل مخلوف",
             "en": "Charbel Makhlouf",

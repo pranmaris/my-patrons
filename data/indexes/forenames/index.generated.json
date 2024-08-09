@@ -1339,6 +1339,11 @@
         "en": "Denis",
         "fr": "Denis"
     },
+    "a3c02d2ac34842d84ad1a3bfdfbc437d": {
+        "en": "Rupert",
+        "pl": "Rupert",
+        "de": "Rupert"
+    },
     "a3c3161593024d3644fb63e93afe5c5f": {
         "fr": "Agricole"
     },
@@ -1889,6 +1894,9 @@
     },
     "e3bd81cf0f68795a3530605f122db32b": {
         "la": "Casimirus"
+    },
+    "e485018106982f7a5e4f2f1f9a84e7c6": {
+        "la": "Rupertus"
     },
     "e4c78fc2807e476471c627ae32ad5e0c": {
         "pl": "Szymon"

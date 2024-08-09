@@ -1,0 +1,29 @@
+{
+    "names": {
+        "en": "Rupert",
+        "pl": "Rupert",
+        "de": "Rupert"
+    },
+    "translations": {
+        "la": [
+            "Rupertus"
+        ],
+        "en": [
+            "Rupert"
+        ],
+        "pl": [
+            "Rupert"
+        ],
+        "de": [
+            "Rupert"
+        ]
+    },
+    "links": {
+        "records/patrons/rupertus/sal": {
+            "de": "Rupert von Salzburg",
+            "en": "Rupert of Salzburg",
+            "la": "Rupertus Salisburgensis",
+            "pl": "Rupert z Salzburga"
+        }
+    }
+}

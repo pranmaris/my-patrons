@@ -315,6 +315,12 @@
             "en": "Pope Pius X",
             "pl": "Pius X"
         },
+        "records/patrons/rupertus/sal": {
+            "de": "Rupert von Salzburg",
+            "en": "Rupert of Salzburg",
+            "la": "Rupertus Salisburgensis",
+            "pl": "Rupert z Salzburga"
+        },
         "records/patrons/saturninus/tol": {
             "la": "Saturninus Tolosanensis",
             "en": "Saturnin of Toulouse",

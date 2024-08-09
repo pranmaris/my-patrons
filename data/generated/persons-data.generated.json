@@ -5149,6 +5149,26 @@
         ],
         "feasts": []
     },
+    "patrons/rupertus": {
+        "names": {
+            "la": "Rupertus",
+            "en": "Rupert",
+            "pl": "Rupert",
+            "de": "Rupert"
+        }
+    },
+    "patrons/rupertus/sal": {
+        "names": {
+            "de": "Rupert von Salzburg",
+            "en": "Rupert of Salzburg",
+            "la": "Rupertus Salisburgensis",
+            "pl": "Rupert z Salzburga"
+        },
+        "died": [
+            "~710"
+        ],
+        "feasts": []
+    },
     "patrons/sabigothon": {
         "names": {
             "la": "Sabigothon",
