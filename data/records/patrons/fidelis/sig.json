@@ -1,0 +1,36 @@
+{
+  "names": {
+    "de": [
+      "Fidelis von Sigmaringen"
+    ],
+    "en": [
+      "Fidelis of Sigmaringen"
+    ],
+    "la": [
+      "Fidelis de Sigmaringa",
+      "Fidelis a Sigmaringa"
+    ],
+    "pl": [
+      "Fidelis z Sigmaringen"
+    ]
+  },
+
+  "born": ["~1577"],
+  "died": ["1622-04-24"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1729-03-24"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1746-06-29"
+  },
+
+  "also-in-martyrology": ["04-24"],
+
+  "forenames": ["fidelis"],
+  "categories": ["vir", "martyr", "sacerdos", "presbyter"],
+
+  "order": ["ofmcap"]
+}

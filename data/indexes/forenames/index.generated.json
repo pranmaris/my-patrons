@@ -613,6 +613,9 @@
         "la": "Eulogius",
         "en": "Eulogius"
     },
+    "44e8b650d023c55d90f531099ec05dc9": {
+        "pl": "Fidel"
+    },
     "453b23ce2d2d0eb938a397435522f837": {
         "pl": "Eulogiusz"
     },
@@ -1381,6 +1384,12 @@
     },
     "a64cd8062eaa4562c0ba463f2ee7c828": {
         "fr": "Julien"
+    },
+    "a6cf33821d4b78c08e13bb7744f667bb": {
+        "la": "Fidelis",
+        "en": "Fidelis",
+        "pl": "Fidelis",
+        "de": "Fidelis"
     },
     "a78bcf26721280c66741cb091d89a774": {
         "la": "Laurentius"

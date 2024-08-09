@@ -492,6 +492,12 @@
             "en": "Felicissimus /+ Rogatian",
             "pl": "Felicyssym /+ Rogacjan"
         },
+        "records/patrons/fidelis/sig": {
+            "de": "Fidelis von Sigmaringen",
+            "en": "Fidelis of Sigmaringen",
+            "la": "Fidelis de Sigmaringa",
+            "pl": "Fidelis z Sigmaringen"
+        },
         "records/patrons/florianus/lau": {
             "la": "Florianus Lauriacensis",
             "en": "Florian of Lauriacum",

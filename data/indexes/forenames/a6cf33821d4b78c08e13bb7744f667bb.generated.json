@@ -1,0 +1,31 @@
+{
+    "names": {
+        "la": "Fidelis",
+        "en": "Fidelis",
+        "pl": "Fidelis",
+        "de": "Fidelis"
+    },
+    "translations": {
+        "la": [
+            "Fidelis"
+        ],
+        "en": [
+            "Fidelis"
+        ],
+        "pl": [
+            "Fidelis",
+            "Fidel"
+        ],
+        "de": [
+            "Fidelis"
+        ]
+    },
+    "links": {
+        "records/patrons/fidelis/sig": {
+            "de": "Fidelis von Sigmaringen",
+            "en": "Fidelis of Sigmaringen",
+            "la": "Fidelis de Sigmaringa",
+            "pl": "Fidelis z Sigmaringen"
+        }
+    }
+}

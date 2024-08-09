@@ -2192,6 +2192,26 @@
             }
         }
     },
+    "patrons/fidelis": {
+        "names": {
+            "la": "Fidelis",
+            "en": "Fidelis",
+            "pl": "Fidelis",
+            "de": "Fidelis"
+        }
+    },
+    "patrons/fidelis/sig": {
+        "names": {
+            "de": "Fidelis von Sigmaringen",
+            "en": "Fidelis of Sigmaringen",
+            "la": "Fidelis de Sigmaringa",
+            "pl": "Fidelis z Sigmaringen"
+        },
+        "died": [
+            "1622-04-24"
+        ],
+        "feasts": []
+    },
     "patrons/florianus": {
         "names": {
             "la": "Florianus",
