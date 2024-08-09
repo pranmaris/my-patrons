@@ -1537,6 +1537,18 @@
         }
     },
     "04-18": {
+        "records/patrons/iosephus/mor": {
+            "name": {
+                "fr": "Joseph Moreau",
+                "en": "Joseph Moreau",
+                "la": "Iosephus Moreau",
+                "pl": "Józef Moreau"
+            },
+            "sources": {
+                "reliable-death-anniversary": "18 IV",
+                "other-martyrology-days": "18 IV"
+            }
+        },
         "records/patrons/romanus/arc": {
             "name": {
                 "pl": "Roman Archutowski",

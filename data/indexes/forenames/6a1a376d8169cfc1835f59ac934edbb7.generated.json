@@ -1,6 +1,7 @@
 {
     "names": {
         "en": "Joseph",
+        "fr": "Joseph",
         "la": "Joseph"
     },
     "translations": {
@@ -15,6 +16,9 @@
         ],
         "pl": [
             "Józef"
+        ],
+        "fr": [
+            "Joseph"
         ],
         "it": [
             "Giuseppe"
@@ -54,6 +58,12 @@
             "pl": "Józef Kurzawa",
             "en": "Joseph Kurzawa",
             "la": "Iosephus Kurzawa"
+        },
+        "records/patrons/iosephus/mor": {
+            "fr": "Joseph Moreau",
+            "en": "Joseph Moreau",
+            "la": "Iosephus Moreau",
+            "pl": "Józef Moreau"
         },
         "records/patrons/iosephus/ngu": {
             "vi": "Giuse Nguyễn Đình Nghi",

@@ -1,0 +1,35 @@
+{
+  "names": {
+    "fr": [
+      "Joseph Moreau"
+    ],
+    "en": [
+      "Joseph Moreau"
+    ],
+    "la": [
+      "Iosephus Moreau"
+    ],
+    "pl": [
+      "Józef Moreau"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Moreau"
+    }
+  ],
+
+  "born": ["1763-10-21"],
+  "died": ["1794-04-18"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1984-02-19"
+  },
+
+  "also-in-martyrology": ["04-18"],
+
+  "forenames": ["iosephus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

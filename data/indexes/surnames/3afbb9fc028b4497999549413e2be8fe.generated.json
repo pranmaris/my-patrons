@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Moreau"
+    },
+    "translations": {
+        "fr": [
+            "Moreau"
+        ]
+    },
+    "links": {
+        "records/patrons/iosephus/mor": {
+            "fr": "Joseph Moreau",
+            "en": "Joseph Moreau",
+            "la": "Iosephus Moreau",
+            "pl": "Józef Moreau"
+        }
+    }
+}

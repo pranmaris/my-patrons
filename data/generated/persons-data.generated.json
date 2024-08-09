@@ -3239,6 +3239,7 @@
             "la": "Iosephus",
             "en": "Joseph",
             "pl": "Józef",
+            "fr": "Joseph",
             "it": "Giuseppe",
             "vi": "Giuse"
         }
@@ -3264,6 +3265,18 @@
         "died": [
             "1940-05-23",
             "1940-05-24"
+        ],
+        "feasts": []
+    },
+    "patrons/iosephus/mor": {
+        "names": {
+            "fr": "Joseph Moreau",
+            "en": "Joseph Moreau",
+            "la": "Iosephus Moreau",
+            "pl": "Józef Moreau"
+        },
+        "died": [
+            "1794-04-18"
         ],
         "feasts": []
     },
