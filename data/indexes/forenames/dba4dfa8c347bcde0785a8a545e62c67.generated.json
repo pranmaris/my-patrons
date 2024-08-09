@@ -44,6 +44,12 @@
             "en": "Joan of Valois",
             "la": "Ioanna de Valois",
             "pl": "Joanna de Valois"
+        },
+        "records/patrons/ioanna/ver": {
+            "fr": "Jeanne Véron",
+            "en": "Joan Veron",
+            "la": "Ioanna Véron",
+            "pl": "Joanna Veron"
         }
     }
 }

@@ -1129,6 +1129,18 @@
         }
     },
     "03-20": {
+        "records/patrons/ioanna/ver": {
+            "name": {
+                "fr": "Jeanne Véron",
+                "en": "Joan Veron",
+                "la": "Ioanna Véron",
+                "pl": "Joanna Veron"
+            },
+            "sources": {
+                "reliable-death-anniversary": "20 III",
+                "other-martyrology-days": "20 III"
+            }
+        },
         "records/patrons/ioachim/mar": {
             "name": {
                 "he": "יהוֹיָקִים",

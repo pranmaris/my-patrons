@@ -2896,6 +2896,18 @@
         ],
         "feasts": []
     },
+    "patrons/ioanna/ver": {
+        "names": {
+            "fr": "Jeanne Véron",
+            "en": "Joan Veron",
+            "la": "Ioanna Véron",
+            "pl": "Joanna Veron"
+        },
+        "died": [
+            "1794-03-20"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes": {
         "names": {
             "la": "Ioannes",

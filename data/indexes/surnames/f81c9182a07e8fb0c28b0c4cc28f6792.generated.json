@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Véron"
+    },
+    "translations": {
+        "fr": [
+            "Véron"
+        ]
+    },
+    "links": {
+        "records/patrons/ioanna/ver": {
+            "fr": "Jeanne Véron",
+            "en": "Joan Veron",
+            "la": "Ioanna Véron",
+            "pl": "Joanna Veron"
+        }
+    }
+}

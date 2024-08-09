@@ -1,0 +1,35 @@
+{
+  "names": {
+    "fr": [
+      "Jeanne Véron"
+    ],
+    "en": [
+      "Joan Veron"
+    ],
+    "la": [
+      "Ioanna Véron"
+    ],
+    "pl": [
+      "Joanna Veron"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Véron"
+    }
+  ],
+
+  "born": ["1766-08-06"],
+  "died": ["1794-03-20"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1955-06-19"
+  },
+
+  "also-in-martyrology": ["03-20"],
+
+  "forenames": ["ioanna"],
+  "categories": ["femina", "martyrix", "virgo"]
+}
