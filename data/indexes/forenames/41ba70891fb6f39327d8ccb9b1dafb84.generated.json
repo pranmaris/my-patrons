@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "August",
+        "pl": "August"
+    },
+    "translations": {
+        "la": [
+            "Augustus"
+        ],
+        "en": [
+            "August"
+        ],
+        "pl": [
+            "August"
+        ]
+    },
+    "links": {
+        "records/patrons/augustus/cza": {
+            "pl": "August Czartoryski",
+            "en": "August Czartoryski",
+            "la": "Augustus Czartoryski"
+        }
+    }
+}

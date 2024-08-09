@@ -1,0 +1,34 @@
+{
+  "names": {
+    "pl": [
+      "August Czartoryski"
+    ],
+    "en": [
+      "August Czartoryski"
+    ],
+    "la": [
+      "Augustus Czartoryski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Czartoryski"
+    }
+  ],
+
+  "born": ["1858-08-02"],
+  "died": ["1893-04-08"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2004-04-25"
+  },
+
+  "also-in-martyrology": ["04-08"],
+
+  "forenames": ["augustus"],
+  "categories": ["vir", "presbyter"],
+
+  "order": ["sdb"]
+}

@@ -984,6 +984,24 @@
         ],
         "feasts": []
     },
+    "patrons/augustus": {
+        "names": {
+            "la": "Augustus",
+            "en": "August",
+            "pl": "August"
+        }
+    },
+    "patrons/augustus/cza": {
+        "names": {
+            "pl": "August Czartoryski",
+            "en": "August Czartoryski",
+            "la": "Augustus Czartoryski"
+        },
+        "died": [
+            "1893-04-08"
+        ],
+        "feasts": []
+    },
     "patrons/barbara": {
         "names": {
             "la": "Barbara",
