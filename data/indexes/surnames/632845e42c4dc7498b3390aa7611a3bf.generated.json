@@ -1,0 +1,18 @@
+{
+    "names": {
+        "es": "Navarro de Guevara"
+    },
+    "translations": {
+        "es": [
+            "Navarro de Guevara"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/nav": {
+            "es": "María Ana de Jesús Navarro",
+            "en": "Maria Anna of Jesus Navarro",
+            "la": "Maria Anna a Iesu Navarro",
+            "pl": "Maria Anna od Jezusa Navarro"
+        }
+    }
+}

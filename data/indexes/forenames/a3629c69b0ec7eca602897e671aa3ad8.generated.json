@@ -12,6 +12,9 @@
         "pl": [
             "Anna"
         ],
+        "es": [
+            "Ana"
+        ],
         "he": [
             "חַנָּה‎"
         ]
@@ -27,6 +30,12 @@
             "pl": "Maria Rajmunda od Jezusa i Maryi",
             "en": "Mary Raymunda of Jesus and Mary",
             "la": "Maria Raymunda a Iesu et Maria"
+        },
+        "records/patrons/maria/nav": {
+            "es": "María Ana de Jesús Navarro",
+            "en": "Maria Anna of Jesus Navarro",
+            "la": "Maria Anna a Iesu Navarro",
+            "pl": "Maria Anna od Jezusa Navarro"
         }
     }
 }

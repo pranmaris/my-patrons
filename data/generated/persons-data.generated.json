@@ -753,6 +753,7 @@
             "la": "Anna",
             "en": "Anna",
             "pl": "Anna",
+            "es": "Ana",
             "he": "חַנָּה‎"
         }
     },
@@ -3946,6 +3947,18 @@
         },
         "died": [
             "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/nav": {
+        "names": {
+            "es": "María Ana de Jesús Navarro",
+            "en": "Maria Anna of Jesus Navarro",
+            "la": "Maria Anna a Iesu Navarro",
+            "pl": "Maria Anna od Jezusa Navarro"
+        },
+        "died": [
+            "1624-04-17"
         ],
         "feasts": []
     },

@@ -1,0 +1,48 @@
+{
+  "names": {
+    "es": [
+      "María Ana de Jesús Navarro",
+      "María Ana Navarro de Guevara y Romero"
+    ],
+    "en": [
+      "Maria Anna of Jesus Navarro"
+    ],
+    "la": [
+      "Maria Anna a Iesu Navarro",
+      "Maria Anna a Iesu Navarro de Guevara"
+    ],
+    "pl": [
+      "Maria Anna od Jezusa Navarro"
+    ]
+  },
+
+  "surnames": [
+    {
+      "es": "Navarro de Guevara"
+    }
+  ],
+
+  "epithets": [
+    {
+      "es": "de Jesús",
+      "en": "of Jesus",
+      "la": "a Iesu",
+      "pl": "od Jezusa"
+    }
+  ],
+
+  "born": ["1565-01-21"],
+  "died": ["1624-04-17"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1783-05-25"
+  },
+
+  "also-in-martyrology": ["04-17"],
+
+  "forenames": ["maria", "anna"],
+  "categories": ["femina", "virgo"],
+
+  "order": ["odem"]
+}

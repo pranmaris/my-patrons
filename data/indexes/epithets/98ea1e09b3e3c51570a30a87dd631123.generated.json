@@ -17,6 +17,12 @@
         ]
     },
     "links": {
+        "records/patrons/maria/nav": {
+            "es": "María Ana de Jesús Navarro",
+            "en": "Maria Anna of Jesus Navarro",
+            "la": "Maria Anna a Iesu Navarro",
+            "pl": "Maria Anna od Jezusa Navarro"
+        },
         "records/patrons/teresia/ies": {
             "es": "Teresa de Jesús",
             "en": "Teresa of Ávila",

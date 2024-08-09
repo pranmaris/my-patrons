@@ -1513,6 +1513,18 @@
         }
     },
     "04-17": {
+        "records/patrons/maria/nav": {
+            "name": {
+                "es": "María Ana de Jesús Navarro",
+                "en": "Maria Anna of Jesus Navarro",
+                "la": "Maria Anna a Iesu Navarro",
+                "pl": "Maria Anna od Jezusa Navarro"
+            },
+            "sources": {
+                "reliable-death-anniversary": "17 IV",
+                "other-martyrology-days": "17 IV"
+            }
+        },
         "records/patrons/acacius/mel": {
             "name": {
                 "la": "Acacius Melitenensis",
