@@ -2594,18 +2594,29 @@
     "patrons/hilarius": {
         "names": {
             "la": "Hilarius",
-            "en": "Hilarius",
+            "en": "Hillary",
             "pl": "Hilary"
         }
     },
     "patrons/hilarius/1pp": {
         "names": {
             "la": "Papa Hilarius",
-            "en": "Pope Hilarius",
+            "en": "Pope Hillary",
             "pl": "Hilary Papież"
         },
         "died": [
             "468-02-29"
+        ],
+        "feasts": []
+    },
+    "patrons/hilarius/jan": {
+        "names": {
+            "pl": "Hilary Januszewski",
+            "en": "Hillary Januszewski",
+            "la": "Hilarius Januszewski"
+        },
+        "died": [
+            "1945-03-25"
         ],
         "feasts": []
     },

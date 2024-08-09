@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Januszewski"
+    },
+    "translations": {
+        "pl": [
+            "Januszewski"
+        ]
+    },
+    "links": {
+        "records/patrons/hilarius/jan": {
+            "pl": "Hilary Januszewski",
+            "en": "Hillary Januszewski",
+            "la": "Hilarius Januszewski"
+        }
+    }
+}

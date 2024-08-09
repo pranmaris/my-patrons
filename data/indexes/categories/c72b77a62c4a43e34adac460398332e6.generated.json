@@ -607,8 +607,13 @@
         },
         "records/patrons/hilarius/1pp": {
             "la": "Papa Hilarius",
-            "en": "Pope Hilarius",
+            "en": "Pope Hillary",
             "pl": "Hilary Papież"
+        },
+        "records/patrons/hilarius/jan": {
+            "pl": "Hilary Januszewski",
+            "en": "Hillary Januszewski",
+            "la": "Hilarius Januszewski"
         },
         "records/patrons/hormisdas/1pp": {
             "la": "Hormisdas",

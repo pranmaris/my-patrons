@@ -1,7 +1,12 @@
 {
     "1pp": {
         "la": "Papa Hilarius",
-        "en": "Pope Hilarius",
+        "en": "Pope Hillary",
         "pl": "Hilary Papież"
+    },
+    "jan": {
+        "pl": "Hilary Januszewski",
+        "en": "Hillary Januszewski",
+        "la": "Hilarius Januszewski"
     }
 }
