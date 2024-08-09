@@ -1039,6 +1039,11 @@
             "la": "Petrus Damiani",
             "pl": "Piotr Damiani"
         },
+        "records/patrons/petrus/dan": {
+            "pl": "Piotr Edward Dańkowski",
+            "en": "Peter Edward Dankowski",
+            "la": "Petrus Eduardus Dańkowski"
+        },
         "records/patrons/petrus/eym": {
             "fr": "Pierre-Julien Eymard",
             "en": "Peter Julian Eymanrd",

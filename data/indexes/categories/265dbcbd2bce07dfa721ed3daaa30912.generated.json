@@ -597,6 +597,11 @@
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
         },
+        "records/patrons/petrus/dan": {
+            "pl": "Piotr Edward Dańkowski",
+            "en": "Peter Edward Dankowski",
+            "la": "Petrus Eduardus Dańkowski"
+        },
         "records/patrons/philippus/apo": {
             "la": "Philippus Apostolus",
             "en": "Philip Apostle",

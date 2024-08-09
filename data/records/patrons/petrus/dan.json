@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Piotr Edward Dańkowski"
+    ],
+    "en": [
+      "Peter Edward Dankowski"
+    ],
+    "la": [
+      "Petrus Eduardus Dańkowski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Dańkowski"
+    }
+  ],
+
+  "born": ["1908-06-21"],
+  "died": ["1942-04-03"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["04-03"],
+
+  "forenames": ["petrus", "eduardus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

@@ -23,6 +23,11 @@
             "pl": "Edward Klinik",
             "en": "Edward Klinik",
             "la": "Eduardus Klinik"
+        },
+        "records/patrons/petrus/dan": {
+            "pl": "Piotr Edward Dańkowski",
+            "en": "Peter Edward Dankowski",
+            "la": "Petrus Eduardus Dańkowski"
         }
     }
 }

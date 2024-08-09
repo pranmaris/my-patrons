@@ -1359,6 +1359,19 @@
             }
         }
     },
+    "04-03": {
+        "records/patrons/petrus/dan": {
+            "name": {
+                "pl": "Piotr Edward Dańkowski",
+                "en": "Peter Edward Dankowski",
+                "la": "Petrus Eduardus Dańkowski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "3 IV",
+                "other-martyrology-days": "3 IV"
+            }
+        }
+    },
     "04-04": {
         "records/patrons/ambrosius/med": {
             "name": {
