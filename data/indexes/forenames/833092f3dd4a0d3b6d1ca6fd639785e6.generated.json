@@ -15,6 +15,9 @@
         "arc": [
             "ܡܪܝܡ"
         ],
+        "el": [
+            "Μαρία"
+        ],
         "es": [
             "María"
         ],
@@ -60,6 +63,12 @@
             "en": "Margaret Mary Alacoque",
             "la": "Margarita Maria Alacoque",
             "pl": "Małgorzata Maria Alacoque"
+        },
+        "records/patrons/maria/aeg": {
+            "el": "Μαρία η Αιγυπτία",
+            "en": "Mary of Egypt",
+            "la": "Maria Aegyptiaca",
+            "pl": "Maria Egipcjanka"
         },
         "records/patrons/maria/bor": {
             "pl": "Maria Felicyta Borowik",

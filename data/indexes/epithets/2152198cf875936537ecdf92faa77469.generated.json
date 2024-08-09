@@ -1,16 +1,16 @@
 {
     "names": {
-        "en": "solitaress"
+        "en": "Sinner"
     },
     "translations": {
         "la": [
-            "solitaria"
+            "Peccatrix"
         ],
         "en": [
-            "solitaress"
+            "Sinner"
         ],
         "pl": [
-            "samotnica"
+            "Grzesznica"
         ]
     },
     "links": {
@@ -19,12 +19,6 @@
             "en": "Mary of Egypt",
             "la": "Maria Aegyptiaca",
             "pl": "Maria Egipcjanka"
-        },
-        "records/patrons/rosalia/pan": {
-            "it": "Rosalia di Palermo",
-            "en": "Rosalia of Palermo",
-            "la": "Rosalia Panormitana",
-            "pl": "Rozalia z Palermo"
         }
     }
 }

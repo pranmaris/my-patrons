@@ -1299,6 +1299,17 @@
             "sources": {
                 "reliable-death-anniversary": "1 IV"
             }
+        },
+        "records/patrons/maria/aeg": {
+            "name": {
+                "el": "Μαρία η Αιγυπτία",
+                "en": "Mary of Egypt",
+                "la": "Maria Aegyptiaca",
+                "pl": "Maria Egipcjanka"
+            },
+            "sources": {
+                "other-martyrology-days": "1 IV"
+            }
         }
     },
     "04-02": {
@@ -1334,6 +1345,17 @@
             },
             "sources": {
                 "reliable-death-anniversary": "2 IV"
+            }
+        },
+        "records/patrons/maria/aeg": {
+            "name": {
+                "el": "Μαρία η Αιγυπτία",
+                "en": "Mary of Egypt",
+                "la": "Maria Aegyptiaca",
+                "pl": "Maria Egipcjanka"
+            },
+            "sources": {
+                "other-martyrology-days": "2 IV"
             }
         }
     },

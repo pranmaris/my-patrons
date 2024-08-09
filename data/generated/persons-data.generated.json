@@ -3781,10 +3781,23 @@
             "en": "Mary",
             "pl": "Maria",
             "arc": "ܡܪܝܡ",
+            "el": "Μαρία",
             "es": "María",
             "fr": "Marie",
             "it": "Maria"
         }
+    },
+    "patrons/maria/aeg": {
+        "names": {
+            "el": "Μαρία η Αιγυπτία",
+            "en": "Mary of Egypt",
+            "la": "Maria Aegyptiaca",
+            "pl": "Maria Egipcjanka"
+        },
+        "died": [
+            "~421"
+        ],
+        "feasts": []
     },
     "patrons/maria/bor": {
         "names": {

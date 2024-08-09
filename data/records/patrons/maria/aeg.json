@@ -1,0 +1,32 @@
+{
+  "names": {
+    "el": [
+      "Μαρία η Αιγυπτία"
+    ],
+    "en": [
+      "Mary of Egypt"
+    ],
+    "la": [
+      "Maria Aegyptiaca"
+    ],
+    "pl": [
+      "Maria Egipcjanka"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Peccatrix",
+      "en": "Sinner",
+      "pl": "Grzesznica"
+    }
+  ],
+
+  "born": ["~344"],
+  "died": ["~421"],
+
+  "also-in-martyrology": ["04-01", "04-02"],
+
+  "forenames": ["maria"],
+  "categories": ["femina", "solitaria"]
+}
