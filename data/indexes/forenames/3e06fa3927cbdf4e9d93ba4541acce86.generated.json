@@ -12,6 +12,12 @@
         ],
         "pl": [
             "Michał"
+        ],
+        "ca": [
+            "Miquel"
+        ],
+        "it": [
+            "Michele"
         ]
     },
     "links": {
@@ -24,6 +30,13 @@
             "pl": "Michał Kozal",
             "en": "Michael Kozal",
             "la": "Michael Kozal"
+        },
+        "records/patrons/michael/san": {
+            "ca": "Miquel dels Sants",
+            "it": "Michele dei Santi",
+            "en": "Michael de Sanctis",
+            "la": "Michael de Sanctis",
+            "pl": "Michał de Santis"
         },
         "records/patrons/michael/sop": {
             "pl": "Michał Sopoćko",

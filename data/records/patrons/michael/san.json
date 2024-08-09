@@ -1,0 +1,43 @@
+{
+  "names": {
+    "ca": [
+      "Miquel dels Sants"
+    ],
+    "it": [
+      "Michele dei Santi",
+      "Miguel Argemír"
+    ],
+    "en": [
+      "Michael de Sanctis",
+      "Miguel Argemír"
+    ],
+    "la": [
+      "Michael de Sanctis",
+      "Miguel Argemír"
+    ],
+    "pl": [
+      "Michał de Santis",
+      "Michał od Świętych",
+      "Miguel Argemír"
+    ]
+  },
+
+  "born": ["1591-09-29"],
+  "died": ["1625-04-10"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1779-05-24"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1862-06-08"
+  },
+
+  "also-in-martyrology": ["04-10"],
+
+  "forenames": ["michael"],
+  "categories": ["vir", "confessor", "presbyter"],
+
+  "order": ["osst"]
+}

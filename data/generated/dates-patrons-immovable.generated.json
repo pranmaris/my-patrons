@@ -1448,6 +1448,19 @@
                 "other-martyrology-days": "10 IV"
             }
         },
+        "records/patrons/michael/san": {
+            "name": {
+                "ca": "Miquel dels Sants",
+                "it": "Michele dei Santi",
+                "en": "Michael de Sanctis",
+                "la": "Michael de Sanctis",
+                "pl": "Michał de Santis"
+            },
+            "sources": {
+                "reliable-death-anniversary": "10 IV",
+                "other-martyrology-days": "10 IV"
+            }
+        },
         "records/patrons/ezechiel/pro": {
             "name": {
                 "he": "יְחֶזְקֵאל",

@@ -4358,7 +4358,9 @@
         "names": {
             "la": "Michael",
             "en": "Michael",
-            "pl": "Michał"
+            "pl": "Michał",
+            "ca": "Miquel",
+            "it": "Michele"
         }
     },
     "patrons/michael/arc": {
@@ -4380,6 +4382,19 @@
         },
         "died": [
             "1943-01-26"
+        ],
+        "feasts": []
+    },
+    "patrons/michael/san": {
+        "names": {
+            "ca": "Miquel dels Sants",
+            "it": "Michele dei Santi",
+            "en": "Michael de Sanctis",
+            "la": "Michael de Sanctis",
+            "pl": "Michał de Santis"
+        },
+        "died": [
+            "1625-04-10"
         ],
         "feasts": []
     },

@@ -268,6 +268,13 @@
             "en": "Methodius /+ Cyril",
             "pl": "Metody /+ Cyryl"
         },
+        "records/patrons/michael/san": {
+            "ca": "Miquel dels Sants",
+            "it": "Michele dei Santi",
+            "en": "Michael de Sanctis",
+            "la": "Michael de Sanctis",
+            "pl": "Michał de Santis"
+        },
         "records/patrons/nicolaus/myr": {
             "el": "Άγιος Νικόλαος",
             "en": "Nicholas of Myra",
