@@ -2256,6 +2256,20 @@
             }
         }
     },
+    "06-24": {
+        "records/patrons/iosephus/yua": {
+            "name": {
+                "zh": "袁在德若瑟",
+                "en": "Joseph John Zaide",
+                "la": "Iosephus Yuan Zaide",
+                "pl": "Józef Yuan Zaide"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 VI",
+                "other-martyrology-days": "24 VI"
+            }
+        }
+    },
     "06-25": {
         "records/patrons/dorothea/mon": {
             "name": {
@@ -2428,6 +2442,17 @@
                 "en": "Augustine Zhao Rong",
                 "la": "Augustinus Zhao Rong",
                 "pl": "Augustyn Zhao Rong"
+            },
+            "sources": {
+                "other-martyrology-days": "9 VII"
+            }
+        },
+        "records/patrons/iosephus/yua": {
+            "name": {
+                "zh": "袁在德若瑟",
+                "en": "Joseph John Zaide",
+                "la": "Iosephus Yuan Zaide",
+                "pl": "Józef Yuan Zaide"
             },
             "sources": {
                 "other-martyrology-days": "9 VII"

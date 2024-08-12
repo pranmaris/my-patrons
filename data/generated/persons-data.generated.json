@@ -3287,7 +3287,8 @@
             "pl": "Józef",
             "fr": "Joseph",
             "it": "Giuseppe",
-            "vi": "Giuse"
+            "vi": "Giuse",
+            "zh": "若瑟"
         }
     },
     "patrons/iosephus/esc": {
@@ -3358,6 +3359,18 @@
         },
         "died": [
             "1713-01-01"
+        ],
+        "feasts": []
+    },
+    "patrons/iosephus/yua": {
+        "names": {
+            "zh": "袁在德若瑟",
+            "en": "Joseph John Zaide",
+            "la": "Iosephus Yuan Zaide",
+            "pl": "Józef Yuan Zaide"
+        },
+        "died": [
+            "1817-06-24"
         ],
         "feasts": []
     },

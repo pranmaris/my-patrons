@@ -1,0 +1,27 @@
+{
+    "names": {
+        "zh": "在德"
+    },
+    "translations": {
+        "la": [
+            "Zaide"
+        ],
+        "en": [
+            "Zaide"
+        ],
+        "pl": [
+            "Zaide"
+        ],
+        "zh": [
+            "在德"
+        ]
+    },
+    "links": {
+        "records/patrons/iosephus/yua": {
+            "zh": "袁在德若瑟",
+            "en": "Joseph John Zaide",
+            "la": "Iosephus Yuan Zaide",
+            "pl": "Józef Yuan Zaide"
+        }
+    }
+}

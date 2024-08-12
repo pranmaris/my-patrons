@@ -1,0 +1,42 @@
+{
+  "names": {
+    "zh": [
+      "袁在德若瑟"
+    ],
+    "en": [
+      "Joseph John Zaide"
+    ],
+    "la": [
+      "Iosephus Yuan Zaide"
+    ],
+    "pl": [
+      "Józef Yuan Zaide"
+    ]
+  },
+
+  "surnames": [
+    {
+      "zh": "袁",
+      "en": "Yuan",
+      "la": "Yuan",
+      "pl": "Yuan"
+    }
+  ],
+
+  "born": ["~1766"],
+  "died": ["1817-06-24"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1900-05-27"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2000-10-01"
+  },
+
+  "also-in-martyrology": ["06-24", "07-09"],
+
+  "forenames": ["iosephus", "zaide"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

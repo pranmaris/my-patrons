@@ -724,6 +724,9 @@
     "51a18c3bc8af11e701cb336f1222adbd": {
         "la": "Franciscus"
     },
+    "52cbb95618683dd7b74e9080524f8bb0": {
+        "zh": "在德"
+    },
     "53432bb0ed38c82f07b6ac80eb35d2e9": {
         "pl": "Karolina"
     },
@@ -1291,8 +1294,16 @@
         "en": "Anna",
         "pl": "Anna"
     },
+    "98ff57635edbfe0fae726cc27c811392": {
+        "la": "Zaide",
+        "en": "Zaide",
+        "pl": "Zaide"
+    },
     "99726419a70604874e762e683c60250b": {
         "en": "Vladimir"
+    },
+    "99b981d8e3d1385b6ec38d2a5c7833c7": {
+        "zh": "若瑟"
     },
     "99fc46a22a2d22706f75c65ca0168042": {
         "la": "Valentinus"
