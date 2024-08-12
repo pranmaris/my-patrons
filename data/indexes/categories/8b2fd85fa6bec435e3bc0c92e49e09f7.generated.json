@@ -49,6 +49,12 @@
             "en": "Maurus Abbot",
             "pl": "Maur Opat"
         },
+        "records/patrons/romualdus/cam": {
+            "it": "Romualdo di Camaldoli",
+            "en": "Romuald of Camaldoli",
+            "la": "Romualdus Camaldulensis",
+            "pl": "Romuald z Camaldoli"
+        },
         "records/patrons/wilfridus/ebo": {
             "en": "Wilfrid of York",
             "la": "Wilfridus Eboracensis",

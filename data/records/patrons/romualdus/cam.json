@@ -1,0 +1,41 @@
+{
+  "names": {
+    "it": [
+      "Romualdo di Camaldoli"
+    ],
+    "en": [
+      "Romuald of Camaldoli"
+    ],
+    "la": [
+      "Romualdus Camaldulensis"
+    ],
+    "pl": [
+      "Romuald z Camaldoli"
+    ]
+  },
+
+  "epithets": [
+    {
+      "it": "Padre dei Monaci Camaldolesi",
+      "en": "Father of the Camaldolese Monks",
+      "la": "Monachorum Camaldulensium Pater",
+      "pl": "Ojciec Mnichów Kamedułów"
+    }
+  ],
+
+  "born": ["~951"],
+  "died": ["1027-06-19"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1595"
+  },
+
+  "also-in-martyrology": ["06-19"],
+
+  "forenames": ["romualdus"],
+  "categories": ["vir", "abbas", "monachus", "eremita", "anachoreta"],
+
+  "order": ["osbcam"],
+  "order-founder": ["osbcam"]
+}

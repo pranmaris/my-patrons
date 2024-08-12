@@ -55,6 +55,12 @@
             "la": "Leonardus Lemovicensis",
             "pl": "Leonard z Limoges"
         },
+        "records/patrons/romualdus/cam": {
+            "it": "Romualdo di Camaldoli",
+            "en": "Romuald of Camaldoli",
+            "la": "Romualdus Camaldulensis",
+            "pl": "Romuald z Camaldoli"
+        },
         "records/patrons/sergius/rad": {
             "ru": "Сергий Радонежский",
             "la": "Sergius de Radonez",

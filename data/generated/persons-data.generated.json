@@ -5235,6 +5235,26 @@
         ],
         "feasts": []
     },
+    "patrons/romualdus": {
+        "names": {
+            "la": "Romualdus",
+            "en": "Romuald",
+            "pl": "Romuald",
+            "it": "Romualdo"
+        }
+    },
+    "patrons/romualdus/cam": {
+        "names": {
+            "it": "Romualdo di Camaldoli",
+            "en": "Romuald of Camaldoli",
+            "la": "Romualdus Camaldulensis",
+            "pl": "Romuald z Camaldoli"
+        },
+        "died": [
+            "1027-06-19"
+        ],
+        "feasts": []
+    },
     "patrons/rosa": {
         "names": {
             "la": "Rosa",

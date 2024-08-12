@@ -1,26 +1,22 @@
 {
     "names": {
-        "la": "anachoreta",
-        "pl": "anachoreta"
+        "la": "Monachorum Camaldulensium Pater"
     },
     "translations": {
-        "la": [
-            "anachoreta"
+        "it": [
+            "Padre dei Monaci Camaldolesi"
         ],
         "en": [
-            "anachorite"
+            "Father of the Camaldolese Monks"
+        ],
+        "la": [
+            "Monachorum Camaldulensium Pater"
         ],
         "pl": [
-            "anachoreta"
+            "Ojciec Mnichów Kamedułów"
         ]
     },
     "links": {
-        "records/patrons/nicolaus/flu": {
-            "de": "Niklaus von Flüe",
-            "en": "Nicholas of Flüe",
-            "la": "Nicolaus de Flue",
-            "pl": "Mikołaj z Flüe"
-        },
         "records/patrons/romualdus/cam": {
             "it": "Romualdo di Camaldoli",
             "en": "Romuald of Camaldoli",

@@ -66,6 +66,12 @@
             "la": "Monachi Abrahamitae",
             "en": "Abrahamic Monks",
             "pl": "Mnisi Abrahamici"
+        },
+        "records/patrons/romualdus/cam": {
+            "it": "Romualdo di Camaldoli",
+            "en": "Romuald of Camaldoli",
+            "la": "Romualdus Camaldulensis",
+            "pl": "Romuald z Camaldoli"
         }
     }
 }

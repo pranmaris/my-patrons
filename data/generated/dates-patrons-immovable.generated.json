@@ -2216,6 +2216,20 @@
             }
         }
     },
+    "06-19": {
+        "records/patrons/romualdus/cam": {
+            "name": {
+                "it": "Romualdo di Camaldoli",
+                "en": "Romuald of Camaldoli",
+                "la": "Romualdus Camaldulensis",
+                "pl": "Romuald z Camaldoli"
+            },
+            "sources": {
+                "reliable-death-anniversary": "19 VI",
+                "other-martyrology-days": "19 VI"
+            }
+        }
+    },
     "06-20": {
         "records/patrons/margarita/ebn": {
             "name": {
