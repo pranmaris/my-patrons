@@ -1,0 +1,39 @@
+{
+  "names": {
+    "lg": [
+      "Kaloli Lwanga"
+    ],
+    "en": [
+      "Charles Lwanga"
+    ],
+    "la": [
+      "Carolus Lwanga"
+    ],
+    "pl": [
+      "Karol Lwanga"
+    ]
+  },
+
+  "surnames": [
+    {
+      "lg": "Lwanga"
+    }
+  ],
+
+  "born": ["~1860", "~1865"],
+  "died": ["1886-06-03"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1920-06-06"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1964-10-18"
+  },
+
+  "also-in-martyrology": ["06-03"],
+
+  "forenames": ["carolus"],
+  "categories": ["vir", "martyr"]
+}

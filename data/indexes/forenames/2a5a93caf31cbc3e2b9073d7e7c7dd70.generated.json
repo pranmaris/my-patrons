@@ -17,6 +17,9 @@
         ],
         "it": [
             "Carlo"
+        ],
+        "lg": [
+            "Kaloli"
         ]
     },
     "links": {
@@ -37,6 +40,12 @@
             "en": "Charles de Foucauld",
             "la": "Carolus de Foucauld",
             "pl": "Karol de Foucauld"
+        },
+        "records/patrons/carolus/lwa": {
+            "lg": "Kaloli Lwanga",
+            "en": "Charles Lwanga",
+            "la": "Carolus Lwanga",
+            "pl": "Karol Lwanga"
         },
         "records/patrons/ioannes/cal": {
             "it": "Giovanni Giuseppe della Croce",

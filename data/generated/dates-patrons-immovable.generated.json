@@ -2064,6 +2064,18 @@
         }
     },
     "06-03": {
+        "records/patrons/carolus/lwa": {
+            "name": {
+                "lg": "Kaloli Lwanga",
+                "en": "Charles Lwanga",
+                "la": "Carolus Lwanga",
+                "pl": "Karol Lwanga"
+            },
+            "sources": {
+                "reliable-death-anniversary": "3 VI",
+                "other-martyrology-days": "3 VI"
+            }
+        },
         "records/patrons/ioannes/23p": {
             "name": {
                 "it": "Giovanni XXIII",

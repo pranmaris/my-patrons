@@ -1386,7 +1386,8 @@
             "en": "Charles",
             "pl": "Karol",
             "fr": "Charles",
-            "it": "Carlo"
+            "it": "Carlo",
+            "lg": "Kaloli"
         }
     },
     "patrons/carolus/acu": {
@@ -1422,6 +1423,18 @@
         },
         "died": [
             "1916-12-01"
+        ],
+        "feasts": []
+    },
+    "patrons/carolus/lwa": {
+        "names": {
+            "lg": "Kaloli Lwanga",
+            "en": "Charles Lwanga",
+            "la": "Carolus Lwanga",
+            "pl": "Karol Lwanga"
+        },
+        "died": [
+            "1886-06-03"
         ],
         "feasts": []
     },

@@ -1,0 +1,18 @@
+{
+    "names": {
+        "lg": "Lwanga"
+    },
+    "translations": {
+        "lg": [
+            "Lwanga"
+        ]
+    },
+    "links": {
+        "records/patrons/carolus/lwa": {
+            "lg": "Kaloli Lwanga",
+            "en": "Charles Lwanga",
+            "la": "Carolus Lwanga",
+            "pl": "Karol Lwanga"
+        }
+    }
+}
