@@ -20,6 +20,12 @@
             "la": "Ezechiel",
             "pl": "Ezechiel"
         },
+        "records/patrons/ieremias/pro": {
+            "he": "ירמיהו",
+            "en": "Jeremiah Prophet",
+            "la": "Ieremias Propheta",
+            "pl": "Jeremiasz Prorok"
+        },
         "records/patrons/ioannes/bap": {
             "he": "יוֹחָנָן",
             "en": "John the Baptist",

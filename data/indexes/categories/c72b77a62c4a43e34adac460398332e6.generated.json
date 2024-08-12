@@ -662,6 +662,12 @@
             "en": "Jarogniew Wojciechowski",
             "la": "Jarognievus Wojciechowski"
         },
+        "records/patrons/ieremias/pro": {
+            "he": "ירמיהו",
+            "en": "Jeremiah Prophet",
+            "la": "Ieremias Propheta",
+            "pl": "Jeremiasz Prorok"
+        },
         "records/patrons/ieremias/val": {
             "ro": "Ieremia Valahul",
             "en": "Jeremiah of Wallachia",

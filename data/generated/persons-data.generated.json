@@ -2799,8 +2799,21 @@
             "la": "Ieremias",
             "en": "Jeremiah",
             "pl": "Jeremiasz",
+            "he": "ירמיהו",
             "ro": "Ieremia"
         }
+    },
+    "patrons/ieremias/pro": {
+        "names": {
+            "he": "ירמיהו",
+            "en": "Jeremiah Prophet",
+            "la": "Ieremias Propheta",
+            "pl": "Jeremiasz Prorok"
+        },
+        "died": [
+            "~-570"
+        ],
+        "feasts": []
     },
     "patrons/ieremias/val": {
         "names": {

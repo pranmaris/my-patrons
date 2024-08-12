@@ -12,11 +12,20 @@
         "pl": [
             "Jeremiasz"
         ],
+        "he": [
+            "ירמיהו"
+        ],
         "ro": [
             "Ieremia"
         ]
     },
     "links": {
+        "records/patrons/ieremias/pro": {
+            "he": "ירמיהו",
+            "en": "Jeremiah Prophet",
+            "la": "Ieremias Propheta",
+            "pl": "Jeremiasz Prorok"
+        },
         "records/patrons/ieremias/val": {
             "ro": "Ieremia Valahul",
             "en": "Jeremiah of Wallachia",

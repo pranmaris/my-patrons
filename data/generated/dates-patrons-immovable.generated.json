@@ -1697,6 +1697,17 @@
                 "reliable-death-anniversary": "1 V",
                 "other-martyrology-days": "1 V"
             }
+        },
+        "records/patrons/ieremias/pro": {
+            "name": {
+                "he": "ירמיהו",
+                "en": "Jeremiah Prophet",
+                "la": "Ieremias Propheta",
+                "pl": "Jeremiasz Prorok"
+            },
+            "sources": {
+                "other-martyrology-days": "1 V"
+            }
         }
     },
     "05-02": {

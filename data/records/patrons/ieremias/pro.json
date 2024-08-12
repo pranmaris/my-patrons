@@ -1,0 +1,24 @@
+{
+  "names": {
+    "he": [
+      "ירמיהו"
+    ],
+    "en": [
+      "Jeremiah Prophet"
+    ],
+    "la": [
+      "Ieremias Propheta"
+    ],
+    "pl": [
+      "Jeremiasz Prorok"
+    ]
+  },
+
+  "born": ["~-650"],
+  "died": ["~-570"],
+
+  "also-in-martyrology": ["05-01"],
+
+  "forenames": ["ieremias"],
+  "categories": ["vir", "martyr", "propheta"]
+}
