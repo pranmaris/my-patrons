@@ -5740,6 +5740,24 @@
         ],
         "feasts": []
     },
+    "patrons/urbanus": {
+        "names": {
+            "la": "Urbanus",
+            "en": "Urban",
+            "pl": "Urban"
+        }
+    },
+    "patrons/urbanus/2pp": {
+        "names": {
+            "la": "Urbanus II",
+            "en": "Urban II",
+            "pl": "Urban II"
+        },
+        "died": [
+            "1099-07-29"
+        ],
+        "feasts": []
+    },
     "patrons/ursula": {
         "names": {
             "la": "Ursula",

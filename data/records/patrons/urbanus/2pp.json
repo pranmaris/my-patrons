@@ -1,0 +1,38 @@
+{
+  "names": {
+    "la": [
+      "Urbanus II"
+    ],
+    "en": [
+      "Urban II"
+    ],
+    "pl": [
+      "Urban II"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Secundus",
+      "en": "the Second",
+      "pl": "Drugi"
+    }
+  ],
+
+  "born": ["~1035"],
+  "died": ["1099-07-29"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1881-07-14"
+  },
+
+  "also-in-martyrology": ["07-29"],
+
+  "forenames": ["urbanus"],
+  "categories": ["vir", "papa"],
+
+  "data-links": {
+    "popes": ["1:#159"]
+  }
+}

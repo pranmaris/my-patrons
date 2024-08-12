@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "Urban",
+        "pl": "Urban"
+    },
+    "translations": {
+        "la": [
+            "Urbanus"
+        ],
+        "en": [
+            "Urban"
+        ],
+        "pl": [
+            "Urban"
+        ]
+    },
+    "links": {
+        "records/patrons/urbanus/2pp": {
+            "la": "Urbanus II",
+            "en": "Urban II",
+            "pl": "Urban II"
+        }
+    }
+}

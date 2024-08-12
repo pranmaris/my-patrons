@@ -19,6 +19,11 @@
             "en": "John Paul II",
             "la": "Ioannes Paulus Pp. II"
         },
+        "records/patrons/urbanus/2pp": {
+            "la": "Urbanus II",
+            "en": "Urban II",
+            "pl": "Urban II"
+        },
         "records/patrons/xystus/2pp": {
             "la": "Xystus Pp. II",
             "en": "Sixtus II",

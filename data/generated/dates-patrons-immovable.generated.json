@@ -2729,6 +2729,17 @@
         }
     },
     "07-29": {
+        "records/patrons/urbanus/2pp": {
+            "name": {
+                "la": "Urbanus II",
+                "en": "Urban II",
+                "pl": "Urban II"
+            },
+            "sources": {
+                "reliable-death-anniversary": "29 VII",
+                "other-martyrology-days": "29 VII"
+            }
+        },
         "records/patrons/martha/laz": {
             "name": {
                 "la": "Martha Bethaniae",
