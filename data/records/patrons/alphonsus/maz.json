@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Alfons Maria Mazurek"
+    ],
+    "en": [
+      "Alphonsus Maria Mazurek"
+    ],
+    "la": [
+      "Alphonsus Maria Mazurek"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Mazurek"
+    }
+  ],
+
+  "born": ["1891-03-01"],
+  "died": ["1944-08-28"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["08-28"],
+
+  "forenames": ["alphonsus", "maria"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

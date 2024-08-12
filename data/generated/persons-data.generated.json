@@ -610,6 +610,17 @@
         ],
         "feasts": []
     },
+    "patrons/alphonsus/maz": {
+        "names": {
+            "pl": "Alfons Maria Mazurek",
+            "en": "Alphonsus Maria Mazurek",
+            "la": "Alphonsus Maria Mazurek"
+        },
+        "died": [
+            "1944-08-28"
+        ],
+        "feasts": []
+    },
     "patrons/ambrosius": {
         "names": {
             "la": "Ambrosius",
