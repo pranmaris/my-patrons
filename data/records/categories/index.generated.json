@@ -199,6 +199,11 @@
         "en": "mother of the household",
         "pl": "matka rodziny"
     },
+    "medicus": {
+        "la": "medicus",
+        "en": "doctor",
+        "pl": "lekarz"
+    },
     "miles": {
         "la": "miles",
         "en": "soldier",

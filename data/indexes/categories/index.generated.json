@@ -77,6 +77,9 @@
     "205123e4c71ab84e641079e6f46b6f45": {
         "pl": "dziewica"
     },
+    "2073faf06e7ad90f8fcea75ea74fdca7": {
+        "la": "medicus"
+    },
     "2077e4a6bafa9b4e7b55e1fff16818af": {
         "en": "prince"
     },
@@ -369,6 +372,9 @@
     "a0ff43c21d3ba8e8cdbea422af35ff14": {
         "en": "solitary"
     },
+    "a149bf7be5cbfad304cdd73afddd1aff": {
+        "pl": "lekarz"
+    },
     "a17b4469efa78ebfd5c187df23280efd": {
         "pl": "książę"
     },
@@ -580,6 +586,9 @@
     },
     "f8119ce5b6b99992ce19cec80d595b95": {
         "la": "apostolus"
+    },
+    "f9f16d97c90d8c6f2cab37bb6d1f1992": {
+        "en": "doctor"
     },
     "fba1e5fa6a6fea145b5f2d9fd555b35c": {
         "pl": "kobieta"

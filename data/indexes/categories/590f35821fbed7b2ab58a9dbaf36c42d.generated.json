@@ -146,6 +146,11 @@
             "la": "Ansgarius",
             "pl": "Oskar"
         },
+        "records/patrons/antiochus/ana": {
+            "la": "Antiochus Anastasiopolitanus",
+            "en": "Antiochus of Anastasiopolis",
+            "pl": "Antioch z Anastasiopolis"
+        },
         "records/patrons/antoninus/apa": {
             "la": "Antoninus de Apamea",
             "en": "Antoninus of Apamea",

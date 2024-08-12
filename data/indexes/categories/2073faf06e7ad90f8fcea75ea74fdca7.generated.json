@@ -1,0 +1,52 @@
+{
+    "names": {
+        "la": "medicus"
+    },
+    "translations": {
+        "la": [
+            "medicus"
+        ],
+        "en": [
+            "doctor"
+        ],
+        "pl": [
+            "lekarz"
+        ]
+    },
+    "links": {
+        "records/patrons/antiochus/ana": {
+            "la": "Antiochus Anastasiopolitanus",
+            "en": "Antiochus of Anastasiopolis",
+            "pl": "Antioch z Anastasiopolis"
+        },
+        "records/patrons/cosmas/dam": {
+            "el": "Κοσμάς /+ Δαμιανός",
+            "en": "Cosmas /+ Damian",
+            "la": "Cosmas /+ Damianus",
+            "pl": "Kosma /+ Damian"
+        },
+        "records/patrons/damianus/cos": {
+            "el": "Δαμιανός /+ Κοσμάς",
+            "en": "Damian /+ Cosmas",
+            "la": "Damianus /+ Cosmas",
+            "pl": "Damian /+ Kosma"
+        },
+        "records/patrons/domninus/cae": {
+            "la": "Domninus Caesariensis",
+            "en": "Domninus of Caesarea",
+            "pl": "Domnin z Cezarei"
+        },
+        "records/patrons/lucas/eva": {
+            "el": "Ευαγγελιστής Λουκάς",
+            "en": "Luke the Evangelist",
+            "la": "Lucas Evangelista",
+            "pl": "Łukasz Ewangelista"
+        },
+        "records/patrons/martinus/por": {
+            "es": "Martín de Porres",
+            "la": "Martinus de Porres",
+            "en": "Martin de Porres",
+            "pl": "Marcin de Porres"
+        }
+    }
+}

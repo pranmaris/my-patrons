@@ -1,0 +1,22 @@
+{
+  "names": {
+    "la": [
+      "Antiochus Anastasiopolitanus"
+    ],
+    "en": [
+      "Antiochus of Anastasiopolis",
+      "Antiochus of Sebaste"
+    ],
+    "pl": [
+      "Antioch z Anastasiopolis",
+      "Antioch z Sebasty"
+    ]
+  },
+
+  "died": [">251", "<350"],
+
+  "also-in-martyrology": ["07-15", "07-16"],
+
+  "forenames": ["antiochus"],
+  "categories": ["vir", "martyr", "medicus"]
+}

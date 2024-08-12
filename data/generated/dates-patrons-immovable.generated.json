@@ -2521,6 +2521,18 @@
             }
         }
     },
+    "07-15": {
+        "records/patrons/antiochus/ana": {
+            "name": {
+                "la": "Antiochus Anastasiopolitanus",
+                "en": "Antiochus of Anastasiopolis",
+                "pl": "Antioch z Anastasiopolis"
+            },
+            "sources": {
+                "other-martyrology-days": "15 VII"
+            }
+        }
+    },
     "07-16": {
         "records/patrons/andreas/sov": {
             "name": {
@@ -2543,6 +2555,16 @@
             },
             "sources": {
                 "reliable-death-anniversary": "16 VII",
+                "other-martyrology-days": "16 VII"
+            }
+        },
+        "records/patrons/antiochus/ana": {
+            "name": {
+                "la": "Antiochus Anastasiopolitanus",
+                "en": "Antiochus of Anastasiopolis",
+                "pl": "Antioch z Anastasiopolis"
+            },
+            "sources": {
                 "other-martyrology-days": "16 VII"
             }
         }

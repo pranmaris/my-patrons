@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Antiochus",
+        "en": "Antiochus"
+    },
+    "translations": {
+        "la": [
+            "Antiochus"
+        ],
+        "en": [
+            "Antiochus"
+        ],
+        "pl": [
+            "Antioch"
+        ]
+    },
+    "links": {
+        "records/patrons/antiochus/ana": {
+            "la": "Antiochus Anastasiopolitanus",
+            "en": "Antiochus of Anastasiopolis",
+            "pl": "Antioch z Anastasiopolis"
+        }
+    }
+}
