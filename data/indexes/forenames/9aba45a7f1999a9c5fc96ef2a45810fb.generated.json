@@ -26,6 +26,11 @@
             "la": "Anna mater Mariae",
             "pl": "Anna matka Maryi"
         },
+        "records/patrons/maria/bie": {
+            "pl": "Maria Anna Biernacka",
+            "en": "Maria Anna Biernacka",
+            "la": "Maria Anna Biernacka"
+        },
         "records/patrons/maria/kuk": {
             "pl": "Maria Rajmunda od Jezusa i Maryi",
             "en": "Mary Raymunda of Jesus and Mary",
