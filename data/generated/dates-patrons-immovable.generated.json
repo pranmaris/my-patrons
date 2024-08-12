@@ -2764,6 +2764,17 @@
         }
     },
     "07-31": {
+        "records/patrons/franciscus/str": {
+            "name": {
+                "pl": "Franciszek Stryjas",
+                "en": "Francis Stryjas",
+                "la": "Franciscus Stryjas"
+            },
+            "sources": {
+                "reliable-death-anniversary": "31 VII",
+                "other-martyrology-days": "31 VII"
+            }
+        },
         "records/patrons/ignatius/loy": {
             "name": {
                 "es": "Ignacio de Loyola",

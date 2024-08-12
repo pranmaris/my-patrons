@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Stryjas"
+    },
+    "translations": {
+        "pl": [
+            "Stryjas"
+        ]
+    },
+    "links": {
+        "records/patrons/franciscus/str": {
+            "pl": "Franciszek Stryjas",
+            "en": "Francis Stryjas",
+            "la": "Franciscus Stryjas"
+        }
+    }
+}

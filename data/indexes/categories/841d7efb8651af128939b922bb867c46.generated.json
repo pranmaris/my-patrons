@@ -264,6 +264,11 @@
             "en": "Franciszek Kęsy",
             "la": "Franciscus Kęsy"
         },
+        "records/patrons/franciscus/str": {
+            "pl": "Franciszek Stryjas",
+            "en": "Francis Stryjas",
+            "la": "Franciscus Stryjas"
+        },
         "records/patrons/georgius/mar": {
             "la": "Georgius",
             "en": "George of Lydda",

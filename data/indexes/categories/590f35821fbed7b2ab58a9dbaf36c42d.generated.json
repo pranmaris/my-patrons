@@ -549,6 +549,11 @@
             "la": "Franciscus de Sales",
             "pl": "Franciszek Salezy"
         },
+        "records/patrons/franciscus/str": {
+            "pl": "Franciszek Stryjas",
+            "en": "Francis Stryjas",
+            "la": "Franciscus Stryjas"
+        },
         "records/patrons/franciscus/xav": {
             "es": "Francisco Javier",
             "en": "Francis Xavier",

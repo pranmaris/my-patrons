@@ -2343,6 +2343,17 @@
         ],
         "feasts": []
     },
+    "patrons/franciscus/str": {
+        "names": {
+            "pl": "Franciszek Stryjas",
+            "en": "Francis Stryjas",
+            "la": "Franciscus Stryjas"
+        },
+        "died": [
+            "1944-07-31"
+        ],
+        "feasts": []
+    },
     "patrons/franciscus/xav": {
         "names": {
             "es": "Francisco Javier",

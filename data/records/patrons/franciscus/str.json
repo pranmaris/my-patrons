@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Franciszek Stryjas"
+    ],
+    "en": [
+      "Francis Stryjas"
+    ],
+    "la": [
+      "Franciscus Stryjas"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Stryjas"
+    }
+  ],
+
+  "born": ["1882-01-26"],
+  "died": ["1944-07-31"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["07-31"],
+
+  "forenames": ["franciscus"],
+  "categories": ["vir", "martyr"]
+}
