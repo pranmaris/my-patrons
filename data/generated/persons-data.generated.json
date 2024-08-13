@@ -2400,7 +2400,8 @@
         "names": {
             "la": "Gabriel",
             "en": "Gabriel",
-            "pl": "Gabriel"
+            "pl": "Gabriel",
+            "fr": "Gabriel"
         }
     },
     "patrons/gabriel/arc": {
@@ -2411,6 +2412,18 @@
         },
         "died": [
             "-"
+        ],
+        "feasts": []
+    },
+    "patrons/gabriel/duf": {
+        "names": {
+            "fr": "Gabriel Taurin Dufresse",
+            "en": "Gabriel Taurin Dufresse",
+            "la": "Gabriel Taurinus Dufresse",
+            "pl": "Gabriel Taurin Dufresse"
+        },
+        "died": [
+            "1815-09-14"
         ],
         "feasts": []
     },

@@ -2447,6 +2447,17 @@
                 "other-martyrology-days": "9 VII"
             }
         },
+        "records/patrons/gabriel/duf": {
+            "name": {
+                "fr": "Gabriel Taurin Dufresse",
+                "en": "Gabriel Taurin Dufresse",
+                "la": "Gabriel Taurinus Dufresse",
+                "pl": "Gabriel Taurin Dufresse"
+            },
+            "sources": {
+                "other-martyrology-days": "9 VII"
+            }
+        },
         "records/patrons/iosephus/yua": {
             "name": {
                 "zh": "袁在德若瑟",
@@ -3643,6 +3654,18 @@
                 "la": "Cyprianus Carthaginensis",
                 "en": "Cyprian of Carthage",
                 "pl": "Cyprian z Kartaginy"
+            },
+            "sources": {
+                "reliable-death-anniversary": "14 IX",
+                "other-martyrology-days": "14 IX"
+            }
+        },
+        "records/patrons/gabriel/duf": {
+            "name": {
+                "fr": "Gabriel Taurin Dufresse",
+                "en": "Gabriel Taurin Dufresse",
+                "la": "Gabriel Taurinus Dufresse",
+                "pl": "Gabriel Taurin Dufresse"
             },
             "sources": {
                 "reliable-death-anniversary": "14 IX",

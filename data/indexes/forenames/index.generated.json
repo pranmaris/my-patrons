@@ -1569,6 +1569,9 @@
     "b661c75cd69e245a2b9f3be5bbcfbe46": {
         "la": "Josephus"
     },
+    "b680a752a018e944e2e82784a7ccc41d": {
+        "la": "Taurinus"
+    },
     "b69eb4ca4b4ae19e8e4f2e3129da7fd3": {
         "en": "Sebastian",
         "pl": "Sebastian"
@@ -1580,7 +1583,13 @@
     "b70e2a0d855b4dc7b1ea34a8a9d10305": {
         "la": "Gabriel",
         "en": "Gabriel",
-        "pl": "Gabriel"
+        "pl": "Gabriel",
+        "fr": "Gabriel"
+    },
+    "b7dcb6de6c575776556d204e5137eced": {
+        "en": "Taurin",
+        "pl": "Taurin",
+        "fr": "Taurin"
     },
     "b7dfd31a1e14a0300f8a16f53d399084": {
         "pl": "Jezus"

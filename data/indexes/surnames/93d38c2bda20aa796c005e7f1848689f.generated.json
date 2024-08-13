@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Dufresse"
+    },
+    "translations": {
+        "fr": [
+            "Dufresse"
+        ]
+    },
+    "links": {
+        "records/patrons/gabriel/duf": {
+            "fr": "Gabriel Taurin Dufresse",
+            "en": "Gabriel Taurin Dufresse",
+            "la": "Gabriel Taurinus Dufresse",
+            "pl": "Gabriel Taurin Dufresse"
+        }
+    }
+}

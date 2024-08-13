@@ -1,30 +1,22 @@
 {
     "names": {
-        "la": "Gabriel",
-        "en": "Gabriel",
-        "pl": "Gabriel",
-        "fr": "Gabriel"
+        "la": "Taurinus"
     },
     "translations": {
         "la": [
-            "Gabriel"
+            "Taurinus"
         ],
         "en": [
-            "Gabriel"
+            "Taurin"
         ],
         "pl": [
-            "Gabriel"
+            "Taurin"
         ],
         "fr": [
-            "Gabriel"
+            "Taurin"
         ]
     },
     "links": {
-        "records/patrons/gabriel/arc": {
-            "la": "Gabriel Archangelus",
-            "en": "Archangel Gabriel",
-            "pl": "Gabriel Archanioł"
-        },
         "records/patrons/gabriel/duf": {
             "fr": "Gabriel Taurin Dufresse",
             "en": "Gabriel Taurin Dufresse",
