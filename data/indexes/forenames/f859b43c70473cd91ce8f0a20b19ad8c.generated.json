@@ -13,10 +13,16 @@
             "Wincenty"
         ],
         "fr": [
-            "Vincent"
+            "Vincenzo"
         ]
     },
     "links": {
+        "records/patrons/vincentius/gro": {
+            "it": "Vincenzo Grossi",
+            "en": "Vincent Grossi",
+            "la": "Vincentius Grossi",
+            "pl": "Wincenty Grossi"
+        },
         "records/patrons/vincentius/pau": {
             "fr": "Vincent de Paul",
             "en": "Vincent de Paul",

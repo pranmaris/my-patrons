@@ -4619,6 +4619,18 @@
         }
     },
     "11-07": {
+        "records/patrons/vincentius/gro": {
+            "name": {
+                "it": "Vincenzo Grossi",
+                "en": "Vincent Grossi",
+                "la": "Vincentius Grossi",
+                "pl": "Wincenty Grossi"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 XI",
+                "other-martyrology-days": "7 XI"
+            }
+        },
         "records/patrons/antonius/bal": {
             "name": {
                 "it": "Antonio Baldinucci",

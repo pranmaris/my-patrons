@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Grossi"
+    },
+    "translations": {
+        "it": [
+            "Grossi"
+        ]
+    },
+    "links": {
+        "records/patrons/vincentius/gro": {
+            "it": "Vincenzo Grossi",
+            "en": "Vincent Grossi",
+            "la": "Vincentius Grossi",
+            "pl": "Wincenty Grossi"
+        }
+    }
+}

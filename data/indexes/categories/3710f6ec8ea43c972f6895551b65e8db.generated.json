@@ -1,19 +1,16 @@
 {
     "names": {
-        "en": "Vincent"
+        "la": "conditor"
     },
     "translations": {
         "la": [
-            "Vincentius"
+            "conditor"
         ],
         "en": [
-            "Vincent"
+            "creator"
         ],
         "pl": [
-            "Wincenty"
-        ],
-        "fr": [
-            "Vincenzo"
+            "założyciel"
         ]
     },
     "links": {
@@ -22,12 +19,6 @@
             "en": "Vincent Grossi",
             "la": "Vincentius Grossi",
             "pl": "Wincenty Grossi"
-        },
-        "records/patrons/vincentius/pau": {
-            "fr": "Vincent de Paul",
-            "en": "Vincent de Paul",
-            "la": "Vincentius a Paulo",
-            "pl": "Wincenty a Paulo"
         }
     }
 }

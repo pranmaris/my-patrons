@@ -5951,8 +5951,20 @@
             "la": "Vincentius",
             "en": "Vincent",
             "pl": "Wincenty",
-            "fr": "Vincent"
+            "fr": "Vincenzo"
         }
+    },
+    "patrons/vincentius/gro": {
+        "names": {
+            "it": "Vincenzo Grossi",
+            "en": "Vincent Grossi",
+            "la": "Vincentius Grossi",
+            "pl": "Wincenty Grossi"
+        },
+        "died": [
+            "1917-11-07"
+        ],
+        "feasts": []
     },
     "patrons/vincentius/pau": {
         "names": {

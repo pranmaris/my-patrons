@@ -1,0 +1,41 @@
+{
+  "names": {
+    "it": [
+      "Vincenzo Grossi"
+    ],
+    "en": [
+      "Vincent Grossi"
+    ],
+    "la": [
+      "Vincentius Grossi"
+    ],
+    "pl": [
+      "Wincenty Grossi"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Grossi"
+    }
+  ],
+
+  "born": ["1845-03-04"],
+  "died": ["1917-11-07"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1975-11-01"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2015-10-18"
+  },
+
+  "also-in-martyrology": ["11-07"],
+
+  "forenames": ["vincentius"],
+  "categories": ["vir", "presbyter", "conditor"],
+
+  "order-founder": ["fdo"]
+}
