@@ -72,6 +72,12 @@
             "en": "Romuald of Camaldoli",
             "la": "Romualdus Camaldulensis",
             "pl": "Romuald z Camaldoli"
+        },
+        "records/patrons/theodorus/gra": {
+            "el": "Θεοδώρος Γράπτος",
+            "en": "Theodore the Graptus",
+            "la": "Theodorus Graptus",
+            "pl": "Teodor Graptus"
         }
     }
 }

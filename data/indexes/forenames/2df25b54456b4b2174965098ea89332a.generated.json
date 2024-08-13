@@ -12,11 +12,20 @@
         "pl": [
             "Teodor"
         ],
+        "el": [
+            "Θεοδώρος"
+        ],
         "uk": [
             "Теодор"
         ]
     },
     "links": {
+        "records/patrons/theodorus/gra": {
+            "el": "Θεοδώρος Γράπτος",
+            "en": "Theodore the Graptus",
+            "la": "Theodorus Graptus",
+            "pl": "Teodor Graptus"
+        },
         "records/patrons/theodorus/rom": {
             "uk": "Теодор Ромжа",
             "en": "Theodore Romzha",

@@ -1,0 +1,33 @@
+{
+  "names": {
+    "el": [
+      "Θεοδώρος Γράπτος"
+    ],
+    "en": [
+      "Theodore the Graptus"
+    ],
+    "la": [
+      "Theodorus Graptus"
+    ],
+    "pl": [
+      "Teodor Graptus"
+    ]
+  },
+
+  "epithets": [
+    {
+      "el": "Γράπτος",
+      "en": "Graptus",
+      "la": "Graptus",
+      "pl": "Graptus"
+    }
+  ],
+
+  "born": ["~775"],
+  "died": ["~841"],
+
+  "also-in-martyrology": ["12-27"],
+
+  "forenames": ["theodorus"],
+  "categories": ["vir", "martyr", "presbyter", "monachus"]
+}

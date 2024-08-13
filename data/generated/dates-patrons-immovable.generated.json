@@ -5263,6 +5263,17 @@
             "sources": {
                 "other-martyrology-days": "27 XII"
             }
+        },
+        "records/patrons/theodorus/gra": {
+            "name": {
+                "el": "Θεοδώρος Γράπτος",
+                "en": "Theodore the Graptus",
+                "la": "Theodorus Graptus",
+                "pl": "Teodor Graptus"
+            },
+            "sources": {
+                "other-martyrology-days": "27 XII"
+            }
         }
     },
     "12-28": {

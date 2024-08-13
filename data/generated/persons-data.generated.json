@@ -5828,8 +5828,21 @@
             "la": "Theodorus",
             "en": "Theodore",
             "pl": "Teodor",
+            "el": "Θεοδώρος",
             "uk": "Теодор"
         }
+    },
+    "patrons/theodorus/gra": {
+        "names": {
+            "el": "Θεοδώρος Γράπτος",
+            "en": "Theodore the Graptus",
+            "la": "Theodorus Graptus",
+            "pl": "Teodor Graptus"
+        },
+        "died": [
+            "~841"
+        ],
+        "feasts": []
     },
     "patrons/theodorus/rom": {
         "names": {

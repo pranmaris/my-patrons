@@ -402,6 +402,12 @@
             "en": "Simon of Lipnica",
             "la": "Simon de Lipnica"
         },
+        "records/patrons/theodorus/gra": {
+            "el": "Θεοδώρος Γράπτος",
+            "en": "Theodore the Graptus",
+            "la": "Theodorus Graptus",
+            "pl": "Teodor Graptus"
+        },
         "records/patrons/valentinus/rom": {
             "en": "Valentine of Rome",
             "la": "Valentinus de Roma",

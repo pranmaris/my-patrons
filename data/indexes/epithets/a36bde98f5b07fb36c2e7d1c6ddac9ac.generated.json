@@ -1,0 +1,29 @@
+{
+    "names": {
+        "en": "Graptus",
+        "la": "Graptus",
+        "pl": "Graptus"
+    },
+    "translations": {
+        "el": [
+            "Γράπτος"
+        ],
+        "en": [
+            "Graptus"
+        ],
+        "la": [
+            "Graptus"
+        ],
+        "pl": [
+            "Graptus"
+        ]
+    },
+    "links": {
+        "records/patrons/theodorus/gra": {
+            "el": "Θεοδώρος Γράπτος",
+            "en": "Theodore the Graptus",
+            "la": "Theodorus Graptus",
+            "pl": "Teodor Graptus"
+        }
+    }
+}
