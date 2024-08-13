@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "Romzha"
+    },
+    "translations": {
+        "uk": [
+            "Ромжа"
+        ],
+        "en": [
+            "Romzha"
+        ],
+        "la": [
+            "Romzsa"
+        ],
+        "pl": [
+            "Romża"
+        ]
+    },
+    "links": {
+        "records/patrons/theodorus/rom": {
+            "uk": "Теодор Ромжа",
+            "en": "Theodore Romzha",
+            "la": "Theodorus Romzsa",
+            "pl": "Teodor Romża"
+        }
+    }
+}

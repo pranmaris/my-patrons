@@ -4463,6 +4463,18 @@
         }
     },
     "11-01": {
+        "records/patrons/theodorus/rom": {
+            "name": {
+                "uk": "Теодор Ромжа",
+                "en": "Theodore Romzha",
+                "la": "Theodorus Romzsa",
+                "pl": "Teodor Romża"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 XI",
+                "other-martyrology-days": "1 XI"
+            }
+        },
         "records/patrons/caesarius/tar": {
             "name": {
                 "it": "Cesario di Terracina",

@@ -11,6 +11,9 @@
         ],
         "pl": [
             "Jerzy"
+        ],
+        "uk": [
+            "Юрій"
         ]
     },
     "links": {
@@ -23,6 +26,12 @@
             "pl": "Jerzy Popiełuszko",
             "la": "Georgius Popiełuszko",
             "en": "George Popiełuszko"
+        },
+        "records/patrons/theodorus/rom": {
+            "uk": "Теодор Ромжа",
+            "en": "Theodore Romzha",
+            "la": "Theodorus Romzsa",
+            "pl": "Teodor Romża"
         }
     }
 }

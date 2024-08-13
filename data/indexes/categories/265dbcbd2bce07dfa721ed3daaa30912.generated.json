@@ -742,6 +742,12 @@
             "en": "Thaddeus Dulny",
             "la": "Thaddaeus Dulny"
         },
+        "records/patrons/theodorus/rom": {
+            "uk": "Теодор Ромжа",
+            "en": "Theodore Romzha",
+            "la": "Theodorus Romzsa",
+            "pl": "Teodor Romża"
+        },
         "records/patrons/thomas/apo": {
             "la": "Thomas Apostolus",
             "en": "Thomas the Apostle",

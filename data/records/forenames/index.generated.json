@@ -582,7 +582,8 @@
     "georgius": {
         "la": "Georgius",
         "en": "George",
-        "pl": "Jerzy"
+        "pl": "Jerzy",
+        "uk": "Юрій"
     },
     "gerardus": {
         "la": "Gerardus",
@@ -1268,6 +1269,12 @@
         "la": "Thaddaeus",
         "en": "Thaddaeus",
         "pl": "Tadeusz"
+    },
+    "theodorus": {
+        "la": "Theodorus",
+        "en": "Theodore",
+        "pl": "Teodor",
+        "uk": "Теодор"
     },
     "thomas": {
         "la": "Thomas",

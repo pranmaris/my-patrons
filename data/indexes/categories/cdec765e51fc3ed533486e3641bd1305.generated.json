@@ -342,6 +342,12 @@
             "en": "Stanislaus of Szczepanów",
             "la": "Stanislaus Cracoviensis"
         },
+        "records/patrons/theodorus/rom": {
+            "uk": "Теодор Ромжа",
+            "en": "Theodore Romzha",
+            "la": "Theodorus Romzsa",
+            "pl": "Teodor Romża"
+        },
         "records/patrons/thomas/bec": {
             "en": "Thomas Becket",
             "la": "Thomas Becket",

@@ -2522,7 +2522,8 @@
         "names": {
             "la": "Georgius",
             "en": "George",
-            "pl": "Jerzy"
+            "pl": "Jerzy",
+            "uk": "Юрій"
         }
     },
     "patrons/georgius/mar": {
@@ -5774,6 +5775,26 @@
         },
         "died": [
             "1942-08-07"
+        ],
+        "feasts": []
+    },
+    "patrons/theodorus": {
+        "names": {
+            "la": "Theodorus",
+            "en": "Theodore",
+            "pl": "Teodor",
+            "uk": "Теодор"
+        }
+    },
+    "patrons/theodorus/rom": {
+        "names": {
+            "uk": "Теодор Ромжа",
+            "en": "Theodore Romzha",
+            "la": "Theodorus Romzsa",
+            "pl": "Teodor Romża"
+        },
+        "died": [
+            "1947-11-01"
         ],
         "feasts": []
     },
