@@ -1,0 +1,40 @@
+{
+  "names": {
+    "ja": [
+      "ミゲル中島"
+    ],
+    "en": [
+      "Michael Nakashima"
+    ],
+    "la": [
+      "Michael Nakashima"
+    ],
+    "pl": [
+      "Michał Nakashima"
+    ]
+  },
+
+  "surnames": [
+    {
+      "ja": "中島",
+      "en": "Nakashima",
+      "la": "Nakashima",
+      "pl": "Nakashima"
+    }
+  ],
+
+  "born": ["1583"],
+  "died": ["1628-12-25"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1867-07-07"
+  },
+
+  "also-in-martyrology": ["12-25"],
+
+  "forenames": ["michael"],
+  "categories": ["vir", "martyr", "religiosus", "catechista"],
+
+  "order": ["sj"]
+}

@@ -16,6 +16,9 @@
         "ca": [
             "Miquel"
         ],
+        "ja": [
+            "ミカル"
+        ],
         "it": [
             "Michele"
         ]
@@ -30,6 +33,12 @@
             "pl": "Michał Kozal",
             "en": "Michael Kozal",
             "la": "Michael Kozal"
+        },
+        "records/patrons/michael/nak": {
+            "ja": "ミゲル中島",
+            "en": "Michael Nakashima",
+            "la": "Michael Nakashima",
+            "pl": "Michał Nakashima"
         },
         "records/patrons/michael/san": {
             "ca": "Miquel dels Sants",

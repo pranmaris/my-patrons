@@ -5184,6 +5184,18 @@
                 "other-martyrology-days": "25 XII"
             }
         },
+        "records/patrons/michael/nak": {
+            "name": {
+                "ja": "ミゲル中島",
+                "en": "Michael Nakashima",
+                "la": "Michael Nakashima",
+                "pl": "Michał Nakashima"
+            },
+            "sources": {
+                "reliable-death-anniversary": "25 XII",
+                "other-martyrology-days": "25 XII"
+            }
+        },
         "records/patrons/anastasia/sir": {
             "name": {
                 "la": "Anastasia Sirmiensis",

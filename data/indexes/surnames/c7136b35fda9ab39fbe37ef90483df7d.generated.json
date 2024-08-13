@@ -1,25 +1,22 @@
 {
     "names": {
-        "pl": "katechista"
+        "ja": "中島"
     },
     "translations": {
-        "la": [
-            "catechista"
+        "ja": [
+            "中島"
         ],
         "en": [
-            "catechist"
+            "Nakashima"
+        ],
+        "la": [
+            "Nakashima"
         ],
         "pl": [
-            "katechista"
+            "Nakashima"
         ]
     },
     "links": {
-        "records/patrons/david/oke": {
-            "sw": "Daudi Okelo",
-            "en": "David Okelo",
-            "la": "David Okelo",
-            "pl": "Dawid Okelo"
-        },
         "records/patrons/michael/nak": {
             "ja": "ミゲル中島",
             "en": "Michael Nakashima",
