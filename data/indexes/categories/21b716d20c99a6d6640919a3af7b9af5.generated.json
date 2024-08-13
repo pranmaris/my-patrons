@@ -46,6 +46,12 @@
             "pl": "Urszula Ledóchowska",
             "en": "Ursula Ledóchowska",
             "la": "Urszula Ledóchowska"
+        },
+        "records/patrons/vincentia/lop": {
+            "es": "Vicenta María López Vicuña",
+            "en": "Vincenta Maria López Vicuña",
+            "la": "Vincentia Maria López Vicuña",
+            "pl": "Wincencja Maria López Vicuña"
         }
     }
 }

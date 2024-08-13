@@ -1,0 +1,42 @@
+{
+  "names": {
+    "es": [
+      "Vicenta María López Vicuña"
+    ],
+    "en": [
+      "Vincenta Maria López Vicuña"
+    ],
+    "la": [
+      "Vincentia Maria López Vicuña"
+    ],
+    "pl": [
+      "Wincencja Maria López Vicuña"
+    ]
+  },
+
+  "surnames": [
+    {
+      "es": "López Vicuña"
+    }
+  ],
+
+  "born": ["1847-03-24"],
+  "died": ["1890-12-26"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1950-02-19"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1975-05-25"
+  },
+
+  "also-in-martyrology": ["12-26"],
+
+  "forenames": ["vincentia", "maria"],
+  "categories": ["femina", "virgo", "fundatrix"],
+
+  "order": ["rmi"],
+  "order-founder": ["rmi"]
+}

@@ -322,6 +322,12 @@
             "en": "Ursula of Cologne",
             "la": "Ursula Coloniensis",
             "pl": "Urszula z Kolonii"
+        },
+        "records/patrons/vincentia/lop": {
+            "es": "Vicenta María López Vicuña",
+            "en": "Vincenta Maria López Vicuña",
+            "la": "Vincentia Maria López Vicuña",
+            "pl": "Wincencja Maria López Vicuña"
         }
     }
 }

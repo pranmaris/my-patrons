@@ -5959,6 +5959,26 @@
         ],
         "feasts": []
     },
+    "patrons/vincentia": {
+        "names": {
+            "la": "Vincentia",
+            "en": "Vincenta",
+            "pl": "Wincencja",
+            "es": "Vicenta"
+        }
+    },
+    "patrons/vincentia/lop": {
+        "names": {
+            "es": "Vicenta María López Vicuña",
+            "en": "Vincenta Maria López Vicuña",
+            "la": "Vincentia Maria López Vicuña",
+            "pl": "Wincencja Maria López Vicuña"
+        },
+        "died": [
+            "1890-12-26"
+        ],
+        "feasts": []
+    },
     "patrons/vincentius": {
         "names": {
             "la": "Vincentius",

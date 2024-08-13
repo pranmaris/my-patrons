@@ -5229,6 +5229,18 @@
                 "other-martyrology-days": "26 XII"
             }
         },
+        "records/patrons/vincentia/lop": {
+            "name": {
+                "es": "Vicenta María López Vicuña",
+                "en": "Vincenta Maria López Vicuña",
+                "la": "Vincentia Maria López Vicuña",
+                "pl": "Wincencja Maria López Vicuña"
+            },
+            "sources": {
+                "reliable-death-anniversary": "26 XII",
+                "other-martyrology-days": "26 XII"
+            }
+        },
         "records/patrons/stephanus/pro": {
             "name": {
                 "el": "Στέφανος",
