@@ -4561,6 +4561,18 @@
         }
     },
     "11-05": {
+        "records/patrons/guido/con": {
+            "name": {
+                "it": "Guido Maria Conforti",
+                "en": "Guido Maria Conforti",
+                "la": "Guido Maria Conforti",
+                "pl": "Gwidon Maria Conforti"
+            },
+            "sources": {
+                "reliable-death-anniversary": "5 XI",
+                "other-martyrology-days": "5 XI"
+            }
+        },
         "records/patrons/domninus/cae": {
             "name": {
                 "la": "Domninus Caesariensis",

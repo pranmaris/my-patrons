@@ -1,0 +1,29 @@
+{
+    "names": {
+        "la": "Guido",
+        "en": "Guido",
+        "it": "Guido"
+    },
+    "translations": {
+        "la": [
+            "Guido"
+        ],
+        "en": [
+            "Guido"
+        ],
+        "pl": [
+            "Gwidon"
+        ],
+        "it": [
+            "Guido"
+        ]
+    },
+    "links": {
+        "records/patrons/guido/con": {
+            "it": "Guido Maria Conforti",
+            "en": "Guido Maria Conforti",
+            "la": "Guido Maria Conforti",
+            "pl": "Gwidon Maria Conforti"
+        }
+    }
+}

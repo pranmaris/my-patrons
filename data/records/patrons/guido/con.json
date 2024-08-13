@@ -1,0 +1,42 @@
+{
+  "names": {
+    "it": [
+      "Guido Maria Conforti"
+    ],
+    "en": [
+      "Guido Maria Conforti"
+    ],
+    "la": [
+      "Guido Maria Conforti"
+    ],
+    "pl": [
+      "Gwidon Maria Conforti"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Conforti"
+    }
+  ],
+
+  "born": ["1865-03-30"],
+  "died": ["1931-11-05"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1996-03-17"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2011-10-23"
+  },
+
+  "also-in-martyrology": ["11-05"],
+
+  "forenames": ["guido", "maria"],
+  "categories": ["vir", "episcopus", "fundator"],
+
+  "order": ["sx"],
+  "order-founder": ["sx"]
+}

@@ -2613,6 +2613,26 @@
         ],
         "feasts": []
     },
+    "patrons/guido": {
+        "names": {
+            "la": "Guido",
+            "en": "Guido",
+            "pl": "Gwidon",
+            "it": "Guido"
+        }
+    },
+    "patrons/guido/con": {
+        "names": {
+            "it": "Guido Maria Conforti",
+            "en": "Guido Maria Conforti",
+            "la": "Guido Maria Conforti",
+            "pl": "Gwidon Maria Conforti"
+        },
+        "died": [
+            "1931-11-05"
+        ],
+        "feasts": []
+    },
     "patrons/gunthramnus": {
         "names": {
             "la": "Gunthramnus",

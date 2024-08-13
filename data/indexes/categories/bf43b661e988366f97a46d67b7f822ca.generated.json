@@ -192,6 +192,12 @@
             "la": "Gregorius Nyssenus",
             "pl": "Grzegorz z Nyssy"
         },
+        "records/patrons/guido/con": {
+            "it": "Guido Maria Conforti",
+            "en": "Guido Maria Conforti",
+            "la": "Guido Maria Conforti",
+            "pl": "Gwidon Maria Conforti"
+        },
         "records/patrons/iacobus/min": {
             "la": "Iacobus Minor Apostolus",
             "en": "James the Less Apostle",
