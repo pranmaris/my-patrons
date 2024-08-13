@@ -632,6 +632,12 @@
             "la": "Gunthramnus",
             "pl": "Guntram"
         },
+        "records/patrons/henricus/mor": {
+            "es": "Enrique Morant Pellicer",
+            "en": "Henry Morant Pellicer",
+            "la": "Henricus Morant Pellicer",
+            "pl": "Henryk Morant Pellicer"
+        },
         "records/patrons/hieronymus/dal": {
             "la": "Hieronymus Stridonensis",
             "en": "Jerome of Stridon",

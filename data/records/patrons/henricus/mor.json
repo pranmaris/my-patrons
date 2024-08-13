@@ -1,0 +1,35 @@
+{
+  "names": {
+    "es": [
+      "Enrique Morant Pellicer"
+    ],
+    "en": [
+      "Henry Morant Pellicer"
+    ],
+    "la": [
+      "Henricus Morant Pellicer"
+    ],
+    "pl": [
+      "Henryk Morant Pellicer"
+    ]
+  },
+
+  "surnames": [
+    {
+      "es": "Morant Pellicer"
+    }
+  ],
+
+  "born": ["1908-10-13"],
+  "died": ["1936-10-04"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2001-03-11"
+  },
+
+  "also-in-martyrology": ["10-04"],
+
+  "forenames": ["henricus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

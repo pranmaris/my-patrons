@@ -2666,6 +2666,26 @@
         ],
         "feasts": []
     },
+    "patrons/henricus": {
+        "names": {
+            "la": "Henricus",
+            "en": "Henry",
+            "pl": "Henryk",
+            "es": "Enrique"
+        }
+    },
+    "patrons/henricus/mor": {
+        "names": {
+            "es": "Enrique Morant Pellicer",
+            "en": "Henry Morant Pellicer",
+            "la": "Henricus Morant Pellicer",
+            "pl": "Henryk Morant Pellicer"
+        },
+        "died": [
+            "1936-10-04"
+        ],
+        "feasts": []
+    },
     "patrons/hieronymus": {
         "names": {
             "la": "Hieronymus",

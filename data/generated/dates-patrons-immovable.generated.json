@@ -4012,6 +4012,18 @@
         }
     },
     "10-04": {
+        "records/patrons/henricus/mor": {
+            "name": {
+                "es": "Enrique Morant Pellicer",
+                "en": "Henry Morant Pellicer",
+                "la": "Henricus Morant Pellicer",
+                "pl": "Henryk Morant Pellicer"
+            },
+            "sources": {
+                "reliable-death-anniversary": "4 X",
+                "other-martyrology-days": "4 X"
+            }
+        },
         "records/patrons/franciscus/asi": {
             "name": {
                 "it": "Francesco d'Assisi",
