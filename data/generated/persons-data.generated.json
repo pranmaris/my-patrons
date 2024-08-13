@@ -3930,6 +3930,18 @@
         ],
         "feasts": []
     },
+    "patrons/margarita/lot": {
+        "names": {
+            "fr": "Marguerite de Lorraine-Vaudémont",
+            "en": "Margaret of Lorraine",
+            "la": "Margarita de Lotharingia",
+            "pl": "Małgorzata z Lotaryngii"
+        },
+        "died": [
+            "1521-11-02"
+        ],
+        "feasts": []
+    },
     "patrons/margarita/sze": {
         "names": {
             "pl": "Małgorzata Łucja Szewczyk",

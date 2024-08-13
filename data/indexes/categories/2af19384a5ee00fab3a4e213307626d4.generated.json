@@ -44,6 +44,12 @@
             "la": "Ioanna de Lestonnac",
             "pl": "Joanna de Lestonnac"
         },
+        "records/patrons/margarita/lot": {
+            "fr": "Marguerite de Lorraine-Vaudémont",
+            "en": "Margaret of Lorraine",
+            "la": "Margarita de Lotharingia",
+            "pl": "Małgorzata z Lotaryngii"
+        },
         "records/patrons/monica/vid": {
             "la": "Monica Thagastensis",
             "en": "Monica of Tagasta",

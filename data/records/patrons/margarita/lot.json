@@ -1,0 +1,32 @@
+{
+  "names": {
+    "fr": [
+      "Marguerite de Lorraine-Vaudémont"
+    ],
+    "en": [
+      "Margaret of Lorraine"
+    ],
+    "la": [
+      "Margarita de Lotharingia"
+    ],
+    "pl": [
+      "Małgorzata z Lotaryngii",
+      "Małgorzata Lotaryńska"
+    ]
+  },
+
+  "born": ["1463"],
+  "died": ["1521-11-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1921-03-10"
+  },
+
+  "also-in-martyrology": ["11-02"],
+
+  "forenames": ["margarita"],
+  "categories": ["femina", "vidua", "religiosa", "ducissa"],
+
+  "order": ["osc"]
+}
