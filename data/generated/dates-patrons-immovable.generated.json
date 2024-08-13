@@ -3722,6 +3722,17 @@
         }
     },
     "09-18": {
+        "records/patrons/iosephus/kut": {
+            "name": {
+                "pl": "Józef Kut",
+                "en": "Joseph Kut",
+                "la": "Iosephus Kut"
+            },
+            "sources": {
+                "reliable-death-anniversary": "18 IX",
+                "other-martyrology-days": "18 IX"
+            }
+        },
         "records/patrons/david/oke": {
             "name": {
                 "sw": "Daudi Okelo",

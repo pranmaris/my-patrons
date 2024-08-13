@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Kut"
+    },
+    "translations": {
+        "pl": [
+            "Kut"
+        ]
+    },
+    "links": {
+        "records/patrons/iosephus/kut": {
+            "pl": "Józef Kut",
+            "en": "Joseph Kut",
+            "la": "Iosephus Kut"
+        }
+    }
+}

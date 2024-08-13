@@ -3369,6 +3369,17 @@
         ],
         "feasts": []
     },
+    "patrons/iosephus/kut": {
+        "names": {
+            "pl": "Józef Kut",
+            "en": "Joseph Kut",
+            "la": "Iosephus Kut"
+        },
+        "died": [
+            "1942-09-18"
+        ],
+        "feasts": []
+    },
     "patrons/iosephus/mor": {
         "names": {
             "fr": "Joseph Moreau",

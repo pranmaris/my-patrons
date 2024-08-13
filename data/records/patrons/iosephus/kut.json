@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Józef Kut"
+    ],
+    "en": [
+      "Joseph Kut"
+    ],
+    "la": [
+      "Iosephus Kut"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Kut"
+    }
+  ],
+
+  "born": ["1905-01-21"],
+  "died": ["1942-09-18"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["09-18"],
+
+  "forenames": ["iosephus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}
