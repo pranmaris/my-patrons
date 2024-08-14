@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Modestus",
+        "en": "Modestus"
+    },
+    "translations": {
+        "la": [
+            "Modestus"
+        ],
+        "en": [
+            "Modestus"
+        ],
+        "pl": [
+            "Modest"
+        ]
+    },
+    "links": {
+        "records/patrons/modestus/tre": {
+            "de": "Modestus von Trier",
+            "en": "Modestus of Trier",
+            "la": "Modestus Trevirensis",
+            "pl": "Modest z Trewiru"
+        }
+    }
+}

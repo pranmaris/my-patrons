@@ -774,6 +774,19 @@
             }
         }
     },
+    "02-24": {
+        "records/patrons/modestus/tre": {
+            "name": {
+                "de": "Modestus von Trier",
+                "en": "Modestus of Trier",
+                "la": "Modestus Trevirensis",
+                "pl": "Modest z Trewiru"
+            },
+            "sources": {
+                "other-martyrology-days": "24 II"
+            }
+        }
+    },
     "02-26": {
         "records/patrons/agricola/niv": {
             "name": {
@@ -821,6 +834,17 @@
             "sources": {
                 "other-martyrology-days": "25 II"
             }
+        },
+        "records/patrons/modestus/tre": {
+            "name": {
+                "de": "Modestus von Trier",
+                "en": "Modestus of Trier",
+                "la": "Modestus Trevirensis",
+                "pl": "Modest z Trewiru"
+            },
+            "sources": {
+                "other-martyrology-days": "25 II"
+            }
         }
     },
     "02b28": {
@@ -853,6 +877,17 @@
                 "en": "Matthias the Apostle",
                 "la": "Matthias Apostolus",
                 "pl": "Maciej Apostoł"
+            },
+            "sources": {
+                "other-martyrology-days": "24 II"
+            }
+        },
+        "records/patrons/modestus/tre": {
+            "name": {
+                "de": "Modestus von Trier",
+                "en": "Modestus of Trier",
+                "la": "Modestus Trevirensis",
+                "pl": "Modest z Trewiru"
             },
             "sources": {
                 "other-martyrology-days": "24 II"

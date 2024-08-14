@@ -1037,6 +1037,12 @@
             "en": "Michael Sopocko",
             "la": "Michael Sopocko"
         },
+        "records/patrons/modestus/tre": {
+            "de": "Modestus von Trier",
+            "en": "Modestus of Trier",
+            "la": "Modestus Trevirensis",
+            "pl": "Modest z Trewiru"
+        },
         "records/patrons/multi/abr": {
             "la": "Monachi Abrahamitae",
             "en": "Abrahamic Monks",

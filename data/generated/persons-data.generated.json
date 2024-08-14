@@ -4668,6 +4668,25 @@
         ],
         "feasts": []
     },
+    "patrons/modestus": {
+        "names": {
+            "la": "Modestus",
+            "en": "Modestus",
+            "pl": "Modest"
+        }
+    },
+    "patrons/modestus/tre": {
+        "names": {
+            "de": "Modestus von Trier",
+            "en": "Modestus of Trier",
+            "la": "Modestus Trevirensis",
+            "pl": "Modest z Trewiru"
+        },
+        "died": [
+            "~480"
+        ],
+        "feasts": []
+    },
     "patrons/monica": {
         "names": {
             "la": "Monica",
