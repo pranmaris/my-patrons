@@ -1,0 +1,17 @@
+{
+    "names": {
+        "en": "Ogilvie"
+    },
+    "translations": {
+        "en": [
+            "Ogilvie"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/ogi": {
+            "en": "John Ogilvie",
+            "la": "Ioannes Ogilvie",
+            "pl": "Jan Ogilvie"
+        }
+    }
+}

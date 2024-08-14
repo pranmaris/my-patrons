@@ -1,0 +1,38 @@
+{
+  "names": {
+    "en": [
+      "John Ogilvie"
+    ],
+    "la": [
+      "Ioannes Ogilvie"
+    ],
+    "pl": [
+      "Jan Ogilvie"
+    ]
+  },
+
+  "surnames": [
+    {
+      "en": "Ogilvie"
+    }
+  ],
+
+  "born": ["1579"],
+  "died": ["1615-03-10"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1929-11-22"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1976-10-17"
+  },
+
+  "also-in-martyrology": ["03-10"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "martyr", "sacerdos", "presbyter"],
+
+  "order": ["sj"]
+}

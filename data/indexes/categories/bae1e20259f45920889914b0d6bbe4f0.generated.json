@@ -96,6 +96,11 @@
             "en": "John of Capistrano",
             "pl": "Jan Kapistran"
         },
+        "records/patrons/ioannes/ogi": {
+            "en": "John Ogilvie",
+            "la": "Ioannes Ogilvie",
+            "pl": "Jan Ogilvie"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",

@@ -262,6 +262,11 @@
             "en": "John Cantius",
             "la": "Ioannes Cantius"
         },
+        "records/patrons/ioannes/ogi": {
+            "en": "John Ogilvie",
+            "la": "Ioannes Ogilvie",
+            "pl": "Jan Ogilvie"
+        },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",
             "en": "John Mary Vianney",

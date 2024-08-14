@@ -3277,6 +3277,17 @@
         ],
         "feasts": []
     },
+    "patrons/ioannes/ogi": {
+        "names": {
+            "en": "John Ogilvie",
+            "la": "Ioannes Ogilvie",
+            "pl": "Jan Ogilvie"
+        },
+        "died": [
+            "1615-03-10"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/p1p": {
         "names": {
             "it": "Giovanni Paolo I",

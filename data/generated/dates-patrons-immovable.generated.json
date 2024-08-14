@@ -1058,6 +1058,19 @@
             }
         }
     },
+    "03-10": {
+        "records/patrons/ioannes/ogi": {
+            "name": {
+                "en": "John Ogilvie",
+                "la": "Ioannes Ogilvie",
+                "pl": "Jan Ogilvie"
+            },
+            "sources": {
+                "reliable-death-anniversary": "10 III",
+                "other-martyrology-days": "10 III"
+            }
+        }
+    },
     "03-11": {
         "records/patrons/eulogius/cor": {
             "name": {

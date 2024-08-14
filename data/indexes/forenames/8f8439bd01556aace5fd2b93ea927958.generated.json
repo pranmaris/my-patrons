@@ -89,6 +89,11 @@
             "en": "John Cantius",
             "la": "Ioannes Cantius"
         },
+        "records/patrons/ioannes/ogi": {
+            "en": "John Ogilvie",
+            "la": "Ioannes Ogilvie",
+            "pl": "Jan Ogilvie"
+        },
         "records/patrons/ioannes/p1p": {
             "it": "Giovanni Paolo I",
             "la": "Ioannes Paulus Pp. I",
