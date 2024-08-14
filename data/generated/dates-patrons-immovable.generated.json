@@ -1148,6 +1148,18 @@
         }
     },
     "03-17": {
+        "records/patrons/ioannes/sar": {
+            "name": {
+                "cs": "Jan Sarkander",
+                "en": "John Sarkander",
+                "la": "Ioannes Sarkander",
+                "pl": "Jan Sarkander"
+            },
+            "sources": {
+                "reliable-death-anniversary": "17 III",
+                "other-martyrology-days": "17 III"
+            }
+        },
         "records/patrons/patricius/hib": {
             "name": {
                 "ga": "Naomh Pádraig",

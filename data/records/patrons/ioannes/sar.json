@@ -1,0 +1,39 @@
+{
+  "names": {
+    "cs": [
+      "Jan Sarkander"
+    ],
+    "en": [
+      "John Sarkander"
+    ],
+    "la": [
+      "Ioannes Sarkander"
+    ],
+    "pl": [
+      "Jan Sarkander"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Sarkander"
+    }
+  ],
+
+  "born": ["1576-12-20"],
+  "died": ["1620-03-17"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1860-05-06"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1995-05-21"
+  },
+
+  "also-in-martyrology": ["03-17"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

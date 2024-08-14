@@ -1,0 +1,18 @@
+{
+    "names": {
+        "pl": "Sarkander"
+    },
+    "translations": {
+        "pl": [
+            "Sarkander"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/sar": {
+            "cs": "Jan Sarkander",
+            "en": "John Sarkander",
+            "la": "Ioannes Sarkander",
+            "pl": "Jan Sarkander"
+        }
+    }
+}

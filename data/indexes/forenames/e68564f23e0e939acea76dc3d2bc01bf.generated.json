@@ -1,6 +1,7 @@
 {
     "names": {
-        "pl": "Jan"
+        "pl": "Jan",
+        "cs": "Jan"
     },
     "translations": {
         "la": [
@@ -11,6 +12,9 @@
             "John"
         ],
         "pl": [
+            "Jan"
+        ],
+        "cs": [
             "Jan"
         ],
         "de": [
@@ -110,6 +114,12 @@
             "en": "John de Ribera",
             "la": "Ioannes de Ribera",
             "pl": "Jan de Ribera"
+        },
+        "records/patrons/ioannes/sar": {
+            "cs": "Jan Sarkander",
+            "en": "John Sarkander",
+            "la": "Ioannes Sarkander",
+            "pl": "Jan Sarkander"
         },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",
