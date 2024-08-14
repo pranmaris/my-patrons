@@ -93,6 +93,11 @@
             "la": "Basilius Magnus",
             "pl": "Bazyli Wielki"
         },
+        "records/patrons/blasius/seb": {
+            "la": "Blasius de Sebaste",
+            "en": "Blaise of Sebaste",
+            "pl": "Błażej z Sebasty"
+        },
         "records/patrons/bogumilus/dob": {
             "pl": "Bogumił z Dobrowa",
             "la": "Bogumilus Dobrovensis",

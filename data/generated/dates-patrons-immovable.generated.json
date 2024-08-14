@@ -488,6 +488,16 @@
                 "reliable-death-anniversary": "3 II",
                 "other-martyrology-days": "3 II"
             }
+        },
+        "records/patrons/blasius/seb": {
+            "name": {
+                "la": "Blasius de Sebaste",
+                "en": "Blaise of Sebaste",
+                "pl": "Błażej z Sebasty"
+            },
+            "sources": {
+                "other-martyrology-days": "3 II"
+            }
         }
     },
     "02-04": {

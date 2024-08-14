@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Błażej"
+    },
+    "translations": {
+        "la": [
+            "Blasius"
+        ],
+        "en": [
+            "Blaise"
+        ],
+        "pl": [
+            "Błażej"
+        ]
+    },
+    "links": {
+        "records/patrons/blasius/seb": {
+            "la": "Blasius de Sebaste",
+            "en": "Blaise of Sebaste",
+            "pl": "Błażej z Sebasty"
+        }
+    }
+}
