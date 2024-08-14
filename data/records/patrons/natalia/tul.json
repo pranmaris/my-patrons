@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Natalia Tułasiewicz"
+    ],
+    "en": [
+      "Natalie Tułasiewicz"
+    ],
+    "la": [
+      "Natalia Tułasiewicz"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Tułasiewicz"
+    }
+  ],
+
+  "born": ["1906-04-09"],
+  "died": ["1945-03-31"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["03-31"],
+
+  "forenames": ["natalia"],
+  "categories": ["femina", "martyrix"]
+}

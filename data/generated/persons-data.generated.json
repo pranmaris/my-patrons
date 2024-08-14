@@ -4848,6 +4848,24 @@
         ],
         "feasts": []
     },
+    "patrons/natalia": {
+        "names": {
+            "la": "Natalia",
+            "en": "Natalie",
+            "pl": "Natalia"
+        }
+    },
+    "patrons/natalia/tul": {
+        "names": {
+            "pl": "Natalia Tułasiewicz",
+            "en": "Natalie Tułasiewicz",
+            "la": "Natalia Tułasiewicz"
+        },
+        "died": [
+            "1945-03-31"
+        ],
+        "feasts": []
+    },
     "patrons/nicolaus": {
         "names": {
             "la": "Nicolaus",

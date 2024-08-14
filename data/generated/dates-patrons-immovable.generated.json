@@ -1406,6 +1406,19 @@
             }
         }
     },
+    "03-31": {
+        "records/patrons/natalia/tul": {
+            "name": {
+                "pl": "Natalia Tułasiewicz",
+                "en": "Natalie Tułasiewicz",
+                "la": "Natalia Tułasiewicz"
+            },
+            "sources": {
+                "reliable-death-anniversary": "31 III",
+                "other-martyrology-days": "31 III"
+            }
+        }
+    },
     "04-01": {
         "records/patrons/sophia/mac": {
             "name": {
