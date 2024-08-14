@@ -4119,6 +4119,17 @@
         ],
         "feasts": []
     },
+    "patrons/maria/kar": {
+        "names": {
+            "pl": "Maria Karłowska",
+            "en": "Maria Karłowska",
+            "la": "Maria Karlowska"
+        },
+        "died": [
+            "1935-03-24"
+        ],
+        "feasts": []
+    },
     "patrons/maria/kas": {
         "names": {
             "de": "Maria Katharina Kasper",

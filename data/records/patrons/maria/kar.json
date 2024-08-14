@@ -1,0 +1,36 @@
+{
+  "names": {
+    "pl": [
+      "Maria Karłowska"
+    ],
+    "en": [
+      "Maria Karłowska"
+    ],
+    "la": [
+      "Maria Karlowska"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Karłowska",
+      "la": "Karlowska"
+    }
+  ],
+
+  "born": ["1865-09-04"],
+  "died": ["1935-03-24"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1997-06-06"
+  },
+
+  "also-in-martyrology": ["03-24"],
+
+  "forenames": ["maria"],
+  "categories": ["femina", "virgo", "institutrix"],
+
+  "order": ["csdp"],
+  "order-founder": ["csdp"]
+}

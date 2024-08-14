@@ -1,0 +1,20 @@
+{
+    "names": {
+        "la": "Karlowska"
+    },
+    "translations": {
+        "pl": [
+            "Karłowska"
+        ],
+        "la": [
+            "Karlowska"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/kar": {
+            "pl": "Maria Karłowska",
+            "en": "Maria Karłowska",
+            "la": "Maria Karlowska"
+        }
+    }
+}

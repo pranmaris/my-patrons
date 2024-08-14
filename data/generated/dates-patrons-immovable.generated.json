@@ -1284,6 +1284,17 @@
         }
     },
     "03-24": {
+        "records/patrons/maria/kar": {
+            "name": {
+                "pl": "Maria Karłowska",
+                "en": "Maria Karłowska",
+                "la": "Maria Karlowska"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 III",
+                "other-martyrology-days": "24 III"
+            }
+        },
         "records/patrons/gabriel/arc": {
             "name": {
                 "la": "Gabriel Archangelus",
