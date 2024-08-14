@@ -1223,6 +1223,18 @@
                 "other-martyrology-days": "20 III"
             }
         },
+        "records/patrons/ioannes/nep": {
+            "name": {
+                "cs": "Jan Nepomucký",
+                "en": "John of Nepomuk",
+                "la": "Ioannes Nepomucenus",
+                "pl": "Jan Nepomucen"
+            },
+            "sources": {
+                "reliable-death-anniversary": "20 III",
+                "other-martyrology-days": "20 III"
+            }
+        },
         "records/patrons/ioachim/mar": {
             "name": {
                 "he": "יהוֹיָקִים",
@@ -2002,6 +2014,17 @@
             },
             "sources": {
                 "reliable-death-anniversary": "16 V",
+                "other-martyrology-days": "16 V"
+            }
+        },
+        "records/patrons/ioannes/nep": {
+            "name": {
+                "cs": "Jan Nepomucký",
+                "en": "John of Nepomuk",
+                "la": "Ioannes Nepomucenus",
+                "pl": "Jan Nepomucen"
+            },
+            "sources": {
                 "other-martyrology-days": "16 V"
             }
         }

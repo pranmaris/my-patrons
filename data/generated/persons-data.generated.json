@@ -3278,6 +3278,18 @@
         ],
         "feasts": []
     },
+    "patrons/ioannes/nep": {
+        "names": {
+            "cs": "Jan Nepomucký",
+            "en": "John of Nepomuk",
+            "la": "Ioannes Nepomucenus",
+            "pl": "Jan Nepomucen"
+        },
+        "died": [
+            "1393-03-20"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/ogi": {
         "names": {
             "en": "John Ogilvie",

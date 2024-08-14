@@ -1,0 +1,42 @@
+{
+  "names": {
+    "cs": [
+      "Jan Nepomucký"
+    ],
+    "en": [
+      "John of Nepomuk"
+    ],
+    "la": [
+      "Ioannes Nepomucenus"
+    ],
+    "pl": [
+      "Jan Nepomucen"
+    ]
+  },
+
+  "epithets": [
+    {
+      "cs": "Nepomucký",
+      "en": "Nepomucene",
+      "la": "Nepomucenus",
+      "pl": "Nepomucen"
+    }
+  ],
+
+  "born": [">1340", "<1346"],
+  "died": ["1393-03-20"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1721-05-31"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1729-03-19"
+  },
+
+  "also-in-martyrology": ["03-20", "05-16"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "martyr", "canonicus", "presbyter"]
+}

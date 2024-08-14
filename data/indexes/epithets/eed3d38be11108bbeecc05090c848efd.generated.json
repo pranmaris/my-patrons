@@ -1,25 +1,22 @@
 {
     "names": {
-        "la": "canonicus"
+        "cs": "Nepomucký"
     },
     "translations": {
-        "la": [
-            "canonicus"
+        "cs": [
+            "Nepomucký"
         ],
         "en": [
-            "canon"
+            "Nepomucene"
+        ],
+        "la": [
+            "Nepomucenus"
         ],
         "pl": [
-            "kanonik"
+            "Nepomucen"
         ]
     },
     "links": {
-        "records/patrons/dominicus/oxo": {
-            "es": "Domingo de Osma",
-            "en": "Dominic of Osma",
-            "la": "Dominicus Oxomensis",
-            "pl": "Dominik Guzmán"
-        },
         "records/patrons/ioannes/nep": {
             "cs": "Jan Nepomucký",
             "en": "John of Nepomuk",
