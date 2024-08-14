@@ -1,0 +1,39 @@
+{
+  "names": {
+    "uk": [
+      "Омелян Ковч"
+    ],
+    "pl": [
+      "Emilian Kowcz"
+    ],
+    "en": [
+      "Emilian Kovch"
+    ],
+    "la": [
+      "Aemilianus Kovc",
+      "Aemilianus Kovč"
+    ]
+  },
+
+  "surnames": [
+    {
+      "uk": "Ковч",
+      "pl": "Kowcz",
+      "en": "Kovch",
+      "la": ["Kovc", "Kovč"]
+    }
+  ],
+
+  "born": ["1884-08-20"],
+  "died": ["1944-03-25"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2001-06-27"
+  },
+
+  "also-in-martyrology": ["03-25"],
+
+  "forenames": ["aemilianus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

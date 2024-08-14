@@ -436,6 +436,10 @@
     "2d288bd1b79e4444a413ec6986369d06": {
         "pl": "Franciszka"
     },
+    "2d61dc88eb44b456ab95d9bd7e5041ab": {
+        "en": "Emilian",
+        "pl": "Emilian"
+    },
     "2d647ce96d7705f6381fa0882bc8c5ee": {
         "la": "Ioannes Baptista"
     },
@@ -1417,6 +1421,9 @@
     "a0c1b6bf7d3d9f6c2ce001dfeaa26fa8": {
         "de": "Johannes"
     },
+    "a1d1357acada2cd2d048346162a882e3": {
+        "uk": "Омелян"
+    },
     "a22aa220322d1516c3efca1e26531430": {
         "la": "Georgius"
     },
@@ -2160,6 +2167,9 @@
         "la": "Rong",
         "en": "Rong",
         "pl": "Rong"
+    },
+    "f1443756b36782e5d05ddcbfcb065e66": {
+        "la": "Aemilianus"
     },
     "f14c99c772834c3c6148f9b6bf4c5d37": {
         "la": "Gunthramnus"

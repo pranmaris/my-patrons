@@ -1307,6 +1307,18 @@
         }
     },
     "03-25": {
+        "records/patrons/aemilianus/kov": {
+            "name": {
+                "uk": "Омелян Ковч",
+                "pl": "Emilian Kowcz",
+                "en": "Emilian Kovch",
+                "la": "Aemilianus Kovc"
+            },
+            "sources": {
+                "reliable-death-anniversary": "25 III",
+                "other-martyrology-days": "25 III"
+            }
+        },
         "records/patrons/hilarius/jan": {
             "name": {
                 "pl": "Hilary Januszewski",

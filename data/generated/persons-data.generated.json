@@ -399,6 +399,26 @@
         ],
         "feasts": []
     },
+    "patrons/aemilianus": {
+        "names": {
+            "la": "Aemilianus",
+            "en": "Emilian",
+            "pl": "Emilian",
+            "uk": "Омелян"
+        }
+    },
+    "patrons/aemilianus/kov": {
+        "names": {
+            "uk": "Омелян Ковч",
+            "pl": "Emilian Kowcz",
+            "en": "Emilian Kovch",
+            "la": "Aemilianus Kovc"
+        },
+        "died": [
+            "1944-03-25"
+        ],
+        "feasts": []
+    },
     "patrons/agatha": {
         "names": {
             "la": "Agatha",
