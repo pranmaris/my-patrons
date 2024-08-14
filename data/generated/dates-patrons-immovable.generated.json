@@ -462,6 +462,18 @@
                 "reliable-death-anniversary": "2 II",
                 "other-martyrology-days": "2 II"
             }
+        },
+        "records/patrons/maria/kas": {
+            "name": {
+                "de": "Maria Katharina Kasper",
+                "en": "Maria Katharina Kasper",
+                "la": "Maria Catharina Kasper",
+                "pl": "Maria Katarzyna Kasper"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 II",
+                "other-martyrology-days": "2 II"
+            }
         }
     },
     "02-03": {

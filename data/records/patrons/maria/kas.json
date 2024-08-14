@@ -1,0 +1,42 @@
+{
+  "names": {
+    "de": [
+      "Maria Katharina Kasper"
+    ],
+    "en": [
+      "Maria Katharina Kasper"
+    ],
+    "la": [
+      "Maria Catharina Kasper"
+    ],
+    "pl": [
+      "Maria Katarzyna Kasper"
+    ]
+  },
+
+  "surnames": [
+    {
+      "de": "Kasper"
+    }
+  ],
+
+  "born": ["1820-05-26"],
+  "died": ["1898-02-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1978-04-16"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2018-10-14"
+  },
+
+  "also-in-martyrology": ["02-02"],
+
+  "forenames": ["maria", "catharina"],
+  "categories": ["femina", "virgo", "fundatrix"],
+
+  "order": ["adjc"],
+  "order-founder": ["adjc"]
+}

@@ -1807,6 +1807,7 @@
     "cbc19b07662418d5f14cc55657295924": {
         "la": "Maria",
         "pl": "Maria",
+        "de": "Maria",
         "it": "Maria"
     },
     "cc86db2cb6845e5cd5442a4fc97b3ee1": {
@@ -2148,6 +2149,9 @@
     },
     "f16627b2063b702f580dfb2a9cff7f92": {
         "la": "Romanus"
+    },
+    "f1b1c3fb493eec4f6dbc5de40457bc2c": {
+        "de": "Katharina"
     },
     "f30bf3864f6b255a441be91be21db9fe": {
         "en": "Theodore"

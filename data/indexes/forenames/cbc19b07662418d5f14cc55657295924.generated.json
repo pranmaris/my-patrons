@@ -2,6 +2,7 @@
     "names": {
         "la": "Maria",
         "pl": "Maria",
+        "de": "Maria",
         "it": "Maria"
     },
     "translations": {
@@ -16,6 +17,9 @@
         ],
         "arc": [
             "ܡܪܝܡ"
+        ],
+        "de": [
+            "Maria"
         ],
         "el": [
             "Μαρία"
@@ -107,6 +111,12 @@
             "pl": "Maria Daniela od Jezusa i Maryi Niepokalanej",
             "en": "Mary Daniela of Jesus and Immaculate Mary",
             "la": "Maria Daniela a Iusei et Maria Immaculata"
+        },
+        "records/patrons/maria/kas": {
+            "de": "Maria Katharina Kasper",
+            "en": "Maria Katharina Kasper",
+            "la": "Maria Catharina Kasper",
+            "pl": "Maria Katarzyna Kasper"
         },
         "records/patrons/maria/kow": {
             "pl": "Maria Faustyna Kowalska",

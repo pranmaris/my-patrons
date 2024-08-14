@@ -12,6 +12,9 @@
         "pl": [
             "Katarzyna"
         ],
+        "de": [
+            "Katharina"
+        ],
         "fr": [
             "Catherine"
         ],
@@ -36,6 +39,12 @@
             "en": "Magdalene Catherine Morano",
             "la": "Magdalena Catharina Morano",
             "pl": "Magdalena Katarzyna Morano"
+        },
+        "records/patrons/maria/kas": {
+            "de": "Maria Katharina Kasper",
+            "en": "Maria Katharina Kasper",
+            "la": "Maria Catharina Kasper",
+            "pl": "Maria Katarzyna Kasper"
         }
     }
 }

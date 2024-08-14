@@ -1,0 +1,18 @@
+{
+    "names": {
+        "de": "Kasper"
+    },
+    "translations": {
+        "de": [
+            "Kasper"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/kas": {
+            "de": "Maria Katharina Kasper",
+            "en": "Maria Katharina Kasper",
+            "la": "Maria Catharina Kasper",
+            "pl": "Maria Katarzyna Kasper"
+        }
+    }
+}

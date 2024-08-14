@@ -1522,6 +1522,7 @@
             "la": "Catharina",
             "en": "Catherine",
             "pl": "Katarzyna",
+            "de": "Katharina",
             "fr": "Catherine",
             "it": "Caterina"
         }
@@ -3990,6 +3991,7 @@
             "en": "Mary",
             "pl": "Maria",
             "arc": "ܡܪܝܡ",
+            "de": "Maria",
             "el": "Μαρία",
             "es": "María",
             "fr": "Marie",
@@ -4060,6 +4062,18 @@
         },
         "died": [
             "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/kas": {
+        "names": {
+            "de": "Maria Katharina Kasper",
+            "en": "Maria Katharina Kasper",
+            "la": "Maria Catharina Kasper",
+            "pl": "Maria Katarzyna Kasper"
+        },
+        "died": [
+            "1898-02-02"
         ],
         "feasts": []
     },
