@@ -1217,7 +1217,7 @@
     "name": {
       "pl": "Misja Apostoła"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
