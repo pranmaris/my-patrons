@@ -18,6 +18,9 @@
         "it": [
             "Pietro",
             "Pier"
+        ],
+        "tl": [
+            "Pedro"
         ]
     },
     "links": {
@@ -25,6 +28,12 @@
             "la": "Petrus",
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
+        },
+        "records/patrons/petrus/cal": {
+            "tl": "Pedro Calungsod",
+            "en": "Pedro Calungsod",
+            "la": "Petrus Calungsod",
+            "pl": "Piotr Calungsod"
         },
         "records/patrons/petrus/chr": {
             "la": "Petrus Chrysologus",

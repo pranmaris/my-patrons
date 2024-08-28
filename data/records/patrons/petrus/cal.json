@@ -1,0 +1,40 @@
+{
+  "names": {
+    "tl": [
+      "Pedro Calungsod"
+    ],
+    "en": [
+      "Pedro Calungsod",
+      "Peter Calungsod"
+    ],
+    "la": [
+      "Petrus Calungsod"
+    ],
+    "pl": [
+      "Piotr Calungsod"
+    ]
+  },
+
+  "surnames": [
+    {
+      "tl": "Calungsod"
+    }
+  ],
+
+  "born": ["1654"],
+  "died": ["1672-04-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-03-05"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2012-10-21"
+  },
+
+  "also-in-martyrology": ["04-02"],
+
+  "forenames": ["petrus"],
+  "categories": ["vir", "martyr", "catechista"]
+}

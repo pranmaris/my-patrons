@@ -1477,6 +1477,18 @@
                 "reliable-death-anniversary": "2 IV"
             }
         },
+        "records/patrons/petrus/cal": {
+            "name": {
+                "tl": "Pedro Calungsod",
+                "en": "Pedro Calungsod",
+                "la": "Petrus Calungsod",
+                "pl": "Piotr Calungsod"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 IV",
+                "other-martyrology-days": "2 IV"
+            }
+        },
         "records/patrons/maria/aeg": {
             "name": {
                 "el": "Μαρία η Αιγυπτία",

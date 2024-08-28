@@ -5111,7 +5111,8 @@
             "en": "Peter",
             "pl": "Piotr",
             "fr": "Pierre",
-            "it": "Pietro"
+            "it": "Pietro",
+            "tl": "Pedro"
         }
     },
     "patrons/petrus/apo": {
@@ -5173,6 +5174,18 @@
                 }
             }
         }
+    },
+    "patrons/petrus/cal": {
+        "names": {
+            "tl": "Pedro Calungsod",
+            "en": "Pedro Calungsod",
+            "la": "Petrus Calungsod",
+            "pl": "Piotr Calungsod"
+        },
+        "died": [
+            "1672-04-02"
+        ],
+        "feasts": []
     },
     "patrons/petrus/chr": {
         "names": {

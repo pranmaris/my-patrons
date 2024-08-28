@@ -1,0 +1,18 @@
+{
+    "names": {
+        "tl": "Calungsod"
+    },
+    "translations": {
+        "tl": [
+            "Calungsod"
+        ]
+    },
+    "links": {
+        "records/patrons/petrus/cal": {
+            "tl": "Pedro Calungsod",
+            "en": "Pedro Calungsod",
+            "la": "Petrus Calungsod",
+            "pl": "Piotr Calungsod"
+        }
+    }
+}

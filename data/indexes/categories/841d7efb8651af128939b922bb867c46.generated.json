@@ -536,6 +536,12 @@
             "en": "Peter the Apostle",
             "pl": "Piotr Apostoł"
         },
+        "records/patrons/petrus/cal": {
+            "tl": "Pedro Calungsod",
+            "en": "Pedro Calungsod",
+            "la": "Petrus Calungsod",
+            "pl": "Piotr Calungsod"
+        },
         "records/patrons/petrus/dan": {
             "pl": "Piotr Edward Dańkowski",
             "en": "Peter Edward Dankowski",
