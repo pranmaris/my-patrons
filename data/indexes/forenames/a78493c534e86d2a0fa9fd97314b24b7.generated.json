@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Sadochus"
+    },
+    "translations": {
+        "la": [
+            "Sadochus"
+        ],
+        "en": [
+            "Sadok"
+        ],
+        "pl": [
+            "Sadok"
+        ]
+    },
+    "links": {
+        "records/patrons/sadochus/san": {
+            "pl": "Sadok z Sandomierza",
+            "en": "Sadok of Sandomierz",
+            "la": "Sadochus de Sandomierz"
+        }
+    }
+}

@@ -2263,6 +2263,18 @@
             }
         }
     },
+    "06-02": {
+        "records/patrons/sadochus/san": {
+            "name": {
+                "pl": "Sadok z Sandomierza",
+                "en": "Sadok of Sandomierz",
+                "la": "Sadochus de Sandomierz"
+            },
+            "sources": {
+                "other-martyrology-days": "2 VI"
+            }
+        }
+    },
     "06-03": {
         "records/patrons/carolus/lwa": {
             "name": {

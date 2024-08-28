@@ -300,6 +300,10 @@
     "20f1aeb7819d7858684c898d1e98c1bb": {
         "en": "Anthony"
     },
+    "2193aff1d071cffc65099a488320c2ab": {
+        "en": "Sadok",
+        "pl": "Sadok"
+    },
     "21951c0b895d7b4b8c63e392d2e8c8ae": {
         "en": "Francis"
     },
@@ -1474,6 +1478,9 @@
         "en": "Fidelis",
         "pl": "Fidelis",
         "de": "Fidelis"
+    },
+    "a78493c534e86d2a0fa9fd97314b24b7": {
+        "la": "Sadochus"
     },
     "a78bcf26721280c66741cb091d89a774": {
         "la": "Laurentius"

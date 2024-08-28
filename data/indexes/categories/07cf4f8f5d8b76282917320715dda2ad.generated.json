@@ -1289,6 +1289,11 @@
             "la": "Rupertus Salisburgensis",
             "pl": "Rupert z Salzburga"
         },
+        "records/patrons/sadochus/san": {
+            "pl": "Sadok z Sandomierza",
+            "en": "Sadok of Sandomierz",
+            "la": "Sadochus de Sandomierz"
+        },
         "records/patrons/sarbelius/mak": {
             "ar": "شربل مخلوف",
             "en": "Charbel Makhlouf",

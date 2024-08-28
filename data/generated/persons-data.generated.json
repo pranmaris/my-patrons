@@ -5675,6 +5675,25 @@
         ],
         "feasts": []
     },
+    "patrons/sadochus": {
+        "names": {
+            "la": "Sadochus",
+            "en": "Sadok",
+            "pl": "Sadok"
+        }
+    },
+    "patrons/sadochus/san": {
+        "names": {
+            "pl": "Sadok z Sandomierza",
+            "en": "Sadok of Sandomierz",
+            "la": "Sadochus de Sandomierz"
+        },
+        "died": [
+            "~1250",
+            "~1260"
+        ],
+        "feasts": []
+    },
     "patrons/salomea": {
         "names": {
             "la": "Salomea",

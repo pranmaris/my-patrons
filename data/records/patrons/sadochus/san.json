@@ -1,0 +1,27 @@
+{
+  "names": {
+    "pl": [
+      "Sadok z Sandomierza"
+    ],
+    "en": [
+      "Sadok of Sandomierz"
+    ],
+    "la": [
+      "Sadochus de Sandomierz"
+    ]
+  },
+
+  "died": ["~1250", "~1260"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1807-11-18"
+  },
+
+  "also-in-martyrology": ["06-02"],
+
+  "forenames": ["sadochus"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["op"]
+}
