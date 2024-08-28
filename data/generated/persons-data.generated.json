@@ -2639,6 +2639,17 @@
         ],
         "feasts": []
     },
+    "patrons/gregorius/fra": {
+        "names": {
+            "pl": "Grzegorz Frąckowiak",
+            "en": "Gregory Frąckowiak",
+            "la": "Gregorius Frąckowiak"
+        },
+        "died": [
+            "1943-05-05"
+        ],
+        "feasts": []
+    },
     "patrons/gregorius/naz": {
         "names": {
             "grc": "Γρηγόριος Ναζιανζηνός",

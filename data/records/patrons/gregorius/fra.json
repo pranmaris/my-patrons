@@ -1,0 +1,34 @@
+{
+  "names": {
+    "pl": [
+      "Grzegorz Frąckowiak"
+    ],
+    "en": [
+      "Gregory Frąckowiak"
+    ],
+    "la": [
+      "Gregorius Frąckowiak"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Frąckowiak"
+    }
+  ],
+
+  "born": ["1911-07-08"],
+  "died": ["1943-05-05"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["05-05"],
+
+  "forenames": ["gregorius"],
+  "categories": ["vir", "martyr", "religiosus"],
+
+  "order": ["svd"]
+}

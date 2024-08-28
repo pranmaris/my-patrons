@@ -33,6 +33,11 @@
             "la": "Elisabeth Aragonae",
             "pl": "Elżbieta Aragońska"
         },
+        "records/patrons/gregorius/fra": {
+            "pl": "Grzegorz Frąckowiak",
+            "en": "Gregory Frąckowiak",
+            "la": "Gregorius Frąckowiak"
+        },
         "records/patrons/hedwigis/duc": {
             "de": "Hedwig von Andechs",
             "en": "Hedwig of Silesia",

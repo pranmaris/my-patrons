@@ -1922,6 +1922,17 @@
         }
     },
     "05-05": {
+        "records/patrons/gregorius/fra": {
+            "name": {
+                "pl": "Grzegorz Frąckowiak",
+                "en": "Gregory Frąckowiak",
+                "la": "Gregorius Frąckowiak"
+            },
+            "sources": {
+                "reliable-death-anniversary": "5 V",
+                "other-martyrology-days": "5 V"
+            }
+        },
         "records/patrons/pius/5pp": {
             "name": {
                 "it": "Pio V",

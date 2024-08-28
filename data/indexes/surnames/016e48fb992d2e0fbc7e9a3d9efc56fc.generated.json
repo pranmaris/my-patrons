@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Frąckowiak"
+    },
+    "translations": {
+        "pl": [
+            "Frąckowiak"
+        ]
+    },
+    "links": {
+        "records/patrons/gregorius/fra": {
+            "pl": "Grzegorz Frąckowiak",
+            "en": "Gregory Frąckowiak",
+            "la": "Gregorius Frąckowiak"
+        }
+    }
+}
