@@ -1,0 +1,39 @@
+{
+  "names": {
+    "es": [
+      "Cristóbal Magallanes Jara"
+    ],
+    "en": [
+      "Christopher Magallanes Jara"
+    ],
+    "la": [
+      "Christophorus Magallanes Jara"
+    ],
+    "pl": [
+      "Krzysztof Magallanes Jara"
+    ]
+  },
+
+  "surnames": [
+    {
+      "es": "Magallanes"
+    }
+  ],
+
+  "born": ["1869-07-30"],
+  "died": ["1927-05-25"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1992-11-22"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2000-05-21"
+  },
+
+  "also-in-martyrology": ["05-21", "05-25"],
+
+  "forenames": ["christophorus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

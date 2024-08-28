@@ -1,0 +1,18 @@
+{
+    "names": {
+        "es": "Magallanes"
+    },
+    "translations": {
+        "es": [
+            "Magallanes"
+        ]
+    },
+    "links": {
+        "records/patrons/christophorus/mag": {
+            "es": "Cristóbal Magallanes Jara",
+            "en": "Christopher Magallanes Jara",
+            "la": "Christophorus Magallanes Jara",
+            "pl": "Krzysztof Magallanes Jara"
+        }
+    }
+}

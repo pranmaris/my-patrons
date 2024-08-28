@@ -2124,6 +2124,17 @@
         }
     },
     "05-21": {
+        "records/patrons/christophorus/mag": {
+            "name": {
+                "es": "Cristóbal Magallanes Jara",
+                "en": "Christopher Magallanes Jara",
+                "la": "Christophorus Magallanes Jara",
+                "pl": "Krzysztof Magallanes Jara"
+            },
+            "sources": {
+                "other-martyrology-days": "21 V"
+            }
+        },
         "records/patrons/iesus/men": {
             "name": {
                 "es": "Jesús Méndez Montoya",
@@ -2171,6 +2182,20 @@
             },
             "sources": {
                 "reliable-death-anniversary": "24 V"
+            }
+        }
+    },
+    "05-25": {
+        "records/patrons/christophorus/mag": {
+            "name": {
+                "es": "Cristóbal Magallanes Jara",
+                "en": "Christopher Magallanes Jara",
+                "la": "Christophorus Magallanes Jara",
+                "pl": "Krzysztof Magallanes Jara"
+            },
+            "sources": {
+                "reliable-death-anniversary": "25 V",
+                "other-martyrology-days": "25 V"
             }
         }
     },

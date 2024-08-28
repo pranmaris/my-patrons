@@ -1641,7 +1641,8 @@
         "names": {
             "la": "Christophorus",
             "en": "Christopher",
-            "pl": "Krzysztof"
+            "pl": "Krzysztof",
+            "es": "Cristóbal"
         }
     },
     "patrons/christophorus/lyc": {
@@ -1652,6 +1653,18 @@
         },
         "died": [
             "~250"
+        ],
+        "feasts": []
+    },
+    "patrons/christophorus/mag": {
+        "names": {
+            "es": "Cristóbal Magallanes Jara",
+            "en": "Christopher Magallanes Jara",
+            "la": "Christophorus Magallanes Jara",
+            "pl": "Krzysztof Magallanes Jara"
+        },
+        "died": [
+            "1927-05-25"
         ],
         "feasts": []
     },
