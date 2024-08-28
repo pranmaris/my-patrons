@@ -162,6 +162,11 @@
             "la": "Bonifatius Winfrid",
             "pl": "Bonifacy Wynfryd"
         },
+        "records/patrons/bonifatius/zuk": {
+            "pl": "Bonifacy Żukowski",
+            "en": "Boniface Zukowski",
+            "la": "Bonifatius Zukowski"
+        },
         "records/patrons/bronislaus/kos": {
             "pl": "Bronisław Kostkowski",
             "la": "Bronislaus Kostkowski",

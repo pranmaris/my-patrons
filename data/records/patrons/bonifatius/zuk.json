@@ -1,0 +1,35 @@
+{
+  "names": {
+    "pl": [
+      "Bonifacy Żukowski",
+      "Piotr Bonifacy Żukowski"
+    ],
+    "en": [
+      "Boniface Zukowski"
+    ],
+    "la": [
+      "Bonifatius Zukowski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Żukowski"
+    }
+  ],
+
+  "born": ["1913-01-13"],
+  "died": ["1942-04-10"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["04-10"],
+
+  "forenames": ["bonifatius"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["ofmconv"]
+}

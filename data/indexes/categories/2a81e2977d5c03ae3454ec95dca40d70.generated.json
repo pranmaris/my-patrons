@@ -123,6 +123,11 @@
             "la": "Bernardinus Senensis",
             "pl": "Bernardyn ze Sieny"
         },
+        "records/patrons/bonifatius/zuk": {
+            "pl": "Bonifacy Żukowski",
+            "en": "Boniface Zukowski",
+            "la": "Bonifatius Zukowski"
+        },
         "records/patrons/bruno/ere": {
             "de": "Bruno von Köln",
             "en": "Bruno of Cologne",

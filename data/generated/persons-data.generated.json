@@ -1314,6 +1314,17 @@
         ],
         "feasts": []
     },
+    "patrons/bonifatius/zuk": {
+        "names": {
+            "pl": "Bonifacy Żukowski",
+            "en": "Boniface Zukowski",
+            "la": "Bonifatius Zukowski"
+        },
+        "died": [
+            "1942-04-10"
+        ],
+        "feasts": []
+    },
     "patrons/bronislaus": {
         "names": {
             "la": "Bronislaus",

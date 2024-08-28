@@ -1578,6 +1578,17 @@
         }
     },
     "04-10": {
+        "records/patrons/bonifatius/zuk": {
+            "name": {
+                "pl": "Bonifacy Żukowski",
+                "en": "Boniface Zukowski",
+                "la": "Bonifatius Zukowski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "10 IV",
+                "other-martyrology-days": "10 IV"
+            }
+        },
         "records/patrons/magdalena/can": {
             "name": {
                 "it": "Maddalena di Canossa",

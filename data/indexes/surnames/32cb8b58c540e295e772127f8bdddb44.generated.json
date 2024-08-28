@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Żukowski"
+    },
+    "translations": {
+        "pl": [
+            "Żukowski"
+        ]
+    },
+    "links": {
+        "records/patrons/bonifatius/zuk": {
+            "pl": "Bonifacy Żukowski",
+            "en": "Boniface Zukowski",
+            "la": "Bonifatius Zukowski"
+        }
+    }
+}
