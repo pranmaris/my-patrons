@@ -1,0 +1,41 @@
+{
+  "names": {
+    "fr": [
+      "Jacques Berthieu"
+    ],
+    "en": [
+      "James Berthieu"
+    ],
+    "la": [
+      "Iacobus Berthieu"
+    ],
+    "pl": [
+      "Jakub Berthieu"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Berthieu"
+    }
+  ],
+
+  "born": ["1838-11-27"],
+  "died": ["1896-06-08"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1965-10-17"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2012-10-21"
+  },
+
+  "also-in-martyrology": ["06-08"],
+
+  "forenames": ["iacobus"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["sj"]
+}

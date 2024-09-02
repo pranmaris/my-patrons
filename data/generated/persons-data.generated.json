@@ -2903,8 +2903,21 @@
         "names": {
             "la": "Iacobus",
             "en": "James",
-            "pl": "Jakub"
+            "pl": "Jakub",
+            "fr": "Jacques"
         }
+    },
+    "patrons/iacobus/ber": {
+        "names": {
+            "fr": "Jacques Berthieu",
+            "en": "James Berthieu",
+            "la": "Iacobus Berthieu",
+            "pl": "Jakub Berthieu"
+        },
+        "died": [
+            "1896-06-08"
+        ],
+        "feasts": []
     },
     "patrons/iacobus/mai": {
         "names": {

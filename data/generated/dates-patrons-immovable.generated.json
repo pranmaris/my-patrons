@@ -2386,6 +2386,20 @@
             }
         }
     },
+    "06-08": {
+        "records/patrons/iacobus/ber": {
+            "name": {
+                "fr": "Jacques Berthieu",
+                "en": "James Berthieu",
+                "la": "Iacobus Berthieu",
+                "pl": "Jakub Berthieu"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 VI",
+                "other-martyrology-days": "8 VI"
+            }
+        }
+    },
     "06-10": {
         "records/patrons/bogumilus/dob": {
             "name": {

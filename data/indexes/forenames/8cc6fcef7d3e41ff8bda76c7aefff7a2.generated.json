@@ -12,9 +12,18 @@
         ],
         "pl": [
             "Jakub"
+        ],
+        "fr": [
+            "Jacques"
         ]
     },
     "links": {
+        "records/patrons/iacobus/ber": {
+            "fr": "Jacques Berthieu",
+            "en": "James Berthieu",
+            "la": "Iacobus Berthieu",
+            "pl": "Jakub Berthieu"
+        },
         "records/patrons/iacobus/mai": {
             "la": "Iacobus Maior Apostolus",
             "en": "James the Great",

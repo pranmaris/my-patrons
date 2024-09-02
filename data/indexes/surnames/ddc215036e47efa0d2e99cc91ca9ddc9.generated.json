@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Berthieu"
+    },
+    "translations": {
+        "fr": [
+            "Berthieu"
+        ]
+    },
+    "links": {
+        "records/patrons/iacobus/ber": {
+            "fr": "Jacques Berthieu",
+            "en": "James Berthieu",
+            "la": "Iacobus Berthieu",
+            "pl": "Jakub Berthieu"
+        }
+    }
+}
