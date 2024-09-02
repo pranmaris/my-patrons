@@ -1157,8 +1157,21 @@
         "names": {
             "la": "Benedictus",
             "en": "Benedict",
-            "pl": "Benedykt"
+            "pl": "Benedykt",
+            "it": "Benedetto"
         }
+    },
+    "patrons/benedictus/11p": {
+        "names": {
+            "it": "Benedetto XI",
+            "en": "Benedict XI",
+            "la": "Benedictus XI",
+            "pl": "Benedykt XI"
+        },
+        "died": [
+            "1304-07-07"
+        ],
+        "feasts": []
     },
     "patrons/benedictus/nur": {
         "names": {

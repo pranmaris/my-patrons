@@ -2686,6 +2686,20 @@
             }
         }
     },
+    "07-07": {
+        "records/patrons/benedictus/11p": {
+            "name": {
+                "it": "Benedetto XI",
+                "en": "Benedict XI",
+                "la": "Benedictus XI",
+                "pl": "Benedykt XI"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 VII",
+                "other-martyrology-days": "7 VII"
+            }
+        }
+    },
     "07-08": {
         "records/patrons/elisabeth/lus": {
             "name": {

@@ -1,0 +1,44 @@
+{
+  "names": {
+    "it": [
+      "Benedetto XI"
+    ],
+    "en": [
+      "Benedict XI"
+    ],
+    "la": [
+      "Benedictus XI"
+    ],
+    "pl": [
+      "Benedykt XI"
+    ]
+  },
+
+  "epithets": [
+    {
+      "it": "Undicesimo",
+      "en": "the Eleventh",
+      "la": "Undecimus",
+      "pl": "Jedenasty"
+    }
+  ],
+
+  "born": ["1240"],
+  "died": ["1304-07-07"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1736-04-24"
+  },
+
+  "also-in-martyrology": ["07-07"],
+
+  "forenames": ["benedictus"],
+  "categories": ["vir", "confessor", "papa"],
+
+  "order": ["op"],
+
+  "data-links": {
+    "popes": ["1:#194"]
+  }
+}

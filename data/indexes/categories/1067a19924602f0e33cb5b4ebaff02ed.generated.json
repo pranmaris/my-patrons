@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/benedictus/11p": {
+            "it": "Benedetto XI",
+            "en": "Benedict XI",
+            "la": "Benedictus XI",
+            "pl": "Benedykt XI"
+        },
         "records/patrons/deusdedit/1pp": {
             "la": "Deusdedit Pp. I",
             "en": "Deusdedit I",

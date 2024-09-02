@@ -266,6 +266,12 @@
             "la": "Basilius Magnus",
             "pl": "Bazyli Wielki"
         },
+        "records/patrons/benedictus/11p": {
+            "it": "Benedetto XI",
+            "en": "Benedict XI",
+            "la": "Benedictus XI",
+            "pl": "Benedykt XI"
+        },
         "records/patrons/benedictus/nur": {
             "la": "Benedictus Nursinus",
             "en": "Banadict of Nursia",
