@@ -1651,6 +1651,18 @@
             }
         }
     },
+    "04-13": {
+        "records/patrons/stanislaus/sta": {
+            "name": {
+                "pl": "Stanisław Starowieyski",
+                "en": "Stanislaus Starowieyski",
+                "la": "Stanislaus Starowieyski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "13 IV"
+            }
+        }
+    },
     "04-16": {
         "records/patrons/maria/sou": {
             "name": {
@@ -2311,6 +2323,16 @@
             },
             "sources": {
                 "reliable-death-anniversary": "4 VI",
+                "other-martyrology-days": "4 VI"
+            }
+        },
+        "records/patrons/stanislaus/sta": {
+            "name": {
+                "pl": "Stanisław Starowieyski",
+                "en": "Stanislaus Starowieyski",
+                "la": "Stanislaus Starowieyski"
+            },
+            "sources": {
                 "other-martyrology-days": "4 VI"
             }
         }

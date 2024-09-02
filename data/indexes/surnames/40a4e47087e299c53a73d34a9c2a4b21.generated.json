@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Starowieyski"
+    },
+    "translations": {
+        "pl": [
+            "Starowieyski"
+        ]
+    },
+    "links": {
+        "records/patrons/stanislaus/sta": {
+            "pl": "Stanisław Starowieyski",
+            "en": "Stanislaus Starowieyski",
+            "la": "Stanislaus Starowieyski"
+        }
+    }
+}

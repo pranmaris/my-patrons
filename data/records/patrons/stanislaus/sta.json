@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Stanisław Starowieyski"
+    ],
+    "en": [
+      "Stanislaus Starowieyski"
+    ],
+    "la": [
+      "Stanislaus Starowieyski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Starowieyski"
+    }
+  ],
+
+  "born": ["1895-05-11"],
+  "died": ["1941-04-13"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["06-04"],
+
+  "forenames": ["stanislaus"],
+  "categories": ["vir", "martyr"]
+}
