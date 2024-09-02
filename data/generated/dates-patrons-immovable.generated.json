@@ -2413,6 +2413,18 @@
         }
     },
     "06-11": {
+        "records/patrons/ignatius/mal": {
+            "name": {
+                "hy": "Իգնատիոս Մալոյան",
+                "en": "Ignatius Maloyan",
+                "la": "Ignatius Maloyan",
+                "pl": "Ignacy Maloyan"
+            },
+            "sources": {
+                "reliable-death-anniversary": "11 VI",
+                "other-martyrology-days": "11 VI"
+            }
+        },
         "records/patrons/barnabas/apo": {
             "name": {
                 "la": "Barnabas Apostolus",

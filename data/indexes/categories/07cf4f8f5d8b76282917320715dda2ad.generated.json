@@ -764,6 +764,12 @@
             "en": "Ignatius of Loyola",
             "pl": "Ignacy Loyola"
         },
+        "records/patrons/ignatius/mal": {
+            "hy": "Իգնատիոս Մալոյան",
+            "en": "Ignatius Maloyan",
+            "la": "Ignatius Maloyan",
+            "pl": "Ignacy Maloyan"
+        },
         "records/patrons/ioachim/mar": {
             "he": "יהוֹיָקִים",
             "en": "Joachim father of Mary",

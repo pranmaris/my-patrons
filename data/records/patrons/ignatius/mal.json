@@ -1,0 +1,38 @@
+{
+  "names": {
+    "hy": [
+      "Իգնատիոս Մալոյան"
+    ],
+    "en": [
+      "Ignatius Maloyan"
+    ],
+    "la": [
+      "Ignatius Maloyan"
+    ],
+    "pl": [
+      "Ignacy Maloyan"
+    ]
+  },
+
+  "surnames": [
+    {
+      "hy": "Մալոյան",
+      "en": "Maloyan",
+      "la": "Maloyan",
+      "pl": "Malojan"
+    }
+  ],
+
+  "born": ["1869"],
+  "died": ["1915-06-11"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2001-10-07"
+  },
+
+  "also-in-martyrology": ["06-11"],
+
+  "forenames": ["ignatius"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

@@ -1,0 +1,28 @@
+{
+    "names": {
+        "en": "Maloyan",
+        "la": "Maloyan"
+    },
+    "translations": {
+        "hy": [
+            "Մալոյան"
+        ],
+        "en": [
+            "Maloyan"
+        ],
+        "la": [
+            "Maloyan"
+        ],
+        "pl": [
+            "Malojan"
+        ]
+    },
+    "links": {
+        "records/patrons/ignatius/mal": {
+            "hy": "Իգնատիոս Մալոյան",
+            "en": "Ignatius Maloyan",
+            "la": "Ignatius Maloyan",
+            "pl": "Ignacy Maloyan"
+        }
+    }
+}

@@ -222,6 +222,10 @@
         "la": "Miki",
         "pl": "Miki"
     },
+    "6b77f30aba852bd7e3b0c7f332201172": {
+        "en": "Maloyan",
+        "la": "Maloyan"
+    },
     "6cd78f285101797c8eba7f0f8773322c": {
         "pt": "de Soveral"
     },
@@ -541,6 +545,9 @@
     "f02ad58ffcdf2b84a7696b738f815d8f": {
         "pl": "Kukołowicz"
     },
+    "f05f1ad0d889f07caa0f9ac9069e1535": {
+        "pl": "Malojan"
+    },
     "f173424f29af787b27486e58bff57d54": {
         "pl": "Strepa"
     },
@@ -569,5 +576,8 @@
     },
     "fabc8c0284c226c51ef678e8159c1a1a": {
         "pl": "Karłowska"
+    },
+    "fc472bce8c36190224ae84f040d3379f": {
+        "hy": "Մալոյան"
     }
 }

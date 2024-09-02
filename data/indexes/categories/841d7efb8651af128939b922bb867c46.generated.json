@@ -372,6 +372,12 @@
             "la": "Ignatius Antiochenus",
             "pl": "Ignacy Antiocheński"
         },
+        "records/patrons/ignatius/mal": {
+            "hy": "Իգնատիոս Մալոյան",
+            "en": "Ignatius Maloyan",
+            "la": "Ignatius Maloyan",
+            "pl": "Ignacy Maloyan"
+        },
         "records/patrons/ioannes/bap": {
             "he": "יוֹחָנָן",
             "en": "John the Baptist",

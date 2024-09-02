@@ -17,6 +17,9 @@
         ],
         "grc": [
             "Ἰγνάτιος"
+        ],
+        "hy": [
+            "Իգնատիոս"
         ]
     },
     "links": {
@@ -31,6 +34,12 @@
             "la": "Ignatius de Loyola",
             "en": "Ignatius of Loyola",
             "pl": "Ignacy Loyola"
+        },
+        "records/patrons/ignatius/mal": {
+            "hy": "Իգնատիոս Մալոյան",
+            "en": "Ignatius Maloyan",
+            "la": "Ignatius Maloyan",
+            "pl": "Ignacy Maloyan"
         }
     }
 }

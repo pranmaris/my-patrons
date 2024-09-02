@@ -3049,7 +3049,8 @@
             "en": "Ignatius",
             "pl": "Ignacy",
             "es": "Ignacio",
-            "grc": "Ἰγνάτιος"
+            "grc": "Ἰγνάτιος",
+            "hy": "Իգնատիոս"
         }
     },
     "patrons/ignatius/ant": {
@@ -3073,6 +3074,18 @@
         },
         "died": [
             "1556-07-31"
+        ],
+        "feasts": []
+    },
+    "patrons/ignatius/mal": {
+        "names": {
+            "hy": "Իգնատիոս Մալոյան",
+            "en": "Ignatius Maloyan",
+            "la": "Ignatius Maloyan",
+            "pl": "Ignacy Maloyan"
+        },
+        "died": [
+            "1915-06-11"
         ],
         "feasts": []
     },
