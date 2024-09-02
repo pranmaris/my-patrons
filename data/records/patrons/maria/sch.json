@@ -1,0 +1,38 @@
+{
+  "names": {
+    "de": [
+      "Maria Theresia Scherer"
+    ],
+    "en": [
+      "Maria Therese Scherer"
+    ],
+    "la": [
+      "Maria Theresia Scherer"
+    ],
+    "pl": [
+      "Maria Teresa Scherer"
+    ]
+  },
+
+  "surnames": [
+    {
+      "de": "Scherer"
+    }
+  ],
+
+  "born": ["1825-10-31"],
+  "died": ["1888-06-16"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1995-10-29"
+  },
+
+  "also-in-martyrology": ["06-16"],
+
+  "forenames": ["maria", "teresia", "anna", "catharina"],
+  "categories": ["femina", "virgo", "gubernatrix"],
+
+  "order": ["scsc"],
+  "order-founder": ["scsc"]
+}

@@ -2,7 +2,8 @@
     "names": {
         "la": "Anna",
         "en": "Anna",
-        "pl": "Anna"
+        "pl": "Anna",
+        "de": "Anna"
     },
     "translations": {
         "la": [
@@ -12,6 +13,9 @@
             "Anna"
         ],
         "pl": [
+            "Anna"
+        ],
+        "de": [
             "Anna"
         ],
         "es": [
@@ -43,6 +47,12 @@
             "en": "Maria Anna of Jesus Navarro",
             "la": "Maria Anna a Iesu Navarro",
             "pl": "Maria Anna od Jezusa Navarro"
+        },
+        "records/patrons/maria/sch": {
+            "de": "Maria Theresia Scherer",
+            "en": "Maria Therese Scherer",
+            "la": "Maria Theresia Scherer",
+            "pl": "Maria Teresa Scherer"
         }
     }
 }

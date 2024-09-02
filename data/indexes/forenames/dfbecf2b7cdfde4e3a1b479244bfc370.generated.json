@@ -45,6 +45,12 @@
             "en": "Maria Katharina Kasper",
             "la": "Maria Catharina Kasper",
             "pl": "Maria Katarzyna Kasper"
+        },
+        "records/patrons/maria/sch": {
+            "de": "Maria Theresia Scherer",
+            "en": "Maria Therese Scherer",
+            "la": "Maria Theresia Scherer",
+            "pl": "Maria Teresa Scherer"
         }
     }
 }

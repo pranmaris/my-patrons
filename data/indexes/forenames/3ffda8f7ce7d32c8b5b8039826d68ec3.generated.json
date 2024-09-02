@@ -7,7 +7,7 @@
             "Teresia"
         ],
         "en": [
-            "Teresa"
+            "Therese"
         ],
         "pl": [
             "Teresa"
@@ -23,6 +23,12 @@
         ]
     },
     "links": {
+        "records/patrons/maria/sch": {
+            "de": "Maria Theresia Scherer",
+            "en": "Maria Therese Scherer",
+            "la": "Maria Theresia Scherer",
+            "pl": "Maria Teresa Scherer"
+        },
         "records/patrons/teresia/ies": {
             "es": "Teresa de Jesús",
             "en": "Teresa of Ávila",

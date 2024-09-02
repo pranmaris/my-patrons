@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "governoress"
+    },
+    "translations": {
+        "la": [
+            "gubernatrix"
+        ],
+        "en": [
+            "governoress"
+        ],
+        "pl": [
+            "naczelniczka"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/sch": {
+            "de": "Maria Theresia Scherer",
+            "en": "Maria Therese Scherer",
+            "la": "Maria Theresia Scherer",
+            "pl": "Maria Teresa Scherer"
+        }
+    }
+}

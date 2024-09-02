@@ -784,6 +784,7 @@
             "la": "Anna",
             "en": "Anna",
             "pl": "Anna",
+            "de": "Anna",
             "es": "Ana",
             "he": "חַנָּה‎"
         }
@@ -4506,6 +4507,18 @@
         ],
         "feasts": []
     },
+    "patrons/maria/sch": {
+        "names": {
+            "de": "Maria Theresia Scherer",
+            "en": "Maria Therese Scherer",
+            "la": "Maria Theresia Scherer",
+            "pl": "Maria Teresa Scherer"
+        },
+        "died": [
+            "1888-06-16"
+        ],
+        "feasts": []
+    },
     "patrons/maria/sie": {
         "names": {
             "pl": "Maria od Jezusa Dobrego Pasterza",
@@ -6001,7 +6014,7 @@
     "patrons/teresia": {
         "names": {
             "la": "Teresia",
-            "en": "Teresa",
+            "en": "Therese",
             "pl": "Teresa",
             "de": "Therese",
             "fr": "Thérèse",

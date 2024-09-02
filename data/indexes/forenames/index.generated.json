@@ -257,6 +257,7 @@
         "it": "Chiara"
     },
     "19b991ed42f2df77d1ca51c1db2f2bbc": {
+        "en": "Therese",
         "de": "Therese"
     },
     "19d8ae528679c65dde17044a8aaa44d5": {
@@ -895,7 +896,6 @@
         "en": "Matthew"
     },
     "649e314529ae99fee77bffd211851b7d": {
-        "en": "Teresa",
         "pl": "Teresa",
         "es": "Teresa"
     },
@@ -1353,7 +1353,8 @@
     "97a9d330e236c8d067f01da1894a5438": {
         "la": "Anna",
         "en": "Anna",
-        "pl": "Anna"
+        "pl": "Anna",
+        "de": "Anna"
     },
     "98ff57635edbfe0fae726cc27c811392": {
         "la": "Zaide",
