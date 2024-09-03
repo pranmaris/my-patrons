@@ -249,6 +249,12 @@
             "en": "Mary Sergia of Our Lady of Sorrows",
             "la": "Maria Sergia a Virgine Perdolenti"
         },
+        "records/patrons/maria/rub": {
+            "it": "Maria Francesca di Gesù",
+            "en": "Maria Francesca of Jesus",
+            "la": "Maria Francisca a Iesu",
+            "pl": "Maria Franciszka od Jezusa"
+        },
         "records/patrons/maria/sch": {
             "de": "Maria Theresia Scherer",
             "en": "Maria Therese Scherer",

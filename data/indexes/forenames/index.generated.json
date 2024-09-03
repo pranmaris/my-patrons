@@ -1363,7 +1363,8 @@
         "la": "Anna",
         "en": "Anna",
         "pl": "Anna",
-        "de": "Anna"
+        "de": "Anna",
+        "it": "Anna"
     },
     "98ff57635edbfe0fae726cc27c811392": {
         "la": "Zaide",
@@ -1440,6 +1441,9 @@
     },
     "a0c1b6bf7d3d9f6c2ce001dfeaa26fa8": {
         "de": "Johannes"
+    },
+    "a0feba9dc04f522dbed2d9b41d431e07": {
+        "it": "Francesca"
     },
     "a1d1357acada2cd2d048346162a882e3": {
         "uk": "Омелян"

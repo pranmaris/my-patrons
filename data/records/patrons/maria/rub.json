@@ -1,0 +1,55 @@
+{
+  "names": {
+    "it": [
+      "Maria Francesca di Gesù",
+      "Anna Maria Rubatto"
+    ],
+    "en": [
+      "Maria Francesca of Jesus",
+      "Anna Maria Rubatto"
+    ],
+    "la": [
+      "Maria Francisca a Iesu",
+      "Anna Maria Rubatto"
+    ],
+    "pl": [
+      "Maria Franciszka od Jezusa",
+      "Anna Maria Rubatto"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Rubatto"
+    }
+  ],
+
+  "epithets": [
+    {
+      "it": "di Gesù",
+      "en": "of Jesus",
+      "la": "a Iesu",
+      "pl": "od Jezusa"
+    }
+  ],
+
+  "born": ["1844-02-14"],
+  "died": ["1904-08-06"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1993-10-10"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2022-05-15"
+  },
+
+  "also-in-martyrology": ["08-06"],
+
+  "forenames": ["maria", "francisca", "anna"],
+  "categories": ["femina", "virgo", "fundatrix"],
+
+  "order": ["scmr"],
+  "order-founder": ["scmr"]
+}

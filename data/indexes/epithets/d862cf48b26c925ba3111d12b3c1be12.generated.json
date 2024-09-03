@@ -1,0 +1,27 @@
+{
+    "names": {
+        "it": "di Gesù"
+    },
+    "translations": {
+        "it": [
+            "di Gesù"
+        ],
+        "en": [
+            "of Jesus"
+        ],
+        "la": [
+            "a Iesu"
+        ],
+        "pl": [
+            "od Jezusa"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/rub": {
+            "it": "Maria Francesca di Gesù",
+            "en": "Maria Francesca of Jesus",
+            "la": "Maria Francisca a Iesu",
+            "pl": "Maria Franciszka od Jezusa"
+        }
+    }
+}

@@ -20,6 +20,9 @@
         ],
         "he": [
             "חַנָּה‎"
+        ],
+        "it": [
+            "Anna"
         ]
     },
     "links": {
@@ -44,6 +47,12 @@
             "en": "Maria Anna of Jesus Navarro",
             "la": "Maria Anna a Iesu Navarro",
             "pl": "Maria Anna od Jezusa Navarro"
+        },
+        "records/patrons/maria/rub": {
+            "it": "Maria Francesca di Gesù",
+            "en": "Maria Francesca of Jesus",
+            "la": "Maria Francisca a Iesu",
+            "pl": "Maria Franciszka od Jezusa"
         },
         "records/patrons/maria/sch": {
             "de": "Maria Theresia Scherer",

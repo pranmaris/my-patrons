@@ -786,7 +786,8 @@
             "pl": "Anna",
             "de": "Anna",
             "es": "Ana",
-            "he": "חַנָּה‎"
+            "he": "חַנָּה‎",
+            "it": "Anna"
         }
     },
     "patrons/anna/mar": {
@@ -4548,6 +4549,18 @@
         },
         "died": [
             "1943-08-01"
+        ],
+        "feasts": []
+    },
+    "patrons/maria/rub": {
+        "names": {
+            "it": "Maria Francesca di Gesù",
+            "en": "Maria Francesca of Jesus",
+            "la": "Maria Francisca a Iesu",
+            "pl": "Maria Franciszka od Jezusa"
+        },
+        "died": [
+            "1904-08-06"
         ],
         "feasts": []
     },

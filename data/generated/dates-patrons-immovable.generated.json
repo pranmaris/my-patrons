@@ -3396,6 +3396,18 @@
                 "other-martyrology-days": "6 VIII"
             }
         },
+        "records/patrons/maria/rub": {
+            "name": {
+                "it": "Maria Francesca di Gesù",
+                "en": "Maria Francesca of Jesus",
+                "la": "Maria Francisca a Iesu",
+                "pl": "Maria Franciszka od Jezusa"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 VIII",
+                "other-martyrology-days": "6 VIII"
+            }
+        },
         "records/patrons/xystus/2pp": {
             "name": {
                 "la": "Xystus Pp. II",

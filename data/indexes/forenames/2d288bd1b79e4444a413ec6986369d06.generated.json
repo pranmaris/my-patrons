@@ -11,9 +11,18 @@
         ],
         "pl": [
             "Franciszka"
+        ],
+        "it": [
+            "Francesca"
         ]
     },
     "links": {
+        "records/patrons/maria/rub": {
+            "it": "Maria Francesca di Gesù",
+            "en": "Maria Francesca of Jesus",
+            "la": "Maria Francisca a Iesu",
+            "pl": "Maria Franciszka od Jezusa"
+        },
         "records/patrons/maria/sie": {
             "pl": "Maria od Jezusa Dobrego Pasterza",
             "en": "Maria of Jesus the Good Shepherd",

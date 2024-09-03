@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Rubatto"
+    },
+    "translations": {
+        "it": [
+            "Rubatto"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/rub": {
+            "it": "Maria Francesca di Gesù",
+            "en": "Maria Francesca of Jesus",
+            "la": "Maria Francisca a Iesu",
+            "pl": "Maria Franciszka od Jezusa"
+        }
+    }
+}
