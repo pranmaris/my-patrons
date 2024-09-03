@@ -1,0 +1,27 @@
+{
+  "names": {
+    "fr": [
+      "Romain de Condat",
+      "Romain du Jura"
+    ],
+    "pl": [
+      "Roman Jurajski",
+      "Roman z Condat"
+    ],
+    "en": [
+      "Roman of Condat",
+      "Roman of Jura"
+    ],
+    "la": [
+      "Romanus de Monte Iura"
+    ]
+  },
+
+  "born": ["~390"],
+  "died": ["~463"],
+
+  "also-in-martyrology": ["02-28", "02n28", "02b29"],
+
+  "forenames": ["romanus"],
+  "categories": ["vir", "abbas", "eremita"]
+}

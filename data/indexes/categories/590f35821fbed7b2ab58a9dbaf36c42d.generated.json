@@ -1317,6 +1317,12 @@
             "la": "Rochus",
             "pl": "Roch"
         },
+        "records/patrons/romanus/abb": {
+            "fr": "Romain de Condat",
+            "pl": "Roman Jurajski",
+            "en": "Roman of Condat",
+            "la": "Romanus de Monte Iura"
+        },
         "records/patrons/romanus/arc": {
             "pl": "Roman Archutowski",
             "en": "Roman Archutowski",

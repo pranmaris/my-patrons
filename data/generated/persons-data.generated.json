@@ -5716,8 +5716,21 @@
         "names": {
             "la": "Romanus",
             "en": "Roman",
-            "pl": "Roman"
+            "pl": "Roman",
+            "fr": "Romain"
         }
+    },
+    "patrons/romanus/abb": {
+        "names": {
+            "fr": "Romain de Condat",
+            "pl": "Roman Jurajski",
+            "en": "Roman of Condat",
+            "la": "Romanus de Monte Iura"
+        },
+        "died": [
+            "~463"
+        ],
+        "feasts": []
     },
     "patrons/romanus/arc": {
         "names": {

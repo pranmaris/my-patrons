@@ -54,6 +54,12 @@
             "la": "Leonardus Lemovicensis",
             "pl": "Leonard z Limoges"
         },
+        "records/patrons/romanus/abb": {
+            "fr": "Romain de Condat",
+            "pl": "Roman Jurajski",
+            "en": "Roman of Condat",
+            "la": "Romanus de Monte Iura"
+        },
         "records/patrons/romualdus/cam": {
             "it": "Romualdo di Camaldoli",
             "en": "Romuald of Camaldoli",

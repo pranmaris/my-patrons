@@ -812,6 +812,19 @@
             }
         }
     },
+    "02-28": {
+        "records/patrons/romanus/abb": {
+            "name": {
+                "fr": "Romain de Condat",
+                "pl": "Roman Jurajski",
+                "en": "Roman of Condat",
+                "la": "Romanus de Monte Iura"
+            },
+            "sources": {
+                "other-martyrology-days": "28 II"
+            }
+        }
+    },
     "02-29": {
         "records/patrons/hilarius/1pp": {
             "name": {
@@ -869,6 +882,17 @@
             "sources": {
                 "other-martyrology-days": "29 II"
             }
+        },
+        "records/patrons/romanus/abb": {
+            "name": {
+                "fr": "Romain de Condat",
+                "pl": "Roman Jurajski",
+                "en": "Roman of Condat",
+                "la": "Romanus de Monte Iura"
+            },
+            "sources": {
+                "other-martyrology-days": "29 II"
+            }
         }
     },
     "02n24": {
@@ -912,6 +936,17 @@
                 "la": "Papa Hilarius",
                 "en": "Pope Hillary",
                 "pl": "Hilary Papież"
+            },
+            "sources": {
+                "other-martyrology-days": "28 II"
+            }
+        },
+        "records/patrons/romanus/abb": {
+            "name": {
+                "fr": "Romain de Condat",
+                "pl": "Roman Jurajski",
+                "en": "Roman of Condat",
+                "la": "Romanus de Monte Iura"
             },
             "sources": {
                 "other-martyrology-days": "28 II"
