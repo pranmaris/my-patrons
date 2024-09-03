@@ -2783,6 +2783,17 @@
             "es": "Enrique"
         }
     },
+    "patrons/henricus/krz": {
+        "names": {
+            "pl": "Henryk Krzysztofik",
+            "en": "Henry Krzysztofik",
+            "la": "Henricus Krzysztofik"
+        },
+        "died": [
+            "1942-08-04"
+        ],
+        "feasts": []
+    },
     "patrons/henricus/mor": {
         "names": {
             "es": "Enrique Morant Pellicer",

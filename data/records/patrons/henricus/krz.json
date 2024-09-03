@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Henryk Krzysztofik"
+    ],
+    "en": [
+      "Henry Krzysztofik"
+    ],
+    "la": [
+      "Henricus Krzysztofik"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Krzysztofik"
+    }
+  ],
+
+  "born": ["1908-05-22"],
+  "died": ["1942-08-04"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["08-04"],
+
+  "forenames": ["henricus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}
