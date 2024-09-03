@@ -1,0 +1,28 @@
+{
+  "names": {
+    "pl": [
+      "Jacek Odrowąż"
+    ],
+    "en": [
+      "Hyacinth of Poland"
+    ],
+    "la": [
+      "Hyacinthus Polonus"
+    ]
+  },
+
+  "born": ["1183"],
+  "died": ["1257-08-15"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1594-04-17"
+  },
+
+  "also-in-martyrology": ["08-15", "08-17"],
+
+  "forenames": ["hyacinthus"],
+  "categories": ["vir", "confessor", "presbyter"],
+
+  "order": ["op"]
+}

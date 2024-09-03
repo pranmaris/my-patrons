@@ -3599,6 +3599,17 @@
         }
     },
     "08-15": {
+        "records/patrons/hyacinthus/cra": {
+            "name": {
+                "pl": "Jacek Odrowąż",
+                "en": "Hyacinth of Poland",
+                "la": "Hyacinthus Polonus"
+            },
+            "sources": {
+                "reliable-death-anniversary": "15 VIII",
+                "other-martyrology-days": "15 VIII"
+            }
+        },
         "records/patrons/stanislaus/kos": {
             "name": {
                 "pl": "Stanisław Kostka",
@@ -3642,6 +3653,18 @@
             },
             "sources": {
                 "other-martyrology-days": "16 VIII"
+            }
+        }
+    },
+    "08-17": {
+        "records/patrons/hyacinthus/cra": {
+            "name": {
+                "pl": "Jacek Odrowąż",
+                "en": "Hyacinth of Poland",
+                "la": "Hyacinthus Polonus"
+            },
+            "sources": {
+                "other-martyrology-days": "17 VIII"
             }
         }
     },

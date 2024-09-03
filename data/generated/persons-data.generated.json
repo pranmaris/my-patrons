@@ -2905,6 +2905,24 @@
         ],
         "feasts": []
     },
+    "patrons/hyacinthus": {
+        "names": {
+            "la": "Hyacinthus",
+            "en": "Hyacinth",
+            "pl": "Jacek"
+        }
+    },
+    "patrons/hyacinthus/cra": {
+        "names": {
+            "pl": "Jacek Odrowąż",
+            "en": "Hyacinth of Poland",
+            "la": "Hyacinthus Polonus"
+        },
+        "died": [
+            "1257-08-15"
+        ],
+        "feasts": []
+    },
     "patrons/iacobinus": {
         "names": {
             "la": "Iacobinus",

@@ -196,6 +196,11 @@
             "en": "Hormisdas",
             "pl": "Hormizdas"
         },
+        "records/patrons/hyacinthus/cra": {
+            "pl": "Jacek Odrowąż",
+            "en": "Hyacinth of Poland",
+            "la": "Hyacinthus Polonus"
+        },
         "records/patrons/ignatius/loy": {
             "es": "Ignacio de Loyola",
             "la": "Ignatius de Loyola",

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Hyacinthus"
+    },
+    "translations": {
+        "la": [
+            "Hyacinthus"
+        ],
+        "en": [
+            "Hyacinth"
+        ],
+        "pl": [
+            "Jacek"
+        ]
+    },
+    "links": {
+        "records/patrons/hyacinthus/cra": {
+            "pl": "Jacek Odrowąż",
+            "en": "Hyacinth of Poland",
+            "la": "Hyacinthus Polonus"
+        }
+    }
+}
