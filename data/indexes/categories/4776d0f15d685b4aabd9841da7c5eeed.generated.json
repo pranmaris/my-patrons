@@ -26,6 +26,12 @@
             "la": "Ioanna de Valois",
             "pl": "Joanna de Valois"
         },
+        "records/patrons/magdalena/can": {
+            "it": "Maddalena di Canossa",
+            "en": "Magdalene of Canossa",
+            "la": "Magdalena de Canossa",
+            "pl": "Magdalena z Canossy"
+        },
         "records/patrons/margarita/sze": {
             "pl": "Małgorzata Łucja Szewczyk",
             "en": "Margaret Lucy Szewczyk",
@@ -48,6 +54,11 @@
             "en": "Maria Francesca of Jesus",
             "la": "Maria Francisca a Iesu",
             "pl": "Maria Franciszka od Jezusa"
+        },
+        "records/patrons/maria/sie": {
+            "pl": "Maria od Jezusa Dobrego Pasterza",
+            "en": "Maria of Jesus the Good Shepherd",
+            "la": "Maria a Iesu Bono Pastore"
         },
         "records/patrons/sophia/mac": {
             "pl": "Zofia Czeska",
