@@ -711,6 +711,18 @@
             "pt": "André"
         }
     },
+    "patrons/andreas/alr": {
+        "names": {
+            "fr": "André-Abel Alricy",
+            "pl": "Andrzej Abel Alricy",
+            "en": "Andrew Abel Alricy",
+            "la": "Andreas Abel Alricy"
+        },
+        "died": [
+            "1792-09-03"
+        ],
+        "feasts": []
+    },
     "patrons/andreas/apo": {
         "names": {
             "grc": "Ανδρέας",

@@ -72,6 +72,12 @@
             "en": "Anastasia of Sirmium",
             "pl": "Anastazja z Dalmacji"
         },
+        "records/patrons/andreas/alr": {
+            "fr": "André-Abel Alricy",
+            "pl": "Andrzej Abel Alricy",
+            "en": "Andrew Abel Alricy",
+            "la": "Andreas Abel Alricy"
+        },
         "records/patrons/andreas/apo": {
             "grc": "Ανδρέας",
             "en": "Andrew the Apostle",

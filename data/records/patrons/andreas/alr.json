@@ -1,0 +1,35 @@
+{
+  "names": {
+    "fr": [
+      "André-Abel Alricy"
+    ],
+    "pl": [
+      "Andrzej Abel Alricy"
+    ],
+    "en": [
+      "Andrew Abel Alricy"
+    ],
+    "la": [
+      "Andreas Abel Alricy"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Alricy"
+    }
+  ],
+
+  "born": ["1712-08-02"],
+  "died": ["1792-09-03"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1926-10-17"
+  },
+
+  "also-in-martyrology": ["09-03"],
+
+  "forenames": ["andreas", "abel"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

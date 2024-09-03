@@ -117,6 +117,12 @@
             "en": "Ambrose of Milan",
             "pl": "Ambroży z Mediolanu"
         },
+        "records/patrons/andreas/alr": {
+            "fr": "André-Abel Alricy",
+            "pl": "Andrzej Abel Alricy",
+            "en": "Andrew Abel Alricy",
+            "la": "Andreas Abel Alricy"
+        },
         "records/patrons/andreas/apo": {
             "grc": "Ανδρέας",
             "en": "Andrew the Apostle",

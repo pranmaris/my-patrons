@@ -3992,6 +3992,18 @@
         }
     },
     "09-03": {
+        "records/patrons/andreas/alr": {
+            "name": {
+                "fr": "André-Abel Alricy",
+                "pl": "Andrzej Abel Alricy",
+                "en": "Andrew Abel Alricy",
+                "la": "Andreas Abel Alricy"
+            },
+            "sources": {
+                "reliable-death-anniversary": "3 IX",
+                "other-martyrology-days": "3 IX"
+            }
+        },
         "records/patrons/gregorius/1pp": {
             "name": {
                 "la": "Gregorius Magnus",

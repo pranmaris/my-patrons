@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Alricy"
+    },
+    "translations": {
+        "fr": [
+            "Alricy"
+        ]
+    },
+    "links": {
+        "records/patrons/andreas/alr": {
+            "fr": "André-Abel Alricy",
+            "pl": "Andrzej Abel Alricy",
+            "en": "Andrew Abel Alricy",
+            "la": "Andreas Abel Alricy"
+        }
+    }
+}
