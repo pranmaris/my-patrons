@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Julitta"
+    },
+    "translations": {
+        "la": [
+            "Iulitta",
+            "Julitta"
+        ],
+        "en": [
+            "Juliet"
+        ],
+        "pl": [
+            "Julita"
+        ],
+        "el": [
+            "Ιουλίτα"
+        ]
+    },
+    "links": {
+        "records/patrons/iulitta/cae": {
+            "el": "Ιουλίτα της Καισάρειας",
+            "en": "Julitta of Caesarea",
+            "la": "Julitta Caesariensis",
+            "pl": "Julita z Cezarei"
+        }
+    }
+}

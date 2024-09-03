@@ -3716,6 +3716,26 @@
         ],
         "feasts": []
     },
+    "patrons/iulitta": {
+        "names": {
+            "la": "Iulitta",
+            "en": "Juliet",
+            "pl": "Julita",
+            "el": "Ιουλίτα"
+        }
+    },
+    "patrons/iulitta/cae": {
+        "names": {
+            "el": "Ιουλίτα της Καισάρειας",
+            "en": "Julitta of Caesarea",
+            "la": "Julitta Caesariensis",
+            "pl": "Julita z Cezarei"
+        },
+        "died": [
+            "~303"
+        ],
+        "feasts": []
+    },
     "patrons/iustina": {
         "names": {
             "la": "Iustina",

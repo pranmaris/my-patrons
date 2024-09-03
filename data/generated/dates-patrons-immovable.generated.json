@@ -3051,6 +3051,17 @@
         }
     },
     "07-30": {
+        "records/patrons/iulitta/cae": {
+            "name": {
+                "el": "Ιουλίτα της Καισάρειας",
+                "en": "Julitta of Caesarea",
+                "la": "Julitta Caesariensis",
+                "pl": "Julita z Cezarei"
+            },
+            "sources": {
+                "other-martyrology-days": "30 VII"
+            }
+        },
         "records/patrons/petrus/chr": {
             "name": {
                 "la": "Petrus Chrysologus",

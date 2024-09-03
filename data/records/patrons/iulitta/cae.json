@@ -1,0 +1,23 @@
+{
+  "names": {
+    "el": [
+      "Ιουλίτα της Καισάρειας"
+    ],
+    "en": [
+      "Julitta of Caesarea"
+    ],
+    "la": [
+      "Julitta Caesariensis"
+    ],
+    "pl": [
+      "Julita z Cezarei"
+    ]
+  },
+
+  "died": ["~303"],
+
+  "also-in-martyrology": ["07-30"],
+
+  "forenames": ["iulitta"],
+  "categories": ["femina", "martyrix"]
+}
