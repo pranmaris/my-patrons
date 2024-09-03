@@ -108,6 +108,11 @@
             "la": "Bonifatius Winfrid",
             "pl": "Bonifacy Wynfryd"
         },
+        "records/patrons/caesarius/are": {
+            "la": "Caesarius Arelatensis",
+            "pl": "Cezary z Arles",
+            "en": "Caesarius of Arles"
+        },
         "records/patrons/carolus/bor": {
             "it": "Carlo Borromeo",
             "la": "Carolus Borromeo",
