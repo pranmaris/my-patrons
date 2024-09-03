@@ -44,6 +44,12 @@
             "la": "Bartholomaeus Longo",
             "pl": "Bartolo Longo"
         },
+        "records/patrons/bernardus/cla": {
+            "fr": "Bernard de Clairvaux",
+            "pl": "Bernard z Clairvaux",
+            "en": "Bernard of Clairvaux",
+            "la": "Bernardus Claravallensis"
+        },
         "records/patrons/bruno/ere": {
             "de": "Bruno von Köln",
             "en": "Bruno of Cologne",

@@ -1,0 +1,32 @@
+{
+  "names": {
+    "fr": [
+      "Bernard de Clairvaux",
+      "Bernard de Fontaine, abbé de Clairvaux"
+    ],
+    "pl": [
+      "Bernard z Clairvaux"
+    ],
+    "en": [
+      "Bernard of Clairvaux"
+    ],
+    "la": [
+      "Bernardus Claravallensis"
+    ]
+  },
+
+  "born": ["~1090", "~1091"],
+  "died": ["1153-08-20"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1174-01-18"
+  },
+
+  "also-in-martyrology": ["08-20"],
+
+  "forenames": ["bernardus"],
+  "categories": ["vir", "fundator", "abbas", "doctor-ecclesiae"],
+
+  "order": ["ocist"]
+}

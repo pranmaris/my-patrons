@@ -3669,6 +3669,18 @@
         }
     },
     "08-20": {
+        "records/patrons/bernardus/cla": {
+            "name": {
+                "fr": "Bernard de Clairvaux",
+                "pl": "Bernard z Clairvaux",
+                "en": "Bernard of Clairvaux",
+                "la": "Bernardus Claravallensis"
+            },
+            "sources": {
+                "reliable-death-anniversary": "20 VIII",
+                "other-martyrology-days": "20 VIII"
+            }
+        },
         "records/patrons/pius/10p": {
             "name": {
                 "it": "Papa Pio X",

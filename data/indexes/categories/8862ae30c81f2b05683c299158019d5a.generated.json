@@ -53,6 +53,12 @@
             "la": "Basilius Magnus",
             "pl": "Bazyli Wielki"
         },
+        "records/patrons/bernardus/cla": {
+            "fr": "Bernard de Clairvaux",
+            "pl": "Bernard z Clairvaux",
+            "en": "Bernard of Clairvaux",
+            "la": "Bernardus Claravallensis"
+        },
         "records/patrons/cyrillus/ale": {
             "la": "Cyrillus Alexandrinus",
             "en": "Cyril of Alexandria",

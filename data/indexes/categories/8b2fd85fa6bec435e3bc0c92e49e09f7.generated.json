@@ -25,6 +25,12 @@
             "en": "Banadict of Nursia",
             "pl": "Benedykt z Nursji"
         },
+        "records/patrons/bernardus/cla": {
+            "fr": "Bernard de Clairvaux",
+            "pl": "Bernard z Clairvaux",
+            "en": "Bernard of Clairvaux",
+            "la": "Bernardus Claravallensis"
+        },
         "records/patrons/dominicus/exi": {
             "es": "Domingo de Silos",
             "en": "Dominic of Silos",

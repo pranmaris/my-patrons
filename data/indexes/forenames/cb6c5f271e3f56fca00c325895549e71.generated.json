@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Bernardus"
+    },
+    "translations": {
+        "la": [
+            "Bernardus"
+        ],
+        "en": [
+            "Bernard"
+        ],
+        "pl": [
+            "Bernard"
+        ],
+        "fr": [
+            "Bernard"
+        ]
+    },
+    "links": {
+        "records/patrons/bernardus/cla": {
+            "fr": "Bernard de Clairvaux",
+            "pl": "Bernard z Clairvaux",
+            "en": "Bernard of Clairvaux",
+            "la": "Bernardus Claravallensis"
+        }
+    }
+}
