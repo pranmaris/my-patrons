@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/aegidius/abb": {
+            "fr": "Gilles l'Ermite",
+            "pl": "Idzi Eremita",
+            "en": "Giles the Hermit",
+            "la": "Aegidius Abbas"
+        },
         "records/patrons/albertus/mag": {
             "de": "Albert der Große",
             "en": "Albert the Great",

@@ -399,6 +399,28 @@
         ],
         "feasts": []
     },
+    "patrons/aegidius": {
+        "names": {
+            "la": "Aegidius",
+            "en": "Giles",
+            "pl": "Idzi",
+            "fr": "Gilles"
+        }
+    },
+    "patrons/aegidius/abb": {
+        "names": {
+            "fr": "Gilles l'Ermite",
+            "pl": "Idzi Eremita",
+            "en": "Giles the Hermit",
+            "la": "Aegidius Abbas"
+        },
+        "died": [
+            "~710",
+            ">720",
+            "<725"
+        ],
+        "feasts": []
+    },
     "patrons/aemilianus": {
         "names": {
             "la": "Aemilianus",

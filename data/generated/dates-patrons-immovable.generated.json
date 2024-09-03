@@ -3931,6 +3931,19 @@
             }
         }
     },
+    "09-01": {
+        "records/patrons/aegidius/abb": {
+            "name": {
+                "fr": "Gilles l'Ermite",
+                "pl": "Idzi Eremita",
+                "en": "Giles the Hermit",
+                "la": "Aegidius Abbas"
+            },
+            "sources": {
+                "other-martyrology-days": "1 IX"
+            }
+        }
+    },
     "09-02": {
         "records/patrons/antoninus/apa": {
             "name": {

@@ -1,0 +1,26 @@
+{
+  "names": {
+    "fr": [
+      "Gilles l'Ermite"
+    ],
+    "pl": [
+      "Idzi Eremita",
+      "Idzi Opat"
+    ],
+    "en": [
+      "Giles the Hermit"
+    ],
+    "la": [
+      "Aegidius Abbas",
+      "Aegidius Eremita"
+    ]
+  },
+
+  "born": [">640", "<650"],
+  "died": ["~710", ">720", "<725"],
+
+  "also-in-martyrology": ["09-01"],
+
+  "forenames": ["aegidius"],
+  "categories": ["vir", "confessor", "abbas"]
+}
