@@ -1,0 +1,42 @@
+{
+  "names": {
+    "fr": [
+      "Marie-Rose Durocher",
+      "Eulalie Mélanie Durocher"
+    ],
+    "pl": [
+      "Maria Róża Durocher",
+      "Eulalia Melania Durocher"
+    ],
+    "en": [
+      "Marie Rose Durocher",
+      "Eulalie Melanie Durocher"
+    ],
+    "la": [
+      "Maria Rosa Durocher",
+      "Eulalia Durocher"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Durocher"
+    }
+  ],
+
+  "born": ["1811-10-06"],
+  "died": ["1849-10-06"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1982-05-23"
+  },
+
+  "also-in-martyrology": ["10-06"],
+
+  "forenames": ["maria", "rosa", "eulalia"],
+  "categories": ["femina"],
+
+  "order": ["snjm"],
+  "order-founder": ["snjm"]
+}

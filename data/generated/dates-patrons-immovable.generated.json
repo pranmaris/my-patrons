@@ -4616,6 +4616,18 @@
                 "reliable-death-anniversary": "6 X",
                 "other-martyrology-days": "6 X"
             }
+        },
+        "records/patrons/maria/dur": {
+            "name": {
+                "fr": "Marie-Rose Durocher",
+                "pl": "Maria Róża Durocher",
+                "en": "Marie Rose Durocher",
+                "la": "Maria Rosa Durocher"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 X",
+                "other-martyrology-days": "6 X"
+            }
         }
     },
     "10-07": {

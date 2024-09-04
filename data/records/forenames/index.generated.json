@@ -508,6 +508,12 @@
         "en": "Eugenia",
         "pl": "Eugenia"
     },
+    "eulalia": {
+        "la": "Eulalia",
+        "en": "Eulalie",
+        "pl": "Eulalia",
+        "fr": "Eulalie"
+    },
     "eulogius": {
         "la": "Eulogius",
         "en": "Eulogius",
@@ -1225,6 +1231,7 @@
         "en": "Rose",
         "pl": "Róża",
         "es": "Rosa",
+        "fr": "Rose",
         "it": "Rosa"
     },
     "rosalia": {

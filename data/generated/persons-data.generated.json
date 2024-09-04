@@ -4330,6 +4330,18 @@
         ],
         "feasts": []
     },
+    "patrons/maria/dur": {
+        "names": {
+            "fr": "Marie-Rose Durocher",
+            "pl": "Maria Róża Durocher",
+            "en": "Marie Rose Durocher",
+            "la": "Maria Rosa Durocher"
+        },
+        "died": [
+            "1849-10-06"
+        ],
+        "feasts": []
+    },
     "patrons/maria/joz": {
         "names": {
             "pl": "Maria Daniela od Jezusa i Maryi Niepokalanej",
@@ -5817,6 +5829,7 @@
             "en": "Rose",
             "pl": "Róża",
             "es": "Rosa",
+            "fr": "Rose",
             "it": "Rosa"
         }
     },

@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Eulalia",
+        "pl": "Eulalia"
+    },
+    "translations": {
+        "la": [
+            "Eulalia"
+        ],
+        "en": [
+            "Eulalie"
+        ],
+        "pl": [
+            "Eulalia"
+        ],
+        "fr": [
+            "Eulalie"
+        ]
+    },
+    "links": {
+        "records/patrons/maria/dur": {
+            "fr": "Marie-Rose Durocher",
+            "pl": "Maria Róża Durocher",
+            "en": "Marie Rose Durocher",
+            "la": "Maria Rosa Durocher"
+        }
+    }
+}

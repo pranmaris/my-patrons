@@ -154,7 +154,8 @@
         "pl": "Eleonora"
     },
     "0df4dccc4aac3f6f36e00ef2a6a4bfac": {
-        "en": "Rose"
+        "en": "Rose",
+        "fr": "Rose"
     },
     "0e1c2885bc3fcd96020d335699835ac9": {
         "pl": "Róża"
@@ -838,6 +839,10 @@
     "5811aa05fd3d3bdfa9646c0b496a7d34": {
         "it": "Pietro"
     },
+    "587ca03991283ed3b40c076f87c34163": {
+        "la": "Eulalia",
+        "pl": "Eulalia"
+    },
     "58926ba6398968a32ab9f05c72737668": {
         "la": "אַהֲרֹן"
     },
@@ -1121,6 +1126,10 @@
     },
     "7aa99682f9d3a129f54e0eae9ccd3628": {
         "it": "Roberto"
+    },
+    "7afb5c6ff07004cf37877eeff2d0166c": {
+        "en": "Eulalie",
+        "fr": "Eulalie"
     },
     "7c1a4930e7626a911043374828a73610": {
         "la": "Iarognievus",
