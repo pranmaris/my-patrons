@@ -4472,6 +4472,17 @@
         }
     },
     "10-01": {
+        "records/patrons/antonius/rew": {
+            "name": {
+                "pl": "Antoni Rewera",
+                "en": "Anthony Rewera",
+                "la": "Antonius Rewera"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 X",
+                "other-martyrology-days": "1 X"
+            }
+        },
         "records/patrons/teresia/inf": {
             "name": {
                 "fr": "Thérèse de Lisieux",

@@ -126,6 +126,11 @@
             "en": "Antoninus /+ Nicephorus and others",
             "pl": "Antonin /+ Nicefor i inni"
         },
+        "records/patrons/antonius/rew": {
+            "pl": "Antoni Rewera",
+            "en": "Anthony Rewera",
+            "la": "Antonius Rewera"
+        },
         "records/patrons/augustinus/zha": {
             "zh": "趙榮",
             "en": "Augustine Zhao Rong",

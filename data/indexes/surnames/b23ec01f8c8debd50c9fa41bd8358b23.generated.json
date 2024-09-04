@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Rewera"
+    },
+    "translations": {
+        "pl": [
+            "Rewera"
+        ]
+    },
+    "links": {
+        "records/patrons/antonius/rew": {
+            "pl": "Antoni Rewera",
+            "en": "Anthony Rewera",
+            "la": "Antonius Rewera"
+        }
+    }
+}
