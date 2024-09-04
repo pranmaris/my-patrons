@@ -194,6 +194,11 @@
             "en": "Sabigothon Natalie /+ Aurelius and others",
             "pl": "Sabigotona Natalia /+ Aureliusz i inni"
         },
+        "records/patrons/sine/ulm": {
+            "pl": "Nienarodzone dziecko Ulmów",
+            "en": "Unborn Child of the Ulma Family",
+            "la": "Infans Non Natus Ulmarum"
+        },
         "records/patrons/sophia/fir": {
             "it": "Sofia di Fermo",
             "la": "Sophia Firmana",

@@ -1352,6 +1352,16 @@
                 "other-martyrology-days": "24 III"
             }
         },
+        "records/patrons/sine/ulm": {
+            "name": {
+                "pl": "Nienarodzone dziecko Ulmów",
+                "en": "Unborn Child of the Ulma Family",
+                "la": "Infans Non Natus Ulmarum"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 III"
+            }
+        },
         "records/patrons/gabriel/arc": {
             "name": {
                 "la": "Gabriel Archangelus",

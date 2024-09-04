@@ -1,0 +1,30 @@
+{
+  "names": {
+    "pl": [
+      "Nienarodzone dziecko Ulmów"
+    ],
+    "en": [
+      "Unborn Child of the Ulma Family"
+    ],
+    "la": [
+      "Infans Non Natus Ulmarum"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Ulma"
+    }
+  ],
+
+  "born": ["1944-03-24"],
+  "died": ["1944-03-24"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2023-09-10"
+  },
+
+  "forenames": ["sine"],
+  "categories": ["martyr", "martyrix"]
+}

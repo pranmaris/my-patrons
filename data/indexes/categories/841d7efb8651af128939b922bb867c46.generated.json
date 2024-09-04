@@ -626,6 +626,11 @@
             "en": "Simon Apostle",
             "pl": "Szymon Apostoł"
         },
+        "records/patrons/sine/ulm": {
+            "pl": "Nienarodzone dziecko Ulmów",
+            "en": "Unborn Child of the Ulma Family",
+            "la": "Infans Non Natus Ulmarum"
+        },
         "records/patrons/stanislaus/cra": {
             "pl": "Stanisław ze Szczepanowa",
             "en": "Stanislaus of Szczepanów",

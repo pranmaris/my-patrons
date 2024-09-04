@@ -6016,6 +6016,24 @@
         ],
         "feasts": []
     },
+    "patrons/sine": {
+        "names": {
+            "la": "Sine",
+            "en": "Without",
+            "pl": "Bez"
+        }
+    },
+    "patrons/sine/ulm": {
+        "names": {
+            "pl": "Nienarodzone dziecko Ulmów",
+            "en": "Unborn Child of the Ulma Family",
+            "la": "Infans Non Natus Ulmarum"
+        },
+        "died": [
+            "1944-03-24"
+        ],
+        "feasts": []
+    },
     "patrons/sophia": {
         "names": {
             "la": "Sophia",

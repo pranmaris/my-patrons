@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Ulma"
+    },
+    "translations": {
+        "pl": [
+            "Ulma"
+        ]
+    },
+    "links": {
+        "records/patrons/sine/ulm": {
+            "pl": "Nienarodzone dziecko Ulmów",
+            "en": "Unborn Child of the Ulma Family",
+            "la": "Infans Non Natus Ulmarum"
+        }
+    }
+}
