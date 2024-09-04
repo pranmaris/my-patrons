@@ -190,6 +190,13 @@
             "en": "Radim Gaudentius",
             "la": "Gaudentius seu Radzim"
         },
+        "records/patrons/gerardus/sag": {
+            "it": "Gerardo Sagredo",
+            "hu": "Sagredo Gellért",
+            "en": "Gerard Sagredo",
+            "la": "Gerardus Sagredo",
+            "pl": "Gerard Sagredo"
+        },
         "records/patrons/gregorius/naz": {
             "grc": "Γρηγόριος Ναζιανζηνός",
             "en": "Gregory of Nazianzus",

@@ -14,6 +14,12 @@
         ],
         "fr": [
             "Gérard"
+        ],
+        "hu": [
+            "Gellért"
+        ],
+        "it": [
+            "Gerardo"
         ]
     },
     "links": {
@@ -22,6 +28,13 @@
             "en": "Gerard of Brogne",
             "la": "Gerardus Broniensis",
             "pl": "Gerard z Brogne"
+        },
+        "records/patrons/gerardus/sag": {
+            "it": "Gerardo Sagredo",
+            "hu": "Sagredo Gellért",
+            "en": "Gerard Sagredo",
+            "la": "Gerardus Sagredo",
+            "pl": "Gerard Sagredo"
         }
     }
 }

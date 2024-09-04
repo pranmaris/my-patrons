@@ -4314,6 +4314,21 @@
             }
         }
     },
+    "09-24": {
+        "records/patrons/gerardus/sag": {
+            "name": {
+                "it": "Gerardo Sagredo",
+                "hu": "Sagredo Gellért",
+                "en": "Gerard Sagredo",
+                "la": "Gerardus Sagredo",
+                "pl": "Gerard Sagredo"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 IX",
+                "other-martyrology-days": "24 IX"
+            }
+        }
+    },
     "09-25": {
         "records/patrons/sergius/rad": {
             "name": {

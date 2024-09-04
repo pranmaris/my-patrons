@@ -1,0 +1,47 @@
+{
+  "names": {
+    "it": [
+      "Gerardo Sagredo"
+    ],
+    "hu": [
+      "Sagredo Gellért"
+    ],
+    "en": [
+      "Gerard Sagredo"
+    ],
+    "la": [
+      "Gerardus Sagredo"
+    ],
+    "pl": [
+      "Gerard Sagredo"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Sagredo"
+    }
+  ],
+  "epithets": [
+    {
+      "it": "Apostolo degli Ungari",
+      "hu": "A Magyarok Apostola",
+      "la": "Hungarorum Apostolus",
+      "en": "Apostle of the Hungarians",
+      "pl": "Apostoł Węgrów"
+    }
+  ],
+
+  "born": ["~980"],
+  "died": ["1046-09-24"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1083"
+  },
+
+  "also-in-martyrology": ["09-24"],
+
+  "forenames": ["gerardus"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

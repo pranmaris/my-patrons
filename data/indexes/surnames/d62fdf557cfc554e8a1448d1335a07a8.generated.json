@@ -1,0 +1,19 @@
+{
+    "names": {
+        "it": "Sagredo"
+    },
+    "translations": {
+        "it": [
+            "Sagredo"
+        ]
+    },
+    "links": {
+        "records/patrons/gerardus/sag": {
+            "it": "Gerardo Sagredo",
+            "hu": "Sagredo Gellért",
+            "en": "Gerard Sagredo",
+            "la": "Gerardus Sagredo",
+            "pl": "Gerard Sagredo"
+        }
+    }
+}

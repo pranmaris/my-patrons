@@ -1,0 +1,31 @@
+{
+    "names": {
+        "pl": "Apostoł Węgrów"
+    },
+    "translations": {
+        "it": [
+            "Apostolo degli Ungari"
+        ],
+        "hu": [
+            "A Magyarok Apostola"
+        ],
+        "la": [
+            "Hungarorum Apostolus"
+        ],
+        "en": [
+            "Apostle of the Hungarians"
+        ],
+        "pl": [
+            "Apostoł Węgrów"
+        ]
+    },
+    "links": {
+        "records/patrons/gerardus/sag": {
+            "it": "Gerardo Sagredo",
+            "hu": "Sagredo Gellért",
+            "en": "Gerard Sagredo",
+            "la": "Gerardus Sagredo",
+            "pl": "Gerard Sagredo"
+        }
+    }
+}

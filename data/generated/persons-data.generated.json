@@ -2683,7 +2683,9 @@
             "la": "Gerardus",
             "en": "Gerard",
             "pl": "Gerard",
-            "fr": "Gérard"
+            "fr": "Gérard",
+            "hu": "Gellért",
+            "it": "Gerardo"
         }
     },
     "patrons/gerardus/abb": {
@@ -2695,6 +2697,19 @@
         },
         "died": [
             "959-10-03"
+        ],
+        "feasts": []
+    },
+    "patrons/gerardus/sag": {
+        "names": {
+            "it": "Gerardo Sagredo",
+            "hu": "Sagredo Gellért",
+            "en": "Gerard Sagredo",
+            "la": "Gerardus Sagredo",
+            "pl": "Gerard Sagredo"
+        },
+        "died": [
+            "1046-09-24"
         ],
         "feasts": []
     },
