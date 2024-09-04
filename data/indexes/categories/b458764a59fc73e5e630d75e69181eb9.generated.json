@@ -19,6 +19,11 @@
             "la": "Ignatius de Loyola",
             "en": "Ignatius of Loyola",
             "pl": "Ignacy Loyola"
+        },
+        "records/patrons/mauritius/the": {
+            "la": "Mauritius Legionis Thebanae",
+            "en": "Maurice of the Theban Legion",
+            "pl": "Maurycy z Legii Tebańskiej"
         }
     }
 }

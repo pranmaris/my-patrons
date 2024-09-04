@@ -4804,6 +4804,24 @@
         ],
         "feasts": []
     },
+    "patrons/mauritius": {
+        "names": {
+            "la": "Mauritius",
+            "en": "Maurice",
+            "pl": "Maurycy"
+        }
+    },
+    "patrons/mauritius/the": {
+        "names": {
+            "la": "Mauritius Legionis Thebanae",
+            "en": "Maurice of the Theban Legion",
+            "pl": "Maurycy z Legii Tebańskiej"
+        },
+        "died": [
+            "~302"
+        ],
+        "feasts": []
+    },
     "patrons/maurus": {
         "names": {
             "la": "Maurus",

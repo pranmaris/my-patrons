@@ -1,25 +1,19 @@
 {
     "names": {
-        "pl": "żołnierz"
+        "pl": "Maurycy"
     },
     "translations": {
         "la": [
-            "miles"
+            "Mauritius"
         ],
         "en": [
-            "soldier"
+            "Maurice"
         ],
         "pl": [
-            "żołnierz"
+            "Maurycy"
         ]
     },
     "links": {
-        "records/patrons/ignatius/loy": {
-            "es": "Ignacio de Loyola",
-            "la": "Ignatius de Loyola",
-            "en": "Ignatius of Loyola",
-            "pl": "Ignacy Loyola"
-        },
         "records/patrons/mauritius/the": {
             "la": "Mauritius Legionis Thebanae",
             "en": "Maurice of the Theban Legion",

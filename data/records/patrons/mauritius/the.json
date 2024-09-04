@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Mauritius Legionis Thebanae"
+    ],
+    "en": [
+      "Maurice of the Theban Legion"
+    ],
+    "pl": [
+      "Maurycy z Legii Tebańskiej"
+    ]
+  },
+
+  "died": ["~302"],
+
+  "also-in-martyrology": ["09-22"],
+
+  "forenames": ["mauritius"],
+  "categories": ["vir", "martyr", "miles"]
+}
