@@ -1054,6 +1054,28 @@
                 "reliable-death-anniversary": "6 III",
                 "other-martyrology-days": "6 III"
             }
+        },
+        "records/patrons/perpetua/car": {
+            "name": {
+                "la": "Perpetua Carthaginensis",
+                "en": "Perpetua of Carthage",
+                "pl": "Perpetua z Kartaginy"
+            },
+            "sources": {
+                "mr-1956": "6 III: #1",
+                "mr-1960": "6 III: #1"
+            }
+        },
+        "records/patrons/felicitas/car": {
+            "name": {
+                "la": "Felicitas Carthaginensis",
+                "en": "Felicity of Carthage",
+                "pl": "Felicyta z Kartaginy"
+            },
+            "sources": {
+                "mr-1956": "6 III: #1",
+                "mr-1960": "6 III: #1"
+            }
         }
     },
     "03-07": {
@@ -2732,6 +2754,28 @@
             "sources": {
                 "reliable-death-anniversary": "7 VII",
                 "other-martyrology-days": "7 VII"
+            }
+        },
+        "records/patrons/cyrillus/met": {
+            "name": {
+                "la": "Cyrillus /+ Methodius",
+                "en": "Cyril of Thessalonica",
+                "pl": "Cyryl /+ Metody"
+            },
+            "sources": {
+                "mr-1956": "7 VII: #1",
+                "mr-1960": "7 VII: #1"
+            }
+        },
+        "records/patrons/methodius/cyr": {
+            "name": {
+                "la": "Methodius /+ Cyrillus",
+                "en": "Methodius /+ Cyril",
+                "pl": "Metody /+ Cyryl"
+            },
+            "sources": {
+                "mr-1956": "7 VII: #1",
+                "mr-1960": "7 VII: #1"
             }
         }
     },

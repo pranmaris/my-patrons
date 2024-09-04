@@ -19,12 +19,8 @@
   "forenames": ["perpetua"],
   "categories": ["femina", "martyrix", "catechumena"],
 
-  "feasts": {
-    "pef": {
-      "data-links": {
-        "mr-1960": ["1:mar/6#1"],
-        "mr-1956": ["1:mar/6#1"]
-      }
-    }
+  "data-links": {
+    "mr-1960": ["1:mar/6#1"],
+    "mr-1956": ["1:mar/6#1"]
   }
 }

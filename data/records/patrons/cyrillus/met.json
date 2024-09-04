@@ -21,12 +21,8 @@
   "forenames": ["cyrillus", "constantinus"],
   "categories": ["vir", "confessor", "episcopus", "monachus"],
 
-  "feasts": {
-    "cem": {
-      "data-links": {
-        "mr-1960": ["1:iul/7#1"],
-        "mr-1956": ["1:iul/7#1"]
-      }
-    }
+  "data-links": {
+    "mr-1960": ["1:iul/7#1"],
+    "mr-1956": ["1:iul/7#1"]
   }
 }

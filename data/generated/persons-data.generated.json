@@ -1935,14 +1935,7 @@
         "died": [
             "869-02-14"
         ],
-        "feasts": {
-            "feasts/cem": {
-                "names": {
-                    "la": "Cyrilli et Methodii",
-                    "pl": "Cyryla i Metodego"
-                }
-            }
-        }
+        "feasts": []
     },
     "patrons/damianus": {
         "names": {
@@ -2369,14 +2362,7 @@
         "died": [
             "~203-03-07"
         ],
-        "feasts": {
-            "feasts/pef": {
-                "names": {
-                    "la": "Perpetuae et Felicitatis",
-                    "pl": "Perpetuy i Felicyty"
-                }
-            }
-        }
+        "feasts": []
     },
     "patrons/fidelis": {
         "names": {
@@ -4872,14 +4858,7 @@
         "died": [
             "~885-04-06"
         ],
-        "feasts": {
-            "feasts/cem": {
-                "names": {
-                    "la": "Cyrilli et Methodii",
-                    "pl": "Cyryla i Metodego"
-                }
-            }
-        }
+        "feasts": []
     },
     "patrons/michael": {
         "names": {
@@ -5310,14 +5289,7 @@
         "died": [
             "~203-03-07"
         ],
-        "feasts": {
-            "feasts/pef": {
-                "names": {
-                    "la": "Perpetuae et Felicitatis",
-                    "pl": "Perpetuy i Felicyty"
-                }
-            }
-        }
+        "feasts": []
     },
     "patrons/petrus": {
         "names": {
