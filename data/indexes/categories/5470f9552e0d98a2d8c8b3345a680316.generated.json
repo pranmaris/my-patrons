@@ -349,6 +349,12 @@
             "en": "Pope Pius X",
             "pl": "Pius X"
         },
+        "records/patrons/robertus/bel": {
+            "it": "Roberto Bellarmino",
+            "en": "Robert Bellarmine",
+            "la": "Robertus Bellarminus",
+            "pl": "Robert Bellarmin"
+        },
         "records/patrons/rupertus/sal": {
             "de": "Rupert von Salzburg",
             "en": "Rupert of Salzburg",

@@ -2140,6 +2140,17 @@
                 "reliable-death-anniversary": "13 V",
                 "other-martyrology-days": "13 V"
             }
+        },
+        "records/patrons/robertus/bel": {
+            "name": {
+                "it": "Roberto Bellarmino",
+                "en": "Robert Bellarmine",
+                "la": "Robertus Bellarminus",
+                "pl": "Robert Bellarmin"
+            },
+            "sources": {
+                "other-martyrology-days": "13 V"
+            }
         }
     },
     "05-14": {
@@ -4191,6 +4202,18 @@
         }
     },
     "09-17": {
+        "records/patrons/robertus/bel": {
+            "name": {
+                "it": "Roberto Bellarmino",
+                "en": "Robert Bellarmine",
+                "la": "Robertus Bellarminus",
+                "pl": "Robert Bellarmin"
+            },
+            "sources": {
+                "reliable-death-anniversary": "17 IX",
+                "other-martyrology-days": "17 IX"
+            }
+        },
         "records/patrons/sigismundus/fel": {
             "name": {
                 "pl": "Zygmunt Szczęsny Feliński",

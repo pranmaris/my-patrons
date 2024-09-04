@@ -369,6 +369,12 @@
             "la": "Richarius Centulensis",
             "pl": "Rychard z Centuli"
         },
+        "records/patrons/robertus/bel": {
+            "it": "Roberto Bellarmino",
+            "en": "Robert Bellarmine",
+            "la": "Robertus Bellarminus",
+            "pl": "Robert Bellarmin"
+        },
         "records/patrons/rochus/per": {
             "fr": "Roch de Montpellier",
             "en": "Roch",

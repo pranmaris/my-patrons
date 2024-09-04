@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Bellarminus"
+    },
+    "translations": {
+        "it": [
+            "Bellarmino"
+        ],
+        "en": [
+            "Bellarmine"
+        ],
+        "la": [
+            "Bellarminus"
+        ],
+        "pl": [
+            "Bellarmin"
+        ]
+    },
+    "links": {
+        "records/patrons/robertus/bel": {
+            "it": "Roberto Bellarmino",
+            "en": "Robert Bellarmine",
+            "la": "Robertus Bellarminus",
+            "pl": "Robert Bellarmin"
+        }
+    }
+}

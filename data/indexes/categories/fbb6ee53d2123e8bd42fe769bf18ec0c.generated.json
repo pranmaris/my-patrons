@@ -113,6 +113,12 @@
             "la": "Petrus Damiani",
             "pl": "Piotr Damiani"
         },
+        "records/patrons/robertus/bel": {
+            "it": "Roberto Bellarmino",
+            "en": "Robert Bellarmine",
+            "la": "Robertus Bellarminus",
+            "pl": "Robert Bellarmin"
+        },
         "records/patrons/teresia/ies": {
             "es": "Teresa de Jesús",
             "en": "Teresa of Ávila",

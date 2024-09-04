@@ -5676,6 +5676,26 @@
         ],
         "feasts": []
     },
+    "patrons/robertus": {
+        "names": {
+            "la": "Robertus",
+            "en": "Robert",
+            "pl": "Robert",
+            "it": "Roberto"
+        }
+    },
+    "patrons/robertus/bel": {
+        "names": {
+            "it": "Roberto Bellarmino",
+            "en": "Robert Bellarmine",
+            "la": "Robertus Bellarminus",
+            "pl": "Robert Bellarmin"
+        },
+        "died": [
+            "1621-09-17"
+        ],
+        "feasts": []
+    },
     "patrons/rochus": {
         "names": {
             "la": "Rochus",
