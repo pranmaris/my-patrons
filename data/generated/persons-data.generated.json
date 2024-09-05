@@ -3480,6 +3480,17 @@
         ],
         "feasts": []
     },
+    "patrons/ioannes/low": {
+        "names": {
+            "en": "John Lowe",
+            "la": "Ioannes Lowe",
+            "pl": "Jan Lowe"
+        },
+        "died": [
+            "1586-10-08"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/nep": {
         "names": {
             "cs": "Jan Nepomucký",

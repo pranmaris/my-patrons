@@ -1,0 +1,32 @@
+{
+  "names": {
+    "en": [
+      "John Lowe"
+    ],
+    "la": [
+      "Ioannes Lowe"
+    ],
+    "pl": [
+      "Jan Lowe"
+    ]
+  },
+
+  "surnames": [
+    {
+      "en": "Lowe"
+    }
+  ],
+
+  "born": ["~1553"],
+  "died": ["1586-10-08"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1987-11-22"
+  },
+
+  "also-in-martyrology": ["10-08"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

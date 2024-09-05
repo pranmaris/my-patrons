@@ -1,0 +1,17 @@
+{
+    "names": {
+        "en": "Lowe"
+    },
+    "translations": {
+        "en": [
+            "Lowe"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/low": {
+            "en": "John Lowe",
+            "la": "Ioannes Lowe",
+            "pl": "Jan Lowe"
+        }
+    }
+}

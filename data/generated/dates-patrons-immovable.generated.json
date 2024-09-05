@@ -4644,6 +4644,17 @@
         }
     },
     "10-08": {
+        "records/patrons/ioannes/low": {
+            "name": {
+                "en": "John Lowe",
+                "la": "Ioannes Lowe",
+                "pl": "Jan Lowe"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 X",
+                "other-martyrology-days": "8 X"
+            }
+        },
         "records/patrons/birgitta/sue": {
             "name": {
                 "sv": "Birgitta Birgersdotter",
