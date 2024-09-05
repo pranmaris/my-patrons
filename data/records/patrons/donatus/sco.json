@@ -1,0 +1,22 @@
+{
+  "names": {
+    "en": [
+      "Donatus of Fiesole"
+    ],
+    "pl": [
+      "Donat z Fiesole",
+      "Donat Szkot"
+    ],
+    "la": [
+      "Donatus Scotus",
+      "Donatus Fesulanus"
+    ]
+  },
+
+  "died": ["~875"],
+
+  "also-in-martyrology": ["10-22"],
+
+  "forenames": ["donatus"],
+  "categories": ["vir", "episcopus"]
+}

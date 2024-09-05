@@ -2139,6 +2139,24 @@
         ],
         "feasts": []
     },
+    "patrons/donatus": {
+        "names": {
+            "la": "Donatus",
+            "en": "Donatus",
+            "pl": "Donat"
+        }
+    },
+    "patrons/donatus/sco": {
+        "names": {
+            "en": "Donatus of Fiesole",
+            "pl": "Donat z Fiesole",
+            "la": "Donatus Scotus"
+        },
+        "died": [
+            "~875"
+        ],
+        "feasts": []
+    },
     "patrons/dorothea": {
         "names": {
             "la": "Dorothea",

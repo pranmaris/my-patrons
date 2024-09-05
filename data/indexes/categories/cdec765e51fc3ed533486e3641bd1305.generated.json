@@ -163,6 +163,11 @@
             "en": "Denis of Paris",
             "pl": "Dionizy z Paryża"
         },
+        "records/patrons/donatus/sco": {
+            "en": "Donatus of Fiesole",
+            "pl": "Donat z Fiesole",
+            "la": "Donatus Scotus"
+        },
         "records/patrons/eusebius/ver": {
             "la": "Eusebius Vercellensis",
             "en": "Eusebius of Vercelli",

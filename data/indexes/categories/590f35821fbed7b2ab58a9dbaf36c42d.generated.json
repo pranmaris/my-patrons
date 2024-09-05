@@ -522,6 +522,11 @@
             "en": "Domninus of Caesarea",
             "pl": "Domnin z Cezarei"
         },
+        "records/patrons/donatus/sco": {
+            "en": "Donatus of Fiesole",
+            "pl": "Donat z Fiesole",
+            "la": "Donatus Scotus"
+        },
         "records/patrons/edmundus/boj": {
             "pl": "Edmund Bojanowski",
             "la": "Edmundus Bojanowski",

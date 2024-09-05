@@ -4898,6 +4898,16 @@
         }
     },
     "10-22": {
+        "records/patrons/donatus/sco": {
+            "name": {
+                "en": "Donatus of Fiesole",
+                "pl": "Donat z Fiesole",
+                "la": "Donatus Scotus"
+            },
+            "sources": {
+                "other-martyrology-days": "22 X"
+            }
+        },
         "records/patrons/marcus/hie": {
             "name": {
                 "la": "Marcus Hierosolymitanus",
