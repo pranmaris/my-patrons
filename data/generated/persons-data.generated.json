@@ -6307,6 +6307,26 @@
         ],
         "feasts": []
     },
+    "patrons/thecla": {
+        "names": {
+            "la": "Thecla",
+            "en": "Thecla",
+            "pl": "Tekla",
+            "de": "Thekla"
+        }
+    },
+    "patrons/thecla/abb": {
+        "names": {
+            "de": "Thekla von Kitzingen",
+            "en": "Thecla of Kitzingen",
+            "pl": "Tekla z Kitzingen",
+            "la": "Thecla de Kitzingen"
+        },
+        "died": [
+            "~790"
+        ],
+        "feasts": []
+    },
     "patrons/theodorus": {
         "names": {
             "la": "Theodorus",

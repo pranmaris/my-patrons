@@ -335,6 +335,12 @@
             "la": "Teresia Benedicta a Cruce",
             "pl": "Teresa Benedykta od Krzyża"
         },
+        "records/patrons/thecla/abb": {
+            "de": "Thekla von Kitzingen",
+            "en": "Thecla of Kitzingen",
+            "pl": "Tekla z Kitzingen",
+            "la": "Thecla de Kitzingen"
+        },
         "records/patrons/ursula/led": {
             "pl": "Urszula Ledóchowska",
             "en": "Ursula Ledóchowska",

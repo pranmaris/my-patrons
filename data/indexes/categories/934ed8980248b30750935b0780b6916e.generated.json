@@ -24,6 +24,12 @@
             "pl": "Salomea Piastówna",
             "en": "Salomea of the Poland",
             "la": "Salomea Regina Haliciensis"
+        },
+        "records/patrons/thecla/abb": {
+            "de": "Thekla von Kitzingen",
+            "en": "Thecla of Kitzingen",
+            "pl": "Tekla z Kitzingen",
+            "la": "Thecla de Kitzingen"
         }
     }
 }

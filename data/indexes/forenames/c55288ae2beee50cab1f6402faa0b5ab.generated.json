@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Thecla",
+        "en": "Thecla"
+    },
+    "translations": {
+        "la": [
+            "Thecla"
+        ],
+        "en": [
+            "Thecla"
+        ],
+        "pl": [
+            "Tekla"
+        ],
+        "de": [
+            "Thekla"
+        ]
+    },
+    "links": {
+        "records/patrons/thecla/abb": {
+            "de": "Thekla von Kitzingen",
+            "en": "Thecla of Kitzingen",
+            "pl": "Tekla z Kitzingen",
+            "la": "Thecla de Kitzingen"
+        }
+    }
+}
