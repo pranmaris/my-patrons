@@ -5406,6 +5406,16 @@
                 "other-martyrology-days": "14 XI"
             }
         },
+        "records/patrons/ioannes/tup": {
+            "name": {
+                "la": "Ioannes de Tupharia",
+                "en": "John of Tufaria",
+                "pl": "Jan z Tufarii"
+            },
+            "sources": {
+                "other-martyrology-days": "14 XI"
+            }
+        },
         "records/patrons/iosaphat/kun": {
             "name": {
                 "pl": "Jozafat Kuncewicz",

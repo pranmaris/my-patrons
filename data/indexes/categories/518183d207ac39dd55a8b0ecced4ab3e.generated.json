@@ -48,6 +48,11 @@
             "la": "Franciscus de Paula",
             "pl": "Franciszek z Paoli"
         },
+        "records/patrons/ioannes/tup": {
+            "la": "Ioannes de Tupharia",
+            "en": "John of Tufaria",
+            "pl": "Jan z Tufarii"
+        },
         "records/patrons/leonardus/ere": {
             "fr": "Léonard de Noblat",
             "en": "Leonard of Noblac",

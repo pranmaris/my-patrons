@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Ioannes de Tupharia"
+    ],
+    "en": [
+      "John of Tufaria"
+    ],
+    "pl": [
+      "Jan z Tufarii"
+    ]
+  },
+
+  "born": ["~1084"],
+  "died": ["~1170"],
+
+  "also-in-martyrology": ["11-14"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "eremita"]
+}

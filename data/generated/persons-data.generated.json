@@ -3622,6 +3622,17 @@
         ],
         "feasts": []
     },
+    "patrons/ioannes/tup": {
+        "names": {
+            "la": "Ioannes de Tupharia",
+            "en": "John of Tufaria",
+            "pl": "Jan z Tufarii"
+        },
+        "died": [
+            "~1170"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/via": {
         "names": {
             "fr": "Jean-Marie Vianney",
