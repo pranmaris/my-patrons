@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Felicianus"
+    },
+    "translations": {
+        "la": [
+            "Felicianus"
+        ],
+        "en": [
+            "Felician"
+        ],
+        "pl": [
+            "Felicjan"
+        ]
+    },
+    "links": {
+        "records/patrons/felicianus/car": {
+            "la": "Felicianus Carthaginiensis",
+            "en": "Felician of Carthage",
+            "pl": "Felicjan z Kartaginy"
+        }
+    }
+}

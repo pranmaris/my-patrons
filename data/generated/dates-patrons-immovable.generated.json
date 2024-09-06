@@ -5012,6 +5012,18 @@
             }
         }
     },
+    "10-29": {
+        "records/patrons/felicianus/car": {
+            "name": {
+                "la": "Felicianus Carthaginiensis",
+                "en": "Felician of Carthage",
+                "pl": "Felicjan z Kartaginy"
+            },
+            "sources": {
+                "other-martyrology-days": "29 X"
+            }
+        }
+    },
     "10-30": {
         "records/patrons/alexius/zar": {
             "name": {

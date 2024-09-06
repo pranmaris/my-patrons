@@ -564,6 +564,11 @@
             "la": "Ezechiel",
             "pl": "Ezechiel"
         },
+        "records/patrons/felicianus/car": {
+            "la": "Felicianus Carthaginiensis",
+            "en": "Felician of Carthage",
+            "pl": "Felicjan z Kartaginy"
+        },
         "records/patrons/felicissimus/rog": {
             "la": "Felicissimus /+ Rogatianus",
             "en": "Felicissimus /+ Rogatian",

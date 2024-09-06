@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Felicianus Carthaginiensis"
+    ],
+    "en": [
+      "Felician of Carthage"
+    ],
+    "pl": [
+      "Felicjan z Kartaginy"
+    ]
+  },
+
+  "died": [">201", "<300"],
+
+  "also-in-martyrology": ["10-29"],
+
+  "forenames": ["felicianus"],
+  "categories": ["vir", "martyr"]
+}

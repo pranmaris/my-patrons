@@ -2356,6 +2356,25 @@
         ],
         "feasts": []
     },
+    "patrons/felicianus": {
+        "names": {
+            "la": "Felicianus",
+            "en": "Felician",
+            "pl": "Felicjan"
+        }
+    },
+    "patrons/felicianus/car": {
+        "names": {
+            "la": "Felicianus Carthaginiensis",
+            "en": "Felician of Carthage",
+            "pl": "Felicjan z Kartaginy"
+        },
+        "died": [
+            ">201",
+            "<300"
+        ],
+        "feasts": []
+    },
     "patrons/felicissimus": {
         "names": {
             "la": "Felicissimus",
