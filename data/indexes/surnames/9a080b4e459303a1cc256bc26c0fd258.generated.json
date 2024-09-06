@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Benfatti"
+    },
+    "translations": {
+        "it": [
+            "Benfatti"
+        ]
+    },
+    "links": {
+        "records/patrons/iacobus/ben": {
+            "it": "Giacomo Benfatti",
+            "pl": "Jakub Benfatti",
+            "en": "James Benfatti",
+            "la": "Iacobus Benfatti"
+        }
+    }
+}

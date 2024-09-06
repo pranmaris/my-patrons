@@ -1,0 +1,36 @@
+{
+  "names": {
+    "it": [
+      "Giacomo Benfatti"
+    ],
+    "pl": [
+      "Jakub Benfatti"
+    ],
+    "en": [
+      "James Benfatti"
+    ],
+    "la": [
+      "Iacobus Benfatti"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Benfatti"
+    }
+  ],
+
+  "died": ["1332-11-19"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1859"
+  },
+
+  "also-in-martyrology": ["11-19"],
+
+  "forenames": ["iacobus"],
+  "categories": ["vir", "episcopus"],
+
+  "order": ["op"]
+}

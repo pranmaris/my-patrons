@@ -3075,8 +3075,21 @@
             "la": "Iacobus",
             "en": "James",
             "pl": "Jakub",
-            "fr": "Jacques"
+            "fr": "Jacques",
+            "it": "Giacomo"
         }
+    },
+    "patrons/iacobus/ben": {
+        "names": {
+            "it": "Giacomo Benfatti",
+            "pl": "Jakub Benfatti",
+            "en": "James Benfatti",
+            "la": "Iacobus Benfatti"
+        },
+        "died": [
+            "1332-11-19"
+        ],
+        "feasts": []
     },
     "patrons/iacobus/ber": {
         "names": {

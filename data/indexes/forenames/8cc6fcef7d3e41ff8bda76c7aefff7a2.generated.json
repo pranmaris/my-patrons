@@ -15,9 +15,18 @@
         ],
         "fr": [
             "Jacques"
+        ],
+        "it": [
+            "Giacomo"
         ]
     },
     "links": {
+        "records/patrons/iacobus/ben": {
+            "it": "Giacomo Benfatti",
+            "pl": "Jakub Benfatti",
+            "en": "James Benfatti",
+            "la": "Iacobus Benfatti"
+        },
         "records/patrons/iacobus/ber": {
             "fr": "Jacques Berthieu",
             "en": "James Berthieu",

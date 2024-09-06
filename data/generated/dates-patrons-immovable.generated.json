@@ -5467,6 +5467,20 @@
             }
         }
     },
+    "11-19": {
+        "records/patrons/iacobus/ben": {
+            "name": {
+                "it": "Giacomo Benfatti",
+                "pl": "Jakub Benfatti",
+                "en": "James Benfatti",
+                "la": "Iacobus Benfatti"
+            },
+            "sources": {
+                "reliable-death-anniversary": "19 XI",
+                "other-martyrology-days": "19 XI"
+            }
+        }
+    },
     "11-20": {
         "records/patrons/basilius/ant": {
             "name": {
