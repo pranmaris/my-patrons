@@ -6135,6 +6135,24 @@
         ],
         "feasts": []
     },
+    "patrons/silvia": {
+        "names": {
+            "la": "Silvia",
+            "en": "Silvia",
+            "pl": "Sylwia"
+        }
+    },
+    "patrons/silvia/mat": {
+        "names": {
+            "la": "Silvia, mater Greg6rii Magni",
+            "en": "Sylvia, mather of Gregory the Great",
+            "pl": "Sylwia, matka Grzegorza Wielkiego"
+        },
+        "died": [
+            "~592"
+        ],
+        "feasts": []
+    },
     "patrons/simon": {
         "names": {
             "la": "Simon",

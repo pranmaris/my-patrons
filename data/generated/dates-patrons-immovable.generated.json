@@ -5167,6 +5167,16 @@
                 "reliable-death-anniversary": "3 XI",
                 "other-martyrology-days": "3 XI"
             }
+        },
+        "records/patrons/silvia/mat": {
+            "name": {
+                "la": "Silvia, mater Greg6rii Magni",
+                "en": "Sylvia, mather of Gregory the Great",
+                "pl": "Sylwia, matka Grzegorza Wielkiego"
+            },
+            "sources": {
+                "other-martyrology-days": "3 XI"
+            }
         }
     },
     "11-04": {

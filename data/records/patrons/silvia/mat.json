@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Silvia, mater Greg6rii Magni"
+    ],
+    "en": [
+      "Sylvia, mather of Gregory the Great"
+    ],
+    "pl": [
+      "Sylwia, matka Grzegorza Wielkiego"
+    ]
+  },
+
+  "born": ["~515"],
+  "died": ["~592"],
+
+  "also-in-martyrology": ["11-03"],
+
+  "forenames": ["silvia"],
+  "categories": ["femina"]
+}
