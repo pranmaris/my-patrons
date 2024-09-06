@@ -1,0 +1,38 @@
+{
+  "names": {
+    "uk": [
+      "Григорій Лакота"
+    ],
+    "pl": [
+      "Grzegorz Lakota"
+    ],
+    "en": [
+      "Gregory Lakota"
+    ],
+    "la": [
+      "Gregorius Lakota"
+    ]
+  },
+
+  "surnames": [
+    {
+      "uk": "Лакота",
+      "pl": "Lakota",
+      "en": "Lakota",
+      "la": "Lakota"
+    }
+  ],
+
+  "born": ["1883-01-31"],
+  "died": ["1950-11-12"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2001-06-27"
+  },
+
+  "also-in-martyrology": ["11-05"],
+
+  "forenames": ["gregorius"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

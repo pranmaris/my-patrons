@@ -2767,7 +2767,8 @@
             "en": "Gregory",
             "pl": "Grzegorz",
             "el": "Γρηγόριος",
-            "grc": "Γρηγόριος"
+            "grc": "Γρηγόριος",
+            "uk": "Григорій"
         }
     },
     "patrons/gregorius/1pp": {
@@ -2789,6 +2790,18 @@
         },
         "died": [
             "1943-05-05"
+        ],
+        "feasts": []
+    },
+    "patrons/gregorius/lak": {
+        "names": {
+            "uk": "Григорій Лакота",
+            "pl": "Grzegorz Lakota",
+            "en": "Gregory Lakota",
+            "la": "Gregorius Lakota"
+        },
+        "died": [
+            "1950-11-12"
         ],
         "feasts": []
     },

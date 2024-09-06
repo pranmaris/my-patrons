@@ -1,0 +1,27 @@
+{
+    "names": {
+        "uk": "Лакота"
+    },
+    "translations": {
+        "uk": [
+            "Лакота"
+        ],
+        "pl": [
+            "Lakota"
+        ],
+        "en": [
+            "Lakota"
+        ],
+        "la": [
+            "Lakota"
+        ]
+    },
+    "links": {
+        "records/patrons/gregorius/lak": {
+            "uk": "Григорій Лакота",
+            "pl": "Grzegorz Lakota",
+            "en": "Gregory Lakota",
+            "la": "Gregorius Lakota"
+        }
+    }
+}

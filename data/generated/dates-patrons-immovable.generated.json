@@ -5214,6 +5214,17 @@
             "sources": {
                 "other-martyrology-days": "5 XI"
             }
+        },
+        "records/patrons/gregorius/lak": {
+            "name": {
+                "uk": "Григорій Лакота",
+                "pl": "Grzegorz Lakota",
+                "en": "Gregory Lakota",
+                "la": "Gregorius Lakota"
+            },
+            "sources": {
+                "other-martyrology-days": "5 XI"
+            }
         }
     },
     "11-06": {
@@ -5344,6 +5355,19 @@
             },
             "sources": {
                 "other-martyrology-days": "11 XI"
+            }
+        }
+    },
+    "11-12": {
+        "records/patrons/gregorius/lak": {
+            "name": {
+                "uk": "Григорій Лакота",
+                "pl": "Grzegorz Lakota",
+                "en": "Gregory Lakota",
+                "la": "Gregorius Lakota"
+            },
+            "sources": {
+                "reliable-death-anniversary": "12 XI"
             }
         }
     },
