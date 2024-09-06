@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Iosaphat"
+    },
+    "translations": {
+        "la": [
+            "Iosaphat",
+            "Josaphat"
+        ],
+        "en": [
+            "Josaphat"
+        ],
+        "pl": [
+            "Jozafat"
+        ]
+    },
+    "links": {
+        "records/patrons/iosaphat/kun": {
+            "pl": "Jozafat Kuncewicz",
+            "en": "Josaphat Kuntsevych",
+            "la": "Iosaphat Kuncevicus"
+        }
+    }
+}

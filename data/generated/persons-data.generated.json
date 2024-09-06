@@ -3634,6 +3634,24 @@
         ],
         "feasts": []
     },
+    "patrons/iosaphat": {
+        "names": {
+            "la": "Iosaphat",
+            "en": "Josaphat",
+            "pl": "Jozafat"
+        }
+    },
+    "patrons/iosaphat/kun": {
+        "names": {
+            "pl": "Jozafat Kuncewicz",
+            "en": "Josaphat Kuntsevych",
+            "la": "Iosaphat Kuncevicus"
+        },
+        "died": [
+            "1623-11-12"
+        ],
+        "feasts": []
+    },
     "patrons/ioseph": {
         "names": {
             "la": "Ioseph",

@@ -949,6 +949,11 @@
             "la": "Ioannes Maria Vianney",
             "pl": "Jan Maria Vianney"
         },
+        "records/patrons/iosaphat/kun": {
+            "pl": "Jozafat Kuncewicz",
+            "en": "Josaphat Kuntsevych",
+            "la": "Iosaphat Kuncevicus"
+        },
         "records/patrons/ioseph/ari": {
             "la": "Joseph ab Arimathaea",
             "en": "Joseph of Arimathea",

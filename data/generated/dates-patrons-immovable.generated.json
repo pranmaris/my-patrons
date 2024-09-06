@@ -5369,6 +5369,17 @@
             "sources": {
                 "reliable-death-anniversary": "12 XI"
             }
+        },
+        "records/patrons/iosaphat/kun": {
+            "name": {
+                "pl": "Jozafat Kuncewicz",
+                "en": "Josaphat Kuntsevych",
+                "la": "Iosaphat Kuncevicus"
+            },
+            "sources": {
+                "reliable-death-anniversary": "12 XI",
+                "other-martyrology-days": "12 XI"
+            }
         }
     },
     "11-13": {
@@ -5392,6 +5403,16 @@
             },
             "sources": {
                 "reliable-death-anniversary": "14 XI",
+                "other-martyrology-days": "14 XI"
+            }
+        },
+        "records/patrons/iosaphat/kun": {
+            "name": {
+                "pl": "Jozafat Kuncewicz",
+                "en": "Josaphat Kuntsevych",
+                "la": "Iosaphat Kuncevicus"
+            },
+            "sources": {
                 "other-martyrology-days": "14 XI"
             }
         }
