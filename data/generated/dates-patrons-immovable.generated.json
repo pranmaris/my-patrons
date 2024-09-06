@@ -5062,6 +5062,18 @@
         }
     },
     "11-01": {
+        "records/patrons/rupertus/may": {
+            "name": {
+                "de": "Rupert Mayer",
+                "pl": "Rupert Mayer",
+                "en": "Rupert Mayer",
+                "la": "Rupertus Mayer"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 XI",
+                "other-martyrology-days": "1 XI"
+            }
+        },
         "records/patrons/theodorus/rom": {
             "name": {
                 "uk": "Теодор Ромжа",

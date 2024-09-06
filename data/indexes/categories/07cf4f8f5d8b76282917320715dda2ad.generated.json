@@ -1378,6 +1378,12 @@
             "la": "Romualdus Camaldulensis",
             "pl": "Romuald z Camaldoli"
         },
+        "records/patrons/rupertus/may": {
+            "de": "Rupert Mayer",
+            "pl": "Rupert Mayer",
+            "en": "Rupert Mayer",
+            "la": "Rupertus Mayer"
+        },
         "records/patrons/rupertus/sal": {
             "de": "Rupert von Salzburg",
             "en": "Rupert of Salzburg",

@@ -1,0 +1,37 @@
+{
+  "names": {
+    "de": [
+      "Rupert Mayer"
+    ],
+    "pl": [
+      "Rupert Mayer"
+    ],
+    "en": [
+      "Rupert Mayer"
+    ],
+    "la": [
+      "Rupertus Mayer"
+    ]
+  },
+
+  "surnames": [
+    {
+      "de": "Mayer"
+    }
+  ],
+
+  "born": ["1876-01-23"],
+  "died": ["1945-11-01"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1987-05-03"
+  },
+
+  "also-in-martyrology": ["11-01"],
+
+  "forenames": ["rupertus"],
+  "categories": ["vir", "presbyter"],
+
+  "order": ["sj"]
+}

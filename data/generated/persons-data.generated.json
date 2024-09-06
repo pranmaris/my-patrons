@@ -5934,6 +5934,18 @@
             "de": "Rupert"
         }
     },
+    "patrons/rupertus/may": {
+        "names": {
+            "de": "Rupert Mayer",
+            "pl": "Rupert Mayer",
+            "en": "Rupert Mayer",
+            "la": "Rupertus Mayer"
+        },
+        "died": [
+            "1945-11-01"
+        ],
+        "feasts": []
+    },
     "patrons/rupertus/sal": {
         "names": {
             "de": "Rupert von Salzburg",

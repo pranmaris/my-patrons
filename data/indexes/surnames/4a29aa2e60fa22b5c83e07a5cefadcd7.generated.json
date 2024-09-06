@@ -1,0 +1,18 @@
+{
+    "names": {
+        "de": "Mayer"
+    },
+    "translations": {
+        "de": [
+            "Mayer"
+        ]
+    },
+    "links": {
+        "records/patrons/rupertus/may": {
+            "de": "Rupert Mayer",
+            "pl": "Rupert Mayer",
+            "en": "Rupert Mayer",
+            "la": "Rupertus Mayer"
+        }
+    }
+}
