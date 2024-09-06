@@ -48,6 +48,11 @@
             "la": "Ioannes Baptista",
             "pl": "Jan Chrzciciel"
         },
+        "records/patrons/ioannes/bod": {
+            "en": "John Bodey",
+            "pl": "Jan Bodey",
+            "la": "Ioannes Bodey"
+        },
         "records/patrons/ioannes/bos": {
             "it": "Giovanni Bosco",
             "en": "John Bosco",

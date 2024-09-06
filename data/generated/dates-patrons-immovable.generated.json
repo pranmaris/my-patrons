@@ -5109,6 +5109,17 @@
         }
     },
     "11-02": {
+        "records/patrons/ioannes/bod": {
+            "name": {
+                "en": "John Bodey",
+                "pl": "Jan Bodey",
+                "la": "Ioannes Bodey"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 XI",
+                "other-martyrology-days": "2 XI"
+            }
+        },
         "records/patrons/margarita/lot": {
             "name": {
                 "fr": "Marguerite de Lorraine-Vaudémont",

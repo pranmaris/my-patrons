@@ -1,0 +1,17 @@
+{
+    "names": {
+        "en": "Bodey"
+    },
+    "translations": {
+        "en": [
+            "Bodey"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/bod": {
+            "en": "John Bodey",
+            "pl": "Jan Bodey",
+            "la": "Ioannes Bodey"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "names": {
+    "en": [
+      "John Bodey"
+    ],
+    "pl": [
+      "Jan Bodey"
+    ],
+    "la": [
+      "Ioannes Bodey"
+    ]
+  },
+
+  "surnames": [
+    {
+      "en": "Bodey"
+    }
+  ],
+
+  "born": ["1549"],
+  "died": ["1583-11-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1929-12-15"
+  },
+
+  "also-in-martyrology": ["11-02"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "martyr"]
+}

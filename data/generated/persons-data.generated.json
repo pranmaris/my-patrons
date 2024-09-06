@@ -3400,6 +3400,17 @@
             }
         }
     },
+    "patrons/ioannes/bod": {
+        "names": {
+            "en": "John Bodey",
+            "pl": "Jan Bodey",
+            "la": "Ioannes Bodey"
+        },
+        "died": [
+            "1583-11-02"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/bos": {
         "names": {
             "it": "Giovanni Bosco",
