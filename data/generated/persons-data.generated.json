@@ -344,9 +344,10 @@
     },
     "patrons/aaron": {
         "names": {
-            "la": "אַהֲרֹן",
+            "la": "Aaron",
             "en": "Aaron",
-            "pl": "Aaron"
+            "pl": "Aaron",
+            "he": "אַהֲרֹן"
         }
     },
     "patrons/aaron/lev": {

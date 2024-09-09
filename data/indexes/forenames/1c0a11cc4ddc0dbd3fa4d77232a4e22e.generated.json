@@ -1,17 +1,21 @@
 {
     "names": {
+        "la": "Aaron",
         "en": "Aaron",
         "pl": "Aaron"
     },
     "translations": {
         "la": [
-            "אַהֲרֹן"
+            "Aaron"
         ],
         "en": [
             "Aaron"
         ],
         "pl": [
             "Aaron"
+        ],
+        "he": [
+            "אַהֲרֹן"
         ]
     },
     "links": {
