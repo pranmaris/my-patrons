@@ -6038,6 +6038,16 @@
             "sources": {
                 "other-martyrology-days": "26 XII"
             }
+        },
+        "records/patrons/zeno/mai": {
+            "name": {
+                "la": "Zenon Maiumitanensis",
+                "en": "Zeno of Maiuma",
+                "pl": "Zenon z Maiumy"
+            },
+            "sources": {
+                "other-martyrology-days": "26 XII"
+            }
         }
     },
     "12-27": {

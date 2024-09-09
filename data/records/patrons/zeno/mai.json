@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Zenon Maiumitanensis"
+    ],
+    "en": [
+      "Zeno of Maiuma"
+    ],
+    "pl": [
+      "Zenon z Maiumy"
+    ]
+  },
+
+  "died": [">400"],
+
+  "also-in-martyrology": ["12-26"],
+
+  "forenames": ["zeno"],
+  "categories": ["vir", "episcopus"]
+}

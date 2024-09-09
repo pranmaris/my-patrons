@@ -1584,6 +1584,11 @@
             "la": "Xystus Pp. II",
             "en": "Sixtus II",
             "pl": "Sykstus II"
+        },
+        "records/patrons/zeno/mai": {
+            "la": "Zenon Maiumitanensis",
+            "en": "Zeno of Maiuma",
+            "pl": "Zenon z Maiumy"
         }
     }
 }

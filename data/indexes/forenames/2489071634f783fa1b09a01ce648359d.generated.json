@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Zenon"
+    },
+    "translations": {
+        "la": [
+            "Zeno"
+        ],
+        "en": [
+            "Zeno"
+        ],
+        "pl": [
+            "Zenon"
+        ]
+    },
+    "links": {
+        "records/patrons/zeno/mai": {
+            "la": "Zenon Maiumitanensis",
+            "en": "Zeno of Maiuma",
+            "pl": "Zenon z Maiumy"
+        }
+    }
+}

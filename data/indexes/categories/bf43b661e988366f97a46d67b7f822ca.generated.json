@@ -430,6 +430,11 @@
             "en": "Wilfrid of York",
             "la": "Wilfridus Eboracensis",
             "pl": "Wilfryd z Yorku"
+        },
+        "records/patrons/zeno/mai": {
+            "la": "Zenon Maiumitanensis",
+            "en": "Zeno of Maiuma",
+            "pl": "Zenon z Maiumy"
         }
     }
 }
