@@ -1,0 +1,29 @@
+{
+    "names": {
+        "en": "Bentivoglio",
+        "pl": "Bentivoglio",
+        "it": "Bentivoglio"
+    },
+    "translations": {
+        "la": [
+            "Bentivolius"
+        ],
+        "en": [
+            "Bentivoglio"
+        ],
+        "pl": [
+            "Bentivoglio"
+        ],
+        "it": [
+            "Bentivoglio"
+        ]
+    },
+    "links": {
+        "records/patrons/bentivolius/bon": {
+            "it": "Bentivoglio de Bonis",
+            "la": "Bentivolius de Bonis",
+            "en": "Bentivoglio de Bonis",
+            "pl": "Bentivoglio de Bonis"
+        }
+    }
+}

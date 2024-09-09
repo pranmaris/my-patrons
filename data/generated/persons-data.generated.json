@@ -1251,6 +1251,26 @@
         ],
         "feasts": []
     },
+    "patrons/bentivolius": {
+        "names": {
+            "la": "Bentivolius",
+            "en": "Bentivoglio",
+            "pl": "Bentivoglio",
+            "it": "Bentivoglio"
+        }
+    },
+    "patrons/bentivolius/bon": {
+        "names": {
+            "it": "Bentivoglio de Bonis",
+            "la": "Bentivolius de Bonis",
+            "en": "Bentivoglio de Bonis",
+            "pl": "Bentivoglio de Bonis"
+        },
+        "died": [
+            "1232"
+        ],
+        "feasts": []
+    },
     "patrons/bernardinus": {
         "names": {
             "la": "Bernardinus",

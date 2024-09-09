@@ -5982,6 +5982,17 @@
                 "other-martyrology-days": "25 XII"
             }
         },
+        "records/patrons/bentivolius/bon": {
+            "name": {
+                "it": "Bentivoglio de Bonis",
+                "la": "Bentivolius de Bonis",
+                "en": "Bentivoglio de Bonis",
+                "pl": "Bentivoglio de Bonis"
+            },
+            "sources": {
+                "other-martyrology-days": "25 XII"
+            }
+        },
         "records/patrons/multi/nie": {
             "name": {
                 "la": "Multa Milia Martyres in Nicomediae Ecclesia",

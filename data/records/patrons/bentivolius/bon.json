@@ -1,0 +1,31 @@
+{
+  "names": {
+    "it": [
+      "Bentivoglio de Bonis"
+    ],
+    "la": [
+      "Bentivolius de Bonis"
+    ],
+    "en": [
+      "Bentivoglio de Bonis"
+    ],
+    "pl": [
+      "Bentivoglio de Bonis"
+    ]
+  },
+
+  "born": ["~1188"],
+  "died": ["1232"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1852-09-30"
+  },
+
+  "also-in-martyrology": ["12-25"],
+
+  "forenames": ["bentivolius"],
+  "categories": ["vir", "presbyter"],
+
+  "order": ["ofm"]
+}

@@ -870,6 +870,9 @@
         "la": "Camillus",
         "en": "Camillus"
     },
+    "5aca8e3e9bba04243cf32770964d35cc": {
+        "la": "Bentivolius"
+    },
     "5ae7fb3197b6fd8c723c7766a5680e2e": {
         "en": "Many"
     },
@@ -1050,6 +1053,11 @@
         "la": "Rosalia",
         "en": "Rosalia",
         "it": "Rosalia"
+    },
+    "6de9da958d4e9498fc12a8034426a645": {
+        "en": "Bentivoglio",
+        "pl": "Bentivoglio",
+        "it": "Bentivoglio"
     },
     "6e23358cf86e4fbcff966002f539bb05": {
         "la": "Caesarius",
