@@ -29,6 +29,11 @@
             "en": "Gregory the Great",
             "pl": "Grzegorz Wielki"
         },
+        "records/patrons/gregorius/3pp": {
+            "la": "Gregorius III",
+            "en": "Gregory III",
+            "pl": "Grzegorz III"
+        },
         "records/patrons/gregorius/fra": {
             "pl": "Grzegorz Frąckowiak",
             "en": "Gregory Frąckowiak",

@@ -2805,6 +2805,17 @@
         ],
         "feasts": []
     },
+    "patrons/gregorius/3pp": {
+        "names": {
+            "la": "Gregorius III",
+            "en": "Gregory III",
+            "pl": "Grzegorz III"
+        },
+        "died": [
+            "741-11-28"
+        ],
+        "feasts": []
+    },
     "patrons/gregorius/fra": {
         "names": {
             "pl": "Grzegorz Frąckowiak",

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Trzeci"
+    },
+    "translations": {
+        "la": [
+            "Tertius"
+        ],
+        "en": [
+            "the Third"
+        ],
+        "pl": [
+            "Trzeci"
+        ]
+    },
+    "links": {
+        "records/patrons/gregorius/3pp": {
+            "la": "Gregorius III",
+            "en": "Gregory III",
+            "pl": "Grzegorz III"
+        }
+    }
+}

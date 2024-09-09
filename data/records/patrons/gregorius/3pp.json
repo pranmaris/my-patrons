@@ -1,0 +1,32 @@
+{
+  "names": {
+    "la": [
+      "Gregorius III"
+    ],
+    "en": [
+      "Gregory III"
+    ],
+    "pl": [
+      "Grzegorz III"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Tertius",
+      "en": "the Third",
+      "pl": "Trzeci"
+    }
+  ],
+
+  "died": ["741-11-28"],
+
+  "also-in-martyrology": ["12-10"],
+
+  "forenames": ["gregorius"],
+  "categories": ["vir", "papa"],
+
+  "data-links": {
+    "popes": ["1:#90"]
+  }
+}

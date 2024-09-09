@@ -891,8 +891,8 @@
     },
     "90": {
         "name": {
-            "la": "Gregorius Tertius",
-            "pl": "Grzegorz III"
+            "la": "[1|Gregorius Tertius]",
+            "pl": "[1|Grzegorz III]"
         },
         "pontificate": {
             "from": "731-03-18",
