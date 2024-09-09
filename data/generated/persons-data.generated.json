@@ -1638,6 +1638,17 @@
         ],
         "feasts": []
     },
+    "patrons/casimirus/syk": {
+        "names": {
+            "pl": "Kazimierz Sykulski",
+            "en": "Casimir Sykulski",
+            "la": "Casimirus Sykulski"
+        },
+        "died": [
+            "1941-12-11"
+        ],
+        "feasts": []
+    },
     "patrons/cassianus": {
         "names": {
             "la": "Cassianus",

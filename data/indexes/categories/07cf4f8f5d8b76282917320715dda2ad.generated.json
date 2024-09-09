@@ -400,6 +400,11 @@
             "en": "Casimir Jagiellon",
             "la": "Casimirus Princeps"
         },
+        "records/patrons/casimirus/syk": {
+            "pl": "Kazimierz Sykulski",
+            "en": "Casimir Sykulski",
+            "la": "Casimirus Sykulski"
+        },
         "records/patrons/cassianus/aug": {
             "fr": "Cassien d'Autun",
             "la": "Cassianus episcopus Augustodunensis",

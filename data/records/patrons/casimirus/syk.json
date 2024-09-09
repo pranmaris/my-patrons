@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Kazimierz Sykulski"
+    ],
+    "en": [
+      "Casimir Sykulski"
+    ],
+    "la": [
+      "Casimirus Sykulski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Sykulski"
+    }
+  ],
+
+  "born": ["1882-12-29"],
+  "died": ["1941-12-11"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["12-01"],
+
+  "forenames": ["casimirus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

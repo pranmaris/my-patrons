@@ -5617,6 +5617,16 @@
             "sources": {
                 "reliable-death-anniversary": "1 XII"
             }
+        },
+        "records/patrons/casimirus/syk": {
+            "name": {
+                "pl": "Kazimierz Sykulski",
+                "en": "Casimir Sykulski",
+                "la": "Casimirus Sykulski"
+            },
+            "sources": {
+                "other-martyrology-days": "1 XII"
+            }
         }
     },
     "12-02": {
@@ -5740,6 +5750,16 @@
         }
     },
     "12-11": {
+        "records/patrons/casimirus/syk": {
+            "name": {
+                "pl": "Kazimierz Sykulski",
+                "en": "Casimir Sykulski",
+                "la": "Casimirus Sykulski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "11 XII"
+            }
+        },
         "records/patrons/hieronymus/tif": {
             "name": {
                 "it": "Jeronimo Ranuzzi",

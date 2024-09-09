@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Sykulski"
+    },
+    "translations": {
+        "pl": [
+            "Sykulski"
+        ]
+    },
+    "links": {
+        "records/patrons/casimirus/syk": {
+            "pl": "Kazimierz Sykulski",
+            "en": "Casimir Sykulski",
+            "la": "Casimirus Sykulski"
+        }
+    }
+}
