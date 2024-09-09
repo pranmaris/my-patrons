@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Irmina de Oeren"
+    ],
+    "en": [
+      "Irmina of Oeren"
+    ],
+    "pl": [
+      "Irmina z Oeren",
+      "Irmina z Trewiru"
+    ]
+  },
+
+  "died": ["~710"],
+
+  "also-in-martyrology": ["12-24"],
+
+  "forenames": ["irmina"],
+  "categories": ["femina", "virgo", "abbatissa"]
+}

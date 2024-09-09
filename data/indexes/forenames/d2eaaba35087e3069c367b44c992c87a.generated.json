@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Irmina",
+        "en": "Irmina",
+        "pl": "Irmina"
+    },
+    "translations": {
+        "la": [
+            "Irmina"
+        ],
+        "en": [
+            "Irmina"
+        ],
+        "pl": [
+            "Irmina"
+        ]
+    },
+    "links": {
+        "records/patrons/irmina/tre": {
+            "la": "Irmina de Oeren",
+            "en": "Irmina of Oeren",
+            "pl": "Irmina z Oeren"
+        }
+    }
+}

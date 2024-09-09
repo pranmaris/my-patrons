@@ -5927,6 +5927,16 @@
                 "other-martyrology-days": "24 XII"
             }
         },
+        "records/patrons/irmina/tre": {
+            "name": {
+                "la": "Irmina de Oeren",
+                "en": "Irmina of Oeren",
+                "pl": "Irmina z Oeren"
+            },
+            "sources": {
+                "other-martyrology-days": "24 XII"
+            }
+        },
         "records/patrons/eva/ada": {
             "name": {
                 "la": "Eva /+ Adam",

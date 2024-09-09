@@ -3896,6 +3896,24 @@
         ],
         "feasts": []
     },
+    "patrons/irmina": {
+        "names": {
+            "la": "Irmina",
+            "en": "Irmina",
+            "pl": "Irmina"
+        }
+    },
+    "patrons/irmina/tre": {
+        "names": {
+            "la": "Irmina de Oeren",
+            "en": "Irmina of Oeren",
+            "pl": "Irmina z Oeren"
+        },
+        "died": [
+            "~710"
+        ],
+        "feasts": []
+    },
     "patrons/isaias": {
         "names": {
             "la": "Isaias",
