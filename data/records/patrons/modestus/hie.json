@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Modestus Hierosolymitanus"
+    ],
+    "en": [
+      "Modestus of Jerusalem"
+    ],
+    "pl": [
+      "Modest z Jerozolimy"
+    ]
+  },
+
+  "born": ["~537"],
+  "died": ["634"],
+
+  "also-in-martyrology": ["12-17"],
+
+  "forenames": ["modestus"],
+  "categories": ["vir", "episcopus"]
+}

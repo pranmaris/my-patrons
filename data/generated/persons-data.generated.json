@@ -5139,6 +5139,17 @@
             "pl": "Modest"
         }
     },
+    "patrons/modestus/hie": {
+        "names": {
+            "la": "Modestus Hierosolymitanus",
+            "en": "Modestus of Jerusalem",
+            "pl": "Modest z Jerozolimy"
+        },
+        "died": [
+            "634"
+        ],
+        "feasts": []
+    },
     "patrons/modestus/tre": {
         "names": {
             "de": "Modestus von Trier",

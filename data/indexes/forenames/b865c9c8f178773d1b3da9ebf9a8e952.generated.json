@@ -15,6 +15,11 @@
         ]
     },
     "links": {
+        "records/patrons/modestus/hie": {
+            "la": "Modestus Hierosolymitanus",
+            "en": "Modestus of Jerusalem",
+            "pl": "Modest z Jerozolimy"
+        },
         "records/patrons/modestus/tre": {
             "de": "Modestus von Trier",
             "en": "Modestus of Trier",
