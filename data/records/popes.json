@@ -321,8 +321,8 @@
     },
     "33": {
         "name": {
-            "la": "Silvester",
-            "pl": "Sylwester"
+            "la": "[1|Silvester]",
+            "pl": "[1|Sylwester]"
         },
         "pontificate": {
             "from": "314-01-31",

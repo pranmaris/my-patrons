@@ -1475,6 +1475,11 @@
             "en": "Zygmunt Szczęsny Feliński",
             "la": "Sigismundus Felix Feliński"
         },
+        "records/patrons/silvester/1pp": {
+            "la": "Silvester I",
+            "en": "Sylvester I",
+            "pl": "Sylwester I"
+        },
         "records/patrons/simon/apo": {
             "la": "Simon Apostolus",
             "en": "Simon Apostle",

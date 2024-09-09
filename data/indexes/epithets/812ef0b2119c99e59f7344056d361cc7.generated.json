@@ -37,6 +37,11 @@
             "la": "Marcellus Papa",
             "en": "Marcellus Pope",
             "pl": "Marceli Papież"
+        },
+        "records/patrons/silvester/1pp": {
+            "la": "Silvester I",
+            "en": "Sylvester I",
+            "pl": "Sylwester I"
         }
     }
 }

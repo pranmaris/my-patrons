@@ -99,6 +99,11 @@
             "en": "Pontian Pope",
             "pl": "Poncjan Papież"
         },
+        "records/patrons/silvester/1pp": {
+            "la": "Silvester I",
+            "en": "Sylvester I",
+            "pl": "Sylwester I"
+        },
         "records/patrons/urbanus/2pp": {
             "la": "Urbanus II",
             "en": "Urban II",

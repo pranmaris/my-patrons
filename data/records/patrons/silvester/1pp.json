@@ -1,0 +1,32 @@
+{
+  "names": {
+    "la": [
+      "Silvester I"
+    ],
+    "en": [
+      "Sylvester I"
+    ],
+    "pl": [
+      "Sylwester I"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Primus",
+      "en": "the First",
+      "pl": "Pierwszy"
+    }
+  ],
+
+  "died": ["335-12-31"],
+
+  "also-in-martyrology": ["12-31"],
+
+  "forenames": ["silvester"],
+  "categories": ["vir", "confessor", "papa"],
+
+  "data-links": {
+    "popes": ["1:#33"]
+  }
+}

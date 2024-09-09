@@ -6273,6 +6273,24 @@
         ],
         "feasts": []
     },
+    "patrons/silvester": {
+        "names": {
+            "la": "Silvester",
+            "en": "Sylvester",
+            "pl": "Sylwester"
+        }
+    },
+    "patrons/silvester/1pp": {
+        "names": {
+            "la": "Silvester I",
+            "en": "Sylvester I",
+            "pl": "Sylwester I"
+        },
+        "died": [
+            "335-12-31"
+        ],
+        "feasts": []
+    },
     "patrons/silvia": {
         "names": {
             "la": "Silvia",

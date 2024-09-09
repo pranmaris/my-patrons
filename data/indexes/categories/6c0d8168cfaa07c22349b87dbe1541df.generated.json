@@ -387,6 +387,11 @@
             "la": "Rupertus Salisburgensis",
             "pl": "Rupert z Salzburga"
         },
+        "records/patrons/silvester/1pp": {
+            "la": "Silvester I",
+            "en": "Sylvester I",
+            "pl": "Sylwester I"
+        },
         "records/patrons/stanislaus/kos": {
             "pl": "Stanisław Kostka",
             "en": "Stanislaus Kostka",

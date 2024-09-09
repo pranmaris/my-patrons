@@ -1,0 +1,23 @@
+{
+    "names": {
+        "en": "Sylvester"
+    },
+    "translations": {
+        "la": [
+            "Silvester"
+        ],
+        "en": [
+            "Sylvester"
+        ],
+        "pl": [
+            "Sylwester"
+        ]
+    },
+    "links": {
+        "records/patrons/silvester/1pp": {
+            "la": "Silvester I",
+            "en": "Sylvester I",
+            "pl": "Sylwester I"
+        }
+    }
+}

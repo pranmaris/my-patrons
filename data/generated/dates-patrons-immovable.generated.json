@@ -6124,6 +6124,17 @@
                 "reliable-death-anniversary": "31 XII",
                 "other-martyrology-days": "31 XII"
             }
+        },
+        "records/patrons/silvester/1pp": {
+            "name": {
+                "la": "Silvester I",
+                "en": "Sylvester I",
+                "pl": "Sylwester I"
+            },
+            "sources": {
+                "reliable-death-anniversary": "31 XII",
+                "other-martyrology-days": "31 XII"
+            }
         }
     }
 }
