@@ -1,0 +1,35 @@
+{
+  "names": {
+    "en": [
+      "Edward Coleman",
+      "Edward Colman"
+    ],
+    "pl": [
+      "Edward Coleman",
+      "Edward Colman"
+    ],
+    "la": [
+      "Eduardus Coleman",
+      "Eduardus Colman"
+    ]
+  },
+
+  "surnames": [
+    {
+      "en": "Coleman"
+    }
+  ],
+
+  "born": ["1636-05-17"],
+  "died": ["1678-12-03"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1929-12-15"
+  },
+
+  "also-in-martyrology": ["12-03"],
+
+  "forenames": ["eduardus"],
+  "categories": ["vir", "martyr"]
+}
