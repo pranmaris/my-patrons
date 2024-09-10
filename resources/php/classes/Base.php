@@ -36,6 +36,8 @@ abstract class Base
 
     protected const TEXT_CHARACTER_SORTED_AFTER_OTHERS = 'ﻩ';
 
+    protected const DELETED_RECORD_TAG = '[x]';
+
     private const RECORD_ID_WITH_NAME_EXTENSION_SEPARATOR = '--';
     private const RECORD_ID_NAME_EXTENSION_CHARACTERS_MAPPING = [
         ' ' => '-',
@@ -184,7 +186,7 @@ abstract class Base
 
     protected function getDataLinkElements(string $link): ?array
     {
-        if (!preg_match("/^(?'link_id'[1-9][0-9]*)[:](?'path'[^# ]*)[#](?'record_id'[1-9A-Za-z][0-9A-Za-z]*)$/", $link, $matches)) {
+        if (!preg_match("/^(?'link_id'[1-9][0-9]*)[:](?'path'[^# ]*)[#](?'record_id'[1-9A-Za-z][-0-9A-Za-z]*)$/", $link, $matches)) {
             return null;
         }
 

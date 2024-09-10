@@ -1062,8 +1062,7 @@
                 "pl": "Perpetua z Kartaginy"
             },
             "sources": {
-                "mr-1956": "6 III: #1",
-                "mr-1960": "6 III: #1"
+                "mr-1956": "6 III: #1"
             }
         },
         "records/patrons/felicitas/car": {
@@ -1073,8 +1072,7 @@
                 "pl": "Felicyta z Kartaginy"
             },
             "sources": {
-                "mr-1956": "6 III: #1",
-                "mr-1960": "6 III: #1"
+                "mr-1956": "6 III: #1"
             }
         }
     },
@@ -2784,8 +2782,7 @@
                 "pl": "Cyryl /+ Metody"
             },
             "sources": {
-                "mr-1956": "7 VII: #1",
-                "mr-1960": "7 VII: #1"
+                "mr-1956": "7 VII: #1"
             }
         },
         "records/patrons/methodius/cyr": {
@@ -2795,8 +2792,7 @@
                 "pl": "Metody /+ Cyryl"
             },
             "sources": {
-                "mr-1956": "7 VII: #1",
-                "mr-1960": "7 VII: #1"
+                "mr-1956": "7 VII: #1"
             }
         }
     },

@@ -538,6 +538,11 @@ li.nav-item > a:hover {
   font-weight: bold;
   font-style: italic;
 }
+.deleted-record-info {
+  color: gray;
+  font-weight: bold;
+  font-style: italic;
+}
 
 .btn-my {
   color: black;

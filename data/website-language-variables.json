@@ -518,16 +518,16 @@
         "pl": "Martyrologium Rzymskie 1956 święta ruchome"
     },
 
-    "lang-date-source-mr-1960": {
-        "en": "Roman Martyrology 1960",
-        "la": "Martyrologium Romanum 1960",
-        "pl": "Martyrologium Rzymskie 1960"
+    "lang-date-source-mr-1956-variations": {
+        "en": "Roman Martyrology 1956 - variations",
+        "la": "Martyrologium Romanum 1956 - variationes",
+        "pl": "Martyrologium Rzymskie 1956 - wariacje"
     },
 
-    "lang-date-source-mr-1960-movable": {
-        "en": "Roman Martyrology 1960 movable feasts",
-        "la": "Martyrologium Romanum 1960 mobilia festa",
-        "pl": "Martyrologium Rzymskie 1960 święta ruchome"
+    "lang-date-source-mr-1956-movable-variations": {
+        "en": "Roman Martyrology 1956 movable feasts - variations",
+        "la": "Martyrologium Romanum 1956 mobilia festa - variationes",
+        "pl": "Martyrologium Rzymskie 1956 święta ruchome - wariacje"
     },
 
     "lang-date-source-mr-2004": {
@@ -576,6 +576,11 @@
     "lang-death-date-year-or-century": {
         "en": "death date, year or century",
         "pl": "data, rok lub stulecie śmierci"
+    },
+
+    "lang-deleted-record-info": {
+        "en": "record deleted",
+        "pl": "wpis usunięty"
     },
 
     "lang-description": {

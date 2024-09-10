@@ -18,6 +18,7 @@ abstract class ContentBlock extends Content
 
     private const SPECIAL_TAGS_TO_REPLACE = [
       '[/]' => '<br />',
+      self::DELETED_RECORD_TAG => '<span class="deleted-record-info">(' . self::VARIABLE_NAME_SIGN . 'lang-deleted-record-info' . self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL_ONLY_FOR_MISSING . self::VARIABLE_NAME_SIGN . ')</span>',
       '[(c)]' => '<span class="copyright-hidden-content-info">(' . self::VARIABLE_NAME_SIGN . 'lang-copyright-hidden-content-info' . self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL_ONLY_FOR_MISSING . self::VARIABLE_NAME_SIGN . ')</span>',
       '[:color]' => '</font>',
       '[color:red]' => '<font color="red">',

@@ -7,7 +7,7 @@
             },
             "sources": {
                 "mr-1956": "1 I: #1",
-                "mr-1960": "1 I: #2"
+                "mr-1956-variations": "1 I: #1--1960-07-26"
             }
         },
         "records/god/fil#nao": {
@@ -17,7 +17,7 @@
             },
             "sources": {
                 "mr-1956": "1 I: #1",
-                "mr-1960": "1 I: #1"
+                "mr-1956-variations": "1 I: #pre-1--1960-07-26"
             }
         },
         "records/patrons/maria/naz#gen": {
@@ -70,7 +70,6 @@
             },
             "sources": {
                 "mr-1956": "6 I: #1",
-                "mr-1960": "6 I: #1",
                 "mr-2004": "6 I: #1"
             }
         }
@@ -82,8 +81,7 @@
                 "pl": "Jezus Chrystus (Powrót Dzieciątka Jezus z Egiptu)"
             },
             "sources": {
-                "mr-1956": "7 I: #1",
-                "mr-1960": "7 I: #1"
+                "mr-1956": "7 I: #1"
             }
         }
     },
@@ -103,7 +101,7 @@
                 "pl": "Jezus Chrystus (Chrzest Pański)"
             },
             "sources": {
-                "mr-1960": "13 I: #1"
+                "mr-1956-variations": "13 I: #post-1--1960-07-26"
             }
         }
     },
@@ -126,8 +124,7 @@
                 "pl": "Maria z Nazaretu (Oczyszczenie Błogosławionej Maryi Dziewicy)"
             },
             "sources": {
-                "mr-1956": "2 II: #1",
-                "mr-1960": "2 II: #1"
+                "mr-1956": "2 II: #1"
             }
         },
         "records/god/fil#prd": {
@@ -157,7 +154,7 @@
                 "pl": "Piotr Apostoł (Katedra Świętego Piotra w Rzymie)"
             },
             "sources": {
-                "mr-1960": "22 II: #1",
+                "mr-1956-variations": "22 II: #post-1--1960-07-26",
                 "mr-2004": "22 II: #1"
             }
         }
@@ -169,8 +166,7 @@
                 "pl": "Augustyn z Hippony (Przeniesienie ciała świętego Augustyna)"
             },
             "sources": {
-                "mr-1956": "29 II: #6",
-                "mr-1960": "29 II: #6"
+                "mr-1956": "29 II: #6"
             }
         }
     },
@@ -181,8 +177,7 @@
                 "pl": "Augustyn z Hippony (Przeniesienie ciała świętego Augustyna)"
             },
             "sources": {
-                "mr-1956": "28 II: #6",
-                "mr-1960": "28 II: #6"
+                "mr-1956": "28 II: #6"
             }
         }
     },
@@ -194,7 +189,6 @@
             },
             "sources": {
                 "mr-1956": "19 III: #1",
-                "mr-1960": "19 III: #1",
                 "mr-2004": "19 III: #1"
             }
         }
@@ -207,8 +201,7 @@
                 "pl": "Maria z Nazaretu (Zwiastowanie Błogosławionej Maryi Dziewicy Bożej Rodzicielki)"
             },
             "sources": {
-                "mr-1956": "25 III: #1",
-                "mr-1960": "25 III: #1"
+                "mr-1956": "25 III: #1"
             }
         },
         "records/god/fil#and": {
@@ -229,8 +222,7 @@
                 "pl": "Augustyn z Hippony (Nawrócenie świętego Augustyna)"
             },
             "sources": {
-                "mr-1956": "24 IV: #11",
-                "mr-1960": "24 IV: #11"
+                "mr-1956": "24 IV: #11"
             }
         }
     },
@@ -241,8 +233,7 @@
                 "pl": "Piotr Apostoł (Rzymska wielka procesja błagalna do świętego Piotra)"
             },
             "sources": {
-                "mr-1956": "25 IV: #1",
-                "mr-1960": "25 IV: #1"
+                "mr-1956": "25 IV: #1"
             }
         }
     },
@@ -254,7 +245,6 @@
             },
             "sources": {
                 "mr-1956": "1 V: #1",
-                "mr-1960": "1 V: #1",
                 "mr-2004": "1 V: #1"
             }
         }
@@ -267,7 +257,7 @@
             },
             "sources": {
                 "mr-1956": "6 V: #1",
-                "mr-1960": "6 V: #2"
+                "mr-1956-variations": "6 V: #2--1960-07-26"
             }
         }
     },
@@ -279,8 +269,7 @@
                 "pl": "Maria z Nazaretu (Błogosławiona Maria Dziewica Królowa)"
             },
             "sources": {
-                "mr-1956": "31 V: #1",
-                "mr-1960": "31 V: #1"
+                "mr-1956": "31 V: #1"
             }
         },
         "records/patrons/maria/naz#vis": {
@@ -302,7 +291,6 @@
             },
             "sources": {
                 "mr-1956": "24 VI: #1",
-                "mr-1960": "24 VI: #1",
                 "mr-2004": "24 VI: #1"
             }
         }
@@ -314,8 +302,7 @@
                 "pl": "Piotr Apostoł (Wigilia świętych Apostołów Piotra i Pawła)"
             },
             "sources": {
-                "mr-1956": "28 VI: #1",
-                "mr-1960": "28 VI: #1"
+                "mr-1956": "28 VI: #1"
             }
         },
         "records/patrons/paulus/apo#ppv": {
@@ -324,8 +311,7 @@
                 "pl": "Paweł z Tarsu (Wigilia świętych Apostołów Piotra i Pawła)"
             },
             "sources": {
-                "mr-1956": "28 VI: #1",
-                "mr-1960": "28 VI: #1"
+                "mr-1956": "28 VI: #1"
             }
         }
     },
@@ -336,8 +322,7 @@
                 "pl": "Jezus Chrystus (Najdroższa Krew Chrystusa)"
             },
             "sources": {
-                "mr-1956": "1 VII: #2",
-                "mr-1960": "1 VII: #1"
+                "mr-1956": "1 VII: #2"
             }
         }
     },
@@ -349,8 +334,7 @@
                 "pl": "Maria z Nazaretu (Nawiedzenie Błogosławionej Maryi Dziewicy)"
             },
             "sources": {
-                "mr-1956": "2 VII: #1",
-                "mr-1960": "2 VII: #1"
+                "mr-1956": "2 VII: #1"
             }
         }
     },
@@ -383,7 +367,7 @@
             },
             "sources": {
                 "mr-1956": "16 VII: #1",
-                "mr-1960": "16 VII: #1",
+                "mr-1956-variations": "16 VII: #1--1960-07-26",
                 "mr-2004": "16 VII: #1"
             }
         }
@@ -396,7 +380,7 @@
             },
             "sources": {
                 "mr-1956": "1 VIII: #1",
-                "mr-1960": "1 VIII: #13"
+                "mr-1956-variations": "1 VIII: #post-13--1960-07-26"
             }
         }
     },
@@ -408,7 +392,6 @@
             },
             "sources": {
                 "mr-1956": "5 VIII: #1",
-                "mr-1960": "5 VIII: #1",
                 "mr-2004": "5 VIII: #1"
             }
         }
@@ -421,7 +404,6 @@
             },
             "sources": {
                 "mr-1956": "6 VIII: #1",
-                "mr-1960": "6 VIII: #1",
                 "mr-2004": "6 VIII: #1"
             }
         }
@@ -433,8 +415,7 @@
                 "pl": "Maria z Nazaretu (Wigilia Wniebowzięcia Najświętszej Maryi Panny)"
             },
             "sources": {
-                "mr-1956": "14 VIII: #1",
-                "mr-1960": "14 VIII: #1"
+                "mr-1956": "14 VIII: #1"
             }
         }
     },
@@ -447,7 +428,6 @@
             },
             "sources": {
                 "mr-1956": "15 VIII: #1",
-                "mr-1960": "15 VIII: #1",
                 "mr-2004": "15 VIII: #1"
             }
         }
@@ -469,7 +449,7 @@
             },
             "sources": {
                 "mr-1956": "22 VIII: #2",
-                "mr-1960": "22 VIII: #1"
+                "mr-1956-variations": "22 VIII: #2--1960-07-26"
             }
         },
         "records/patrons/maria/naz#reg": {
@@ -491,7 +471,6 @@
             },
             "sources": {
                 "mr-1956": "29 VIII: #1",
-                "mr-1960": "29 VIII: #1",
                 "mr-2004": "29 VIII: #1"
             }
         }
@@ -504,7 +483,6 @@
             },
             "sources": {
                 "mr-1956": "12 IX: #1",
-                "mr-1960": "12 IX: #1",
                 "mr-2004": "12 IX: #1"
             }
         }
@@ -518,7 +496,6 @@
             },
             "sources": {
                 "mr-1956": "14 IX: #1",
-                "mr-1960": "14 IX: #1",
                 "mr-2004": "14 IX: #1"
             }
         }
@@ -531,7 +508,7 @@
             },
             "sources": {
                 "mr-1956": "15 IX: #2",
-                "mr-1960": "15 IX: #1"
+                "mr-1956-variations": "15 IX: #2--1960-07-26"
             }
         },
         "records/patrons/maria/naz#per": {
@@ -552,7 +529,7 @@
             },
             "sources": {
                 "mr-1956": "7 X: #1",
-                "mr-1960": "7 X: #1",
+                "mr-1956-variations": "7 X: #1--1960-07-26",
                 "mr-2004": "7 X: #1"
             }
         }
@@ -565,8 +542,7 @@
                 "pl": "Maria z Nazaretu (Macierzyństwo błogosławionej Maryi Dziewicy)"
             },
             "sources": {
-                "mr-1956": "11 X: #1",
-                "mr-1960": "11 X: #1"
+                "mr-1956": "11 X: #1"
             }
         }
     },
@@ -578,7 +554,6 @@
             },
             "sources": {
                 "mr-1956": "9 XI: #1",
-                "mr-1960": "9 XI: #1",
                 "mr-2004": "9 XI: #1"
             }
         },
@@ -589,7 +564,6 @@
             },
             "sources": {
                 "mr-1956": "9 XI: #1",
-                "mr-1960": "9 XI: #1",
                 "mr-2004": "9 XI: #1"
             }
         },
@@ -600,7 +574,6 @@
             },
             "sources": {
                 "mr-1956": "9 XI: #1",
-                "mr-1960": "9 XI: #1",
                 "mr-2004": "9 XI: #1"
             }
         }
@@ -613,7 +586,6 @@
             },
             "sources": {
                 "mr-1956": "18 XI: #1",
-                "mr-1960": "18 XI: #1",
                 "mr-2004": "18 XI: #1"
             }
         },
@@ -624,7 +596,6 @@
             },
             "sources": {
                 "mr-1956": "18 XI: #1",
-                "mr-1960": "18 XI: #1",
                 "mr-2004": "18 XI: #1"
             }
         }
@@ -638,7 +609,6 @@
             },
             "sources": {
                 "mr-1956": "21 XI: #1",
-                "mr-1960": "21 XI: #1",
                 "mr-2004": "21 XI: #1"
             }
         }
@@ -662,7 +632,6 @@
             },
             "sources": {
                 "mr-1956": "8 XII: #1",
-                "mr-1960": "8 XII: #1",
                 "mr-2004": "8 XII: #1"
             }
         }
@@ -674,8 +643,7 @@
                 "pl": "Euzebiusz z Vercelli (Wyświęcenie na biskupa świętego Euzebiusza)"
             },
             "sources": {
-                "mr-1956": "15 XII: #7",
-                "mr-1960": "15 XII: #6"
+                "mr-1956": "15 XII: #7"
             }
         },
         "records/patrons/maria/naz#cio": {
@@ -695,8 +663,7 @@
                 "pl": "Jezus Chrystus (Wigilia Narodzenia Pańskiego)"
             },
             "sources": {
-                "mr-1956": "24 XII: #1",
-                "mr-1960": "24 XII: #1"
+                "mr-1956": "24 XII: #1"
             }
         }
     },
@@ -708,7 +675,6 @@
             },
             "sources": {
                 "mr-1956": "25 XII: #1",
-                "mr-1960": "25 XII: #1",
                 "mr-2004": "25 XII: #1"
             }
         }

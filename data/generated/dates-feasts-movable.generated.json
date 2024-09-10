@@ -29,7 +29,6 @@
             },
             "sources": {
                 "mr-1956-movable": "#1",
-                "mr-1960-movable": "#1",
                 "mr-2004-movable": "#1"
             }
         }
@@ -70,7 +69,7 @@
                 "pl": "Jezus Chrystus (Święta Rodzina)"
             },
             "sources": {
-                "mr-1960-movable": "#3"
+                "mr-1956-movable-variations": "#3--1960-07-26"
             }
         },
         "records/patrons/maria/naz#sfa": {
@@ -79,7 +78,7 @@
                 "pl": "Maria z Nazaretu (Święta Rodzina)"
             },
             "sources": {
-                "mr-1960-movable": "#3"
+                "mr-1956-movable-variations": "#3--1960-07-26"
             }
         },
         "records/patrons/ioseph/naz#sfa": {
@@ -88,7 +87,7 @@
                 "pl": "Józef z Nazaretu (Święta Rodzina)"
             },
             "sources": {
-                "mr-1960-movable": "#3"
+                "mr-1956-movable-variations": "#3--1960-07-26"
             }
         }
     },
@@ -128,8 +127,7 @@
                 "pl": "Jezus Chrystus (Jezus Chrystus Król)"
             },
             "sources": {
-                "mr-1956-movable": "#25",
-                "mr-1960-movable": "#22"
+                "mr-1956-movable": "#25"
             }
         }
     },
@@ -149,6 +147,33 @@
             },
             "sources": {
                 "liturgical-calendar-feasts": "#MRP"
+            }
+        },
+        "records/god/fil#aso": {
+            "name": {
+                "la": "Iesus Christus (Octava Ascensionis Iesu Christi)",
+                "pl": "Jezus Chrystus (Oktawa Wniebowstąpienia Jezusa Chrystusa)"
+            },
+            "sources": {
+                "mr-1956-movable-variations": "#17--1960-07-26"
+            }
+        },
+        "records/god/fil#cro": {
+            "name": {
+                "la": "Iesus Christus (Octava Sanctissimi Corporis Christi)",
+                "pl": "Jezus Chrystus (Oktawa Najświętszego Ciała Chrystusa)"
+            },
+            "sources": {
+                "mr-1956-movable-variations": "#22--1960-07-26"
+            }
+        },
+        "records/god/fil#sco": {
+            "name": {
+                "la": "Iesus Christus (Octava Sacratissimi Cordis Iesu)",
+                "pl": "Jezus Chrystus (Oktawa Najświętszego Serca Jezusa)"
+            },
+            "sources": {
+                "mr-1956-movable-variations": "#24--1960-07-26"
             }
         }
     },
@@ -171,7 +196,7 @@
             },
             "sources": {
                 "mr-1956-movable": "#6",
-                "mr-1960-movable": "#6"
+                "mr-1956-movable-variations": "#6--1960-07-26"
             }
         }
     },
@@ -194,7 +219,6 @@
             },
             "sources": {
                 "mr-1956-movable": "#9",
-                "mr-1960-movable": "#9",
                 "mr-2004-movable": "#7"
             }
         }
@@ -219,7 +243,6 @@
             },
             "sources": {
                 "mr-1956-movable": "#5",
-                "mr-1960-movable": "#5",
                 "mr-2004-movable": "#4"
             }
         }
@@ -231,8 +254,7 @@
                 "pl": "Jezus Chrystus (Niedziela Siedemdziesiątnicy)"
             },
             "sources": {
-                "mr-1956-movable": "#4",
-                "mr-1960-movable": "#4"
+                "mr-1956-movable": "#4"
             }
         }
     },
@@ -244,7 +266,7 @@
             },
             "sources": {
                 "mr-1956-movable": "#8",
-                "mr-1960-movable": "#8"
+                "mr-1956-movable-variations": "#8--1960-07-26"
             }
         },
         "records/god/fil#dpp": {
@@ -265,7 +287,7 @@
             },
             "sources": {
                 "mr-1956-movable": "#7",
-                "mr-1960-movable": "#7"
+                "mr-1956-movable-variations": "#7--1960-07-26"
             }
         }
     },
@@ -277,7 +299,6 @@
             },
             "sources": {
                 "mr-1956-movable": "#10",
-                "mr-1960-movable": "#10",
                 "mr-2004-movable": "#8"
             }
         }
@@ -289,8 +310,7 @@
                 "pl": "Maria z Nazaretu (Rzymska mała procesja błagalna do świętej Maryi Większej)"
             },
             "sources": {
-                "mr-1956-movable": "#13",
-                "mr-1960-movable": "#13"
+                "mr-1956-movable": "#13"
             }
         }
     },
@@ -301,8 +321,7 @@
                 "pl": "Jezus Chrystus (Rzymska mała procesja błagalna do świętego Jana na Lateranie)"
             },
             "sources": {
-                "mr-1956-movable": "#14",
-                "mr-1960-movable": "#14"
+                "mr-1956-movable": "#14"
             }
         },
         "records/patrons/ioannes/bap#ril": {
@@ -311,8 +330,7 @@
                 "pl": "Jan Chrzciciel (Rzymska mała procesja błagalna do świętego Jana na Lateranie)"
             },
             "sources": {
-                "mr-1956-movable": "#14",
-                "mr-1960-movable": "#14"
+                "mr-1956-movable": "#14"
             }
         },
         "records/patrons/ioannes/eva#ril": {
@@ -321,8 +339,7 @@
                 "pl": "Jan Ewangelista (Rzymska mała procesja błagalna do świętego Jana na Lateranie)"
             },
             "sources": {
-                "mr-1956-movable": "#14",
-                "mr-1960-movable": "#14"
+                "mr-1956-movable": "#14"
             }
         }
     },
@@ -333,8 +350,7 @@
                 "pl": "Jezus Chrystus (Wigilia Wniebowstąpienia Jezusa Chrystusa)"
             },
             "sources": {
-                "mr-1956-movable": "#15",
-                "mr-1960-movable": "#15"
+                "mr-1956-movable": "#15"
             }
         },
         "records/patrons/petrus/apo#r2p": {
@@ -343,8 +359,7 @@
                 "pl": "Piotr Apostoł (Rzymska mała procesja błagalna do świętego Piotra)"
             },
             "sources": {
-                "mr-1956-movable": "#15",
-                "mr-1960-movable": "#15"
+                "mr-1956-movable": "#15"
             }
         }
     },
@@ -356,7 +371,6 @@
             },
             "sources": {
                 "mr-1956-movable": "#16",
-                "mr-1960-movable": "#16",
                 "mr-2004-movable": "#9"
             }
         }
@@ -390,8 +404,7 @@
                 "pl": "Duch Święty (Wigilia Zesłania Ducha Świętego)"
             },
             "sources": {
-                "mr-1956-movable": "#18",
-                "mr-1960-movable": "#17"
+                "mr-1956-movable": "#18"
             }
         }
     },
@@ -403,7 +416,6 @@
             },
             "sources": {
                 "mr-1956-movable": "#19",
-                "mr-1960-movable": "#18",
                 "mr-2004-movable": "#10"
             }
         }
@@ -416,7 +428,6 @@
             },
             "sources": {
                 "mr-1956-movable": "#20",
-                "mr-1960-movable": "#19",
                 "mr-2004-movable": "#11"
             }
         },
@@ -426,8 +437,7 @@
                 "pl": "Duch Święty (Oktawa Zesłania Ducha Świętego)"
             },
             "sources": {
-                "mr-1956-movable": "#20",
-                "mr-1960-movable": "#19"
+                "mr-1956-movable": "#20"
             }
         }
     },
@@ -438,8 +448,7 @@
                 "pl": "Jezus Chrystus (Najświętsze Ciało Chrystusa)"
             },
             "sources": {
-                "mr-1956-movable": "#21",
-                "mr-1960-movable": "#20"
+                "mr-1956-movable": "#21"
             }
         },
         "records/god/fil#ces": {
@@ -482,7 +491,7 @@
             },
             "sources": {
                 "mr-1956-movable": "#23",
-                "mr-1960-movable": "#21",
+                "mr-1956-movable-variations": "#23--1960-07-26",
                 "mr-2004-movable": "#13"
             }
         }
@@ -505,8 +514,7 @@
                 "pl": "Jezus Chrystus (Niedziela Biała)"
             },
             "sources": {
-                "mr-1956-movable": "#12",
-                "mr-1960-movable": "#12"
+                "mr-1956-movable": "#12"
             }
         }
     },
@@ -539,7 +547,7 @@
                 "pl": "Piotr Apostoł (Rzymska wielka procesja błagalna do świętego Piotra)"
             },
             "sources": {
-                "mr-1960-movable": "#11"
+                "mr-1956-movable-variations": "#11--1960-07-26"
             }
         }
     },
@@ -550,8 +558,7 @@
                 "pl": "Jezus Chrystus (Najświętsze Imię Jezus)"
             },
             "sources": {
-                "mr-1956-movable": "#2",
-                "mr-1960-movable": "#2"
+                "mr-1956-movable": "#2"
             }
         }
     }

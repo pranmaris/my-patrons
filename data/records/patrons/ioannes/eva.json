@@ -45,25 +45,24 @@
   "feasts": {
     "oie": {
       "data-links": {
-        "mr-1956": ["1:ian/3#1"]
+        "mr-1956": ["1:ian/3#1"],
+        "mr-1956-variations": ["1:ian/3#1--1960-07-26"]
       }
     },
     "ole": {
       "data-links": {
-        "mr-1960": ["1:mai/6#2"],
-        "mr-1956": ["1:mai/6#1"]
+        "mr-1956": ["1:mai/6#1"],
+        "mr-1956-variations": ["1:mai/6#2--1960-07-26"]
       }
     },
     "ril": {
       "data-links": {
-        "mr-1960-movable": ["3:#14"],
         "mr-1956-movable": ["3:#14"]
       }
     },
     "dbl": {
       "data-links": {
         "mr-2004": ["3:nov/9#1"],
-        "mr-1960": ["3:nov/9#1"],
         "mr-1956": ["3:nov/9#1"]
       }
     }

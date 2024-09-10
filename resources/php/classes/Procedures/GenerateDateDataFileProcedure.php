@@ -127,6 +127,11 @@ class GenerateDateDataFileProcedure extends Procedure
                 continue;
             }
 
+            $fileData = $this->getOriginalJsonFileContentArrayForFullPath($path)[self::DATA_LINKS_GENERATED_FILES_INDEX] ?? [];
+            if (empty($fileData)) {
+                continue;
+            }
+
             $subPath = ltrim(mb_substr($path, mb_strlen($srcPath)), '/');
             $subPathElementsCount = count(explode('/', $subPath));
             if ($subPathElementsCount !== 2) {
@@ -155,12 +160,25 @@ class GenerateDateDataFileProcedure extends Procedure
                 $alias = substr($alias, 0, 5);
             }
 
-            $fileData = $this->getOriginalJsonFileContentArrayForFullPath($path)[self::DATA_LINKS_GENERATED_FILES_INDEX] ?? [];
-            if (empty($fileData)) {
-                continue;
-            }
+            $staticDataFilePath = preg_replace(
+                '~' . $this->getGeneratedFileSuffix() . '$~',
+                $this->getDataFileSuffix(),
+                $path
+            );
+            $staticData = $this->getOriginalJsonFileContentArrayForFullPath($staticDataFilePath) ?? [];
 
             foreach ($fileData as $recordId => $recordData) {
+                $skipDueToDeletedRecord = false;
+                foreach ($staticData[$recordId] as $dataValue) {
+                    if (trim($dataValue) === self::DELETED_RECORD_TAG) {
+                        $skipDueToDeletedRecord = true;
+                        break;
+                    }
+                }
+                if ($skipDueToDeletedRecord) {
+                    continue;
+                }
+
                 foreach ($recordData as $patronUrl) {
                     $dayWithRomanMonth = $this->getDate()->getDayWithRomanMonth($aliasForRomanFormatting);
                     $this->addToFileData($alias, $patronUrl, $sourceId, "$dayWithRomanMonth: #$recordId");

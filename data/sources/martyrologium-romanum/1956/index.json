@@ -23,5 +23,10 @@
     },
     "sancti-eorumque-officia-sine-indicatione-loci": {
         "la": "Sancti eorumque officia sine indicatione loci"
+    },
+    "variationes": {
+        "la": "Variationes",
+        "en": "Variations",
+        "pl": "Wariacje"
     }
 }
