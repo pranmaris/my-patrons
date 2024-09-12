@@ -8,7 +8,7 @@ class DataFileMainContent extends MainContent implements MainContentInterface
 
     public function configure(string $path): bool
     {
-        $path = preg_replace('/' . self::FEAST_ID_SEPARATOR . '[0-9a-zA-Z]+/', '', $path);
+        $path = preg_replace('/' . self::FEAST_ID_SEPARATOR . '[-0-9a-zA-Z]+/', '', $path);
         $directoryPath = dirname($path);
 
         $filePath = $this->getDataFileSuffix($path);

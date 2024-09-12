@@ -375,6 +375,9 @@ footer {
 }
 .record-inactive {
 }
+.patrons-feast-record-item {
+  padding: 10px;
+}
 
 #cards-canvas {
   width: 1;

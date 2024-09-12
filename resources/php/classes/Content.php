@@ -149,8 +149,9 @@ abstract class Content extends Base
     protected function getActiveRecordId(): ?string
     {
         $requestPath = $this->getEnvironment()->getRequestPath();
+        $requestPathRecordId = $this->getRequestPathRecordIdOnly($requestPath);
 
-        if (preg_match('/[' . self::FEAST_ID_SEPARATOR . "](?'recordId'[0-9a-zA-Z]+)/", $requestPath, $matches)) {
+        if (preg_match('/[' . self::FEAST_ID_SEPARATOR . "](?'recordId'[-0-9a-zA-Z]+)/", $requestPathRecordId, $matches)) {
             return $matches['recordId'];
         }
 
