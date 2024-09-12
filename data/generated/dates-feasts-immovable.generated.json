@@ -7,7 +7,7 @@
             },
             "sources": {
                 "mr-1956": "1 I: #1",
-                "mr-1956-variations": "1 I: #1--1960-07-26"
+                "mr-1956-variations": "1 I: #1-ab-1960-07-26"
             }
         },
         "records/god/fil#nao": {
@@ -17,7 +17,7 @@
             },
             "sources": {
                 "mr-1956": "1 I: #1",
-                "mr-1956-variations": "1 I: #pre-1--1960-07-26"
+                "mr-1956-variations": "1 I: #pre-1-ab-1960-07-26"
             }
         },
         "records/patrons/maria/naz#gen": {
@@ -101,7 +101,7 @@
                 "pl": "Jezus Chrystus (Chrzest Pański)"
             },
             "sources": {
-                "mr-1956-variations": "13 I: #post-1--1960-07-26"
+                "mr-1956-variations": "13 I: #post-1-ab-1960-07-26"
             }
         }
     },
@@ -154,7 +154,7 @@
                 "pl": "Piotr Apostoł (Katedra Świętego Piotra w Rzymie)"
             },
             "sources": {
-                "mr-1956-variations": "22 II: #post-1--1960-07-26",
+                "mr-1956-variations": "22 II: #post-1-ab-1960-07-26",
                 "mr-2004": "22 II: #1"
             }
         }
@@ -257,7 +257,7 @@
             },
             "sources": {
                 "mr-1956": "6 V: #1",
-                "mr-1956-variations": "6 V: #2--1960-07-26"
+                "mr-1956-variations": "6 V: #2-ab-1960-07-26"
             }
         }
     },
@@ -367,7 +367,7 @@
             },
             "sources": {
                 "mr-1956": "16 VII: #1",
-                "mr-1956-variations": "16 VII: #1--1960-07-26",
+                "mr-1956-variations": "16 VII: #1-ab-1960-07-26",
                 "mr-2004": "16 VII: #1"
             }
         }
@@ -380,7 +380,7 @@
             },
             "sources": {
                 "mr-1956": "1 VIII: #1",
-                "mr-1956-variations": "1 VIII: #post-13--1960-07-26"
+                "mr-1956-variations": "1 VIII: #post-13-ab-1960-07-26"
             }
         }
     },
@@ -449,7 +449,7 @@
             },
             "sources": {
                 "mr-1956": "22 VIII: #2",
-                "mr-1956-variations": "22 VIII: #2--1960-07-26"
+                "mr-1956-variations": "22 VIII: #2-ab-1960-07-26"
             }
         },
         "records/patrons/maria/naz#reg": {
@@ -508,7 +508,7 @@
             },
             "sources": {
                 "mr-1956": "15 IX: #2",
-                "mr-1956-variations": "15 IX: #2--1960-07-26"
+                "mr-1956-variations": "15 IX: #2-ab-1960-07-26"
             }
         },
         "records/patrons/maria/naz#per": {
@@ -529,7 +529,7 @@
             },
             "sources": {
                 "mr-1956": "7 X: #1",
-                "mr-1956-variations": "7 X: #1--1960-07-26",
+                "mr-1956-variations": "7 X: #1-ab-1960-07-26",
                 "mr-2004": "7 X: #1"
             }
         }

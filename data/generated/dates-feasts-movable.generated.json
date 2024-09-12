@@ -69,7 +69,7 @@
                 "pl": "Jezus Chrystus (Święta Rodzina)"
             },
             "sources": {
-                "mr-1956-movable-variations": "#3--1960-07-26"
+                "mr-1956-movable-variations": "#3-ab-1960-07-26"
             }
         },
         "records/patrons/maria/naz#sfa": {
@@ -78,7 +78,7 @@
                 "pl": "Maria z Nazaretu (Święta Rodzina)"
             },
             "sources": {
-                "mr-1956-movable-variations": "#3--1960-07-26"
+                "mr-1956-movable-variations": "#3-ab-1960-07-26"
             }
         },
         "records/patrons/ioseph/naz#sfa": {
@@ -87,7 +87,7 @@
                 "pl": "Józef z Nazaretu (Święta Rodzina)"
             },
             "sources": {
-                "mr-1956-movable-variations": "#3--1960-07-26"
+                "mr-1956-movable-variations": "#3-ab-1960-07-26"
             }
         }
     },
@@ -155,7 +155,7 @@
                 "pl": "Jezus Chrystus (Oktawa Wniebowstąpienia Jezusa Chrystusa)"
             },
             "sources": {
-                "mr-1956-movable-variations": "#17--1960-07-26"
+                "mr-1956-movable-variations": "#17-ab-1960-07-26"
             }
         },
         "records/god/fil#cro": {
@@ -164,7 +164,7 @@
                 "pl": "Jezus Chrystus (Oktawa Najświętszego Ciała Chrystusa)"
             },
             "sources": {
-                "mr-1956-movable-variations": "#22--1960-07-26"
+                "mr-1956-movable-variations": "#22-ab-1960-07-26"
             }
         },
         "records/god/fil#sco": {
@@ -173,7 +173,7 @@
                 "pl": "Jezus Chrystus (Oktawa Najświętszego Serca Jezusa)"
             },
             "sources": {
-                "mr-1956-movable-variations": "#24--1960-07-26"
+                "mr-1956-movable-variations": "#24-ab-1960-07-26"
             }
         }
     },
@@ -196,7 +196,7 @@
             },
             "sources": {
                 "mr-1956-movable": "#6",
-                "mr-1956-movable-variations": "#6--1960-07-26"
+                "mr-1956-movable-variations": "#6-ab-1960-07-26"
             }
         }
     },
@@ -266,7 +266,7 @@
             },
             "sources": {
                 "mr-1956-movable": "#8",
-                "mr-1956-movable-variations": "#8--1960-07-26"
+                "mr-1956-movable-variations": "#8-ab-1960-07-26"
             }
         },
         "records/god/fil#dpp": {
@@ -287,7 +287,7 @@
             },
             "sources": {
                 "mr-1956-movable": "#7",
-                "mr-1956-movable-variations": "#7--1960-07-26"
+                "mr-1956-movable-variations": "#7-ab-1960-07-26"
             }
         }
     },
@@ -491,7 +491,7 @@
             },
             "sources": {
                 "mr-1956-movable": "#23",
-                "mr-1956-movable-variations": "#23--1960-07-26",
+                "mr-1956-movable-variations": "#23-ab-1960-07-26",
                 "mr-2004-movable": "#13"
             }
         }
@@ -547,7 +547,7 @@
                 "pl": "Piotr Apostoł (Rzymska wielka procesja błagalna do świętego Piotra)"
             },
             "sources": {
-                "mr-1956-movable-variations": "#11--1960-07-26"
+                "mr-1956-movable-variations": "#11-ab-1960-07-26"
             }
         }
     },

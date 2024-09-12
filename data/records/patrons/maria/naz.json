@@ -65,7 +65,7 @@
       "data-links": {
         "mr-2004": ["1:iul/16#1"],
         "mr-1956": ["1:iul/16#1"],
-        "mr-1956-variations": ["1:iul/16#1--1960-07-26"]
+        "mr-1956-variations": ["1:iul/16#1-ab-1960-07-26"]
       }
     },
     "dbm": {
@@ -94,14 +94,14 @@
     "amo": {
       "data-links": {
         "mr-1956": ["1:aug/22#1"],
-        "mr-1956-variations": ["1:aug/22#1--1960-07-26"]
+        "mr-1956-variations": ["1:aug/22#1-ab-1960-07-26"]
       }
     },
     "sfa": {
       "data-links": {
         "mr-2004-movable": ["2:#2"],
         "mr-1956-movable": ["2:#3"],
-        "mr-1956-movable-variations": ["2:#3--1960-07-26"]
+        "mr-1956-movable-variations": ["2:#3-ab-1960-07-26"]
       }
     },
     "rmm": {
@@ -113,7 +113,7 @@
       "data-links": {
         "mr-2004-movable": ["1:#14"],
         "mr-1956": ["1:aug/22#2"],
-        "mr-1956-variations": ["1:aug/22#2--1960-07-26"]
+        "mr-1956-variations": ["1:aug/22#2-ab-1960-07-26"]
       }
     },
     "snm": {
@@ -125,9 +125,9 @@
     "7dm": {
       "data-links": {
         "mr-1956": ["1:sep/15#2"],
-        "mr-1956-variations": ["1:sep/15#2--1960-07-26"],
+        "mr-1956-variations": ["1:sep/15#2-ab-1960-07-26"],
         "mr-1956-movable": ["1:#7"],
-        "mr-1956-movable-variations": ["1:#7--1960-07-26"]
+        "mr-1956-movable-variations": ["1:#7-ab-1960-07-26"]
       }
     },
     "per": {
@@ -139,7 +139,7 @@
       "data-links": {
         "mr-2004": ["1:oct/7#1"],
         "mr-1956": ["1:oct/7#1"],
-        "mr-1956-variations": ["1:oct/7#1--1960-07-26"]
+        "mr-1956-variations": ["1:oct/7#1-ab-1960-07-26"]
       }
     },
     "mat": {
@@ -161,7 +161,7 @@
     "civ": {
       "data-links": {
         "mr-1956": ["1:dec/7#1"],
-        "mr-1956-variations": ["1:dec/7#1--1960-07-26"]
+        "mr-1956-variations": ["1:dec/7#1-ab-1960-07-26"]
       }
     },
     "cim": {
@@ -173,7 +173,7 @@
     "cio": {
       "data-links": {
         "mr-1956": ["1:dec/15#1"],
-        "mr-1956-variations": ["1:dec/15#1--1960-07-26"]
+        "mr-1956-variations": ["1:dec/15#1-ab-1960-07-26"]
       }
     }
   }
