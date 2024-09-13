@@ -83,13 +83,12 @@ class BodyContent extends Content
             if ($code === '') {
                 $name = '<b>' . mb_strtoupper(self::ORIGINAL_LANGUAGE_CODE) . '</b>: ' . $translatedNamesList[$code];
             } else {
-                $name = '<b>' . mb_strtoupper($code) . '</b>: ' . $originalNamesList[$code];
+                $originalName = $originalNamesList[$code] ?? '?';
+                $translatedName = $translatedNamesList[$code] ?? $originalName;
 
-                if (isset($translatedNamesList[$code])
-                    && isset($originalNamesList[$code])
-                    && str_replace(self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL, '', $originalNamesList[$code]) !== $translatedNamesList[$code]
-                ) {
-                    $name .= ' (' . $translatedNamesList[$code] . ')';
+                $name = '<b>' . mb_strtoupper($code) . '</b>: ' . $translatedName;
+                if (str_replace(self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL, '', $originalName) !== $translatedName) {
+                    $name .= ' (' . $originalName . ')';
                 }
             }
             $variables = [
