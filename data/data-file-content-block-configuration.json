@@ -8,7 +8,6 @@
     "/records/popes/": "PopesContentBlock",
 
     "/indexes/": "IndexedNameContentBlock",
-    "/challenges/": "ChallengesContentBlock",
 
     "/sources/martyrologium-romanum/2004/editio/": "RomanMartyrologyEditionContentBlock",
     "/sources/martyrologium-romanum/2004/martyrologium-romanum/": "RomanMartyrologyDayElogiesTypeAContentBlock",
