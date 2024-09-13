@@ -169,10 +169,14 @@ abstract class Base
         }
 
         if ($wasPathChanged) {
-            $path = implode('/', $pathElements);
+            $pathToRedirect = implode('/', $pathElements);
+            $pathToRedirect = preg_replace('~[/]+~', '/', '/' . $pathToRedirect);
 
-            if ($this->dataPathExists($path) || $this->dataPathExists($path . self::DATA_FILE_EXTENSION)) {
-                return preg_replace('~[/]+~', '/', '/' . $path) . $feastId . $nameExtension;
+            if (($aliasData[trim($path, '/')] ?? '') === $pathToRedirect
+                || $this->dataPathExists($pathToRedirect)
+                || $this->dataPathExists($pathToRedirect . self::DATA_FILE_EXTENSION)
+            ) {
+                return $pathToRedirect . $feastId . $nameExtension;
             }
         }
 

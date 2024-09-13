@@ -1,6 +1,14 @@
 {
+    "karty": "/cards",
+    "daty": "/dates",
+    "o-nas": "/about-us",
+    "notatki": "/notes",
+    "wesprzyj-nas": "/support-us",
+    "kontakt": "/contact",
+
     "categories": "/records/categories/",
     "feasts": "/records/feasts/",
+    "forenames": "/records/forenames/",
     "god": "/records/god/",
     "liturgical-calendar-feasts": "/records/liturgical-calendar-feasts",
     "patrons": "/records/patrons/",

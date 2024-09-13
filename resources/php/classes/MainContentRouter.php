@@ -28,6 +28,9 @@ class MainContentRouter extends Content
             'DataFileMainContent' => $path,
             'DirectoryMainContent' => $path,
             'MainPageMainContent' => $path,
+            'AboutUsMainContent' => $path,
+            'ContactMainContent' => $path,
+            'SupportUsMainContent' => $path,
             'PathAliasRedirectionMainContent' => $originalPath,
             'InvalidPathMainContent' => $path,
         ];
