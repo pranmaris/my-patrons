@@ -11,8 +11,6 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
     private const MAIN_PAGE_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-service-name' . self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL_ONLY_FOR_MISSING . self::VARIABLE_NAME_SIGN;
     private const DATA_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-data' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
 
-    private const MAIN_PAGE_PARAM = '?mode=home';
-
     private const BREADCRUMBS_HIDE_DATA_ELEMENT_PATHS = [
         'cards' => false,
         'dates' => false,

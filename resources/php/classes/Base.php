@@ -48,6 +48,8 @@ abstract class Base
         ',' => '',
     ];
 
+    protected const MAIN_PAGE_PARAM = '?mode=home';
+
     public function __construct()
     {
         $this->date = new Date();

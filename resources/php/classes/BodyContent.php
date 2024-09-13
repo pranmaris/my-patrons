@@ -91,8 +91,16 @@ class BodyContent extends Content
                     $name .= ' (' . $originalName . ')';
                 }
             }
+
+            $href = $code . '.' . $domain . $requestPath . $queryParamsString;
+            $href = ltrim($href, '.');
+            if ($code === '' && false === strpos(rtrim($href, '/'), '/')) {
+                $href .= self::MAIN_PAGE_PARAM;
+            }
+            $href = $protocol . $href;
+
             $variables = [
-                'href' => $protocol . ltrim($code . '.' . $domain . $requestPath . $queryParamsString, '.'),
+                'href' => $href,
                 'name' => $name,
                 'class' => $selectedLanguage === $code ? ' ' . self::ACTIVE_LANGUAGE_CLASS : '',
             ];
