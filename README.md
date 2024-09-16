@@ -12,13 +12,9 @@ You have to fix all possible errors!
 
 # License
 
-Copyright (c) 2021 Private Initiative "gratiaDei.org" by Andrzej Precz
+Copyright (c) 2020 Private Initiative "gratiaDei.org" by Andrzej Precz
 
 All rights reserved
-
-# Attributions
-
-Site background photo by Raimond Klavins ([Unsplash](https://unsplash.com/photos/eamKoYza9r0)).
 
 # Contributors
 

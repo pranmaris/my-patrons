@@ -1,30 +1,76 @@
-<!--prefactoring-->
-<div id="main-page-main-content">
-  <div align="center">
-    <input id="search-input" />
-    <select id="search-select">
-      <option value="categories">#lang-categories|capitalize#</option>
-      <option value="forenames" selected="selected">#lang-forenames|capitalize#</option>
-      <option value="surnames">#lang-surnames|capitalize#</option>
-      <option value="epithets">#lang-epithets|capitalize#</option>
-    </select>
-    <button class="btn btn-primary" onclick="location = '/indexes/' + (document.getElementById('search-select').value ?? '') + '?q=' + document.getElementById('search-input').value">#lang-search|capitalize#</button>
-  </div>
-  <hr />
-  <div align="center" id="main-page-brand">
-    <img src="#lang-main-page-logo-path|original-only-for-missing#" />
-  </div>
-  <hr />
-  <ul>
-    <li><a href="/data">#lang-data|capitalize#</a></li>
-    <li>#lang-my-patrons-for-today|capitalize#:
-      <ul>
-        <li><a href="/dates/list-of-patrons-and-feasts">#lang-list-of-patrons-and-feasts|capitalize#</a></li>
-        <li><a href="/dates/list-of-patrons-and-immovable-feasts">#lang-list-of-patrons-and-immovable-feasts|capitalize#</a></li>
-        <li><a href="/dates/list-of-feasts">#lang-list-of-feasts|capitalize#</a></li>
-      </ul>
-    <li><a href="/notes">#lang-notes-editor|capitalize#</a></li>
-    <!--<li><a href="/cards">#lang-cards-editor|capitalize#</a></li>-->
-  </ul>
+<div class="container-full-bcg">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="b-left col-12 col-sm-12 col-lg-8 col-xl-6 col-xxl-5 d-flex align-content-center flex-wrap justify-content-center justify-content-lg-start">
+                    <h1>#lang-service-claim#</h1>
+                    <p>...</p>
+                    <a href="/notes" class="button-1">#lang-take-on-new-challenges|capitalize#</a>
+                    <a href="" class="button-2" data-bs-toggle="modal" data-bs-target="#patrons-for-today-modal">#lang-patrons-and-feasts-for-today|capitalize#</a>
+                </div>
+                <div class="d-none d-lg-flex col-12 col-lg-4 col-xl-6 col-xxl-7 b-right">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+<div class="container section-1">
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <img class="section-1-img" src="/files/resources/brand/logo/rgb/symbol/color.svg">
+        </div>
+        <div class="col-12 col-lg-6 section-1-text d-flex align-content-center flex-wrap justify-content-center justify-content-lg-start">
+            <h2>#lang-take-on-new-challenges|capitalize#</h2>
+            <p>...</p>
+            <a href="/notes" class="button-2">#lang-go-to-notes-editor|capitalize#</a>
+        </div>
+        <div class="col-8 offset-2 col-lg-6 offset-lg-3">
+            <div class="section-line"></div>
+        </div>
+    </div>
+</div>
+<div class="container section-2">
+    <div class="row">
+        <div class="col-lg-4 section-2a">
+            <img class="section-2-img" src="/files/resources/brand/logo/rgb/symbol/color.svg">
+            <div class="section-2-text">
+                <h3>#lang-patrons-and-feasts-for-today|capitalize#</h3>
+                <p>...</p>
+            </div>
+            <a href="" class="button-2" data-bs-toggle="modal" data-bs-target="#patrons-for-today-modal">#lang-check-it-out|capitalize#</a>
+        </div>
+        <div class="col-lg-4 section-2b">
+            <img class="section-2-img" src="/files/resources/brand/logo/rgb/symbol/color.svg">
+            <div class="section-2-text">
+                <h3>#lang-learn-more|capitalize#</h3>
+                <p>...</p>
+            </div>
+            <a href="/data" class="button-1">#lang-data|capitalize#</a>
+        </div>
+        <div class="col-lg-4 section-2c">
+            <img class="section-2-img" src="/files/resources/brand/logo/rgb/symbol/color.svg">
+            <div class="section-2-text">
+                <h3>#lang-create-your-own-deck-of-collectible-cards|capitalize#</h3>
+                <p>#lang-coming-soon|capitalize# ...</p>
+            </div>
+            <!--<a href="/cards" class="button-2">#lang-go-to-cards-editor|capitalize#</a>-->
+        </div>
+        <div class="col-8 offset-2 col-lg-6 offset-lg-3">
+            <div class="section-line-2"></div>
+        </div>
+    </div>
+</div>
+<div class="container section-3">
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <img class="section-3-img" src="/files/resources/brand/logo/rgb/symbol/color.svg">
+        </div>
+        <div class="col-12 col-lg-6 section-1-text d-flex align-content-center flex-wrap justify-content-center justify-content-lg-start">
+            <h2>#lang-about-us|capitalize#</h2>
+            <p>...</p>
+            <a href="/about-us" class="button-2">#lang-learn-more|capitalize#</a>
+        </div>
+    </div>
+</div>
+
 <script src="/files/resources/js/main-page-content.js"></script>

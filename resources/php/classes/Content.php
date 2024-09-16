@@ -134,6 +134,7 @@ abstract class Content extends Base
     {
         $variables = [
             self::LANGUAGE_VARIABLE_NAME_BEFORE => self::VARIABLE_NAME_SIGN . self::LANGUAGE_VARIABLE_NAME_AFTER . self::VARIABLE_NAME_SIGN,
+            'current-year' => $this->getDate()->getCurrentYear(),
         ];
         $replacedContent = $this->getReplacedContent($content, $variables);
         $translatedContent = $this->getReplacedContent($replacedContent, $websiteTranslatedVariables);

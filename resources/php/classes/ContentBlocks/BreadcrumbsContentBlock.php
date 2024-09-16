@@ -5,10 +5,11 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
     private const GLOBAL_VARIABLES_KEY_NAME = 'breadcrumbs-path-names';
 
     private const PATH_SEPARATOR = '###';
-    private const RECORD_SEPARATOR = ' <span class="breadcrumbs-path-separator"> &gt; </span>';
     private const ACTIVE_LINK_NAME_PREFIX = '###';
 
-    private const MAIN_PAGE_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-service-name' . self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL_ONLY_FOR_MISSING . self::VARIABLE_NAME_SIGN;
+    private const MAIN_PAGE_ICON = '<img class="home" src="/files/resources/svg/home.svg">';
+    private const FULL_CONTENT_WRAPPER_PREFIX = '<ol>';
+    private const FULL_CONTENT_WRAPPER_SUFFIX = '</ul>';
     private const DATA_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-data' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
 
     private const BREADCRUMBS_HIDE_DATA_ELEMENT_PATHS = [
@@ -98,27 +99,21 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
         $showMainPage = $this->showMainPage;
         $pathElements = $this->pathElements;
         if (!$showMainPage && count($pathElements) === 1) {
-            return self::MAIN_PAGE_VARIABLE;
+            return self::FULL_CONTENT_WRAPPER_PREFIX . self::MAIN_PAGE_ICON . self::FULL_CONTENT_WRAPPER_SUFFIX;
         }
 
         $result = ltrim("$translatedName: ", ': ');
 
-        $useSeparator = false;
         $recordId = 0;
         foreach ($pathElements as $path => $name) {
-            if ($useSeparator) {
-                $result .= $this->getRecordSeparator();
-            }
-
             if ($showMainPage || $recordId > 0) {
                 $result .= $this->getRecordContent($recordId);
-                $useSeparator = true;
             }
 
             $recordId++;
         }
 
-        return $result;
+        return self::FULL_CONTENT_WRAPPER_PREFIX . $result . self::FULL_CONTENT_WRAPPER_SUFFIX;
     }
 
     public function getRecordContent(string $recordId): string
@@ -144,11 +139,6 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
         return $this->getReplacedContent($linkContent, $variables);
     }
 
-    public function getRecordSeparator(): string
-    {
-        return self::RECORD_SEPARATOR;
-    }
-
     public function getLinkWithAnchor(string $path, string $anchor): string
     {
         $activeLinkContent = $this->activeLinkContent;
@@ -172,7 +162,7 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
 
         $showDataElement = $this->showDataElement;
 
-        $result['/' . self::MAIN_PAGE_PARAM] = ($showMainPage ? self::ACTIVE_LINK_NAME_PREFIX : '') . self::MAIN_PAGE_VARIABLE;
+        $result['/' . self::MAIN_PAGE_PARAM] = ($showMainPage ? self::ACTIVE_LINK_NAME_PREFIX : '') . self::MAIN_PAGE_ICON;
         if ($showMainPage && $contextPath === '' && $showDataElement) {
             $result[self::DATA_ROOT_PARENT_DIRECTORY_PATH] = self::ACTIVE_LINK_NAME_PREFIX . self::DATA_VARIABLE;
         }

@@ -8,6 +8,7 @@ class BodyContent extends Content
 
     private const NEWLINE = "\n";
     private const ORIGINAL_LANGUAGE_CODE = '??';
+    private const ORIGINAL_LANGUAGE_FILENAME = 'original';
     private const ACTIVE_LANGUAGE_CLASS = 'active';
 
     private const PATH_PREFIX_VARIABLE = '';
@@ -36,37 +37,32 @@ class BodyContent extends Content
             $htmlFileName = 'body-content.html';
         } else {
             $htmlFileName = 'body-full.html';
-            $variables['selected-language'] = $this->getSelectedLanguageName();
+            $variables['selected-language-filename'] = $this->getSelectedLanguageFilename();
             $variables['selectable-languages-list'] = $this->getSelectableLanguagesList($protocol, $domain, $requestPath);
-            $variables['breadcrumbs-content-block'] = $this->getBreadcrumbsContent($requestPath);
         }
+        $variables['breadcrumbs-content-block'] = $this->getBreadcrumbsContent($requestPath);
+        $variables['current-year'] = $this->getDate()->getCurrentYear();
 
-        list($title, $variables['content']) = $this->mainContentRouter->getTitleAndContent($requestPath, $originalRequestPath, $httpStatusCode);
+        $contentVariables = [];
+        list($title, $contentVariables['content']) = $this->mainContentRouter->getTitleAndContent($requestPath, $originalRequestPath, $httpStatusCode);
 
         $strippedTitle = $this->stripTags($title);
 
         $originalContent = $this->getOriginalHtmlFileContent($htmlFileName);
-        $replacedContent = $this->getReplacedContent($originalContent, $variables);
+        $replacedContent = $this->getReplacedContent($originalContent, $contentVariables);
+        $replacedAll = $this->getReplacedContent($replacedContent, $variables);
 
-        return [$strippedTitle, $replacedContent];
+        return [$strippedTitle, $replacedAll];
     }
 
-    private function getSelectedLanguageName(): string
+    private function getSelectedLanguageFilename(): string
     {
         $selectedLanguage = $this->getEnvironment()->getHostSubdomainOnly();
-        $languages = $this->getTranslatedLanguagesVariables();
-
-        $languageName = $languages[$selectedLanguage] ?? null;
-        if ($languageName !== null) {
-            return $languageName;
+        if (in_array($selectedLanguage, self::SELECTABLE_LANGUAGES_ORDER)) {
+            return $selectedLanguage;
         }
 
-        $originalLanguageNameArray = $languages[$selectedLanguage . self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL] ?? null;
-        if ($originalLanguageNameArray !== null) {
-            return reset($originalLanguageNameArray);
-        }
-
-        return self::VARIABLE_NAME_SIGN . self::ORIGINAL_VARIABLE_NAME . self::VARIABLE_NAME_SIGN;
+        return self::ORIGINAL_LANGUAGE_FILENAME;
     }
 
     private function getSelectableLanguagesList(string $protocol, string $domain, string $requestPath): string
@@ -81,12 +77,12 @@ class BodyContent extends Content
 
         foreach ($codesList as $code) {
             if ($code === '') {
-                $name = '<b>' . mb_strtoupper(self::ORIGINAL_LANGUAGE_CODE) . '</b>: ' . $translatedNamesList[$code];
+                $name = $translatedNamesList[$code];
             } else {
                 $originalName = $originalNamesList[$code] ?? '?';
                 $translatedName = $translatedNamesList[$code] ?? $originalName;
 
-                $name = '<b>' . mb_strtoupper($code) . '</b>: ' . $translatedName;
+                $name = $translatedName;
                 if (str_replace(self::MODIFIER_SEPARATOR . self::MODIFIER_ORIGINAL, '', $originalName) !== $translatedName) {
                     $name .= ' (' . $originalName . ')';
                 }
@@ -100,6 +96,7 @@ class BodyContent extends Content
             $href = $protocol . $href;
 
             $variables = [
+                'code' => $code === '' ? self::ORIGINAL_LANGUAGE_FILENAME : $code,
                 'href' => $href,
                 'name' => $name,
                 'class' => $selectedLanguage === $code ? ' ' . self::ACTIVE_LANGUAGE_CLASS : '',

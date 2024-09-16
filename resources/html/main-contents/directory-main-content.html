@@ -1,15 +1,19 @@
 <!--prefactoring-->
-<div id="directory-main-content">
-  <div class="directory-search">
-    <input id="search-input" />
-    <button class="btn btn-primary" onclick="refreshPageByButton()">#lang-search|capitalize#</button>
-  </div>
-  <hr />
-  <div>
-    <ul>
-#list-content#
-    </ul>
-  </div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-10 offset-lg-1">
+            <div class="breadcrumb">#breadcrumbs-content-block#</div>
+        </div>
+        <div class="col-12 col-lg-10 offset-lg-1 page-content">
+            <div class="directory-search">
+              <input id="search-input" />
+              <button class="btn btn-primary" onclick="refreshPageByButton()">#lang-search|capitalize#</button>
+            </div>
+            <hr />
+            <div>
+              <ul>#list-content#</ul>
+            </div>
+        </div>
+    </div>
 </div>
-
 <script src="/files/resources/js/directory-main-content.js"></script>

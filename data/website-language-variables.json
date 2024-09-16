@@ -226,9 +226,9 @@
         "pl": "karty"
     },
 
-    "lang-cards-editor": {
-        "en": "cards editor",
-        "pl": "edytor kart"
+    "lang-collection-cards-editor": {
+        "en": "collection cards editor",
+        "pl": "edytor kart kolekcjonerskich"
     },
 
     "lang-category": {
@@ -393,6 +393,11 @@
         "pl": "wyzwanie zostało usunięte pomyślnie!"
     },
 
+    "lang-check-it-out": {
+        "en": "check it out",
+        "pl": "sprawdź"
+    },
+
     "lang-checklist": {
         "en": "checklist",
         "pl": "checklista"
@@ -426,6 +431,11 @@
     "lang-clear-field": {
         "en": "clear",
         "pl": "wyczyść"
+    },
+
+    "lang-close": {
+        "en": "close",
+        "pl": "zamknij"
     },
 
     "lang-coffin-reliquary": {
@@ -465,13 +475,18 @@
     },
 
     "lang-copyright": {
-        "en": "©2021 <a target=\"_blank\" href=\"https://en.gratiaDei.org\">gratiaDei.org</a>",
-        "pl": "©2021 <a target=\"_blank\" href=\"https://pl.gratiaDei.org\">gratiaDei.org</a>"
+        "en": "All rights reserved © 2020-#current-year# gratiaDei.org",
+        "pl": "Wszelkie prawa zastrzeżone © 2020-#current-year# gratiaDei.org"
     },
 
     "lang-copyright-hidden-content-info": {
         "en": "content protected by copyright!",
         "pl": "treść chroniona prawami autorskimi!"
+    },
+
+    "lang-create-your-own-deck-of-collectible-cards": {
+        "en": "create your own deck of collectible cards",
+        "pl": "stwórz swoją własną talię kart kolekcjonerskich"
     },
 
     "lang-current-grave": {
@@ -745,6 +760,20 @@
         "en": "GitHub"
     },
 
+    "lang-go-to-cards-editor": {
+        "en": "go to cards editor",
+        "pl": "przejdź do edytora kart"
+    },
+
+    "lang-go-to-notes-editor": {
+        "en": "go to notes editor",
+        "pl": "przejdź do edytora notatek"
+    },
+
+    "lang-gratia-dei": {
+        "la": "Gratia Dei"
+    },
+
     "lang-hair-relics": {
         "en": "hair relics",
         "pl": "relikwie włosów"
@@ -763,6 +792,16 @@
     "lang-horizontal": {
         "en": "horizontal",
         "pl": "poziomy"
+    },
+
+    "lang-horizontal-color-logo-path": {
+        "en": "/files/resources/brand/logo/rgb/horizontal/en-color-without-background.svg",
+        "pl": "/files/resources/brand/logo/rgb/horizontal/pl-color-without-background.svg"
+    },
+
+    "lang-horizontal-white-logo-path": {
+        "en": "/files/resources/brand/logo/rgb/horizontal/en-white-without-background.svg",
+        "pl": "/files/resources/brand/logo/rgb/horizontal/pl-white-without-background.svg"
     },
 
     "lang-i": {
@@ -832,6 +871,11 @@
         "pl": "rok przestępny"
     },
 
+    "lang-learn-more": {
+        "en": "learn more",
+        "pl": "dowiedz się więcej"
+    },
+
     "lang-license": {
         "en": "all rights reserved",
         "pl": "wszystkie prawa zastrzeżone"
@@ -889,11 +933,6 @@
     "lang-main-page": {
         "en": "main page",
         "pl": "strona główna"
-    },
-
-    "lang-main-page-logo-path": {
-        "en": "/files/resources/brand/logo/rgb/horizontal/en-color-without-background.svg",
-        "pl": "/files/resources/brand/logo/rgb/horizontal/pl-color-without-background.svg"
     },
 
     "lang-margin-size": {
@@ -1018,11 +1057,6 @@
     "lang-movable-feasts": {
         "en": "movable feasts",
         "pl": "święta ruchome"
-    },
-
-    "lang-my-patrons-for-today": {
-        "en": "My Patrons for today",
-        "pl": "Moi Patroni na dziś"
     },
 
     "lang-nail-relics": {
@@ -1223,6 +1257,11 @@
     "lang-patron-code": {
         "en": "assigned Patron code",
         "pl": "nadany kod Patrona"
+    },
+
+    "lang-patrons-and-feasts-for-today": {
+        "en": "Patrons and feasts for today",
+        "pl": "Patroni i święta na dziś"
     },
 
     "lang-person": {
@@ -1468,6 +1507,11 @@
         "pl": "Moi Patroni"
     },
 
+    "lang-site-map": {
+        "en": "site map",
+        "pl": "mapa strony"
+    },
+
     "lang-skull-relics": {
         "en": "skull relics",
         "pl": "relikwie czaszki"
@@ -1518,6 +1562,11 @@
         "en": "surnames",
         "la": "cognomina",
         "pl": "nazwiska"
+    },
+
+    "lang-take-on-new-challenges": {
+        "en": "take on new challenges!",
+        "pl": "podejmij nowe wyzwania!"
     },
 
     "lang-there-is-no-note-for-this-challenge": {
