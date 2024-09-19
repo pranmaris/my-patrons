@@ -3,6 +3,7 @@
 class Environment
 {
     private const DOMAIN_PATTERN = '/mypatrons([.][a-z]+)?[.]org$/';
+    private const DOMAIN_TEST_ELEMENT = '.dev';
     private const ROOT_DIRECTORY_NAME = 'my-patrons';
 
     public function __construct()
@@ -88,6 +89,14 @@ class Environment
     public function getTidyPath(string $path): string
     {
         return trim(preg_replace('~//+~', '/', $path), '/');
+    }
+
+    public function isProdServer(): bool
+    {
+        $hostMainDomain = $this->getHostMainDomainOnly();
+        $domainTestElement = preg_replace(self::DOMAIN_PATTERN, '\\1', $hostMainDomain);
+
+        return $domainTestElement !== self::DOMAIN_TEST_ELEMENT;
     }
 
     private function getEnvironmentClassPath(): string

@@ -25,6 +25,6 @@ class CardsMainContent extends MainContent implements MainContentInterface
         ];
         $replacedContent = $this->getReplacedContent($originalContent, $variables);
 
-        return $replacedContent;
+        return $this->getEnvironment()->isProdServer() ? '' : $replacedContent;
     }
 }
