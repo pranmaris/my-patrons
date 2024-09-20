@@ -890,19 +890,19 @@
         "pl": "powiązania"
     },
 
-    "lang-list-of-feasts": {
-        "en": "list of feasts",
-        "pl": "lista świąt"
+    "lang-list-of-possible-feasts-to-discover": {
+        "en": "list of possible feasts to discover",
+        "pl": "lista możliwych świąt do odkrycia"
     },
 
-    "lang-list-of-patrons-and-feasts": {
-        "en": "list of patrons and feasts",
-        "pl": "lista patronów i świąt"
+    "lang-list-of-possible-patrons-to-be-invited-as-your-defenders": {
+        "en": "list of possible patrons to be invited as your Defenders",
+        "pl": "lista możliwych Patronów do zaproszenia na twoich Obrońców"
     },
 
-    "lang-list-of-patrons-and-immovable-feasts": {
-        "en": "list of patrons and immovable feasts",
-        "pl": "lista patronów i świąt nieruchomych"
+    "lang-list-of-possible-trustees-of-your-messengers-missions": {
+        "en": "list of possible trustees of your Messenger's Missions",
+        "pl": "lista możliwych Powierników twoich Misji Posłańca"
     },
 
     "lang-liturgical-calendar": {
