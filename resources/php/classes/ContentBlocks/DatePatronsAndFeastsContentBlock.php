@@ -4,7 +4,7 @@ class DatePatronsAndFeastsContentBlock extends DateContentBlock implements Conte
 {
     protected function setOtherProperties(string $dates): void
     {
-        $this->listNameVariable = 'lang-list-of-possible-patrons-to-be-invited-as-your-defenders';
+        $this->listNameVariable = 'lang-list-for-patrons-defenders';
         $this->formTemplate = $this->getOriginalHtmlFileContent('content-blocks/date-change-form-single-full-content-block.html');
 
         $this->setValidSingleDate($dates);

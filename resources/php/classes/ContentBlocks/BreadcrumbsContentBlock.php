@@ -21,9 +21,9 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
         'contact' => true,
         'support-us' => true,
 
-        'list-of-possible-feasts-to-discover' => true,
-        'list-of-possible-patrons-to-be-invited-as-your-defenders' => true,
-        'list-of-possible-trustees-of-your-messengers-missions' => true,
+        'list-for-feasts-to-discover' => true,
+        'list-of-patrons-defenders' => true,
+        'list-for-messenger-missions' => true,
     ];
 
     private GlobalVariables $globalVariables;

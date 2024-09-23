@@ -11,7 +11,7 @@ Wybierz Patrona, który:
   - odpust parafialny<sup>5</sup>
   - znajduje się na **poniższej liście**:  
 
-<iframe id="my-patrons-for-today" src="https://pl.mypatrons.org/dates/list-of-possible-patrons-to-be-invited-as-your-defenders/#challenge-date#?mode=content-only"></iframe>
+<iframe id="my-patrons-for-today" src="https://pl.mypatrons.org/dates/list-for-patrons-defenders/#challenge-date#?mode=content-only"></iframe>
 <br />
 
 **UWAGA!** Zapraszając **Patrona Obrońcę** warto sprawdzić, czy dla <span class="selected-day-info">wybranego dnia</span> możliwe będzie też **odkrycie nowego święta** związane z jakimkolwiek Twoim **Patronem Obrońcą**.

@@ -1,5 +1,5 @@
 {
-    "list-of-possible-patrons-to-be-invited-as-your-defenders": "DatePatronsAndFeastsContentBlock",
-    "list-of-possible-trustees-of-your-messengers-missions": "DatePatronsAndImmovableFeastsContentBlock",
-    "list-of-possible-feasts-to-discover": "DateFeastsContentBlock"
+    "list-for-patrons-defenders": "DatePatronsAndFeastsContentBlock",
+    "list-for-messenger-missions": "DatePatronsAndImmovableFeastsContentBlock",
+    "list-of-feasts-to-discover": "DateFeastsContentBlock"
 }

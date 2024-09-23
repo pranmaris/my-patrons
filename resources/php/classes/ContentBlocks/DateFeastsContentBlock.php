@@ -4,7 +4,7 @@ class DateFeastsContentBlock extends DateContentBlock implements ContentBlockInt
 {
     protected function setOtherProperties(string $dates): void
     {
-        $this->listNameVariable = 'lang-list-of-possible-feasts-to-discover';
+        $this->listNameVariable = 'lang-list-of-feasts-to-discover';
         $this->formTemplate = $this->getOriginalHtmlFileContent('content-blocks/date-change-form-single-full-content-block.html');
 
         $this->setValidSingleDate($dates);
