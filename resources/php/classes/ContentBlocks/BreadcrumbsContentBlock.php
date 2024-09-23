@@ -21,8 +21,8 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
         'contact' => true,
         'support-us' => true,
 
-        'list-for-feasts-to-discover' => true,
-        'list-of-patrons-defenders' => true,
+        'list-of-feasts-to-discover' => true,
+        'list-for-patrons-defenders' => true,
         'list-for-messenger-missions' => true,
     ];
 
