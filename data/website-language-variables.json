@@ -10,6 +10,20 @@
         "pl": "https://pl.gratiadei.org#o-nas"
     },
 
+    "lang-about-us-goals-info": {
+        "pl": "z łac. <strong><em>Łaska Boża</em></strong>, ma celu rozgłaszanie światu nauki Kościoła Rzymskokatolickiego poprzez różnorakie autorskie inicjatywy i wszelaką współpracę z innymi dla Bożej Chwały!"
+    },
+
+    "lang-about-us-motto-meaning": {
+        "la": "",
+        "en": "#lang-what-means#: <em><strong>#lang-quotation-mark-open##lang-motto|capitalize##lang-quotation-mark-close#</strong></em>.",
+        "pl": "#lang-what-means#: <em><strong>#lang-quotation-mark-open##lang-motto|capitalize##lang-quotation-mark-close#</strong></em>."
+    },
+
+    "lang-about-us-reasons-info": {
+        "pl": "wdzięczni Bogu za dar tej łaski, pragniemy być użytecznymi „narzędziami” w Jego rękach i poświęcać choć trochę ofiarowanego nam tutaj czasu, sił i talentów, aby pokazywać piękno Jego Kościoła oraz niezawodność kroczenia drogą Jego Miłości, która jest w stanie dać każdemu niewyobrażalne szczęście już teraz!"
+    },
+
     "lang-achievements-section-general": {
         "en": "general",
         "pl": "ogólne"
@@ -464,6 +478,11 @@
         "pl": "kontakt"
     },
 
+    "lang-contact-details-can-be-found": {
+        "en": "contact details can be found",
+        "pl": "dane kontaktowe znajdziesz"
+    },
+
     "lang-contact-link": {
         "en": "https://en.gratiadei.org#contact",
         "pl": "https://pl.gratiadei.org#kontakt"
@@ -779,6 +798,11 @@
         "pl": "relikwie włosów"
     },
 
+    "lang-here": {
+        "en": "here",
+        "pl": "tutaj"
+    },
+
     "lang-hide-fields": {
         "en": "hide fields",
         "pl": "ukryj pola"
@@ -1054,6 +1078,12 @@
         "pl": "grudzień"
     },
 
+    "lang-motto": {
+        "la": "omne bonum nostrum gratia Dei est",
+        "en": "all our good is the grace of God",
+        "pl": "całe nasze dobro Bożą jest łaską"
+    },
+
     "lang-movable-feasts": {
         "en": "movable feasts",
         "pl": "święta ruchome"
@@ -1207,6 +1237,16 @@
         "pl": "inne imię "
     },
 
+    "lang-our-initiatives": {
+        "en": "our initiatives",
+        "pl": "nasze inicjatywy"
+    },
+
+    "lang-our-motto-is": {
+        "en": "our motto is",
+        "pl": "naszym mottem jest"
+    },
+
     "lang-owner": {
         "en": "owner",
         "pl": "właściciel"
@@ -1332,6 +1372,18 @@
     "lang-quality": {
         "en": "quality",
         "pl": "jakość"
+    },
+
+    "lang-quotation-mark-close": {
+        "la": "»",
+        "en": "’",
+        "pl": "”"
+    },
+
+    "lang-quotation-mark-open": {
+        "la": "«",
+        "en": "‘",
+        "pl": "„"
     },
 
     "lang-randomize-order-again": {
@@ -1772,6 +1824,11 @@
         "pl": "niedziela"
     },
 
+    "lang-what-means": {
+        "en": "what means",
+        "pl": "co znaczy"
+    },
+
     "lang-without-addition-selection": {
         "en": "as person",
         "pl": "jako osoba"
@@ -1781,6 +1838,11 @@
         "en": "year",
         "la": "annus",
         "pl": "rok"
+    },
+
+    "lang-you-can-do-this-in-many-ways": {
+        "en": "you can do this in many ways",
+        "pl": "możesz to zrobić na wiele sposobów"
     },
 
     "lang-you-cannot-edit-this-note-because-it-has-unknown-type": {
