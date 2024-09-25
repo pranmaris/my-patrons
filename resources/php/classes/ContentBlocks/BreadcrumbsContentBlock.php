@@ -17,6 +17,7 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
         'dates' => false,
         'files' => false,
         'notes' => false,
+        'about-my-patrons' => true,
         'about-us' => true,
         'contact' => true,
         'support-us' => true,

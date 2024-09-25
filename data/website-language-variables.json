@@ -1,4 +1,9 @@
 {
+    "lang-about-my-patrons": {
+        "en": "about My Patrons",
+        "pl": "o Moich Patronach"
+    },
+
     "lang-about-us": {
         "en": "about us",
         "la": "de nobis",
@@ -882,6 +887,11 @@
     "lang-in-random-order": {
         "en": "in random order",
         "pl": "w losowej kolejności"
+    },
+
+    "lang-knowledge-and-tools": {
+        "en": "knowledge and tools",
+        "pl": "wiedza i narzędzia"
     },
 
     "lang-language": {
