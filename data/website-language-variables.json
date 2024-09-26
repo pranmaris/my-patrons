@@ -180,7 +180,7 @@
     },
 
     "lang-buy-coffee": {
-        "pl": "Buy Coffee"
+        "en": "Buy Coffee"
     },
 
     "lang-bust-reliquary": {
@@ -1619,9 +1619,58 @@
         "pl": "wesprzyj nas"
     },
 
-    "lang-support-us-link": {
-        "en": "https://en.gratiadei.org#support-us",
-        "pl": "https://pl.gratiadei.org#wesprzyj-nas"
+    "lang-support-us-additional-info-header": {
+        "pl": "Możesz nas także wspierać inaczej:"
+    },
+
+    "lang-support-us-additional-info-option-1-header": {
+        "pl": "Pomódl się za nas"
+    },
+
+    "lang-support-us-additional-info-option-1-info": {
+        "pl": "Każda <strong>modlitwa, wyrzeczenie czy ofiarowana Msza Święta</strong> w naszej intencji to <strong>więcej Bożego błogosławieństwa i pomocy</strong>, a przecież Jezus wie najlepiej czego wszystkim potrzeba!"
+    },
+
+    "lang-support-us-additional-info-option-2-header": {
+        "pl": "Opowiedz o nas innym"
+    },
+
+    "lang-support-us-additional-info-option-2-info": {
+        "pl": "Jeśli urzekła Cię którakolwiek z naszych inicjatyw, <strong>opowiedz o niej</strong> rodzinie, znajomym, może komuś w Twojej parafii. Każda nowa osoba może znacznie wpłynąć na rozszerzanie się tego dzieła dalej i dalej!"
+    },
+
+    "lang-support-us-additional-info-option-3-header": {
+        "pl": "Ofiaruj swoje talenty"
+    },
+
+    "lang-support-us-additional-info-option-3-info": {
+        "pl": "Może to właśnie <strong>Twój poświęcony czas, wiedza i merytoryczna pomoc</strong> okażą się bezcenne w budowaniu tego dzieła! Przykładowo chodzi o: tłumaczenie treści stron, umięjętne zaprezentowanie idei szerszemu gronu słuchaczy, uzupełnianie naszej bazy wiedzy np. o nowych patronów, czy jakąkolwiek inną formę współpracy. Wszystkich możliwości nie sposób wymienić."
+    },
+
+    "lang-support-us-additional-info-option-4-header": {
+        "pl": "Dziel się pomysłami"
+    },
+
+    "lang-support-us-additional-info-option-4-info": {
+        "pl": "Jeżeli wiesz co moglibyśmy robić lepiej lub znajdziesz jakiś błąd, <a href=\"/contact\">skontaktuj się</a> z nami. Nie możemy obiecać, że uwzględnimy wszystkie Twoje sugestie, ale na pewno głęboko się nad nimi zastanowimy."
+    },
+
+    "lang-support-us-additional-info-summary": {
+        "pl": "Za każde udzielone wsparcie, wielkie Bóg zapłać!"
+    },
+
+    "lang-support-us-button": {
+        "en": "support",
+        "la": "adiuva",
+        "pl": "wesprzyj"
+    },
+
+    "lang-support-us-main-info-1": {
+        "pl": "Jeżeli podoba Ci się to co robimy, <strong>możesz wesprzeć nas na tej stronie</strong>. Tworzenie tego dzieła wymaga od nas <strong>wielu wyrzeczeń, poświęconego czasu i środków finansowych</strong>, dlatego będziemy Ci niezmiernie wdzięczni za każdą wpłaconą kwotę, jaką będziemy mogli przeznaczyć na <strong>realizację naszych celów!</strong>"
+    },
+
+    "lang-support-us-main-info-2": {
+        "pl": "Będzie to także dla nas informacja, że jest to potrzebne i <strong>warto to dalej robić!</strong>"
     },
 
     "lang-surname": {
