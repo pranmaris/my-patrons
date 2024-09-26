@@ -660,6 +660,12 @@
         "pl": "edytuj pola"
     },
 
+    "lang-email": {
+        "en": "email",
+        "la": "email",
+        "pl": "email"
+    },
+
     "lang-empty-note-form-warning": {
         "en": "Please provide this note content, otherwise it has been deleted soon",
         "pl": "Podaj treść notatki, w przeciwnym razie zostanie ona wkrótce usunięta!"

@@ -904,3 +904,7 @@ a.button-3:hover {
 
 /* ----------------------------- OTHER ---------------------------------- */
 
+.full-selectable {
+  user-select: all;
+  cursor: pointer;
+}
