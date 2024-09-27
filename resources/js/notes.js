@@ -35,7 +35,7 @@ const LANGUAGE_JSON_FILE = '/files/data/website-language-variables.json';
 const CHALLENGES_CONFIG_JSON_FILE = '/files/data/challenges.json';
 const NOTES_CONFIG_JSON_FILE = '/files/data/notes-types.json';
 const PERSONS_DATA_JSON_FILE = '/files/data/generated/persons-data.generated.json';
-const BIBLE_CHAPTERS_DATA_JSON_FILE = '/files/data/bible_chapters.json';
+const BIBLE_CHAPTERS_DATA_JSON_FILE = '/files/data/bible-chapters.json';
 const DATES_FEASTS_IMMOVABLE_JSON_FILE = '/files/data/generated/dates-feasts-immovable.generated.json';
 const DATES_PATRONS_IMMOVABLE_JSON_FILE = '/files/data/generated/dates-patrons-immovable.generated.json';
 
