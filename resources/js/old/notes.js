@@ -1,3 +1,8 @@
+let markedLib = null;
+requirejs(["marked"], function(marked) {
+  markedLib = marked;
+});
+
 const DEV_HOSTNAME_REMOVE_STRING = '.dev';
 
 const ACHIEVEMENTS_GENERAL_ALL = 'lang-achievements-section-general-number-of-challenges-started';
@@ -2829,7 +2834,7 @@ async function importMarkdownDescription(element, filePath, params = [], values 
   try {
     const template = await getFileContent(DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH);
     let content = await getFileContent(fullFilePath);
-    content = marked.parse(content);
+    content = markedLib.parse(content);
 
     for (let paramName of params) {
       const value = values[paramName] ?? null;
