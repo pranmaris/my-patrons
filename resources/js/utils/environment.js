@@ -1,48 +1,21 @@
 define([], function() {
 
-  function getProtocol() {
-    return window.location.protocol;
+  function getDocument() {
+    return document;
   }
 
-  function getHostname() {
-    return window.location.hostname.toLowerCase();
+  function getNavigator() {
+    return navigator;
   }
 
-  function getLocationSearch() {
-    return window.location.search;
-  }
-
-  //function getUrlSearchParams() {
-    //const locationSearch = getLocationSearch();
-
-    //return new URLSearchParams(locationSearch);
-  //}
-
-  function getLanguage() {
-    const hostname = getHostname();
-
-    return hostname.replace(/\..*$/, '');
-  }
-
-  function isNoLanguageSetted() {
-    return getLanguage().length > 3;
-  }
-
-  function getUserBrowserLanguage() {
-    return (navigator.language || navigator.userLanguage).replace(/[-].*$/, '');
-  }
-
-  function goToUrl(url) {
-    window.location = url;
+  function getWindow() {
+    return window;
   }
 
   return {
-    getHostname,
-    getLocationSearch,
-    getProtocol,
-    getUserBrowserLanguage,
-    goToUrl,
-    isNoLanguageSetted
+    getDocument,
+    getNavigator,
+    getWindow
   };
 
 });

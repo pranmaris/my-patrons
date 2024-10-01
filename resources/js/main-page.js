@@ -1,4 +1,4 @@
-requirejs(["environment"], function(envLib) {
+requirejs(["language", "location"], function(uLanguage, uLocation) {
 
   const REDIRECTABLE_LANGUAGES = {
     pl: true,
@@ -6,12 +6,12 @@ requirejs(["environment"], function(envLib) {
   };
 
   function reloadRootPageWithEmptySearch() {
-    if (envLib.isNoLanguageSetted() && envLib.getLocationSearch() === '') {
-      const browserLang = envLib.getUserBrowserLanguage();
+    if (uLanguage.isOriginalLanguageSet() && uLocation.getSearch() === "") {
+      const browserLang = uLanguage.getUserBrowserLanguage();
 
       if (REDIRECTABLE_LANGUAGES[browserLang] === true) {
-        const url = envLib.getProtocol() + '//' + browserLang + '.' + envLib.getHostname();
-        envLib.goToUrl(url);
+        const url = uLocation.getProtocol() + "//" + browserLang + "." + uLocation.getHostname();
+        uLocation.goToUrl(url);
       }
     }
   }
