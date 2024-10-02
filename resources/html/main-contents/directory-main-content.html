@@ -7,13 +7,14 @@
         <div class="col-12 col-lg-10 offset-lg-1 page-content">
             <div class="directory-search">
               <input id="search-input" />
-              <button class="btn btn-primary" onclick="refreshPageByButton()">#lang-search|capitalize#</button>
+              <button class="btn btn-primary" onclick="loadNewSearch()">#lang-search|capitalize#</button>
             </div>
             <hr />
+            <div id="directory-not-found">#lang-not-found|capitalize#</div>
             <div>
               <ul>#list-content#</ul>
             </div>
         </div>
     </div>
 </div>
-<script src="/files/resources/js/old/directory-main-content.js"></script>
+<script src="/files/resources/js/directory.js"></script>

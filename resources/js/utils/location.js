@@ -20,7 +20,15 @@ define(["environment"], function(uEnv) {
     return getLocation().search;
   }
 
-  function getSearchParams() {
+  function getSearchParam(params, name) {
+    return params.get(name);
+  }
+
+  function getSearchParamsString(params) {
+    return params.toString();
+  }
+
+  function getUrlSearchParams() {
     const search = getSearch();
 
     return new URLSearchParams(search);
@@ -30,11 +38,20 @@ define(["environment"], function(uEnv) {
     uEnv.getWindow().location = url;
   }
 
+  function setSearchParam(params, name, value) {
+    params.set(name, value);
+  }
+
   return {
     getHostname,
     getSearch,
-    getSearchParams,
     getProtocol,
+
+    getSearchParam,
+    setSearchParam,
+
+    getUrlSearchParams,
+    getSearchParamsString,
 
     goToUrl
   };

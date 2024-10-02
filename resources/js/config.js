@@ -3,6 +3,7 @@ requirejs.config({
   baseUrl: "/files/resources",
 
   paths: {
+    displayStyle: "js/utils/display-style",
     dom: "js/utils/dom",
     environment: "js/utils/environment",
     language: "js/utils/language",

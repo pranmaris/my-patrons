@@ -10,8 +10,8 @@ requirejs(["dom", "environment", "scroll"], function(uDom, uEnv, uScroll) {
     const isTop = scrollOffset === 0;
     const isBottom = scrollOffset === scrollMax;
 
-    uDom.getStyle(buttonUp).opacity = isTop ? 0 : 1;
-    uDom.getStyle(buttonDown).opacity = isBottom ? 0 : 1;
+    buttonUp.style.opacity = isTop ? 0 : 1;
+    buttonDown.style.opacity = isBottom ? 0 : 1;
   }
 
   uEnv.getWindow().addEventListener("scroll", refreshUpDownButtons);

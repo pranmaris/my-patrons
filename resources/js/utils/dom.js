@@ -4,13 +4,13 @@ define(["environment"], function(uEnv) {
     return uEnv.getDocument().getElementById(id);
   }
 
-  function getStyle(element) {
-    return element.style;
+  function getElementsByClassName(className) {
+    return uEnv.getDocument().getElementsByClassName(className);
   }
 
   return {
     getElementById,
-    getStyle
+    getElementsByClassName,
   };
 
 });

@@ -1145,6 +1145,11 @@
         "pl": "brak"
     },
 
+    "lang-not-found": {
+        "en": "not found",
+        "pl": "nie znaleziono"
+    },
+
     "lang-notes": {
         "en": "notes",
         "pl": "notatki"

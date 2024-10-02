@@ -1,11 +1,11 @@
-requirejs(["language", "location"], function(uLanguage, uLocation) {
+requirejs(["environment", "language", "location"], function(uEnv, uLanguage, uLocation) {
 
   const REDIRECTABLE_LANGUAGES = {
     pl: true,
     en: true
   };
 
-  function reloadRootPageWithEmptySearch() {
+  uEnv.getWindow().onload = function() {
     if (uLanguage.isOriginalLanguageSet() && uLocation.getSearch() === "") {
       const browserLang = uLanguage.getUserBrowserLanguage();
 
@@ -15,7 +15,5 @@ requirejs(["language", "location"], function(uLanguage, uLocation) {
       }
     }
   }
-
-  reloadRootPageWithEmptySearch();
 
 });
