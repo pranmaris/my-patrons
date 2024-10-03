@@ -1,4 +1,4 @@
-define(["environment", "location"], function(uEnv, uLocation) {
+define(["env", "location"], function(uEnv, uLocation) {
 
   function getLanguage() {
     const hostname = uLocation.getHostname();

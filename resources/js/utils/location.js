@@ -1,4 +1,4 @@
-define(["environment"], function(uEnv) {
+define(["env"], function(uEnv) {
 
   function getLocation() {
     return uEnv.getWindow().location;

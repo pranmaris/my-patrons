@@ -1,4 +1,4 @@
-requirejs(["const", "dom", "displayStyle", "environment", "location"], function(uConst, uDom, uDisplayStyle, uEnv, uLocation) {
+requirejs(["const", "dom", "displayStyle", "env", "location"], function(uConst, uDom, uDisplayStyle, uEnv, uLocation) {
 
   uConst
     .set("DIRECTORY/SEARCH_QUERY_PARAM", "q")
@@ -67,7 +67,7 @@ requirejs(["const", "dom", "displayStyle", "environment", "location"], function(
 });
 
 function loadNewSearch() {
-  requirejs(["const", "dom", "environment", "location"], function(uConst, uDom, uEnv, uLocation) {
+  requirejs(["const", "dom", "env", "location"], function(uConst, uDom, uEnv, uLocation) {
 
     const searchInput = uDom.getElementById(uConst.get("DIRECTORY/SEARCH_INPUT_ELEMENT_ID"));
     const value = searchInput.value ?? '';

@@ -6,7 +6,7 @@ requirejs.config({
     const: "js/utils/const",
     displayStyle: "js/utils/display-style",
     dom: "js/utils/dom",
-    environment: "js/utils/environment",
+    env: "js/utils/env",
     language: "js/utils/language",
     location: "js/utils/location",
     marked: "external/marked-js-14-1-2/marked.min",
@@ -15,16 +15,16 @@ requirejs.config({
 
   shim: {
     dom: {
-      deps: ["environment"]
+      deps: ["env"]
     },
     language: {
-      deps: ["environment", "location"]
+      deps: ["env", "location"]
     },
     location: {
-      deps: ["environment"]
+      deps: ["env"]
     },
     scroll: {
-      deps: ["environment"]
+      deps: ["env"]
     }
   }
 

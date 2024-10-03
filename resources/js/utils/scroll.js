@@ -1,4 +1,4 @@
-define(["environment"], function(uEnv) {
+define(["env"], function(uEnv) {
 
   function getMax() {
     const docElement = uEnv.getDocument().documentElement;

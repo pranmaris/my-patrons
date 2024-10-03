@@ -1,4 +1,4 @@
-requirejs(["dom", "environment", "scroll"], function(uDom, uEnv, uScroll) {
+requirejs(["dom", "env", "scroll"], function(uDom, uEnv, uScroll) {
 
   function refreshUpDownButtons() {
     const buttonUp = uDom.getElementById("button-up");

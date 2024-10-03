@@ -1,4 +1,4 @@
-define(["environment"], function(uEnv) {
+define(["env"], function(uEnv) {
 
   function getElementById(id) {
     return uEnv.getDocument().getElementById(id);

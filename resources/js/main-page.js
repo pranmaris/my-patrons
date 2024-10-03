@@ -1,4 +1,4 @@
-requirejs(["environment", "language", "location"], function(uEnv, uLanguage, uLocation) {
+requirejs(["env", "language", "location"], function(uEnv, uLanguage, uLocation) {
 
   const REDIRECTABLE_LANGUAGES = {
     pl: true,
