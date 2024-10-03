@@ -8,6 +8,10 @@ define([], function() {
     return navigator;
   }
 
+  function getNewError() {
+    return new Error();
+  }
+
   function getWindow() {
     return window;
   }
@@ -15,6 +19,7 @@ define([], function() {
   return {
     getDocument,
     getNavigator,
+    getNewError,
     getWindow
   };
 

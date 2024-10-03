@@ -14,6 +14,9 @@ requirejs.config({
   },
 
   shim: {
+    const: {
+      deps: ["env"]
+    },
     dom: {
       deps: ["env"]
     },

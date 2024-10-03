@@ -1,4 +1,4 @@
-define([], function() {
+define(["env"], function(uEnv) {
 
   const values = {};
 
@@ -28,7 +28,7 @@ define([], function() {
   function getCalledScriptNameAndLine() {
     let currentScript = null;
 
-    const lines = new Error().stack?.split("\n") ?? [];
+    const lines = uEnv.getNewError().stack?.split("\n") ?? [];
     for (let line of lines) {
       const matches = line.match(/[@](([^@]+)[:][0-9]+[:][0-9]+)$/);
       const script = matches[2] ?? '?';
