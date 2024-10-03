@@ -56,7 +56,7 @@ requirejs(["const", "dom", "displayStyle", "env", "location"], function(uConst, 
 
   uEnv.getWindow().onload = function() {
     const params = uLocation.getUrlSearchParams();
-    const searchParam = uLocation.getSearchParam(params, uConst.get("DIRECTORY/SEARCH_QUERY_PARAM"));
+    const searchParam = uLocation.getSearchParam(params, uConst.get("DIRECTORY/SEARCH_QUERY_PARAM")) ?? '';
 
     const searchInput = uDom.getElementById(uConst.get("DIRECTORY/SEARCH_INPUT_ELEMENT_ID"));
     searchInput.value = searchParam;
