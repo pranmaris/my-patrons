@@ -1,10 +1,12 @@
-requirejs(["dom", "displayStyle", "environment", "location"], function(uDom, uDisplayStyle, uEnv, uLocation) {
+requirejs(["const", "dom", "displayStyle", "environment", "location"], function(uConst, uDom, uDisplayStyle, uEnv, uLocation) {
 
-  const SEARCH_QUERY_PARAM = 'q';
+  uConst
+    .set("DIRECTORY/SEARCH_QUERY_PARAM", "q")
 
-  const DIRECTORY_LIST_ITEM_ELEMENT_CLASS = 'directory-list-item';
-  const NOT_FOUND_ELEMENT_ID = 'directory-not-found';
-  const SEARCH_INPUT_ELEMENT_ID = 'search-input';
+    .set("DIRECTORY/DIRECTORY_LIST_ITEM_ELEMENT_CLASS", "directory-list-item")
+    .set("DIRECTORY/NOT_FOUND_ELEMENT_ID", "directory-not-found")
+    .set("DIRECTORY/SEARCH_INPUT_ELEMENT_ID", "search-input")
+  ;
 
   function getDiacriticalRepresentationString(text) {
     return text
@@ -24,12 +26,12 @@ requirejs(["dom", "displayStyle", "environment", "location"], function(uDom, uDi
   }
 
   function displayOnlyMatchingElements(searchString) {
-    const list = uDom.getElementsByClassName(DIRECTORY_LIST_ITEM_ELEMENT_CLASS);
+    const list = uDom.getElementsByClassName(uConst.get("DIRECTORY/DIRECTORY_LIST_ITEM_ELEMENT_CLASS"));
 
     const visible = uDisplayStyle.getVisible();
     const invisible = uDisplayStyle.getInvisible();
 
-    const notFound = uDom.getElementById(NOT_FOUND_ELEMENT_ID);
+    const notFound = uDom.getElementById(uConst.get("DIRECTORY/NOT_FOUND_ELEMENT_ID"));
     notFound.style = invisible;
 
     let found = false;
@@ -53,9 +55,9 @@ requirejs(["dom", "displayStyle", "environment", "location"], function(uDom, uDi
 
   uEnv.getWindow().onload = function() {
     const params = uLocation.getUrlSearchParams();
-    const searchParam = uLocation.getSearchParam(params, SEARCH_QUERY_PARAM);
+    const searchParam = uLocation.getSearchParam(params, uConst.get("DIRECTORY/SEARCH_QUERY_PARAM"));
 
-    const searchInput = uDom.getElementById(SEARCH_INPUT_ELEMENT_ID);
+    const searchInput = uDom.getElementById(uConst.get("DIRECTORY/SEARCH_INPUT_ELEMENT_ID"));
     searchInput.value = searchParam;
 
     const preparedSearchParam = getPreparedSearchString(searchParam);
@@ -65,16 +67,13 @@ requirejs(["dom", "displayStyle", "environment", "location"], function(uDom, uDi
 });
 
 function loadNewSearch() {
-  requirejs(["dom", "environment", "location"], function(uDom, uEnv, uLocation) {
+  requirejs(["const", "dom", "environment", "location"], function(uConst, uDom, uEnv, uLocation) {
 
-    const SEARCH_QUERY_PARAM = 'q';
-    const SEARCH_INPUT_ELEMENT_ID = 'search-input';
-
-    const searchInput = uDom.getElementById(SEARCH_INPUT_ELEMENT_ID);
+    const searchInput = uDom.getElementById(uConst.get("DIRECTORY/SEARCH_INPUT_ELEMENT_ID"));
     const value = searchInput.value ?? '';
 
     const params = uLocation.getUrlSearchParams();
-    uLocation.setSearchParam(params, SEARCH_QUERY_PARAM, value);
+    uLocation.setSearchParam(params, uConst.get("DIRECTORY/SEARCH_QUERY_PARAM"), value);
 
     const searchString = uLocation.getSearchParamsString(params);
     uEnv.getWindow().location = '?' + searchString;
