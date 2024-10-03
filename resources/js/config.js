@@ -17,6 +17,9 @@ requirejs.config({
     const: {
       deps: ["env"]
     },
+    displayStyle: {
+      deps: ["const"]
+    },
     dom: {
       deps: ["env"]
     },

@@ -1,8 +1,13 @@
-requirejs(["dom", "env", "scroll"], function(uDom, uEnv, uScroll) {
+requirejs(["const", "dom", "env", "scroll"], function(uConst, uDom, uEnv, uScroll) {
+
+  uConst
+    .set("BODY_FULL/BUTTON_DOWN_ELEMENT_ID", "button-down")
+    .set("BODY_FULL/BUTTON_UP_ELEMENT_ID", "button-up")
+  ;
 
   function refreshUpDownButtons() {
-    const buttonUp = uDom.getElementById("button-up");
-    const buttonDown = uDom.getElementById("button-down");
+    const buttonUp = uDom.getElementById(uConst.get("BODY_FULL/BUTTON_UP_ELEMENT_ID"));
+    const buttonDown = uDom.getElementById(uConst.get("BODY_FULL/BUTTON_DOWN_ELEMENT_ID"));
 
     const scrollOffset = uScroll.getOffset();
     const scrollMax = uScroll.getMax();

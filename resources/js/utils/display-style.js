@@ -1,14 +1,16 @@
-define([], function() {
+define(["const"], function(uConst) {
 
-  const VISIBLE_STYLE = '';
-  const INVISIBLE_STYLE = 'display: none';
+  uConst
+    .set("DISPLAY_STYLE/INVISIBLE_STYLE", "display: none")
+    .set("DISPLAY_STYLE/VISIBLE_STYLE", "")
+  ;
 
   function getInvisible() {
-    return INVISIBLE_STYLE;
+    return uConst.get("DISPLAY_STYLE/INVISIBLE_STYLE");
   }
 
   function getVisible() {
-    return VISIBLE_STYLE;
+    return uConst.get("DISPLAY_STYLE/VISIBLE_STYLE");
   }
 
   return {

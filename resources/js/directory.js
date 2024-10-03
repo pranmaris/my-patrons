@@ -2,6 +2,7 @@ requirejs(["const", "dom", "displayStyle", "env", "location"], function(uConst, 
 
   uConst
     .set("DIRECTORY/SEARCH_QUERY_PARAM", "q")
+    .set("DIRECTORY/SEARCH_QUERY_INIT_CHAR", "?")
 
     .set("DIRECTORY/DIRECTORY_LIST_ITEM_ELEMENT_CLASS", "directory-list-item")
     .set("DIRECTORY/NOT_FOUND_ELEMENT_ID", "directory-not-found")
@@ -76,7 +77,7 @@ function loadNewSearch() {
     uLocation.setSearchParam(params, uConst.get("DIRECTORY/SEARCH_QUERY_PARAM"), value);
 
     const searchString = uLocation.getSearchParamsString(params);
-    uEnv.getWindow().location = '?' + searchString;
+    uEnv.getWindow().location = uConst.get("DIRECTORY/SEARCH_QUERY_INIT_CHAR") + searchString;
 
   });
 }
