@@ -8,6 +8,17 @@ define(["env"], function(uEnv) {
     return getOriginalHostname().toLowerCase();
   }
 
+  function getPath() {
+    return getLocation().pathname;
+  }
+
+  function getPathLastElement() {
+    const path = getPath();
+    const matches = path.match(/[/]([^/]+)[/]*$/);
+
+    return matches[1];
+  }
+
   function getOriginalHostname() {
     return getLocation().hostname;
   }
@@ -44,8 +55,11 @@ define(["env"], function(uEnv) {
 
   return {
     getHostname,
-    getSearch,
+    getOriginalHostname,
+    getPath,
+    getPathLastElement,
     getProtocol,
+    getSearch,
 
     getSearchParam,
     setSearchParam,

@@ -1,12 +1,14 @@
-requirejs(["const", "dom", "displayStyle", "env", "location"], function(uConst, uDom, uDisplayStyle, uEnv, uLocation) {
+requirejs(["const", "dom", "env", "location", "usefulPhrases"], function(uConst, uDom, uEnv, uLocation, uPhrases) {
 
   uConst
-    .set("DIRECTORY/SEARCH_QUERY_PARAM", "q")
-    .set("DIRECTORY/SEARCH_QUERY_INIT_CHAR", "?")
+    .set("SEARCH_QUERY_PARAM", "q")
+    .set("SEARCH_QUERY_INIT_CHAR", "?")
 
-    .set("DIRECTORY/DIRECTORY_LIST_ITEM_ELEMENT_CLASS", "directory-list-item")
-    .set("DIRECTORY/NOT_FOUND_ELEMENT_ID", "directory-not-found")
-    .set("DIRECTORY/SEARCH_INPUT_ELEMENT_ID", "search-input")
+    .set("DIRECTORY_LIST_ITEM_ELEMENT_CLASS", "directory-list-item")
+    .set("NOT_FOUND_ELEMENT_ID", "directory-not-found")
+    .set("SEARCH_INPUT_ELEMENT_ID", "search-input")
+
+    .set("LOAD_NEW_SEARCH", loadNewSearch)
   ;
 
   function getDiacriticalRepresentationString(text) {
@@ -27,12 +29,12 @@ requirejs(["const", "dom", "displayStyle", "env", "location"], function(uConst, 
   }
 
   function displayOnlyMatchingElements(searchString) {
-    const list = uDom.getElementsByClassName(uConst.get("DIRECTORY/DIRECTORY_LIST_ITEM_ELEMENT_CLASS"));
+    const list = uDom.getElementsByClassName(uConst.get("DIRECTORY_LIST_ITEM_ELEMENT_CLASS"));
 
-    const visible = uDisplayStyle.getVisible();
-    const invisible = uDisplayStyle.getInvisible();
+    const visible = uPhrases.getStyleDisplayVisible();
+    const invisible = uPhrases.getStyleDisplayInvisible();
 
-    const notFound = uDom.getElementById(uConst.get("DIRECTORY/NOT_FOUND_ELEMENT_ID"));
+    const notFound = uDom.getElementById(uConst.get("NOT_FOUND_ELEMENT_ID"));
     notFound.style = invisible;
 
     let found = false;
@@ -54,11 +56,22 @@ requirejs(["const", "dom", "displayStyle", "env", "location"], function(uConst, 
     }
   }
 
+  function loadNewSearch() {
+    const searchInput = uDom.getElementById(uConst.get("SEARCH_INPUT_ELEMENT_ID"));
+    const value = searchInput.value ?? '';
+
+    const params = uLocation.getUrlSearchParams();
+    uLocation.setSearchParam(params, uConst.get("SEARCH_QUERY_PARAM"), value);
+
+    const searchString = uLocation.getSearchParamsString(params);
+    uEnv.getWindow().location = uConst.get("SEARCH_QUERY_INIT_CHAR") + searchString;
+  }
+
   uEnv.getWindow().onload = function() {
     const params = uLocation.getUrlSearchParams();
-    const searchParam = uLocation.getSearchParam(params, uConst.get("DIRECTORY/SEARCH_QUERY_PARAM")) ?? '';
+    const searchParam = uLocation.getSearchParam(params, uConst.get("SEARCH_QUERY_PARAM")) ?? '';
 
-    const searchInput = uDom.getElementById(uConst.get("DIRECTORY/SEARCH_INPUT_ELEMENT_ID"));
+    const searchInput = uDom.getElementById(uConst.get("SEARCH_INPUT_ELEMENT_ID"));
     searchInput.value = searchParam;
 
     const preparedSearchParam = getPreparedSearchString(searchParam);
@@ -68,16 +81,7 @@ requirejs(["const", "dom", "displayStyle", "env", "location"], function(uConst, 
 });
 
 function loadNewSearch() {
-  requirejs(["const", "dom", "env", "location"], function(uConst, uDom, uEnv, uLocation) {
-
-    const searchInput = uDom.getElementById(uConst.get("DIRECTORY/SEARCH_INPUT_ELEMENT_ID"));
-    const value = searchInput.value ?? '';
-
-    const params = uLocation.getUrlSearchParams();
-    uLocation.setSearchParam(params, uConst.get("DIRECTORY/SEARCH_QUERY_PARAM"), value);
-
-    const searchString = uLocation.getSearchParamsString(params);
-    uEnv.getWindow().location = uConst.get("DIRECTORY/SEARCH_QUERY_INIT_CHAR") + searchString;
-
+  requirejs(["const"], function(uConst) {
+    uConst.get("LOAD_NEW_SEARCH")();
   });
 }

@@ -1,7 +1,7 @@
 requirejs(["const", "env", "language", "location"], function(uConst, uEnv, uLanguage, uLocation) {
 
   uConst
-    .set("MAIN_PAGE/REDIRECTABLE_LANGUAGES", {
+    .set("REDIRECTABLE_LANGUAGES", {
       pl: true,
       en: true
     })
@@ -11,7 +11,7 @@ requirejs(["const", "env", "language", "location"], function(uConst, uEnv, uLang
     if (uLanguage.isOriginalLanguageSet() && uLocation.getSearch() === "") {
       const browserLang = uLanguage.getUserBrowserLanguage();
 
-      if (uConst.get("MAIN_PAGE/REDIRECTABLE_LANGUAGES")[browserLang] === true) {
+      if (uConst.get("REDIRECTABLE_LANGUAGES")[browserLang] === true) {
         const url = uLocation.getProtocol() + "//" + browserLang + "." + uLocation.getHostname();
         uLocation.goToUrl(url);
       }

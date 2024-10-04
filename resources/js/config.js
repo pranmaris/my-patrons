@@ -4,20 +4,22 @@ requirejs.config({
 
   paths: {
     const: "js/utils/const",
-    displayStyle: "js/utils/display-style",
+    date: "js/utils/date",
     dom: "js/utils/dom",
     env: "js/utils/env",
+    global: "js/utils/global",
     language: "js/utils/language",
     location: "js/utils/location",
     marked: "external/marked-js-14-1-2/marked.min",
-    scroll: "js/utils/scroll"
+    scroll: "js/utils/scroll",
+    usefulPhrases: "js/utils/useful-phrases"
   },
 
   shim: {
     const: {
       deps: ["env"]
     },
-    displayStyle: {
+    date: {
       deps: ["const"]
     },
     dom: {
@@ -31,6 +33,9 @@ requirejs.config({
     },
     scroll: {
       deps: ["env"]
+    },
+    usefulPhrases: {
+      deps: ["const"]
     }
   }
 
