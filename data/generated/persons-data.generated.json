@@ -6253,6 +6253,24 @@
         ],
         "feasts": []
     },
+    "patrons/sbigneus": {
+        "names": {
+            "la": "Sbigneus",
+            "en": "Zbigniew",
+            "pl": "Zbigniew"
+        }
+    },
+    "patrons/sbigneus/str": {
+        "names": {
+            "pl": "Zbigniew Strzałkowski",
+            "en": "Zbigniew Strzalkowski",
+            "la": "Sbigneus Strzalkowski"
+        },
+        "died": [
+            "1991-08-09"
+        ],
+        "feasts": []
+    },
     "patrons/serapion": {
         "names": {
             "la": "Serapion",

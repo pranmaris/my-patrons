@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Zbigniew Strzałkowski"
+    ],
+    "en": [
+      "Zbigniew Strzalkowski"
+    ],
+    "la": [
+      "Sbigneus Strzalkowski"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Strzałkowski"
+    }
+  ],
+
+  "born": ["1958-07-03"],
+  "died": ["1991-08-09"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2015-12-05"
+  },
+
+  "forenames": ["sbigneus"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["ofmconv"]
+}

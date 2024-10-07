@@ -679,6 +679,11 @@
             "en": "Saturnin of Toulouse",
             "pl": "Saturnin z Tuluzy"
         },
+        "records/patrons/sbigneus/str": {
+            "pl": "Zbigniew Strzałkowski",
+            "en": "Zbigniew Strzalkowski",
+            "la": "Sbigneus Strzalkowski"
+        },
         "records/patrons/serapion/alg": {
             "la": "Serapion Algirensis",
             "en": "Serapion of Algiers",

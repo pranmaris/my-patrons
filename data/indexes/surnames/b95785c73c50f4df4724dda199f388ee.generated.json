@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Strzałkowski"
+    },
+    "translations": {
+        "pl": [
+            "Strzałkowski"
+        ]
+    },
+    "links": {
+        "records/patrons/sbigneus/str": {
+            "pl": "Zbigniew Strzałkowski",
+            "en": "Zbigniew Strzalkowski",
+            "la": "Sbigneus Strzalkowski"
+        }
+    }
+}
