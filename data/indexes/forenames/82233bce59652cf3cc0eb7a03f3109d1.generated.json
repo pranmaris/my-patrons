@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Victor",
+        "en": "Victor"
+    },
+    "translations": {
+        "la": [
+            "Victor"
+        ],
+        "en": [
+            "Victor"
+        ],
+        "pl": [
+            "Wiktor"
+        ]
+    },
+    "links": {
+        "records/patrons/victor/1pp": {
+            "la": "Victor I",
+            "en": "Victor I",
+            "pl": "Wiktor I"
+        }
+    }
+}

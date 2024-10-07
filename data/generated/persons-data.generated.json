@@ -6746,6 +6746,25 @@
         ],
         "feasts": []
     },
+    "patrons/victor": {
+        "names": {
+            "la": "Victor",
+            "en": "Victor",
+            "pl": "Wiktor"
+        }
+    },
+    "patrons/victor/1pp": {
+        "names": {
+            "la": "Victor I",
+            "en": "Victor I",
+            "pl": "Wiktor I"
+        },
+        "died": [
+            "~199",
+            "~200"
+        ],
+        "feasts": []
+    },
     "patrons/vincentia": {
         "names": {
             "la": "Vincentia",

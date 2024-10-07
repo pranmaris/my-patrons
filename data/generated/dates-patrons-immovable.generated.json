@@ -3145,6 +3145,18 @@
             }
         }
     },
+    "07-28": {
+        "records/patrons/victor/1pp": {
+            "name": {
+                "la": "Victor I",
+                "en": "Victor I",
+                "pl": "Wiktor I"
+            },
+            "sources": {
+                "other-martyrology-days": "28 VII"
+            }
+        }
+    },
     "07-29": {
         "records/patrons/urbanus/2pp": {
             "name": {

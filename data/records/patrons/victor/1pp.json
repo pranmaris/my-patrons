@@ -1,0 +1,33 @@
+{
+  "names": {
+    "la": [
+      "Victor I"
+    ],
+    "en": [
+      "Victor I"
+    ],
+    "pl": [
+      "Wiktor I"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Primus",
+      "en": "the First",
+      "pl": "Pierwszy"
+    }
+  ],
+
+  "born": ["?"],
+  "died": ["~199", "~200"],
+
+  "also-in-martyrology": ["07-28"],
+
+  "forenames": ["victor"],
+  "categories": ["vir", "martyr", "papa"],
+
+  "data-links": {
+    "popes": ["1:#14"]
+  }
+}
