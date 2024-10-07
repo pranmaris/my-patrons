@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Erasmus de Formia"
+    ],
+    "en": [
+      "Erasmus of Formia"
+    ],
+    "pl": [
+      "Erazm z Formii"
+    ]
+  },
+
+  "died": ["~303"],
+
+  "also-in-martyrology": ["06-02"],
+
+  "forenames": ["erasmus"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

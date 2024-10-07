@@ -168,6 +168,11 @@
             "pl": "Donat z Fiesole",
             "la": "Donatus Scotus"
         },
+        "records/patrons/erasmus/for": {
+            "la": "Erasmus de Formia",
+            "en": "Erasmus of Formia",
+            "pl": "Erazm z Formii"
+        },
         "records/patrons/eusebius/ver": {
             "la": "Eusebius Vercellensis",
             "en": "Eusebius of Vercelli",

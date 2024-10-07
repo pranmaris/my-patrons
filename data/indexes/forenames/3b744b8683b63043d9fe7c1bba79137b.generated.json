@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Erasmus",
+        "en": "Erasmus"
+    },
+    "translations": {
+        "la": [
+            "Erasmus"
+        ],
+        "en": [
+            "Erasmus"
+        ],
+        "pl": [
+            "Erazm"
+        ]
+    },
+    "links": {
+        "records/patrons/erasmus/for": {
+            "la": "Erasmus de Formia",
+            "en": "Erasmus of Formia",
+            "pl": "Erazm z Formii"
+        }
+    }
+}

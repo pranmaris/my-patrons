@@ -2352,6 +2352,16 @@
         }
     },
     "06-02": {
+        "records/patrons/erasmus/for": {
+            "name": {
+                "la": "Erasmus de Formia",
+                "en": "Erasmus of Formia",
+                "pl": "Erazm z Formii"
+            },
+            "sources": {
+                "other-martyrology-days": "2 VI"
+            }
+        },
         "records/patrons/sadochus/san": {
             "name": {
                 "pl": "Sadok z Sandomierza",

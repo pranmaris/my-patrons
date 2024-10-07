@@ -2300,6 +2300,24 @@
         ],
         "feasts": []
     },
+    "patrons/erasmus": {
+        "names": {
+            "la": "Erasmus",
+            "en": "Erasmus",
+            "pl": "Erazm"
+        }
+    },
+    "patrons/erasmus/for": {
+        "names": {
+            "la": "Erasmus de Formia",
+            "en": "Erasmus of Formia",
+            "pl": "Erazm z Formii"
+        },
+        "died": [
+            "~303"
+        ],
+        "feasts": []
+    },
     "patrons/eulogius": {
         "names": {
             "la": "Eulogius",
