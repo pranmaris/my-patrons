@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Pancratius de Roma"
+    ],
+    "en": [
+      "Pancras of Rome"
+    ],
+    "pl": [
+      "Pankracy z Rzymu"
+    ]
+  },
+
+  "born": ["~289"],
+  "died": ["~304"],
+
+  "also-in-martyrology": ["05-12"],
+
+  "forenames": ["pancratius"],
+  "categories": ["vir", "martyr"]
+}

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "la": "Pancratius"
+    },
+    "translations": {
+        "la": [
+            "Pancratius"
+        ],
+        "en": [
+            "Pancras"
+        ],
+        "pl": [
+            "Pankracy"
+        ]
+    },
+    "links": {
+        "records/patrons/pancratius/rom": {
+            "la": "Pancratius de Roma",
+            "en": "Pancras of Rome",
+            "pl": "Pankracy z Rzymu"
+        }
+    }
+}

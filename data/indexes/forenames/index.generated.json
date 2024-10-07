@@ -1129,6 +1129,9 @@
     "74c854713704589e2902963ede35a6db": {
         "la": "Carolina"
     },
+    "750fa99a5283a9c5a8316af168231f72": {
+        "en": "Pancras"
+    },
     "752b048c76633399b04f6e87a8b211ca": {
         "pl": "Stefan"
     },
@@ -1919,6 +1922,9 @@
     "c20deac4c75c36c9a79dcab60c7be9c7": {
         "en": "Blaise"
     },
+    "c271987f929166970a31383bb095ca43": {
+        "pl": "Pankracy"
+    },
     "c2858240380c447cc409ffd9a518fe84": {
         "uk": "Олексій"
     },
@@ -2521,5 +2527,8 @@
     },
     "ff60d4194e54e500b9ab2c9a527acff7": {
         "la": "Hubertus"
+    },
+    "ff938ca4700d1b6a87091570b3d14992": {
+        "la": "Pancratius"
     }
 }

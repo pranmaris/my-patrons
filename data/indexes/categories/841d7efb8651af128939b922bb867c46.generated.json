@@ -611,6 +611,11 @@
             "la": "Oswaldus rex Northumbriae",
             "pl": "Oswald z Nortumbrii"
         },
+        "records/patrons/pancratius/rom": {
+            "la": "Pancratius de Roma",
+            "en": "Pancras of Rome",
+            "pl": "Pankracy z Rzymu"
+        },
         "records/patrons/paulus/apo": {
             "he": "שָׁאוּל התרס",
             "la": "Paulus Tersensis",

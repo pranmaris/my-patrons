@@ -2126,6 +2126,18 @@
             }
         }
     },
+    "05-12": {
+        "records/patrons/pancratius/rom": {
+            "name": {
+                "la": "Pancratius de Roma",
+                "en": "Pancras of Rome",
+                "pl": "Pankracy z Rzymu"
+            },
+            "sources": {
+                "other-martyrology-days": "12 V"
+            }
+        }
+    },
     "05-13": {
         "records/patrons/andreas/fou": {
             "name": {

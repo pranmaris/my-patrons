@@ -5402,6 +5402,24 @@
         ],
         "feasts": []
     },
+    "patrons/pancratius": {
+        "names": {
+            "la": "Pancratius",
+            "en": "Pancras",
+            "pl": "Pankracy"
+        }
+    },
+    "patrons/pancratius/rom": {
+        "names": {
+            "la": "Pancratius de Roma",
+            "en": "Pancras of Rome",
+            "pl": "Pankracy z Rzymu"
+        },
+        "died": [
+            "~304"
+        ],
+        "feasts": []
+    },
     "patrons/paphnutius": {
         "names": {
             "la": "Paphnutius",
