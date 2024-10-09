@@ -631,6 +631,30 @@
         "pl": "opis"
     },
 
+    "lang-desc-footer": {
+        "pl": "..."
+    },
+
+    "lang-desc-main-page-section-about-us": {
+        "pl": "..."
+    },
+
+    "lang-desc-main-page-section-data": {
+        "pl": "..."
+    },
+
+    "lang-desc-main-page-section-dates": {
+        "pl": "..."
+    },
+
+    "lang-desc-main-page-section-notes": {
+        "pl": "..."
+    },
+
+    "lang-desc-main-page-section-top": {
+        "pl": "Aby Święci mogli działać w Twoim życiu, musisz się na to zgodzić.<br />Możesz mówić im, że tego chcesz za pomocą języka wyzwań."
+    },
+
     "lang-donate": {
         "en": "",
         "pl": "<img class=\"svg-image\" src=\"/files/resources/svg/cup-hot-fill.svg\" />"
