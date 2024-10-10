@@ -524,6 +524,14 @@
       }
     },
     "notes": {
+      "parents": {
+        "type": {
+          "person": [0, 2]
+        },
+        "name": {
+          "pl": "Rodzice"
+        }
+      },
       "time": {
         "type": {
           "time": [0, 1]
@@ -1889,6 +1897,14 @@
         },
         "name": {
           "pl": "szafarz Sakramentu Chrztu Świętego"
+        }
+      },
+      "sponsors": {
+        "type": {
+          "person": [0, 0]
+        },
+        "name": {
+          "pl": "Chrzestni"
         }
       },
       "other": {
