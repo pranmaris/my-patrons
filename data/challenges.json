@@ -2001,6 +2001,14 @@
           "pl": "szafarz Sakramentu Bierzmowania"
         }
       },
+      "confirmation-sponsors": {
+        "type": {
+          "person": [0, 0]
+        },
+        "name": {
+          "pl": "Świadkowie na Bierzmowaniu"
+        }
+      },
       "other": {
         "type": {
           "description": [0, 0]
