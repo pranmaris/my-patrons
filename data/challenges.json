@@ -2197,6 +2197,14 @@
           "pl": "Osoba potwierdzająca i błogosławiąca pierwszy Sakrament Małżeństwa"
         }
       },
+      "witnesses": {
+        "type": {
+          "person": [0, 0]
+        },
+        "name": {
+          "pl": "Świadkowie"
+        }
+      },
       "other": {
         "type": {
           "description": [0, 0]
