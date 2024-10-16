@@ -13,7 +13,8 @@
             "Hieronim"
         ],
         "it": [
-            "Jeronimo"
+            "Jeronimo",
+            "Gerolamo"
         ]
     },
     "links": {
@@ -21,6 +22,12 @@
             "la": "Hieronymus Stridonensis",
             "en": "Jerome of Stridon",
             "pl": "Hieronim ze Strydonu"
+        },
+        "records/patrons/hieronymus/emi": {
+            "it": "Girolamo Emiliani",
+            "en": "Jerome Emiliani",
+            "la": "Hieronymus Emiliani",
+            "pl": "Hieronim Emiliani"
         },
         "records/patrons/hieronymus/tif": {
             "it": "Jeronimo Ranuzzi",

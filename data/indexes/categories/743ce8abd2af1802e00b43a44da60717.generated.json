@@ -50,6 +50,12 @@
             "la": "Gaspar del Bufalo",
             "pl": "Kasper del Bufalo"
         },
+        "records/patrons/hieronymus/emi": {
+            "it": "Girolamo Emiliani",
+            "en": "Jerome Emiliani",
+            "la": "Hieronymus Emiliani",
+            "pl": "Hieronim Emiliani"
+        },
         "records/patrons/norbertus/mag": {
             "de": "Norbert von Xanten",
             "en": "Norbert of Xanten",

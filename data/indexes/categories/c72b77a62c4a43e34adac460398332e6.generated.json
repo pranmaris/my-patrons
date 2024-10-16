@@ -764,6 +764,12 @@
             "en": "Jerome of Stridon",
             "pl": "Hieronim ze Strydonu"
         },
+        "records/patrons/hieronymus/emi": {
+            "it": "Girolamo Emiliani",
+            "en": "Jerome Emiliani",
+            "la": "Hieronymus Emiliani",
+            "pl": "Hieronim Emiliani"
+        },
         "records/patrons/hieronymus/tif": {
             "it": "Jeronimo Ranuzzi",
             "la": "Hieronymus Ranuzzi",

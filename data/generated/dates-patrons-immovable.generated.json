@@ -587,6 +587,18 @@
         }
     },
     "02-08": {
+        "records/patrons/hieronymus/emi": {
+            "name": {
+                "it": "Girolamo Emiliani",
+                "en": "Jerome Emiliani",
+                "la": "Hieronymus Emiliani",
+                "pl": "Hieronim Emiliani"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 II",
+                "other-martyrology-days": "8 II"
+            }
+        },
         "records/patrons/iosephina/bak": {
             "name": {
                 "ar": "جوزفين بخيتة",
@@ -3023,6 +3035,19 @@
             },
             "sources": {
                 "other-martyrology-days": "19 VII"
+            }
+        }
+    },
+    "07-20": {
+        "records/patrons/hieronymus/emi": {
+            "name": {
+                "it": "Girolamo Emiliani",
+                "en": "Jerome Emiliani",
+                "la": "Hieronymus Emiliani",
+                "pl": "Hieronim Emiliani"
+            },
+            "sources": {
+                "other-martyrology-days": "20 VII"
             }
         }
     },

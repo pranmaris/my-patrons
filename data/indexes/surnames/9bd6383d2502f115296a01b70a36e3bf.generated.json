@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Emiliani"
+    },
+    "translations": {
+        "it": [
+            "Emiliani"
+        ]
+    },
+    "links": {
+        "records/patrons/hieronymus/emi": {
+            "it": "Girolamo Emiliani",
+            "en": "Jerome Emiliani",
+            "la": "Hieronymus Emiliani",
+            "pl": "Hieronim Emiliani"
+        }
+    }
+}

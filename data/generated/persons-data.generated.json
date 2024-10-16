@@ -3025,6 +3025,18 @@
         ],
         "feasts": []
     },
+    "patrons/hieronymus/emi": {
+        "names": {
+            "it": "Girolamo Emiliani",
+            "en": "Jerome Emiliani",
+            "la": "Hieronymus Emiliani",
+            "pl": "Hieronim Emiliani"
+        },
+        "died": [
+            "1537-02-08"
+        ],
+        "feasts": []
+    },
     "patrons/hieronymus/tif": {
         "names": {
             "it": "Jeronimo Ranuzzi",

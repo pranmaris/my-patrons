@@ -1,0 +1,42 @@
+{
+  "names": {
+    "it": [
+      "Girolamo Emiliani"
+    ],
+    "en": [
+      "Jerome Emiliani"
+    ],
+    "la": [
+      "Hieronymus Emiliani"
+    ],
+    "pl": [
+      "Hieronim Emiliani"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Emiliani"
+    }
+  ],
+
+  "born": ["1486"],
+  "died": ["1537-02-08"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1747-04-23"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1767-07-16"
+  },
+
+  "also-in-martyrology": ["02-08", "07-20"],
+
+  "forenames": ["hieronymus"],
+  "categories": ["vir", "confessor", "fundator", "institutor"],
+
+  "order": ["crs"],
+  "order-founder": ["crs"]
+}
