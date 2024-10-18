@@ -212,6 +212,7 @@
         {"94": ["lang-person-taking-holy-orders"]},
         {"95": ["lang-person-getting-married"]},
         {"96": ["lang-person-receiving-anointing-of-the-sick"]},
+        {"99": ["lang-funeral-mass-person"]},
         {"100": ["lang-person-mentioned-in-mass-intentions"]}
       ],
       "values": "last-year-or-10-challenges-sorted"

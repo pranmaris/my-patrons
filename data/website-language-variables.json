@@ -809,6 +809,11 @@
         "pl": "relikwiarz ramowy"
     },
 
+    "lang-funeral-mass-person": {
+        "en": "funeral Mass person",
+        "pl": "osoba, której dotyczy Msza żałobna"
+    },
+
     "lang-further-name": {
         "en": "further name",
         "pl": "dalsza nazwa"
