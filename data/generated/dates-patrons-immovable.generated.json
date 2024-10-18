@@ -4408,6 +4408,30 @@
             }
         }
     },
+    "09-26": {
+        "records/patrons/cosmas/dam": {
+            "name": {
+                "el": "Κοσμάς /+ Δαμιανός",
+                "en": "Cosmas /+ Damian",
+                "la": "Cosmas /+ Damianus",
+                "pl": "Kosma /+ Damian"
+            },
+            "sources": {
+                "other-martyrology-days": "26 IX"
+            }
+        },
+        "records/patrons/damianus/cos": {
+            "name": {
+                "el": "Δαμιανός /+ Κοσμάς",
+                "en": "Damian /+ Cosmas",
+                "la": "Damianus /+ Cosmas",
+                "pl": "Damian /+ Kosma"
+            },
+            "sources": {
+                "other-martyrology-days": "26 IX"
+            }
+        }
+    },
     "09-27": {
         "records/patrons/bronislaus/kos": {
             "name": {
