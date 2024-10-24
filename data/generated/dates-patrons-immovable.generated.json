@@ -2572,6 +2572,16 @@
                 "reliable-death-anniversary": "13 VI",
                 "other-martyrology-days": "13 VI"
             }
+        },
+        "records/patrons/maria/bie": {
+            "name": {
+                "pl": "Maria Anna Biernacka",
+                "en": "Maria Anna Biernacka",
+                "la": "Maria Anna Biernacka"
+            },
+            "sources": {
+                "other-martyrology-days": "13 VI"
+            }
         }
     },
     "06-16": {
