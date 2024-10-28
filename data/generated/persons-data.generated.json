@@ -894,6 +894,17 @@
         ],
         "feasts": []
     },
+    "patrons/antoninus/nic": {
+        "names": {
+            "la": "Antoninus /+ Nicephorus et alii",
+            "en": "Antoninus /+ Nicephorus and others",
+            "pl": "Antonin /+ Nicefor i inni"
+        },
+        "died": [
+            "~308"
+        ],
+        "feasts": []
+    },
     "patrons/antonius": {
         "names": {
             "la": "Antonius",
@@ -974,17 +985,6 @@
         "died": [
             "1073-05-27",
             "1073-07-10"
-        ],
-        "feasts": []
-    },
-    "patrons/antonius/nic": {
-        "names": {
-            "la": "Antoninus /+ Nicephorus et alii",
-            "en": "Antoninus /+ Nicephorus and others",
-            "pl": "Antonin /+ Nicefor i inni"
-        },
-        "died": [
-            "~308"
         ],
         "feasts": []
     },

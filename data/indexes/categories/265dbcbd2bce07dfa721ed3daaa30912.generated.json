@@ -116,15 +116,15 @@
             "en": "Antoninus of Apamea",
             "pl": "Antonin z Apamei"
         },
+        "records/patrons/antoninus/nic": {
+            "la": "Antoninus /+ Nicephorus et alii",
+            "en": "Antoninus /+ Nicephorus and others",
+            "pl": "Antonin /+ Nicefor i inni"
+        },
         "records/patrons/antonius/baj": {
             "pl": "Antoni Bajewski",
             "en": "Anthony Bajewski",
             "la": "Antonius Bajewski"
-        },
-        "records/patrons/antonius/nic": {
-            "la": "Antoninus /+ Nicephorus et alii",
-            "en": "Antoninus /+ Nicephorus and others",
-            "pl": "Antonin /+ Nicefor i inni"
         },
         "records/patrons/antonius/rew": {
             "pl": "Antoni Rewera",
