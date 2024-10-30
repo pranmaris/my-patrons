@@ -569,9 +569,7 @@
       }
     },
     "numbers": false,
-    "uniqueness": [
-      ["person"]
-    ],
+    "uniqueness": [],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -761,7 +759,7 @@
     },
     "numbers": true,
     "uniqueness": [
-      ["person", "date"]
+      ["date"]
     ],
     "addition-type": "",
     "person": {
@@ -929,7 +927,7 @@
     },
     "numbers": true,
     "uniqueness": [
-      ["person", "date"]
+      ["date"]
     ],
     "addition-type": "",
     "person": {
@@ -1037,7 +1035,7 @@
     },
     "numbers": true,
     "uniqueness": [
-      ["person", "date"]
+      ["date"]
     ],
     "addition-type": "",
     "person": {
@@ -1198,9 +1196,7 @@
       }
     },
     "numbers": false,
-    "uniqueness": [
-      ["person"]
-    ],
+    "uniqueness": [],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -1825,9 +1821,7 @@
       }
     },
     "numbers": false,
-    "uniqueness": [
-      ["person"]
-    ],
+    "uniqueness": [],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -1919,9 +1913,7 @@
       }
     },
     "numbers": false,
-    "uniqueness": [
-      ["person"]
-    ],
+    "uniqueness": [],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -2021,9 +2013,7 @@
       }
     },
     "numbers": false,
-    "uniqueness": [
-      ["person"]
-    ],
+    "uniqueness": [],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -2123,9 +2113,7 @@
       }
     },
     "numbers": false,
-    "uniqueness": [
-      ["person"]
-    ],
+    "uniqueness": [],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -2217,9 +2205,7 @@
       }
     },
     "numbers": false,
-    "uniqueness": [
-      ["person"]
-    ],
+    "uniqueness": [],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -2319,9 +2305,7 @@
       }
     },
     "numbers": false,
-    "uniqueness": [
-      ["person"]
-    ],
+    "uniqueness": [],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -2413,9 +2397,7 @@
       }
     },
     "numbers": false,
-    "uniqueness": [
-      ["person"]
-    ],
+    "uniqueness": [],
     "addition-type": "",
     "person": {
       "types": ["Me"],
@@ -2942,7 +2924,9 @@
       }
     },
     "numbers": true,
-    "uniqueness": ["person", "date", "notes/description"],
+    "uniqueness": [
+      ["date", "notes/description"]
+    ],
     "addition-type": "",
     "person": {
       "types": ["Me"],
