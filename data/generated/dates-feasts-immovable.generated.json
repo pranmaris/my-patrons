@@ -261,6 +261,17 @@
             }
         }
     },
+    "05-13": {
+        "records/patrons/maria/naz#fat": {
+            "name": {
+                "la": "Maria Virgo (Beatae Maria Virgo de Fatima)",
+                "pl": "Maria z Nazaretu (Błogosławiona Maryja Dziewica Fatimska)"
+            },
+            "sources": {
+                "mr-2004": "13 V: #1"
+            }
+        }
+    },
     "05-31": {
         "records/patrons/maria/naz#reg": {
             "name": {

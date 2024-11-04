@@ -4724,6 +4724,12 @@
                     "pl": "Zwiastowanie Błogosławionej Maryi Dziewicy Bożej Rodzicielki"
                 }
             },
+            "feasts/fat": {
+                "names": {
+                    "la": "Beatae Maria Virgo de Fatima",
+                    "pl": "Błogosławiona Maryja Dziewica Fatimska"
+                }
+            },
             "feasts/vis": {
                 "names": {
                     "la": "Visitatio Beatae Mariae Virginis",

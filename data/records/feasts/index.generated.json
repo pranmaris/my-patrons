@@ -144,6 +144,10 @@
         "la": "feria sexta in Passione Domini",
         "pl": "Wielki Piątek"
     },
+    "fat": {
+        "la": "Beatae Maria Virgo de Fatima",
+        "pl": "Błogosławiona Maryja Dziewica Fatimska"
+    },
     "gen": {
         "en": "Maria, Holy Mother of God",
         "la": "Maria, Sancta Dei Genetrix",
