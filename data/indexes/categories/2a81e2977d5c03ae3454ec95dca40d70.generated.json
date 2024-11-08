@@ -508,6 +508,12 @@
             "la": "Theodorus Graptus",
             "pl": "Teodor Graptus"
         },
+        "records/patrons/thomas/aqu": {
+            "it": "Tommaso d'Aquino",
+            "en": "Thomas Aquinas",
+            "la": "Thomas de Aquino",
+            "pl": "Tomasz z Akwinu"
+        },
         "records/patrons/valentinus/rom": {
             "en": "Valentine of Rome",
             "la": "Valentinus de Roma",

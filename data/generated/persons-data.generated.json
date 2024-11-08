@@ -6731,7 +6731,8 @@
         "names": {
             "la": "Thomas",
             "en": "Thomas",
-            "pl": "Tomasz"
+            "pl": "Tomasz",
+            "it": "Tommaso"
         }
     },
     "patrons/thomas/apo": {
@@ -6742,6 +6743,18 @@
         },
         "died": [
             "~72"
+        ],
+        "feasts": []
+    },
+    "patrons/thomas/aqu": {
+        "names": {
+            "it": "Tommaso d'Aquino",
+            "en": "Thomas Aquinas",
+            "la": "Thomas de Aquino",
+            "pl": "Tomasz z Akwinu"
+        },
+        "died": [
+            "1274-03-07"
         ],
         "feasts": []
     },

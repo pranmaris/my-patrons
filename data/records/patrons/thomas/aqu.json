@@ -1,0 +1,32 @@
+{
+  "names": {
+    "it": [
+      "Tommaso d'Aquino"
+    ],
+    "en": [
+      "Thomas Aquinas"
+    ],
+    "la": [
+      "Thomas de Aquino",
+      "Thomas Aquinas"
+    ],
+    "pl": [
+      "Tomasz z Akwinu"
+    ]
+  },
+
+  "born": ["~1225"],
+  "died": ["1274-03-07"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1323-07-18"
+  },
+
+  "also-in-martyrology": ["01-28", "03-07"],
+
+  "forenames": ["thomas"],
+  "categories": ["vir", "confessor", "presbyter", "doctor-ecclesiae"],
+
+  "order": ["op"]
+}

@@ -455,6 +455,17 @@
             "sources": {
                 "other-martyrology-days": "28 I"
             }
+        },
+        "records/patrons/thomas/aqu": {
+            "name": {
+                "it": "Tommaso d'Aquino",
+                "en": "Thomas Aquinas",
+                "la": "Thomas de Aquino",
+                "pl": "Tomasz z Akwinu"
+            },
+            "sources": {
+                "other-martyrology-days": "28 I"
+            }
         }
     },
     "01-29": {
@@ -1188,6 +1199,18 @@
                 "la": "Perpetua Carthaginensis",
                 "en": "Perpetua of Carthage",
                 "pl": "Perpetua z Kartaginy"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 III",
+                "other-martyrology-days": "7 III"
+            }
+        },
+        "records/patrons/thomas/aqu": {
+            "name": {
+                "it": "Tommaso d'Aquino",
+                "en": "Thomas Aquinas",
+                "la": "Thomas de Aquino",
+                "pl": "Tomasz z Akwinu"
             },
             "sources": {
                 "reliable-death-anniversary": "7 III",

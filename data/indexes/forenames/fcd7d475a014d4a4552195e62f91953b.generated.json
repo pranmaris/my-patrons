@@ -11,6 +11,9 @@
         ],
         "pl": [
             "Tomasz"
+        ],
+        "it": [
+            "Tommaso"
         ]
     },
     "links": {
@@ -18,6 +21,12 @@
             "la": "Thomas Apostolus",
             "en": "Thomas the Apostle",
             "pl": "Tomasz Apostoł"
+        },
+        "records/patrons/thomas/aqu": {
+            "it": "Tommaso d'Aquino",
+            "en": "Thomas Aquinas",
+            "la": "Thomas de Aquino",
+            "pl": "Tomasz z Akwinu"
         },
         "records/patrons/thomas/bec": {
             "en": "Thomas Becket",
