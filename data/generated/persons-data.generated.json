@@ -4717,6 +4717,12 @@
                     "pl": "Oczyszczenie Błogosławionej Maryi Dziewicy"
                 }
             },
+            "feasts/lou": {
+                "names": {
+                    "la": "Beatae Maria Virgo de Lourdes",
+                    "pl": "Matka Boża z Lourdes"
+                }
+            },
             "feasts/anm": {
                 "names": {
                     "la": "Annuntatio beatissimae Virginis Genitricis Dei Mariae",
