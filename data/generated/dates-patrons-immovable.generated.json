@@ -236,6 +236,18 @@
         }
     },
     "01-14": {
+        "records/patrons/petrus/don": {
+            "name": {
+                "nl": "Petrus Donders",
+                "en": "Peter Donders",
+                "la": "Petrus Donders",
+                "pl": "Piotr Donders"
+            },
+            "sources": {
+                "reliable-death-anniversary": "14 I",
+                "other-martyrology-days": "14 I"
+            }
+        },
         "records/patrons/malachias/pro": {
             "name": {
                 "la": "Malachias Propheta",

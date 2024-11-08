@@ -5652,6 +5652,7 @@
             "en": "Peter",
             "pl": "Piotr",
             "fr": "Pierre",
+            "nl": "Petrus",
             "it": "Pietro",
             "tl": "Pedro"
         }
@@ -5759,6 +5760,18 @@
         },
         "died": [
             "1942-04-03"
+        ],
+        "feasts": []
+    },
+    "patrons/petrus/don": {
+        "names": {
+            "nl": "Petrus Donders",
+            "en": "Peter Donders",
+            "la": "Petrus Donders",
+            "pl": "Piotr Donders"
+        },
+        "died": [
+            "1887-01-14"
         ],
         "feasts": []
     },

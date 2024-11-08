@@ -1,0 +1,37 @@
+{
+  "names": {
+    "nl": [
+      "Petrus Donders"
+    ],
+    "en": [
+      "Peter Donders"
+    ],
+    "la": [
+      "Petrus Donders"
+    ],
+    "pl": [
+      "Piotr Donders"
+    ]
+  },
+
+  "surnames": [
+    {
+      "nl": "Donders"
+    }
+  ],
+
+  "born": ["1809-10-27"],
+  "died": ["1887-01-14"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1982-05-23"
+  },
+
+  "also-in-martyrology": ["01-14"],
+
+  "forenames": ["petrus"],
+  "categories": ["vir", "presbyter"],
+
+  "order": ["cssr"]
+}

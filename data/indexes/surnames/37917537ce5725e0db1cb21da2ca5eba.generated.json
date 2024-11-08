@@ -1,0 +1,18 @@
+{
+    "names": {
+        "nl": "Donders"
+    },
+    "translations": {
+        "nl": [
+            "Donders"
+        ]
+    },
+    "links": {
+        "records/patrons/petrus/don": {
+            "nl": "Petrus Donders",
+            "en": "Peter Donders",
+            "la": "Petrus Donders",
+            "pl": "Piotr Donders"
+        }
+    }
+}
