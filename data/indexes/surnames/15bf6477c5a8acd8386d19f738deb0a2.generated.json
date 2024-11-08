@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "Bessette"
+    },
+    "translations": {
+        "fr": [
+            "Bessette"
+        ]
+    },
+    "links": {
+        "records/patrons/andreas/bes": {
+            "fr": "André Bessette",
+            "en": "Andrew Bessette",
+            "la": "Andreas Bessette",
+            "pl": "Andrzej Bessette"
+        }
+    }
+}

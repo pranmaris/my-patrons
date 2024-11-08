@@ -737,6 +737,18 @@
         ],
         "feasts": []
     },
+    "patrons/andreas/bes": {
+        "names": {
+            "fr": "André Bessette",
+            "en": "Andrew Bessette",
+            "la": "Andreas Bessette",
+            "pl": "Andrzej Bessette"
+        },
+        "died": [
+            "1937-01-06"
+        ],
+        "feasts": []
+    },
     "patrons/andreas/bob": {
         "names": {
             "pl": "Andrzej Bobola",

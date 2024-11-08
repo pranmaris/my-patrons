@@ -98,6 +98,18 @@
         }
     },
     "01-06": {
+        "records/patrons/andreas/bes": {
+            "name": {
+                "fr": "André Bessette",
+                "en": "Andrew Bessette",
+                "la": "Andreas Bessette",
+                "pl": "Andrzej Bessette"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 I",
+                "other-martyrology-days": "6 I"
+            }
+        },
         "records/patrons/andreas/cor": {
             "name": {
                 "it": "Andrea Corsini",

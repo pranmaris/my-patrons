@@ -1,0 +1,29 @@
+{
+    "names": {
+        "en": "Alfred",
+        "pl": "Alfred",
+        "fr": "Alfred"
+    },
+    "translations": {
+        "la": [
+            "Alaphridus"
+        ],
+        "en": [
+            "Alfred"
+        ],
+        "pl": [
+            "Alfred"
+        ],
+        "fr": [
+            "Alfred"
+        ]
+    },
+    "links": {
+        "records/patrons/andreas/bes": {
+            "fr": "André Bessette",
+            "en": "Andrew Bessette",
+            "la": "Andreas Bessette",
+            "pl": "Andrzej Bessette"
+        }
+    }
+}

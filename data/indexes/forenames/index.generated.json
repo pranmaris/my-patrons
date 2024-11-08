@@ -1287,6 +1287,11 @@
         "en": "Urban",
         "pl": "Urban"
     },
+    "86703fde9e87dd5c0f8e1072545d0128": {
+        "en": "Alfred",
+        "pl": "Alfred",
+        "fr": "Alfred"
+    },
     "868694d8ebdf741537033c24eac17042": {
         "la": "Ezechiel",
         "pl": "Ezechiel"
@@ -1428,6 +1433,9 @@
         "pl": "Albert",
         "de": "Albert",
         "fr": "Albert"
+    },
+    "9203ee389edc09ff34a9022b232baee0": {
+        "la": "Alaphridus"
     },
     "920463555082c79ccf8c82638cbfdfce": {
         "en": "Sigismund"

@@ -42,6 +42,12 @@
             "la": "Andreas Apostolus",
             "pl": "Andrzej Apostoł"
         },
+        "records/patrons/andreas/bes": {
+            "fr": "André Bessette",
+            "en": "Andrew Bessette",
+            "la": "Andreas Bessette",
+            "pl": "Andrzej Bessette"
+        },
         "records/patrons/andreas/bob": {
             "pl": "Andrzej Bobola",
             "en": "Andrew Bobola",
