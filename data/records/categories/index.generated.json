@@ -14,6 +14,11 @@
         "en": "acolyte",
         "pl": "akolita"
     },
+    "agricola": {
+        "la": "agricola",
+        "en": "farmer",
+        "pl": "rolnik"
+    },
     "alius-apostolus": {
         "la": "alius apostolus",
         "en": "other apostle",

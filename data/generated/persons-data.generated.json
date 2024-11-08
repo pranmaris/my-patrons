@@ -3935,6 +3935,18 @@
         ],
         "feasts": []
     },
+    "patrons/iosephus/tua": {
+        "names": {
+            "vi": "Giuse Trần Văn Tuấn",
+            "en": "Jóseph Trần Văn Tuấn",
+            "la": "Iosephus Trần Văn Tuấn",
+            "pl": "Józef Trần Văn Tuấn"
+        },
+        "died": [
+            "1862-06-07"
+        ],
+        "feasts": []
+    },
     "patrons/iosephus/yua": {
         "names": {
             "zh": "袁在德若瑟",

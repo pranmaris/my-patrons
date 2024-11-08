@@ -1,0 +1,42 @@
+{
+  "names": {
+    "vi": [
+      "Giuse Trần Văn Tuấn",
+      "Giuse Tuân, nông dân"
+    ],
+    "en": [
+      "Jóseph Trần Văn Tuấn",
+      "Joseph Tuân, farmer"
+    ],
+    "la": [
+      "Iosephus Trần Văn Tuấn",
+      "Iosephus Tuân, agricola"
+    ],
+    "pl": [
+      "Józef Trần Văn Tuấn",
+      "Józef Tuân, rolnik"
+    ]
+  },
+
+  "surnames": [
+    {
+      "vi": "Tuân"
+    }
+  ],
+
+  "died": ["1862-06-07"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1951-04-29"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1988-06-19"
+  },
+
+  "also-in-martyrology": ["01-07", "11-24"],
+
+  "forenames": ["iosephus"],
+  "categories": ["vir", "martyr", "paterfamilias", "agricola"]
+}

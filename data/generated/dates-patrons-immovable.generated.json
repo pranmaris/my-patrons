@@ -161,6 +161,17 @@
         }
     },
     "01-07": {
+        "records/patrons/iosephus/tua": {
+            "name": {
+                "vi": "Giuse Trần Văn Tuấn",
+                "en": "Jóseph Trần Văn Tuấn",
+                "la": "Iosephus Trần Văn Tuấn",
+                "pl": "Józef Trần Văn Tuấn"
+            },
+            "sources": {
+                "other-martyrology-days": "7 I"
+            }
+        },
         "records/patrons/raymundus/pen": {
             "name": {
                 "ca": "Ramon de Penyafort",
@@ -2510,6 +2521,17 @@
         }
     },
     "06-07": {
+        "records/patrons/iosephus/tua": {
+            "name": {
+                "vi": "Giuse Trần Văn Tuấn",
+                "en": "Jóseph Trần Văn Tuấn",
+                "la": "Iosephus Trần Văn Tuấn",
+                "pl": "Józef Trần Văn Tuấn"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 VI"
+            }
+        },
         "records/patrons/paulus/con": {
             "name": {
                 "la": "Paulus Constantinopolitanus",
@@ -5663,6 +5685,17 @@
             },
             "sources": {
                 "reliable-death-anniversary": "24 XI",
+                "other-martyrology-days": "24 XI"
+            }
+        },
+        "records/patrons/iosephus/tua": {
+            "name": {
+                "vi": "Giuse Trần Văn Tuấn",
+                "en": "Jóseph Trần Văn Tuấn",
+                "la": "Iosephus Trần Văn Tuấn",
+                "pl": "Józef Trần Văn Tuấn"
+            },
+            "sources": {
                 "other-martyrology-days": "24 XI"
             }
         }
