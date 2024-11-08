@@ -4334,6 +4334,24 @@
         ],
         "feasts": []
     },
+    "patrons/marcellina": {
+        "names": {
+            "la": "Marcellina",
+            "en": "Marcelina",
+            "pl": "Marcelina"
+        }
+    },
+    "patrons/marcellina/dar": {
+        "names": {
+            "pl": "Marcelina Darowska",
+            "en": "Marcelina Darowska",
+            "la": "Marcellina Darowska"
+        },
+        "died": [
+            "1911-01-05"
+        ],
+        "feasts": []
+    },
     "patrons/marcellinus": {
         "names": {
             "la": "Marcellinus",

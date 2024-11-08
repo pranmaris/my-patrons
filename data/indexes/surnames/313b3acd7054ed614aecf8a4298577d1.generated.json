@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Darowska"
+    },
+    "translations": {
+        "pl": [
+            "Darowska"
+        ]
+    },
+    "links": {
+        "records/patrons/marcellina/dar": {
+            "pl": "Marcelina Darowska",
+            "en": "Marcelina Darowska",
+            "la": "Marcellina Darowska"
+        }
+    }
+}

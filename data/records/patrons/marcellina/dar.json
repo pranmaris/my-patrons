@@ -1,0 +1,35 @@
+{
+  "names": {
+    "pl": [
+      "Marcelina Darowska"
+    ],
+    "en": [
+      "Marcelina Darowska"
+    ],
+    "la": [
+      "Marcellina Darowska"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Darowska"
+    }
+  ],
+
+  "born": ["1827-01-16"],
+  "died": ["1911-01-05"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1996-10-06"
+  },
+
+  "also-in-martyrology": ["01-05"],
+
+  "forenames": ["marcellina"],
+  "categories": ["femina", "fundatrix"],
+
+  "order": ["csic"],
+  "order-founder": ["csic"]
+}
