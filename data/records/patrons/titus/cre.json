@@ -1,0 +1,24 @@
+{
+  "names": {
+    "el": [
+      "Τίτος Κρήτης"
+    ],
+    "en": [
+      "Titus of Crete"
+    ],
+    "la": [
+      "Titus Cretensis"
+    ],
+    "pl": [
+      "Tytus z Krety",
+      "Tytus Kreteński"
+    ]
+  },
+
+  "died": ["~96"],
+
+  "also-in-martyrology": ["01-04", "01-26", "02-06"],
+
+  "forenames": ["titus"],
+  "categories": ["vir", "confessor", "episcopus"]
+}

@@ -6756,6 +6756,26 @@
         ],
         "feasts": []
     },
+    "patrons/titus": {
+        "names": {
+            "la": "Titus",
+            "en": "Titus",
+            "pl": "Tytus",
+            "el": "Τίτος"
+        }
+    },
+    "patrons/titus/cre": {
+        "names": {
+            "el": "Τίτος Κρήτης",
+            "en": "Titus of Crete",
+            "la": "Titus Cretensis",
+            "pl": "Tytus z Krety"
+        },
+        "died": [
+            "~96"
+        ],
+        "feasts": []
+    },
     "patrons/urbanus": {
         "names": {
             "la": "Urbanus",

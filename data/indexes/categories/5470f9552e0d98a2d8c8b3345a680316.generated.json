@@ -426,6 +426,12 @@
             "la": "Thomas Becket",
             "pl": "Tomasz Becket"
         },
+        "records/patrons/titus/cre": {
+            "el": "Τίτος Κρήτης",
+            "en": "Titus of Crete",
+            "la": "Titus Cretensis",
+            "pl": "Tytus z Krety"
+        },
         "records/patrons/virgilius/are": {
             "la": "Virgilius Arelatensis",
             "en": "Virgilius of Arles",

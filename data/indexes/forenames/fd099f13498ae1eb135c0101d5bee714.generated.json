@@ -1,0 +1,27 @@
+{
+    "names": {
+        "el": "Τίτος"
+    },
+    "translations": {
+        "la": [
+            "Titus"
+        ],
+        "en": [
+            "Titus"
+        ],
+        "pl": [
+            "Tytus"
+        ],
+        "el": [
+            "Τίτος"
+        ]
+    },
+    "links": {
+        "records/patrons/titus/cre": {
+            "el": "Τίτος Κρήτης",
+            "en": "Titus of Crete",
+            "la": "Titus Cretensis",
+            "pl": "Tytus z Krety"
+        }
+    }
+}

@@ -404,6 +404,12 @@
             "en": "Stanislaus Kostka",
             "la": "Stanislaus Kostka"
         },
+        "records/patrons/titus/cre": {
+            "el": "Τίτος Κρήτης",
+            "en": "Titus of Crete",
+            "la": "Titus Cretensis",
+            "pl": "Tytus z Krety"
+        },
         "records/patrons/vincentius/pau": {
             "fr": "Vincent de Paul",
             "en": "Vincent de Paul",

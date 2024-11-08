@@ -1587,6 +1587,12 @@
             "la": "Thomas Becket",
             "pl": "Tomasz Becket"
         },
+        "records/patrons/titus/cre": {
+            "el": "Τίτος Κρήτης",
+            "en": "Titus of Crete",
+            "la": "Titus Cretensis",
+            "pl": "Tytus z Krety"
+        },
         "records/patrons/urbanus/2pp": {
             "la": "Urbanus II",
             "en": "Urban II",

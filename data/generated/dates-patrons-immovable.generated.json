@@ -84,6 +84,19 @@
             }
         }
     },
+    "01-04": {
+        "records/patrons/titus/cre": {
+            "name": {
+                "el": "Τίτος Κρήτης",
+                "en": "Titus of Crete",
+                "la": "Titus Cretensis",
+                "pl": "Tytus z Krety"
+            },
+            "sources": {
+                "other-martyrology-days": "4 I"
+            }
+        }
+    },
     "01-05": {
         "records/patrons/marcellina/dar": {
             "name": {
@@ -396,6 +409,17 @@
                 "reliable-death-anniversary": "26 I",
                 "other-martyrology-days": "26 I"
             }
+        },
+        "records/patrons/titus/cre": {
+            "name": {
+                "el": "Τίτος Κρήτης",
+                "en": "Titus of Crete",
+                "la": "Titus Cretensis",
+                "pl": "Tytus z Krety"
+            },
+            "sources": {
+                "other-martyrology-days": "26 I"
+            }
         }
     },
     "01-27": {
@@ -616,6 +640,17 @@
                 "en": "Paul Miki",
                 "la": "Paulus Miki",
                 "pl": "Paweł Miki"
+            },
+            "sources": {
+                "other-martyrology-days": "6 II"
+            }
+        },
+        "records/patrons/titus/cre": {
+            "name": {
+                "el": "Τίτος Κρήτης",
+                "en": "Titus of Crete",
+                "la": "Titus Cretensis",
+                "pl": "Tytus z Krety"
             },
             "sources": {
                 "other-martyrology-days": "6 II"
