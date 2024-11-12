@@ -988,6 +988,18 @@
             }
         }
     },
+    "02-25": {
+        "records/patrons/caesarius/naz": {
+            "name": {
+                "la": "Caesarius Nazianzenus",
+                "en": "Caesarius of Nazianzus",
+                "pl": "Cezary z Nazjanzu"
+            },
+            "sources": {
+                "other-martyrology-days": "25 II"
+            }
+        }
+    },
     "02-26": {
         "records/patrons/agricola/niv": {
             "name": {

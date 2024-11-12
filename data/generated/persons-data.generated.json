@@ -1532,6 +1532,17 @@
         ],
         "feasts": []
     },
+    "patrons/caesarius/naz": {
+        "names": {
+            "la": "Caesarius Nazianzenus",
+            "en": "Caesarius of Nazianzus",
+            "pl": "Cezary z Nazjanzu"
+        },
+        "died": [
+            "~368"
+        ],
+        "feasts": []
+    },
     "patrons/caesarius/tar": {
         "names": {
             "it": "Cesario di Terracina",

@@ -19,6 +19,11 @@
             "en": "Antiochus of Anastasiopolis",
             "pl": "Antioch z Anastasiopolis"
         },
+        "records/patrons/caesarius/naz": {
+            "la": "Caesarius Nazianzenus",
+            "en": "Caesarius of Nazianzus",
+            "pl": "Cezary z Nazjanzu"
+        },
         "records/patrons/cosmas/dam": {
             "el": "Κοσμάς /+ Δαμιανός",
             "en": "Cosmas /+ Damian",

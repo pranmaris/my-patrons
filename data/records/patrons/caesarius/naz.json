@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Caesarius Nazianzenus"
+    ],
+    "en": [
+      "Caesarius of Nazianzus"
+    ],
+    "pl": [
+      "Cezary z Nazjanzu"
+    ]
+  },
+
+  "born": ["~330"],
+  "died": ["~368"],
+
+  "also-in-martyrology": ["02-25"],
+
+  "forenames": ["caesarius"],
+  "categories": ["vir", "medicus"]
+}
