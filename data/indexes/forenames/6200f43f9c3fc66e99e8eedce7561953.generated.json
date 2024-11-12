@@ -31,6 +31,11 @@
             "en": "Nicholas of Myra",
             "la": "Nicolaus Myrensis",
             "pl": "Mikołaj z Miry"
+        },
+        "records/patrons/nicolaus/stu": {
+            "la": "Nicolaus Studita",
+            "en": "Nicholas the Studite",
+            "pl": "Mikołaj Studita"
         }
     }
 }

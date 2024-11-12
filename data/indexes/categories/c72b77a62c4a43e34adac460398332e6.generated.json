@@ -1279,6 +1279,11 @@
             "la": "Nicolaus Myrensis",
             "pl": "Mikołaj z Miry"
         },
+        "records/patrons/nicolaus/stu": {
+            "la": "Nicolaus Studita",
+            "en": "Nicholas the Studite",
+            "pl": "Mikołaj Studita"
+        },
         "records/patrons/norbertus/mag": {
             "de": "Norbert von Xanten",
             "en": "Norbert of Xanten",

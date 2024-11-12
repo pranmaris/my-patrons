@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Nicolaus Studita"
+    ],
+    "en": [
+      "Nicholas the Studite"
+    ],
+    "pl": [
+      "Mikołaj Studita"
+    ]
+  },
+
+  "died": ["868"],
+
+  "also-in-martyrology": ["02-04"],
+
+  "forenames": ["nicolaus"],
+  "categories": ["vir", "monachus"]
+}

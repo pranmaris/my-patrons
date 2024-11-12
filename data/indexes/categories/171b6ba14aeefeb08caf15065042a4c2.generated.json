@@ -72,6 +72,11 @@
             "en": "Abrahamic Monks",
             "pl": "Mnisi Abrahamici"
         },
+        "records/patrons/nicolaus/stu": {
+            "la": "Nicolaus Studita",
+            "en": "Nicholas the Studite",
+            "pl": "Mikołaj Studita"
+        },
         "records/patrons/romualdus/cam": {
             "it": "Romualdo di Camaldoli",
             "en": "Romuald of Camaldoli",

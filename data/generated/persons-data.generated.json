@@ -5455,6 +5455,17 @@
         ],
         "feasts": []
     },
+    "patrons/nicolaus/stu": {
+        "names": {
+            "la": "Nicolaus Studita",
+            "en": "Nicholas the Studite",
+            "pl": "Mikołaj Studita"
+        },
+        "died": [
+            "868"
+        ],
+        "feasts": []
+    },
     "patrons/norbertus": {
         "names": {
             "la": "Norbertus",

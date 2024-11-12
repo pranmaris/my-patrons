@@ -618,6 +618,16 @@
             "sources": {
                 "other-martyrology-days": "4 II"
             }
+        },
+        "records/patrons/nicolaus/stu": {
+            "name": {
+                "la": "Nicolaus Studita",
+                "en": "Nicholas the Studite",
+                "pl": "Mikołaj Studita"
+            },
+            "sources": {
+                "other-martyrology-days": "4 II"
+            }
         }
     },
     "02-05": {
