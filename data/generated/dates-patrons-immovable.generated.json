@@ -410,6 +410,17 @@
                 "other-martyrology-days": "26 I"
             }
         },
+        "records/patrons/polycarpus/smy": {
+            "name": {
+                "el": "Πολύκαρπος Σμύρνης",
+                "en": "Polycarp of Smyrna",
+                "la": "Polycarpus Smyrnensis",
+                "pl": "Polikarp ze Smyrny"
+            },
+            "sources": {
+                "other-martyrology-days": "26 I"
+            }
+        },
         "records/patrons/titus/cre": {
             "name": {
                 "el": "Τίτος Κρήτης",
@@ -947,6 +958,17 @@
                 "en": "Peter Damian",
                 "la": "Petrus Damiani",
                 "pl": "Piotr Damiani"
+            },
+            "sources": {
+                "other-martyrology-days": "23 II"
+            }
+        },
+        "records/patrons/polycarpus/smy": {
+            "name": {
+                "el": "Πολύκαρπος Σμύρνης",
+                "en": "Polycarp of Smyrna",
+                "la": "Polycarpus Smyrnensis",
+                "pl": "Polikarp ze Smyrny"
             },
             "sources": {
                 "other-martyrology-days": "23 II"

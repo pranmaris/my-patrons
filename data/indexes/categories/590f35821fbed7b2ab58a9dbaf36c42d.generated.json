@@ -1430,6 +1430,12 @@
             "la": "Pius de Pietrelcina",
             "pl": "Pio z Pietrelciny"
         },
+        "records/patrons/polycarpus/smy": {
+            "el": "Πολύκαρπος Σμύρνης",
+            "en": "Polycarp of Smyrna",
+            "la": "Polycarpus Smyrnensis",
+            "pl": "Polikarp ze Smyrny"
+        },
         "records/patrons/pontianus/1pp": {
             "la": "Pontianus Papa",
             "en": "Pontian Pope",

@@ -1,0 +1,24 @@
+{
+  "names": {
+    "el": [
+      "Πολύκαρπος Σμύρνης"
+    ],
+    "en": [
+      "Polycarp of Smyrna"
+    ],
+    "la": [
+      "Polycarpus Smyrnensis"
+    ],
+    "pl": [
+      "Polikarp ze Smyrny"
+    ]
+  },
+
+  "born": ["~69"],
+  "died": ["~156"],
+
+  "also-in-martyrology": ["01-26", "02-23"],
+
+  "forenames": ["polycarpus"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

@@ -388,6 +388,12 @@
             "en": "Pope Pius X",
             "pl": "Pius X"
         },
+        "records/patrons/polycarpus/smy": {
+            "el": "Πολύκαρπος Σμύρνης",
+            "en": "Polycarp of Smyrna",
+            "la": "Polycarpus Smyrnensis",
+            "pl": "Polikarp ze Smyrny"
+        },
         "records/patrons/robertus/bel": {
             "it": "Roberto Bellarmino",
             "en": "Robert Bellarmine",

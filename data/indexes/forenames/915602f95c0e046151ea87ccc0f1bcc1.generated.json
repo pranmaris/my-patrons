@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "Polycarp"
+    },
+    "translations": {
+        "la": [
+            "Polycarpus"
+        ],
+        "en": [
+            "Polycarp"
+        ],
+        "pl": [
+            "Polikarp"
+        ],
+        "el": [
+            "Πολύκαρπος"
+        ]
+    },
+    "links": {
+        "records/patrons/polycarpus/smy": {
+            "el": "Πολύκαρπος Σμύρνης",
+            "en": "Polycarp of Smyrna",
+            "la": "Polycarpus Smyrnensis",
+            "pl": "Polikarp ze Smyrny"
+        }
+    }
+}
