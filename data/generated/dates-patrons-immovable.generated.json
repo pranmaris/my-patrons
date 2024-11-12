@@ -862,6 +862,20 @@
             }
         }
     },
+    "02-18": {
+        "records/patrons/georgius/kas": {
+            "name": {
+                "pl": "Jerzy Kaszyra",
+                "be": "Юрый Кашыра",
+                "en": "Jury Kashyra",
+                "la": "Georgius Kaszyra"
+            },
+            "sources": {
+                "reliable-death-anniversary": "18 II",
+                "other-martyrology-days": "18 II"
+            }
+        }
+    },
     "02-19": {
         "records/patrons/iosephus/zap": {
             "name": {

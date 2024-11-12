@@ -2776,6 +2776,18 @@
             "uk": "Юрій"
         }
     },
+    "patrons/georgius/kas": {
+        "names": {
+            "pl": "Jerzy Kaszyra",
+            "be": "Юрый Кашыра",
+            "en": "Jury Kashyra",
+            "la": "Georgius Kaszyra"
+        },
+        "died": [
+            "1943-02-18"
+        ],
+        "feasts": []
+    },
     "patrons/georgius/mar": {
         "names": {
             "la": "Georgius",

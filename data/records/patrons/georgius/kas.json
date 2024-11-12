@@ -1,0 +1,40 @@
+{
+  "names": {
+    "pl": [
+      "Jerzy Kaszyra"
+    ],
+    "be": [
+      "Юрый Кашыра"
+    ],
+    "en": [
+      "Jury Kashyra"
+    ],
+    "la": [
+      "Georgius Kaszyra"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Kaszyra",
+      "be": "Кашыра",
+      "en": "Kashyra",
+      "la": "Kashyra"
+    }
+  ],
+
+  "born": ["1904-04-04"],
+  "died": ["1943-02-18"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["02-18"],
+
+  "forenames": ["georgius"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["mic"]
+}
