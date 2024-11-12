@@ -17,6 +17,9 @@
         ],
         "fr": [
             "Marguerite"
+        ],
+        "it": [
+            "Margherita"
         ]
     },
     "links": {
@@ -25,6 +28,12 @@
             "en": "Margaret Mary Alacoque",
             "la": "Margarita Maria Alacoque",
             "pl": "Małgorzata Maria Alacoque"
+        },
+        "records/patrons/margarita/cor": {
+            "it": "Margherita da Cortona",
+            "en": "Margaret of Cortona",
+            "la": "Margarita de Cortona",
+            "pl": "Małgorzata z Kortony"
         },
         "records/patrons/margarita/ebn": {
             "de": "Margareta Ebner",

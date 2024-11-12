@@ -50,8 +50,14 @@
     "1067a19924602f0e33cb5b4ebaff02ed": {
         "pl": "papież"
     },
+    "12fad3a5f2ecde4f7b516aaf952ee350": {
+        "la": "poenitens"
+    },
     "13d6bacc45ed093ae67d455c3f3411ff": {
         "en": "anachorite"
+    },
+    "13f6c331ed53f58cfa567b5bd9841981": {
+        "en": "penitent"
     },
     "14206094278b0e5c6f64c286c7ccf9cb": {
         "pl": "matka rodziny"
@@ -331,6 +337,9 @@
     },
     "8862ae30c81f2b05683c299158019d5a": {
         "pl": "doktor Kościoła"
+    },
+    "88c3212fb76cb76e5daae5cde57d55ed": {
+        "pl": "pokutnik"
     },
     "89f0058731a3ea17f84998659faf0dcf": {
         "pl": "małżonka"
@@ -615,6 +624,9 @@
     },
     "f579a15dfcea423131461aaf5da4fbc6": {
         "pl": "kardynał"
+    },
+    "f70d108cdec7c94d2cbe8da51bfcbc98": {
+        "pl": "pokutnica"
     },
     "f720259e99482a6e3a1f7e4079e1975e": {
         "la": "fundator",

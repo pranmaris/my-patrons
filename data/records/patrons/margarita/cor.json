@@ -1,0 +1,31 @@
+{
+  "names": {
+    "it": [
+      "Margherita da Cortona"
+    ],
+    "en": [
+      "Margaret of Cortona"
+    ],
+    "la": [
+      "Margarita de Cortona"
+    ],
+    "pl": [
+      "Małgorzata z Kortony"
+    ]
+  },
+
+  "born": ["1247"],
+  "died": ["1297-02-22"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1728-05-16"
+  },
+
+  "also-in-martyrology": ["02-22"],
+
+  "forenames": ["margarita"],
+  "categories": ["femina", "tertiaria", "poenitens"],
+
+  "order": ["ofs"]
+}

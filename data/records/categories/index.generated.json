@@ -259,6 +259,11 @@
         "en": "pilgrim",
         "pl": "pielgrzym"
     },
+    "poenitens": {
+        "la": "poenitens",
+        "en": "penitent",
+        "pl": "pokutnik"
+    },
     "presbyter": {
         "la": "presbyter",
         "en": "presbyter",

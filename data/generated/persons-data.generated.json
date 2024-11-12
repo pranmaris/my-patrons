@@ -4470,7 +4470,8 @@
             "en": "Margaret",
             "pl": "Małgorzata",
             "de": "Margareta",
-            "fr": "Marguerite"
+            "fr": "Marguerite",
+            "it": "Margherita"
         }
     },
     "patrons/margarita/ala": {
@@ -4482,6 +4483,18 @@
         },
         "died": [
             "1690-10-17"
+        ],
+        "feasts": []
+    },
+    "patrons/margarita/cor": {
+        "names": {
+            "it": "Margherita da Cortona",
+            "en": "Margaret of Cortona",
+            "la": "Margarita de Cortona",
+            "pl": "Małgorzata z Kortony"
+        },
+        "died": [
+            "1297-02-22"
         ],
         "feasts": []
     },

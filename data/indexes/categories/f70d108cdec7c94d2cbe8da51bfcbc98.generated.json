@@ -1,0 +1,25 @@
+{
+    "names": {
+        "pl": "pokutnica"
+    },
+    "translations": {
+        "la": [
+            "poenitens"
+        ],
+        "en": [
+            "penitent"
+        ],
+        "pl": [
+            "pokutnik",
+            "pokutnica"
+        ]
+    },
+    "links": {
+        "records/patrons/margarita/cor": {
+            "it": "Margherita da Cortona",
+            "en": "Margaret of Cortona",
+            "la": "Margarita de Cortona",
+            "pl": "Małgorzata z Kortony"
+        }
+    }
+}

@@ -867,6 +867,18 @@
         }
     },
     "02-22": {
+        "records/patrons/margarita/cor": {
+            "name": {
+                "it": "Margherita da Cortona",
+                "en": "Margaret of Cortona",
+                "la": "Margarita de Cortona",
+                "pl": "Małgorzata z Kortony"
+            },
+            "sources": {
+                "reliable-death-anniversary": "22 II",
+                "other-martyrology-days": "22 II"
+            }
+        },
         "records/patrons/petrus/dam": {
             "name": {
                 "it": "Pier Damiani",
