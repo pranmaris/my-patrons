@@ -535,6 +535,18 @@
                 "other-martyrology-days": "2 II"
             }
         },
+        "records/patrons/ioannes/ven": {
+            "name": {
+                "fr": "Jean-Théophane Vénard",
+                "en": "John Theophanes Vénard",
+                "la": "Ioannes Theophanes Vénard",
+                "pl": "Jan Teofan Vénard"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 II",
+                "other-martyrology-days": "2 II"
+            }
+        },
         "records/patrons/laurentius/can": {
             "name": {
                 "en": "Laurence of Canterbury",
@@ -5755,6 +5767,17 @@
             },
             "sources": {
                 "reliable-death-anniversary": "24 XI",
+                "other-martyrology-days": "24 XI"
+            }
+        },
+        "records/patrons/ioannes/ven": {
+            "name": {
+                "fr": "Jean-Théophane Vénard",
+                "en": "John Theophanes Vénard",
+                "la": "Ioannes Theophanes Vénard",
+                "pl": "Jan Teofan Vénard"
+            },
+            "sources": {
                 "other-martyrology-days": "24 XI"
             }
         },

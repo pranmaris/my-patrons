@@ -1,0 +1,41 @@
+{
+  "names": {
+    "fr": [
+      "Jean-Théophane Vénard"
+    ],
+    "en": [
+      "John Theophanes Vénard"
+    ],
+    "la": [
+      "Ioannes Theophanes Vénard"
+    ],
+    "pl": [
+      "Jan Teofan Vénard"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "Vénard"
+    }
+  ],
+
+  "born": ["1829-11-21"],
+  "died": ["1861-02-02"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1909-05-02"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1988-06-19"
+  },
+
+  "also-in-martyrology": ["02-02", "11-24"],
+
+  "forenames": ["ioannes", "theophanes"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["mep"]
+}

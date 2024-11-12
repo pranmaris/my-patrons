@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Theophanes",
+        "en": "Theophanes"
+    },
+    "translations": {
+        "la": [
+            "Theophanes"
+        ],
+        "en": [
+            "Theophanes"
+        ],
+        "pl": [
+            "Teofan"
+        ],
+        "fr": [
+            "Théophane"
+        ]
+    },
+    "links": {
+        "records/patrons/ioannes/ven": {
+            "fr": "Jean-Théophane Vénard",
+            "en": "John Theophanes Vénard",
+            "la": "Ioannes Theophanes Vénard",
+            "pl": "Jan Teofan Vénard"
+        }
+    }
+}

@@ -3742,6 +3742,18 @@
         ],
         "feasts": []
     },
+    "patrons/ioannes/ven": {
+        "names": {
+            "fr": "Jean-Théophane Vénard",
+            "en": "John Theophanes Vénard",
+            "la": "Ioannes Theophanes Vénard",
+            "pl": "Jan Teofan Vénard"
+        },
+        "died": [
+            "1861-02-02"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/via": {
         "names": {
             "fr": "Jean-Marie Vianney",

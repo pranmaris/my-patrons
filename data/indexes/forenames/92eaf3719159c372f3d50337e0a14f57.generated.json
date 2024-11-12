@@ -141,6 +141,12 @@
             "en": "John of Tufaria",
             "pl": "Jan z Tufarii"
         },
+        "records/patrons/ioannes/ven": {
+            "fr": "Jean-Théophane Vénard",
+            "en": "John Theophanes Vénard",
+            "la": "Ioannes Theophanes Vénard",
+            "pl": "Jan Teofan Vénard"
+        },
         "records/patrons/ioannes/via": {
             "fr": "Jean-Marie Vianney",
             "en": "John Mary Vianney",
