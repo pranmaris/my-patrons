@@ -5846,6 +5846,26 @@
         ],
         "feasts": []
     },
+    "patrons/philippa": {
+        "names": {
+            "la": "Philippa",
+            "en": "Philippa",
+            "pl": "Filipa",
+            "it": "Filippa"
+        }
+    },
+    "patrons/philippa/mar": {
+        "names": {
+            "it": "Filippa Mareri",
+            "en": "Philippa Mareri",
+            "la": "Philippa Mareri",
+            "pl": "Filipa Mareri"
+        },
+        "died": [
+            "1236-02-16"
+        ],
+        "feasts": []
+    },
     "patrons/philippus": {
         "names": {
             "la": "Philippus",

@@ -520,6 +520,10 @@
         "la": "Hyacintha",
         "en": "Hyacintha"
     },
+    "2fc8c8a514f8ffe45234d0bbe3427da6": {
+        "la": "Philippa",
+        "en": "Philippa"
+    },
     "3037c74831055e7abbe40d15010793a5": {
         "la": "Marcellina"
     },
@@ -958,6 +962,9 @@
     },
     "5fcb64829c11b06de333b3ea8e086dac": {
         "pl": "Akacjusz"
+    },
+    "5fd987fa2281c2f758650fee5ed7be00": {
+        "pl": "Filipa"
     },
     "606310b274a9fa112cdba296bb5b4a1b": {
         "la": "Alfonsus"
@@ -1721,6 +1728,9 @@
         "en": "Adalbert",
         "pl": "Adalbert",
         "cz": "Adalbert"
+    },
+    "ac45580e518673464903cb01e2c05f72": {
+        "it": "Filippa"
     },
     "ac9b0bcd3368236fffcc020370fb13c3": {
         "pl": "Krystyna"

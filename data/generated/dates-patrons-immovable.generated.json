@@ -834,6 +834,20 @@
             }
         }
     },
+    "02-16": {
+        "records/patrons/philippa/mar": {
+            "name": {
+                "it": "Filippa Mareri",
+                "en": "Philippa Mareri",
+                "la": "Philippa Mareri",
+                "pl": "Filipa Mareri"
+            },
+            "sources": {
+                "reliable-death-anniversary": "16 II",
+                "other-martyrology-days": "16 II"
+            }
+        }
+    },
     "02-17": {
         "records/patrons/alexius/fal": {
             "name": {

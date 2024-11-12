@@ -1,0 +1,37 @@
+{
+  "names": {
+    "it": [
+      "Filippa Mareri"
+    ],
+    "en": [
+      "Philippa Mareri"
+    ],
+    "la": [
+      "Philippa Mareri"
+    ],
+    "pl": [
+      "Filipa Mareri"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Mareri"
+    }
+  ],
+
+  "born": [">1190", "<1200"],
+  "died": ["1236-02-16"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1806-04-30"
+  },
+
+  "also-in-martyrology": ["02-16"],
+
+  "forenames": ["philippa"],
+  "categories": ["femina", "virgo"],
+
+  "order": ["osc"]
+}

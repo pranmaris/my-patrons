@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Mareri"
+    },
+    "translations": {
+        "it": [
+            "Mareri"
+        ]
+    },
+    "links": {
+        "records/patrons/philippa/mar": {
+            "it": "Filippa Mareri",
+            "en": "Philippa Mareri",
+            "la": "Philippa Mareri",
+            "pl": "Filipa Mareri"
+        }
+    }
+}
