@@ -1,0 +1,29 @@
+{
+  "names": {
+    "la": [
+      "Gregorius II"
+    ],
+    "en": [
+      "Gregory II"
+    ],
+    "pl": [
+      "Grzegorz II"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Secundus",
+      "en": "the Second",
+      "pl": "Drugi"
+    }
+  ],
+
+  "born": ["~669"],
+  "died": ["731-02-11"],
+
+  "also-in-martyrology": ["02-11"],
+
+  "forenames": ["gregorius"],
+  "categories": ["vir", "papa"]
+}

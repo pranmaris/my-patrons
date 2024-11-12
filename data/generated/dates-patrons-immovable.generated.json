@@ -740,6 +740,17 @@
         }
     },
     "02-11": {
+        "records/patrons/gregorius/2pp": {
+            "name": {
+                "la": "Gregorius II",
+                "en": "Gregory II",
+                "pl": "Grzegorz II"
+            },
+            "sources": {
+                "reliable-death-anniversary": "11 II",
+                "other-martyrology-days": "11 II"
+            }
+        },
         "records/patrons/lazarus/med": {
             "name": {
                 "la": "Lazarus Mediolanensis",

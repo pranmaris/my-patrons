@@ -2855,6 +2855,17 @@
         ],
         "feasts": []
     },
+    "patrons/gregorius/2pp": {
+        "names": {
+            "la": "Gregorius II",
+            "en": "Gregory II",
+            "pl": "Grzegorz II"
+        },
+        "died": [
+            "731-02-11"
+        ],
+        "feasts": []
+    },
     "patrons/gregorius/3pp": {
         "names": {
             "la": "Gregorius III",
