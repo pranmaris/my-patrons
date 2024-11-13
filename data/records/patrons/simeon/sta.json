@@ -1,0 +1,30 @@
+{
+  "names": {
+    "la": [
+      "Symeon Stylita Senior"
+    ],
+    "en": [
+      "Simeon Stylites the Elder"
+    ],
+    "pl": [
+      "Symeon Słupnik Starszy",
+      "Szymon Słupnik Starszy"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Stylita",
+      "en": "the Styllite",
+      "pl": "Słupnik"
+    }
+  ],
+
+  "born": ["~390"],
+  "died": ["459"],
+
+  "also-in-martyrology": ["07-27"],
+
+  "forenames": ["simeon"],
+  "categories": ["vir", "monachus", "stylita"]
+}

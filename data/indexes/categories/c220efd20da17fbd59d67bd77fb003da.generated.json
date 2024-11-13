@@ -83,6 +83,11 @@
             "la": "Romualdus Camaldulensis",
             "pl": "Romuald z Camaldoli"
         },
+        "records/patrons/simeon/sta": {
+            "la": "Symeon Stylita Senior",
+            "en": "Simeon Stylites the Elder",
+            "pl": "Symeon Słupnik Starszy"
+        },
         "records/patrons/theodorus/gra": {
             "el": "Θεοδώρος Γράπτος",
             "en": "Theodore the Graptus",

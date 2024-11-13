@@ -1381,10 +1381,15 @@
         "en": "Silvia",
         "pl": "Sylwia"
     },
-    "simon": {
+    "simeon": {
         "la": "Simon",
         "en": "Simon",
         "pl": "Szymon"
+    },
+    "simon": {
+        "la": "Simeon",
+        "en": "Simeon",
+        "pl": "Symeon"
     },
     "sine": {
         "la": "Sine",

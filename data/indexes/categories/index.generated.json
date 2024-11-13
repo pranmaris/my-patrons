@@ -232,6 +232,9 @@
     "56080fe620c548b332143ffffd90ff1f": {
         "pl": "apostoł"
     },
+    "5652ea6b052915bdfd36d3aad6c5a2b3": {
+        "pl": "słupnik"
+    },
     "583b75742c9d25ae041a3a7d78b47dab": {
         "en": "institutress"
     },
@@ -455,6 +458,9 @@
     "aeb9573c09919d210512b643907e56b8": {
         "en": "God"
     },
+    "af446f8ea1db6d470b183af6b4b1fdfb": {
+        "la": "stylita"
+    },
     "af6725bf03a59d7c6b24aa2b2c1ad05a": {
         "pl": "król"
     },
@@ -649,5 +655,8 @@
     },
     "fcefc137babc8d872498f1549ee72735": {
         "en": "Mother of God"
+    },
+    "fd460e9935392044fc9d97bae20c9c80": {
+        "en": "styllite"
     }
 }
