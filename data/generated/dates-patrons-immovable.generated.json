@@ -1194,6 +1194,18 @@
         }
     },
     "03-03": {
+        "records/patrons/teresia/ver": {
+            "name": {
+                "it": "Teresa Eustochio Verzeri",
+                "en": "Teresa Eustochio Verzeri",
+                "la": "Teresia Eustochius Verzeri",
+                "pl": "Teresa Eustochio Verzeri"
+            },
+            "sources": {
+                "reliable-death-anniversary": "3 III",
+                "other-martyrology-days": "3 III"
+            }
+        },
         "records/patrons/iacobinus/can": {
             "name": {
                 "it": "Giacomino de Canepacci",

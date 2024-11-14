@@ -553,6 +553,12 @@
         "en": "Eusebius",
         "pl": "Euzebiusz"
     },
+    "eustochius": {
+        "la": "Eustochius",
+        "en": "Eustochius",
+        "pl": "Eustochiusz",
+        "it": "Eustochio"
+    },
     "eva": {
         "la": "Eva",
         "en": "Eva",
@@ -779,6 +785,12 @@
         "pl": "Jezus",
         "arc": "ܝܫܘܥ",
         "es": "Jesús"
+    },
+    "ignatia": {
+        "la": "Ignatia",
+        "en": "Ignatia",
+        "pl": "Ignacja",
+        "it": "Ignazia"
     },
     "ignatius": {
         "la": "Ignatius",
@@ -1440,8 +1452,9 @@
         "en": "Therese",
         "pl": "Teresa",
         "de": "Therese",
+        "es": "Teresa",
         "fr": "Thérèse",
-        "es": "Teresa"
+        "it": "Teresa"
     },
     "thaddaeus": {
         "la": "Thaddaeus",

@@ -138,6 +138,10 @@
     "0c7692ba6f3b8b7d2796bd916154b597": {
         "it": "Pier"
     },
+    "0ca3dae762c4b4d9a283076bff5f9036": {
+        "la": "Eustochius",
+        "en": "Eustochius"
+    },
     "0cfef07dbbce03cb2bcfec95267f5e82": {
         "la": "Adalbertus"
     },
@@ -859,6 +863,9 @@
     "51a18c3bc8af11e701cb336f1222adbd": {
         "la": "Franciscus"
     },
+    "5200cbbe789a978fcdb48fe198a7ead9": {
+        "pl": "Ignacja"
+    },
     "52cbb95618683dd7b74e9080524f8bb0": {
         "zh": "在德"
     },
@@ -899,6 +906,9 @@
     },
     "58926ba6398968a32ab9f05c72737668": {
         "he": "אַהֲרֹן"
+    },
+    "58a5c8135e3b6ff383d19c708dde9dbb": {
+        "it": "Eustochio"
     },
     "5a4d0d7de527bf84e56731ab76cbfdca": {
         "la": "Theophanes",
@@ -1015,7 +1025,8 @@
     },
     "649e314529ae99fee77bffd211851b7d": {
         "pl": "Teresa",
-        "es": "Teresa"
+        "es": "Teresa",
+        "it": "Teresa"
     },
     "64bf6a86230365619e9249e5b083aa46": {
         "en": "Basil"
@@ -1538,6 +1549,9 @@
         "pl": "Anna",
         "de": "Anna",
         "it": "Anna"
+    },
+    "9831e232ca369ec36b01c0b16867dbb5": {
+        "it": "Ignazia"
     },
     "98ff57635edbfe0fae726cc27c811392": {
         "la": "Zaide",
@@ -2386,6 +2400,9 @@
         "en": "Leonard",
         "pl": "Leonard"
     },
+    "ea8938d9e5e0eb6f7ace66a482ca9156": {
+        "pl": "Eustochiusz"
+    },
     "ec1c6a312d6626afd52e1fa592358b1f": {
         "la": "Justus",
         "en": "Justus"
@@ -2413,6 +2430,10 @@
     },
     "ef48f94260867a2a9fdad53362cd24a0": {
         "es": "Domingo"
+    },
+    "ef5f7dec6edddc58c525277f7a72bc36": {
+        "la": "Ignatia",
+        "en": "Ignatia"
     },
     "ef80b17416b08d5aaba18bf742263a29": {
         "pl": "Marcelin"

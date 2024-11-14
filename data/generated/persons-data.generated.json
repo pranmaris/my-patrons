@@ -6743,8 +6743,9 @@
             "en": "Therese",
             "pl": "Teresa",
             "de": "Therese",
+            "es": "Teresa",
             "fr": "Thérèse",
-            "es": "Teresa"
+            "it": "Teresa"
         }
     },
     "patrons/teresia/ies": {
@@ -6781,6 +6782,18 @@
         },
         "died": [
             "1942-08-09"
+        ],
+        "feasts": []
+    },
+    "patrons/teresia/ver": {
+        "names": {
+            "it": "Teresa Eustochio Verzeri",
+            "en": "Teresa Eustochio Verzeri",
+            "la": "Teresia Eustochius Verzeri",
+            "pl": "Teresa Eustochio Verzeri"
+        },
+        "died": [
+            "1852-03-03"
         ],
         "feasts": []
     },
