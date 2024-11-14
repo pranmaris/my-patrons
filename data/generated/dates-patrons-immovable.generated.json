@@ -1375,6 +1375,17 @@
                 "reliable-death-anniversary": "10 III",
                 "other-martyrology-days": "10 III"
             }
+        },
+        "records/patrons/macarius/hie": {
+            "name": {
+                "el": "Μακάριος Ἱεροσολύμων",
+                "en": "Macarius of Jerusalem",
+                "la": "Macarius Hierosolymitanus",
+                "pl": "Makary z Jerozolimy"
+            },
+            "sources": {
+                "other-martyrology-days": "10 III"
+            }
         }
     },
     "03-11": {

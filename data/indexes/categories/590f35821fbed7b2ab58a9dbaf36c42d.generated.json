@@ -1151,6 +1151,12 @@
             "la": "Lucas Evangelista",
             "pl": "Łukasz Ewangelista"
         },
+        "records/patrons/macarius/hie": {
+            "el": "Μακάριος Ἱεροσολύμων",
+            "en": "Macarius of Jerusalem",
+            "la": "Macarius Hierosolymitanus",
+            "pl": "Makary z Jerozolimy"
+        },
         "records/patrons/magnus/abb": {
             "de": "Magnus von Füssen",
             "la": "Magnus",

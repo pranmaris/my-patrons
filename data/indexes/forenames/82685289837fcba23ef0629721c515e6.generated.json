@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Macarius",
+        "en": "Macarius"
+    },
+    "translations": {
+        "la": [
+            "Macarius"
+        ],
+        "en": [
+            "Macarius"
+        ],
+        "pl": [
+            "Makary"
+        ],
+        "el": [
+            "Μακάριος"
+        ]
+    },
+    "links": {
+        "records/patrons/macarius/hie": {
+            "el": "Μακάριος Ἱεροσολύμων",
+            "en": "Macarius of Jerusalem",
+            "la": "Macarius Hierosolymitanus",
+            "pl": "Makary z Jerozolimy"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "names": {
+    "el": [
+      "Μακάριος Ἱεροσολύμων"
+    ],
+    "en": [
+      "Macarius of Jerusalem"
+    ],
+    "la": [
+      "Macarius Hierosolymitanus"
+    ],
+    "pl": [
+      "Makary z Jerozolimy"
+    ]
+  },
+
+  "died": ["~335"],
+
+  "also-in-martyrology": ["03-10"],
+
+  "forenames": ["macarius"],
+  "categories": ["vir", "confessor", "episcopus"]
+}

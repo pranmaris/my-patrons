@@ -288,6 +288,12 @@
             "la": "Lucas Evangelista",
             "pl": "Łukasz Ewangelista"
         },
+        "records/patrons/macarius/hie": {
+            "el": "Μακάριος Ἱεροσολύμων",
+            "en": "Macarius of Jerusalem",
+            "la": "Macarius Hierosolymitanus",
+            "pl": "Makary z Jerozolimy"
+        },
         "records/patrons/martinus/tur": {
             "la": "Martinus Turonensis",
             "en": "Martin of Tours",

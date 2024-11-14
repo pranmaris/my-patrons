@@ -300,6 +300,12 @@
             "en": "Lazarus of Milan",
             "pl": "Łazarz z Mediolanu"
         },
+        "records/patrons/macarius/hie": {
+            "el": "Μακάριος Ἱεροσολύμων",
+            "en": "Macarius of Jerusalem",
+            "la": "Macarius Hierosolymitanus",
+            "pl": "Makary z Jerozolimy"
+        },
         "records/patrons/marcus/hie": {
             "la": "Marcus Hierosolymitanus",
             "en": "Mark of Jerusalem",

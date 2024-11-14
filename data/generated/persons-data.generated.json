@@ -4344,6 +4344,26 @@
         ],
         "feasts": []
     },
+    "patrons/macarius": {
+        "names": {
+            "la": "Macarius",
+            "en": "Macarius",
+            "pl": "Makary",
+            "el": "Μακάριος"
+        }
+    },
+    "patrons/macarius/hie": {
+        "names": {
+            "el": "Μακάριος Ἱεροσολύμων",
+            "en": "Macarius of Jerusalem",
+            "la": "Macarius Hierosolymitanus",
+            "pl": "Makary z Jerozolimy"
+        },
+        "died": [
+            "~335"
+        ],
+        "feasts": []
+    },
     "patrons/magdalena": {
         "names": {
             "la": "Magdalena",
