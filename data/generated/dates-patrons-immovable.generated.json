@@ -1337,6 +1337,20 @@
             }
         }
     },
+    "03-08": {
+        "records/patrons/ioannes/deo": {
+            "name": {
+                "pt": "João de Deus",
+                "en": "John of God",
+                "la": "Ioannes de Deo",
+                "pl": "Jan Boży"
+            },
+            "sources": {
+                "reliable-death-anniversary": "8 III",
+                "other-martyrology-days": "8 III"
+            }
+        }
+    },
     "03-09": {
         "records/patrons/gregorius/nys": {
             "name": {

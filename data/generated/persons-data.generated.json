@@ -3502,7 +3502,8 @@
             "de": "Johannes",
             "es": "Juan",
             "fr": "Jean",
-            "it": "Giovanni"
+            "it": "Giovanni",
+            "pt": "João"
         }
     },
     "patrons/ioannes/23p": {
@@ -3611,6 +3612,18 @@
         },
         "died": [
             "407-09-14"
+        ],
+        "feasts": []
+    },
+    "patrons/ioannes/deo": {
+        "names": {
+            "pt": "João de Deus",
+            "en": "John of God",
+            "la": "Ioannes de Deo",
+            "pl": "Jan Boży"
+        },
+        "died": [
+            "1550-03-08"
         ],
         "feasts": []
     },

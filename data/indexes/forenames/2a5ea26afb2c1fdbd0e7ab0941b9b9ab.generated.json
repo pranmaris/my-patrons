@@ -27,6 +27,9 @@
         ],
         "it": [
             "Giovanni"
+        ],
+        "pt": [
+            "João"
         ]
     },
     "links": {
@@ -75,6 +78,12 @@
             "la": "Ioannes Chrysostomus",
             "en": "John Chrysostom",
             "pl": "Jan Chryzostom"
+        },
+        "records/patrons/ioannes/deo": {
+            "pt": "João de Deus",
+            "en": "John of God",
+            "la": "Ioannes de Deo",
+            "pl": "Jan Boży"
         },
         "records/patrons/ioannes/dun": {
             "de": "Johannes Duns Scotus",

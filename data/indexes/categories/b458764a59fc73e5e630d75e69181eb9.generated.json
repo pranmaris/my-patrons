@@ -20,6 +20,12 @@
             "en": "Ignatius of Loyola",
             "pl": "Ignacy Loyola"
         },
+        "records/patrons/ioannes/deo": {
+            "pt": "João de Deus",
+            "en": "John of God",
+            "la": "Ioannes de Deo",
+            "pl": "Jan Boży"
+        },
         "records/patrons/mauritius/the": {
             "la": "Mauritius Legionis Thebanae",
             "en": "Maurice of the Theban Legion",

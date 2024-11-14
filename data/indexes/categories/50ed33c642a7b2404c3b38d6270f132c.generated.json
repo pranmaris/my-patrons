@@ -42,6 +42,12 @@
             "la": "Ieremias de Valachia",
             "pl": "Jeremiasz z Wołoszczyzny"
         },
+        "records/patrons/ioannes/deo": {
+            "pt": "João de Deus",
+            "en": "John of God",
+            "la": "Ioannes de Deo",
+            "pl": "Jan Boży"
+        },
         "records/patrons/iosephus/zap": {
             "pl": "Józef Zapłata",
             "en": "Joseph Zaplata",

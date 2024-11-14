@@ -1,0 +1,36 @@
+{
+  "names": {
+    "pt": [
+      "João de Deus"
+    ],
+    "en": [
+      "John of God"
+    ],
+    "la": [
+      "Ioannes de Deo"
+    ],
+    "pl": [
+      "Jan Boży"
+    ]
+  },
+
+  "born": ["1495-03-08"],
+  "died": ["1550-03-08"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1630-09-21"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1690-10-16"
+  },
+
+  "also-in-martyrology": ["03-08"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "confessor", "religiosus", "constitutor", "institutor", "miles"],
+
+  "order": ["oh"],
+  "order-founder": ["oh"]
+}
