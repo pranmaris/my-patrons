@@ -1,0 +1,42 @@
+{
+  "names": {
+    "fr": [
+      "Louise de Marillac"
+    ],
+    "en": [
+      "Louise de Marillac"
+    ],
+    "la": [
+      "Ludovica de Marillac"
+    ],
+    "pl": [
+      "Ludwika de Marillac"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "de Marillac"
+    }
+  ],
+
+  "born": ["1591-08-12"],
+  "died": ["1660-03-15"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1920-05-09"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1934-03-11"
+  },
+
+  "also-in-martyrology": ["03-15"],
+
+  "forenames": ["ludovica"],
+  "categories": ["femina", "vidua", "formatrix"],
+
+  "order": ["sm"],
+  "order-founder": ["sm"]
+}

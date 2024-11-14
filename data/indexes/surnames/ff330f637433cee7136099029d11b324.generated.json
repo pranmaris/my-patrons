@@ -1,0 +1,18 @@
+{
+    "names": {
+        "fr": "de Marillac"
+    },
+    "translations": {
+        "fr": [
+            "de Marillac"
+        ]
+    },
+    "links": {
+        "records/patrons/ludovica/mar": {
+            "fr": "Louise de Marillac",
+            "en": "Louise de Marillac",
+            "la": "Ludovica de Marillac",
+            "pl": "Ludwika de Marillac"
+        }
+    }
+}

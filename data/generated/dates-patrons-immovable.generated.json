@@ -1464,6 +1464,20 @@
             }
         }
     },
+    "03-15": {
+        "records/patrons/ludovica/mar": {
+            "name": {
+                "fr": "Louise de Marillac",
+                "en": "Louise de Marillac",
+                "la": "Ludovica de Marillac",
+                "pl": "Ludwika de Marillac"
+            },
+            "sources": {
+                "reliable-death-anniversary": "15 III",
+                "other-martyrology-days": "15 III"
+            }
+        }
+    },
     "03-17": {
         "records/patrons/ioannes/sar": {
             "name": {

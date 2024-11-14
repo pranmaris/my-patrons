@@ -4326,6 +4326,26 @@
         ],
         "feasts": []
     },
+    "patrons/ludovica": {
+        "names": {
+            "la": "Ludovica",
+            "en": "Louise",
+            "pl": "Ludwika",
+            "fr": "Louise"
+        }
+    },
+    "patrons/ludovica/mar": {
+        "names": {
+            "fr": "Louise de Marillac",
+            "en": "Louise de Marillac",
+            "la": "Ludovica de Marillac",
+            "pl": "Ludwika de Marillac"
+        },
+        "died": [
+            "1660-03-15"
+        ],
+        "feasts": []
+    },
     "patrons/lydia": {
         "names": {
             "la": "Lydia",
