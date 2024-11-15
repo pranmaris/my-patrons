@@ -3489,6 +3489,18 @@
         ],
         "feasts": []
     },
+    "patrons/ioanna/mai": {
+        "names": {
+            "fr": "Jeanne-Marie de Maillé",
+            "en": "Joan Mary of Maille",
+            "la": "Ioanna Maria de Maille",
+            "pl": "Joanna Maria z Maille"
+        },
+        "died": [
+            "1414-03-28"
+        ],
+        "feasts": []
+    },
     "patrons/ioanna/val": {
         "names": {
             "fr": "Jeanne de Valois",

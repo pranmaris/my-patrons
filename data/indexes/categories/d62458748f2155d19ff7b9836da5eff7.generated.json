@@ -25,6 +25,12 @@
             "pl": "Dorota z Mątowów",
             "en": "Dorothy of Montau",
             "la": "Dorothea Montoviensis"
+        },
+        "records/patrons/ioanna/mai": {
+            "fr": "Jeanne-Marie de Maillé",
+            "en": "Joan Mary of Maille",
+            "la": "Ioanna Maria de Maille",
+            "pl": "Joanna Maria z Maille"
         }
     }
 }

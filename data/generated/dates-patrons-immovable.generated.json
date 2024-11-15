@@ -1737,6 +1737,18 @@
                 "other-martyrology-days": "28 III"
             }
         },
+        "records/patrons/ioanna/mai": {
+            "name": {
+                "fr": "Jeanne-Marie de Maillé",
+                "en": "Joan Mary of Maille",
+                "la": "Ioanna Maria de Maille",
+                "pl": "Joanna Maria z Maille"
+            },
+            "sources": {
+                "reliable-death-anniversary": "28 III",
+                "other-martyrology-days": "28 III"
+            }
+        },
         "records/patrons/iosephus/pel": {
             "name": {
                 "pl": "Józef Sebastian Pelczar",

@@ -1,0 +1,29 @@
+{
+  "names": {
+    "fr": [
+      "Jeanne-Marie de Maillé"
+    ],
+    "en": [
+      "Joan Mary of Maille"
+    ],
+    "la": [
+      "Ioanna Maria de Maille"
+    ],
+    "pl": [
+      "Joanna Maria z Maille"
+    ]
+  },
+
+  "born": ["1331-04-14"],
+  "died": ["1414-03-28"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1871-04-27"
+  },
+
+  "also-in-martyrology": ["03-28"],
+
+  "forenames": ["ioanna", "maria"],
+  "categories": ["femina", "reclusa"]
+}
