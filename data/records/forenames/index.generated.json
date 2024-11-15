@@ -1413,14 +1413,14 @@
         "pl": "Sylwia"
     },
     "simeon": {
-        "la": "Simon",
-        "en": "Simon",
-        "pl": "Szymon"
-    },
-    "simon": {
         "la": "Simeon",
         "en": "Simeon",
         "pl": "Symeon"
+    },
+    "simon": {
+        "la": "Simon",
+        "en": "Simon",
+        "pl": "Szymon"
     },
     "sine": {
         "la": "Sine",
