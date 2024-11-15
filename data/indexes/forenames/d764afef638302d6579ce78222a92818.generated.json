@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "Stephanie"
+    },
+    "translations": {
+        "la": [
+            "Stephana"
+        ],
+        "en": [
+            "Stephanie"
+        ],
+        "pl": [
+            "Stefania"
+        ],
+        "it": [
+            "Stefana"
+        ]
+    },
+    "links": {
+        "records/patrons/stephana/qui": {
+            "it": "Stefana Quinzani",
+            "en": "Stephanie Quinzani",
+            "la": "Stefana Quinzani",
+            "pl": "Stefania Quinzani"
+        }
+    }
+}

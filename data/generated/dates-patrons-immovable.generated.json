@@ -48,6 +48,18 @@
         }
     },
     "01-02": {
+        "records/patrons/stephana/qui": {
+            "name": {
+                "it": "Stefana Quinzani",
+                "en": "Stephanie Quinzani",
+                "la": "Stefana Quinzani",
+                "pl": "Stefania Quinzani"
+            },
+            "sources": {
+                "reliable-death-anniversary": "2 I",
+                "other-martyrology-days": "2 I"
+            }
+        },
         "records/patrons/basilius/mag": {
             "name": {
                 "el": "Βασίλειος Μέγας",

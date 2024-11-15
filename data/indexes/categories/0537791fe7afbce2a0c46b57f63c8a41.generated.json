@@ -37,6 +37,12 @@
             "en": "Rose of Lima",
             "la": "Rosa de Lima",
             "pl": "Róża z Limy"
+        },
+        "records/patrons/stephana/qui": {
+            "it": "Stefana Quinzani",
+            "en": "Stephanie Quinzani",
+            "la": "Stefana Quinzani",
+            "pl": "Stefania Quinzani"
         }
     }
 }

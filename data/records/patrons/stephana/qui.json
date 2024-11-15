@@ -1,0 +1,37 @@
+{
+  "names": {
+    "it": [
+      "Stefana Quinzani"
+    ],
+    "en": [
+      "Stephanie Quinzani"
+    ],
+    "la": [
+      "Stefana Quinzani"
+    ],
+    "pl": [
+      "Stefania Quinzani"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Quinzani"
+    }
+  ],
+
+  "born": ["1457"],
+  "died": ["1530-01-02"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1740-12-14"
+  },
+
+  "also-in-martyrology": ["01-02"],
+
+  "forenames": ["stephana"],
+  "categories": ["femina", "virgo", "tertiaria"],
+
+  "order": ["tosd"]
+}

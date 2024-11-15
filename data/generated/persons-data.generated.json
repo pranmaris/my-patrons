@@ -6844,6 +6844,26 @@
         ],
         "feasts": []
     },
+    "patrons/stephana": {
+        "names": {
+            "la": "Stephana",
+            "en": "Stephanie",
+            "pl": "Stefania",
+            "it": "Stefana"
+        }
+    },
+    "patrons/stephana/qui": {
+        "names": {
+            "it": "Stefana Quinzani",
+            "en": "Stephanie Quinzani",
+            "la": "Stefana Quinzani",
+            "pl": "Stefania Quinzani"
+        },
+        "died": [
+            "1530-01-02"
+        ],
+        "feasts": []
+    },
     "patrons/stephanus": {
         "names": {
             "la": "Stephanus",
