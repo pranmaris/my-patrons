@@ -5126,6 +5126,17 @@
             "pl": "Marian"
         }
     },
+    "patrons/marianus/gor": {
+        "names": {
+            "pl": "Marian Górecki",
+            "en": "Marian Górecki",
+            "la": "Marianus Górecki"
+        },
+        "died": [
+            "1940-03-22"
+        ],
+        "feasts": []
+    },
     "patrons/marianus/kon": {
         "names": {
             "pl": "Marian Konopiński",

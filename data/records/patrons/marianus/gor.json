@@ -1,0 +1,32 @@
+{
+  "names": {
+    "pl": [
+      "Marian Górecki"
+    ],
+    "en": [
+      "Marian Górecki"
+    ],
+    "la": [
+      "Marianus Górecki"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pl": "Górecki"
+    }
+  ],
+
+  "born": ["1903-05-02"],
+  "died": ["1940-03-22"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1999-06-13"
+  },
+
+  "also-in-martyrology": ["03-22"],
+
+  "forenames": ["marianus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

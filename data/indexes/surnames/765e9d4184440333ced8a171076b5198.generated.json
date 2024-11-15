@@ -1,0 +1,17 @@
+{
+    "names": {
+        "pl": "Górecki"
+    },
+    "translations": {
+        "pl": [
+            "Górecki"
+        ]
+    },
+    "links": {
+        "records/patrons/marianus/gor": {
+            "pl": "Marian Górecki",
+            "en": "Marian Górecki",
+            "la": "Marianus Górecki"
+        }
+    }
+}

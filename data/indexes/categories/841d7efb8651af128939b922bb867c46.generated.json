@@ -572,6 +572,11 @@
             "en": "Mark /+ Marcellian",
             "pl": "Marek /+ Marcelianus"
         },
+        "records/patrons/marianus/gor": {
+            "pl": "Marian Górecki",
+            "en": "Marian Górecki",
+            "la": "Marianus Górecki"
+        },
         "records/patrons/marianus/kon": {
             "pl": "Marian Konopiński",
             "en": "Marian Konopiński",

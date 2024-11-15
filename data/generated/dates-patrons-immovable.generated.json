@@ -1626,6 +1626,19 @@
             }
         }
     },
+    "03-22": {
+        "records/patrons/marianus/gor": {
+            "name": {
+                "pl": "Marian Górecki",
+                "en": "Marian Górecki",
+                "la": "Marianus Górecki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "22 III",
+                "other-martyrology-days": "22 III"
+            }
+        }
+    },
     "03-24": {
         "records/patrons/maria/kar": {
             "name": {
