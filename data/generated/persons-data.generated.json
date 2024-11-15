@@ -6576,6 +6576,26 @@
         ],
         "feasts": []
     },
+    "patrons/secundus": {
+        "names": {
+            "la": "Secundus",
+            "en": "Secundus",
+            "pl": "Sekundus",
+            "it": "Secondo"
+        }
+    },
+    "patrons/secundus/ast": {
+        "names": {
+            "it": "Secondo di Asti",
+            "en": "Secundus of Asti",
+            "la": "Secundus Astensis",
+            "pl": "Sekundus z Asti"
+        },
+        "died": [
+            "~119"
+        ],
+        "feasts": []
+    },
     "patrons/serapion": {
         "names": {
             "la": "Serapion",

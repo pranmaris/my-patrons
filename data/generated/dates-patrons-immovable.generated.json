@@ -1793,6 +1793,30 @@
             "sources": {
                 "other-martyrology-days": "29 III"
             }
+        },
+        "records/patrons/secundus/ast": {
+            "name": {
+                "it": "Secondo di Asti",
+                "en": "Secundus of Asti",
+                "la": "Secundus Astensis",
+                "pl": "Sekundus z Asti"
+            },
+            "sources": {
+                "other-martyrology-days": "29 III"
+            }
+        }
+    },
+    "03-30": {
+        "records/patrons/secundus/ast": {
+            "name": {
+                "it": "Secondo di Asti",
+                "en": "Secundus of Asti",
+                "la": "Secundus Astensis",
+                "pl": "Sekundus z Asti"
+            },
+            "sources": {
+                "other-martyrology-days": "30 III"
+            }
         }
     },
     "03-31": {

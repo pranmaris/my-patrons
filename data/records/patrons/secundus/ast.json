@@ -1,0 +1,23 @@
+{
+  "names": {
+    "it": [
+      "Secondo di Asti"
+    ],
+    "en": [
+      "Secundus of Asti"
+    ],
+    "la": [
+      "Secundus Astensis"
+    ],
+    "pl": [
+      "Sekundus z Asti"
+    ]
+  },
+
+  "died": ["~119"],
+
+  "also-in-martyrology": ["03-29", "03-30"],
+
+  "forenames": ["secundus"],
+  "categories": ["vir", "martyr"]
+}

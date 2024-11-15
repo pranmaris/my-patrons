@@ -1,0 +1,28 @@
+{
+    "names": {
+        "la": "Secundus",
+        "en": "Secundus"
+    },
+    "translations": {
+        "la": [
+            "Secundus"
+        ],
+        "en": [
+            "Secundus"
+        ],
+        "pl": [
+            "Sekundus"
+        ],
+        "it": [
+            "Secondo"
+        ]
+    },
+    "links": {
+        "records/patrons/secundus/ast": {
+            "it": "Secondo di Asti",
+            "en": "Secundus of Asti",
+            "la": "Secundus Astensis",
+            "pl": "Sekundus z Asti"
+        }
+    }
+}
