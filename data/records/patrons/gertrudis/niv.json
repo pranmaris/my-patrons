@@ -1,0 +1,24 @@
+{
+  "names": {
+    "nl": [
+      "Gertrudis van Nijvel"
+    ],
+    "en": [
+      "Gertrude of Nivelles"
+    ],
+    "la": [
+      "Gertrudis Nivigellensis"
+    ],
+    "pl": [
+      "Gertruda z Nivelles"
+    ]
+  },
+
+  "born": ["~626"],
+  "died": ["659-03-17"],
+
+  "also-in-martyrology": ["03-17"],
+
+  "forenames": ["gertrudis"],
+  "categories": ["femina", "virgo", "abbatissa"]
+}

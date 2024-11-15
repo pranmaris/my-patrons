@@ -1,0 +1,27 @@
+{
+    "names": {
+        "en": "Gertrude"
+    },
+    "translations": {
+        "la": [
+            "Gertrudis"
+        ],
+        "en": [
+            "Gertrude"
+        ],
+        "pl": [
+            "Gertruda"
+        ],
+        "nl": [
+            "Gertrudis"
+        ]
+    },
+    "links": {
+        "records/patrons/gertrudis/niv": {
+            "nl": "Gertrudis van Nijvel",
+            "en": "Gertrude of Nivelles",
+            "la": "Gertrudis Nivigellensis",
+            "pl": "Gertruda z Nivelles"
+        }
+    }
+}
