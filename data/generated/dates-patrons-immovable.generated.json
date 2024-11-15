@@ -1773,6 +1773,17 @@
         }
     },
     "03-29": {
+        "records/patrons/bertholdus/car": {
+            "name": {
+                "it": "Bertoldo di Calabria",
+                "en": "Berthold of Calabria",
+                "la": "Bertoldus de Calabria",
+                "pl": "Bertold z Kalabrii"
+            },
+            "sources": {
+                "other-martyrology-days": "29 III"
+            }
+        },
         "records/patrons/ioannes/ham": {
             "name": {
                 "en": "John Hambley",

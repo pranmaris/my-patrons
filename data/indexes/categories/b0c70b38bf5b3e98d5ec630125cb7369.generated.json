@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/bertholdus/car": {
+            "it": "Bertoldo di Calabria",
+            "en": "Berthold of Calabria",
+            "la": "Bertoldus de Calabria",
+            "pl": "Bertold z Kalabrii"
+        },
         "records/patrons/ignatius/loy": {
             "es": "Ignacio de Loyola",
             "la": "Ignatius de Loyola",

@@ -330,6 +330,12 @@
             "en": "Bernard of Clairvaux",
             "la": "Bernardus Claravallensis"
         },
+        "records/patrons/bertholdus/car": {
+            "it": "Bertoldo di Calabria",
+            "en": "Berthold of Calabria",
+            "la": "Bertoldus de Calabria",
+            "pl": "Bertold z Kalabrii"
+        },
         "records/patrons/blasius/seb": {
             "la": "Blasius de Sebaste",
             "en": "Blaise of Sebaste",

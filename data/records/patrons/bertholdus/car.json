@@ -1,0 +1,26 @@
+{
+  "names": {
+    "it": [
+      "Bertoldo di Calabria"
+    ],
+    "en": [
+      "Berthold of Calabria"
+    ],
+    "la": [
+      "Bertoldus de Calabria"
+    ],
+    "pl": [
+      "Bertold z Kalabrii"
+    ]
+  },
+
+  "died": ["~1188"],
+
+  "also-in-martyrology": ["03-29"],
+
+  "forenames": ["bertholdus"],
+  "categories": ["vir", "religiosus", "miles"],
+
+  "order": ["ocarm"],
+  "order-founder": ["ocarm"]
+}

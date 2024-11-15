@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Bertholdus"
+    },
+    "translations": {
+        "la": [
+            "Bertholdus"
+        ],
+        "en": [
+            "Berthold"
+        ],
+        "pl": [
+            "Bertold"
+        ],
+        "it": [
+            "Bertholdo"
+        ]
+    },
+    "links": {
+        "records/patrons/bertholdus/car": {
+            "it": "Bertoldo di Calabria",
+            "en": "Berthold of Calabria",
+            "la": "Bertoldus de Calabria",
+            "pl": "Bertold z Kalabrii"
+        }
+    }
+}

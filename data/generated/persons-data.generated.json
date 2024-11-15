@@ -1335,6 +1335,26 @@
         ],
         "feasts": []
     },
+    "patrons/bertholdus": {
+        "names": {
+            "la": "Bertholdus",
+            "en": "Berthold",
+            "pl": "Bertold",
+            "it": "Bertholdo"
+        }
+    },
+    "patrons/bertholdus/car": {
+        "names": {
+            "it": "Bertoldo di Calabria",
+            "en": "Berthold of Calabria",
+            "la": "Bertoldus de Calabria",
+            "pl": "Bertold z Kalabrii"
+        },
+        "died": [
+            "~1188"
+        ],
+        "feasts": []
+    },
     "patrons/birgitta": {
         "names": {
             "la": "Birgitta",
