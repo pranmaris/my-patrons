@@ -1,0 +1,23 @@
+{
+  "names": {
+    "it": [
+      "Balbina di Roma"
+    ],
+    "en": [
+      "Balbina of Rome"
+    ],
+    "la": [
+      "Balbina Romana"
+    ],
+    "pl": [
+      "Balbina z Rzymu"
+    ]
+  },
+
+  "died": ["~130"],
+
+  "also-in-martyrology": ["03-31"],
+
+  "forenames": ["balbina"],
+  "categories": ["femina", "virgo"]
+}

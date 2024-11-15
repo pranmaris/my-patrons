@@ -1,0 +1,30 @@
+{
+    "names": {
+        "la": "Balbina",
+        "en": "Balbina",
+        "pl": "Balbina",
+        "it": "Balbina"
+    },
+    "translations": {
+        "la": [
+            "Balbina"
+        ],
+        "en": [
+            "Balbina"
+        ],
+        "pl": [
+            "Balbina"
+        ],
+        "it": [
+            "Balbina"
+        ]
+    },
+    "links": {
+        "records/patrons/balbina/rom": {
+            "it": "Balbina di Roma",
+            "en": "Balbina of Rome",
+            "la": "Balbina Romana",
+            "pl": "Balbina z Rzymu"
+        }
+    }
+}
