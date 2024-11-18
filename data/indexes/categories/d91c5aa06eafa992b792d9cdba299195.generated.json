@@ -623,6 +623,11 @@
             "en": "Vincenta Maria López Vicuña",
             "la": "Vincentia Maria López Vicuña",
             "pl": "Wincencja Maria López Vicuña"
+        },
+        "records/patrons/zita/luc": {
+            "la": "Zita Lucensis",
+            "en": "Zita of Lucca",
+            "pl": "Zyta z Lukki"
         }
     }
 }

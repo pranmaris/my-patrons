@@ -7429,5 +7429,23 @@
             ">400"
         ],
         "feasts": []
+    },
+    "patrons/zita": {
+        "names": {
+            "la": "Zita",
+            "en": "Zita",
+            "pl": "Zyta"
+        }
+    },
+    "patrons/zita/luc": {
+        "names": {
+            "la": "Zita Lucensis",
+            "en": "Zita of Lucca",
+            "pl": "Zyta z Lukki"
+        },
+        "died": [
+            "1272-04-27"
+        ],
+        "feasts": []
     }
 }

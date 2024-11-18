@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Zita",
+        "en": "Zita"
+    },
+    "translations": {
+        "la": [
+            "Zita"
+        ],
+        "en": [
+            "Zita"
+        ],
+        "pl": [
+            "Zyta"
+        ]
+    },
+    "links": {
+        "records/patrons/zita/luc": {
+            "la": "Zita Lucensis",
+            "en": "Zita of Lucca",
+            "pl": "Zyta z Lukki"
+        }
+    }
+}

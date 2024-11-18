@@ -1,0 +1,26 @@
+{
+  "names": {
+    "la": [
+      "Zita Lucensis"
+    ],
+    "en": [
+      "Zita of Lucca"
+    ],
+    "pl": [
+      "Zyta z Lukki"
+    ]
+  },
+
+  "born": ["1212"],
+  "died": ["1272-04-27"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1696-09-05"
+  },
+
+  "also-in-martyrology": ["04-27"],
+
+  "forenames": ["zita"],
+  "categories": ["femina", "virgo"]
+}

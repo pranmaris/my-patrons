@@ -2300,6 +2300,19 @@
             }
         }
     },
+    "04-27": {
+        "records/patrons/zita/luc": {
+            "name": {
+                "la": "Zita Lucensis",
+                "en": "Zita of Lucca",
+                "pl": "Zyta z Lukki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "27 IV",
+                "other-martyrology-days": "27 IV"
+            }
+        }
+    },
     "04-28": {
         "records/patrons/ioanna/ber": {
             "name": {
