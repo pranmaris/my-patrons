@@ -157,6 +157,12 @@
             "la": "David episcopus Meneviensis",
             "pl": "Dawid z Menevii"
         },
+        "records/patrons/dionysius/cor": {
+            "el": "Διονύσιος Κορίνθου",
+            "en": "Dionysius of Corinth",
+            "la": "Dionysius Corinthius",
+            "pl": "Dionizy z Koryntu"
+        },
         "records/patrons/dionysius/lut": {
             "fr": "Denis de Paris",
             "la": "Dionysius Parisiensis",

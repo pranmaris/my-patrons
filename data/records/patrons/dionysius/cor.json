@@ -1,0 +1,23 @@
+{
+  "names": {
+    "el": [
+      "Διονύσιος Κορίνθου"
+    ],
+    "en": [
+      "Dionysius of Corinth"
+    ],
+    "la": [
+      "Dionysius Corinthius"
+    ],
+    "pl": [
+      "Dionizy z Koryntu"
+    ]
+  },
+
+  "died": ["~171", "~180"],
+
+  "also-in-martyrology": ["04-08"],
+
+  "forenames": ["dionysius"],
+  "categories": ["vir", "episcopus"]
+}

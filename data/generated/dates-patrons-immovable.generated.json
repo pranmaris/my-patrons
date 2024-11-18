@@ -2026,6 +2026,17 @@
                 "reliable-death-anniversary": "8 IV",
                 "other-martyrology-days": "8 IV"
             }
+        },
+        "records/patrons/dionysius/cor": {
+            "name": {
+                "el": "Διονύσιος Κορίνθου",
+                "en": "Dionysius of Corinth",
+                "la": "Dionysius Corinthius",
+                "pl": "Dionizy z Koryntu"
+            },
+            "sources": {
+                "other-martyrology-days": "8 IV"
+            }
         }
     },
     "04-09": {

@@ -2158,6 +2158,7 @@
             "la": "Dionysius",
             "en": "Denis",
             "pl": "Dionizy",
+            "el": "Διονύσιος",
             "fr": "Denis"
         }
     },
@@ -2169,6 +2170,19 @@
         },
         "died": [
             "268-12-26"
+        ],
+        "feasts": []
+    },
+    "patrons/dionysius/cor": {
+        "names": {
+            "el": "Διονύσιος Κορίνθου",
+            "en": "Dionysius of Corinth",
+            "la": "Dionysius Corinthius",
+            "pl": "Dionizy z Koryntu"
+        },
+        "died": [
+            "~171",
+            "~180"
         ],
         "feasts": []
     },
