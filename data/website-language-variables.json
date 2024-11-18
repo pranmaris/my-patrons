@@ -1034,6 +1034,11 @@
         "pl": "szafarz Komunii Świętej"
     },
 
+    "lang-minister-of-my-holy-communion": {
+        "en": "minister of my Holy Communion",
+        "pl": "szafarz mojej Komunii Świętej"
+    },
+
     "lang-missing-filename-without-extension": {
         "en": "missing filename without extension",
         "pl": "nie podano nazwy pliku bez rozszerzenia"
@@ -1361,6 +1366,11 @@
     "lang-person": {
         "en": "person",
         "pl": "osoba"
+    },
+
+    "lang-person-attending-the-mass": {
+        "en": "person attending the Mass",
+        "pl": "osoba uczestnicząca we Mszy"
     },
 
     "lang-person-getting-married": {
