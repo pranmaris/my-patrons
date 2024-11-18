@@ -849,6 +849,24 @@
         ],
         "feasts": []
     },
+    "patrons/anselmus": {
+        "names": {
+            "la": "Anselmus",
+            "en": "Anselm",
+            "pl": "Anzelm"
+        }
+    },
+    "patrons/anselmus/can": {
+        "names": {
+            "la": "Anselmus Cantuariensis",
+            "en": "Anselm of Canterbury",
+            "pl": "Anzelm z Canterbury"
+        },
+        "died": [
+            "1109-04-21"
+        ],
+        "feasts": []
+    },
     "patrons/ansgarius": {
         "names": {
             "la": "Ansgarius",

@@ -2213,6 +2213,19 @@
             }
         }
     },
+    "04-21": {
+        "records/patrons/anselmus/can": {
+            "name": {
+                "la": "Anselmus Cantuariensis",
+                "en": "Anselm of Canterbury",
+                "pl": "Anzelm z Canterbury"
+            },
+            "sources": {
+                "reliable-death-anniversary": "21 IV",
+                "other-martyrology-days": "21 IV"
+            }
+        }
+    },
     "04-23": {
         "records/patrons/adalbertus/pra": {
             "name": {

@@ -1,0 +1,26 @@
+{
+  "names": {
+    "la": [
+      "Anselmus Cantuariensis"
+    ],
+    "en": [
+      "Anselm of Canterbury"
+    ],
+    "pl": [
+      "Anzelm z Canterbury"
+    ]
+  },
+
+  "born": ["1033"],
+  "died": ["1109-04-21"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1494-10-04"
+  },
+
+  "also-in-martyrology": ["04-21"],
+
+  "forenames": ["anselmus"],
+  "categories": ["vir", "confessor", "episcopus", "abbas", "monachus", "doctor-ecclesiae"]
+}
