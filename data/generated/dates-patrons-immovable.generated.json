@@ -2001,6 +2001,20 @@
             }
         }
     },
+    "04-07": {
+        "records/patrons/ioannes/sal": {
+            "name": {
+                "fr": "Jean-Baptiste de la Salle",
+                "en": "John Baptist de la Salle",
+                "la": "Ioannes Baptista de la Salle",
+                "pl": "Jan Chrzciciel de la Salle"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 IV",
+                "other-martyrology-days": "7 IV"
+            }
+        }
+    },
     "04-08": {
         "records/patrons/augustus/cza": {
             "name": {
@@ -2557,6 +2571,19 @@
             },
             "sources": {
                 "other-martyrology-days": "14 V"
+            }
+        }
+    },
+    "05-15": {
+        "records/patrons/ioannes/sal": {
+            "name": {
+                "fr": "Jean-Baptiste de la Salle",
+                "en": "John Baptist de la Salle",
+                "la": "Ioannes Baptista de la Salle",
+                "pl": "Jan Chrzciciel de la Salle"
+            },
+            "sources": {
+                "other-martyrology-days": "15 V"
             }
         }
     },

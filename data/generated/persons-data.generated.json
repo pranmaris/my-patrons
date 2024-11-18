@@ -3838,6 +3838,18 @@
         ],
         "feasts": []
     },
+    "patrons/ioannes/sal": {
+        "names": {
+            "fr": "Jean-Baptiste de la Salle",
+            "en": "John Baptist de la Salle",
+            "la": "Ioannes Baptista de la Salle",
+            "pl": "Jan Chrzciciel de la Salle"
+        },
+        "died": [
+            "1719-04-07"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/sar": {
         "names": {
             "cs": "Jan Sarkander",

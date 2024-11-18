@@ -338,6 +338,12 @@
             "la": "Ioannes Ogilvie",
             "pl": "Jan Ogilvie"
         },
+        "records/patrons/ioannes/sal": {
+            "fr": "Jean-Baptiste de la Salle",
+            "en": "John Baptist de la Salle",
+            "la": "Ioannes Baptista de la Salle",
+            "pl": "Jan Chrzciciel de la Salle"
+        },
         "records/patrons/ioannes/sar": {
             "cs": "Jan Sarkander",
             "en": "John Sarkander",

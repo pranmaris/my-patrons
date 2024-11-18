@@ -62,6 +62,12 @@
             "la": "Ioannes de Deo",
             "pl": "Jan Boży"
         },
+        "records/patrons/ioannes/sal": {
+            "fr": "Jean-Baptiste de la Salle",
+            "en": "John Baptist de la Salle",
+            "la": "Ioannes Baptista de la Salle",
+            "pl": "Jan Chrzciciel de la Salle"
+        },
         "records/patrons/norbertus/mag": {
             "de": "Norbert von Xanten",
             "en": "Norbert of Xanten",

@@ -1,0 +1,42 @@
+{
+  "names": {
+    "fr": [
+      "Jean-Baptiste de la Salle"
+    ],
+    "en": [
+      "John Baptist de la Salle"
+    ],
+    "la": [
+      "Ioannes Baptista de la Salle"
+    ],
+    "pl": [
+      "Jan Chrzciciel de la Salle"
+    ]
+  },
+
+  "surnames": [
+    {
+      "fr": "de la Salle"
+    }
+  ],
+
+  "born": ["1651-04-30"],
+  "died": ["1719-04-07"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1888-02-19"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1900-05-24"
+  },
+
+  "also-in-martyrology": ["04-07", "05-15"],
+
+  "forenames": ["ioannes-baptista"],
+  "categories": ["vir", "confessor", "presbyter", "institutor"],
+
+  "order": ["fsc"],
+  "order-founder": ["fsc"]
+}
