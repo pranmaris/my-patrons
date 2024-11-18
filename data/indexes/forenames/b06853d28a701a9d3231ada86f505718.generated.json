@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Tiburtius",
+        "en": "Tiburtius"
+    },
+    "translations": {
+        "la": [
+            "Tiburtius"
+        ],
+        "en": [
+            "Tiburtius"
+        ],
+        "pl": [
+            "Tyburcjusz"
+        ]
+    },
+    "links": {
+        "records/patrons/tiburtius/val": {
+            "la": "Tiburtius /+ Valerianus et Maximus",
+            "en": "Tiburtius /+ Valerian and Maximus",
+            "pl": "Tyburcjusz /+ Walerian i Maksym"
+        }
+    }
+}

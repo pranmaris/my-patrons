@@ -782,6 +782,11 @@
             "la": "Thomas Becket",
             "pl": "Tomasz Becket"
         },
+        "records/patrons/tiburtius/val": {
+            "la": "Tiburtius /+ Valerianus et Maximus",
+            "en": "Tiburtius /+ Valerian and Maximus",
+            "pl": "Tyburcjusz /+ Walerian i Maksym"
+        },
         "records/patrons/valentinus/rom": {
             "en": "Valentine of Rome",
             "la": "Valentinus de Roma",

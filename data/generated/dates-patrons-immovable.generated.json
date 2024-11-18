@@ -2138,6 +2138,18 @@
             }
         }
     },
+    "04-14": {
+        "records/patrons/tiburtius/val": {
+            "name": {
+                "la": "Tiburtius /+ Valerianus et Maximus",
+                "en": "Tiburtius /+ Valerian and Maximus",
+                "pl": "Tyburcjusz /+ Walerian i Maksym"
+            },
+            "sources": {
+                "other-martyrology-days": "14 IV"
+            }
+        }
+    },
     "04-16": {
         "records/patrons/maria/sou": {
             "name": {
