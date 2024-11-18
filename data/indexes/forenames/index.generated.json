@@ -885,7 +885,7 @@
         "pl": "Karolina"
     },
     "53ae01caf274e515c196365374670561": {
-        "fr": "Vincenzo"
+        "it": "Vincenzo"
     },
     "53cfe39d296d66452693788f4574a370": {
         "la": "Agnes",
@@ -1431,6 +1431,9 @@
     },
     "8c241667a1fb74868a8e1591ee99284e": {
         "it": "Bartolomeo"
+    },
+    "8c2c5cc4624c537c4301fe2537985b26": {
+        "es": "Vicente"
     },
     "8cc6fcef7d3e41ff8bda76c7aefff7a2": {
         "pl": "Jakub"
@@ -2251,7 +2254,8 @@
         "en": "Charbel"
     },
     "d3facf360f0b4f2d570c093e7e130210": {
-        "en": "Vincent"
+        "en": "Vincent",
+        "fr": "Vincent"
     },
     "d45335431c7e97ff6777bc860a996aa3": {
         "en": "Clement"

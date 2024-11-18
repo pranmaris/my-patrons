@@ -1,0 +1,38 @@
+{
+  "names": {
+    "es": [
+      "Vicente Ferrer"
+    ],
+    "en": [
+      "Vincent Ferrer"
+    ],
+    "la": [
+      "Vincentius Ferrerius",
+      "Vincentius Ferrer"
+    ],
+    "pl": [
+      "Wincenty Ferreriusz"
+    ]
+  },
+
+  "surnames": [
+    {
+      "es": "Ferrer"
+    }
+  ],
+
+  "born": ["1350-01-23"],
+  "died": ["1419-04-05"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1458-06-03"
+  },
+
+  "also-in-martyrology": ["04-05"],
+
+  "forenames": ["vincentius"],
+  "categories": ["vir", "confessor", "presbyter"],
+
+  "order": ["op"]
+}
