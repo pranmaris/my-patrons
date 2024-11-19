@@ -7211,6 +7211,17 @@
             "pl": "Urban"
         }
     },
+    "patrons/urbanus/1pp": {
+        "names": {
+            "la": "Urbanus I",
+            "en": "Urban I",
+            "pl": "Urban I"
+        },
+        "died": [
+            "230-05-23"
+        ],
+        "feasts": []
+    },
     "patrons/urbanus/2pp": {
         "names": {
             "la": "Urbanus II",

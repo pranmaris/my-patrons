@@ -2680,6 +2680,18 @@
             }
         }
     },
+    "05-19": {
+        "records/patrons/urbanus/1pp": {
+            "name": {
+                "la": "Urbanus I",
+                "en": "Urban I",
+                "pl": "Urban I"
+            },
+            "sources": {
+                "other-martyrology-days": "19 V"
+            }
+        }
+    },
     "05-20": {
         "records/patrons/bernardinus/sen": {
             "name": {
@@ -2743,6 +2755,16 @@
         }
     },
     "05-23": {
+        "records/patrons/urbanus/1pp": {
+            "name": {
+                "la": "Urbanus I",
+                "en": "Urban I",
+                "pl": "Urban I"
+            },
+            "sources": {
+                "reliable-death-anniversary": "23 V"
+            }
+        },
         "records/patrons/iosephus/kur": {
             "name": {
                 "pl": "Józef Kurzawa",

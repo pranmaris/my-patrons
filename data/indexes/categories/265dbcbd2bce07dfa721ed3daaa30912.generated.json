@@ -977,6 +977,11 @@
             "en": "Tiburtius /+ Valerian and Maximus",
             "pl": "Tyburcjusz /+ Walerian i Maksym"
         },
+        "records/patrons/urbanus/1pp": {
+            "la": "Urbanus I",
+            "en": "Urban I",
+            "pl": "Urban I"
+        },
         "records/patrons/ursula/vir": {
             "de": "Ursula von Köln",
             "en": "Ursula of Cologne",

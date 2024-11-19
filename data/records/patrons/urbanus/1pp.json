@@ -1,0 +1,32 @@
+{
+  "names": {
+    "la": [
+      "Urbanus I"
+    ],
+    "en": [
+      "Urban I"
+    ],
+    "pl": [
+      "Urban I"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Primus",
+      "en": "the First",
+      "pl": "Pierwszy"
+    }
+  ],
+
+  "died": ["230-05-23"],
+
+  "also-in-martyrology": ["05-19"],
+
+  "forenames": ["urbanus"],
+  "categories": ["vir", "martyr", "papa"],
+
+  "data-links": {
+    "popes": ["1:#17"]
+  }
+}

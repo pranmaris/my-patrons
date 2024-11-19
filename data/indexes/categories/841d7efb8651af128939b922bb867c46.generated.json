@@ -787,6 +787,11 @@
             "en": "Tiburtius /+ Valerian and Maximus",
             "pl": "Tyburcjusz /+ Walerian i Maksym"
         },
+        "records/patrons/urbanus/1pp": {
+            "la": "Urbanus I",
+            "en": "Urban I",
+            "pl": "Urban I"
+        },
         "records/patrons/valentinus/rom": {
             "en": "Valentine of Rome",
             "la": "Valentinus de Roma",
