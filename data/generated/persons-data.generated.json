@@ -5425,6 +5425,24 @@
         ],
         "feasts": []
     },
+    "patrons/maximus": {
+        "names": {
+            "la": "Maximus",
+            "en": "Maximus",
+            "pl": "Maksym"
+        }
+    },
+    "patrons/maximus/hie": {
+        "names": {
+            "la": "Maximus Hierosolymitanus",
+            "en": "Maximus of Jerusalem",
+            "pl": "Maksym z Jerozolimy"
+        },
+        "died": [
+            "~350"
+        ],
+        "feasts": []
+    },
     "patrons/methodius": {
         "names": {
             "la": "Methodius",

@@ -2468,6 +2468,16 @@
                 "other-martyrology-days": "5 V"
             }
         },
+        "records/patrons/maximus/hie": {
+            "name": {
+                "la": "Maximus Hierosolymitanus",
+                "en": "Maximus of Jerusalem",
+                "pl": "Maksym z Jerozolimy"
+            },
+            "sources": {
+                "other-martyrology-days": "5 V"
+            }
+        },
         "records/patrons/pius/5pp": {
             "name": {
                 "it": "Pio V",

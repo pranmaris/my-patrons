@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Maximus Hierosolymitanus"
+    ],
+    "en": [
+      "Maximus of Jerusalem"
+    ],
+    "pl": [
+      "Maksym z Jerozolimy"
+    ]
+  },
+
+  "died": ["~350"],
+
+  "also-in-martyrology": ["05-05"],
+
+  "forenames": ["maximus"],
+  "categories": ["vir", "confessor", "episcopus"]
+}
