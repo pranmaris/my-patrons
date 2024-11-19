@@ -301,6 +301,11 @@
             "en": "Isidore of Seville",
             "pl": "Izydor z Sewilli"
         },
+        "records/patrons/iuvenalis/nar": {
+            "la": "Iuvenalis Narniensis",
+            "en": "Juvenal of Narni",
+            "pl": "Juwenalis z Narni"
+        },
         "records/patrons/laurentius/can": {
             "en": "Laurence of Canterbury",
             "la": "Laurentius Cantuariensis",

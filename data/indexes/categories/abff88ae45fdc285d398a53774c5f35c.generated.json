@@ -287,6 +287,11 @@
             "en": "Isidore of Seville",
             "pl": "Izydor z Sewilli"
         },
+        "records/patrons/iuvenalis/nar": {
+            "la": "Iuvenalis Narniensis",
+            "en": "Juvenal of Narni",
+            "pl": "Juwenalis z Narni"
+        },
         "records/patrons/leonardus/ere": {
             "fr": "Léonard de Noblat",
             "en": "Leonard of Noblac",

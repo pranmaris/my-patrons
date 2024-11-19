@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "Juvenal"
+    },
+    "translations": {
+        "la": [
+            "Iuvenalis",
+            "Juvenalis"
+        ],
+        "en": [
+            "Juvenal"
+        ],
+        "pl": [
+            "Juwenalis"
+        ]
+    },
+    "links": {
+        "records/patrons/iuvenalis/nar": {
+            "la": "Iuvenalis Narniensis",
+            "en": "Juvenal of Narni",
+            "pl": "Juwenalis z Narni"
+        }
+    }
+}

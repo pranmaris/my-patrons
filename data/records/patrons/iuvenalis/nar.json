@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Iuvenalis Narniensis"
+    ],
+    "en": [
+      "Juvenal of Narni"
+    ],
+    "pl": [
+      "Juwenalis z Narni"
+    ]
+  },
+
+  "died": ["~376"],
+
+  "also-in-martyrology": ["05-03"],
+
+  "forenames": ["iuvenalis"],
+  "categories": ["vir", "confessor", "episcopus"]
+}
