@@ -3123,6 +3123,17 @@
                 "reliable-death-anniversary": "16 VI",
                 "other-martyrology-days": "16 VI"
             }
+        },
+        "records/patrons/quiricus/iul": {
+            "name": {
+                "el": "Κήρυκος /+ Ιουλίττα",
+                "en": "Cyricus /+ Julitta",
+                "la": "Quiricus /+ Iulitta",
+                "pl": "Cyryk /+ Julitta"
+            },
+            "sources": {
+                "other-martyrology-days": "16 VI"
+            }
         }
     },
     "06-18": {

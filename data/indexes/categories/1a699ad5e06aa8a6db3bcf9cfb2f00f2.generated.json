@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "boy"
+    },
+    "translations": {
+        "la": [
+            "puellus"
+        ],
+        "en": [
+            "boy"
+        ],
+        "pl": [
+            "chłopiec"
+        ]
+    },
+    "links": {
+        "records/patrons/quiricus/iul": {
+            "el": "Κήρυκος /+ Ιουλίττα",
+            "en": "Cyricus /+ Julitta",
+            "la": "Quiricus /+ Iulitta",
+            "pl": "Cyryk /+ Julitta"
+        }
+    }
+}

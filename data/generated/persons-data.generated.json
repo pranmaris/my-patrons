@@ -6261,6 +6261,26 @@
         ],
         "feasts": []
     },
+    "patrons/quiricus": {
+        "names": {
+            "la": "Quiricus",
+            "en": "Cyricus",
+            "pl": "Cyryk",
+            "el": "Κήρυκος"
+        }
+    },
+    "patrons/quiricus/iul": {
+        "names": {
+            "el": "Κήρυκος /+ Ιουλίττα",
+            "en": "Cyricus /+ Julitta",
+            "la": "Quiricus /+ Iulitta",
+            "pl": "Cyryk /+ Julitta"
+        },
+        "died": [
+            "~304"
+        ],
+        "feasts": []
+    },
     "patrons/raphael": {
         "names": {
             "la": "Raphael",

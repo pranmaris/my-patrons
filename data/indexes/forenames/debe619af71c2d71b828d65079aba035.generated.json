@@ -1,0 +1,28 @@
+{
+    "names": {
+        "el": "Κήρυκος"
+    },
+    "translations": {
+        "la": [
+            "Quiricus"
+        ],
+        "en": [
+            "Cyricus"
+        ],
+        "pl": [
+            "Cyryk",
+            "Kwiryk"
+        ],
+        "el": [
+            "Κήρυκος"
+        ]
+    },
+    "links": {
+        "records/patrons/quiricus/iul": {
+            "el": "Κήρυκος /+ Ιουλίττα",
+            "en": "Cyricus /+ Julitta",
+            "la": "Quiricus /+ Iulitta",
+            "pl": "Cyryk /+ Julitta"
+        }
+    }
+}

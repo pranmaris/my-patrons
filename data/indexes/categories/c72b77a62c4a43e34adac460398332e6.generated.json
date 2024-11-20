@@ -1502,6 +1502,12 @@
             "en": "Pontian Pope",
             "pl": "Poncjan Papież"
         },
+        "records/patrons/quiricus/iul": {
+            "el": "Κήρυκος /+ Ιουλίττα",
+            "en": "Cyricus /+ Julitta",
+            "la": "Quiricus /+ Iulitta",
+            "pl": "Cyryk /+ Julitta"
+        },
         "records/patrons/raphael/chy": {
             "pl": "Rafał Chyliński",
             "la": "Raphael Chylinski",

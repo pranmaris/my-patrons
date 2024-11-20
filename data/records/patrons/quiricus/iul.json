@@ -1,0 +1,25 @@
+{
+  "names": {
+    "el": [
+      "Κήρυκος /+ Ιουλίττα"
+    ],
+    "en": [
+      "Cyricus /+ Julitta"
+    ],
+    "la": [
+      "Quiricus /+ Iulitta"
+    ],
+    "pl": [
+      "Cyryk /+ Julitta",
+      "Kwiryk /+ Julitta"
+    ]
+  },
+
+  "born": ["~301"],
+  "died": ["~304"],
+
+  "also-in-martyrology": ["06-16"],
+
+  "forenames": ["quiricus"],
+  "categories": ["vir", "martyr", "puellus"]
+}

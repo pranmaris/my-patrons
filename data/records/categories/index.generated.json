@@ -294,6 +294,16 @@
         "en": "prophet",
         "pl": "prorok"
     },
+    "puella": {
+        "la": "puella",
+        "en": "girl",
+        "pl": "dziewczynka"
+    },
+    "puellus": {
+        "la": "puellus",
+        "en": "boy",
+        "pl": "chłopiec"
+    },
     "puer": {
         "la": "puer",
         "en": "child",

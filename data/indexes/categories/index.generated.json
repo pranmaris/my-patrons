@@ -68,6 +68,9 @@
     "171b6ba14aeefeb08caf15065042a4c2": {
         "en": "monk"
     },
+    "1a699ad5e06aa8a6db3bcf9cfb2f00f2": {
+        "en": "boy"
+    },
     "1b7d5726533ab525a8760351e9b5e415": {
         "en": "child"
     },
@@ -131,6 +134,9 @@
     },
     "27b0b619b6bb3f1895a44fbd748893c1": {
         "en": "catechumen"
+    },
+    "28ca53d2b7bb4aa13549b4022c79dca1": {
+        "en": "girl"
     },
     "29938289a5dcdd9cff8a8ae465e5c5f9": {
         "pl": "kształtująca"
@@ -335,6 +341,9 @@
     "82646f22d9e5f9e6a0c8bf49c26bb1ad": {
         "en": "diocesan priest"
     },
+    "841917104dcdcd17c29bc4a7c27fa310": {
+        "la": "puella"
+    },
     "841d7efb8651af128939b922bb867c46": {
         "pl": "męczennik"
     },
@@ -482,6 +491,9 @@
     "b0c7cdfec394aa2f9b61038b135a9717": {
         "la": "socia"
     },
+    "b1237fde6c69c5cfad5e341179c46caf": {
+        "pl": "chłopiec"
+    },
     "b2086154f101464aab3328ba7e060deb": {
         "en": "king"
     },
@@ -582,6 +594,9 @@
     "d0a87b4018d6521b0f5a49e5e03adb6d": {
         "en": "virgin"
     },
+    "d13cbaab588de8b3419b6d1e8a35a7e7": {
+        "pl": "dziewczynka"
+    },
     "d2981ad66d7b1554215d9cbdb6a30cbf": {
         "pl": "założycielka"
     },
@@ -611,6 +626,9 @@
     },
     "db9ba0f4837435258a27af3fd4b31b06": {
         "en": "solitaress"
+    },
+    "df3343629e865d738e9137e5187531df": {
+        "la": "puellus"
     },
     "e1d42842652d17dff26877072006184c": {
         "la": "angelus"
