@@ -1,0 +1,38 @@
+{
+  "names": {
+    "en": [
+      "Thomas Garnet"
+    ],
+    "la": [
+      "Thomas Garnet"
+    ],
+    "pl": [
+      "Tomasz Garnet"
+    ]
+  },
+
+  "surnames": [
+    {
+      "en": "Garnet"
+    }
+  ],
+
+  "born": ["1575-11-09"],
+  "died": ["1608-06-23"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1929-12-15"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1970-10-25"
+  },
+
+  "also-in-martyrology": ["06-23"],
+
+  "forenames": ["thomas"],
+  "categories": ["vir", "martyr", "presbyter"],
+
+  "order": ["sj"]
+}

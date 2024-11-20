@@ -33,6 +33,11 @@
             "en": "Thomas Becket",
             "la": "Thomas Becket",
             "pl": "Tomasz Becket"
+        },
+        "records/patrons/thomas/gar": {
+            "en": "Thomas Garnet",
+            "la": "Thomas Garnet",
+            "pl": "Tomasz Garnet"
         }
     }
 }

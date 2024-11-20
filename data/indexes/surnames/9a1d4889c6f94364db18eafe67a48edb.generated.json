@@ -1,0 +1,17 @@
+{
+    "names": {
+        "en": "Garnet"
+    },
+    "translations": {
+        "en": [
+            "Garnet"
+        ]
+    },
+    "links": {
+        "records/patrons/thomas/gar": {
+            "en": "Thomas Garnet",
+            "la": "Thomas Garnet",
+            "pl": "Tomasz Garnet"
+        }
+    }
+}

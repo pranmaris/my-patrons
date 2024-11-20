@@ -7217,6 +7217,17 @@
         ],
         "feasts": []
     },
+    "patrons/thomas/gar": {
+        "names": {
+            "en": "Thomas Garnet",
+            "la": "Thomas Garnet",
+            "pl": "Tomasz Garnet"
+        },
+        "died": [
+            "1608-06-23"
+        ],
+        "feasts": []
+    },
     "patrons/tiburtius": {
         "names": {
             "la": "Tiburtius",

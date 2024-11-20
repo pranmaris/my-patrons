@@ -537,6 +537,11 @@
             "la": "Thomas de Aquino",
             "pl": "Tomasz z Akwinu"
         },
+        "records/patrons/thomas/gar": {
+            "en": "Thomas Garnet",
+            "la": "Thomas Garnet",
+            "pl": "Tomasz Garnet"
+        },
         "records/patrons/valentinus/rom": {
             "en": "Valentine of Rome",
             "la": "Valentinus de Roma",
