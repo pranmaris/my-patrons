@@ -66,6 +66,11 @@
             "en": "Maurus Abbot",
             "pl": "Maur Opat"
         },
+        "records/patrons/robertus/nov": {
+            "la": "Robertus Novomonasteriensis",
+            "en": "Robert of Newminster",
+            "pl": "Robert z Newminster"
+        },
         "records/patrons/romanus/abb": {
             "fr": "Romain de Condat",
             "pl": "Roman Jurajski",

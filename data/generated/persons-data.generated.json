@@ -6390,6 +6390,17 @@
         ],
         "feasts": []
     },
+    "patrons/robertus/nov": {
+        "names": {
+            "la": "Robertus Novomonasteriensis",
+            "en": "Robert of Newminster",
+            "pl": "Robert z Newminster"
+        },
+        "died": [
+            "1159-06-07"
+        ],
+        "feasts": []
+    },
     "patrons/rochus": {
         "names": {
             "la": "Rochus",

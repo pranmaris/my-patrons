@@ -1525,6 +1525,11 @@
             "la": "Robertus Bellarminus",
             "pl": "Robert Bellarmin"
         },
+        "records/patrons/robertus/nov": {
+            "la": "Robertus Novomonasteriensis",
+            "en": "Robert of Newminster",
+            "pl": "Robert z Newminster"
+        },
         "records/patrons/rochus/per": {
             "fr": "Roch de Montpellier",
             "en": "Roch",

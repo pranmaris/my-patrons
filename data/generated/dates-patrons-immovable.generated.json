@@ -2987,6 +2987,17 @@
                 "reliable-death-anniversary": "7 VI"
             }
         },
+        "records/patrons/robertus/nov": {
+            "name": {
+                "la": "Robertus Novomonasteriensis",
+                "en": "Robert of Newminster",
+                "pl": "Robert z Newminster"
+            },
+            "sources": {
+                "reliable-death-anniversary": "7 VI",
+                "other-martyrology-days": "7 VI"
+            }
+        },
         "records/patrons/paulus/con": {
             "name": {
                 "la": "Paulus Constantinopolitanus",
