@@ -75,6 +75,12 @@
             "la": "Cyrillus Hierosolymitanus",
             "pl": "Cyryl Jerozolimski"
         },
+        "records/patrons/ephraem/syr": {
+            "sy": "ܐܦܪܝܡ ܣܘܪܝܝܐ",
+            "en": "Ephrem the Syrian",
+            "la": "Ephraem Syrus",
+            "pl": "Efrem Syryjczyk"
+        },
         "records/patrons/franciscus/sal": {
             "fr": "François de Sales",
             "en": "Francis de Sales",

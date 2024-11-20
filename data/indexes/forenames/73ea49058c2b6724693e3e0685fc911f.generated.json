@@ -1,0 +1,27 @@
+{
+    "names": {
+        "arc": "ܐܦܪܝܡ"
+    },
+    "translations": {
+        "la": [
+            "Ephraem"
+        ],
+        "en": [
+            "Ephrem"
+        ],
+        "pl": [
+            "Efrem"
+        ],
+        "arc": [
+            "ܐܦܪܝܡ"
+        ]
+    },
+    "links": {
+        "records/patrons/ephraem/syr": {
+            "sy": "ܐܦܪܝܡ ܣܘܪܝܝܐ",
+            "en": "Ephrem the Syrian",
+            "la": "Ephraem Syrus",
+            "pl": "Efrem Syryjczyk"
+        }
+    }
+}

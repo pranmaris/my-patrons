@@ -1,0 +1,32 @@
+{
+  "names": {
+    "sy": [
+      "ܐܦܪܝܡ ܣܘܪܝܝܐ"
+    ],
+    "en": [
+      "Ephrem the Syrian"
+    ],
+    "la": [
+      "Ephraem Syrus"
+    ],
+    "pl": [
+      "Efrem Syryjczyk"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Cithara Spiritus Sancti",
+      "en": "Harp of the Holy Spirit",
+      "pl": "Harfa Ducha Świętego"
+    }
+  ],
+
+  "born": ["~305"],
+  "died": ["378-06-09"],
+
+  "also-in-martyrology": ["06-09", "06-18"],
+
+  "forenames": ["ephraem"],
+  "categories": ["vir", "confessor", "diaconus", "doctor-ecclesiae"]
+}

@@ -140,6 +140,12 @@
             "la": "Dominicus Oxomensis",
             "pl": "Dominik Guzmán"
         },
+        "records/patrons/ephraem/syr": {
+            "sy": "ܐܦܪܝܡ ܣܘܪܝܝܐ",
+            "en": "Ephrem the Syrian",
+            "la": "Ephraem Syrus",
+            "pl": "Efrem Syryjczyk"
+        },
         "records/patrons/franciscus/asi": {
             "it": "Francesco d'Assisi",
             "en": "Francis of Assisi",

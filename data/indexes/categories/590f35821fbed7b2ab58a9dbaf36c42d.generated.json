@@ -586,6 +586,12 @@
             "en": "Edward Klinik",
             "la": "Eduardus Klinik"
         },
+        "records/patrons/ephraem/syr": {
+            "sy": "ܐܦܪܝܡ ܣܘܪܝܝܐ",
+            "en": "Ephrem the Syrian",
+            "la": "Ephraem Syrus",
+            "pl": "Efrem Syryjczyk"
+        },
         "records/patrons/erasmus/for": {
             "la": "Erasmus de Formia",
             "en": "Erasmus of Formia",

@@ -2395,6 +2395,26 @@
         ],
         "feasts": []
     },
+    "patrons/ephraem": {
+        "names": {
+            "la": "Ephraem",
+            "en": "Ephrem",
+            "pl": "Efrem",
+            "arc": "ܐܦܪܝܡ"
+        }
+    },
+    "patrons/ephraem/syr": {
+        "names": {
+            "sy": "ܐܦܪܝܡ ܣܘܪܝܝܐ",
+            "en": "Ephrem the Syrian",
+            "la": "Ephraem Syrus",
+            "pl": "Efrem Syryjczyk"
+        },
+        "died": [
+            "378-06-09"
+        ],
+        "feasts": []
+    },
     "patrons/erasmus": {
         "names": {
             "la": "Erasmus",

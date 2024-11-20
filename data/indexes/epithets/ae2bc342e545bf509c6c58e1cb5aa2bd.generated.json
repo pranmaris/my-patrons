@@ -1,0 +1,24 @@
+{
+    "names": {
+        "pl": "Harfa Ducha Świętego"
+    },
+    "translations": {
+        "la": [
+            "Cithara Spiritus Sancti"
+        ],
+        "en": [
+            "Harp of the Holy Spirit"
+        ],
+        "pl": [
+            "Harfa Ducha Świętego"
+        ]
+    },
+    "links": {
+        "records/patrons/ephraem/syr": {
+            "sy": "ܐܦܪܝܡ ܣܘܪܝܝܐ",
+            "en": "Ephrem the Syrian",
+            "la": "Ephraem Syrus",
+            "pl": "Efrem Syryjczyk"
+        }
+    }
+}

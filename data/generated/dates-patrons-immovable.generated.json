@@ -3023,6 +3023,20 @@
             }
         }
     },
+    "06-09": {
+        "records/patrons/ephraem/syr": {
+            "name": {
+                "sy": "ܐܦܪܝܡ ܣܘܪܝܝܐ",
+                "en": "Ephrem the Syrian",
+                "la": "Ephraem Syrus",
+                "pl": "Efrem Syryjczyk"
+            },
+            "sources": {
+                "reliable-death-anniversary": "9 VI",
+                "other-martyrology-days": "9 VI"
+            }
+        }
+    },
     "06-10": {
         "records/patrons/bogumilus/dob": {
             "name": {
@@ -3112,6 +3126,17 @@
         }
     },
     "06-18": {
+        "records/patrons/ephraem/syr": {
+            "name": {
+                "sy": "ܐܦܪܝܡ ܣܘܪܝܝܐ",
+                "en": "Ephrem the Syrian",
+                "la": "Ephraem Syrus",
+                "pl": "Efrem Syryjczyk"
+            },
+            "sources": {
+                "other-martyrology-days": "18 VI"
+            }
+        },
         "records/patrons/marcus/mar": {
             "name": {
                 "la": "Marcus /+ Marcellianus",

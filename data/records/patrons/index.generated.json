@@ -443,6 +443,12 @@
         "es": "Elisabet",
         "fr": "Elisabeth"
     },
+    "ephraem": {
+        "la": "Ephraem",
+        "en": "Ephrem",
+        "pl": "Efrem",
+        "arc": "ܐܦܪܝܡ"
+    },
     "erasmus": {
         "la": "Erasmus",
         "en": "Erasmus",
