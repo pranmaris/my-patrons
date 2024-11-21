@@ -113,6 +113,12 @@
             "en": "Anthony Rewera",
             "la": "Antonius Rewera"
         },
+        "records/patrons/aristarchus/the": {
+            "el": "Αρίσταρχος ο Θεσσαλονικεύς",
+            "en": "Aristarchus of Thessalonica",
+            "la": "Aristarchus Thessalonicensis",
+            "pl": "Arystarch z Tesaloniki"
+        },
         "records/patrons/augustinus/zha": {
             "zh": "趙榮",
             "en": "Augustine Zhao Rong",

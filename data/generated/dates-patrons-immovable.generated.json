@@ -4120,6 +4120,17 @@
                 "other-martyrology-days": "4 VIII"
             }
         },
+        "records/patrons/aristarchus/the": {
+            "name": {
+                "el": "Αρίσταρχος ο Θεσσαλονικεύς",
+                "en": "Aristarchus of Thessalonica",
+                "la": "Aristarchus Thessalonicensis",
+                "pl": "Arystarch z Tesaloniki"
+            },
+            "sources": {
+                "other-martyrology-days": "4 VIII"
+            }
+        },
         "records/patrons/dominicus/oxo": {
             "name": {
                 "es": "Domingo de Osma",

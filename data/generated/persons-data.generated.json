@@ -1052,6 +1052,27 @@
         ],
         "feasts": []
     },
+    "patrons/aristarchus": {
+        "names": {
+            "la": "Aristarchus",
+            "en": "Aristarchus",
+            "pl": "Arystarch",
+            "el": "Αρίσταρχος"
+        }
+    },
+    "patrons/aristarchus/the": {
+        "names": {
+            "el": "Αρίσταρχος ο Θεσσαλονικεύς",
+            "en": "Aristarchus of Thessalonica",
+            "la": "Aristarchus Thessalonicensis",
+            "pl": "Arystarch z Tesaloniki"
+        },
+        "died": [
+            ">1",
+            "<100"
+        ],
+        "feasts": []
+    },
     "patrons/athanasius": {
         "names": {
             "la": "Athanasius",

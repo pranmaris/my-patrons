@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Arystarch"
+    },
+    "translations": {
+        "la": [
+            "Aristarchus"
+        ],
+        "en": [
+            "Aristarchus"
+        ],
+        "pl": [
+            "Arystarch"
+        ],
+        "el": [
+            "Αρίσταρχος"
+        ]
+    },
+    "links": {
+        "records/patrons/aristarchus/the": {
+            "el": "Αρίσταρχος ο Θεσσαλονικεύς",
+            "en": "Aristarchus of Thessalonica",
+            "la": "Aristarchus Thessalonicensis",
+            "pl": "Arystarch z Tesaloniki"
+        }
+    }
+}

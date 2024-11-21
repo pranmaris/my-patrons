@@ -1,0 +1,23 @@
+{
+  "names": {
+    "el": [
+      "Αρίσταρχος ο Θεσσαλονικεύς"
+    ],
+    "en": [
+      "Aristarchus of Thessalonica"
+    ],
+    "la": [
+      "Aristarchus Thessalonicensis"
+    ],
+    "pl": [
+      "Arystarch z Tesaloniki"
+    ]
+  },
+
+  "died": [">1", "<100"],
+
+  "also-in-martyrology": ["08-04"],
+
+  "forenames": ["aristarchus"],
+  "categories": ["vir", "martyr"]
+}
