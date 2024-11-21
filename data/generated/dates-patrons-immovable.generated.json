@@ -4661,6 +4661,20 @@
             }
         }
     },
+    "08-25": {
+        "records/patrons/ludovicus/rex": {
+            "name": {
+                "fr": "Louis IX, roi de France",
+                "la": "Ludovicus IX, rex Franciae",
+                "en": "Louis IX, king of France",
+                "pl": "Ludwik IX, król Francji"
+            },
+            "sources": {
+                "reliable-death-anniversary": "25 VIII",
+                "other-martyrology-days": "25 VIII"
+            }
+        }
+    },
     "08-27": {
         "records/patrons/caesarius/are": {
             "name": {

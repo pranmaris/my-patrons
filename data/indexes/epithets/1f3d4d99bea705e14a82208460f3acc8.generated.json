@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Dziewiąty"
+    },
+    "translations": {
+        "fr": [
+            "Neuvième"
+        ],
+        "la": [
+            "Nonus"
+        ],
+        "en": [
+            "the Ninth"
+        ],
+        "pl": [
+            "Dziewiąty"
+        ]
+    },
+    "links": {
+        "records/patrons/ludovicus/rex": {
+            "fr": "Louis IX, roi de France",
+            "la": "Ludovicus IX, rex Franciae",
+            "en": "Louis IX, king of France",
+            "pl": "Ludwik IX, król Francji"
+        }
+    }
+}

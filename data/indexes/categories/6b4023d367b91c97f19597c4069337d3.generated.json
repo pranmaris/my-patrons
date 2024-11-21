@@ -32,6 +32,12 @@
             "la": "Ioannes de Ribera",
             "pl": "Jan de Ribera"
         },
+        "records/patrons/ludovicus/rex": {
+            "fr": "Louis IX, roi de France",
+            "la": "Ludovicus IX, rex Franciae",
+            "en": "Louis IX, king of France",
+            "pl": "Ludwik IX, król Francji"
+        },
         "records/patrons/oswaldus/nor": {
             "en": "Oswald of Northumbria",
             "la": "Oswaldus rex Northumbriae",

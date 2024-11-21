@@ -4603,6 +4603,26 @@
         ],
         "feasts": []
     },
+    "patrons/ludovicus": {
+        "names": {
+            "la": "Ludovicus",
+            "en": "Louis",
+            "pl": "Ludwik",
+            "fr": "Louis"
+        }
+    },
+    "patrons/ludovicus/rex": {
+        "names": {
+            "fr": "Louis IX, roi de France",
+            "la": "Ludovicus IX, rex Franciae",
+            "en": "Louis IX, king of France",
+            "pl": "Ludwik IX, król Francji"
+        },
+        "died": [
+            "1270-08-25"
+        ],
+        "feasts": []
+    },
     "patrons/lydia": {
         "names": {
             "la": "Lydia",

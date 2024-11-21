@@ -1,0 +1,38 @@
+{
+  "names": {
+    "fr": [
+      "Louis IX, roi de France"
+    ],
+    "la": [
+      "Ludovicus IX, rex Franciae"
+    ],
+    "en": [
+      "Louis IX, king of France"
+    ],
+    "pl": [
+      "Ludwik IX, król Francji"
+    ]
+  },
+
+  "epithets": [
+    {
+      "fr": "Neuvième",
+      "la": "Nonus",
+      "en": "the Ninth",
+      "pl": "Dziewiąty"
+    }
+  ],
+
+  "born": ["1214-04-25"],
+  "died": ["1270-08-25"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1297-07-11"
+  },
+
+  "also-in-martyrology": ["08-25"],
+
+  "forenames": ["ludovicus"],
+  "categories": ["vir", "confessor", "rex"]
+}
