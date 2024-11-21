@@ -3869,6 +3869,18 @@
                 "other-martyrology-days": "31 VII"
             }
         },
+        "records/patrons/iustinus/iac": {
+            "name": {
+                "it": "Giustino de Jacobis",
+                "en": "Justin de Jacobis",
+                "la": "Iustinus de Iacobis",
+                "pl": "Justyn de Jacobis"
+            },
+            "sources": {
+                "reliable-death-anniversary": "31 VII",
+                "other-martyrology-days": "31 VII"
+            }
+        },
         "records/patrons/petrus/chr": {
             "name": {
                 "la": "Petrus Chrysologus",

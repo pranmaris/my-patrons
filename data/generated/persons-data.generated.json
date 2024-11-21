@@ -4311,6 +4311,26 @@
         ],
         "feasts": []
     },
+    "patrons/iustinus": {
+        "names": {
+            "la": "Iustinus",
+            "en": "Justin",
+            "pl": "Justyn",
+            "it": "Giustino"
+        }
+    },
+    "patrons/iustinus/iac": {
+        "names": {
+            "it": "Giustino de Jacobis",
+            "en": "Justin de Jacobis",
+            "la": "Iustinus de Iacobis",
+            "pl": "Justyn de Jacobis"
+        },
+        "died": [
+            "1860-07-31"
+        ],
+        "feasts": []
+    },
     "patrons/iustus": {
         "names": {
             "la": "Iustus",

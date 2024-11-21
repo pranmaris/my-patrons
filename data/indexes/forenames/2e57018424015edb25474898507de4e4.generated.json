@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Justyn"
+    },
+    "translations": {
+        "la": [
+            "Iustinus"
+        ],
+        "en": [
+            "Justin"
+        ],
+        "pl": [
+            "Justyn"
+        ],
+        "it": [
+            "Giustino"
+        ]
+    },
+    "links": {
+        "records/patrons/iustinus/iac": {
+            "it": "Giustino de Jacobis",
+            "en": "Justin de Jacobis",
+            "la": "Iustinus de Iacobis",
+            "pl": "Justyn de Jacobis"
+        }
+    }
+}

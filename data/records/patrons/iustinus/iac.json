@@ -1,0 +1,41 @@
+{
+  "names": {
+    "it": [
+      "Giustino de Jacobis"
+    ],
+    "en": [
+      "Justin de Jacobis"
+    ],
+    "la": [
+      "Iustinus de Iacobis"
+    ],
+    "pl": [
+      "Justyn de Jacobis"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "de Jacobis"
+    }
+  ],
+
+  "born": ["1800-10-09"],
+  "died": ["1860-07-31"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1939-06-25"
+  },
+  "canonized": {
+    "type": "equipollently",
+    "date": "1975-10-26"
+  },
+
+  "also-in-martyrology": ["07-31"],
+
+  "forenames": ["iustinus"],
+  "categories": ["vir", "episcopus"],
+
+  "order": ["cm"]
+}
