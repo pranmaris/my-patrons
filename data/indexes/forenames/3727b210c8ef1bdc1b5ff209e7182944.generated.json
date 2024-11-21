@@ -1,0 +1,24 @@
+{
+    "names": {
+        "la": "Susanna",
+        "en": "Susanna"
+    },
+    "translations": {
+        "la": [
+            "Susanna"
+        ],
+        "en": [
+            "Susanna"
+        ],
+        "pl": [
+            "Zuzanna"
+        ]
+    },
+    "links": {
+        "records/patrons/susanna/rom": {
+            "la": "Susanna Romana",
+            "en": "Susanna of Rome",
+            "pl": "Zuzanna Rzymska"
+        }
+    }
+}

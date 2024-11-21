@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Susanna Romana"
+    ],
+    "en": [
+      "Susanna of Rome"
+    ],
+    "pl": [
+      "Zuzanna Rzymska"
+    ]
+  },
+
+  "died": [">201", "<300"],
+
+  "also-in-martyrology": ["08-11"],
+
+  "forenames": ["susanna"],
+  "categories": ["femina", "martyrix", "virgo"]
+}

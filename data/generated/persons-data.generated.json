@@ -7093,6 +7093,25 @@
         ],
         "feasts": []
     },
+    "patrons/susanna": {
+        "names": {
+            "la": "Susanna",
+            "en": "Susanna",
+            "pl": "Zuzanna"
+        }
+    },
+    "patrons/susanna/rom": {
+        "names": {
+            "la": "Susanna Romana",
+            "en": "Susanna of Rome",
+            "pl": "Zuzanna Rzymska"
+        },
+        "died": [
+            ">201",
+            "<300"
+        ],
+        "feasts": []
+    },
     "patrons/tarsicius": {
         "names": {
             "la": "Tarsicius",

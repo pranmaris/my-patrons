@@ -4363,6 +4363,16 @@
                 "reliable-death-anniversary": "11 VIII",
                 "other-martyrology-days": "11 VIII"
             }
+        },
+        "records/patrons/susanna/rom": {
+            "name": {
+                "la": "Susanna Romana",
+                "en": "Susanna of Rome",
+                "pl": "Zuzanna Rzymska"
+            },
+            "sources": {
+                "other-martyrology-days": "11 VIII"
+            }
         }
     },
     "08-12": {

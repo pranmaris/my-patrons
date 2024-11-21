@@ -946,6 +946,11 @@
             "la": "Stephanus protomartyr",
             "pl": "Szczepan Pramęczennik"
         },
+        "records/patrons/susanna/rom": {
+            "la": "Susanna Romana",
+            "en": "Susanna of Rome",
+            "pl": "Zuzanna Rzymska"
+        },
         "records/patrons/tarsicius/aco": {
             "la": "Tarsicius Acolytus",
             "en": "Tarcisius Acolyte",

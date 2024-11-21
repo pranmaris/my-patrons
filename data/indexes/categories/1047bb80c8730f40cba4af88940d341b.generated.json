@@ -205,6 +205,11 @@
             "en": "Sophia of Fermo",
             "pl": "Zofia z Fermo"
         },
+        "records/patrons/susanna/rom": {
+            "la": "Susanna Romana",
+            "en": "Susanna of Rome",
+            "pl": "Zuzanna Rzymska"
+        },
         "records/patrons/teresia/ste": {
             "de": "Therese Benedicta vom Kreuz",
             "en": "Teresa Benedicta of the Cross",
