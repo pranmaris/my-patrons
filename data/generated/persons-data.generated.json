@@ -664,6 +664,24 @@
         ],
         "feasts": []
     },
+    "patrons/alypius": {
+        "names": {
+            "la": "Alypius",
+            "en": "Alypius",
+            "pl": "Alipiusz"
+        }
+    },
+    "patrons/alypius/tha": {
+        "names": {
+            "la": "Alypius Tagastensis",
+            "en": "Alypius of Tagaste",
+            "pl": "Alipiusz z Tagasty"
+        },
+        "died": [
+            "~430"
+        ],
+        "feasts": []
+    },
     "patrons/ambrosius": {
         "names": {
             "la": "Ambrosius",

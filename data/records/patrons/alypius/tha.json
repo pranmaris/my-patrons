@@ -1,0 +1,21 @@
+{
+  "names": {
+    "la": [
+      "Alypius Tagastensis"
+    ],
+    "en": [
+      "Alypius of Tagaste"
+    ],
+    "pl": [
+      "Alipiusz z Tagasty"
+    ]
+  },
+
+  "born": ["~360"],
+  "died": ["~430"],
+
+  "also-in-martyrology": ["08-15"],
+
+  "forenames": ["alypius"],
+  "categories": ["vir", "episcopus"]
+}

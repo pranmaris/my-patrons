@@ -4436,6 +4436,16 @@
                 "other-martyrology-days": "15 VIII"
             }
         },
+        "records/patrons/alypius/tha": {
+            "name": {
+                "la": "Alypius Tagastensis",
+                "en": "Alypius of Tagaste",
+                "pl": "Alipiusz z Tagasty"
+            },
+            "sources": {
+                "other-martyrology-days": "15 VIII"
+            }
+        },
         "records/patrons/tarsicius/aco": {
             "name": {
                 "la": "Tarsicius Acolytus",
