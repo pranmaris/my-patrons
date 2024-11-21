@@ -20,6 +20,12 @@
             "la": "Franciscus Borgia",
             "pl": "Franciszek Borgiasz"
         },
+        "records/patrons/laurentius/bru": {
+            "it": "Lorenzo da Brindisi",
+            "en": "Lawrence of Brindisi",
+            "la": "Laurentius de Brundusio",
+            "pl": "Wawrzyniec z Brindisi"
+        },
         "records/patrons/raymundus/pen": {
             "ca": "Ramon de Penyafort",
             "es": "Raimundo de Peñafort",

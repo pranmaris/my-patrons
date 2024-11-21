@@ -1,0 +1,35 @@
+{
+  "names": {
+    "it": [
+      "Lorenzo da Brindisi"
+    ],
+    "en": [
+      "Lawrence of Brindisi"
+    ],
+    "la": [
+      "Laurentius de Brundusio"
+    ],
+    "pl": [
+      "Wawrzyniec z Brindisi"
+    ]
+  },
+
+  "born": ["1559-07-22"],
+  "died": ["1619-07-22"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1783-05-23"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1881-12-08"
+  },
+
+  "also-in-martyrology": ["07-21", "07-22"],
+
+  "forenames": ["laurentius"],
+  "categories": ["vir", "sacerdos", "presbyter", "generalis", "doctor-ecclesiae"],
+
+  "order": ["ofmcap"]
+}

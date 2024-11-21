@@ -12,9 +12,18 @@
         ],
         "pl": [
             "Wawrzyniec"
+        ],
+        "it": [
+            "Lorenzo"
         ]
     },
     "links": {
+        "records/patrons/laurentius/bru": {
+            "it": "Lorenzo da Brindisi",
+            "en": "Lawrence of Brindisi",
+            "la": "Laurentius de Brundusio",
+            "pl": "Wawrzyniec z Brindisi"
+        },
         "records/patrons/laurentius/can": {
             "en": "Laurence of Canterbury",
             "la": "Laurentius Cantuariensis",

@@ -4369,8 +4369,21 @@
         "names": {
             "la": "Laurentius",
             "en": "Lawrence",
-            "pl": "Wawrzyniec"
+            "pl": "Wawrzyniec",
+            "it": "Lorenzo"
         }
+    },
+    "patrons/laurentius/bru": {
+        "names": {
+            "it": "Lorenzo da Brindisi",
+            "en": "Lawrence of Brindisi",
+            "la": "Laurentius de Brundusio",
+            "pl": "Wawrzyniec z Brindisi"
+        },
+        "died": [
+            "1619-07-22"
+        ],
+        "feasts": []
     },
     "patrons/laurentius/can": {
         "names": {

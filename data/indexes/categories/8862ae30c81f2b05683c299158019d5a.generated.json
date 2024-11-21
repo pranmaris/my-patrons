@@ -113,6 +113,12 @@
             "en": "Isidore of Seville",
             "pl": "Izydor z Sewilli"
         },
+        "records/patrons/laurentius/bru": {
+            "it": "Lorenzo da Brindisi",
+            "en": "Lawrence of Brindisi",
+            "la": "Laurentius de Brundusio",
+            "pl": "Wawrzyniec z Brindisi"
+        },
         "records/patrons/petrus/chr": {
             "la": "Petrus Chrysologus",
             "en": "Peter Chrysologus",

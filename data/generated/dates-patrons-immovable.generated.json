@@ -3633,7 +3633,32 @@
             }
         }
     },
+    "07-21": {
+        "records/patrons/laurentius/bru": {
+            "name": {
+                "it": "Lorenzo da Brindisi",
+                "en": "Lawrence of Brindisi",
+                "la": "Laurentius de Brundusio",
+                "pl": "Wawrzyniec z Brindisi"
+            },
+            "sources": {
+                "other-martyrology-days": "21 VII"
+            }
+        }
+    },
     "07-22": {
+        "records/patrons/laurentius/bru": {
+            "name": {
+                "it": "Lorenzo da Brindisi",
+                "en": "Lawrence of Brindisi",
+                "la": "Laurentius de Brundusio",
+                "pl": "Wawrzyniec z Brindisi"
+            },
+            "sources": {
+                "reliable-death-anniversary": "22 VII",
+                "other-martyrology-days": "22 VII"
+            }
+        },
         "records/patrons/maria/mag": {
             "name": {
                 "en": "Mary Magdalene",
