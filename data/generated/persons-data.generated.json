@@ -1192,7 +1192,8 @@
             "la": "Bartholomaeus",
             "en": "Bartholomew",
             "pl": "Bartłomiej",
-            "it": "Bartolomeo"
+            "it": "Bartolomeo",
+            "pt": "Bartolomeu"
         }
     },
     "patrons/bartholomaeus/apo": {
@@ -1203,6 +1204,18 @@
         },
         "died": [
             "~80"
+        ],
+        "feasts": []
+    },
+    "patrons/bartholomaeus/fer": {
+        "names": {
+            "pt": "Bartolomeu dos Mártires",
+            "en": "Bartholomew of the Martyrs",
+            "la": "Bartholomaeus a Martyribus Fernandes",
+            "pl": "Bartłomiej Fernandes od Męczenników"
+        },
+        "died": [
+            "1590-07-16"
         ],
         "feasts": []
     },

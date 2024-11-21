@@ -3545,6 +3545,18 @@
                 "other-martyrology-days": "16 VII"
             }
         },
+        "records/patrons/bartholomaeus/fer": {
+            "name": {
+                "pt": "Bartolomeu dos Mártires",
+                "en": "Bartholomew of the Martyrs",
+                "la": "Bartholomaeus a Martyribus Fernandes",
+                "pl": "Bartłomiej Fernandes od Męczenników"
+            },
+            "sources": {
+                "reliable-death-anniversary": "16 VII",
+                "other-martyrology-days": "16 VII"
+            }
+        },
         "records/patrons/maria/pos": {
             "name": {
                 "fr": "Marie-Madeleine Postel",

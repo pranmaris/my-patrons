@@ -277,6 +277,12 @@
             "en": "Bartholomew the Apostle",
             "pl": "Bartłomiej Apostoł"
         },
+        "records/patrons/bartholomaeus/fer": {
+            "pt": "Bartolomeu dos Mártires",
+            "en": "Bartholomew of the Martyrs",
+            "la": "Bartholomaeus a Martyribus Fernandes",
+            "pl": "Bartłomiej Fernandes od Męczenników"
+        },
         "records/patrons/bartholomaeus/lon": {
             "it": "Bartolo Longo",
             "en": "Bartolo Longo",

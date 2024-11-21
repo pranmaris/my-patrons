@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "a Martyribus"
+    },
+    "translations": {
+        "pt": [
+            "dos Mártires"
+        ],
+        "en": [
+            "of the Martyrs"
+        ],
+        "la": [
+            "a Martyribus"
+        ],
+        "pl": [
+            "od Męczenników"
+        ]
+    },
+    "links": {
+        "records/patrons/bartholomaeus/fer": {
+            "pt": "Bartolomeu dos Mártires",
+            "en": "Bartholomew of the Martyrs",
+            "la": "Bartholomaeus a Martyribus Fernandes",
+            "pl": "Bartłomiej Fernandes od Męczenników"
+        }
+    }
+}
