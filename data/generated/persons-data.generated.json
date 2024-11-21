@@ -3185,6 +3185,24 @@
         ],
         "feasts": []
     },
+    "patrons/helena": {
+        "names": {
+            "la": "Helena",
+            "en": "Helen",
+            "pl": "Helena"
+        }
+    },
+    "patrons/helena/mat": {
+        "names": {
+            "la": "Helena, mater Constantini",
+            "en": "Helena, mother of Constantine",
+            "pl": "Helena, matka Konstantyna"
+        },
+        "died": [
+            "~329"
+        ],
+        "feasts": []
+    },
     "patrons/henricus": {
         "names": {
             "la": "Henricus",

@@ -15,6 +15,11 @@
         ]
     },
     "links": {
+        "records/patrons/helena/mat": {
+            "la": "Helena, mater Constantini",
+            "en": "Helena, mother of Constantine",
+            "pl": "Helena, matka Konstantyna"
+        },
         "records/patrons/maria/cie": {
             "pl": "Maria Gwidona od Miłosierdzia Bożego",
             "en": "Mary Guidona of Divine Mercy",

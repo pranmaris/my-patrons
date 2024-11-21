@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Augusta",
+        "en": "Augusta",
+        "pl": "Augusta"
+    },
+    "translations": {
+        "la": [
+            "Augusta"
+        ],
+        "en": [
+            "Augusta"
+        ],
+        "pl": [
+            "Augusta"
+        ]
+    },
+    "links": {
+        "records/patrons/helena/mat": {
+            "la": "Helena, mater Constantini",
+            "en": "Helena, mother of Constantine",
+            "pl": "Helena, matka Konstantyna"
+        }
+    }
+}

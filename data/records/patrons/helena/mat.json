@@ -1,0 +1,38 @@
+{
+  "names": {
+    "la": [
+      "Helena, mater Constantini",
+      "Flavia Iulia Helena Augusta"
+    ],
+    "en": [
+      "Helena, mother of Constantine",
+      "Helena of Constantinople",
+      "Flavia Julia Helena"
+    ],
+    "pl": [
+      "Helena, matka Konstantyna",
+      "Helena, cesarzowa"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Mater Constantini imperatoris",
+      "en": "Mother of Constantine, imperator",
+      "pl": "Matka cesarza Konstantyna"
+    },
+    {
+      "la": "Augusta",
+      "en": "Augusta",
+      "pl": "Augusta"
+    }
+  ],
+
+  "born": [">246", "<250"],
+  "died": ["~329"],
+
+  "also-in-martyrology": ["08-18"],
+
+  "forenames": ["helena"],
+  "categories": ["femina"]
+}
