@@ -257,6 +257,11 @@
             "la": "Aristarchus Thessalonicensis",
             "pl": "Arystarch z Tesaloniki"
         },
+        "records/patrons/aristides/ath": {
+            "la": "Aristides Atheniensis",
+            "en": "Aristides of Athens",
+            "pl": "Arystydes z Aten"
+        },
         "records/patrons/athanasius/ale": {
             "la": "Athanasius Magnus",
             "en": "Athanasius the Great",

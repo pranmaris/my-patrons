@@ -116,6 +116,9 @@
     "24e7628d5af80f8d2eb721893b1679a5": {
         "la": "maritus"
     },
+    "24f4f48771b1377146c601ae2e0e38aa": {
+        "la": "philosophus"
+    },
     "259058bb86d85d62f14b7feee0a165da": {
         "la": "monialis"
     },
@@ -280,6 +283,9 @@
     },
     "64e59885a7e12dad4032c93e82456eec": {
         "la": "tertiaria"
+    },
+    "6537edcef636f3edd981404d8ead2ce9": {
+        "en": "philosopher"
     },
     "65ab7fe8f0ff573a71f9a87e725e00a1": {
         "pl": "archanioł"
@@ -550,6 +556,9 @@
     },
     "bf43b661e988366f97a46d67b7f822ca": {
         "pl": "biskup"
+    },
+    "c0f268fca43678e16d2adde8dfa7a3e4": {
+        "pl": "filozof"
     },
     "c16e378185ee71ca686e24abc62bf832": {
         "en": "tertiary"

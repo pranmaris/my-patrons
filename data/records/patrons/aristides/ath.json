@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Aristides Atheniensis"
+    ],
+    "en": [
+      "Aristides of Athens"
+    ],
+    "pl": [
+      "Arystydes z Aten"
+    ]
+  },
+
+  "died": ["~134"],
+
+  "also-in-martyrology": ["08-31"],
+
+  "forenames": ["aristides"],
+  "categories": ["vir", "philosophus"]
+}

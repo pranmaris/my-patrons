@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Arystydes"
+    },
+    "translations": {
+        "la": [
+            "Aristides"
+        ],
+        "en": [
+            "Aristides"
+        ],
+        "pl": [
+            "Arystydes"
+        ]
+    },
+    "links": {
+        "records/patrons/aristides/ath": {
+            "la": "Aristides Atheniensis",
+            "en": "Aristides of Athens",
+            "pl": "Arystydes z Aten"
+        }
+    }
+}

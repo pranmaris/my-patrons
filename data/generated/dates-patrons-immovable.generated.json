@@ -4771,6 +4771,16 @@
         }
     },
     "08-31": {
+        "records/patrons/aristides/ath": {
+            "name": {
+                "la": "Aristides Atheniensis",
+                "en": "Aristides of Athens",
+                "pl": "Arystydes z Aten"
+            },
+            "sources": {
+                "other-martyrology-days": "31 VIII"
+            }
+        },
         "records/patrons/ioseph/ari": {
             "name": {
                 "la": "Joseph ab Arimathaea",

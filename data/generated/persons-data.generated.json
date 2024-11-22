@@ -1091,6 +1091,24 @@
         ],
         "feasts": []
     },
+    "patrons/aristides": {
+        "names": {
+            "la": "Aristides",
+            "en": "Aristides",
+            "pl": "Arystydes"
+        }
+    },
+    "patrons/aristides/ath": {
+        "names": {
+            "la": "Aristides Atheniensis",
+            "en": "Aristides of Athens",
+            "pl": "Arystydes z Aten"
+        },
+        "died": [
+            "~134"
+        ],
+        "feasts": []
+    },
     "patrons/athanasius": {
         "names": {
             "la": "Athanasius",

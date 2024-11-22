@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "filozof"
+    },
+    "translations": {
+        "la": [
+            "philosophus"
+        ],
+        "en": [
+            "philosopher"
+        ],
+        "pl": [
+            "filozof"
+        ]
+    },
+    "links": {
+        "records/patrons/aristides/ath": {
+            "la": "Aristides Atheniensis",
+            "en": "Aristides of Athens",
+            "pl": "Arystydes z Aten"
+        }
+    }
+}
