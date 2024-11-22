@@ -4253,6 +4253,25 @@
         ],
         "feasts": []
     },
+    "patrons/iosue": {
+        "names": {
+            "la": "Iosue",
+            "en": "Joshua",
+            "pl": "Jozue"
+        }
+    },
+    "patrons/iosue/nun": {
+        "names": {
+            "la": "Iosue, filius Nun",
+            "en": "Joshua, son of Nun",
+            "pl": "Jozue, syn Nuna"
+        },
+        "died": [
+            ">-1300",
+            "<-1201"
+        ],
+        "feasts": []
+    },
     "patrons/irmina": {
         "names": {
             "la": "Irmina",

@@ -1149,6 +1149,11 @@
             "en": "Joseph Zaplata",
             "la": "Iosephus Zaplata"
         },
+        "records/patrons/iosue/nun": {
+            "la": "Iosue, filius Nun",
+            "en": "Joshua, son of Nun",
+            "pl": "Jozue, syn Nuna"
+        },
         "records/patrons/isaias/pro": {
             "he": "יְשַׁעְיָהוּ",
             "en": "Isaiah",

@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Iosue, filius Nun"
+    ],
+    "en": [
+      "Joshua, son of Nun"
+    ],
+    "pl": [
+      "Jozue, syn Nuna"
+    ]
+  },
+
+  "died": [">-1300", "<-1201"],
+
+  "also-in-martyrology": ["09-01"],
+
+  "forenames": ["iosue"],
+  "categories": ["vir"]
+}

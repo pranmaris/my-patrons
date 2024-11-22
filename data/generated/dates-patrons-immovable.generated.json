@@ -4803,6 +4803,16 @@
             "sources": {
                 "other-martyrology-days": "1 IX"
             }
+        },
+        "records/patrons/iosue/nun": {
+            "name": {
+                "la": "Iosue, filius Nun",
+                "en": "Joshua, son of Nun",
+                "pl": "Jozue, syn Nuna"
+            },
+            "sources": {
+                "other-martyrology-days": "1 IX"
+            }
         }
     },
     "09-02": {
