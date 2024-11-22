@@ -2032,6 +2032,25 @@
         ],
         "feasts": []
     },
+    "patrons/corbinianus": {
+        "names": {
+            "la": "Corbinianus",
+            "en": "Corbinian",
+            "pl": "Korbinian"
+        }
+    },
+    "patrons/corbinianus/fri": {
+        "names": {
+            "la": "Corbinianus de Frisingae",
+            "en": "Corbinian of Freising",
+            "pl": "Korbinian z Fryzyngi"
+        },
+        "died": [
+            "~725",
+            "~730"
+        ],
+        "feasts": []
+    },
     "patrons/cosmas": {
         "names": {
             "la": "Cosmas",

@@ -4898,6 +4898,18 @@
             }
         }
     },
+    "09-08": {
+        "records/patrons/corbinianus/fri": {
+            "name": {
+                "la": "Corbinianus de Frisingae",
+                "en": "Corbinian of Freising",
+                "pl": "Korbinian z Fryzyngi"
+            },
+            "sources": {
+                "other-martyrology-days": "8 IX"
+            }
+        }
+    },
     "09-11": {
         "records/patrons/paphnutius/epi": {
             "name": {
