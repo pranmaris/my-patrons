@@ -1861,6 +1861,18 @@
         ],
         "feasts": []
     },
+    "patrons/catharina/fie": {
+        "names": {
+            "it": "Caterina da Genova",
+            "la": "Catharina Genuensis",
+            "en": "Catherine of Genoa",
+            "pl": "Katarzyna z Genui"
+        },
+        "died": [
+            "1510-09-15"
+        ],
+        "feasts": []
+    },
     "patrons/catharina/lab": {
         "names": {
             "fr": "Catherine Labouré",

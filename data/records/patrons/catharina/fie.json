@@ -1,0 +1,43 @@
+{
+  "names": {
+    "it": [
+      "Caterina da Genova",
+      "Caterina Fieschi"
+    ],
+    "la": [
+      "Catharina Genuensis",
+      "Catharina Fieschi"
+    ],
+    "en": [
+      "Catherine of Genoa",
+      "Catharine Fieschi"
+    ],
+    "pl": [
+      "Katarzyna z Genui",
+      "Katarzyna Fieschi"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Fieschi"
+    }
+  ],
+
+  "born": ["1447"],
+  "died": ["1510-09-15"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1675-04-06"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1737-04-16"
+  },
+
+  "also-in-martyrology": ["09-15"],
+
+  "forenames": ["catharina"],
+  "categories": ["femina", "vidua"]
+}

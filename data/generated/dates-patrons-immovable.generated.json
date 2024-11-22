@@ -4970,6 +4970,20 @@
             }
         }
     },
+    "09-15": {
+        "records/patrons/catharina/fie": {
+            "name": {
+                "it": "Caterina da Genova",
+                "la": "Catharina Genuensis",
+                "en": "Catherine of Genoa",
+                "pl": "Katarzyna z Genui"
+            },
+            "sources": {
+                "reliable-death-anniversary": "15 IX",
+                "other-martyrology-days": "15 IX"
+            }
+        }
+    },
     "09-16": {
         "records/patrons/andreas/kim": {
             "name": {
