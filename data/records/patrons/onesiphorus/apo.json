@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Onesiphorus, Apostolorum discipulus"
+    ],
+    "en": [
+      "Onesiphorus, disciple of Apostles"
+    ],
+    "pl": [
+      "Onezyfor, uczeń Apostołów"
+    ]
+  },
+
+  "died": [">1", "<100"],
+
+  "also-in-martyrology": ["09-06"],
+
+  "forenames": ["onesiphorus"],
+  "categories": ["vir", "martyr", "discipulus"]
+}

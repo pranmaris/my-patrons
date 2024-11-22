@@ -4886,6 +4886,16 @@
             "sources": {
                 "other-martyrology-days": "6 IX"
             }
+        },
+        "records/patrons/onesiphorus/apo": {
+            "name": {
+                "la": "Onesiphorus, Apostolorum discipulus",
+                "en": "Onesiphorus, disciple of Apostles",
+                "pl": "Onezyfor, uczeń Apostołów"
+            },
+            "sources": {
+                "other-martyrology-days": "6 IX"
+            }
         }
     },
     "09-11": {

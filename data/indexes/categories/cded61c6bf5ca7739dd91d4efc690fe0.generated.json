@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "uczeń"
+    },
+    "translations": {
+        "la": [
+            "discipulus"
+        ],
+        "en": [
+            "disciple"
+        ],
+        "pl": [
+            "uczeń"
+        ]
+    },
+    "links": {
+        "records/patrons/onesiphorus/apo": {
+            "la": "Onesiphorus, Apostolorum discipulus",
+            "en": "Onesiphorus, disciple of Apostles",
+            "pl": "Onezyfor, uczeń Apostołów"
+        }
+    }
+}

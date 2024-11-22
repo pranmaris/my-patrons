@@ -635,6 +635,11 @@
             "en": "Narcissus Turchan",
             "la": "Narcissus Turchan"
         },
+        "records/patrons/onesiphorus/apo": {
+            "la": "Onesiphorus, Apostolorum discipulus",
+            "en": "Onesiphorus, disciple of Apostles",
+            "pl": "Onezyfor, uczeń Apostołów"
+        },
         "records/patrons/oswaldus/nor": {
             "en": "Oswald of Northumbria",
             "la": "Oswaldus rex Northumbriae",

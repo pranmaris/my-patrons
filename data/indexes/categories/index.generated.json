@@ -65,6 +65,9 @@
     "14e9e923ee281b96d809085e23e3a816": {
         "pl": "samotnik"
     },
+    "151aef07e2f08ba6f64f7d28505ca0cb": {
+        "en": "disciple"
+    },
     "171b6ba14aeefeb08caf15065042a4c2": {
         "en": "monk"
     },
@@ -255,6 +258,9 @@
     },
     "590f35821fbed7b2ab58a9dbaf36c42d": {
         "la": "vir"
+    },
+    "5a506982757b3883a0dee207a6212b49": {
+        "la": "discipulus"
     },
     "5b7855fb09792aeb9820c29cee334b02": {
         "pl": "zakonnica"
@@ -599,6 +605,9 @@
     },
     "cdec765e51fc3ed533486e3641bd1305": {
         "la": "episcopus"
+    },
+    "cded61c6bf5ca7739dd91d4efc690fe0": {
+        "pl": "uczeń"
     },
     "d0a87b4018d6521b0f5a49e5e03adb6d": {
         "en": "virgin"

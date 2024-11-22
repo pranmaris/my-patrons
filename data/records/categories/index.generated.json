@@ -119,6 +119,11 @@
         "en": "deacon",
         "pl": "diakon"
     },
+    "discipulus": {
+        "la": "discipulus",
+        "en": "disciple",
+        "pl": "uczeń"
+    },
     "doctor-ecclesiae": {
         "la": "doctor Ecclesiae",
         "en": "doctor of the Church",

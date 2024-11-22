@@ -5916,6 +5916,25 @@
         ],
         "feasts": []
     },
+    "patrons/onesiphorus": {
+        "names": {
+            "la": "Onesiphorus",
+            "en": "Onesiphorus",
+            "pl": "Onezyfor"
+        }
+    },
+    "patrons/onesiphorus/apo": {
+        "names": {
+            "la": "Onesiphorus, Apostolorum discipulus",
+            "en": "Onesiphorus, disciple of Apostles",
+            "pl": "Onezyfor, uczeń Apostołów"
+        },
+        "died": [
+            ">1",
+            "<100"
+        ],
+        "feasts": []
+    },
     "patrons/oswaldus": {
         "names": {
             "la": "Oswaldus",
