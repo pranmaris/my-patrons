@@ -589,6 +589,12 @@
             "la": "Dominicus Oxomensis",
             "pl": "Dominik Guzmán"
         },
+        "records/patrons/dominicus/sav": {
+            "it": "Domenico Savio",
+            "en": "Dominic Savio",
+            "la": "Dominicus Savio",
+            "pl": "Dominik Savio"
+        },
         "records/patrons/domninus/cae": {
             "la": "Domninus Caesariensis",
             "en": "Domninus of Caesarea",

@@ -1364,6 +1364,18 @@
         }
     },
     "03-09": {
+        "records/patrons/dominicus/sav": {
+            "name": {
+                "it": "Domenico Savio",
+                "en": "Dominic Savio",
+                "la": "Dominicus Savio",
+                "pl": "Dominik Savio"
+            },
+            "sources": {
+                "reliable-death-anniversary": "9 III",
+                "other-martyrology-days": "9 III"
+            }
+        },
         "records/patrons/gregorius/nys": {
             "name": {
                 "el": "Γρηγόριος Νύσσης",

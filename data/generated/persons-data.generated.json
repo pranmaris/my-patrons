@@ -2334,7 +2334,8 @@
             "la": "Dominicus",
             "en": "Dominic",
             "pl": "Dominik",
-            "es": "Domingo"
+            "es": "Domingo",
+            "it": "Domenico"
         }
     },
     "patrons/dominicus/exi": {
@@ -2358,6 +2359,18 @@
         },
         "died": [
             "1221-08-06"
+        ],
+        "feasts": []
+    },
+    "patrons/dominicus/sav": {
+        "names": {
+            "it": "Domenico Savio",
+            "en": "Dominic Savio",
+            "la": "Dominicus Savio",
+            "pl": "Dominik Savio"
+        },
+        "died": [
+            "1857-03-09"
         ],
         "feasts": []
     },

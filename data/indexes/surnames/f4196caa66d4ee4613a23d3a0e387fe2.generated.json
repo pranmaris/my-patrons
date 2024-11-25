@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Savio"
+    },
+    "translations": {
+        "it": [
+            "Savio"
+        ]
+    },
+    "links": {
+        "records/patrons/dominicus/sav": {
+            "it": "Domenico Savio",
+            "en": "Dominic Savio",
+            "la": "Dominicus Savio",
+            "pl": "Dominik Savio"
+        }
+    }
+}
