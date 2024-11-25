@@ -5244,6 +5244,17 @@
         }
     },
     "09-29": {
+        "records/patrons/ioannes/duk": {
+            "name": {
+                "la": "Ioannes de Dukla",
+                "en": "John of Dukla",
+                "pl": "Jan z Dukli"
+            },
+            "sources": {
+                "reliable-death-anniversary": "29 IX",
+                "other-martyrology-days": "29 IX"
+            }
+        },
         "records/patrons/gabriel/arc": {
             "name": {
                 "la": "Gabriel Archangelus",

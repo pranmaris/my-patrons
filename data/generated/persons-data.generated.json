@@ -3889,6 +3889,17 @@
         ],
         "feasts": []
     },
+    "patrons/ioannes/duk": {
+        "names": {
+            "la": "Ioannes de Dukla",
+            "en": "John of Dukla",
+            "pl": "Jan z Dukli"
+        },
+        "died": [
+            "1484-09-29"
+        ],
+        "feasts": []
+    },
     "patrons/ioannes/dun": {
         "names": {
             "de": "Johannes Duns Scotus",

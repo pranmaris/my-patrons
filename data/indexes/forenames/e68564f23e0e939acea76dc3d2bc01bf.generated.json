@@ -86,6 +86,11 @@
             "la": "Ioannes de Deo",
             "pl": "Jan Boży"
         },
+        "records/patrons/ioannes/duk": {
+            "la": "Ioannes de Dukla",
+            "en": "John of Dukla",
+            "pl": "Jan z Dukli"
+        },
         "records/patrons/ioannes/dun": {
             "de": "Johannes Duns Scotus",
             "en": "John Duns Scotus",

@@ -1,0 +1,32 @@
+{
+  "names": {
+    "la": [
+      "Ioannes de Dukla"
+    ],
+    "en": [
+      "John of Dukla"
+    ],
+    "pl": [
+      "Jan z Dukli"
+    ]
+  },
+
+  "born": ["~1414"],
+  "died": ["1484-09-29"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1733-01-23"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1997-06-10"
+  },
+
+  "also-in-martyrology": ["09-29"],
+
+  "forenames": ["ioannes"],
+  "categories": ["vir", "presbyter"],
+
+  "order": ["ofm"]
+}
