@@ -5087,6 +5087,18 @@
         ],
         "feasts": []
     },
+    "patrons/maria/gal": {
+        "names": {
+            "it": "Maria Francesca delle Piaghe di nostro Signore Gesù Cristo",
+            "en": "Mary Frances of the Wounds of our Lord Jesus Christ",
+            "la": "Maria Francisca a Vulneribus Domini nostri Iesu Christi",
+            "pl": "Maria Franciszka od Ran naszego Pana Jezusa Chrystusa"
+        },
+        "died": [
+            "1791-10-06"
+        ],
+        "feasts": []
+    },
     "patrons/maria/joz": {
         "names": {
             "pl": "Maria Daniela od Jezusa i Maryi Niepokalanej",

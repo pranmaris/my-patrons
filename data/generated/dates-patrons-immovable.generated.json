@@ -5490,6 +5490,18 @@
                 "reliable-death-anniversary": "6 X",
                 "other-martyrology-days": "6 X"
             }
+        },
+        "records/patrons/maria/gal": {
+            "name": {
+                "it": "Maria Francesca delle Piaghe di nostro Signore Gesù Cristo",
+                "en": "Mary Frances of the Wounds of our Lord Jesus Christ",
+                "la": "Maria Francisca a Vulneribus Domini nostri Iesu Christi",
+                "pl": "Maria Franciszka od Ran naszego Pana Jezusa Chrystusa"
+            },
+            "sources": {
+                "reliable-death-anniversary": "6 X",
+                "other-martyrology-days": "6 X"
+            }
         }
     },
     "10-07": {

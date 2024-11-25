@@ -1,0 +1,64 @@
+{
+  "names": {
+    "it": [
+      "Maria Francesca delle Piaghe di nostro Signore Gesù Cristo",
+      "Maria Francesca delle Cinque Piaghe di nostro Signore Gesù Cristo",
+      "Anna Maria Gallo"
+    ],
+    "en": [
+      "Mary Frances of the Wounds of our Lord Jesus Christ",
+      "Mary Frances of the Five Wounds of our Lord Jesus Christ",
+      "Anna Maria Gallo"
+    ],
+    "la": [
+      "Maria Francisca a Vulneribus Domini nostri Iesu Christi",
+      "Maria Francisca a Quinque Vulneribus Domini nostri Iesu Christi",
+      "Anna Maria Gallo"
+    ],
+    "pl": [
+      "Maria Franciszka od Ran naszego Pana Jezusa Chrystusa",
+      "Maria Franciszka od Pięciu Ran naszego Pana Jezusa Chrystusa",
+      "Anna Maria Gallo"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Gallo"
+    }
+  ],
+
+  "epithets": [
+    {
+      "it": "delle Piaghe di nostro Signore Gesù Cristo",
+      "en": "of the Wounds of our Lord Jesus Christ",
+      "la": "a Vulneribus Domini nostri Iesu Christi",
+      "pl": "od Ran naszego Pana Jezusa Chrystusa"
+    },
+    {
+      "it": "delle Cinque Piaghe di nostro Signore Gesù Cristo",
+      "en": "of the Five Wounds of our Lord Jesus Christ",
+      "la": "a Quinque Vulneribus Domini nostri Iesu Christi",
+      "pl": "od Pięciu Ran naszego Pana Jezusa Chrystusa"
+    }
+  ],
+
+  "born": ["1715-03-25"],
+  "died": ["1791-10-06"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1843-11-12"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1867-06-29"
+  },
+
+  "also-in-martyrology": ["10-06"],
+
+  "forenames": ["maria", "francisca", "anna"],
+  "categories": ["femina", "virgo", "tertiaria"],
+
+  "order": ["tosf"]
+}

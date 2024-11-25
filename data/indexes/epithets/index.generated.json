@@ -44,6 +44,9 @@
     "11b496862a444b03cb75b2a686a634e4": {
         "en": "Apostle of the Hungarians"
     },
+    "129490105f1269f0e5782104504318d2": {
+        "it": "delle Cinque Piaghe di nostro Signore Gesù Cristo"
+    },
     "1560673bc08ac85eee8c5b1335b29aea": {
         "la": "a Sanctissimo Sacramento"
     },
@@ -74,14 +77,23 @@
     "2152198cf875936537ecdf92faa77469": {
         "en": "Sinner"
     },
+    "2363328fc79aba113fc3ebdecf59c968": {
+        "en": "of the Five Wounds of our Lord Jesus Christ"
+    },
     "24937c024a027b494042f9509c1ccf24": {
         "en": "of the Sacred Heart"
     },
     "2723fe3c74c71669469d92340d755d51": {
         "pl": "Teolog"
     },
+    "2929dde622d7b5c73da0e8d9622fe650": {
+        "la": "a Quinque Vulneribus Domini nostri Iesu Christi"
+    },
     "2c3f0cbe1e555d8499dc196fa7aa38ea": {
         "la": "Primus ex ordine Levitico Sacerdos"
+    },
+    "2c6d48f94bf28f15d944fefcf85432b3": {
+        "pl": "od Pięciu Ran naszego Pana Jezusa Chrystusa"
     },
     "2cc264f5d2983b804d1d7384e930a157": {
         "pl": "Grzesznica"
@@ -151,8 +163,14 @@
     "444e2cd8b8df66ec91fbcd26ab1e47b9": {
         "la": "a Divina Misericordia"
     },
+    "4549aa8a37edfb65af769ff272019541": {
+        "pl": "od Ran naszego Pana Jezusa Chrystusa"
+    },
     "46161ca6cfcd02e8e877b8f2656c7a70": {
         "la": "a Sacro Corde"
+    },
+    "46bd03a0e1f5409aa09dabe3fd04db7d": {
+        "en": "of the Wounds of our Lord Jesus Christ"
     },
     "49a84c8b5835d08a61c8c2f8c253e34e": {
         "la": "Primus Hierosolymorum Episcopus"
@@ -211,6 +229,9 @@
     },
     "619b136922b26ab131cd10d37c339eda": {
         "la": "Secundus"
+    },
+    "6511ec20a2776daa9d79b5073f5d46ce": {
+        "it": "delle Piaghe di nostro Signore Gesù Cristo"
     },
     "6d7b5ed123e2db89590e16610f95c34f": {
         "la": "Decimus"
@@ -299,6 +320,9 @@
     },
     "883905c16d688c875456aab5d0fa39f9": {
         "pt": "dos Mártires"
+    },
+    "8b1f4967ede1463af163799501cd7912": {
+        "la": "a Vulneribus Domini nostri Iesu Christi"
     },
     "908b53fc9c379c8ed8bad6d45ff51bed": {
         "en": "the Theologian"
