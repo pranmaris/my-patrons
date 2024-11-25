@@ -5602,6 +5602,19 @@
             }
         }
     },
+    "10-13": {
+        "records/patrons/theophilus/ant": {
+            "name": {
+                "el": "Θεόφιλος Αντιοχείας",
+                "en": "Theophilus of Antioch",
+                "la": "Theophilus Antiochenus",
+                "pl": "Teofil z Antiochii"
+            },
+            "sources": {
+                "other-martyrology-days": "13 X"
+            }
+        }
+    },
     "10-15": {
         "records/patrons/hedwigis/duc": {
             "name": {

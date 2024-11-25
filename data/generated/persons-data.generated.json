@@ -7464,6 +7464,27 @@
         ],
         "feasts": []
     },
+    "patrons/theophilus": {
+        "names": {
+            "la": "Theophilus",
+            "en": "Theophilus",
+            "pl": "Teofil",
+            "el": "Θεόφιλος"
+        }
+    },
+    "patrons/theophilus/ant": {
+        "names": {
+            "el": "Θεόφιλος Αντιοχείας",
+            "en": "Theophilus of Antioch",
+            "la": "Theophilus Antiochenus",
+            "pl": "Teofil z Antiochii"
+        },
+        "died": [
+            "183",
+            "185"
+        ],
+        "feasts": []
+    },
     "patrons/thomas": {
         "names": {
             "la": "Thomas",

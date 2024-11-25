@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Teofil"
+    },
+    "translations": {
+        "la": [
+            "Theophilus"
+        ],
+        "en": [
+            "Theophilus"
+        ],
+        "pl": [
+            "Teofil"
+        ],
+        "el": [
+            "Θεόφιλος"
+        ]
+    },
+    "links": {
+        "records/patrons/theophilus/ant": {
+            "el": "Θεόφιλος Αντιοχείας",
+            "en": "Theophilus of Antioch",
+            "la": "Theophilus Antiochenus",
+            "pl": "Teofil z Antiochii"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "names": {
+    "el": [
+      "Θεόφιλος Αντιοχείας"
+    ],
+    "en": [
+      "Theophilus of Antioch"
+    ],
+    "la": [
+      "Theophilus Antiochenus"
+    ],
+    "pl": [
+      "Teofil z Antiochii"
+    ]
+  },
+
+  "died": ["183", "185"],
+
+  "also-in-martyrology": ["10-13"],
+
+  "forenames": ["theophilus"],
+  "categories": ["vir", "episcopus"]
+}

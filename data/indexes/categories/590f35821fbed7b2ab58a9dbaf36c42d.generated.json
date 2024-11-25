@@ -1758,6 +1758,12 @@
             "la": "Theodorus Romzsa",
             "pl": "Teodor Romża"
         },
+        "records/patrons/theophilus/ant": {
+            "el": "Θεόφιλος Αντιοχείας",
+            "en": "Theophilus of Antioch",
+            "la": "Theophilus Antiochenus",
+            "pl": "Teofil z Antiochii"
+        },
         "records/patrons/thomas/apo": {
             "la": "Thomas Apostolus",
             "en": "Thomas the Apostle",
