@@ -2496,6 +2496,25 @@
         ],
         "feasts": []
     },
+    "patrons/emmerammus": {
+        "names": {
+            "la": "Emmerammus",
+            "en": "Emmeram",
+            "pl": "Emmeram"
+        }
+    },
+    "patrons/emmerammus/rat": {
+        "names": {
+            "la": "Emmeramus Ratisbonensis",
+            "en": "Emmeram of Regensburg",
+            "pl": "Emmeram z Ratyzbony"
+        },
+        "died": [
+            "~652",
+            "~690"
+        ],
+        "feasts": []
+    },
     "patrons/ephraem": {
         "names": {
             "la": "Ephraem",

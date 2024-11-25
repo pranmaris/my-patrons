@@ -195,6 +195,11 @@
             "pl": "Donat z Fiesole",
             "la": "Donatus Scotus"
         },
+        "records/patrons/emmerammus/rat": {
+            "la": "Emmeramus Ratisbonensis",
+            "en": "Emmeram of Regensburg",
+            "pl": "Emmeram z Ratyzbony"
+        },
         "records/patrons/erasmus/for": {
             "la": "Erasmus de Formia",
             "en": "Erasmus of Formia",

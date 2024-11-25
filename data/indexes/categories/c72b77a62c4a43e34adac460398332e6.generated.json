@@ -613,6 +613,11 @@
             "en": "Edward Klinik",
             "la": "Eduardus Klinik"
         },
+        "records/patrons/emmerammus/rat": {
+            "la": "Emmeramus Ratisbonensis",
+            "en": "Emmeram of Regensburg",
+            "pl": "Emmeram z Ratyzbony"
+        },
         "records/patrons/ephraem/syr": {
             "sy": "ܐܦܪܝܡ ܣܘܪܝܝܐ",
             "en": "Ephrem the Syrian",

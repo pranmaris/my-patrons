@@ -422,6 +422,9 @@
         "la": "Patiens",
         "en": "Patiens"
     },
+    "25b54d6ceb7d93228491167107660902": {
+        "la": "Emmerammus"
+    },
     "25d098fb6b513a325b8903a46d45adbd": {
         "it": "Giacomino"
     },
@@ -1387,6 +1390,10 @@
     },
     "81d6f316d169150d0e8733866c38684d": {
         "en": "Martin"
+    },
+    "81f5db724a1db0f5b46ddd0deba72d7c": {
+        "en": "Emmeram",
+        "pl": "Emmeram"
     },
     "82233bce59652cf3cc0eb7a03f3109d1": {
         "la": "Victor",

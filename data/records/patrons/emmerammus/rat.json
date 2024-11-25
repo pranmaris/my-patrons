@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Emmeramus Ratisbonensis"
+    ],
+    "en": [
+      "Emmeram of Regensburg"
+    ],
+    "pl": [
+      "Emmeram z Ratyzbony"
+    ]
+  },
+
+  "died": ["~652", "~690"],
+
+  "also-in-martyrology": ["09-22"],
+
+  "forenames": ["emmerammus"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

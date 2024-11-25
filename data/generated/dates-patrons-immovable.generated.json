@@ -5096,6 +5096,16 @@
         }
     },
     "09-22": {
+        "records/patrons/emmerammus/rat": {
+            "name": {
+                "la": "Emmeramus Ratisbonensis",
+                "en": "Emmeram of Regensburg",
+                "pl": "Emmeram z Ratyzbony"
+            },
+            "sources": {
+                "other-martyrology-days": "22 IX"
+            }
+        },
         "records/patrons/mauritius/the": {
             "name": {
                 "la": "Mauritius Legionis Thebanae",

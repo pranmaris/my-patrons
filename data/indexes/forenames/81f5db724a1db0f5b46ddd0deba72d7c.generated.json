@@ -1,0 +1,24 @@
+{
+    "names": {
+        "en": "Emmeram",
+        "pl": "Emmeram"
+    },
+    "translations": {
+        "la": [
+            "Emmerammus"
+        ],
+        "en": [
+            "Emmeram"
+        ],
+        "pl": [
+            "Emmeram"
+        ]
+    },
+    "links": {
+        "records/patrons/emmerammus/rat": {
+            "la": "Emmeramus Ratisbonensis",
+            "en": "Emmeram of Regensburg",
+            "pl": "Emmeram z Ratyzbony"
+        }
+    }
+}
