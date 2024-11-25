@@ -3631,6 +3631,16 @@
             "sources": {
                 "other-martyrology-days": "20 VII"
             }
+        },
+        "records/patrons/margarita/pis": {
+            "name": {
+                "la": "Margarita Antiochena",
+                "en": "Margaret of Antioch",
+                "pl": "Małgorzata z Antiochii"
+            },
+            "sources": {
+                "other-martyrology-days": "20 VII"
+            }
         }
     },
     "07-21": {

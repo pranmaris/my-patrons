@@ -4984,6 +4984,17 @@
         ],
         "feasts": []
     },
+    "patrons/margarita/pis": {
+        "names": {
+            "la": "Margarita Antiochena",
+            "en": "Margaret of Antioch",
+            "pl": "Małgorzata z Antiochii"
+        },
+        "died": [
+            "~304"
+        ],
+        "feasts": []
+    },
     "patrons/margarita/sze": {
         "names": {
             "pl": "Małgorzata Łucja Szewczyk",

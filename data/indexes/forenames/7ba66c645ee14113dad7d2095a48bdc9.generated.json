@@ -1,0 +1,25 @@
+{
+    "names": {
+        "la": "Marina",
+        "en": "Marina",
+        "pl": "Marina"
+    },
+    "translations": {
+        "la": [
+            "Marina"
+        ],
+        "en": [
+            "Marina"
+        ],
+        "pl": [
+            "Marina"
+        ]
+    },
+    "links": {
+        "records/patrons/margarita/pis": {
+            "la": "Margarita Antiochena",
+            "en": "Margaret of Antioch",
+            "pl": "Małgorzata z Antiochii"
+        }
+    }
+}

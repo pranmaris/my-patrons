@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Margarita Antiochena"
+    ],
+    "en": [
+      "Margaret of Antioch"
+    ],
+    "pl": [
+      "Małgorzata z Antiochii"
+    ]
+  },
+
+  "died": ["~304"],
+
+  "also-in-martyrology": ["07-20"],
+
+  "forenames": ["margarita", "marina"],
+  "categories": ["femina", "martyrix", "virgo"]
+}
