@@ -1264,6 +1264,18 @@
         ],
         "feasts": []
     },
+    "patrons/bartholomaeus/bre": {
+        "names": {
+            "it": "Bartolomeo da Breganze",
+            "en": "Bartholomew of Breganze",
+            "la": "Bartholomaeus de Bregantia",
+            "pl": "Bartłomiej z Vicenzy"
+        },
+        "died": [
+            "1270"
+        ],
+        "feasts": []
+    },
     "patrons/bartholomaeus/fer": {
         "names": {
             "pt": "Bartolomeu dos Mártires",

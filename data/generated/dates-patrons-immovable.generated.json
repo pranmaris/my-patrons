@@ -5887,6 +5887,19 @@
             }
         }
     },
+    "10-27": {
+        "records/patrons/bartholomaeus/bre": {
+            "name": {
+                "it": "Bartolomeo da Breganze",
+                "en": "Bartholomew of Breganze",
+                "la": "Bartholomaeus de Bregantia",
+                "pl": "Bartłomiej z Vicenzy"
+            },
+            "sources": {
+                "other-martyrology-days": "27 X"
+            }
+        }
+    },
     "10-28": {
         "records/patrons/iudas/tha": {
             "name": {

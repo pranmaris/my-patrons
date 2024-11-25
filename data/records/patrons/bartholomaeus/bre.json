@@ -1,0 +1,32 @@
+{
+  "names": {
+    "it": [
+      "Bartolomeo da Breganze"
+    ],
+    "en": [
+      "Bartholomew of Breganze"
+    ],
+    "la": [
+      "Bartholomaeus de Bregantia"
+    ],
+    "pl": [
+      "Bartłomiej z Vicenzy",
+      "Bartłomiej z Breganze"
+    ]
+  },
+
+  "born": ["~1200"],
+  "died": ["1270"],
+
+  "beatified": {
+    "type": "equipollently",
+    "date": "1793-09-11"
+  },
+
+  "also-in-martyrology": ["10-27"],
+
+  "forenames": ["bartholomaeus"],
+  "categories": ["vir", "episcopus", "institutor"],
+
+  "order": ["op"]
+}
