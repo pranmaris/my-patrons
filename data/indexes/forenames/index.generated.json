@@ -108,6 +108,10 @@
     "08b7593cde74530e1db316e201363219": {
         "en": "Dorothy"
     },
+    "08fb357f7e770fbbb2f70b4c96c80a55": {
+        "la": "Petronius",
+        "en": "Petronius"
+    },
     "09084cc0cda34fd80bfa3cc0ae8fe3dc": {
         "la": "Monica",
         "en": "Monica"
@@ -968,6 +972,9 @@
     },
     "56c65754f6da81fd57fda5b75c41c8f6": {
         "el": "Αρίσταρχος"
+    },
+    "577d0d5c2d619949c2bb48fee286c476": {
+        "pl": "Petroniusz"
     },
     "578ad8e10dc4edb52ff2bd4ec9bc93a3": {
         "en": "George"

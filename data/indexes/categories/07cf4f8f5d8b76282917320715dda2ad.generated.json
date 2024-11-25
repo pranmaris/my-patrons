@@ -1471,6 +1471,11 @@
             "la": "Paulus Miki",
             "pl": "Paweł Miki"
         },
+        "records/patrons/petronius/bon": {
+            "la": "Petronius Bononiensis",
+            "en": "Petronius of Bologna",
+            "pl": "Petroniusz z Bolonii"
+        },
         "records/patrons/petrus/apo": {
             "la": "Petrus",
             "en": "Peter the Apostle",

@@ -1,0 +1,20 @@
+{
+  "names": {
+    "la": [
+      "Petronius Bononiensis"
+    ],
+    "en": [
+      "Petronius of Bologna"
+    ],
+    "pl": [
+      "Petroniusz z Bolonii"
+    ]
+  },
+
+  "died": ["~450"],
+
+  "also-in-martyrology": ["10-04"],
+
+  "forenames": ["petronius"],
+  "categories": ["vir", "confessor", "episcopus"]
+}

@@ -1,0 +1,23 @@
+{
+    "names": {
+        "pl": "Petroniusz"
+    },
+    "translations": {
+        "la": [
+            "Petronius"
+        ],
+        "en": [
+            "Petronius"
+        ],
+        "pl": [
+            "Petroniusz"
+        ]
+    },
+    "links": {
+        "records/patrons/petronius/bon": {
+            "la": "Petronius Bononiensis",
+            "en": "Petronius of Bologna",
+            "pl": "Petroniusz z Bolonii"
+        }
+    }
+}

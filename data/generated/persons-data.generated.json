@@ -6192,6 +6192,24 @@
         ],
         "feasts": []
     },
+    "patrons/petronius": {
+        "names": {
+            "la": "Petronius",
+            "en": "Petronius",
+            "pl": "Petroniusz"
+        }
+    },
+    "patrons/petronius/bon": {
+        "names": {
+            "la": "Petronius Bononiensis",
+            "en": "Petronius of Bologna",
+            "pl": "Petroniusz z Bolonii"
+        },
+        "died": [
+            "~450"
+        ],
+        "feasts": []
+    },
     "patrons/petrus": {
         "names": {
             "la": "Petrus",

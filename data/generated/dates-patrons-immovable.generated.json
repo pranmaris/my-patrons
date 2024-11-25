@@ -5429,6 +5429,16 @@
             "sources": {
                 "other-martyrology-days": "4 X"
             }
+        },
+        "records/patrons/petronius/bon": {
+            "name": {
+                "la": "Petronius Bononiensis",
+                "en": "Petronius of Bologna",
+                "pl": "Petroniusz z Bolonii"
+            },
+            "sources": {
+                "other-martyrology-days": "4 X"
+            }
         }
     },
     "10-05": {

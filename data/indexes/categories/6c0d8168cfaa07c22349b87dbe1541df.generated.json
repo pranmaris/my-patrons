@@ -372,6 +372,11 @@
             "la": "Patricius episcopus in Hibernia",
             "pl": "Patryk z Irlandii"
         },
+        "records/patrons/petronius/bon": {
+            "la": "Petronius Bononiensis",
+            "en": "Petronius of Bologna",
+            "pl": "Petroniusz z Bolonii"
+        },
         "records/patrons/petrus/chr": {
             "la": "Petrus Chrysologus",
             "en": "Peter Chrysologus",
