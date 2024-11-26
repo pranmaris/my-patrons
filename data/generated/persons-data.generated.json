@@ -7743,6 +7743,26 @@
         ],
         "feasts": []
     },
+    "patrons/victorinus": {
+        "names": {
+            "la": "Victorinus",
+            "en": "Victorinus",
+            "pl": "Wiktoryn",
+            "it": "Vittorino"
+        }
+    },
+    "patrons/victorinus/pet": {
+        "names": {
+            "it": "Vittorino di Pettau",
+            "en": "Victorinus of Pettau",
+            "la": "Victorinus Petovionensis",
+            "pl": "Wiktoryn z Patawii"
+        },
+        "died": [
+            "~303"
+        ],
+        "feasts": []
+    },
     "patrons/vincentia": {
         "names": {
             "la": "Vincentia",

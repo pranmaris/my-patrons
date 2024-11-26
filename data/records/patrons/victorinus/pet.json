@@ -1,0 +1,23 @@
+{
+  "names": {
+    "it": [
+      "Vittorino di Pettau"
+    ],
+    "en": [
+      "Victorinus of Pettau"
+    ],
+    "la": [
+      "Victorinus Petovionensis"
+    ],
+    "pl": [
+      "Wiktoryn z Patawii"
+    ]
+  },
+
+  "died": ["~303"],
+
+  "also-in-martyrology": ["11-02"],
+
+  "forenames": ["victorinus"],
+  "categories": ["vir", "martyr", "episcopus"]
+}

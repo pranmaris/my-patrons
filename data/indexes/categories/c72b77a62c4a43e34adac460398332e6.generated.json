@@ -1834,6 +1834,12 @@
             "en": "Victor I",
             "pl": "Wiktor I"
         },
+        "records/patrons/victorinus/pet": {
+            "it": "Vittorino di Pettau",
+            "en": "Victorinus of Pettau",
+            "la": "Victorinus Petovionensis",
+            "pl": "Wiktoryn z Patawii"
+        },
         "records/patrons/vincentius/fer": {
             "es": "Vicente Ferrer",
             "en": "Vincent Ferrer",

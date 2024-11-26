@@ -509,6 +509,12 @@
             "la": "Titus Cretensis",
             "pl": "Tytus z Krety"
         },
+        "records/patrons/victorinus/pet": {
+            "it": "Vittorino di Pettau",
+            "en": "Victorinus of Pettau",
+            "la": "Victorinus Petovionensis",
+            "pl": "Wiktoryn z Patawii"
+        },
         "records/patrons/virgilius/are": {
             "la": "Virgilius Arelatensis",
             "en": "Virgilius of Arles",

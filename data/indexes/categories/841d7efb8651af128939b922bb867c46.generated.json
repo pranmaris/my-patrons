@@ -835,6 +835,12 @@
             "en": "Victor I",
             "pl": "Wiktor I"
         },
+        "records/patrons/victorinus/pet": {
+            "it": "Vittorino di Pettau",
+            "en": "Victorinus of Pettau",
+            "la": "Victorinus Petovionensis",
+            "pl": "Wiktoryn z Patawii"
+        },
         "records/patrons/vladimirus/las": {
             "pl": "Włodzimierz Laskowski",
             "en": "Wlodzimierz Laskowski",

@@ -1,0 +1,27 @@
+{
+    "names": {
+        "pl": "Wiktoryn"
+    },
+    "translations": {
+        "la": [
+            "Victorinus"
+        ],
+        "en": [
+            "Victorinus"
+        ],
+        "pl": [
+            "Wiktoryn"
+        ],
+        "it": [
+            "Vittorino"
+        ]
+    },
+    "links": {
+        "records/patrons/victorinus/pet": {
+            "it": "Vittorino di Pettau",
+            "en": "Victorinus of Pettau",
+            "la": "Victorinus Petovionensis",
+            "pl": "Wiktoryn z Patawii"
+        }
+    }
+}

@@ -6074,6 +6074,17 @@
             "sources": {
                 "other-martyrology-days": "2 XI"
             }
+        },
+        "records/patrons/victorinus/pet": {
+            "name": {
+                "it": "Vittorino di Pettau",
+                "en": "Victorinus of Pettau",
+                "la": "Victorinus Petovionensis",
+                "pl": "Wiktoryn z Patawii"
+            },
+            "sources": {
+                "other-martyrology-days": "2 XI"
+            }
         }
     },
     "11-03": {
