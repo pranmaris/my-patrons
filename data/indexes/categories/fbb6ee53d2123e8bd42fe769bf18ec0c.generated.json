@@ -119,6 +119,11 @@
             "la": "Laurentius de Brundusio",
             "pl": "Wawrzyniec z Brindisi"
         },
+        "records/patrons/leo/1pp": {
+            "la": "Leo I Magnus",
+            "en": "Leo I the Great",
+            "pl": "Leon I Wielki"
+        },
         "records/patrons/petrus/chr": {
             "la": "Petrus Chrysologus",
             "en": "Peter Chrysologus",

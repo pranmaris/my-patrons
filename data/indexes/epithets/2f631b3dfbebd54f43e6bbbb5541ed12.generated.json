@@ -36,6 +36,11 @@
             "la": "Gregorius Magnus",
             "en": "Gregory the Great",
             "pl": "Grzegorz Wielki"
+        },
+        "records/patrons/leo/1pp": {
+            "la": "Leo I Magnus",
+            "en": "Leo I the Great",
+            "pl": "Leon I Wielki"
         }
     }
 }

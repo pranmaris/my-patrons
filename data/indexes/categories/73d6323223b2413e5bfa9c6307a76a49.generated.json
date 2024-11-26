@@ -72,6 +72,11 @@
             "en": "John Paul II",
             "la": "Ioannes Paulus Pp. II"
         },
+        "records/patrons/leo/1pp": {
+            "la": "Leo I Magnus",
+            "en": "Leo I the Great",
+            "pl": "Leon I Wielki"
+        },
         "records/patrons/marcellinus/1pp": {
             "la": "Marcellinus Papa",
             "en": "Pope Marcellinus",

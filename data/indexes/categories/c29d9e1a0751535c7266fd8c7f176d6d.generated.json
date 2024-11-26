@@ -31,6 +31,11 @@
             "en": "Lawrence of Rome",
             "pl": "Wawrzyniec z Rzymu"
         },
+        "records/patrons/leo/1pp": {
+            "la": "Leo I Magnus",
+            "en": "Leo I the Great",
+            "pl": "Leon I Wielki"
+        },
         "records/patrons/stephanus/pro": {
             "el": "Στέφανος",
             "en": "Stephen Protomartyr",

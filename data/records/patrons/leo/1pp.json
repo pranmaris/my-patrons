@@ -1,0 +1,38 @@
+{
+  "names": {
+    "la": [
+      "Leo I Magnus"
+    ],
+    "en": [
+      "Leo I the Great"
+    ],
+    "pl": [
+      "Leon I Wielki"
+    ]
+  },
+
+  "epithets": [
+    {
+      "la": "Magnus",
+      "en": "the Great",
+      "pl": "Wielki"
+    },
+    {
+      "la": "Primus",
+      "en": "the First",
+      "pl": "Pierwszy"
+    }
+  ],
+
+  "born": ["~400"],
+  "died": ["461-11-10"],
+
+  "also-in-martyrology": ["04-11", "11-10"],
+
+  "forenames": ["leo"],
+  "categories": ["vir", "confessor", "papa", "diaconus", "doctor-ecclesiae"],
+
+  "data-links": {
+    "popes": ["1:#45"]
+  }
+}

@@ -441,8 +441,8 @@
     },
     "45": {
         "name": {
-            "la": "Leo Magnus",
-            "pl": "Leon Wielki"
+            "la": "[1|Leo Magnus]",
+            "pl": "[1|Leon Wielki]"
         },
         "pontificate": {
             "from": "440-09-29",

@@ -1246,6 +1246,11 @@
             "en": "Lazarus of Milan",
             "pl": "Łazarz z Mediolanu"
         },
+        "records/patrons/leo/1pp": {
+            "la": "Leo I Magnus",
+            "en": "Leo I the Great",
+            "pl": "Leon I Wielki"
+        },
         "records/patrons/leo/now": {
             "pl": "Leon Nowakowski",
             "en": "Leon Nowakowski",

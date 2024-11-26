@@ -4666,6 +4666,17 @@
             "pl": "Leon"
         }
     },
+    "patrons/leo/1pp": {
+        "names": {
+            "la": "Leo I Magnus",
+            "en": "Leo I the Great",
+            "pl": "Leon I Wielki"
+        },
+        "died": [
+            "461-11-10"
+        ],
+        "feasts": []
+    },
     "patrons/leo/now": {
         "names": {
             "pl": "Leon Nowakowski",

@@ -2147,6 +2147,16 @@
                 "reliable-death-anniversary": "11 IV",
                 "other-martyrology-days": "11 IV"
             }
+        },
+        "records/patrons/leo/1pp": {
+            "name": {
+                "la": "Leo I Magnus",
+                "en": "Leo I the Great",
+                "pl": "Leon I Wielki"
+            },
+            "sources": {
+                "other-martyrology-days": "11 IV"
+            }
         }
     },
     "04-13": {
@@ -6332,6 +6342,19 @@
             },
             "sources": {
                 "reliable-death-anniversary": "9 XI"
+            }
+        }
+    },
+    "11-10": {
+        "records/patrons/leo/1pp": {
+            "name": {
+                "la": "Leo I Magnus",
+                "en": "Leo I the Great",
+                "pl": "Leon I Wielki"
+            },
+            "sources": {
+                "reliable-death-anniversary": "10 XI",
+                "other-martyrology-days": "10 XI"
             }
         }
     },

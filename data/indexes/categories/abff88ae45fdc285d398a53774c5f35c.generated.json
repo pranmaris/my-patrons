@@ -298,6 +298,11 @@
             "en": "Juvenal of Narni",
             "pl": "Juwenalis z Narni"
         },
+        "records/patrons/leo/1pp": {
+            "la": "Leo I Magnus",
+            "en": "Leo I the Great",
+            "pl": "Leon I Wielki"
+        },
         "records/patrons/leonardus/ere": {
             "fr": "Léonard de Noblat",
             "en": "Leonard of Noblac",

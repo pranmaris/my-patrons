@@ -33,6 +33,11 @@
             "en": "John Paul I",
             "pl": "Jan Paweł I"
         },
+        "records/patrons/leo/1pp": {
+            "la": "Leo I Magnus",
+            "en": "Leo I the Great",
+            "pl": "Leon I Wielki"
+        },
         "records/patrons/marcellus/1pp": {
             "la": "Marcellus Papa",
             "en": "Marcellus Pope",
