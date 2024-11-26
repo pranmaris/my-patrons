@@ -1367,9 +1367,23 @@
         "names": {
             "la": "Benignus",
             "en": "Benignus",
-            "pl": "Benignus",
+            "pl": "Benigny",
+            "fr": "Bénigne",
             "it": "Benigno"
         }
+    },
+    "patrons/benignus/div": {
+        "names": {
+            "fr": "Bénigne de Dijon",
+            "en": "Benignus of Dijon",
+            "la": "Benignus Divionensis",
+            "pl": "Benigny z Dijon"
+        },
+        "died": [
+            ">201",
+            "<300"
+        ],
+        "feasts": []
     },
     "patrons/benignus/tud": {
         "names": {

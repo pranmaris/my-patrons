@@ -6008,6 +6008,17 @@
                 "other-martyrology-days": "1 XI"
             }
         },
+        "records/patrons/benignus/div": {
+            "name": {
+                "fr": "Bénigne de Dijon",
+                "en": "Benignus of Dijon",
+                "la": "Benignus Divionensis",
+                "pl": "Benigny z Dijon"
+            },
+            "sources": {
+                "other-martyrology-days": "1 XI"
+            }
+        },
         "records/patrons/caesarius/tar": {
             "name": {
                 "it": "Cesario di Terracina",

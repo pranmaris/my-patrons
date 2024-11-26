@@ -1,0 +1,23 @@
+{
+  "names": {
+    "fr": [
+      "Bénigne de Dijon"
+    ],
+    "en": [
+      "Benignus of Dijon"
+    ],
+    "la": [
+      "Benignus Divionensis"
+    ],
+    "pl": [
+      "Benigny z Dijon"
+    ]
+  },
+
+  "died": [">201", "<300"],
+
+  "also-in-martyrology": ["11-01"],
+
+  "forenames": ["benignus"],
+  "categories": ["vir", "martyr", "presbyter"]
+}

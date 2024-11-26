@@ -2,8 +2,9 @@
     "names": {
         "la": "Benignus",
         "en": "Benignus",
-        "pl": "Benignus",
+        "pl": ["Benigny", "Benignus"],
 
+        "fr": "Bénigne",
         "it": "Benigno"
     }
 }

@@ -333,6 +333,12 @@
             "en": "Banadict of Nursia",
             "pl": "Benedykt z Nursji"
         },
+        "records/patrons/benignus/div": {
+            "fr": "Bénigne de Dijon",
+            "en": "Benignus of Dijon",
+            "la": "Benignus Divionensis",
+            "pl": "Benigny z Dijon"
+        },
         "records/patrons/benignus/tud": {
             "it": "Benigno da Todi",
             "en": "Benignus of Todi",

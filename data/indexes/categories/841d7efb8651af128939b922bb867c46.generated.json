@@ -140,6 +140,12 @@
             "en": "Basil of Antioch",
             "pl": "Bazyli z Antiochii"
         },
+        "records/patrons/benignus/div": {
+            "fr": "Bénigne de Dijon",
+            "en": "Benignus of Dijon",
+            "la": "Benignus Divionensis",
+            "pl": "Benigny z Dijon"
+        },
         "records/patrons/benignus/tud": {
             "it": "Benigno da Todi",
             "en": "Benignus of Todi",
