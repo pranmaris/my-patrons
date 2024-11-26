@@ -588,6 +588,10 @@
         "la": "Philippa",
         "en": "Philippa"
     },
+    "2fde527993887e4946b3d77ea32d079c": {
+        "en": "Gerald",
+        "pl": "Gerald"
+    },
     "3037c74831055e7abbe40d15010793a5": {
         "la": "Marcellina"
     },
@@ -1043,6 +1047,9 @@
         "la": "Barbara",
         "en": "Barbara",
         "pl": "Barbara"
+    },
+    "5c49367eb7bbb319f6ef5ce7d7bb949a": {
+        "la": "Geraldus"
     },
     "5c4cf7dd9e4b8abab98eef0a69f58ce1": {
         "la": "Leukadia"
@@ -2043,6 +2050,9 @@
     },
     "b33bfc4acd0780c747b8568032ee468b": {
         "pl": "Sekundus"
+    },
+    "b37136fd43d7f4ea8b0c38a3d2d1634f": {
+        "fr": "Guiraud"
     },
     "b3dd1e0a6b170ae008d5ceaa4958f872": {
         "pl": "Weronika"

@@ -3073,6 +3073,26 @@
         ],
         "feasts": []
     },
+    "patrons/geraldus": {
+        "names": {
+            "la": "Geraldus",
+            "en": "Gerald",
+            "pl": "Gerald",
+            "fr": "Guiraud"
+        }
+    },
+    "patrons/geraldus/bit": {
+        "names": {
+            "fr": "Guiraud de Béziers",
+            "en": "Gerald of Béziers",
+            "la": "Geraldus Biterrensis",
+            "pl": "Gerald z Béziers"
+        },
+        "died": [
+            "1123-11-05"
+        ],
+        "feasts": []
+    },
     "patrons/gerardus": {
         "names": {
             "la": "Gerardus",
