@@ -6454,6 +6454,18 @@
         }
     },
     "11-17": {
+        "records/patrons/elisabeth/hun": {
+            "name": {
+                "de": "Elisabeth von Ungarn",
+                "en": "Elizabeth of Hungary",
+                "la": "Elisabeth Hungariae",
+                "pl": "Elżbieta Węgierska"
+            },
+            "sources": {
+                "reliable-death-anniversary": "17 XI",
+                "other-martyrology-days": "17 XI"
+            }
+        },
         "records/patrons/salomea/reg": {
             "name": {
                 "pl": "Salomea Piastówna",
@@ -6489,6 +6501,17 @@
             },
             "sources": {
                 "reliable-death-anniversary": "19 XI",
+                "other-martyrology-days": "19 XI"
+            }
+        },
+        "records/patrons/elisabeth/hun": {
+            "name": {
+                "de": "Elisabeth von Ungarn",
+                "en": "Elizabeth of Hungary",
+                "la": "Elisabeth Hungariae",
+                "pl": "Elżbieta Węgierska"
+            },
+            "sources": {
                 "other-martyrology-days": "19 XI"
             }
         }

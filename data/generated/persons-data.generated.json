@@ -2507,6 +2507,7 @@
             "la": "Elisabeth",
             "en": "Elizabeth",
             "pl": "Elżbieta",
+            "de": "Elisabeth",
             "es": "Elisabet",
             "fr": "Elisabeth"
         }
@@ -2520,6 +2521,18 @@
         },
         "died": [
             "1906-11-09"
+        ],
+        "feasts": []
+    },
+    "patrons/elisabeth/hun": {
+        "names": {
+            "de": "Elisabeth von Ungarn",
+            "en": "Elizabeth of Hungary",
+            "la": "Elisabeth Hungariae",
+            "pl": "Elżbieta Węgierska"
+        },
+        "died": [
+            "1231-11-17"
         ],
         "feasts": []
     },

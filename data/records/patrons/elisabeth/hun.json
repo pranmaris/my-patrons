@@ -1,0 +1,35 @@
+{
+  "names": {
+    "de": [
+      "Elisabeth von Ungarn",
+      "Elisabeth von Thüringen"
+    ],
+    "en": [
+      "Elizabeth of Hungary",
+      "Elizabeth of Thuringia"
+    ],
+    "la": [
+      "Elisabeth Hungariae",
+      "Elisabeth Thuringiae"
+    ],
+    "pl": [
+      "Elżbieta Węgierska",
+      "Elżbieta z Turyngii"
+    ]
+  },
+
+  "born": ["1207-07-07"],
+  "died": ["1231-11-17"],
+
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1235-05-27"
+  },
+
+  "also-in-martyrology": ["11-17", "11-19"],
+
+  "forenames": ["elisabeth"],
+  "categories": ["femina", "vidua", "tertiaria"],
+
+  "order": ["tosf"]
+}

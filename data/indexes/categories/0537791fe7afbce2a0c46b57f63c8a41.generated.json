@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/elisabeth/hun": {
+            "de": "Elisabeth von Ungarn",
+            "en": "Elizabeth of Hungary",
+            "la": "Elisabeth Hungariae",
+            "pl": "Elżbieta Węgierska"
+        },
         "records/patrons/elisabeth/lus": {
             "es": "Elisabet de Aragón",
             "en": "Elizabeth of Aragon",

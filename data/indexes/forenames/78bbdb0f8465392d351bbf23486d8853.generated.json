@@ -12,6 +12,9 @@
         "pl": [
             "Elżbieta"
         ],
+        "de": [
+            "Elisabeth"
+        ],
         "es": [
             "Elisabet"
         ],
@@ -25,6 +28,12 @@
             "en": "Elizabeth of the Holy Trinity",
             "la": "Elisabetha a Sanctissima Trinitate",
             "pl": "Elżbieta od Trójcy Przenajświętszej"
+        },
+        "records/patrons/elisabeth/hun": {
+            "de": "Elisabeth von Ungarn",
+            "en": "Elizabeth of Hungary",
+            "la": "Elisabeth Hungariae",
+            "pl": "Elżbieta Węgierska"
         },
         "records/patrons/elisabeth/lus": {
             "es": "Elisabet de Aragón",
