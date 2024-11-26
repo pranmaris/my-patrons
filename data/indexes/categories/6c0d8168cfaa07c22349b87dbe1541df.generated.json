@@ -331,6 +331,12 @@
             "en": "Maximus of Jerusalem",
             "pl": "Maksym z Jerozolimy"
         },
+        "records/patrons/melanius/rhe": {
+            "fr": "Melaine de Rennes",
+            "en": "Melaine of Rennes",
+            "la": "Melanius Rhedonensis",
+            "pl": "Melaniusz z Rennes"
+        },
         "records/patrons/methodius/cyr": {
             "la": "Methodius /+ Cyrillus",
             "en": "Methodius /+ Cyril",

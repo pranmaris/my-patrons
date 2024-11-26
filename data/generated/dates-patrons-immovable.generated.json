@@ -183,6 +183,17 @@
                 "reliable-death-anniversary": "6 I",
                 "other-martyrology-days": "6 I"
             }
+        },
+        "records/patrons/melanius/rhe": {
+            "name": {
+                "fr": "Melaine de Rennes",
+                "en": "Melaine of Rennes",
+                "la": "Melanius Rhedonensis",
+                "pl": "Melaniusz z Rennes"
+            },
+            "sources": {
+                "other-martyrology-days": "6 I"
+            }
         }
     },
     "01-07": {
@@ -6212,6 +6223,17 @@
                 "en": "Leonard of Noblac",
                 "la": "Leonardus Lemovicensis",
                 "pl": "Leonard z Limoges"
+            },
+            "sources": {
+                "other-martyrology-days": "6 XI"
+            }
+        },
+        "records/patrons/melanius/rhe": {
+            "name": {
+                "fr": "Melaine de Rennes",
+                "en": "Melaine of Rennes",
+                "la": "Melanius Rhedonensis",
+                "pl": "Melaniusz z Rennes"
             },
             "sources": {
                 "other-martyrology-days": "6 XI"

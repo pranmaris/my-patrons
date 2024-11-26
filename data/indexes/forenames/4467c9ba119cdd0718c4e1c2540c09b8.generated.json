@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Melanius"
+    },
+    "translations": {
+        "la": [
+            "Melanius"
+        ],
+        "en": [
+            "Melaine"
+        ],
+        "pl": [
+            "Melaniusz"
+        ],
+        "fr": [
+            "Melaine"
+        ]
+    },
+    "links": {
+        "records/patrons/melanius/rhe": {
+            "fr": "Melaine de Rennes",
+            "en": "Melaine of Rennes",
+            "la": "Melanius Rhedonensis",
+            "pl": "Melaniusz z Rennes"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "names": {
+    "fr": [
+      "Melaine de Rennes"
+    ],
+    "en": [
+      "Melaine of Rennes"
+    ],
+    "la": [
+      "Melanius Rhedonensis"
+    ],
+    "pl": [
+      "Melaniusz z Rennes"
+    ]
+  },
+
+  "died": [">511"],
+
+  "also-in-martyrology": ["01-06", "11-06"],
+
+  "forenames": ["melanius"],
+  "categories": ["vir", "confessor", "episcopus", "monachus"]
+}

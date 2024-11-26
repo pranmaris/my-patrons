@@ -72,6 +72,12 @@
             "en": "Martin of Tours",
             "pl": "Marcin z Tours"
         },
+        "records/patrons/melanius/rhe": {
+            "fr": "Melaine de Rennes",
+            "en": "Melaine of Rennes",
+            "la": "Melanius Rhedonensis",
+            "pl": "Melaniusz z Rennes"
+        },
         "records/patrons/multi/abr": {
             "la": "Monachi Abrahamitae",
             "en": "Abrahamic Monks",

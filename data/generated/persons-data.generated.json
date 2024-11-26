@@ -5766,6 +5766,26 @@
         ],
         "feasts": []
     },
+    "patrons/melanius": {
+        "names": {
+            "la": "Melanius",
+            "en": "Melaine",
+            "pl": "Melaniusz",
+            "fr": "Melaine"
+        }
+    },
+    "patrons/melanius/rhe": {
+        "names": {
+            "fr": "Melaine de Rennes",
+            "en": "Melaine of Rennes",
+            "la": "Melanius Rhedonensis",
+            "pl": "Melaniusz z Rennes"
+        },
+        "died": [
+            ">511"
+        ],
+        "feasts": []
+    },
     "patrons/methodius": {
         "names": {
             "la": "Methodius",
