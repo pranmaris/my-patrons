@@ -6563,6 +6563,26 @@
         ],
         "feasts": []
     },
+    "patrons/philomena": {
+        "names": {
+            "la": "Philomena",
+            "en": "Philomena",
+            "pl": "Filomena",
+            "it": "Filomena"
+        }
+    },
+    "patrons/philomena/rom": {
+        "names": {
+            "it": "Filomena di Roma",
+            "la": "Philomena Romana",
+            "en": "Philomena of Rome",
+            "pl": "Filomena z Rzymu"
+        },
+        "died": [
+            "~304"
+        ],
+        "feasts": []
+    },
     "patrons/pirminus": {
         "names": {
             "la": "Pirminus",

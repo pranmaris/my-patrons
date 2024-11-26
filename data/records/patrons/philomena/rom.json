@@ -1,0 +1,28 @@
+{
+  "names": {
+    "it": [
+      "Filomena di Roma"
+    ],
+    "la": [
+      "Philomena Romana"
+    ],
+    "en": [
+      "Philomena of Rome"
+    ],
+    "pl": [
+      "Filomena z Rzymu"
+    ]
+  },
+
+  "died": ["~304"],
+
+  "canonized": {
+    "type": "equipollently",
+    "date": "1837-01-30"
+  },
+
+  "also-mentioned": ["08-11"],
+
+  "forenames": ["philomena"],
+  "categories": ["femina", "martyrix"]
+}

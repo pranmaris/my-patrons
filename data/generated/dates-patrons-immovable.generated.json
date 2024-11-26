@@ -4416,6 +4416,17 @@
             "sources": {
                 "other-martyrology-days": "11 VIII"
             }
+        },
+        "records/patrons/philomena/rom": {
+            "name": {
+                "it": "Filomena di Roma",
+                "la": "Philomena Romana",
+                "en": "Philomena of Rome",
+                "pl": "Filomena z Rzymu"
+            },
+            "sources": {
+                "other-memorial-days": "11 VIII"
+            }
         }
     },
     "08-12": {

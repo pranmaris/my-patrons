@@ -194,6 +194,12 @@
             "en": "Perpetua of Carthage",
             "pl": "Perpetua z Kartaginy"
         },
+        "records/patrons/philomena/rom": {
+            "it": "Filomena di Roma",
+            "la": "Philomena Romana",
+            "en": "Philomena of Rome",
+            "pl": "Filomena z Rzymu"
+        },
         "records/patrons/sabigothon/aur": {
             "la": "Sabigothon Natalia /+ Aurelius et alii",
             "en": "Sabigothon Natalie /+ Aurelius and others",

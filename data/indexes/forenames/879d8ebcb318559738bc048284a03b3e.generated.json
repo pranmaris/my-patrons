@@ -1,0 +1,28 @@
+{
+    "names": {
+        "pl": "Filomena",
+        "it": "Filomena"
+    },
+    "translations": {
+        "la": [
+            "Philomena"
+        ],
+        "en": [
+            "Philomena"
+        ],
+        "pl": [
+            "Filomena"
+        ],
+        "it": [
+            "Filomena"
+        ]
+    },
+    "links": {
+        "records/patrons/philomena/rom": {
+            "it": "Filomena di Roma",
+            "la": "Philomena Romana",
+            "en": "Philomena of Rome",
+            "pl": "Filomena z Rzymu"
+        }
+    }
+}
