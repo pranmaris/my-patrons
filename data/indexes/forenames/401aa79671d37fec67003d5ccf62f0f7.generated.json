@@ -1,0 +1,28 @@
+{
+    "names": {
+        "en": "Pirmin",
+        "pl": "Pirmin"
+    },
+    "translations": {
+        "la": [
+            "Pirminus"
+        ],
+        "en": [
+            "Pirmin"
+        ],
+        "pl": [
+            "Pirmin"
+        ],
+        "de": [
+            "Pirminius"
+        ]
+    },
+    "links": {
+        "records/patrons/pirminus/epi": {
+            "de": "Pirmin, Bischof",
+            "en": "Pirmin, bishop",
+            "la": "Pirminus, episcopus",
+            "pl": "Pirmin, biskup"
+        }
+    }
+}

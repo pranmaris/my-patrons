@@ -66,6 +66,12 @@
             "en": "Maurus Abbot",
             "pl": "Maur Opat"
         },
+        "records/patrons/pirminus/epi": {
+            "de": "Pirmin, Bischof",
+            "en": "Pirmin, bishop",
+            "la": "Pirminus, episcopus",
+            "pl": "Pirmin, biskup"
+        },
         "records/patrons/robertus/nov": {
             "la": "Robertus Novomonasteriensis",
             "en": "Robert of Newminster",

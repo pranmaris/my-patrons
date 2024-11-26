@@ -447,6 +447,12 @@
             "la": "Petrus de Luxemburgo",
             "pl": "Piotr de Luxemburgo"
         },
+        "records/patrons/pirminus/epi": {
+            "de": "Pirmin, Bischof",
+            "en": "Pirmin, bishop",
+            "la": "Pirminus, episcopus",
+            "pl": "Pirmin, biskup"
+        },
         "records/patrons/pius/10p": {
             "it": "Papa Pio X",
             "la": "Pius X",

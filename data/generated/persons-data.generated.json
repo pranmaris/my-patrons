@@ -6499,6 +6499,27 @@
         ],
         "feasts": []
     },
+    "patrons/pirminus": {
+        "names": {
+            "la": "Pirminus",
+            "en": "Pirmin",
+            "pl": "Pirmin",
+            "de": "Pirminius"
+        }
+    },
+    "patrons/pirminus/epi": {
+        "names": {
+            "de": "Pirmin, Bischof",
+            "en": "Pirmin, bishop",
+            "la": "Pirminus, episcopus",
+            "pl": "Pirmin, biskup"
+        },
+        "died": [
+            "~753",
+            "~755"
+        ],
+        "feasts": []
+    },
     "patrons/pius": {
         "names": {
             "la": "Pius",

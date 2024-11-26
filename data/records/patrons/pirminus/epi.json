@@ -1,0 +1,24 @@
+{
+  "names": {
+    "de": [
+      "Pirmin, Bischof"
+    ],
+    "en": [
+      "Pirmin, bishop"
+    ],
+    "la": [
+      "Pirminus, episcopus"
+    ],
+    "pl": [
+      "Pirmin, biskup"
+    ]
+  },
+
+  "died": ["~753", "~755"],
+
+  "also-in-martyrology": ["11-03"],
+
+  "forenames": ["pirminus"],
+  "categories": ["vir", "episcopus", "abbas"]
+}
+
