@@ -24,6 +24,7 @@ class MainContentRouter extends Content
             'ErrorMainContent' => $httpStatusCode,
             'CardsMainContent' => $path,
             'ChallengesMainContent' => $path,
+            'AchievementsMainContent' => $path,
             'DateMainContent' => $path,
             'DataFileMainContent' => $path,
             'DirectoryMainContent' => $path,
