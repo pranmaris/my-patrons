@@ -249,6 +249,51 @@
         "pl": "karty"
     },
 
+    "lang-challenges-editor": {
+        "en": "challenges editor",
+        "pl": "edytor wyzwań"
+    },
+
+    "lang-challenges-form-info": {
+        "en": "CAUTION! Challenges editor is in the creation and testing phase! Any of your support <a target=\"blank\" href=\"https://en.gratiadei.org/#support-us\"><img class=\"svg-image\" src=\"/files/resources/svg/people-fill.svg\" /></a> will speed up this work development progress!",
+        "pl": "UWAGA! Edytor wyzwań jest w fazie tworzenia i testów! Każde Twoje wsparcie <a target=\"blank\" href=\"https://pl.gratiadei.org/#wesprzyj-nas\"><img class=\"svg-image\" src=\"/files/resources/svg/people-fill.svg\" /></a> lub <a target=\"blank\" href=\"https://buycoffee.to/gratia-dei\"><img class=\"svg-image\" src=\"/files/resources/svg/cup-hot-fill.svg\" /></a> przyspieszy postęp prac nad rozwojem tego dzieła!"
+    },
+
+    "lang-challenges-load-file": {
+        "en": "load notes file",
+        "pl": "wczytaj plik wyzwań"
+    },
+
+    "lang-challenges-save-file": {
+        "en": "save notes file",
+        "pl": "zapisz plik wyzwań"
+    },
+
+    "lang-challenges-tab-achievements": {
+        "en": "my achievements",
+        "pl": "moje osiągnięcia"
+    },
+
+    "lang-challenges-tab-challenges": {
+        "en": "challenges editor",
+        "pl": "edytor wyzwań"
+    },
+
+    "lang-challenges-tab-file": {
+        "en": "file",
+        "pl": "plik"
+    },
+
+    "lang-challenges-tab-json-editor": {
+        "en": "JSON editor",
+        "pl": "edytor JSON"
+    },
+
+    "lang-challenges-tab-notes": {
+        "en": "challenges editor",
+        "pl": "edytor wyzwań"
+    },
+
     "lang-collection-cards-editor": {
         "en": "collection cards editor",
         "pl": "edytor kart kolekcjonerskich"
@@ -647,7 +692,7 @@
         "pl": "..."
     },
 
-    "lang-desc-main-page-section-notes": {
+    "lang-desc-main-page-section-challenges": {
         "pl": "..."
     },
 
@@ -828,9 +873,9 @@
         "pl": "przejdź do edytora kart"
     },
 
-    "lang-go-to-notes-editor": {
-        "en": "go to notes editor",
-        "pl": "przejdź do edytora notatek"
+    "lang-go-to-challenges-editor": {
+        "en": "go to challenges editor",
+        "pl": "przejdź do edytora wyzwań"
     },
 
     "lang-gratia-dei": {
@@ -1187,51 +1232,6 @@
     "lang-notes": {
         "en": "notes",
         "pl": "notatki"
-    },
-
-    "lang-notes-editor": {
-        "en": "notes editor",
-        "pl": "edytor notatek"
-    },
-
-    "lang-notes-form-info": {
-        "en": "CAUTION! Notes form is in the creation and testing phase! Any of your support <a target=\"blank\" href=\"https://en.gratiadei.org/#support-us\"><img class=\"svg-image\" src=\"/files/resources/svg/people-fill.svg\" /></a> will speed up this work development progress!",
-        "pl": "UWAGA! Formularz notatek jest w fazie tworzenia i testów! Każde Twoje wsparcie <a target=\"blank\" href=\"https://pl.gratiadei.org/#wesprzyj-nas\"><img class=\"svg-image\" src=\"/files/resources/svg/people-fill.svg\" /></a> lub <a target=\"blank\" href=\"https://buycoffee.to/gratia-dei\"><img class=\"svg-image\" src=\"/files/resources/svg/cup-hot-fill.svg\" /></a> przyspieszy postęp prac nad rozwojem tego dzieła!"
-    },
-
-    "lang-notes-load-file": {
-        "en": "load notes file",
-        "pl": "wczytaj plik notatek"
-    },
-
-    "lang-notes-save-file": {
-        "en": "save notes file",
-        "pl": "zapisz plik notatek"
-    },
-
-    "lang-notes-tab-achievements": {
-        "en": "my achievements",
-        "pl": "moje osiągnięcia"
-    },
-
-    "lang-notes-tab-challenges": {
-        "en": "challenges editor",
-        "pl": "edytor wyzwań"
-    },
-
-    "lang-notes-tab-file": {
-        "en": "file",
-        "pl": "plik"
-    },
-
-    "lang-notes-tab-json-editor": {
-        "en": "JSON editor",
-        "pl": "edytor JSON"
-    },
-
-    "lang-notes-tab-notes": {
-        "en": "notes editor",
-        "pl": "edytor notatek"
     },
 
     "lang-notification-error": {

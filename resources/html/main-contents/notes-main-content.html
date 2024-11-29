@@ -5,17 +5,17 @@
     <div id="notifications"></div>
     <nav>
       <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <button class="nav-link active" id="nav-file-tab" data-bs-toggle="tab" data-bs-target="#nav-file" type="button" role="tab" aria-controls="nav-file" aria-selected="true" onClick="reloadFileTab()">#lang-notes-tab-file|capitalize#</button>
-        <button class="nav-link" id="nav-challenges-tab" data-bs-toggle="tab" data-bs-target="#nav-challenges" type="button" role="tab" aria-controls="nav-challenges" aria-selected="false" onClick="reloadChallengesTab()">#lang-notes-tab-challenges|capitalize#</button>
-        <button class="nav-link" id="nav-achievements-tab" data-bs-toggle="tab" data-bs-target="#nav-achievements" type="button" role="tab" aria-controls="nav-achievements" aria-selected="false" onClick="reloadAchievementsTab()">#lang-notes-tab-achievements|capitalize#</button>
-        <button style="display: none" class="nav-link" id="nav-json-editor-tab" data-bs-toggle="tab" data-bs-target="#nav-json-editor" type="button" role="tab" aria-controls="nav-json-editor" aria-selected="false" onClick="reloadJsonEditorTab()">#lang-notes-tab-json-editor|capitalize#</button>
+        <button class="nav-link active" id="nav-file-tab" data-bs-toggle="tab" data-bs-target="#nav-file" type="button" role="tab" aria-controls="nav-file" aria-selected="true" onClick="reloadFileTab()">#lang-challenges-tab-file|capitalize#</button>
+        <button class="nav-link" id="nav-challenges-tab" data-bs-toggle="tab" data-bs-target="#nav-challenges" type="button" role="tab" aria-controls="nav-challenges" aria-selected="false" onClick="reloadChallengesTab()">#lang-challenges-tab-challenges|capitalize#</button>
+        <button class="nav-link" id="nav-achievements-tab" data-bs-toggle="tab" data-bs-target="#nav-achievements" type="button" role="tab" aria-controls="nav-achievements" aria-selected="false" onClick="reloadAchievementsTab()">#lang-challenges-tab-achievements|capitalize#</button>
+        <button style="display: none" class="nav-link" id="nav-json-editor-tab" data-bs-toggle="tab" data-bs-target="#nav-json-editor" type="button" role="tab" aria-controls="nav-json-editor" aria-selected="false" onClick="reloadJsonEditorTab()">#lang-challenges-tab-json-editor|capitalize#</button>
       </div>
     </nav>
     <div class="tab-content" id="nav-tabContent">
       <div class="tab-pane fade show active" id="nav-file" role="tabpanel" aria-labelledby="nav-file-tab" tabindex="0">
 
         <div class="mb-3">
-          <label for="file-input" class="btn btn-primary form-control">#lang-notes-load-file|capitalize#</label>
+          <label for="file-input" class="btn btn-primary form-control">#lang-challenges-load-file|capitalize#</label>
           <input id="file-input" class="form-control" style="display:none;" accept=".mypatrons.json" type="file" onChange="loadFile(this)" />
         </div>
         <hr />
@@ -33,7 +33,7 @@
         <hr />
 
         <div class="mb-3">
-          <input id="file-output" class="btn btn-primary form-control" type="button" value="#lang-notes-save-file|capitalize|original-only-for-missing#" onclick="saveFile()" />
+          <input id="file-output" class="btn btn-primary form-control" type="button" value="#lang-challenges-save-file|capitalize|original-only-for-missing#" onclick="saveFile()" />
         </div>
 
       </div>

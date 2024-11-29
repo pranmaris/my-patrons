@@ -270,7 +270,7 @@ async function build() {
   doActionsDependentOfAdvancedMode();
   reloadFileTab();
 
-  info(getLanguageVariable('lang-notes-form-info', true));
+  info(getLanguageVariable('lang-challenges-form-info', true));
 }
 
 function isAdvancedMode() {
