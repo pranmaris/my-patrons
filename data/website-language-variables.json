@@ -249,6 +249,10 @@
         "pl": "karty"
     },
 
+    "lang-cards-info": {
+        "pl": "..."
+    },
+
     "lang-challenges-form-info": {
         "en": "CAUTION! Challenges editor is in the creation and testing phase! Any of your support <a target=\"blank\" href=\"https://en.gratiadei.org/#support-us\"><img class=\"svg-image\" src=\"/files/resources/svg/people-fill.svg\" /></a> will speed up this work development progress!",
         "pl": "UWAGA! Edytor wyzwań jest w fazie tworzenia i testów! Każde Twoje wsparcie <a target=\"blank\" href=\"https://pl.gratiadei.org/#wesprzyj-nas\"><img class=\"svg-image\" src=\"/files/resources/svg/people-fill.svg\" /></a> lub <a target=\"blank\" href=\"https://buycoffee.to/gratia-dei\"><img class=\"svg-image\" src=\"/files/resources/svg/cup-hot-fill.svg\" /></a> przyspieszy postęp prac nad rozwojem tego dzieła!"

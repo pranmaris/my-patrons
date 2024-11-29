@@ -20,11 +20,14 @@ class CardsMainContent extends MainContent implements MainContentInterface
     {
         $originalContent = $this->getOriginalHtmlFileContent('main-contents/cards-main-content.html');
 
-        $variables = [
-            //...
-        ];
-        $replacedContent = $this->getReplacedContent($originalContent, $variables);
+        $editorContent = '';
+        if (!$this->getEnvironment()->isProdServer()) {
+            $editorContent = $this->getOriginalHtmlFileContent('main-contents/cards-editor-main-content.html');
+        }
 
-        return $this->getEnvironment()->isProdServer() ? '' : $replacedContent;
+        $variables = [
+            'cards-editor-content' => $editorContent,
+        ];
+        return $this->getReplacedContent($originalContent, $variables);
     }
 }

@@ -1,0 +1,34 @@
+<!--prefactoring-->
+<div id="cards-editor-main-content" class="container">
+  <div class="row">
+    <span class="headline-red headline-small">#lang-card-form-info-top#</span>
+    <hr />
+    <div id="ppi-test"></div>
+    <div id="main-form">
+      <span class="no-wrap">#lang-paper-format|capitalize#: <select id="paper-format" class="form-select-my" onChange="hideDetailsForm()"></select></span>
+      | <span class="no-wrap">#lang-paper-orientation|capitalize#: <select id="paper-orientation" class="form-select-my" onChange="hideDetailsForm()"></select></span>
+      | <span class="no-wrap">#lang-margin-size|capitalize#: <select id="margin-size" class="form-select-my" onChange="hideDetailsForm()"></select></span>
+      | <span class="no-wrap">#lang-ppi-scale|capitalize#: <select id="ppi" class="form-select-my" onChange="hideDetailsForm()"></select></span>
+      | <span class="no-wrap">#lang-quality|capitalize#: <select id="quality" class="form-select-my" onChange="hideDetailsForm()"></select></span>
+      | <span class="no-wrap">#lang-bleed-size|capitalize#: <select id="bleed" class="form-select-my" onChange="hideDetailsForm()"></select></span>
+      | <span class="no-wrap">#lang-card-distance-size|capitalize#: <select id="card-distance" class="form-select-my" onChange="hideDetailsForm()"></select></span>
+      ||| <button class="btn-my" onClick="buildCanvas(); showDetailsForm();">#lang-rebuild-page|capitalize#</button>
+    </div>
+    <div id="details-form">
+      <hr />
+      <div id="cards-forms">
+      </div>
+      <hr />
+      <div id="print-form">
+        <button  class="btn-my" onClick="printCanvas()">#lang-download-printable-page|capitalize#</button>
+      </div>
+      <hr />
+      <canvas id="cards-canvas"></canvas>
+    </div>
+    <hr />
+    <span class="headline-red headline-small">#lang-card-form-info-bottom#</span>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+    <script src="/files/resources/js/old/cards.js"></script>
+  </div>
+</div>
