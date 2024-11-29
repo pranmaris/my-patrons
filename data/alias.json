@@ -1,11 +1,11 @@
 {
-    "karty": "/cards",
     "daty": "/dates",
+    "karty": "/cards",
+    "kontakt": "/contact",
     "o-moich-patronach": "/about-my-patrons",
     "o-nas": "/about-us",
-    "notatki": "/notes",
     "wesprzyj-nas": "/support-us",
-    "kontakt": "/contact",
+    "wyzwania": "/challenges",
 
     "categories": "/records/categories/",
     "feasts": "/records/feasts/",

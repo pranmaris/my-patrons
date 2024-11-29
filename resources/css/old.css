@@ -654,7 +654,7 @@ iframe {
   width: 100%;
 }
 
-.notes-description {
+.challenges-description {
   margin: 10px;
   padding: 2px;
   border-radius: 0px;
@@ -662,7 +662,7 @@ iframe {
   border-width: 1px;
   border-color: rgb(0, 100, 100);
 }
-.notes-description sup {
+.challenges-description sup {
   color: red;
 }
 

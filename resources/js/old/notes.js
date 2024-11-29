@@ -46,16 +46,16 @@ const DATES_PATRONS_IMMOVABLE_JSON_FILE = '/files/data/generated/dates-patrons-i
 
 const PARSE_CHALLENGE_MANY_PERSONS_SIGN = '*';
 
-const CHALLENGE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-item.html';
-const CHALLENGE_ITEM_TO_REMOVE_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-challenge-to-remove-item.html';
-const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-checklist-item.html';
-const NOTE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-note-item.html';
-const DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH = '/files/resources/html/content-blocks/notes-description-content-block.html';
-const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-notification-item.html';
-const READ_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-read-mode-note-cell-item.html';
-const EDIT_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-edit-mode-note-cell-item.html';
-const FORM_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-form-mode-note-cell-item.html';
-const CREATE_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/notes-create-mode-note-cell-item.html';
+const CHALLENGE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/challenges-challenge-item.html';
+const CHALLENGE_ITEM_TO_REMOVE_TEMPLATE_FILE_PATH = '/files/resources/html/items/challenges-challenge-to-remove-item.html';
+const CHECKLIST_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/challenges-checklist-item.html';
+const NOTE_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/challenges-note-item.html';
+const DESCRIPTION_CONTENT_BLOCK_TEMPLATE_FILE_PATH = '/files/resources/html/content-blocks/challenges-description-content-block.html';
+const NOTIFICATION_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/challenges-notification-item.html';
+const READ_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/challenges-read-mode-note-cell-item.html';
+const EDIT_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/challenges-edit-mode-note-cell-item.html';
+const FORM_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/challenges-form-mode-note-cell-item.html';
+const CREATE_MODE_NOTE_CELL_ITEM_TEMPLATE_FILE_PATH = '/files/resources/html/items/challenges-create-mode-note-cell-item.html';
 const MARKDOWN_FILES_ROOT_PATH = '/files/resources/md/';
 
 const INVISIBLE_STYLE = 'display: none';

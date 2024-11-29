@@ -260,12 +260,12 @@
     },
 
     "lang-challenges-load-file": {
-        "en": "load notes file",
+        "en": "load challenges file",
         "pl": "wczytaj plik wyzwań"
     },
 
     "lang-challenges-save-file": {
-        "en": "save notes file",
+        "en": "save challenges file",
         "pl": "zapisz plik wyzwań"
     },
 
