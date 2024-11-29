@@ -13,19 +13,18 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
     private const DATA_VARIABLE = self::VARIABLE_NAME_SIGN . 'lang-data' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
 
     private const BREADCRUMBS_HIDE_DATA_ELEMENT_PATHS = [
-        'cards' => false,
-        'dates' => false,
-        'files' => false,
-        'my-achievements' => true,
-        'my-challenges' => false,
         'about-my-patrons' => true,
         'about-us' => true,
+        'collectible-cards' => true,
         'contact' => true,
-        'support-us' => true,
-
-        'list-of-feasts-to-discover' => true,
+        'dates' => false,
+        'files' => false,
         'list-for-patrons-defenders' => true,
         'list-for-messenger-missions' => true,
+        'list-of-feasts-to-discover' => true,
+        'my-achievements' => true,
+        'my-challenges' => true,
+        'support-us' => true,
     ];
 
     private GlobalVariables $globalVariables;

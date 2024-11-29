@@ -4,7 +4,7 @@ class CardsMainContent extends MainContent implements MainContentInterface
 {
     public function configure(string $path): bool
     {
-        if (preg_match("~^/cards$~", $path)) {
+        if (preg_match("~^/collectible-cards$~", $path)) {
             return true;
         }
 
@@ -13,7 +13,7 @@ class CardsMainContent extends MainContent implements MainContentInterface
 
     public function getTitle(string $prefix): string
     {
-        return $prefix . ': ' . self::VARIABLE_NAME_SIGN . 'lang-cards' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
+        return $prefix . ': ' . self::VARIABLE_NAME_SIGN . 'lang-collectible-cards' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
     }
 
     public function getContent(): string

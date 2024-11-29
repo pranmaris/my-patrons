@@ -293,9 +293,9 @@
         "pl": "edytor wyzwań"
     },
 
-    "lang-collection-cards-editor": {
-        "en": "collection cards editor",
-        "pl": "edytor kart kolekcjonerskich"
+    "lang-collectible-cards": {
+        "en": "collectible cards",
+        "pl": "karty kolekcjonerskie"
     },
 
     "lang-category": {
@@ -683,6 +683,10 @@
         "pl": "..."
     },
 
+    "lang-desc-main-page-section-cards": {
+        "pl": "..."
+    },
+
     "lang-desc-main-page-section-data": {
         "pl": "..."
     },
@@ -957,6 +961,11 @@
         "pl": "JSON &gt;&gt;&gt; formularz"
     },
 
+    "lang-initiative": {
+        "en": "initiative",
+        "pl": "inicjatywa"
+    },
+
     "lang-invalid-json-file": {
         "en": "invalid JSON file",
         "pl": "niepoprawny plik JSON"
@@ -970,11 +979,6 @@
     "lang-in-random-order": {
         "en": "in random order",
         "pl": "w losowej kolejności"
-    },
-
-    "lang-knowledge-and-tools": {
-        "en": "knowledge and tools",
-        "pl": "wiedza i narzędzia"
     },
 
     "lang-language": {
