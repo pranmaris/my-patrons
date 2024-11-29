@@ -4,7 +4,7 @@ class ChallengesMainContent extends MainContent implements MainContentInterface
 {
     public function configure(string $path): bool
     {
-        if (preg_match("~^/challenges$~", $path)) {
+        if (preg_match("~^/my-challenges$~", $path)) {
             return true;
         }
 
@@ -13,7 +13,7 @@ class ChallengesMainContent extends MainContent implements MainContentInterface
 
     public function getTitle(string $prefix): string
     {
-        return $prefix . ': ' . self::VARIABLE_NAME_SIGN . 'lang-challenges-editor' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
+        return $prefix . ': ' . self::VARIABLE_NAME_SIGN . 'lang-my-challenges' . self::MODIFIER_SEPARATOR . self::MODIFIER_CAPITALIZE . self::VARIABLE_NAME_SIGN;
     }
 
     public function getContent(): string

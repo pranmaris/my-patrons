@@ -249,11 +249,6 @@
         "pl": "karty"
     },
 
-    "lang-challenges-editor": {
-        "en": "challenges editor",
-        "pl": "edytor wyzwań"
-    },
-
     "lang-challenges-form-info": {
         "en": "CAUTION! Challenges editor is in the creation and testing phase! Any of your support <a target=\"blank\" href=\"https://en.gratiadei.org/#support-us\"><img class=\"svg-image\" src=\"/files/resources/svg/people-fill.svg\" /></a> will speed up this work development progress!",
         "pl": "UWAGA! Edytor wyzwań jest w fazie tworzenia i testów! Każde Twoje wsparcie <a target=\"blank\" href=\"https://pl.gratiadei.org/#wesprzyj-nas\"><img class=\"svg-image\" src=\"/files/resources/svg/people-fill.svg\" /></a> lub <a target=\"blank\" href=\"https://buycoffee.to/gratia-dei\"><img class=\"svg-image\" src=\"/files/resources/svg/cup-hot-fill.svg\" /></a> przyspieszy postęp prac nad rozwojem tego dzieła!"
@@ -1191,6 +1186,19 @@
     "lang-my-achievements": {
         "en": "my achievements",
         "pl": "moje osiągnięcia"
+    },
+
+    "lang-my-achievements-info": {
+        "pl": "..."
+    },
+
+    "lang-my-challenges": {
+        "en": "my challenges",
+        "pl": "moje wyzwania"
+    },
+
+    "lang-my-challenges-info": {
+        "pl": "..."
     },
 
     "lang-nail-relics": {
