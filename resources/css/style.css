@@ -514,7 +514,6 @@ img.section-3-img {
     font-weight: var(--SemiBold);
     color: var(--breadcrumb);
     font-size: 13px;
-
     background-image: url(/files/resources/svg/separator.svg);
     background-repeat: no-repeat;
     background-position: center right 0px;
@@ -901,6 +900,396 @@ a.button-3:hover {
 }
 
 
+
+/* ####################################### ------ VERSION 3.0 UPDATE ------ ################################## */
+
+
+/* ----------------------------- Main Buttons Modals ------------------------------- */
+
+.buttons-line {
+    width: auto;
+}
+
+button.upload-btn,
+button.download-btn,
+button.add-btn,
+button.json-btn,
+button.tab-btn {
+    background-color: var(--color3);
+    font-size: 14px;
+    font-weight: var(--SemiBold) !important;
+    color: var(--white);
+    border: var(--color3) solid 3px;
+    border-radius: 25px;
+    padding: 16px 50px 16px 18px !important;
+    background-image: url(img/upload2.svg);
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 26px 28px;
+    transition: all 0.25s;
+    margin: 15px 0px 0px 6px;
+}
+
+button.download-btn {
+    background-image: url(img/download2.svg);
+}
+
+button.add-btn {
+    background-color: var(--color1);
+    color: var(--white);
+    border: var(--color1) solid 3px;
+    background-image: url(img/add.svg);
+    background-size: 28px;
+}
+
+button.json-btn {
+    background-color: var(--white);
+    color: var(--color1);
+    border: var(--color1) solid 3px;
+    padding: 16px 18px 16px 18px !important;
+    background-image: none;
+}
+
+button.tab-btn {
+    background-color: var(--white);
+    color: var(--color1);
+    border: var(--color1) solid 3px;
+    padding: 12px 18px 12px 18px !important;
+    background-image: none;
+    border-radius: 20px;
+    margin: 15px 10px 0px 0px;
+}
+
+button.tab-btn.active {
+    background-color: var(--color1);
+    color: var(--white);
+    border: var(--color1) solid 3px;
+    padding: 12px 18px 12px 18px !important;
+    background-image: none;
+}
+
+button.upload-btn:hover,
+button.download-btn:hover,
+button.add-btn:hover,
+button.json-btn:hover {
+    opacity: 0.7;
+    transition: all 0.25s;
+}
+
+h5.u-modal-name {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: var(--Bold);
+    margin: 0px 0px 0px 20px;
+    font-family: var();
+}
+
+.modal-container {
+    padding: 35px;
+}
+
+.modal-container h4 {
+    font-family: "Poppins", sans-serif;
+    color: var(--color1);
+    font-size: 18px;
+    font-weight: var(--Bold);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.modal-inputs p {
+    color: var(--color1);
+    font-size: 16px;
+    font-weight: var(--SemiBold);
+    margin-bottom: 10px;
+}
+
+.modal-inputs input {
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+
+.modal-check {
+    padding: 5px;
+    margin: 10px 0px 20px 0px;
+}
+
+.modal-check input,
+.modal-check label {
+    cursor: pointer !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--color3);
+    border-color: var(--color3);
+}
+
+
+/* ----------------------------- Notification ------------------------------- */
+
+
+.toast.error,
+.toast.success,
+.toast.info,
+.toast.warning {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px 15px 8px 45px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: var(--color1);
+    font-weight: var(--SemiBold);
+    pointer-events: auto;
+    background-color: #FBBABA;
+    background-clip: padding-box;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 25px;
+    background-image: url(img/error.svg);
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+    background-size: 30px 30px;
+}
+
+.toast.success {
+    background-color: #BAFBC5;
+    background-image: url(img/success.svg);
+}
+
+.toast.info {
+    background-color: #BAEAFB;
+    background-image: url(img/info.svg);
+}
+
+.toast.warning {
+    background-color: #F5FBBA;
+    background-image: url(img/warning.svg);
+}
+
+
+img.toast-close-icon {
+    width: 26px;
+    cursor: pointer;
+    display: block;
+    float: right;
+}
+
+
+
+/* ----------------------------- Table ------------------------------- */
+
+.tab-con {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+table.wyzwania-tab {
+    margin-top: 30px;
+    width: 100%;
+    min-width: 1100px !important;
+    display: block;
+}
+
+.wyzwania-tab tbody {
+    display: block;
+    overflow: scroll;
+    max-height: 610px;
+}
+
+.wyzwania-tab thead {
+    display: table;
+    width: 99.25%;
+    table-layout: fixed;
+}
+
+@media (max-width: 1399px) {
+    .wyzwania-tab thead {
+        width: 99.1%;
+    }
+}
+
+thead tr th {
+    font-size: 16px;
+    color: var(--color1);
+    font-weight: var(--Bold);
+    padding: 15px 6px 15px 5px;
+}
+
+tbody tr td {
+    font-size: 14px;
+    color: var(--color1);
+    font-weight: var(--SemiBold);
+    padding: 6px;
+}
+
+tbody tr td a {
+    font-size: 14px;
+    color: #00a2dc;
+    font-weight: var(--SemiBold);
+}
+
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.wyzwania-tab tr th.lp,
+.wyzwania-tab tr td.lp {
+    width: 4%;
+    text-align: center;
+}
+
+.wyzwania-tab tr th.typ,
+.wyzwania-tab tr td.typ {
+    width: 20%;
+}
+
+.wyzwania-tab tr th.osoba,
+.wyzwania-tab tr td.osoba {
+    width: 20%;
+}
+
+.wyzwania-tab tr th.status,
+.wyzwania-tab tr td.status {
+    width: 6%;
+    text-align: center;
+}
+
+.wyzwania-tab tr th.prog,
+.wyzwania-tab tr td.prog {
+    width: 12%;
+}
+
+.wyzwania-tab .bg-success {
+    background-color: #02d024 !important;
+}
+
+.wyzwania-tab .bg-warning {
+    background-color: var(--color3) !important;
+}
+
+.tab-con::-webkit-scrollbar-thumb {
+    background-color: var(--color3)
+}
+
+tbody,
+.tab-con {
+    scrollbar-width: 10px;
+    scrollbar-color: var(--color3);
+}
+
+tbody::-webkit-scrollbar {
+    width: 10px;
+}
+
+.tab-con::-webkit-scrollbar {
+    height: 10px;
+}
+
+tbody::-webkit-scrollbar-thumb {
+    background-color: var(--color1);
+    border: none;
+}
+
+thead td,
+thead th,
+tbody td,
+tbody th {
+    border: 1px solid #e6e6e6;
+}
+
+tbody tr:nth-child(even) {
+    background: #f1f1f1;
+}
+
+tbody tr:hover {
+    background-color: #baeafb7a;
+    border: 1px solid #585858;
+}
+
+
+thead {
+    background: #eaeaea;
+}
+
+
+/* ----------------------------- Tabs ------------------------------- */
+
+.tabs-con {
+    margin-top: 15px;
+}
+
+.tab-content {
+    margin: 15px 0px 0px 0px;
+}
+
+p.tab-p {
+    margin: 20px 0px 0px 0px;
+}
+
+
+/* ----------------------------- Plus Button ------------------------------- */
+
+.plus-btn {
+    display: block;
+    float: right;
+    margin: 0px 15px 20px 0px;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    background-image: url(img/add2.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 18px 18px;
+    background-color: var(--color3);
+    transition: all 0.35s;
+}
+
+.plus-btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.35s;
+}
+
+
+/* ----------------------------- V 3.0 Mobile class ------------------------------- */
+
+@media (max-width: 992px) {
+
+    button.upload-btn,
+    button.download-btn,
+    button.add-btn,
+    button.json-btn {
+        width: 100%;
+        display: block;
+        margin: 15px 0px 15px 0px;
+    }
+
+    button.upload-btn {
+        float: left;
+        width: 48%;
+        margin: 0px 0px 15px 0px;
+        padding: 16px 50px 16px 0px !important;
+    }
+
+    button.download-btn {
+        float: right;
+        width: 48%;
+        padding: 16px 50px 16px 0px !important;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .wyzwania-tab tbody {
+        display: block;
+        overflow: scroll;
+        max-height: 480px;
+    }
+
+    .buttons-line {
+        width: 100%
+    }
+}
 
 /* ----------------------------- OTHER ---------------------------------- */
 
