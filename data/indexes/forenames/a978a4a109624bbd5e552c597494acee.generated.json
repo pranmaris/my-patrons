@@ -1,0 +1,29 @@
+{
+    "names": {
+        "la": "Nahum",
+        "en": "Nahum",
+        "pl": "Nahum"
+    },
+    "translations": {
+        "la": [
+            "Nahum"
+        ],
+        "en": [
+            "Nahum"
+        ],
+        "pl": [
+            "Nahum"
+        ],
+        "he": [
+            "נַחוּם"
+        ]
+    },
+    "links": {
+        "records/patrons/nahum/pro": {
+            "he": "נחום, הנביא",
+            "en": "Nahum, prophet",
+            "la": "Nahum, propheta",
+            "pl": "Nahum, prorok"
+        }
+    }
+}

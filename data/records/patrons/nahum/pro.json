@@ -1,0 +1,23 @@
+{
+  "names": {
+    "he": [
+      "נחום, הנביא"
+    ],
+    "en": [
+      "Nahum, prophet"
+    ],
+    "la": [
+      "Nahum, propheta"
+    ],
+    "pl": [
+      "Nahum, prorok"
+    ]
+  },
+
+  "died": [">-700", "<-601"],
+
+  "also-in-martyrology": ["12-01"],
+
+  "forenames": ["nahum"],
+  "categories": ["vir", "propheta"]
+}

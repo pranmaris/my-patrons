@@ -6705,6 +6705,17 @@
             "sources": {
                 "other-martyrology-days": "1 XII"
             }
+        },
+        "records/patrons/nahum/pro": {
+            "name": {
+                "he": "נחום, הנביא",
+                "en": "Nahum, prophet",
+                "la": "Nahum, propheta",
+                "pl": "Nahum, prorok"
+            },
+            "sources": {
+                "other-martyrology-days": "1 XII"
+            }
         }
     },
     "12-02": {

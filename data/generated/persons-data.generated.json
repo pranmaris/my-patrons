@@ -6002,6 +6002,27 @@
         "died": [],
         "feasts": []
     },
+    "patrons/nahum": {
+        "names": {
+            "la": "Nahum",
+            "en": "Nahum",
+            "pl": "Nahum",
+            "he": "נַחוּם"
+        }
+    },
+    "patrons/nahum/pro": {
+        "names": {
+            "he": "נחום, הנביא",
+            "en": "Nahum, prophet",
+            "la": "Nahum, propheta",
+            "pl": "Nahum, prorok"
+        },
+        "died": [
+            ">-700",
+            "<-601"
+        ],
+        "feasts": []
+    },
     "patrons/narcissus": {
         "names": {
             "la": "Narcissus",
