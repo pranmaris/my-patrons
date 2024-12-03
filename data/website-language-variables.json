@@ -1031,6 +1031,11 @@
         "pl": "kalendarz liturgiczny"
     },
 
+    "lang-load-file": {
+        "en": "load file",
+        "pl": "wczytaj plik"
+    },
+
     "lang-location": {
         "en": "location",
         "pl": "lokalizacja"
@@ -1617,6 +1622,11 @@
         "en": "Penance",
         "la": "Paenitentia",
         "pl": "Pokuta"
+    },
+
+    "lang-save-file": {
+        "en": "save file",
+        "pl": "zapisz plik"
     },
 
     "lang-second-class-relics": {

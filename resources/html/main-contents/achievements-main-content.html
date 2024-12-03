@@ -1,12 +1,102 @@
 <!--prefactoring-->
 <div class="container">
     <div class="row">
-        <div class="col-12 col-lg-10 offset-lg-1">
+        <div class="col-12">
             <div class="breadcrumb">#breadcrumbs-content-block#</div>
-        </div>
-        <div class="col-12 col-lg-10 offset-lg-1 page-content">
-            <h1>#lang-my-achievements|capitalize#</h1>
-            <p>#lang-my-achievements-info#</p>
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="row page-content">
+        <div class="col-12 col-xl-4">
+            <h1>#lang-my-achievements|capitalize#</h1>
+            <p>#lang-my-achievements-info#</p>
+        </div>
+
+        <div class="col-12 col-xl-8 d-flex justify-content-center justify-content-lg-start justify-content-xl-end">
+            <div class="buttons-line">
+                <button class="load-btn" data-bs-toggle="modal" data-bs-target="#load">#lang-load-file|capitalize#</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Load Modal -->
+<div class="modal fade" id="load" tabindex="-1" aria-labelledby="loadModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-head">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-start">
+                        <img class="modal-head-icon" src="/files/resources/svg/load.svg">
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <div data-bs-dismiss="modal" aria-label="Close"><img class="modal-close-icon" src="/files/resources/svg/close-white.svg"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row modal-container">
+                <div class="col-12">
+                    <h4>#lang-load-file|capitalize#</h4>
+                    <p>#lang-coming-soon|capitalize# ...</p>
+                </div>
+                <div class="col-10 offset-1 d-flex justify-content-center">
+                    <!--<button type="button" class="modal-bt">#lang-load-file|capitalize#</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 tabs-con">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="tab-btn active" id="1-tab" data-bs-toggle="pill" data-bs-target="#tab-1" type="button" role="tab" aria-controls="tab-1" aria-selected="true">#lang-coming-soon|capitalize#</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="tab-btn" id="2-tab" data-bs-toggle="pill" data-bs-target="#tab-2" type="button" role="tab" aria-controls="tab-2" aria-selected="false">#lang-coming-soon|capitalize#</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <p class="tab-p">#lang-coming-soon|capitalize# ...</p>
+                    <div class="tab-con">
+                        <table class="wyzwania-tab">
+                            <thead>
+                                <tr>
+                                    <th>...</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <p class="tab-p">#lang-coming-soon|capitalize# ...</p>
+                    <div class="tab-con">
+                        <table class="wyzwania-tab">
+                            <thead>
+                                <tr>
+                                    <th>...</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
