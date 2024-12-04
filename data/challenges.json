@@ -2914,13 +2914,13 @@
 
   "X": {
     "name": {
-      "pl": "Inne"
+      "pl": "Własna Notatka"
     },
     "selectable": true,
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/inne"
+        "pl": "pl/wyzwania/wlasna-notatka"
       }
     },
     "numbers": true,
