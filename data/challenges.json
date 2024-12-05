@@ -2270,6 +2270,14 @@
           "person": [0, 1]
         },
         "name": {
+          "pl": "Małżonek"
+        }
+      },
+      "person": {
+        "type": {
+          "person": [0, 1]
+        },
+        "name": {
           "pl": "Osoba potwierdzająca i błogosławiąca pierwszy Sakrament Małżeństwa"
         }
       },

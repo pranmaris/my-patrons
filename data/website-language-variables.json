@@ -5,7 +5,7 @@
     },
 
     "lang-about-my-patrons-info": {
-        "pl": "<em>„Moi Patroni”</em> to nasza <strong>inicjatywa</strong> dotycząca często zapominanej dziś prawdy o Świętych obcowaniu. <strong>Dzięki zapraszaniu</strong> Świętych i Błogosławionych Kościoła do <strong>grona naszych Patronów</strong> i wykonywaniu z nimi <strong>dalszych wyzwań</strong> o przeróżnej trudności, mamy możliwość <strong>poznawania</strong> ich bliżej, <strong>naśladowania</strong> i <strong>świadomego zwracania się</strong> do nich. To daje im możliwość <strong>pomagania nam</strong> bez naruszania naszej wolności oraz <strong>przybliżania nas</strong> do Boga i Kościoła, a nam pozwoli <strong>wzrastać</strong> w wierze i miłości, <strong>gromadzić</strong> nasze osiągnięcia i już wkrótce <strong>stworzyć</strong> własną talię kart kolekcjonerskich z ich wizerunkami."
+        "pl": "<em>„Moi Patroni”</em> to <strong>inicjatywa</strong> dotycząca prawdy o świętych obcowaniu, o której wielu nie pamięta na co dzień. Święci mogą nam <strong>pomagać</strong>, nie naruszając naszej wolności oraz <strong>przybliżać nas</strong> do Boga i Kościoła. My z kolei, wchodząc z Nimi w relację, przede wszystkim możemy <strong>wzrastać</strong> w wierze i miłości.<br /><br /><strong>W inicjatywie</strong> <em>„Moi Patroni”</em> <strong>poprzez zapraszanie</strong> Świętych i Błogosławionych Kościoła do <strong>grona naszych <em>Patronów</em></strong> i wykonywaniu z Nimi <strong>dalszych <em>wyzwań</em></strong> o przeróżnej trudności, mamy możliwość <strong>poznawania</strong> Ich bliżej, <strong>naśladowania</strong> i <strong>świadomego zwracania się</strong> do Nich. Możemy także <strong>gromadzić</strong> nasze <em>osiągnięcia</em> i już wkrótce <strong>zbudować</strong> własną <em>talię kart kolekcjonerskich</em> z Ich wizerunkami."
     },
 
     "lang-about-us": {
@@ -20,7 +20,7 @@
     },
 
     "lang-about-us-goals-info": {
-        "pl": "z łac. <strong><em>Łaska Boża</em></strong>, ma na celu rozgłaszanie światu nauki Kościoła Rzymskokatolickiego poprzez różnorakie autorskie inicjatywy i wszelaką współpracę z innymi dla Bożej Chwały!"
+        "pl": "z łac. <strong><em>Łaska Boża</em></strong>. „Łaska jest najpierw i przede wszystkim darem Ducha, który usprawiedliwia nas i uświęca. Jednak łaska obejmuje także dary, których Duch nam udziela, by włączyć nas w swoje dzieło, uzdolnić do współpracy w zbawianiu innych i we wzroście Ciała Chrystusa, czyli Kościoła” (Katechizm Kościoła Katolickiego, pkt 2003)."
     },
 
     "lang-about-us-motto-meaning": {
@@ -30,7 +30,7 @@
     },
 
     "lang-about-us-reasons-info": {
-        "pl": "wdzięczni Bogu za dar tej łaski, pragniemy być użytecznymi „narzędziami” w Jego rękach i poświęcać choć trochę ofiarowanego nam tutaj czasu, sił i talentów, aby pokazywać piękno Jego Kościoła oraz niezawodność kroczenia drogą Jego Miłości, która jest w stanie dać każdemu niewyobrażalne szczęście już teraz!"
+        "pl": "Wdzięczni Bogu za dar Jego łaski, pragniemy być użytecznymi „narzędziami” w Jego rękach. Chcemy poświęcić choć trochę czasu, sił i talentów, jakie Bóg nam ofiarował, aby szerzyć Jego Królestwo na ziemi - pokazywać piękno Jego Kościoła oraz niezawodną drogę Jego Miłości, która jest w stanie dać każdemu niewyobrażalne szczęście już teraz!"
     },
 
     "lang-achievements-section-general": {
@@ -557,8 +557,8 @@
     },
 
     "lang-create-your-own-deck-of-collectible-cards": {
-        "en": "create your own deck of collectible cards",
-        "pl": "stwórz swoją własną talię kart kolekcjonerskich"
+        "en": "build your own deck",
+        "pl": "zbuduj swoją własną talię kart"
     },
 
     "lang-current-grave": {
@@ -650,8 +650,8 @@
     },
 
     "lang-dates-multi-year-days-form-select-info": {
-        "en": "choose dates of someone birth and first times of all received sacraments",
-        "pl": "wybierz daty urodzenia i pierwszego przyjęcia każdego sakramentu przez wybraną osobę"
+        "en": "choose the dates of birth and first reception of each sacrament by the chosen person to find out which Patrons he or she can become a Messenger",
+        "pl": "wybierz daty urodzenia i pierwszego przyjęcia każdego sakramentu przez wybraną osobę, aby dowiedzieć się których Patronów może stać się ona Posłańcem"
     },
 
     "lang-day": {
@@ -676,31 +676,31 @@
     },
 
     "lang-desc-footer": {
-        "pl": "..."
+        "pl": "Inicjatywa dotycząca prawdy o świętych obcowaniu - zapraszaj Ich świadomie do swojego życia, wzrastaj w wierze i miłości."
     },
 
     "lang-desc-main-page-section-about-us": {
-        "pl": "..."
+        "pl": "Chcemy głosić światu naukę <strong>Kościoła Rzymskokatolickiego</strong> poprzez różnorakie <strong>autorskie inicjatywy</strong> i wszelaką współpracę z innymi dla <strong>Bożej Chwały!</strong>"
     },
 
     "lang-desc-main-page-section-cards": {
-        "pl": "..."
+        "pl": "Dostępne wkrótce"
     },
 
     "lang-desc-main-page-section-data": {
-        "pl": "..."
+        "pl": "Znajdziesz tu bazę wiedzy o <strong>Świętych</strong> i <strong>Błogosławionych</strong> Kościoła oraz inne związane z nimi informacje i źródła."
     },
 
     "lang-desc-main-page-section-dates": {
-        "pl": "..."
+        "pl": "Którego <strong>Patrona Obrońcę</strong> dzisiaj wybiorę?<br />Może jest też jakieś <strong>święto</strong> do odkrycia?<br />Których Patronów zostanę <strong>Posłańcem</strong>?"
     },
 
     "lang-desc-main-page-section-challenges": {
-        "pl": "..."
+        "pl": "Poznawaj Patronów i zaprzyjaźniaj się z Nimi poprzez różnego rodzaju <strong><em>wyzwania</em></strong> oraz sprawdzaj swoje <strong><em>osiągnięcia</em></strong>."
     },
 
     "lang-desc-main-page-section-top": {
-        "pl": "Aby Święci mogli działać w Twoim życiu, musisz się na to zgodzić.<br />Możesz mówić im, że tego chcesz za pomocą języka wyzwań."
+        "pl": "<strong>Aby Święci mogli działać w Twoim życiu, wystarczy, że się na to zgodzisz.<br />Możesz mówić im, że tego chcesz za pomocą języka wyzwań.</strong>"
     },
 
     "lang-donate": {
@@ -1012,18 +1012,18 @@
     },
 
     "lang-list-of-feasts-to-discover": {
-        "en": "list of feasts to discover",
-        "pl": "lista świąt do odkrycia"
+        "en": "feasts to discover",
+        "pl": "święta do odkrycia"
     },
 
     "lang-list-for-patrons-defenders": {
-        "en": "list for Patrons Defenders",
-        "pl": "lista dla Patronów Obrońców"
+        "en": "Patrons Defenders",
+        "pl": "Patroni Obrońcy"
     },
 
     "lang-list-for-messenger-missions": {
-        "en": "list for Messenger Missions",
-        "pl": "lista dla Misji Posłańca"
+        "en": "Messenger Missions Patrons",
+        "pl": "Patroni Misji Posłańca"
     },
 
     "lang-liturgical-calendar": {
