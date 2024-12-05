@@ -2265,7 +2265,7 @@
           "pl": "miejsce pierwszego przyjęcia Sakramentu Małżeństwa"
         }
       },
-      "person": {
+      "spouse": {
         "type": {
           "person": [0, 1]
         },
