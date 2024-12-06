@@ -30,7 +30,7 @@
     },
 
     "lang-about-us-reasons-info": {
-        "pl": "Wdzięczni Bogu za dar Jego łaski, pragniemy być użytecznymi „narzędziami” w Jego rękach. Chcemy poświęcić choć trochę czasu, sił i talentów, jakie Bóg nam ofiarował, aby szerzyć Jego Królestwo na ziemi - pokazywać piękno Jego Kościoła oraz niezawodną drogę Jego Miłości, która jest w stanie dać każdemu niewyobrażalne szczęście już teraz!"
+        "pl": "Wdzięczni Bogu za <strong>dar Jego łaski</strong>, pragniemy być użytecznymi „narzędziami” w Jego rękach. Chcemy poświęcić choć trochę czasu, sił i talentów, jakie Bóg nam ofiarował, aby szerzyć Jego Królestwo na ziemi - pokazywać piękno Jego Kościoła oraz niezawodną drogę Jego Miłości, która jest w stanie dać każdemu niewyobrażalne szczęście już teraz!"
     },
 
     "lang-achievements-section-general": {
@@ -249,8 +249,12 @@
         "pl": "karty"
     },
 
-    "lang-cards-info": {
-        "pl": "..."
+    "lang-cards-info-1": {
+        "pl": "Chcemy już <strong>wkrótce dać Tobie</strong> możliwość zbudowania swojej <strong>własnej <em>talii kart kolekcjonerskich</em> z <em>Patronami</em></strong>. Dołożymy starań, by możliwe było użycie jej do <strong>gry z przyjaciółmi</strong>, do <strong>układania samemu</strong> lub <strong>przechowywania w albumie</strong>. Oczywiście nasze propozycje zabaw nie muszą ograniczać Twojej kreatywności w odnajdywaniu innych ciekawych sposobów wykorzystania tych <em>kart</em>."
+    },
+
+    "lang-cards-info-2": {
+        "pl": "Możesz nas w tym <strong>aktywnie <a href=\"/support-us\">wspomagać</a></strong>, a wtedy czas oczekiwania szybko minie!"
     },
 
     "lang-challenges-form-info": {
@@ -1711,7 +1715,7 @@
     },
 
     "lang-support-us-additional-info-option-2-info": {
-        "pl": "Jeśli urzekła Cię którakolwiek z naszych inicjatyw, <strong>opowiedz o niej</strong> rodzinie, znajomym, może komuś w Twojej parafii. Każda nowa osoba może znacznie wpłynąć na rozszerzanie się tego dzieła dalej i dalej!"
+        "pl": "Jeśli urzekła Cię którakolwiek z naszych inicjatyw, <strong>opowiedz o niej</strong> rodzinie, znajomym, może komuś w Twojej parafii. Każdy może mieć wpływ na rozszerzanie się tego dzieła dalej i dalej!"
     },
 
     "lang-support-us-additional-info-option-3-header": {
@@ -1719,7 +1723,7 @@
     },
 
     "lang-support-us-additional-info-option-3-info": {
-        "pl": "Może to właśnie <strong>Twój poświęcony czas, wiedza i merytoryczna pomoc</strong> okażą się bezcenne w budowaniu tego dzieła! Przykładowo chodzi o: tłumaczenie treści stron, umięjętne zaprezentowanie idei szerszemu gronu słuchaczy, uzupełnianie naszej bazy wiedzy np. o nowych patronów, czy jakąkolwiek inną formę współpracy. Wszystkich możliwości nie sposób wymienić."
+        "pl": "Może to właśnie <strong>Twój poświęcony czas, wiedza czy merytoryczna pomoc</strong> okażą się bezcenne w budowaniu tego dzieła! Na przykład: tłumaczenie treści stron, umięjętne zaprezentowanie idei szerszemu gronu słuchaczy, uzupełnianie naszej bazy wiedzy o nowych patronów, itp. Wszystkich możliwości nie sposób wymienić. Zapraszamy do współpracy!"
     },
 
     "lang-support-us-additional-info-option-4-header": {
@@ -1727,7 +1731,7 @@
     },
 
     "lang-support-us-additional-info-option-4-info": {
-        "pl": "Jeżeli wiesz co moglibyśmy robić lepiej lub znajdziesz jakiś błąd, <a href=\"/contact\">skontaktuj się</a> z nami. Nie możemy obiecać, że uwzględnimy wszystkie Twoje sugestie, ale na pewno głęboko się nad nimi zastanowimy."
+        "pl": "Jeżeli wiesz, co moglibyśmy robić lepiej lub znajdziesz jakiś błąd, <a href=\"/contact\">skontaktuj się</a> z nami. Nie możemy obiecać, że uwzględnimy wszystkie Twoje sugestie, ale na pewno głęboko się nad nimi zastanowimy."
     },
 
     "lang-support-us-additional-info-summary": {
@@ -1741,11 +1745,11 @@
     },
 
     "lang-support-us-main-info-1": {
-        "pl": "Jeżeli podoba Ci się to co robimy, <strong>możesz wesprzeć nas na tej stronie</strong>. Tworzenie tego dzieła wymaga od nas <strong>wielu wyrzeczeń, poświęconego czasu i środków finansowych</strong>, dlatego będziemy Ci niezmiernie wdzięczni za każdą wpłaconą kwotę, jaką będziemy mogli przeznaczyć na <strong>realizację naszych celów!</strong>"
+        "pl": "Jeżeli podoba Ci się to co robimy, <strong>możesz nas wesprzeć</strong>. Tworzenie tego dzieła wymaga od nas <strong>wielu wyrzeczeń, poświęconego czasu i środków finansowych</strong>, dlatego będziemy Ci niezmiernie wdzięczni za każdą wpłaconą kwotę, którą przeznaczymy na <strong>realizację naszych celów!</strong>"
     },
 
     "lang-support-us-main-info-2": {
-        "pl": "Będzie to także dla nas informacja, że jest to potrzebne i <strong>warto to dalej robić!</strong>"
+        "pl": "Będzie to także dla nas informacja, że to, co robimy, jest potrzebne i <strong>warto to robić dalej!</strong>"
     },
 
     "lang-surname": {
