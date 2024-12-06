@@ -91,7 +91,7 @@
           "criterion-of-selecting-a-defender-patron-description": [0, 1]
         },
         "name": {
-          "pl": "kryterium wyboru Patrona"
+          "pl": "kryterium wyboru Patrona Obrońcy"
         }
       },
       "time": {
@@ -436,7 +436,7 @@
       },
       "place": {
         "type": {
-          "place": [0, 1]
+          "place": [1, 1]
         },
         "name": {
           "pl": "miejsce mszy rocznicowej"
@@ -539,7 +539,7 @@
       },
       "place": {
         "type": {
-          "place": [0, 1]
+          "place": [1, 1]
         },
         "name": {
           "pl": "miejsce sumy odpustowej"
