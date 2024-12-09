@@ -65,7 +65,7 @@ const DEFAULT_JSON_FILENAME = '';
 const DEFAULT_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION_VALUE = true;
 const MIN_CHALLENGE_DATE_ALLOWED = '1901-01-01';
 
-const NAV_JSON_EDITOR_TAB_ELEMENT_ID = 'nav-json-editor-tab';
+const JSON_EDITOR_BUTTON_ELEMENT_ID = 'json-editor-button';
 const CHALLENGE_ROW_ELEMENT_ID_PREFIX = 'id-';
 const CHALLENGES_ELEMENT_ID = 'challenges';
 const FILE_CONTENT_ELEMENT_ID = 'file-content';
@@ -282,8 +282,8 @@ function isAdvancedMode() {
 function doActionsDependentOfAdvancedMode() {
   const advancedMode = isAdvancedMode();
 
-  const navJsonEditorTab = document.getElementById(NAV_JSON_EDITOR_TAB_ELEMENT_ID);
-  navJsonEditorTab.style = advancedMode ? VISIBLE_STYLE : INVISIBLE_STYLE;
+  const jsonEditorButton = document.getElementById(JSON_EDITOR_BUTTON_ELEMENT_ID);
+  jsonEditorButton.style = advancedMode ? VISIBLE_STYLE : INVISIBLE_STYLE;
 }
 
 function inArray(value, array) {
@@ -519,6 +519,7 @@ async function loadFile(input) {
 
     synchronizeFileData();
     reloadFileTab();
+    reloadChallengesTab();
 
     success(getLanguageVariable('lang-file-loaded-successfully', true));
   } catch (e) {

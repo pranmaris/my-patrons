@@ -1,13 +1,11 @@
 <!--prefactoring-->
-<div class="container">
+<div id="achievements-main-content" class="container">
     <div class="row">
         <div class="col-12">
             <div class="breadcrumb">#breadcrumbs-content-block#</div>
         </div>
     </div>
-</div>
 
-<div class="container">
     <div class="row page-content">
         <div class="col-12 col-xl-4">
             <h1>#lang-my-achievements|capitalize#</h1>
@@ -16,40 +14,37 @@
 
         <div class="col-12 col-xl-8 d-flex justify-content-center justify-content-lg-start justify-content-xl-end">
             <div class="buttons-line">
-                <button class="load-btn" data-bs-toggle="modal" data-bs-target="#load">#lang-load-file|capitalize#</button>
+                <button class="load-btn" data-bs-toggle="modal" data-bs-target="#load-file-modal">#lang-load-file|capitalize#</button>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Load Modal -->
-<div class="modal fade" id="load" tabindex="-1" aria-labelledby="loadModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-head">
-                <div class="row">
-                    <div class="col-6 d-flex justify-content-start">
-                        <img class="modal-head-icon" src="/files/resources/svg/load.svg">
-                    </div>
-                    <div class="col-6 d-flex justify-content-end">
-                        <div data-bs-dismiss="modal" aria-label="Close"><img class="modal-close-icon" src="/files/resources/svg/close-white.svg"></div>
+    <div class="modal fade" id="load-file-modal" tabindex="-1" aria-labelledby="load-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-start">
+                            <img class="modal-head-icon" src="/files/resources/svg/load.svg">
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <div data-bs-dismiss="modal" aria-label="Close"><img class="modal-close-icon" src="/files/resources/svg/close-white.svg"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row modal-container">
-                <div class="col-12">
-                    <h4>#lang-load-file|capitalize#</h4>
-                    <p>#lang-coming-soon|capitalize# ...</p>
-                </div>
-                <div class="col-10 offset-1 d-flex justify-content-center">
-                    <!--<button type="button" class="modal-bt">#lang-load-file|capitalize#</button>-->
+                <div class="row modal-container">
+                    <div class="col-12">
+                        <h4>#lang-load-file|capitalize#</h4>
+                        <p>#lang-coming-soon|capitalize# ...</p>
+                    </div>
+                    <div class="col-10 offset-1 d-flex justify-content-center">
+                        <!--<button type="button" class="modal-bt">#lang-load-file|capitalize#</button>-->
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="container">
     <div class="row">
         <div class="col-12 tabs-con">
             <ul class="nav nav-pills" id="pills-tab" role="tablist">
@@ -99,4 +94,3 @@
         </div>
     </div>
 </div>
-

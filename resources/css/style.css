@@ -938,7 +938,7 @@ button.add-btn {
     background-color: var(--color1);
     color: var(--white);
     border: var(--color1) solid 3px;
-    background-image: url(img/add.svg);
+    background-image: url(/files/resources/svg/add.svg);
     background-size: 28px;
 }
 
@@ -1045,7 +1045,7 @@ h5.u-modal-name {
     border: none !important;
     box-shadow: none !important;
     border-radius: 25px;
-    background-image: url(img/error.svg);
+    background-image: url(/files/resources/svg/error.svg);
     background-repeat: no-repeat;
     background-position: left 15px center;
     background-size: 30px 30px;
@@ -1053,17 +1053,17 @@ h5.u-modal-name {
 
 .toast.success {
     background-color: #BAFBC5;
-    background-image: url(img/success.svg);
+    background-image: url(/files/resources/svg/success.svg);
 }
 
 .toast.info {
     background-color: #BAEAFB;
-    background-image: url(img/info.svg);
+    background-image: url(/files/resources/svg/info.svg);
 }
 
 .toast.warning {
     background-color: #F5FBBA;
-    background-image: url(img/warning.svg);
+    background-image: url(/files/resources/svg/warning.svg);
 }
 
 
@@ -1078,10 +1078,14 @@ img.toast-close-icon {
 
 /* ----------------------------- Table ------------------------------- */
 
+.notes-table {
+    table-layout: fixed;
+}
+
 .tab-con {
     width: 100%;
     overflow-x: auto;
-  }
+}
 
 table.wyzwania-tab {
     margin-top: 30px;
@@ -1102,33 +1106,35 @@ table.wyzwania-tab {
     table-layout: fixed;
 }
 
+
+
 @media (max-width: 1399px) {
     .wyzwania-tab thead {
         width: 99.1%;
     }
 }
 
-thead tr th {
+.wyzwania-tab thead tr th {
     font-size: 16px;
     color: var(--color1);
     font-weight: var(--Bold);
     padding: 15px 6px 15px 5px;
 }
 
-tbody tr td {
+.wyzwania-tab tbody tr td {
     font-size: 14px;
     color: var(--color1);
     font-weight: var(--SemiBold);
     padding: 6px;
 }
 
-tbody tr td a {
+.wyzwania-tab tbody tr td a {
     font-size: 14px;
     color: #00a2dc;
     font-weight: var(--SemiBold);
 }
 
-tbody tr {
+.wyzwania-tab tbody tr {
     display: table;
     width: 100%;
     table-layout: fixed;
@@ -1238,7 +1244,7 @@ p.tab-p {
     border-radius: 100%;
     width: 55px;
     height: 55px;
-    background-image: url(img/add2.svg);
+    background-image: url(/files/resources/svg/add2.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 18px 18px;

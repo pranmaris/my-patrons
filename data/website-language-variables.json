@@ -985,6 +985,11 @@
         "pl": "w losowej kolejności"
     },
 
+    "lang-json-editor": {
+        "en": "JSON editor",
+        "pl": "edytor JSON"
+    },
+
     "lang-language": {
         "en": "language",
         "la": "lingua",
@@ -1339,6 +1344,11 @@
     "lang-owner": {
         "en": "owner",
         "pl": "właściciel"
+    },
+
+    "lang-owner-full-name": {
+        "en": "owner: full name",
+        "pl": "właściciel: imię i nazwisko"
     },
 
     "lang-page-column-number": {
