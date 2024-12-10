@@ -1,21 +1,21 @@
 <!--prefactoring-->
 <tr id="id-#row-id#">
-  <td>#row-id#</td>
+  <td class="lp">#row-id#</td>
   <td>#date#</td>
-  <td>#type-name# [#type##number#]</td>
-  <td>
+  <td class="typ">#type-name# [#type##number#]</td>
+  <td class="osoba">
     <a id="person-url-#row-id#" href="#person-url#" target="blank" disabled>#person#</a>
     <br />
     <a id="addition-url-#row-id#" href="#addition-url#" target="blank" disabled>#addition#</a>
   </td>
-  <td>
+  <td class="prog">
     <div class="progress" data-bs-toggle="modal" href="#checklist-list-modal-toggle" role="button" onClick="checklistListReset(#row-id#)">
       <div id="progress-done-#row-id#" class="progress-bar bg-success" role="progressbar" aria-label="Checklist progress bar part for done steps" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
       <div id="progress-optional-#row-id#" class="progress-bar bg-warning" role="progressbar" aria-label="Checklist progress bar part for optional steps" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
       <div id="progress-aborted-#row-id#" class="progress-bar bg-danger" role="progressbar" aria-laxbel="Checklist progress bat part for aborted steps" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
   </td>
-  <td>
+  <td class="status">
     <span id="challenge-success-status-icon-todo-#row-id#" class="challenge-success-status-icon-todo">
       <img class="svg-image" src="/files/resources/svg/cone-striped.svg" />
     </span>
