@@ -10,6 +10,11 @@
     --Regular: 400;
     --SemiBold: 500;
     --Bold: 700;
+
+    --status-error: #FBBABA;
+    --status-warning: #F5FBBA;
+    --status-info: #BAEAFB;
+    --status-success: #BAFBC5;
 }
 
 body,
@@ -1040,7 +1045,7 @@ h5.u-modal-name {
     color: var(--color1);
     font-weight: var(--SemiBold);
     pointer-events: auto;
-    background-color: #FBBABA;
+    background-color: var(--status-error);
     background-clip: padding-box;
     border: none !important;
     box-shadow: none !important;
@@ -1052,17 +1057,17 @@ h5.u-modal-name {
 }
 
 .toast.success {
-    background-color: #BAFBC5;
+    background-color: var(--status-success);
     background-image: url(/files/resources/svg/success.svg);
 }
 
 .toast.info {
-    background-color: #BAEAFB;
+    background-color: var(--status-info);
     background-image: url(/files/resources/svg/info.svg);
 }
 
 .toast.warning {
-    background-color: #F5FBBA;
+    background-color: var(--status-warning);
     background-image: url(/files/resources/svg/warning.svg);
 }
 
@@ -1119,6 +1124,7 @@ table.wyzwania-tab {
     color: var(--color1);
     font-weight: var(--Bold);
     padding: 15px 6px 15px 5px;
+    text-align: center;
 }
 
 .wyzwania-tab tbody tr td {
@@ -1140,30 +1146,36 @@ table.wyzwania-tab {
     table-layout: fixed;
 }
 
-.wyzwania-tab tr th.lp,
-.wyzwania-tab tr td.lp {
+.wyzwania-tab tr th.challenge-column-number,
+.wyzwania-tab tr td.challenge-column-number {
     width: 4%;
     text-align: center;
 }
 
-.wyzwania-tab tr th.typ,
-.wyzwania-tab tr td.typ {
+.wyzwania-tab tr th.challenge-column-date,
+.wyzwania-tab tr td.challenge-column-date {
+    width: 10%;
+    text-align: center;
+}
+
+.wyzwania-tab tr th.challenge-column-type,
+.wyzwania-tab tr td.challenge-column-type {
     width: 20%;
 }
 
-.wyzwania-tab tr th.osoba,
-.wyzwania-tab tr td.osoba {
+.wyzwania-tab tr th.challenge-column-person,
+.wyzwania-tab tr td.challenge-column-person {
     width: 20%;
 }
 
-.wyzwania-tab tr th.status,
-.wyzwania-tab tr td.status {
+.wyzwania-tab tr th.challenge-column-status,
+.wyzwania-tab tr td.challenge-column-status {
     width: 6%;
     text-align: center;
 }
 
-.wyzwania-tab tr th.prog,
-.wyzwania-tab tr td.prog {
+.wyzwania-tab tr th.challenge-column-progress,
+.wyzwania-tab tr td.challenge-column-progress {
     width: 12%;
 }
 
@@ -1300,6 +1312,28 @@ p.tab-p {
 /* ----------------------------- OTHER ---------------------------------- */
 
 .full-selectable {
-  user-select: all;
-  cursor: pointer;
+    user-select: all;
+    cursor: pointer;
+}
+
+.challenge-item-button-icon .svg-image {
+    width: 20px;
+    height: 20px;
+}
+
+.challenge-success-status-icon .svg-image {
+    width: 25px;
+    height: 25px;
+}
+.challenge-success-status-icon-todo .svg-image {
+  filter: brightness(0) saturate(100%) invert(56%) sepia(34%) saturate(3434%) hue-rotate(3deg) brightness(100%) contrast(101%); /* #FA8901 */
+}
+.challenge-success-status-icon-aborted .svg-image {
+  filter: brightness(0) saturate(100%) invert(11%) sepia(98%) saturate(6687%) hue-rotate(17deg) brightness(90%) contrast(121%); /* #DD0000 */
+}
+.challenge-success-status-icon-waiting .svg-image {
+  filter: brightness(0) saturate(100%) invert(10%) sepia(100%) saturate(6840%) hue-rotate(247deg) brightness(77%) contrast(139%); /* #0000DD */
+}
+.challenge-success-status-icon-done .svg-image {
+  filter: brightness(0) saturate(100%) invert(29%) sepia(48%) saturate(2473%) hue-rotate(95deg) brightness(103%) contrast(107%); /* #00FF00 */
 }

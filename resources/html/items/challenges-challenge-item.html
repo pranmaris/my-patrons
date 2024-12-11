@@ -1,38 +1,39 @@
 <!--prefactoring-->
 <tr id="id-#row-id#">
-  <td class="lp">#row-id#</td>
-  <td>#date#</td>
-  <td class="typ">#type-name# [#type##number#]</td>
-  <td class="osoba">
+  <td class="challenge-column-status">
+    <span id="challenge-success-status-icon-todo-#row-id#" class="challenge-success-status-icon challenge-success-status-icon-todo">
+      <img class="svg-image" src="/files/resources/svg/cone-striped.svg" />
+    </span>
+    <span id="challenge-success-status-icon-done-#row-id#" class="challenge-success-status-icon challenge-success-status-icon-done">
+      <img class="svg-image" src="/files/resources/svg/check-circle-fill.svg" />
+    </span>
+    <span id="challenge-success-status-icon-waiting-#row-id#" class="challenge-success-status-icon challenge-success-status-icon-waiting">
+      <img class="svg-image" src="/files/resources/svg/pause-circle-fill.svg" />
+    </span>
+    <span id="challenge-success-status-icon-aborted-#row-id#" class="challenge-success-status-icon challenge-success-status-icon-aborted">
+      <img class="svg-image" src="/files/resources/svg/x-circle-fill.svg" />
+    </span>
+  </td>
+  <td class="challenge-column-number">#row-id#</td>
+  <td class="challenge-column-date">#date#</td>
+  <td class="challenge-column-type">#type-name# [#type##number#]</td>
+  <td class="challenge-column-person">
     <a id="person-url-#row-id#" href="#person-url#" target="blank" disabled>#person#</a>
     <br />
     <a id="addition-url-#row-id#" href="#addition-url#" target="blank" disabled>#addition#</a>
   </td>
-  <td class="prog">
+  <td class="challenge-column-progress">
     <div class="progress" data-bs-toggle="modal" href="#checklist-list-modal-toggle" role="button" onClick="checklistListReset(#row-id#)">
       <div id="progress-done-#row-id#" class="progress-bar bg-success" role="progressbar" aria-label="Checklist progress bar part for done steps" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
       <div id="progress-optional-#row-id#" class="progress-bar bg-warning" role="progressbar" aria-label="Checklist progress bar part for optional steps" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
       <div id="progress-aborted-#row-id#" class="progress-bar bg-danger" role="progressbar" aria-laxbel="Checklist progress bat part for aborted steps" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
   </td>
-  <td class="status">
-    <span id="challenge-success-status-icon-todo-#row-id#" class="challenge-success-status-icon-todo">
-      <img class="svg-image" src="/files/resources/svg/cone-striped.svg" />
-    </span>
-    <span id="challenge-success-status-icon-done-#row-id#" class="challenge-success-status-icon-done">
-      <img class="svg-image" src="/files/resources/svg/check-circle-fill.svg" />
-    </span>
-    <span id="challenge-success-status-icon-waiting-#row-id#" class="challenge-success-status-icon-waiting">
-      <img class="svg-image" src="/files/resources/svg/pause-circle-fill.svg" />
-    </span>
-    <span id="challenge-success-status-icon-aborted-#row-id#" class="challenge-success-status-icon-aborted">
-      <img class="svg-image" src="/files/resources/svg/x-circle-fill.svg" />
-    </span>
-  </td>
-  <td>
-    <a class="btn btn-light" data-bs-toggle="modal" href="#notes-modal-toggle" role="button" onClick="notesReset(#row-id#)"><img class="svg-image" src="/files/resources/svg/card-list.svg" /></a>
-    <a class="btn btn-light" data-bs-toggle="modal" href="#remove-challenge-modal-toggle" role="button" onClick="removeChallengeReset(#row-id#)"><img class="svg-image" src="/files/resources/svg/trash.svg" /></a>
-    <a id="move-challenge-up-button-#row-id#" class="btn btn-light" role="button" onClick="moveChallengeUp(#row-id#)"><img class="svg-image" src="/files/resources/svg/caret-up-square-fill.svg" /></a>
-    <a id="move-challenge-down-button-#row-id#" class="btn btn-light" role="button" onClick="moveChallengeDown(#row-id#)"><img class="svg-image" src="/files/resources/svg/caret-down-square-fill.svg" /></a>
+  <td class="challenge-column-actions">
+    <a class="challenge-item-button-icon btn btn-light" data-bs-toggle="modal" href="#checklist-list-modal-toggle" role="button" onClick="checklistListReset(#row-id#)"><img class="svg-image" src="/files/resources/svg/puzzle.svg" /></a>
+    <a class="challenge-item-button-icon btn btn-light" data-bs-toggle="modal" href="#notes-modal-toggle" role="button" onClick="notesReset(#row-id#)"><img class="svg-image" src="/files/resources/svg/card-list.svg" /></a>
+    <a class="challenge-item-button-icon btn btn-light" data-bs-toggle="modal" href="#remove-challenge-modal-toggle" role="button" onClick="removeChallengeReset(#row-id#)"><img class="svg-image" src="/files/resources/svg/trash.svg" /></a>
+    <a id="move-challenge-up-button-#row-id#" class="challenge-item-button-icon btn btn-light" role="button" onClick="moveChallengeUp(#row-id#)"><img class="svg-image" src="/files/resources/svg/caret-up-square-fill.svg" /></a>
+    <a id="move-challenge-down-button-#row-id#" class="challenge-item-button-icon btn btn-light" role="button" onClick="moveChallengeDown(#row-id#)"><img class="svg-image" src="/files/resources/svg/caret-down-square-fill.svg" /></a>
   </td>
 </tr>
