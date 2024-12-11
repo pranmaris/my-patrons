@@ -124,6 +124,8 @@ const CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX = 'challenge-succe
 const CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-done-';
 const RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID = 'random-bible-chapter';
 const ACHIEVEMENTS_GENERAL_TABLE_ELEMENT_ID = 'achievements-general-table';
+const CHALLENGES_SHOW_FOR_NO_ROWS_CLASS_ID = 'challenges-show-for-no-rows';
+const CHALLENGES_SHOW_FOR_ANY_ROWS_CLASS_ID = 'challenges-show-for-any-rows';
 
 const CHECKLIST_ITEM_TARGET_ATTRIBUTE_NAME = 'data-bs-target';
 const CHECKLIST_ITEM_BACK_TO_CHECKLIST_LIST_MODAL_TARGET = '#checklist-list-modal-toggle';
@@ -270,7 +272,7 @@ async function build() {
   doActionsDependentOfAdvancedMode();
   reloadFileTab();
 
-  info(getLanguageVariable('lang-challenges-form-info', true));
+  //info(getLanguageVariable('lang-challenges-form-info', true));
 }
 
 function isAdvancedMode() {
@@ -501,6 +503,20 @@ function synchronizeFileData() {
 
   fileContent = JSON.stringify(fileData);
   fileData = parseFileDataFromContent(fileContent);
+
+  setDivVisibilities((fileData[DATA_FIELD_CHALLENGES] ?? []).length);
+}
+
+function setDivVisibilities(challengesCount) {
+  noRowsElements = document.getElementsByClassName(CHALLENGES_SHOW_FOR_NO_ROWS_CLASS_ID);
+  anyRowsElements = document.getElementsByClassName(CHALLENGES_SHOW_FOR_ANY_ROWS_CLASS_ID);
+
+  for (const element of noRowsElements) {
+    element.style = challengesCount > 0 ? INVISIBLE_STYLE : VISIBLE_STYLE;
+  }
+  for (const element of anyRowsElements) {
+    element.style = challengesCount > 0 ? VISIBLE_STYLE : INVISIBLE_STYLE;
+  }
 }
 
 async function loadFile(input) {

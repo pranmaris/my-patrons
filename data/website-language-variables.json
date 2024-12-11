@@ -924,6 +924,11 @@
         "pl": "/files/resources/brand/logo/rgb/horizontal/pl-white-without-background.svg"
     },
 
+    "lang-how-to-do-this": {
+        "en": "how to do this?",
+        "pl": "jak to zrobić?"
+    },
+
     "lang-i": {
         "en": "i",
         "la": "ego",
@@ -1219,8 +1224,32 @@
         "pl": "moje wyzwania"
     },
 
+    "lang-my-challenges-for-none-challenges-info-1": {
+        "pl": "Jeśli jesteś tu pierwszy raz, cieszymy się, że dołączasz do inicjatywy <em>„Moi Patroni”!</em>"
+    },
+
+    "lang-my-challenges-for-none-challenges-info-2": {
+        "pl": "Aby przygoda mogła się rozpocząć, potrzebny jest Bóg oraz Uczestnik. Wykonaj zatem następujące wyzwania początkowe:"
+    },
+
+    "lang-my-challenges-for-none-challenges-info-2-pt-1-of-2": {
+        "pl": "<strong>[B] Narodziny</strong> - podaj datę swoich narodzin,"
+    },
+
+    "lang-my-challenges-for-none-challenges-info-2-pt-2-of-2": {
+        "pl": "<strong>[I] Bóg</strong> - zawierz Bogu siebie i swój udział w inicjatywie."
+    },
+
+    "lang-my-challenges-for-none-challenges-info-3": {
+        "pl": "Kliknij przycisk <strong>„Dodaj nowe wyzwanie”</strong> i postępuj zgodnie ze wskazówkami."
+    },
+
+    "lang-my-challenges-for-none-challenges-info-4": {
+        "pl": "Potem nie zapomnij o zapisaniu swoich wyzwań do pliku, klikając przycisk <strong>„Zapisz plik”</strong>!"
+    },
+
     "lang-my-challenges-info": {
-        "pl": "..."
+        "pl": "<strong>Edytor wyzwań</strong> umożliwia Uczestnikowi zapisywanie do pliku na urządzeniu kolejnych wyzwań podejmowanych w ramach inicjatywy <em>„Moi Patroni”</em>. Wszelkie dane osobowe są przetwarzane jedynie w przeglądarce po stronie Użytkownika, a serwis https://mypatrons.org nie ma do nich dostępu."
     },
 
     "lang-nail-relics": {

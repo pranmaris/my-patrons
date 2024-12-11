@@ -9,16 +9,30 @@
     <div class="row page-content">
         <div class="col-12 col-xl-4">
             <h1>#lang-my-challenges|capitalize#</h1>
-            <p>#lang-my-challenges-info#</p>
         </div>
 
         <div class="col-12 col-xl-8 d-flex justify-content-center justify-content-lg-start justify-content-xl-end">
             <div class="buttons-line">
-                <button style="display: none" id="json-editor-button" class="json-btn" data-bs-toggle="modal" data-bs-target="#json-editor-modal-toggle">#lang-json-editor|capitalize#</button>
-                <button class="add-btn" data-bs-toggle="modal" data-bs-target="#add-new-challenge-modal-toggle" onClick="addNewChallengeReset()">#lang-add-new-challenge|capitalize#</button>
                 <button class="load-btn" data-bs-toggle="modal" data-bs-target="#load-file-modal-toggle">#lang-load-file|capitalize#</button>
                 <button class="save-btn" data-bs-toggle="modal" data-bs-target="#save-file-modal-toggle">#lang-save-file|capitalize#</button>
+                <button style="display: none" id="json-editor-button" class="json-btn" data-bs-toggle="modal" data-bs-target="#json-editor-modal-toggle">#lang-json-editor|capitalize#</button>
+                <button class="add-btn" data-bs-toggle="modal" data-bs-target="#add-new-challenge-modal-toggle" onClick="addNewChallengeReset()">#lang-add-new-challenge|capitalize#</button>
             </div>
+        </div>
+
+        <div class="col-12">
+            <p>#lang-my-challenges-info#</p>
+        </div>
+        <div class="col-12 challenges-show-for-no-rows">
+            <h3>#lang-my-challenges-for-none-challenges-info-1#</h3>
+            <ul>
+                <p>#lang-my-challenges-for-none-challenges-info-2#</p>
+                <li>#lang-my-challenges-for-none-challenges-info-2-pt-1-of-2#</li>
+                <li>#lang-my-challenges-for-none-challenges-info-2-pt-2-of-2#</li>
+            </ul>
+            <h3>#lang-how-to-do-this|capitalize#</h3>
+            <p>#lang-my-challenges-for-none-challenges-info-3#</p>
+            <p>#lang-my-challenges-for-none-challenges-info-4#</p>
         </div>
     </div>
 
@@ -377,7 +391,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 challenges-show-for-any-rows" style="display: none">
                 <div class="tab-con">
                     <table class="wyzwania-tab">
                         <thead>
