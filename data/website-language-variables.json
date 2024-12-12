@@ -830,8 +830,8 @@
     },
 
     "lang-filename-without-extension-datetime-checkbox-info": {
-        "en": "add a UTC timestamp to filename",
-        "pl": "dodawaj znacznik czasu UTC do nazwy pliku"
+        "en": "add UTC timestamp to filename to avoid overwriting its previous versions.",
+        "pl": "dodawaj znacznik czasu UTC do nazwy pliku, aby nie nadpisywać poprzednich jego wersji."
     },
 
     "lang-files": {
@@ -1225,11 +1225,11 @@
     },
 
     "lang-my-challenges-for-none-challenges-info-1": {
-        "pl": "Jeśli jesteś tu pierwszy raz, cieszymy się, że dołączasz do inicjatywy <em>„Moi Patroni”!</em>"
+        "pl": "Jesteś tu pierwszy raz?"
     },
 
     "lang-my-challenges-for-none-challenges-info-2": {
-        "pl": "Aby przygoda mogła się rozpocząć, potrzebny jest Bóg oraz Uczestnik. Wykonaj zatem następujące wyzwania początkowe:"
+        "pl": "Cieszymy się, że dołączasz do inicjatywy <em>„Moi Patroni”!</em> Aby przygoda mogła się rozpocząć, potrzebny jest Bóg oraz Uczestnik. Wykonaj zatem następujące wyzwania początkowe:"
     },
 
     "lang-my-challenges-for-none-challenges-info-2-pt-1-of-2": {
@@ -1245,11 +1245,11 @@
     },
 
     "lang-my-challenges-for-none-challenges-info-4": {
-        "pl": "Potem nie zapomnij o zapisaniu swoich wyzwań do pliku, klikając przycisk <strong>„Zapisz plik”</strong>!"
+        "pl": "Na koniec nie zapomnij o zapisaniu wykonanych wyzwań do pliku, klikając przycisk <strong>„Zapisz plik”</strong>!"
     },
 
     "lang-my-challenges-info": {
-        "pl": "<strong>Edytor wyzwań</strong> umożliwia Uczestnikowi zapisywanie do pliku na urządzeniu kolejnych wyzwań podejmowanych w ramach inicjatywy <em>„Moi Patroni”</em>. Wszelkie dane osobowe są przetwarzane jedynie w przeglądarce po stronie Użytkownika, a serwis https://mypatrons.org nie ma do nich dostępu."
+        "pl": "<strong>Edytor wyzwań</strong> umożliwia Uczestnikowi zapisywanie do pliku na urządzeniu kolejnych wyzwań podejmowanych w ramach inicjatywy <em>„Moi Patroni”</em>.<br />Wszelkie dane osobowe są przetwarzane jedynie w przeglądarce po stronie Użytkownika, a serwis https://mypatrons.org nie ma do nich dostępu."
     },
 
     "lang-nail-relics": {
