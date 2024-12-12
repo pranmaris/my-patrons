@@ -1338,3 +1338,25 @@ p.tab-p {
   filter: brightness(0) saturate(100%) invert(29%) sepia(48%) saturate(2473%) hue-rotate(95deg) brightness(103%) contrast(107%); /* #00FF00 */
 }
 
+#notifications {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 10000;
+}
+
+.notification-prefix {
+  font-weight: bold;
+}
+
+iframe {
+  display: block;
+  border: none;
+  height: 50vh;
+  width: 100%;
+}
+
+.selectable-content {
+  user-select: all;
+  cursor: pointer;
+}

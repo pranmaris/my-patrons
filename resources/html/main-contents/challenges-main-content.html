@@ -13,7 +13,7 @@
 
         <div class="col-12 col-xl-8 d-flex justify-content-center justify-content-lg-start justify-content-xl-end">
             <div class="buttons-line">
-                <button class="load-btn" data-bs-toggle="modal" data-bs-target="#load-file-modal-toggle">#lang-load-file|capitalize#</button>
+                <button class="load-btn" data-bs-toggle="modal" data-bs-target="#load-file-modal-toggle" onClick="showLoadFileWarningIfNeeded('#lang-load-file-warning#')">#lang-load-file|capitalize#</button>
                 <button class="save-btn" data-bs-toggle="modal" data-bs-target="#save-file-modal-toggle">#lang-save-file|capitalize#</button>
                 <button style="display: none" id="json-editor-button" class="json-btn" data-bs-toggle="modal" data-bs-target="#json-editor-modal-toggle">#lang-json-editor|capitalize#</button>
                 <button class="add-btn" data-bs-toggle="modal" data-bs-target="#add-new-challenge-modal-toggle" onClick="addNewChallengeReset()">#lang-add-new-challenge|capitalize#</button>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="row modal-container">
                     <div class="col-12">
-                        <p>...</p>
+                        <p>#lang-load-file-info#</p>
                     </div>
                     <div class="col-10 offset-1 d-flex justify-content-center">
                         <!--<button type="button" class="modal-bt">#lang-load-file|capitalize#</button>-->
@@ -89,10 +89,9 @@
                     </div>
                 </div>
                 <div class="row modal-container">
-                    <div class="col-12">
-                        <!--<h4>...</h4>-->
-                        <p>...</p>
-                    </div>
+                    <!--<div class="col-12 page-content">-->
+                        <!--<h4>#lang-save-file|capitalize#</h4>-->
+                    <!--</div>-->
 
                     <div class="col-12 col-lg-10 offset-lg-1 modal-inputs">
                         <p>#lang-owner-full-name|capitalize#</p>
@@ -110,6 +109,14 @@
                             <label class="form-check-label" for="datetime-checkbox-for-filename-without-extension">#lang-filename-without-extension-datetime-checkbox-info#</label>
                         </div>
                     </div>
+
+                    <div class="col-12 page-content">
+                        <ul>
+                            <li>#lang-save-file-info-1#</li>
+                            <li>#lang-save-file-info-2#</li>
+                        </ul>
+                    </div>
+
 
                     <div class="col-10 offset-1 d-flex justify-content-center">
                         <!--<button type="button" class="modal-bt">#lang-challenges-save-file|capitalize#</button>-->

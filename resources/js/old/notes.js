@@ -360,6 +360,11 @@ async function showNotification(prefix, message, type, rowId = EMPTY_ROW_ID) {
   notifications.append(wrapper);
 }
 
+function showLoadFileWarningIfNeeded(message) {
+  clearNotifications();
+  warning(message); //add conditional if any unsave changes exist
+}
+
 function clearNotifications() {
   const notifications = document.getElementById(NOTIFICATIONS_ELEMENT_ID);
   notifications.innerHTML = '';
