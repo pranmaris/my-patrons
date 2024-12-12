@@ -257,6 +257,11 @@
         "pl": "Możesz nas w tym <strong>aktywnie <a href=\"/support-us\">wspomagać</a></strong>, a wtedy czas oczekiwania szybko minie!"
     },
 
+    "lang-caution": {
+        "en": "caution!",
+        "pl": "uwaga!"
+    },
+
     "lang-challenges-form-info": {
         "en": "Challenges editor is in the testing phase!",
         "pl": "Edytor wyzwań jest w fazie testów!"
@@ -1682,11 +1687,11 @@
     },
 
     "lang-save-file-info-1": {
-        "pl": "jeśli nie chcesz zapisywać domyślnie plików w folderze Pobrane, możesz w ustawieniach przeglądarki włączyć opcję każdorazowego wybierania przez Ciebie, gdzie zmieniony plik zapisać,"
+        "pl": "Jeśli nie chcesz zapisywać domyślnie plików w folderze Pobrane, możesz w ustawieniach przeglądarki włączyć opcję każdorazowego wybierania przez Ciebie, gdzie zmieniony plik zapisać."
     },
 
     "lang-save-file-info-2": {
-        "pl": "aby uchronić się przed utratą swoich plików z wyzwaniami, warto regularnie robić ich kopię bezpieczeństwa, zapisując je np. w innej lokalizacji na dysku, na innym dysku zewnętrznym, w chmurze czy nawet wysyłając te pliki jako załącznik na swój własny adres e-mail."
+        "pl": "Aby uchronić się przed utratą swoich plików z <em>wyzwaniami</em>, warto regularnie robić ich kopię bezpieczeństwa, zapisując je np. w innej lokalizacji na dysku, na innym dysku zewnętrznym, w chmurze czy nawet wysyłając te pliki jako załącznik na swój własny adres e-mail."
     },
 
     "lang-second-class-relics": {

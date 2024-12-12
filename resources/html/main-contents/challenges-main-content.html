@@ -89,10 +89,6 @@
                     </div>
                 </div>
                 <div class="row modal-container">
-                    <!--<div class="col-12 page-content">-->
-                        <!--<h4>#lang-save-file|capitalize#</h4>-->
-                    <!--</div>-->
-
                     <div class="col-12 col-lg-10 offset-lg-1 modal-inputs">
                         <p>#lang-owner-full-name|capitalize#</p>
                         <input type="text" class="input-form" id="input-for-owner" name="name" maxlength="100" onChange="setValueAsOwner(this.value)">
@@ -110,18 +106,20 @@
                         </div>
                     </div>
 
+                    <div class="col-10 offset-1 d-flex justify-content-center">
+                        <!--<button type="button" class="modal-bt">#lang-challenges-save-file|capitalize#</button>-->
+                        <input id="file-output" class="btn btn-primary form-control" type="button" value="#lang-challenges-save-file|capitalize|original-only-for-missing#" onclick="saveFile()" />
+                    </div>
+
                     <div class="col-12 page-content">
+                        <h4>#lang-caution|uppercase#</h4>
+
                         <ul>
                             <li>#lang-save-file-info-1#</li>
                             <li>#lang-save-file-info-2#</li>
                         </ul>
                     </div>
 
-
-                    <div class="col-10 offset-1 d-flex justify-content-center">
-                        <!--<button type="button" class="modal-bt">#lang-challenges-save-file|capitalize#</button>-->
-                        <input id="file-output" class="btn btn-primary form-control" type="button" value="#lang-challenges-save-file|capitalize|original-only-for-missing#" onclick="saveFile()" />
-                    </div>
                 </div>
             </div>
         </div>
