@@ -2849,6 +2849,11 @@ async function setChecklistStatus(newValue) {
   }
 }
 
+async function setChecklistStatusWithNotesReset(newValue, rowId) {
+  await notesReset(rowId);
+  await setChecklistStatus(newValue);
+}
+
 async function importMarkdownDescription(element, filePath, params = [], values = {}) {
   element.innerHTML = '';
 
