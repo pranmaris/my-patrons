@@ -584,19 +584,6 @@
       }
     },
     "checklist": {
-      "verification": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "potwierdź datę swoich narodzin"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/potwierdz-date-narodzin"
-          }
-        }
-      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": false,
@@ -1837,19 +1824,6 @@
       }
     },
     "checklist": {
-      "verification": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "potwierdź datę swojego pierwszego przyjęcia Sakramentu Namaszczenia Chorych"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/potwierdz-date-pierwszego-przyjecia-sakramentu-namaszczenia-chorych"
-          }
-        }
-      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": false,
@@ -1929,19 +1903,6 @@
       }
     },
     "checklist": {
-      "verification": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "potwierdź datę swojego przyjęcia Sakramentu Chrztu Świętego"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/potwierdz-date-przyjecia-sakramentu-chrztu-swietego"
-          }
-        }
-      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": false,
@@ -2029,19 +1990,6 @@
       }
     },
     "checklist": {
-      "verification": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "potwierdź datę swojego przyjęcia Sakramentu Bierzmowania"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/potwierdz-date-przyjecia-sakramentu-bierzmowania"
-          }
-        }
-      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": false,
@@ -2129,19 +2077,6 @@
       }
     },
     "checklist": {
-      "verification": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "potwierdź datę swojego pierwszego przyjęcia Sakramentu Eucharystii"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/potwierdz-date-pierwszego-przyjecia-sakramentu-eucharystii"
-          }
-        }
-      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": false,
@@ -2221,19 +2156,6 @@
       }
     },
     "checklist": {
-      "verification": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "potwierdź datę swojego pierwszego przyjęcia Sakramentu Małżeństwa"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/potwierdz-date-pierwszego-przyjecia-sakramentu-malzenstwa"
-          }
-        }
-      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": false,
@@ -2329,19 +2251,6 @@
       }
     },
     "checklist": {
-      "verification": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "potwierdź datę swojego przyjęcia Sakramentu Kapłaństwa"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/potwierdz-date-przyjecia-sakramentu-kaplanstwa"
-          }
-        }
-      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": false,
@@ -2421,19 +2330,6 @@
       }
     },
     "checklist": {
-      "verification": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "potwierdź datę swojego pierwszego przyjęcia Sakramentu Pokuty i Pojednania"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/potwierdz-date-pierwszego-przyjecia-sakramentu-pokuty-i-pojednania"
-          }
-        }
-      },
       "note": {
         "to-complete-on-selected-date": false,
         "required": false,
