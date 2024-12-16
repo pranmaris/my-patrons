@@ -1175,7 +1175,7 @@
     "name": {
       "pl": "Bóg"
     },
-    "selectable": true,
+    "selectable": false,
     "description": {
       "params": [],
       "template": {
@@ -1298,7 +1298,7 @@
     "name": {
       "pl": "Misja Apostoła"
     },
-    "selectable": true,
+    "selectable": false,
     "description": {
       "params": [],
       "template": {
@@ -2820,7 +2820,7 @@
     "name": {
       "pl": "Własna Notatka"
     },
-    "selectable": true,
+    "selectable": false,
     "description": {
       "params": [],
       "template": {

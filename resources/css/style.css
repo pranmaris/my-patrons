@@ -1357,29 +1357,29 @@ p.tab-p {
 
 
 
-.description-area blockquote {
-  margin-left: 10px;
-  padding: 0 1em;
-  color: rgb(0, 100, 100);
-  border-left: .25em solid rgb(0, 100, 100);
-  font-size: 1em;
-}
+/*.description-area blockquote {*/
+  /*margin-left: 10px;*/
+  /*padding: 0 1em;*/
+  /*color: rgb(0, 100, 100);*/
+  /*border-left: .25em solid rgb(0, 100, 100);*/
+  /*font-size: 1em;*/
+/*}*/
 
-.description-area .selected-day-info {
-  color: rgb(200, 0, 0);
-  font-weight: bold;
-}
+/*.description-area .selected-day-info {*/
+  /*color: rgb(200, 0, 0);*/
+  /*font-weight: bold;*/
+/*}*/
 
-.description-area .status {
-  width: auto;
-  min-width: 20px;
-  margin: 1px;
-  padding: 2px;
-  border-radius: 50px;
-  border-style: solid;
-  border-width: 1px;
-  white-space: pre;
-}
+/*.description-area .status {*/
+  /*width: auto;*/
+  /*min-width: 20px;*/
+  /*margin: 1px;*/
+  /*padding: 2px;*/
+  /*border-radius: 50px;*/
+  /*border-style: solid;*/
+  /*border-width: 1px;*/
+  /*white-space: pre;*/
+/*}*/
 
 .status-title {
   font-weight: bold;
@@ -1414,3 +1414,12 @@ iframe {
   padding: 20px;
 }
 
+.challenges-description p,
+.challenges-description li
+{
+  font-size: 1em;
+}
+
+.challenges-description sup {
+  color: var(--color3);
+}
