@@ -1,6 +1,3 @@
-<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+**Wyznaj** swoją wiarę i **powierz Bogu** siebie oraz swój **udział w inicjatywie** _„Moi Patroni”_.
 
----
-**Powierz Bogu** cały swój **udział w inicjatywie** _„Moich Patronów”_.
-
-Umożliwi Ci to **zapraszanie Patronów** i wykonywanie wielu wyzwań z nimi związanych!
+Czynisz to nie tylko dlatego, aby **stać się Uczestnikiem**, który może **zapraszać Patronów** i **wykonywać wiele wyzwań** z Nimi związanych, ale też dlatego, że chcesz, aby ta przygoda **zbliżała Cię do Boga**.

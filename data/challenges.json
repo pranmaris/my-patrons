@@ -588,7 +588,7 @@
         "to-complete-on-selected-date": false,
         "required": false,
         "name": {
-          "pl": "uzupełnij dowolne notatki"
+          "pl": "Uzupełnij dowolne notatki"
         },
         "description": {
           "params": ["row-id"],
@@ -604,7 +604,7 @@
           "person": [0, 2]
         },
         "name": {
-          "pl": "Rodzice"
+          "pl": "rodzice"
         }
       },
       "time": {
@@ -1175,7 +1175,7 @@
     "name": {
       "pl": "Bóg"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -1203,7 +1203,7 @@
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
-          "pl": "zawierz Bogu swój udział w inicjatywie"
+          "pl": "Zawierz Bogu swój udział w inicjatywie"
         },
         "description": {
           "params": [],
@@ -1216,12 +1216,12 @@
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
-          "pl": "pomódl się do Boga"
+          "pl": "Wyznaj swoją wiarę"
         },
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/kroki/pomodl-sie-do-boga"
+            "pl": "pl/kroki/wyznaj-swoja-wiare"
           }
         }
       },
@@ -1229,7 +1229,7 @@
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "poznaj Boga"
+          "pl": "Poznaj Boga"
         },
         "description": {
           "params": [],
@@ -1242,7 +1242,7 @@
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "poinformuj swoich „Apostołów”"
+          "pl": "Poinformuj swoich „Apostołów”"
         },
         "description": {
           "params": [],
@@ -1255,7 +1255,7 @@
         "to-complete-on-selected-date": false,
         "required": false,
         "name": {
-          "pl": "uzupełnij dowolne notatki"
+          "pl": "Uzupełnij dowolne notatki"
         },
         "description": {
           "params": [],

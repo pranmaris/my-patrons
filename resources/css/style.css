@@ -1357,13 +1357,6 @@ p.tab-p {
 
 
 
-/*.description-area blockquote {*/
-  /*margin-left: 10px;*/
-  /*padding: 0 1em;*/
-  /*color: rgb(0, 100, 100);*/
-  /*border-left: .25em solid rgb(0, 100, 100);*/
-  /*font-size: 1em;*/
-/*}*/
 
 /*.description-area .selected-day-info {*/
   /*color: rgb(200, 0, 0);*/
@@ -1422,4 +1415,12 @@ iframe {
 
 .challenges-description sup {
   color: var(--color3);
+}
+
+.challenges-description > blockquote > p {
+  margin-left: 10px;
+  padding: 0 1em;
+  color: var(--color3) !important;
+  border-left: .25em solid var(--color3);
+  font-size: 1em;
 }
