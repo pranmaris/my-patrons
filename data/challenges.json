@@ -1729,7 +1729,7 @@
           }
         }
       },
-      "rosary-conslusion": {
+      "rosary-conclusion": {
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
