@@ -4633,6 +4633,24 @@
         ],
         "feasts": []
     },
+    "patrons/ladislaus": {
+        "names": {
+            "la": "Ladislaus",
+            "en": "Ladislas",
+            "pl": "Władysław"
+        }
+    },
+    "patrons/ladislaus/ulm": {
+        "names": {
+            "pl": "Władysław Ulma",
+            "en": "Ladislas Ulma",
+            "la": "Ladislaus Ulma"
+        },
+        "died": [
+            "1944-03-24"
+        ],
+        "feasts": []
+    },
     "patrons/laurentius": {
         "names": {
             "la": "Laurentius",

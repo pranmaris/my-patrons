@@ -554,6 +554,11 @@
             "en": "Justus /+ Pastor",
             "pl": "Just /+ Pastor"
         },
+        "records/patrons/ladislaus/ulm": {
+            "pl": "Władysław Ulma",
+            "en": "Ladislas Ulma",
+            "la": "Ladislaus Ulma"
+        },
         "records/patrons/laurentius/rom": {
             "la": "Laurentius de Roma",
             "en": "Lawrence of Rome",

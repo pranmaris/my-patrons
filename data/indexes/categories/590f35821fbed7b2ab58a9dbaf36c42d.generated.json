@@ -1231,6 +1231,11 @@
             "en": "Juvenal of Narni",
             "pl": "Juwenalis z Narni"
         },
+        "records/patrons/ladislaus/ulm": {
+            "pl": "Władysław Ulma",
+            "en": "Ladislas Ulma",
+            "la": "Ladislaus Ulma"
+        },
         "records/patrons/laurentius/bru": {
             "it": "Lorenzo da Brindisi",
             "en": "Lawrence of Brindisi",

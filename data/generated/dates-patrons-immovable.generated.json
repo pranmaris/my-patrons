@@ -1675,6 +1675,16 @@
         }
     },
     "03-24": {
+        "records/patrons/ladislaus/ulm": {
+            "name": {
+                "pl": "Władysław Ulma",
+                "en": "Ladislas Ulma",
+                "la": "Ladislaus Ulma"
+            },
+            "sources": {
+                "reliable-death-anniversary": "24 III"
+            }
+        },
         "records/patrons/maria/kar": {
             "name": {
                 "pl": "Maria Karłowska",
