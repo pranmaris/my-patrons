@@ -1,0 +1,27 @@
+{
+    "names": {
+        "he": "אֵלִיָּהוּ"
+    },
+    "translations": {
+        "la": [
+            "Elias"
+        ],
+        "en": [
+            "Elijah"
+        ],
+        "pl": [
+            "Eliasz"
+        ],
+        "he": [
+            "אֵלִיָּהוּ"
+        ]
+    },
+    "links": {
+        "records/patrons/elias/the": {
+            "he": "אֵלִיָּהוּ הַנָּבִיא",
+            "la": "Elias Thesbita",
+            "en": "Elijah Tishbite",
+            "pl": "Eliasz Tiszbita"
+        }
+    }
+}

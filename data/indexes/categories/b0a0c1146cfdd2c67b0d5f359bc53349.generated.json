@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/elias/the": {
+            "he": "אֵלִיָּהוּ הַנָּבִיא",
+            "la": "Elias Thesbita",
+            "en": "Elijah Tishbite",
+            "pl": "Eliasz Tiszbita"
+        },
         "records/patrons/ezechiel/pro": {
             "he": "יְחֶזְקֵאל",
             "en": "Ezekiel",

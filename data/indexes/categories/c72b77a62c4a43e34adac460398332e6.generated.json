@@ -631,6 +631,12 @@
             "en": "Edward Klinik",
             "la": "Eduardus Klinik"
         },
+        "records/patrons/elias/the": {
+            "he": "אֵלִיָּהוּ הַנָּבִיא",
+            "la": "Elias Thesbita",
+            "en": "Elijah Tishbite",
+            "pl": "Eliasz Tiszbita"
+        },
         "records/patrons/emmerammus/rat": {
             "la": "Emmeramus Ratisbonensis",
             "en": "Emmeram of Regensburg",

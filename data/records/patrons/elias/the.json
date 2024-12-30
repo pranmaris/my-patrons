@@ -1,0 +1,23 @@
+{
+  "names": {
+    "he": [
+      "אֵלִיָּהוּ הַנָּבִיא"
+    ],
+    "la": [
+      "Elias Thesbita"
+    ],
+    "en": [
+      "Elijah Tishbite"
+    ],
+    "pl": [
+      "Eliasz Tiszbita"
+    ]
+  },
+
+  "died": [">-800", "<-701"],
+
+  "also-in-martyrology": ["07-20"],
+
+  "forenames": ["elias"],
+  "categories": ["vir", "propheta"]
+}

@@ -3654,6 +3654,17 @@
         }
     },
     "07-20": {
+        "records/patrons/elias/the": {
+            "name": {
+                "he": "אֵלִיָּהוּ הַנָּבִיא",
+                "la": "Elias Thesbita",
+                "en": "Elijah Tishbite",
+                "pl": "Eliasz Tiszbita"
+            },
+            "sources": {
+                "other-martyrology-days": "20 VII"
+            }
+        },
         "records/patrons/hieronymus/emi": {
             "name": {
                 "it": "Girolamo Emiliani",

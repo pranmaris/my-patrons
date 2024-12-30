@@ -2502,6 +2502,27 @@
         ],
         "feasts": []
     },
+    "patrons/elias": {
+        "names": {
+            "la": "Elias",
+            "en": "Elijah",
+            "pl": "Eliasz",
+            "he": "אֵלִיָּהוּ"
+        }
+    },
+    "patrons/elias/the": {
+        "names": {
+            "he": "אֵלִיָּהוּ הַנָּבִיא",
+            "la": "Elias Thesbita",
+            "en": "Elijah Tishbite",
+            "pl": "Eliasz Tiszbita"
+        },
+        "died": [
+            ">-800",
+            "<-701"
+        ],
+        "feasts": []
+    },
     "patrons/elisabeth": {
         "names": {
             "la": "Elisabeth",
