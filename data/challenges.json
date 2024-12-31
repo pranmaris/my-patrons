@@ -588,7 +588,7 @@
         "to-complete-on-selected-date": false,
         "required": false,
         "name": {
-          "pl": "Uzupełnij dowolne notatki"
+          "pl": "uzupełnij dowolne notatki"
         },
         "description": {
           "params": ["row-id"],
