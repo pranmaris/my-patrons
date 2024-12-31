@@ -4,10 +4,6 @@
         "pl": "o Moich Patronach"
     },
 
-    "lang-about-my-patrons-info": {
-        "pl": "<em>„Moi Patroni”</em> to <strong>inicjatywa</strong> dotycząca prawdy o świętych obcowaniu, o której wielu nie pamięta na co dzień. Święci mogą nam <strong>pomagać</strong>, nie naruszając naszej wolności oraz <strong>przybliżać nas</strong> do Boga i Kościoła. My z kolei, wchodząc z Nimi w relację, przede wszystkim możemy <strong>wzrastać</strong> w wierze i miłości.<br /><br /><strong>W inicjatywie</strong> <em>„Moi Patroni”</em> <strong>poprzez zapraszanie</strong> Świętych i Błogosławionych Kościoła Rzymskokatolickiego do <strong>grona naszych <em>Patronów</em></strong> i wykonywaniu z Nimi <strong>nowych <em>wyzwań</em></strong> o przeróżnej trudności, mamy możliwość <strong>poznawania</strong> Ich bliżej, <strong>naśladowania</strong> i <strong>świadomego zwracania się</strong> do Nich. Możemy także <strong>gromadzić</strong> nasze <em>osiągnięcia</em> i już wkrótce <strong>zbudować</strong> własną <em>talię kart kolekcjonerskich</em> z Ich wizerunkami."
-    },
-
     "lang-about-us": {
         "en": "about us",
         "la": "de nobis",
@@ -177,6 +173,126 @@
     "lang-bone-relics": {
         "en": "bone relics",
         "pl": "relikwie kości"
+    },
+
+    "lang-brochure-discover-claim": {
+        "pl": "Odkryj świętych obcowanie!"
+    },
+
+    "lang-brochure-role-1": {
+        "pl": "<strong>pomagają</strong> nam"
+    },
+
+    "lang-brochure-role-2": {
+        "pl": "<strong>chronią</strong> nas"
+    },
+
+    "lang-brochure-role-3": {
+        "pl": "<strong>przybliżają</strong> nas do Boga"
+    },
+
+    "lang-brochure-invite-claim": {
+        "pl": "Zapraszaj świętych do swojego życia, wzrastaj w wierze i miłości!"
+    },
+
+    "lang-brochure-actions": {
+        "pl": "W inicjatywie <em>„Moi Patroni”</em>"
+    },
+
+    "lang-brochure-action-1": {
+        "pl": "<strong>zapraszasz</strong> Świętych i Błogosławionych Kościoła Rzymskokatolickiego <strong>do grona swoich <em>Patronów</em></strong>"
+    },
+
+    "lang-brochure-action-2": {
+        "pl": "<strong>wykonujesz</strong> z Nimi <strong><em>wyzwania</em></strong> o przeróżnej trudności"
+    },
+
+    "lang-brochure-action-3": {
+        "pl": "<strong>poznajesz</strong> Ich bliżej, aby <strong>naśladować</strong> i <strong>świadomie zwracać się</strong> do Nich"
+    },
+
+    "lang-brochure-action-4": {
+        "pl": "<strong>odkrywasz</strong> m.in. święta, atrybuty, imiona powiązane z Nimi"
+    },
+
+    "lang-brochure-action-5": {
+        "pl": "<strong>gromadzisz</strong> swoje <em>osiągnięcia</em>"
+    },
+
+    "lang-brochure-action-6": {
+        "pl": "<strong>budujesz</strong> <em>własną talię <strong>kart kolekcjonerskich</strong></em> z Ich wizerunkami (już wkrótce)"
+    },
+
+    "lang-brochure-traits": {
+        "pl": "Jak to działa?"
+    },
+
+    "lang-brochure-trait-1": {
+        "pl": "za <strong>darmo</strong>"
+    },
+
+    "lang-brochure-trait-2": {
+        "pl": "rozpoczynasz <strong>samodzielnie w dowolnym momencie</strong> (robisz przerwy, kiedy chcesz)"
+    },
+
+    "lang-brochure-trait-3": {
+        "pl": "dla poszczególnych <strong>ról Patrona</strong> wykonujesz przeróżne <strong><em>wyzwania</em></strong>, które <strong>wpisujesz do edytora</strong> (odczyt i zapis do pliku na urządzeniu - bez logowania i przechowywania danych osobowych)"
+    },
+
+    "lang-brochure-trait-4": {
+        "pl": "gdy dany Patron przyjmie wszystkie role - literki ułożą napis „<strong>PATRON</strong>”, z możliwością uzyskania specjalnego przedrostka „<strong>MY</strong>” („mój”):"
+    },
+
+    "lang-brochure-patron-roles": {
+        "pl": "<strong>6 ról</strong> zapraszanych <em>Patronów</em>:"
+    },
+
+    "lang-brochure-patron-role-level-1": {
+        "pl": "Poziom I"
+    },
+
+    "lang-brochure-patron-role-defender": {
+        "pl": "<strong>[A] Patron Obrońca</strong> - w Kościele"
+    },
+
+    "lang-brochure-patron-role-guardian": {
+        "pl": "<strong>[T] Patron Opiekun</strong> - w świecie"
+    },
+
+    "lang-brochure-patron-role-advocate": {
+        "pl": "<strong>[R] Patron Orędownik</strong> - w drugim człowieku"
+    },
+
+    "lang-brochure-patron-role-level-2": {
+        "pl": "Poziom II"
+    },
+
+    "lang-brochure-patron-role-mentor": {
+        "pl": "<strong>[N] Patron Mentor</strong> - rozumem"
+    },
+
+    "lang-brochure-patron-role-helper": {
+        "pl": "<strong>[O] Patron Wspomożyciel</strong> - sercem"
+    },
+
+    "lang-brochure-patron-role-level-3": {
+        "pl": "Poziom III"
+    },
+
+    "lang-brochure-patron-role-guide": {
+        "pl": "<strong>[P] Patron Przewodnik</strong> - dla wytrwałych"
+    },
+
+    "lang-brochure-patron-additions": {
+        "pl": "oraz dodatkowo:"
+    },
+
+    "lang-brochure-patron-addition-missions": {
+        "pl": "<strong>[M...] Misje z Patronami</strong>"
+    },
+
+    "lang-brochure-patron-addition-specials": {
+        "pl": "<strong>[Y...] Patroni Specjalni</strong>"
     },
 
     "lang-buy-coffee": {
