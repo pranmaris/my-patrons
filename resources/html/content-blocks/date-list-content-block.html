@@ -1,8 +1,9 @@
 <!--prefactoring-->
 <div id="date-list-content-block">
-  <span class="headline headline-small">##list-name-variable#|capitalize#: <b>#dates#</b></span>
-
-  <div class="my-patrons-section">
+  <h3 class="date-form-name">##list-name-variable#|capitalize#:</h3>
+  <p class="date-form-date">#dates#</p>
+  <div class="date-change-form">#date-change-pre-list-form#</div>
+  <div class="date-list">
 #lang-in-random-order|capitalize#:
     <button type="button" class="btn-my" onClick="window.location.reload()">
       <img class="svg-image" src="/files/resources/svg/shuffle.svg" />
@@ -11,6 +12,5 @@
 #patrons-list#
     </ul>
   </div>
-  <hr />
-#date-change-form#
+  <div class="date-change-form">#date-change-post-list-form#</div>
 </div>

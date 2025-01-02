@@ -123,7 +123,7 @@ const CARD_TYPE_GOD = 'god';
 const CARD_TYPE_PATRONS = 'patrons';
 //const CARD_TYPE_I = 'i';
 
-const CARD_TYPE_I_QR_CODE_URL_PREFIX = '/dates/list-for-messenger-missions';
+const CARD_TYPE_I_QR_CODE_URL_PREFIX = '/dates/messenger-mission-patrons';
 
 const CARD_TYPES_EMPTY_ROOT_PATH = '_';
 const CARD_TYPES_ROOT_PATHS = {

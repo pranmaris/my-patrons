@@ -6,8 +6,9 @@ class DatePatronsAndImmovableFeastsContentBlock extends DateContentBlock impleme
 
     protected function setOtherProperties(string $dates): void
     {
-        $this->listNameVariable = 'lang-list-for-messenger-missions';
+        $this->listNameVariable = 'lang-messenger-mission-patrons';
         $this->formTemplate = $this->getOriginalHtmlFileContent('content-blocks/date-change-form-multi-year-days-content-block.html');
+        $this->isPreFormPosition = false;
 
         $datesList = [];
         if ($dates !== '') {

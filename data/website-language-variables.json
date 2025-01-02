@@ -775,8 +775,8 @@
     },
 
     "lang-dates-multi-year-days-form-select-info": {
-        "en": "choose the dates of birth and first reception of each sacrament by the chosen person to find out which Patrons he or she can become a Messenger",
-        "pl": "wybierz daty urodzenia i pierwszego przyjęcia każdego sakramentu przez wybraną osobę, aby dowiedzieć się których Patronów może stać się ona Posłańcem"
+        "en": "Choose the dates of birth and <strong>first reception</strong> of each sacrament by the <strong>chosen person</strong> to find out which Patrons he or she can become a <strong>Messenger</strong>:",
+        "pl": "Wybierz daty urodzenia i <strong>pierwszego przyjęcia</strong> każdego sakramentu przez <strong>wybraną osobę</strong>, aby dowiedzieć się, których Patronów może stać się ona <strong>Posłańcem</strong>:"
     },
 
     "lang-day": {
@@ -788,6 +788,11 @@
     "lang-death-date-year-or-century": {
         "en": "death date, year or century",
         "pl": "data, rok lub stulecie śmierci"
+    },
+
+    "lang-defender-patrons": {
+        "en": "Defender Patrons",
+        "pl": "Patroni Obrońcy"
     },
 
     "lang-deleted-record-info": {
@@ -933,6 +938,11 @@
     "lang-feast-name": {
         "en": "feast name",
         "pl": "nazwa święta"
+    },
+
+    "lang-feasts-to-discover": {
+        "en": "feasts to discover",
+        "pl": "święta do odkrycia"
     },
 
     "lang-file-loaded-successfully": {
@@ -1146,21 +1156,6 @@
         "pl": "powiązania"
     },
 
-    "lang-list-of-feasts-to-discover": {
-        "en": "feasts to discover",
-        "pl": "święta do odkrycia"
-    },
-
-    "lang-list-for-patrons-defenders": {
-        "en": "Patrons Defenders",
-        "pl": "Patroni Obrońcy"
-    },
-
-    "lang-list-for-messenger-missions": {
-        "en": "Messenger Missions Patrons",
-        "pl": "Patroni Misji Posłańca"
-    },
-
     "lang-liturgical-calendar": {
         "en": "liturgical calendar",
         "pl": "kalendarz liturgiczny"
@@ -1224,6 +1219,11 @@
         "en": "me",
         "la": "ego",
         "pl": "ja"
+    },
+
+    "lang-messenger-mission-patrons": {
+        "en": "Messenger Mission Patrons",
+        "pl": "Patroni Misji Posłańca"
     },
 
     "lang-minister-of-holy-communion": {
@@ -1823,6 +1823,11 @@
     "lang-search": {
         "en": "search",
         "pl": "szukaj"
+    },
+
+    "lang-select-date": {
+        "en": "select date",
+        "pl": "wybierz datę"
     },
 
     "lang-service-claim": {

@@ -1424,3 +1424,32 @@ iframe {
   border-left: .25em solid var(--color3);
   font-size: 1em;
 }
+
+
+
+
+.date-change-form {
+  border: var(--color3) solid 2px;
+  border-radius: 25px;
+  padding: 20px;
+
+  width: 100%;
+  margin-top: 10px;
+}
+.date-list {
+  border: var(--color1) solid 2px;
+  border-radius: 25px;
+  padding: 20px;
+
+  width: 100%;
+  margin-top: 10px;
+}
+
+.date-form-name {
+  display: inline;
+}
+
+.date-form-date {
+  display: inline;
+  font-weight: var(--Bold);
+}
