@@ -7,6 +7,8 @@ class IndexContent extends Content
     public function __construct()
     {
         parent::__construct();
+
+        $this->redirectMainPageToLanguageSubdomainIfNeeded();
         $this->bodyContent = new BodyContent();
     }
 
@@ -27,5 +29,30 @@ class IndexContent extends Content
         $finallyTranslatedContent = $this->getFinallyTranslatedContent($translatedContent, $websiteTranslatedVariables);
 
         return $finallyTranslatedContent;
+    }
+
+    private function redirectMainPageToLanguageSubdomainIfNeeded(): void
+    {
+        $isHomeMode = $this->getEnvironment()->isHomeMode();
+        $language = $this->getEnvironment()->getHostSubdomainOnly();
+        $requestPath = $this->getEnvironment()->getRequestPath();
+
+        if (!$isHomeMode && $language === '' && ltrim($requestPath, '/') === '') {
+            $allowedLanguages = self::SELECTABLE_LANGUAGES_ORDER;
+            $acceptLanguages = $this->getEnvironment()->getAcceptLanguages();
+            $host = $this->getEnvironment()->getHostDomain();
+
+            foreach ($acceptLanguages as $acceptLanguageString) {
+                $acceptLanguage = preg_replace('/^([a-z]+)[^a-z].*$/', '\\1', mb_strtolower($acceptLanguageString));
+                foreach ($allowedLanguages as $allowedLanguage) {
+                    if (mb_strtolower($allowedLanguage) === $acceptLanguage) {
+                        $hostToRedirect = $allowedLanguage . '.' . $host;
+                        $protocol = $this->getEnvironment()->getHostProtocol();
+
+                        $this->getEnvironment()->redirect($protocol . $hostToRedirect);
+                    }
+                }
+            }
+        }
     }
 }

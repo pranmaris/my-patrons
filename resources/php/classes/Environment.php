@@ -8,6 +8,7 @@ class Environment
 
     private const QUERY_STRING_MODE_FIELD_NAME = 'mode';
     private const MODE_CONTENT_ONLY = 'content-only';
+    private const MODE_HOME = 'home';
 
     public function __construct()
     {
@@ -63,6 +64,13 @@ class Environment
         return $this->getFromServerGlobal('SERVER_NAME');
     }
 
+    public function getAcceptLanguages(): array
+    {
+        $langsString = $this->getFromServerGlobal('HTTP_ACCEPT_LANGUAGE');
+
+        return explode(',', $langsString);
+    }
+
     public function getHostMainDomainOnly(): string
     {
         $host = $this->getHostDomain();
@@ -105,6 +113,11 @@ class Environment
     public function isContentOnlyMode(): bool
     {
         return $this->getModeFieldFromQueryString() === self::MODE_CONTENT_ONLY;
+    }
+
+    public function isHomeMode(): bool
+    {
+        return $this->getModeFieldFromQueryString() === self::MODE_HOME;
     }
 
     private function getModeFieldFromQueryString(): string

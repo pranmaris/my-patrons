@@ -9,6 +9,8 @@ abstract class Base
     private $path;
     private $movableFeastBase;
 
+    protected const SELECTABLE_LANGUAGES_ORDER = ['en', 'la', 'pl'];
+
     protected const PATRON_NAMES_INDEX = 'names';
     protected const PATRON_FEASTS_INDEX = 'feasts';
     protected const PATRON_DIED_INDEX = 'died';

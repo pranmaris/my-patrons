@@ -2,8 +2,6 @@
 
 class BodyContent extends Content
 {
-    private const SELECTABLE_LANGUAGES_ORDER = ['en', 'la', 'pl'];
-
     private const ORIGINAL_VARIABLE_NAME = 'lang-original';
 
     private const NEWLINE = "\n";
