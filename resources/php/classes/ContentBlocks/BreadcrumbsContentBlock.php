@@ -97,6 +97,10 @@ class BreadcrumbsContentBlock extends ContentBlock implements ContentBlockInterf
 
     public function getFullContent(string $translatedName): string
     {
+        if ($this->getEnvironment()->isContentOnlyMode()) {
+            return '';
+        }
+
         $showMainPage = $this->showMainPage;
         $pathElements = $this->pathElements;
         if (!$showMainPage && count($pathElements) === 1) {

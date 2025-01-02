@@ -6,6 +6,9 @@ class Environment
     private const DOMAIN_TEST_ELEMENT = '.dev';
     private const ROOT_DIRECTORY_NAME = 'my-patrons';
 
+    private const QUERY_STRING_MODE_FIELD_NAME = 'mode';
+    private const MODE_CONTENT_ONLY = 'content-only';
+
     public function __construct()
     {
     }
@@ -97,6 +100,18 @@ class Environment
         $domainTestElement = preg_replace(self::DOMAIN_PATTERN, '\\1', $hostMainDomain);
 
         return $domainTestElement !== self::DOMAIN_TEST_ELEMENT;
+    }
+
+    public function isContentOnlyMode(): bool
+    {
+        return $this->getModeFieldFromQueryString() === self::MODE_CONTENT_ONLY;
+    }
+
+    private function getModeFieldFromQueryString(): string
+    {
+        $params = $this->getRequestQueryParams();
+
+        return $params[self::QUERY_STRING_MODE_FIELD_NAME] ?? '';
     }
 
     private function getEnvironmentClassPath(): string
