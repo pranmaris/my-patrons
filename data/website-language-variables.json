@@ -271,12 +271,16 @@
         "pl": "<strong>[N] Patron Mentor</strong> - rozumem"
     },
 
+    "lang-brochure-patron-role-level-3": {
+        "pl": "Poziom III"
+    },
+
     "lang-brochure-patron-role-helper": {
         "pl": "<strong>[O] Patron Wspomożyciel</strong> - sercem"
     },
 
-    "lang-brochure-patron-role-level-3": {
-        "pl": "Poziom III"
+    "lang-brochure-patron-role-level-4": {
+        "pl": "Poziom IV"
     },
 
     "lang-brochure-patron-role-guide": {
