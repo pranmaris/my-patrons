@@ -80,13 +80,11 @@
     },
 
     "lang-add-new-challenge-required-checklist-steps-info": {
-        "en": "on selected date, You must complete all checklist steps below before creating this challenge",
-        "pl": "w wybranym dniu, musisz wykonać wszystkie następujące kroki checklisty zanim utworzysz to wyzwanie"
+        "pl": "aby dodać to wyzwanie w wybranym dniu, <strong>konieczne jest wykonanie</strong> wszystkich następujących kroków checklisty"
     },
 
     "lang-add-new-challenge-required-notes-info": {
-        "en": "You must complete the notes below before creating this challenge",
-        "pl": "musisz uzupełnić poniższe notatki zanim utworzysz to wyzwanie"
+        "pl": "aby dodać to wyzwanie, <strong>konieczne jest uzupełnienie</strong> poniższych notatek"
     },
 
     "lang-add-new-your-own-note": {
@@ -1704,8 +1702,8 @@
     },
 
     "lang-remove-challenge-confirmation": {
-        "en": "You must confirm that You want remove following challenge",
-        "pl": "musisz potwierdzić, że chcesz usunąć poniższe wyzwanie"
+        "en": "please confirm that You want remove following challenge",
+        "pl": "potwierdź, że chcesz usunąć poniższe wyzwanie"
     },
 
     "lang-remove-note": {
@@ -1714,8 +1712,8 @@
     },
 
     "lang-remove-note-confirmation": {
-        "en": "You must confirm that You want remove selected note and its subnotes",
-        "pl": "musisz potwierdzić, że chcesz usunąć wybraną notatkę ze wszystkimi jej podnotatkami"
+        "en": "please confirm that You want remove selected note and its subnotes",
+        "pl": "potwierdź, że chcesz usunąć wybraną notatkę ze wszystkimi jej podnotatkami"
     },
 
     "lang-representation": {

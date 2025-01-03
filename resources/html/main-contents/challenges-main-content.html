@@ -199,24 +199,25 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="row modal-container" id="remove-challenge-modal-body">
                     <div class="col-12 justify-content-left">
-                        <span>#lang-remove-challenge-confirmation|capitalize#:</span>
-                        <table class="table table-bordered border-primary wyzwania-tab">
-                            <thead>
-                                <tr>
-                                    <th>#lang-row-id|capitalize#</th>
-                                    <th>#lang-date|capitalize#</th>
-                                    <th>#lang-type-and-number|capitalize#</th>
-                                    <th>#lang-person|capitalize#</th>
-                                </tr>
-                            </thead>
-                            <tbody id="challenge-to-remove"></tbody>
-                        </table>
+                        <p>#lang-remove-challenge-confirmation|capitalize#:</p>
+                        <div class="tab-con">
+                            <table class="wyzwania-tab">
+                                <thead>
+                                    <tr>
+                                        <th class="challenge-column-number">#lang-row-id|capitalize#</th>
+                                        <th class="challenge-column-date">#lang-date|capitalize#</th>
+                                        <th class="challenge-column-type">#lang-type-and-number|capitalize#</th>
+                                        <th class="challenge-column-person">#lang-person|capitalize#</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="challenge-to-remove"></tbody>
+                            </table>
+                        </div>
                     </div>
                     <div class="col-10 offset-1 d-flex justify-content-center">
-                        <button type="button" class="modal-bt" data-bs-dismiss="modal">#lang-cancel|capitalize#</button>
+                        <button type="button" class="modal-btc modal-bt-with-other-button" data-bs-dismiss="modal">#lang-cancel|capitalize#</button>
                         <button type="button" id="remove-challenge-button" class="modal-bt" data-bs-target="#remove-challenge-modal-toggle" data-bs-dismiss="modal" onClick="removeChallenge()">#lang-remove-challenge|capitalize#</button>
                         <input id="remove-challenge-modal-row-id" type="hidden" />
                     </div>
@@ -241,7 +242,7 @@
                 <div class="row modal-container">
                     <div class="col-12 justify-content-left list-group" id="checklist-list-modal-body"></div>
                     <div class="col-10 offset-1 d-flex justify-content-center">
-                        <button type="button" id="checklist-list-button" class="modal-bt" data-bs-target="#checklist-list-modal-toggle" data-bs-dismiss="modal" onClick="reloadChallengesTab()">#lang-done|capitalize#</button>
+                        <button type="button" id="checklist-list-button" class="modal-btc" data-bs-target="#checklist-list-modal-toggle" data-bs-dismiss="modal">#lang-close|capitalize#</button>
                     </div>
                 </div>
             </div>
@@ -265,15 +266,17 @@
                 <!-- need to be refactored without footer as other modals -->
                 <div class="row modal-container description-area" id="checklist-item-description"></div>
                 <div class="row modal-container">
-                    <span>#lang-mark-as|capitalize#:</span>
-                    <div class="btn-group" role="group" aria-label="options">
-                        <button id="checklist-button-aborted" type="button" class="btn btn-danger" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" onClick="setChecklistStatus(false)">#lang-checklist-status-aborted#</button>
-                        <button id="checklist-button-waiting" type="button" class="btn btn-dark" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" onClick="setChecklistStatus(null)">#lang-checklist-status-waiting#</button>
-                        <button id="checklist-button-optional-waiting" type="button" class="btn btn-warning" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" onClick="setChecklistStatus(null)">#lang-checklist-status-optional-waiting#</button>
-                        <button id="checklist-button-done" type="button" class="btn btn-success" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" onClick="setChecklistStatus(true)">#lang-checklist-status-done#</button>
+                    <p>#lang-mark-as|capitalize#:</p>
+                    <div class="col-10 offset-1 d-flex justify-content-center">
+                        <div class="btn-group" role="group" aria-label="options">
+                            <button id="checklist-button-aborted" type="button" class="modal-bt modal-bt-with-other-button modal-bt-aborted" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" onClick="setChecklistStatus(false)">#lang-checklist-status-aborted#</button>
+                            <button id="checklist-button-waiting" type="button" class="modal-bt modal-bt-with-other-button modal-bt-waiting" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" onClick="setChecklistStatus(null)">#lang-checklist-status-waiting#</button>
+                            <button id="checklist-button-optional-waiting" type="button" class="modal-bt modal-bt-with-other-button modal-bt-optional-waiting" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" onClick="setChecklistStatus(null)">#lang-checklist-status-optional-waiting#</button>
+                            <button id="checklist-button-done" type="button" class="modal-bt modal-bt-done" data-bs-target="#modal-toggle-to-set-in-js" data-bs-toggle="modal" onClick="setChecklistStatus(true)">#lang-checklist-status-done#</button>
+                        </div>
+                        <input id="checklist-item-modal-row-id" type="hidden" />
+                        <input id="checklist-item-modal-item-type" type="hidden" />
                     </div>
-                    <input id="checklist-item-modal-row-id" type="hidden" />
-                    <input id="checklist-item-modal-item-type" type="hidden" />
                 </div>
             </div>
         </div>
@@ -296,7 +299,7 @@
                 <div class="row modal-container list-group" id="notes-list"></div>
                 <div class="row modal-container">
                     <div class="col-10 offset-1 d-flex justify-content-center">
-                        <button type="button" id="notes-button" class="modal-bt" data-bs-target="#notes-modal-toggle" data-bs-dismiss="modal" onClick="reloadChallengesTab()">#lang-done|capitalize#</button>
+                        <button type="button" id="notes-button" class="modal-btc" data-bs-target="#notes-modal-toggle" data-bs-dismiss="modal" onClick="reloadChallengesTab()">#lang-close|capitalize#</button>
                     </div>
                 </div>
             </div>

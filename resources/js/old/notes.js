@@ -136,7 +136,6 @@ const PROGRESS_OPTIONAL_ELEMENT_ID_PREFIX = 'progress-optional-';
 const PROGRESS_ABORTED_ELEMENT_ID_PREFIX = 'progress-aborted-';
 
 const PERSON_ADDITION_SEPARATOR = '@';
-const REMOVE_PERSON_URL_LINK_HREFS = ['me'];
 
 const INPUT_FOR_FILENAME_WITHOUT_EXTENSION_ELEMENT_ID = 'input-for-filename-without-extension';
 const DATETIME_CHECKBOX_FOR_FILENAME_WITHOUT_EXTENSION_ELEMENT_ID = 'datetime-checkbox-for-filename-without-extension';
@@ -222,10 +221,10 @@ const CHECKLIST_STATUS_OPTIONAL_WAITING = 'optional-waiting';
 const CHECKLIST_STATUS_ABORTED = 'aborted';
 const CHECKLIST_STATUS_DONE = 'done';
 const CHECKLIST_STATUSES = {
-  [CHECKLIST_STATUS_WAITING]: {variable: 'lang-checklist-status-waiting', color: 'dark'},
-  [CHECKLIST_STATUS_OPTIONAL_WAITING]: {variable: 'lang-checklist-status-optional-waiting', color: 'warning'},
-  [CHECKLIST_STATUS_ABORTED]: {variable: 'lang-checklist-status-aborted', color: 'danger'},
-  [CHECKLIST_STATUS_DONE]: {variable: 'lang-checklist-status-done', color: 'success'}
+  [CHECKLIST_STATUS_WAITING]: {variable: 'lang-checklist-status-waiting', color: CHECKLIST_STATUS_WAITING},
+  [CHECKLIST_STATUS_OPTIONAL_WAITING]: {variable: 'lang-checklist-status-optional-waiting', color: CHECKLIST_STATUS_OPTIONAL_WAITING},
+  [CHECKLIST_STATUS_ABORTED]: {variable: 'lang-checklist-status-aborted', color: CHECKLIST_STATUS_ABORTED},
+  [CHECKLIST_STATUS_DONE]: {variable: 'lang-checklist-status-done', color: CHECKLIST_STATUS_DONE}
 }
 
 const CHALLENGE_SUCCESS_STATUS_IN_DATA_ABORTED = false;
@@ -1237,9 +1236,6 @@ async function fillChallenges(challenges) {
 
     drawProgressBarValue(rowData.rowId);
 
-    if (inArray(rowData.personUrl, REMOVE_PERSON_URL_LINK_HREFS)) {
-      personUrlElement.removeAttribute('href');
-    }
     if (rowData.additionUrl == '') {
       additionUrlElement.removeAttribute('href');
     }

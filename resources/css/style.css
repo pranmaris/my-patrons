@@ -5,6 +5,8 @@
     --color3-light: #FEF3E8;
     --color4: #5A5A5A;
     --white: #ffffff;
+    --black: #000000;
+    --red: red;
     --line: #efefef;
     --breadcrumb: #A6A6A6;
     --Regular: 400;
@@ -15,6 +17,11 @@
     --status-warning: #F5FBBA;
     --status-info: #BAEAFB;
     --status-success: #BAFBC5;
+
+    --color-step-done: #02d024;
+    --color-step-optional-waiting: var(--color3);
+    --color-step-waiting: var(--black);
+    --color-step-aborted: var(--red);
 }
 
 body,
@@ -179,6 +186,34 @@ button.modal-bt {
     width: 100%;
     max-width: 250px;
     transition: all 0.25s;
+    margin-top: 20px;
+}
+button.modal-bt:disabled {
+    background-color: var(--color4);
+}
+
+.checklist-step-status-done,
+button.modal-bt-done {
+    background-color: var(--color-step-done);
+}
+
+.checklist-step-status-optional-waiting,
+button.modal-bt-optional-waiting {
+    background-color: var(--color-step-optional-waiting);
+}
+
+.checklist-step-status-waiting,
+button.modal-bt-waiting {
+    background-color: var(--color-step-waiting);
+}
+
+.checklist-step-status-aborted,
+button.modal-bt-aborted {
+    background-color: var(--color-step-aborted);
+}
+
+button.modal-bt-with-other-button {
+    margin-right: 15px;
 }
 
 button.modal-btc {
@@ -1182,11 +1217,11 @@ table.wyzwania-tab {
 }
 
 .wyzwania-tab .bg-success {
-    background-color: #02d024 !important;
+    background-color: var(--color-step-done) !important;
 }
 
 .wyzwania-tab .bg-warning {
-    background-color: var(--color3) !important;
+    background-color: var(--color-step-optional-waiting) !important;
 }
 
 .tab-con::-webkit-scrollbar-thumb {
