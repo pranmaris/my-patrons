@@ -271,7 +271,7 @@ async function build() {
   doActionsDependentOfAdvancedMode();
   reloadFileTab();
 
-  //info(getLanguageVariable('lang-challenges-form-info', true));
+  info(getLanguageVariable('lang-challenges-form-info', true));
 }
 
 function isAdvancedMode() {
@@ -371,7 +371,7 @@ function clearNotifications() {
 
 function error(message, rowId = EMPTY_ROW_ID) {
   const prefix = getLanguageVariable('lang-notification-error', true);
-  showNotification(prefix, message, 'danger', rowId);
+  showNotification(prefix, message, 'error', rowId);
 }
 
 function warning(message, rowId = EMPTY_ROW_ID) {
@@ -381,7 +381,7 @@ function warning(message, rowId = EMPTY_ROW_ID) {
 
 function info(message, rowId = EMPTY_ROW_ID) {
   const prefix = getLanguageVariable('lang-notification-info', true);
-  showNotification(prefix, message, 'dark', rowId);
+  showNotification(prefix, message, 'info', rowId);
 }
 
 function success(message, rowId = EMPTY_ROW_ID) {
