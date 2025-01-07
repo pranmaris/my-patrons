@@ -246,7 +246,7 @@
     },
 
     "lang-brochure-patron-role-level-1": {
-        "pl": "Poziom I"
+        "pl": "<strong>Poziom I</strong> - poszukiwanie:"
     },
 
     "lang-brochure-patron-role-defender": {
@@ -262,7 +262,7 @@
     },
 
     "lang-brochure-patron-role-level-2": {
-        "pl": "Poziom II"
+        "pl": "<strong>Poziom II</strong> - poznawanie"
     },
 
     "lang-brochure-patron-role-mentor": {
@@ -270,7 +270,7 @@
     },
 
     "lang-brochure-patron-role-level-3": {
-        "pl": "Poziom III"
+        "pl": "<strong>Poziom III</strong> - budowanie relacji"
     },
 
     "lang-brochure-patron-role-helper": {
@@ -278,7 +278,7 @@
     },
 
     "lang-brochure-patron-role-level-4": {
-        "pl": "Poziom IV"
+        "pl": "<strong>Poziom IV</strong> - wspólne odkrywanie Boga"
     },
 
     "lang-brochure-patron-role-guide": {
@@ -295,6 +295,14 @@
 
     "lang-brochure-patron-addition-specials": {
         "pl": "<strong>[Y...] Patroni Specjalni</strong>"
+    },
+
+    "lang-brochure-additional-info-header": {
+        "pl": "Warto wiedzieć!"
+    },
+
+    "lang-brochure-additional-info": {
+        "pl": "Przedstawione w <strong>inicjatywie</strong> <em>“Moi Patroni”</em> sposoby wykonywania różnych <strong><em>wyzwań</em></strong>, w szczególności <strong>zapraszanie <em>Patronów</em></strong>, obowiązują <strong>każdego Uczestnika</strong>, choć są tylko naszymi propozycjami, mającymi zachęcić do poznawania Boga i <em>Patronów</em> oraz głębszej relacji z Nimi. Bóg w swojej mądrości działa, jak chce i może przydzielać nam <em>Patronów</em> według swojego uznania wtedy, gdy uzna to za właściwe, choćby w odpowiedzi na nasze zwyczajne westchnienie."
     },
 
     "lang-buy-coffee": {
@@ -1552,6 +1560,11 @@
     "lang-patron": {
         "en": "patron",
         "pl": "patron"
+    },
+
+    "lang-patrons": {
+        "en": "patrons",
+        "pl": "patroni"
     },
 
     "lang-patron-code": {
