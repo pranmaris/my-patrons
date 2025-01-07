@@ -6,6 +6,7 @@ class DateFeastsContentBlock extends DateContentBlock implements ContentBlockInt
     {
         $this->listNameVariable = 'lang-feasts-to-discover';
         $this->formTemplate = $this->getOriginalHtmlFileContent('content-blocks/date-change-form-single-full-content-block.html');
+        $this->dateFormInfoLangVariable = 'lang-date-form-info-for-feasts-to-discover';
 
         $this->setValidSingleDate($dates);
 

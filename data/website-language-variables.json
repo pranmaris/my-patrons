@@ -711,6 +711,18 @@
         "pl": "data"
     },
 
+    "lang-date-form-info-for-defender-patrons": {
+        "pl": "Możesz zaprosić następujących Świętych i Błogosławionych do grona swoich <strong>Patronów Obrońców</strong> w wybranym dniu, o ile spełnione zostaną dodatkowe kryteria"
+    },
+
+    "lang-date-form-info-for-feasts-to-discover": {
+        "pl": "Możesz odkryć następujące <strong>święta</strong> w wybranym dniu, o ile spełnione zostaną dodatkowe kryteria"
+    },
+
+    "lang-date-form-info-for-messenger-mission-patrons": {
+        "pl": "<strong>Wybrana osoba</strong> może powierzyć <strong>Misję Posłańca</strong> następującym Świętym i Błogosławionym, o ile spełnione zostaną dodatkowe kryteria"
+    },
+
     "lang-date-of-birth": {
         "en": "date of birth",
         "la": "diem natalis",

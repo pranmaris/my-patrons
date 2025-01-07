@@ -97,6 +97,10 @@ a.button-2 {
 }
 
 
+a.button-with-right-margin {
+    margin-right: 15px;
+}
+
 /* --------------------------- Main Menu --------------------------- */
 
 .main-menu {
@@ -475,6 +479,7 @@ img.section-2-img {
     margin-top: 15px;
 }
 
+.section-1 a.button-1,
 .section-1 a.button-2,
 .section-2b a.button-1,
 .section-2c a.button-2,
@@ -489,7 +494,6 @@ img.section-2-img {
 .section-2 a.button-2 {
     background-color: var(--color3);
 }
-
 
 /* --------------------------- END Section 2 --------------------------- */
 

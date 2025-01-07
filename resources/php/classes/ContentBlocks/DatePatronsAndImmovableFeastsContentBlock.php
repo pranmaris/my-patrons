@@ -8,7 +8,9 @@ class DatePatronsAndImmovableFeastsContentBlock extends DateContentBlock impleme
     {
         $this->listNameVariable = 'lang-messenger-mission-patrons';
         $this->formTemplate = $this->getOriginalHtmlFileContent('content-blocks/date-change-form-multi-year-days-content-block.html');
-        $this->isPreFormPosition = false;
+        $this->dateFormInfoLangVariable = 'lang-date-form-info-for-messenger-mission-patrons';
+
+        //$this->isPreFormPosition = false;
 
         $datesList = [];
         if ($dates !== '') {
