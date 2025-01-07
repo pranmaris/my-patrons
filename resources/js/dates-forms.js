@@ -8,7 +8,6 @@ requirejs(["const", "date", "dom", "env", "location", "usefulPhrases"], function
     .set("NON_LEAP_YEAR_SEPARATOR", "-")
 
     .set("FORM_TYPE_ELEMENT_ID", "form-type")
-    .set("FORM_DIV_ELEMENTS_CLASS_NAME", "date-change-form")
 
     .set("FORM_TYPE_SINGLE_FULL", "single-full")
     .set("FORM_TYPE_MULTI_YEAR_DAYS", "multi-year-days")
@@ -257,13 +256,6 @@ requirejs(["const", "date", "dom", "env", "location", "usefulPhrases"], function
   }
 
   uEnv.getWindow().onload = function() {
-    const formDivElements = uDom.getElementsByClassName(uConst.get("FORM_DIV_ELEMENTS_CLASS_NAME"));
-    for (const element of formDivElements) {
-      if (element.innerHTML.length === 0) {
-        element.style = uPhrases.getStyleDisplayInvisible();
-      }
-    }
-
     const formType = uDom.getElementById(uConst.get("FORM_TYPE_ELEMENT_ID")).value;
     if (formType == uConst.get("FORM_TYPE_SINGLE_FULL")) {
       buildSingleFullForm();

@@ -20,7 +20,6 @@ abstract class DateContentBlock extends ContentBlock implements ContentBlockInte
     protected $mainTemplate;
     protected $itemTemplate;
     protected $formTemplate;
-    protected $isPreFormPosition = true;
     protected $dateFormInfoLangVariable;
 
     final public function prepare(string $dates): ContentBlock
@@ -78,8 +77,7 @@ abstract class DateContentBlock extends ContentBlock implements ContentBlockInte
             'list-name-variable' => $this->getListNameVariable(),
             'dates' => $this->getDatesString(),
             'patrons-list' => $patronsListContent,
-            'date-change-pre-list-form' => $this->isPreFormPosition ? $this->formTemplate : '',
-            'date-change-post-list-form' => $this->isPreFormPosition ? '' : $this->formTemplate,
+            'date-change-list-form' => $this->formTemplate,
             'date-form-info' => self::VARIABLE_NAME_SIGN . $this->dateFormInfoLangVariable . self::VARIABLE_NAME_SIGN,
         ];
 
