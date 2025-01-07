@@ -96,15 +96,10 @@ a.button-2 {
     color: var(--white);
 }
 
-
-a.button-with-right-margin {
-    margin-right: 15px;
-}
-
 /* --------------------------- Main Menu --------------------------- */
 
 .main-menu {
-    padding: 10px 0px 10px 0px;
+    padding: 7px 0px 7px 0px;
     -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
@@ -320,7 +315,6 @@ img.modal-close-icon {
     .container-full-bcg {
         background-size: inherit;
         background-position: top center;
-
     }
 }
 
@@ -328,7 +322,7 @@ img.modal-close-icon {
 
     .container-full-bcg {
         background-size: inherit;
-        background-position: top left;
+        background-position: top center;
         height: auto;
         padding: 45px 0px 65px 0px;
     }
@@ -341,7 +335,7 @@ img.modal-close-icon {
     color: var(--white);
     font-weight: var(--Bold);
     font-size: 44px;
-    text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+    text-shadow: 0px 0px 8px var(--black);
 }
 
 h1:after {
@@ -356,10 +350,10 @@ h1:after {
 .b-left p {
     width: 100%;
     color: var(--white);
-    font-weight: var(--SemiBold);
+    font-weight: var(--Bold);
     line-height: 182%;
     font-size: 14px;
-    text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+    text-shadow: 0px 0px 8px var(--black);
     margin-top: 25px;
     margin-bottom: 15px;
 }
@@ -795,7 +789,6 @@ a.button-3:hover {
 
         font-weight: var(--Bold);
         font-size: 32px;
-        text-shadow: none;
     }
 
     h1:after {
@@ -804,15 +797,13 @@ a.button-3:hover {
         width: 160px;
         height: 4px;
         margin-top: 25px;
-        background: var(--color3)
     }
 
     .b-left p {
         width: 100%;
-        font-weight: var(--SemiBold);
+        font-weight: var(--Bold);
         line-height: 182%;
         font-size: 14px;
-        text-shadow: none;
         margin-top: 25px;
         margin-bottom: 15px;
     }
@@ -827,7 +818,6 @@ a.button-3:hover {
 
     img.section-1-img {
         height: 620px;
-
     }
 
     .section-1-text {
@@ -901,7 +891,6 @@ a.button-3:hover {
 
     img.section-1-img {
         height: 340px;
-
     }
 }
 
