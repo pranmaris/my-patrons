@@ -553,7 +553,7 @@ async function saveFile() {
     content = JSON.stringify(fileData);
 
     if ((fileData[DATA_FIELD_OWNER] ?? '').length === 0) {
-      throw new Error(getLanguageVariable('lang-missing-owner', true));
+      throw new Error(getLanguageVariable('lang-missing-file-owner', true));
     } else if ((fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] ?? '').length === 0) {
       throw new Error(getLanguageVariable('lang-missing-filename-without-extension', true));
     }

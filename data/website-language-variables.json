@@ -1189,8 +1189,8 @@
     },
 
     "lang-load-file-info": {
-        "en": "Choose file after click on the button below",
-        "pl": "Wybierz plik po kliknięciu na poniższy przycisk"
+        "en": "Choose file after click on the button below:",
+        "pl": "Wybierz plik po kliknięciu na poniższy przycisk:"
     },
 
     "lang-load-file-warning": {
@@ -1263,9 +1263,9 @@
         "pl": "nie podano nazwy pliku bez rozszerzenia"
     },
 
-    "lang-missing-owner": {
-        "en": "missing owner",
-        "pl": "nie podano właściciela"
+    "lang-missing-file-owner": {
+        "en": "missing file owner",
+        "pl": "nie podano właściciela pliku"
     },
 
     "lang-monstrance-reliquary": {

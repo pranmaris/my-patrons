@@ -64,11 +64,8 @@
                         <p>#lang-load-file-info#</p>
                     </div>
                     <div class="col-10 offset-1 d-flex justify-content-center">
-                        <!--<button type="button" class="modal-bt">#lang-load-file|capitalize#</button>-->
-
-                        <!-- to change -->
-                        <label for="file-input" class="btn btn-primary form-control">#lang-challenges-load-file|capitalize#</label>
-                        <input id="file-input" data-bs-dismiss="modal" class="form-control" style="display:none;" accept=".mypatrons.json" type="file" onChange="loadFile(this)" />
+                        <label for="file-input" class="form-control modal-bt">#lang-challenges-load-file|capitalize#</label>
+                        <input id="file-input" data-bs-dismiss="modal" class="form-control" style="display: none;" accept=".mypatrons.json" type="file" onChange="loadFile(this)" />
                     </div>
                 </div>
             </div>
@@ -116,8 +113,7 @@
                     </div>
 
                     <div class="col-10 offset-1 d-flex justify-content-center">
-                        <!--<button type="button" class="modal-bt">#lang-challenges-save-file|capitalize#</button>-->
-                        <input id="file-output" class="btn btn-primary form-control" type="button" value="#lang-challenges-save-file|capitalize|original-only-for-missing#" onclick="saveFile()" />
+                        <input id="file-output" class="form-control modal-bt" type="button" value="#lang-challenges-save-file|capitalize|original-only-for-missing#" onclick="saveFile()" />
                     </div>
                 </div>
             </div>
@@ -264,7 +260,11 @@
                 </div>
 
                 <!-- need to be refactored without footer as other modals -->
-                <div class="row modal-container description-area" id="checklist-item-description"></div>
+                <div class="row modal-container">
+                    <div class="col-12 justify-content-left">
+                        <div class="description-area" id="checklist-item-description"></div>
+                    </div>
+                </div>
                 <div class="row modal-container">
                     <p>#lang-mark-as|capitalize#:</p>
                     <div class="col-10 offset-1 d-flex justify-content-center">
@@ -323,7 +323,7 @@
                 <div class="row modal-container">
                     <div class="col-12 d-flex justify-content-center">#lang-remove-note-confirmation|capitalize#</div>
                     <div class="col-10 offset-1 d-flex justify-content-center">
-                        <button type="button" class="modal-bt" data-bs-target="#notes-modal-toggle" data-bs-toggle="modal">#lang-cancel|capitalize#</button>
+                        <button type="button" class="modal-btc modal-bt-with-other-button" data-bs-target="#notes-modal-toggle" data-bs-toggle="modal">#lang-cancel|capitalize#</button>
 
                         <button id="remove-note-button" class="modal-bt" data-bs-target="#notes-modal-toggle" data-bs-toggle="modal" onclick="removeNote()">#lang-remove-note|capitalize#</button>
                         <input id="remove-note-modal-row-id" type="hidden" />
