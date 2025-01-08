@@ -7,6 +7,7 @@
     --color4: #5A5A5A;
     --white: #ffffff;
     --black: #000000;
+    --red: red;
     --gray1: #f1f1f1;
     --gray2: #e6e6e6;
     --gray3: #585858;
@@ -253,6 +254,8 @@ img.modal-close-icon {
     transition: all 0.25s;
 }
 
+.input-form-for-notes,
+.date-form,
 .input-form {
     width: 100%;
     max-width: 320px;
@@ -267,13 +270,15 @@ img.modal-close-icon {
     margin-bottom: 30px;
 }
 
+.select-form-for-new-challenges,
+.select-form-for-notes,
 .select-form {
     width: 100%;
     max-width: 320px;
     color: var(--color4);
     font-weight: var(--Bold);
     font-size: 15px;
-    padding: 18px 15px 18px 25px;
+    padding: 18px 55px 18px 25px;
     text-align: left;
     border: var(--color1) 3px solid !important;
     border-radius: 25px;
@@ -286,6 +291,23 @@ img.modal-close-icon {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
+}
+
+.input-form-for-notes,
+.date-form,
+.select-form-for-new-challenges,
+.select-form-for-notes {
+    margin-bottom: 0px;
+}
+
+.date-form {
+    font-size: 25px;
+    width: auto;
+    padding: 5px 15px 5px 15px;
+}
+
+.select-form-for-new-challenges {
+    width: auto;
 }
 
 .lang-select {
@@ -439,6 +461,14 @@ img.section-1-img {
     width: 100%;
     margin-top: 75px;
     margin-bottom: 75px;
+}
+
+.section-line-for-add-new-challenge {
+    display: block;
+    width: 100%;
+    border: var(--color3) 2px solid !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* --------------------------- END Section 1 --------------------------- */
@@ -1129,6 +1159,7 @@ img.toast-close-icon {
     width: 100%;
     margin-bottom: 10px;
 
+    table-layout: fixed;
 }
 
 .note-item-table tbody tr {
@@ -1399,9 +1430,13 @@ p.tab-p {
 
 #notifications {
   position: fixed;
-  bottom: 0px;
-  left: 0px;
+  bottom: 5px;
+  left: 5px;
   z-index: 10000;
+}
+
+#notifications a {
+  text-decoration: none;
 }
 
 .notification-prefix {
@@ -1424,7 +1459,7 @@ p.tab-p {
 
     width: 100%;
     min-height: 50px;
-    margin: 10px 0px 10px 0px;
+    margin: 20px 0px 40px 0px;
     padding: 10px 15px 10px 15px;
 
     text-align: left;
@@ -1454,11 +1489,11 @@ p.tab-p {
 .note-action-button img {
     display: inline-block;
 
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 
     padding: 5px;
-    margin: 0px;
+    margin: 5px;
 
     border-radius: 5px;
     border-style: solid;
@@ -1502,16 +1537,17 @@ p.tab-p {
 
 
 iframe {
-  border: var(--color3) solid 2px;
+  border: var(--color2) solid 2px;
   border-radius: 25px;
   padding: 20px;
 
-  height: 50vh;
+  height: 100vh;
   width: 100%;
 }
 
 .challenges-description {
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: var(--color1) solid 4px;
   border-radius: 25px;
   padding: 20px;

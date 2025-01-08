@@ -136,40 +136,41 @@
                 <div class="row modal-container">
                     <div class="col-12 justify-content-left">
                         <div id="challenge-date-div">
-                            <span>#lang-challenge-date|capitalize#: </span>
-                            <input id="challenge-date-input" type="date" onChange="resetChallengeTypeSelect()" />
+                            <h3>#lang-challenge-date|capitalize#:</h3>
+                            <input id="challenge-date-input" class="date-form" type="date" onChange="resetChallengeTypeSelect()" />
                         </div>
 
                         <div id="challenge-type-div">
-                            <hr />
-                            <span>#lang-challenge-type|capitalize#: </span>
-                            <select id="challenge-type-select" onChange="resetPersonTypeSelect()"></select>
+                            <div class="section-line-for-add-new-challenge"></div>
+                            <h3>#lang-challenge-type|capitalize#:</h3>
+                            <select id="challenge-type-select" class="select-form-for-new-challenges" onChange="resetPersonTypeSelect()"></select>
                             <input id="last-selected-challenge-type" type="hidden" />
+                            <div id="challenge-description-div" class="description-area"></div>
                         </div>
 
-                        <div id="challenge-description-div" class="description-area"></div>
-
                         <div id="person-div">
-                            <hr />
-                            <span>#lang-person|capitalize#: </span>
+                            <div class="section-line-for-add-new-challenge"></div>
+                            <h3>#lang-person|capitalize#:</h3>
                             <div id="person-description-div" class="description-area"></div>
-                            <select id="person-type-select" onChange="resetPersonNameSelect()"></select>
-                            <select id="person-name-select" onChange="resetPersonSelect()"></select>
-                            <select id="person-select" onChange="resetAdditionSelect()"></select>
-                            <select id="addition-select" onChange="resetRequiredNotes()"></select>
+                            <select id="person-type-select" class="select-form-for-new-challenges" onChange="resetPersonNameSelect()"></select>
+                            <select id="person-name-select" class="select-form-for-new-challenges" onChange="resetPersonSelect()"></select>
+                            <select id="person-select" class="select-form-for-new-challenges" onChange="resetAdditionSelect()"></select>
+                            <select id="addition-select" class="select-form-for-new-challenges" onChange="resetRequiredNotes()"></select>
                         </div>
 
                         <div id="required-notes-div">
-                            <hr />
-                            <span id="required-notes-info">#lang-add-new-challenge-required-notes-info|capitalize#:</span>
+                            <div class="section-line-for-add-new-challenge"></div>
+                            <h3 id="required-notes-info">#lang-add-new-challenge-required-notes-info|capitalize#:</h3>
                             <div class="list-group" id="notes-list-for-add-new-challenge"></div>
-                            <button id="add-new-challenge-notes-button" class="btn btn-primary" onclick="resetRequiredNotes()">#lang-done|capitalize#</button>
+                            <div class="col-10 offset-1 d-flex justify-content-center">
+                                <button id="add-new-challenge-notes-button" class="modal-bt" onclick="resetRequiredNotes()">#lang-check-typed-notes|capitalize#</button>
+                            </div>
                             <input id="required-notes-done" type="hidden" />
                         </div>
 
                         <div id="required-checklist-steps-div">
-                            <hr />
-                            <span id="required-checklist-steps-info">#lang-add-new-challenge-required-checklist-steps-info|capitalize#:</span>
+                            <div class="section-line-for-add-new-challenge"></div>
+                            <h3 id="required-checklist-steps-info">#lang-add-new-challenge-required-checklist-steps-info|capitalize#:</h3>
                             <div class="list-group" id="required-checklist-steps-list"></div>
                             <input id="required-checklist-steps-done" type="hidden" />
                         </div>
