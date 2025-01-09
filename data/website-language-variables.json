@@ -80,7 +80,7 @@
     },
 
     "lang-add-new-challenge-required-checklist-steps-info": {
-        "pl": "aby dodać to wyzwanie w wybranym dniu, <strong>konieczne jest wykonanie</strong> wszystkich następujących kroków checklisty"
+        "pl": "aby dodać to wyzwanie, <strong>konieczne jest wykonanie w wybranym dniu</strong> wszystkich następujących kroków checklisty"
     },
 
     "lang-add-new-challenge-required-notes-info": {
@@ -1764,6 +1764,16 @@
     "lang-representation": {
         "en": "representation",
         "pl": "wizerunek"
+    },
+
+    "lang-required-checklist-steps": {
+        "en": "required checklist steps",
+        "pl": "wymagane kroki checklisty"
+    },
+
+    "lang-required-notes": {
+        "en": "required notes",
+        "pl": "wymagane notatki"
     },
 
     "lang-resource": {
