@@ -255,6 +255,7 @@ let immovableDatesPatronsData = {};
 let fileName = DEFAULT_JSON_FILENAME;
 let fileContent = '{}';
 let fileData = null;
+let unchangedFileContent = fileContent;
 
 let lastEditedNoteItem = [];
 let lastFormModeNoteCellElementIdSuffix = {};
@@ -262,6 +263,12 @@ let newChallengeChecklistValues = {};
 let newChallengeNotesValues = {};
 
 async function build() {
+  window.onbeforeunload = function() {
+      if (unchangedFileContent !== fileContent) {
+          return true;
+      }
+  }
+
   languageVariables = await getJsonFromFile(LANGUAGE_JSON_FILE);
   challengesConfig = await getJsonFromFile(CHALLENGES_CONFIG_JSON_FILE);
   notesTypesConfig = await getJsonFromFile(NOTES_CONFIG_JSON_FILE);
@@ -361,7 +368,9 @@ async function showNotification(prefix, message, type, rowId = EMPTY_ROW_ID) {
 
 function showLoadFileWarningIfNeeded(message) {
   clearNotifications();
-  warning(message); //add conditional if any unsave changes exist
+  if (unchangedFileContent !== fileContent) {
+    warning(message);
+  }
 }
 
 function clearNotifications() {
@@ -541,6 +550,8 @@ async function loadFile(input) {
     reloadFileTab();
     reloadChallengesTab();
 
+    unchangedFileContent = fileContent;
+
     success(getLanguageVariable('lang-file-loaded-successfully', true));
   } catch (e) {
     error(e.message);
@@ -550,7 +561,7 @@ async function loadFile(input) {
 async function saveFile() {
   try {
     synchronizeFileData();
-    content = JSON.stringify(fileData);
+    fileContent = JSON.stringify(fileData);
 
     if ((fileData[DATA_FIELD_OWNER] ?? '').length === 0) {
       throw new Error(getLanguageVariable('lang-missing-file-owner', true));
@@ -563,11 +574,13 @@ async function saveFile() {
       datetimeSuffix = '-' + getDatetimeSuffix();
     }
 
-    var blob = new Blob([content], {type: JSON_MIME_TYPE});
+    var blob = new Blob([fileContent], {type: JSON_MIME_TYPE});
     var a = document.createElement('a');
     a.download = fileName + datetimeSuffix + JSON_DATA_FILE_EXTENSION;
     a.href = window.URL.createObjectURL(blob);
     a.click();
+
+    unchangedFileContent = fileContent;
 
     success(getLanguageVariable('lang-file-prepared-to-save-successfully', true));
   } catch (e) {
