@@ -1372,6 +1372,16 @@
         "pl": "święta ruchome"
     },
 
+    "lang-move-challenge": {
+        "en": "move challenge",
+        "pl": "przesuń wyzwanie"
+    },
+
+    "lang-move-challenge-confirmation": {
+        "en": "please confirm that You want to move challenge",
+        "pl": "potwierdź, że chcesz przesunąć wyzwanie"
+    },
+
     "lang-my-achievements": {
         "en": "my achievements",
         "pl": "moje osiągnięcia"
@@ -1737,7 +1747,7 @@
     },
 
     "lang-remove-challenge-confirmation": {
-        "en": "please confirm that You want remove following challenge",
+        "en": "please confirm that You want to remove following challenge",
         "pl": "potwierdź, że chcesz usunąć poniższe wyzwanie"
     },
 
@@ -1747,7 +1757,7 @@
     },
 
     "lang-remove-note-confirmation": {
-        "en": "please confirm that You want remove selected note and its subnotes",
+        "en": "please confirm that You want to remove selected note and its subnotes",
         "pl": "potwierdź, że chcesz usunąć wybraną notatkę ze wszystkimi jej podnotatkami"
     },
 

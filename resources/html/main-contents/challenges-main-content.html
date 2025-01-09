@@ -223,6 +223,34 @@
         </div>
     </div>
 
+    <div class="modal fade" id="move-challenge-modal-toggle" aria-hidden="true" aria-labelledby="move-challenge-modal-toggle-label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <div class="row">
+                        <div class="col-8 d-flex align-items-center justify-content-start">
+                            <h5 class="u-modal-name">#lang-move-challenge|capitalize#</h5>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end">
+                            <div data-bs-dismiss="modal" aria-label="Close"><img class="modal-close-icon" src="/files/resources/svg/close-white.svg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row modal-container" id="move-challenge-modal-body">
+                    <div class="col-12 justify-content-left">
+                        <p>#lang-move-challenge-confirmation|capitalize#</p>
+                    </div>
+                    <div class="col-10 offset-1 d-flex justify-content-center">
+                        <button type="button" class="modal-btc modal-bt-with-other-button" data-bs-dismiss="modal">#lang-cancel|capitalize#</button>
+                        <button type="button" id="move-challenge-button" class="modal-bt" data-bs-target="#move-challenge-modal-toggle" data-bs-dismiss="modal" onClick="moveChallenge()">#lang-move-challenge|capitalize#</button>
+                        <input id="move-challenge-modal-row-id" type="hidden" />
+                        <input id="move-challenge-modal-direction" type="hidden" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="modal fade" id="checklist-list-modal-toggle" aria-hidden="true" aria-labelledby="checklist-list-modal-toggle-label" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">

@@ -65,6 +65,9 @@ const DEFAULT_JSON_FILENAME = '';
 const DEFAULT_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION_VALUE = true;
 const MIN_CHALLENGE_DATE_ALLOWED = '1901-01-01';
 
+const MOVE_CHALLENGE_DIRECTION_UP = 'up';
+const MOVE_CHALLENGE_DIRECTION_DOWN = 'down';
+
 const JSON_EDITOR_BUTTON_ELEMENT_ID = 'json-editor-button';
 const CHALLENGE_ROW_ELEMENT_ID_PREFIX = 'id-';
 const CHALLENGES_ELEMENT_ID = 'challenges';
@@ -98,6 +101,8 @@ const CHECKLIST_ITEM_MODAL_ROW_ID_ELEMENT_ID = 'checklist-item-modal-row-id';
 const CHECKLIST_ITEM_MODAL_ITEM_TYPE_ELEMENT_ID = 'checklist-item-modal-item-type';
 const CHALLENGE_TO_REMOVE_ELEMENT_ID = 'challenge-to-remove';
 const REMOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID = 'remove-challenge-modal-row-id';
+const MOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID = 'move-challenge-modal-row-id';
+const MOVE_CHALLENGE_MODAL_DIRECTION_ELEMENT_ID = 'move-challenge-modal-direction';
 const MOVE_CHALLENGE_UP_BUTTON_ELEMENT_ID_PREFIX = 'move-challenge-up-button-'
 const MOVE_CHALLENGE_DOWN_BUTTON_ELEMENT_ID_PREFIX = 'move-challenge-down-button-'
 const REQUIRED_NOTES_DIV_ELEMENT_ID = 'required-notes-div';
@@ -2988,6 +2993,25 @@ async function removeChallenge() {
   const gotoRowId = Math.max(1, rowId - 1);
   success(getLanguageVariable('lang-challenge-removed-successfully', true), gotoRowId);
   gotoChallenge(gotoRowId);
+}
+
+async function moveChallengeReset(rowId, direction) {
+  const modalRowId = document.getElementById(MOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID);
+  const modalDirection = document.getElementById(MOVE_CHALLENGE_MODAL_DIRECTION_ELEMENT_ID);
+
+  modalRowId.value = rowId;
+  modalDirection.value = direction;
+}
+
+async function moveChallenge() {
+  const rowId = Number(document.getElementById(MOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID).value ?? 0);
+  const direction = document.getElementById(MOVE_CHALLENGE_MODAL_DIRECTION_ELEMENT_ID).value ?? '';
+
+  if (direction === MOVE_CHALLENGE_DIRECTION_DOWN) {
+    moveChallengeDown(rowId);
+  } else if (direction === MOVE_CHALLENGE_DIRECTION_UP) {
+    moveChallengeUp(rowId);
+  }
 }
 
 async function moveChallengeUp(rowId) {
