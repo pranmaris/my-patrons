@@ -10,7 +10,7 @@ Wybierz Patrona (bez obaw, cała poniższa lista ma charakter wyłącznie inform
   - wiarygodna rocznica śmierci<sup>4</sup>,
   - znajduje się na **poniższej liście** dla dnia roku będącego **dniem Twoich urodzin** lub **pierwszego przyjęcia przez Ciebie dowolnego Sakramentu**:  
 
-<iframe id="my-patrons-for-today" src="https://pl.mypatrons.org/dates/messenger-mission-patrons/#immovable-dates#?mode=content-only"></iframe>
+<iframe id="my-patrons-for-today" src="https://pl.mypatrons.org/dates/messenger-mission-patrons/#immovable-dates#?mode=content-only&form=hidden"></iframe>
 <br />
 
 

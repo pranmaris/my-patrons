@@ -8,6 +8,7 @@ requirejs(["const", "date", "dom", "env", "location", "usefulPhrases"], function
     .set("NON_LEAP_YEAR_SEPARATOR", "-")
 
     .set("FORM_TYPE_ELEMENT_ID", "form-type")
+    .set("DATE_CHANGE_FORM_ELEMENT_ID", "date-change-form")
 
     .set("FORM_TYPE_SINGLE_FULL", "single-full")
     .set("FORM_TYPE_MULTI_YEAR_DAYS", "multi-year-days")
@@ -24,6 +25,9 @@ requirejs(["const", "date", "dom", "env", "location", "usefulPhrases"], function
     .set("GO_TO_SELECTED_FULL_DATE", goToSelectedFullDate)
     .set("GO_TO_SELECTED_YEAR_DAYS", goToSelectedYearDays)
     .set("REFRESH_MULTI_YEAR_DAYS_FORM_STATUS", refreshMultiYearDaysFormStatus)
+
+    .set("FORM_VISIBLE_MODE_FIELD_NAME", 'form')
+    .set("FORM_VISIBLE_MODE_FIELD_VALUE", 'hidden')
   ;
 
   function goToPath(newPath, lastElementToCompare) {
@@ -256,11 +260,19 @@ requirejs(["const", "date", "dom", "env", "location", "usefulPhrases"], function
   }
 
   function build() {
-    const formType = uDom.getElementById(uConst.get("FORM_TYPE_ELEMENT_ID")).value;
-    if (formType == uConst.get("FORM_TYPE_SINGLE_FULL")) {
-      buildSingleFullForm();
-    } else if (formType == uConst.get("FORM_TYPE_MULTI_YEAR_DAYS")) {
-      buildMultiYearDaysForm();
+    const params = uLocation.getUrlSearchParams();
+    const formVisibleMode = uLocation.getSearchParam(params, uConst.get("FORM_VISIBLE_MODE_FIELD_NAME")) ?? '';
+
+    if (formVisibleMode !== uConst.get("FORM_VISIBLE_MODE_FIELD_VALUE")) {
+      const formType = uDom.getElementById(uConst.get("FORM_TYPE_ELEMENT_ID")).value;
+      if (formType == uConst.get("FORM_TYPE_SINGLE_FULL")) {
+        buildSingleFullForm();
+      } else if (formType == uConst.get("FORM_TYPE_MULTI_YEAR_DAYS")) {
+        buildMultiYearDaysForm();
+      }
+
+      const formElement = uDom.getElementById(uConst.get("DATE_CHANGE_FORM_ELEMENT_ID"));
+      formElement.style = uPhrases.getStyleDisplayVisible();
     }
   }
 
