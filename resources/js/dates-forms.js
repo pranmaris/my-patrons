@@ -255,7 +255,7 @@ requirejs(["const", "date", "dom", "env", "location", "usefulPhrases"], function
     }
   }
 
-  uEnv.getWindow().onload = function() {
+  function build() {
     const formType = uDom.getElementById(uConst.get("FORM_TYPE_ELEMENT_ID")).value;
     if (formType == uConst.get("FORM_TYPE_SINGLE_FULL")) {
       buildSingleFullForm();
@@ -264,6 +264,7 @@ requirejs(["const", "date", "dom", "env", "location", "usefulPhrases"], function
     }
   }
 
+  build();
 });
 
 function clearFormErrorMessage(id) {

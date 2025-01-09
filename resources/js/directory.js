@@ -67,7 +67,7 @@ requirejs(["const", "dom", "env", "location", "usefulPhrases"], function(uConst,
     uEnv.getWindow().location = uConst.get("SEARCH_QUERY_INIT_CHAR") + searchString;
   }
 
-  uEnv.getWindow().onload = function() {
+  function build() {
     const params = uLocation.getUrlSearchParams();
     const searchParam = uLocation.getSearchParam(params, uConst.get("SEARCH_QUERY_PARAM")) ?? '';
 
@@ -78,6 +78,7 @@ requirejs(["const", "dom", "env", "location", "usefulPhrases"], function(uConst,
     displayOnlyMatchingElements(preparedSearchParam);
   };
 
+  build();
 });
 
 function loadNewSearch() {
