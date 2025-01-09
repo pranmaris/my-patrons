@@ -319,6 +319,11 @@
         "pl": "anuluj"
     },
 
+    "lang-cannot-save-invalid-data": {
+        "en": "cannot save invalid data. Correct them and try again!",
+        "pl": "nie można zapisać niepoprawnych danych. Popraw je i spróbuj ponownie!"
+    },
+
     "lang-canonization": {
         "en": "canonization",
         "la": "canonizationis",

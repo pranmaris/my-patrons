@@ -256,6 +256,7 @@ let fileName = DEFAULT_JSON_FILENAME;
 let fileContent = '{}';
 let fileData = null;
 let unchangedFileContent = fileContent;
+let isDataValid = true;
 
 let lastEditedNoteItem = [];
 let lastFormModeNoteCellElementIdSuffix = {};
@@ -562,11 +563,14 @@ async function saveFile() {
   try {
     synchronizeFileData();
     fileContent = JSON.stringify(fileData);
+    reloadChallengesTab();
 
     if ((fileData[DATA_FIELD_OWNER] ?? '').length === 0) {
       throw new Error(getLanguageVariable('lang-missing-file-owner', true));
     } else if ((fileData[DATA_FIELD_FILENAME_WITHOUT_EXTENSION] ?? '').length === 0) {
       throw new Error(getLanguageVariable('lang-missing-filename-without-extension', true));
+    } else if (!isDataValid) {
+      throw new Error(getLanguageVariable('lang-cannot-save-invalid-data', true));
     }
 
     let datetimeSuffix = '';
@@ -687,6 +691,8 @@ function parseChallenges(challengesData) {
       rowId++;
       parseChallenge(rowId, challenge, contextData);
     }
+
+    isDataValid = true;
   } catch (e) {
     let message = e.message;
     if (LANGUAGE_VARIABLE_PREFIX === message.substring(0, LANGUAGE_VARIABLE_PREFIX.length)) {
@@ -694,6 +700,7 @@ function parseChallenges(challengesData) {
     }
     const data = e.data ?? [];
 
+    isDataValid = false;
     warning(message + ((data.length > 0) ? ': ["' + data.join('", "') + '"]' : ''), rowId);
   }
 }
