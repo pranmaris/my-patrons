@@ -1354,6 +1354,8 @@ function sortChallengesByDate() {
 }
 
 function addNewChallengeReset() {
+  clearNotifications();
+
   const lastSelectedChallengeType = document.getElementById(LAST_SELECTED_CHALLENGE_TYPE_ELEMENT_ID);
   lastSelectedChallengeType.value = '';
 
@@ -2460,12 +2462,15 @@ async function resetRequiredChecklistSteps() {
     const rowId = 0;
     const checklist = (challengesConfig[challengeType] ?? {})[CONFIG_FIELD_CHECKLIST] ?? {};
 
+    let isAnyValue = false;
     let allValuesAreDone = true;
     for (let data of Object.entries(checklist)) {
       const itemType = data[0] ?? null;
       const toCompleteOnSelectedDate = (data[1] ?? {})[CONFIG_FIELD_TO_COMPLETE_ON_SELECTED_DATE] ?? false;
 
       if (toCompleteOnSelectedDate) {
+        isAnyValue = true;
+
         const value = getNewChallengeChecklistValue(itemType);
         const backToAddNewChallengeModal = true;
         await drawChecklistRow(checklistStepsList, rowId, challengeType, itemType, value, backToAddNewChallengeModal);
@@ -2481,7 +2486,9 @@ async function resetRequiredChecklistSteps() {
     if (allValuesAreDone) {
       requiredChecklistStepsDoneInput.value = '1';
     }
-    requiredChecklistStepsDiv.style = VISIBLE_STYLE;
+    if (isAnyValue) {
+      requiredChecklistStepsDiv.style = VISIBLE_STYLE;
+    }
   }
 
   resetAddNewChallengeButton();
@@ -2719,6 +2726,8 @@ function setProgressBarPartValues(element, count, percent, totalCount) {
 }
 
 async function checklistListReset(rowId) {
+  clearNotifications();
+
   let modalBody = document.getElementById(CHECKLIST_LIST_MODAL_BODY_ELEMENT_ID);
   modalBody.innerHTML = '';
 
@@ -2938,6 +2947,8 @@ function getImmovableDatesSiteParam() {
 }
 
 async function removeChallengeReset(rowId) {
+  clearNotifications();
+
   const row = document.getElementById(CHALLENGE_TO_REMOVE_ELEMENT_ID);
   const modalRowId = document.getElementById(REMOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID);
 
@@ -2996,6 +3007,8 @@ async function removeChallenge() {
 }
 
 async function moveChallengeReset(rowId, direction) {
+  clearNotifications();
+
   const modalRowId = document.getElementById(MOVE_CHALLENGE_MODAL_ROW_ID_ELEMENT_ID);
   const modalDirection = document.getElementById(MOVE_CHALLENGE_MODAL_DIRECTION_ELEMENT_ID);
 
@@ -3069,6 +3082,8 @@ function setNewChallengeNoteValue(itemType, value) {
 }
 
 async function notesReset(rowId) {
+  clearNotifications();
+
   lastEditedNoteItem = [];
   lastFormModeNoteCellElementIdSuffix = {};
 
@@ -3861,6 +3876,8 @@ async function moveDownNote(rowId, challengeType, itemType, itemPath) {
 }
 
 function removeNoteModalReset(rowId, challengeType, itemType, itemPath) {
+  clearNotifications();
+
   document.getElementById(REMOVE_NOTE_MODAL_ROW_ID_ELEMENT_ID).value = rowId;
   document.getElementById(REMOVE_NOTE_MODAL_CHALLENGE_TYPE_ELEMENT_ID).value = challengeType;
   document.getElementById(REMOVE_NOTE_MODAL_ITEM_TYPE_ELEMENT_ID).value = itemType;
