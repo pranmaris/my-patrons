@@ -1599,3 +1599,17 @@ iframe {
   display: inline;
   font-weight: var(--Bold);
 }
+
+
+#json-editor-textarea {
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+  white-space: pre;
+  overflow-wrap: normal;
+
+  width: 100%;
+  min-height: 300px;
+
+  background-color: var(--color2-transparent);
+  border-radius: 25px;
+  padding: 10px;
+}

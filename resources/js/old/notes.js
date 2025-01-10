@@ -71,7 +71,7 @@ const MOVE_CHALLENGE_DIRECTION_DOWN = 'down';
 const JSON_EDITOR_BUTTON_ELEMENT_ID = 'json-editor-button';
 const CHALLENGE_ROW_ELEMENT_ID_PREFIX = 'id-';
 const CHALLENGES_ELEMENT_ID = 'challenges';
-const FILE_CONTENT_ELEMENT_ID = 'file-content';
+const JSON_EDITOR_TEXTAREA_ELEMENT_ID = 'json-editor-textarea';
 const NOTIFICATIONS_ELEMENT_ID = 'notifications';
 const CHALLENGE_DATE_INPUT_ELEMENT_ID = 'challenge-date-input';
 const CHALLENGE_TYPE_SELECT_ELEMENT_ID = 'challenge-type-select';
@@ -259,7 +259,7 @@ let immovableDatesPatronsData = {};
 
 let fileName = DEFAULT_JSON_FILENAME;
 let fileContent = '{}';
-let fileData = null;
+let fileData = {};
 let unchangedFileContent = fileContent;
 let isDataValid = true;
 
@@ -540,6 +540,8 @@ function setDivVisibilities(challengesCount) {
 
 async function loadFile(input) {
   try {
+    clearNotifications();
+
     const data = input.files[0];
 
     fileName = data.name.replace(new RegExp('[0-9]{8}-[0-9]{6}' + JSON_DATA_FILE_EXTENSION + '$'), '');
@@ -554,7 +556,7 @@ async function loadFile(input) {
 
     synchronizeFileData();
     reloadFileTab();
-    reloadChallengesTab();
+    await reloadChallengesTab();
 
     unchangedFileContent = fileContent;
 
@@ -565,10 +567,19 @@ async function loadFile(input) {
 }
 
 async function saveFile() {
+
   try {
-    synchronizeFileData();
+    clearNotifications();
+
+    try {
+      JSON.parse(fileContent);
+      synchronizeFileData();
+    } catch (e) {
+      throw new Error(getLanguageVariable('lang-cannot-save-invalid-data', true));
+    }
+
     fileContent = JSON.stringify(fileData);
-    reloadChallengesTab();
+    await reloadChallengesTab();
 
     if ((fileData[DATA_FIELD_OWNER] ?? '').length === 0) {
       throw new Error(getLanguageVariable('lang-missing-file-owner', true));
@@ -643,31 +654,31 @@ async function reloadChallengesTab() {
 function reloadJsonEditorTab() {
   try {
     clearNotifications();
-    let content = fileContent;
-    if (fileData != null) {
-      content = JSON.stringify(fileData, null, JSON_STRINGIFY_SPACES);
-    }
 
-    document.getElementById(FILE_CONTENT_ELEMENT_ID).value = content;
+    parseFileDataFromContent(fileContent);
+
+    let content = fileContent;
+    content = JSON.stringify(fileData, null, JSON_STRINGIFY_SPACES);
+
+    document.getElementById(JSON_EDITOR_TEXTAREA_ELEMENT_ID).value = content;
     fileData = parseFileDataFromContent(fileContent);
   } catch (e) {
     error(e.message);
   }
 }
 
-function setFileContentFromJsonEditor() {
+async function setFileContentFromJsonEditor() {
   try {
     clearNotifications();
-    fileContent = document.getElementById(FILE_CONTENT_ELEMENT_ID).value;
+    fileContent = document.getElementById(JSON_EDITOR_TEXTAREA_ELEMENT_ID).value;
     fileData = parseFileDataFromContent(fileContent);
+    await reloadChallengesTab();
   } catch (e) {
     error(e.message);
   }
 }
 
 function parseFileDataFromContent(content) {
-  fileData = null;
-
   let data = {};
   try {
     data = JSON.parse(content);

@@ -14,8 +14,8 @@
         <div class="col-12 col-xl-8 d-flex justify-content-center justify-content-lg-start justify-content-xl-end">
             <div class="buttons-line">
                 <button class="load-btn" data-bs-toggle="modal" data-bs-target="#load-file-modal-toggle" onClick="showLoadFileWarningIfNeeded('#lang-load-file-warning#')">#lang-load-file|capitalize#</button>
-                <button class="save-btn" data-bs-toggle="modal" data-bs-target="#save-file-modal-toggle">#lang-save-file|capitalize#</button>
-                <button style="display: none" id="json-editor-button" class="json-btn" data-bs-toggle="modal" data-bs-target="#json-editor-modal-toggle">#lang-json-editor|capitalize#</button>
+                <button class="save-btn" data-bs-toggle="modal" data-bs-target="#save-file-modal-toggle" onCLick="reloadFileTab()">#lang-save-file|capitalize#</button>
+                <button style="display: none;" id="json-editor-button" class="json-btn" data-bs-toggle="modal" data-bs-target="#json-editor-modal-toggle" onClick="reloadJsonEditorTab()">#lang-json-editor|capitalize#</button>
                 <button class="add-btn" data-bs-toggle="modal" data-bs-target="#add-new-challenge-modal-toggle" onClick="addNewChallengeReset()">#lang-add-new-challenge|capitalize#</button>
             </div>
         </div>
@@ -36,10 +36,10 @@
                 </div>
                 <div class="row modal-container">
                     <div class="col-12 d-flex justify-content-center">
-                        <div style="height: 500px;"></div>
+                        <textarea id="json-editor-textarea" spellcheck="false" onChange="setFileContentFromJsonEditor()"></textarea>
                     </div>
                     <div class="col-10 offset-1 d-flex justify-content-center">
-                        <button type="button" class="modal-bt">... Action Button</button>
+                        <button type="button" id="json-editor-button" class="modal-btc" data-bs-target="#json-editor-modal-toggle" data-bs-dismiss="modal">#lang-close|capitalize#</button>
                     </div>
                 </div>
             </div>
