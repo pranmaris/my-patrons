@@ -1446,8 +1446,8 @@
     },
 
     "lang-new-challenge-created-successfully": {
-        "en": "new challenge created successfully!",
-        "pl": "nowe wyzwanie zostało utworzone pomyślnie!"
+        "en": "new challenge created successfully! Don't delay completing missing steps of its checklist.",
+        "pl": "nowe wyzwanie zostało utworzone pomyślnie! Nie zwlekaj z wykonaniem brakujących kroków jego checklisty."
     },
 
     "lang-no-leap-year": {

@@ -1560,6 +1560,22 @@ iframe {
 
 .challenges-description sup {
   color: var(--color3);
+
+  transition: all 1s;
+}
+.challenges-description sup:hover,
+.challenges-description sup:active,
+.challenges-description sup:focus {
+  font-size: 50px;
+
+  background-color: var(--white);
+  transition: all 1s;
+}
+.challenges-description sup:before {
+  content: "[";
+}
+.challenges-description sup:after {
+  content: "]";
 }
 
 .challenges-description > blockquote > p {
