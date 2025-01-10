@@ -27,6 +27,11 @@
     --color-step-optional-waiting: var(--color3);
     --color-step-waiting: var(--black);
     --color-step-aborted: var(--red);
+
+    --color-status-aborted: var(--color-step-aborted);
+    --color-status-waiting: var(--color4);
+    --color-status-done: var(--color-step-done);
+    --color-status-todo: var(--color-step-optional-waiting);
 }
 
 body,
@@ -1420,26 +1425,32 @@ p.tab-p {
     cursor: pointer;
 }
 
-.challenge-item-button-icon .svg-image {
-    width: 20px;
-    height: 20px;
-}
+.challenge-success-status-icon {
+  border-radius: 100px;
+  padding: 10px;
 
-.challenge-success-status-icon .svg-image {
-    width: 25px;
-    height: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px 30px;
+
+  width: 40px;
+  height: 40px;
 }
-.challenge-success-status-icon-todo .svg-image {
-  filter: brightness(0) saturate(100%) invert(56%) sepia(34%) saturate(3434%) hue-rotate(3deg) brightness(100%) contrast(101%); /* #FA8901 */
+.challenge-success-status-icon-todo {
+  background-color: var(--color-status-todo);
+  background-image: url(/files/resources/svg/cone-striped.svg);
 }
-.challenge-success-status-icon-aborted .svg-image {
-  filter: brightness(0) saturate(100%) invert(11%) sepia(98%) saturate(6687%) hue-rotate(17deg) brightness(90%) contrast(121%); /* #DD0000 */
+.challenge-success-status-icon-aborted {
+  background-color: var(--color-status-aborted);
+  background-image: url(/files/resources/svg/x-circle-fill.svg);
 }
-.challenge-success-status-icon-waiting .svg-image {
-  filter: brightness(0) saturate(100%) invert(10%) sepia(100%) saturate(6840%) hue-rotate(247deg) brightness(77%) contrast(139%); /* #0000DD */
+.challenge-success-status-icon-waiting {
+  background-color: var(--color-status-waiting);
+  background-image: url(/files/resources/svg/pause-circle-fill.svg);
 }
-.challenge-success-status-icon-done .svg-image {
-  filter: brightness(0) saturate(100%) invert(29%) sepia(48%) saturate(2473%) hue-rotate(95deg) brightness(103%) contrast(107%); /* #00FF00 */
+.challenge-success-status-icon-done {
+  background-color: var(--color-status-done);
+  background-image: url(/files/resources/svg/check-circle-fill.svg);
 }
 
 .selectable-content {
@@ -1502,21 +1513,6 @@ p.tab-p {
     background-color: var(--white);
 }
 
-/*.description-area .selected-day-info {*/
-  /*color: rgb(200, 0, 0);*/
-  /*font-weight: bold;*/
-/*}*/
-
-/*.description-area .status {*/
-  /*width: auto;*/
-  /*min-width: 20px;*/
-  /*margin: 1px;*/
-  /*padding: 2px;*/
-  /*border-radius: 50px;*/
-  /*border-style: solid;*/
-  /*border-width: 1px;*/
-  /*white-space: pre;*/
-/*}*/
 
 .status-title {
   font-weight: bold;
