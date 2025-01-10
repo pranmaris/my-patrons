@@ -948,7 +948,7 @@ a.button-3:hover {
     position: fixed;
     bottom: 35px;
     padding: 14px 16px;
-    right: 8px;
+    right: 10px;
     z-index: 99;
     border: 0;
     outline: 0;
@@ -1151,6 +1151,20 @@ img.toast-close-icon {
     float: right;
 }
 
+
+#notifications {
+  position: fixed;
+
+  bottom: 35px;
+  left: 10px;
+  right: 80px;
+
+  z-index: 10000;
+}
+
+#notifications a {
+  text-decoration: none;
+}
 
 
 /* ----------------------------- Table ------------------------------- */
@@ -1426,21 +1440,6 @@ p.tab-p {
 }
 .challenge-success-status-icon-done .svg-image {
   filter: brightness(0) saturate(100%) invert(29%) sepia(48%) saturate(2473%) hue-rotate(95deg) brightness(103%) contrast(107%); /* #00FF00 */
-}
-
-#notifications {
-  position: fixed;
-  bottom: 5px;
-  left: 5px;
-  z-index: 10000;
-}
-
-#notifications a {
-  text-decoration: none;
-}
-
-.notification-prefix {
-  font-weight: bold;
 }
 
 .selectable-content {
