@@ -34,7 +34,7 @@ class IndexContent extends Content
     private function redirectMainPageToLanguageSubdomainIfNeeded(): void
     {
         $isHomeMode = $this->getEnvironment()->isHomeMode();
-        $language = $this->getEnvironment()->getHostSubdomainOnly();
+        $language = $this->getLanguage();
         $requestPath = $this->getEnvironment()->getRequestPath();
 
         if (!$isHomeMode && $language === '' && ltrim($requestPath, '/') === '') {
