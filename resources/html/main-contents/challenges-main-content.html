@@ -290,7 +290,6 @@
                     </div>
                 </div>
 
-                <!-- need to be refactored without footer as other modals -->
                 <div class="row modal-container">
                     <div class="col-12 justify-content-left">
                         <div class="description-area" id="checklist-item-description"></div>
@@ -367,6 +366,57 @@
         </div>
     </div>
 
+    <div class="modal fade" id="challenge-info-modal-toggle" aria-hidden="true" aria-labelledby="challenge-info-modal-toggle-label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <div class="row">
+                        <div class="col-8 d-flex align-items-center justify-content-start">
+                            <h5 class="u-modal-name">#lang-challenge-info|capitalize#</h5>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end">
+                            <div data-bs-dismiss="modal" aria-label="Close"><img class="modal-close-icon" src="/files/resources/svg/close-white.svg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row modal-container">
+                    <div class="col-12 justify-content-left list-group" id="checklist-list-modal-body">
+                        #lang-coming-soon|capitalize# ...
+                    </div>
+                    <div class="col-10 offset-1 d-flex justify-content-center">
+                        <button type="button" id="checklist-list-button" class="modal-btc" data-bs-target="#challenge-type-modal-toggle" data-bs-dismiss="modal">#lang-close|capitalize#</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="help-modal-toggle" aria-hidden="true" aria-labelledby="help-modal-toggle-label" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <div class="row">
+                        <div class="col-8 d-flex align-items-center justify-content-start">
+                            <h5 class="u-modal-name">#lang-help|capitalize#</h5>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end">
+                            <div data-bs-dismiss="modal" aria-label="Close"><img class="modal-close-icon" src="/files/resources/svg/close-white.svg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row modal-container">
+                    <div class="col-12 justify-content-left list-group" id="checklist-list-modal-body">
+                        #lang-coming-soon|capitalize# ...
+                    </div>
+                    <div class="col-10 offset-1 d-flex justify-content-center">
+                        <button type="button" id="checklist-list-button" class="modal-btc" data-bs-target="#help-modal-toggle" data-bs-dismiss="modal">#lang-close|capitalize#</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
     <div id="notifications"></div>
@@ -378,13 +428,17 @@
                     <table class="wyzwania-tab">
                         <thead>
                             <tr>
-                                <th class="challenge-column-status">&nbsp;</th>
+                                <th class="challenge-column-status">&nbsp;
+                                    <a class="challenge-action-button" data-bs-toggle="modal" href="#help-modal-toggle" role="button"><img class="svg-image" src="/files/resources/svg/question-circle.svg" /></a>
+                                </th>
                                 <th class="challenge-column-number">#lang-row-id|capitalize#</th>
                                 <th class="challenge-column-date">#lang-date|capitalize#</th>
                                 <th class="challenge-column-type">#lang-type-and-number|capitalize#</th>
                                 <th class="challenge-column-person">#lang-person|capitalize#</th>
                                 <th class="challenge-column-progress">#lang-checklist|capitalize#</th>
-                                <th class="challenge-column-actions">#lang-actions|capitalize#</th>
+                                <th class="challenge-column-actions">#lang-actions|capitalize#
+                                    <a class="challenge-action-button" data-bs-toggle="modal" href="#help-modal-toggle" role="button"><img class="svg-image" src="/files/resources/svg/question-circle.svg" /></a>
+                                </th>
                             </tr>
                         </thead>
                         <tbody id="challenges"></tbody>

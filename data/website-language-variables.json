@@ -393,6 +393,11 @@
         "pl": "uwaga!"
     },
 
+    "lang-challenge-info": {
+        "en": "challenge information",
+        "pl": "informacje o wyzwaniu"
+    },
+
     "lang-challenges-form-info": {
         "pl": "Edytor wyzwań znajduje się w fazie testów i jest dostępny tylko w języku polskim!"
     },
@@ -1054,6 +1059,11 @@
     "lang-hair-relics": {
         "en": "hair relics",
         "pl": "relikwie włosów"
+    },
+
+    "lang-help": {
+        "en": "help",
+        "pl": "pomoc"
     },
 
     "lang-here": {
