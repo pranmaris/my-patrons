@@ -69,9 +69,28 @@
         "pl": "akolita"
     },
 
-    "lang-actions": {
-        "en": "actions",
-        "pl": "akcje"
+    "lang-action-button-checklist-info": {
+        "pl": "<strong>Przejdź do checklisty</strong> kroków wyzwania"
+    },
+
+    "lang-action-button-down-info": {
+        "pl": "<strong>Przesuń wyzwanie</strong> w dół (tylko w ramach tej samej daty)"
+    },
+
+    "lang-action-button-info-info": {
+        "pl": "<strong>Pokaż informacje</strong> o wyzwaniu"
+    },
+
+    "lang-action-button-notes-info": {
+        "pl": "<strong>Przejdź do notatek</strong> dotyczących wyzwania"
+    },
+
+    "lang-action-button-remove-info": {
+        "pl": "<strong>Usuń wyzwanie</strong>"
+    },
+
+    "lang-action-button-up-info": {
+        "pl": "<strong>Przesuń wyzwanie</strong> w górę (tylko w ramach tej samej daty)"
     },
 
     "lang-add-new-challenge": {
@@ -391,6 +410,11 @@
     "lang-caution": {
         "en": "caution!",
         "pl": "uwaga!"
+    },
+
+    "lang-challenge-actions": {
+        "en": "challenge actions",
+        "pl": "akcje wyzwania"
     },
 
     "lang-challenge-info": {

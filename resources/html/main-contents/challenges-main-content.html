@@ -380,7 +380,7 @@
                     </div>
                 </div>
                 <div class="row modal-container">
-                    <div class="col-12 justify-content-left list-group" id="checklist-list-modal-body">
+                    <div class="col-12 justify-content-left">
                         #lang-coming-soon|capitalize# ...
                     </div>
                     <div class="col-10 offset-1 d-flex justify-content-center">
@@ -392,7 +392,7 @@
     </div>
 
     <div class="modal fade" id="help-modal-toggle" aria-hidden="true" aria-labelledby="help-modal-toggle-label" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-head">
                     <div class="row">
@@ -405,8 +405,37 @@
                     </div>
                 </div>
                 <div class="row modal-container">
-                    <div class="col-12 justify-content-left list-group" id="checklist-list-modal-body">
-                        #lang-coming-soon|capitalize# ...
+                    <div class="col-12 justify-content-left page-content">
+                        <p>
+                            <a class="challenge-action-button" role="button"><img class="svg-image" src="/files/resources/svg/puzzle.svg" /></a>
+                            <br />
+                            <span>#lang-action-button-checklist-info#</span>
+                        </p>
+                        <p>
+                            <a class="challenge-action-button" role="button"><img class="svg-image" src="/files/resources/svg/card-list.svg" /></a>
+                            <br />
+                            <span>#lang-action-button-notes-info#</span>
+                        </p>
+                        <p>
+                            <a class="challenge-action-button" role="button"><img class="svg-image" src="/files/resources/svg/trash.svg" /></a>
+                            <br />
+                            <span>#lang-action-button-remove-info#</span>
+                        </p>
+                        <p>
+                            <a class="challenge-action-button" role="button"><img class="svg-image" src="/files/resources/svg/info-circle.svg" /></a>
+                            <br />
+                            <span>#lang-action-button-info-info#</span>
+                        </p>
+                        <p>
+                            <a class="challenge-action-button" role="button"><img class="svg-image" src="/files/resources/svg/caret-up-square-fill.svg" /></a>
+                            <br />
+                            <span>#lang-action-button-up-info#</span>
+                        </p>
+                        <p>
+                            <a class="challenge-action-button" role="button"><img class="svg-image" src="/files/resources/svg/caret-down-square-fill.svg" /></a>
+                            <br />
+                            <span>#lang-action-button-down-info#</span>
+                        </p>
                     </div>
                     <div class="col-10 offset-1 d-flex justify-content-center">
                         <button type="button" id="checklist-list-button" class="modal-btc" data-bs-target="#help-modal-toggle" data-bs-dismiss="modal">#lang-close|capitalize#</button>
@@ -429,15 +458,15 @@
                         <thead>
                             <tr>
                                 <th class="challenge-column-status">&nbsp;
-                                    <a class="challenge-action-button" data-bs-toggle="modal" href="#help-modal-toggle" role="button"><img class="svg-image" src="/files/resources/svg/question-circle.svg" /></a>
+                                    <a class="challenge-action-button" data-bs-toggle="modal" href="#help-modal-toggle" role="button" onClick="clearNotifications()"><img class="svg-image" src="/files/resources/svg/question-circle.svg" /></a>
                                 </th>
                                 <th class="challenge-column-number">#lang-row-id|capitalize#</th>
                                 <th class="challenge-column-date">#lang-date|capitalize#</th>
                                 <th class="challenge-column-type">#lang-type-and-number|capitalize#</th>
                                 <th class="challenge-column-person">#lang-person|capitalize#</th>
                                 <th class="challenge-column-progress">#lang-checklist|capitalize#</th>
-                                <th class="challenge-column-actions">#lang-actions|capitalize#
-                                    <a class="challenge-action-button" data-bs-toggle="modal" href="#help-modal-toggle" role="button"><img class="svg-image" src="/files/resources/svg/question-circle.svg" /></a>
+                                <th class="challenge-column-actions">#lang-challenge-actions|capitalize#
+                                    <a class="challenge-action-button" data-bs-toggle="modal" href="#help-modal-toggle" role="button" onClick="clearNotifications()"><img class="svg-image" src="/files/resources/svg/question-circle.svg" /></a>
                                 </th>
                             </tr>
                         </thead>
