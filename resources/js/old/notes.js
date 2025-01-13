@@ -372,8 +372,9 @@ async function showNotification(prefix, message, type, rowId = EMPTY_ROW_ID) {
   notifications.append(wrapper);
 }
 
-function showLoadFileWarningIfNeeded(message) {
+function showLoadFileWarningIfNeeded() {
   clearNotifications();
+  const message = getLanguageVariable('lang-load-file-warning', true);
   if (unchangedFileContent !== fileContent) {
     warning(message);
   }
