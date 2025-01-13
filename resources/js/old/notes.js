@@ -78,7 +78,11 @@ const CHALLENGE_TYPE_SELECT_ELEMENT_ID = 'challenge-type-select';
 const LAST_SELECTED_CHALLENGE_TYPE_ELEMENT_ID = 'last-selected-challenge-type';
 const CHALLENGE_TYPE_DIV_ELEMENT_ID = 'challenge-type-div';
 const CHALLENGE_DESCRIPTION_DIV_ELEMENT_ID = 'challenge-description-div';
+const CHALLENGE_DESCRIPTION_INFO_DIV_ELEMENT_ID = 'challenge-description-info-div';
+const CHALLENGE_DESCRIPTION_INFO_VALUE_ELEMENT_ID = 'challenge-description-info-value';
 const PERSON_DESCRIPTION_DIV_ELEMENT_ID = 'person-description-div';
+const PERSON_DESCRIPTION_INFO_DIV_ELEMENT_ID = 'person-description-info-div';
+const PERSON_DESCRIPTION_INFO_VALUE_ELEMENT_ID = 'person-description-info-value';
 const ADD_NEW_CHALLENGE_BUTTON_ELEMENT_ID = 'add-new-challenge-button';
 const PERSON_DIV_ELEMENT_ID = 'person-div';
 const PERSON_NAME_SELECT_ELEMENT_ID = 'person-name-select';
@@ -3016,6 +3020,55 @@ async function removeChallenge() {
   const gotoRowId = Math.max(1, rowId - 1);
   success(getLanguageVariable('lang-challenge-removed-successfully', true), gotoRowId);
   gotoChallenge(gotoRowId);
+}
+
+async function challengeInfoReset(rowId) {
+  clearNotifications();
+
+  let challengeDescInfoDiv = document.getElementById(CHALLENGE_DESCRIPTION_INFO_DIV_ELEMENT_ID);
+  challengeDescInfoDiv.innerHTML = '';
+
+  let personDescInfoDiv = document.getElementById(PERSON_DESCRIPTION_INFO_DIV_ELEMENT_ID);
+  personDescInfoDiv.innerHTML = '';
+
+
+  const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+  const challenge = challenges[rowId - 1] ?? undefined;
+  if (challenge === undefined) {
+    return;
+  }
+
+  const challengeDate = challenge.date;
+  const challengeType = challenge.type;
+  const personId = challenge.person;
+  const additionId = challenge.addition;
+
+  const config = challengesConfig[challengeType] ?? {};
+  const additionType = config[CONFIG_FIELD_ADDITION_TYPE] ?? '';
+  const person = getPersonDataName(challenge.person ?? '');
+  const addition = getPersonDataAdditionName(personId, additionType, additionId);
+  const personString = person + (additionId === '' ? '' : ' (' + addition + ')');
+  const typeName = getLanguageVariable('name', true, config.name ?? {});
+
+  let challengeDescInfoValue = document.getElementById(CHALLENGE_DESCRIPTION_INFO_VALUE_ELEMENT_ID);
+  challengeDescInfoValue.innerHTML = typeName + ' [' + challengeType + ']';
+
+  let personDescInfoValue = document.getElementById(PERSON_DESCRIPTION_INFO_VALUE_ELEMENT_ID);
+  personDescInfoValue.innerHTML = personString;
+
+  const descValues = {
+    ['challenge-date']: challengeDate
+  };
+
+  const challengeDescData = challengesConfig[challengeType].description ?? {};
+  const challengeDescFilePath = getLanguageVariable('description', false, challengeDescData.template ?? {});
+  const challengeDescParams = challengeDescData.params ?? [];
+  importMarkdownDescription(challengeDescInfoDiv, challengeDescFilePath, challengeDescParams, descValues);
+
+  const personDescData = (challengesConfig[challengeType].person ?? {}).description ?? {};
+  const personDescFilePath = getLanguageVariable('description', false, personDescData.template ?? {});
+  const personDescParams = personDescData.params ?? [];
+  importMarkdownDescription(personDescInfoDiv, personDescFilePath, personDescParams, descValues);
 }
 
 async function moveChallengeReset(rowId, direction) {
