@@ -77,7 +77,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -209,7 +209,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -336,7 +336,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -418,7 +418,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -521,7 +521,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -704,7 +704,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -852,7 +852,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -968,7 +968,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -1127,7 +1127,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -1258,7 +1258,7 @@
           "pl": "Uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -1344,7 +1344,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -1437,7 +1437,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -1543,7 +1543,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -1736,7 +1736,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -1831,7 +1831,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -1910,7 +1910,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -1997,7 +1997,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -2084,7 +2084,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -2163,7 +2163,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -2258,7 +2258,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -2337,7 +2337,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -2454,7 +2454,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -2562,7 +2562,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -2679,7 +2679,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -2779,7 +2779,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }
@@ -2908,7 +2908,7 @@
           "pl": "uzupełnij dowolne notatki"
         },
         "description": {
-          "params": [],
+          "params": ["row-id"],
           "template": {
             "pl": "pl/kroki/uzupelnij-dowolne-notatki"
           }

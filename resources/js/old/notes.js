@@ -2761,7 +2761,7 @@ async function checklistListReset(rowId) {
     await drawChecklistRow(modalBody, rowId, challengeType, data[0] ?? null, data[1] ?? null, backToAddNewChallengeModal);
   }
 
-  notesReset(rowId);
+  await notesReset(rowId);
 }
 
 async function drawChecklistRow(contentElement, rowId, challengeType, itemType, value, backToAddNewChallengeModal) {
@@ -2878,8 +2878,8 @@ async function setChecklistStatus(newValue) {
   const rowIdElement = document.getElementById(CHECKLIST_ITEM_MODAL_ROW_ID_ELEMENT_ID);
   const itemTypeElement = document.getElementById(CHECKLIST_ITEM_MODAL_ITEM_TYPE_ELEMENT_ID);
 
-  const rowId = rowIdElement.value;
-  const itemType = itemTypeElement.value;
+  const rowId = rowIdElement.value ?? 0;
+  const itemType = itemTypeElement.value ?? '';
 
   if (rowId > EMPTY_ROW_ID) {
     const oldValues = ((fileData[DATA_FIELD_CHALLENGES] ?? [])[rowId - 1] ?? {})[DATA_FIELD_CHECKLIST] ?? {};
@@ -2912,7 +2912,7 @@ async function importMarkdownDescription(element, filePath, params = [], values 
     for (let paramName of params) {
       const value = values[paramName] ?? null;
       const name = value === null ? paramName : DESCRIPTION_VALUE_PARAM;
-      content = content.replace(new RegExp('#' + paramName + '#'), getDescriptionParamValue(name, value));
+      content = content.replace(new RegExp('#' + paramName + '#', 'g'), getDescriptionParamValue(name, value));
     }
 
     element.innerHTML = template.replace(/#content#/g, content);
