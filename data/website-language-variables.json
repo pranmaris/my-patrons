@@ -70,27 +70,27 @@
     },
 
     "lang-action-button-checklist-info": {
-        "pl": "<strong>Przejdź do checklisty</strong> kroków wyzwania"
+        "pl": "<strong>pokaż kroki</strong> wyzwania (checklista)"
     },
 
     "lang-action-button-down-info": {
-        "pl": "<strong>Przesuń wyzwanie</strong> w dół (tylko w ramach tej samej daty)"
+        "pl": "<strong>przesuń wyzwanie</strong> w dół"
     },
 
     "lang-action-button-info-info": {
-        "pl": "<strong>Pokaż informacje</strong> o wyzwaniu"
+        "pl": "<strong>pokaż informacje</strong> o wyzwaniu"
     },
 
     "lang-action-button-notes-info": {
-        "pl": "<strong>Przejdź do notatek</strong> dotyczących wyzwania"
+        "pl": "<strong>pokaż notatki</strong> dotyczące wyzwania"
     },
 
     "lang-action-button-remove-info": {
-        "pl": "<strong>Usuń wyzwanie</strong>"
+        "pl": "<strong>usuń wyzwanie</strong>"
     },
 
     "lang-action-button-up-info": {
-        "pl": "<strong>Przesuń wyzwanie</strong> w górę (tylko w ramach tej samej daty)"
+        "pl": "<strong>przesuń wyzwanie</strong> w górę"
     },
 
     "lang-add-new-challenge": {
@@ -297,7 +297,7 @@
     },
 
     "lang-brochure-patron-role-level-4": {
-        "pl": "<strong>Poziom IV</strong> - wspólne odkrywanie Boga"
+        "pl": "<strong>Poziom IV</strong> - wsparcie na ścieżkach wiary"
     },
 
     "lang-brochure-patron-role-guide": {
@@ -321,7 +321,7 @@
     },
 
     "lang-brochure-additional-info": {
-        "pl": "Przedstawione w <strong>inicjatywie</strong> <em>“Moi Patroni”</em> sposoby wykonywania różnych <strong><em>wyzwań</em></strong>, w szczególności <strong>zapraszanie <em>Patronów</em></strong>, obowiązują <strong>każdego Uczestnika</strong>, choć są tylko naszymi propozycjami, mającymi zachęcić do poznawania Boga i <em>Patronów</em> oraz głębszej relacji z Nimi. Bóg w swojej mądrości działa, jak chce i może przydzielać nam <em>Patronów</em> według swojego uznania wtedy, gdy uzna to za właściwe, choćby w odpowiedzi na nasze zwyczajne westchnienie."
+        "pl": "<strong>Obowiązujące Uczestników</strong> przedstawione w <strong>inicjatywie</strong> <em>“Moi Patroni”</em> sposoby wykonywania różnych <strong><em>wyzwań</em></strong>, w szczególności <strong>zapraszanie <em>Patronów</em></strong> są naszymi propozycjami, mającymi zachęcić do poznawania Boga i <em>Patronów</em> oraz głębszej relacji z Nimi. Bóg w swojej mądrości działa, jak chce i może przydzielać nam <em>Patronów</em> według swojego uznania wtedy, gdy uzna to za właściwe, choćby w odpowiedzi na nasze zwyczajne westchnienie czy prośbę o pomoc."
     },
 
     "lang-buy-coffee": {
@@ -422,6 +422,29 @@
         "pl": "informacje o wyzwaniu"
     },
 
+    "lang-challenge-status-aborted-info": {
+
+        "en": "<strong>challenge aborted</strong>",
+        "pl": "<strong>wyzwanie anulowane</strong>"
+    },
+
+    "lang-challenge-status-done-info": {
+
+        "en": "<strong>challenge done</strong>",
+        "pl": "<strong>wyzwanie wykonane</strong>"
+    },
+
+    "lang-challenge-status-todo-info": {
+
+        "en": "<strong>challenge - note</strong> (to do or remember)",
+        "pl": "<strong>wyzwanie - notatka</strong> (coś do zrobienia lub zapamiętania)"
+    },
+
+    "lang-challenge-status-waiting-info": {
+        "en": "<strong>challenge waiting</strong> for required steps to be completed",
+        "pl": "<strong>wyzwanie oczekujące</strong> na wykonanie wymaganych kroków"
+    },
+
     "lang-challenges-form-info": {
         "pl": "Edytor wyzwań znajduje się w fazie testów i jest dostępny tylko w języku polskim!"
     },
@@ -434,6 +457,11 @@
     "lang-challenges-save-file": {
         "en": "save challenges file",
         "pl": "zapisz plik wyzwań"
+    },
+
+    "lang-challenge-statuses": {
+        "en": "challenge statuses",
+        "pl": "statusy wyzwania"
     },
 
     "lang-challenges-tab-achievements": {
