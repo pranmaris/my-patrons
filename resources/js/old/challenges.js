@@ -1,8 +1,6 @@
 requirejs(["const", "marked"], function(uConst, libMarked) {
 
   uConst
-    //.set("SEARCH_QUERY_PARAM", "q")
-
     .set("ADD_NEW_CHALLENGE", addNewChallenge)
     .set("ADD_NEW_CHALLENGE_RESET", addNewChallengeReset)
     .set("CHANGE_NOTE_ITEM_MODE_TO_EDIT", changeNoteItemModeToEdit)
