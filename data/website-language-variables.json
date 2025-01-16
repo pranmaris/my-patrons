@@ -437,7 +437,7 @@
     "lang-challenge-status-todo-info": {
 
         "en": "<strong>challenge - note</strong> (to do or remember)",
-        "pl": "<strong>wyzwanie - notatka</strong> (coś do zrobienia lub zapamiętania)"
+        "pl": "<strong>wyzwanie: [X] Własna Notatka</strong> (coś do zrobienia lub zapamiętania)"
     },
 
     "lang-challenge-status-waiting-info": {
