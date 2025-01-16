@@ -98,12 +98,16 @@
         "pl": "dodaj nowe wyzwanie"
     },
 
+    "lang-add-new-challenge-person-or-addition-info": {
+        "pl": "Tego wyboru powinieneś dokonać <strong>nie później niż w wybranym dniu wyzwania</strong>!"
+    },
+
     "lang-add-new-challenge-required-checklist-steps-info": {
-        "pl": "aby dodać to wyzwanie, <strong>konieczne jest wykonanie w wybranym dniu</strong> wszystkich następujących kroków checklisty"
+        "pl": "Aby dodać to wyzwanie, <strong>konieczne jest wykonanie w wybranym dniu</strong> wszystkich następujących kroków checklisty"
     },
 
     "lang-add-new-challenge-required-notes-info": {
-        "pl": "aby dodać to wyzwanie, <strong>konieczne jest uzupełnienie</strong> poniższych notatek"
+        "pl": "Aby dodać to wyzwanie, <strong>konieczne jest uzupełnienie</strong> poniższych notatek"
     },
 
     "lang-add-new-your-own-note": {
