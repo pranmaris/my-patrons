@@ -1800,7 +1800,7 @@
     "name": {
       "pl": "Sakrament Namaszczenia Chorych"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {

@@ -298,6 +298,10 @@ img.modal-close-icon {
     appearance: none;
 }
 
+.select-form-for-new-challenges {
+    max-width: 1000px;
+}
+
 .input-form-for-notes,
 .date-form,
 .select-form-for-new-challenges,
