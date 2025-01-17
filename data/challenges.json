@@ -2132,7 +2132,7 @@
     "name": {
       "pl": "Sakrament Małżeństwa"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -2192,7 +2192,7 @@
           "person": [0, 1]
         },
         "name": {
-          "pl": "Małżonek"
+          "pl": "małżonek"
         }
       },
       "person": {
@@ -2200,7 +2200,7 @@
           "person": [0, 1]
         },
         "name": {
-          "pl": "Osoba potwierdzająca i błogosławiąca pierwszy Sakrament Małżeństwa"
+          "pl": "osoba potwierdzająca i błogosławiąca pierwszy Sakrament Małżeństwa"
         }
       },
       "witnesses": {
@@ -2208,7 +2208,7 @@
           "person": [0, 0]
         },
         "name": {
-          "pl": "Świadkowie"
+          "pl": "świadkowie"
         }
       },
       "other": {
