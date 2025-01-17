@@ -2053,7 +2053,7 @@
     "name": {
       "pl": "Sakrament Eucharystii"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
