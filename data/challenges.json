@@ -1966,7 +1966,7 @@
     "name": {
       "pl": "Sakrament Bierzmowania"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -2034,7 +2034,7 @@
           "person": [0, 0]
         },
         "name": {
-          "pl": "Świadkowie na Bierzmowaniu"
+          "pl": "świadkowie na Bierzmowaniu"
         }
       },
       "other": {
