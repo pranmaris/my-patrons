@@ -1,4 +1,3 @@
-<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+**Wpisz datę przyjęcia Sakramentu Kapłaństwa** w powyższym polu **„Data wyzwania”**.
 
----
-**Wpisz datę** swojego **przyjęcia Sakramentu Kapłaństwa** w powyższym polu na **datę wyzwania**.
+Jeżeli masz choćby cień **wątpliwości**, czy podana przez Ciebie **data przyjęcia Sakramentu Kapłaństwa jest poprawna**, wtedy **potwierdź ją** na podstawie **wiarygodnych dokumentów**.

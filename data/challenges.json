@@ -2227,7 +2227,7 @@
     "name": {
       "pl": "Sakrament Kapłaństwa"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
