@@ -1879,7 +1879,7 @@
     "name": {
       "pl": "Sakrament Chrztu Świętego"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -1947,7 +1947,7 @@
           "person": [0, 0]
         },
         "name": {
-          "pl": "Chrzestni"
+          "pl": "chrzestni"
         }
       },
       "other": {
