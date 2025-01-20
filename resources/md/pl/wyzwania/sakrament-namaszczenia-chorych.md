@@ -5,6 +5,5 @@ Jeżeli masz choćby cień **wątpliwości**, czy podana przez Ciebie **data pie
 ---
 Przypisy:
 
-<sup>1</sup> Tę informację można znaleźć na **różnorakich pamiątkach tego wydarzenia**.
-
-<sup>2</sup> Może pojawić się konieczność oparcia wyłącznie na **swojej pamięci**. Jeśli nie ma **żadnych szans ustalenia dokładnej daty pierwszego przyjęcia** Sakramentu Namaszczenia Chorych, możesz **wyjątkowo** zapisać datę jego **późniejszego przyjęcia**, którą pamiętasz.
+- <sup>1</sup> Tę informację można znaleźć na **różnorakich pamiątkach tego wydarzenia**.
+- <sup>2</sup> Może pojawić się konieczność oparcia wyłącznie na **swojej pamięci**. Jeśli nie ma **żadnych szans ustalenia dokładnej daty pierwszego przyjęcia** Sakramentu Namaszczenia Chorych, możesz **wyjątkowo** zapisać datę jego **późniejszego przyjęcia**, którą pamiętasz.

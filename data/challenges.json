@@ -2862,7 +2862,7 @@
     "name": {
       "pl": "Patron Imienia"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -2892,12 +2892,12 @@
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "podziękuj Patronowi swojego imienia"
+          "pl": "potwierdź wybór Patrona swojego imienia"
         },
         "description": {
           "params": ["person-name"],
           "template": {
-            "pl": "pl/kroki/podziekuj-patronowi-swojego-imienia"
+            "pl": "pl/kroki/potwierdz-wybor-patrona-swojego-imienia"
           }
         }
       },

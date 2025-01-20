@@ -7,9 +7,4 @@ Jeżeli masz choćby cień **wątpliwości**, czy podana przez Ciebie **data nar
 ---
 Przypisy:
 
-<sup>1</sup> Najlepszy byłby **odpis aktu Twojego urodzenia**, ale tę informację znajdziesz także na swoim **dowodzie osobistym**, **legitymacji szkolnej**, **odpisie aktu chrztu**, itp.
-
-
-
-
-
+- <sup>1</sup> Najlepszy byłby **odpis aktu Twojego urodzenia**, ale tę informację znajdziesz także na swoim **dowodzie osobistym**, **legitymacji szkolnej**, **odpisie aktu chrztu**, itp.
