@@ -7288,6 +7288,17 @@
         ],
         "feasts": []
     },
+    "patrons/sigismundus/gor": {
+        "names": {
+            "pl": "Zygmunt Gorazdowski",
+            "en": "Sigismund Gorazdowski",
+            "la": "Sigismundus Gorazdowski"
+        },
+        "died": [
+            "1920-01-01"
+        ],
+        "feasts": []
+    },
     "patrons/silvester": {
         "names": {
             "la": "Silvester",

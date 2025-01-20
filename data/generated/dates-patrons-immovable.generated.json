@@ -45,6 +45,17 @@
                 "reliable-death-anniversary": "1 I",
                 "other-martyrology-days": "1 I"
             }
+        },
+        "records/patrons/sigismundus/gor": {
+            "name": {
+                "pl": "Zygmunt Gorazdowski",
+                "en": "Sigismund Gorazdowski",
+                "la": "Sigismundus Gorazdowski"
+            },
+            "sources": {
+                "reliable-death-anniversary": "1 I",
+                "other-martyrology-days": "1 I"
+            }
         }
     },
     "01-02": {
