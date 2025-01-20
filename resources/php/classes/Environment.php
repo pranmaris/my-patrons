@@ -56,7 +56,8 @@ class Environment
 
     public function getHostProtocol(): string
     {
-        return $this->getFromServerGlobal('HTTPS') ? 'https://' : 'http://';
+        //return $this->getFromServerGlobal('HTTPS') ? 'https://' : 'http://';   --- not working
+        return $this->isProdServer() ? 'https://' : 'http://';
     }
 
     public function getHostDomain(): string
