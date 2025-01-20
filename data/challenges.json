@@ -2385,7 +2385,7 @@
     "name": {
       "pl": "Spowiedź Święta"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -2483,7 +2483,7 @@
           "person": [0, 1]
         },
         "name": {
-          "pl": "Spowiednik"
+          "pl": "spowiednik"
         }
       },
       "other": {

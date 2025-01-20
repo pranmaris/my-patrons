@@ -1,6 +1,7 @@
-<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
-
----
 **Przyjmij** Sakrament Pokuty i Pojednania.
 
-**Wpisywanie swoich spowiedzi** może pomóc Tobie **przyjmować ten Sakrament regularniej** oraz **jest niezbędne** np. przy zapraszaniu **Patronów Obrońców**, które każdorazowo może nastąpić nie później niż **40 dni** od ostatniej spowiedzi!
+Jako wyzwanie **możesz wpisać dowolną pamiętaną datę swojej Spowiedzi Świętej** w powyższym polu **„Data wyzwania”**.
+
+Wykonywanie tego wyzwania, czyli wpisywanie dat swoich spowiedzi, może **pomóc Ci przyjmować ten Sakrament regularnie**!
+
+Ponadto **jest to niezbędne**, aby móc zapraszać **Patronów Obrońców**. Możesz ich zapraszać **przez kolejne 40 dni od wykonania tego wyzwania**, ale maksymalnie jednego na każdy dzień.

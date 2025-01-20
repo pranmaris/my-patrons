@@ -1,4 +1,3 @@
-<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+**Wypełnij** zadaną przez kapłana na spowiedzi pokutę. 
 
----
-**Wypełnij** zadaną przez kapłana na spowiedzi pokutę. Jest ona Twoim podziękowaniem Bogu za Jego dobroć i miłosierne przyjęcie i zgładzenie Twoich grzechów.
+„Pokuta, którą nakłada spowiednik, powinna uwzględniać sytuację osobistą penitenta i mieć na celu jego duchowe dobro. O ile to możliwe, powinna odpowiadać ciężarowi i naturze popełnionych grzechów. Może nią być modlitwa, jakaś ofiara, dzieło miłosierdzia, służba bliźniemu, dobrowolne wyrzeczenie, cierpienie, a zwłaszcza cierpliwa akceptacja krzyża, który musimy dźwigać. Tego rodzaju pokuty pomagają nam upodobnić się do Chrystusa, który raz na zawsze odpokutował za nasze grzechy; pozwalają nam stać się współdziedzicami Chrystusa Zmartwychwstałego, ‚skoro wspólnie z Nim cierpimy’ (Rz 8,17)” (Katechizm Kościoła Katolickiego, nr 1460).
