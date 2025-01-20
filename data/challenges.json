@@ -2871,7 +2871,8 @@
     },
     "numbers": false,
     "uniqueness": [
-      ["person"]
+      ["person"],
+      ["notes/forename", "notes/criterion"]
     ],
     "addition-type": "",
     "person": {
