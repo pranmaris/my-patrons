@@ -3,7 +3,7 @@
     "name": {
       "pl": "Patron Obrońca"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -61,7 +61,7 @@
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "pomódl się do Patrona"
+          "pl": "pomódl się do Patrona Obrońcy"
         },
         "description": {
           "params": ["person-name"],
@@ -1514,7 +1514,7 @@
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "pomódl się do Patrona"
+          "pl": "pomódl się do Patrona Mentora"
         },
         "description": {
           "params": ["person-name"],
@@ -1629,7 +1629,7 @@
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
-          "pl": "pomódl się wspólnie z drugim Uczestnikiem do wybranych Patronów"
+          "pl": "pomódl się wspólnie z drugim Uczestnikiem do wybranych Patronów Orędowników"
         },
         "description": {
           "params": ["person-name"],
@@ -2546,7 +2546,7 @@
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "pomódl się do Patrona"
+          "pl": "pomódl się do Patrona Opiekuna"
         },
         "description": {
           "params": ["person-name"],
