@@ -641,11 +641,11 @@
     "name": {
       "pl": "Święto Patrona"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/swieto"
+        "pl": "pl/wyzwania/swieto-patrona"
       }
     },
     "numbers": true,
@@ -658,7 +658,7 @@
       "description": {
         "params": ["current-year", "challenge-date"],
         "template": {
-          "pl": "pl/osoby/swieto"
+          "pl": "pl/osoby/swieto-patrona"
         }
       },
       "requirements": {
