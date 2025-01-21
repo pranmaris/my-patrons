@@ -1431,6 +1431,8 @@ p.tab-p {
 }
 
 .challenge-success-status-icon {
+  display: inline-block;
+
   border-radius: 100px;
   padding: 10px;
 
