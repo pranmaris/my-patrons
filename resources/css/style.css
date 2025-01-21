@@ -628,16 +628,19 @@ img.home {
     margin-top: 35px;
 }
 
+.challenges-description a,
 .page-content a {
     color: var(--color3);
 }
 
+.challenges-description ul,
 .page-content ul {
     padding-left: 0px;
     margin-top: 15px;
 }
 
 
+.challenges-description li,
 .page-content li {
     font-size: 14px;
     font-weight: var(--SemiBold);
@@ -651,6 +654,7 @@ img.home {
     padding: 0px 12px 0px 30px !important;
 }
 
+.challenges-description strong,
 .page-content strong {
     font-size: 14px;
     font-weight: var(--Bold);
@@ -1566,7 +1570,7 @@ iframe {
 }
 
 .challenges-description sup {
-  color: var(--color3);
+  color: var(--color2);
 
   transition: all 1s;
 }
