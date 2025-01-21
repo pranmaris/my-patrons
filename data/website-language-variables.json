@@ -427,19 +427,21 @@
     },
 
     "lang-challenge-status-aborted-info": {
-
         "en": "<strong>challenge aborted</strong>",
         "pl": "<strong>wyzwanie anulowane</strong>"
     },
 
     "lang-challenge-status-done-info": {
-
         "en": "<strong>challenge done</strong>",
         "pl": "<strong>wyzwanie wykonane</strong>"
     },
 
-    "lang-challenge-status-todo-info": {
+    "lang-challenge-status-done-without-any-optional-steps-info": {
+        "en": "<strong>challenge done</strong> without any optional steps",
+        "pl": "<strong>wyzwanie wykonane</strong> bez niektórych opcjonalnych kroków"
+    },
 
+    "lang-challenge-status-todo-info": {
         "en": "<strong>challenge - note</strong> (to do or remember)",
         "pl": "<strong>wyzwanie: [X] Własna Notatka</strong> (coś do zrobienia lub zapamiętania)"
     },

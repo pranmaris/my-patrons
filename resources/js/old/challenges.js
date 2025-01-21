@@ -166,6 +166,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   const CHALLENGE_SUCCESS_STATUS_ICON_ABORTED_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-aborted-';
   const CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-waiting-';
   const CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-done-';
+  const CHALLENGE_SUCCESS_STATUS_ICON_DONE_WITHOUT_ANY_OPTIONAL_STEPS_ELEMENT_ID_PREFIX = 'challenge-success-status-icon-done-without-any-optional-steps-';
   const RANDOM_BIBLE_CHAPTERS_BUTTON_ELEMENT_ID = 'random-bible-chapter';
   const ACHIEVEMENTS_GENERAL_TABLE_ELEMENT_ID = 'achievements-general-table';
   const CHALLENGES_SHOW_FOR_NO_ROWS_CLASS_ID = 'challenges-show-for-no-rows';
@@ -1263,6 +1264,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       rowData.type = challenge.type ?? '';
       rowData.number = '';
       rowData.notes = challenge.notes ?? [];
+      rowData.steps = challenge[DATA_FIELD_CHECKLIST] ?? {};
 
       const config = challengesConfig[rowData.type] ?? {};
       const additionType = config[CONFIG_FIELD_ADDITION_TYPE] ?? '';
@@ -1320,15 +1322,28 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       const successStatusIconAborted = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_ABORTED_ELEMENT_ID_PREFIX + rowData.rowId);
       const successStatusIconWaiting = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_WAITING_ELEMENT_ID_PREFIX + rowData.rowId);
       const successStatusIconDone = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_DONE_ELEMENT_ID_PREFIX + rowData.rowId);
+      const successStatusIconDoneWithoutAnyOptionalSteps = document.getElementById(CHALLENGE_SUCCESS_STATUS_ICON_DONE_WITHOUT_ANY_OPTIONAL_STEPS_ELEMENT_ID_PREFIX + rowData.rowId);
 
       successStatusIconTodo.style = INVISIBLE_STYLE;
       successStatusIconAborted.style = INVISIBLE_STYLE;
       successStatusIconWaiting.style = INVISIBLE_STYLE;
       successStatusIconDone.style = INVISIBLE_STYLE;
+      successStatusIconDoneWithoutAnyOptionalSteps.style = INVISIBLE_STYLE;
 
       switch (getChallengeSuccessStatus(rowData.rowId)) {
         case CHALLENGE_SUCCESS_STATUS_DONE:
-          successStatusIconDone.style = VISIBLE_STYLE;
+          let foundAnyUndone = false;
+          for (let stepStatus of Object.values(rowData.steps)) {
+            if (stepStatus !== true) {
+              foundAnyUndone = true;
+            }
+          }
+
+          if (foundAnyUndone) {
+            successStatusIconDoneWithoutAnyOptionalSteps.style = VISIBLE_STYLE;
+          } else {
+            successStatusIconDone.style = VISIBLE_STYLE;
+          }
           break;
 
         case CHALLENGE_SUCCESS_STATUS_ABORTED:
