@@ -2719,7 +2719,7 @@
     "name": {
       "pl": "Relikwie lub Grób"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
