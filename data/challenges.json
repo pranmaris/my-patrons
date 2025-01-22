@@ -2502,7 +2502,7 @@
     "name": {
       "pl": "Patron Opiekun"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -2583,7 +2583,7 @@
           "time": [0, 1]
         },
         "name": {
-          "pl": "godzina rozpoczęcia Mszy (jeśli wybrano kryterium Mszy) lub zaproszenia Patrona"
+          "pl": "godzina wykonania zadania głównego (np. rozpoczęcia Mszy)"
         }
       },
       "place": {
@@ -2591,7 +2591,7 @@
           "place": [0, 1]
         },
         "name": {
-          "pl": "miejsce Mszy (jeśli wybrano kryterium Mszy) lub zaproszenia Patrona"
+          "pl": "miejsce wykonania zadania głównego (np. Mszy, relikwii)"
         }
       },
       "persons": {
