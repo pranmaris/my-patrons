@@ -1583,7 +1583,7 @@
     "name": {
       "pl": "Patron Orędownik"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -2884,7 +2884,7 @@
         }
       },
       "requirements": {
-        "anybody-having-challenges": ["B"],
+        "anybody-having-challenges": ["I"],
         "person-not-having-challenges": ["YN"]
       }
     },

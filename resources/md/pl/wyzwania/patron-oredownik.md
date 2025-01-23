@@ -1,9 +1,21 @@
-<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
-
----
 **Zaproś** Świętego lub Błogosławionego Kościoła Rzymskokatolickiego do grona Twoich **Patronów Orędowników**!
 
-**Można to zrobić tylko współpracując z dowolnym drugim Uczestnikiem** inicjatywy _„Moich Patronów”_, umożliwiając mu zaproszenie wybranego przez niego **Patrona, któremu my powierzyliśmy już wcześniej swoją Misję Posłańca**.
-W ramach dalszych wyzwań, zaproszonych **Patronów Orędowników** będziemy mogli prosić o ich potężne **wstawiennictwo u Boga za inne osoby** (nie tylko Uczestników), bazując na posiadanych imionach tych osób i Patronów. Oczywiście warto (także poza wyzwaniami) często powierzać inne osoby dowolnym Patronom!
+**Konieczne wymagania** zaproszenia:
+- Odbywa się ono **zawsze wspólnie z wybranym drugim Uczestnikiem** inicjatywy _„Moi Patroni”_, z którym **trzeba się spotkać**!
+- Na tym spotkaniu zarówno Ty, jak i drugi Uczestnik **musicie zaprosić Patrona Orędownika**! Warto wcześniej **ustalić między sobą**, których Patronów każdy chce zaprosić.
+- Drugi Uczestnik **może zaprosić** tylko Patrona, którego **Ty jesteś już Posłańcem**, tzn. wykonałeś dla Niego wcześniej wyzwanie **[MM] Misja Posłańca**.
+- Analogicznie, Ty **możesz zaprosić** tylko Patrona, którego drugi Uczestnik jest już **Posłańcem**.
+- Możecie z drugim Uczestnikiem **zaprosić tego samego Patrona Orędownika**.
+- Określony **Patron Orędownik może być zaproszony** przez daną osobę **tylko raz**!
 
-**UWAGA**! Z każdym Uczestnikiem możesz wspólnie zaprosić Patronów Orędowników **maksymalnie raz w miesiąca kalendarzowym**!
+Dzięki zaproszeniu Patronów Orędowników zarówno Ty, jak i drugi Uczestnik będziecie mieć możliwość **odkrywania imion** i **wykonywania wielu wyzwań** z Nimi związanych, dotyczących **uczynków miłosierdzia** względem innych ludzi **żyjących i zmarłych**.
+
+Zapraszając Patrona Orędownika, prosisz Go:
+- **by orędował za wszystkimi ludźmi**, których wspominasz, spotykasz, kochasz, ale także za tych zapomnianych i potrzebujących choćby naszego westchnienia,
+- **by orędował także za Tobą**, byś umiał się **modlić** za innych, **ofiarowywać** za nich swoje cierpienia i trudy, byś był **użytecznym narzędziem** w rękach Boga w Jego dziele zbawienia.
+
+Poprzez imiona uczysz się odnajdywać swoich Patronów Orędowników **w drugim człowieku**, co ma Tobie przypominać o konieczności ciągłego oddawania każdego człowieka Bożej opiece i orędownictwu Patronów.
+
+Pamiętaj, że:
+- można zaprosić tylko **jednego Patrona Orędownika** każdego dnia!
+- z określonym Uczestnikiem możesz wspólnie zaprosić Patronów Orędowników **nie częściej niż raz w miesiącu kalendarzowym**!

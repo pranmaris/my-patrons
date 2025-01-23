@@ -1,11 +1,8 @@
-<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
-
----
-**Razem z drugim Uczestnikiem**, wykonajcie poniższe kroki:
+**Razem z drugim Uczestnikiem** wykonajcie poniższe kroki:
 - **spotkajcie się** (nie online!) w jakimś sprzyjającym modlitwie miejscu,
-- **potwierdźcie sobie**, których Patronów Orędowników Ty i druga osoba zamierzacie zaraz zaprosić (najlepiej to zrobić na podstawie list wykonanych **Misji Posłańca** obydwu zapraszających osób),
-- **uklęknijcie obok siebie** przed Krzyżem, Najświętszym Sakramentem lub Tabernakulum,
-- **wykonajcie razem znak Krzyża**.
+- **potwierdźcie sobie**, których Patronów Orędowników Ty i drugi Uczestnik zamierzacie zaprosić (najlepiej to zrobić na podstawie Waszych list wykonanych **Misji Posłańca**),
+- **uklęknijcie obok siebie** przed krzyżem, Najświętszym Sakramentem lub tabernakulum,
+- **wykonajcie razem znak krzyża**.
 
 Ten krok checklisty można **oznaczyć jako wykonany** i przejść do kolejnego.
 
