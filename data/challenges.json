@@ -1469,7 +1469,7 @@
     "name": {
       "pl": "Patron Mentor"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {

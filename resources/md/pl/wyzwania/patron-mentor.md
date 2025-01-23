@@ -1,6 +1,7 @@
-<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
-
----
 **Zaproś** Świętego lub Błogosławionego Kościoła Rzymskokatolickiego do grona Twoich **Patronów Mentorów**!
 
-Dzięki temu będziesz mieć możliwość jego **lepszego poznania** i **wykonania wielu wyzwań** z nim związanych, takich jak np.: rozważanie jego cytatów, przeczytanie o nim książki, itp.
+Dzięki temu będziesz mieć możliwość **odkrywania kategorii** i **wykonywania wielu wyzwań** z Nim związanych, które pozwolą Tobie szukać i pogłębiać wiedzę o Patronie za pomocą **rozumu**. Będziesz mieć okazję poznać jego życie, osiągnięcia, dzieła, cytaty, a przy okazji zdobywać Bożą mądrość, czytając Pismo Święte.
+
+Zapraszając Patrona Mentora, prosisz Go, **by Cię uczył i pomagał zrozumieć** wiele Bożych tajemnic, prowadzących do wielkiej **mądrości**. By swoim **dobrym przykładem** pomagał Ci podejmować trudne wybory w życiu i pokazywał wiele możliwości czynienia dobra, jakie masz tu na ziemi. Będziesz lepiej **rozpoznawać Go** po wydarzeniach z Jego życia, po cytatach i dziełach, które po sobie zostawił.
+
+Pamiętaj, że można zaprosić tylko **jednego Patrona Mentora** każdego dnia!
