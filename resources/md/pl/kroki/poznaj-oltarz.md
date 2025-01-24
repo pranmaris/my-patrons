@@ -1,9 +1,6 @@
-<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
-
----
-Jeśli będzie to możliwe, **przeczytaj jakąkolwiek notkę** o odwiedzonym ołtarzu bocznym (kaplicy), opisującą jego historię i elementy. Jeśli po uczciwych poszukiwaniach nadal nie znajdziesz żadnych informacji, także możesz **oznaczyć ten krok jako wykonany**.
+Jeśli będzie to możliwe, **przeczytaj jakąkolwiek notkę** o odwiedzonym ołtarzu bocznym (kaplicy)<sup>1</sup>, opisującą jego historię i elementy. Jeśli po uczciwych poszukiwaniach nadal nie znajdziesz żadnych informacji, możesz **oznaczyć ten krok jako wykonany**.
 
 ---
 Przypisy:
 
-- <sup>1</sup> Do czytania o ołtarzach bocznych może posłużyć strona parafii lub kościoła, w którym się one znajdują.
+- <sup>1</sup> Informacje o ołtarzach bocznych możesz znaleźć na stronie internetowej danego kościoła lub parafii, w której się one znajdują oraz na innych stronach w Internecie (np. <a target="_blank" href="https://pl.wikipedia.org/wiki/Kategoria:Diecezje_rzymskokatolickie_w_Polsce">Wikipedia</a>).
