@@ -1,4 +1,4 @@
-**Przyjdź do miejsca świeckiego**<sup>1</sup>, które posiada Twojego **Patrona Opiekuna** w swojej nazwie, np.: pomnik, ulica, skwer, plac, uczelnia, apteka, sklep, dzielnica, miejscowość, region, państwo, góra, rzeka, itp.
+**Przyjdź do miejsca świeckiego**<sup>1</sup>, które w swojej nazwie posiada Twojego **Patrona Opiekuna**, np.: pomnik, ulica, skwer, plac, uczelnia, apteka, sklep, dzielnica, miejscowość, region, państwo, góra, rzeka, itp.
 
 ---
 Przypisy:
