@@ -2619,7 +2619,7 @@
     "name": {
       "pl": "Miejsce Świeckie"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -2660,10 +2660,10 @@
         }
       },
       "prayer": {
-        "to-complete-on-selected-date": true,
+        "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "pomódl się do Patrona w miejscu świeckim"
+          "pl": "pomódl się do Patrona miejsca świeckiego"
         },
         "description": {
           "params": ["person-name"],
