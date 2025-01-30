@@ -133,120 +133,6 @@
 
   "AA": {
     "name": {
-      "pl": "Ołtarz"
-    },
-    "selectable": false,
-    "description": {
-      "params": [],
-      "template": {
-        "pl": "pl/wyzwania/oltarz"
-      }
-    },
-    "numbers": true,
-    "uniqueness": [
-      ["person", "addition", "notes/place", "notes/altar-name"]
-    ],
-    "addition-type": "feasts",
-    "person": {
-      "types": ["God", "Patrons"],
-      "description": {
-        "params": [],
-        "template": {
-          "pl": "pl/osoby/wyzwania-patronow-obroncow"
-        }
-      },
-      "requirements": {
-        "god-having-needed-challenges": true,
-        "anybody-having-challenges": ["A"],
-        "person-having-challenges": ["A"],
-        "person-addition-having-challenges": ["DF"]
-      }
-    },
-    "checklist": {
-      "place": {
-        "to-complete-on-selected-date": true,
-        "required": true,
-        "name": {
-          "pl": "odwiedź ołtarz boczny (kaplicę)"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/odwiedz-oltarz"
-          }
-        }
-      },
-      "prayer": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "pomódl się do Patrona ołtarza bocznego (kaplicy)"
-        },
-        "description": {
-          "params": ["person-name"],
-          "template": {
-            "pl": "pl/kroki/pomodl-sie-do-patrona"
-          }
-        }
-      },
-      "knowledge": {
-        "to-complete-on-selected-date": false,
-        "required": true,
-        "name": {
-          "pl": "poznaj ołtarz boczny (kaplicę)"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/poznaj-oltarz"
-          }
-        }
-      },
-      "note": {
-        "to-complete-on-selected-date": false,
-        "required": false,
-        "name": {
-          "pl": "uzupełnij dowolne notatki"
-        },
-        "description": {
-          "params": ["row-id"],
-          "template": {
-            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
-          }
-        }
-      }
-    },
-    "notes": {
-      "place": {
-        "type": {
-          "place": [1, 1]
-        },
-        "name": {
-          "pl": "odwiedzone miejsce, w którym znajduje się ołtarz boczny (kaplica)"
-        }
-      },
-      "altar-name": {
-        "type": {
-          "altar-name": [1, 1]
-        },
-        "name": {
-          "pl": "nazwa ołtarza bocznego (kaplicy)"
-        }
-      },
-      "other": {
-        "type": {
-          "description": [0, 0]
-        },
-        "name": {
-          "en": "additional information",
-          "pl": "informacje dodatkowe"
-        }
-      }
-    }
-  },
-
-  "AC": {
-    "name": {
       "pl": "Kościół"
     },
     "selectable": false,
@@ -350,6 +236,120 @@
         },
         "name": {
           "pl": "odwiedzona świątynia rzymskokatolicka"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
+  "AC": {
+    "name": {
+      "pl": "Ołtarz"
+    },
+    "selectable": false,
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/oltarz"
+      }
+    },
+    "numbers": true,
+    "uniqueness": [
+      ["person", "addition", "notes/place", "notes/altar-name"]
+    ],
+    "addition-type": "feasts",
+    "person": {
+      "types": ["God", "Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/wyzwania-patronow-obroncow"
+        }
+      },
+      "requirements": {
+        "god-having-needed-challenges": true,
+        "anybody-having-challenges": ["A"],
+        "person-having-challenges": ["A"],
+        "person-addition-having-challenges": ["DF"]
+      }
+    },
+    "checklist": {
+      "place": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "odwiedź ołtarz boczny (kaplicę)"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/odwiedz-oltarz"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "pomódl się do Patrona ołtarza bocznego (kaplicy)"
+        },
+        "description": {
+          "params": ["person-name"],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-do-patrona"
+          }
+        }
+      },
+      "knowledge": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "poznaj ołtarz boczny (kaplicę)"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/poznaj-oltarz"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": ["row-id"],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "place": {
+        "type": {
+          "place": [1, 1]
+        },
+        "name": {
+          "pl": "odwiedzone miejsce, w którym znajduje się ołtarz boczny (kaplica)"
+        }
+      },
+      "altar-name": {
+        "type": {
+          "altar-name": [1, 1]
+        },
+        "name": {
+          "pl": "nazwa ołtarza bocznego (kaplicy)"
         }
       },
       "other": {
