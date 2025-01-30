@@ -252,13 +252,13 @@
 
   "AC": {
     "name": {
-      "pl": "Ołtarz"
+      "pl": "Ołtarz Boczny lub Kaplica"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/oltarz"
+        "pl": "pl/wyzwania/oltarz-boczny-lub-kaplica"
       }
     },
     "numbers": true,
@@ -286,12 +286,12 @@
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
-          "pl": "odwiedź ołtarz boczny (kaplicę)"
+          "pl": "odwiedź ołtarz boczny lub kaplicę"
         },
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/kroki/odwiedz-oltarz"
+            "pl": "pl/kroki/odwiedz-oltarz-boczny-lub-kaplice"
           }
         }
       },
@@ -299,7 +299,7 @@
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "pomódl się do Patrona ołtarza bocznego (kaplicy)"
+          "pl": "pomódl się do Patrona ołtarza bocznego lub kaplicy"
         },
         "description": {
           "params": ["person-name"],
@@ -312,12 +312,12 @@
         "to-complete-on-selected-date": false,
         "required": true,
         "name": {
-          "pl": "poznaj ołtarz boczny (kaplicę)"
+          "pl": "poznaj ołtarz boczny lub kaplicę"
         },
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/kroki/poznaj-oltarz"
+            "pl": "pl/kroki/poznaj-oltarz-boczny-lub-kaplice"
           }
         }
       },
@@ -341,7 +341,7 @@
           "place": [1, 1]
         },
         "name": {
-          "pl": "odwiedzone miejsce, w którym znajduje się ołtarz boczny (kaplica)"
+          "pl": "odwiedzone miejsce, w którym znajduje się ołtarz boczny lub kaplica"
         }
       },
       "altar-name": {
@@ -349,7 +349,7 @@
           "altar-name": [1, 1]
         },
         "name": {
-          "pl": "nazwa ołtarza bocznego (kaplicy)"
+          "pl": "nazwa ołtarza bocznego lub kaplicy"
         }
       },
       "other": {
