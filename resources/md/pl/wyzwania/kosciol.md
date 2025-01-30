@@ -1,7 +1,7 @@
-**Pójdź do świątyni<sup>1</sup> Kościoła Rzymskokatolickiego**, która jest pod wezwaniem<sup>2</sup> **Osoby Boskiej**, zaproszonego przez Ciebie **Patrona Obrońcy** lub odkrytego **święta**.
+**Pójdź do świątyni<sup>1</sup> Kościoła Rzymskokatolickiego**, która jest pod wezwaniem<sup>2</sup> **Osoby Boskiej** lub zaproszonego przez Ciebie **Patrona Opiekuna**.
 
 ---
 Przypisy:
 
 - <sup>1</sup> Przez **świątynię** rozumiemy: kościół, kaplicę (w sensie odrębnego budynku sakralnego pełniącego rolę kościoła), sanktuarium, bazylikę, katedrę, itp.
-- <sup>2</sup> Jeśli kościół **jest pod wezwaniem wielu** Twoich Patronów Obrońców lub świąt, to w tym miejscu wyzwanie to możesz wykonać **niezależnie od siebie, dla każdego z nich**. Wezwania **niebędące** Osobą Boską lub Patronem Obrońcą **w ogólności** wymagają posiadania już **odkrytego święta o tej samej nazwie**. Zbiorowe wezwania kościoła traktujemy osobno, np. kościoł pw. _Błogosławionej Poznańskiej Piątki_ traktujemy tak, jakby był pw. _Błogosławionych: Czesława Jóźwiaka, Edwarda Kaźmierskiego, Franciszka Kęsego, Edwarda Klinika i Jarogniewa Wojciechowskiego_.
+- <sup>2</sup> Jeśli kościół **jest pod wezwaniem wielu** Twoich Patronów Opiekunów, to w tym miejscu wyzwanie to możesz wykonać **niezależnie od siebie, dla każdego z nich**. Wezwania **niebędące** Osobą Boską lub Patronem Opiekunem **w ogólności** przypisujemy do osoby, której dotyczą (np.  _Wniebowzięcie Najświętszej Maryi Panny_ przypisujemy do Marii z Nazaretu). Zbiorowe wezwania kościoła traktujemy osobno, np. kościoł pw. _Błogosławionej Poznańskiej Piątki_ traktujemy tak, jakby był pw. _Błogosławionych: Czesława Jóźwiaka, Edwarda Kaźmierskiego, Franciszka Kęsego, Edwarda Klinika i Jarogniewa Wojciechowskiego_.
