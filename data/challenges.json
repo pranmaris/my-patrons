@@ -135,7 +135,7 @@
     "name": {
       "pl": "Ołtarz"
     },
-    "selectable": true,
+    "selectable": false,
     "description": {
       "params": [],
       "template": {
@@ -249,7 +249,7 @@
     "name": {
       "pl": "Kościół"
     },
-    "selectable": true,
+    "selectable": false,
     "description": {
       "params": [],
       "template": {
