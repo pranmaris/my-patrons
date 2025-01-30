@@ -133,9 +133,9 @@
 
   "AA": {
     "name": {
-      "pl": "Ołtarz Główny (dotychczas jako wyzwanie Kościół)"
+      "pl": "Ołtarz Główny"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -173,19 +173,6 @@
           "params": [],
           "template": {
             "pl": "pl/kroki/odwiedz-oltarz-glowny"
-          }
-        }
-      },
-      "main-altar": {
-        "to-complete-on-selected-date": false,
-        "required": false,
-        "name": {
-          "pl": "zobacz ołtarz główny (krok do usunięcia)"
-        },
-        "description": {
-          "params": [],
-          "template": {
-            "pl": "pl/kroki/zobacz-oltarz-glowny"
           }
         }
       },

@@ -1,4 +1,4 @@
-Jeśli będzie to możliwe, **przeczytaj jakąkolwiek notkę** o świątyni<sup>1</sup>, którą odwiedziłeś. Dowiedz się z niej o jej historii, o ciekawostkach z nią związanych, o znajdujących się w niej kaplicach, relikwiach czy innych cennych przedmiotach. Jeśli po uczciwych poszukiwaniach nadal nie znajdziesz żadnych informacji, możesz **oznaczyć ten krok jako wykonany**.
+Jeśli będzie to możliwe, **przeczytaj jakąkolwiek notkę** o świątyni<sup>1</sup>, którą odwiedziłeś. Dowiedz się z niej o jej historii, o ciekawostkach z nią związanych, o znajdujących się w niej ołtarzach, kaplicach, relikwiach czy innych cennych przedmiotach. Jeśli po uczciwych poszukiwaniach nadal nie znajdziesz żadnych informacji, możesz **oznaczyć ten krok jako wykonany**.
 
 ---
 Przypisy:
