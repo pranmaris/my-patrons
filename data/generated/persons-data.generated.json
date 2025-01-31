@@ -2826,7 +2826,8 @@
             "pl": "Franciszek",
             "es": "Francisco",
             "fr": "François",
-            "it": "Francesco"
+            "it": "Francesco",
+            "pt": "Francisco"
         }
     },
     "patrons/franciscus/asi": {
@@ -2873,6 +2874,18 @@
         },
         "died": [
             "1942-08-24"
+        ],
+        "feasts": []
+    },
+    "patrons/franciscus/mar": {
+        "names": {
+            "pt": "Francisco Marto",
+            "en": "Francisco Marto",
+            "la": "Franciscus Marto",
+            "pl": "Franciszek Marto"
+        },
+        "died": [
+            "1919-04-04"
         ],
         "feasts": []
     },
@@ -3490,7 +3503,8 @@
             "la": "Hyacintha",
             "en": "Hyacintha",
             "pl": "Hiacynta",
-            "it": "Giacinta"
+            "it": "Giacinta",
+            "pt": "Jacinta"
         }
     },
     "patrons/hyacintha/mar": {
@@ -3502,6 +3516,18 @@
         },
         "died": [
             "1640-01-30"
+        ],
+        "feasts": []
+    },
+    "patrons/hyacintha/mat": {
+        "names": {
+            "pt": "Jacinta Marto",
+            "en": "Jacinta Marto",
+            "la": "Hyacintha Marto",
+            "pl": "Hiacynta Marto"
+        },
+        "died": [
+            "1920-02-20"
         ],
         "feasts": []
     },

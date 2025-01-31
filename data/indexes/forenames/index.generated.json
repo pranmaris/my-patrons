@@ -2660,7 +2660,8 @@
         "en": "Felicissimus"
     },
     "e355ec3b68d0fffc37d181f2da9d2fa3": {
-        "es": "Francisco"
+        "es": "Francisco",
+        "pt": "Francisco"
     },
     "e381226249d1f6124050bc58326edeef": {
         "la": "Patricius"
@@ -2727,6 +2728,9 @@
     },
     "e81cc8a54977693f611ffcfb220a5010": {
         "pl": "Benedykt"
+    },
+    "e85225d04ba83f8f22dad3d94331b117": {
+        "pt": "Jacinta"
     },
     "e914da4c61712d27894e8302ae69fa65": {
         "la": "Iustina"

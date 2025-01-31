@@ -14,6 +14,12 @@
         ]
     },
     "links": {
+        "records/patrons/franciscus/mar": {
+            "pt": "Francisco Marto",
+            "en": "Francisco Marto",
+            "la": "Franciscus Marto",
+            "pl": "Franciszek Marto"
+        },
         "records/patrons/iustus/pas": {
             "la": "Iustus /+ Pastor",
             "en": "Justus /+ Pastor",

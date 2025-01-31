@@ -1,0 +1,39 @@
+{
+  "names": {
+    "pt": [
+      "Jacinta Marto"
+    ],
+    "en": [
+      "Jacinta Marto"
+    ],
+    "la": [
+      "Hyacintha Marto"
+    ],
+    "pl": [
+      "Hiacynta Marto"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pt": "Marto"
+    }
+  ],
+
+  "born": ["1910-03-05"],
+  "died": ["1920-02-20"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-05-13"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2017-05-13"
+  },
+
+  "also-in-martyrology": ["02-20"],
+
+  "forenames": ["hyacintha"],
+  "categories": ["femina", "puella"]
+}

@@ -1,6 +1,7 @@
 {
     "names": {
-        "es": "Francisco"
+        "es": "Francisco",
+        "pt": "Francisco"
     },
     "translations": {
         "la": [
@@ -20,6 +21,9 @@
         ],
         "it": [
             "Francesco"
+        ],
+        "pt": [
+            "Francisco"
         ]
     },
     "links": {
@@ -45,6 +49,12 @@
             "pl": "Franciszek Kęsy",
             "en": "Franciszek Kęsy",
             "la": "Franciscus Kęsy"
+        },
+        "records/patrons/franciscus/mar": {
+            "pt": "Francisco Marto",
+            "en": "Francisco Marto",
+            "la": "Franciscus Marto",
+            "pl": "Franciszek Marto"
         },
         "records/patrons/franciscus/pau": {
             "it": "Francesco da Paola",

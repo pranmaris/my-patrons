@@ -947,6 +947,18 @@
         }
     },
     "02-20": {
+        "records/patrons/hyacintha/mat": {
+            "name": {
+                "pt": "Jacinta Marto",
+                "en": "Jacinta Marto",
+                "la": "Hyacintha Marto",
+                "pl": "Hiacynta Marto"
+            },
+            "sources": {
+                "reliable-death-anniversary": "20 II",
+                "other-martyrology-days": "20 II"
+            }
+        },
         "records/patrons/iulia/rod": {
             "name": {
                 "pl": "Julia Rodzińska",
@@ -2012,6 +2024,18 @@
                 "la": "Ambrosius Mediolanensis",
                 "en": "Ambrose of Milan",
                 "pl": "Ambroży z Mediolanu"
+            },
+            "sources": {
+                "reliable-death-anniversary": "4 IV",
+                "other-martyrology-days": "4 IV"
+            }
+        },
+        "records/patrons/franciscus/mar": {
+            "name": {
+                "pt": "Francisco Marto",
+                "en": "Francisco Marto",
+                "la": "Franciscus Marto",
+                "pl": "Franciszek Marto"
             },
             "sources": {
                 "reliable-death-anniversary": "4 IV",

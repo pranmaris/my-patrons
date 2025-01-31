@@ -1,0 +1,39 @@
+{
+  "names": {
+    "pt": [
+      "Francisco Marto"
+    ],
+    "en": [
+      "Francisco Marto"
+    ],
+    "la": [
+      "Franciscus Marto"
+    ],
+    "pl": [
+      "Franciszek Marto"
+    ]
+  },
+
+  "surnames": [
+    {
+      "pt": "Marto"
+    }
+  ],
+
+  "born": ["1908-06-11"],
+  "died": ["1919-04-04"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "2000-05-13"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "2017-05-13"
+  },
+
+  "also-in-martyrology": ["04-04"],
+
+  "forenames": ["franciscus"],
+  "categories": ["vir", "puer"]
+}

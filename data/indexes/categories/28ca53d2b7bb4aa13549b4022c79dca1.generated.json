@@ -23,6 +23,12 @@
             "la": "Agnes Romana",
             "en": "Agnes of Rome",
             "pl": "Agnieszka Rzymianka"
+        },
+        "records/patrons/hyacintha/mat": {
+            "pt": "Jacinta Marto",
+            "en": "Jacinta Marto",
+            "la": "Hyacintha Marto",
+            "pl": "Hiacynta Marto"
         }
     }
 }

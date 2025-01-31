@@ -15,6 +15,9 @@
         ],
         "it": [
             "Giacinta"
+        ],
+        "pt": [
+            "Jacinta"
         ]
     },
     "links": {
@@ -23,6 +26,12 @@
             "en": "Hyacintha Mariscotti",
             "la": "Hyacintha de Mariscottis",
             "pl": "Hiacynta Mariscotti"
+        },
+        "records/patrons/hyacintha/mat": {
+            "pt": "Jacinta Marto",
+            "en": "Jacinta Marto",
+            "la": "Hyacintha Marto",
+            "pl": "Hiacynta Marto"
         }
     }
 }
