@@ -380,6 +380,18 @@
             "sources": {
                 "reliable-death-anniversary": "22 I"
             }
+        },
+        "records/patrons/vincentius/pal": {
+            "name": {
+                "it": "Vincenzo Pallotti",
+                "en": "Vincent Pallotti",
+                "la": "Vincentius Pallotti",
+                "pl": "Wincenty Pallotti"
+            },
+            "sources": {
+                "reliable-death-anniversary": "22 I",
+                "other-martyrology-days": "22 I"
+            }
         }
     },
     "01-23": {
@@ -3347,7 +3359,7 @@
             "name": {
                 "de": "Otto von Bamberg",
                 "en": "Otto of Bamberg",
-                "la": "Otto Bambergensis",
+                "la": "Otho Bambergensis",
                 "pl": "Otton z Bambergu"
             },
             "sources": {
@@ -3398,7 +3410,7 @@
             "name": {
                 "de": "Otto von Bamberg",
                 "en": "Otto of Bamberg",
-                "la": "Otto Bambergensis",
+                "la": "Otho Bambergensis",
                 "pl": "Otton z Bambergu"
             },
             "sources": {

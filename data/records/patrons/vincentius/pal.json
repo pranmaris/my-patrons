@@ -1,0 +1,42 @@
+{
+  "names": {
+    "it": [
+      "Vincenzo Pallotti"
+    ],
+    "en": [
+      "Vincent Pallotti"
+    ],
+    "la": [
+      "Vincentius Pallotti"
+    ],
+    "pl": [
+      "Wincenty Pallotti"
+    ]
+  },
+
+  "surnames": [
+    {
+      "it": "Pallotti"
+    }
+  ],
+
+  "born": ["1795-04-21"],
+  "died": ["1850-01-22"],
+
+  "beatified": {
+    "type": "ceremonially",
+    "date": "1950-01-22"
+  },
+  "canonized": {
+    "type": "ceremonially",
+    "date": "1963-01-20"
+  },
+
+  "also-in-martyrology": ["01-22"],
+
+  "forenames": ["vincentius"],
+  "categories": ["vir", "presbyter", "fundator"],
+
+  "order": ["sac"],
+  "order-founder": ["sac"]
+}

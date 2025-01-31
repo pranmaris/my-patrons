@@ -6212,7 +6212,7 @@
         "names": {
             "de": "Otto von Bamberg",
             "en": "Otto of Bamberg",
-            "la": "Otto Bambergensis",
+            "la": "Otho Bambergensis",
             "pl": "Otton z Bambergu"
         },
         "died": [
@@ -8010,6 +8010,18 @@
         },
         "died": [
             "1917-11-07"
+        ],
+        "feasts": []
+    },
+    "patrons/vincentius/pal": {
+        "names": {
+            "it": "Vincenzo Pallotti",
+            "en": "Vincent Pallotti",
+            "la": "Vincentius Pallotti",
+            "pl": "Wincenty Pallotti"
+        },
+        "died": [
+            "1850-01-22"
         ],
         "feasts": []
     },

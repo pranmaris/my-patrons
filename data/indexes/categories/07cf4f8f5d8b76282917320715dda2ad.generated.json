@@ -1487,7 +1487,7 @@
         "records/patrons/otho/bam": {
             "de": "Otto von Bamberg",
             "en": "Otto of Bamberg",
-            "la": "Otto Bambergensis",
+            "la": "Otho Bambergensis",
             "pl": "Otton z Bambergu"
         },
         "records/patrons/pancratius/rom": {
@@ -1902,6 +1902,12 @@
             "en": "Vincent Grossi",
             "la": "Vincentius Grossi",
             "pl": "Wincenty Grossi"
+        },
+        "records/patrons/vincentius/pal": {
+            "it": "Vincenzo Pallotti",
+            "en": "Vincent Pallotti",
+            "la": "Vincentius Pallotti",
+            "pl": "Wincenty Pallotti"
         },
         "records/patrons/vincentius/pau": {
             "fr": "Vincent de Paul",

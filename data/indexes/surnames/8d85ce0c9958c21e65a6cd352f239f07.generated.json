@@ -1,0 +1,18 @@
+{
+    "names": {
+        "it": "Pallotti"
+    },
+    "translations": {
+        "it": [
+            "Pallotti"
+        ]
+    },
+    "links": {
+        "records/patrons/vincentius/pal": {
+            "it": "Vincenzo Pallotti",
+            "en": "Vincent Pallotti",
+            "la": "Vincentius Pallotti",
+            "pl": "Wincenty Pallotti"
+        }
+    }
+}
