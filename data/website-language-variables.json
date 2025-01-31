@@ -2106,6 +2106,16 @@
         "pl": "typ i numer"
     },
 
+    "lang-type-of-place-aeroplane": {
+        "en": "aeroplane",
+        "pl": "samolot"
+    },
+
+    "lang-type-of-place-airport": {
+        "en": "airport",
+        "pl": "lotnisko"
+    },
+
     "lang-type-of-place-building": {
         "en": "building",
         "pl": "budynek"
@@ -2118,7 +2128,7 @@
 
     "lang-type-of-place-country": {
         "en": "country",
-        "pl": "kraj"
+        "pl": "państwo"
     },
 
     "lang-type-of-place-department": {
@@ -2166,6 +2176,11 @@
         "pl": "inne miejsce"
     },
 
+    "lang-type-of-place-port": {
+        "en": "port",
+        "pl": "port"
+    },
+
     "lang-type-of-place-region": {
         "en": "region",
         "pl": "region"
@@ -2174,6 +2189,11 @@
     "lang-type-of-place-roundabout": {
         "en": "roundabout",
         "pl": "rondo"
+    },
+
+    "lang-type-of-place-ship": {
+        "en": "ship",
+        "pl": "statek"
     },
 
     "lang-type-of-place-shop": {
@@ -2186,6 +2206,16 @@
         "pl": "plac"
     },
 
+    "lang-type-of-place-station": {
+        "en": "station",
+        "pl": "stacja"
+    },
+
+    "lang-type-of-place-stop": {
+        "en": "stop",
+        "pl": "przystanek"
+    },
+
     "lang-type-of-place-street": {
         "en": "street",
         "pl": "ulica"
@@ -2194,6 +2224,11 @@
     "lang-type-of-place-trail": {
         "en": "trail",
         "pl": "szlak"
+    },
+
+    "lang-type-of-place-train": {
+        "en": "train",
+        "pl": "pociąg"
     },
 
     "lang-vertical": {
