@@ -415,6 +415,12 @@
             "la": "Norbertus Magdeburgensis",
             "pl": "Norbert z Xanten"
         },
+        "records/patrons/otho/bam": {
+            "de": "Otto von Bamberg",
+            "en": "Otto of Bamberg",
+            "la": "Otto Bambergensis",
+            "pl": "Otton z Bambergu"
+        },
         "records/patrons/paphnutius/epi": {
             "la": "Paphnutius Thebanus",
             "en": "Paphnutius of Thebes",

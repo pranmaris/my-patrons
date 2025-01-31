@@ -1,0 +1,24 @@
+{
+  "names": {
+    "de": [
+      "Otto von Bamberg"
+    ],
+    "en": [
+      "Otto of Bamberg"
+    ],
+    "la": [
+      "Otto Bambergensis"
+    ],
+    "pl": [
+      "Otton z Bambergu"
+    ]
+  },
+
+  "born": ["~1060"],
+  "died": ["1139-06-30"],
+
+  "also-in-martyrology": ["06-30", "07-02"],
+
+  "forenames": ["otho"],
+  "categories": ["vir", "episcopus"]
+}

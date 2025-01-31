@@ -6200,6 +6200,26 @@
         ],
         "feasts": []
     },
+    "patrons/otho": {
+        "names": {
+            "la": "Otho",
+            "en": "Otto",
+            "pl": "Otton",
+            "de": "Otto"
+        }
+    },
+    "patrons/otho/bam": {
+        "names": {
+            "de": "Otto von Bamberg",
+            "en": "Otto of Bamberg",
+            "la": "Otto Bambergensis",
+            "pl": "Otton z Bambergu"
+        },
+        "died": [
+            "1139-06-30"
+        ],
+        "feasts": []
+    },
     "patrons/pancratius": {
         "names": {
             "la": "Pancratius",

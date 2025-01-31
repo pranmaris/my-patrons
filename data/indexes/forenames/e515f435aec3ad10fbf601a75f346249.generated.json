@@ -1,0 +1,27 @@
+{
+    "names": {
+        "la": "Otho"
+    },
+    "translations": {
+        "la": [
+            "Otho"
+        ],
+        "en": [
+            "Otto"
+        ],
+        "pl": [
+            "Otton"
+        ],
+        "de": [
+            "Otto"
+        ]
+    },
+    "links": {
+        "records/patrons/otho/bam": {
+            "de": "Otto von Bamberg",
+            "en": "Otto of Bamberg",
+            "la": "Otto Bambergensis",
+            "pl": "Otton z Bambergu"
+        }
+    }
+}

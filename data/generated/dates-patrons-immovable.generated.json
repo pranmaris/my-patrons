@@ -3342,6 +3342,20 @@
             }
         }
     },
+    "06-30": {
+        "records/patrons/otho/bam": {
+            "name": {
+                "de": "Otto von Bamberg",
+                "en": "Otto of Bamberg",
+                "la": "Otto Bambergensis",
+                "pl": "Otton z Bambergu"
+            },
+            "sources": {
+                "reliable-death-anniversary": "30 VI",
+                "other-martyrology-days": "30 VI"
+            }
+        }
+    },
     "07-01": {
         "records/patrons/aaron/lev": {
             "name": {
@@ -3377,6 +3391,17 @@
             },
             "sources": {
                 "reliable-death-anniversary": "2 VII",
+                "other-martyrology-days": "2 VII"
+            }
+        },
+        "records/patrons/otho/bam": {
+            "name": {
+                "de": "Otto von Bamberg",
+                "en": "Otto of Bamberg",
+                "la": "Otto Bambergensis",
+                "pl": "Otton z Bambergu"
+            },
+            "sources": {
                 "other-martyrology-days": "2 VII"
             }
         }
