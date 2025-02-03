@@ -105,6 +105,16 @@
       ]
     }
   },
+  "denomination-or-religion": {
+    "index": "denominations-or-religions",
+    "name": {
+      "en": "denominations or religions",
+      "pl": "wyznania lub religie"
+    },
+    "source": {
+      "values": "sorted"
+    }
+  },
   "description": {
     "index": "descriptions",
     "name": {

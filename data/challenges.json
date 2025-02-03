@@ -2967,6 +2967,14 @@
       }
     },
     "notes": {
+      "denomination-or-religion": {
+        "type": {
+          "denomination-or-religion": [1, 1]
+        },
+        "name": {
+          "pl": "wyznanie lub religia"
+        }
+      },
       "place": {
         "type": {
           "place": [1, 1]
