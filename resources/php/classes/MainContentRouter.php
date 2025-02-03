@@ -33,6 +33,7 @@ class MainContentRouter extends Content
             'AboutMyPatronsMainContent' => $path,
             'ContactMainContent' => $path,
             'SupportUsMainContent' => $path,
+            'MeMainContent' => $path,
             'PathAliasRedirectionMainContent' => $originalPath,
             'InvalidPathMainContent' => $path,
         ];
