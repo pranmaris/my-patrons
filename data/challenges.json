@@ -2877,7 +2877,7 @@
       "type": {
         "type": {
           "type-of-relic-or-grave": [0, 0],
-          "relic-or-grave-description": [0, 1]
+          "relic-or-grave-description": [0, 0]
         },
         "name": {
           "pl": "typ relikwii lub grobu"
