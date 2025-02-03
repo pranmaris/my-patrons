@@ -98,6 +98,14 @@
         "pl": "dodaj nowe wyzwanie"
     },
 
+    "lang-add-new-challenge-missing-person-or-addition-info": {
+        "pl": "<strong>Nie możesz odnaleźć na powyższej liście wyboru szukanego Patrona lub dodatku</strong> (np. święta)? <a target=\"_blank\" href=\"/contact\">Napisz do nas</a>, a postaramy się dodać go do bazy <strong>priorytetowo</strong>!"
+    },
+
+    "lang-add-new-challenge-missing-person-or-addition-info-tip": {
+        "pl": "Tymczasem (do naszej odpowiedzi) <strong>warto zapisać to wyzwanie</strong> na kartce, w notatniku lub za pomocą wyzwania <strong>[X] Własna Notatka</strong>, by o nim nie zapomnieć."
+    },
+
     "lang-add-new-challenge-person-or-addition-info": {
         "pl": "Wyboru osoby (także z ewentualnym dodatkiem) powinieneś dokonać <strong>nie później niż w wybranym dniu wyzwania</strong> - choćby w myślach! Nie dotyczy to wyzwań przeznaczonych do wpisania w określonym dniu w przeszłości."
     },

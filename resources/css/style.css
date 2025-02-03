@@ -628,6 +628,7 @@ img.home {
     margin-top: 35px;
 }
 
+.hint-content a,
 .challenges-description a,
 .page-content a {
     color: var(--color3);
