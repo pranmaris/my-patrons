@@ -445,7 +445,7 @@
     "name": {
       "pl": "Odpust Parafialny"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -479,7 +479,7 @@
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
-          "pl": "weź udział w sumie odpustowej"
+          "pl": "weź udział w Sumie Odpustowej"
         },
         "description": {
           "params": [],

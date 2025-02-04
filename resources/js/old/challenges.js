@@ -23,6 +23,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     .set("REMOVE_NOTE", removeNote)
     .set("REMOVE_NOTE_MODAL_RESET", removeNoteModalReset)
     .set("RESET_ADDITION_SELECT", resetAdditionSelect)
+    .set("RESET_CHALLENGE_TYPE_SELECT", resetChallengeTypeSelect)
     .set("RESET_PERSON_NAME_SELECT", resetPersonNameSelect)
     .set("RESET_PERSON_SELECT", resetPersonSelect)
     .set("RESET_PERSON_TYPE_SELECT", resetPersonTypeSelect)
@@ -4378,6 +4379,12 @@ function removeNoteModalReset(rowId, challengeType, itemType, itemPath) {
 function resetAdditionSelect() {
   requirejs(["const"], function(uConst) {
     uConst.get("RESET_ADDITION_SELECT")();
+  });
+}
+
+function resetChallengeTypeSelect() {
+  requirejs(["const"], function(uConst) {
+    uConst.get("RESET_CHALLENGE_TYPE_SELECT")();
   });
 }
 
