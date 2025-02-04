@@ -355,7 +355,7 @@
     "name": {
       "pl": "Rocznica Poświęcenia Kościoła"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
@@ -389,12 +389,12 @@
         "to-complete-on-selected-date": true,
         "required": true,
         "name": {
-          "pl": "weź udział w głównej Mszy św. celebrującej rocznicę poświęcenia kościoła"
+          "pl": "weź udział we Mszy Świętej celebrującej rocznicę poświęcenia kościoła"
         },
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/kroki/wez-udzial-w-mszy-rocznicowej-poswiecenia-kosciola"
+            "pl": "pl/kroki/wez-udzial-we-mszy-swietej-celebrujacej-rocznice-poswiecenia-kosciola"
           }
         }
       },
@@ -413,12 +413,20 @@
       }
     },
     "notes": {
+      "anniversary": {
+        "type": {
+          "anniversary": [0, 1]
+        },
+        "name": {
+          "pl": "która rocznica poświęcenia kościoła (dla dnia konsekracji, wpisz: 0)"
+        }
+      },
       "time": {
         "type": {
           "time": [0, 1]
         },
         "name": {
-          "pl": "godzina rozpoczęcia mszy rocznicowej"
+          "pl": "godzina rozpoczęcia Mszy rocznicowej"
         }
       },
       "place": {
@@ -426,7 +434,7 @@
           "place": [1, 1]
         },
         "name": {
-          "pl": "miejsce mszy rocznicowej"
+          "pl": "miejsce Mszy rocznicowej"
         }
       },
       "other": {

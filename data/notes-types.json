@@ -9,6 +9,16 @@
       "values": "sorted"
     }
   },
+  "anniversary": {
+    "index": "anniversaries",
+    "name": {
+      "en": "anniversary",
+      "pl": "rocznica"
+    },
+    "source": {
+      "values": "sorted"
+    }
+  },
   "bible-lection": {
     "index": "bible-lections",
     "name": {
