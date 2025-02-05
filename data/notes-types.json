@@ -157,6 +157,18 @@
       }
     }
   },
+  "god-or-patron-mentioned-in-quotes": {
+    "index": "god-or-patrons-mentioned-in-quotes",
+    "name": {
+      "en": "God or Patron mentioned in quotes",
+      "pl": "Bóg lub Patron wspomniany w cytatach"
+    },
+    "source": {
+      "patrons": {
+        "god-or-any-patron": true
+      }
+    }
+  },
   "mysteries-of-the-rosary": {
     "index": "mysteries-of-the-rosary",
     "name": {
@@ -200,6 +212,14 @@
     "source": {
       "values": "last-year-or-10-challenges-sorted"
     }
+  },
+  "quote": {
+    "index": "quotes",
+    "name": {
+      "en": "quote",
+      "pl": "cytat"
+    },
+    "source": {}
   },
   "relic-or-grave-description": {
     "index": "relic-or-grave-descriptions",

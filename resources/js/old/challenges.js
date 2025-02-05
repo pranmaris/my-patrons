@@ -217,6 +217,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES = 'everybody-not-having-challenges';
   const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY = 'everybody-not-having-challenges-on-the-same-day';
   const REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES = 'god-having-needed-challenges';
+  const REQUIREMENT_GOD_OR_ANY_PATRON = 'god-or-any-patron';
   const REQUIREMENT_PERSON_HAVING_ANY_CHALLENGE = 'person-having-any-challenge';
   const REQUIREMENT_PERSON_HAVING_CHALLENGES = 'person-having-challenges';
   const REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES = 'person-not-having-challenges';
@@ -1088,6 +1089,9 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
             const noteSpecifiedPersonCountsContext = contextData.persons.counts[notePerson] ?? {};
 
             switch (reqName) {
+              case REQUIREMENT_GOD_OR_ANY_PATRON:
+                break;
+
               case REQUIREMENT_PERSON_HAVING_CHALLENGES:
                 for (const type of reqTypes) {
 
@@ -1683,6 +1687,10 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     const data = ((personsData[personId] ?? {})[additionType] ?? {})[additionId] ?? {};
 
     return getLanguageVariable(PERSONS_DATA_FIELD_NAMES, true, data[PERSONS_DATA_FIELD_NAMES] ?? []);
+  }
+
+  function getAllPersonsDataSubelements() {
+    return Object.keys(personsData).filter(v => personsData[v].died != undefined);
   }
 
   function getPersonsDataSubelements(personIdPrefix) {
@@ -3558,20 +3566,31 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   function getNotesPatronsValues(config, fileDataValues, rowId, currentValue) {
     result = [];
 
+    let persons = {};
+
+    const isGodAndAllPatrons = config[REQUIREMENT_GOD_OR_ANY_PATRON] ?? null;
     const typesNeeded = config[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
-    if (typesNeeded != null) {
+
+    if (isGodAndAllPatrons) {
+      for (let personId of getAllPersonsDataSubelements()) {
+        persons[personId] = personId;
+      }
+    } else if (typesNeeded != null) {
       const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
       let challengeDate = (challenges[rowId - 1] ?? {}).date ?? null;
       if (challengeDate == null) {
         challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value ?? getToday();
       }
 
+      persons = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
+    }
+
+    if (Object.keys(persons).length > 0) {
       let personIdKeys = {};
       for (const noteId in fileDataValues) {
         personIdKeys[fileDataValues[noteId]] = noteId;
       }
 
-      persons = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
       if (currentValue.length > 0) {
         persons[currentValue] = currentValue;
       }

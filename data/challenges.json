@@ -1574,6 +1574,136 @@
     }
   },
 
+  "NC": {
+    "name": {
+      "pl": "Cytat Patrona"
+    },
+    "selectable": true,
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/cytat-patrona"
+      }
+    },
+    "numbers": true,
+    "uniqueness": [
+      ["person", "notes/quote"]
+    ],
+    "addition-type": "",
+    "person": {
+      "types": ["God", "Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/wyzwania-patronow-mentorow"
+        }
+      },
+      "requirements": {
+        "god-having-needed-challenges": true,
+        "anybody-having-challenges": ["N"],
+        "person-having-challenges": ["N"],
+        "everybody-not-having-challenges-on-the-same-day": ["NC"]
+      }
+    },
+    "checklist": {
+      "selection": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "wybierz cytat Patrona"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wybierz-cytat-patrona"
+          }
+        }
+      },
+      "meditation": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "rozważaj cytat Patrona"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/rozwazaj-cytat-patrona"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "pomódl się do Patrona będącego autorem cytatu"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-do-patrona"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": ["row-id"],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "quote": {
+        "type": {
+          "quote": [1, 1]
+        },
+        "name": {
+          "pl": "cytat"
+        }
+      },
+      "source": {
+        "type": {
+          "source-of-knowledge": [0, 0]
+        },
+        "name": {
+          "pl": "źródło cytatu"
+        }
+      },
+      "source-author": {
+        "type": {
+          "person": [0, 0]
+        },
+        "name": {
+          "pl": "autor źródła przekazujący cytat (jeśli inny niż Patron Mentor, którego dotyczy wyzwanie)"
+        }
+      },
+      "god-or-patron-mentioned-in-quote": {
+        "type": {
+          "god-or-patron-mentioned-in-quotes": [0, 0]
+        },
+        "name": {
+          "pl": "Bóg lub Patron wspomniany w cytacie"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "R": {
     "name": {
       "pl": "Patron Orędownik"
