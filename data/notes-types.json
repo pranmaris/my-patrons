@@ -7,7 +7,8 @@
     },
     "source": {
       "values": "sorted"
-    }
+    },
+    "hint": {}
   },
   "anniversary": {
     "index": "anniversaries",
@@ -17,6 +18,9 @@
     },
     "source": {
       "values": "sorted"
+    },
+    "hint": {
+      "pl": "Wpisz liczbę lat od wydarzenia"
     }
   },
   "bible-lection": {
@@ -27,7 +31,8 @@
     },
     "source": {
       "values": "sorted"
-    }
+    },
+    "hint": {}
   },
   "criterion-of-selecting-a-feast": {
     "index": "criteria-of-selecting-feasts",
@@ -45,7 +50,8 @@
         {"1956": ["lang-roman-martyrology", ": 1956"]},
         {"19560": ["lang-roman-martyrology", ": 1956 (", "lang-movable-feasts", ")"]}
       ]
-    }
+    },
+    "hint": {}
   },
   "criterion-of-selecting-a-feast-description": {
     "index": "criterion-of-selecting-a-feast-descriptions",
@@ -53,7 +59,8 @@
       "en": "criterion of selecting feast description",
       "pl": "opis kryterium wyboru święta"
     },
-    "source": {}
+    "source": {},
+    "hint": {}
   },
   "criterion-of-selecting-a-defender-patron": {
     "index": "criteria-of-selecting-defender-patrons",
@@ -74,7 +81,8 @@
         {"1956": ["lang-roman-martyrology", ": 1956"]},
         {"19560": ["lang-roman-martyrology", ": 1956 (", "lang-movable-feasts", ")"]}
       ]
-    }
+    },
+    "hint": {}
   },
   "criterion-of-selecting-a-defender-patron-description": {
     "index": "criterion-of-selecting-a-defender-patron-descriptions",
@@ -82,7 +90,8 @@
       "en": "criterion of selecting Defender Patron description",
       "pl": "opis kryterium wyboru Patrona Obrońcy"
     },
-    "source": {}
+    "source": {},
+    "hint": {}
   },
   "criterion-of-selecting-a-guardian-patron": {
     "index": "criteria-of-selecting-guardian-patrons",
@@ -97,7 +106,8 @@
         {"3": ["lang-representation", " + ", "lang-mass"]},
         {"4": ["lang-relics"]}
       ]
-    }
+    },
+    "hint": {}
   },
   "criterion-of-selecting-a-name-patron": {
     "index": "criteria-of-selecting-name-patrons",
@@ -113,7 +123,8 @@
         {"4": ["lang-religious-name"]},
         {"5": ["lang-other-name"]}
       ]
-    }
+    },
+    "hint": {}
   },
   "denomination-or-religion": {
     "index": "denominations-or-religions",
@@ -123,7 +134,8 @@
     },
     "source": {
       "values": "sorted"
-    }
+    },
+    "hint": {}
   },
   "description": {
     "index": "descriptions",
@@ -133,7 +145,8 @@
     },
     "source": {
       "values": "last-year-or-10-challenges-sorted"
-    }
+    },
+    "hint": {}
   },
   "forename": {
     "index": "forenames",
@@ -143,7 +156,8 @@
     },
     "source": {
       "values": "sorted"
-    }
+    },
+    "hint": {}
   },
   "given-advocate-patron": {
     "index": "given-advocate-patrons",
@@ -155,7 +169,8 @@
       "patrons": {
         "person-having-challenges": ["MM"]
       }
-    }
+    },
+    "hint": {}
   },
   "god-or-patron-mentioned-in-quotes": {
     "index": "god-or-patrons-mentioned-in-quotes",
@@ -167,7 +182,8 @@
       "patrons": {
         "god-or-any-patron": true
       }
-    }
+    },
+    "hint": {}
   },
   "mysteries-of-the-rosary": {
     "index": "mysteries-of-the-rosary",
@@ -183,7 +199,8 @@
         {"4": ["lang-rosary-glorious-mysteries"]}
       ],
       "values": "sorted"
-    }
+    },
+    "hint": {}
   },
   "other": {
     "index": "other",
@@ -191,7 +208,8 @@
       "en": "description",
       "pl": "opis"
     },
-    "source": {}
+    "source": {},
+    "hint": {}
   },
   "person": {
     "index": "persons",
@@ -201,7 +219,8 @@
     },
     "source": {
       "values": "last-year-or-10-challenges-sorted"
-    }
+    },
+    "hint": {}
   },
   "place": {
     "index": "places",
@@ -211,7 +230,8 @@
     },
     "source": {
       "values": "last-year-or-10-challenges-sorted"
-    }
+    },
+    "hint": {}
   },
   "quote": {
     "index": "quotes",
@@ -219,7 +239,8 @@
       "en": "quote",
       "pl": "cytat"
     },
-    "source": {}
+    "source": {},
+    "hint": {}
   },
   "relic-or-grave-description": {
     "index": "relic-or-grave-descriptions",
@@ -227,7 +248,8 @@
       "en": "relic of grave description",
       "pl": "opis relikwii lub grobu"
     },
-    "source": {}
+    "source": {},
+    "hint": {}
   },
   "role-at-mass": {
     "index": "roles-at-mass",
@@ -258,7 +280,8 @@
         {"100": ["lang-person-mentioned-in-mass-intentions"]}
       ],
       "values": "last-year-or-10-challenges-sorted"
-    }
+    },
+    "hint": {}
   },
   "sacrament": {
     "index": "sacraments",
@@ -276,7 +299,8 @@
         {"6": ["lang-sacrament-holy-orders"]},
         {"7": ["lang-sacrament-marriage"]}
       ]
-    }
+    },
+    "hint": {}
   },
   "source-of-knowledge": {
     "index": "sources-of-knowledge",
@@ -286,7 +310,8 @@
     },
     "source": {
       "values": "sorted"
-    }
+    },
+    "hint": {}
   },
   "time": {
     "index": "times",
@@ -296,7 +321,8 @@
     },
     "source": {
       "values": "last-year-or-10-challenges-sorted"
-    }
+    },
+    "hint": {}
   },
   "type-of-secular-place": {
     "index": "types-of-secular-places",
@@ -333,7 +359,8 @@
         {"100": ["lang-type-of-place-other-place"]}
       ],
       "values": "sorted"
-    }
+    },
+    "hint": {}
   },
   "type-of-relic-or-grave": {
     "index": "types-of-relics-and-graves",
@@ -363,6 +390,7 @@
         {"100": ["lang-second-class-relics"]}
       ],
       "values": "sorted"
-    }
+    },
+    "hint": {}
   }
 }

@@ -3337,6 +3337,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     const noteNo = Number(itemPath.at(-2) ?? '0') + 1;
     const noteIndex = noteTypeConfig.index ?? '';
     const content = getNoteFromFileData(noteIndex, noteId);
+    const hint = Object.keys(noteTypeConfig.hint ?? {}).length === 0 ? '' : getLanguageVariable('name', false, noteTypeConfig.hint);
     let escapedContent = getHtmlTagsEscapedString(content);
     if ((noteTypeConfig.source ?? {})[NOTE_CONFIG_SOURCE_TYPE_PATRONS] != undefined) {
       escapedContent = getPersonDataName(escapedContent);
@@ -3357,6 +3358,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     let moveUpButtonVisible = INVISIBLE_STYLE;
     let moveDownButtonVisible = INVISIBLE_STYLE;
     let removeButtonVisible = INVISIBLE_STYLE;
+    let hintVisible = INVISIBLE_STYLE;
     if (isEditMode) {
       if (Object.keys(noteTypeConfig).length > 0) {
         editButtonVisible = VISIBLE_STYLE;
@@ -3369,6 +3371,11 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       }
       if (noteNo > noteQuantityMin) {
         removeButtonVisible = VISIBLE_STYLE;
+      }
+    }
+    if (isEditFormMode) {
+      if (hint !== '') {
+        hintVisible = VISIBLE_STYLE;
       }
     }
 
@@ -3384,6 +3391,8 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       .replace(/#move-up-button-visible#/g, moveUpButtonVisible)
       .replace(/#move-down-button-visible#/g, moveDownButtonVisible)
       .replace(/#remove-button-visible#/g, removeButtonVisible)
+      .replace(/#hint-visible#/g, hintVisible)
+      .replace(/#hint#/g, hint)
     ;
 
     if (isEditFormMode) {
