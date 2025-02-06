@@ -628,6 +628,19 @@ img.home {
     margin-top: 35px;
 }
 
+.hint-content {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: var(--color3) 1px solid;
+    background-color: var(--color3-light);
+    border-radius: 25px;
+}
+
+.hint-content img {
+    vertical-align: bottom;
+}
+
 .hint-content a,
 .challenges-description a,
 .page-content a {
@@ -1561,6 +1574,10 @@ iframe {
   border: var(--color1) solid 4px;
   border-radius: 25px;
   padding: 20px;
+}
+
+.challenges-description p:last-of-type {
+  margin-bottom: 0px;
 }
 
 .challenges-description p,

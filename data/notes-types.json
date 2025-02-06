@@ -20,7 +20,7 @@
       "values": "sorted"
     },
     "hint": {
-      "pl": "Wpisz liczbę lat od wydarzenia"
+      "pl": "Wpisz liczbę lat od wydarzenia."
     }
   },
   "bible-lection": {
@@ -32,7 +32,9 @@
     "source": {
       "values": "sorted"
     },
-    "hint": {}
+    "hint": {
+      "pl": "np. „<strong>Rdz 30</strong>”."
+    }
   },
   "criterion-of-selecting-a-feast": {
     "index": "criteria-of-selecting-feasts",
@@ -231,7 +233,9 @@
     "source": {
       "values": "last-year-or-10-challenges-sorted"
     },
-    "hint": {}
+    "hint": {
+      "pl": "Warto rozważyć stosowanie następującego formatu:<br />„<strong>Nazwa Miejscowości, unikalna <em>(w ramach miejscowości)</em> nazwa miejsca //nazwa gminy <em>(jeśli inna od nazwy miejscowości)</em>, nazwa powiatu <em>(jeśli inna od nazwy miejscowości)</em>, nazwa województwa, nazwa państwa</strong>”,<br />np. „<strong>Licheń Stary, Bazylika Najświętszej Maryi Panny Licheńskiej //Ślesin, Koniński, Wielkopolskie, Polska</strong>”."
+    }
   },
   "quote": {
     "index": "quotes",
@@ -322,7 +326,9 @@
     "source": {
       "values": "last-year-or-10-challenges-sorted"
     },
-    "hint": {}
+    "hint": {
+      "pl": "np. w formacie „<strong>HH:MM</strong>” (HH - godzina, MM - minuta), ale można stosować też określenia np.: „około”, „przed”, „po”, „podczas Mszy”, itp. "
+    }
   },
   "type-of-secular-place": {
     "index": "types-of-secular-places",
@@ -357,10 +363,11 @@
         {"83": ["lang-type-of-place-trail"]},
         {"99": ["lang-type-of-place-other-natural-place"]},
         {"100": ["lang-type-of-place-other-place"]}
-      ],
-      "values": "sorted"
+      ]
     },
-    "hint": {}
+    "hint": {
+      "pl": "Jeżeli Twoim zdaniem warto dopisać coś do tej listy, <a target=\"_blank\" href=\"/contact\">napisz do nas</a>."
+    }
   },
   "type-of-relic-or-grave": {
     "index": "types-of-relics-and-graves",
@@ -388,9 +395,10 @@
         {"66": ["lang-skull-relics"]},
         {"67": ["lang-relics-of-the-ashes"]},
         {"100": ["lang-second-class-relics"]}
-      ],
-      "values": "sorted"
+      ]
     },
-    "hint": {}
+    "hint": {
+      "pl": "Jeżeli Twoim zdaniem warto dopisać coś do tej listy, <a target=\"_blank\" href=\"/contact\">napisz do nas</a>."
+    }
   }
 }
