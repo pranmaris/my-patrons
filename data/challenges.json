@@ -3033,6 +3033,99 @@
     }
   },
 
+  "TS": {
+    "name": {
+      "pl": "Selfie z Patronem"
+    },
+    "selectable": true,
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/selfie-z-patronem"
+      }
+    },
+    "numbers": false,
+    "uniqueness": [
+      ["person"]
+    ],
+    "addition-type": "",
+    "person": {
+      "types": ["God", "Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/wyzwania-patronow-opiekunow"
+        }
+      },
+      "requirements": {
+        "god-having-needed-challenges": true,
+        "anybody-having-challenges": ["T"],
+        "person-having-challenges": ["T"],
+        "person-not-having-challenges": ["TS"]
+      }
+    },
+    "checklist": {
+      "place": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "wykonaj selfie z Patronem"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wykonaj-selfie-z-patronem"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "pomódl się do Patrona z selfie"
+        },
+        "description": {
+          "params": ["person-name"],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-do-patrona"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": ["row-id"],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce wykonania selfie"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "TT": {
     "name": {
       "pl": "Miejsce Sakralne Innego Wyznania lub Religii"
