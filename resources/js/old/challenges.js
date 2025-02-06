@@ -24,7 +24,6 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     .set("REMOVE_NOTE_MODAL_RESET", removeNoteModalReset)
     .set("RESET_ADDITION_SELECT", resetAdditionSelect)
     .set("RESET_CHALLENGE_TYPE_SELECT", resetChallengeTypeSelect)
-    .set("RESET_PERSON_NAME_SELECT", resetPersonNameSelect)
     .set("RESET_PERSON_SELECT", resetPersonSelect)
     .set("RESET_PERSON_TYPE_SELECT", resetPersonTypeSelect)
     .set("RESET_REQUIRED_NOTES", resetRequiredNotes)
@@ -121,7 +120,6 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   const PERSON_DESCRIPTION_INFO_VALUE_ELEMENT_ID = 'person-description-info-value';
   const ADD_NEW_CHALLENGE_BUTTON_ELEMENT_ID = 'add-new-challenge-button';
   const PERSON_DIV_ELEMENT_ID = 'person-div';
-  const PERSON_NAME_SELECT_ELEMENT_ID = 'person-name-select';
   const PERSON_TYPE_SELECT_ELEMENT_ID = 'person-type-select';
   const PERSON_SELECT_ELEMENT_ID = 'person-select';
   const ADDITION_SELECT_ELEMENT_ID = 'addition-select';
@@ -206,8 +204,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   const PERSON_TYPE_GOD = 'God';
   const PERSON_TYPE_ME = 'Me';
   const PERSON_TYPE_PATRONS = 'Patrons';
-  const COPY_PERSON_TYPE_TO_NAME_IDS = ['me', 'god'];
-  const COPY_PERSON_NAME_TO_ID_IDS = ['me'];
+  const COPY_PERSON_TYPE_TO_NAME_IDS = ['me'];
   const GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL = 'god';
 
   const REQUIREMENT_ANYBODY_HAVING_CHALLENGES = 'anybody-having-challenges';
@@ -1689,8 +1686,11 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     return getLanguageVariable(PERSONS_DATA_FIELD_NAMES, true, data[PERSONS_DATA_FIELD_NAMES] ?? []);
   }
 
-  function getAllPersonsDataSubelements() {
-    return Object.keys(personsData).filter(v => personsData[v].died != undefined);
+  function getAllPersonsDataSubelements(personIdPrefix = '') {
+    return Object.keys(personsData).filter(v =>
+      (personIdPrefix === '' || v.substring(0, personIdPrefix.length + 1) == personIdPrefix + '/')
+      && personsData[v].died != undefined
+    );
   }
 
   function getPersonsDataSubelements(personIdPrefix) {
@@ -2146,145 +2146,6 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       }
     }
 
-    resetPersonNameSelect();
-  }
-
-  function resetPersonNameSelect() {
-    let challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
-    let challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
-    let personTypeValue = document.getElementById(PERSON_TYPE_SELECT_ELEMENT_ID).value;
-
-    let personNameSelect = document.getElementById(PERSON_NAME_SELECT_ELEMENT_ID);
-    personNameSelect.innerHTML = '';
-    personNameSelect.style = INVISIBLE_STYLE;
-    personNameSelect.value = '';
-
-    if (personTypeValue.length > 0) {
-      let namesToSort = {};
-      if (inArray(personTypeValue, COPY_PERSON_TYPE_TO_NAME_IDS)) {
-        namesToSort[personTypeValue] = personTypeValue;
-      } else {
-        personNameSelect.style = VISIBLE_STYLE;
-
-        const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
-        let personsNamesToList = {};
-        let personsToList = {};
-        if (typesNeeded != null) {
-          personsToList = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
-
-          for (let personId of Object.keys(personsToList)) {
-            const personNameId = getPersonsDataDirName(personId);
-            personsNamesToList[personNameId] = personNameId;
-          }
-        }
-
-        const typesNeededForAny = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_ANY_CHALLENGE] ?? null;
-        let personsNamesToListForAny = {};
-        let personsToListForAny = {};
-        if (typesNeededForAny != null) {
-          personsToListForAny = getPersonsHavingAnyChallenge(typesNeededForAny, challengeDate);
-          for (let personId of Object.keys(personsToListForAny)) {
-            const personNameId = getPersonsDataDirName(personId);
-            personsNamesToListForAny[personNameId] = personNameId;
-          }
-        }
-
-        const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
-        let personsNamesToSkipCounts = {};
-        if (typesNotAllowed.length > 0) {
-          const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
-          for (let personId of Object.keys(personsToSkip)) {
-            const personNameId = getPersonsDataDirName(personId);
-            personsNamesToSkipCounts[personNameId] = (personsNamesToSkipCounts[personNameId] ?? 0) + 1;
-          }
-        }
-
-        const additionType = challengesConfig[challengeType][CONFIG_FIELD_ADDITION_TYPE] ?? '';
-        const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
-        const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
-
-        let personsNamesWithAdditionsToSkipCounts = {};
-        if (additionIsNotEmpty) {
-          let additionsToSkip = getPersonsAdditionsHavingAnyChallenge(additionNotHavingChallenges, challengeDate);
-          for (let additionId of Object.keys(additionsToSkip)) {
-            const personId = getPersonsDataDirName(additionId);
-            const personNameId = getPersonsDataDirName(personId);
-            personsNamesWithAdditionsToSkipCounts[personNameId] = (personsNamesWithAdditionsToSkipCounts[personNameId] ?? 0) + 1;
-          }
-        }
-
-        const subelements = getPersonsDataSubelements(personTypeValue);
-        for (let subelement of subelements) {
-          if (typesNeeded != null && !personsNamesToList[subelement]) {
-            continue;
-          }
-
-          if (typesNeededForAny != null && !personsNamesToListForAny[subelement]) {
-            continue;
-          }
-
-          if (personsNamesToSkipCounts[subelement] != undefined) {
-            const nameSubelements = getPersonsDataSubelements(subelement);
-            let nameSubelementsLength = 0;
-            for (nameSubelement of nameSubelements) {
-              if (typesNeeded != null && !personsNamesToList[subelement]) {
-                continue;
-              }
-              if (typesNeededForAny != null && !personsNamesToListForAny[subelement]) {
-                continue;
-              }
-
-              nameSubelementsLength++;
-            }
-
-            if (nameSubelementsLength <= personsNamesToSkipCounts[subelement]) {
-              continue;
-            }
-          }
-
-          if (additionIsNotEmpty) {
-            let toContinue = false;
-
-            const personSubelements = getPersonsDataSubelements(subelement);
-            let additionsCount = 0;
-            for (let personSubelement of personSubelements) {
-              if (typesNeeded != null && personsToList[personSubelement] == undefined) {
-                continue;
-              }
-
-              if (typesNeededForAny != null && personsToListForAny[personSubelement] == undefined) {
-                continue;
-              }
-
-              const additionsSubelements = getPersonsAdditionDataElements(personSubelement, additionType);
-              additionsCount += additionsSubelements.length;
-            }
-            if (additionsCount <= (personsNamesWithAdditionsToSkipCounts[subelement] ?? 0)) {
-              continue;
-            }
-          }
-
-          namesToSort[subelement] = getPersonDataName(subelement);
-        }
-      }
-
-      const sortedNames = getSortedArray(namesToSort);
-      let names = {};
-      for (let nameData of sortedNames) {
-        const key = nameData[0];
-        const value = nameData[1];
-
-        names[key] = value;
-      }
-
-      if (Object.keys(names).length > 1) {
-        addOptionToSelect(personNameSelect, '', SELECT_NAME);
-      }
-      for (let i in names) {
-        addOptionToSelect(personNameSelect, i, names[i]);
-      }
-    }
-
     resetPersonSelect();
   }
 
@@ -2292,104 +2153,94 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     let challengeDate = document.getElementById(CHALLENGE_DATE_INPUT_ELEMENT_ID).value;
     let challengeType = document.getElementById(CHALLENGE_TYPE_SELECT_ELEMENT_ID).value;
     let personTypeValue = document.getElementById(PERSON_TYPE_SELECT_ELEMENT_ID).value;
-    let personNameValue = document.getElementById(PERSON_NAME_SELECT_ELEMENT_ID).value;
 
     let personSelect = document.getElementById(PERSON_SELECT_ELEMENT_ID);
     personSelect.innerHTML = '';
     personSelect.style = INVISIBLE_STYLE;
     personSelect.value = '';
 
-    if (personNameValue.length > 0) {
-      let namesToSort = {};
-      if (inArray(personTypeValue, COPY_PERSON_NAME_TO_ID_IDS)) {
-        namesToSort[personNameValue] = personNameValue;
-      } else {
-        personSelect.style = VISIBLE_STYLE;
+    let personsToSort = {};
 
-        const addGodToListNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES] ?? false;
+    if (inArray(personTypeValue, COPY_PERSON_TYPE_TO_NAME_IDS)) {
+      personsToSort[personTypeValue] = personTypeValue;
+    } else if (personTypeValue.length > 0) {
+      personSelect.style = VISIBLE_STYLE;
 
-        const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
-        let personsToList = {};
-        if (typesNeeded != null) {
-          personsToList = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
+      const addGodToListNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_GOD_HAVING_NEEDED_CHALLENGES] ?? false;
 
-          if (addGodToListNeeded) {
-            const subelements = getPersonsDataSubelements(GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL);
-            for (let subelement of subelements) {
-              personsToList[subelement] = subelement;
-            }
+      const typesNeeded = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_CHALLENGES] ?? null;
+      let personsToList = {};
+      if (typesNeeded != null) {
+        personsToList = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
+
+        if (addGodToListNeeded) {
+          const subelements = getPersonsDataSubelements(GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL);
+          for (let subelement of subelements) {
+            personsToList[subelement] = subelement;
           }
         }
+      }
 
-        const typesNeededForAny = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_ANY_CHALLENGE] ?? null;
-        let personsToListForAny = {};
-        if (typesNeededForAny != null) {
-          personsToListForAny = getPersonsHavingAnyChallenge(typesNeededForAny, challengeDate);
+      const typesNeededForAny = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_HAVING_ANY_CHALLENGE] ?? null;
+      let personsToListForAny = {};
+      if (typesNeededForAny != null) {
+        personsToListForAny = getPersonsHavingAnyChallenge(typesNeededForAny, challengeDate);
 
-          if (addGodToListNeeded) {
-            const subelements = getPersonsDataSubelements(GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL);
-            for (let subelement of subelements) {
-              personsToListForAny[subelement] = subelement;
-            }
+        if (addGodToListNeeded) {
+          const subelements = getPersonsDataSubelements(GOD_HAVING_NEEDED_CHALLENGES_PERSON_NAME_URL);
+          for (let subelement of subelements) {
+            personsToListForAny[subelement] = subelement;
           }
         }
+      }
 
-        const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
-        const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
+      const typesNotAllowed = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_NOT_HAVING_CHALLENGES] ?? [];
+      const personsToSkip = getPersonsHavingAnyChallenge(typesNotAllowed, challengeDate);
 
-        const additionType = challengesConfig[challengeType][CONFIG_FIELD_ADDITION_TYPE] ?? '';
-        const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
-        const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
+      const additionType = challengesConfig[challengeType][CONFIG_FIELD_ADDITION_TYPE] ?? '';
+      const additionIsNotEmpty = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_IS_NOT_EMPTY] ?? false;
+      const additionNotHavingChallenges = challengesConfig[challengeType].person.requirements[REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES] ?? [];
 
-        let personsWithAdditionsToSkipCounts = {};
+      let personsWithAdditionsToSkipCounts = {};
+      if (additionIsNotEmpty) {
+        let additionsToSkip = getPersonsAdditionsHavingAnyChallenge(additionNotHavingChallenges, challengeDate);
+        for (let additionId of Object.keys(additionsToSkip)) {
+          const personId = getPersonsDataDirName(additionId);
+          personsWithAdditionsToSkipCounts[personId] = (personsWithAdditionsToSkipCounts[personId] ?? 0) + 1;
+        }
+      }
+
+      const subelements = getAllPersonsDataSubelements(personTypeValue);
+      for (let subelement of subelements) {
+        if (typesNeeded != null && !personsToList[subelement]) {
+          continue;
+        }
+
+        if (typesNeededForAny != null && !personsToListForAny[subelement]) {
+          continue;
+        }
+
+        if (personsToSkip[subelement]) {
+          continue;
+        }
+
         if (additionIsNotEmpty) {
-          let additionsToSkip = getPersonsAdditionsHavingAnyChallenge(additionNotHavingChallenges, challengeDate);
-          for (let additionId of Object.keys(additionsToSkip)) {
-            const personId = getPersonsDataDirName(additionId);
-            personsWithAdditionsToSkipCounts[personId] = (personsWithAdditionsToSkipCounts[personId] ?? 0) + 1;
+          const additionsSubelements = getPersonsAdditionDataElements(subelement, additionType);
+          if (additionsSubelements.length <= (personsWithAdditionsToSkipCounts[subelement] ?? 0)) {
+            continue;
           }
         }
 
-        const subelements = getPersonsDataSubelements(personNameValue);
-        for (let subelement of subelements) {
-          if (typesNeeded != null && !personsToList[subelement]) {
-            continue;
-          }
-
-          if (typesNeededForAny != null && !personsToListForAny[subelement]) {
-            continue;
-          }
-
-          if (personsToSkip[subelement]) {
-            continue;
-          }
-
-          if (additionIsNotEmpty) {
-            const additionsSubelements = getPersonsAdditionDataElements(subelement, additionType);
-            if (additionsSubelements.length <= (personsWithAdditionsToSkipCounts[subelement] ?? 0)) {
-              continue;
-            }
-          }
-
-          namesToSort[subelement] = getPersonDataName(subelement);
-        }
+        personsToSort[subelement] = getPersonDataName(subelement);
       }
+    }
 
-      const sortedNames = getSortedArray(namesToSort);
-      let persons = {};
-      for (let personData of sortedNames) {
-        const key = personData[0];
-        const value = personData[1];
-
-        persons[key] = value;
-      }
-
-      if (Object.keys(persons).length > 1) {
-        addOptionToSelect(personSelect, '', SELECT_NAME);
-      }
-      for (let i in persons) {
-        addOptionToSelect(personSelect, i, persons[i]);
-      }
+    let persons = getSortedArray(personsToSort);
+    if (persons.length > 1) {
+      addOptionToSelect(personSelect, '', SELECT_NAME);
+    }
+    for (let [i, personName] of persons) {
+      addOptionToSelect(personSelect, i, personName);
     }
 
     resetAdditionSelect();
@@ -3585,7 +3436,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       persons = getPersonsHavingAllChallenges(typesNeeded, challengeDate);
     }
 
-    if (Object.keys(persons).length > 0) {
+    if (Object.keys(persons).length > 0 || currentValue.length > 0) {
       let personIdKeys = {};
       for (const noteId in fileDataValues) {
         personIdKeys[fileDataValues[noteId]] = noteId;
@@ -4404,12 +4255,6 @@ function resetAdditionSelect() {
 function resetChallengeTypeSelect() {
   requirejs(["const"], function(uConst) {
     uConst.get("RESET_CHALLENGE_TYPE_SELECT")();
-  });
-}
-
-function resetPersonNameSelect() {
-  requirejs(["const"], function(uConst) {
-    uConst.get("RESET_PERSON_NAME_SELECT")();
   });
 }
 
