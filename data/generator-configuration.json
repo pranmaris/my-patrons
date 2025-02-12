@@ -186,6 +186,15 @@
     },
 
     {
+        "class": "GenerateLiturgicalSeasonsDataProcedure",
+        "params": [{
+            "paschal-triduum": ["getResurrectionFeastDateValidToday", -3, "getResurrectionFeastDateValidToday", -1],
+            "lent": ["getResurrectionFeastDateValidToday", -46, "getResurrectionFeastDateValidToday", -1],
+            "advent": ["getFirstSundayOfAdventDateValidToday", 0, "getDayOfDecember", 24]
+        }, 1900, "/generated/liturgical-seasons"]
+    },
+
+    {
         "class": "GenerateLinksFromPersonsDataProcedure",
         "params": [["/records/feasts"], "links"]
     }

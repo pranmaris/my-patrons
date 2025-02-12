@@ -565,6 +565,11 @@
         "pl": "brak typu wyzwania przypisanego do kogokolwiek w tym samym dniu"
     },
 
+    "lang-challenge-parse-error-for-requirement-challenge-date-is-in-liturgical-seasons": {
+        "en": "challenge date is not in required liturgical season",
+        "pl": "data wyzwania nie jest w wymaganym okresie liturgicznym"
+    },
+
     "lang-challenge-parse-error-for-requirement-day-of-month-having-maximum": {
         "en": "challenge day of month cannot be greater than specified maximum",
         "pl": "dzień miesiąca wyzwania nie może być większy niż określone maksimum"
