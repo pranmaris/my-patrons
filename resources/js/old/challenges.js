@@ -78,6 +78,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   const BIBLE_CHAPTERS_DATA_JSON_FILE = '/files/data/bible-chapters.json';
   const DATES_FEASTS_IMMOVABLE_JSON_FILE = '/files/data/generated/dates-feasts-immovable.generated.json';
   const DATES_PATRONS_IMMOVABLE_JSON_FILE = '/files/data/generated/dates-patrons-immovable.generated.json';
+  const LITURGICAL_SEASONS_JSON_FILE = '/files/data/generated/liturgical-seasons.generated.json';
 
   const PARSE_CHALLENGE_MANY_PERSONS_SIGN = '*';
 
@@ -296,6 +297,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   let personsDataSubelementsCache = {};
   let personsAdditionDataElementsCache = {};
   let immovableDatesPatronsData = {};
+  let liturgicalSeasonsData = {};
 
   let fileName = DEFAULT_JSON_FILENAME;
   let fileContent = '{}';
@@ -320,6 +322,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     notesTypesConfig = await getJsonFromFile(NOTES_CONFIG_JSON_FILE);
     personsData = await getJsonFromFile(PERSONS_DATA_JSON_FILE);
     immovableDatesPatronsData = await getImmovableDatesPatronsData([DATES_FEASTS_IMMOVABLE_JSON_FILE, DATES_PATRONS_IMMOVABLE_JSON_FILE]);
+    liturgicalSeasonsData = await getJsonFromFile(LITURGICAL_SEASONS_JSON_FILE);
 
     doActionsDependentOfAdvancedMode();
     reloadFileTab();
@@ -379,6 +382,10 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
 
   function isYearLeap(year) {
     return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
+  }
+
+  function getDateYear(date) {
+    return Number(date.substring(0, 4));
   }
 
   function getPersonsDataDirName(id) {
@@ -1478,10 +1485,20 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   }
 
   function isChallengeDateInLiturgicalSeason(challengeDate, liturgicalSeason) {
-    //todo
-    console.log(challengeDate, liturgicalSeason);
+    const year = getDateYear(challengeDate);
+    const dateRangeString = (liturgicalSeasonsData[liturgicalSeason] ?? {})[year] ?? null;
 
-    return true;
+    if (dateRangeString === null) {
+      return false;
+    }
+
+    const dateRangeArray = dateRangeString.split(' ');
+
+    const dateRangeFromNumber = Number(dateRangeArray[0].replace(/-/g, ''));
+    const dateRangeToNumber = Number(dateRangeArray[1].replace(/-/g, ''));
+    const challengeDateNumber = Number(challengeDate.replace(/-/g, ''));
+
+    return dateRangeFromNumber <= challengeDateNumber && dateRangeToNumber >= challengeDateNumber;
   }
 
   function checkExistingChallengeTypesBeforeDate(challengeType, requirements, challenges, checkDateString, numberOfDaysBeforeCheckDate = null) {
