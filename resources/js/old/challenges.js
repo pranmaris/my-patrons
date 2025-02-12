@@ -78,6 +78,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   const BIBLE_CHAPTERS_DATA_JSON_FILE = '/files/data/bible-chapters.json';
   const DATES_FEASTS_IMMOVABLE_JSON_FILE = '/files/data/generated/dates-feasts-immovable.generated.json';
   const DATES_PATRONS_IMMOVABLE_JSON_FILE = '/files/data/generated/dates-patrons-immovable.generated.json';
+  const LITURGICAL_SEASONS_JSON_FILE = '/files/data/generated/liturgical-seasons.generated.json';
 
   const PARSE_CHALLENGE_MANY_PERSONS_SIGN = '*';
 
@@ -223,6 +224,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   const REQUIREMENT_PERSON_ADDITION_NOT_HAVING_CHALLENGES = 'person-addition-not-having-challenges';
   const REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST = 'day-of-week-having-whitelist';
   const REQUIREMENT_MONTH_HAVING_WHITELIST = 'month-having-whitelist';
+  const REQUIREMENT_CHALLENGE_DATE_IS_IN_LITURGICAL_SEASONS = 'challenge-date-is-in-liturgical-seasons';
   const REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM = 'day-of-month-having-maximum';
 
   const PARSE_REQUIREMENTS_SINCE_ACTIVE_DATES = {
@@ -295,6 +297,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   let personsDataSubelementsCache = {};
   let personsAdditionDataElementsCache = {};
   let immovableDatesPatronsData = {};
+  let liturgicalSeasonsData = {};
 
   let fileName = DEFAULT_JSON_FILENAME;
   let fileContent = '{}';
@@ -319,6 +322,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     notesTypesConfig = await getJsonFromFile(NOTES_CONFIG_JSON_FILE);
     personsData = await getJsonFromFile(PERSONS_DATA_JSON_FILE);
     immovableDatesPatronsData = await getImmovableDatesPatronsData([DATES_FEASTS_IMMOVABLE_JSON_FILE, DATES_PATRONS_IMMOVABLE_JSON_FILE]);
+    liturgicalSeasonsData = await getJsonFromFile(LITURGICAL_SEASONS_JSON_FILE);
 
     doActionsDependentOfAdvancedMode();
     reloadFileTab();
@@ -378,6 +382,10 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
 
   function isYearLeap(year) {
     return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
+  }
+
+  function getDateYear(date) {
+    return Number(date.substring(0, 4));
   }
 
   function getPersonsDataDirName(id) {
@@ -1040,6 +1048,18 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
           }
           break;
 
+        case REQUIREMENT_CHALLENGE_DATE_IS_IN_LITURGICAL_SEASONS:
+          console.log(reqTypes);
+          for (const liturgicalSeason of reqTypes) {
+            if (!isChallengeDateInLiturgicalSeason(challengeDate, liturgicalSeason)) {
+              throw {
+                message: 'lang-challenge-parse-error-for-requirement-challenge-date-is-in-liturgical-seasons',
+                data: [liturgicalSeason]
+              };
+            }
+          }
+          break;
+
         default:
           throw {
             message: 'lang-challenge-parse-error-missing-assigned-to-challenge-persons-requirement-type',
@@ -1464,6 +1484,23 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     return result;
   }
 
+  function isChallengeDateInLiturgicalSeason(challengeDate, liturgicalSeason) {
+    const year = getDateYear(challengeDate);
+    const dateRangeString = (liturgicalSeasonsData[liturgicalSeason] ?? {})[year] ?? null;
+
+    if (dateRangeString === null) {
+      return false;
+    }
+
+    const dateRangeArray = dateRangeString.split(' ');
+
+    const dateRangeFromNumber = Number(dateRangeArray[0].replace(/-/g, ''));
+    const dateRangeToNumber = Number(dateRangeArray[1].replace(/-/g, ''));
+    const challengeDateNumber = Number(challengeDate.replace(/-/g, ''));
+
+    return dateRangeFromNumber <= challengeDateNumber && dateRangeToNumber >= challengeDateNumber;
+  }
+
   function checkExistingChallengeTypesBeforeDate(challengeType, requirements, challenges, checkDateString, numberOfDaysBeforeCheckDate = null) {
     const checkDate = Date.parse(checkDateString);
 
@@ -1669,6 +1706,16 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       const dayOfMonth = getDayOfMonthForDateString(challengeDate);
 
       return dayOfMonth <= maximum;
+    }
+
+    return true;
+  }
+
+  function checkIfChallengeDateIsInLiturgicalSeasons(liturgicalSeasons, challengeDate) {
+    for (const liturgicalSeason of liturgicalSeasons) {
+      if (!isChallengeDateInLiturgicalSeason(challengeDate, liturgicalSeason)) {
+        return false;
+      }
     }
 
     return true;
@@ -1957,6 +2004,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
           || !checkIfChallengeDayOfWeekIsOnWhitelist(requirements[REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST] ?? [], challengeDate)
           || !checkIfChallengeMonthIsOnWhitelist(requirements[REQUIREMENT_MONTH_HAVING_WHITELIST] ?? [], challengeDate)
           || !checkIfChallengeDayOfMonthIsNotGreaterThanMaximum(requirements[REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM] ?? 0, challengeDate)
+          || !checkIfChallengeDateIsInLiturgicalSeasons(requirements[REQUIREMENT_CHALLENGE_DATE_IS_IN_LITURGICAL_SEASONS] ?? [], challengeDate)
         ) {
           continue;
         }

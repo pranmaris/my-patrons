@@ -83,6 +83,11 @@ class MovableFeastBase
         return $this->getDayOfMonth($year, 10);
     }
 
+    public function getDayOfDecember(int $year): string
+    {
+        return $this->getDayOfMonth($year, 12);
+    }
+
     public function getHolyFamilyFeastDateValidBeforeMr1960(int $year): string
     {
         $jan7 = "$year-01-07";
