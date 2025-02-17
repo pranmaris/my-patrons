@@ -33,6 +33,9 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     .set("SET_FILE_CONTENT_FROM_JSON_EDITOR", setFileContentFromJsonEditor)
     .set("SET_NOTE_SELL_MODE_TO_FORM", setNoteCellModeToForm)
     .set("SET_RANDOM_BIBLE_CHAPTER", setRandomBibleChapter)
+    .set("SET_VALUE_AS_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION",setValueAsAddDatetimeSuffixToFilenameWithoutExtension)
+    .set("SET_VALUE_AS_FILENAME_WITHOUT_EXTENSION", setValueAsFilenameWithoutExtension)
+    .set("SET_VALUE_AS_OWNER", setValueAsOwner)
     .set("SHOW_LOAD_FILE_WARNING_IF_NEEDED", showLoadFileWarningIfNeeded)
   ;
 
@@ -614,7 +617,6 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   }
 
   async function saveFile() {
-
     try {
       clearNotifications();
 
@@ -4355,6 +4357,24 @@ function setNoteCellModeToForm(rowId, challengeType, itemType, itemPath) {
 function setRandomBibleChapter(language) {
   requirejs(["const"], function(uConst) {
     uConst.get("SET_RANDOM_BIBLE_CHAPTER")(language);
+  });
+}
+
+function setValueAsAddDatetimeSuffixToFilenameWithoutExtension(checked) {
+  requirejs(["const"], function(uConst) {
+    uConst.get("SET_VALUE_AS_ADD_DATETIME_SUFFIX_TO_FILENAME_WITHOUT_EXTENSION")(checked);
+  });
+}
+
+function setValueAsFilenameWithoutExtension(value) {
+  requirejs(["const"], function(uConst) {
+    uConst.get("SET_VALUE_AS_FILENAME_WITHOUT_EXTENSION")(value);
+  });
+}
+
+function setValueAsOwner(value) {
+  requirejs(["const"], function(uConst) {
+    uConst.get("SET_VALUE_AS_OWNER")(value);
   });
 }
 
