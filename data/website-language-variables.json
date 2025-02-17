@@ -64,11 +64,6 @@
         "pl": "oczekujące na dokończenie"
     },
 
-    "lang-acolyte": {
-        "en": "acolyte",
-        "pl": "akolita"
-    },
-
     "lang-action-button-checklist-info": {
         "pl": "<strong>pokaż kroki</strong> wyzwania (checklista)"
     },
@@ -129,17 +124,6 @@
         "pl": "po"
     },
 
-    "lang-altar-server": {
-        "en": "altar server",
-        "la": "ministrans",
-        "pl": "ministrant"
-    },
-
-    "lang-ampoule-reliquary": {
-        "en": "ampoule reliquary",
-        "pl": "relikwiarz ampułkowy"
-    },
-
     "lang-around": {
         "en": "around",
         "la": "circa",
@@ -149,16 +133,6 @@
     "lang-back": {
         "en": "back",
         "pl": "wróć"
-    },
-
-    "lang-baptismal-name": {
-        "en": "baptismal name",
-        "pl": "imię z Chrztu św."
-    },
-
-    "lang-baptized-person": {
-        "en": "baptized person",
-        "pl": "osoba ochrzczona"
     },
 
     "lang-beatification": {
@@ -187,21 +161,6 @@
     "lang-bleed-size": {
         "en": "printing bleed (mm)",
         "pl": "spad drukarski (mm)"
-    },
-
-    "lang-blood-relics": {
-        "en": "blood relics",
-        "pl": "relikwie krwi"
-    },
-
-    "lang-body-relics": {
-        "en": "body relics",
-        "pl": "relikwie ciała"
-    },
-
-    "lang-bone-relics": {
-        "en": "bone relics",
-        "pl": "relikwie kości"
     },
 
     "lang-brochure-discover-claim": {
@@ -338,11 +297,6 @@
 
     "lang-buy-coffee": {
         "en": "Buy Coffee"
-    },
-
-    "lang-bust-reliquary": {
-        "en": "bust reliquary",
-        "pl": "relikwiarz popiersia"
     },
 
     "lang-cancel": {
@@ -725,24 +679,9 @@
         "pl": "zamknij"
     },
 
-    "lang-coffin-reliquary": {
-        "en": "coffin reliquary",
-        "pl": "relikwiarz trumienny"
-    },
-
     "lang-coming-soon": {
         "en": "coming soon",
         "pl": "już wkrótce"
-    },
-
-    "lang-concelebrant": {
-        "en": "concelebrant",
-        "pl": "koncelebrans"
-    },
-
-    "lang-confirmation-name": {
-        "en": "confirmation name",
-        "pl": "imię z Bierzmowania"
     },
 
     "lang-contact": {
@@ -779,11 +718,6 @@
     "lang-create-your-own-deck-of-collectible-cards": {
         "en": "build your own deck",
         "pl": "zbuduj swoją własną talię kart"
-    },
-
-    "lang-current-grave": {
-        "en": "current grave",
-        "pl": "aktualny grób"
     },
 
     "lang-data": {
@@ -874,11 +808,6 @@
     "lang-date-source-other-memorial-days": {
         "en": "other memorial days",
         "pl": "inne dni wspomnienia"
-    },
-
-    "lang-date-source-reliable-death-anniversary": {
-        "en": "reliable death anniversary",
-        "pl": "wiarygodna rocznica śmierci"
     },
 
     "lang-dates-multi-year-days-form-select-info": {
@@ -1089,21 +1018,6 @@
         "pl": "imiona"
     },
 
-    "lang-former-grave": {
-        "en": "former grave",
-        "pl": "dawny grób"
-    },
-
-    "lang-frame-reliquary": {
-        "en": "frame reliquary",
-        "pl": "relikwiarz ramowy"
-    },
-
-    "lang-funeral-mass-person": {
-        "en": "funeral Mass person",
-        "pl": "osoba, której dotyczy Msza żałobna"
-    },
-
     "lang-further-name": {
         "en": "further name",
         "pl": "dalsza nazwa"
@@ -1127,11 +1041,6 @@
         "la": "Gratia Dei"
     },
 
-    "lang-hair-relics": {
-        "en": "hair relics",
-        "pl": "relikwie włosów"
-    },
-
     "lang-help": {
         "en": "help",
         "pl": "pomoc"
@@ -1145,11 +1054,6 @@
     "lang-hide-fields": {
         "en": "hide fields",
         "pl": "ukryj pola"
-    },
-
-    "lang-holy-card": {
-        "en": "holy card",
-        "pl": "obrazek"
     },
 
     "lang-horizontal": {
@@ -1268,11 +1172,6 @@
         "pl": "powiązania"
     },
 
-    "lang-liturgical-calendar": {
-        "en": "liturgical calendar",
-        "pl": "kalendarz liturgiczny"
-    },
-
     "lang-load-file": {
         "en": "load file",
         "pl": "wczytaj plik"
@@ -1290,16 +1189,6 @@
     "lang-location": {
         "en": "location",
         "pl": "lokalizacja"
-    },
-
-    "lang-locket-reliquary": {
-        "en": "locket reliquary",
-        "pl": "relikwiarz medalionowy"
-    },
-
-    "lang-main-celebrant": {
-        "en": "main celebrant",
-        "pl": "główny celebrans"
     },
 
     "lang-main-name": {
@@ -1322,11 +1211,6 @@
         "pl": "oznacz jako"
     },
 
-    "lang-mass": {
-        "en": "mass",
-        "pl": "msza"
-    },
-
     "lang-me": {
         "en": "me",
         "la": "ego",
@@ -1338,16 +1222,6 @@
         "pl": "Patroni Misji Posłańca"
     },
 
-    "lang-minister-of-holy-communion": {
-        "en": "minister of Holy Communion",
-        "pl": "szafarz Komunii Świętej"
-    },
-
-    "lang-minister-of-my-holy-communion": {
-        "en": "minister of my Holy Communion",
-        "pl": "szafarz mojej Komunii Świętej"
-    },
-
     "lang-missing-filename-without-extension": {
         "en": "missing filename without extension",
         "pl": "nie podano nazwy pliku bez rozszerzenia"
@@ -1356,11 +1230,6 @@
     "lang-missing-file-owner": {
         "en": "missing file owner",
         "pl": "nie podano właściciela pliku"
-    },
-
-    "lang-monstrance-reliquary": {
-        "en": "monstrance reliquary",
-        "pl": "relikwiarz monstrancyjny"
     },
 
     "lang-month": {
@@ -1447,11 +1316,6 @@
         "pl": "całe nasze dobro Bożą jest łaską"
     },
 
-    "lang-movable-feasts": {
-        "en": "movable feasts",
-        "pl": "święta ruchome"
-    },
-
     "lang-move-challenge": {
         "en": "move challenge",
         "pl": "przesuń wyzwanie"
@@ -1504,20 +1368,10 @@
         "pl": "<strong>Edytor wyzwań</strong> umożliwia Uczestnikowi zapisywanie do pliku na urządzeniu kolejnych wyzwań podejmowanych w ramach inicjatywy <em>„Moi Patroni”</em>.<br />Wszelkie dane osobowe są przetwarzane jedynie w przeglądarce po stronie Użytkownika, a serwis https://mypatrons.org nie ma do nich dostępu."
     },
 
-    "lang-nail-relics": {
-        "en": "nail relics",
-        "pl": "relikwie paznokci"
-    },
-
     "lang-name": {
         "en": "name",
         "la": "nomen",
         "pl": "nazwa"
-    },
-
-    "lang-name-given-at-birth": {
-        "en": "name given at birth",
-        "pl": "imię nadane przy narodzinach"
     },
 
     "lang-next": {
@@ -1587,11 +1441,6 @@
         "pl": "założyciel zakonu"
     },
 
-    "lang-organist": {
-        "en": "organist",
-        "pl": "organista"
-    },
-
     "lang-original": {
         "en": "original",
         "pl": "oryginalny"
@@ -1605,11 +1454,6 @@
     "lang-other-memorial-days": {
         "en": "other memorial days",
         "pl": "inne dni wspomnienia"
-    },
-
-    "lang-other-name": {
-        "en": "other name",
-        "pl": "inne imię "
     },
 
     "lang-our-initiatives": {
@@ -1659,11 +1503,6 @@
         "pl": "katalog nadrzędny"
     },
 
-    "lang-parish-festival": {
-        "en": "parish festival",
-        "pl": "odpust parafialny"
-   },
-
     "lang-path": {
         "en": "path",
         "pl": "ścieżka"
@@ -1694,46 +1533,6 @@
         "pl": "osoba"
     },
 
-    "lang-person-attending-the-mass": {
-        "en": "person attending the Mass",
-        "pl": "osoba uczestnicząca we Mszy"
-    },
-
-    "lang-person-getting-married": {
-        "en": "person getting married",
-        "pl": "osoba zawierająca Małżeństwo"
-    },
-
-    "lang-person-mentioned-in-mass-intentions": {
-        "en": "person mentioned in Mass intentions",
-        "pl": "osoba wymieniona w intencjach mszalnych"
-    },
-
-    "lang-person-preaching-a-sermon": {
-        "en": "person preaching a sermon",
-        "pl": "osoba głosząca kazanie"
-    },
-
-    "lang-person-receiving-first-holy-communion": {
-        "en": "person receiving first Holy Communion",
-        "pl": "osoba przyjmująca pierwszą Komunię Świętą"
-    },
-
-    "lang-person-receiving-confirmation": {
-        "en": "person receiving Confirmation",
-        "pl": "osoba przyjmująca Bierzmowanie"
-    },
-
-    "lang-person-receiving-anointing-of-the-sick": {
-        "en": "person receiving Anointing of the sick",
-        "pl": "osoba przyjmująca Namaszczenie chorych"
-    },
-
-    "lang-person-taking-holy-orders": {
-        "en": "person taking Holy orders",
-        "pl": "osoba przyjmująca Święcenia kapłańskie"
-    },
-
     "lang-position": {
         "en": "position",
         "pl": "pozycja"
@@ -1747,11 +1546,6 @@
     "lang-project-initiative-info": {
         "en": "\"My Patrons\" is a project of the \"<a href=\"https://en.gratiadei.org\">Gratia Dei</a>\" initiative",
         "pl": "„My Patrons” jest jednym z projektów inicjatywy „<a href=\"https://pl.gratiadei.org\">Gratia Dei</a>”"
-    },
-
-    "lang-psalterist": {
-        "en": "psalterist",
-        "pl": "psałterzysta"
     },
 
     "lang-qr-code-url": {
@@ -1786,11 +1580,6 @@
         "pl": "losuj rozdział"
     },
 
-    "lang-reader": {
-        "en": "reader",
-        "pl": "lektor"
-    },
-
     "lang-rebuild-page": {
         "en": "rebuild page",
         "pl": "przebuduj stronę"
@@ -1799,26 +1588,6 @@
     "lang-refresh-fields": {
         "en": "refresh fields",
         "pl": "odśwież pola"
-    },
-
-    "lang-relics": {
-        "en": "relics",
-        "pl": "relikwie"
-    },
-
-    "lang-relics-of-the-ashes": {
-        "en": "relics of the ashes",
-        "pl": "relikwie popiołu"
-    },
-
-    "lang-religious-name": {
-        "en": "religious name",
-        "pl": "imię zakonne"
-    },
-
-    "lang-reliquary": {
-        "en": "reliquary",
-        "pl": "relikwiarz"
     },
 
     "lang-remove-challenge": {
@@ -1841,11 +1610,6 @@
         "pl": "potwierdź, że chcesz usunąć wybraną notatkę ze wszystkimi jej podnotatkami"
     },
 
-    "lang-representation": {
-        "en": "representation",
-        "pl": "wizerunek"
-    },
-
     "lang-required-checklist-steps": {
         "en": "required checklist steps",
         "pl": "wymagane kroki checklisty"
@@ -1859,32 +1623,6 @@
     "lang-resource": {
         "en": "resource",
         "pl": "zasób"
-    },
-
-    "lang-roman-martyrology": {
-        "en": "Roman Martyrology",
-        "la": "Martyrologium Romanum",
-        "pl": "Martyrologium Rzymskie"
-    },
-
-    "lang-rosary-glorious-mysteries": {
-        "en": "glorious mysteries",
-        "pl": "tajemnice chwalebne"
-    },
-
-    "lang-rosary-joyful-mysteries": {
-        "en": "joyful mysteries",
-        "pl": "tajemnice radosne"
-    },
-
-    "lang-rosary-mysteries-of-light": {
-        "en": "mysteries of light",
-        "pl": "tajemnice światła"
-    },
-
-    "lang-rosary-sorrowful-mysteries": {
-        "en": "sorrowful mysteries",
-        "pl": "tajemnice bolesne"
     },
 
     "lang-row-id": {
@@ -1947,11 +1685,6 @@
         "pl": "Aby uchronić się przed utratą swoich plików z <em>wyzwaniami</em>, warto regularnie robić ich kopię bezpieczeństwa, zapisując je np. w innej lokalizacji na dysku, na innym dysku zewnętrznym, w chmurze czy nawet wysyłając te pliki jako załącznik na swój własny adres e-mail."
     },
 
-    "lang-second-class-relics": {
-        "en": "second class relics",
-        "pl": "relikwie drugiej klasy"
-    },
-
     "lang-second-or-further-name": {
         "en": "second or further name",
         "pl": "drugie imię lub dalsza nazwa"
@@ -1980,11 +1713,6 @@
     "lang-since-2020": {
         "en": "since 2020",
         "pl": "od 2020"
-    },
-
-    "lang-skull-relics": {
-        "en": "skull relics",
-        "pl": "relikwie czaszki"
     },
 
     "lang-status": {
@@ -2104,11 +1832,6 @@
         "pl": "tłumaczenia"
     },
 
-    "lang-transparent-coffin-reliquary": {
-        "en": "transparent coffin reliquary",
-        "pl": "przeźroczysty relikwiarz trumienny"
-    },
-
     "lang-type": {
         "en": "type",
         "pl": "typ"
@@ -2117,131 +1840,6 @@
     "lang-type-and-number": {
         "en": "type and number",
         "pl": "typ i numer"
-    },
-
-    "lang-type-of-place-aeroplane": {
-        "en": "aeroplane",
-        "pl": "samolot"
-    },
-
-    "lang-type-of-place-airport": {
-        "en": "airport",
-        "pl": "lotnisko"
-    },
-
-    "lang-type-of-place-building": {
-        "en": "building",
-        "pl": "budynek"
-    },
-
-    "lang-type-of-place-city-town-or-village": {
-        "en": "city, town, or village",
-        "pl": "miejscowość"
-    },
-
-    "lang-type-of-place-country": {
-        "en": "country",
-        "pl": "państwo"
-    },
-
-    "lang-type-of-place-department": {
-        "en": "department",
-        "pl": "wydział"
-    },
-
-    "lang-type-of-place-district": {
-        "en": "district",
-        "pl": "dzielnica"
-    },
-
-    "lang-type-of-place-estate": {
-        "en": "estate",
-        "pl": "osiedle"
-    },
-
-    "lang-type-of-place-institution": {
-        "en": "institution",
-        "pl": "instytucja"
-    },
-
-    "lang-type-of-place-island": {
-        "en": "island",
-        "pl": "wyspa"
-    },
-
-    "lang-type-of-place-memorial": {
-        "en": "memorial",
-        "pl": "pomnik"
-    },
-
-    "lang-type-of-place-mountain": {
-        "en": "mountain",
-        "pl": "góra"
-    },
-
-    "lang-type-of-place-other-natural-place": {
-        "en": "other natural place",
-        "pl": "inne miejsce naturalne"
-    },
-
-    "lang-type-of-place-other-place": {
-        "en": "other place",
-        "pl": "inne miejsce"
-    },
-
-    "lang-type-of-place-port": {
-        "en": "port",
-        "pl": "port"
-    },
-
-    "lang-type-of-place-region": {
-        "en": "region",
-        "pl": "region"
-    },
-
-    "lang-type-of-place-roundabout": {
-        "en": "roundabout",
-        "pl": "rondo"
-    },
-
-    "lang-type-of-place-ship": {
-        "en": "ship",
-        "pl": "statek"
-    },
-
-    "lang-type-of-place-shop": {
-        "en": "shop",
-        "pl": "sklep"
-    },
-
-    "lang-type-of-place-square": {
-        "en": "square",
-        "pl": "plac"
-    },
-
-    "lang-type-of-place-station": {
-        "en": "station",
-        "pl": "stacja"
-    },
-
-    "lang-type-of-place-stop": {
-        "en": "stop",
-        "pl": "przystanek"
-    },
-
-    "lang-type-of-place-street": {
-        "en": "street",
-        "pl": "ulica"
-    },
-
-    "lang-type-of-place-trail": {
-        "en": "trail",
-        "pl": "szlak"
-    },
-
-    "lang-type-of-place-train": {
-        "en": "train",
-        "pl": "pociąg"
     },
 
     "lang-vertical": {

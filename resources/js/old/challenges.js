@@ -256,7 +256,6 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   const MAX_NOTE_OBJECT_STRUCTURE_LEVELS = 5;
 
   const LANGUAGE_VARIABLE_PREFIX = 'lang-';
-  const LANGUAGE_VARIABLE_CAPITALIZE_SUFFIX_REGEXP = '[|]capitalize$';
   const WEEKDAY_LANGUAGE_VARIABLES_PREFIX = 'lang-weekday-abbreviation-';
   const MONTH_LANGUAGE_VARIABLES_PREFIX = 'lang-month-';
 
@@ -3453,17 +3452,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
 
     for (const row of list) {
       const noteId = Object.keys(row)[0] ?? '';
-      const phrases = row[noteId] ?? [];
-
-      let value = '';
-      for (const phrase of phrases) {
-        if (phrase.match(new RegExp('^' + LANGUAGE_VARIABLE_PREFIX))) {
-          const langVariable = phrase.replace(new RegExp(LANGUAGE_VARIABLE_CAPITALIZE_SUFFIX_REGEXP), '');
-          value += getLanguageVariable(langVariable, langVariable !== phrase);
-        } else {
-          value += phrase;
-        }
-      }
+      value = getLanguageVariable('name', false, row[noteId] ?? {});
 
       result.push({[noteId]: value});
     }

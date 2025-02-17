@@ -44,13 +44,34 @@
     },
     "source": {
       "list": [
-        {"1": ["lang-roman-martyrology"]},
-        {"5": ["lang-liturgical-calendar"]},
-        {"6": ["lang-parish-festival"]},
-        {"2004": ["lang-roman-martyrology", ": 2004"]},
-        {"20040": ["lang-roman-martyrology", ": 2004 (", "lang-movable-feasts", ")"]},
-        {"1956": ["lang-roman-martyrology", ": 1956"]},
-        {"19560": ["lang-roman-martyrology", ": 1956 (", "lang-movable-feasts", ")"]}
+        {"1": {
+          "en": "Roman Martyrology",
+          "pl": "Martyrologium Rzymskie"
+        }},
+        {"5": {
+          "en": "liturgical calendar",
+          "pl": "kalendarz liturgiczny"
+        }},
+        {"6": {
+          "en": "parish festival",
+          "pl": "odpust parafialny"
+        }},
+        {"2004": {
+          "en": "Roman Martyrology: 2004",
+          "pl": "Martyrologium Rzymskie: 2004"
+        }},
+        {"20040": {
+          "en": "Roman Martyrology: 2004 (movable feasts)",
+          "pl": "Martyrologium Rzymskie: 2004 (święta ruchome)"
+        }},
+        {"1956": {
+          "en": "Roman Martyrology: 1956",
+          "pl": "Martyrologium Rzymskie: 1956"
+        }},
+        {"19560": {
+          "en": "Roman Martyrology: 1956 (movable feasts)",
+          "pl": "Martyrologium Rzymskie: 1956 (święta ruchome)"
+        }}
       ]
     },
     "hint": {}
@@ -72,16 +93,46 @@
     },
     "source": {
       "list": [
-        {"1": ["lang-roman-martyrology"]},
-        {"2": ["lang-date-source-reliable-death-anniversary"]},
-        {"3": ["lang-canonization"]},
-        {"4": ["lang-beatification"]},
-        {"5": ["lang-liturgical-calendar"]},
-        {"6": ["lang-parish-festival"]},
-        {"2004": ["lang-roman-martyrology", ": 2004"]},
-        {"20040": ["lang-roman-martyrology", ": 2004 (", "lang-movable-feasts", ")"]},
-        {"1956": ["lang-roman-martyrology", ": 1956"]},
-        {"19560": ["lang-roman-martyrology", ": 1956 (", "lang-movable-feasts", ")"]}
+        {"1": {
+          "en": "Roman Martyrology",
+          "pl": "Martyrologium Rzymskie"
+        }},
+        {"2": {
+          "en": "reliable death anniversary",
+          "pl": "wiarygodna rocznica śmierci"
+        }},
+        {"3": {
+          "en": "canonization",
+          "pl": "kanonizacja"
+        }},
+        {"4": {
+          "en": "beatification",
+          "pl": "beatyfikacja"
+        }},
+        {"5": {
+          "en": "liturgical calendar",
+          "pl": "kalendarz liturgiczny"
+        }},
+        {"6": {
+          "en": "parish festival",
+          "pl": "odpust parafialny"
+        }},
+        {"2004": {
+          "en": "Roman Martyrology: 2004",
+          "pl": "Martyrologium Rzymskie: 2004"
+        }},
+        {"20040": {
+          "en": "Roman Martyrology: 2004 (movable feasts)",
+          "pl": "Martyrologium Rzymskie: 2004 (święta ruchome)"
+        }},
+        {"1956": {
+          "en": "Roman Martyrology: 1956",
+          "pl": "Martyrologium Rzymskie: 1956"
+        }},
+        {"19560": {
+          "en": "Roman Martyrology: 1956 (movable feasts)",
+          "pl": "Martyrologium Rzymskie: 1956 (święta ruchome)"
+        }}
       ]
     },
     "hint": {}
@@ -103,10 +154,22 @@
     },
     "source": {
       "list": [
-        {"1": ["lang-holy-card", " + ", "lang-representation"]},
-        {"2": ["lang-holy-card", " + ", "lang-mass"]},
-        {"3": ["lang-representation", " + ", "lang-mass"]},
-        {"4": ["lang-relics"]}
+        {"1": {
+          "en": "holy card + representation",
+          "pl": "obrazek + wizerunek"
+        }},
+        {"2": {
+          "en": "holy card + mass",
+          "pl": "obrazek + msza"
+        }},
+        {"3": {
+          "en": "representation + mass",
+          "pl": "wizerunek + msza"
+        }},
+        {"4": {
+          "en": "relics",
+          "pl": "relikwie"
+        }}
       ]
     },
     "hint": {}
@@ -119,11 +182,26 @@
     },
     "source": {
       "list": [
-        {"1": ["lang-name-given-at-birth"]},
-        {"2": ["lang-baptismal-name"]},
-        {"3": ["lang-confirmation-name"]},
-        {"4": ["lang-religious-name"]},
-        {"5": ["lang-other-name"]}
+        {"1": {
+          "en": "name given at birth",
+          "pl": "imię nadane przy narodzinach"
+        }},
+        {"2": {
+          "en": "baptismal name",
+          "pl": "imię z Chrztu św."
+        }},
+        {"3": {
+          "en": "confirmation name",
+          "pl": "imię z Bierzmowania"
+        }},
+        {"4": {
+          "en": "religious name",
+          "pl": "imię zakonne"
+        }},
+        {"5": {
+          "en": "other name",
+          "pl": "inne imię "
+        }}
       ]
     },
     "hint": {}
@@ -195,10 +273,22 @@
     },
     "source": {
       "list": [
-        {"1": ["lang-rosary-joyful-mysteries"]},
-        {"2": ["lang-rosary-mysteries-of-light"]},
-        {"3": ["lang-rosary-sorrowful-mysteries"]},
-        {"4": ["lang-rosary-glorious-mysteries"]}
+        {"1": {
+          "en": "joyful mysteries",
+          "pl": "tajemnice radosne"
+        }},
+        {"2": {
+          "en": "mysteries of light",
+          "pl": "tajemnice światła"
+        }},
+        {"3": {
+          "en": "sorrowful mysteries",
+          "pl": "tajemnice bolesne"
+        }},
+        {"4": {
+          "en": "glorious mysteries",
+          "pl": "tajemnice chwalebne"
+        }}
       ],
       "values": "sorted"
     },
@@ -263,46 +353,84 @@
     },
     "source": {
       "list": [
-        {"1": ["lang-main-celebrant"]},
-        {"2": ["lang-concelebrant"]},
-        {"11": ["lang-person-preaching-a-sermon"]},
-        {"21": ["lang-acolyte"]},
-        {"22": ["lang-altar-server"]},
-        {"23": ["lang-reader"]},
-        {"31": ["lang-psalterist"]},
-        {"32": ["lang-organist"]},
-        {"71": ["lang-person-attending-the-mass"]},
-        {"81": ["lang-minister-of-holy-communion"]},
-        {"82": ["lang-minister-of-my-holy-communion"]},
-        {"91": ["lang-baptized-person"]},
-        {"92": ["lang-person-receiving-first-holy-communion"]},
-        {"93": ["lang-person-receiving-confirmation"]},
-        {"94": ["lang-person-taking-holy-orders"]},
-        {"95": ["lang-person-getting-married"]},
-        {"96": ["lang-person-receiving-anointing-of-the-sick"]},
-        {"99": ["lang-funeral-mass-person"]},
-        {"100": ["lang-person-mentioned-in-mass-intentions"]}
+        {"1": {
+          "en": "main celebrant",
+          "pl": "główny celebrans"
+        }},
+        {"2": {
+          "en": "concelebrant",
+          "pl": "koncelebrans"
+        }},
+        {"11": {
+          "en": "person preaching a sermon",
+          "pl": "osoba głosząca kazanie"
+        }},
+        {"21": {
+          "en": "acolyte",
+          "pl": "akolita"
+        }},
+        {"22": {
+          "en": "altar server",
+          "pl": "ministrant"
+        }},
+        {"23": {
+          "en": "reader",
+          "pl": "lektor"
+        }},
+        {"31": {
+          "en": "psalterist",
+          "pl": "psałterzysta"
+        }},
+        {"32": {
+          "en": "organist",
+          "pl": "organista"
+        }},
+        {"71": {
+          "en": "person attending the Mass",
+          "pl": "osoba uczestnicząca we Mszy"
+        }},
+        {"81": {
+          "en": "minister of Holy Communion",
+          "pl": "szafarz Komunii Świętej"
+        }},
+        {"82": {
+          "en": "minister of my Holy Communion",
+          "pl": "szafarz mojej Komunii Świętej"
+        }},
+        {"91": {
+          "en": "baptized person",
+          "pl": "osoba ochrzczona"
+        }},
+        {"92": {
+          "en": "person receiving first Holy Communion",
+          "pl": "osoba przyjmująca pierwszą Komunię Świętą"
+        }},
+        {"93": {
+          "en": "person receiving Confirmation",
+          "pl": "osoba przyjmująca Bierzmowanie"
+        }},
+        {"94": {
+          "en": "person taking Holy orders",
+          "pl": "osoba przyjmująca Święcenia kapłańskie"
+        }},
+        {"95": {
+          "en": "person getting married",
+          "pl": "osoba zawierająca Małżeństwo"
+        }},
+        {"96": {
+          "en": "person receiving Anointing of the sick",
+          "pl": "osoba przyjmująca Namaszczenie chorych"
+        }},
+        {"99": {
+          "en": "funeral Mass person",
+          "pl": "osoba, której dotyczy Msza żałobna"
+        }},
+        {"100": {
+          "en": "person mentioned in Mass intentions",
+          "pl": "osoba wymieniona w intencjach mszalnych"
+        }}
       ],
       "values": "last-year-or-10-challenges-sorted"
-    },
-    "hint": {}
-  },
-  "sacrament": {
-    "index": "sacraments",
-    "name": {
-      "en": "sacrament type",
-      "pl": "typ sakramentu"
-    },
-    "source": {
-      "list": [
-        {"1": ["lang-sacrament-baptism"]},
-        {"2": ["lang-sacrament-confirmation"]},
-        {"3": ["lang-sacrament-holy-communion"]},
-        {"4": ["lang-sacrament-penance"]},
-        {"5": ["lang-sacrament-anointing-of-the-sick"]},
-        {"6": ["lang-sacrament-holy-orders"]},
-        {"7": ["lang-sacrament-marriage"]}
-      ]
     },
     "hint": {}
   },
@@ -338,31 +466,106 @@
     },
     "source": {
       "list": [
-        {"1": ["lang-type-of-place-country"]},
-        {"2": ["lang-type-of-place-region"]},
-        {"3": ["lang-type-of-place-city-town-or-village"]},
-        {"4": ["lang-type-of-place-district"]},
-        {"5": ["lang-type-of-place-estate"]},
-        {"21": ["lang-type-of-place-street"]},
-        {"22": ["lang-type-of-place-square"]},
-        {"23": ["lang-type-of-place-roundabout"]},
-        {"24": ["lang-type-of-place-memorial"]},
-        {"41": ["lang-type-of-place-institution"]},
-        {"42": ["lang-type-of-place-department"]},
-        {"51": ["lang-type-of-place-stop"]},
-        {"52": ["lang-type-of-place-station"]},
-        {"53": ["lang-type-of-place-airport"]},
-        {"54": ["lang-type-of-place-port"]},
-        {"61": ["lang-type-of-place-building"]},
-        {"62": ["lang-type-of-place-shop"]},
-        {"71": ["lang-type-of-place-ship"]},
-        {"72": ["lang-type-of-place-train"]},
-        {"73": ["lang-type-of-place-aeroplane"]},
-        {"81": ["lang-type-of-place-mountain"]},
-        {"82": ["lang-type-of-place-island"]},
-        {"83": ["lang-type-of-place-trail"]},
-        {"99": ["lang-type-of-place-other-natural-place"]},
-        {"100": ["lang-type-of-place-other-place"]}
+        {"1": {
+          "en": "country",
+          "pl": "państwo"
+        }},
+        {"2": {
+          "en": "region",
+          "pl": "region"
+        }},
+        {"3": {
+          "en": "city, town, or village",
+          "pl": "miejscowość"
+        }},
+        {"4": {
+          "en": "district",
+          "pl": "dzielnica"
+        }},
+        {"5": {
+          "en": "estate",
+          "pl": "osiedle"
+        }},
+        {"21": {
+          "en": "street",
+          "pl": "ulica"
+        }},
+        {"22": {
+          "en": "square",
+          "pl": "plac"
+        }},
+        {"23": {
+          "en": "roundabout",
+          "pl": "rondo"
+        }},
+        {"24": {
+          "en": "memorial",
+          "pl": "pomnik"
+        }},
+        {"41": {
+          "en": "institution",
+          "pl": "instytucja"
+        }},
+        {"42": {
+          "en": "department",
+          "pl": "wydział"
+        }},
+        {"51": {
+          "en": "stop",
+          "pl": "przystanek"
+        }},
+        {"52": {
+          "en": "station",
+          "pl": "stacja"
+        }},
+        {"53": {
+          "en": "airport",
+          "pl": "lotnisko"
+        }},
+        {"54": {
+          "en": "port",
+          "pl": "port"
+        }},
+        {"61": {
+          "en": "building",
+          "pl": "budynek"
+        }},
+        {"62": {
+          "en": "shop",
+          "pl": "sklep"
+        }},
+        {"71": {
+          "en": "ship",
+          "pl": "statek"
+        }},
+        {"72": {
+          "en": "train",
+          "pl": "pociąg"
+        }},
+        {"73": {
+          "en": "aeroplane",
+          "pl": "samolot"
+        }},
+        {"81": {
+          "en": "mountain",
+          "pl": "góra"
+        }},
+        {"82": {
+          "en": "island",
+          "pl": "wyspa"
+        }},
+        {"83": {
+          "en": "trail",
+          "pl": "szlak"
+        }},
+        {"99": {
+          "en": "other natural place",
+          "pl": "inne miejsce naturalne"
+        }},
+        {"100": {
+          "en": "other place",
+          "pl": "inne miejsce"
+        }}
       ]
     },
     "hint": {
@@ -377,24 +580,78 @@
     },
     "source": {
       "list": [
-        {"1": ["lang-current-grave"]},
-        {"2": ["lang-former-grave"]},
-        {"31": ["lang-reliquary"]},
-        {"32": ["lang-ampoule-reliquary"]},
-        {"33": ["lang-coffin-reliquary"]},
-        {"34": ["lang-transparent-coffin-reliquary"]},
-        {"35": ["lang-bust-reliquary"]},
-        {"36": ["lang-monstrance-reliquary"]},
-        {"37": ["lang-frame-reliquary"]},
-        {"38": ["lang-locket-reliquary"]},
-        {"61": ["lang-body-relics"]},
-        {"62": ["lang-blood-relics"]},
-        {"63": ["lang-bone-relics"]},
-        {"64": ["lang-nail-relics"]},
-        {"65": ["lang-hair-relics"]},
-        {"66": ["lang-skull-relics"]},
-        {"67": ["lang-relics-of-the-ashes"]},
-        {"100": ["lang-second-class-relics"]}
+        {"1": {
+          "en": "current grave",
+          "pl": "aktualny grób"
+        }},
+        {"2": {
+          "en": "former grave",
+          "pl": "dawny grób"
+        }},
+        {"31": {
+          "en": "reliquary",
+          "pl": "relikwiarz"
+        }},
+        {"32": {
+          "en": "ampoule reliquary",
+          "pl": "relikwiarz ampułkowy"
+        }},
+        {"33": {
+          "en": "coffin reliquary",
+          "pl": "relikwiarz trumienny"
+        }},
+        {"34": {
+          "en": "transparent coffin reliquary",
+          "pl": "przeźroczysty relikwiarz trumienny"
+        }},
+        {"35": {
+          "en": "bust reliquary",
+          "pl": "relikwiarz popiersia"
+        }},
+        {"36": {
+          "en": "monstrance reliquary",
+          "pl": "relikwiarz monstrancyjny"
+        }},
+        {"37": {
+          "en": "frame reliquary",
+          "pl": "relikwiarz ramowy"
+        }},
+        {"38": {
+          "en": "locket reliquary",
+          "pl": "relikwiarz medalionowy"
+        }},
+        {"61": {
+          "en": "body relics",
+          "pl": "relikwie ciała"
+        }},
+        {"62": {
+          "en": "blood relics",
+          "pl": "relikwie krwi"
+        }},
+        {"63": {
+          "en": "bone relics",
+          "pl": "relikwie kości"
+        }},
+        {"64": {
+          "en": "nail relics",
+          "pl": "relikwie paznokci"
+        }},
+        {"65": {
+          "en": "hair relics",
+          "pl": "relikwie włosów"
+        }},
+        {"66": {
+          "en": "skull relics",
+          "pl": "relikwie czaszki"
+        }},
+        {"67": {
+          "en": "relics of the ashes",
+          "pl": "relikwie popiołu"
+        }},
+        {"100": {
+          "en": "second class relics",
+          "pl": "relikwie drugiej klasy"
+        }}
       ]
     },
     "hint": {
