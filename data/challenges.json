@@ -730,13 +730,13 @@
 
   "EF": {
     "name": {
-      "pl": "Nabożeństwo IX Pierwszych Piątków Miesiąca"
+      "pl": "Cykl Pobożności: Nabożeństwo IX Pierwszych Piątków Miesiąca"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/nabozenstwo-ix-pierwszych-piatkow-miesiaca"
+        "pl": "pl/wyzwania/cykl-poboznosci-nabozenstwo-ix-pierwszych-piatkow-miesiaca"
       }
     },
     "numbers": true,
@@ -766,12 +766,12 @@
         "to-complete-on-selected-date": false,
         "required": false,
         "name": {
-          "pl": "wyspowiadaj się przed pierwszym piątkiem miesiąca"
+          "pl": "wyspowiadaj się przed lub w pierwszy piątek miesiąca"
         },
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/kroki/wyspowiadaj-sie-przed-pierwszym-piatkiem-miesiaca"
+            "pl": "pl/kroki/wyspowiadaj-sie-przed-lub-w-pierwszy-piatek-miesiaca"
           }
         }
       },
