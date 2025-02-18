@@ -1,5 +1,8 @@
-**UWAGA**! Poniższe wyzwanie jest **„cyklem pobożności”**<sup>1</sup>!
+**Wpisz aktualną lub historyczną datę** (jeśli pamiętasz) udziału w **Nabożeństwie IX Pierwszych Piątków Miesiąca** w powyższym polu **„Data wyzwania”**.
 
+Jedno wyzwanie dotyczy **pojedynczego udziału** i docelowo powinno być wpisane 9 razy w kolejności chronologicznej, by wypełnić cały **„cykl pobożności”**<sup>1</sup>!
+
+---
 Nabożeństwo IX Pierwszych Piątków Miesiąca związane jest z kultem **Najświętszego Serca Pana Jezusa** i zostało objawione św. Marii Magdalenie Alacoque w 1673 roku przez Jezusa Chrystusa:
 
 > Kto przez dziewięć kolejnych pierwszych piątków przystąpi do Komunii Świętej i ofiaruje ją jako wynagrodzenie za grzechy własne i rodzaju ludzkiego, temu Boże Serce zapewni miłosierdzie w chwili zgonu, że nie umrze bez Jego łaski.
