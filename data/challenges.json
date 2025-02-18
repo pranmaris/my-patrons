@@ -763,8 +763,8 @@
     },
     "checklist": {
       "confession": {
-        "to-complete-on-selected-date": true,
-        "required": true,
+        "to-complete-on-selected-date": false,
+        "required": false,
         "name": {
           "pl": "wyspowiadaj się przed lub w pierwszy piątek miesiąca"
         },
