@@ -1006,13 +1006,13 @@
 
   "ES": {
     "name": {
-      "pl": "Nabożeństwo V Pierwszych Sobót Miesiąca"
+      "pl": "Cykl Pobożności: Nabożeństwo V Pierwszych Sobót Miesiąca"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/nabozenstwo-v-pierwszych-sobot-miesiaca"
+        "pl": "pl/wyzwania/cykl-poboznosci-nabozenstwo-v-pierwszych-sobot-miesiaca"
       }
     },
     "numbers": true,
@@ -1054,12 +1054,12 @@
         "to-complete-on-selected-date": false,
         "required": false,
         "name": {
-          "pl": "wyspowiadaj się przed pierwszą sobotą miesiąca"
+          "pl": "wyspowiadaj się przed lub w pierwszą sobotę miesiąca"
         },
         "description": {
           "params": [],
           "template": {
-            "pl": "pl/kroki/wyspowiadaj-sie-przed-pierwsza-sobota-miesiaca"
+            "pl": "pl/kroki/wyspowiadaj-sie-przed-lub-w-pierwsza-sobote-miesiaca"
           }
         }
       },

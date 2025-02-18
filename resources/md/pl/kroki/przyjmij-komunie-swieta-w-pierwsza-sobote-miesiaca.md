@@ -1,4 +1,6 @@
-<span class="challenge-success-status-icon-todo"><img class="svg-image" src="/files/resources/svg/cone-striped.svg" /></span>**UWAGA!** Poniższy tekst jest jeszcze szkicem roboczym i może ulegać znaczącym zmianom!
+W pierwszą sobotę miesiąca **przyjmij godnie**<sup>1</sup> **Komunię Świętą** z intencją wynagradzającą Niepokalanemu Sercu Maryi.
 
 ---
-W pierwszą sobotę miesiąca **przyjmij Komunię Świętą** z intencją wynagradzającą Niepokalanemu Sercu Maryi.
+Przypisy:
+
+- <sup>1</sup> **Pamiętaj** o odpowiedniej postawie, o miłości i szacunku dla Jezusa oraz o tym, że **w chwili przyjęcia Komunii Świętej** musisz być **w stanie Łaski Uświęcającej**!
