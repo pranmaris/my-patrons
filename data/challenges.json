@@ -881,7 +881,7 @@
           "place": [0, 1]
         },
         "name": {
-          "pl": "miejsce Mszy lub przyjęcia Komunii Świętej"
+          "pl": "miejsce przyjęcia Komunii Świętej"
         }
       },
       "other": {
@@ -898,13 +898,13 @@
 
   "EN": {
     "name": {
-      "pl": "Listopadowe Odpusty za Zmarłych"
+      "pl": "Cykl Pobożności: VIII Listopadowych Odpustów za Zmarłych w Jednym Roku"
     },
-    "selectable": false,
+    "selectable": true,
     "description": {
       "params": [],
       "template": {
-        "pl": "pl/wyzwania/listopadowe-odpusty-za-zmarlych"
+        "pl": "pl/wyzwania/cykl-poboznosci-viii-listopadowych-odpustow-za-zmarlych-w-jednym-roku"
       }
     },
     "numbers": true,
@@ -984,9 +984,17 @@
       }
     },
     "notes": {
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce przyjęcia Komunii Świętej"
+        }
+      },
       "cemetery": {
         "type": {
-          "place": [1, 1]
+          "place": [0, 1]
         },
         "name": {
           "pl": "odwiedzony cmentarz"
@@ -1143,7 +1151,7 @@
           "place": [0, 1]
         },
         "name": {
-          "pl": "miejsce Mszy lub przyjęcia Komunii Świętej"
+          "pl": "miejsce przyjęcia Komunii Świętej"
         }
       },
       "rosary": {
