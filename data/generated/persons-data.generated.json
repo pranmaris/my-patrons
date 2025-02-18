@@ -2689,22 +2689,6 @@
             }
         }
     },
-    "patrons/eva": {
-        "names": {
-            "la": "Eva",
-            "en": "Eva",
-            "pl": "Ewa"
-        }
-    },
-    "patrons/eva/ada": {
-        "names": {
-            "la": "Eva /+ Adam",
-            "en": "Ewa /+ Adam",
-            "pl": "Ewa /+ Adam"
-        },
-        "died": [],
-        "feasts": []
-    },
     "patrons/ezechiel": {
         "names": {
             "la": "Ezechiel",
