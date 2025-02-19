@@ -1298,6 +1298,117 @@
     }
   },
 
+  "EV": {
+    "name": {
+      "pl": "Cykl Pobożności: VII Nabożeństw Drogi Krzyżowej w Jednym Roku"
+    },
+    "selectable": true,
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/cykl-poboznosci-vii-nabozenstw-drogi-krzyzowej-w-jednym-roku"
+      }
+    },
+    "numbers": true,
+    "uniqueness": [
+      ["date"]
+    ],
+    "addition-type": "",
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["B"],
+        "anybody-having-challenges-in-last-7-days": ["EV"],
+        "everybody-not-having-challenges": ["7xEV"],
+        "everybody-not-having-challenges-on-the-same-day": ["EV"],
+        "challenge-date-is-in-liturgical-seasons": ["lent"],
+        "day-of-week-having-whitelist": ["friday"]
+      }
+    },
+    "checklist": {
+      "via-crucis": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "weź udział w Nabożeństwie Drogi Krzyżowej"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wez-udzial-w-nabozenstwie-drogi-krzyzowej"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": ["row-id"],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      },
+      "all-in-a-row": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "weź udział we wszystkich 7 Nabożeństwach Drogi Krzyżowej w jednym roku"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wez-udzial-we-wszystkich-7-nabozenstwach-drogi-krzyzowej-w-jednym-roku"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina rozpoczęcia Drogi Krzyżowej"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce Drogi Krzyżowej"
+        }
+      },
+      "priest": {
+        "type": {
+          "person": [0, 0]
+        },
+        "name": {
+          "pl": "kapłani uczestniczący w Drodze Krzyżowej"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "I": {
     "name": {
       "pl": "Bóg"
