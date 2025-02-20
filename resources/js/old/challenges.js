@@ -1638,7 +1638,9 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     return true;
   }
 
-  function checkNotExistingChallengeTypes(requirements, challenges) {
+  function checkNotExistingChallengeTypes(requirements, challenges, checkDateString) {
+    const checkDate = Date.parse(checkDateString);
+
     let types = reqTypesWithDuplications = getTypesArrayWithDuplications(requirements);
     if (types.length > 0) {
       let exceededCounts = [];
@@ -1651,6 +1653,9 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
         rowId++;
         const challengeStatus = getChallengeSuccessStatus(rowId);
         if (isChallengeStatusToSkip(challengeStatus)) {
+          continue;
+        }
+        if (checkDate && Date.parse(ch.date) > checkDate) {
           continue;
         }
 
@@ -2124,7 +2129,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
           || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS] ?? [], challenges, challengeDate, 40)
           || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_100_DAYS] ?? [], challenges, challengeDate, 100)
           || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate, 0)
-          || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
+          || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges, challengeDate)
           || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
           || !checkIfAnyPersonOrAdditionPossibleForChallengeTypeRequirements(requirements, additionType, allPersonsToTakeForChallengeType, challengeDate)
           || !checkIfChallengeDayOfWeekIsOnWhitelist(requirements[REQUIREMENT_DAY_OF_WEEK_HAVING_WHITELIST] ?? [], challengeDate)
