@@ -1041,7 +1041,8 @@
         "everybody-not-having-challenges": ["8xEN"],
         "everybody-not-having-challenges-on-the-same-day": ["EN"],
         "month-having-whitelist": ["november"],
-        "day-of-month-having-maximum": 8
+        "day-of-month-having-maximum": 8,
+        "first-challenge-date-must-be-earlier-than-days-before-liturgical-season-end": ["advent:52"]
       }
     },
     "checklist": {
@@ -1318,7 +1319,8 @@
         "anybody-having-challenges-in-last-1-day": ["ET"],
         "everybody-not-having-challenges": ["3xET"],
         "everybody-not-having-challenges-on-the-same-day": ["ET"],
-        "challenge-date-is-in-liturgical-seasons": ["paschal-triduum"]
+        "challenge-date-is-in-liturgical-seasons": ["paschal-triduum"],
+        "first-challenge-date-must-be-earlier-than-days-before-liturgical-season-end": ["paschal-triduum:1"]
       }
     },
     "checklist": {
@@ -1443,7 +1445,8 @@
         "everybody-not-having-challenges": ["7xEV"],
         "everybody-not-having-challenges-on-the-same-day": ["EV"],
         "challenge-date-is-in-liturgical-seasons": ["lent"],
-        "day-of-week-having-whitelist": ["friday"]
+        "day-of-week-having-whitelist": ["friday"],
+        "first-challenge-date-must-be-earlier-than-days-before-liturgical-season-end": ["lent:42"]
       }
     },
     "checklist": {

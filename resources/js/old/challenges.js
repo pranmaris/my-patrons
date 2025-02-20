@@ -231,6 +231,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   const REQUIREMENT_MONTH_HAVING_WHITELIST = 'month-having-whitelist';
   const REQUIREMENT_CHALLENGE_DATE_IS_IN_LITURGICAL_SEASONS = 'challenge-date-is-in-liturgical-seasons';
   const REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM = 'day-of-month-having-maximum';
+  const REQUIREMENT_FIRST_CHALLENGE_DATE_MUST_BE_EARLIER_THAN_DAYS_BEFORE_LITURGICAL_SEASON_END = 'first-challenge-date-must-be-earlier-than-days-before-liturgical-season-end';
 
   const PARSE_REQUIREMENTS_SINCE_ACTIVE_DATES = {
     [REQUIREMENT_ANYBODY_HAVING_CHALLENGES]: {
@@ -752,7 +753,8 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
         additions: {
           counts: {}
         },
-        uniqs: {}
+        uniqs: {},
+        lastNumbers: {}
       };
       for (const challenge of challengesData) {
         rowId++;
@@ -781,6 +783,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     const challengeChecklist = challenge[DATA_FIELD_CHECKLIST] ?? {};
     const challengeNotes = challenge[DATA_FIELD_NOTES] ?? {};
     const challengeStatus = getChallengeSuccessStatus(rowId);
+    const challengeNumber = (contextData.lastNumbers[challengeType] ?? 0) + 1;
 
     const config = challengesConfig[challengeType] ?? null;
     if (config === null) {
@@ -1086,7 +1089,6 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
           break;
 
         case REQUIREMENT_CHALLENGE_DATE_IS_IN_LITURGICAL_SEASONS:
-          console.log(reqTypes);
           for (const liturgicalSeason of reqTypes) {
             if (!isChallengeDateInLiturgicalSeason(challengeDate, liturgicalSeason)) {
               throw {
@@ -1096,6 +1098,18 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
             }
           }
           break;
+
+        case REQUIREMENT_FIRST_CHALLENGE_DATE_MUST_BE_EARLIER_THAN_DAYS_BEFORE_LITURGICAL_SEASON_END:
+          for (const liturgicalSeasonDaysDiff of reqTypes) {
+            if (challengeNumber <= 1 && !isChallengeDateEarlierThanDaysBeforeLiturgicalSeasonEnd(challengeDate, liturgicalSeasonDaysDiff)) {
+              throw {
+                message: 'lang-challenge-parse-error-for-requirement-first-challenge-date-must-be-earlier-than-days-before-liturgical-season-end',
+                data: [liturgicalSeasonDaysDiff]
+              };
+            }
+          }
+          break;
+
 
         default:
           throw {
@@ -1185,7 +1199,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     }
 
     //for aborted challenges we would not add its data to context
-    if (challengeStatus === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+    if (isChallengeStatusToSkip(challengeStatus)) {
       return;
     }
 
@@ -1229,6 +1243,9 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       contextData.additions.counts[challengePersonWithAddition] = {};
     }
     contextData.additions.counts[challengePersonWithAddition][challengeType] = (contextData.additions.counts[challengePersonWithAddition][challengeType] ?? 0) + 1;
+
+    //challenge numer
+    contextData.lastNumbers[challengeType] = challengeNumber;
   }
 
   function getUniquenessString(challenge, uniqFields) {
@@ -1335,7 +1352,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
         rowData.number = numbers[rowData.type][rowData.personUrl];
 
         const challengeStatus = getChallengeSuccessStatus(rowData.rowId);
-        if (challengeStatus === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+        if (isChallengeStatusToSkip(challengeStatus)) {
           numbers[rowData.type][rowData.personUrl]--;
         }
       }
@@ -1449,6 +1466,10 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     return result;
   }
 
+  function isChallengeStatusToSkip(challengeStatus) {
+    return challengeStatus === CHALLENGE_SUCCESS_STATUS_ABORTED;
+  }
+
   function getWeekdayForDateString(dateString) {
     return new Date(dateString).toLocaleString('en-us', {weekday: 'long'}).toLowerCase();
   }
@@ -1538,6 +1559,27 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     return dateRangeFromNumber <= challengeDateNumber && dateRangeToNumber >= challengeDateNumber;
   }
 
+  function isChallengeDateEarlierThanDaysBeforeLiturgicalSeasonEnd(challengeDate, liturgicalSeasonDaysDiff) {
+    const liturgicalSeasonDaysDiffArray = liturgicalSeasonDaysDiff.split(':');
+
+    const liturgicalSeason = liturgicalSeasonDaysDiffArray[0] ?? null;
+    if (liturgicalSeason === null) {
+      return false;
+    }
+    const daysBeforeLiturgicalSeasonEnd = Number(liturgicalSeasonDaysDiffArray[1] ?? 0);
+
+    const year = getDateYear(challengeDate);
+    const dateRangeString = (liturgicalSeasonsData[liturgicalSeason] ?? {})[year] ?? null;
+    if (dateRangeString === null) {
+      return false;
+    }
+    const dateRangeArray = dateRangeString.split(' ');
+
+    const daysDiff = getDatesDiffInDays(dateRangeArray[1], challengeDate);
+
+    return daysDiff > daysBeforeLiturgicalSeasonEnd;
+  }
+
   function checkExistingChallengeTypesBeforeDate(challengeType, requirements, challenges, checkDateString, numberOfDaysBeforeCheckDate = null) {
     const checkDate = Date.parse(checkDateString);
 
@@ -1547,7 +1589,8 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       let rowId = 0;
       for (let ch of challenges) {
         rowId++;
-        if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+        const challengeStatus = getChallengeSuccessStatus(rowId);
+        if (isChallengeStatusToSkip(challengeStatus)) {
           continue;
         }
 
@@ -1606,7 +1649,8 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       let rowId = 0;
       for (let ch of challenges) {
         rowId++;
-        if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+        const challengeStatus = getChallengeSuccessStatus(rowId);
+        if (isChallengeStatusToSkip(challengeStatus)) {
           continue;
         }
 
@@ -1633,7 +1677,8 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
       let rowId = 0;
       for (let ch of challenges) {
         rowId++;
-        if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+        const challengeStatus = getChallengeSuccessStatus(rowId);
+        if (isChallengeStatusToSkip(challengeStatus)) {
           continue;
         }
 
@@ -1758,6 +1803,16 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     return true;
   }
 
+  function checkIfChallengeDateIsEarlierThanDaysBeforeLiturgicalSeasonEnd(liturgicalSeasonDaysDiffs, challengeDate) {
+    for (const liturgicalSeasonDaysDiff of liturgicalSeasonDaysDiffs) {
+      if (!isChallengeDateEarlierThanDaysBeforeLiturgicalSeasonEnd(challengeDate, liturgicalSeasonDaysDiff)) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+
   function getPersonDataName(personId) {
     const data = personsData[personId] ?? [];
 
@@ -1821,6 +1876,33 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     return result;
   }
 
+  function getChallengeTypeMaxNumberForDate(challengeType, checkDateString = null) {
+    let result = 0;
+    let rowId = 0;
+
+    const checkDate = null ? null : Date.parse(checkDateString);
+
+    const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
+    for (let ch of challenges) {
+      rowId++;
+
+      const challengeStatus = getChallengeSuccessStatus(rowId);
+      if (isChallengeStatusToSkip(challengeStatus)) {
+        continue;
+      }
+      if (ch.type !== challengeType) {
+        continue;
+      }
+      if (checkDate && Date.parse(ch.date) > checkDate) {
+        continue;
+      }
+
+      result++;
+    }
+
+    return result;
+  }
+
   function getPersonsHavingAllChallenges(types, checkDateString = null) {
     let result = {};
     let withAnyType = {};
@@ -1831,7 +1913,8 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
     for (let ch of challenges) {
       rowId++;
-      if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+      const challengeStatus = getChallengeSuccessStatus(rowId);
+      if (isChallengeStatusToSkip(challengeStatus)) {
         continue;
       }
       if (checkDate && Date.parse(ch.date) > checkDate) {
@@ -1865,7 +1948,8 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
     for (let ch of challenges) {
       rowId++;
-      if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+      const challengeStatus = getChallengeSuccessStatus(rowId);
+      if (isChallengeStatusToSkip(challengeStatus)) {
         continue;
       }
       if (checkDate && Date.parse(ch.date) > checkDate) {
@@ -1907,7 +1991,8 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
     for (let ch of challenges) {
       rowId++;
-      if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+      const challengeStatus = getChallengeSuccessStatus(rowId);
+      if (isChallengeStatusToSkip(challengeStatus)) {
         continue;
       }
       if (checkDate && Date.parse(ch.date) > checkDate) {
@@ -1955,7 +2040,8 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
     for (let ch of challenges) {
       rowId++;
-      if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+      const challengeStatus = getChallengeSuccessStatus(rowId);
+      if (isChallengeStatusToSkip(challengeStatus)) {
         continue;
       }
       if (checkDate && Date.parse(ch.date) > checkDate) {
@@ -2024,6 +2110,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
         const requirements = challengeConfig.person.requirements ?? {};
         const additionType = challengeConfig[CONFIG_FIELD_ADDITION_TYPE] ?? '';
         const isSelectable = challengeConfig[CONFIG_FIELD_SELECTABLE] ?? false;
+        const newChallengeNumber = getChallengeTypeMaxNumberForDate(type, challengeDate) + 1;
 
         let allPersonsToTakeForChallengeType = {};
         for (let personType of challengeConfig.person.types ?? []) {
@@ -2044,6 +2131,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
           || !checkIfChallengeMonthIsOnWhitelist(requirements[REQUIREMENT_MONTH_HAVING_WHITELIST] ?? [], challengeDate)
           || !checkIfChallengeDayOfMonthIsNotGreaterThanMaximum(requirements[REQUIREMENT_DAY_OF_MONTH_HAVING_MAXIMUM] ?? 0, challengeDate)
           || !checkIfChallengeDateIsInLiturgicalSeasons(requirements[REQUIREMENT_CHALLENGE_DATE_IS_IN_LITURGICAL_SEASONS] ?? [], challengeDate)
+          || (newChallengeNumber <= 1 && !checkIfChallengeDateIsEarlierThanDaysBeforeLiturgicalSeasonEnd(requirements[REQUIREMENT_FIRST_CHALLENGE_DATE_MUST_BE_EARLIER_THAN_DAYS_BEFORE_LITURGICAL_SEASON_END] ?? [], challengeDate))
         ) {
           continue;
         }
@@ -2939,7 +3027,8 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
     const challenges = fileData[DATA_FIELD_CHALLENGES] ?? [];
     for (const challenge of challenges) {
       rowId++;
-      if (getChallengeSuccessStatus(rowId) === CHALLENGE_SUCCESS_STATUS_ABORTED) {
+      const challengeStatus = getChallengeSuccessStatus(rowId);
+      if (isChallengeStatusToSkip(challengeStatus)) {
         continue;
       }
 

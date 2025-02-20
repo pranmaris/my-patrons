@@ -544,6 +544,11 @@
         "pl": "dzień tygodnia wyzwania nie jest na liście dozwolonych"
     },
 
+    "lang-challenge-parse-error-for-requirement-first-challenge-date-must-be-earlier-than-days-before-liturgical-season-end": {
+        "en": "date of first challenge with specified type is not earlier than number of days before liturgical season end",
+        "pl": "data pierwszego wyzwania tego typu nie jest wcześniejsza niż liczba dni przed końcem okresu liturgicznego"
+    },
+
     "lang-challenge-parse-error-for-requirement-month-having-whitelist": {
         "en": "challenge month is not on whitelist",
         "pl": "miesiąc wyzwania nie jest na liście dozwolonych"
