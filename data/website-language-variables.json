@@ -519,6 +519,11 @@
         "pl": "poprzednie wyzwanie określonego typu nie może być wcześniej niż 40 dni"
     },
 
+    "lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-100-days": {
+        "en": "previous challenge with a specific type cannot be older than 100 days",
+        "pl": "poprzednie wyzwanie określonego typu nie może być wcześniej niż 100 dni"
+    },
+
     "lang-challenge-parse-error-for-requirement-anybody-having-challenges-on-the-same-day": {
         "en": "missing type of challenge assigned to anybody on the same day",
         "pl": "brak typu wyzwania przypisanego do kogokolwiek w tym samym dniu"

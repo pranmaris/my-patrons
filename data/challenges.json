@@ -896,6 +896,121 @@
     }
   },
 
+  "EL": {
+    "name": {
+      "pl": "Cykl Pobożności: III Nabożeństwa Gorzkich Żalów w Jednym Roku"
+    },
+    "selectable": true,
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/cykl-poboznosci-iii-nabozenstwa-gorzkich-zalow-w-jednym-roku"
+      }
+    },
+    "numbers": true,
+    "uniqueness": [],
+    "addition-type": "",
+    "person": {
+      "types": ["Me"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/ja"
+        }
+      },
+      "requirements": {
+        "anybody-having-challenges": ["B"],
+        "anybody-having-challenges-in-last-100-days": ["EL"],
+        "everybody-not-having-challenges": ["3xEL"],
+        "challenge-date-is-in-liturgical-seasons": ["lent"]
+      }
+    },
+    "checklist": {
+      "bitter-lamentation": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "weź udział w odpowiedniej części Nabożeństwa Gorzkich Żalów"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wez-udzial-w-odpowiedniej-czesci-nabozenstwa-gorzkich-zalow"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": ["row-id"],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      },
+      "all-in-a-row": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "weź udział we wszystkich 3 częściach Nabożeństwa Gorzkich Żalów w odpowiedniej kolejności w jednym roku"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wez-udzial-we-wszystkich-3-czesciach-nabozenstwa-gorzkich-zalow-w-odpowiedniej-kolejnosci-w-jednym-roku"
+          }
+        }
+      }
+    },
+    "notes": {
+      "time": {
+        "type": {
+          "time": [0, 1]
+        },
+        "name": {
+          "pl": "godzina rozpoczęcia Gorzkich Żalów"
+        }
+      },
+      "place": {
+        "type": {
+          "place": [0, 1]
+        },
+        "name": {
+          "pl": "miejsce Gorzkich Żalów"
+        }
+      },
+      "celebrant": {
+        "type": {
+          "person": [0, 0]
+        },
+        "name": {
+          "pl": "celebrans Gorzkich Żalów"
+        }
+      },
+      "preacher": {
+        "type": {
+          "person": [0, 0]
+        },
+        "name": {
+          "pl": "osoba głosząca kazanie pasyjne"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "EN": {
     "name": {
       "pl": "Cykl Pobożności: VIII Listopadowych Odpustów za Zmarłych w Jednym Roku"

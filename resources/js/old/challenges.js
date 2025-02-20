@@ -215,6 +215,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
   const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_1_DAY = 'anybody-having-challenges-in-last-1-day';
   const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_7_DAYS = 'anybody-having-challenges-in-last-7-days';
   const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS = 'anybody-having-challenges-in-last-40-days';
+  const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_100_DAYS = 'anybody-having-challenges-in-last-100-days';
   const REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY = 'anybody-having-challenges-on-the-same-day';
   const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES = 'everybody-not-having-challenges';
   const REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY = 'everybody-not-having-challenges-on-the-same-day';
@@ -873,6 +874,23 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
               ) {
                 throw {
                   message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-40-days',
+                  data: [type]
+                };
+              }
+            }
+          }
+          break;
+
+        case REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_100_DAYS:
+          for (const type of reqTypes) {
+            if ((manyPersonsDatesContext[type] ?? null) === null
+              || getDatesDiffInDays(challengeDate, manyPersonsDatesContext[type]) > 100
+            ) {
+              if (!isWarningIgnoredForOldChallenges(challengeDate, type, reqName)
+                && (challengeType !== type || (manyPersonsCountsContext[type] ?? null) !== null)
+              ) {
+                throw {
+                  message: 'lang-challenge-parse-error-for-requirement-anybody-having-challenges-in-last-100-days',
                   data: [type]
                 };
               }
@@ -2017,6 +2035,7 @@ requirejs(["const", "marked"], function(uConst, libMarked) {
           || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_1_DAY] ?? [], challenges, challengeDate, 1)
           || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_7_DAYS] ?? [], challenges, challengeDate, 7)
           || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_40_DAYS] ?? [], challenges, challengeDate, 40)
+          || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_IN_LAST_100_DAYS] ?? [], challenges, challengeDate, 100)
           || !checkExistingChallengeTypesBeforeDate(type, requirements[REQUIREMENT_ANYBODY_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate, 0)
           || !checkNotExistingChallengeTypes(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES] ?? [], challenges)
           || !checkNotExistingChallengeTypesOnTheSameDay(requirements[REQUIREMENT_EVERYBODY_NOT_HAVING_CHALLENGES_ON_THE_SAME_DAY] ?? [], challenges, challengeDate)
