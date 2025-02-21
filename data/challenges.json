@@ -3193,6 +3193,98 @@
     }
   },
 
+  "TH": {
+    "name": {
+      "pl": "Rękodzieło"
+    },
+    "selectable": false,
+    "description": {
+      "params": [],
+      "template": {
+        "pl": "pl/wyzwania/rekodzielo"
+      }
+    },
+    "numbers": true,
+    "uniqueness": [
+      ["person", "notes/type"]
+    ],
+    "addition-type": "",
+    "person": {
+      "types": ["God", "Patrons"],
+      "description": {
+        "params": [],
+        "template": {
+          "pl": "pl/osoby/wyzwania-patronow-opiekunow"
+        }
+      },
+      "requirements": {
+        "god-having-needed-challenges": true,
+        "anybody-having-challenges": ["T"],
+        "person-having-challenges": ["T"]
+      }
+    },
+    "checklist": {
+      "handicraft": {
+        "to-complete-on-selected-date": true,
+        "required": true,
+        "name": {
+          "pl": "wykonaj rękodzieło"
+        },
+        "description": {
+          "params": [],
+          "template": {
+            "pl": "pl/kroki/wykonaj-rekodzielo"
+          }
+        }
+      },
+      "prayer": {
+        "to-complete-on-selected-date": false,
+        "required": true,
+        "name": {
+          "pl": "pomódl się do Patrona uwiecznionego w rękodziele"
+        },
+        "description": {
+          "params": ["person-name"],
+          "template": {
+            "pl": "pl/kroki/pomodl-sie-do-patrona"
+          }
+        }
+      },
+      "note": {
+        "to-complete-on-selected-date": false,
+        "required": false,
+        "name": {
+          "pl": "uzupełnij dowolne notatki"
+        },
+        "description": {
+          "params": ["row-id"],
+          "template": {
+            "pl": "pl/kroki/uzupelnij-dowolne-notatki"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": {
+        "type": {
+          "type-of-handicraft": [1, 1]
+        },
+        "name": {
+          "pl": "typ rękodzieła"
+        }
+      },
+      "other": {
+        "type": {
+          "description": [0, 0]
+        },
+        "name": {
+          "en": "additional information",
+          "pl": "informacje dodatkowe"
+        }
+      }
+    }
+  },
+
   "TP": {
     "name": {
       "pl": "Miejsce Świeckie"

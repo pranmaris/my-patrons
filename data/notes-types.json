@@ -265,6 +265,22 @@
     },
     "hint": {}
   },
+  "type-of-handicraft": {
+    "index": "types-of-handicraft",
+    "name": {
+      "en": "types of handicraft",
+      "pl": "typy rękodzieła"
+    },
+    "source": {
+      "list": [
+        {"1": {
+          "en": "",
+          "pl": ""
+        }}
+      ]
+    },
+    "hint": {}
+  },
   "mysteries-of-the-rosary": {
     "index": "mysteries-of-the-rosary",
     "name": {
